@@ -1,48 +1,52 @@
 # Community 383
 
-> 30 nodes · cohesion 0.13
+> 28 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **ConditionalGet** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.assertFullResponse()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.assertNotModified()** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_all_if_none_match()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_both_headers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_if_modified_since()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_if_none_match()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_1()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_2()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_5()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_6()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_unquoted_if_none_match()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_weak_if_none_match()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_all_if_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_both_headers_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_if_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_if_unmodified_since()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_invalid_etag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_8()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_single_condition_head()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_unquoted()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_weak_if_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- **.test_without_conditions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
-- *... and 5 more nodes in this community*
+- **gis/feeds.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_georss_element()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **GeoFeedMixin** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **GeoAtom1Feed** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **GeoRSSFeed** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **W3CGeoFeed** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **Rss201rev2Feed** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **Feed** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_georss_point()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.georss_coords()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_item_elements()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_root_elements()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_item_elements()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_root_elements()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_item_elements()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_root_elements()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.rss_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.rss_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_item_elements()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **BaseFeed** (1 connections)
+- **.feed_extra_kwargs()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.item_extra_kwargs()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.root_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **In GeoRSS coordinate pairs are ordered by lat/lon and separated by a single…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **This is a subclass of the `Feed` from `django.contrib.syndication`. This allows…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
+- [Community 299](Community_299.md) (3 shared connections)
+- [Community 12](Community_12.md) (3 shared connections)
+- [Community 849](Community_849.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 677](Community_677.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/conditional_processing/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
 
 ## Audit Trail
 
-- EXTRACTED: 61 (100%)
+- EXTRACTED: 55 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,60 +1,59 @@
 # Community 407
 
-> 37 nodes · cohesion 0.07
+> 26 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **ForeignKeyName** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **Expressions** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **TableColumns** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **ExpressionsTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **ForeignKeyNameTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **.setUp()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.rename_column_references()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.rename_table_references()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.references_column()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.references_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.rename_column_references()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.rename_table_references()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.references_column()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.references_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.test_references_column()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **.test_references_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **.test_rename_column_references()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **.test_rename_table_references()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **.test_references_column()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **.test_references_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- *... and 12 more nodes in this community*
+- **BasePasswordHasher** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **BasePasswordHasherTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- **.salt()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.decode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.harden_runtime()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.safe_summary()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.verify()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- **.must_update()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **Abstract base class for password hashers When creating your own hasher, you…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **Generate a cryptographically secure nonce salt in ASCII with an entropy of at…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **Check if the given password is correct.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **Create an encoded database value. The result is normally formatted as…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **Return a decoded database value. The result is a dictionary and should contain…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **Return a summary of safe values. The result is a dictionary and will be used…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **Bridge the runtime gap between the work factor supplied in `encoded` and the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.test_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- **.test_decode()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- **.test_encode()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- **.test_harden_runtime()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- **.test_load_library_importerror()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- **.test_load_library_no_algorithm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- **.test_must_update()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- **.test_safe_summary()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 341](Community_341.md) (6 shared connections)
-- [Community 43](Community_43.md) (5 shared connections)
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 173](Community_173.md) (2 shared connections)
-- [Community 415](Community_415.md) (2 shared connections)
-- [Community 597](Community_597.md) (1 shared connections)
-- [Community 502](Community_502.md) (1 shared connections)
-- [Community 680](Community_680.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 32](Community_32.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
-- [Community 379](Community_379.md) (1 shared connections)
+- [Community 235](Community_235.md) (3 shared connections)
+- [Community 577](Community_577.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 994](Community_994.md) (1 shared connections)
+- [Community 246](Community_246.md) (1 shared connections)
+- [Community 1043](Community_1043.md) (1 shared connections)
+- [Community 1047](Community_1047.md) (1 shared connections)
+- [Community 881](Community_881.md) (1 shared connections)
+- [Community 1037](Community_1037.md) (1 shared connections)
+- [Community 101](Community_101.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
 
 ## Audit Trail
 
-- EXTRACTED: 69 (93%)
-- INFERRED: 5 (7%)
+- EXTRACTED: 39 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

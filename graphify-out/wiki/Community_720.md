@@ -1,38 +1,37 @@
 # Community 720
 
-> 13 nodes · cohesion 0.22
+> 13 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **ArgumentOrder** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **._test()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_option_then_setting()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_option_then_setting_then_option()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_setting_then_option()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_setting_then_short_option()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_short_option_then_setting()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Tests for 2-stage argument parsing scheme. django-admin command arguments are…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Options passed after settings are correctly handled.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Short options passed after settings are correctly handled.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Options passed before settings are correctly handled.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Short options passed before settings are correctly handled.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Options are correctly handled when they are passed before and after a setting.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **._run_makemessages()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.assertNotMsgId()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **IgnoredExtractorTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **JavascriptExtractorTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_media_static_dirs_ignored()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_default_root_settings()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_ignore_directory()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_ignore_file_patterns()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_ignore_subdirectory()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_media_static_dirs_ignored()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_javascript_literals()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **Regression test for #23583.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **Regression test for #23717.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
 
 ## Relationships
 
-- [Community 260](Community_260.md) (2 shared connections)
-- [Community 292](Community_292.md) (1 shared connections)
-- [Community 123](Community_123.md) (1 shared connections)
-- [Community 257](Community_257.md) (1 shared connections)
-- [Community 110](Community_110.md) (1 shared connections)
+- [Community 657](Community_657.md) (4 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 625](Community_625.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
+- EXTRACTED: 30 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

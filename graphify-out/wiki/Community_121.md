@@ -1,62 +1,60 @@
 # Community 121
 
-> 52 nodes · cohesion 0.05
+> 72 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **BaseModelFormSet** (31 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **BaseInlineFormSet** (11 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **BaseGenericInlineFormSet** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/forms.py`
-- **._construct_form()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.validate_unique()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **InlineForeignKeyField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.add_fields()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.add_fields()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.get_queryset()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.initial_form_count()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.save()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.save_existing_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.initial_form_count()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.delete_existing()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **._existing_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.get_date_error_message()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.get_form_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **._get_to_python()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.get_unique_error_message()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.save_existing()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.save_new_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **BasePersonModelFormSet** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.label()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **._construct_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- *... and 27 more nodes in this community*
+- **ModelToValidate** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **validation/models.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **test_unique.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **BaseModelValidationTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **GenericIPAddressFieldTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **GenericIPAddressTestModel** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **GetUniqueCheckTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **PerformUniqueChecksTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **Article** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **ModelFormsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **TestModelsWithValidators** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_validators.py`
+- **ArticleForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **UniqueForDateModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **UniqueTogetherModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **Author** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **CustomPKModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **FlexibleDatePost** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **GenericIPAddrUnpackUniqueTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **Post** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **UniqueErrorsModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **UniqueFieldsModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **.test_unique_together_normalization()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **.test_unique_for_date_with_nullable_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **.test_invalid_generic_ip_raises_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- *... and 47 more nodes in this community*
 
 ## Relationships
 
-- [Community 16](Community_16.md) (5 shared connections)
-- [Community 50](Community_50.md) (3 shared connections)
-- [Community 432](Community_432.md) (3 shared connections)
-- [Community 72](Community_72.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 683](Community_683.md) (2 shared connections)
-- [Community 170](Community_170.md) (1 shared connections)
-- [Community 169](Community_169.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 309](Community_309.md) (1 shared connections)
-- [Community 191](Community_191.md) (1 shared connections)
+- [Community 1](Community_1.md) (16 shared connections)
+- [Community 923](Community_923.md) (5 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 6](Community_6.md) (5 shared connections)
+- [Community 5](Community_5.md) (4 shared connections)
+- [Community 63](Community_63.md) (3 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 50](Community_50.md) (1 shared connections)
+- [Community 179](Community_179.md) (1 shared connections)
+- [Community 175](Community_175.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/forms.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/test_validators.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 100 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 158 (89%)
+- INFERRED: 19 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

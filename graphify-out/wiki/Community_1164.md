@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **.test_exception_following_nested_client_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **A nested test client request shouldn't clobber exception signals from the outer…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_related_object_cached_when_reverse_is_accessed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- **Regression for #13839 and #17439. The origin of a one-to-one relation is cached…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
 
 ## Relationships
 
-- [Community 551](Community_551.md) (1 shared connections)
+- [Community 380](Community_380.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
 
 ## Audit Trail
 

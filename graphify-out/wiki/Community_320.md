@@ -1,62 +1,51 @@
 # Community 320
 
-> 37 nodes · cohesion 0.11
+> 34 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **validation/models.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **validation/tests.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **GenericIPAddressFieldTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **GenericIPAddressTestModel** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **ValidationAssertions** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/__init__.py`
-- **Article** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **ModelFormsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **test_custom_messages.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
-- **validation/test_validators.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_validators.py`
-- **validation/__init__.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/__init__.py`
-- **CustomMessagesTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
-- **ArticleForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **CustomMessagesModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **Author** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **GenericIPAddrUnpackUniqueTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **.test_invalid_generic_ip_raises_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_v4_unpack_uniqueness_detection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_validation_with_empty_blank_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_validation_with_invalid_blank_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **AuthorManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **validate_answer_to_universe()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **.test_custom_null_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
-- **.test_custom_simple_validator_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
-- **.test_correct_generic_ip_passes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- **.test_correct_v4_ip_passes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
-- *... and 12 more nodes in this community*
+- **AdminFormfieldForDBFieldTests** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.assertFormfield()** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_formfield_overrides_for_custom_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_formfield_overrides_m2m_filter_widget()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_formfield_overrides_widget_instances()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_m2m_widgets()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_CharField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_choices_with_radio_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_DateField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_DateTimeField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_EmailField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_field_with_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_FileField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_filtered_many_to_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_ForeignKey()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_formfield_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_formfield_overrides_for_datetime_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_IntegerField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_many_to_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_radio_fields_ForeignKey()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_raw_id_ForeignKey()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_raw_id_many_to_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_TextField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_TimeField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 367](Community_367.md) (14 shared connections)
-- [Community 1](Community_1.md) (6 shared connections)
-- [Community 72](Community_72.md) (5 shared connections)
-- [Community 746](Community_746.md) (4 shared connections)
-- [Community 52](Community_52.md) (3 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 178](Community_178.md) (2 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 107](Community_107.md) (1 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
+- [Community 52](Community_52.md) (8 shared connections)
+- [Community 232](Community_232.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/validation/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
-- `raw/code/hyd-evaluation/django-django/tests/validation/test_validators.py`
-- `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/widgetadmin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 105 (93%)
-- INFERRED: 8 (7%)
+- EXTRACTED: 56 (88%)
+- INFERRED: 8 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

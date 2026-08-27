@@ -1,40 +1,38 @@
 # Community 634
 
-> 16 nodes · cohesion 0.12
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **CharFieldTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- **.test_charfield_length_not_int()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- **.test_charfield_strip()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- **.test_clean_non_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- **.test_strip_before_checking_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- **.test_charfield_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- **.test_charfield_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- **.test_charfield_3()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- **.test_charfield_4()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- **.test_charfield_5()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- **.test_charfield_disabled()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- **.test_null_characters_prohibited()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- **Values have whitespace stripped but not if strip=False.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- **A whitespace-only value, ' ', is stripped to an empty string and then converted…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- **CharField.clean() calls str(value) before stripping it.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- **Setting min_length or max_length to something that is not a number raises an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
+- **GeometryCollection** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.add()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.__len__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.point_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **MultiLineString** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **MultiPoint** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **MultiPolygon** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **The Geometry Collection class.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Get the Geometry at the specified index.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Return the number of geometries in this Geometry Collection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Add the geometry to this Geometry Collection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Return the number of Points in this Geometry Collection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Return a tuple representation of this Geometry Collection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
 
 ## Relationships
 
-- [Community 72](Community_72.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 50](Community_50.md) (1 shared connections)
+- [Community 105](Community_105.md) (6 shared connections)
+- [Community 32](Community_32.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 22 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

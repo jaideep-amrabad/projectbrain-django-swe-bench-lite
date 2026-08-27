@@ -1,40 +1,49 @@
 # Community 590
 
-> 16 nodes · cohesion 0.12
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **StaticTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_chunked()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_index_custom_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_invalid_if_modified_since()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_invalid_if_modified_since2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **Tests django views in django/views/static.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **The static view should stream files in chunks to avoid large memory usage** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **Handle bogus If-Modified-Since values gracefully Assume that a file is modified…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **Handle even more bogus If-Modified-Since values gracefully Assume that a file…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_404()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_copes_with_empty_path_component()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_index()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_index_subdir()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_is_modified_since()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_not_modified_since()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_unknown_mime_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **AuthViewsTestCase** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **LogoutThenLoginTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **LoginSuccessURLAllowedHostsTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **AuthViewNamedURLTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_named_urls()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **SessionAuthenticationTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_user_password_change_updates_session()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.logout()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_success_url_allowed_hosts_safe_host()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_success_url_allowed_hosts_same_host()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_success_url_allowed_hosts_unsafe_host()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.confirm_logged_out()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **Helper base class for all the follow test cases.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **#21649 - Ensure contrib.auth.views.password_change updates the user's session…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **Named URLs should be reversible** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **Tests for the logout_then_login view** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Relationships
 
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 138](Community_138.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
+- [Community 8](Community_8.md) (5 shared connections)
+- [Community 71](Community_71.md) (5 shared connections)
+- [Community 345](Community_345.md) (5 shared connections)
+- [Community 15](Community_15.md) (2 shared connections)
+- [Community 680](Community_680.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 940](Community_940.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 819](Community_819.md) (1 shared connections)
+- [Community 649](Community_649.md) (1 shared connections)
+- [Community 780](Community_780.md) (1 shared connections)
+- [Community 271](Community_271.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (100%)
+- EXTRACTED: 42 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,53 +1,60 @@
 # Community 399
 
-> 23 nodes · cohesion 0.12
+> 27 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **RelatedLookupTypeTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **ObjectA** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **ObjectB** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **ObjectC** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **ValuesJoinPromotionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **ProxyObjectA** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **ProxyObjectB** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **ChildObjectA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.setUpTestData()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **A ValueError is raised when the incorrect object type is passed to a query…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_correct_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_values_queryset_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_wrong_backward_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_wrong_type_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **When passing proxy model objects, child objects, or parent objects, lookups…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **#23396 - Ensure ValueQuerySets are not checked for compatibility with the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_non_nullable_fk_not_promoted()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_values_no_promotion_for_existing()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **SimpleTemplateResponse** (29 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.resolve_template()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.content()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.rendered_content()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.__getstate__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.test_post_callbacks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.add_post_render_callback()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.is_rendered()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.resolve_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **._response()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_headers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_pickling()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_pickling_cookie()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_repickling()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **setter** (1 connections)
+- **Set the content for the response.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **Raise an exception if trying to pickle an unrendered response. Pickle only…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **Accept a template object, path-to-template, or list of paths.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **Return the freshly rendered content for the template and context described by…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **Add a new post-rendering callback. If the response has already been rendered,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Community 15](Community_15.md) (15 shared connections)
-- [Community 54](Community_54.md) (5 shared connections)
-- [Community 273](Community_273.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 67](Community_67.md) (1 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
-- [Community 1013](Community_1013.md) (1 shared connections)
-- [Community 336](Community_336.md) (1 shared connections)
+- [Community 506](Community_506.md) (9 shared connections)
+- [Community 225](Community_225.md) (6 shared connections)
+- [Community 597](Community_597.md) (2 shared connections)
+- [Community 54](Community_54.md) (1 shared connections)
+- [Community 815](Community_815.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 347](Community_347.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 313](Community_313.md) (1 shared connections)
+- [Community 88](Community_88.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (72%)
-- INFERRED: 16 (28%)
+- EXTRACTED: 53 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

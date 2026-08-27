@@ -1,60 +1,49 @@
 # Community 396
 
-> 29 nodes · cohesion 0.10
+> 14 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **fixtures/tests.py** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **fixtures/models.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Category** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **NaturalKeyThing** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Person** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **ProxySpy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Spy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Tag** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **CircularA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **CircularB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Visa** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Book** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **PrimaryKeyUUIDModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Blog** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **NaturalKeyManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- *... and 4 more nodes in this community*
+- **fields/array.py** (37 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **AttributeSetter** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/utils.py`
+- **ArrayRHSMixin** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **ArrayExact** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **ArrayInLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **ArrayContainedBy** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **ArrayContains** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **ArrayOverlap** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **fields/utils.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/utils.py`
+- **.value_to_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **.value_to_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **.get_prep_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **.process_rhs()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/utils.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (7 shared connections)
-- [Community 347](Community_347.md) (7 shared connections)
-- [Community 469](Community_469.md) (7 shared connections)
-- [Community 873](Community_873.md) (5 shared connections)
-- [Community 52](Community_52.md) (2 shared connections)
-- [Community 132](Community_132.md) (2 shared connections)
-- [Community 1034](Community_1034.md) (2 shared connections)
-- [Community 37](Community_37.md) (2 shared connections)
-- [Community 106](Community_106.md) (2 shared connections)
-- [Community 138](Community_138.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 403](Community_403.md) (1 shared connections)
+- [Community 172](Community_172.md) (5 shared connections)
+- [Community 90](Community_90.md) (5 shared connections)
+- [Community 173](Community_173.md) (5 shared connections)
+- [Community 95](Community_95.md) (5 shared connections)
+- [Community 117](Community_117.md) (4 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 212](Community_212.md) (3 shared connections)
+- [Community 274](Community_274.md) (2 shared connections)
+- [Community 40](Community_40.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 524](Community_524.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 81 (89%)
-- INFERRED: 10 (11%)
+- EXTRACTED: 59 (97%)
+- INFERRED: 2 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

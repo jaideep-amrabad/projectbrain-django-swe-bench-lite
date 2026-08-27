@@ -1,27 +1,31 @@
 # Community 1124
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **LinkInline** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **Link** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.multiline()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **BooleanFieldListFilter** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **CustomTemplateBooleanFieldListFilter** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.expected_parameters()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
 
 ## Relationships
 
-- [Community 70](Community_70.md) (2 shared connections)
-- [Community 102](Community_102.md) (1 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 78](Community_78.md) (2 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
+- [Community 47](Community_47.md) (1 shared connections)
+- [Community 34](Community_34.md) (1 shared connections)
 
 ## Source Files
 
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (80%)
-- INFERRED: 1 (20%)
+- EXTRACTED: 11 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

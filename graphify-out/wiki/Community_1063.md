@@ -1,29 +1,32 @@
 # Community 1063
 
-> 4 nodes · cohesion 0.50
+> 6 nodes · cohesion 0.47
 
 ## Key Concepts
 
-- **AtomicMergeTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_merged_inner_savepoint_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_merged_outer_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **Test merging transactions with savepoint=False.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **timesince_filter()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_explicit_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_no_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_since_now()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **Format a date as the time since that date (i.e. "4 days, 6 hours").** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 
 ## Relationships
 
-- [Community 21](Community_21.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 703](Community_703.md) (1 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 312](Community_312.md) (1 shared connections)
+- [Community 236](Community_236.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (86%)
-- INFERRED: 1 (14%)
+- EXTRACTED: 13 (93%)
+- INFERRED: 1 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

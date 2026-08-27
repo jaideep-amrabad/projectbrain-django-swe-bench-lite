@@ -4,25 +4,28 @@
 
 ## Key Concepts
 
-- **DataUploadMaxNumberOfFieldsMultipartPost** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
-- **.test_no_limit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
-- **.test_number_exceeded()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
-- **.test_number_not_exceeded()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
+- **EmptyQuerySet** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.test_emptyqs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Marker class to checking if a queryset is empty by .none():…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Relationships
 
-- [Community 100](Community_100.md) (2 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 565](Community_565.md) (2 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 92](Community_92.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 723](Community_723.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (86%)
-- INFERRED: 1 (14%)
+- EXTRACTED: 7 (78%)
+- INFERRED: 2 (22%)
 - AMBIGUOUS: 0 (0%)
 
 ---

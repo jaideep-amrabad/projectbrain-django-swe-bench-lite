@@ -1,42 +1,45 @@
 # Community 527
 
-> 21 nodes · cohesion 0.12
+> 20 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **TrackCallsYearTransform** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **SQLFuncFactory** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **SQLFuncMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **CustomField** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **SQLFuncLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **SQLFuncTransform** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **YearTransform** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.get_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.get_transform()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.__call__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.output_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.get_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.get_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.output_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.output_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **JsonlSerializerTestCase** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **.test_custom_encoder()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **.test_helpful_error_message_for_foreign_keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **.test_helpful_error_message_for_many2many_natural1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **.test_helpful_error_message_for_many2many_natural2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **.test_helpful_error_message_for_many2many_non_natural()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **.test_helpful_error_message_for_many2many_not_iterable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **.test_helpful_error_message_invalid_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **.test_helpful_error_message_invalid_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **._get_field_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **._get_pk_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **.test_json_deserializer_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **._validate_output()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **Invalid foreign keys with a natural key throws a helpful error message, such as…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **Invalid many-to-many keys throws a helpful error message.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **Invalid many-to-many keys throws a helpful error message where one of a list of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **Invalid many-to-many keys throws a helpful error message where a natural many-…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **Not iterable many-to-many field value throws a helpful error message.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **If there is an invalid primary key, the error message contains the model…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **If there is an invalid field value, the error message contains the model…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
 
 ## Relationships
 
-- [Community 180](Community_180.md) (7 shared connections)
+- [Community 36](Community_36.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 315](Community_315.md) (1 shared connections)
+- [Community 953](Community_953.md) (1 shared connections)
+- [Community 74](Community_74.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (100%)
+- EXTRACTED: 24 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

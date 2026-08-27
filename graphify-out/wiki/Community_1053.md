@@ -1,28 +1,28 @@
 # Community 1053
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **DataUploadMaxNumberOfFieldsFormPost** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
-- **.test_no_limit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
-- **.test_number_exceeded()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
-- **.test_number_not_exceeded()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
+- **.test_csrf_enabled_client()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **Client** (3 connections)
+- **.test_exc_info()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **CustomTestClient** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **A client can be instantiated with CSRF checks enabled** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 100](Community_100.md) (2 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 528](Community_528.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (86%)
-- INFERRED: 1 (14%)
+- EXTRACTED: 7 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

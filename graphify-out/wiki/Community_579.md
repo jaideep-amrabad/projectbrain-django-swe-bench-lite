@@ -1,45 +1,46 @@
 # Community 579
 
-> 18 nodes · cohesion 0.15
+> 17 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **FSFilesHandler** (11 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **_MediaFilesHandler** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.serve()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **_StaticFilesHandler** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.__call__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **._should_handle()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.file_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.get_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.get_base_dir()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.get_base_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **WSGI middleware that intercepts calls to a directory, as defined by one of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Check if the path should be handled. Ignore the path if: * the host is provided…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Return the relative path to the file on disk for the given URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Handler for serving static files. A private class that is meant to be used…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Handler for serving the media files. A private class that is meant to be used…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.get_base_dir()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.get_base_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **pgraster.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/pgraster.py`
+- **from_pgraster()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/pgraster.py`
+- **to_pgraster()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/pgraster.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- **.parse_raster()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **chunk()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/pgraster.py`
+- **pack()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/pgraster.py`
+- **unpack()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/pgraster.py`
+- **postgis/const.py** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/const.py`
+- **Initialize on the spatial object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- **PostGIS to GDAL conversion constant definitions** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/const.py`
+- **Convert a PostGIS HEX String into a dict readable by GDALRaster.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **Pack data into hex string with little endian format.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/pgraster.py`
+- **Unpack little endian hexlified binary string into a list.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/pgraster.py`
+- **Split a string into two parts at the input index.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/pgraster.py`
+- **Convert a PostGIS HEX String into a dictionary.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/pgraster.py`
+- **Convert a GDALRaster into PostGIS Raster format.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/pgraster.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 150](Community_150.md) (2 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 655](Community_655.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 558](Community_558.md) (1 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 30](Community_30.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 766](Community_766.md) (1 shared connections)
+- [Community 304](Community_304.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/const.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/pgraster.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 28 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

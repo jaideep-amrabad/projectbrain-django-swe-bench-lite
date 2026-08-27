@@ -1,45 +1,37 @@
 # Community 706
 
-> 19 nodes · cohesion 0.19
+> 13 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **patch** (25 connections)
-- **TestChildArguments** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **StartDjangoTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **dict** (6 connections)
-- **RunWithReloaderTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_calls_start_django()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_calls_sys_exit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_swallows_keyboard_interrupt()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_run_as_module()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_run_as_non_django_module()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_check_errors_called()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_echo_on_called()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_starts_thread_with_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_watchman_becomes_unavailable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_entrypoint_fallback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_exe_fallback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_raises_runtimeerror()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_warnoptions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_setting_timeout_from_environment_variable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **Loader** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
+- **.get_template()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
+- **.cache_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
+- **.generate_hash()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
+- **.reset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
+- **.get_contents()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
+- **.get_dirs()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
+- **.get_template_sources()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
+- **BaseLoader** (1 connections)
+- **Perform the caching that gives this loader its name. Often many of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
+- **Generate a cache key for the template name and skip. If skip is provided, only…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
+- **Empty the template cache.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
 
 ## Relationships
 
-- [Community 295](Community_295.md) (8 shared connections)
-- [Community 671](Community_671.md) (5 shared connections)
-- [Community 360](Community_360.md) (3 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 744](Community_744.md) (1 shared connections)
+- [Community 88](Community_88.md) (2 shared connections)
+- [Community 738](Community_738.md) (1 shared connections)
+- [Community 248](Community_248.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
 
 ## Audit Trail
 
-- EXTRACTED: 51 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 16 (89%)
+- INFERRED: 2 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

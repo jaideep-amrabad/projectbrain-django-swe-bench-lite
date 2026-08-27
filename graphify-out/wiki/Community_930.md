@@ -1,30 +1,38 @@
 # Community 930
 
-> 7 nodes · cohesion 0.29
+> 12 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **TestCreateSuperUserSignals** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **Simple test case for ticket #20541** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.post_save_listener()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_create_superuser()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_create_user()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **AutocompleteJsonView** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
+- **.get()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
+- **.process_request()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
+- **.get_queryset()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
+- **.has_perm()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
+- **.get_paginator()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
+- **Check if user has permission to access the related model.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
+- **Return a JsonResponse with search results of the form: { results: [{id: "123"…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
+- **Use the ModelAdmin's paginator.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
+- **Return queryset based on ModelAdmin.get_search_results().** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
+- **Validate request integrity, extract and return request parameters. Since the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
+- **Handle AutocompleteWidget's AJAX requests for data.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
 
 ## Relationships
 
-- [Community 52](Community_52.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 4](Community_4.md) (4 shared connections)
+- [Community 309](Community_309.md) (1 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
+- [Community 375](Community_375.md) (1 shared connections)
+- [Community 129](Community_129.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 20 (91%)
+- INFERRED: 2 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,49 +1,49 @@
 # Community 477
 
-> 24 nodes · cohesion 0.18
+> 22 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **unmanaged_models/models.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
-- **unmanaged_models/tests.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
-- **Meta** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
-- **SimpleTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
-- **ManyToManyUnmanagedTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
-- **A01** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
-- **A02** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
-- **B01** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
-- **B02** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
-- **C01** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
-- **C02** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
-- **Unmanaged2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
-- **Managed1** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
-- **Intermediate** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
-- **Proxy1** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
-- **Proxy2** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
-- **Unmanaged1** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
-- **.test_many_to_many_between_unmanaged()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
-- **.test_many_to_many_between_unmanaged_and_managed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
-- **.test_simple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
-- **Models can have a ``managed`` attribute, which specifies whether the SQL code…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
-- **The main test here is that the all the models can be created without any…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
-- **The intermediary table between two unmanaged models should not be created.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
-- **An intermediary table between a managed and an unmanaged model should be…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
+- **BaseStorage** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.update()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.add()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **._get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **._get_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **._loaded_messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **._prepare_messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **._store()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **._set_level()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Prepare a list of messages for storage.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Store all unread messages. If the backend has yet to be iterated, store…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Queue a message to be stored. The message is only queued if it contained…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Return the minimum recorded level. The default level is the ``MESSAGE_LEVEL``…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Set a custom minimum recorded level. If set to ``None``, the default level will…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **This is the base backend for temporary message storage. This is not a complete…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Return a list of loaded messages, retrieving them first if they have not been…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Retrieve a list of stored messages. Return a tuple of the messages and a flag…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Store a list of messages and return a list of any messages which could not be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 101](Community_101.md) (4 shared connections)
+- [Community 669](Community_669.md) (1 shared connections)
+- [Community 926](Community_926.md) (1 shared connections)
+- [Community 843](Community_843.md) (1 shared connections)
+- [Community 845](Community_845.md) (1 shared connections)
+- [Community 694](Community_694.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (86%)
-- INFERRED: 8 (14%)
+- EXTRACTED: 32 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

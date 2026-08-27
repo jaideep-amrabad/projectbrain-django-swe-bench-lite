@@ -1,23 +1,26 @@
 # Community 1730
 
-> 2 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.page_range()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **Return a 1-based range of pages for iterating through within a template for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **_urlparse()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- **_urlsplit()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- **Parse a URL into 6 components:…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- **Parse a URL into 5 components: <scheme>://<netloc>/<path>?<query>#<fragment>…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
 
 ## Relationships
 
-- [Community 325](Community_325.md) (1 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 985](Community_985.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/http.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

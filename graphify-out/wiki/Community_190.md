@@ -1,57 +1,61 @@
 # Community 190
 
-> 55 nodes · cohesion 0.05
+> 27 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **InspectDBTestCase** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **inspectdb/tests.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **inspectdb/models.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
-- **inspectdb_tables_only()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **InspectDBTransactionalTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **skipUnless** (6 connections)
-- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
-- **.make_field_type_asserter()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **.test_include_materialized_views()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **.test_include_partitions()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **.test_attribute_name_not_python_keyword()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **.test_char_field_db_collation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **.test_custom_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **.test_special_column_name_introspection()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **.test_table_name_introspection()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **.test_text_field_db_collation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **.test_unsupported_unique_together()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **.test_foreign_data_wrapper()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **.test_include_views()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **PeopleMoreData** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
-- **inspectdb_views_only()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **.test_digits_column_name_introspection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **.test_field_types()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **.test_introspection_errors()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **.test_json_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- *... and 30 more nodes in this community*
+- **DeferredAttribute** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **field_subclassing/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
+- **FileDescriptor** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **field_subclassing/fields.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
+- **CustomDeferredAttribute** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
+- **CustomTypedField** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
+- **ImageFileDescriptor** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **CustomDescriptorField** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
+- **DescriptorClassTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
+- **TestDbType** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
+- **._check_parent_chain()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **.__get__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **._count_call()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
+- **.test_db_parameters_respects_db_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
+- **.__get__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
+- **.__set__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
+- **.test_descriptor_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
+- **.__get__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__set__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__set__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **The descriptor for the file attribute on the model instance. Return a FieldFile…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **Just like the FileDescriptor, but for ImageFields. The only difference is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **A wrapper for a deferred-loading field. When the value is read from this object…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **Retrieve and caches the value from the datastore on the first lookup. Return…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Community 8](Community_8.md) (20 shared connections)
-- [Community 21](Community_21.md) (6 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 20](Community_20.md) (2 shared connections)
-- [Community 138](Community_138.md) (1 shared connections)
-- [Community 154](Community_154.md) (1 shared connections)
-- [Community 88](Community_88.md) (1 shared connections)
+- [Community 5](Community_5.md) (5 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 56](Community_56.md) (2 shared connections)
+- [Community 75](Community_75.md) (2 shared connections)
+- [Community 770](Community_770.md) (2 shared connections)
+- [Community 350](Community_350.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 120](Community_120.md) (1 shared connections)
+- [Community 103](Community_103.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 104 (92%)
-- INFERRED: 9 (8%)
+- EXTRACTED: 54 (90%)
+- INFERRED: 6 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,30 +1,32 @@
 # Community 960
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **TestRouter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/routers.py`
-- **migrations/routers.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/routers.py`
-- **DefaultOtherRouter** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/routers.py`
-- **.allow_migrate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/routers.py`
-- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/routers.py`
-- **The Tribble model should be the only one to appear in the 'other' db.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/routers.py`
+- **AtomicMiscTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_atomic_does_not_leak_savepoints_on_failure()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_wrap_callable_instance()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_mark_for_rollback_on_error_in_autocommit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_mark_for_rollback_on_error_in_transaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **#20028 -- Atomic must support wrapping callable instances.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **#23074 -- Savepoints must be released after rollback.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 222](Community_222.md) (1 shared connections)
+- [Community 36](Community_36.md) (2 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 70](Community_70.md) (1 shared connections)
+- [Community 376](Community_376.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/routers.py`
+- `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (78%)
-- INFERRED: 2 (22%)
+- EXTRACTED: 9 (82%)
+- INFERRED: 2 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

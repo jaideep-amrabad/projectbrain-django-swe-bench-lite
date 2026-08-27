@@ -1,23 +1,26 @@
 # Community 1729
 
-> 2 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.num_pages()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **Return the total number of pages.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **_is_relevant_relation()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **_related_non_m2m_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **_all_related_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **When altering the given field, must constraints on its model from the given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
 
 ## Relationships
 
-- [Community 325](Community_325.md) (1 shared connections)
+- [Community 660](Community_660.md) (3 shared connections)
+- [Community 296](Community_296.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

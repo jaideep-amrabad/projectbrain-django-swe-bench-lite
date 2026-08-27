@@ -1,49 +1,53 @@
 # Community 312
 
-> 37 nodes · cohesion 0.10
+> 29 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **inclusion.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_tag** (24 connections)
-- **Expected inclusion_no_params __doc__** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **Expected inclusion_unlimited_args __doc__** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_explicit_no_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_explicit_no_context_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_no_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_no_params_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_no_params_with_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_no_params_with_context_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_one_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_one_default_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_one_param()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_one_param_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_only_unlimited_args()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_only_unlimited_args_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_params_and_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_params_and_context_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_tag_use_l10n()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_tag_without_context_parameter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_two_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_two_params_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_unlimited_args()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_unlimited_args_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- **inclusion_unlimited_args_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
-- *... and 12 more nodes in this community*
+- **timesince()** (24 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
+- **TimesinceTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **timeuntil()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
+- **.test_different_timezones()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_date_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_both_date_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_depth()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_display_first_unit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_display_second_before_first()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_ignore_microseconds_and_seconds()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_leap_year()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_leap_year_new_years_eve()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_naive_datetime_with_tzinfo_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_second_before_equal_first_humanize_time_strings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_thousand_years_ago()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_depth_invalid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_equal_datetimes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_multiple_units()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **.test_other_units()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **Take two datetime objects and return the time between d and now as a nicely…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
+- **Like timesince, but return a string measuring the time until the given time.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
+- **requires_tz_support** (1 connections)
+- **Both timesince and timeuntil should work on date objects (#17937).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **Timesince should work with both date objects (#9672)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- **Microseconds and seconds are ignored.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
+- [Community 12](Community_12.md) (6 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
 - [Community 1](Community_1.md) (2 shared connections)
-- [Community 70](Community_70.md) (1 shared connections)
-- [Community 368](Community_368.md) (1 shared connections)
+- [Community 1063](Community_1063.md) (1 shared connections)
+- [Community 977](Community_977.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timesince.py`
 
 ## Audit Trail
 
-- EXTRACTED: 73 (100%)
+- EXTRACTED: 64 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,25 +1,23 @@
 # Community 1127
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **DatabaseSequenceTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_introspection.py`
-- **.test_get_sequences()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_introspection.py`
-- **skipUnless** (1 connections)
+- **.test_default_used_when_none_is_set()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **If None is cached, get() returns it instead of the default.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
+- [Community 278](Community_278.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_introspection.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

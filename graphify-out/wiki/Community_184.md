@@ -1,56 +1,56 @@
 # Community 184
 
-> 43 nodes · cohesion 0.07
+> 55 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **UniqueConstraintTests** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **constraints/tests.py** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **constraints/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **Meta** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **UniqueConstraintProduct** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **UniqueConstraintConditionProduct** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **ChildModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **Product** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **UniqueConstraintDeferrable** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **UniqueConstraintInclude** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **.test_model_validation_with_condition()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **AbstractModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_database_constraint_with_condition()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_include_database_constraint()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_initially_deferred_database_constraint()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_initially_immediate_database_constraint()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_model_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **Partial unique constraints are ignored by Model.validate_unique().** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_condition_must_be_q()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_database_constraint()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_deconstruction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_deconstruction_with_condition()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_deconstruction_with_deferrable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_deconstruction_with_include()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- *... and 18 more nodes in this community*
+- **TestFixtures** (44 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_loaddata_forward_refs_split_fixtures()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_fixture_dirs_with_default_fixture_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_fixture_dirs_with_duplicates()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_loaddata_works_when_fixture_has_forward_refs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_pretty_print_xml()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_pretty_print_xml_empty_strings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_relative_path_in_fixture_dirs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_unimportable_serializer()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **Regression test for ticket #4558 -- pretty printing of XML fixtures doesn't…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **Test for ticket #4371 -- Loading a fixture file with invalid data using…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_absolute_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_close_connection_after_loaddata()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_field_value_coerce()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_fixtures_dir_pathlib()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_invalid_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_invalid_data_no_ext()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_loaddata_no_fixture_specified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_loaddata_not_found_fields_ignore()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_loaddata_not_found_fields_ignore_xml()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_loaddata_not_found_fields_not_ignore()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_loaddata_raises_error_when_fixture_has_invalid_foreign_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_loaddata_with_m2m_to_self()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- *... and 30 more nodes in this community*
 
 ## Relationships
 
-- [Community 21](Community_21.md) (11 shared connections)
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 196](Community_196.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 72](Community_72.md) (1 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
-- [Community 32](Community_32.md) (1 shared connections)
+- [Community 8](Community_8.md) (7 shared connections)
+- [Community 591](Community_591.md) (4 shared connections)
+- [Community 989](Community_989.md) (3 shared connections)
+- [Community 70](Community_70.md) (3 shared connections)
+- [Community 339](Community_339.md) (2 shared connections)
+- [Community 1033](Community_1033.md) (2 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 1076](Community_1076.md) (1 shared connections)
+- [Community 31](Community_31.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 81 (93%)
-- INFERRED: 6 (7%)
+- EXTRACTED: 72 (89%)
+- INFERRED: 9 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

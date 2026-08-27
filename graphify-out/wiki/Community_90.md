@@ -1,60 +1,63 @@
 # Community 90
 
-> 97 nodes · cohesion 0.05
+> 61 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **SchemaTests** (43 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **postgres_tests/test_indexes.py** (42 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **.get_constraints()** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **postgres/indexes.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **GinIndex** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **BloomIndex** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **BrinIndex** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **GistIndex** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **BTreeIndex** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **PostgresIndex** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **OpClass** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **IndexTestMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **HashIndex** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **SpGistIndex** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **BloomIndexTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **.__init__()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **.deconstruct()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **BrinIndexTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **BTreeIndexTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **GinIndexTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **GistIndexTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **HashIndexTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **.test_op_class_descending_collation()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **.test_op_class_descending_partial()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **.test_op_class_descending_partial_tablespace()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- *... and 72 more nodes in this community*
+- **fields/ranges.py** (33 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **PostgresOperatorLookup** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **postgres/lookups.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **RangeField** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **SearchVectorField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **DateTimeRangeContains** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **RangeBoundary** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **RangeContainedBy** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **HasKeys** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **AdjacentToLookup** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **BigIntegerRangeField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **DateRangeField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **DateTimeRangeField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **DecimalRangeField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **FullGreaterThan** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **FullyLessThan** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **IntegerRangeField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **NotGreaterThan** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **NotLessThan** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **RangeEndsWith** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **RangeStartsWith** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **ContainedBy** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **DataContains** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.process_rhs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **IsEmpty** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- *... and 36 more nodes in this community*
 
 ## Relationships
 
-- [Community 37](Community_37.md) (13 shared connections)
-- [Community 2](Community_2.md) (12 shared connections)
-- [Community 71](Community_71.md) (6 shared connections)
-- [Community 93](Community_93.md) (5 shared connections)
-- [Community 496](Community_496.md) (5 shared connections)
-- [Community 54](Community_54.md) (5 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 860](Community_860.md) (4 shared connections)
-- [Community 192](Community_192.md) (4 shared connections)
-- [Community 379](Community_379.md) (3 shared connections)
-- [Community 152](Community_152.md) (3 shared connections)
-- [Community 137](Community_137.md) (3 shared connections)
+- [Community 95](Community_95.md) (12 shared connections)
+- [Community 553](Community_553.md) (6 shared connections)
+- [Community 197](Community_197.md) (6 shared connections)
+- [Community 396](Community_396.md) (5 shared connections)
+- [Community 5](Community_5.md) (5 shared connections)
+- [Community 172](Community_172.md) (5 shared connections)
+- [Community 117](Community_117.md) (3 shared connections)
+- [Community 249](Community_249.md) (3 shared connections)
+- [Community 463](Community_463.md) (2 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 97](Community_97.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
 
 ## Audit Trail
 
-- EXTRACTED: 262 (89%)
-- INFERRED: 31 (11%)
+- EXTRACTED: 129 (97%)
+- INFERRED: 4 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

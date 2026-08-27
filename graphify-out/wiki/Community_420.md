@@ -1,54 +1,48 @@
 # Community 420
 
-> 27 nodes · cohesion 0.10
+> 26 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **admin_registration/tests.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **TestRegistration** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **admin_registration/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
-- **Location** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
-- **Person** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
-- **Place** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
-- **Traveler** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
-- **CustomSite** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.test_abstract_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.test_is_registered_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.test_is_registered_not_registered_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
-- **Tests for various ways of registering models with the admin site.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
-- **NameAdmin** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **Exception is raised when trying to register an abstract model. Refs #12004.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **Checks for registered models should return true.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **Checks for unregistered models should return false.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.test_bare_registration()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.test_iterable_registration()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.test_prevent_double_registration()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.test_prevent_double_registration_for_custom_admin()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.test_registration_with_model_admin()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.test_registration_with_star_star_options()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- *... and 2 more nodes in this community*
+- **IfChangedTagTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **setup** (18 connections)
+- **.test_ifchanged_else01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **.test_ifchanged_filter_ws()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **.test_ifchanged_param01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **.test_ifchanged_param03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **.test_ifchanged_param04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **.test_ifchanged_param05()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **.test_ifchanged01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **.test_ifchanged02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **.test_ifchanged03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **.test_ifchanged04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **.test_ifchanged05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **.test_ifchanged06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **.test_ifchanged07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **.test_ifchanged08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **.test_ifchanged_else02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **.test_ifchanged_else03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **.test_ifchanged_else04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **.test_ifchanged_param02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **Logically the same as above, just written with explicit ifchanged for the day.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **Test the else clause of ifchanged.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **Test whitespace in filter arguments** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **Test one parameter given to ifchanged.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **Test multiple parameters to ifchanged.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 314](Community_314.md) (6 shared connections)
-- [Community 52](Community_52.md) (3 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
 - [Community 0](Community_0.md) (2 shared connections)
-- [Community 36](Community_36.md) (2 shared connections)
-- [Community 313](Community_313.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (88%)
-- INFERRED: 6 (12%)
+- EXTRACTED: 44 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

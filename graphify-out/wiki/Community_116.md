@@ -1,61 +1,63 @@
 # Community 116
 
-> 29 nodes · cohesion 0.10
+> 94 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **method_decorator()** (29 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **MethodDecoratorTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.dispatch()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.dispatch()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.dispatch()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.test_preserve_attributes()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **ClsDec** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.dispatch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.dispatch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.test_argumented()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.test_class_decoration()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.test_invalid_method_name_to_decorate()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.test_invalid_non_callable_attribute_decoration()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.test_new_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.test_tuple_of_decorators()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.test_bad_iterable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.test_descriptors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **myattr2_dec()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **myattr_dec()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **Convert a function decorator into a method decorator** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.test_preserve_signature()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **Tests for method_decorator** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **A decorator that sets a new attribute on the method.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- *... and 4 more nodes in this community*
+- **Model** (73 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **._save_table()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **.validate_unique()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **TestMultiDBChecks** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
+- **.full_clean()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **.save()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **._check_indexes()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **._check_local_fields()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **.save_base()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **._save_parents()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **TestDeprecatedField** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_field_deprecation.py`
+- **TestRemovedField** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_field_deprecation.py`
+- **._check_constraints()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **._check_index_together()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **._check_unique_together()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **.clean_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **.get_deferred_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **._get_pk_val()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **._perform_unique_checks()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **.__reduce__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **ModelState** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **._check_field_name_clashes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **._check_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **._check_id_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **._check_long_column_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- *... and 69 more nodes in this community*
 
 ## Relationships
 
-- [Community 52](Community_52.md) (9 shared connections)
-- [Community 482](Community_482.md) (6 shared connections)
-- [Community 18](Community_18.md) (2 shared connections)
-- [Community 310](Community_310.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 296](Community_296.md) (1 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
+- [Community 23](Community_23.md) (19 shared connections)
+- [Community 1](Community_1.md) (7 shared connections)
+- [Community 74](Community_74.md) (6 shared connections)
+- [Community 5](Community_5.md) (4 shared connections)
+- [Community 10](Community_10.md) (4 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 446](Community_446.md) (2 shared connections)
+- [Community 73](Community_73.md) (2 shared connections)
+- [Community 172](Community_172.md) (1 shared connections)
 - [Community 39](Community_39.md) (1 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
-- [Community 128](Community_128.md) (1 shared connections)
-- [Community 149](Community_149.md) (1 shared connections)
-- [Community 238](Community_238.md) (1 shared connections)
+- [Community 34](Community_34.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
-- `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_field_deprecation.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_bulk_update.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
 
 ## Audit Trail
 
-- EXTRACTED: 67 (96%)
-- INFERRED: 3 (4%)
+- EXTRACTED: 168 (91%)
+- INFERRED: 16 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

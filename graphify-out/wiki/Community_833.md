@@ -1,31 +1,31 @@
 # Community 833
 
-> 10 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **override** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **deactivate()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **activate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **.__enter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **ContextDecorator** (1 connections)
-- **Unset the time zone for the current thread. Django will then use the time zone…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **Temporarily set the time zone for the current thread. This is a context manager…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **Set the time zone for the current thread. The ``timezone`` argument must be an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **DefaultTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default.py`
+- **setup** (6 connections)
+- **DefaultIfNoneTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default.py`
+- **.test_default03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default.py`
+- **.test_default04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default.py`
+- **.test_default_if_none01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default.py`
+- **.test_default_if_none02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default.py`
+- **.test_default01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default.py`
+- **.test_default02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default.py`
+- **Literal string arguments to the default filter are always treated as safe…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default.py`
 
 ## Relationships
 
-- [Community 10](Community_10.md) (3 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 19 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

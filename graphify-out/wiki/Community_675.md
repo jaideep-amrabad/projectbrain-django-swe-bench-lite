@@ -1,41 +1,36 @@
 # Community 675
 
-> 14 nodes · cohesion 0.22
+> 14 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **UserChangeFormTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **UserChangeForm** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.test_bug_19133()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_bug_17944_empty_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_bug_17944_unknown_password_algorithm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_bug_17944_unmanageable_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_bug_19349_bound_password_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_unusable_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_username_field_autocapitalize_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_username_validity()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **The change form does not return the password value** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_bug_14242()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_custom_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_password_excluded()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.is_valid()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **._should_delete_form()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.deleted_forms()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.non_form_errors()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.ordered_forms()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.cleaned_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.total_error_count()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **Return a list of form.cleaned_data dicts for every form in self.forms.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **Return a list of forms that have been marked for deletion.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **Return a list of form in the order specified by the incoming data. Raise an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **Return an ErrorList of errors that aren't associated with a particular form --…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **Return the number of errors across all forms in the formset.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **Return whether or not the form was marked for deletion.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **Return True if every form in self.forms is valid.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
 
 ## Relationships
 
-- [Community 52](Community_52.md) (3 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
-- [Community 479](Community_479.md) (1 shared connections)
-- [Community 950](Community_950.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 641](Community_641.md) (1 shared connections)
+- [Community 183](Community_183.md) (9 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,35 +4,37 @@
 
 ## Key Concepts
 
-- **ModelRefreshTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_refresh_clears_reverse_related()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_prefetched_cache_cleared()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_refresh_clears_one_to_one_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_refresh_fk_on_delete_set_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_refresh_unsaved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_lookup_in_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_refresh()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_refresh_fk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_refresh_no_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_refresh_null_fk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_unknown_kwarg()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **refresh_from_db() clear cached reverse relations.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **ModelMultipleChoiceFieldTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_model_multiple_choice_number_of_queries()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_model_multiple_choice_run_validators()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_model_multiple_choice_show_hidden_initial()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_clean_does_deduplicate_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_model_multiple_choice_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_model_multiple_choice_required_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_show_hidden_initial_changed_queries_efficiently()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_to_field_name_with_initial_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **ModelMultipleChoiceField does O(1) queries instead of O(n) (#10156).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **ModelMultipleChoiceField run given validators (#14144).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Test support of show_hidden_initial by ModelMultipleChoiceField.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Relationships
 
-- [Community 10](Community_10.md) (4 shared connections)
-- [Community 632](Community_632.md) (3 shared connections)
-- [Community 437](Community_437.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 92](Community_92.md) (3 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 334](Community_334.md) (1 shared connections)
+- [Community 1060](Community_1060.md) (1 shared connections)
+- [Community 495](Community_495.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (68%)
-- INFERRED: 7 (32%)
+- EXTRACTED: 15 (75%)
+- INFERRED: 5 (25%)
 - AMBIGUOUS: 0 (0%)
 
 ---

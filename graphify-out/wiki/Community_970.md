@@ -1,28 +1,29 @@
 # Community 970
 
-> 6 nodes · cohesion 0.33
+> 6 nodes · cohesion 0.47
 
 ## Key Concepts
 
-- **NonexistentFixtureTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_nonexistent_fixture_no_constraint_checking()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_loaddata_not_existent_fixture_file()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **patch** (1 connections)
-- **Custom class to limit fixture dirs.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **If no fixtures match the loaddata command, constraints checks on the database…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **default_if_none()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default_if_none.py`
+- **.test_empty_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default_if_none.py`
+- **.test_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default_if_none.py`
+- **.test_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default_if_none.py`
+- **If value is None, use given default.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 
 ## Relationships
 
-- [Community 396](Community_396.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 236](Community_236.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default_if_none.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

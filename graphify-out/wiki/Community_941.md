@@ -1,32 +1,41 @@
 # Community 941
 
-> 7 nodes · cohesion 0.29
+> 12 nodes · cohesion 0.62
 
 ## Key Concepts
 
-- **DeletionTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_add_form_deletion_when_invalid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_change_form_deletion_when_invalid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_deletion()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_outdated_deletion()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **Make sure that an add form that is filled out, but marked for deletion doesn't…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **Make sure that a change form that is filled out, but marked for deletion…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **Event** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
+- **SerializationTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.assert_json_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.assert_python_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.assert_xml_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.assert_yaml_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_aware_datetime_in_local_timezone()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_aware_datetime_in_other_timezone()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_aware_datetime_in_utc()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_aware_datetime_with_microsecond()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_naive_datetime()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_naive_datetime_with_microsecond()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
 
 ## Relationships
 
-- [Community 191](Community_191.md) (3 shared connections)
-- [Community 237](Community_237.md) (3 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 236](Community_236.md) (1 shared connections)
+- [Community 696](Community_696.md) (6 shared connections)
+- [Community 86](Community_86.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 1030](Community_1030.md) (1 shared connections)
+- [Community 610](Community_610.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (86%)
-- INFERRED: 2 (14%)
+- EXTRACTED: 48 (84%)
+- INFERRED: 9 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

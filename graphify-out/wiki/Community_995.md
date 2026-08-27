@@ -1,26 +1,36 @@
 # Community 995
 
-> 5 nodes · cohesion 0.40
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **RowLevelChangePermissionModelAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.has_change_permission()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.has_view_permission()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **Only allow changing objects with even id number** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **Only allow viewing objects if id is a multiple of 3.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **MessageMiddleware** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
+- **.test_response_without_messages()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_middleware.py`
+- **.process_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
+- **.process_response()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
+- **MessageMiddlewareSubclass** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
+- **MiddlewareTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_middleware.py`
+- **Update the storage backend (i.e., save the messages). Raise ValueError if not…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
+- **Middleware that handles temporary messages.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
+- **MessageMiddleware is tolerant of messages not existing on request.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_middleware.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 46](Community_46.md) (2 shared connections)
+- [Community 286](Community_286.md) (2 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_middleware.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

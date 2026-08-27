@@ -1,40 +1,54 @@
 # Community 626
 
-> 16 nodes · cohesion 0.12
+> 37 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **SyndicationFeed** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.add_item()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.writeString()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.add_item_elements()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.add_root_elements()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.root_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.write()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **Return extra attributes to place on the root (i.e. feed/channel) element.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **Add elements in the root (i.e. feed/channel) element. Called from write().** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **Add elements on each item (i.e. item/entry) element.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **Output the feed in the given encoding to outfile, which is a file-like object.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **Return the feed in the given encoding as a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **Base class for all syndication feeds. Subclasses should provide write()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **Add an item to the feed. All args are expected to be strings except pubdate and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.num_items()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **model_enums/tests.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **ChoicesTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **CustomChoicesTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_integerchoices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_textchoices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **Constants** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **Separator** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **Suit** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **YearInSchool** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **bytes** (1 connections)
+- **float** (1 connections)
+- **.test_integerchoices_auto_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_integerchoices_containment()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_integerchoices_empty_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_integerchoices_functional_api()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_invalid_definition()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_str()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_textchoices_auto_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_textchoices_blank_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_textchoices_containment()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_textchoices_empty_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_textchoices_functional_api()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_bool_unsupported()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_labels_valid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_timezone_unsupported()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 372](Community_372.md) (5 shared connections)
-- [Community 52](Community_52.md) (2 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 393](Community_393.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 53 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

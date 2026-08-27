@@ -1,59 +1,62 @@
 # Community 226
 
-> 48 nodes · cohesion 0.10
+> 48 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **BulkCreateTests** (46 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **bulk_create/tests.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **bulk_create/models.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **Country** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **TwoFields** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **ProxyCountry** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **Restaurant** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **NoFields** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **NullableFields** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **ProxyMultiCountry** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **ProxyMultiProxyCountry** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **ProxyProxyCountry** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **State** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **Pizzeria** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **.test_bulk_insert_expressions()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **.test_large_batch_mixed_efficiency()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **.test_large_batch_efficiency()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **.test_long_non_ascii_text()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **.test_multi_table_inheritance_unsupported()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **.test_nullable_fk_after_parent_bulk_create()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **.test_proxy_inheritance_supported()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **.test_zero_as_autoval()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **BigAutoFieldModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **Place** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **admin_scripts/tests.py** (67 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **AdminScriptTestCase** (51 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **ManageNoSettings** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **SettingsCustomLoggingTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.run_test()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **DjangoAdminSuggestions** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **Dumpdata** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_pks_parsing()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_non_existent_command_output()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **SettingsConfigTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **ReverseLazySettingsTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_no_suggestions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_suggestions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **MainModule** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **ManageManuallyConfiguredSettings** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **ManageRunserverEmptyAllowedHosts** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_empty_allowed_hosts_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **._ext_backend_paths()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **Discovery** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_precedence()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_program_name_in_help()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **TestCollectionHelpSubcommand** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
 - *... and 23 more nodes in this community*
 
 ## Relationships
 
-- [Community 21](Community_21.md) (17 shared connections)
-- [Community 2](Community_2.md) (6 shared connections)
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 167](Community_167.md) (3 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 10](Community_10.md) (2 shared connections)
-- [Community 40](Community_40.md) (2 shared connections)
-- [Community 72](Community_72.md) (1 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
-- [Community 323](Community_323.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 91](Community_91.md) (25 shared connections)
+- [Community 107](Community_107.md) (13 shared connections)
+- [Community 280](Community_280.md) (13 shared connections)
+- [Community 2](Community_2.md) (10 shared connections)
+- [Community 254](Community_254.md) (8 shared connections)
+- [Community 13](Community_13.md) (7 shared connections)
+- [Community 11](Community_11.md) (6 shared connections)
+- [Community 473](Community_473.md) (5 shared connections)
+- [Community 616](Community_616.md) (5 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 14](Community_14.md) (4 shared connections)
+- [Community 50](Community_50.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 145 (92%)
-- INFERRED: 13 (8%)
+- EXTRACTED: 190 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

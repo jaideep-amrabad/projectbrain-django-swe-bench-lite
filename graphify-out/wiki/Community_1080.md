@@ -1,21 +1,21 @@
 # Community 1080
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.test_unit_conversions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
-- **.test_unit_conversions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
-- **Testing default units during maths** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- **CoroutineClearingView** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
+- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
+- **.__del__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
+- **Return an unawaited coroutine (common error for async views).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
 
 ## Relationships
 
-- [Community 730](Community_730.md) (1 shared connections)
-- [Community 731](Community_731.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
 
 ## Audit Trail
 

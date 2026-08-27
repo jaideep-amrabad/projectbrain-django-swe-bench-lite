@@ -1,35 +1,52 @@
 # Community 752
 
-> 12 nodes · cohesion 0.21
+> 20 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **EmailBackend** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- **._send()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- **.send_messages()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- **.close()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- **.open()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- **.connection_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- **A helper method that does the actual sending.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- **A wrapper that manages the SMTP network connection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- **Ensure an open connection to the email server. Return whether or not a new…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- **Close the connection to the email server.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- **Send one or more EmailMessage objects and return the number of email messages…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
+- **test_db_returning.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_db_returning.py`
+- **ReturningValuesTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_db_returning.py`
+- **DumbCategory** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **EmptyStringsAsNullTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **ProxyCategory** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **ReturningModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **DefaultValuesInsertTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **ProxyQueryCleanupTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **NonIntegerPKReturningModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **.test_bulk_insert()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_db_returning.py`
+- **.test_no_extra_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_evaluated_proxy_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_insert_returning_non_integer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_db_returning.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_21001()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_direct_exclude()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_joined_exclude()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **Can create an instance of a model with only the PK field (#17056)."** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **Filtering on non-null character fields works as expected. The reason for these…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **Generating the query string doesn't alter the query's state in irreversible…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Relationships
 
-- [Community 181](Community_181.md) (2 shared connections)
-- [Community 404](Community_404.md) (1 shared connections)
+- [Community 16](Community_16.md) (10 shared connections)
+- [Community 6](Community_6.md) (6 shared connections)
+- [Community 176](Community_176.md) (3 shared connections)
+- [Community 70](Community_70.md) (3 shared connections)
+- [Community 103](Community_103.md) (3 shared connections)
+- [Community 686](Community_686.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/test_db_returning.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 44 (85%)
+- INFERRED: 8 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

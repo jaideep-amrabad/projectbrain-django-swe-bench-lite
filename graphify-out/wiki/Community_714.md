@@ -1,42 +1,36 @@
 # Community 714
 
-> 13 nodes · cohesion 0.22
+> 13 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **EmailValidator** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **DeprecationTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **.__call__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **.validate_domain_part()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **.test_domain_whitelist()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **.test_whitelist()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **.domain_whitelist()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **.test_domain_whitelist_access_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **.test_domain_whitelist_set_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **.test_whitelist_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **setter** (1 connections)
+- **PostgreSqlDbshellCommandTestCase** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **.settings_to_cmd_args_env()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **.test_sigint_handler()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **.test_accent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **.test_column()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **.test_crash_password_does_not_leak()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **.test_nopass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **.test_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **.test_service()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **.test_ssl_certificate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **skipUnless** (1 connections)
+- **SIGINT is ignored in Python and passed to psql to abort queries.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
 
 ## Relationships
 
-- [Community 419](Community_419.md) (6 shared connections)
-- [Community 107](Community_107.md) (2 shared connections)
-- [Community 999](Community_999.md) (2 shared connections)
-- [Community 64](Community_64.md) (2 shared connections)
-- [Community 231](Community_231.md) (1 shared connections)
-- [Community 72](Community_72.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (94%)
-- INFERRED: 2 (6%)
+- EXTRACTED: 22 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

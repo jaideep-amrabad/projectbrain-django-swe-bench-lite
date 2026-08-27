@@ -1,37 +1,36 @@
 # Community 841
 
-> 11 nodes · cohesion 0.27
+> 9 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **SeleniumTestCaseBase** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **.create_webdriver()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **.import_webdriver()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **ActionSelenium** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **.create_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **.import_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **.__new__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **.get_capability()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **Dynamically create new classes and add them to the test module when multiple…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **Validate the comma-separated list of requested browsers.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **check_password()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/handlers/modwsgi.py`
+- **ModWsgiHandlerTestCase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
+- **.test_check_password_custom_user()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
+- **.test_check_password()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
+- **.test_groups_for_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
+- **check_password() returns the correct values as per…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
+- **Authenticate against Django's auth database. mod_wsgi docs specify None, True,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/handlers/modwsgi.py`
+- **Tests for the mod_wsgi authentication handler** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
+- **groups_for_user() returns correct values as per…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 749](Community_749.md) (2 shared connections)
-- [Community 623](Community_623.md) (1 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
+- [Community 71](Community_71.md) (4 shared connections)
+- [Community 31](Community_31.md) (1 shared connections)
+- [Community 317](Community_317.md) (1 shared connections)
+- [Community 36](Community_36.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/handlers/modwsgi.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 18 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,30 +1,32 @@
 # Community 853
 
-> 9 nodes · cohesion 0.28
+> 9 nodes · cohesion 0.36
 
 ## Key Concepts
 
-- **RelatedObjectLookups.js** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
-- **showAdminPopup()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
-- **showRelatedObjectLookupPopup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
-- **showRelatedObjectPopup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
-- **dismissAddRelatedObjectPopup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
-- **dismissChangeRelatedObjectPopup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
-- **dismissDeleteRelatedObjectPopup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
-- **dismissRelatedLookupPopup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
-- **updateRelatedObjectLinks()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
+- **urlizetrunc()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **FunctionTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlizetrunc.py`
+- **.test_autoescape()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlizetrunc.py`
+- **.test_autoescape_off()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlizetrunc.py`
+- **.test_non_string_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlizetrunc.py`
+- **.test_overtruncate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlizetrunc.py`
+- **.test_query_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlizetrunc.py`
+- **.test_truncate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlizetrunc.py`
+- **Convert URLs into clickable links, truncating URLs to the given character…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 236](Community_236.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlizetrunc.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

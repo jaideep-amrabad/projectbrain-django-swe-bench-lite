@@ -1,53 +1,52 @@
 # Community 363
 
-> 32 nodes · cohesion 0.12
+> 30 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **M2MRegressionTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/tests.py`
-- **m2m_regress/models.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **m2m_regress/tests.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/tests.py`
-- **RegressionModelSplit** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **SelfRefer** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **SelfReferChild** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **SelfReferChildSibling** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **Tag** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **TagCollection** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **BadModelWithSplit** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **Entry** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **Line** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **Worksheet** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **Post** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **.test_m2m_inheritance_symmetry()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/tests.py`
-- **.test_m2m_abstract_split()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/tests.py`
-- **.test_m2m_pk_field_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/tests.py`
-- **.split()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **Model with a split method should not cause an error in add_lazy_relation** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- *... and 7 more nodes in this community*
+- **ExtraRegressTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **TestObject** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/models.py`
+- **RevisionableModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/models.py`
+- **.test_regression_10847()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_regression_17877()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_values_with_extra()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_log_on_variable_does_not_exist_silent()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_logging.py`
+- **.test_dates_query()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_regression_7314_7372()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_regression_7957()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_regression_7961()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_regression_8039()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_regression_8063()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_regression_8819()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.new_revision()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/models.py`
+- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_extra_stay_tied()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_extra_values_distinct_ordering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **Regression test for #7961: When not using a portion of an extra(...) in a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **Regression test for #8063: limiting a query shouldn't discard any extra() bits.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **Regression test for #8039: Ordering sometimes removed relevant tables from…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **Regression test for #8819: Fields in the extra(select=...) list should be…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **When calling the dates() method on a queryset with extra selection columns, we…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 52](Community_52.md) (3 shared connections)
+- [Community 71](Community_71.md) (6 shared connections)
 - [Community 0](Community_0.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/m2m_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/extra_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_logging.py`
 
 ## Audit Trail
 
-- EXTRACTED: 58 (85%)
-- INFERRED: 10 (15%)
+- EXTRACTED: 37 (90%)
+- INFERRED: 4 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

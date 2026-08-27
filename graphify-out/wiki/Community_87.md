@@ -1,54 +1,67 @@
 # Community 87
 
-> 29 nodes · cohesion 0.10
+> 94 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **.decode()** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **MD5PasswordHasher** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **mask_hash()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **CryptPasswordHasher** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **SHA1PasswordHasher** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **must_update_salt()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.must_update()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.verify()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.verify()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.safe_summary()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.must_update()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.safe_summary()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.must_update()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.safe_summary()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.must_update()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.safe_summary()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.safe_summary()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.salt()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.harden_runtime()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.decode()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.encode()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.harden_runtime()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Return the given hash, with only the first ``show`` number shown. The rest are…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **The SHA1 password hashing algorithm (not recommended)** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **The Salted MD5 password hashing algorithm (not recommended)** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- *... and 4 more nodes in this community*
+- **AdminSeleniumTestCase** (32 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **SelectTest** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **Select** (22 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **Question** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.wait_until()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **SeleniumTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- **SeleniumTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **DateHierarchyTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
+- **.wait_page_loaded()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_page_ready()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.test_select()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **.test_select_multiple()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **._assertOptionsValues()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_for_and_switch_to_popup()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.use_required_attribute()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.test_choice_links()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
+- **.test_choice_links_datetime()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
+- **LiveWidgetTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_widgets.py`
+- **.assertSelectedOptions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.assertSelectOptions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.deselect_option()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.select_option()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_for()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_for_text()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_for_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- *... and 69 more nodes in this community*
 
 ## Relationships
 
-- [Community 603](Community_603.md) (10 shared connections)
-- [Community 717](Community_717.md) (9 shared connections)
-- [Community 617](Community_617.md) (7 shared connections)
-- [Community 466](Community_466.md) (3 shared connections)
-- [Community 802](Community_802.md) (1 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
-- [Community 299](Community_299.md) (1 shared connections)
+- [Community 15](Community_15.md) (13 shared connections)
+- [Community 1](Community_1.md) (9 shared connections)
+- [Community 42](Community_42.md) (4 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 8](Community_8.md) (4 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 71](Community_71.md) (2 shared connections)
+- [Community 52](Community_52.md) (2 shared connections)
+- [Community 127](Community_127.md) (2 shared connections)
+- [Community 375](Community_375.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 54](Community_54.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_widgets.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
 
 ## Audit Trail
 
-- EXTRACTED: 72 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 166 (90%)
+- INFERRED: 19 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

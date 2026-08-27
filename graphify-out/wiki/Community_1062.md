@@ -4,19 +4,19 @@
 
 ## Key Concepts
 
-- **AtomicInsideTransactionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **All basic tests for atomic should also pass within an existing transaction.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.serialize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.serialize_headers()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **HTTP headers as a bytestring.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **Full HTTP message, including headers, as a bytestring.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 514](Community_514.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 354](Community_354.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/http/response.py`
 
 ## Audit Trail
 

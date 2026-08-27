@@ -1,68 +1,58 @@
 # Community 163
 
-> 65 nodes · cohesion 0.05
+> 62 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **force_bytes()** (59 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **encoding.py** (57 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **force_str()** (50 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **test_encoding.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
-- **TestEncodingUtils** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
-- **repercent_broken_unicode()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **uri_to_iri()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **.__init__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **DjangoUnicodeDecodeError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **escape_uri_path()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **filepath_to_uri()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **is_protected_type()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **smart_bytes()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **smart_str()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **TestRFC3987IEncodingUtils** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
-- **.name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **get_system_encoding()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **.fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- **.layer_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
-- **.xml()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- **.test_force_bytes_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
-- **.test_force_str_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
-- *... and 40 more nodes in this community*
+- **model_formsets_regress/tests.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **InlineFormsetTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **model_formsets_regress/models.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
+- **FormfieldShouldDeleteFormTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **User** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
+- **FormsetTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_formset_over_inherited_model()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **UserSite** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
+- **BaseCustomDeleteFormSet** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_formset_over_to_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **RedeleteTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **Restaurant** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
+- **.test_init_database()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_formset_with_none_instance()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **Host** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
+- **Network** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
+- **BaseCustomDeleteModelFormSet** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **CustomDeleteUserForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **Manager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
+- **ProfileNetwork** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
+- **UserPreferences** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
+- **UserProfile** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
+- **.test_all_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_custom_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_no_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- *... and 37 more nodes in this community*
 
 ## Relationships
 
-- [Community 45](Community_45.md) (26 shared connections)
-- [Community 52](Community_52.md) (15 shared connections)
-- [Community 43](Community_43.md) (11 shared connections)
-- [Community 3](Community_3.md) (9 shared connections)
-- [Community 48](Community_48.md) (7 shared connections)
-- [Community 84](Community_84.md) (7 shared connections)
-- [Community 42](Community_42.md) (6 shared connections)
-- [Community 68](Community_68.md) (5 shared connections)
-- [Community 12](Community_12.md) (4 shared connections)
-- [Community 181](Community_181.md) (4 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 285](Community_285.md) (4 shared connections)
+- [Community 111](Community_111.md) (16 shared connections)
+- [Community 1](Community_1.md) (7 shared connections)
+- [Community 6](Community_6.md) (5 shared connections)
+- [Community 828](Community_828.md) (4 shared connections)
+- [Community 411](Community_411.md) (4 shared connections)
+- [Community 134](Community_134.md) (3 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 183](Community_183.md) (2 shared connections)
+- [Community 195](Community_195.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 254 (97%)
-- INFERRED: 9 (3%)
+- EXTRACTED: 120 (86%)
+- INFERRED: 20 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

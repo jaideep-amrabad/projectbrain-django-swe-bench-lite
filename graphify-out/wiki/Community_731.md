@@ -1,41 +1,40 @@
 # Community 731
 
-> 13 nodes · cohesion 0.15
+> 13 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **DistanceTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
-- **.test_access()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
-- **.test_access_invalid_a()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
-- **.test_access()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
-- **.test_access_invalid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
-- **.test_unit_att_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
-- **Testing access in different units** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
-- **Testing access in invalid units** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
-- **.test_comparisons()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
-- **.test_furlong()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
-- **.test_hash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
-- **Testing the Distance object** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
-- **Testing the `unit_attname` class method** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- **TestBadSetUpTestData** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **TestRaiseLastException** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **MyException** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_no_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_raises_custom_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_raises_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **Exception** (1 connections)
+- **An exception in setUpTestData() shouldn't leak a transaction which would…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.tearDownClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_failure_in_setUpTestData_should_rollback_transaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_raises_exception_with_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Relationships
 
-- [Community 730](Community_730.md) (5 shared connections)
-- [Community 1039](Community_1039.md) (1 shared connections)
-- [Community 1080](Community_1080.md) (1 shared connections)
-- [Community 1079](Community_1079.md) (1 shared connections)
-- [Community 1078](Community_1078.md) (1 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
-- [Community 82](Community_82.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 412](Community_412.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 508](Community_508.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (91%)
-- INFERRED: 2 (9%)
+- EXTRACTED: 17 (89%)
+- INFERRED: 2 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

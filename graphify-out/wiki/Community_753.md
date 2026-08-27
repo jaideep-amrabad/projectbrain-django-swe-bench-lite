@@ -1,51 +1,39 @@
 # Community 753
 
-> 15 nodes · cohesion 0.20
+> 12 nodes · cohesion 0.35
 
 ## Key Concepts
 
-- **AdminAuthenticationForm** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/forms.py`
-- **admin_views/forms.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/forms.py`
-- **admin/forms.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/forms.py`
-- **admin_views/test_forms.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_forms.py`
-- **MediaActionForm** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/forms.py`
-- **AdminPasswordChangeForm** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/forms.py`
-- **AdminAuthenticationFormTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_forms.py`
-- **CustomAdminAuthenticationForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/forms.py`
-- **ActionForm** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.confirm_login_allowed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/forms.py`
-- **.clean_username()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/forms.py`
-- **Media** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/forms.py`
-- **.test_inactive_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_forms.py`
-- **A custom authentication form used in the admin app.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/forms.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_forms.py`
+- **null_queries/tests.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/tests.py`
+- **NullQueriesTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/tests.py`
+- **null_queries/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/models.py`
+- **Choice** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/models.py`
+- **Poll** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/models.py`
+- **.test_none_as_null()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/tests.py`
+- **Inner** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/models.py`
+- **OuterA** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/models.py`
+- **OuterB** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/models.py`
+- **.test_reverse_relations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/tests.py`
+- **Regression test for the use of None as a query value. None is interpreted as an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/tests.py`
+- **Querying across reverse relations and then another relation should insert outer…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/tests.py`
 
 ## Relationships
 
-- [Community 52](Community_52.md) (7 shared connections)
-- [Community 72](Community_72.md) (5 shared connections)
-- [Community 5](Community_5.md) (4 shared connections)
-- [Community 387](Community_387.md) (2 shared connections)
-- [Community 748](Community_748.md) (2 shared connections)
-- [Community 35](Community_35.md) (2 shared connections)
-- [Community 36](Community_36.md) (2 shared connections)
-- [Community 16](Community_16.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 592](Community_592.md) (1 shared connections)
-- [Community 313](Community_313.md) (1 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 159](Community_159.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/forms.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/null_queries/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/null_queries/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (87%)
-- INFERRED: 7 (13%)
+- EXTRACTED: 25 (83%)
+- INFERRED: 5 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

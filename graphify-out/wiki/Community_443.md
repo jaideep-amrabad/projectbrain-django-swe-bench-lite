@@ -1,49 +1,62 @@
 # Community 443
 
-> 26 nodes · cohesion 0.08
+> 29 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **TimezoneTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **needs_zoneinfo()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_get_default_timezone_utc()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_make_aware_zoneinfo_ambiguous()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_make_aware_zoneinfo_non_existent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_make_naive_zoneinfo()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_now()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_activate_invalid_timezone()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_fixedoffset_negative_timedelta()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_fixedoffset_timedelta()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_get_default_timezone()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_is_aware()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_is_naive()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_localdate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_make_aware()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_make_aware2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_make_aware_no_tz()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_make_aware_pytz_ambiguous()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_make_aware_pytz_non_existent()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_make_naive()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_make_naive_no_tz()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_make_naive_pytz()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_override()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_override_decorator()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_override_fixed_offset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- *... and 1 more nodes in this community*
+- **sites_tests/tests.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **create_default_site()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/management.py`
+- **CreateDefaultSiteTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **sites/apps.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/apps.py`
+- **management.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/management.py`
+- **.test_basic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_custom_site_id()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_multi_db_with_router()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_no_site_id()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_save_another()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_unavailable_site_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **SitesConfig** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/apps.py`
+- **.ready()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/apps.py`
+- **MiddlewareTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_multi_db()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_signal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **JustOtherRouter** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **sites/__init__.py** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/__init__.py`
+- **Creates the default Site object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/management.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **#15346, #15573 - create_default_site() creates an example site only if none…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **#16353, #16828 - The default site creation should respect db routing.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **#17415 - Another site can be created right after the default one. On some…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
+- [Community 372](Community_372.md) (9 shared connections)
+- [Community 71](Community_71.md) (7 shared connections)
+- [Community 50](Community_50.md) (6 shared connections)
+- [Community 59](Community_59.md) (4 shared connections)
+- [Community 6](Community_6.md) (4 shared connections)
+- [Community 8](Community_8.md) (4 shared connections)
 - [Community 1](Community_1.md) (3 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
+- [Community 31](Community_31.md) (3 shared connections)
+- [Community 63](Community_63.md) (3 shared connections)
+- [Community 286](Community_286.md) (3 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 10](Community_10.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/apps.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/management.py`
+- `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 95 (95%)
+- INFERRED: 5 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,54 +1,51 @@
 # Community 437
 
-> 26 nodes · cohesion 0.11
+> 25 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **Article** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **ModelInstanceCreationTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_can_initialize_model_instance_using_positional_arguments()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_can_leave_off_value_for_autofield_and_it_gets_value_on_save()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_for_datetimefields_saves_as_much_precision_as_was_given()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_can_create_instance_using_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_can_mix_and_match_position_and_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_cannot_create_instance_with_invalid_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_leaving_off_a_field_with_default_set_the_default_will_be_saved()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_object_is_not_written_to_database_until_save_was_called()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_querysets_checking_for_membership()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_saving_an_object_again_does_not_create_a_new_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_extra_method_select_argument_with_dashes_and_values()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_manually_specify_primary_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_microsecond_precision()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_queryset_delete_removes_all_items_in_that_queryset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_unicode_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **.test_autofields_generate_different_values_for_each_instance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_save_parent_primary_with_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_save_primary_with_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_objects_attribute_is_only_available_on_the_class_itself()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **You can initialize a model instance using positional arguments, which should…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **You can leave off the value for an AutoField when creating an object, because…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- *... and 1 more nodes in this community*
+- **BooleanFieldTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **NullBooleanModel** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **ValidationTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **BooleanModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **FksToBooleans** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.test_null_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **._test_get_prep_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **._test_to_python()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_nullbooleanfield_blank()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_booleanfield_choices_blank()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_booleanfield_choices_blank_desired()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_booleanfield_get_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_booleanfield_to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_nullbooleanfield_get_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_nullbooleanfield_to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_select_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **Model with FKs to models with {Null,}BooleanField's, #15040** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.test_nullbooleanfield_formfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_return_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **A BooleanField defaults to None, which isn't a valid value (#15124).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **NullBooleanField shouldn't throw a validation error when given a value of None.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **BooleanField with choices and defaults doesn't generate a formfield with the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **BooleanField with choices and no default should generated a formfield with the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **Boolean fields retrieved via select_related() should return booleans.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_boolean_field_doesnt_accept_empty_input()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
 
 ## Relationships
 
-- [Community 10](Community_10.md) (16 shared connections)
-- [Community 483](Community_483.md) (12 shared connections)
-- [Community 632](Community_632.md) (11 shared connections)
-- [Community 901](Community_901.md) (3 shared connections)
-- [Community 723](Community_723.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 5](Community_5.md) (5 shared connections)
+- [Community 222](Community_222.md) (3 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 56 (70%)
-- INFERRED: 24 (30%)
+- EXTRACTED: 37 (90%)
+- INFERRED: 4 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

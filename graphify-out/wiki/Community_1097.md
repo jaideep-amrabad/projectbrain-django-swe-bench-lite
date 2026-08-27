@@ -1,20 +1,20 @@
 # Community 1097
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **.test_single()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **The optimizer does nothing on a single operation, and that it does it in just…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **urlify.js** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/urlify.js`
+- **downcode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/urlify.js`
+- **URLify()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/urlify.js`
 
 ## Relationships
 
-- [Community 142](Community_142.md) (1 shared connections)
-- [Community 797](Community_797.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/urlify.js`
 
 ## Audit Trail
 

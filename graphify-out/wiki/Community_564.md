@@ -1,45 +1,50 @@
 # Community 564
 
-> 19 nodes · cohesion 0.11
+> 18 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **ManageAlternateSettings** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_output_color()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **alternate: manage.py can execute user commands if settings are provided as…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **A series of tests for manage.py when using a settings file with a name other…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **alternate: manage.py builtin commands fail with an error when no default…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **alternate: manage.py builtin commands work with settings provided as argument** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **alternate: manage.py builtin commands work if settings are provided in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **alternate: manage.py builtin commands fail if settings file (from argument)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **alternate: manage.py builtin commands fail if settings file (from environment)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **alternate: manage.py can't execute user commands without settings** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **alternate: manage.py output syntax color can be deactivated with the `--no-…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **PasswordResetConfirmClient** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/client.py`
+- **AuthTemplateTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
+- **.test_password_reset_confirm_view_custom_username_hint()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
+- **.test_password_reset_confirm_view_valid_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
+- **._get_password_reset_confirm_redirect_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/client.py`
+- **.test_password_reset_confirm_view_invalid_token()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
+- **extract_token_from_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/client.py`
+- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/client.py`
+- **.post()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/client.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **Client** (1 connections)
+- **This client eases testing the password reset flow by emulating the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/client.py`
+- **.test_password_change_done_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
+- **.test_password_reset_change_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
+- **.test_password_reset_complete_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
+- **.test_password_reset_done_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
+- **.test_password_reset_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
 
 ## Relationships
 
-- [Community 123](Community_123.md) (9 shared connections)
-- [Community 257](Community_257.md) (9 shared connections)
-- [Community 110](Community_110.md) (9 shared connections)
-- [Community 260](Community_260.md) (2 shared connections)
-- [Community 292](Community_292.md) (1 shared connections)
+- [Community 4](Community_4.md) (5 shared connections)
+- [Community 408](Community_408.md) (3 shared connections)
+- [Community 15](Community_15.md) (3 shared connections)
+- [Community 819](Community_819.md) (2 shared connections)
+- [Community 271](Community_271.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/client.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 39 (91%)
+- INFERRED: 4 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

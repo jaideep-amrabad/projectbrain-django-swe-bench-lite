@@ -1,54 +1,43 @@
 # Community 580
 
-> 23 nodes · cohesion 0.13
+> 17 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **CurrentSiteManager** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
-- **sites_framework/models.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
-- **SitesFrameworkTestCase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
-- **AbstractArticle** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
-- **CurrentSiteManagerChecksTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
-- **._get_field_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
-- **CustomArticle** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
-- **ExclusiveArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
-- **SyndicatedArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
-- **._check_field_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
-- **._check_table_uniqueness()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.check()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
-- **.test_invalid_field_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
-- **.test_invalid_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
-- **Return self.__field_name or 'site' or 'sites'.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
-- **Use this to limit objects to those associated with the current site.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
-- **.test_custom_named_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
-- **.test_site_fk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
-- **.test_sites_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
+- **SplitArrayWidget** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **TestSplitFormWidget** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.test_checkbox_get_context_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_get_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_render()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_render_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_value_omitted_from_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.__deepcopy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.get_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.id_for_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.is_hidden()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.media()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.needs_multipart_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.value_from_datadict()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
 
 ## Relationships
 
-- [Community 37](Community_37.md) (9 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 133](Community_133.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
+- [Community 73](Community_73.md) (2 shared connections)
+- [Community 274](Community_274.md) (1 shared connections)
+- [Community 134](Community_134.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (87%)
-- INFERRED: 7 (13%)
+- EXTRACTED: 21 (81%)
+- INFERRED: 5 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

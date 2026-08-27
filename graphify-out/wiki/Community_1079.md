@@ -1,25 +1,27 @@
 # Community 1079
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.test_init_invalid_a()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
-- **.test_init_invalid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
-- **Testing initialization from invalid units** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- **BasicFormTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **.test_late_form_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **.test_post_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **A form can be marked invalid in the form_valid() method (#25548).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
 
 ## Relationships
 
-- [Community 730](Community_730.md) (1 shared connections)
-- [Community 731](Community_731.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 77](Community_77.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,58 +1,62 @@
 # Community 208
 
-> 50 nodes · cohesion 0.06
+> 43 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **BaseForm** (37 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.full_clean()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **._html_output()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **._clean_fields()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.add_error()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.add_prefix()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **._clean_form()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.add_initial_prefix()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.as_table()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.get_initial_for_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.as_p()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.as_ul()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.changed_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.errors()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.has_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.non_field_errors()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.order_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **._post_clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.hidden_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.is_multipart()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.is_valid()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- *... and 25 more nodes in this community*
+- **MigrationQuestioner** (41 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **InteractiveMigrationQuestioner** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **Command** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
+- **.handle()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
+- **test_questioner.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
+- **.handle_merge()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
+- **NonInteractiveMigrationQuestioner** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **._ask_default()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **QuestionerTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
+- **.write_migration_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
+- **.ask_auto_now_add_addition()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.ask_not_null_addition()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.ask_not_null_alteration()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **._boolean_input()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **._choice_input()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.test_timedelta_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
+- **.ask_rename()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.ask_rename_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.test_ask_initial_with_disabled_migrations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.ask_merge()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.ask_auto_now_add_addition()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.ask_merge()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.ask_not_null_addition()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.ask_not_null_alteration()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
+- [Community 18](Community_18.md) (16 shared connections)
+- [Community 110](Community_110.md) (7 shared connections)
+- [Community 5](Community_5.md) (6 shared connections)
 - [Community 50](Community_50.md) (6 shared connections)
-- [Community 112](Community_112.md) (2 shared connections)
-- [Community 311](Community_311.md) (1 shared connections)
-- [Community 683](Community_683.md) (1 shared connections)
-- [Community 393](Community_393.md) (1 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
-- [Community 94](Community_94.md) (1 shared connections)
+- [Community 103](Community_103.md) (4 shared connections)
+- [Community 142](Community_142.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 482](Community_482.md) (2 shared connections)
+- [Community 306](Community_306.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
 - [Community 72](Community_72.md) (1 shared connections)
-- [Community 288](Community_288.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 201](Community_201.md) (1 shared connections)
+- [Community 25](Community_25.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
 
 ## Audit Trail
 
-- EXTRACTED: 80 (94%)
-- INFERRED: 5 (6%)
+- EXTRACTED: 113 (88%)
+- INFERRED: 15 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

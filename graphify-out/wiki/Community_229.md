@@ -1,53 +1,54 @@
 # Community 229
 
-> 47 nodes · cohesion 0.08
+> 22 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **TestStatisticsAggregate** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **StatAggregate** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **statistics.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **CovarPop** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **RegrAvgX** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **RegrCount** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **Corr** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **RegrAvgY** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **RegrIntercept** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **RegrR2** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **RegrSlope** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **RegrSXX** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **RegrSXY** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **RegrSYY** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **.test_covar_pop_general()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **.test_regr_avgx_with_related_obj_and_number_as_argument()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **.test_corr_empty_result()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **.test_corr_general()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **.test_correct_source_expressions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **.test_covar_pop_empty_result()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **.test_covar_pop_sample()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **.test_covar_pop_sample_empty_result()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **.test_missing_arguments_raises_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- *... and 22 more nodes in this community*
+- **locks.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- **file_move_safe()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/move.py`
+- **cache/backends/filebased.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **move.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/move.py`
+- **_fd()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- **OVERLAPPED** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- **.test_file_move_copystat_cifs()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **lock()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- **unlock()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- **FileMoveSafeTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **_OFFSET** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- **_OFFSET_UNION** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- **Structure** (2 connections)
+- **_samefile()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/move.py`
+- **.test_file_move_overwrite()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **File-based cache backend** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **Portable file locking utilities. Based partially on an example by Jonathan…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- **Get a filedescriptor from something which could be a file or an fd.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- **Move a file in the safest way possible:: >>> from django.core.files.move import…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/move.py`
+- **Move a file from one location to another in the safest way possible. First, try…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/move.py`
+- **file_move_safe() ignores a copystat() EPERM PermissionError. This happens when…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **Union** (1 connections)
 
 ## Relationships
 
-- [Community 37](Community_37.md) (3 shared connections)
-- [Community 85](Community_85.md) (3 shared connections)
-- [Community 43](Community_43.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
+- [Community 2](Community_2.md) (13 shared connections)
+- [Community 512](Community_512.md) (2 shared connections)
+- [Community 275](Community_275.md) (1 shared connections)
+- [Community 605](Community_605.md) (1 shared connections)
+- [Community 59](Community_59.md) (1 shared connections)
+- [Community 479](Community_479.md) (1 shared connections)
+- [Community 248](Community_248.md) (1 shared connections)
+- [Community 354](Community_354.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/move.py`
+- `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 64 (69%)
-- INFERRED: 29 (31%)
+- EXTRACTED: 49 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

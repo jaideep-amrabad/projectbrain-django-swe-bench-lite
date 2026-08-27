@@ -1,48 +1,58 @@
 # Community 717
 
-> 18 nodes · cohesion 0.14
+> 22 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **BCryptSHA256PasswordHasher** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Argon2PasswordHasher** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **._load_library()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.params()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.verify()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.encode()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.safe_summary()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.safe_summary()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.__references_graph()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- **.decode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.verify()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.must_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.salt()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.harden_runtime()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.decode()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Secure password hashing using the argon2 algorithm. This is the winner of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Secure password hashing using the bcrypt algorithm (recommended) This is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **MultipleChoiceField** (22 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **SongForm** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
+- **MultipleChoiceFieldTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
+- **.test_multiple_choice_list_data()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
+- **.test_multiple_choice_checkbox()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
+- **.test_multiple_hidden()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
+- **MultiValueDictLike** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
+- **.test_hidden_data()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
+- **.test_checkbox_auto_id()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
+- **.test_empty_permitted()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
+- **.test_forms_with_multiple_choice()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
+- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.test_disabled_has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
+- **.test_multiplechoicefield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
+- **.test_multiplechoicefield_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
+- **.test_multiplechoicefield_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
+- **.test_multiplechoicefield_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
+- **.test_callable_initial_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
+- **.test_extracting_hidden_and_visible()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
+- **.has_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.getlist()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
+- **dict** (1 connections)
 
 ## Relationships
 
-- [Community 87](Community_87.md) (9 shared connections)
-- [Community 617](Community_617.md) (4 shared connections)
-- [Community 603](Community_603.md) (4 shared connections)
-- [Community 466](Community_466.md) (3 shared connections)
-- [Community 174](Community_174.md) (2 shared connections)
-- [Community 112](Community_112.md) (1 shared connections)
-- [Community 298](Community_298.md) (1 shared connections)
-- [Community 86](Community_86.md) (1 shared connections)
+- [Community 51](Community_51.md) (9 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 259](Community_259.md) (2 shared connections)
+- [Community 543](Community_543.md) (2 shared connections)
+- [Community 130](Community_130.md) (2 shared connections)
+- [Community 388](Community_388.md) (1 shared connections)
+- [Community 182](Community_182.md) (1 shared connections)
+- [Community 448](Community_448.md) (1 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 335](Community_335.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (91%)
-- INFERRED: 4 (9%)
+- EXTRACTED: 34 (57%)
+- INFERRED: 26 (43%)
 - AMBIGUOUS: 0 (0%)
 
 ---

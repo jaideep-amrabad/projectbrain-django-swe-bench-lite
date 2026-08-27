@@ -1,58 +1,61 @@
 # Community 217
 
-> 51 nodes · cohesion 0.06
+> 33 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **SimpleTemplateResponse** (29 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- **SimpleTemplateResponseTest** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
-- **._response()** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
-- **TemplateResponseTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
-- **ContentNotRenderedError** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- **.resolve_template()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- **.content()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- **.rendered_content()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- **.__getstate__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- **.test_post_callbacks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
-- **.test_template_resolving()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
-- **.test_using()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
-- **.test_using()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
-- **.add_post_render_callback()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- **.resolve_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- **._response()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
-- **.test_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
-- **.test_content_access_rendered()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
-- **.test_content_access_unrendered()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
-- **.test_dict_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
-- **.test_explicit_baking()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
-- *... and 26 more nodes in this community*
+- **Greatest** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **Least** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **GreatestTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_greatest.py`
+- **LeastTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
+- **.test_coalesce_workaround_mysql()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_greatest.py`
+- **.test_coalesce_workaround_mysql()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
+- **.test_expression_on_aggregation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation/tests.py`
+- **.test_coalesce_workaround()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_greatest.py`
+- **.test_coalesce_workaround()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
+- **.as_sqlite()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **.as_sqlite()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **.test_ignores_null()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_greatest.py`
+- **.test_propagates_null()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_greatest.py`
+- **.test_ignores_null()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
+- **.test_propagates_null()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
+- **.test_all_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_greatest.py`
+- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_greatest.py`
+- **.test_decimal_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_greatest.py`
+- **.test_one_expressions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_greatest.py`
+- **.test_related_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_greatest.py`
+- **.test_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_greatest.py`
+- **.test_all_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
+- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
+- **.test_decimal_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
+- **.test_one_expressions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (8 shared connections)
-- [Community 18](Community_18.md) (8 shared connections)
-- [Community 313](Community_313.md) (2 shared connections)
-- [Community 615](Community_615.md) (2 shared connections)
-- [Community 290](Community_290.md) (2 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
-- [Community 508](Community_508.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
+- [Community 6](Community_6.md) (12 shared connections)
+- [Community 43](Community_43.md) (4 shared connections)
+- [Community 12](Community_12.md) (4 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 40](Community_40.md) (2 shared connections)
+- [Community 850](Community_850.md) (2 shared connections)
+- [Community 22](Community_22.md) (2 shared connections)
+- [Community 70](Community_70.md) (2 shared connections)
+- [Community 31](Community_31.md) (2 shared connections)
+- [Community 934](Community_934.md) (1 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- `raw/code/hyd-evaluation/django-django/tests/aggregation/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_greatest.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
 
 ## Audit Trail
 
-- EXTRACTED: 103 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 77 (92%)
+- INFERRED: 7 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

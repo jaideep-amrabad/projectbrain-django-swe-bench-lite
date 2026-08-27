@@ -1,58 +1,53 @@
 # Community 218
 
-> 102 nodes · cohesion 0.04
+> 47 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **delete/tests.py** (48 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **delete/models.py** (45 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **OnDeleteTests** (44 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **DeletionTests** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **create_a()** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **FastDeleteTests** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **Avatar** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **RChild** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **A** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **GenericB2** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **R** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **User** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **Base** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **DeleteTop** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **GenericB1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **GenericDeleteBottom** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **M** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **Origin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **Parent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **RChildChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **Referrer** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **AvatarProxy** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **B** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **B1** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- *... and 77 more nodes in this community*
+- **AppsTests** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_dynamic_load()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_get_app_config()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_get_app_configs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_get_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_is_installed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_lazy_model_operation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_model_clash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_ready()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_singleton_master()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_bad_app_config()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_get_containing_app_config_apps_not_ready()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_import_exception_is_not_masked()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_models_not_loaded()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_models_py()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_no_config_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_no_such_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_not_an_app_config()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_one_config_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_relabeling()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_two_configs_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_two_configs_one_default_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_two_default_configs_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **Load an app that provides two AppConfig classes.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_duplicate_labels()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- *... and 22 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (10 shared connections)
-- [Community 132](Community_132.md) (7 shared connections)
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 463](Community_463.md) (3 shared connections)
-- [Community 438](Community_438.md) (2 shared connections)
-- [Community 746](Community_746.md) (1 shared connections)
-- [Community 167](Community_167.md) (1 shared connections)
-- [Community 21](Community_21.md) (1 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 63](Community_63.md) (5 shared connections)
+- [Community 8](Community_8.md) (5 shared connections)
+- [Community 50](Community_50.md) (3 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 266](Community_266.md) (1 shared connections)
+- [Community 74](Community_74.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 189 (81%)
-- INFERRED: 45 (19%)
+- EXTRACTED: 59 (94%)
+- INFERRED: 4 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

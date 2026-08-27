@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **.test_url_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **Make sure that URL ;-parameters are not stripped.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_follow_relative_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **A URL with a relative redirect can be followed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 551](Community_551.md) (1 shared connections)
+- [Community 528](Community_528.md) (1 shared connections)
 
 ## Source Files
 

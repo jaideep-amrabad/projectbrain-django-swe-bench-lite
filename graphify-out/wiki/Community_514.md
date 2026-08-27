@@ -1,49 +1,43 @@
 # Community 514
 
-> 22 nodes · cohesion 0.09
+> 20 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **AtomicTests** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_alternate_decorator_syntax_commit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_alternate_decorator_syntax_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_commit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_decorator_syntax_commit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_decorator_syntax_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_force_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_merged_commit_commit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_merged_commit_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_merged_rollback_commit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_merged_rollback_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_nested_commit_commit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_nested_commit_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_nested_rollback_commit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_nested_rollback_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_prevent_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_reuse_commit_commit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_reuse_commit_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_reuse_rollback_commit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_reuse_rollback_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **Tests for the atomic decorator and context manager. The tests make assertions…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **Serializer** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.serialize()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.end_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.end_serialization()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.getvalue()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.handle_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.handle_fk_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.handle_m2m_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.start_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.start_serialization()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Called when serializing of the queryset starts.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Called when serializing of the queryset ends.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Called when serializing of an object starts.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Called when serializing of an object ends.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Called to handle each individual (non-relational) field on an object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Called to handle a ForeignKey field.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Called to handle a ManyToManyField.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Return the fully serialized queryset (or None if the output stream is not…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Abstract serializer base class.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Serialize a queryset.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
 
 ## Relationships
 
-- [Community 21](Community_21.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 1062](Community_1062.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 1064](Community_1064.md) (1 shared connections)
-- [Community 703](Community_703.md) (1 shared connections)
+- [Community 953](Community_953.md) (1 shared connections)
+- [Community 36](Community_36.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 29 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

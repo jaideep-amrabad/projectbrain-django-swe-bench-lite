@@ -1,39 +1,40 @@
 # Community 746
 
-> 13 nodes · cohesion 0.22
+> 12 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **GetUniqueCheckTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
-- **UniqueForDateModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **UniqueTogetherModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **CustomPKModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **UniqueFieldsModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **.test_unique_together_normalization()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
-- **.test_primary_key_is_considered_unique()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
-- **.test_unique_fields_get_collected()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
-- **.test_unique_for_date_exclusion()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
-- **.test_unique_for_date_gets_picked_up()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
-- **.test_unique_together_gets_picked_up_and_converted_to_tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- **Test the Meta.unique_together normalization with different sorts of objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **IsolationLevelTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **mysql/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.get_isolation_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **get_connection()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.test_connect_isolation_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.test_default_isolation_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.test_setting_isolation_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.test_uppercase_isolation_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.test_auto_is_null_auto_config()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.test_isolation_level_validation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **skipUnless** (1 connections)
 
 ## Relationships
 
-- [Community 72](Community_72.md) (5 shared connections)
-- [Community 320](Community_320.md) (4 shared connections)
-- [Community 81](Community_81.md) (2 shared connections)
-- [Community 218](Community_218.md) (1 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 103](Community_103.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (79%)
-- INFERRED: 6 (21%)
+- EXTRACTED: 26 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

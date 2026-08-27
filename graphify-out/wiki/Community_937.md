@@ -1,29 +1,28 @@
 # Community 937
 
-> 7 nodes · cohesion 0.38
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **MigrateTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
-- **.test_migrate_gis()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
-- **.assertTableExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
-- **.assertTableNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
-- **.get_table_description()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
-- **Tests basic usage of the migrate command when a model uses Geodjango fields…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
-- **Tests running the migrate command in Geodjango.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
+- **MLStripper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **.get_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **.handle_charref()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **.handle_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **.handle_entityref()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **HTMLParser** (1 connections)
 
 ## Relationships
 
-- [Community 20](Community_20.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/html.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,57 +1,42 @@
 # Community 558
 
-> 22 nodes · cohesion 0.11
+> 18 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **WSGIServer** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **LiveServerThread** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **ServerHandler** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **ThreadedWSGIServer** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.run()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.test_broken_pipe_errors()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **LiveServerSingleThread** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **._create_server()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **is_broken_pipe_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.handle_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **._create_server()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **BaseHTTPServer that implements the Python WSGI protocol** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **A threaded version of the WSGIServer** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **Use a LimitedStream so that unread request data will be ignored at the end of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.cleanup_headers()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.terminate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Thread for running a live http server while the tests are running.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Set up the live server and databases, and then loop over handling HTTP requests.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **WSGIServer handles broken pipe errors.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
+- **FieldFile** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._require_file()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._get_file()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.open()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.path()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.size()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.closed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._del_file()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__getstate__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._set_file()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__setstate__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **File** (1 connections)
 
 ## Relationships
 
-- [Community 150](Community_150.md) (9 shared connections)
-- [Community 335](Community_335.md) (4 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 577](Community_577.md) (1 shared connections)
-- [Community 856](Community_856.md) (1 shared connections)
-- [Community 655](Community_655.md) (1 shared connections)
-- [Community 579](Community_579.md) (1 shared connections)
-- [Community 112](Community_112.md) (1 shared connections)
-- [Community 100](Community_100.md) (1 shared connections)
-- [Community 60](Community_60.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 750](Community_750.md) (1 shared connections)
+- [Community 285](Community_285.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (84%)
-- INFERRED: 8 (16%)
+- EXTRACTED: 26 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

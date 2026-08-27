@@ -1,51 +1,78 @@
 # Community 101
 
-> 20 nodes · cohesion 0.12
+> 130 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **OperationTestBase** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **SwappableOperationTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- **.set_up_test_model()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.test_create_ignore_swapped()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- **.apply_operations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.cleanup_test_tables()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.make_test_state()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.test_add_field_ignore_swapped()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- **.test_delete_ignore_swapped()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- **.test_indexes_ignore_swapped()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.test_add_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- **Tests the AddField operation.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- **Common functions to help test operations.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **Makes a test state using set_up_test_model and returns the original state and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **Creates a test model state and database table.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **Key operations ignore swappable models (we don't want to replicate all of them…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- **The CreateTable operation ignores swapped models.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- **Tests the DeleteModel operation ignores swapped models.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- **Add/RemoveIndex operations ignore swapped models.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- **cache/tests.py** (91 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **middleware/csrf.py** (40 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **RequestContext** (30 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **test_remote_user.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **csrf_tests/tests.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **messages_tests/test_cookie.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- **messages_tests/base.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **crypto.py** (23 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
+- **get_random_string()** (23 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
+- **get_token()** (20 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **template/context_processors.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
+- **test_session.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **storage/cookie.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **decorators/csrf.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
+- **messages/api.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **csrf_tests/views.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- **test_fallback.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **messages/__init__.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/__init__.py`
+- **storage/base.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **salted_hmac()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
+- **csrf()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
+- **signing/tests.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **messages/constants.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/constants.py`
+- **template/backends/utils.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/utils.py`
+- **test_crypto.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
+- *... and 105 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (7 shared connections)
-- [Community 27](Community_27.md) (6 shared connections)
-- [Community 7](Community_7.md) (4 shared connections)
-- [Community 81](Community_81.md) (3 shared connections)
-- [Community 860](Community_860.md) (2 shared connections)
-- [Community 673](Community_673.md) (2 shared connections)
-- [Community 152](Community_152.md) (1 shared connections)
-- [Community 511](Community_511.md) (1 shared connections)
-- [Community 423](Community_423.md) (1 shared connections)
+- [Community 0](Community_0.md) (58 shared connections)
+- [Community 4](Community_4.md) (52 shared connections)
+- [Community 2](Community_2.md) (48 shared connections)
+- [Community 53](Community_53.md) (22 shared connections)
+- [Community 1](Community_1.md) (13 shared connections)
+- [Community 71](Community_71.md) (10 shared connections)
+- [Community 7](Community_7.md) (10 shared connections)
+- [Community 8](Community_8.md) (9 shared connections)
+- [Community 27](Community_27.md) (9 shared connections)
+- [Community 9](Community_9.md) (9 shared connections)
+- [Community 845](Community_845.md) (8 shared connections)
+- [Community 843](Community_843.md) (8 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/constants.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/context_processors.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- `raw/code/hyd-evaluation/django-django/django/template/backends/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (88%)
-- INFERRED: 6 (12%)
+- EXTRACTED: 632 (98%)
+- INFERRED: 12 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

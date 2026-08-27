@@ -1,60 +1,50 @@
 # Community 433
 
-> 26 nodes · cohesion 0.14
+> 25 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **renderers.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **test_renderers.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **DjangoTemplates** (13 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **Jinja2** (12 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **BaseRenderer** (9 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **EngineMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **TemplatesSetting** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **Jinja2Tests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **SharedTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **BaseTemplateRendererTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **DjangoTemplatesTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **TemplatesSettingTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **.backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/base.py`
-- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **.engine()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **.get_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **.test_get_renderer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **.test_installed_apps_template_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **.get_template()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **.get_template()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **Load Django templates from the built-in widget templates in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **Load Jinja2 templates from the built-in widget templates in django/forms/jinja2…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **Load templates using template.loader.get_template() which is configured based…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **skipIf** (1 connections)
-- *... and 1 more nodes in this community*
+- **CheckboxInputTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **CheckboxInput** (11 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.test_render_check_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **.test_render_check_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **.format_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.get_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.test_render_int()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **.test_render_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **.test_value_from_datadict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **.value_from_datadict()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **Only return the 'value' attribute if value isn't empty.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.test_get_context_does_not_mutate_attrs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **.test_render_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **.test_render_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **.test_render_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **.test_render_true()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **.test_value_from_datadict_string_int()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **.test_value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **Using any value that's not in ('', None, False, True) will check the checkbox…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **Integers are handled by value, not as booleans (#17114).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **You can pass 'check_test' to the constructor. This is a callable that takes the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **Calling check_test() shouldn't swallow exceptions (#17888).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **The CheckboxInput widget will return False if the key is not found in the data…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (8 shared connections)
-- [Community 72](Community_72.md) (6 shared connections)
-- [Community 71](Community_71.md) (4 shared connections)
-- [Community 3](Community_3.md) (4 shared connections)
-- [Community 224](Community_224.md) (3 shared connections)
-- [Community 50](Community_50.md) (3 shared connections)
-- [Community 453](Community_453.md) (2 shared connections)
-- [Community 52](Community_52.md) (2 shared connections)
-- [Community 311](Community_311.md) (2 shared connections)
-- [Community 290](Community_290.md) (1 shared connections)
-- [Community 138](Community_138.md) (1 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 297](Community_297.md) (1 shared connections)
+- [Community 127](Community_127.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/base.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
 
 ## Audit Trail
 
-- EXTRACTED: 68 (84%)
-- INFERRED: 13 (16%)
+- EXTRACTED: 31 (94%)
+- INFERRED: 2 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

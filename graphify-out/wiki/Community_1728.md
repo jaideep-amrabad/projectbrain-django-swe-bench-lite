@@ -1,25 +1,22 @@
 # Community 1728
 
-> 3 nodes · cohesion 0.67
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **UnittestCase1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **.test_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **.test_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
+- **wsgi/wsgi.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/wsgi.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/wsgi/wsgi.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

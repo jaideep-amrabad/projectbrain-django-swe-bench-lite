@@ -1,59 +1,50 @@
 # Community 451
 
-> 23 nodes · cohesion 0.11
+> 24 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **OrderedSet** (30 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **OrderedSetTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **reorder_suite()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.get_parent_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **partition_suite_by_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.discard()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.remove()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.test_bool()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_contains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_discard()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_init_with_iterable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_len()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_remove()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **Return all the ancestors of this model as a list ordered by MRO. Useful for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **Reorder a test suite by test type. `classes` is a sequence of types All tests…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Partition a test suite by test type. Also prevent duplicated tests. classes is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.add()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **A set which keeps the ordering of the inserted items.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **TestModelDetailView** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_model_with_no_backward_relations_render_only_relevant_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **TestDataMixin** (2 connections)
+- **.test_app_not_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_descriptions_render_correctly()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_instance_of_property_methods_are_displayed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_method_excludes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_methods_with_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_methods_with_arguments_display_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_methods_with_arguments_display_arguments_default_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_methods_with_multiple_arguments_display_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_model_not_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_model_with_many_to_one()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **Methods that begin with strings defined in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **Methods that take arguments should also displayed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **Methods with arguments should have their arguments displayed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **Methods with keyword arguments should have their arguments displayed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **Methods with multiple arguments should have all their arguments displayed, but…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **Model properties are displayed as fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **The ``description`` field should render correctly for each field type.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **A model with ``related_name`` of `+` shouldn't show backward relationship links.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_model_detail_title()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_model_docstring_renders_correctly()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
 
 ## Relationships
 
-- [Community 230](Community_230.md) (3 shared connections)
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 598](Community_598.md) (2 shared connections)
-- [Community 67](Community_67.md) (2 shared connections)
-- [Community 625](Community_625.md) (2 shared connections)
-- [Community 169](Community_169.md) (1 shared connections)
-- [Community 60](Community_60.md) (1 shared connections)
-- [Community 150](Community_150.md) (1 shared connections)
-- [Community 393](Community_393.md) (1 shared connections)
-- [Community 154](Community_154.md) (1 shared connections)
-- [Community 50](Community_50.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 15](Community_15.md) (7 shared connections)
+- [Community 71](Community_71.md) (3 shared connections)
+- [Community 519](Community_519.md) (2 shared connections)
+- [Community 186](Community_186.md) (1 shared connections)
+- [Community 151](Community_151.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 47 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 34 (92%)
+- INFERRED: 3 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

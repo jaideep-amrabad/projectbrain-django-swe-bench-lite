@@ -1,38 +1,40 @@
 # Community 866
 
-> 10 nodes · cohesion 0.20
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **NodeNotFoundError** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- **.remove_replaced_nodes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.remove_replacement_node()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.test_node_not_found_error_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_exceptions.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- **An attempt on a node is made that is not available in the graph.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- **Remove each of the `replaced` nodes (when they exist). Any dependencies that…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **The inverse operation to `remove_replaced_nodes`. Almost. Remove the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **tests_sample.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
+- **doctests.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/doctests.py`
+- **TestDjangoTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
+- **TestVanillaUnittest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
+- **TestZimpleTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
+- **factorial()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/doctests.py`
+- **EmptyTestCase** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
+- **Doctest example from the official Python documentation.…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/doctests.py`
+- **Return the factorial of n, an exact integer >= 0. >>> [factorial(n) for n in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/doctests.py`
+- **sample/__init__.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/__init__.py`
+- **load_tests()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
+- **DjangoTestCase** (1 connections)
+- **.test_sample()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
+- **.test_sample()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
+- **.test_sample()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
 
 ## Relationships
 
-- [Community 98](Community_98.md) (8 shared connections)
-- [Community 75](Community_75.md) (3 shared connections)
 - [Community 0](Community_0.md) (3 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 757](Community_757.md) (1 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_exceptions.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/doctests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (88%)
-- INFERRED: 3 (12%)
+- EXTRACTED: 20 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,51 +1,51 @@
 # Community 199
 
-> 32 nodes · cohesion 0.07
+> 51 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **UniqueTest** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **BookForm** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **DerivedBookForm** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **ProductForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_explicitpk_unique()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_explicitpk_unspecified()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_inherited_unique_together()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_unique_null()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_unique_together()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_unique_together_exclusion()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_blank_foreign_key_with_radio()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_renderer_kwarg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_abstract_inherited_unique()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_abstract_inherited_unique_together()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_inherited_unique()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_inherited_unique_for_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_multiple_field_unique_together()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_simple_unique()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_unique_for_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_unique_for_date_in_exclude()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Test for primary_key being in the form and failing validation.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Ensure keys and blank character strings are tested for uniqueness.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **If the date for unique_for_* constraints is excluded from the ModelForm (in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **unique/unique_together validation.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **ModelForm test of unique_together constraint** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- *... and 7 more nodes in this community*
+- **RawQueryTests** (45 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.assertSuccessfulRawQuery()** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.assertNoAnnotations()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.assertProcessed()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_pyformat_params()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.assertAnnotations()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_db_column_handler()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_extra_conversions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_FK_raw_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_many_to_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_order_handler()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_pk_with_mixed_case_db_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_simple_raw_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_translations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **Test passing optional query parameters** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_annotations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_db_column_name_is_used_in_raw_query()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_query_representation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_raw_query_lazy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_white_space_query()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **Basic test of raw query with a simple database query** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **Raw queries are lazy: they aren't actually executed until they're iterated over.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **Test of a simple raw query against a model containing a foreign key** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **Test of a simple raw query against a model containing a field with db_column…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [Community 130](Community_130.md) (24 shared connections)
-- [Community 283](Community_283.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 21](Community_21.md) (1 shared connections)
+- [Community 830](Community_830.md) (8 shared connections)
+- [Community 318](Community_318.md) (2 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 70](Community_70.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (81%)
-- INFERRED: 12 (19%)
+- EXTRACTED: 72 (90%)
+- INFERRED: 8 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

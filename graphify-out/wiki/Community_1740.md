@@ -1,24 +1,28 @@
 # Community 1740
 
-> 2 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.test_formset_iteration()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **Formset instances are iterable.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **test_liveserverthread.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
+- **LiveServerThreadTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
+- **.run_live_server_thread()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
+- **.test_closes_connections()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
 
 ## Relationships
 
-- [Community 105](Community_105.md) (1 shared connections)
-- [Community 1152](Community_1152.md) (1 shared connections)
+- [Community 400](Community_400.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

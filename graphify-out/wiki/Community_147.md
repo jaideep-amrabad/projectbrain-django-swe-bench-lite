@@ -1,57 +1,55 @@
 # Community 147
 
-> 67 nodes · cohesion 0.06
+> 60 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **GenericRelationTests** (53 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/tests.py`
-- **generic_relations_regress/models.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **generic_relations_regress/tests.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/tests.py`
-- **Note** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **B** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Link** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Place** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Restaurant** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Tag** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **A** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Address** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **C** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Cafe** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **CharLink** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Company** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Contact** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Content** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **D** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Developer** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Guild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **HasLinkThing** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Node** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **OddRelation1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **OddRelation2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- *... and 42 more nodes in this community*
+- **CreatesuperuserManagementCommandTestCase** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **mock_inputs()** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **get_default_username()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
+- **MockTTY** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_blank_username()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_default_username()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_keyboard_interrupt()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_swappable_user()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_swappable_user_missing_required_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_usermodel_without_password()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_input_not_found()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **get_system_username()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
+- **.test_basic_usage()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_blank_username_non_interactive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_environment_variable_non_interactive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_existing_username()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_existing_username_non_interactive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_existing_username_provided_via_option_and_interactive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_fields_with_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_fields_with_fk_interactive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_fields_with_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_fields_with_m2m_and_through()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_fields_with_m2m_interactive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_fields_with_m2m_interactive_blank()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_ignore_environment_variable_interactive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- *... and 35 more nodes in this community*
 
 ## Relationships
 
-- [Community 132](Community_132.md) (19 shared connections)
-- [Community 0](Community_0.md) (9 shared connections)
-- [Community 54](Community_54.md) (2 shared connections)
-- [Community 358](Community_358.md) (2 shared connections)
-- [Community 167](Community_167.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 50](Community_50.md) (1 shared connections)
+- [Community 11](Community_11.md) (18 shared connections)
+- [Community 8](Community_8.md) (14 shared connections)
+- [Community 56](Community_56.md) (8 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 465](Community_465.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
 
 ## Audit Trail
 
-- EXTRACTED: 130 (75%)
-- INFERRED: 43 (25%)
+- EXTRACTED: 129 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

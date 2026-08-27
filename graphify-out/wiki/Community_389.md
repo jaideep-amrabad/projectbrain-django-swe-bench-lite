@@ -1,54 +1,54 @@
 # Community 389
 
-> 29 nodes · cohesion 0.08
+> 37 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **BaseTable** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.add_fields()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.get_initial_alias()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.combine()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.join()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.trim_joins()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.unref_alias()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.trim_start()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.ref_alias()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.set_select()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.reset_refcounts()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.table_alias()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.equals()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.identity()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **The BaseTable class is used for base table references in FROM clause. For…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **The 'target' parameter is the final field being joined to, 'joins' is the full…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **Add the given (model) fields to the select set. Add the field names in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **Trim joins from the start of the join path. The candidates for trim are the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **Merge the 'rhs' query into the current one (with any 'rhs' effects being…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **Return a table alias for the given table_name and whether this is a new alias…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **Increases the reference count for this alias.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- *... and 4 more nodes in this community*
+- **.authenticate()** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **PermissionDeniedBackendTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **AuthenticateTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **AllowAllUsersModelBackendTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **ModelBackendTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **CustomUserModelBackendAuthenticateTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_skips_backends_without_arguments()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_type_error_raised()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_authenticate_user_without_is_active_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_permission_denied()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_get_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_skips_backends_with_decorated_method()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_authentication_without_credentials()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_authenticate_inactive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_authenticates()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_authenticate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_authenticate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_has_perm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_has_perm_denied()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **SkippedBackendWithDecoratedMethod** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.create_users()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 24](Community_24.md) (14 shared connections)
+- [Community 4](Community_4.md) (9 shared connections)
+- [Community 8](Community_8.md) (7 shared connections)
+- [Community 6](Community_6.md) (5 shared connections)
 - [Community 71](Community_71.md) (4 shared connections)
-- [Community 826](Community_826.md) (4 shared connections)
-- [Community 329](Community_329.md) (4 shared connections)
-- [Community 504](Community_504.md) (1 shared connections)
-- [Community 600](Community_600.md) (1 shared connections)
+- [Community 484](Community_484.md) (3 shared connections)
+- [Community 347](Community_347.md) (2 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 61 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 71 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

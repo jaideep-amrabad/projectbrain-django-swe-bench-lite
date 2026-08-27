@@ -1,53 +1,50 @@
 # Community 485
 
-> 44 nodes · cohesion 0.07
+> 22 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **WatchmanReloader** (19 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **BaseReloader** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **._update_watches()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **StatReloader** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **get_reloader()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.run()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.watched_files()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.check_server_status()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **._subscribe()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.notify_file_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.run_loop()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.check_availability()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.tick()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **._watch_glob()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.watched_roots()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.wait_for_apps_ready()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **common_roots()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.snapshot_files()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.tick()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **sys_path_directories()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **._check_subscription()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **._subscribe_dir()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **._watch_root()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.tick()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **trigger_reload()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- *... and 19 more nodes in this community*
+- **BaseMemcachedTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **MemcachedCacheTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **PyLibMCCacheTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **PyMemcacheCacheTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **caches_setting_for_tests()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **skipUnless** (3 connections)
+- **.test_close()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_default_far_future_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_default_never_expiring_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_default_used_when_none_is_set()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_memcached_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_pylibmc_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_pymemcache_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_location_multiple_servers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_memcached_deletes_key_on_failed_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_set_many_returns_failing_keys()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_memcached_uses_highest_pickle_version()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.incr_decr_type_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_pylibmc_client_servers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.incr_decr_type_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_pymemcache_highest_pickle_version()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **python-memcached doesn't support default in get() so this test overrides the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Relationships
 
-- [Community 107](Community_107.md) (10 shared connections)
-- [Community 673](Community_673.md) (2 shared connections)
-- [Community 671](Community_671.md) (2 shared connections)
-- [Community 508](Community_508.md) (1 shared connections)
-- [Community 406](Community_406.md) (1 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
+- [Community 8](Community_8.md) (6 shared connections)
+- [Community 101](Community_101.md) (5 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 278](Community_278.md) (1 shared connections)
+- [Community 1072](Community_1072.md) (1 shared connections)
+- [Community 317](Community_317.md) (1 shared connections)
+- [Community 265](Community_265.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 79 (96%)
-- INFERRED: 3 (4%)
+- EXTRACTED: 41 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

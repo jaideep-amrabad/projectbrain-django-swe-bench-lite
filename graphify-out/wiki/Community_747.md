@@ -1,50 +1,37 @@
 # Community 747
 
-> 16 nodes · cohesion 0.12
+> 12 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **Author** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Queries5Tests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Ranking** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **EmptyQuerySetTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket5261()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.test_emptyqueryset_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket_19151()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_values_subquery()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_extra_select_literal_percent_s()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ordering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket7045()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket7256()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket9848()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **DatabaseCreationTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
+- **.test_create_test_db()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
+- **.test_create_test_user()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
+- **.patch_execute_statements()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
+- **.test_oracle_managed_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
+- **object** (3 connections)
+- **._execute_raise_insufficient_privileges()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
+- **._execute_raise_tablespace_already_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
+- **._execute_raise_user_already_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
+- **._test_database_passwd()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
+- **patch** (1 connections)
+- **skipUnless** (1 connections)
 
 ## Relationships
 
-- [Community 15](Community_15.md) (8 shared connections)
-- [Community 114](Community_114.md) (4 shared connections)
-- [Community 54](Community_54.md) (3 shared connections)
-- [Community 67](Community_67.md) (2 shared connections)
-- [Community 273](Community_273.md) (2 shared connections)
-- [Community 24](Community_24.md) (2 shared connections)
-- [Community 800](Community_800.md) (1 shared connections)
-- [Community 262](Community_262.md) (1 shared connections)
-- [Community 336](Community_336.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 1013](Community_1013.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 5](Community_5.md) (4 shared connections)
+- [Community 269](Community_269.md) (3 shared connections)
+- [Community 103](Community_103.md) (3 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (60%)
-- INFERRED: 17 (40%)
+- EXTRACTED: 24 (89%)
+- INFERRED: 3 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,61 +1,59 @@
 # Community 115
 
-> 49 nodes · cohesion 0.06
+> 61 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **Paginator** (46 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **PaginationTests** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **ModelPaginationTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **ValidAdjacentNumsPaginator** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
-- **.check_paginator()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.check_indexes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_page_getitem()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_paginating_unordered_object_list_raises_warning()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.check_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_get_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_get_page_empty_object_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_get_page_empty_object_list_and_allow_empty_first_page_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_get_page_hook()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_invalid_page_number()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_page_indexes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_page_range_iterator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_page_sequence()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_paginator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.num_pages()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.page_range()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_first_page()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_last_page()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_paginating_empty_queryset_does_not_warn()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_paginating_unordered_queryset_raises_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- *... and 24 more nodes in this community*
+- **SettingsTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.settings()** (21 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **OverrideSettingsIsolationOnExceptionTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **ClassDecoratedTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **clear_script_prefix()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- **.check_settings()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **ClassDecoratedTestCaseSuper** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **MediaURLStaticURLPrefixTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.set_script_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.check_spy_receiver_exit_calls()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_override_settings_both()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_override_settings_enter()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_override_settings_exit()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_add_script_name_prefix()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_not_prefixed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_override_settings_nested()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_override_settings_reusable_on_enter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_context_manager()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_incorrect_timezone()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_override_settings_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **A context manager that temporarily sets a setting and reverts to the original…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.disable()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_max_recursion_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_method_override()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- *... and 36 more nodes in this community*
 
 ## Relationships
 
-- [Community 501](Community_501.md) (18 shared connections)
-- [Community 57](Community_57.md) (2 shared connections)
-- [Community 49](Community_49.md) (2 shared connections)
-- [Community 128](Community_128.md) (2 shared connections)
-- [Community 968](Community_968.md) (2 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
-- [Community 560](Community_560.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
-- [Community 679](Community_679.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
+- [Community 8](Community_8.md) (15 shared connections)
+- [Community 2](Community_2.md) (7 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 384](Community_384.md) (3 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 385](Community_385.md) (2 shared connections)
+- [Community 490](Community_490.md) (1 shared connections)
+- [Community 254](Community_254.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
-- `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 96 (88%)
-- INFERRED: 13 (12%)
+- EXTRACTED: 96 (84%)
+- INFERRED: 18 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

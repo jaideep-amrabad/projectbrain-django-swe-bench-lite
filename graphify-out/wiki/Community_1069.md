@@ -1,25 +1,28 @@
 # Community 1069
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **annotated_tag_function.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/annotated_tag_function.py`
-- **annotated_tag_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/annotated_tag_function.py`
-- **simple_tag** (1 connections)
+- **MultiDatabaseTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_admin_multidb.py`
+- **.test_add_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_admin_multidb.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_admin_multidb.py`
+- **patch** (1 connections)
 
 ## Relationships
 
-- [Community 107](Community_107.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/annotated_tag_function.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_admin_multidb.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

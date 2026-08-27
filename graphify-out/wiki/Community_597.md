@@ -1,43 +1,44 @@
 # Community 597
 
-> 17 nodes · cohesion 0.18
+> 17 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **DatabaseSchemaEditor** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
-- **IndexColumns** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **._create_like_index_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
-- **._alter_column_type_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
-- **._alter_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
-- **._field_base_data_types()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
-- **._field_data_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **._create_index_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
-- **._delete_index_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
-- **._field_indexes_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
-- **._index_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.add_index()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
-- **.quote_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
-- **.remove_index()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
-- **Return the statement to create an index with varchar operator pattern when the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
+- **AssertContainsTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_assert_contains_renders_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_assert_contains_using_non_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_assert_not_contains_renders_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_assert_not_contains_using_non_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_contains()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_unicode_contains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_unicode_not_contains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **An unrendered SimpleTemplateResponse may be used in assertContains().** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **auto-rendering does not affect responses that aren't instances (or subclasses)…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_binary_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_binary_not_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_nontext_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_nontext_not_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Unicode characters can be found in template context** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Unicode characters can be searched for, and not found in template context** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Responses can be inspected for content, including counting repeated substrings** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Relationships
 
-- [Community 43](Community_43.md) (7 shared connections)
-- [Community 341](Community_341.md) (1 shared connections)
-- [Community 407](Community_407.md) (1 shared connections)
-- [Community 173](Community_173.md) (1 shared connections)
+- [Community 399](Community_399.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 347](Community_347.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 248](Community_248.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (94%)
-- INFERRED: 2 (6%)
+- EXTRACTED: 25 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

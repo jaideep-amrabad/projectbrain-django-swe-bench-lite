@@ -1,68 +1,60 @@
 # Community 154
 
-> 51 nodes · cohesion 0.05
+> 64 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **core/management/__init__.py** (71 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **execute_from_command_line()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **CommandParser** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **ManagementUtility** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **get_commands()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **bash_completion/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **dbshell/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/tests.py`
-- **.__init__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **shell.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/shell.py`
-- **Command** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/shell.py`
-- **.execute()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **.fetch_command()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **handle_default_options()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **find_commands()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **load_command_class()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **.autocomplete()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **.main_help_text()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **configured_dynamic_settings_manage.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/configured_dynamic_settings_manage.py`
-- **.test_program_name_from_argv()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.error()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.test_discover_commands_in_eggs()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **Settings** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/configured_dynamic_settings_manage.py`
-- **configured_settings_manage.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/configured_settings_manage.py`
-- **ExecuteFromCommandLine** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **DbshellCommandTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/tests.py`
-- *... and 26 more nodes in this community*
+- **serializer.py** (51 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **BaseSerializer** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **serializer_factory()** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **BaseSequenceSerializer** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **DeconstructableSerializer** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **.serialize_deconstructed()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **RangeSerializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/serializers.py`
+- **OperationSerializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **postgres/serializers.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/serializers.py`
+- **BaseSimpleSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **DatetimeDatetimeSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **DateTimeSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **ModelFieldSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **ModelManagerSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **TypeSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **.serialize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **ChoicesSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **DecimalSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **._serialize_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **DictionarySerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **EnumSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **FloatSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **FrozensetSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **FunctionTypeSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **FunctoolsPartialSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- *... and 39 more nodes in this community*
 
 ## Relationships
 
-- [Community 3](Community_3.md) (16 shared connections)
-- [Community 106](Community_106.md) (12 shared connections)
-- [Community 63](Community_63.md) (11 shared connections)
-- [Community 8](Community_8.md) (7 shared connections)
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 138](Community_138.md) (4 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 52](Community_52.md) (3 shared connections)
-- [Community 107](Community_107.md) (3 shared connections)
-- [Community 260](Community_260.md) (3 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 248](Community_248.md) (3 shared connections)
+- [Community 5](Community_5.md) (8 shared connections)
+- [Community 2](Community_2.md) (7 shared connections)
+- [Community 371](Community_371.md) (5 shared connections)
+- [Community 553](Community_553.md) (3 shared connections)
+- [Community 35](Community_35.md) (3 shared connections)
+- [Community 12](Community_12.md) (3 shared connections)
+- [Community 64](Community_64.md) (2 shared connections)
+- [Community 142](Community_142.md) (2 shared connections)
+- [Community 113](Community_113.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 1745](Community_1745.md) (1 shared connections)
+- [Community 659](Community_659.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/shell.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/configured_dynamic_settings_manage.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/configured_settings_manage.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/dbshell/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/sampleproject/manage.py`
-- `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/serializers.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 181 (99%)
-- INFERRED: 2 (1%)
+- EXTRACTED: 141 (96%)
+- INFERRED: 6 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

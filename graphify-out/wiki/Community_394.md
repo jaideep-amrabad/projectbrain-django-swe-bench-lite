@@ -4,57 +4,48 @@
 
 ## Key Concepts
 
-- **MultiPartParser** (19 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.parse()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **parse_header()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **MultiParserTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **ChunkIter** (7 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **exhaust()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.handle_file_complete()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.IE_sanitize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.test_rfc2231_wrong_title()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **._close_files()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **_parse_header_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.test_bad_type_content_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_empty_upload_handlers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_invalid_content_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_negative_content_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_rfc2231_parsing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.__next__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **Parse the POST data and break it into a FILES MultiValueDict and a POST…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **Handle all the signaling that takes place when a file is complete.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **Cleanup filename from Internet Explorer full paths.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **An iterable that will yield chunks of data. Given a file-like object as the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **A rfc2388 multipart/form-data parser. ``MultiValueDict.parse()`` reads the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **PermLookupDict** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **PermWrapper** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **PermWrapperTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **MockUser** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **auth/context_processors.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **EQLimiterObject** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.test_permlookupdict_in()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **auth()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.test_permwrapper_in()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.test_iter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.__contains__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **Lookup by "someapp" or "someapp.someperm" in perms.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **Return context variables required by apps that use Django's authentication…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.has_module_perms()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.has_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
 - *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 3](Community_3.md) (14 shared connections)
-- [Community 138](Community_138.md) (3 shared connections)
-- [Community 163](Community_163.md) (3 shared connections)
-- [Community 216](Community_216.md) (2 shared connections)
-- [Community 625](Community_625.md) (1 shared connections)
-- [Community 269](Community_269.md) (1 shared connections)
-- [Community 56](Community_56.md) (1 shared connections)
-- [Community 201](Community_201.md) (1 shared connections)
-- [Community 434](Community_434.md) (1 shared connections)
-- [Community 633](Community_633.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 71](Community_71.md) (5 shared connections)
+- [Community 128](Community_128.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
 
 ## Audit Trail
 
-- EXTRACTED: 61 (90%)
-- INFERRED: 7 (10%)
+- EXTRACTED: 43 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

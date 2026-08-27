@@ -1,32 +1,35 @@
 # Community 872
 
-> 9 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **AWSS3Storage** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
-- **.generate_filename()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
-- **.get_valid_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
-- **._save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
-- **.get_available_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
-- **Simulate an AWS S3 storage which uses Unix-like paths and allows any characters…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
-- **This method is important to test that Storage.save() doesn't replace '\' with…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
-- **This is the method that's important to override when using S3 so that os.path()…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
-- **Storage** (1 connections)
+- **DirectPrefetchedObjectCacheReuseTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_detect_is_fetched()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_add_clears_prefetched_objects()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_detect_is_fetched_with_to_attr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_prefetch_reverse_foreign_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_remove_clears_prefetched_objects()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **prefetch_related() reuses objects fetched in _prefetched_objects_cache. When…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **Nested prefetch_related() shouldn't trigger duplicate queries for the same…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
 
 ## Relationships
 
-- [Community 323](Community_323.md) (1 shared connections)
-- [Community 138](Community_138.md) (1 shared connections)
+- [Community 276](Community_276.md) (3 shared connections)
+- [Community 352](Community_352.md) (3 shared connections)
+- [Community 387](Community_387.md) (3 shared connections)
+- [Community 326](Community_326.md) (2 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 15 (75%)
+- INFERRED: 5 (25%)
 - AMBIGUOUS: 0 (0%)
 
 ---

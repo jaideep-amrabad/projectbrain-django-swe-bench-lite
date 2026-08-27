@@ -1,40 +1,41 @@
 # Community 667
 
-> 15 nodes · cohesion 0.14
+> 15 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **Place** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **UndergroundBar** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **.test_get_reverse_on_unsaved_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_reverse_object_cached_when_related_is_set()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_reverse_object_cached_when_related_is_unset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_reverse_object_does_not_exist_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_save_nullable_o2o_after_parent()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_set_reverse_on_unsaved_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_unsaved_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **Regression for #13839 and #17439. The target of a one-to-one relation is always…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **#10811 -- Assigning an unsaved object to a OneToOneField should raise an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **Regression for #13839 and #17439. DoesNotExist on a reverse one-to-one relation…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **Regression for #18153 and #19089. Accessing the reverse relation on an unsaved…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **Writing to the reverse relation on an unsaved object is impossible too.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- **Command** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **core/management/commands/inspectdb.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **.handle_inspection()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **gis/management/commands/inspectdb.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/inspectdb.py`
+- **Command** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/inspectdb.py`
+- **.get_field_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **.get_meta()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **.normalize_col_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **InspectDBCommand** (1 connections)
+- **.get_field_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/inspectdb.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **Modify the column name to make it Python-compatible as a field name** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **Given the database connection, the table name, and the cursor row description,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **Return a sequence comprising the lines of code necessary to construct the inner…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
 
 ## Relationships
 
-- [Community 398](Community_398.md) (9 shared connections)
-- [Community 571](Community_571.md) (4 shared connections)
-- [Community 1048](Community_1048.md) (1 shared connections)
+- [Community 13](Community_13.md) (3 shared connections)
+- [Community 72](Community_72.md) (2 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 770](Community_770.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/inspectdb.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (93%)
-- INFERRED: 2 (7%)
+- EXTRACTED: 26 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

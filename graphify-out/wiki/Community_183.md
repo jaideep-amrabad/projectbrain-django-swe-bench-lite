@@ -1,59 +1,58 @@
 # Community 183
 
-> 56 nodes · cohesion 0.08
+> 55 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **CommonMiddleware** (41 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
-- **CommonMiddlewareTest** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **get_response_404()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **get_response_empty()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_quoted()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_quoted_custom_urlconf()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.get_full_path_with_slash()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
-- **.process_request()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
-- **.should_redirect_with_slash()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
-- **.test_append_slash_disabled()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_disabled_custom_urlconf()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_have_slash()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_have_slash_custom_urlconf()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_leading_slashes()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_no_redirect_on_POST_in_DEBUG()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_no_redirect_on_POST_in_DEBUG_custom_urlconf()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_opt_out()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_redirect()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_redirect_custom_urlconf()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_redirect_querystring()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_redirect_querystring_have_slash()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_slashless_resource()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_slashless_resource_custom_urlconf()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_slashless_unknown()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_slashless_unknown_custom_urlconf()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- *... and 31 more nodes in this community*
+- **BaseFormSet** (49 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.initial_form_count()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.add_fields()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **._construct_form()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.total_form_count()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **ManagementForm** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.forms()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.management_form()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.as_table()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.clean()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.empty_form()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.get_form_kwargs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.add_prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.as_p()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.as_ul()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.errors()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.extra_forms()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.initial_forms()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **BaseTestFormSet** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **.__bool__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.get_default_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.get_ordering_widget()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- *... and 30 more nodes in this community*
 
 ## Relationships
 
-- [Community 7](Community_7.md) (26 shared connections)
-- [Community 52](Community_52.md) (7 shared connections)
-- [Community 279](Community_279.md) (5 shared connections)
-- [Community 56](Community_56.md) (4 shared connections)
-- [Community 999](Community_999.md) (2 shared connections)
-- [Community 16](Community_16.md) (2 shared connections)
-- [Community 176](Community_176.md) (1 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
-- [Community 55](Community_55.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
+- [Community 1](Community_1.md) (13 shared connections)
+- [Community 675](Community_675.md) (9 shared connections)
+- [Community 85](Community_85.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 163](Community_163.md) (2 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 195](Community_195.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 102](Community_102.md) (1 shared connections)
+- [Community 134](Community_134.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
-- `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 132 (77%)
-- INFERRED: 39 (23%)
+- EXTRACTED: 107 (97%)
+- INFERRED: 3 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

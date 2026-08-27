@@ -1,57 +1,51 @@
 # Community 180
 
-> 57 nodes · cohesion 0.04
+> 54 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **custom_lookups/tests.py** (43 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **YearLteTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **Author** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
-- **custom_lookups/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
-- **CustomisedMethodsTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **DateTimeLookupTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.test_datetime_output_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **Div3Transform** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **LookupTransformCallOrderTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **skipUnless** (4 connections)
-- **SubqueryTransformTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **YearLte** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **Article** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
-- **MySQLUnixTimestamp** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
-- **.test_bilateral_multi_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **DateTimeTransform** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **Div3Lookup** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **Exactly** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **InMonth** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.test_birthdate_month()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **YearExact** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **Div3BilateralTransform** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **LastDigitTransform** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.test_call_order()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **Mult3BilateralTransform** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- *... and 32 more nodes in this community*
+- **GEOSCoordSeq** (44 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **.getOrdinate()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **.setOrdinate()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **._checkindex()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **._checkdim()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **._get_point_3d()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **.__getitem__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **._set_point_3d()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **.__setitem__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **Set X with the value at the given index.** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **._get_point_2d()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **._get_x()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **._get_y()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **.getX()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **.getY()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **.getZ()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **._set_point_2d()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **._set_x()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **._set_y()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **.setX()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **.setY()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **.setZ()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **.tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **.clone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **.dims()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- *... and 29 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (20 shared connections)
-- [Community 527](Community_527.md) (7 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 10](Community_10.md) (3 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
-- [Community 72](Community_72.md) (1 shared connections)
+- [Community 30](Community_30.md) (4 shared connections)
+- [Community 424](Community_424.md) (3 shared connections)
+- [Community 33](Community_33.md) (2 shared connections)
+- [Community 19](Community_19.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
 
 ## Audit Trail
 
-- EXTRACTED: 101 (93%)
-- INFERRED: 8 (7%)
+- EXTRACTED: 88 (97%)
+- INFERRED: 3 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

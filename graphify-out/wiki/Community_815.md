@@ -1,37 +1,46 @@
 # Community 815
 
-> 10 nodes · cohesion 0.27
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **Command** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
-- **.handle()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
-- **._validate_username()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
-- **.get_input_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
-- **._get_input_message()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
-- **.add_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
-- **.execute()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
-- **Override this method if you want to customize data inputs or validation…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
-- **Validate username. If invalid, return a string error message.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
+- **require_jinja2()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **RenderTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
+- **.test_template_engine()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_using()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_using()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_render_with_using()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
+- **Decorator to enable a Jinja2 template engine in addition to the regular Django…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **A template view may provide a template engine.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_render()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
+- **.test_render_with_content_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
+- **.test_render_with_multiple_templates()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
+- **.test_render_with_status()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
 
 ## Relationships
 
-- [Community 16](Community_16.md) (3 shared connections)
-- [Community 920](Community_920.md) (2 shared connections)
-- [Community 106](Community_106.md) (2 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
-- [Community 153](Community_153.md) (1 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 506](Community_506.md) (2 shared connections)
+- [Community 795](Community_795.md) (1 shared connections)
+- [Community 301](Community_301.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 455](Community_455.md) (1 shared connections)
+- [Community 128](Community_128.md) (1 shared connections)
+- [Community 399](Community_399.md) (1 shared connections)
+- [Community 225](Community_225.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 26 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

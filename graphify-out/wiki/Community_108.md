@@ -1,66 +1,64 @@
 # Community 108
 
-> 81 nodes · cohesion 0.03
+> 82 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **MultiWidget** (25 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **TextInput** (25 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **MultiWidgetTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **TextInputTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
-- **MyMultiWidget** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **RadioSelectTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
-- **RadioSelect** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **DeepCopyWidget** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **.w()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **FormsI18nTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
-- **ComplexMultiWidget** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **.test_needs_multipart_true()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **.test_needs_multipart_false()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_boundfield_id_for_label_override_by_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_non_ascii_choices()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
-- **.test_constructor_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **.test_constructor_attrs_with_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **.test_deepcopy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **.test_nested_multiwidget()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **.test_no_whitespace_between_widgets()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **.test_subwidgets_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- *... and 56 more nodes in this community*
+- **WSGIRequest** (74 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **RequestsTests** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **FakePayload** (38 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **DataUploadMaxMemorySizeMultipartPostTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
+- **DataUploadMaxMemorySizeFormPostTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
+- **DataUploadMaxNumberOfFieldsFormPost** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
+- **DataUploadMaxNumberOfFieldsMultipartPost** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
+- **RequestHeadersTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_alternate_charset_POST()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_wsgirequest_path_with_force_script_name_trailing_slash()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_wsgirequest_with_force_script_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.urlencode()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.test_body_after_POST_multipart_form_data()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_body_after_POST_multipart_related()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_non_ascii_POST()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_POST_after_body_read()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_POST_after_body_read_and_stream_read()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_POST_after_body_read_and_stream_read_multipart()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_POST_immutable_for_multipart()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_POST_multipart_with_content_length_zero()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_read_after_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_value_after_read()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_wsgirequest_script_url_double_slashes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_wsgirequest_with_script_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- *... and 57 more nodes in this community*
 
 ## Relationships
 
-- [Community 50](Community_50.md) (13 shared connections)
-- [Community 72](Community_72.md) (13 shared connections)
-- [Community 34](Community_34.md) (4 shared connections)
-- [Community 126](Community_126.md) (3 shared connections)
-- [Community 644](Community_644.md) (2 shared connections)
-- [Community 385](Community_385.md) (2 shared connections)
-- [Community 223](Community_223.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 393](Community_393.md) (1 shared connections)
-- [Community 288](Community_288.md) (1 shared connections)
-- [Community 30](Community_30.md) (1 shared connections)
-- [Community 953](Community_953.md) (1 shared connections)
+- [Community 2](Community_2.md) (18 shared connections)
+- [Community 336](Community_336.md) (14 shared connections)
+- [Community 0](Community_0.md) (10 shared connections)
+- [Community 27](Community_27.md) (7 shared connections)
+- [Community 893](Community_893.md) (4 shared connections)
+- [Community 347](Community_347.md) (4 shared connections)
+- [Community 317](Community_317.md) (3 shared connections)
+- [Community 409](Community_409.md) (3 shared connections)
+- [Community 642](Community_642.md) (3 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 1085](Community_1085.md) (2 shared connections)
+- [Community 445](Community_445.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_nullbooleanfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
+- `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
+- `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/test_fakepayload.py`
 
 ## Audit Trail
 
-- EXTRACTED: 119 (76%)
-- INFERRED: 37 (24%)
+- EXTRACTED: 193 (89%)
+- INFERRED: 25 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

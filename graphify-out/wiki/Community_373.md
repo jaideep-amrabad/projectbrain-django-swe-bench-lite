@@ -1,52 +1,52 @@
 # Community 373
 
-> 34 nodes · cohesion 0.09
+> 29 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **AdminFormfieldForDBFieldTests** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.assertFormfield()** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_formfield_overrides_for_custom_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_formfield_overrides_m2m_filter_widget()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_formfield_overrides_widget_instances()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_m2m_widgets()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_CharField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_choices_with_radio_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_DateField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_DateTimeField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_EmailField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_field_with_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_FileField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_filtered_many_to_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_ForeignKey()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_formfield_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_formfield_overrides_for_datetime_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_IntegerField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_many_to_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_radio_fields_ForeignKey()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_raw_id_ForeignKey()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_raw_id_many_to_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_TextField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_TimeField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- *... and 9 more nodes in this community*
+- **BaseManager** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **ManagerDescriptor** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **ManagerTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.deconstruct()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **._get_queryset_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **._set_creation_counter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.test_manager_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.all()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.contribute_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.from_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.check()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__class_getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.db()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.db_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__new__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__get__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **Set the creation counter value for this instance and increment the class-level…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 280](Community_280.md) (7 shared connections)
-- [Community 145](Community_145.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 555](Community_555.md) (1 shared connections)
+- [Community 10](Community_10.md) (6 shared connections)
+- [Community 77](Community_77.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/widgetadmin.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 56 (88%)
-- INFERRED: 8 (12%)
+- EXTRACTED: 38 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

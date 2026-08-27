@@ -1,33 +1,35 @@
 # Community 785
 
-> 11 nodes · cohesion 0.25
+> 11 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **SQLInsertCompiler** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **.as_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **.assemble_as_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **.field_as_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **.prepare_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **.pre_save_val()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **.execute_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **Take a field and a value intended to be saved on that field, and return…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **Prepare a value to be used in a query by resolving it if it is an expression…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **Get the given field's value off the given obj. pre_save() is used for things…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **Take a sequence of N fields and a sequence of M rows of values, and generate…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **AccessorClashTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **._test_accessor_clash()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_clash_between_accessors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_fk_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_fk_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_fk_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_m2m_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_m2m_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_m2m_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_m2m_to_m2m_with_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_no_clash_for_hidden_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
 
 ## Relationships
 
-- [Community 215](Community_215.md) (3 shared connections)
-- [Community 71](Community_71.md) (2 shared connections)
+- [Community 23](Community_23.md) (3 shared connections)
+- [Community 74](Community_74.md) (1 shared connections)
+- [Community 786](Community_786.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
+- EXTRACTED: 22 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,51 +1,62 @@
 # Community 543
 
-> 20 nodes · cohesion 0.17
+> 26 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **OperationWriter** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **OperationWriterTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.serialize()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **.as_string()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **OperationSerializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **.serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **.feed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **.indent()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **.unindent()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **.test_args_kwargs_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_empty_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_expand_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_kwargs_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_multiline_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_nested_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_nested_operation_expand_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **Return a string of the file contents.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **FormsErrorMessagesTestCase** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
+- **.assertFormErrors()** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
+- **SplitDateTimeField** (14 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **SplitDateTimeFieldTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_splitdatetimefield.py`
+- **AssertFormErrorsMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
+- **.test_choicefield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
+- **.test_filefield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
+- **.test_multiplechoicefield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
+- **.test_regexfield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
+- **.test_splitdatetimefield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
+- **.test_label_split_datetime_not_displayed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
+- **.test_splitdatetimefield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_splitdatetimefield.py`
+- **.test_splitdatetimefield_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_splitdatetimefield.py`
+- **.test_splitdatetimefield_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_splitdatetimefield.py`
+- **.test_booleanfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
+- **.test_charfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
+- **.test_datefield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
+- **.test_datetimefield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
+- **.test_decimalfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
+- **.test_emailfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
+- **.test_floatfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
+- **.test_generic_ipaddressfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
+- **.test_integerfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
+- **.test_timefield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
+- **.test_urlfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 156](Community_156.md) (4 shared connections)
-- [Community 107](Community_107.md) (3 shared connections)
-- [Community 231](Community_231.md) (2 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 39](Community_39.md) (1 shared connections)
-- [Community 316](Community_316.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 51](Community_51.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 717](Community_717.md) (2 shared connections)
+- [Community 432](Community_432.md) (2 shared connections)
+- [Community 152](Community_152.md) (2 shared connections)
+- [Community 388](Community_388.md) (1 shared connections)
+- [Community 85](Community_85.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 182](Community_182.md) (1 shared connections)
+- [Community 102](Community_102.md) (1 shared connections)
+- [Community 448](Community_448.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_splitdatetimefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (93%)
-- INFERRED: 3 (7%)
+- EXTRACTED: 53 (78%)
+- INFERRED: 15 (22%)
 - AMBIGUOUS: 0 (0%)
 
 ---

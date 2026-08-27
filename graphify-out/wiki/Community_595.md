@@ -4,41 +4,36 @@
 
 ## Key Concepts
 
-- **SessionStore** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **._key_to_file()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **.load()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **._get_storage_path()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **._expiry_date()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **._last_modification()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **.create()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **.delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **.save()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **.clear_expired()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **.exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **Implement a file based session store.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **Get the file associated with this session key.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **Return the modification time of the file storing the session's content.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **Return the expiry time of the file storing the session's content.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **.clean()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
+- **ChainingTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
+- **setup** (14 connections)
+- **.test_chaining01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
+- **.test_chaining02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
+- **.test_chaining03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
+- **.test_chaining04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
+- **.test_chaining05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
+- **.test_chaining06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
+- **.test_chaining07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
+- **.test_chaining08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
+- **.test_chaining09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
+- **.test_chaining10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
+- **.test_chaining11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
+- **.test_chaining12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
+- **.test_chaining13()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
+- **.test_chaining14()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
+- **Chaining safeness-preserving filters should not alter the safe status.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 131](Community_131.md) (1 shared connections)
-- [Community 880](Community_880.md) (1 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
-- [Community 446](Community_446.md) (1 shared connections)
-- [Community 112](Community_112.md) (1 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (92%)
-- INFERRED: 3 (8%)
+- EXTRACTED: 35 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

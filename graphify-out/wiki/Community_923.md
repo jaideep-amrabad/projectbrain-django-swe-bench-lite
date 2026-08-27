@@ -1,33 +1,34 @@
 # Community 923
 
-> 7 nodes · cohesion 0.43
+> 8 nodes · cohesion 0.39
 
 ## Key Concepts
 
-- **check_string_if_invalid_is_string()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/templates.py`
-- **CheckTemplateStringIfInvalidTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **.test_string_if_invalid_not_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **.test_string_if_invalid_both_are_strings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **.test_string_if_invalid_first_is_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **.test_string_if_invalid_not_specified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **ValidationAssertions** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/__init__.py`
+- **test_custom_messages.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
+- **CustomMessagesTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
+- **CustomMessagesModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **.test_custom_null_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
+- **.test_custom_simple_validator_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
+- **.assertFailsValidation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/__init__.py`
+- **.assertFieldFailsValidationWithMessage()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/__init__.py`
 
 ## Relationships
 
+- [Community 121](Community_121.md) (5 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
 - [Community 1](Community_1.md) (3 shared connections)
-- [Community 314](Community_314.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/checks/templates.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 22 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

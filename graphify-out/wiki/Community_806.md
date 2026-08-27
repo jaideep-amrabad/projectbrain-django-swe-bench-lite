@@ -1,34 +1,46 @@
 # Community 806
 
-> 11 nodes · cohesion 0.31
+> 12 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **NowTagTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_now.py`
-- **setup** (8 connections)
-- **.test_now02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_now.py`
-- **.test_now03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_now.py`
-- **.test_now04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_now.py`
-- **.test_now01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_now.py`
-- **.test_now05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_now.py`
-- **.test_now06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_now.py`
-- **.test_now07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_now.py`
-- **.test_now_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_now.py`
-- **#15092 - Also accept simple quotes** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_now.py`
+- **Article** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **test_iterator.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
+- **QuerySetIteratorTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
+- **cursor_iter()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.test_default_iterator_chunk_size()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
+- **.test_iterator_chunk_size()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
+- **.test_no_chunked_reads()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
+- **Yield blocks of rows from a cursor and ensure the cursor is closed when done.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
+- **.test_iterator_invalid_chunk_size()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
+- **If the database backend doesn't support chunked reads, then the result of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
+- [Community 168](Community_168.md) (3 shared connections)
+- [Community 16](Community_16.md) (3 shared connections)
+- [Community 582](Community_582.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 423](Community_423.md) (1 shared connections)
+- [Community 325](Community_325.md) (1 shared connections)
+- [Community 593](Community_593.md) (1 shared connections)
+- [Community 604](Community_604.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_now.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 23 (74%)
+- INFERRED: 8 (26%)
 - AMBIGUOUS: 0 (0%)
 
 ---

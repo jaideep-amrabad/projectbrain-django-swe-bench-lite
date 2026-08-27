@@ -1,61 +1,65 @@
 # Community 236
 
-> 37 nodes · cohesion 0.07
+> 49 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **inlineformset_factory()** (66 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **TestModelFormsetOverridesTroughFormMeta** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_inline_formsets_save_as_new()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_inline_formsets_with_custom_save_method_related_instance()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_inline_formsets_with_nullable_unique_together()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_inline_formsets_with_wrong_fk_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_initial_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_delete_already_deleted()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_resubmit()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_callable_defaults()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_inline_formsets()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_inline_formsets_with_custom_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_inline_formsets_with_custom_save_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_inline_formsets_with_multi_table_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_unique_together_with_inlineformset_factory()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_unique_true_enforces_max_num_one()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_inlineformset_factory_absolute_max()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_inlineformset_factory_absolute_max_with_max_num()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_inlineformset_factory_can_delete_extra()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_inlineformset_factory_can_not_delete_extra()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_inlineformset_factory_error_messages_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_inlineformset_factory_field_class_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_inlineformset_factory_help_text_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_inlineformset_factory_labels_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_inlineformset_factory_widgets()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- *... and 12 more nodes in this community*
+- **filter** (57 connections)
+- **stringfilter()** (35 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **cut()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **addslashes()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **title()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **upper()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **center()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **make_list()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **FunctionTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_cut.py`
+- **escape_filter()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **safe()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **truncatechars()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_addslashes.py`
+- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_title.py`
+- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_upper.py`
+- **FunctionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_center.py`
+- **FunctionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_make_list.py`
+- **json_script()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **last()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **random()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **Mark the value as a string that should be auto-escaped.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **.test_backslashes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_addslashes.py`
+- **.test_non_string_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_addslashes.py`
+- **.test_quotes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_addslashes.py`
+- **.test_center()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_center.py`
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [Community 237](Community_237.md) (24 shared connections)
-- [Community 349](Community_349.md) (14 shared connections)
-- [Community 309](Community_309.md) (11 shared connections)
-- [Community 684](Community_684.md) (7 shared connections)
-- [Community 191](Community_191.md) (7 shared connections)
-- [Community 842](Community_842.md) (2 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 554](Community_554.md) (1 shared connections)
-- [Community 941](Community_941.md) (1 shared connections)
-- [Community 518](Community_518.md) (1 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
-- [Community 50](Community_50.md) (1 shared connections)
+- [Community 0](Community_0.md) (53 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 517](Community_517.md) (3 shared connections)
+- [Community 852](Community_852.md) (2 shared connections)
+- [Community 773](Community_773.md) (2 shared connections)
+- [Community 889](Community_889.md) (2 shared connections)
+- [Community 972](Community_972.md) (2 shared connections)
+- [Community 973](Community_973.md) (2 shared connections)
+- [Community 975](Community_975.md) (2 shared connections)
+- [Community 1040](Community_1040.md) (2 shared connections)
+- [Community 976](Community_976.md) (2 shared connections)
+- [Community 814](Community_814.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_addslashes.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_center.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_cut.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_make_list.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_title.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_upper.py`
 
 ## Audit Trail
 
-- EXTRACTED: 115 (97%)
-- INFERRED: 3 (3%)
+- EXTRACTED: 171 (99%)
+- INFERRED: 2 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

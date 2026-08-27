@@ -1,40 +1,34 @@
 # Community 787
 
-> 15 nodes · cohesion 0.19
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **geoapp/feeds.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **TestGeoRSS1** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **TestGeoRSS2** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **TestGeoAtom2** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **TestW3CGeo3** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **TestGeoAtom1** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **TestW3CGeo1** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **TestW3CGeo2** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **.item_geometry()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **.geometry()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **.item_geometry()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **.item_link()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **.geometry()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **.item_geometry()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
+- **ValidationTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **Choices** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_choices_validation_supports_named_groups()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_enum_choices_cleans_valid_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_enum_choices_invalid_input()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_integerfield_cleans_valid_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_integerfield_raises_error_on_empty_input()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_integerfield_raises_error_on_invalid_intput()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_integerfield_validates_zero_against_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_nullable_integerfield_cleans_none_on_null_and_blank_true()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_nullable_integerfield_raises_error_with_blank_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
 
 ## Relationships
 
-- [Community 92](Community_92.md) (3 shared connections)
-- [Community 42](Community_42.md) (3 shared connections)
-- [Community 791](Community_791.md) (1 shared connections)
-- [Community 481](Community_481.md) (1 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 12 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

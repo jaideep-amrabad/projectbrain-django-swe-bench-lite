@@ -1,47 +1,54 @@
 # Community 492
 
-> 23 nodes · cohesion 0.11
+> 24 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **.get_template()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **MultipleLocaleActivationBlockTranslateTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **TranslationBlockTranslateTagTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **MiscTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **.test_percent_formatting_in_blocktranslate()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **.test_bad_placeholder_1()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **.test_bad_placeholder_2()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **.test_template_tags_pgettext()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **.test_percent_in_translatable_block()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **.test_single_locale_activation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **.test_multiple_locale_btrans()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **.test_multiple_locale_deactivate_btrans()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **.test_multiple_locale_direct_switch_btrans()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **MiscBlockTranslationTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **.get_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **MultipleLocaleActivationBlockTransTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **.get_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **TranslationBlockTransnTagTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **{% blocktranslate %} takes message contexts into account (#14806).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **Error in translation file should not crash template rendering (#16516).…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **Error in translation file should not crash template rendering (#18393).…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **Simple baseline behavior with one locale for all the supported i18n constructs.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **Python's %-formatting is properly escaped in blocktranslate, singular, or…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
+- **GZipMiddleware** (22 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/gzip.py`
+- **GZipMiddlewareTest** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.decompress()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_compress_file_response()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_compress_deterministic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_compress_non_200_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_compress_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_compress_streaming_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_compress_streaming_response_unicode()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.get_mtime()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_no_compress_compressed_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_no_compress_incompressible_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_no_compress_short_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **Compression is performed on responses with streaming content.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **Compress content if the browser allows gzip compression. Set the Vary header…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/gzip.py`
+- **Tests the GZipMiddleware.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **Compression is performed on responses with compressible content.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **Compression is performed on FileResponse.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **Compression is performed on responses with a status other than 200 (#10762).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **Compression isn't performed on responses with short content.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **Compression isn't performed on responses that are already compressed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **Compression isn't performed on responses with incompressible content.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **Compression results are the same for the same content and don't include a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
 
 ## Relationships
 
-- [Community 38](Community_38.md) (14 shared connections)
-- [Community 1](Community_1.md) (9 shared connections)
-- [Community 7](Community_7.md) (5 shared connections)
+- [Community 311](Community_311.md) (6 shared connections)
+- [Community 286](Community_286.md) (3 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 336](Community_336.md) (2 shared connections)
+- [Community 225](Community_225.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/gzip.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 51 (89%)
+- INFERRED: 6 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

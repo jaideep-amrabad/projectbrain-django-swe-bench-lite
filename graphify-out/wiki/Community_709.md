@@ -1,38 +1,38 @@
 # Community 709
 
-> 13 nodes · cohesion 0.17
+> 13 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **UserListA** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **test_mutable_list.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **mutable_list.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **UserListB** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **ListMixinTestSingle** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **nextRange()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **._get_single_external()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **._set_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **._set_single()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- **AutocompleteMixinTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **AlbumForm** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **.test_render_options_not_required_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **.test_render_options_required_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **.test_build_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **.test_build_attrs_no_custom_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **.test_build_attrs_not_required_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **.test_build_attrs_required_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **.test_get_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **.test_media()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **.test_render_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **Empty option is present if the field isn't required.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
 
 ## Relationships
 
-- [Community 402](Community_402.md) (3 shared connections)
-- [Community 546](Community_546.md) (3 shared connections)
-- [Community 42](Community_42.md) (1 shared connections)
+- [Community 1](Community_1.md) (10 shared connections)
+- [Community 52](Community_52.md) (3 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 25 (83%)
+- INFERRED: 5 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,39 +1,55 @@
 # Community 434
 
-> 15 nodes · cohesion 0.14
+> 25 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **LazyStream** (12 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **._update_unget_history()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.unget()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.__next__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.read()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.tell()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **The LazyStream wrapper allows one to get and "unget" bytes from a stream. Given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **Every LazyStream must have a producer when instantiated. A producer is an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **Used when the exact number of bytes to read is unimportant. Return whatever…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **Used to invalidate/disable this lazy stream. Replace the producer with an empty…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **Place bytes back onto the front of the lazy stream. Future calls to read() will…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **Update the unget history as a sanity check to see if we've pushed back the same…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **Meta** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Answer** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Category** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Chapter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Plot** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **UserProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Answer2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Color** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Color2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Language** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Pizza** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **PlotProxy** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **ReadablePizza** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **ReadOnlyPizza** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **FoodDelivery** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **CategoryInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **ChapterInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **User** (1 connections)
+- **Proxy a model with a different app_label.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 633](Community_633.md) (1 shared connections)
-- [Community 394](Community_394.md) (1 shared connections)
+- [Community 78](Community_78.md) (16 shared connections)
+- [Community 68](Community_68.md) (15 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 375](Community_375.md) (1 shared connections)
+- [Community 563](Community_563.md) (1 shared connections)
+- [Community 122](Community_122.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 57 (92%)
+- INFERRED: 5 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,27 +1,53 @@
 # Community 1059
 
-> 4 nodes · cohesion 0.50
+> 22 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **.test_session_modifying_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_session_engine_is_invalid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_sessions_app_is_not_installed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **Request a page that modifies the session** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **StateApps** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **InvalidBasesError** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
+- **AppConfigStub** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **.__init__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **.render_multiple()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **.construct_managers()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **.render()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **ValueError** (2 connections)
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **.concrete_apps()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **.bulk_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **.clone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **.register_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **A model's base classes can't be resolved.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
+- **.import_models()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **Stub of an AppConfig. Only provides a label and a dict of models.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **Subclass of the global Apps registry class to better handle dynamic model…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **Return a clone of this registry.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **Deep-clone the managers using deconstruction.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **Create a Model object from our current state into the given apps.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **.unregister_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
 
 ## Relationships
 
-- [Community 551](Community_551.md) (3 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
+- [Community 50](Community_50.md) (7 shared connections)
+- [Community 18](Community_18.md) (4 shared connections)
+- [Community 63](Community_63.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 25](Community_25.md) (1 shared connections)
+- [Community 482](Community_482.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 59](Community_59.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 42 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

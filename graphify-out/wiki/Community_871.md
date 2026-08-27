@@ -1,35 +1,32 @@
 # Community 871
 
-> 10 nodes · cohesion 0.36
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **LoginURLSettings** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.assertLoginURLEquals()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_https_login_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_remote_login_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_remote_login_url_with_next_querystring()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_lazy_login_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_login_url_with_querystring()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_named_login_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_standard_login_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **Tests for settings.LOGIN_URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **TextFieldTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
+- **.test_choices_generates_select_widget()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
+- **.test_max_length_passed_to_formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
+- **.test_to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
+- **TextField passes its max_length attribute to form fields created using their…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
+- **A TextField with choices uses a Select widget.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
+- **TextField.to_python() should return a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
+- **.test_emoji()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
+- **.test_lookup_integer_in_textfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
 
 ## Relationships
 
-- [Community 7](Community_7.md) (7 shared connections)
-- [Community 16](Community_16.md) (3 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
-- [Community 792](Community_792.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (89%)
-- INFERRED: 3 (11%)
+- EXTRACTED: 10 (91%)
+- INFERRED: 1 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

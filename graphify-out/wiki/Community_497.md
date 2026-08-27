@@ -1,47 +1,49 @@
 # Community 497
 
-> 20 nodes · cohesion 0.13
+> 22 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **AbstractBaseSession** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- **base_session.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- **sessions/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/models.py`
-- **Session** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/models.py`
-- **BaseSessionManager** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- **CustomSession** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
-- **.encode()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- **.get_decoded()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- **.get_session_store_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- **.save()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- **SessionManager** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- **This module allows importing AbstractBaseSession even when…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- **Return the given session dictionary serialized and encoded as a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/models.py`
-- **Django provides full support for anonymous sessions. The session framework lets…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/models.py`
-- **.get_session_store_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/models.py`
-- **.get_session_store_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
-- **A session model with a column for an account ID.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
+- **test_lazyobject.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **SimpleLazyObjectPickleTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **BaseBaz** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **Baz** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_pickle_with_reduce()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **utils_tests/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/models.py`
+- **BazProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **Category** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/models.py`
+- **CategoryInfo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/models.py`
+- **.test_pickle_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.__reduce__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.__reduce_ex__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **A base class with a funky __reduce__ method, meant to simulate the __reduce__…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **A class that inherits from BaseBaz and has its own __reduce_ex__ method.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **A class that acts as a proxy for Baz. It does some scary mucking about with…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **Regression test for pickling a SimpleLazyObject wrapping a model (#25389). Also…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **Test in a fairly synthetic setting.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **Test on an actual model, based on the report in #25426.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (6 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 646](Community_646.md) (2 shared connections)
-- [Community 72](Community_72.md) (1 shared connections)
+- [Community 71](Community_71.md) (4 shared connections)
+- [Community 264](Community_264.md) (3 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 40 (93%)
+- INFERRED: 3 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

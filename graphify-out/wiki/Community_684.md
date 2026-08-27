@@ -1,46 +1,39 @@
 # Community 684
 
-> 19 nodes · cohesion 0.17
+> 14 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **InlineFormsetTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- **model_formsets/test_uuid.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- **#24958 - Variant of test_inlineformset_factory_nulls_default_pks for the case…** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- **AutoPKChildOfUUIDPKParent** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **AutoPKParent** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **ChildRelatedViaAK** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **ChildWithEditablePK** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **ParentWithUUIDAlternateKey** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **UUIDPKChild** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **UUIDPKChildOfAutoPKParent** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **UUIDPKParent** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **.test_inlineformset_factory_ignores_default_pks_on_submit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- **.test_inlineformset_factory_nulls_default_pks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- **.test_inlineformset_factory_nulls_default_pks_alternate_key_relation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- **.test_inlineformset_factory_nulls_default_pks_auto_parent_uuid_child()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- **.test_inlineformset_factory_nulls_default_pks_child_editable_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- **.test_inlineformset_factory_nulls_default_pks_uuid_parent_auto_child()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- **#24377 - If we're adding a new object, a parent's auto-generated pk from the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- **#24377 - Inlines with a model field default should ignore that default value to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- **ExplicitRelatedQueryNameClashTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **._test_explicit_related_query_name_clash()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_fk_to_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_fk_to_integer()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_fk_to_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_m2m_to_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_m2m_to_integer()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_m2m_to_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_hidden_fk_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_hidden_fk_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_hidden_fk_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_hidden_m2m_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_hidden_m2m_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_hidden_m2m_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
 
 ## Relationships
 
-- [Community 191](Community_191.md) (9 shared connections)
-- [Community 236](Community_236.md) (7 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 50](Community_50.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 74](Community_74.md) (1 shared connections)
+- [Community 786](Community_786.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (84%)
-- INFERRED: 8 (16%)
+- EXTRACTED: 29 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

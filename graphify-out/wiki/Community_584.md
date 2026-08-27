@@ -1,44 +1,44 @@
 # Community 584
 
-> 18 nodes · cohesion 0.12
+> 17 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **DecimalFieldTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **BigD** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.test_save_without_float_conversion()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **.test_filter_with_strings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **.test_lookup_really_big_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **.test_roundtrip_with_trailing_zeros()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **.test_default()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **.test_fetch_from_db_without_float_rounding()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **.test_get_prep_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **.test_invalid_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **.test_max_decimal_places_validation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **.test_max_digits_validation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **.test_max_whole_digits_validation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **.test_to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **Should be able to filter decimal fields using strings (#8023).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **Ensure decimals don't go through a corrupting float conversion during save…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **Really big values can be used in a filter statement.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **Trailing zeros in the fractional part aren't truncated.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.add_field()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.column_sql()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._create_fk_sql()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._alter_column_default_sql()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.table_sql()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.create_model()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._fk_constraint_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.skip_default()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._column_default_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.prepare_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Take a model and return its table definition.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Take a field and return its column definition. The field must already have had…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Some backends don't accept default values for certain columns types (i.e. MySQL…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Only used for backends which have requires_literal_defaults feature** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Return the SQL to use in a DEFAULT clause. The resulting string should contain…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Create a table and any accompanying indexes or unique constraints for the given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Create a field on a model. Usually involves adding a column, but may involve…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 275](Community_275.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 472](Community_472.md) (1 shared connections)
+- [Community 296](Community_296.md) (20 shared connections)
+- [Community 660](Community_660.md) (3 shared connections)
+- [Community 461](Community_461.md) (3 shared connections)
+- [Community 673](Community_673.md) (1 shared connections)
+- [Community 536](Community_536.md) (1 shared connections)
+- [Community 346](Community_346.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (91%)
-- INFERRED: 2 (9%)
+- EXTRACTED: 51 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

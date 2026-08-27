@@ -1,43 +1,56 @@
 # Community 605
 
-> 17 nodes · cohesion 0.15
+> 24 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **DataTypesTestCase** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
-- **Donut** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
-- **datatypes/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
-- **.test_error_on_timezone()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
-- **RumBaba** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
-- **.test_boolean_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
-- **.test_date_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
-- **.test_datefield_auto_now_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
-- **.test_textfields_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
-- **.test_time_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
-- **.test_year_boundaries()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
-- **This is a basic model to test saving and loading boolean and date-related…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
-- **Year boundary tests (ticket #3689)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
-- **TextField values returned from the database should be str.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
-- **Regression test for #8354: the MySQL and Oracle backends should raise an error…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
-- **Regression test for #10970, auto_now_add for DateField should store a Python…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **cache/backends/base.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **memcached.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **DummyCache** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **InvalidCacheKey** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **get_key_func()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **CacheKeyWarning** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **memcache_key_warnings()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.validate_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **default_key_func()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **cache/backends/dummy.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **RuntimeWarning** (1 connections)
+- **Warn about keys that would not be portable to the memcached backend. This…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **Default function to generate keys. Construct the key used by all other methods.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **Function to decide which key function to use. Default to ``default_key_func``.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.add()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.get()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.has_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.set()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **.touch()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- **Memcached cache backend** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
 
 ## Relationships
 
-- [Community 10](Community_10.md) (5 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 167](Community_167.md) (1 shared connections)
+- [Community 2](Community_2.md) (11 shared connections)
+- [Community 275](Community_275.md) (7 shared connections)
+- [Community 513](Community_513.md) (6 shared connections)
+- [Community 101](Community_101.md) (3 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 229](Community_229.md) (1 shared connections)
+- [Community 606](Community_606.md) (1 shared connections)
+- [Community 274](Community_274.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (90%)
-- INFERRED: 3 (10%)
+- EXTRACTED: 58 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,37 +1,31 @@
 # Community 837
 
-> 11 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.36
 
 ## Key Concepts
 
-- **.validate_no_atomic_block()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **._rollback()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **._set_autocommit()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **._commit()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **.run_and_clear_commit_hooks()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **._rollback()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **Commit a transaction and reset the dirty flag.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **Roll back a transaction and reset the dirty flag.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **Backend-specific implementation to enable or disable autocommit.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **Enable or disable autocommit. The usual way to start a transaction is to turn…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **Raise an error if an atomic block is active.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **InvalidStringTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_invalid_string.py`
+- **setup** (8 connections)
+- **.test_invalidstr01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_invalid_string.py`
+- **.test_invalidstr02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_invalid_string.py`
+- **.test_invalidstr03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_invalid_string.py`
+- **.test_invalidstr04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_invalid_string.py`
+- **.test_invalidstr04_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_invalid_string.py`
+- **.test_invalidstr05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_invalid_string.py`
+- **.test_invalidstr06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_invalid_string.py`
+- **.test_invalidstr07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_invalid_string.py`
 
 ## Relationships
 
-- [Community 41](Community_41.md) (5 shared connections)
-- [Community 43](Community_43.md) (4 shared connections)
-- [Community 834](Community_834.md) (2 shared connections)
-- [Community 865](Community_865.md) (1 shared connections)
-- [Community 755](Community_755.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_invalid_string.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

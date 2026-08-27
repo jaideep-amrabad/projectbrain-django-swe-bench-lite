@@ -1,51 +1,44 @@
 # Community 211
 
-> 50 nodes · cohesion 0.05
+> 16 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **SyndicationFeedTest** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.assertChildNodeContent()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_rss2_feed()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.assertChildNodes()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_rss091_feed()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.assertCategories()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_atom_feed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_feed_last_modified_time_naive_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_get_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_latest_post_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_naive_datetime_conversion()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_template_context_feed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_template_feed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **Test if the 'isPermaLink' attribute of <guid> element of an item in the RSS…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_add_domain()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_atom_feed_published_and_updated_elements()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_aware_datetime_conversion()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_custom_feed_generator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_feed_last_modified_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_feed_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_item_link_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_rss2_feed_guid_permalink_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_rss2_feed_guid_permalink_true()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_secure_urls()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_title_escaping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- *... and 25 more nodes in this community*
+- **FileBasedCacheTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.setUp()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **FileBasedCachePathLibTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.mkdtemp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_cache_dir_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.mkdtemp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_clear_does_not_remove_cache_dir()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_creates_cache_dir_if_nonexistent()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_empty_cache_file_considered_expired()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_get_does_not_ignore_non_filenotfound_exceptions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_get_ignores_enoent()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_ignores_non_cache_files()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **skipIf** (1 connections)
+- **Specific test cases for the file-based cache.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Relationships
 
-- [Community 10](Community_10.md) (7 shared connections)
-- [Community 372](Community_372.md) (2 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 171](Community_171.md) (1 shared connections)
+- [Community 854](Community_854.md) (2 shared connections)
+- [Community 101](Community_101.md) (2 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 278](Community_278.md) (1 shared connections)
+- [Community 927](Community_927.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 68 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 25 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

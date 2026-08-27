@@ -1,32 +1,36 @@
 # Community 906
 
-> 8 nodes · cohesion 0.46
+> 10 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **ExplicitRelatedNameClashTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **._test_explicit_related_name_clash()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_fk_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_fk_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_fk_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_m2m_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_m2m_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_m2m_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **m2m_multiple/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/tests.py`
+- **m2m_multiple/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
+- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
+- **Category** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
+- **M2MMultipleTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/tests.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
+- **.test_multiple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
+- **Multiple many-to-many relationships between the same two tables In this…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
 
 ## Relationships
 
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 118](Community_118.md) (1 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 18 (86%)
+- INFERRED: 3 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

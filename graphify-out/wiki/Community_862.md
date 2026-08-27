@@ -4,33 +4,32 @@
 
 ## Key Concepts
 
-- **QuerySetIteratorTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
-- **cursor_iter()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **.test_default_iterator_chunk_size()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
-- **.test_iterator_chunk_size()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
-- **.test_no_chunked_reads()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
-- **Yield blocks of rows from a cursor and ensure the cursor is closed when done.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
-- **.test_iterator_invalid_chunk_size()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
-- **If the database backend doesn't support chunked reads, then the result of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
+- **SlugPage** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **test_empty_join.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
+- **RestrictedConditionsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
+- **.test_restrictions_with_no_joining_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **It's possible to create a working related field that doesn't use any joining…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
+- **.test_empty_join_conditions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
 
 ## Relationships
 
-- [Community 10](Community_10.md) (2 shared connections)
-- [Community 215](Community_215.md) (1 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 1013](Community_1013.md) (1 shared connections)
+- [Community 621](Community_621.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (80%)
-- INFERRED: 3 (20%)
+- EXTRACTED: 15 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

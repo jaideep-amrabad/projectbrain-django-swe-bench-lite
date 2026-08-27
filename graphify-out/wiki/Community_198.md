@@ -1,62 +1,58 @@
 # Community 198
 
-> 50 nodes · cohesion 0.05
+> 41 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **test_runner/tests.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **dependency_ordered()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **AutoIncrementResetTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **test_runner/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/models.py`
-- **CustomTestRunnerOptionsSettingsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **CustomTestRunnerOptionsCmdlineTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **SetupDatabasesTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **connections_support_transactions()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **DependencyOrderingTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **Person** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/models.py`
-- **.setUp()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **Through** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/models.py`
-- **Ticket17477RegressionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **B** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/models.py`
-- **._test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_empty_default_database()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **ThroughBase** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/models.py`
-- **.test_autoincrement_reset1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_autoincrement_reset2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_chained_dependencies()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_circular_dependencies()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_multiple_dependencies()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_own_alias_dependency()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- *... and 25 more nodes in this community*
+- **ExceptionReporterFilterTests** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **SafeExceptionReporterFilter** (21 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.is_active()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **UnsafeExceptionReporterFilter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **.cleanse_setting()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.get_cleansed_multivaluedict()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.get_traceback_frame_variables()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.cleanse_special_types()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.get_post_parameters()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.get_safe_settings()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.get_safe_request_meta()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **CustomExceptionReporterFilter** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_callable_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_callable_settings_forbidding_to_set_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_cleanse_setting_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_cleanse_setting_ignore_case()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_cleanse_setting_recurses_in_dictionary()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_cleanse_setting_recurses_in_dictionary_with_non_string_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_cleanse_setting_recurses_in_list_tuples()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_dict_setting_with_non_str_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_request_meta_filtering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_sensitive_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_settings_with_sensitive_keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **Return a dictionary of the settings module with values of sensitive settings…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **Return a dictionary of request.META with sensitive values redacted.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [Community 60](Community_60.md) (9 shared connections)
-- [Community 260](Community_260.md) (5 shared connections)
-- [Community 230](Community_230.md) (4 shared connections)
-- [Community 20](Community_20.md) (3 shared connections)
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 52](Community_52.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 21](Community_21.md) (2 shared connections)
-- [Community 535](Community_535.md) (1 shared connections)
-- [Community 265](Community_265.md) (1 shared connections)
+- [Community 4](Community_4.md) (10 shared connections)
+- [Community 125](Community_125.md) (9 shared connections)
+- [Community 707](Community_707.md) (1 shared connections)
+- [Community 248](Community_248.md) (1 shared connections)
+- [Community 694](Community_694.md) (1 shared connections)
+- [Community 509](Community_509.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 490](Community_490.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 104 (95%)
-- INFERRED: 5 (5%)
+- EXTRACTED: 72 (91%)
+- INFERRED: 7 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

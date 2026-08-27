@@ -1,47 +1,57 @@
 # Community 638
 
-> 16 nodes · cohesion 0.19
+> 23 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **queryset_pickle/models.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **queryset_pickle/tests.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **Event** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **AbstractEvent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **Container** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **Group** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **Happening** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **MyEvent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **M2MModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **Numbers** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **.test_pickle_filteredrelation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **Edition** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **.get_static_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **SomeModel** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **standalone_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **check_finders()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/checks.py`
+- **BaseFinder** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **FindersCheckTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
+- **staticfiles/apps.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/apps.py`
+- **StaticFilesConfig** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/apps.py`
+- **.test_check_finders()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
+- **staticfiles_config.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/apps/staticfiles_config.py`
+- **.test_dirs_contains_static_root()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
+- **.test_dirs_contains_static_root_in_tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
+- **.test_dirs_not_tuple_or_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
+- **.test_prefix_contains_trailing_slash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
+- **.ready()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/apps.py`
+- **.find()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **IgnorePatternsAppConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/apps/staticfiles_config.py`
+- **.test_base_finder_check_not_implemented()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
+- **.test_no_errors_with_test_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
+- **Check all registered staticfiles finders.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/checks.py`
+- **.check()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **A base file finder to be used for custom staticfiles finder classes.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **Given a relative file path, find an absolute file path. If the ``all``…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **Given an optional list of paths to ignore, return a two item iterable…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **check_finders() concatenates all errors.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
 
 ## Relationships
 
-- [Community 365](Community_365.md) (8 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 1014](Community_1014.md) (3 shared connections)
-- [Community 10](Community_10.md) (2 shared connections)
-- [Community 1052](Community_1052.md) (2 shared connections)
-- [Community 72](Community_72.md) (1 shared connections)
-- [Community 107](Community_107.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 2](Community_2.md) (8 shared connections)
+- [Community 8](Community_8.md) (4 shared connections)
+- [Community 50](Community_50.md) (3 shared connections)
+- [Community 281](Community_281.md) (2 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
+- [Community 59](Community_59.md) (1 shared connections)
+- [Community 997](Community_997.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/apps.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/checks.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/apps/staticfiles_config.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (83%)
-- INFERRED: 8 (17%)
+- EXTRACTED: 50 (94%)
+- INFERRED: 3 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

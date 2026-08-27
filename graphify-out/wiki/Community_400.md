@@ -1,59 +1,57 @@
 # Community 400
 
-> 29 nodes · cohesion 0.07
+> 21 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **SerializersTestBase** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **ComplexModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.test_one_to_one_as_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_pre_1000ad_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_serialize_to_stream()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_serialize_with_null_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_altering_serialized_output()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_deserialize_force_insert()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_deterministic_mapping_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_pkless_serialized_strings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_serialize_field_subset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_serialize_proxy_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_serialize_specific_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_serializer_roundtrip()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **Basic serialization works.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **Serialized content can be deserialized.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **The ability to create new objects by modifying serialized content.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **If you use your own primary key field (such as a OneToOneField), it doesn't…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **Output can be restricted to a subset of fields** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **Serialized data with no primary key results in a model instance with no id** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **Year values before 1000AD are properly formatted** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **Serialized strings without PKs can be turned into models** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **Mapping such as fields should be deterministically ordered. (#24558)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **Deserialized content can be saved with force_insert as a parameter.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- *... and 4 more nodes in this community*
+- **LiveServerTestCase** (23 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **classproperty** (19 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **SeleniumTestCase** (13 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.setUpClass()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **I18nSeleniumTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **._create_server_thread()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.tearDownClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._tearDownClassInternal()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.test_multiple_catalogs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.allowed_host()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.disable_implicit_wait()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.live_server_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.allowed_host()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.live_server_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.test_javascript_gettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **Disable the default implicit wait.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **._tearDownClassInternal()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **Do basically the same as TransactionTestCase but also launch a live HTTP server…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__get__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **Decorator that converts a method with a single cls argument into a property…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
 
 ## Relationships
 
-- [Community 20](Community_20.md) (6 shared connections)
-- [Community 457](Community_457.md) (5 shared connections)
-- [Community 10](Community_10.md) (2 shared connections)
-- [Community 573](Community_573.md) (1 shared connections)
-- [Community 550](Community_550.md) (1 shared connections)
-- [Community 910](Community_910.md) (1 shared connections)
-- [Community 980](Community_980.md) (1 shared connections)
-- [Community 981](Community_981.md) (1 shared connections)
-- [Community 596](Community_596.md) (1 shared connections)
-- [Community 21](Community_21.md) (1 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
+- [Community 2](Community_2.md) (10 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 167](Community_167.md) (3 shared connections)
+- [Community 175](Community_175.md) (3 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 1740](Community_1740.md) (2 shared connections)
+- [Community 50](Community_50.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 87](Community_87.md) (1 shared connections)
+- [Community 739](Community_739.md) (1 shared connections)
+- [Community 226](Community_226.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (90%)
-- INFERRED: 5 (10%)
+- EXTRACTED: 63 (94%)
+- INFERRED: 4 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

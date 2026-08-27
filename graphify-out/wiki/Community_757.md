@@ -4,48 +4,45 @@
 
 ## Key Concepts
 
-- **trans_null.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **LookupError** (6 connections)
-- **.get_registered_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
-- **.lazy_model_operation()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
-- **.get_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
-- **get_supported_language_variant()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **gettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **ngettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **npgettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **pgettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **Return the model with the given case-insensitive model_name. Raise LookupError…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
-- **Similar to get_model(), but doesn't require that an app exists with the given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
-- **Take a function and a number of ("app_label", "modelname") tuples, and when all…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
-- **activate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **check_for_language()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **deactivate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **get_language()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **get_language_bidi()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **get_language_from_path()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **get_language_from_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **DummyStorage** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **TestCollectionNonLocalStorage** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestCollectionDryRun** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestConfiguration** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestNoFilesCreated** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestCollectionDryRunManifestStaticFilesStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **.test_collectstatis_check()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **.test_location_empty()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **.get_modified_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **.run_collectstatic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **.test_storage_properties()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **.test_local_storage_detection_helper()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **.test_no_files_created()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **.exists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **._save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **A storage class that implements get_modified_time() but raises…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **Make sure no files were create in the destination directory.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **Test ``--dry-run`` option for ``collectstatic`` management command.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **Tests for a Storage that implements get_modified_time() but not path() (#15035).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
 
 ## Relationships
 
-- [Community 81](Community_81.md) (3 shared connections)
-- [Community 866](Community_866.md) (1 shared connections)
-- [Community 46](Community_46.md) (1 shared connections)
-- [Community 69](Community_69.md) (1 shared connections)
-- [Community 111](Community_111.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 72](Community_72.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
+- [Community 2](Community_2.md) (7 shared connections)
+- [Community 8](Community_8.md) (4 shared connections)
+- [Community 94](Community_94.md) (3 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 133](Community_133.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/apps/config.py`
-- `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (71%)
-- INFERRED: 9 (29%)
+- EXTRACTED: 36 (92%)
+- INFERRED: 3 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

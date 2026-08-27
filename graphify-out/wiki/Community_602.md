@@ -1,43 +1,52 @@
 # Community 602
 
-> 17 nodes · cohesion 0.12
+> 36 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **ManageMultipleSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **multiple: manage.py can execute user commands if settings are provided as…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **multiple: manage.py can't execute user commands using default settings** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **A series of tests for manage.py when multiple settings files (including the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **multiple: manage.py builtin commands fail with an error when no settings…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **multiple: manage.py builtin commands succeed if settings are provided as…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **multiple: manage.py can execute builtin commands if settings are provided in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **multiple: manage.py builtin commands fail if settings file (from argument)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **multiple: manage.py builtin commands fail if settings file (from environment)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **ContentTypesTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
+- **ContentTypeManager** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **._add_to_cache()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **.get_for_model()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **.get_for_models()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **.get_for_id()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **._get_from_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **._get_opts()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **.test_get_for_model_create_contenttype()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
+- **.clear_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **.get_by_natural_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **.test_app_labeled_name_unknown_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
+- **.test_cache_not_shared_between_managers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
+- **.test_get_for_concrete_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
+- **.test_get_for_concrete_models()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
+- **.test_lookup_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
+- **.test_missing_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **Lookup a ContentType by ID. Use the same shared cache as get_for_model (though…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **Clear out the content-type cache.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **Insert a ContentType into the cache.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **Return the ContentType object for a given model, creating the ContentType if…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **Given *models, return a dictionary mapping {model: content_type}.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [Community 123](Community_123.md) (8 shared connections)
-- [Community 257](Community_257.md) (8 shared connections)
-- [Community 110](Community_110.md) (8 shared connections)
-- [Community 260](Community_260.md) (2 shared connections)
-- [Community 292](Community_292.md) (1 shared connections)
+- [Community 89](Community_89.md) (5 shared connections)
+- [Community 207](Community_207.md) (2 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 74](Community_74.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 49 (94%)
+- INFERRED: 3 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,29 +1,28 @@
 # Community 1005
 
-> 5 nodes · cohesion 0.60
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **Ticket19607Tests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **LessonEntry** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **WordEntry** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **.setUpTestData()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_bug()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **MyCustomAtom1Feed** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.add_item_elements()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.add_root_elements()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.item_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.root_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **Test of a custom feed generator class.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
 
 ## Relationships
 
-- [Community 278](Community_278.md) (5 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 178](Community_178.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (83%)
-- INFERRED: 2 (17%)
+- EXTRACTED: 6 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

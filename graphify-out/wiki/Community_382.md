@@ -1,52 +1,48 @@
 # Community 382
 
-> 30 nodes · cohesion 0.07
+> 29 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **ExtraRegressTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
-- **TestObject** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/models.py`
-- **RevisionableModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/models.py`
-- **Order** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/models.py`
-- **.test_regression_10847()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
-- **.test_regression_17877()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
-- **.test_values_with_extra()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
-- **.test_dates_query()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
-- **.test_regression_7314_7372()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
-- **.test_regression_7957()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
-- **.test_regression_7961()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
-- **.test_regression_8039()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
-- **.test_regression_8063()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
-- **.test_regression_8819()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
-- **.new_revision()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/models.py`
-- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/models.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
-- **.test_extra_stay_tied()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
-- **.test_extra_values_distinct_ordering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
-- **Regression test for #7961: When not using a portion of an extra(...) in a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
-- **Regression test for #8063: limiting a query shouldn't discard any extra() bits.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
-- **Regression test for #8039: Ordering sometimes removed relevant tables from…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
-- **Regression test for #8819: Fields in the extra(select=...) list should be…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
-- **When calling the dates() method on a queryset with extra selection columns, we…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
-- *... and 5 more nodes in this community*
+- **CycleTagTests** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **setup** (25 connections)
+- **.test_cycle29()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle30()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle13()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle14()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle15()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle16()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle17()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle18()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle19()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle20()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle21()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle22()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle23()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle24()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle25()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle26()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle27()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 10](Community_10.md) (4 shared connections)
-- [Community 52](Community_52.md) (3 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/extra_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
 
 ## Audit Trail
 
-- EXTRACTED: 37 (90%)
-- INFERRED: 4 (10%)
+- EXTRACTED: 54 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

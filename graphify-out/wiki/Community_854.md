@@ -1,35 +1,44 @@
 # Community 854
 
-> 9 nodes · cohesion 0.31
+> 15 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **UserAttributeSimilarityValidator** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **UserAttributeSimilarityValidatorTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **.test_validate_property()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **.validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **.test_help_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **.test_validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **Validate whether the password is sufficiently different from the user's…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **.get_help_text()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **DBCacheTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.tearDown()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.drop_table()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.tearDown()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_createcachetable_with_table_argument()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **DBCacheWithTimeZoneTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.create_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_createcachetable_dry_run_mode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_delete_many_num_queries()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_get_many_num_queries()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_second_call_doesnt_crash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **Delete and recreate cache table with legacy behavior (explicitly specifying the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Relationships
 
-- [Community 920](Community_920.md) (3 shared connections)
-- [Community 72](Community_72.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 101](Community_101.md) (2 shared connections)
+- [Community 211](Community_211.md) (2 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 36](Community_36.md) (1 shared connections)
+- [Community 278](Community_278.md) (1 shared connections)
+- [Community 1070](Community_1070.md) (1 shared connections)
+- [Community 557](Community_557.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 29 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

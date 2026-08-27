@@ -1,42 +1,45 @@
 # Community 578
 
-> 18 nodes · cohesion 0.15
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **FieldFile** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **._require_file()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **._get_file()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.open()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.path()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.size()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.closed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **._del_file()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.__getstate__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **._set_file()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.__setstate__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **File** (1 connections)
+- **BaseSpatialFeatures** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **DatabaseFeatures** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/features.py`
+- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **.supports_bbcontains_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **.supports_collect_aggr()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **.supports_contained_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **.supports_crosses_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **.supports_distances_lookups()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **.supports_dwithin_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **.supports_extent_aggr()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **.supports_isvalid_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **.supports_make_line_aggr()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **.supports_relate_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **.supports_union_aggr()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- **.django_test_skips()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/features.py`
+- **.supports_area_geodetic()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/features.py`
+- **SQLiteDatabaseFeatures** (1 connections)
 
 ## Relationships
 
-- [Community 138](Community_138.md) (1 shared connections)
-- [Community 639](Community_639.md) (1 shared connections)
-- [Community 323](Community_323.md) (1 shared connections)
+- [Community 631](Community_631.md) (3 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 381](Community_381.md) (2 shared connections)
+- [Community 695](Community_695.md) (2 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
+- [Community 694](Community_694.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/features.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 26 (93%)
+- INFERRED: 2 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

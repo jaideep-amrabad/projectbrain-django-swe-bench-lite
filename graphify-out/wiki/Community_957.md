@@ -1,34 +1,31 @@
 # Community 957
 
-> 6 nodes · cohesion 0.60
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **clear_script_prefix()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
-- **MediaURLStaticURLPrefixTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.set_script_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_add_script_name_prefix()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_not_prefixed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **Unset the script prefix for the current thread.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- **TestObj** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
+- **.test_if_tag_shortcircuit01()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag_shortcircuit02()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **If evaluations are shortcircuited where possible** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **The is_bad() function should not be evaluated. If it is, an exception is raised.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.is_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
+- **.is_true()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
 
 ## Relationships
 
-- [Community 37](Community_37.md) (2 shared connections)
-- [Community 144](Community_144.md) (2 shared connections)
-- [Community 76](Community_76.md) (1 shared connections)
-- [Community 55](Community_55.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 150](Community_150.md) (1 shared connections)
+- [Community 62](Community_62.md) (4 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/urls/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (88%)
-- INFERRED: 2 (12%)
+- EXTRACTED: 13 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

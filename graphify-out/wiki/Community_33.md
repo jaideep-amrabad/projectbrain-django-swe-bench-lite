@@ -1,61 +1,60 @@
 # Community 33
 
-> 159 nodes · cohesion 0.02
+> 147 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **SchemaTests** (204 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.column_classes()** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.get_constraints()** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **TextField** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **skipUnless** (16 connections)
-- **.get_constraints_for_column()** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.get_indexes()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.assertIndexOrder()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_func_index_collate_f_ordered()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_add_inline_fk_index_update_data()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_composite_func_index_field_and_expression()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_func_index_collate()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **._test_m2m_create()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **._test_m2m_create_through()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **._test_m2m_through_alter()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **MediumBlobField** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
-- **.test_func_index()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_func_index_calc()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_func_index_f()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_func_index_f_decimalfield()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_func_index_invalid_topmost_expressions()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_func_index_lookups()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_func_index_multiple_wrapper_references()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **._index_expressions_wrappers()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_add_binaryfield_mediumblob()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- *... and 134 more nodes in this community*
+- **GEOSGeometryBase** (101 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **._topology()** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **LinearGeometryMixin** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.transform()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **Return True if the DE-9IM Intersection Matrix for the two geometries is…** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **._post_init()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.clone()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **ewkb_w()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **wkb_w()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **.difference()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.hex()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.intersection()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.relate_pattern()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.__setstate__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.sym_difference()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.union()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.__and__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.boundary()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.buffer()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.buffer_with_style()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.centroid()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.convex_hull()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.__copy__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.__deepcopy__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.envelope()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- *... and 122 more nodes in this community*
 
 ## Relationships
 
-- [Community 113](Community_113.md) (53 shared connections)
-- [Community 348](Community_348.md) (29 shared connections)
-- [Community 21](Community_21.md) (26 shared connections)
-- [Community 179](Community_179.md) (18 shared connections)
-- [Community 93](Community_93.md) (17 shared connections)
-- [Community 2](Community_2.md) (9 shared connections)
-- [Community 23](Community_23.md) (9 shared connections)
-- [Community 13](Community_13.md) (7 shared connections)
-- [Community 133](Community_133.md) (6 shared connections)
-- [Community 196](Community_196.md) (6 shared connections)
-- [Community 53](Community_53.md) (5 shared connections)
-- [Community 167](Community_167.md) (4 shared connections)
+- [Community 30](Community_30.md) (19 shared connections)
+- [Community 19](Community_19.md) (5 shared connections)
+- [Community 20](Community_20.md) (4 shared connections)
+- [Community 386](Community_386.md) (4 shared connections)
+- [Community 75](Community_75.md) (2 shared connections)
+- [Community 879](Community_879.md) (2 shared connections)
+- [Community 70](Community_70.md) (2 shared connections)
+- [Community 424](Community_424.md) (2 shared connections)
+- [Community 180](Community_180.md) (2 shared connections)
+- [Community 105](Community_105.md) (2 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
 
 ## Audit Trail
 
-- EXTRACTED: 429 (89%)
-- INFERRED: 54 (11%)
+- EXTRACTED: 219 (94%)
+- INFERRED: 15 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

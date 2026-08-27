@@ -1,54 +1,55 @@
 # Community 710
 
-> 18 nodes · cohesion 0.12
+> 22 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **JSONField** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **CheckFieldDefaultMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
-- **.test_func_index_json_key_transform()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **jsonb.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
-- **JSONField** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
-- **.check()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **._check_supported()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.check()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
-- **._check_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
-- **BuiltinJSONField** (1 connections)
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.formfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.from_db_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.get_prep_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.validate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.value_to_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **Field** (1 connections)
+- **.formfield()** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **FilePathField** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **PositiveBigIntegerField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **PositiveIntegerRelDbTypeMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **PositiveSmallIntegerField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.rel_db_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **._check_allowing_files_or_folders()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.__init_subclass__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **Return the data type that a related field pointing to this field should use. In…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 
 ## Relationships
 
-- [Community 37](Community_37.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 66](Community_66.md) (3 shared connections)
-- [Community 204](Community_204.md) (2 shared connections)
-- [Community 33](Community_33.md) (2 shared connections)
-- [Community 85](Community_85.md) (1 shared connections)
-- [Community 88](Community_88.md) (1 shared connections)
-- [Community 348](Community_348.md) (1 shared connections)
-- [Community 339](Community_339.md) (1 shared connections)
-- [Community 517](Community_517.md) (1 shared connections)
-- [Community 93](Community_93.md) (1 shared connections)
-- [Community 21](Community_21.md) (1 shared connections)
+- [Community 157](Community_157.md) (6 shared connections)
+- [Community 48](Community_48.md) (6 shared connections)
+- [Community 530](Community_530.md) (4 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 270](Community_270.md) (2 shared connections)
+- [Community 799](Community_799.md) (2 shared connections)
+- [Community 630](Community_630.md) (2 shared connections)
+- [Community 120](Community_120.md) (2 shared connections)
+- [Community 175](Community_175.md) (2 shared connections)
+- [Community 892](Community_892.md) (1 shared connections)
+- [Community 462](Community_462.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 54 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

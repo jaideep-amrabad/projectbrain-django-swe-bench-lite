@@ -1,40 +1,39 @@
 # Community 756
 
-> 12 nodes · cohesion 0.32
+> 12 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **Truncator** (19 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **.add_truncation_text()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **.chars()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **._truncate_html()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **._text_chars()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **._text_words()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **.words()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **Truncate a string after a certain number of chars.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **Truncate HTML to a certain number of chars (not counting tags and comments),…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **An object used to truncate text, either by characters or words.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **Return the text truncated to be no longer than the specified number of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **reverse_lookup/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
+- **ReverseLookupTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
+- **reverse_lookup/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/models.py`
+- **Choice** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/models.py`
+- **Poll** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/models.py`
+- **User** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/models.py`
+- **.test_reverse_field_name_disallowed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
+- **Reverse lookups This demonstrates the reverse lookup features of the database…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/models.py`
+- **If a related_name is given you can't use the field name instead** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
+- **.test_reverse_by_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
+- **.test_reverse_by_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
 
 ## Relationships
 
-- [Community 324](Community_324.md) (4 shared connections)
-- [Community 94](Community_94.md) (2 shared connections)
-- [Community 88](Community_88.md) (2 shared connections)
-- [Community 406](Community_406.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 159](Community_159.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 21 (88%)
+- INFERRED: 3 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

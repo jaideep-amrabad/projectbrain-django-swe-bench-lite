@@ -1,67 +1,56 @@
 # Community 160
 
-> 58 nodes · cohesion 0.06
+> 53 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **foreign_object/tests.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **foreign_object/models/__init__.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/__init__.py`
-- **foreign_object/models/article.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **person.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- **foreign_object/test_forms.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_forms.py`
-- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **test_agnostic_order_trimjoin.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_agnostic_order_trimjoin.py`
-- **ActiveTranslationField** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **ArticleTranslation** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **customers.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/customers.py`
-- **SlugPage** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- **Group** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- **Membership** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- **TestLookupQuery** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_agnostic_order_trimjoin.py`
-- **test_empty_join.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
-- **RestrictedConditionsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
-- **ColConstraint** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **NewsArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **Address** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/customers.py`
-- **Customer** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/customers.py`
-- **Country** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- **FormsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_forms.py`
-- **.get_extra_restriction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **ActiveTranslationFieldWithQ** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- *... and 33 more nodes in this community*
+- **OrderingTests** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **ordering/tests.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **ordering/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **.test_orders_nulls_first_on_filtered_subquery()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **OrderedByFArticle** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **Author** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **ChildArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **Reference** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **.assertQuerysetEqualReversible()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_order_by_nulls_first()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_order_by_nulls_last()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **OrderedByAuthorArticle** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **.test_order_by_f_expression_duplicates()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_default_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_default_ordering_by_f_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_default_ordering_override()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_extra_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_extra_ordering_quoting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_order_by_constant_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_order_by_f_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_order_by_fk_attname()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_order_by_nulls_first_and_last()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- *... and 28 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (11 shared connections)
-- [Community 2](Community_2.md) (9 shared connections)
-- [Community 14](Community_14.md) (4 shared connections)
-- [Community 72](Community_72.md) (4 shared connections)
-- [Community 454](Community_454.md) (4 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 10](Community_10.md) (3 shared connections)
-- [Community 391](Community_391.md) (2 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 107](Community_107.md) (1 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
+- [Community 28](Community_28.md) (8 shared connections)
+- [Community 6](Community_6.md) (6 shared connections)
+- [Community 65](Community_65.md) (4 shared connections)
+- [Community 12](Community_12.md) (4 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 38](Community_38.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 22](Community_22.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/customers.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_agnostic_order_trimjoin.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 141 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 92 (91%)
+- INFERRED: 9 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

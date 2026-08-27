@@ -1,33 +1,39 @@
 # Community 897
 
-> 8 nodes · cohesion 0.25
+> 13 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **ManageNoSettings** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **A series of tests for manage.py when there is no settings.py file.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **no settings: manage.py builtin commands fail with an error when no settings…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **no settings: manage.py builtin commands fail if settings file (from argument)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **no settings: manage.py builtin commands fail if settings file (from…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **DecoratorsTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **Admin2** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
+- **.my_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
+- **.test_cache_page()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **.test_require_safe_accepts_only_safe_methods()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **.test_user_passes_test_composition()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **.test_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **.get_urls()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
+- **.index()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
+- **.password_change()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
+- **Test for the require_safe decorator. A view returns either a response or an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **Built-in decorators set certain attributes of the wrapped function.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **The user_passes_test decorator can be applied multiple times (#9474).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
 
 ## Relationships
 
-- [Community 123](Community_123.md) (3 shared connections)
-- [Community 257](Community_257.md) (3 shared connections)
-- [Community 110](Community_110.md) (3 shared connections)
-- [Community 260](Community_260.md) (2 shared connections)
+- [Community 4](Community_4.md) (4 shared connections)
+- [Community 27](Community_27.md) (2 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
+- `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 19 (90%)
+- INFERRED: 2 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

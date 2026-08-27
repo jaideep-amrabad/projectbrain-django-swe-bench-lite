@@ -1,39 +1,54 @@
 # Community 696
 
-> 14 nodes · cohesion 0.23
+> 23 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **TestQuerying** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.assertSequenceEqualWithoutHyphens()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_filter_with_expr()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_contains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_endswith()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_icontains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_iendswith()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_iexact()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_istartswith()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_startswith()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **Backends with a native datatype for UUID don't support fragment lookups without…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_exact()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_isnull()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **NewFormsTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **EventForm** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
+- **LegacyFormsTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **timezones/forms.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
+- **get_timezones()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **EventModelForm** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
+- **EventLocalizedModelForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
+- **EventSplitForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
+- **EventLocalizedForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
+- **.test_localized_model_form()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_form_with_ambiguous_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_form_with_non_existent_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_form_with_ambiguous_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_form_with_non_existent_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_localized_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_model_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_split_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
+- **.test_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_model_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_split_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_query_filter_with_pytz_timezones()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_form_with_other_timezone()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 275](Community_275.md) (1 shared connections)
-- [Community 40](Community_40.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
+- [Community 0](Community_0.md) (9 shared connections)
+- [Community 610](Community_610.md) (7 shared connections)
+- [Community 941](Community_941.md) (6 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 86](Community_86.md) (1 shared connections)
+- [Community 543](Community_543.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 64 (83%)
+- INFERRED: 13 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

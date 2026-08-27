@@ -1,72 +1,62 @@
 # Community 21
 
-> 134 nodes · cohesion 0.02
+> 190 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **skipUnlessDBFeature()** (496 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **QuerySetSetOperationTests** (49 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
-- **GISFunctionsTests** (47 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_functions.py`
-- **CheckConstraintTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **Ticket19102Tests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **SpatialRefSysTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_spatialrefsys.py`
-- **.assertNumbersEqual()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
-- **CursorWrapperTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
-- **.test_union()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_functions.py`
-- **.test_make_valid_output_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_functions.py`
-- **IndexesTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
-- **._test_procedure()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
-- **get_constraints()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_area_lookups()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_functions.py`
-- **.test_difference_mixed_srid()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_functions.py`
-- **.test_line_locate_point()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_functions.py`
-- **.test_union_mixed_srid()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_functions.py`
-- **.test_add_entry()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_spatialrefsys.py`
-- **.test_callproc_kparams()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
-- **.test_callproc_with_int_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
-- **.test_callproc_without_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
-- **ConnectionCreatedSignalTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_abstract_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_area_with_regular_aggregate()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_functions.py`
-- *... and 109 more nodes in this community*
+- **operations/models.py** (40 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **FieldOperation** (25 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **operations/fields.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **CreateModel** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **RenameField** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **AlterField** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **RemoveField** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **AddField** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **DeleteModel** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **RenameModel** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **AlterTogetherOptionOperation** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **AlterModelOptions** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **AlterOrderWithRespectTo** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **RemoveIndex** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **AlterModelManagers** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **AlterModelTable** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **ModelOperation** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **AddConstraint** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **RemoveConstraint** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.__init__()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **field_references()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/utils.py`
+- **FieldOperationTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- **IndexOperation** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **ModelOptionOperation** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **operations/utils.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/utils.py`
+- *... and 165 more nodes in this community*
 
 ## Relationships
 
-- [Community 222](Community_222.md) (30 shared connections)
-- [Community 42](Community_42.md) (28 shared connections)
-- [Community 33](Community_33.md) (26 shared connections)
-- [Community 92](Community_92.md) (24 shared connections)
-- [Community 59](Community_59.md) (23 shared connections)
-- [Community 23](Community_23.md) (21 shared connections)
-- [Community 2](Community_2.md) (20 shared connections)
-- [Community 226](Community_226.md) (17 shared connections)
-- [Community 118](Community_118.md) (16 shared connections)
-- [Community 113](Community_113.md) (15 shared connections)
-- [Community 167](Community_167.md) (14 shared connections)
-- [Community 184](Community_184.md) (11 shared connections)
+- [Community 5](Community_5.md) (31 shared connections)
+- [Community 50](Community_50.md) (12 shared connections)
+- [Community 64](Community_64.md) (8 shared connections)
+- [Community 63](Community_63.md) (6 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 18](Community_18.md) (3 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 804](Community_804.md) (2 shared connections)
+- [Community 30](Community_30.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 110](Community_110.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_functions.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_spatialrefsys.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_indexes/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 701 (98%)
-- INFERRED: 15 (2%)
+- EXTRACTED: 329 (96%)
+- INFERRED: 14 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

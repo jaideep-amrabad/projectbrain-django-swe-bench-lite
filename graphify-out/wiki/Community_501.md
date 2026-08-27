@@ -1,64 +1,45 @@
 # Community 501
 
-> 26 nodes · cohesion 0.12
+> 21 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **contrib/sitemaps/views.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/views.py`
-- **paginator.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **pagination/tests.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **InvalidPage** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **sitemap()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/views.py`
-- **EmptyPage** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **PageNotAnInteger** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.validate_number()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.get_page()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **pagination/custom.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
-- **index()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/views.py`
-- **.page()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **UnorderedObjectListWarning** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/models.py`
-- **index_only.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/index_only.py`
-- **x_robots_tag()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/views.py`
-- **.get_elided_page_range()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **Exception** (1 connections)
-- **RuntimeWarning** (1 connections)
-- **Return a 1-based range of pages with some values elided. If the page range is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **Validate the given 1-based page number.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **Return a valid page, even if the page argument isn't a number or isn't in range.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **Return a Page object for the given 1-based page number.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **Return an instance of a single page. This hook can be used by subclasses to use…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- *... and 1 more nodes in this community*
+- **BashCompletionTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **._run_autocomplete()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **._user_input()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **.test_app_completion()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **.test_completed_subcommand()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **.test_custom_command()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **.test_django_admin_py()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **.test_help()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **.test_manage_py()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **.test_subcommands()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **Testing the Python level bash completion code. This requires setting up the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **Set the environment and the list of command line arguments. This sets the bash…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **django_admin.py will autocomplete option flags** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **manage.py will autocomplete option flags** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **A custom command can autocomplete option flags** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **Subcommands can be autocompleted** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **Show option flags in case a subcommand is completed** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **No errors, just an empty list if there are no autocomplete options** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **Application names will be autocompleted for an AppCommand** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
 
 ## Relationships
 
-- [Community 115](Community_115.md) (18 shared connections)
-- [Community 52](Community_52.md) (7 shared connections)
-- [Community 16](Community_16.md) (4 shared connections)
-- [Community 679](Community_679.md) (4 shared connections)
-- [Community 19](Community_19.md) (3 shared connections)
-- [Community 18](Community_18.md) (3 shared connections)
-- [Community 576](Community_576.md) (3 shared connections)
-- [Community 77](Community_77.md) (3 shared connections)
-- [Community 57](Community_57.md) (3 shared connections)
-- [Community 10](Community_10.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 76](Community_76.md) (2 shared connections)
+- [Community 50](Community_50.md) (1 shared connections)
+- [Community 640](Community_640.md) (1 shared connections)
+- [Community 306](Community_306.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/views.py`
-- `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
-- `raw/code/hyd-evaluation/django-django/tests/pagination/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/index_only.py`
+- `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 99 (91%)
-- INFERRED: 10 (9%)
+- EXTRACTED: 37 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

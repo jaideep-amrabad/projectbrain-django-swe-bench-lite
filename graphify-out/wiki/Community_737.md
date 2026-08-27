@@ -1,42 +1,37 @@
 # Community 737
 
-> 16 nodes · cohesion 0.17
+> 12 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **CheckMessage** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- **messages.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- **Critical** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- **Debug** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- **Info** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- **.is_serious()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- **.is_silenced()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
+- **DatabaseIntrospection** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- **.get_relations()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- **.get_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- **.get_key_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- **.get_table_description()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- **.get_table_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- **.get_field_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- **.get_sequences()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- **Return a dictionary of {field_name: (field_name_other_table, other_table)}…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- **Retrieve any constraints or keys (unique, pk, fk, check, index) across one or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- **Return a list of table and view names in the current database.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- **Return a description of the table with the DB-API cursor.description interface.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (8 shared connections)
-- [Community 403](Community_403.md) (3 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 303](Community_303.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 35](Community_35.md) (2 shared connections)
+- [Community 187](Community_187.md) (1 shared connections)
+- [Community 370](Community_370.md) (1 shared connections)
+- [Community 292](Community_292.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 16 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,29 +4,28 @@
 
 ## Key Concepts
 
-- **SimpleDatabaseIntrospectionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
-- **.test_get_constraints()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
-- **.test_get_key_columns()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
-- **.test_get_relations()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
-- **.test_get_sequences()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
-- **.test_get_table_description()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
-- **.test_get_table_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
+- **DeferDeletionSignalsTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- **.post_delete_receiver()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- **.pre_delete_receiver()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- **.test_delete_defered_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- **.test_delete_defered_proxy_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
 
 ## Relationships
 
-- [Community 88](Community_88.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 75](Community_75.md) (1 shared connections)
+- [Community 321](Community_321.md) (3 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
+- `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (91%)
-- INFERRED: 1 (9%)
+- EXTRACTED: 9 (82%)
+- INFERRED: 2 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

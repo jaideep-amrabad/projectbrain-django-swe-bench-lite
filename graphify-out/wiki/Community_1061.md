@@ -1,25 +1,27 @@
 # Community 1061
 
-> 4 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **EscapejsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapejs.py`
-- **.test_escapejs01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapejs.py`
-- **.test_escapejs02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapejs.py`
-- **setup** (2 connections)
+- **.select_for_update()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.update_or_create()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Return a new QuerySet instance that will select objects with a FOR UPDATE lock.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Look up an object with the given kwargs, updating one with defaults if it…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
+- [Community 196](Community_196.md) (2 shared connections)
+- [Community 287](Community_287.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapejs.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

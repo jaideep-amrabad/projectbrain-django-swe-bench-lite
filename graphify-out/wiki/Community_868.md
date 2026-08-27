@@ -1,37 +1,34 @@
 # Community 868
 
-> 9 nodes · cohesion 0.28
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **get_default_exception_reporter_filter()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **CustomExceptionReporterFilterTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **get_exception_reporter_filter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.test_cleansed_substitute_override()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_hidden_settings_override()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_setting_allows_custom_subclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **model_fields/test_genericipaddressfield.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
+- **GenericIPAddressFieldTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
+- **.test_genericipaddressfield_formfield_protocol()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
+- **.test_null_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
+- **.test_blank_string_saved_as_null()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
+- **.test_save_load()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
+- **GenericIPAddressField with a specified protocol does not generate a formfield…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
+- **Null values should be resolved to None.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 95](Community_95.md) (2 shared connections)
-- [Community 127](Community_127.md) (1 shared connections)
-- [Community 107](Community_107.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 222](Community_222.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 16 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

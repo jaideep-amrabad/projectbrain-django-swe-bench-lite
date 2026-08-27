@@ -1,41 +1,58 @@
 # Community 610
 
-> 17 nodes · cohesion 0.16
+> 25 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **QuerySetSupportsPythonIdioms** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.get_ordered_articles()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_can_get_items_using_index_and_slice_notation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_can_slice_again_after_slicing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_negative_indexing_not_supported_for_range()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_negative_indexing_not_supported_for_single_element()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_with_steps_can_be_used()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_with_tests_is_not_lazy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_without_step_is_lazy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **hint: inverting your ordering might do what you need** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_can_combine_queries_using_and_and_or_operators()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_can_get_number_of_items_in_queryset_using_standard_len()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_invalid_index()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_cannot_combine_queries_once_sliced()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_cannot_filter_queryset_once_sliced()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_cannot_reorder_queryset_once_sliced()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **NewDatabaseTests** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **requires_tz_support** (17 connections)
+- **.test_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_cursor_execute_accepts_aware_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_cursor_execute_accepts_naive_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_cursor_execute_returns_aware_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_cursor_execute_returns_naive_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_datetime_from_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_filter_date_field_with_aware_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_naive_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_naive_datetime_with_microsecond()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_query_datetime_lookups()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_query_datetime_lookups_in_other_timezone()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_query_datetimes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_query_datetimes_in_other_timezone()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_query_filter_with_naive_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_update_with_timedelta()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_auto_now_and_auto_now_add()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_aware_datetime_in_local_timezone()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_aware_datetime_in_local_timezone_with_microsecond()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_aware_datetime_in_other_timezone()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_aware_datetime_in_utc()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_null_datetime()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_query_filter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_raw_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
 
 ## Relationships
 
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 1013](Community_1013.md) (1 shared connections)
+- [Community 696](Community_696.md) (7 shared connections)
+- [Community 70](Community_70.md) (6 shared connections)
+- [Community 86](Community_86.md) (5 shared connections)
+- [Community 7](Community_7.md) (4 shared connections)
+- [Community 15](Community_15.md) (3 shared connections)
+- [Community 1030](Community_1030.md) (2 shared connections)
+- [Community 22](Community_22.md) (2 shared connections)
+- [Community 31](Community_31.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 941](Community_941.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 58 (91%)
+- INFERRED: 6 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

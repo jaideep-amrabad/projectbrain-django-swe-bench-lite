@@ -4,55 +4,57 @@
 
 ## Key Concepts
 
-- **syndication_tests/feeds.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestRss2Feed** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **Entry** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/models.py`
-- **TestAtomFeed** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestSingleEnclosureAtomFeed** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestSingleEnclosureRSSFeed** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **ArticlesFeed** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestLatestFeed** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **NaiveDatesFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TemplateContextFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TemplateFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestMultipleEnclosureAtomFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestMultipleEnclosureRSSFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestRss2FeedWithGuidIsPermaLinkFalse** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TZAwareDatesFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestNoPubdateFeed** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestRss2FeedWithGuidIsPermaLinkTrue** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **syndication_tests/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/urls.py`
-- **syndication/__init__.py** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/__init__.py`
-- **TestCustomFeed** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestFeedUrlFeed** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestLanguageFeed** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestRss091Feed** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/models.py`
-- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **BaseModelAdmin** (35 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **InlineModelAdmin** (24 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_formset()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **get_permission_codename()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
+- **.formfield_for_foreignkey()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **._has_any_perms_for_target_model()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.formfield_for_manytomany()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_fieldsets()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_readonly_fields()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.has_delete_permission()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.formfield_for_dbfield()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_fields()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.formfield_for_choice_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_autocomplete_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_exclude()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_field_queryset()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_empty_value_display()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_inlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_prepopulated_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_queryset()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.has_add_permission()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.has_change_permission()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.has_delete_permission()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.has_view_permission()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
 - *... and 34 more nodes in this community*
 
 ## Relationships
 
-- [Community 10](Community_10.md) (12 shared connections)
-- [Community 944](Community_944.md) (3 shared connections)
-- [Community 72](Community_72.md) (1 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
-- [Community 983](Community_983.md) (1 shared connections)
-- [Community 211](Community_211.md) (1 shared connections)
-- [Community 76](Community_76.md) (1 shared connections)
+- [Community 54](Community_54.md) (25 shared connections)
+- [Community 1](Community_1.md) (14 shared connections)
+- [Community 56](Community_56.md) (4 shared connections)
+- [Community 71](Community_71.md) (2 shared connections)
+- [Community 122](Community_122.md) (1 shared connections)
+- [Community 193](Community_193.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 34](Community_34.md) (1 shared connections)
+- [Community 256](Community_256.md) (1 shared connections)
+- [Community 555](Community_555.md) (1 shared connections)
+- [Community 425](Community_425.md) (1 shared connections)
+- [Community 111](Community_111.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/syndication/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/urls.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 91 (93%)
-- INFERRED: 7 (7%)
+- EXTRACTED: 135 (95%)
+- INFERRED: 7 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

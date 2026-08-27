@@ -1,58 +1,45 @@
 # Community 599
 
-> 23 nodes · cohesion 0.12
+> 16 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **Client** (36 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **._handle_redirects()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **nested_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
-- **.delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.head()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.patch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.post()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.put()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.trace()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
-- **A class that can act as a client for testing purposes. It allows the user to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **Request a response from the server using GET.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **Request a response from the server using POST.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **Request a response from the server using HEAD.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **Request a response from the server using OPTIONS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **Send a resource to the server using PUT.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **Send a resource to the server using PATCH.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **Send a DELETE request to the server.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **Send a TRACE request to the server.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **Follow any redirects by requesting responses from the server using GET.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **A view that uses test client to call another view.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
+- **trans_null.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **LookupError** (6 connections)
+- **.get_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- **get_supported_language_variant()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **gettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **ngettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **npgettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **pgettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **Return the model with the given case-insensitive model_name. Raise LookupError…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- **activate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **check_for_language()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **deactivate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **get_language()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **get_language_bidi()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **get_language_from_path()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **get_language_from_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
 
 ## Relationships
 
-- [Community 52](Community_52.md) (5 shared connections)
-- [Community 99](Community_99.md) (3 shared connections)
-- [Community 149](Community_149.md) (3 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 29](Community_29.md) (2 shared connections)
-- [Community 225](Community_225.md) (2 shared connections)
-- [Community 802](Community_802.md) (1 shared connections)
-- [Community 567](Community_567.md) (1 shared connections)
-- [Community 616](Community_616.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 429](Community_429.md) (1 shared connections)
-- [Community 37](Community_37.md) (1 shared connections)
+- [Community 63](Community_63.md) (2 shared connections)
+- [Community 100](Community_100.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
+- [Community 50](Community_50.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
+- `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
 
 ## Audit Trail
 
-- EXTRACTED: 58 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 17 (68%)
+- INFERRED: 8 (32%)
 - AMBIGUOUS: 0 (0%)
 
 ---

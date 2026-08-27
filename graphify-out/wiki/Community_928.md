@@ -1,32 +1,30 @@
 # Community 928
 
-> 7 nodes · cohesion 0.48
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **DateHierarchyTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
-- **.assertDateParams()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
-- **.test_bounded_params_with_dst_time_zone()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
-- **.test_bounded_params_with_time_zone()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
-- **.test_bounded_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
-- **.test_invalid_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
+- **.attach()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.attach_file()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **Initialize a single email message (which can be sent to multiple recipients).** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **Attach a file with the given filename and content. The filename can be omitted…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **Attach a file from the filesystem. Set the mimetype to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
 
 ## Relationships
 
-- [Community 10](Community_10.md) (5 shared connections)
-- [Community 49](Community_49.md) (4 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
+- [Community 114](Community_114.md) (3 shared connections)
+- [Community 156](Community_156.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (71%)
-- INFERRED: 6 (29%)
+- EXTRACTED: 10 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

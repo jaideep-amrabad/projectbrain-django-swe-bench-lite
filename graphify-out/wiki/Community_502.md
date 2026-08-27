@@ -1,49 +1,47 @@
 # Community 502
 
-> 22 nodes · cohesion 0.12
+> 21 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **.add_field()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.column_sql()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._create_fk_sql()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._alter_column_default_sql()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.table_sql()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.create_model()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._field_indexes_sql()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._fk_constraint_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._model_indexes_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.skip_default()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._column_default_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.prepare_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._field_should_be_indexed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **Return a list of all index SQL statements (field indexes, index_together,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **Return a list of all index SQL statements for the specified field.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **Take a model and return its table definition.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **Take a field and return its column definition. The field must already have had…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **Some backends don't accept default values for certain columns types (i.e. MySQL…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **Only used for backends which have requires_literal_defaults feature** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **Return the SQL to use in a DEFAULT clause. The resulting string should contain…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **Create a table and any accompanying indexes or unique constraints for the given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **Create a field on a model. Usually involves adding a column, but may involve…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **EarliestOrLatestTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **get_earliest_or_latest/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **get_earliest_or_latest/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
+- **TestFirstLast** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
+- **IndexErrorArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
+- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
+- **IndexErrorQuerySet** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
+- **.test_index_error_not_suppressed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **.test_earliest()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **.test_latest()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **.test_latest_manual()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **.test_first()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **.test_last()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
+- **Emulates the case when some internal code raises an unexpected IndexError.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **#23555 -- Unexpected IndexError exceptions in QuerySet iteration shouldn't be…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
+- **Tests for the earliest() and latest() objects methods** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
 
 ## Relationships
 
-- [Community 173](Community_173.md) (23 shared connections)
-- [Community 341](Community_341.md) (4 shared connections)
-- [Community 43](Community_43.md) (2 shared connections)
-- [Community 680](Community_680.md) (1 shared connections)
-- [Community 415](Community_415.md) (1 shared connections)
-- [Community 407](Community_407.md) (1 shared connections)
+- [Community 12](Community_12.md) (7 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/get_earliest_or_latest/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 60 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 31 (76%)
+- INFERRED: 10 (24%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **.test_force_login_without_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **force_login() without passing a backend and with multiple backends configured…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_inheritance06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Three-level with variable parent-template name** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 551](Community_551.md) (1 shared connections)
+- [Community 793](Community_793.md) (1 shared connections)
+- [Community 835](Community_835.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 

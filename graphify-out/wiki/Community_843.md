@@ -1,40 +1,43 @@
 # Community 843
 
-> 11 nodes · cohesion 0.18
+> 13 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **LoginTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_login_session_without_hash_session_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_security_check()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_security_check_https()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_session_key_flushed_on_login()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_session_key_flushed_on_login_after_password_change()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_current_site_in_context_after_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_login_form_contains_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **To avoid reusing another user's session, ensure a new, empty session is created…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **As above, but same user logging in after a password change.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **Session without django.contrib.auth.HASH_SESSION_KEY should login without an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **SessionStorage** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
+- **MessageEncoder** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **._get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
+- **.serialize_messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
+- **._store()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
+- **.test_legacy_encode_decode()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- **.deserialize_messages()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
+- **.default()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **Compactly serialize instances of the ``Message`` class as JSON.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **Store messages in the session (that is, django.contrib.sessions).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
+- **Retrieve a list of messages from the request's session. This storage always…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
+- **Store a list of messages to the request's session.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 89](Community_89.md) (3 shared connections)
-- [Community 52](Community_52.md) (2 shared connections)
-- [Community 16](Community_16.md) (2 shared connections)
-- [Community 792](Community_792.md) (1 shared connections)
-- [Community 802](Community_802.md) (1 shared connections)
-- [Community 62](Community_62.md) (1 shared connections)
-- [Community 552](Community_552.md) (1 shared connections)
+- [Community 101](Community_101.md) (8 shared connections)
+- [Community 908](Community_908.md) (2 shared connections)
+- [Community 845](Community_845.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 477](Community_477.md) (1 shared connections)
+- [Community 926](Community_926.md) (1 shared connections)
+- [Community 948](Community_948.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (79%)
-- INFERRED: 5 (21%)
+- EXTRACTED: 24 (80%)
+- INFERRED: 6 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

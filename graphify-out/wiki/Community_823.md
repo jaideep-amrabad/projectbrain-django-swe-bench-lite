@@ -1,38 +1,35 @@
 # Community 823
 
-> 12 nodes · cohesion 0.24
+> 10 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **Parser** (12 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **RootElement** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.handle_endtag()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.handle_startendtag()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.handle_starttag()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.format_position()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.handle_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **HTMLParser** (1 connections)
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **GeoFeedTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_feeds.py`
+- **.assertChildNodes()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_feeds.py`
+- **.test_geofeed_atom()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_feeds.py`
+- **.test_geofeed_rss()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_feeds.py`
+- **.test_geofeed_w3c()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_feeds.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_feeds.py`
+- **Taken from syndication/tests.py.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_feeds.py`
+- **Tests geographic feeds using GeoRSS over RSSv2.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_feeds.py`
+- **Testing geographic feeds using GeoRSS over Atom.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_feeds.py`
+- **Testing geographic feeds using W3C Geo.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_feeds.py`
 
 ## Relationships
 
-- [Community 88](Community_88.md) (3 shared connections)
-- [Community 821](Community_821.md) (2 shared connections)
-- [Community 254](Community_254.md) (1 shared connections)
-- [Community 46](Community_46.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 71](Community_71.md) (3 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 61](Community_61.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_feeds.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 17 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

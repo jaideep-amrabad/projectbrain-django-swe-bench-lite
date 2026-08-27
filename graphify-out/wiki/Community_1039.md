@@ -1,29 +1,31 @@
 # Community 1039
 
-> 4 nodes · cohesion 0.67
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **test_measure.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
-- **run()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
-- **suite()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
-- **Distance and Area objects to allow for sensible and convenient calculation and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- **NoFastDeleteCollector** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py`
+- **Command** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py`
+- **.handle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py`
+- **.can_fast_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py`
+- **Collector** (1 connections)
+- **Always load related objects to display them when showing confirmation.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py`
 
 ## Relationships
 
-- [Community 71](Community_71.md) (2 shared connections)
-- [Community 82](Community_82.md) (1 shared connections)
-- [Community 731](Community_731.md) (1 shared connections)
-- [Community 730](Community_730.md) (1 shared connections)
+- [Community 207](Community_207.md) (2 shared connections)
+- [Community 72](Community_72.md) (1 shared connections)
+- [Community 446](Community_446.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 9 (90%)
+- INFERRED: 1 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

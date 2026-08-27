@@ -1,38 +1,41 @@
 # Community 658
 
-> 15 nodes · cohesion 0.25
+> 15 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **ServerSideCursorsPostgres** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **.assertUsesCursor()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **.test_server_side_cursors_setting()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **.asserNotUsesCursor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **.inspect_cursors()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **.override_db_setting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **.test_closed_server_side_cursor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **.test_server_side_cursor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **.test_server_side_cursor_many_cursors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **.test_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **.test_values_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **.test_values_list_fields_not_equal_to_names()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **.test_values_list_flat()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **skipUnless** (1 connections)
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
+- **AdminEmailHandlerTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.get_admin_email_handler()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_accepts_args()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_accepts_args_and_request()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_emit_non_ascii()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_disallowed_host_doesnt_crash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_subject_accepts_newlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_uses_custom_email_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_customize_send_mail_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_default_exception_reporter_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_fail_silently()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **User-supplied arguments and the EMAIL_SUBJECT_PREFIX setting are used to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **The subject is also handled if being passed a request object.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **Newlines in email reports' subjects are escaped to prevent AdminErrorHandler…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **#23593 - AdminEmailHandler should allow Unicode characters in the request.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
 
 ## Relationships
 
-- [Community 32](Community_32.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 8](Community_8.md) (7 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 613](Community_613.md) (1 shared connections)
+- [Community 136](Community_136.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
+- `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 31 (94%)
+- INFERRED: 2 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

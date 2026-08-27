@@ -1,43 +1,54 @@
 # Community 504
 
-> 14 nodes · cohesion 0.15
+> 32 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **Join** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.relabeled_clone()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.as_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.demote()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.promote()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.equals()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.identity()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.relabeled_clone()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **Used by sql.Query and sql.SQLCompiler to generate JOIN clauses into the FROM…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **Generate the full LEFT OUTER JOIN sometable ON sometable.somecol =…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- **SMTPBackendTests** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_connection_timeout_custom()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_auth_attempted()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_connection_timeout_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_email_authentication_override_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_email_authentication_use_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_email_disabled_authentication()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_email_ssl_attempts_ssl_connection()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_email_ssl_certfile_override_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_email_ssl_certfile_use_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_email_ssl_keyfile_override_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_email_ssl_keyfile_use_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_email_ssl_override_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_email_ssl_use_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_email_timeout_override_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_email_tls_attempts_starttls()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_email_tls_override_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_email_tls_use_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_server_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_server_open()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **Opening the backend with non empty username/password tries to authenticate…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **open() returns whether it opened a connection.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **Even if the Python SMTP server doesn't support authentication, the login…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **The connection's timeout value is None by default.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **The timeout parameter can be customized.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 71](Community_71.md) (2 shared connections)
-- [Community 140](Community_140.md) (1 shared connections)
-- [Community 389](Community_389.md) (1 shared connections)
-- [Community 329](Community_329.md) (1 shared connections)
+- [Community 8](Community_8.md) (14 shared connections)
+- [Community 273](Community_273.md) (3 shared connections)
+- [Community 114](Community_114.md) (3 shared connections)
+- [Community 417](Community_417.md) (2 shared connections)
+- [Community 156](Community_156.md) (1 shared connections)
+- [Community 826](Community_826.md) (1 shared connections)
 - [Community 2](Community_2.md) (1 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
-- [Community 44](Community_44.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (86%)
-- INFERRED: 3 (14%)
+- EXTRACTED: 55 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

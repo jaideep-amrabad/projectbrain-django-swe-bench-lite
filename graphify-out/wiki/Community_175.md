@@ -1,62 +1,64 @@
 # Community 175
 
-> 70 nodes · cohesion 0.05
+> 59 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **gis/db/models/lookups.py** (49 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
-- **GISLookup** (36 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
-- **test_rasterfield.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/test_rasterfield.py`
-- **DistanceLookupBase** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
-- **DistanceLookupFromFunction** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
-- **DWithinLookup** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
-- **.process_rhs()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
-- **RasterBandTransform** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
-- **rasterapp/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/models.py`
-- **RasterModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/models.py`
-- **RasterRelatedModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/models.py`
-- **BBContainsLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
-- **BBOverlapsLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
-- **ContainedLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
-- **.process_distance()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
-- **.process_band_indices()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
-- **LeftLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
-- **OverlapsAboveLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
-- **OverlapsBelowLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
-- **OverlapsLeftLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
-- **OverlapsRightLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
-- **RelateLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
-- **RightLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
-- **SameAsLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
-- **StrictlyAboveLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
-- *... and 45 more nodes in this community*
+- **lazy()** (70 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **PromiseTest** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
+- **FunctionalTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
+- **test_functional.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
+- **.test_cached_property_auto_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
+- **.t()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.assertCachedPropertyWorks()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
+- **.test_cached_property()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
+- **debug()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
+- **.test_defaults_not_evaluated_unless_needed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_defaults_not_evaluated_unless_needed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_AutoField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
+- **.test_BinaryField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
+- **.test_FileField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
+- **.test_ImageField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
+- **.test_IPAddressField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
+- **.test_PositiveBigIntegerField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
+- **.test_PositiveIntegerField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
+- **.test_PositiveSmallIntegerField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
+- **.test_SmallIntegerField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
+- **.test_TextField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
+- **.test_cached_property_set_name_not_called()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
+- **.test_classproperty_getter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
+- **.test_lazy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
+- **.test_lazy_base_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
+- *... and 34 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (30 shared connections)
-- [Community 82](Community_82.md) (8 shared connections)
-- [Community 71](Community_71.md) (8 shared connections)
-- [Community 68](Community_68.md) (7 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 369](Community_369.md) (3 shared connections)
-- [Community 42](Community_42.md) (3 shared connections)
-- [Community 88](Community_88.md) (2 shared connections)
-- [Community 59](Community_59.md) (2 shared connections)
-- [Community 37](Community_37.md) (1 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
+- [Community 0](Community_0.md) (13 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 5](Community_5.md) (5 shared connections)
+- [Community 101](Community_101.md) (3 shared connections)
+- [Community 104](Community_104.md) (3 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 157](Community_157.md) (3 shared connections)
+- [Community 400](Community_400.md) (3 shared connections)
+- [Community 264](Community_264.md) (3 shared connections)
+- [Community 285](Community_285.md) (2 shared connections)
+- [Community 710](Community_710.md) (2 shared connections)
+- [Community 234](Community_234.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/data/rasters/textrasters.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/test_rasterfield.py`
+- `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
 
 ## Audit Trail
 
-- EXTRACTED: 187 (97%)
-- INFERRED: 6 (3%)
+- EXTRACTED: 143 (89%)
+- INFERRED: 17 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

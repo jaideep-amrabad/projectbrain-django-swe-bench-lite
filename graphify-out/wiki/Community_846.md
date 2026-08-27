@@ -1,32 +1,37 @@
 # Community 846
 
-> 10 nodes · cohesion 0.29
+> 9 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **DefaultTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default.py`
-- **setup** (6 connections)
-- **DefaultIfNoneTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default.py`
-- **.test_default03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default.py`
-- **.test_default04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default.py`
-- **.test_default_if_none01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default.py`
-- **.test_default_if_none02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default.py`
-- **.test_default01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default.py`
-- **.test_default02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default.py`
-- **Literal string arguments to the default filter are always treated as safe…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default.py`
+- **Command** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.run()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.get_handler()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.inner_run()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.execute()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **Run the server, using the autoreloader if needed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **Return the default WSGI handler for the runner.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (6 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 226](Community_226.md) (1 shared connections)
+- [Community 72](Community_72.md) (1 shared connections)
+- [Community 167](Community_167.md) (1 shared connections)
+- [Community 295](Community_295.md) (1 shared connections)
+- [Community 248](Community_248.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 17 (85%)
+- INFERRED: 3 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

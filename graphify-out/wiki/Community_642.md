@@ -1,38 +1,43 @@
 # Community 642
 
-> 13 nodes · cohesion 0.18
+> 15 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **oracle/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **OracleGeometryColumns** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **OracleSpatialRefSys** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **.geom_col_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **.table_name_col()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **Return the name of the metadata column used to store the feature table name.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **.wkt()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **The GeometryColumns and SpatialRefSys models for the Oracle spatial backend. It…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **Maps to the Oracle USER_SDO_GEOM_METADATA table.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **# TODO: Add support for `diminfo` column (type MDSYS.SDO_DIM_ARRAY).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **Maps to the Oracle MDSYS.CS_SRS table.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
+- **WSGIRequestHandler** (14 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **WSGIRequestHandlerTestCase** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
+- **.handle_one_request()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.test_strips_underscore_headers()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
+- **Stub** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
+- **.test_https()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
+- **.test_log_message()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
+- **.get_environ()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.handle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **Copy of WSGIRequestHandler.handle() but with different ServerHandler** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.address_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.log_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **WSGIRequestHandler ignores headers containing underscores. This follows the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
+- **.sendall()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
 
 ## Relationships
 
-- [Community 71](Community_71.md) (3 shared connections)
-- [Community 338](Community_338.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 82](Community_82.md) (1 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 108](Community_108.md) (3 shared connections)
+- [Community 336](Community_336.md) (3 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 167](Community_167.md) (1 shared connections)
+- [Community 445](Community_445.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
+- `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 28 (82%)
+- INFERRED: 6 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

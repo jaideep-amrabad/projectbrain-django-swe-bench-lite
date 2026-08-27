@@ -1,48 +1,64 @@
 # Community 327
 
-> 36 nodes · cohesion 0.10
+> 32 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **ForTagTests** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **setup** (32 connections)
-- **.test_for_tag_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_unpack09()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_empty01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_empty02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_empty03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_filter_ws()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_unpack01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_unpack03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_unpack04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_unpack05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_unpack06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_unpack07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_unpack08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_unpack10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_unpack11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_unpack12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_unpack13()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_unpack14()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_unpack_strs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_vars01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_vars02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- *... and 11 more nodes in this community*
+- **ConnectionHandler** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **db_utils/tests.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- **ConnectionHandlerTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- **load_backend()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **ConnectionDoesNotExist** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
+- **.create_connection()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.ensure_defaults()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.prepare_test_settings()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.test_no_database()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.assertImproperlyConfigured()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- **.test_connection_handler_no_databases()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- **DatabaseErrorWrapperTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- **LoadBackendTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- **.test_makemigrations_empty_connections()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
+- **.configure_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.databases()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **._get_databases()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.test_ensure_defaults_nonexistent_alias()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- **.test_no_default_database()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- **.test_nonexistent_alias()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- **.test_prepare_test_settings_nonexistent_alias()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- **.test_reraising_backend_specific_database_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- **.test_load_backend_invalid_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- **.close_all()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **Return a database backend's "base" module given a fully qualified database…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
+- [Community 5](Community_5.md) (9 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 11](Community_11.md) (3 shared connections)
+- [Community 31](Community_31.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 226](Community_226.md) (1 shared connections)
+- [Community 50](Community_50.md) (1 shared connections)
+- [Community 694](Community_694.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 151](Community_151.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/connection.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
 
 ## Audit Trail
 
-- EXTRACTED: 68 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 68 (96%)
+- INFERRED: 3 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

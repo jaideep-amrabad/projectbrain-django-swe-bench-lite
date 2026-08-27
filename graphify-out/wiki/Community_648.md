@@ -1,28 +1,40 @@
 # Community 648
 
-> 7 nodes · cohesion 0.33
+> 15 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **TemporaryFile** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
-- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
-- **.__del__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
-- **Temporary file object constructor that supports reopening of the temporary file…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
-- **.__enter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
-- **.__exit__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- **ManageFullPathDefaultSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **fulldefault: manage.py can execute user commands when default settings are…** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **A series of tests for manage.py when using a settings.py file that contains the…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **fulldefault: manage.py builtin commands succeed if settings are provided as…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **fulldefault: manage.py builtin commands succeed when default settings are…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **fulldefault: manage.py builtin commands succeed if settings file (from…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **fulldefault: manage.py builtin commands fail if settings file (from…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Relationships
 
-- [Community 138](Community_138.md) (2 shared connections)
+- [Community 107](Community_107.md) (9 shared connections)
+- [Community 280](Community_280.md) (8 shared connections)
+- [Community 91](Community_91.md) (8 shared connections)
+- [Community 226](Community_226.md) (2 shared connections)
+- [Community 254](Community_254.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 45 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

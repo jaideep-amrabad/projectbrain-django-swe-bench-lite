@@ -4,22 +4,22 @@
 
 ## Key Concepts
 
-- **.test_second_form_partially_filled_2()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **A partially completed form is invalid.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.compiler()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Return the SQLCompiler class corresponding to the given name, in the namespace…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Relationships
 
-- [Community 105](Community_105.md) (1 shared connections)
-- [Community 1152](Community_1152.md) (1 shared connections)
+- [Community 44](Community_44.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 2 (67%)
+- INFERRED: 1 (33%)
 - AMBIGUOUS: 0 (0%)
 
 ---

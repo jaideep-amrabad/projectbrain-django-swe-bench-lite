@@ -1,54 +1,51 @@
 # Community 405
 
-> 25 nodes · cohesion 0.09
+> 27 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **EmailMultiAlternatives** (19 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **SafeMIMEText** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **._create_mime_attachment()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **._create_attachments()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **._create_attachment()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.message()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **._create_alternatives()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **._create_message()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **._set_list_header_if_not_empty()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.test_attachments()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_safe_mime_multipart()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_safe_mime_multipart_with_attachments()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **._create_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.attach_alternative()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.__setitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **Convert the content, mimetype pair into a MIME attachment object. If the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **Convert the filename, content, mimetype triple into a MIME attachment object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **Set msg's header, either from self.extra_headers, if present, or from the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **A version of EmailMessage that makes it easy to send multipart/alternative…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **Attach an alternative content representation.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.set_payload()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **Make sure headers can be set with a different encoding than utf-8 in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **EmailMultiAlternatives includes alternatives if the body is empty and it has…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **Regression test for #9367** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **SetLanguageTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **._get_inactive_language_code()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_setlang_decodes_http_referer_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_setlang()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_setlang_default_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_setlang_doesnt_perform_a_default_redirect_for_ajax()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_setlang_doesnt_perform_a_redirect_to_referer_for_ajax()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_setlang_http_next()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_setlang_performs_redirect_for_ajax_if_explicitly_requested()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_setlang_redirect_to_referer()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_setlang_unsafe_next()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_setlang_unsafe_next_for_ajax()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_lang_from_translated_i18n_pattern()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_setlang_reversal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **The set_language view doesn't redirect to the HTTP referer header if the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **The set_language view returns 204 by default for requests not accepting HTML…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **The fallback to root URL for the set_language view works for requests not…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **The set_language view decodes the HTTP_REFERER URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **Test the django.views.i18n.set_language view.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **Return language code for a language which is not activated.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **The set_language view can be used to change the session language. The user is…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **The set_language view only redirects to the 'next' argument if it is "safe".** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **The set_language view only redirects to the 'next' argument if it is "safe" and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **The set_language view redirects to the URL in the referer header when there…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **The set_language view redirects to '/' when there isn't a referer or "next"…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Community 124](Community_124.md) (11 shared connections)
-- [Community 181](Community_181.md) (10 shared connections)
-- [Community 187](Community_187.md) (3 shared connections)
-- [Community 52](Community_52.md) (2 shared connections)
-- [Community 163](Community_163.md) (1 shared connections)
-- [Community 445](Community_445.md) (1 shared connections)
-- [Community 927](Community_927.md) (1 shared connections)
-- [Community 919](Community_919.md) (1 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 15](Community_15.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
 
 ## Audit Trail
 
-- EXTRACTED: 57 (100%)
+- EXTRACTED: 43 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

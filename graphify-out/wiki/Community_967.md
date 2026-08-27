@@ -1,28 +1,28 @@
 # Community 967
 
-> 6 nodes · cohesion 0.53
+> 6 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **OracleDbshellTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
-- **.settings_to_cmd_args_env()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
-- **.test_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
-- **.test_with_rlwrap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
-- **.test_without_rlwrap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
-- **skipUnless** (1 connections)
+- **RelatedPopulator** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **get_related_populators()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **RelatedPopulator is used for select_related() object instantiation. The idea is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.populate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Relationships
 
-- [Community 43](Community_43.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 276](Community_276.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

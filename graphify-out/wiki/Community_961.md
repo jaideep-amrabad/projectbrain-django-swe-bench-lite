@@ -1,31 +1,29 @@
 # Community 961
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **RawQuerySetTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **TestDataMixin** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_basic()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_prefetch_before_raw()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **TestArchive** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
+- **.test_extract_file_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
+- **skipIf** (1 connections)
+- **archive.extract() preserves file permissions.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
+- **.test_extract_function()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
 
 ## Relationships
 
-- [Community 278](Community_278.md) (6 shared connections)
 - [Community 2](Community_2.md) (1 shared connections)
-- [Community 326](Community_326.md) (1 shared connections)
-- [Community 344](Community_344.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (64%)
-- INFERRED: 5 (36%)
+- EXTRACTED: 7 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

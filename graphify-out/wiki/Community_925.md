@@ -1,32 +1,33 @@
 # Community 925
 
-> 8 nodes · cohesion 0.25
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **FlatpageModelTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
-- **.test_get_absolute_url_with_hardcoded_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
-- **.test_get_absolute_url_honors_script_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
-- **.test_get_absolute_url_include()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
-- **.test_get_absolute_url_include_no_slash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
-- **.test_get_absolute_url_urlencodes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
-- **.test_str()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
+- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **The 'request' parameter is set for custom auth use by subclasses. The form data…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
 
 ## Relationships
 
-- [Community 37](Community_37.md) (3 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 697](Community_697.md) (1 shared connections)
+- [Community 426](Community_426.md) (1 shared connections)
+- [Community 633](Community_633.md) (1 shared connections)
+- [Community 632](Community_632.md) (1 shared connections)
+- [Community 476](Community_476.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

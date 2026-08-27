@@ -1,36 +1,33 @@
 # Community 778
 
-> 11 nodes · cohesion 0.18
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **PostGISGeometryColumns** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
-- **PostGISSpatialRefSys** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
-- **.geom_col_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
-- **.table_name_col()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
-- **.wkt()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
-- **Return the name of the metadata column used to store the feature table name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
-- **Return the name of the metadata column used to store the feature geometry…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
-- **The 'spatial_ref_sys' table from PostGIS. See the PostGIS documentation at Ch.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
-- **The 'geometry_columns' view from PostGIS. See the PostGIS documentation at Ch.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
+- **AdminActionsPermissionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_model_admin_no_delete_permission()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_model_admin_no_delete_permission_externalsubscriber()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **Permission is denied if the user doesn't have delete permission for the model…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **Permission is denied if the user doesn't have delete permission for a related…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
 
 ## Relationships
 
-- [Community 71](Community_71.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 301](Community_301.md) (2 shared connections)
-- [Community 338](Community_338.md) (1 shared connections)
+- [Community 1731](Community_1731.md) (2 shared connections)
+- [Community 15](Community_15.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (88%)
-- INFERRED: 2 (12%)
+- EXTRACTED: 11 (85%)
+- INFERRED: 2 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

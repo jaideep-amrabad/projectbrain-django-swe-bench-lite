@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **.test_external_redirect_with_fetch_error_msg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **assertRedirects without fetch_redirect_response=False raises a relevant…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_model_pickle()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **A model not defined on module level is picklable.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
 
 ## Relationships
 
-- [Community 551](Community_551.md) (1 shared connections)
+- [Community 341](Community_341.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
 
 ## Audit Trail
 

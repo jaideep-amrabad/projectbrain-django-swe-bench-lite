@@ -1,69 +1,61 @@
 # Community 18
 
-> 191 nodes · cohesion 0.02
+> 216 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **ModelAdmin** (151 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **HttpResponseRedirect** (62 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **TemplateResponse** (45 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- **BaseModelAdmin** (35 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.changeform_view()** (32 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **InlineModelAdmin** (24 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.changelist_view()** (24 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **unquote()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **.get_formset()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.delete_view()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **add_preserved_filters()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_urls.py`
-- **.get_form()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.response_add()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **get_permission_codename()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
-- **.has_change_permission()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_changelist_instance()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_preserved_filters()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.render_change_form()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.response_change()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **DisallowedModelAdminToField** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/exceptions.py`
-- **.history_view()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.response_delete()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.user_change_password()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/admin.py`
-- **get_content_type_for_model()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_actions()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- *... and 166 more nodes in this community*
+- **AutodetectorTests** (140 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.get_changes()** (116 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.assertOperationTypes()** (106 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.assertNumberMigrations()** (105 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.assertOperationAttributes()** (88 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **ModelState** (72 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **.assertMigrationDependencies()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **isolate_lru_cache()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.test_last_dependency()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_first_dependency()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.assertOperationFieldAttributes()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_circular_dependency_swappable()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_circular_dependency_swappable2()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_circular_dependency_swappable_self()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_rename_model_reverse_relation_dependencies()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **patch** (9 connections)
+- **.test_alter_field_to_not_null_oneoff_default()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_alter_field_to_not_null_with_default()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_alter_field_to_not_null_without_default()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_rename_field_preserved_db_column()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_rename_model_with_fks_in_different_position()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_swappable()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_swappable_changed()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_swappable_first_setting()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_add_blank_textfield_and_charfield()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- *... and 191 more nodes in this community*
 
 ## Relationships
 
-- [Community 16](Community_16.md) (36 shared connections)
-- [Community 25](Community_25.md) (30 shared connections)
-- [Community 52](Community_52.md) (20 shared connections)
-- [Community 9](Community_9.md) (18 shared connections)
-- [Community 145](Community_145.md) (18 shared connections)
-- [Community 36](Community_36.md) (11 shared connections)
-- [Community 6](Community_6.md) (9 shared connections)
-- [Community 35](Community_35.md) (9 shared connections)
-- [Community 217](Community_217.md) (8 shared connections)
-- [Community 313](Community_313.md) (7 shared connections)
-- [Community 149](Community_149.md) (7 shared connections)
-- [Community 29](Community_29.md) (6 shared connections)
+- [Community 208](Community_208.md) (16 shared connections)
+- [Community 63](Community_63.md) (15 shared connections)
+- [Community 110](Community_110.md) (14 shared connections)
+- [Community 50](Community_50.md) (9 shared connections)
+- [Community 8](Community_8.md) (8 shared connections)
+- [Community 25](Community_25.md) (5 shared connections)
+- [Community 103](Community_103.md) (5 shared connections)
+- [Community 1059](Community_1059.md) (4 shared connections)
+- [Community 21](Community_21.md) (3 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 290](Community_290.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_urls.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/admin.py`
-- `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- `raw/code/hyd-evaluation/django-django/tests/handlers/tests_custom_error_handlers.py`
-- `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 
 ## Audit Trail
 
-- EXTRACTED: 598 (91%)
-- INFERRED: 61 (9%)
+- EXTRACTED: 777 (98%)
+- INFERRED: 18 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,61 +1,63 @@
 # Community 112
 
-> 74 nodes · cohesion 0.03
+> 64 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **.e()** (77 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **AssertRedirectsTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **AssertFormsetErrorTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **AssertFormErrorTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Command** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/createcachetable.py`
-- **.create_table()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/createcachetable.py`
-- **An assertion is raised if the form's non field errors doesn't contain the…** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_noerror_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_unknown_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_unknown_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_unknown_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_unknown_nonfield_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_incorrect_target()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_lost_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_redirect_chain_on_non_redirect_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_redirect_on_non_redirect_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_redirect_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_redirect_to_different_host()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_target_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **An assertion is raised if the original page couldn't be retrieved as expected** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.handle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/createcachetable.py`
-- **.getResponse()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_field_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_no_error_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- *... and 49 more nodes in this community*
+- **test_testcase.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **AssertQuerysetEqualTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **TestDataTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **Car** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/models.py`
+- **TestData** (11 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Person** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/models.py`
+- **test_transactiontestcase.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
+- **test_utils/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/models.py`
+- **SetupTestDataIsolationTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **TestTestCase** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **AssertNumQueriesContextManagerTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **PossessedCar** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/models.py`
+- **TestSerializedRollbackInhibitsPostMigrate** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
+- **AssertNumQueriesTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **assert_no_queries()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **DisallowedDatabaseQueriesTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
+- **TransactionTestCaseDatabasesTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
+- **NonDeepCopyAble** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **.test_class_attribute_equality()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **.test_class_attribute_identity()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **.test_identity_preservation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **.test_known_related_objects_identity_preservation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **.test_repeated_values()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.__get__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.get_memo()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- *... and 39 more nodes in this community*
 
 ## Relationships
 
-- [Community 106](Community_106.md) (7 shared connections)
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 207](Community_207.md) (3 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 52](Community_52.md) (3 shared connections)
+- [Community 2](Community_2.md) (12 shared connections)
+- [Community 6](Community_6.md) (9 shared connections)
+- [Community 5](Community_5.md) (6 shared connections)
+- [Community 36](Community_36.md) (5 shared connections)
+- [Community 8](Community_8.md) (4 shared connections)
+- [Community 274](Community_274.md) (3 shared connections)
+- [Community 265](Community_265.md) (3 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 70](Community_70.md) (2 shared connections)
 - [Community 0](Community_0.md) (2 shared connections)
-- [Community 16](Community_16.md) (2 shared connections)
-- [Community 509](Community_509.md) (2 shared connections)
-- [Community 208](Community_208.md) (2 shared connections)
-- [Community 683](Community_683.md) (2 shared connections)
-- [Community 290](Community_290.md) (2 shared connections)
-- [Community 55](Community_55.md) (2 shared connections)
+- [Community 103](Community_103.md) (1 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/createcachetable.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 96 (56%)
-- INFERRED: 75 (44%)
+- EXTRACTED: 115 (85%)
+- INFERRED: 20 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

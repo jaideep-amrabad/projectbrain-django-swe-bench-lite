@@ -1,55 +1,41 @@
 # Community 461
 
-> 19 nodes · cohesion 0.11
+> 13 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **Message** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **.test_full_request_response_cycle()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_multiple_posts()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.add()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **.tags()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **filter_tests_by_tags()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **MessageTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/tests.py`
-- **._prepare()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **.enable()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.test_eq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/tests.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **.level_tag()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **Queue a message to be stored. The message is only queued if it contained…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **Prepare the message for serialization by forcing the ``message`` and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **Represent an actual message that can be stored in any of the supported storage…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **With the message middleware enabled, messages are properly stored and retrieved…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **Messages persist properly when multiple POSTs are made before a GET.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **._create_index_sql()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._create_unique_sql()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._field_indexes_sql()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._model_indexes_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._index_columns()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._unique_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._deferrable_constraint_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._index_condition_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._field_should_be_indexed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._get_index_tablespace_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Return the SQL statement to create the index for one or several fields or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Return a list of all index SQL statements (field indexes, index_together,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Return a list of all index SQL statements for the specified field.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
 
 ## Relationships
 
-- [Community 302](Community_302.md) (6 shared connections)
-- [Community 539](Community_539.md) (3 shared connections)
-- [Community 259](Community_259.md) (3 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 428](Community_428.md) (1 shared connections)
-- [Community 959](Community_959.md) (1 shared connections)
-- [Community 60](Community_60.md) (1 shared connections)
+- [Community 296](Community_296.md) (16 shared connections)
+- [Community 536](Community_536.md) (5 shared connections)
+- [Community 584](Community_584.md) (3 shared connections)
+- [Community 346](Community_346.md) (2 shared connections)
+- [Community 673](Community_673.md) (2 shared connections)
+- [Community 81](Community_81.md) (1 shared connections)
 - [Community 230](Community_230.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (95%)
-- INFERRED: 2 (5%)
+- EXTRACTED: 45 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

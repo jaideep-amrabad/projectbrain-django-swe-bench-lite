@@ -1,60 +1,49 @@
 # Community 474
 
-> 28 nodes · cohesion 0.11
+> 23 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **multiple_database/tests.py** (47 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **Person** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
-- **Review** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
-- **RelationAssignmentTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **Pet** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
-- **UserProfile** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
-- **RouterModelArgumentTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **SignalTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
-- **WriteToOtherRouter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **ModelMetaRouter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **NoRelationRouter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_foreign_key_relation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_reverse_one_to_one_relation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.override_router()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **AntiPetRouter** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
-- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.db_for_write()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.allow_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **A router that sends all writes to the other database.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **A router to ensure model arguments are real model classes** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **Disallow all relations.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **allow_relation() is called with unsaved model instances.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- *... and 3 more nodes in this community*
+- **TestIterModulesAndFiles** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.assertFileFound()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.temporary_file()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_bytecode_conversion_to_source()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_check_errors()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_check_errors_catches_all_exceptions()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_file_added()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_zip_reload()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.import_and_cleanup()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.clear_autoreload_caches()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.assertFileNotFound()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_main_module_is_resolved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_main_module_without_file_is_not_resolved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_module_without_spec()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_path_with_embedded_null_bytes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_weakref_in_sys_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **Modules imported from zipped files have their archive location included in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.pyc and .pyo files are included in the files list.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **iter_all_python_module_file() ignores weakref modules.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **When a file is added, it's returned by iter_all_python_module_files().** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **When a file containing an error is imported in a function wrapped by…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **Since Python may raise arbitrary exceptions when importing code, check_errors()…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_paths_are_pathlib_instances()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (10 shared connections)
-- [Community 636](Community_636.md) (7 shared connections)
-- [Community 227](Community_227.md) (7 shared connections)
-- [Community 475](Community_475.md) (5 shared connections)
-- [Community 643](Community_643.md) (5 shared connections)
-- [Community 261](Community_261.md) (5 shared connections)
-- [Community 7](Community_7.md) (4 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 52](Community_52.md) (3 shared connections)
-- [Community 764](Community_764.md) (3 shared connections)
-- [Community 976](Community_976.md) (2 shared connections)
+- [Community 330](Community_330.md) (5 shared connections)
+- [Community 26](Community_26.md) (3 shared connections)
+- [Community 393](Community_393.md) (3 shared connections)
+- [Community 412](Community_412.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Audit Trail
 
-- EXTRACTED: 88 (82%)
-- INFERRED: 19 (18%)
+- EXTRACTED: 45 (88%)
+- INFERRED: 6 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

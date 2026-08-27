@@ -1,33 +1,40 @@
 # Community 974
 
-> 5 nodes · cohesion 0.40
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **.migrations_module()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
-- **.basedir()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **.ask_initial()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **Return the path to the migrations module for the specified app_label and a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
-- **Should we create an initial migration for the app?** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **DatabaseSessionTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_clearsessions_command()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **DatabaseSessionWithTimeZoneTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_clearsessions_command()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_session_get_decoded()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_session_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_sessionmanager_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **Test clearsessions command for clearing expired sessions.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **Session repr should be the session key.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **Test we can use Session.get_decoded to retrieve data stored in normal way** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **Test SessionManager.save method** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
 
 ## Relationships
 
-- [Community 75](Community_75.md) (2 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 231](Community_231.md) (1 shared connections)
-- [Community 552](Community_552.md) (1 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 574](Community_574.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 243](Community_243.md) (1 shared connections)
+- [Community 206](Community_206.md) (1 shared connections)
+- [Community 637](Community_637.md) (1 shared connections)
+- [Community 873](Community_873.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (90%)
-- INFERRED: 1 (10%)
+- EXTRACTED: 20 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

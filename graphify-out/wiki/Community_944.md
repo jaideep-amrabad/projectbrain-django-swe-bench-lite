@@ -1,30 +1,30 @@
 # Community 944
 
-> 7 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **TestGetObjectFeed** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.item_comments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.item_link()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.get_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.item_description()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.item_title()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **GenericIPAddressFieldTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
+- **.test_generic_ipaddress_as_generic()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
+- **.test_generic_ipaddress_as_generic_not_required()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
+- **.test_generic_ipaddress_as_ipv4_only()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
+- **.test_generic_ipaddress_as_ipv6_only()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
+- **.test_generic_ipaddress_invalid_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
+- **.test_generic_ipaddress_normalization()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
 
 ## Relationships
 
-- [Community 171](Community_171.md) (3 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (82%)
-- INFERRED: 2 (18%)
+- EXTRACTED: 8 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

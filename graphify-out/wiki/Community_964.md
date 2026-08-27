@@ -1,30 +1,27 @@
 # Community 964
 
-> 6 nodes · cohesion 0.33
+> 6 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **compare_xml()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.assertXMLEqual()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.assertXMLNotEqual()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Assert that two XML snippets are semantically the same. Whitespace in most…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Assert that two XML snippets are not semantically equivalent. Whitespace in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Try to do a 'xml-comparison' of want and got. Plain string comparison doesn't…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **HStoreField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
+- **.has_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
+- **.to_python()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
+- **.prepare_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
+- **A field for HStore data which accepts dictionary JSON input.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
+- **Return True if data differs from initial.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
 
 ## Relationships
 
 - [Community 1](Community_1.md) (2 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

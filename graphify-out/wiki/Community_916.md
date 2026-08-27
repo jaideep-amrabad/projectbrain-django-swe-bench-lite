@@ -1,32 +1,29 @@
 # Community 916
 
-> 8 nodes · cohesion 0.25
+> 8 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **AbstractUserTestCase** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_check_password_upgrade()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_email_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_user_clean_normalize_email()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_user_double_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_last_login_default()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **Calling user.save() twice should trigger password_changed() once.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **password_changed() shouldn't be called if User.check_password() triggers a hash…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **SpacelessTagTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
+- **setup** (6 connections)
+- **.test_spaceless01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
+- **.test_spaceless02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
+- **.test_spaceless03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
+- **.test_spaceless04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
+- **.test_spaceless05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
+- **.test_spaceless06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
 
 ## Relationships
 
-- [Community 52](Community_52.md) (3 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 174](Community_174.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,55 +1,54 @@
 # Community 288
 
-> 39 nodes · cohesion 0.07
+> 40 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **BoundField** (28 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **BoundWidget** (10 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.as_widget()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.value()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.subwidgets()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.as_hidden()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.as_text()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.as_textarea()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.__str__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.build_widget_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.auto_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.css_classes()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.data()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.id_for_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.is_hidden()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.tag()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **Return a string of HTML for representing this as an <input type="text">.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.widget_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.choice_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- *... and 14 more nodes in this community*
+- **FormMixin** (17 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **ModelFormMixin** (15 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **FormMixinTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **.get_form()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **ModelFormMixinTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **.get_context_data()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **.post()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **.form_invalid()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **.get_form_kwargs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **.get_form_class()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **.get_initial()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **.get_prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **.get_success_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **.form_valid()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **.get_form_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **.get_success_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **.test_initial_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **.test_get_form_checks_for_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **.get_form_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **Return the keyword arguments for instantiating the form.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **Return the URL to redirect to after processing a valid form.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **.test_get_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **Provide a way to show and handle a form in a request.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **If the form is valid, save the associated model.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [Community 50](Community_50.md) (8 shared connections)
-- [Community 47](Community_47.md) (2 shared connections)
-- [Community 133](Community_133.md) (1 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
-- [Community 108](Community_108.md) (1 shared connections)
-- [Community 126](Community_126.md) (1 shared connections)
-- [Community 208](Community_208.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 49](Community_49.md) (10 shared connections)
+- [Community 77](Community_77.md) (6 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 415](Community_415.md) (1 shared connections)
+- [Community 347](Community_347.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
 
 ## Audit Trail
 
-- EXTRACTED: 61 (94%)
-- INFERRED: 4 (6%)
+- EXTRACTED: 70 (95%)
+- INFERRED: 4 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

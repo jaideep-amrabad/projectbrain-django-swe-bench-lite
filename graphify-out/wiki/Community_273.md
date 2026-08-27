@@ -1,60 +1,53 @@
 # Community 273
 
-> 34 nodes · cohesion 0.07
+> 36 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **Meta** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Tag** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **ConditionalTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **ExistsSql** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **NullableRelOrderingTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **OrderItem** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Cover** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Plaything** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **RelatedObject** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **SingleObject** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **ValuesSubqueryTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **LoopX** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **LoopZ** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **NullableName** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **RelatedIndividual** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **EmptyStringPromotionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **ReverseJoinTrimmingTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **LoopY** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.test_null_ordering_added()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- *... and 9 more nodes in this community*
+- **BaseEmailBackendTests** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.get_the_message()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.assertMessageHasHeaders()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_idn_send()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_lazy_addresses()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_html_mail_admins()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_html_mail_managers()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_message_cc_header()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_send_long_lines()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.flush_mailbox()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_html_send_mail()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_plaintext_send_mail()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_recipient_without_domain()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_send_many()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **HeadersCheckMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.get_mailbox_content()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_send()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_send_unicode()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_send_verbose_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_close_connection()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **Regression test for #7722** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.assertStartsWith()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.flush_mailbox()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.get_mailbox_content()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [Community 15](Community_15.md) (29 shared connections)
-- [Community 1013](Community_1013.md) (9 shared connections)
-- [Community 2](Community_2.md) (7 shared connections)
-- [Community 114](Community_114.md) (3 shared connections)
-- [Community 422](Community_422.md) (3 shared connections)
-- [Community 54](Community_54.md) (2 shared connections)
-- [Community 747](Community_747.md) (2 shared connections)
-- [Community 399](Community_399.md) (2 shared connections)
-- [Community 549](Community_549.md) (2 shared connections)
-- [Community 117](Community_117.md) (2 shared connections)
-- [Community 21](Community_21.md) (2 shared connections)
-- [Community 861](Community_861.md) (1 shared connections)
+- [Community 156](Community_156.md) (15 shared connections)
+- [Community 114](Community_114.md) (13 shared connections)
+- [Community 417](Community_417.md) (4 shared connections)
+- [Community 504](Community_504.md) (3 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 606](Community_606.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 78 (73%)
-- INFERRED: 29 (27%)
+- EXTRACTED: 91 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,45 +1,54 @@
 # Community 561
 
-> 16 nodes · cohesion 0.12
+> 28 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **LimitChoicesToTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **fields_for_model()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.test_custom_field_with_queryset_but_no_limit_choices_to()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_limit_choices_to_callable_for_fk_rel()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_limit_choices_to_callable_for_m2m_rel()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_empty_fields_to_fields_for_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_callable_called_each_time_form_is_instantiated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_fields_for_model_applies_limit_choices_to()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_limit_choices_to_no_duplicates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Return a dictionary containing form fields for the given model. ``fields`` is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **An argument of fields=() to fields_for_model should return an empty dictionary** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Tests the functionality of ``limit_choices_to``.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **A ForeignKey can use limit_choices_to as a callable (#2554).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **A ManyToManyField can use limit_choices_to as a callable (#2554).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **A custom field with a `queryset` attribute but no `limit_choices_to` works…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **HTMLEqualTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **parse_html()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **assert_and_parse_html()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._assert_contains()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.assertContains()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.assertHTMLEqual()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.assertHTMLNotEqual()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.assertNotContains()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Assert that a response indicates that some content was retrieved successfully,…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.assertInHTML()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.test_contains_html()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_html_contain()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_html_parser()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_parse_html_in_script()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_parsing_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_self_closing_tags()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_unicode_handling()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Take a string that contains *valid* HTML and turn it into a Python object…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **Assert that two HTML snippets are semantically the same. Whitespace in most…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Assert that two HTML snippets are not semantically equivalent.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.test_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_class_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_complex_examples()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_ignore_comments()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 130](Community_130.md) (8 shared connections)
-- [Community 71](Community_71.md) (2 shared connections)
-- [Community 44](Community_44.md) (1 shared connections)
-- [Community 50](Community_50.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 283](Community_283.md) (1 shared connections)
+- [Community 2](Community_2.md) (7 shared connections)
+- [Community 0](Community_0.md) (7 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 449](Community_449.md) (1 shared connections)
+- [Community 248](Community_248.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (93%)
-- INFERRED: 2 (7%)
+- EXTRACTED: 48 (94%)
+- INFERRED: 3 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

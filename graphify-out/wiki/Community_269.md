@@ -1,67 +1,53 @@
 # Community 269
 
-> 78 nodes · cohesion 0.04
+> 38 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **JsonResponse** (31 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **file_uploads/views.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **FileUploadHandler** (14 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **StopUpload** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **TemporaryFileUploadHandler** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **file_uploads/uploadhandler.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
-- **QuotaUploadHandler** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
-- **JsonResponseTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **FileModel** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/models.py`
-- **StopUploadTemporaryFileHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
-- **ErroringUploadHandler** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
-- **file_upload_echo()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **file_upload_view_verify()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **file_upload_view()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **file_upload_filename_case_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **file_upload_quota()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **file_upload_quota_broken()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **file_upload_unicode_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **CustomUploadError** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
-- **file_uploads/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/urls.py`
-- **file_stop_upload_temporary_file()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **file_upload_content_type_extra()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **file_upload_echo_content()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **file_upload_errors()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **file_upload_getlist_count()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- *... and 53 more nodes in this community*
+- **DatabaseCreation** (41 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_settings_get()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._get_test_db_params()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._create_test_db()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._destroy_test_db()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_user_create()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._create_test_user()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._destroy_test_user()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._execute_allow_fail_statements()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._execute_statements()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._execute_test_db_destruction()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._handle_objects_preventing_db_destruction()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_passwd()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._execute_test_db_creation()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_create()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_tblspace()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_tblspace_datafile()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_tblspace_tmp_datafile()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_user()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._switch_to_test_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_oracle_managed_files()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_tblspace_extsize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_tblspace_maxsize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_tblspace_size()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Community 52](Community_52.md) (13 shared connections)
-- [Community 29](Community_29.md) (9 shared connections)
-- [Community 138](Community_138.md) (8 shared connections)
-- [Community 3](Community_3.md) (7 shared connections)
-- [Community 357](Community_357.md) (6 shared connections)
-- [Community 299](Community_299.md) (3 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 95](Community_95.md) (2 shared connections)
-- [Community 394](Community_394.md) (1 shared connections)
-- [Community 505](Community_505.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 359](Community_359.md) (1 shared connections)
+- [Community 5](Community_5.md) (4 shared connections)
+- [Community 747](Community_747.md) (3 shared connections)
+- [Community 609](Community_609.md) (2 shared connections)
+- [Community 109](Community_109.md) (1 shared connections)
+- [Community 248](Community_248.md) (1 shared connections)
+- [Community 101](Community_101.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
 
 ## Audit Trail
 
-- EXTRACTED: 158 (93%)
-- INFERRED: 11 (7%)
+- EXTRACTED: 103 (97%)
+- INFERRED: 3 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

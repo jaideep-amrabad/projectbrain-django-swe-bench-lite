@@ -1,49 +1,51 @@
 # Community 526
 
-> 21 nodes · cohesion 0.10
+> 24 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **Tests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **LastExecutedQueryTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **EscapingChecks** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **skipUnless** (6 connections)
-- **EscapingChecksDebug** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **ThreadSharing** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **.test_aggregation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **.test_memory_db_test_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **.test_check_sqlite_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **.test_pathlib_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **.test_parameter_escaping()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **.test_large_number_of_parameters()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **.test_no_interpolation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **.test_parameter_quoting()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **All tests in this test case are also run with settings.DEBUG=True in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **Raise NotSupportedError when aggregating on date/time fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **A named in-memory db should be allowed where supported.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **.test_distinct_aggregation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **.test_distinct_aggregation_multiple_args_no_distinct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **.test_regexp_function()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **.test_database_sharing_in_threads()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **ExcludeTest17600** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **NullInExcludeTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **OrderItem** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **ValuesSubqueryTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_only_orders_with_all_items_having_status_1()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **This should exclude Orders which have some items with status 1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_exclude_with_q_is_equal_to_plain_exclude()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_exclude_with_q_is_equal_to_plain_exclude_variation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_exclude_with_q_object_distinct()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_exclude_with_q_object_no_distinct()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_col_not_in_list_containing_null()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_exclude_plain()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_exclude_plain_distinct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_double_exclude()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **expectedFailure** (2 connections)
+- **Using exclude(condition) and exclude(Q(condition)) should yield the same…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_null_in_exclude_qs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **Some regressiontests for ticket #17600. Some of these likely duplicate other…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **This should only return orders having ALL items set to status 1, or those items…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **The following case is not handled properly because SQL's COL NOT IN (list…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_values_in_subquery()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Relationships
 
-- [Community 32](Community_32.md) (5 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 20](Community_20.md) (2 shared connections)
-- [Community 43](Community_43.md) (2 shared connections)
-- [Community 54](Community_54.md) (1 shared connections)
-- [Community 523](Community_523.md) (1 shared connections)
+- [Community 17](Community_17.md) (6 shared connections)
+- [Community 16](Community_16.md) (5 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 686](Community_686.md) (2 shared connections)
+- [Community 582](Community_582.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 40 (89%)
+- INFERRED: 5 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

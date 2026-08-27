@@ -1,51 +1,50 @@
 # Community 413
 
-> 28 nodes · cohesion 0.10
+> 26 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **UpdateOnlyFieldsTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **update_only_fields/tests.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **update_only_fields/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- **Employee** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- **ProxyEmployee** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- **Account** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- **NonConcreteField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- **Profile** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- **.get_attname_column()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- **.test_empty_update_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_num_queries_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_select_related_only_interaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_basic()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_deferred()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_fk_defer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_incorrect_params()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_inheritance_defer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_inheritance_with_proxy_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_only_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_only_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- *... and 3 more nodes in this community*
+- **RenameMethodsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
+- **deprecation/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
+- **RenameMethodsBase** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- **DeprecationInstanceCheck** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- **warn_about_renamed_method** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- **DeprecationInstanceCheckTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
+- **type** (2 connections)
+- **.__new__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- **Ensure the correct warnings are raised when a class that didn't rename `old`…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
+- **RenameManagerMethods** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
+- **.test_class_definition_warnings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
+- **.test_deprecated_subclass_renamed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
+- **.test_deprecated_subclass_renamed_and_mixins()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
+- **.test_get_new_defined()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
+- **.test_get_old_defined()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
+- **.test_renamed_subclass_deprecated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
+- **.__instancecheck__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- **Handles the deprecation paths when renaming a method. It does the following: 1)…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- **.test_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
+- **Ensure the correct warnings are raised when a subclass inherit from a class…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
+- **Tests the `RenameMethodsBase` type introduced to rename `get_query_set` to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
+- **Ensure a warning is raised upon class definition to suggest renaming the faulty…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
+- **Ensure `old` complains and not `new` when only `new` is defined.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (89%)
-- INFERRED: 5 (11%)
+- EXTRACTED: 36 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

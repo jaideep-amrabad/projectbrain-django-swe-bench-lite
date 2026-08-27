@@ -1,25 +1,28 @@
 # Community 1749
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.test_invalid_deleted_form_with_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **Can get ordered_forms from a valid formset even if a deleted form would have…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_preserve_attributes()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **myattr2_dec()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **myattr_dec()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
 
 ## Relationships
 
-- [Community 105](Community_105.md) (1 shared connections)
-- [Community 1152](Community_1152.md) (1 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 959](Community_959.md) (1 shared connections)
+- [Community 215](Community_215.md) (1 shared connections)
+- [Community 76](Community_76.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 4 (57%)
+- INFERRED: 3 (43%)
 - AMBIGUOUS: 0 (0%)
 
 ---

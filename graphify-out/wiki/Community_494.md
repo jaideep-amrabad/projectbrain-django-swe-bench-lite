@@ -1,52 +1,60 @@
 # Community 494
 
-> 22 nodes · cohesion 0.11
+> 36 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **CaseInsensitiveMapping** (20 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **CaseInsensitiveMappingTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.__repr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__repr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_create_with_invalid_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_create_with_invalid_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **Mapping** (1 connections)
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **Mapping allowing case-insensitive key lookups. Original case of keys is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.test_copy()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_del()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_dict()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_equal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_getitem()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_in()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **model_fields/tests.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **GetFieldDisplayTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **GetChoicesOrderingTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **ChoicesTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **GetChoicesLimitChoicesToTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.assertChoicesEqual()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **Bar** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **Whiz** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **WhizDelayed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **WhizIter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **WhizIterEmpty** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.test_choices_and_field_display()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **Choiceful** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **VerboseNameField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.test_empty_iterator_choices()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_get_FIELD_display_translated()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_iterator_choices()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_get_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_get_choices_reverse_related_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_get_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_get_choices_default_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_get_choices_reverse_related_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_get_choices_reverse_related_field_default_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **get_choices() works with Iterators.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [Community 625](Community_625.md) (4 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 201](Community_201.md) (2 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
-- [Community 830](Community_830.md) (1 shared connections)
-- [Community 890](Community_890.md) (1 shared connections)
-- [Community 896](Community_896.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 222](Community_222.md) (8 shared connections)
+- [Community 74](Community_74.md) (5 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 189](Community_189.md) (3 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 175](Community_175.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 182](Community_182.md) (1 shared connections)
+- [Community 1117](Community_1117.md) (1 shared connections)
+- [Community 1003](Community_1003.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 77 (88%)
+- INFERRED: 11 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

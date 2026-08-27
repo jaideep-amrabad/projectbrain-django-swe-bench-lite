@@ -1,65 +1,54 @@
 # Community 360
 
-> 30 nodes · cohesion 0.07
+> 30 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **test_autoreload.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **BaseReloaderTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **RestartWithReloaderTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **django/__main__.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/__main__.py`
-- **TestUtilities** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **test_module/__init__.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/__init__.py`
-- **.patch_autoreload()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **TestCheckErrors** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **TestCommonRoots** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **on_macos_with_hfs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/utils.py`
-- **.test_wait_for_apps_ready_checks_for_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_wait_for_apps_ready_without_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_watch_files_with_recursive_glob()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_manage_py()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_python_m_django()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **utils_tests/utils.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/utils.py`
-- **Invokes django-admin when the django module is run as a script. Example: python…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/__main__.py`
-- **.test_run_loop_catches_stopiteration()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_run_loop_stop_and_return()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_watch_dir_with_unresolvable_path()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_watch_with_glob()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_mutates_error_files()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_common_roots()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_is_django_module()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_is_django_path()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **time()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **DateTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **TimeTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **setup** (10 connections)
+- **setup** (8 connections)
+- **.test_date02_l10n()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **FunctionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **.test_time00_l10n()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **.test_date01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date05()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date09()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_time00()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **.test_time03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **.test_time04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **.test_inputs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **.test_time01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **.test_time02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **.test_time05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **.test_time06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
 - *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (6 shared connections)
-- [Community 295](Community_295.md) (5 shared connections)
-- [Community 81](Community_81.md) (4 shared connections)
-- [Community 671](Community_671.md) (4 shared connections)
-- [Community 706](Community_706.md) (3 shared connections)
-- [Community 370](Community_370.md) (2 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 154](Community_154.md) (1 shared connections)
-- [Community 138](Community_138.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 72](Community_72.md) (1 shared connections)
+- [Community 12](Community_12.md) (8 shared connections)
+- [Community 0](Community_0.md) (8 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 236](Community_236.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/__main__.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/__main__.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/another_bad_module.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/another_good_module.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
 
 ## Audit Trail
 
-- EXTRACTED: 64 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 62 (90%)
+- INFERRED: 7 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

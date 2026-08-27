@@ -1,25 +1,29 @@
 # Community 1065
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.test_check_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_backend_specific.py`
-- **patch** (1 connections)
-- **Test if backend specific checks are performed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_backend_specific.py`
+- **Parent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **ParentAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.save_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Relationships
 
+- [Community 78](Community_78.md) (2 shared connections)
+- [Community 68](Community_68.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_backend_specific.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 6 (86%)
+- INFERRED: 1 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

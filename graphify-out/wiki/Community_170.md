@@ -1,63 +1,54 @@
 # Community 170
 
-> 46 nodes · cohesion 0.09
+> 60 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **generic_inline_admin/tests.py** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **contenttypes/admin.py** (23 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
-- **generic_inline_admin/admin.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/admin.py`
-- **generic_inline_admin/models.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/models.py`
-- **GenericInlineModelAdminTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **Media** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/models.py`
-- **GenericAdminViewTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **GenericInlineAdminWithUniqueTogetherTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **GenericTabularInline** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
-- **modelform_defines_fields()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **MediaInline** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/admin.py`
-- **Episode** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/models.py`
-- **PhoneNumber** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/models.py`
-- **MediaPermanentInline** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/admin.py`
-- **NoInlineDeletionTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **GenericInlineModelAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
-- **EpisodeAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/admin.py`
-- **Contact** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/models.py`
-- **EpisodePermanent** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/models.py`
-- **TestDataMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **.get_formset()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
-- **Category** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/models.py`
-- **GenericStackedInline** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
-- **PhoneNumberInline** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/admin.py`
-- **.test_custom_form_meta_exclude()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- *... and 21 more nodes in this community*
+- **ToFieldThroughTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
+- **m2m_through_regress/models.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
+- **m2m_through_regress/tests.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
+- **MultiTableTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/test_multitable.py`
+- **M2MThroughTestCase** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
+- **test_multitable.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/test_multitable.py`
+- **Group** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
+- **Person** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
+- **M2MThroughSerializationTestCase** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
+- **Car** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
+- **Membership** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
+- **Driver** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
+- **IndividualCompetitor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
+- **CarDriver** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
+- **CompetingTeam** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
+- **Competitor** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
+- **Event** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
+- **ProxiedIndividualCompetitor** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
+- **UserMembership** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
+- **ThroughLoadDataTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
+- **.test_serialization()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
+- **.test_join_trimming_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
+- **.test_sequence_creation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
+- **.test_m2m_relations_unusable_on_null_pk_obj()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
+- *... and 35 more nodes in this community*
 
 ## Relationships
 
-- [Community 6](Community_6.md) (11 shared connections)
-- [Community 0](Community_0.md) (9 shared connections)
-- [Community 132](Community_132.md) (6 shared connections)
-- [Community 35](Community_35.md) (6 shared connections)
-- [Community 52](Community_52.md) (5 shared connections)
-- [Community 18](Community_18.md) (5 shared connections)
-- [Community 7](Community_7.md) (5 shared connections)
-- [Community 50](Community_50.md) (4 shared connections)
-- [Community 36](Community_36.md) (4 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 16](Community_16.md) (3 shared connections)
+- [Community 6](Community_6.md) (7 shared connections)
+- [Community 71](Community_71.md) (4 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/test_multitable.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 151 (88%)
-- INFERRED: 20 (12%)
+- EXTRACTED: 95 (86%)
+- INFERRED: 16 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

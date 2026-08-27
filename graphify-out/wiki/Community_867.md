@@ -1,38 +1,44 @@
 # Community 867
 
-> 10 nodes · cohesion 0.33
+> 14 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **floatformat()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **FunctionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_floatformat.py`
-- **.test_force_grouping()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_floatformat.py`
-- **.test_float_dunder_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_floatformat.py`
-- **.test_infinity()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_floatformat.py`
-- **.test_inputs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_floatformat.py`
-- **.test_low_decimal_precision()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_floatformat.py`
-- **.test_negative_zero_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_floatformat.py`
-- **.test_zero_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_floatformat.py`
-- **Display a float to a specified number of decimal places. If called without an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **admin/apps.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
+- **SimpleAdminConfig** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
+- **check_dependencies()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **_contains_subclass()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **AdminConfig** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
+- **.ready()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
+- **check_admin_app()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **admin_default_site/apps.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_default_site/apps.py`
+- **MyCustomAdminConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_default_site/apps.py`
+- **.ready()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
+- **The default AppConfig for admin which does autodiscovery.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
+- **Simple AppConfig which does not do automatic discovery.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
+- **Return whether or not a dotted class path (or a subclass of that class) is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **Check that the admin's dependencies are correctly installed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
 
 ## Relationships
 
 - [Community 1](Community_1.md) (5 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 324](Community_324.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
+- [Community 50](Community_50.md) (3 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 59](Community_59.md) (1 shared connections)
+- [Community 738](Community_738.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 256](Community_256.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_floatformat.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_default_site/apps.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 28 (90%)
+- INFERRED: 3 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

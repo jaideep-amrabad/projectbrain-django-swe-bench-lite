@@ -1,54 +1,41 @@
 # Community 398
 
-> 29 nodes · cohesion 0.07
+> 13 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **OneToOneTests** (53 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_cached_relation_invalidated_on_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_hidden_accessor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_reverse_object_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_reverse_object_cached_when_related_is_accessed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_reverse_relationship_cache_cascade()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_assign_none_null_reverse_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_assign_none_reverse_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_assign_none_to_null_cached_reverse_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_assign_o2o_id_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_assign_o2o_id_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_foreign_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_getter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_manager_all()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_manager_get()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_nullable_o2o_delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_o2o_primary_key_delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_primary_key_to_field_filter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_rel_pk_exact()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_rel_pk_subquery()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_related_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_setter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_update_one_to_one_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **Regression test for #9023: accessing the reverse relationship shouldn't result…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- *... and 4 more nodes in this community*
+- **EmailValidator** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **DeprecationTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.__call__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **.validate_domain_part()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **.test_domain_whitelist()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.test_whitelist()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.domain_whitelist()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **.test_domain_whitelist_access_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.test_domain_whitelist_set_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.test_whitelist_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **setter** (1 connections)
 
 ## Relationships
 
-- [Community 571](Community_571.md) (14 shared connections)
-- [Community 667](Community_667.md) (9 shared connections)
-- [Community 1084](Community_1084.md) (2 shared connections)
-- [Community 1048](Community_1048.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 1131](Community_1131.md) (1 shared connections)
-- [Community 1132](Community_1132.md) (1 shared connections)
+- [Community 274](Community_274.md) (9 shared connections)
+- [Community 265](Community_265.md) (2 shared connections)
+- [Community 142](Community_142.md) (1 shared connections)
+- [Community 371](Community_371.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (74%)
-- INFERRED: 15 (26%)
+- EXTRACTED: 30 (94%)
+- INFERRED: 2 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

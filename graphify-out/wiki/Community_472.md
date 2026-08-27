@@ -1,60 +1,45 @@
 # Community 472
 
-> 48 nodes · cohesion 0.05
+> 23 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **model_fields/tests.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **BasicFieldTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **GetChoicesOrderingTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **Foo** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **ChoicesTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **GetChoicesLimitChoicesToTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.assertChoicesEqual()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **Bar** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **RenamedField** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **Choiceful** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **VerboseNameField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.test_field_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_abstract_inherited_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_choices_form_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_deconstruct_nested_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_field_instance_is_picklable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_field_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_field_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_field_repr_nested()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_formfield_disabled()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_show_hidden_initial()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_get_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_get_choices_reverse_related_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_get_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_get_choices_default_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- *... and 23 more nodes in this community*
+- **CacheTagTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **setup** (15 connections)
+- **.test_cache08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **.test_cache16()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **.test_cache17()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **.test_cache18()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **.test_none_timeout()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **.test_cache03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **.test_cache04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **.test_cache05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **.test_cache06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **.test_cache07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **.test_cache11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **.test_cache12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **.test_cache13()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **.test_cache14()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **.test_cache15()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **Regression test for #11270.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **Test whitespace in filter arguments** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **A timeout of None means "cache forever".** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **Allow first argument to be a variable.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **Regression test for #7460.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
 
 ## Relationships
 
-- [Community 275](Community_275.md) (6 shared connections)
-- [Community 734](Community_734.md) (5 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 72](Community_72.md) (2 shared connections)
-- [Community 584](Community_584.md) (1 shared connections)
-- [Community 178](Community_178.md) (1 shared connections)
-- [Community 107](Community_107.md) (1 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
 
 ## Audit Trail
 
-- EXTRACTED: 85 (89%)
-- INFERRED: 11 (11%)
+- EXTRACTED: 38 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,24 +1,27 @@
 # Community 1733
 
-> 2 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **ParentWithDependentChildren** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Issue #20522 Model where the validation of child foreign-key relationships…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **FlatpagesSitemapTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_sitemaps.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_sitemaps.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_sitemaps.py`
+- **.test_flatpage_sitemap()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_sitemaps.py`
 
 ## Relationships
 
-- [Community 70](Community_70.md) (1 shared connections)
-- [Community 102](Community_102.md) (1 shared connections)
+- [Community 71](Community_71.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_sitemaps.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

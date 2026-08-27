@@ -1,44 +1,37 @@
 # Community 726
 
-> 16 nodes · cohesion 0.15
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **Loader** (9 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
-- **get_app_template_dirs()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/utils.py`
-- **app_directories.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/app_directories.py`
-- **.get_template_sources()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
-- **Loader** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/app_directories.py`
-- **.template_dirs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
-- **.get_dirs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/app_directories.py`
-- **.get_contents()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
-- **.get_dirs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
-- **FilesystemLoader** (1 connections)
-- **Return a list of directories to search for templates.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
-- **Wrapper for loading templates from "templates" directories in INSTALLED_APPS…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/app_directories.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
-- **BaseLoader** (1 connections)
-- **Return an Origin object pointing to an absolute path in each directory in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
-- **Return an iterable of paths of directories to load app templates from. dirname…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/utils.py`
+- **SerializerRegistrationTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_builtin_serializers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_get_unknown_serializer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_register()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_unregister()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **Registering a new serializer populates the full registry. Refs #14823** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **Unregistering a serializer doesn't cause the registry to be repopulated. Refs…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **Requesting a list of serializer formats populates the registry** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **#15889: get_serializer('nonsense') raises a SerializerDoesNotExist** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_get_unknown_deserializer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_unregister_unknown_serializer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
 
 ## Relationships
 
-- [Community 245](Community_245.md) (5 shared connections)
-- [Community 138](Community_138.md) (3 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 39](Community_39.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 36](Community_36.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
-- `raw/code/hyd-evaluation/django-django/django/template/loaders/app_directories.py`
-- `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
-- `raw/code/hyd-evaluation/django-django/django/template/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (93%)
-- INFERRED: 2 (7%)
+- EXTRACTED: 15 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

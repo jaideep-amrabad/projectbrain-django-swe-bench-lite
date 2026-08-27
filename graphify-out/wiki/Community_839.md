@@ -1,33 +1,32 @@
 # Community 839
 
-> 10 nodes · cohesion 0.20
+> 9 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **M2mThroughReferentialTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_add_on_symmetrical_m2m_with_intermediate_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_self_referential_empty_qs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_self_referential_non_symmetrical_both()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_self_referential_non_symmetrical_clear_first_side()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_self_referential_non_symmetrical_first_side()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_self_referential_non_symmetrical_second_side()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_self_referential_symmetrical()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_set_on_symmetrical_m2m_with_intermediate_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_through_fields_self_referential()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- **citext.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **CIText** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **CICharField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **CIEmailField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **CITextField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **CharField** (1 connections)
+- **EmailField** (1 connections)
+- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
 
 ## Relationships
 
-- [Community 547](Community_547.md) (6 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (69%)
-- INFERRED: 5 (31%)
+- EXTRACTED: 14 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

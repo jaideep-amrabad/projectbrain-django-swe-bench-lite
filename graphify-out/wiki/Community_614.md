@@ -1,40 +1,49 @@
 # Community 614
 
-> 17 nodes · cohesion 0.16
+> 16 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **FileSystemLoaderTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- **.source_checker()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- **.set_dirs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- **.test_case_sensitivity()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- **.test_loaders_dirs_empty()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- **.test_permissions_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- **.test_directory_security()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- **.test_loaders_dirs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- **.test_unicode_dir_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- **.test_unicode_template_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- **.test_bytestring()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- **.test_file_does_not_exist()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- **.test_get_template()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- **.test_notafile_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- **skipIf** (1 connections)
-- **skipUnless** (1 connections)
-- **An empty dirs list in loaders overrides top level dirs.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
+- **lazystr()** (35 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **TestUtilsText** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
+- **.test_format_lazy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
+- **.test_get_valid_filename()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
+- **.test_normalize_newlines()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
+- **.test_phone2numeric()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
+- **.test_smart_split()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
+- **.test_truncate_chars()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
+- **.test_truncate_words()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
+- **.test_unescape_string_literal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
+- **.test_wrap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
+- **Shortcut for the common case of a lazy callable that returns str.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **.test_compress_sequence()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
+- **.test_slugify()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
+- **.test_truncate_chars_html()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
+- **.test_truncate_html_words()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
 
 ## Relationships
 
-- [Community 70](Community_70.md) (4 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
+- [Community 0](Community_0.md) (10 shared connections)
+- [Community 598](Community_598.md) (7 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 260](Community_260.md) (2 shared connections)
+- [Community 175](Community_175.md) (1 shared connections)
+- [Community 976](Community_976.md) (1 shared connections)
+- [Community 890](Community_890.md) (1 shared connections)
+- [Community 693](Community_693.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 52 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

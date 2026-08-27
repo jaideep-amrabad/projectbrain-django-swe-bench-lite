@@ -1,55 +1,58 @@
 # Community 315
 
-> 34 nodes · cohesion 0.06
+> 29 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **ForeignObjectRel** (34 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **GenericRel** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
-- **.get_cache_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.is_hidden()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.target_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
-- **.get_accessor_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.get_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.get_path_info()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.hidden()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.identity()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.set_field_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **Used by GenericRelation to store information about the relation.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
-- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.get_extra_restriction()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.get_joining_columns()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.get_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.many_to_many()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.many_to_one()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.one_to_many()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- *... and 9 more nodes in this community*
+- **SerializersTestBase** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **ComplexModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.test_one_to_one_as_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_pre_1000ad_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_serialize_to_stream()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_serialize_with_null_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_altering_serialized_output()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_deserialize_force_insert()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_deterministic_mapping_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_pkless_serialized_strings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_serialize_field_subset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_serialize_proxy_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_serialize_specific_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_serializer_roundtrip()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **Basic serialization works.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **Serialized content can be deserialized.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **The ability to create new objects by modifying serialized content.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **If you use your own primary key field (such as a OneToOneField), it doesn't…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **Output can be restricted to a subset of fields** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **Serialized data with no primary key results in a model instance with no id** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **Year values before 1000AD are properly formatted** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **Serialized strings without PKs can be turned into models** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **Mapping such as fields should be deterministically ordered. (#24558)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **Deserialized content can be saved with force_insert as a parameter.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 71](Community_71.md) (3 shared connections)
-- [Community 740](Community_740.md) (3 shared connections)
-- [Community 132](Community_132.md) (1 shared connections)
-- [Community 133](Community_133.md) (1 shared connections)
-- [Community 755](Community_755.md) (1 shared connections)
-- [Community 305](Community_305.md) (1 shared connections)
+- [Community 36](Community_36.md) (7 shared connections)
+- [Community 439](Community_439.md) (5 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 550](Community_550.md) (1 shared connections)
+- [Community 527](Community_527.md) (1 shared connections)
+- [Community 549](Community_549.md) (1 shared connections)
+- [Community 953](Community_953.md) (1 shared connections)
+- [Community 583](Community_583.md) (1 shared connections)
+- [Community 70](Community_70.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (94%)
-- INFERRED: 3 (6%)
+- EXTRACTED: 45 (90%)
+- INFERRED: 5 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

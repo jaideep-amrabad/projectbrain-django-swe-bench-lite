@@ -1,50 +1,50 @@
 # Community 563
 
-> 19 nodes · cohesion 0.12
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **ContextList** (14 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **ContextTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.test_contextlist_get()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_contextlist_keys()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.test_inherited_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_nested_requests()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_single_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **list** (1 connections)
-- **A wrapper that provides direct key access to context items contained in a list…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **Flattened keys of subcontexts.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.test_15368()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Context variables can be retrieved from a single context** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Context variables can be retrieved from a list of contexts** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **response.context is not lost when view call another view.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **AdminHistoryViewTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
+- **City** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **FieldOverridePost** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **State** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **StateAdminForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **Post** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **ArticleForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **FieldOverridePostForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.test_changed_message_uses_form_labels()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
+- **CityInlineAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **StoryForm** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.changed_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.get_absolute_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.awesomeness_level()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
+- **Admin's model history change messages use form labels instead of field names.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
 
 ## Relationships
 
-- [Community 52](Community_52.md) (3 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 117](Community_117.md) (1 shared connections)
-- [Community 225](Community_225.md) (1 shared connections)
-- [Community 655](Community_655.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 616](Community_616.md) (1 shared connections)
+- [Community 78](Community_78.md) (9 shared connections)
+- [Community 68](Community_68.md) (4 shared connections)
+- [Community 71](Community_71.md) (3 shared connections)
+- [Community 194](Community_194.md) (1 shared connections)
+- [Community 434](Community_434.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 266](Community_266.md) (1 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 32 (82%)
+- INFERRED: 7 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

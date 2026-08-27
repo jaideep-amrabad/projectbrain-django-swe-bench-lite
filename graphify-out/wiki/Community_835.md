@@ -1,35 +1,43 @@
 # Community 835
 
-> 10 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **FloatFieldTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_floatfield.py`
-- **.test_decimalfield_support_decimal_separator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_floatfield.py`
-- **.test_decimalfield_support_thousands_separator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_floatfield.py`
-- **.test_floatfield_localized()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_floatfield.py`
-- **.test_floatfield_widget_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_floatfield.py`
-- **.test_floatfield_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_floatfield.py`
-- **.test_floatfield_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_floatfield.py`
-- **.test_floatfield_3()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_floatfield.py`
-- **.test_floatfield_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_floatfield.py`
-- **A localized FloatField's widget renders to a text input without any number…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_floatfield.py`
+- **InheritanceTests** (47 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Inherit from a template with block wrapped in an {% if %} tag (in parent),…** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance34()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance35()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance37()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance38()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_extends_duplicate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance32()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance40()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance41()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 72](Community_72.md) (2 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 50](Community_50.md) (1 shared connections)
+- [Community 793](Community_793.md) (15 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 1110](Community_1110.md) (2 shared connections)
+- [Community 1111](Community_1111.md) (2 shared connections)
+- [Community 1172](Community_1172.md) (1 shared connections)
+- [Community 1173](Community_1173.md) (1 shared connections)
+- [Community 1174](Community_1174.md) (1 shared connections)
+- [Community 1175](Community_1175.md) (1 shared connections)
+- [Community 1176](Community_1176.md) (1 shared connections)
+- [Community 1177](Community_1177.md) (1 shared connections)
+- [Community 1178](Community_1178.md) (1 shared connections)
+- [Community 1179](Community_1179.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_floatfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (93%)
-- INFERRED: 1 (7%)
+- EXTRACTED: 59 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

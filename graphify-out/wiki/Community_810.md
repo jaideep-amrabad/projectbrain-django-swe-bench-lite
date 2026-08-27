@@ -1,36 +1,55 @@
 # Community 810
 
-> 11 nodes · cohesion 0.18
+> 26 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **EggLoader** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **CustomLoader** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_deep_loader()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_shallow_loader()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **Modules deep inside an egg can still be tested for existence** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **The Custom Loader test is exactly the same as the EggLoader, but it uses a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **Module existence can be tested inside eggs** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **MediaType** (15 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **HttpHeaders** (9 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **MediaTypeTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_accept_header.py`
+- **test_accept_header.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_accept_header.py`
+- **HttpHeadersTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.parse_header_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.accepted_types()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **parse_accept_header()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.headers()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.test_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_accept_header.py`
+- **.test_is_all_types()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_accept_header.py`
+- **.test_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_accept_header.py`
+- **.test_no_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_accept_header.py`
+- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_accept_header.py`
+- **.test_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_accept_header.py`
+- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_parse_header_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.is_all_types()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.match()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **Allow header lookup using underscores in place of hyphens.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 990](Community_990.md) (2 shared connections)
-- [Community 370](Community_370.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 552](Community_552.md) (2 shared connections)
+- [Community 2](Community_2.md) (8 shared connections)
+- [Community 27](Community_27.md) (4 shared connections)
+- [Community 475](Community_475.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- `raw/code/hyd-evaluation/django-django/tests/requests/test_accept_header.py`
+- `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (89%)
-- INFERRED: 2 (11%)
+- EXTRACTED: 49 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

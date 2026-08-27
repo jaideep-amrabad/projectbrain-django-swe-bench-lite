@@ -1,53 +1,58 @@
 # Community 91
 
-> 97 nodes · cohesion 0.03
+> 88 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **CustomManagerTests** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **custom_managers/models.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **custom_managers/tests.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **CustomManagersRegressTestCase** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **CustomQuerySet** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **Book** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **.get_queryset()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **TestCars** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **Car** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **DeconstructibleCustomManager** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **FastCarAsBase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **FastCarAsDefault** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **BaseCustomManager** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **FunPerson** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **PersonFromAbstract** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **PersonManager** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **PublishedBookManager** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **AbstractPerson** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **OneToOneRestrictedModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **RelatedModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **RestrictedModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **AnnotatedBookManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- *... and 72 more nodes in this community*
+- **.assertOutput()** (142 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.run_django_admin()** (78 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **DjangoAdminAlternateSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **DjangoAdminDefaultSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **DjangoAdminFullPathDefaultSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **DjangoAdminMinimalSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **DjangoAdminMultipleSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **StartApp** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- *... and 63 more nodes in this community*
 
 ## Relationships
 
-- [Community 132](Community_132.md) (5 shared connections)
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 761](Community_761.md) (1 shared connections)
+- [Community 280](Community_280.md) (74 shared connections)
+- [Community 226](Community_226.md) (25 shared connections)
+- [Community 107](Community_107.md) (24 shared connections)
+- [Community 254](Community_254.md) (11 shared connections)
+- [Community 240](Community_240.md) (9 shared connections)
+- [Community 616](Community_616.md) (8 shared connections)
+- [Community 856](Community_856.md) (8 shared connections)
+- [Community 648](Community_648.md) (8 shared connections)
+- [Community 618](Community_618.md) (8 shared connections)
+- [Community 588](Community_588.md) (8 shared connections)
+- [Community 708](Community_708.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 141 (88%)
-- INFERRED: 19 (12%)
+- EXTRACTED: 378 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,41 +1,57 @@
 # Community 604
 
-> 17 nodes · cohesion 0.12
+> 26 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **Tests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **TransactionalTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **.test_boolean_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **skipUnless** (2 connections)
-- **.test_client_encoding()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **.test_cursor_var()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **.test_dbms_session()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **.test_order_of_nls_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **.test_quote_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **%' chars are escaped for query execution.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **A stored procedure can be called through a cursor wrapper.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **Cursor variables can be passed as query parameters.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **Client encoding is set correctly.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **An 'almost right' datetime works with configured NLS parameters (#18465).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **Boolean fields have check constraints on their values.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **.test_hidden_no_data_found_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
-- **.test_password_with_at_sign()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **ToFieldTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **WeirdQuerysetSlicingTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **Eaten** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **IsNullTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **Food** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **Node** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **ReportComment** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **.test_primary_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_to_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_in_query()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_in_subquery()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_nested_in_subquery()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_recursive_fk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_recursive_fk_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_reverse_in()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_single_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_single_object_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_empty_resultset_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_empty_sliced_subquery()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_empty_sliced_subquery_exclude()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_tickets_7698_10202()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 32](Community_32.md) (2 shared connections)
-- [Community 75](Community_75.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
+- [Community 16](Community_16.md) (13 shared connections)
+- [Community 670](Community_670.md) (3 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 547](Community_547.md) (1 shared connections)
+- [Community 582](Community_582.md) (1 shared connections)
+- [Community 789](Community_789.md) (1 shared connections)
+- [Community 325](Community_325.md) (1 shared connections)
+- [Community 806](Community_806.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 33 (63%)
+- INFERRED: 19 (37%)
 - AMBIGUOUS: 0 (0%)
 
 ---

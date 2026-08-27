@@ -1,64 +1,61 @@
 # Community 133
 
-> 81 nodes · cohesion 0.03
+> 68 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **ManyToManyField** (33 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **RelatedField** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **FieldCacheMixin** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
-- **SettingsReference** (12 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.check()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **CustomManyToManyField** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
-- **.deconstruct()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.check()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_cache_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
-- **.formfield()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.check()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.contribute_to_related_class()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **._check_clashes()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.related_query_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.test_m2m_rename_field_in_target_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_unique_and_reverse_m2m()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.db_parameters()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.deconstruct()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **._check_relationship_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **._check_unique()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **._get_path_info()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **._check_related_query_name_is_valid()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.do_related_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.formfield()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_limit_choices_to()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- *... and 56 more nodes in this community*
+- **StaticFilesTestCase** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
+- **TestDefaults** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
+- **BaseStaticFilesMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
+- **staticfiles_tests/test_views.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_views.py`
+- **TestServeStatic** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_views.py`
+- **.assertFileContains()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
+- **TestCollection** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestFinders** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_finders.py`
+- **TestAppDirectoriesFinder** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_finders.py`
+- **TestDefaultStorageFinder** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_finders.py`
+- **TestFileSystemFinder** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_finders.py`
+- **staticfiles_tests/test_templatetags.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_templatetags.py`
+- **TestServeDisabled** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_views.py`
+- **TestServeStaticWithDefaultURL** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_views.py`
+- **TestServeStaticWithURLHelper** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_views.py`
+- **.assertStaticRenders()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
+- **.render_template()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
+- **TestRunserver** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestTemplateTag** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_templatetags.py`
+- **._response()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_views.py`
+- **._get_file()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
+- **.test_app_files()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
+- **.test_camelcase_filenames()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
+- **.test_nonascii_filenames()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
+- **.test_staticfiles_dirs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
+- *... and 43 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (18 shared connections)
-- [Community 113](Community_113.md) (7 shared connections)
-- [Community 305](Community_305.md) (6 shared connections)
-- [Community 33](Community_33.md) (6 shared connections)
-- [Community 71](Community_71.md) (2 shared connections)
-- [Community 348](Community_348.md) (2 shared connections)
-- [Community 580](Community_580.md) (2 shared connections)
-- [Community 122](Community_122.md) (2 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 231](Community_231.md) (1 shared connections)
-- [Community 156](Community_156.md) (1 shared connections)
-- [Community 107](Community_107.md) (1 shared connections)
+- [Community 2](Community_2.md) (17 shared connections)
+- [Community 8](Community_8.md) (10 shared connections)
+- [Community 94](Community_94.md) (5 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 510](Community_510.md) (1 shared connections)
+- [Community 757](Community_757.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 347](Community_347.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_finders.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_templatetags.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 153 (96%)
-- INFERRED: 7 (4%)
+- EXTRACTED: 133 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

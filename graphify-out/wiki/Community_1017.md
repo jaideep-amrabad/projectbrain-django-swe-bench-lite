@@ -1,27 +1,29 @@
 # Community 1017
 
-> 5 nodes · cohesion 0.60
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **BuiltinsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_builtins.py`
-- **setup** (3 connections)
-- **.test_builtins01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_builtins.py`
-- **.test_builtins02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_builtins.py`
-- **.test_builtins03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_builtins.py`
+- **._check_object_list_is_ordered()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.ordered()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **Warn if self.object_list is unordered (typically a QuerySet).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **Return True if the QuerySet is ordered -- i.e. has an order_by() clause or a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
+- [Community 397](Community_397.md) (2 shared connections)
+- [Community 196](Community_196.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_builtins.py`
+- `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 6 (86%)
+- INFERRED: 1 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

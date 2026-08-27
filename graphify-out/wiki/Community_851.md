@@ -1,31 +1,38 @@
 # Community 851
 
-> 10 nodes · cohesion 0.33
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **NamedEndblockTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
-- **setup** (7 connections)
-- **.test_namedendblocks06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
-- **.test_namedendblocks01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
-- **.test_namedendblocks02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
-- **.test_namedendblocks03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
-- **.test_namedendblocks04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
-- **.test_namedendblocks05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
-- **.test_namedendblocks07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
-- **Mixed named and unnamed endblocks** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
+- **FileUploadHandler** (14 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **.file_complete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **.handle_raw_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **.new_file()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **.receive_data_chunk()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **.upload_complete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **.upload_interrupted()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **Receive data from the streamed upload parser. ``start`` is the position in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **Signal that a file has completed. File size corresponds to the actual size…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **Signal that the upload is complete. Subclasses should perform cleanup that is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **Signal that the upload was interrupted. Subclasses should perform cleanup that…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **Base class for streaming upload handlers.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **Handle the raw input from the client. Parameters: :input_data: An object that…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **Signal that a new file has been started. Warning: As with any data from the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
+- [Community 129](Community_129.md) (4 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 356](Community_356.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

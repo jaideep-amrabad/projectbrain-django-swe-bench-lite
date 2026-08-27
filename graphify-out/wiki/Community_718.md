@@ -1,37 +1,38 @@
 # Community 718
 
-> 13 nodes · cohesion 0.18
+> 13 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **Loader** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **.get_template()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **.cache_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **.generate_hash()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **.reset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **.get_contents()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **.get_dirs()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **.get_template_sources()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **BaseLoader** (1 connections)
-- **Perform the caching that gives this loader its name. Often many of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **Generate a cache key for the template name and skip. If skip is provided, only…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **Empty the template cache.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
+- **SpecializedFieldTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **.assertTextarea()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **.assertMapWidget()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **.test_pointfield()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **.test_geometrycollectionfield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **.test_linestringfield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **.test_multilinestringfield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **.test_multipointfield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **.test_multipolygonfield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **.test_polygonfield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **Make sure the MapWidget js is passed in the form media and a MapWidget is…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **Makes sure the wkt and a textarea are in the content** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
 
 ## Relationships
 
-- [Community 245](Community_245.md) (2 shared connections)
-- [Community 224](Community_224.md) (1 shared connections)
-- [Community 112](Community_112.md) (1 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 30](Community_30.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (89%)
-- INFERRED: 2 (11%)
+- EXTRACTED: 31 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

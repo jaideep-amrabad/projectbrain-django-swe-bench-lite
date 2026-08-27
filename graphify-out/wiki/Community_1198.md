@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **.test_secure()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **GET a URL through https** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_follow_307_and_308_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **A 307 or 308 redirect preserves the request method after the redirect.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 551](Community_551.md) (1 shared connections)
+- [Community 528](Community_528.md) (1 shared connections)
 
 ## Source Files
 

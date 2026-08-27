@@ -1,32 +1,35 @@
 # Community 1003
 
-> 5 nodes · cohesion 0.40
+> 9 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **TestMethods** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_key_transform_text_lookup_mixin_non_key_transform()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_deconstruct_custom_encoder_decoder()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_get_transforms()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **FooBar** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/tagged/tests_inheritance.py`
+- **tests_inheritance.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/tagged/tests_inheritance.py`
+- **FooBase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/tagged/tests_inheritance.py`
+- **Foo** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/tagged/tests_inheritance.py`
+- **.test_overriding_FIELD_display()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_new_func_tag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/tagged/tests_inheritance.py`
+- **.test_new_class_and_func_tags()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/tagged/tests_inheritance.py`
+- **.test_no_new_tags()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/tagged/tests_inheritance.py`
+- **.test_new_class_tag_only()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/tagged/tests_inheritance.py`
 
 ## Relationships
 
-- [Community 71](Community_71.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
-- [Community 639](Community_639.md) (1 shared connections)
-- [Community 37](Community_37.md) (1 shared connections)
-- [Community 204](Community_204.md) (1 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
+- [Community 494](Community_494.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/tagged/tests_inheritance.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (80%)
-- INFERRED: 2 (20%)
+- EXTRACTED: 17 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

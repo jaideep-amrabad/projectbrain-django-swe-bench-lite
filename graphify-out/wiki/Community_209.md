@@ -1,53 +1,66 @@
 # Community 209
 
-> 50 nodes · cohesion 0.07
+> 106 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **DeferTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **.assert_delayed()** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **defer/tests.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **TestDefer2** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **BigChildDeferTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **defer/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
-- **Primary** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
-- **RefreshPrimaryProxy** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
-- **BigChild** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
-- **Child** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
-- **ChildProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
-- **Secondary** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
-- **AssertionMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **.test_defer_proxy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
-- **.test_defer_baseclass_when_subclass_has_added_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **.test_defer_subclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **.test_defer_subclass_both()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **.test_only_baseclass_when_subclass_has_added_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **.test_only_subclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **.test_defer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **.test_defer_baseclass_when_subclass_has_no_added_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **.test_defer_extra()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **.test_defer_foreign_keys_are_deferred_and_not_traversed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **.test_defer_none_to_clear_deferred_set()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- *... and 25 more nodes in this community*
+- **HTTPSitemapTests** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **Sitemap** (25 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- **SitemapTestsBase** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/base.py`
+- **sitemaps_tests/base.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/base.py`
+- **sitemaps_tests/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
+- **TestModel** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
+- **test_generic.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
+- **GenericSitemap** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- **GenericViewsSitemapTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
+- **test_https.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
+- **.get_urls()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- **._urls()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- **I18nTestModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
+- **HTTPSDetectionSitemapTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
+- **HTTPSSitemapTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
+- **sitemaps_tests/test_management.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_management.py`
+- **PingGoogleTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_management.py`
+- **._items()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- **.test_localized_priority()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_sitemap_get_urls_no_site_2()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **._get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- **.get_domain()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- **._languages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- **._location()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- **.test_alternate_i18n_sitemap_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- *... and 81 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 225](Community_225.md) (17 shared connections)
+- [Community 8](Community_8.md) (14 shared connections)
+- [Community 71](Community_71.md) (12 shared connections)
+- [Community 12](Community_12.md) (4 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 11](Community_11.md) (3 shared connections)
+- [Community 61](Community_61.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 15](Community_15.md) (2 shared connections)
+- [Community 50](Community_50.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_management.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
 
 ## Audit Trail
 
-- EXTRACTED: 90 (90%)
-- INFERRED: 10 (10%)
+- EXTRACTED: 201 (97%)
+- INFERRED: 6 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

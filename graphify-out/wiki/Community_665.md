@@ -1,41 +1,39 @@
 # Community 665
 
-> 15 nodes · cohesion 0.20
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **AdminEmailHandlerTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.get_admin_email_handler()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_accepts_args()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_accepts_args_and_request()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_emit_non_ascii()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_disallowed_host_doesnt_crash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_subject_accepts_newlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_uses_custom_email_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_customize_send_mail_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_default_exception_reporter_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_fail_silently()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **User-supplied arguments and the EMAIL_SUBJECT_PREFIX setting are used to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **The subject is also handled if being passed a request object.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **Newlines in email reports' subjects are escaped to prevent AdminErrorHandler…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **#23593 - AdminEmailHandler should allow Unicode characters in the request.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **WatchmanReloaderTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_check_availability()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_check_availability_lower_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_watched_roots_contains_sys_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_check_server_status()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_check_server_status_raises_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_pywatchman_not_available()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_update_watches_raises_exceptions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_watch_glob_ignores_non_existing_directories_two_levels()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_watch_glob_multiple_patterns()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_watch_glob_uses_existing_parent_directories()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_watched_roots_contains_directory_globs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_watched_roots_contains_files()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Relationships
 
-- [Community 7](Community_7.md) (7 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 896](Community_896.md) (1 shared connections)
-- [Community 127](Community_127.md) (1 shared connections)
+- [Community 508](Community_508.md) (6 shared connections)
+- [Community 412](Community_412.md) (3 shared connections)
+- [Community 330](Community_330.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (94%)
-- INFERRED: 2 (6%)
+- EXTRACTED: 23 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

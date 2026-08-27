@@ -1,41 +1,47 @@
 # Community 516
 
-> 14 nodes · cohesion 0.18
+> 20 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **CookieStorage** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **._store()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **._decode()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **._encode()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **._get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **._update_cookie()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **.test_changelist_search_form_validation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **Store the messages to a cookie and return a list of any messages which could…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **Return an encoded version of the messages list which can be stored as plain…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **Safely decode an encoded text stream back into a list of messages. If the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **Store messages in a cookie.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **Retrieve a list of messages from the messages cookie. If the not_finished…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **Either set the cookie with the encoded data if there is any data to store, or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **UpdateQuery** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.add_update_values()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **InsertQuery** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.add_related_update()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.add_update_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **._setup_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.update_batch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.test_sql_insert_compiler_return_id_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.get_related_updates()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.insert_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **Append a sequence of (field, model, value) triples to the internal list that…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **Add (name, value) to an update query for an ancestor model. Update are…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **Return a list of query objects: one for each update required to an ancestor…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **Run on initialization and at the end of chaining. Any attributes that would…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **Convert a dictionary of field name to value mappings into an update query. This…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.clone()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **Regression test for #14019: SQLInsertCompiler.as_sql() failure** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
 
 ## Relationships
 
-- [Community 539](Community_539.md) (4 shared connections)
-- [Community 49](Community_49.md) (4 shared connections)
-- [Community 302](Community_302.md) (2 shared connections)
-- [Community 428](Community_428.md) (1 shared connections)
-- [Community 488](Community_488.md) (1 shared connections)
+- [Community 674](Community_674.md) (3 shared connections)
+- [Community 81](Community_81.md) (2 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
+- [Community 159](Community_159.md) (1 shared connections)
+- [Community 262](Community_262.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (82%)
-- INFERRED: 5 (18%)
+- EXTRACTED: 30 (94%)
+- INFERRED: 2 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

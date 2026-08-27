@@ -1,62 +1,61 @@
 # Community 145
 
-> 78 nodes · cohesion 0.05
+> 65 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **ModelAdminTests** (43 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **modeladmin/tests.py** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **BandAdmin** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **ModelAdminPermissionTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **Band** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/models.py`
-- **modeladmin/models.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/models.py`
-- **MockRequest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **MockAddUser** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_has_add_permission()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_has_change_permission()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_has_delete_permission()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_has_module_permission()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_has_view_permission()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **AdminActionsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_actions.py`
-- **MockChangeUser** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **MockDeleteUser** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **MockViewUser** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **Song** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/models.py`
-- **MockUser** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_inline_has_add_permission_uses_obj()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **Concert** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/models.py`
-- **.test_get_actions_respects_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_actions.py`
-- **.test_custom_form_meta_exclude()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_custom_form_meta_exclude_with_readonly()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_foreign_key_as_radio_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- *... and 53 more nodes in this community*
+- **model_formsets/tests.py** (47 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **model_formsets/models.py** (40 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **InlineFormsetTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- **model_formsets/test_uuid.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- **Author** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Book** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **AlternateBook** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **BookWithOptionalAltEditor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **MexicanRestaurant** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Place** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Player** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Poem** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Price** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Restaurant** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Revision** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **AuthorMeeting** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **BetterAuthor** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **BookWithCustomPK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **ClassyMexicanRestaurant** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Owner** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **OwnerProfile** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Post** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Product** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Repository** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- *... and 40 more nodes in this community*
 
 ## Relationships
 
-- [Community 18](Community_18.md) (18 shared connections)
-- [Community 25](Community_25.md) (13 shared connections)
-- [Community 35](Community_35.md) (10 shared connections)
-- [Community 52](Community_52.md) (8 shared connections)
-- [Community 49](Community_49.md) (6 shared connections)
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 94](Community_94.md) (5 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 306](Community_306.md) (2 shared connections)
-- [Community 373](Community_373.md) (2 shared connections)
-- [Community 555](Community_555.md) (2 shared connections)
+- [Community 111](Community_111.md) (44 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 5](Community_5.md) (4 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 203](Community_203.md) (1 shared connections)
+- [Community 70](Community_70.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 195](Community_195.md) (1 shared connections)
+- [Community 555](Community_555.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/modeladmin/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_actions.py`
-- `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 178 (78%)
-- INFERRED: 51 (22%)
+- EXTRACTED: 147 (80%)
+- INFERRED: 36 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

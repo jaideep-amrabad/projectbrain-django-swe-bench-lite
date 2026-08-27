@@ -1,26 +1,29 @@
 # Community 1087
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.test_inheritance22()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance23()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Three-level inheritance with {{ block.super }} from grandparent** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Restaurant** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **.test_related_object_cache()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **Regression test for #6886 (the related-object cache)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
 
 ## Relationships
 
-- [Community 805](Community_805.md) (2 shared connections)
-- [Community 848](Community_848.md) (2 shared connections)
+- [Community 546](Community_546.md) (2 shared connections)
+- [Community 380](Community_380.md) (2 shared connections)
+- [Community 661](Community_661.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 7 (88%)
+- INFERRED: 1 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

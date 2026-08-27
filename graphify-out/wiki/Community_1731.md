@@ -1,24 +1,30 @@
 # Community 1731
 
-> 2 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.quote_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **Return a quoted version of the value so it's safe to use in an SQL string. This…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Subscriber** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **ExternalSubscriber** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **OldSubscriber** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- [Community 500](Community_500.md) (1 shared connections)
+- [Community 78](Community_78.md) (3 shared connections)
+- [Community 68](Community_68.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 778](Community_778.md) (2 shared connections)
+- [Community 15](Community_15.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 11 (73%)
+- INFERRED: 4 (27%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,62 +1,62 @@
 # Community 83
 
-> 73 nodes · cohesion 0.04
+> 34 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **NonAggregateAnnotationTestCase** (63 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
-- **annotations/tests.py** (40 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
-- **ExpressionWrapper** (34 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **annotations/models.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/models.py`
-- **.test_custom_functions_can_ref_other_functions()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
-- **Company** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/models.py`
-- **Store** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/models.py`
-- **.test_custom_functions()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
-- **.test_grouping_by_q_expression_annotation()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
-- **.test_q_expression_annotation_with_aggregation()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
-- **.test_time_subtraction()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **Author** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/models.py`
-- **Book** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/models.py`
-- **DepartmentStore** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/models.py`
-- **Employee** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/models.py`
-- **Publisher** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/models.py`
-- **.test_annotation_in_f_grouped_by_annotation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
-- **.test_combined_expression_annotation_with_aggregation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
-- **.test_combined_f_expression_annotation_with_aggregation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
-- **.test_mti_annotations()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
-- **.test_filtering_on_annotate_that_uses_q()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **ExpressionWrapperTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **.test_non_empty_group_by()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **.test_durationfield_add()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **Ticket** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/models.py`
-- *... and 48 more nodes in this community*
+- **test_geos_mutation.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
+- **f()** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **GEOSMutationTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
+- **.test06_Collection()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
+- **.test04_LineStringMutations()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
+- **.test01_PointMutations()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
+- **.test03_PointApi()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
+- **.test_data_types()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test00_GEOSIndexException()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
+- **.test02_PointExceptions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
+- **.test_ticket10432()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_data_types()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_context_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **api_get_distance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
+- **All data types are ignored equally by the dummy cache** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **api_get_area()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
+- **api_get_boundary()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
+- **api_get_buffer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
+- **api_get_centroid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
+- **api_get_convex_hull()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
+- **api_get_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
+- **api_get_extent()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
+- **api_get_geom_typeid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
+- **api_get_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
+- **api_get_num_coords()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 23](Community_23.md) (40 shared connections)
-- [Community 40](Community_40.md) (22 shared connections)
-- [Community 2](Community_2.md) (17 shared connections)
-- [Community 11](Community_11.md) (12 shared connections)
-- [Community 44](Community_44.md) (10 shared connections)
-- [Community 54](Community_54.md) (6 shared connections)
-- [Community 66](Community_66.md) (5 shared connections)
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 21](Community_21.md) (5 shared connections)
-- [Community 71](Community_71.md) (4 shared connections)
-- [Community 953](Community_953.md) (3 shared connections)
-- [Community 140](Community_140.md) (2 shared connections)
+- [Community 30](Community_30.md) (12 shared connections)
+- [Community 70](Community_70.md) (7 shared connections)
+- [Community 424](Community_424.md) (2 shared connections)
+- [Community 278](Community_278.md) (1 shared connections)
+- [Community 272](Community_272.md) (1 shared connections)
+- [Community 101](Community_101.md) (1 shared connections)
+- [Community 294](Community_294.md) (1 shared connections)
+- [Community 261](Community_261.md) (1 shared connections)
+- [Community 657](Community_657.md) (1 shared connections)
+- [Community 475](Community_475.md) (1 shared connections)
+- [Community 264](Community_264.md) (1 shared connections)
+- [Community 336](Community_336.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- `raw/code/hyd-evaluation/django-django/tests/annotations/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos_mutation.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 215 (89%)
-- INFERRED: 26 (11%)
+- EXTRACTED: 53 (79%)
+- INFERRED: 14 (21%)
 - AMBIGUOUS: 0 (0%)
 
 ---

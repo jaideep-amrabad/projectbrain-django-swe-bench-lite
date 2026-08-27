@@ -1,51 +1,43 @@
 # Community 409
 
-> 28 nodes · cohesion 0.10
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **ListViewTests** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **._make_authors()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_list_view_returns_useful_message_on_invalid_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_custom_page_kwarg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_custom_paginator_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_custom_paginator_constructor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_get_last_page_by_query_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_get_page_by_query_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_get_page_by_urlvar()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_invalid_page()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_list_view_does_not_load_entire_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_orphaned_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_page_out_of_range()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_allow_empty_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_context_object_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_duplicate_context_object_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_explicitly_ordered_list_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_invalid_get_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_missing_items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_non_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_queryset_shortdata()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- *... and 3 more nodes in this community*
+- **ASGIRequest** (16 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **.request()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **._base_environ()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.request()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.COOKIES()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **.GET()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **Construct a generic request object.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **._get_files()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **._get_post()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **._get_scheme()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **._set_post()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **Custom request subclass that decodes from an ASGI-standard request dict and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **The base environment for a request.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
 
 ## Relationships
 
-- [Community 281](Community_281.md) (4 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 128](Community_128.md) (1 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 347](Community_347.md) (4 shared connections)
+- [Community 108](Community_108.md) (3 shared connections)
+- [Community 317](Community_317.md) (2 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 203](Community_203.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- `raw/code/hyd-evaluation/django-django/django/test/client.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (91%)
-- INFERRED: 4 (9%)
+- EXTRACTED: 27 (90%)
+- INFERRED: 3 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

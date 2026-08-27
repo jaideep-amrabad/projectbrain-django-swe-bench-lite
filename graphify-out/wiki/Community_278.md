@@ -1,60 +1,59 @@
 # Community 278
 
-> 49 nodes · cohesion 0.09
+> 39 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **prefetch_related/tests.py** (59 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **prefetch_related/models.py** (42 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **Meta** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **Author** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **Book** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **MultiDbTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **ForeignKeyToFieldTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **BookWithYear** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **House** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **Room** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **ReadPrefetchedObjectsCacheTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **DefaultManagerTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **AuthorAddress** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **AuthorWithAge** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **Bookmark** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **TaggedItem** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **Teacher** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **Ticket21410Tests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **Ticket21760Tests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **Comment** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **FavoriteAuthors** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **Author2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **Bio** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **BookReview** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **Department** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- *... and 24 more nodes in this community*
+- **BaseCacheTests** (60 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_add()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_binary_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_cache_read_for_model_instance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_cache_read_for_model_instance_with_deferred()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_cache_versioning_add()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_cache_versioning_delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_cache_versioning_get_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_cache_versioning_get_set_many()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_cache_versioning_has_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_cache_versioning_incr_decr()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_cache_write_for_model_instance_with_deferred()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_close()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_cull_delete_when_store_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_custom_key_func()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_decr()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_decr_version()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_delete_many()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_delete_nonexistent()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_expiration()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_float_timeout()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_get_many()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [Community 344](Community_344.md) (15 shared connections)
-- [Community 572](Community_572.md) (13 shared connections)
-- [Community 0](Community_0.md) (12 shared connections)
-- [Community 353](Community_353.md) (10 shared connections)
-- [Community 2](Community_2.md) (8 shared connections)
-- [Community 533](Community_533.md) (7 shared connections)
-- [Community 456](Community_456.md) (6 shared connections)
-- [Community 326](Community_326.md) (6 shared connections)
-- [Community 961](Community_961.md) (6 shared connections)
-- [Community 132](Community_132.md) (5 shared connections)
-- [Community 1005](Community_1005.md) (5 shared connections)
-- [Community 71](Community_71.md) (4 shared connections)
+- [Community 1070](Community_1070.md) (3 shared connections)
+- [Community 101](Community_101.md) (2 shared connections)
+- [Community 1071](Community_1071.md) (2 shared connections)
+- [Community 1072](Community_1072.md) (2 shared connections)
+- [Community 485](Community_485.md) (1 shared connections)
+- [Community 854](Community_854.md) (1 shared connections)
+- [Community 211](Community_211.md) (1 shared connections)
+- [Community 927](Community_927.md) (1 shared connections)
+- [Community 1127](Community_1127.md) (1 shared connections)
+- [Community 1130](Community_1130.md) (1 shared connections)
+- [Community 83](Community_83.md) (1 shared connections)
+- [Community 1131](Community_1131.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 151 (72%)
-- INFERRED: 59 (28%)
+- EXTRACTED: 59 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

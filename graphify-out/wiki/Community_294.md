@@ -1,57 +1,61 @@
 # Community 294
 
-> 40 nodes · cohesion 0.08
+> 37 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **model_regress/tests.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
-- **ModelTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
-- **model_regress/models.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
-- **Worker** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
-- **EvaluateMethodTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
-- **Department** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
-- **ModelFieldsCacheTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
-- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
-- **Event** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
-- **NonAutoPK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
-- **ModelValidationTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
-- **Model1** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
-- **Model2** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
-- **Model3** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
-- **Party** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
-- **.test_metaclass_can_access_attribute_dict()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
-- **.test_model_with_evaluate_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
-- **.test_chained_fks()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
-- **.test_get_next_prev_by_field_unsaved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
-- **.test_model_init_too_many_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
-- **.test_related_gte_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
-- **.test_related_lte_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
-- **.test_pk_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
-- **Regression test for #10153: foreign key __gte lookups.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
-- *... and 15 more nodes in this community*
+- **check_framework/tests.py** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **MessageTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **CheckRegistry** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/registry.py`
+- **check_framework/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/models.py`
+- **.run_checks()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/registry.py`
+- **DummyObj** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **SystemCheckFrameworkTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.get_checks()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/registry.py`
+- **.tag_exists()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/registry.py`
+- **.tags_available()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/registry.py`
+- **my_check()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/models.py`
+- **SimpleModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/models.py`
+- **CheckFrameworkReservedNamesTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.test_model_check_method_not_shadowed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **ChecksRunDuringTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.test_register_and_run_checks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **custom_error_system_check()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **custom_warning_system_check()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.test_not_equal_to_non_check()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.test_printing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.test_printing_no_hint()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.test_printing_with_given_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.test_register_no_kwargs_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/registry.py`
+- **Run all registered checks and return list of Errors and Warnings.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/registry.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (6 shared connections)
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 10](Community_10.md) (4 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 72](Community_72.md) (1 shared connections)
-- [Community 21](Community_21.md) (1 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 544](Community_544.md) (1 shared connections)
+- [Community 59](Community_59.md) (9 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 5](Community_5.md) (4 shared connections)
+- [Community 859](Community_859.md) (4 shared connections)
+- [Community 13](Community_13.md) (4 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 74](Community_74.md) (2 shared connections)
+- [Community 224](Community_224.md) (2 shared connections)
+- [Community 165](Community_165.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/registry.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 74 (85%)
-- INFERRED: 13 (15%)
+- EXTRACTED: 85 (97%)
+- INFERRED: 3 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

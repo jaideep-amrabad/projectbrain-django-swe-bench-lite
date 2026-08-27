@@ -1,35 +1,39 @@
 # Community 891
 
-> 9 nodes · cohesion 0.39
+> 14 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **m2m_intermediary/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/tests.py`
-- **m2m_intermediary/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
-- **M2MIntermediaryTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/tests.py`
-- **Reporter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
-- **Article** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
-- **Writer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
-- **.test_intermediary()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/tests.py`
-- **Many-to-many relationships via an intermediary table For many-to-many…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
+- **CursorWrapper** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **CursorDebugWrapper** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **.debug_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **._execute_with_wrappers()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **.execute()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **.executemany()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **.callproc()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **.execute()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **.executemany()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **.__enter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **.__exit__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 10](Community_10.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 660](Community_660.md) (2 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
+- [Community 31](Community_31.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (81%)
-- INFERRED: 4 (19%)
+- EXTRACTED: 22 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

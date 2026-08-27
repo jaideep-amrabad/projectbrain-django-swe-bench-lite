@@ -1,52 +1,47 @@
 # Community 162
 
-> 60 nodes · cohesion 0.05
+> 18 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **TestHashedFiles** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **hashed_file_path()** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.assertPostCondition()** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **TestCollectionManifestStorage** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **TestStaticFilePermissions** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **TestCollectionHashedFilesCache** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.setUp()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **TestCollectionSimpleStorage** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **TestExtraPatternsStorage** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_post_processing_failure()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_file_change_after_collectstatic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_import_loop()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_template_tag_absolute_root()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_multi_extension_patterns()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_css_import_case_insensitive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_import_replacement()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_path_ignored_completely()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_path_with_fragment()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_path_with_querystring()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_path_with_querystring_and_fragment()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_post_processing()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_template_tag_absolute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_template_tag_deep_relative()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_template_tag_relative()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_template_tag_simple_content()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- *... and 35 more nodes in this community*
+- **test_tablespaces.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **TablespacesTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **tablespaces.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
+- **sql_for_table()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.test_tablespace_for_many_to_many_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.assertNumContains()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.test_tablespace_for_indexed_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.test_tablespace_for_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **Article** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
+- **Scientist** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
+- **.test_tablespace_ignored_for_indexed_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.test_tablespace_ignored_for_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **ArticleRef** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
+- **ScientistRef** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
+- **sql_for_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
 
 ## Relationships
 
-- [Community 7](Community_7.md) (9 shared connections)
-- [Community 3](Community_3.md) (7 shared connections)
-- [Community 119](Community_119.md) (6 shared connections)
-- [Community 8](Community_8.md) (6 shared connections)
-- [Community 498](Community_498.md) (1 shared connections)
+- [Community 70](Community_70.md) (4 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 31](Community_31.md) (3 shared connections)
+- [Community 36](Community_36.md) (2 shared connections)
+- [Community 50](Community_50.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
 
 ## Audit Trail
 
-- EXTRACTED: 122 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 46 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

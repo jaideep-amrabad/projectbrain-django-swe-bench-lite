@@ -1,77 +1,65 @@
 # Community 20
 
-> 117 nodes · cohesion 0.02
+> 63 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **TransactionTestCase** (134 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **timezones/tests.py** (51 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **core/serializers/__init__.py** (39 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- **serializers/tests.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **serializers/test_json.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **model_fields/test_durationfield.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
-- **test_jsonl.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **test_yaml.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **.setUpClass()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **test_xml.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
-- **serializers/models/__init__.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/__init__.py`
-- **SerializersTransactionTestBase** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **timezones/forms.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
-- **SchemaTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- **._setup_and_call()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **._databases_names()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **NoYamlSerializerTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **YamlSerializerTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **._databases_support_transactions()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **migration_test_data_persistence/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/tests.py`
-- **TestSaveLoad** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
-- **._fixture_teardown()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **._rollback_atomics()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.tearDownClass()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **._pre_setup()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- *... and 92 more nodes in this community*
+- **BaseSpatialOperations** (29 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/operations.py`
+- **SpatiaLiteOperations** (24 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **MySQLOperations** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/operations.py`
+- **wkb_r()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- **._get_spatialite_func()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **.spatialite_version_tuple()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **.lwgeom_version()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **.spatial_version()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **.spatialite_version()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **.get_geom_placeholder()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/operations.py`
+- **.spatial_function_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/operations.py`
+- **.convert_extent()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **.geos_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **.proj_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **.check_expression_support()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/operations.py`
+- **.geo_db_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/operations.py`
+- **.get_db_converters()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/operations.py`
+- **.get_distance()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/operations.py`
+- **.get_geometry_converter()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/operations.py`
+- **.get_geometry_converter()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/operations.py`
+- **.gis_operators()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/operations.py`
+- **.get_geometry_converter()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/operations.py`
+- **.get_geometry_converter()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.geo_db_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- **.get_distance()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- *... and 38 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (29 shared connections)
-- [Community 2](Community_2.md) (28 shared connections)
-- [Community 0](Community_0.md) (18 shared connections)
-- [Community 425](Community_425.md) (18 shared connections)
-- [Community 32](Community_32.md) (17 shared connections)
-- [Community 3](Community_3.md) (15 shared connections)
-- [Community 589](Community_589.md) (12 shared connections)
-- [Community 618](Community_618.md) (11 shared connections)
-- [Community 52](Community_52.md) (10 shared connections)
-- [Community 207](Community_207.md) (9 shared connections)
-- [Community 93](Community_93.md) (9 shared connections)
-- [Community 37](Community_37.md) (6 shared connections)
+- [Community 75](Community_75.md) (11 shared connections)
+- [Community 5](Community_5.md) (7 shared connections)
+- [Community 35](Community_35.md) (5 shared connections)
+- [Community 33](Community_33.md) (4 shared connections)
+- [Community 30](Community_30.md) (3 shared connections)
+- [Community 381](Community_381.md) (2 shared connections)
+- [Community 304](Community_304.md) (2 shared connections)
+- [Community 631](Community_631.md) (2 shared connections)
+- [Community 70](Community_70.md) (1 shared connections)
+- [Community 725](Community_725.md) (1 shared connections)
+- [Community 694](Community_694.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_introspection.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
-- `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/models/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
-- `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
 
 ## Audit Trail
 
-- EXTRACTED: 504 (98%)
-- INFERRED: 11 (2%)
+- EXTRACTED: 101 (88%)
+- INFERRED: 14 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

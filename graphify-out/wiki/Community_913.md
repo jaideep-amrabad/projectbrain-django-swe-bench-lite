@@ -1,29 +1,36 @@
 # Community 913
 
-> 8 nodes · cohesion 0.43
+> 13 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **SpacelessTagTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
-- **setup** (6 connections)
-- **.test_spaceless01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
-- **.test_spaceless02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
-- **.test_spaceless03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
-- **.test_spaceless04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
-- **.test_spaceless05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
-- **.test_spaceless06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
+- **view_tests/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **BaseArticle** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **UrlArticle** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **DateArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **Author** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **.get_absolute_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **Regression tests for Django built-in views.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **An abstract article Model so that we can create article models with and without…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **An Article class with a get_absolute_url defined.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **An article Model with a DateField instead of DateTimeField, for testing #7602** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
+- **.get_absolute_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
+- [Community 88](Community_88.md) (4 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_spaceless.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 24 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

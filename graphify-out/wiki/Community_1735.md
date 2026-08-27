@@ -1,24 +1,27 @@
 # Community 1735
 
-> 2 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **Song** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **OSMWidgetTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **.test_default_lat_lon()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **.test_osm_widget()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
 
 ## Relationships
 
-- [Community 70](Community_70.md) (1 shared connections)
-- [Community 102](Community_102.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 30](Community_30.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

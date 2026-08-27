@@ -1,30 +1,32 @@
 # Community 914
 
-> 8 nodes · cohesion 0.43
+> 8 nodes · cohesion 0.36
 
 ## Key Concepts
 
-- **VerbatimTagTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_verbatim.py`
-- **setup** (6 connections)
-- **.test_verbatim_tag01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_verbatim.py`
-- **.test_verbatim_tag02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_verbatim.py`
-- **.test_verbatim_tag03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_verbatim.py`
-- **.test_verbatim_tag04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_verbatim.py`
-- **.test_verbatim_tag05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_verbatim.py`
-- **.test_verbatim_tag06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_verbatim.py`
+- **EscapeTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
+- **setup** (4 connections)
+- **.test_escape01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
+- **.test_escape02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
+- **.test_escape_lazy_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
+- **.test_escape03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
+- **.test_escape04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
+- **The "escape" filter works the same whether autoescape is on or off, but it has…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 175](Community_175.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_verbatim.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 15 (88%)
+- INFERRED: 2 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

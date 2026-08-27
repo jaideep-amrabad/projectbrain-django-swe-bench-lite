@@ -1,41 +1,40 @@
 # Community 685
 
-> 14 nodes · cohesion 0.15
+> 14 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **FileBasedCacheTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **FileBasedCachePathLibTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.mkdtemp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_cache_dir_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.mkdtemp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_clear_does_not_remove_cache_dir()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_creates_cache_dir_if_nonexistent()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_empty_cache_file_considered_expired()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_get_does_not_ignore_non_filenotfound_exceptions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_get_ignores_enoent()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_ignores_non_cache_files()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **skipIf** (1 connections)
-- **Specific test cases for the file-based cache.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **m2m_and_m2o/tests.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
+- **m2m_and_m2o/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
+- **Issue** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
+- **RelatedObjectTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
+- **RelatedObjectUnicodeTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
+- **StringReferenceModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
+- **User** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
+- **.test_m2m_and_m2o()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
+- **.test_m2m_with_unicode_reference()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
+- **Many-to-many and many-to-one relationships to the same table Make sure to set…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
+- **Regression test for #6045: references to other models can be strings, providing…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
+- **.test_related_objects_have_name_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
 
 ## Relationships
 
-- [Community 999](Community_999.md) (2 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 293](Community_293.md) (1 shared connections)
-- [Community 565](Community_565.md) (1 shared connections)
-- [Community 674](Community_674.md) (1 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 26 (90%)
+- INFERRED: 3 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,52 +1,59 @@
 # Community 530
 
-> 21 nodes · cohesion 0.13
+> 31 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **NullableJSONModel** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **TestSaveLoad** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **JSONModel** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **JSONFieldTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **TestSerialization** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **AbstractPersonWithHeight** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **RelatedJSONModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.test_json_null_different_from_sql_null()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_primitives()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_custom_encoder_decoder()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_dumping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_xml_serialization()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **Abstract model that defines an ImageField with only one dimension field to make…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.test_db_check_constraints()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_invalid_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_dict()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_realistic_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_loading()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.get_prep_value()** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **DateField** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **DateTimeField** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.to_python()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **UUIDField** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_prep_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_prep_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_prep_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_prep_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_prep_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_db_prep_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_prep_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_prep_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.pre_save()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_db_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.pre_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_db_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.pre_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.value_to_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [Community 71](Community_71.md) (6 shared connections)
-- [Community 275](Community_275.md) (4 shared connections)
-- [Community 21](Community_21.md) (4 shared connections)
-- [Community 66](Community_66.md) (3 shared connections)
-- [Community 52](Community_52.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 172](Community_172.md) (1 shared connections)
-- [Community 40](Community_40.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 48](Community_48.md) (7 shared connections)
+- [Community 270](Community_270.md) (6 shared connections)
+- [Community 710](Community_710.md) (4 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 120](Community_120.md) (3 shared connections)
+- [Community 630](Community_630.md) (3 shared connections)
+- [Community 799](Community_799.md) (3 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 892](Community_892.md) (2 shared connections)
+- [Community 931](Community_931.md) (2 shared connections)
+- [Community 172](Community_172.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (80%)
-- INFERRED: 10 (20%)
+- EXTRACTED: 84 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

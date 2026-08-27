@@ -1,42 +1,39 @@
 # Community 537
 
-> 17 nodes · cohesion 0.15
+> 14 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **ChoicesMeta** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **enums.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **Choices** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **TextChoices** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **IntegerChoices** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **Class for creating enumerated choices.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **int** (1 connections)
-- **.choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **.names()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **.__new__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **.values()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **str** (1 connections)
-- **Use value when cast to str, so that Choices set as model instance attributes…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **A metaclass for creating a enum choices.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **._generate_next_value_()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **_AssertTemplateUsedContext** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **_AssertTemplateNotUsedContext** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__exit__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.assertTemplateNotUsed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.assertTemplateUsed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._assert_template_used()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.message()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.test()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Assert that the template with the provided name was used in rendering the…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__enter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.message()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.on_template_render()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.test()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Relationships
 
-- [Community 52](Community_52.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
-- [Community 214](Community_214.md) (1 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 450](Community_450.md) (1 shared connections)
+- [Community 538](Community_538.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 24 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

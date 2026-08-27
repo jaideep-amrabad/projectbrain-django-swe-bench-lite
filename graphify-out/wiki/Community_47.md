@@ -1,64 +1,60 @@
 # Community 47
 
-> 132 nodes · cohesion 0.02
+> 128 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **Field** (25 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.__init__()** (19 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **CharField** (17 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.to_python()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **RegexField** (15 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **TypedMultipleChoiceField** (15 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **MultiValueField** (13 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **RegexFieldTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
-- **TypedMultipleChoiceFieldTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
-- **.clean()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **FileField** (9 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **BooleanField** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **ComboField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **JSONField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.widget_attrs()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.validate()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **._coerce()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.clean()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.run_validators()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **FloatField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.to_python()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **NullBooleanField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.has_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.to_python()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **GenericIPAddressField** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- *... and 107 more nodes in this community*
+- **admin_filters/tests.py** (64 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **ListFiltersTests** (58 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **BookAdmin** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **DecadeListFilter** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **select_by()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **BookAdminWithEmptyFieldListFilter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **DecadeListFilterWithTitleAndParameter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **EmployeeAdmin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **Bookmark** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
+- **TaggedItem** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
+- **BookAdminRelatedOnlyFilter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **BookAdminWithCustomQueryset** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **DepartmentListFilterLookupWithNonStringValue** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **Book** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
+- **Department** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
+- **Employee** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
+- **BookAdminWithTupleBooleanFilter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **CustomUserAdmin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **DepartmentAdminWithEmptyFieldListFilter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **.test_datefieldlistfilter()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **.test_datefieldlistfilter_with_time_zone_support()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **.test_parameter_ends_with__in__or__isnull()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **.verify_booleanfieldlistfilter()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **.verify_booleanfieldlistfilter_choices()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **NotNinetiesListFilter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- *... and 103 more nodes in this community*
 
 ## Relationships
 
-- [Community 50](Community_50.md) (31 shared connections)
-- [Community 72](Community_72.md) (17 shared connections)
-- [Community 34](Community_34.md) (6 shared connections)
-- [Community 582](Community_582.md) (6 shared connections)
-- [Community 1](Community_1.md) (6 shared connections)
-- [Community 387](Community_387.md) (3 shared connections)
-- [Community 52](Community_52.md) (2 shared connections)
-- [Community 288](Community_288.md) (2 shared connections)
-- [Community 385](Community_385.md) (2 shared connections)
-- [Community 716](Community_716.md) (2 shared connections)
-- [Community 141](Community_141.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 54](Community_54.md) (17 shared connections)
+- [Community 1](Community_1.md) (11 shared connections)
+- [Community 207](Community_207.md) (7 shared connections)
+- [Community 71](Community_71.md) (7 shared connections)
+- [Community 122](Community_122.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 347](Community_347.md) (1 shared connections)
+- [Community 1124](Community_1124.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_combofield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 244 (91%)
-- INFERRED: 24 (9%)
+- EXTRACTED: 245 (96%)
+- INFERRED: 10 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

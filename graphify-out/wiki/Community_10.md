@@ -1,78 +1,73 @@
 # Community 10
 
-> 348 nodes · cohesion 0.01
+> 147 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **datetime** (400 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **timezone.py** (116 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **datetime.py** (47 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **test_extract_trunc.py** (44 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
-- **DateFunctionTests** (42 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
-- **.create_model()** (40 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
-- **Extract** (27 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **humanize.py** (25 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/humanize/templatetags/humanize.py`
-- **DateFormatTests** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateformat.py`
-- **get_fixed_timezone()** (23 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **dateformat.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **feedgenerator.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **syndication_tests/tests.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **make_aware()** (20 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **humanize_tests/tests.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **tz.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **TruncBase** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **utc()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **model_fields/test_datetimefield.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
-- **ExtractYear** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **date()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **get_default_timezone()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **test_dateformat.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateformat.py`
-- **format()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **is_aware()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- *... and 323 more nodes in this community*
+- **related.py** (66 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **db/models/base.py** (62 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **basic/tests.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **models/signals.py** (25 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
+- **OneToOneField** (23 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **ForwardManyToOneDescriptor** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **reverse_related.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **ModelBase** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **models/constraints.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- **FieldCacheMixin** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **ManyToManyDescriptor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **ReverseManyToOneDescriptor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **ReverseOneToOneDescriptor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **manager.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **lazy_related_operation()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **ManyToOneRel** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **make_model_tuple()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/utils.py`
+- **empty_join.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **fields/mixins.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **Manager** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **basic/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
+- **.__new__()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **schema/fields.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
+- **create_many_to_many_intermediary_model()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **ManyToManyRel** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- *... and 122 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (77 shared connections)
-- [Community 2](Community_2.md) (63 shared connections)
-- [Community 72](Community_72.md) (49 shared connections)
-- [Community 52](Community_52.md) (32 shared connections)
-- [Community 0](Community_0.md) (25 shared connections)
-- [Community 14](Community_14.md) (23 shared connections)
-- [Community 71](Community_71.md) (18 shared connections)
-- [Community 16](Community_16.md) (16 shared connections)
-- [Community 43](Community_43.md) (16 shared connections)
-- [Community 437](Community_437.md) (16 shared connections)
-- [Community 50](Community_50.md) (14 shared connections)
-- [Community 3](Community_3.md) (12 shared connections)
+- [Community 5](Community_5.md) (53 shared connections)
+- [Community 1](Community_1.md) (23 shared connections)
+- [Community 113](Community_113.md) (20 shared connections)
+- [Community 41](Community_41.md) (14 shared connections)
+- [Community 207](Community_207.md) (11 shared connections)
+- [Community 403](Community_403.md) (11 shared connections)
+- [Community 172](Community_172.md) (10 shared connections)
+- [Community 2](Community_2.md) (7 shared connections)
+- [Community 50](Community_50.md) (6 shared connections)
+- [Community 373](Community_373.md) (6 shared connections)
+- [Community 36](Community_36.md) (5 shared connections)
+- [Community 97](Community_97.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/humanize/templatetags/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/humanize/templatetags/humanize.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/timesince.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
-- `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datetimefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1292 (86%)
-- INFERRED: 208 (14%)
+- EXTRACTED: 462 (93%)
+- INFERRED: 36 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,32 +4,26 @@
 
 ## Key Concepts
 
-- **Author** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.test_repr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_deserializedobject.py`
-- **.test_serializer_pyyaml_error_message()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **.test_unicode_serialization()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **Using yaml serializer without pyyaml raises ImportError** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **._assertFooMessage()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._assert_raises_or_warns_cm()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.assertRaisesMessage()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.assertWarnsMessage()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Assert that expected_message is found in the message of a raised exception.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Same as assertRaisesMessage but for assertWarns() instead of assertRaises().** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Relationships
 
-- [Community 457](Community_457.md) (2 shared connections)
-- [Community 207](Community_207.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 400](Community_400.md) (1 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 76](Community_76.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_deserializedobject.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (73%)
-- INFERRED: 3 (27%)
+- EXTRACTED: 10 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

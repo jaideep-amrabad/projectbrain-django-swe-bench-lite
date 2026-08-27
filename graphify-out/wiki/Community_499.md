@@ -1,46 +1,49 @@
 # Community 499
 
-> 20 nodes · cohesion 0.19
+> 21 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **FileBasedCache** (19 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **._key_to_file()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.set()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **._cull()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.has_key()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **._is_expired()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.touch()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.clear()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.get()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **._list_cache_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **._createdir()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **._write_content()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.add()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **Convert a key into a cache file path. Basically this is the root cache path…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **Remove all the cache files.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **Take an open cache file `f` and delete it if it's expired.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **Get a list of paths to all the cache files. These are all the files in the root…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **Remove random cache entries if max_entries is reached at a ratio of num_entries…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **GenericInlineFormsetTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **generic_inlineformset_factory()** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/forms.py`
+- **.test_get_queryset_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **.test_incorrect_content_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **.test_meta_widgets()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **.test_output()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **.test_save_as_new()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **.test_absolute_max()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **.test_absolute_max_with_max_num()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **.test_can_delete_extra()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **.test_disable_delete_extra()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **.test_initial()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **.test_initial_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **.test_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **.test_save_new_for_concrete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **.test_save_new_for_proxy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **.test_save_new_uses_form_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **Return a ``GenericInlineFormSet`` for the given kwargs. You must provide…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/forms.py`
+- **BaseGenericInlineFormSet.get_queryset() adds default ordering, if needed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **TaggedItemForm has a widget defined in Meta.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
+- **The save_as_new parameter creates new items that are associated with the object.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
 
 ## Relationships
 
-- [Community 656](Community_656.md) (4 shared connections)
-- [Community 138](Community_138.md) (2 shared connections)
-- [Community 403](Community_403.md) (2 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 125](Community_125.md) (1 shared connections)
+- [Community 66](Community_66.md) (7 shared connections)
+- [Community 207](Community_207.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 111](Community_111.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 74](Community_74.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (87%)
-- INFERRED: 6 (13%)
+- EXTRACTED: 43 (88%)
+- INFERRED: 6 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

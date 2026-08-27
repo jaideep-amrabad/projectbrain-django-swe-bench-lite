@@ -1,46 +1,43 @@
 # Community 639
 
-> 15 nodes · cohesion 0.14
+> 15 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **CustomJSONDecoder** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **TestValidation** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **ImageFieldFile** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **TestImageFieldFile** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.test_invalid_decoder()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_invalid_encoder()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **ImageFile** (1 connections)
-- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.as_uuid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **Custom Field File class that records whether or not the underlying file was…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.open()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.test_custom_encoder()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_validation_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **ASGITest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **get_asgi_application()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/asgi.py`
+- **.test_static_file_response()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **.test_file_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **.test_get_asgi_application()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **.test_disconnect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **.test_get_query_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **.test_headers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **.test_non_unicode_query_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **.test_request_lifecycle_signals_dispatched_with_thread_sensitive()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **.test_wrong_connection_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **The public interface to Django's ASGI support. Return an ASGI 3 callable.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/asgi.py`
+- **skipIf** (1 connections)
+- **get_asgi_application() returns a functioning ASGI callable.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **Makes sure that FileResponse works over ASGI.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
 
 ## Relationships
 
-- [Community 275](Community_275.md) (3 shared connections)
-- [Community 172](Community_172.md) (3 shared connections)
-- [Community 71](Community_71.md) (3 shared connections)
-- [Community 52](Community_52.md) (2 shared connections)
-- [Community 138](Community_138.md) (1 shared connections)
-- [Community 578](Community_578.md) (1 shared connections)
-- [Community 1003](Community_1003.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 510](Community_510.md) (3 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 317](Community_317.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- `raw/code/hyd-evaluation/django-django/django/core/asgi.py`
+- `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (80%)
-- INFERRED: 6 (20%)
+- EXTRACTED: 34 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

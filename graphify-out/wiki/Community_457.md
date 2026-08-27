@@ -1,55 +1,49 @@
 # Community 457
 
-> 25 nodes · cohesion 0.11
+> 24 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **serializers/models/base.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **Meta** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **Actor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **Movie** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **Category** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **CategoryMetaData** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **ProxyBaseModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.test_serialize_superfluous_queries()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_serialize_unicode_roundtrip()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **ProxyProxyBaseModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.setUpTestData()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **AuthorProfile** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **CategoryMetaDataManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **Serialization ``django.core.serializers`` provides interfaces to converting…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **Unicode makes the roundtrip intact** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **Ensure no superfluous queries are made when serializing ForeignKeys #17602** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **unmanaged_models/models.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **unmanaged_models/tests.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
+- **Meta** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **SimpleTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
+- **ManyToManyUnmanagedTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
+- **A01** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **A02** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **B01** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **B02** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **C01** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **C02** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **Unmanaged2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **Managed1** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **Intermediate** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **Proxy1** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **Proxy2** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **Unmanaged1** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **.test_many_to_many_between_unmanaged()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
+- **.test_many_to_many_between_unmanaged_and_managed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
+- **.test_simple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
+- **Models can have a ``managed`` attribute, which specifies whether the SQL code…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **The main test here is that the all the models can be created without any…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
+- **The intermediary table between two unmanaged models should not be created.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
+- **An intermediary table between a managed and an unmanaged model should be…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
 
 ## Relationships
 
-- [Community 400](Community_400.md) (5 shared connections)
-- [Community 161](Community_161.md) (3 shared connections)
-- [Community 596](Community_596.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 980](Community_980.md) (2 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 981](Community_981.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (86%)
-- INFERRED: 7 (14%)
+- EXTRACTED: 48 (86%)
+- INFERRED: 8 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

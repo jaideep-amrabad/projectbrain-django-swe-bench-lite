@@ -1,56 +1,60 @@
 # Community 582
 
-> 23 nodes · cohesion 0.10
+> 28 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **SplitDateTimeField** (14 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **BaseTemporalField** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **DateField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **DateTimeField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **TimeField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **SplitDateTimeFieldTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_splitdatetimefield.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.to_python()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.to_python()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.to_python()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.test_label_split_datetime_not_displayed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.prepare_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.strptime()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.test_splitdatetimefield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_splitdatetimefield.py`
-- **.test_splitdatetimefield_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_splitdatetimefield.py`
-- **.test_splitdatetimefield_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_splitdatetimefield.py`
-- **.test_boundfield_widget_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.strptime()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.strptime()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **Validate that the input can be converted to a date. Return a Python…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **Validate that the input can be converted to a time. Return a Python…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.strptime()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **BulkUpdateTests** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
+- **queries/test_bulk_update.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
+- **Order** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **SpecialCategory** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **CustomPk** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **Detail** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **Valid** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **JSONFieldNullable** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **Member** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **CustomDbColumn** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **.test_json_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
+- **.test_field_references()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **.test_booleanfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
+- **.test_custom_db_columns()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
+- **.test_custom_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
+- **.test_datetime_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
+- **.test_empty_objects()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
+- **.test_falsey_pk_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
+- **.test_inherited_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
+- **.test_invalid_batch_size()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
+- **.test_ipaddressfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
+- **.test_no_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
+- **.test_nonexistent_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 50](Community_50.md) (6 shared connections)
-- [Community 47](Community_47.md) (6 shared connections)
-- [Community 72](Community_72.md) (3 shared connections)
-- [Community 34](Community_34.md) (3 shared connections)
+- [Community 16](Community_16.md) (21 shared connections)
+- [Community 686](Community_686.md) (4 shared connections)
+- [Community 176](Community_176.md) (4 shared connections)
+- [Community 789](Community_789.md) (4 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 423](Community_423.md) (2 shared connections)
+- [Community 526](Community_526.md) (2 shared connections)
 - [Community 1](Community_1.md) (2 shared connections)
-- [Community 385](Community_385.md) (1 shared connections)
-- [Community 432](Community_432.md) (1 shared connections)
-- [Community 74](Community_74.md) (1 shared connections)
-- [Community 108](Community_108.md) (1 shared connections)
-- [Community 425](Community_425.md) (1 shared connections)
+- [Community 28](Community_28.md) (2 shared connections)
+- [Community 70](Community_70.md) (2 shared connections)
+- [Community 806](Community_806.md) (2 shared connections)
+- [Community 670](Community_670.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_splitdatetimefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (78%)
-- INFERRED: 11 (22%)
+- EXTRACTED: 69 (74%)
+- INFERRED: 24 (26%)
 - AMBIGUOUS: 0 (0%)
 
 ---

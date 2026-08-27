@@ -1,24 +1,25 @@
 # Community 1746
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.test_formsets_with_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **formset_factory's can_order argument adds an integer field to each form. When…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **_EnsureCsrfCookie** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
+- **.process_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
+- **._reject()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
 
 ## Relationships
 
-- [Community 105](Community_105.md) (1 shared connections)
-- [Community 1152](Community_1152.md) (1 shared connections)
+- [Community 101](Community_101.md) (2 shared connections)
+- [Community 53](Community_53.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

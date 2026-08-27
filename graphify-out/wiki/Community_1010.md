@@ -1,27 +1,27 @@
 # Community 1010
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.53
 
 ## Key Concepts
 
-- **RouterUsed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **WriteCheckRouter** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.db_for_write()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **Exception** (1 connections)
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **NoDatabaseTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
+- **databases/tests.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
+- **AllDatabasesTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
+- **DefaultDatabaseTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
+- **OtherDatabaseTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
+- **.test_nothing()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
 
 ## Relationships
 
-- [Community 474](Community_474.md) (1 shared connections)
-- [Community 475](Community_475.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

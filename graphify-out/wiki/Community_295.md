@@ -1,46 +1,59 @@
 # Community 295
 
-> 21 nodes · cohesion 0.21
+> 37 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **ReloaderTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.increment_mtime()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **IntegrationTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.ensure_file()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **StatReloaderTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.tick_twice()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_glob()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_glob_recursive()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_multiple_globs()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_multiple_recursive_globs()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_nested_glob_recursive()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_overlapping_glob_recursive()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_overlapping_globs()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.set_mtime()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_tick_does_not_trigger_twice()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_snapshot_files_updates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **skipIf** (1 connections)
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_snapshot_files_ignores_missing_files()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_snapshot_files_with_duplicates()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **get_internal_wsgi_application()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **builtin_server/tests.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **FileWrapperHandler** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **WriteChunkCounterHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **WSGIFileWrapperTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.test_file_response_closing()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.test_file_response_call_request_finished()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **GetInternalWSGIApplicationTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
+- **ServerHandler** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.write()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **DummyHandler** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **ServerHandlerChunksProperly** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.test_chunked_data()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.test_file_wrapper_no_sendfile()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.test_file_wrapper_uses_sendfile()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.test_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
+- **.test_success()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **._write()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **wsgi_app_file_wrapper()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.test_bad_module()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
+- **.test_bad_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
+- **send_big_data_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.send_headers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 706](Community_706.md) (8 shared connections)
-- [Community 360](Community_360.md) (5 shared connections)
-- [Community 671](Community_671.md) (3 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 2](Community_2.md) (9 shared connections)
+- [Community 8](Community_8.md) (7 shared connections)
+- [Community 336](Community_336.md) (7 shared connections)
+- [Community 347](Community_347.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 846](Community_846.md) (1 shared connections)
+- [Community 694](Community_694.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 371](Community_371.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 62 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 78 (87%)
+- INFERRED: 12 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

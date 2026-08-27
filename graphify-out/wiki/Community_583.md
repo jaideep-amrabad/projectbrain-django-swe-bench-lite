@@ -1,43 +1,43 @@
 # Community 583
 
-> 18 nodes · cohesion 0.12
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **FakeSMTPServer** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **SMTPBackendStoppedServerTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **SMTPBackendTestsBase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.setUpClass()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_fail_silently_on_connection_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_server_stopped()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.flush_sink()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.get_sink()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.process_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.run()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.stop()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **Asyncore SMTP server wrapped into a thread. Based on DummyFTPServer from:…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **These tests require a separate class, because the FakeSMTPServer is shut down…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **Closing the backend while the SMTP server is stopped doesn't raise an exception.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **A socket connection error is silenced with fail_silently=True.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.tearDownClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **Team** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **TeamField** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.test_custom_field_serialization()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.last_executed_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Player** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.to_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.from_db_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **Return a string of the query last executed by the given cursor, with…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.get_db_prep_save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.value_to_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **Custom fields serialize and deserialize intact** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
 
 ## Relationships
 
-- [Community 181](Community_181.md) (3 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 127](Community_127.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 439](Community_439.md) (3 shared connections)
+- [Community 44](Community_44.md) (1 shared connections)
+- [Community 315](Community_315.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 19 (86%)
+- INFERRED: 3 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,60 +1,66 @@
 # Community 156
 
-> 66 nodes · cohesion 0.05
+> 56 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **serializer.py** (51 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **BaseSerializer** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **serializer_factory()** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **BaseSequenceSerializer** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **DeconstructableSerializer** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **.serialize_deconstructed()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **RegexObject** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
-- **Serializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **BaseSimpleSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **DatetimeDatetimeSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **DateTimeSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **ModelFieldSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **ModelManagerSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **TypeSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **.serialize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **ChoicesSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **DecimalSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **._serialize_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **DictionarySerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **EnumSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **FloatSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **FrozensetSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **FunctionTypeSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **FunctoolsPartialSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **IterableSerializer** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- *... and 41 more nodes in this community*
+- **core/mail/__init__.py** (38 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
+- **mail/tests.py** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **EmailMultiAlternatives** (19 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **message.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **send_mail()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
+- **mail_managers()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
+- **sanitize_address()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **mail_admins()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
+- **smtp.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
+- **get_connection()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
+- **sendtestemail.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sendtestemail.py`
+- **forbid_multi_line_headers()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **BadHeaderError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **mail/utils.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/utils.py`
+- **.test_manager_and_admin_mail_prefix()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_connection_arg()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **send_mass_mail()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
+- **.test_empty_admins()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **CachedDnsName** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/utils.py`
+- **Command** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sendtestemail.py`
+- **.handle()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sendtestemail.py`
+- **.email_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.get_fqdn()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/utils.py`
+- **.test_wrong_admins_managers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_attachments()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- *... and 31 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (10 shared connections)
-- [Community 107](Community_107.md) (5 shared connections)
-- [Community 543](Community_543.md) (4 shared connections)
-- [Community 138](Community_138.md) (3 shared connections)
-- [Community 10](Community_10.md) (3 shared connections)
-- [Community 379](Community_379.md) (3 shared connections)
-- [Community 231](Community_231.md) (3 shared connections)
-- [Community 78](Community_78.md) (2 shared connections)
-- [Community 52](Community_52.md) (2 shared connections)
-- [Community 133](Community_133.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 114](Community_114.md) (15 shared connections)
+- [Community 273](Community_273.md) (15 shared connections)
+- [Community 2](Community_2.md) (14 shared connections)
+- [Community 406](Community_406.md) (11 shared connections)
+- [Community 417](Community_417.md) (7 shared connections)
+- [Community 460](Community_460.md) (6 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 4](Community_4.md) (4 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 274](Community_274.md) (4 shared connections)
+- [Community 8](Community_8.md) (4 shared connections)
+- [Community 71](Community_71.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/sendtestemail.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 144 (97%)
-- INFERRED: 5 (3%)
+- EXTRACTED: 211 (98%)
+- INFERRED: 4 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

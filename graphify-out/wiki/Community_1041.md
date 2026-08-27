@@ -1,27 +1,31 @@
 # Community 1041
 
-> 4 nodes · cohesion 0.50
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **.construct_managers()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.render()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **Deep-clone the managers using deconstruction.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **Create a Model object from our current state into the given apps.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **FileStoragePathParsing** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_directory_with_dot()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_first_character_dot()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **Regression test for #9610. If the directory name contains a dot and the file…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **File names with a dot as their first character don't have an extension, and the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 
 ## Relationships
 
-- [Community 17](Community_17.md) (2 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 653](Community_653.md) (1 shared connections)
+- [Community 350](Community_350.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 131](Community_131.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

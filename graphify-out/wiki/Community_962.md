@@ -1,31 +1,29 @@
 # Community 962
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **DataUploadMaxMemorySizeGetTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
-- **.test_data_upload_max_memory_size_exceeded()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
-- **.test_empty_content_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
-- **.test_no_limit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
-- **.test_size_not_exceeded()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
+- **TestNumberFormat** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **.test_decimal_numbers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **.test_decimal_subclass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **.test_float_numbers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **.test_format_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **.test_format_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **.test_large_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
 
 ## Relationships
 
-- [Community 100](Community_100.md) (2 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 264](Community_264.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (80%)
-- INFERRED: 2 (20%)
+- EXTRACTED: 8 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

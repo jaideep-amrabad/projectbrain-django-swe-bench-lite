@@ -1,52 +1,58 @@
 # Community 475
 
-> 24 nodes · cohesion 0.16
+> 38 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **RouteForWriteTestCase** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.override_router()** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **RouterAttributeErrorTestCase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **The AttributeError from AttributeErrorRouter bubbles up** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_attribute_error_save()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_attribute_error_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_attribute_error_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_attribute_error_read()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_fk_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_m2m_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_m2m_clear()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_m2m_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_m2m_get_or_create()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_m2m_remove()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_m2m_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_reverse_fk_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_reverse_fk_get_or_create()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_reverse_fk_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_reverse_m2m_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_reverse_m2m_clear()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_reverse_m2m_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_reverse_m2m_get_or_create()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_reverse_m2m_remove()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_reverse_m2m_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **CaseInsensitiveMapping** (20 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **CaseInsensitiveMappingTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **DictWrapper** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__getitem__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__getitem__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **MultiValueDictKeyError** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **DictWrapperTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_dictwrapper()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.__repr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **_destruct_iterable_mapping_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__repr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **dict** (2 connections)
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_create_with_invalid_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_create_with_invalid_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **Mapping** (1 connections)
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **KeyError** (1 connections)
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Community 474](Community_474.md) (5 shared connections)
-- [Community 636](Community_636.md) (3 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 1010](Community_1010.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 764](Community_764.md) (1 shared connections)
-- [Community 1008](Community_1008.md) (1 shared connections)
+- [Community 2](Community_2.md) (6 shared connections)
+- [Community 130](Community_130.md) (6 shared connections)
+- [Community 258](Community_258.md) (5 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 810](Community_810.md) (1 shared connections)
+- [Community 772](Community_772.md) (1 shared connections)
+- [Community 613](Community_613.md) (1 shared connections)
+- [Community 120](Community_120.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 83](Community_83.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
 
 ## Audit Trail
 
-- EXTRACTED: 54 (92%)
-- INFERRED: 5 (8%)
+- EXTRACTED: 66 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

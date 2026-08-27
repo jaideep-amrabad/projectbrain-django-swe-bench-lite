@@ -1,36 +1,37 @@
 # Community 896
 
-> 8 nodes · cohesion 0.32
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **AdminEmailHandler** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **.emit()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **.format_subject()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **.send_mail()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **.test_custom_exception_reporter_is_used()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.copy()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **Escape CR and LF characters.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **An exception log handler that emails log entries to site admins. If the request…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- **BaseIterable** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **ValuesListIterable** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **FlatValuesListIterable** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **NamedValuesListIterable** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **ValuesIterable** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Iterable returned by QuerySet.values_list(flat=False) that yields a tuple for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Iterable returned by QuerySet.values_list(named=True) that yields a namedtuple…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Iterable returned by QuerySet.values_list(flat=True) that yields single values.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Iterable returned by QuerySet.values() that yields a dict for each row.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (4 shared connections)
-- [Community 75](Community_75.md) (2 shared connections)
-- [Community 494](Community_494.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 665](Community_665.md) (1 shared connections)
+- [Community 5](Community_5.md) (5 shared connections)
+- [Community 276](Community_276.md) (1 shared connections)
+- [Community 318](Community_318.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 19 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,46 +1,53 @@
 # Community 606
 
-> 22 nodes · cohesion 0.11
+> 24 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **BaseStaticFilesMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- **.assertFileContains()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- **.assertStaticRenders()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- **.render_template()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- **._get_file()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- **.test_app_files()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- **.test_camelcase_filenames()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- **.test_nonascii_filenames()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- **.test_staticfiles_dirs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- **.test_staticfiles_dirs_priority()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- **.test_staticfiles_dirs_subdir()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- **.assertFileNotFound()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- **.assertStaticRaises()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- **.static_template_snippet()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- **.test_filename_with_percent_sign()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- **Can find a file in a STATICFILES_DIRS directory.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- **Can find a file in a subdirectory of a STATICFILES_DIRS directory.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- **File in STATICFILES_DIRS has priority over file in app.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- **Can find a file in an app static/ directory.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- **Can find a file with non-ASCII character in an app static/ directory.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- **Can find a file with capital letters.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
-- **Test case with a couple utility assertions.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
+- **LocMemCache** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **cache/backends/locmem.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **._has_expired()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **._delete()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **closeable_cache.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
+- **liberal_backend.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
+- **.add()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **.has_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **.incr()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **._set()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **CacheClass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
+- **CloseHookMixin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
+- **.close()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
+- **CacheClass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
+- **LiberalKeyValidationMixin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
+- **.test_use_as_contextmanager()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **._cull()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **.touch()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **.clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **Thread-safe in-memory cache backend.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **.validate_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
+- **The connection can be used as a contextmanager.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Relationships
 
-- [Community 143](Community_143.md) (9 shared connections)
-- [Community 119](Community_119.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
+- [Community 275](Community_275.md) (2 shared connections)
+- [Community 30](Community_30.md) (1 shared connections)
+- [Community 605](Community_605.md) (1 shared connections)
+- [Community 317](Community_317.md) (1 shared connections)
+- [Community 273](Community_273.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 43 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

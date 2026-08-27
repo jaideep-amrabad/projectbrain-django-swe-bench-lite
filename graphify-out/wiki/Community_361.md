@@ -1,40 +1,53 @@
 # Community 361
 
-> 14 nodes · cohesion 0.18
+> 30 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **urls/converters.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
-- **IntConverter** (5 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
-- **StringConverter** (5 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
-- **get_converter()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
-- **UUIDConverter** (3 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
-- **get_converters()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
-- **PathConverter** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
-- **SlugConverter** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
-- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
-- **.to_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
-- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
-- **.to_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
-- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
-- **.to_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **TestObj** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **AnonymousUserBackendTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **RowlevelBackendTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **BaseBackendTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **InActiveUserBackendTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **NoBackendsTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_get_all_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_has_perm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_has_perms()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_has_perm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_has_perm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_raises_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_get_all_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_get_group_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_has_perm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_has_module_perms()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_get_all_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_get_group_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_get_user_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_has_module_perms()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **Tests for auth backend that supports object level permissions** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 55](Community_55.md) (3 shared connections)
-- [Community 95](Community_95.md) (2 shared connections)
-- [Community 76](Community_76.md) (1 shared connections)
-- [Community 371](Community_371.md) (1 shared connections)
-- [Community 444](Community_444.md) (1 shared connections)
+- [Community 4](Community_4.md) (6 shared connections)
+- [Community 8](Community_8.md) (4 shared connections)
+- [Community 6](Community_6.md) (4 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 128](Community_128.md) (1 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 50 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

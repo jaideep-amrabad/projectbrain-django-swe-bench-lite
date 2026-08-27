@@ -1,63 +1,53 @@
 # Community 230
 
-> 42 nodes · cohesion 0.06
+> 21 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **test/runner.py** (37 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **test_discover_runner.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **NullTimeKeeper** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **TimeKeeper** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **test_debug_sql.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- **.__init__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.handle()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
-- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **ParallelTestSuite** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **setup_databases()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **RemoteTestRunner** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **get_unique_databases_and_mirrors()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **partition_suite_by_case()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **teardown_databases()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **teardown_test_environment()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **_init_worker()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.run()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **_run_subsuite()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- *... and 17 more nodes in this community*
+- **Expressions** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **ExpressionsTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **ForeignKeyNameTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.setUp()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.rename_column_references()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.rename_table_references()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.rename_column_references()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.rename_table_references()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.test_references_column()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.test_references_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.test_rename_column_references()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.test_rename_table_references()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.test_references_column()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.test_references_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.test_rename_column_references()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.test_rename_table_references()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.test_str()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.test_repr()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.test_str()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (10 shared connections)
-- [Community 60](Community_60.md) (9 shared connections)
-- [Community 1](Community_1.md) (6 shared connections)
-- [Community 749](Community_749.md) (5 shared connections)
-- [Community 198](Community_198.md) (4 shared connections)
-- [Community 291](Community_291.md) (4 shared connections)
-- [Community 63](Community_63.md) (3 shared connections)
-- [Community 451](Community_451.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 64](Community_64.md) (2 shared connections)
-- [Community 138](Community_138.md) (2 shared connections)
+- [Community 660](Community_660.md) (6 shared connections)
+- [Community 31](Community_31.md) (4 shared connections)
+- [Community 536](Community_536.md) (3 shared connections)
+- [Community 461](Community_461.md) (1 shared connections)
+- [Community 296](Community_296.md) (1 shared connections)
+- [Community 36](Community_36.md) (1 shared connections)
+- [Community 39](Community_39.md) (1 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
+- [Community 553](Community_553.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
 
 ## Audit Trail
 
-- EXTRACTED: 113 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 40 (91%)
+- INFERRED: 4 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

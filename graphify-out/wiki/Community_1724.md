@@ -1,25 +1,22 @@
 # Community 1724
 
-> 3 nodes · cohesion 0.67
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **TestFieldWithValidators** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_validators.py`
-- **.test_all_errors_get_reported()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_validators.py`
-- **.test_field_validators_can_be_any_iterable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_validators.py`
+- **app5/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/app5/__init__.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_validators.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/app5/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

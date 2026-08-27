@@ -1,50 +1,42 @@
 # Community 632
 
-> 16 nodes · cohesion 0.18
+> 15 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **basic/tests.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **basic/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **SelectOnSaveTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **ArticleSelectOnSave** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **ChildPrimaryKeyWithDefault** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **PrimaryKeyWithDefault** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **SelfRef** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **ConcurrentSaveTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **FeaturedArticle** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **.test_concurrent_delete_with_save()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_select_on_save_lying_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **Bare-bones model This is a basic model with only two non-primary-key fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **Test fetching, deleting and finally saving an object - we should get an insert…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **select_on_save works correctly if the database doesn't return correct…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_select_on_save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **UserChangeFormTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **UserChangeForm** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.test_bug_19133()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.test_bug_17944_empty_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_bug_17944_unknown_password_algorithm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_bug_17944_unmanageable_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_bug_19349_bound_password_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_unusable_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_username_field_autocapitalize_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_username_validity()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **The change form does not return the password value** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_bug_14242()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_custom_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_password_excluded()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
 
 ## Relationships
 
-- [Community 437](Community_437.md) (11 shared connections)
-- [Community 0](Community_0.md) (7 shared connections)
-- [Community 723](Community_723.md) (3 shared connections)
-- [Community 483](Community_483.md) (3 shared connections)
-- [Community 52](Community_52.md) (3 shared connections)
-- [Community 392](Community_392.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 21](Community_21.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 20](Community_20.md) (2 shared connections)
-- [Community 72](Community_72.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 476](Community_476.md) (1 shared connections)
+- [Community 925](Community_925.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 733](Community_733.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 54 (87%)
-- INFERRED: 8 (13%)
+- EXTRACTED: 29 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

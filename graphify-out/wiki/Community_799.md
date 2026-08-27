@@ -1,34 +1,51 @@
 # Community 799
 
-> 11 nodes · cohesion 0.18
+> 18 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **ValidationTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- **Choices** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- **.test_choices_validation_supports_named_groups()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- **.test_enum_choices_cleans_valid_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- **.test_enum_choices_invalid_input()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- **.test_integerfield_cleans_valid_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- **.test_integerfield_raises_error_on_empty_input()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- **.test_integerfield_raises_error_on_invalid_intput()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- **.test_integerfield_validates_zero_against_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- **.test_nullable_integerfield_cleans_none_on_null_and_blank_true()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- **.test_nullable_integerfield_raises_error_with_blank_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **DecimalField** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **FloatField** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.check()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.as_sqlite()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **.as_postgresql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
+- **._resolve_output_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
+- **._check_decimal_places()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **._check_decimal_places_and_max_digits()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **._check_max_digits()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_db_prep_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.context()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.validators()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 
 ## Relationships
 
-- [Community 328](Community_328.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 6](Community_6.md) (6 shared connections)
+- [Community 530](Community_530.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 120](Community_120.md) (2 shared connections)
+- [Community 48](Community_48.md) (2 shared connections)
+- [Community 710](Community_710.md) (2 shared connections)
+- [Community 40](Community_40.md) (2 shared connections)
+- [Community 850](Community_850.md) (2 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 630](Community_630.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 41 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

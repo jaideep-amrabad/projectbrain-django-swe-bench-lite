@@ -1,27 +1,30 @@
 # Community 1033
 
-> 4 nodes · cohesion 0.83
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **SqliteDbshellCommandTestCase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
-- **.settings_to_cmd_args_env()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
-- **.test_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
-- **.test_path_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
+- **NKChild** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Parent** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
 
 ## Relationships
 
-- [Community 43](Community_43.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 339](Community_339.md) (6 shared connections)
+- [Community 184](Community_184.md) (2 shared connections)
+- [Community 364](Community_364.md) (1 shared connections)
+- [Community 591](Community_591.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 11 (79%)
+- INFERRED: 3 (21%)
 - AMBIGUOUS: 0 (0%)
 
 ---

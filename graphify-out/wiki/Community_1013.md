@@ -1,61 +1,32 @@
 # Community 1013
 
-> 36 nodes · cohesion 0.07
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **BulkUpdateTests** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **queries/test_bulk_update.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **Number** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Article** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Order** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Queries2Tests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Detail** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Individual** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Valid** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **JSONFieldNullable** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Member** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **TestTicket24605** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **CustomDbColumn** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.test_json_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_field_references()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_ticket4289()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.test_booleanfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_custom_db_columns()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_custom_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_datetime_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_empty_objects()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_falsey_pk_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- *... and 11 more nodes in this community*
+- **_user_has_module_perms()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **_user_has_perm()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.has_module_perms()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.has_perm()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.has_module_perms()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **A backend can raise `PermissionDenied` to short-circuit permission checking.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **Return True if the user has the specified permission. Query all available auth…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **Return True if the user has any permissions in the given app label. Use similar…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
 
 ## Relationships
 
-- [Community 15](Community_15.md) (24 shared connections)
-- [Community 273](Community_273.md) (9 shared connections)
-- [Community 2](Community_2.md) (6 shared connections)
-- [Community 114](Community_114.md) (5 shared connections)
-- [Community 262](Community_262.md) (4 shared connections)
-- [Community 21](Community_21.md) (3 shared connections)
-- [Community 10](Community_10.md) (2 shared connections)
-- [Community 336](Community_336.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 52](Community_52.md) (2 shared connections)
-- [Community 23](Community_23.md) (2 shared connections)
-- [Community 54](Community_54.md) (2 shared connections)
+- [Community 128](Community_128.md) (2 shared connections)
+- [Community 56](Community_56.md) (2 shared connections)
+- [Community 71](Community_71.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 83 (71%)
-- INFERRED: 34 (29%)
+- EXTRACTED: 13 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

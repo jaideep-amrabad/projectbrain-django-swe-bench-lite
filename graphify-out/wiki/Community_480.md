@@ -1,62 +1,48 @@
 # Community 480
 
-> 68 nodes · cohesion 0.06
+> 22 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **generic_relations/tests.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
-- **generic_relations/models.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- **GenericInlineFormsetTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **generic_relations/test_forms.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- **generic_inlineformset_factory()** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/forms.py`
-- **TaggedItem** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- **ProxyRelatedModelTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
-- **ForProxyModelModel** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- **Mineral** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- **Animal** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- **Comparison** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- **ProxyRelatedModel** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- **Vegetable** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- **AllowsNullGFK** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- **ConcreteRelatedModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- **ForConcreteModelModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- **Gecko** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- **Rock** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- **ValuableRock** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- **TestInitWithNoneArgument** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
-- **Carrot** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- **ManualPK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- **ValuableTaggedItem** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- **AbstractComparison** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- **.test_get_queryset_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- *... and 43 more nodes in this community*
+- **.get_new_connection()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **none_guard()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **_sqlite_datetime_parse()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **_sqlite_format_dtdelta()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **typecast_timestamp()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **_sqlite_time_diff()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **_sqlite_time_trunc()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **typecast_time()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **list_aggregate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **_sqlite_date_trunc()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **_sqlite_datetime_cast_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **_sqlite_datetime_cast_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **_sqlite_datetime_extract()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **_sqlite_datetime_trunc()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **_sqlite_lpad()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **_sqlite_regexp()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **_sqlite_rpad()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **_sqlite_time_extract()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **typecast_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **Decorator that returns None if any of the arguments to the decorated function…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **LHS and RHS can be either: - An integer number of microseconds - A string…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **Return an aggregate class that accumulates values in a list and applies the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (16 shared connections)
-- [Community 80](Community_80.md) (15 shared connections)
-- [Community 132](Community_132.md) (14 shared connections)
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 170](Community_170.md) (2 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 237](Community_237.md) (1 shared connections)
-- [Community 107](Community_107.md) (1 shared connections)
-- [Community 72](Community_72.md) (1 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
-- [Community 54](Community_54.md) (1 shared connections)
+- [Community 12](Community_12.md) (19 shared connections)
+- [Community 660](Community_660.md) (3 shared connections)
+- [Community 76](Community_76.md) (1 shared connections)
+- [Community 431](Community_431.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_relations/test_forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 163 (82%)
-- INFERRED: 36 (18%)
+- EXTRACTED: 45 (78%)
+- INFERRED: 13 (22%)
 - AMBIGUOUS: 0 (0%)
 
 ---

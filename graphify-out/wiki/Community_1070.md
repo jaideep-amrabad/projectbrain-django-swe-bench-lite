@@ -1,24 +1,26 @@
 # Community 1070
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.default_units()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **Return the unit value and the default units specified from the given keyword…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- **._perform_cull_test()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_cull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_zero_cull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_zero_cull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Relationships
 
-- [Community 495](Community_495.md) (2 shared connections)
+- [Community 278](Community_278.md) (3 shared connections)
+- [Community 854](Community_854.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

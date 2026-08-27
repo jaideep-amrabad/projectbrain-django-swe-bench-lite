@@ -1,26 +1,28 @@
 # Community 1051
 
-> 4 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **.test_delete_str_in_model_admin()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **.test_cascade_delete_proxy_model_admin_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **Test if admin gives warning about cascade deleting models referenced to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **Test if the admin delete page shows the correct string representation for a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **UTF8Class** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
+- **.test_filter_syntax18()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
+- **Strings are converted to bytestrings in the final output.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
+- **Class whose __str__ returns non-ASCII data** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
 
 ## Relationships
 
-- [Community 491](Community_491.md) (2 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 244](Community_244.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

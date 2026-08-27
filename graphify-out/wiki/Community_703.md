@@ -1,46 +1,39 @@
 # Community 703
 
-> 14 nodes · cohesion 0.18
+> 13 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **Reporter** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/models.py`
-- **AtomicErrorsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **NonAutocommitTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_atomic_allows_queries_after_fixing_transaction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_orm_query_after_error_and_rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_atomic_prevents_queries_in_broken_transaction()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_atomic_prevents_queries_in_broken_transaction_after_client_close()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_orm_query_without_autocommit()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/models.py`
-- **.test_atomic_prevents_calling_transaction_methods()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_atomic_prevents_setting_autocommit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **ORM queries are allowed after an error and a rollback in non-autocommit mode…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **#24921 -- ORM queries must be possible after set_autocommit(False).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **DatabaseSchemaEditor** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
+- **._create_like_index_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
+- **._alter_column_type_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
+- **._alter_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
+- **._field_base_data_types()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
+- **._field_data_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
+- **._create_index_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
+- **._delete_index_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
+- **._field_indexes_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
+- **.add_index()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
+- **.quote_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
+- **.remove_index()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
+- **Return the statement to create an index with varchar operator pattern when the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 21](Community_21.md) (2 shared connections)
-- [Community 20](Community_20.md) (2 shared connections)
-- [Community 1063](Community_1063.md) (1 shared connections)
-- [Community 951](Community_951.md) (1 shared connections)
-- [Community 1023](Community_1023.md) (1 shared connections)
-- [Community 514](Community_514.md) (1 shared connections)
-- [Community 989](Community_989.md) (1 shared connections)
-- [Community 1024](Community_1024.md) (1 shared connections)
-- [Community 167](Community_167.md) (1 shared connections)
+- [Community 660](Community_660.md) (3 shared connections)
+- [Community 536](Community_536.md) (2 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
+- [Community 296](Community_296.md) (1 shared connections)
+- [Community 292](Community_292.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/transactions/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (74%)
-- INFERRED: 8 (26%)
+- EXTRACTED: 25 (93%)
+- INFERRED: 2 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

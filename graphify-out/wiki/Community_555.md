@@ -1,62 +1,49 @@
 # Community 555
 
-> 27 nodes · cohesion 0.13
+> 18 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **test_autocomplete_widget.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **AutocompleteMixinTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **AutocompleteSelect** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **Album** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
-- **RelatedFieldWidgetWrapperTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **AlbumForm** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **NotRequiredBandForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **RequiredBandForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **.test_render_options_not_required_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **.test_render_options_required_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **.test_build_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **.test_build_attrs_no_custom_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **.test_build_attrs_not_required_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **.test_build_attrs_required_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **.test_get_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **.test_media()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **.test_render_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **Empty option is present if the field isn't required.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **.test_custom_widget_render()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_no_can_add_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_on_delete_cascade_rel_cant_delete_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_select_multiple_widget_cant_change_delete_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_widget_delegates_value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- *... and 2 more nodes in this community*
+- **InlineModelAdminChecks** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **.check()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **_get_foreign_key()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **._check_exclude_of_parent_model()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_formset()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **GenericInlineModelAdminChecks** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
+- **._check_extra()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_max_num()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_min_num()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_relation()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **.test_foreign_keys_in_parents()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **Check that extra is an integer.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **Check that max_num is an integer.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **Check that min_num is an integer.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **Check formset is a subclass of BaseModelFormSet.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_exclude_of_parent_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
+- **._check_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
+- **Find and return the ForeignKey from model to parent if there is one (return…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 
 ## Relationships
 
-- [Community 280](Community_280.md) (9 shared connections)
-- [Community 94](Community_94.md) (3 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 72](Community_72.md) (3 shared connections)
-- [Community 18](Community_18.md) (2 shared connections)
-- [Community 145](Community_145.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 36](Community_36.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
-- [Community 373](Community_373.md) (1 shared connections)
-- [Community 107](Community_107.md) (1 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 193](Community_193.md) (5 shared connections)
+- [Community 256](Community_256.md) (3 shared connections)
+- [Community 111](Community_111.md) (2 shared connections)
+- [Community 171](Community_171.md) (1 shared connections)
+- [Community 122](Community_122.md) (1 shared connections)
+- [Community 145](Community_145.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 60 (80%)
-- INFERRED: 15 (20%)
+- EXTRACTED: 42 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

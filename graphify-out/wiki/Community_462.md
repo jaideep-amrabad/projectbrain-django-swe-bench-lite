@@ -1,37 +1,54 @@
 # Community 462
 
-> 10 nodes · cohesion 0.31
+> 23 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **check_finders()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/checks.py`
-- **FindersCheckTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
-- **.test_check_finders()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
-- **.test_dirs_contains_static_root()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
-- **.test_dirs_contains_static_root_in_tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
-- **.test_dirs_not_tuple_or_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
-- **.test_prefix_contains_trailing_slash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
-- **.test_no_errors_with_test_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
-- **Check all registered staticfiles finders.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/checks.py`
-- **check_finders() concatenates all errors.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
+- **clean_ipv6_address()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
+- **GenericIPAddressField** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **is_valid_ipv6_address()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
+- **TestUtilsIPv6** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **test_ipv6.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_prep_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **._check_blank_and_null_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_db_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.test_cleans_plain_address()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **.test_cleans_with_v4_mapping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **.test_unpacks_ipv4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **.test_validates_correct_plain_address()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **.test_validates_correct_with_v4mapping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **.test_validates_incorrect_plain_address()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **.test_validates_incorrect_with_v4mapping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **Return whether or not the `ip_str` string is a valid IPv6 address.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
+- **Clean an IPv6 address string. Raise ValidationError if the address is invalid.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (6 shared connections)
-- [Community 7](Community_7.md) (4 shared connections)
-- [Community 540](Community_540.md) (2 shared connections)
-- [Community 69](Community_69.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 1](Community_1.md) (7 shared connections)
+- [Community 48](Community_48.md) (2 shared connections)
+- [Community 530](Community_530.md) (2 shared connections)
+- [Community 274](Community_274.md) (2 shared connections)
+- [Community 120](Community_120.md) (1 shared connections)
+- [Community 630](Community_630.md) (1 shared connections)
+- [Community 710](Community_710.md) (1 shared connections)
+- [Community 85](Community_85.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/checks.py`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (89%)
-- INFERRED: 3 (11%)
+- EXTRACTED: 48 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

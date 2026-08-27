@@ -1,58 +1,59 @@
 # Community 617
 
-> 21 nodes · cohesion 0.14
+> 24 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **hashers.py** (42 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **test_hashers.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **PBKDF2PasswordHasher** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **pbkdf2()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- **BCryptPasswordHasher** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **PBKDF2SHA1PasswordHasher** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **get_hashers()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **TestUtilsCryptoPBKDF2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- **get_hashers_by_algorithm()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **gettext_noop()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **PBKDF2SingleIterationHasher** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_low_level_pbkdf2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_default_hmac_alg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- **.test_public_vectors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- **.test_regression_vectors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- **.decode()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Secure password hashing using the PBKDF2 algorithm (recommended) Configured to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Alternate PBKDF2 hasher which uses SHA1, the default PRF recommended by PKCS…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Secure password hashing using the bcrypt algorithm This is considered by many…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Return the hash of password using pbkdf2.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
+- **geogapp/tests.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **gis/db/__init__.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/__init__.py`
+- **GeographyFunctionTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **GeographyTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **geogapp/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- **City** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- **County** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- **NamedModel** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- **Zipcode** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- **.test_cast_aggregate()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **.test_distance_function()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- **.test02_distance_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **.test05_geography_layermapping()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **.test01_fixture_load()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **.test04_invalid_operators_functions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **Testing distance lookup support on non-point geography fields.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- **Tests for geography support in PostGIS** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **Ensure geography features loaded properly.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **Ensuring exceptions are raised for operators & functions invalid on geography…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **Testing LayerMapping support on models with geography fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **Cast a geography to a geometry field for an aggregate function that expects a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
 
 ## Relationships
 
-- [Community 174](Community_174.md) (20 shared connections)
-- [Community 52](Community_52.md) (8 shared connections)
-- [Community 87](Community_87.md) (7 shared connections)
-- [Community 603](Community_603.md) (5 shared connections)
-- [Community 3](Community_3.md) (4 shared connections)
-- [Community 351](Community_351.md) (4 shared connections)
-- [Community 466](Community_466.md) (4 shared connections)
-- [Community 717](Community_717.md) (4 shared connections)
-- [Community 39](Community_39.md) (3 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 72](Community_72.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
+- [Community 70](Community_70.md) (12 shared connections)
+- [Community 75](Community_75.md) (6 shared connections)
+- [Community 5](Community_5.md) (4 shared connections)
+- [Community 6](Community_6.md) (4 shared connections)
+- [Community 37](Community_37.md) (3 shared connections)
+- [Community 905](Community_905.md) (3 shared connections)
+- [Community 57](Community_57.md) (2 shared connections)
+- [Community 850](Community_850.md) (2 shared connections)
+- [Community 344](Community_344.md) (1 shared connections)
+- [Community 631](Community_631.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
+- [Community 677](Community_677.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 96 (97%)
-- INFERRED: 3 (3%)
+- EXTRACTED: 78 (92%)
+- INFERRED: 7 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

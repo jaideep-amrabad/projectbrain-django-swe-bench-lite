@@ -1,54 +1,60 @@
 # Community 488
 
-> 23 nodes · cohesion 0.21
+> 32 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **FallbackTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **set_cookie_data()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **.get_session_storage()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **set_session_data()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
-- **.stored_session_messages_count()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_flush_used_backends()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.get_cookie_storage()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.get_request()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.stored_cookie_messages_count()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_get_fallback()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_get_fallback_only()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_get()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_no_fallback()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_session_fallback()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_session_fallback_only()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.stored_messages_count()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_get_empty()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **Set ``request.COOKIES`` with the encoded data and remove the storage backend's…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **(1) A short number of messages whose data size doesn't exceed what is allowed…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **If the data exceeds what is allowed in a cookie, messages which did not fit are…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **Large messages, none of which fit in a cookie, are stored in the SessionBackend…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **Return the storage totals from both cookie and session backends.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **Sets the messages into the backend request's session and remove the backend's…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **Combinable** (40 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **._combine()** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **CombinableTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **.conditional()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__and__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__or__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__add__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.bitand()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.bitleftshift()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.bitor()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.bitrightshift()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.bitxor()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__mod__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__mul__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__neg__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__pow__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__radd__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__rmod__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__rmul__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__rpow__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__rsub__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__rtruediv__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__sub__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__truediv__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.test_and()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 302](Community_302.md) (5 shared connections)
-- [Community 428](Community_428.md) (2 shared connections)
-- [Community 802](Community_802.md) (2 shared connections)
-- [Community 959](Community_959.md) (2 shared connections)
-- [Community 516](Community_516.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 259](Community_259.md) (1 shared connections)
-- [Community 539](Community_539.md) (1 shared connections)
+- [Community 39](Community_39.md) (6 shared connections)
+- [Community 17](Community_17.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 132](Community_132.md) (1 shared connections)
+- [Community 97](Community_97.md) (1 shared connections)
+- [Community 172](Community_172.md) (1 shared connections)
+- [Community 159](Community_159.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
+- [Community 193](Community_193.md) (1 shared connections)
+- [Community 459](Community_459.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 66 (97%)
-- INFERRED: 2 (3%)
+- EXTRACTED: 65 (86%)
+- INFERRED: 11 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

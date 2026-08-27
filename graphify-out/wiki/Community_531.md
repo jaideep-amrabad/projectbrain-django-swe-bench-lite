@@ -1,50 +1,46 @@
 # Community 531
 
-> 22 nodes · cohesion 0.14
+> 18 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **ModelFormBasicTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **ArticleForm** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **BaseCategoryForm** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.create_basic_data()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_m2m_initial_callable()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_initial_values()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_m2m_editing()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_multi_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_runtime_choicefield_populated()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_modelform_non_editable_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_disabled_multiplemodelchoicefield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_auto_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_base_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_basic_creation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_save_commit_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_save_with_data_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_custom_form_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_subset_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_validate_foreign_key_to_model_with_overridden_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_validate_foreign_key_uses_default_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Regression for #10349: A callable can be provided as the initial value for an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **When explicitly including a non-editable field in a ModelForm, the error…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **TestUtils** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- **parse_rst()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
+- **admin_docs/test_utils.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- **parse_docstring()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
+- **.test_parse_rst_with_docstring_no_leading_line_feed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- **.test_description_output()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- **.test_parse_rst()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- **.test_title_output()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- **.test_initial_header_level()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- **.test_parse_docstring()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- **.test_publish_parts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- **Parse out the parts of a docstring. Return (title, body, metadata).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
+- **Convert the string from reST to an XHTML fragment.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
+- **skipUnless** (1 connections)
+- **Django shouldn't break the default role for interpreted text when…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- **This __doc__ output is required for testing. I copied this example from…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- **parse_rst() should use `cmsreference` as the default role.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
 
 ## Relationships
 
-- [Community 130](Community_130.md) (14 shared connections)
-- [Community 490](Community_490.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 128](Community_128.md) (1 shared connections)
-- [Community 358](Community_358.md) (1 shared connections)
-- [Community 157](Community_157.md) (1 shared connections)
+- [Community 186](Community_186.md) (3 shared connections)
+- [Community 71](Community_71.md) (3 shared connections)
+- [Community 151](Community_151.md) (2 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (87%)
-- INFERRED: 7 (13%)
+- EXTRACTED: 37 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

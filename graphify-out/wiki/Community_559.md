@@ -1,42 +1,45 @@
 # Community 559
 
-> 19 nodes · cohesion 0.18
+> 18 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **DatabaseSchemaEditor** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._alter_field_type_workaround()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **.normalize_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **.alter_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._drop_identity()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._generate_temp_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._is_identity_column()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **.remove_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._alter_column_type_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._get_default_collation()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._alter_column_collation_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **.prepare_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **.quote_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **.delete_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._field_should_be_indexed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._unique_should_be_added()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **Get the properly shortened and uppercased identifier as returned by…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **Generate temporary names for workarounds that need temp columns.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **Oracle refuses to change from some type to other type. What we need to do…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **get_object_or_404/tests.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
+- **get_list_or_404()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
+- **get_object_or_404/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
+- **GetObjectOr404Tests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
+- **Article** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
+- **Author** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
+- **.test_bad_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
+- **.test_get_list_or_404_queryset_attribute_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
+- **.test_get_object_or_404()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
+- **.test_get_object_or_404_queryset_attribute_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
+- **ArticleManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
+- **AttributeErrorManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
+- **Use filter() to return a list of objects, or raise a Http404 exception if the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
+- **DB-API Shortcuts ``get_object_or_404()`` is a shortcut function to be used in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
+- **AttributeError raised by QuerySet.filter() isn't hidden.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
+- **AttributeError raised by QuerySet.get() isn't hidden.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
 
 ## Relationships
 
-- [Community 43](Community_43.md) (4 shared connections)
-- [Community 173](Community_173.md) (1 shared connections)
-- [Community 112](Community_112.md) (1 shared connections)
+- [Community 71](Community_71.md) (5 shared connections)
+- [Community 4](Community_4.md) (5 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
+- `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (95%)
+- EXTRACTED: 38 (95%)
 - INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 

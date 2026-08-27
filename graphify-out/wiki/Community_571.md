@@ -1,50 +1,50 @@
 # Community 571
 
-> 19 nodes · cohesion 0.19
+> 20 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **one_to_one/models.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **one_to_one/tests.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **MultiModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **Director** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **ManualPrimaryKey** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **RelatedModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **School** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **Waiter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **.test_multiple_o2o()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **Bar** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **HiddenPointer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **Pointer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **Target** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **ToFieldPointer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **.test_hasattr_related_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **Pointer2** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **One-to-one relationships To define a one-to-one relationship, use…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **OtherModelFormTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Inventory** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **Character** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **ModelFormWithMedia** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **CustomFieldForExclusionForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **InventoryForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_foreignkeys_which_use_to_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.__str__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **.test_choices_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **SelectInventoryForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.__repr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **.__repr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **.test_media_on_modelform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_model_field_that_returns_none_to_exclude_itself_with_explicit_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_prefetch_related_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **Media** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_callable_field_default()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_iterable_model_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **ModelChoiceField should respect a prefetch_related() on its queryset.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Relationships
 
-- [Community 398](Community_398.md) (14 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 667](Community_667.md) (4 shared connections)
-- [Community 1047](Community_1047.md) (2 shared connections)
-- [Community 1048](Community_1048.md) (2 shared connections)
-- [Community 1084](Community_1084.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 32](Community_32.md) (1 shared connections)
+- [Community 92](Community_92.md) (16 shared connections)
+- [Community 518](Community_518.md) (3 shared connections)
+- [Community 334](Community_334.md) (2 shared connections)
+- [Community 447](Community_447.md) (1 shared connections)
+- [Community 251](Community_251.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 495](Community_495.md) (1 shared connections)
+- [Community 676](Community_676.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (83%)
-- INFERRED: 11 (17%)
+- EXTRACTED: 36 (77%)
+- INFERRED: 11 (23%)
 - AMBIGUOUS: 0 (0%)
 
 ---

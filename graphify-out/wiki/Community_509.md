@@ -1,61 +1,65 @@
 # Community 509
 
-> 24 nodes · cohesion 0.12
+> 47 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **BaseHandler** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- **.get_response()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- **set_urlconf()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
-- **.get_response_async()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- **.resolve_request()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- **async_to_sync** (5 connections)
-- **.adapt_method_mode()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- **.check_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- **.make_view_atomic()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- **_non_atomic_requests()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **.test_sync_to_async_uses_base_thread_and_connection()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_middleware_mixin.py`
-- **.process_exception_by_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- **reset_urlconf()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- **not_in_transaction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
-- **Resolve and call the view, then apply view, exception, and template_response…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- **Adapt a method to be in the correct "mode": - If is_async is False: -…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- **Return an HttpResponse object for the given HttpRequest.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- **Asynchronous version of get_response. Funneling everything, including WSGI,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- **Retrieve/set the urlconf for the request. Return the view resolved, with its…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- **Raise an error if the view returned None or an uncalled coroutine.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- **Pass the exception to the exception middleware. If no middleware return a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- **Reset the URLconf after each request is finished.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- **Set the URLconf for the current thread (overriding the default one in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
-- **The process_request() and process_response() hooks must be called with the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_middleware_mixin.py`
+- **ModelBackend** (32 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **backends.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **BaseBackend** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **CustomUser** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/models.py`
+- **test_client_regress/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/models.py`
+- **test_client_regress/auth_backends.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/auth_backends.py`
+- **CustomUserBackend** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/auth_backends.py`
+- **.user_can_authenticate()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **._get_group_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **._get_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **SimpleBackend** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **test_client/auth_backends.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/auth_backends.py`
+- **AllowAllUsersModelBackend** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **AllowAllUsersRemoteUserBackend** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **.get_all_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **.get_all_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **._get_user_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **.has_module_perms()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **.user_can_authenticate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **ImportedModelBackend** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **CustomModelBackend** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.get_group_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **.get_user_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **.has_perm()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **.authenticate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- *... and 22 more nodes in this community*
 
 ## Relationships
 
-- [Community 3](Community_3.md) (5 shared connections)
-- [Community 150](Community_150.md) (2 shared connections)
-- [Community 19](Community_19.md) (2 shared connections)
-- [Community 112](Community_112.md) (2 shared connections)
-- [Community 39](Community_39.md) (2 shared connections)
-- [Community 29](Community_29.md) (2 shared connections)
-- [Community 43](Community_43.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
-- [Community 508](Community_508.md) (1 shared connections)
-- [Community 32](Community_32.md) (1 shared connections)
-- [Community 213](Community_213.md) (1 shared connections)
+- [Community 4](Community_4.md) (12 shared connections)
+- [Community 71](Community_71.md) (4 shared connections)
+- [Community 576](Community_576.md) (4 shared connections)
+- [Community 65](Community_65.md) (3 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 46](Community_46.md) (3 shared connections)
+- [Community 207](Community_207.md) (3 shared connections)
+- [Community 484](Community_484.md) (3 shared connections)
+- [Community 347](Community_347.md) (2 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 101](Community_101.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- `raw/code/hyd-evaluation/django-django/django/urls/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_middleware_mixin.py`
-- `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/backend_alias.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/auth_backends.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/auth_backends.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (85%)
-- INFERRED: 9 (15%)
+- EXTRACTED: 102 (95%)
+- INFERRED: 5 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,52 +1,55 @@
 # Community 250
 
-> 45 nodes · cohesion 0.10
+> 56 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **SelectRelatedRegressTests** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
-- **select_related_regress/models.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **select_related_regress/tests.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
-- **Base** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Class** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **A** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **B** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **C** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Chick** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Client** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Hen** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Item** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Port** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **SpecialClient** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Building** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **ClientStatus** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Connection** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Country** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Device** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Enrollment** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Fowl** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Organizer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Person** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **State** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- *... and 20 more nodes in this community*
+- **UniqueConstraintTests** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **constraints/tests.py** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **CheckConstraintTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **constraints/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
+- **Meta** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
+- **UniqueConstraintProduct** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
+- **UniqueConstraintConditionProduct** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
+- **ChildModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
+- **Product** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
+- **UniqueConstraintDeferrable** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
+- **UniqueConstraintInclude** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
+- **get_constraints()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_model_validation_with_condition()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **AbstractModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
+- **.test_abstract_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_database_constraint()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_database_constraint_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_database_constraint_expressionwrapper()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_database_constraint_unicode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_database_constraint_with_condition()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_include_database_constraint()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_initially_deferred_database_constraint()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- **.test_initially_immediate_database_constraint()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
+- *... and 31 more nodes in this community*
 
 ## Relationships
 
+- [Community 70](Community_70.md) (12 shared connections)
+- [Community 5](Community_5.md) (6 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 97](Community_97.md) (2 shared connections)
 - [Community 0](Community_0.md) (2 shared connections)
-- [Community 178](Community_178.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 78 (76%)
-- INFERRED: 24 (24%)
+- EXTRACTED: 101 (94%)
+- INFERRED: 6 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

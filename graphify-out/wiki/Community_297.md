@@ -1,61 +1,54 @@
 # Community 297
 
-> 35 nodes · cohesion 0.10
+> 37 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **gis/forms/fields.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **gis/forms/__init__.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/__init__.py`
-- **gis/forms/widgets.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
-- **GeometryField** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **BaseGeometryWidget** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
-- **OpenLayersWidget** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
-- **.to_python()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **OSMWidget** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
-- **.media()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
-- **GeometryCollectionField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **.has_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **LineStringField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **MultiLineStringField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **MultiPointField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **MultiPolygonField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **PointField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **PolygonField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
-- **.deserialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
-- **Media** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
-- **.deserialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
-- **.serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
-- **Injects OpenLayers JavaScript into the admin.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- *... and 10 more nodes in this community*
+- **ClearableFileInputTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- **ClearableFileInput** (15 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **FakeFieldFile** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- **.clear_checkbox_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.get_context()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.is_initial()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.value_from_datadict()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.test_clear_input_checked_returns_false_only_if_not_required()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- **.test_clear_input_renders_only_if_not_required()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- **.test_render_as_subwidget()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- **.clear_checkbox_id()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.format_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.value_omitted_from_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.test_clear_input_renders()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- **.test_html_escaped()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- **.test_clear_input_checked_returns_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- **.test_clear_input_renders_only_if_initial()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- **.test_html_does_not_mask_exceptions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- **.test_render_disabled()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- **.test_value_omitted_from_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- **Given the name of the file input, return the name of the clear checkbox input.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **Given the name of the clear checkbox input, return the HTML id for it.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **Return whether value is considered to be initial value.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **Return the file object if it has a defined url attribute.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.test_return_false_if_url_does_not_exists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 42](Community_42.md) (9 shared connections)
-- [Community 72](Community_72.md) (8 shared connections)
-- [Community 45](Community_45.md) (4 shared connections)
-- [Community 46](Community_46.md) (4 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
-- [Community 107](Community_107.md) (1 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
-- [Community 82](Community_82.md) (1 shared connections)
-- [Community 126](Community_126.md) (1 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 152](Community_152.md) (4 shared connections)
+- [Community 127](Community_127.md) (3 shared connections)
 - [Community 3](Community_3.md) (1 shared connections)
-- [Community 50](Community_50.md) (1 shared connections)
+- [Community 433](Community_433.md) (1 shared connections)
+- [Community 231](Community_231.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
 
 ## Audit Trail
 
-- EXTRACTED: 90 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 55 (87%)
+- INFERRED: 8 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

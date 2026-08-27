@@ -1,34 +1,35 @@
 # Community 796
 
-> 11 nodes · cohesion 0.33
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **MySqlDbshellCommandTestCase** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
-- **.settings_to_cmd_args_env()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
-- **.test_basic_params_specified_in_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
-- **.test_can_connect_using_sockets()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
-- **.test_fails_with_keyerror_on_incomplete_config()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
-- **.test_options_charset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
-- **.test_options_override_settings_proper_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
-- **.test_options_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
-- **.test_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
-- **.test_ssl_certificate_is_added()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
-- **.test_crash_password_does_not_leak()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
+- **EggLoader** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **CustomLoader** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_deep_loader()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_shallow_loader()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **Modules deep inside an egg can still be tested for existence** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **The Custom Loader test is exactly the same as the EggLoader, but it uses a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **Module existence can be tested inside eggs** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
 
 ## Relationships
 
-- [Community 43](Community_43.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 330](Community_330.md) (2 shared connections)
+- [Community 26](Community_26.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 16 (89%)
+- INFERRED: 2 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

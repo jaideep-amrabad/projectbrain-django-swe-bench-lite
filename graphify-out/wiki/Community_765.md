@@ -1,39 +1,34 @@
 # Community 765
 
-> 12 nodes · cohesion 0.35
+> 11 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **null_queries/tests.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/tests.py`
-- **NullQueriesTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/tests.py`
-- **null_queries/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/models.py`
-- **Choice** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/models.py`
-- **Poll** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/models.py`
-- **.test_none_as_null()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/tests.py`
-- **Inner** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/models.py`
-- **OuterA** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/models.py`
-- **OuterB** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/models.py`
-- **.test_reverse_relations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/tests.py`
-- **Regression test for the use of None as a query value. None is interpreted as an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/tests.py`
-- **Querying across reverse relations and then another relation should insert outer…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/tests.py`
+- **RelatedFieldWidgetWrapper** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.get_related_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.get_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **This class is a wrapper to a given widget to add the add icon for the admin…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.__deepcopy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.id_for_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.is_hidden()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.media()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.value_from_datadict()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/null_queries/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/null_queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (83%)
-- INFERRED: 5 (17%)
+- EXTRACTED: 13 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

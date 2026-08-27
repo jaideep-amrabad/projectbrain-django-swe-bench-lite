@@ -1,61 +1,56 @@
 # Community 118
 
-> 78 nodes · cohesion 0.04
+> 73 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **.check()** (109 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **ConstraintsTests** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **IndexesTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **IndexTogetherTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **UniqueTogetherTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **SelfReferentialM2MClashTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **JSONFieldTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **SelfReferentialFKClashTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_check_constraint_pointing_to_joined_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_check_constraint_pointing_to_joined_fields_complex_check()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_check_constraint_pointing_to_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_check_constraint_pointing_to_m2m_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_check_constraint_pointing_to_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_check_constraint_pointing_to_reverse_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_check_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_deferrable_unique_constraint()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_unique_constraint_include_pointing_to_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_unique_constraint_include_pointing_to_m2m_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_unique_constraint_include_pointing_to_missing_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_unique_constraint_with_condition()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_unique_constraint_with_include()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_func_index_complex_expression_custom_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_func_index_pointing_to_m2m_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_func_index_pointing_to_missing_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_func_index_required_db_features()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- *... and 53 more nodes in this community*
+- **model_inheritance/tests.py** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **ModelInheritanceTests** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **model_inheritance/models.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **ModelInheritanceDataTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **Restaurant** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **GrandChild** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Place** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **CommonInfo** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Meta** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **InheritanceUniqueTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **GrandParent** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **ItalianRestaurant** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **MixinModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Parent** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Student** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Supplier** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Attachment** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Base** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **ParkingLot** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **SubBase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Worker** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **InheritanceSameModelNameTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **Chef** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Child** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Mixin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- *... and 48 more nodes in this community*
 
 ## Relationships
 
-- [Community 97](Community_97.md) (19 shared connections)
-- [Community 2](Community_2.md) (18 shared connections)
-- [Community 21](Community_21.md) (16 shared connections)
-- [Community 350](Community_350.md) (14 shared connections)
-- [Community 13](Community_13.md) (12 shared connections)
-- [Community 403](Community_403.md) (10 shared connections)
-- [Community 838](Community_838.md) (4 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 798](Community_798.md) (3 shared connections)
-- [Community 906](Community_906.md) (1 shared connections)
-- [Community 693](Community_693.md) (1 shared connections)
-- [Community 308](Community_308.md) (1 shared connections)
+- [Community 6](Community_6.md) (5 shared connections)
+- [Community 74](Community_74.md) (5 shared connections)
+- [Community 5](Community_5.md) (4 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 103](Community_103.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 159](Community_159.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 232 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 138 (85%)
+- INFERRED: 24 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

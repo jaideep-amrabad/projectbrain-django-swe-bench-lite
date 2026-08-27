@@ -1,27 +1,32 @@
 # Community 1001
 
-> 5 nodes · cohesion 0.40
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **FormsetAsTagTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_as_p()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_as_table()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_as_ul()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **start_django()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **get_child_arguments()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **run_with_reloader()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **ensure_echo_on()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **restart_with_reloader()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **check_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **RuntimeError** (2 connections)
+- **Return the executable. This contains a workaround for Windows if the executable…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **Ensure that echo mode is enabled. Some tools such as PDB disable it which…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
 
 ## Relationships
 
-- [Community 50](Community_50.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 35](Community_35.md) (6 shared connections)
+- [Community 238](Community_238.md) (2 shared connections)
+- [Community 412](Community_412.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 17 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

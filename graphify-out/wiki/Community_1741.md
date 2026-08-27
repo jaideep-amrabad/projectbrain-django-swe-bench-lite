@@ -1,24 +1,25 @@
 # Community 1741
 
-> 2 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.test_formset_validate_max_flag()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **If validate_max is set and max_num is less than TOTAL_FORMS in the data, a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **WriteToStdoutStderrTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/buffer/tests_buffer.py`
+- **tests_buffer.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/buffer/tests_buffer.py`
+- **.test_fail()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/buffer/tests_buffer.py`
+- **.test_pass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/buffer/tests_buffer.py`
 
 ## Relationships
 
-- [Community 105](Community_105.md) (1 shared connections)
-- [Community 1152](Community_1152.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/buffer/tests_buffer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

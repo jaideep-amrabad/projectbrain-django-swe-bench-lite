@@ -1,41 +1,36 @@
 # Community 730
 
-> 13 nodes · cohesion 0.15
+> 13 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **AreaTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
-- **.test_init()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
-- **.test_init()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
-- **.test_multiplication()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
-- **.test_units_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
-- **.test_multiplication()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
-- **.test_units_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
-- **Testing conversion to strings** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
-- **Testing initialization from valid units** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
-- **Test multiplication & division** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
-- **.test_comparisons()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
-- **.test_hash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
-- **Testing the Area object** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- **StaticTagTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
+- **setup** (11 connections)
+- **.test_static_prefixtag01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
+- **.test_static_prefixtag02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
+- **.test_static_prefixtag03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
+- **.test_static_prefixtag04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
+- **.test_static_prefixtag_without_as()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
+- **.test_static_quotes_urls()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
+- **.test_static_statictag01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
+- **.test_static_statictag02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
+- **.test_static_statictag03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
+- **.test_static_statictag04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
+- **.test_static_statictag_without_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
 
 ## Relationships
 
-- [Community 731](Community_731.md) (5 shared connections)
-- [Community 82](Community_82.md) (2 shared connections)
-- [Community 1039](Community_1039.md) (1 shared connections)
-- [Community 1079](Community_1079.md) (1 shared connections)
-- [Community 1078](Community_1078.md) (1 shared connections)
-- [Community 1080](Community_1080.md) (1 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_measure.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 25 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

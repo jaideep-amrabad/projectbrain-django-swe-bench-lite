@@ -1,66 +1,59 @@
 # Community 67
 
-> 114 nodes · cohesion 0.04
+> 100 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **django/db/models/lookups.py** (80 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **test_query.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_query.py`
-- **lookup/tests.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **related_lookups.py** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_lookups.py`
-- **lookup/models.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **BuiltinLookup** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.process_rhs()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **Exact** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **YearLookup** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **In** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **UUIDTextMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **test_lookups.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_lookups.py`
-- **RelatedLookupMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_lookups.py`
-- **FieldGetDbPrepValueMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.as_sql()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **FieldGetDbPrepValueIterableMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **IsNull** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **LessThan** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **.rhs_is_direct_value()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **DecimalFieldLookupTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_decimalfield.py`
-- **GreaterThan** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **GreaterThanOrEqual** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **lookup/test_decimalfield.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_decimalfield.py`
-- **.process_lhs()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- **LessThanOrEqual** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- *... and 89 more nodes in this community*
+- **SpatialReference** (81 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **SpatialRefTest** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- **.attr_value()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **.import_user_input()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **.import_wkt()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **.test12_coordtransform()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- **.test_axis_order()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- **._get_srs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **._set_srs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.auth_code()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **.auth_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **.import_epsg()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **.srid()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **.units()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **.xml()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **.test01_wkt()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- **.test02_bad_wkt()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- **.test03_get_wkt()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- **.test04_proj()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- **.test07_boolean_props()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- **.test08_angular_linear()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- **.test09_authority()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- *... and 75 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (43 shared connections)
-- [Community 0](Community_0.md) (18 shared connections)
-- [Community 71](Community_71.md) (14 shared connections)
-- [Community 334](Community_334.md) (13 shared connections)
-- [Community 369](Community_369.md) (11 shared connections)
-- [Community 10](Community_10.md) (10 shared connections)
-- [Community 560](Community_560.md) (9 shared connections)
-- [Community 40](Community_40.md) (9 shared connections)
-- [Community 1](Community_1.md) (8 shared connections)
-- [Community 37](Community_37.md) (6 shared connections)
-- [Community 61](Community_61.md) (5 shared connections)
-- [Community 24](Community_24.md) (4 shared connections)
+- [Community 105](Community_105.md) (17 shared connections)
+- [Community 32](Community_32.md) (8 shared connections)
+- [Community 58](Community_58.md) (6 shared connections)
+- [Community 106](Community_106.md) (3 shared connections)
+- [Community 124](Community_124.md) (2 shared connections)
+- [Community 429](Community_429.md) (2 shared connections)
+- [Community 37](Community_37.md) (1 shared connections)
+- [Community 75](Community_75.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 30](Community_30.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_lookups.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
-- `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/lookup/test_decimalfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/lookup/test_lookups.py`
-- `raw/code/hyd-evaluation/django-django/tests/lookup/test_timefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/test_query.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
 
 ## Audit Trail
 
-- EXTRACTED: 413 (97%)
-- INFERRED: 14 (3%)
+- EXTRACTED: 160 (98%)
+- INFERRED: 4 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

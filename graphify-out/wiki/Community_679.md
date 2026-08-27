@@ -1,43 +1,41 @@
 # Community 679
 
-> 19 nodes · cohesion 0.12
+> 14 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **Page** (15 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **ValidAdjacentNumsPage** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
-- **.has_other_pages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.end_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.has_next()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.has_previous()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.start_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **._get_page()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
-- **Page** (1 connections)
-- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.next_page_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.previous_page_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **Return the 1-based index of the first object on this page, relative to total…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **Return the 1-based index of the last object on this page, relative to total…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.next_page_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
-- **.previous_page_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
+- **JavaScriptCatalog** (15 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **.get()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **.get_context_data()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **JSONCatalog** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **.render_to_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **.get_catalog()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **.get_paths()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **.get_plural()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **._num_plurals()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **._plural_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **Return the selected language catalog as a JavaScript library. Receive the list…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **Return the number of plurals for this catalog language, or 2 if no plural…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **Return the plural string (including nplurals) for this catalog language, or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **Return the selected language catalog as a JSON object. Receive the same…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
 
 ## Relationships
 
-- [Community 501](Community_501.md) (4 shared connections)
-- [Community 115](Community_115.md) (1 shared connections)
+- [Community 14](Community_14.md) (5 shared connections)
+- [Community 483](Community_483.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 49](Community_49.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 129](Community_129.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
+- `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 28 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

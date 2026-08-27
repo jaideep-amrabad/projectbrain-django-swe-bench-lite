@@ -1,51 +1,55 @@
 # Community 426
 
-> 27 nodes · cohesion 0.10
+> 25 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **SetLanguageTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **._get_inactive_language_code()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_decodes_http_referer_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_default_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_doesnt_perform_a_default_redirect_for_ajax()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_doesnt_perform_a_redirect_to_referer_for_ajax()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_http_next()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_performs_redirect_for_ajax_if_explicitly_requested()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_redirect_to_referer()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_unsafe_next()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_unsafe_next_for_ajax()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_lang_from_translated_i18n_pattern()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_reversal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **The set_language view doesn't redirect to the HTTP referer header if the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **The set_language view returns 204 by default for requests not accepting HTML…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **The fallback to root URL for the set_language view works for requests not…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **The set_language view decodes the HTTP_REFERER URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **Test the django.views.i18n.set_language view.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **Return language code for a language which is not activated.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **The set_language view can be used to change the session language. The user is…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **The set_language view only redirects to the 'next' argument if it is "safe".** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **The set_language view only redirects to the 'next' argument if it is "safe" and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **The set_language view redirects to the URL in the referer header when there…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **The set_language view redirects to '/' when there isn't a referer or "next"…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- *... and 2 more nodes in this community*
+- **AuthenticationForm** (29 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **AuthenticationFormTest** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.clean()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.confirm_login_allowed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.test_inactive_user_incorrect_password()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.get_invalid_login_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.test_username_field_max_length_defaults_to_254()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_username_field_max_length_matches_user_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **CustomRequestAuthenticationForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
+- **.test_custom_login_allowed_policy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_get_invalid_login_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_html_autocomplete_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_inactive_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_inactive_user_i18n()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_invalid_username()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_login_failed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_password_whitespace_not_stripped()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_success()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_unicode_username()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_username_field_autocapitalize_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.get_user()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **Base class for authenticating users. Extend this to get a form that accepts…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **Controls whether the given User may log in. This is a policy setting,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **An invalid login doesn't leak the inactive status of a user.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
 
 ## Relationships
 
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 37](Community_37.md) (1 shared connections)
+- [Community 1](Community_1.md) (7 shared connections)
+- [Community 8](Community_8.md) (5 shared connections)
+- [Community 4](Community_4.md) (4 shared connections)
+- [Community 85](Community_85.md) (4 shared connections)
+- [Community 71](Community_71.md) (3 shared connections)
+- [Community 925](Community_925.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 733](Community_733.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (100%)
+- EXTRACTED: 64 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

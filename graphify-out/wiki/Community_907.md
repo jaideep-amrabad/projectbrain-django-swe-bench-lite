@@ -1,32 +1,34 @@
 # Community 907
 
-> 8 nodes · cohesion 0.46
+> 8 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **ReverseQueryNameClashTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **._test_reverse_query_name_clash()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_fk_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_fk_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_fk_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_m2m_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_m2m_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_m2m_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **m2m_signals/tests.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
+- **m2m_signals/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/models.py`
+- **Car** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/models.py`
+- **Part** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/models.py`
+- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/models.py`
+- **SportsCar** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/models.py`
+- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/models.py`
+- **Testing signals emitted on changing m2m relations.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
 
 ## Relationships
 
-- [Community 13](Community_13.md) (3 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 118](Community_118.md) (1 shared connections)
+- [Community 467](Community_467.md) (5 shared connections)
+- [Community 5](Community_5.md) (4 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_signals/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 21 (84%)
+- INFERRED: 4 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

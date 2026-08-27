@@ -1,50 +1,41 @@
 # Community 671
 
-> 21 nodes · cohesion 0.10
+> 14 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **WatchmanReloaderTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **WatchmanUnavailable** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **GetReloaderTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **skip_unless_watchman_available()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_watchman_available()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_watchman_unavailable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_check_availability()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_check_availability_lower_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_watched_roots_contains_sys_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **object** (1 connections)
-- **.test_check_server_status()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_check_server_status_raises_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_pywatchman_not_available()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_update_watches_raises_exceptions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_watch_glob_ignores_non_existing_directories_two_levels()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_watch_glob_multiple_patterns()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_watch_glob_uses_existing_parent_directories()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_watched_roots_contains_directory_globs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_watched_roots_contains_files()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **check_framework/test_templates.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **check_string_if_invalid_is_string()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/templates.py`
+- **CheckTemplateStringIfInvalidTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **check_setting_app_dirs_loaders()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/templates.py`
+- **CheckTemplateSettingsAppDirsTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_app_dirs_and_loaders()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_string_if_invalid_not_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_app_dirs_removed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_loaders_removed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_string_if_invalid_both_are_strings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_string_if_invalid_first_is_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_string_if_invalid_not_specified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **Error if template loaders are specified and APP_DIRS is True.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
 
 ## Relationships
 
-- [Community 706](Community_706.md) (5 shared connections)
-- [Community 360](Community_360.md) (4 shared connections)
-- [Community 295](Community_295.md) (3 shared connections)
-- [Community 485](Community_485.md) (2 shared connections)
-- [Community 107](Community_107.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 370](Community_370.md) (1 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 59](Community_59.md) (3 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 165](Community_165.md) (2 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/templates.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (90%)
-- INFERRED: 4 (10%)
+- EXTRACTED: 33 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

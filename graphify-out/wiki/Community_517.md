@@ -1,46 +1,52 @@
 # Community 517
 
-> 21 nodes · cohesion 0.10
+> 20 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **HStoreField** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- **TestFormField** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **TestValidation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_valid_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_model_field_formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_none_allowed_as_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_not_a_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- **.formfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- **.get_prep_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- **.validate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- **.value_to_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- **Field** (1 connections)
-- **.test_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_field_has_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_invalid_json()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_non_dict_json()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_none_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_not_string_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_valid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **Truncator** (19 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **truncatewords()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **FunctionTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatewords.py`
+- **.add_truncation_text()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **.chars()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **._truncate_html()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **._text_chars()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **._text_words()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **.words()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **Truncate a string after a certain number of chars.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **.test_invalid_number()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatewords.py`
+- **.test_non_string_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatewords.py`
+- **.test_overtruncate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatewords.py`
+- **.test_truncate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatewords.py`
+- **.test_truncate2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatewords.py`
+- **Truncate a string after `arg` number of words. Remove newlines within the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **Truncate HTML to a certain number of chars (not counting tags and comments),…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **An object used to truncate text, either by characters or words.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **Return the text truncated to be no longer than the specified number of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
 
 ## Relationships
 
-- [Community 37](Community_37.md) (7 shared connections)
-- [Community 339](Community_339.md) (2 shared connections)
-- [Community 710](Community_710.md) (1 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 236](Community_236.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 245](Community_245.md) (1 shared connections)
+- [Community 482](Community_482.md) (1 shared connections)
+- [Community 814](Community_814.md) (1 shared connections)
+- [Community 774](Community_774.md) (1 shared connections)
+- [Community 50](Community_50.md) (1 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatewords.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 50 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

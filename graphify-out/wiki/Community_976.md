@@ -1,29 +1,30 @@
 # Community 976
 
-> 6 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.47
 
 ## Key Concepts
 
-- **MigrateTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_migrate_to_other_database_with_router()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **SyncOnlyDefaultDatabaseRouter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_migrate_to_other_database()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **Regression test for #16039: migrate with --database option.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **striptags()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_striptags.py`
+- **.test_strip_lazy_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_striptags.py`
+- **.test_non_string_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_striptags.py`
+- **.test_strip()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_striptags.py`
+- **Strip all [X]HTML tags.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 
 ## Relationships
 
-- [Community 474](Community_474.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 236](Community_236.md) (2 shared connections)
+- [Community 614](Community_614.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_striptags.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 15 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

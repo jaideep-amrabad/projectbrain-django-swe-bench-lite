@@ -1,47 +1,56 @@
 # Community 449
 
-> 25 nodes · cohesion 0.11
+> 35 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **FormatStylePlaceholderCursor** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **VariableWrapper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.executemany()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.execute()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._fix_for_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._format_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._guess_input_sizes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._output_type_handler()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._param_generator()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.arrayvar()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._get_decimal_converter()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.var()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._output_number_converter()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **An adapter class for cursor variables that prevents the wrapped object from…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **Django uses "format" (e.g. '%s') style placeholders, but Oracle uses ":var"…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **Called for each db column fetched from cursors. Return numbers as the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.bind_parameter()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.__setattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **Element** (13 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **Parser** (12 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **BoundWidget** (10 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **._resolve_lookup()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **RootElement** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.handle_endtag()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **._count()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.handle_startendtag()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.handle_starttag()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.tag()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.template_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.append()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.__contains__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **normalize_whitespace()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.current()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.format_position()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.choice_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.id_for_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **A container class used for iterating over widgets. This is useful for widgets…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **Perform resolution of a real variable (i.e. not a literal) against the given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Community 43](Community_43.md) (7 shared connections)
+- [Community 2](Community_2.md) (6 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 328](Community_328.md) (1 shared connections)
+- [Community 248](Community_248.md) (1 shared connections)
+- [Community 428](Community_428.md) (1 shared connections)
+- [Community 561](Community_561.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- `raw/code/hyd-evaluation/django-django/django/test/html.py`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 53 (93%)
+- INFERRED: 4 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

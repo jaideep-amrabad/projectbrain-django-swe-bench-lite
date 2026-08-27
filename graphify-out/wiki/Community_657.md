@@ -1,48 +1,50 @@
 # Community 657
 
-> 20 nodes · cohesion 0.10
+> 17 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **Person** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
-- **admin_docs/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
-- **.test_lazy_reference_checks()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **Company** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
-- **.dummy_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
-- **._get_full_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
-- **Family** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
-- **Group** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
-- **.a_property()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
-- **.add_image()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
-- **.delete_image()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
-- **.get_groups_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
-- **.get_status_count()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
-- **.rename_company()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
-- **.save_changes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
-- **.set_status()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
-- **.suffix_company_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
-- **Models for testing various aspects of the djang.contrib.admindocs app** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
-- **Stores information about a person, related to :model:`myapp.Company`. **Notes**…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
-- **Get the full name of the person** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **ExtractorTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.assertLocationCommentNotPresent()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **CopyPluralFormsExtractorTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **._assertPoLocComment()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **NoSettingsExtractionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **NoWrapExtractorTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_translate_and_plural_blocktranslate_collision()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **._get_token_line_number()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.assertMsgIdPlural()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **skipUnless** (2 connections)
+- **.test_copy_plural_forms()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_override_plural_forms()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_makemessages_no_settings()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_no_wrap_disabled()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_no_wrap_enabled()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **Check the opposite of assertLocationComment()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **Ensures a correct workaround for the gettext bug when handling a literal found…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
 
 ## Relationships
 
-- [Community 37](Community_37.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 545](Community_545.md) (2 shared connections)
-- [Community 653](Community_653.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 350](Community_350.md) (1 shared connections)
+- [Community 625](Community_625.md) (7 shared connections)
+- [Community 13](Community_13.md) (5 shared connections)
+- [Community 719](Community_719.md) (4 shared connections)
+- [Community 720](Community_720.md) (4 shared connections)
+- [Community 436](Community_436.md) (2 shared connections)
+- [Community 1036](Community_1036.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 379](Community_379.md) (1 shared connections)
+- [Community 1081](Community_1081.md) (1 shared connections)
+- [Community 1082](Community_1082.md) (1 shared connections)
+- [Community 83](Community_83.md) (1 shared connections)
+- [Community 226](Community_226.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (90%)
-- INFERRED: 3 (10%)
+- EXTRACTED: 47 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

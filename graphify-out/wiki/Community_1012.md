@@ -1,27 +1,30 @@
 # Community 1012
 
-> 5 nodes · cohesion 0.50
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **app2/models.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/app2/models.py`
-- **ProxyModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/app1/models.py`
-- **app1/models.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/app1/models.py`
-- **NiceModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/app2/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/app1/models.py`
+- **NonDjangoTemplatesDebugViewTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_template_not_found_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_400()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_400_bad_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_403()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_404()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/app1/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/app2/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,29 +4,30 @@
 
 ## Key Concepts
 
-- **Command** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
-- **.show_list()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
-- **.show_plan()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
-- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
-- **._validate_app_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
-- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
-- **Show all known migrations (or only those of the specified app_names) in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
-- **Show a list of all migrations on the system, or only those of some named apps.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
+- **linenumbers()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **FunctionTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linenumbers.py`
+- **.test_autoescape()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linenumbers.py`
+- **.test_autoescape_off()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linenumbers.py`
+- **.test_linenumbers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linenumbers.py`
+- **.test_linenumbers2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linenumbers.py`
+- **.test_non_string_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linenumbers.py`
+- **Display text with line numbers.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 
 ## Relationships
 
-- [Community 75](Community_75.md) (3 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 236](Community_236.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linenumbers.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 19 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

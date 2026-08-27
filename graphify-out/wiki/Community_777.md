@@ -1,38 +1,33 @@
 # Community 777
 
-> 11 nodes · cohesion 0.20
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **global_settings.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/conf/global_settings.py`
-- **diffsettings.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
-- **Command** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
-- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
-- **module_to_dict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
-- **gettext_noop()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/global_settings.py`
-- **Default Django settings. Override these with settings in the module pointed to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/global_settings.py`
-- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
-- **.output_hash()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
-- **.output_unified()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
-- **Convert a module namespace to a Python dictionary.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
+- **TranslationCatalog** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Simulate a dict for DjangoTranslation._catalog so as multiple catalogs with…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.get()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.keys()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.plural()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.__setitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.update()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
 
 ## Relationships
 
-- [Community 63](Community_63.md) (3 shared connections)
-- [Community 228](Community_228.md) (2 shared connections)
-- [Community 617](Community_617.md) (1 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 154](Community_154.md) (1 shared connections)
+- [Community 483](Community_483.md) (2 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/conf/global_settings.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,47 +1,45 @@
 # Community 565
 
-> 19 nodes · cohesion 0.12
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **DBCacheTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **._perform_cull_test()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.tearDown()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.drop_table()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.tearDown()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_createcachetable_with_table_argument()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **DBCacheWithTimeZoneTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_cull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_zero_cull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.create_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_createcachetable_dry_run_mode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_zero_cull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_delete_many_num_queries()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_get_many_num_queries()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_second_call_doesnt_crash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **Delete and recreate cache table with legacy behavior (explicitly specifying the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **ModelTest** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_create_relation_with_gettext_lazy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_multiple_objects_max_num_fetched()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_create_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_emptyqs_distinct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_eq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_hash_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_not_equal_and_equal_operators_behave_as_expected_on_instances()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_objects_attribute_is_only_available_on_the_class_itself()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_year_lookup_edge_case()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_delete_and_access_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_emptyqs_customqs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_emptyqs_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_emptyqs_values_order()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_missing_hash_not_inherited()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_specified_parent_hash_inherited()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_ticket_20278()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **gettext_lazy objects work when saving model instances through various methods.…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
 
 ## Relationships
 
-- [Community 293](Community_293.md) (4 shared connections)
-- [Community 999](Community_999.md) (3 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 674](Community_674.md) (1 shared connections)
-- [Community 685](Community_685.md) (1 shared connections)
-- [Community 332](Community_332.md) (1 shared connections)
+- [Community 403](Community_403.md) (12 shared connections)
+- [Community 12](Community_12.md) (5 shared connections)
+- [Community 10](Community_10.md) (2 shared connections)
+- [Community 1060](Community_1060.md) (2 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 70](Community_70.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 32 (80%)
+- INFERRED: 8 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

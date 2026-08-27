@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **.test_response_raises_multi_arg_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **A request may raise an exception with more than one required arg.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_empty_post()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **POST an empty dictionary to a view** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 551](Community_551.md) (1 shared connections)
+- [Community 528](Community_528.md) (1 shared connections)
 
 ## Source Files
 

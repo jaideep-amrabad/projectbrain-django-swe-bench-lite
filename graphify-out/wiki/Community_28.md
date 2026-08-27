@@ -1,67 +1,64 @@
 # Community 28
 
-> 92 nodes · cohesion 0.04
+> 175 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **contenttypes_tests/models.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- **contenttypes_tests/test_views.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
-- **contenttypes_tests/test_models.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
-- **order_with_respect_to/tests.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
-- **contenttypes_tests/test_management.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
-- **ContentTypesViewsTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
-- **contenttypes_tests/test_fields.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_fields.py`
-- **BaseOrderWithRespectToTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **ContentTypesViewsSiteRelTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
-- **order_with_respect_to/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **Post** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- **test_order_with_respect_to.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_order_with_respect_to.py`
-- **ShortcutViewTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
-- **Answer** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- **FooWithUrl** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- **GenericForeignKeyTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_fields.py`
-- **Author** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- **FooWithBrokenAbsoluteUrl** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- **FooWithoutUrl** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- **ModelWithNullFKToSite** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- **Question** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- **OrderWithRespectToGFKTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_order_with_respect_to.py`
-- **OrderWithRespectToBaseTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
-- **ProxyModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- **GenericRelationTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_fields.py`
-- *... and 67 more nodes in this community*
+- **F** (420 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **NonAggregateAnnotationTestCase** (63 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
+- **annotations/tests.py** (40 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
+- **ExpressionWrapper** (34 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **AliasTests** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
+- **FTimeDeltaTests** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **ExpressionOperatorTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **annotations/models.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/models.py`
+- **FTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **.test_custom_functions_can_ref_other_functions()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
+- **TestRangeContainsLookup** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **Company** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/models.py`
+- **Store** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/models.py`
+- **.test_custom_functions()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
+- **.test_distinct_on_with_annotation()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
+- **.test_grouping_by_q_expression_annotation()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
+- **.test_q_expression_annotation_with_aggregation()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
+- **.test_date_subtraction()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **.test_datetime_subtraction()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **.test_time_subtraction()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **Author** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/models.py`
+- **Book** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/models.py`
+- **DepartmentStore** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/models.py`
+- **Employee** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/models.py`
+- **Publisher** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/models.py`
+- *... and 150 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (21 shared connections)
-- [Community 2](Community_2.md) (18 shared connections)
-- [Community 1](Community_1.md) (10 shared connections)
-- [Community 132](Community_132.md) (9 shared connections)
-- [Community 52](Community_52.md) (9 shared connections)
-- [Community 321](Community_321.md) (5 shared connections)
-- [Community 13](Community_13.md) (5 shared connections)
-- [Community 7](Community_7.md) (5 shared connections)
-- [Community 37](Community_37.md) (4 shared connections)
-- [Community 380](Community_380.md) (4 shared connections)
-- [Community 16](Community_16.md) (3 shared connections)
-- [Community 56](Community_56.md) (2 shared connections)
+- [Community 38](Community_38.md) (75 shared connections)
+- [Community 22](Community_22.md) (53 shared connections)
+- [Community 40](Community_40.md) (44 shared connections)
+- [Community 65](Community_65.md) (36 shared connections)
+- [Community 39](Community_39.md) (30 shared connections)
+- [Community 6](Community_6.md) (26 shared connections)
+- [Community 17](Community_17.md) (24 shared connections)
+- [Community 70](Community_70.md) (18 shared connections)
+- [Community 5](Community_5.md) (15 shared connections)
+- [Community 97](Community_97.md) (15 shared connections)
+- [Community 84](Community_84.md) (12 shared connections)
+- [Community 43](Community_43.md) (11 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_order_with_respect_to.py`
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
-- `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- `raw/code/hyd-evaluation/django-django/tests/annotations/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 220 (87%)
-- INFERRED: 32 (13%)
+- EXTRACTED: 746 (95%)
+- INFERRED: 42 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

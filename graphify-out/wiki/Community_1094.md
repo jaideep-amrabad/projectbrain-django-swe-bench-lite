@@ -1,24 +1,25 @@
 # Community 1094
 
-> 2 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.test_create_delete_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **CreateModel and DeleteModel should collapse into nothing.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **ViewContainer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/method_view_urls.py`
+- **method_view_urls.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/method_view_urls.py`
+- **.classmethod_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/method_view_urls.py`
+- **.method_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/method_view_urls.py`
 
 ## Relationships
 
-- [Community 142](Community_142.md) (1 shared connections)
-- [Community 797](Community_797.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/method_view_urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

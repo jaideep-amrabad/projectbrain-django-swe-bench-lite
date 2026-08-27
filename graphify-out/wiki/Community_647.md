@@ -1,43 +1,41 @@
 # Community 647
 
-> 15 nodes · cohesion 0.21
+> 13 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **Feed** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **.get_feed()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **.__call__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **.feed_extra_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **.get_context_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **._get_dynamic_attr()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **.item_extra_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **.get_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **.item_enclosures()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **.item_link()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **.item_title()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **Return an extra keyword arguments dictionary that is used when initializing the…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **.item_description()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **Return a dictionary to use as extra context if either…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
-- **Return a feedgenerator.DefaultFeed object, fully populated, for this feed.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- **.get_traceback_data()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.get_exception_traceback_frames()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **._get_lines_from_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.get_traceback_frames()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.get_traceback_html()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.get_traceback_text()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **._get_explicit_or_implicit_cause()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **._get_source()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.start()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **Return a dictionary containing traceback information.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **Return HTML version of debug 500 HTTP error page.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **Return plain text version of debug 500 HTTP error page.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **Return context_lines before and after lineno from file. Return…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
 
 ## Relationships
 
-- [Community 52](Community_52.md) (5 shared connections)
-- [Community 10](Community_10.md) (3 shared connections)
-- [Community 481](Community_481.md) (1 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 46](Community_46.md) (1 shared connections)
+- [Community 136](Community_136.md) (8 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 105](Community_105.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
+- [Community 826](Community_826.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 26 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

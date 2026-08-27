@@ -1,46 +1,46 @@
 # Community 633
 
-> 20 nodes · cohesion 0.11
+> 15 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **BoundaryIter** (7 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **InterBoundaryIter** (6 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **Parser** (6 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **InputStreamExhausted** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **._find_boundary()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.__next__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **parse_boundary_stream()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.__iter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.__next__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **Exception** (2 connections)
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **No more reads are allowed from this device.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **A Producer that will iterate over boundaries.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **A Producer that is sensitive to boundaries. Will happily yield bytes until a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **Find a multipart boundary in data. Should no boundary exist in the data, return…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **Parse one and exactly one stream that encapsulates a boundary.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **SetPasswordForm** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **SetPasswordFormTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **patch** (4 connections)
+- **.test_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_help_text_translation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_validates_password()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.clean_new_password2()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.test_html_autocomplete_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_password_verification()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_password_whitespace_not_stripped()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **A form that lets a user change set their password without entering the old…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (6 shared connections)
-- [Community 434](Community_434.md) (1 shared connections)
-- [Community 394](Community_394.md) (1 shared connections)
-- [Community 138](Community_138.md) (1 shared connections)
-- [Community 299](Community_299.md) (1 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 733](Community_733.md) (4 shared connections)
+- [Community 697](Community_697.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 476](Community_476.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
+- [Community 925](Community_925.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 37 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

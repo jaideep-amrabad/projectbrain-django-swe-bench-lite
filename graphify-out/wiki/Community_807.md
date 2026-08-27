@@ -1,33 +1,33 @@
 # Community 807
 
-> 11 nodes · cohesion 0.22
+> 11 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **TemplateReloadTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
-- **Jinja2TemplateReloadTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
-- **patch** (4 connections)
-- **.test_reset_all_loaders()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
-- **.test_non_template_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
-- **.test_reset_all_loaders()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
-- **.test_template_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
-- **.test_get_template_directories()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
-- **.test_watch_for_template_changes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
-- **.test_get_template_directories()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
-- **.test_watch_for_template_changes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
+- **RawQuery** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **._execute_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.chain()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.get_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.params_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **A single raw SQL query.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.clone()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
+- [Community 674](Community_674.md) (1 shared connections)
+- [Community 81](Community_81.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
+- EXTRACTED: 15 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

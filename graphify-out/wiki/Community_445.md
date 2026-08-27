@@ -1,55 +1,42 @@
 # Community 445
 
-> 33 nodes · cohesion 0.10
+> 13 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **PasswordResetFormTest** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **PasswordResetForm** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.save()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.create_dummy_user()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.get_users()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.send_mail()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.test_inactive_user()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_save_html_email_template_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_save_plaintext_email()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **_unicode_ci_compare()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.test_cleaned_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_custom_email_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_nonexistent_email()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_custom_email_subject()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_html_autocomplete_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_invalid_email()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_preserve_username_case()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_unusable_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_user_email_domain_unicode_collision()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_user_email_domain_unicode_collision_nonexistent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_user_email_unicode_collision()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_user_email_unicode_collision_nonexistent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **Test the PasswordResetForm.save() method with no html_email_template_name…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **Send a django.core.mail.EmailMultiAlternatives to `to_email`.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **Perform case-insensitive comparison of two identifiers, using the recommended…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- *... and 8 more nodes in this community*
+- **LimitedStream** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **ServerHandler** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.readline()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **._read_limited()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **.test_limited_stream()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.read()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **Wrap another stream to disallow reading it past a number of bytes.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **Use a LimitedStream so that unread request data will be ignored at the end of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.cleanup_headers()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
 
 ## Relationships
 
-- [Community 52](Community_52.md) (6 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 163](Community_163.md) (1 shared connections)
-- [Community 429](Community_429.md) (1 shared connections)
-- [Community 405](Community_405.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 641](Community_641.md) (1 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 108](Community_108.md) (2 shared connections)
+- [Community 336](Community_336.md) (2 shared connections)
+- [Community 258](Community_258.md) (1 shared connections)
+- [Community 642](Community_642.md) (1 shared connections)
+- [Community 167](Community_167.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 65 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 22 (81%)
+- INFERRED: 5 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

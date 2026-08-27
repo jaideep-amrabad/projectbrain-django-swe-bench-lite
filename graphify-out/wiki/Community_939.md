@@ -1,31 +1,56 @@
 # Community 939
 
-> 7 nodes · cohesion 0.29
+> 19 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **GenericIPAddressFieldTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
-- **.test_genericipaddressfield_formfield_protocol()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
-- **.test_null_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
-- **.test_blank_string_saved_as_null()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
-- **.test_save_load()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
-- **GenericIPAddressField with a specified protocol does not generate a formfield…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
-- **Null values should be resolved to None.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
+- **middleware/views.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/views.py`
+- **no_append_slash()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/common.py`
+- **.catch_all_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- **decorators/common.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/common.py`
+- **.get_urls()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **ArticleAdminWithExtraUrl** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **SensitiveCBV** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/views.py`
+- **middleware/extra_urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/extra_urls.py`
+- **middleware/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/urls.py`
+- **sensitive_fbv()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/views.py`
+- **ActorAdmin9** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.extra_json()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.get_urls()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **UnchangeableObjectAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.get_urls()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **tests/middleware/__init__.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/__init__.py`
+- **empty_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/views.py`
+- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/views.py`
+- **Mark a view function as excluded from CommonMiddleware's APPEND_SLASH…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/common.py`
 
 ## Relationships
 
-- [Community 72](Community_72.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 275](Community_275.md) (1 shared connections)
+- [Community 4](Community_4.md) (8 shared connections)
+- [Community 78](Community_78.md) (5 shared connections)
+- [Community 49](Community_49.md) (3 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 959](Community_959.md) (2 shared connections)
+- [Community 210](Community_210.md) (1 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
+- [Community 194](Community_194.md) (1 shared connections)
+- [Community 129](Community_129.md) (1 shared connections)
+- [Community 225](Community_225.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/common.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware/extra_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (89%)
-- INFERRED: 1 (11%)
+- EXTRACTED: 46 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

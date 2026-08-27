@@ -1,24 +1,22 @@
 # Community 1727
 
-> 3 nodes · cohesion 0.67
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **.test_i18n08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **.test_legacyi18n08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **translation of plural form** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
+- **wsgi/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/__init__.py`
 
 ## Relationships
 
-- [Community 234](Community_234.md) (4 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
+- `raw/code/hyd-evaluation/django-django/tests/wsgi/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

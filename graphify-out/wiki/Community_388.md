@@ -1,50 +1,62 @@
 # Community 388
 
-> 30 nodes · cohesion 0.07
+> 51 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **BasicExtractorTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_blocktranslate_trimmed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_po_file_encoding_when_updating()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_pot_charset_header_is_utf8()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_use_i18n_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_add_location_gettext_version_check()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_extraction_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_makemessages_find_files()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_makemessages_gettext_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_template_comments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_template_message_context_extractor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.assertMsgStr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **patch** (2 connections)
-- **.test_comments_extractor()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_context_in_single_quotes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_extraction_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_invalid_locale()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_no_option()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_special_char_extracted()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_unicode_decode_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_unicode_file_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_valid_locale()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **makemessages also runs successfully when USE_I18N is False.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **test xgettext warning about multiple bare interpolation placeholders** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **Message contexts are correctly extracted for the {% translate %} and {%…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- *... and 5 more nodes in this community*
+- **Field** (25 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **TypedMultipleChoiceField** (15 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **MultiValueField** (13 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **TypedMultipleChoiceFieldTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
+- **.clean()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **ComboField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.validate()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **._coerce()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.clean()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.run_validators()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.has_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **ComboFieldTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_combofield.py`
+- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.get_bound_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.validate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.test_typedmultiplechoicefield_special_coerce()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.bound_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.widget_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.compress()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.test_combofield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_combofield.py`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [Community 79](Community_79.md) (5 shared connections)
-- [Community 106](Community_106.md) (3 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
+- [Community 1](Community_1.md) (17 shared connections)
+- [Community 85](Community_85.md) (11 shared connections)
+- [Community 259](Community_259.md) (3 shared connections)
+- [Community 328](Community_328.md) (2 shared connections)
+- [Community 182](Community_182.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 239](Community_239.md) (1 shared connections)
+- [Community 248](Community_248.md) (1 shared connections)
+- [Community 543](Community_543.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 704](Community_704.md) (1 shared connections)
+- [Community 717](Community_717.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_combofield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 37 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 98 (88%)
+- INFERRED: 13 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

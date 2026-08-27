@@ -1,59 +1,42 @@
 # Community 622
 
-> 27 nodes · cohesion 0.11
+> 16 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **time()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **TimeTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
-- **setup** (8 connections)
-- **m2m_multiple/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/tests.py`
-- **m2m_multiple/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
-- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
-- **Category** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
-- **M2MMultipleTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/tests.py`
-- **time_format()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **FunctionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
-- **.test_time00_l10n()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
-- **.test_time00()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
-- **.test_time03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
-- **.test_time04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
-- **.test_multiple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/tests.py`
-- **.test_inputs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
-- **.test_time01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
-- **.test_time02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
-- **.test_time05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
-- **.test_time06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
-- **Format a time according to the given format.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
-- **Multiple many-to-many relationships between the same two tables In this…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
-- *... and 2 more nodes in this community*
+- **StartsWithRelation** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **BrokenContainsRelation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **AutoFieldInheritanceTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
+- **.field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **.contribute_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **.get_extra_restriction()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **.test_isinstance_of_autofield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
+- **.get_extra_restriction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **A ForeignObject that uses StartsWith operator in its joins instead of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **Makes ReverseManyToOneDescriptor work in both directions.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **This model is designed to yield no join conditions and raise an exception in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **.get_joining_columns()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **.get_path_info()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **.get_reverse_path_info()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **.test_issubclass_of_autofield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (8 shared connections)
-- [Community 10](Community_10.md) (5 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 324](Community_324.md) (1 shared connections)
-- [Community 656](Community_656.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
+- [Community 10](Community_10.md) (3 shared connections)
+- [Community 172](Community_172.md) (1 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 58 (95%)
-- INFERRED: 3 (5%)
+- EXTRACTED: 19 (90%)
+- INFERRED: 2 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

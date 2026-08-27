@@ -1,37 +1,52 @@
 # Community 759
 
-> 12 nodes · cohesion 0.24
+> 22 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **DatabaseCreationTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **.test_create_test_db()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **.test_create_test_user()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **.patch_execute_statements()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **.test_oracle_managed_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **object** (3 connections)
-- **._execute_raise_insufficient_privileges()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **._execute_raise_tablespace_already_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **._execute_raise_user_already_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **._test_database_passwd()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **patch** (1 connections)
-- **skipUnless** (1 connections)
+- **TemplateStringsTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
+- **Jinja2Tests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
+- **.test_django_html_escaping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
+- **.test_context_processors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
+- **.test_dirs_pathlib()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
+- **.test_self_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
+- **.test_from_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
+- **.test_get_template()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
+- **.test_get_template_nonexistent()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
+- **.test_get_template_syntax_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
+- **.test_html_escaping()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
+- **.test_no_directory_traversal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
+- **.test_non_ascii_characters()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
+- **.test_exception_debug_info_max_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
+- **.test_exception_debug_info_min_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
+- **.test_origin()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
+- **.test_origin_from_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
+- **.test_template_render_error_nonexistent_source()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
+- **.test_template_render_nested_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
+- **skipIf** (1 connections)
+- **Using 'self' in the context should not throw errors (#24538).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
 
 ## Relationships
 
 - [Community 0](Community_0.md) (4 shared connections)
-- [Community 342](Community_342.md) (3 shared connections)
-- [Community 75](Community_75.md) (3 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 88](Community_88.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 738](Community_738.md) (1 shared connections)
+- [Community 101](Community_101.md) (1 shared connections)
+- [Community 53](Community_53.md) (1 shared connections)
+- [Community 51](Community_51.md) (1 shared connections)
+- [Community 347](Community_347.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (89%)
-- INFERRED: 3 (11%)
+- EXTRACTED: 30 (91%)
+- INFERRED: 3 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

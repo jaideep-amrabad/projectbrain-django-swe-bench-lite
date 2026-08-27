@@ -1,63 +1,51 @@
 # Community 406
 
-> 31 nodes · cohesion 0.09
+> 25 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **.apps()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.handle()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
-- **Command** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
-- **ProxyModelWithSameAppLabelTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **ProxyModelWithDifferentAppLabelTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.describe_operation()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
-- **MultiDBProxyModelAppLabelTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_migrate_with_existing_target_permission()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.sync_apps()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
-- **.test_abstract_model_pending_operations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_foreignkey.py`
-- **.test_abstract_model_pending_operations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_manytomanyfield.py`
-- **.test_migrate_other_database()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_migrate_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_proxy_model_permissions_contenttype()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_user_has_now_proxy_model_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_user_keeps_same_permissions_after_migrating_backward()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_migrate_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_proxy_model_permissions_contenttype()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_user_keeps_same_permissions_after_migrating_backward()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_user_still_has_proxy_model_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **Create proxy permissions with content_type to the concrete model rather than…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
-- **.migration_progress_callback()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
-- *... and 6 more nodes in this community*
+- **SafeMIMEText** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **SafeMIMEMultipart** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **._create_mime_attachment()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **MIMEMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **._create_attachments()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **SafeMIMEMessage** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **._create_attachment()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.message()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **._create_alternatives()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **._create_message()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **._set_list_header_if_not_empty()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.as_bytes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **._create_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.as_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **Return the entire formatted message as a string. Optional `unixfrom' when True,…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.__setitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.__setitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **MIMEMessage** (1 connections)
+- **MIMEMultipart** (1 connections)
+- **Convert the content, mimetype pair into a MIME attachment object. If the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **Convert the filename, content, mimetype triple into a MIME attachment object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **Set msg's header, either from self.extra_headers, if present, or from the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.set_payload()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
 
 ## Relationships
 
-- [Community 52](Community_52.md) (3 shared connections)
-- [Community 20](Community_20.md) (3 shared connections)
-- [Community 63](Community_63.md) (2 shared connections)
-- [Community 122](Community_122.md) (2 shared connections)
-- [Community 27](Community_27.md) (2 shared connections)
-- [Community 159](Community_159.md) (2 shared connections)
-- [Community 32](Community_32.md) (2 shared connections)
-- [Community 81](Community_81.md) (2 shared connections)
-- [Community 653](Community_653.md) (2 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
+- [Community 156](Community_156.md) (11 shared connections)
+- [Community 114](Community_114.md) (6 shared connections)
+- [Community 105](Community_105.md) (1 shared connections)
+- [Community 336](Community_336.md) (1 shared connections)
+- [Community 924](Community_924.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_foreignkey.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_manytomanyfield.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (70%)
-- INFERRED: 21 (30%)
+- EXTRACTED: 49 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

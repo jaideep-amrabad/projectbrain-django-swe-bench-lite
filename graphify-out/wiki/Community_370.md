@@ -1,64 +1,59 @@
 # Community 370
 
-> 33 nodes · cohesion 0.08
+> 36 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **extend_sys_path()** (38 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **EggLoadingTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **TestSysPathDirectories** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **NamespacePackageAppTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.temporary_migration_module()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.test_egg1()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **.test_egg2()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **.test_egg3()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **.test_egg4()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **.test_egg5()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **.test_multiple_paths()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_multiple_paths_explicit_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_single_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_middleware_headers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/project_template/test_settings.py`
-- **.test_sys_paths_directories()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_sys_paths_non_existing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_sys_paths_with_directories()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **Context manager to temporarily add paths to sys.path.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **Models module can be loaded from an app in an egg** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **Loading an app from an egg that has no models returns no models (and no error)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **Models module can be loaded from an app located under an egg's top-level package** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **Loading an app with no models from under the top-level egg package generates no…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **Loading an app from an egg that has an import error in its models module raises…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- *... and 8 more nodes in this community*
+- **BaseDatabaseIntrospection** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **SimpleDatabaseIntrospectionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
+- **.django_table_names()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **.get_migratable_models()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **.identifier_converter()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **.installed_models()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **.sequence_list()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **.get_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **.get_primary_key_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **.get_sequences()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
+- **.get_field_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **.get_key_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **.get_relations()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **.get_table_description()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **.get_table_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **Return a set of all models represented by the provided list of table names.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **Return a list of information about all DB sequences for all models in all apps.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **Return a list of introspected sequences for table_name. Each sequence is a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **Return a dictionary of {field_name: (field_name_other_table, other_table)}…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **Encapsulate backend-specific introspection utilities.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **Backends can override this to return a list of: (column_name,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **Return the name of the primary key column for the given table.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **Retrieve any constraints or keys (unique, pk, fk, check, index) across one or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (8 shared connections)
-- [Community 552](Community_552.md) (6 shared connections)
-- [Community 697](Community_697.md) (2 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 109](Community_109.md) (2 shared connections)
 - [Community 70](Community_70.md) (2 shared connections)
-- [Community 810](Community_810.md) (2 shared connections)
-- [Community 69](Community_69.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 360](Community_360.md) (2 shared connections)
-- [Community 119](Community_119.md) (1 shared connections)
-- [Community 154](Community_154.md) (1 shared connections)
-- [Community 671](Community_671.md) (1 shared connections)
-- [Community 143](Community_143.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
+- [Community 832](Community_832.md) (1 shared connections)
+- [Community 609](Community_609.md) (1 shared connections)
+- [Community 737](Community_737.md) (1 shared connections)
+- [Community 481](Community_481.md) (1 shared connections)
+- [Community 103](Community_103.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- `raw/code/hyd-evaluation/django-django/tests/project_template/test_settings.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
 
 ## Audit Trail
 
-- EXTRACTED: 73 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 58 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

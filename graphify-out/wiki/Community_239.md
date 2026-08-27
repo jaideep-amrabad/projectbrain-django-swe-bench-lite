@@ -1,54 +1,58 @@
 # Community 239
 
-> 45 nodes · cohesion 0.06
+> 47 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **custom_pk/tests.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **BasicCustomPKTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **CustomPKTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **custom_pk/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
-- **MyAutoField** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
-- **MyWrapper** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
-- **Employee** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
-- **Business** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
-- **Bar** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
-- **Foo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
-- **.from_db_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
-- **.pre_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
-- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
-- **.test_get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **.test_in_bulk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **.test_pk_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **.test_querysets()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **.test_querysets_related_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **.test_querysets_relational()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **.test_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **.test_custom_pk_create()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **.test_required_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **.get_db_prep_save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
-- **.get_db_prep_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
-- *... and 20 more nodes in this community*
+- **parse_duration()** (25 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateparse.py`
+- **duration_string()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/duration.py`
+- **duration_iso_string()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/duration.py`
+- **DurationFieldTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
+- **DurationParseTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateparse.py`
+- **TestDurationString** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **TestISODurationString** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **TestParseDurationRoundtrip** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **TestParseISODurationRoundtrip** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **DurationField** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.to_python()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **_get_duration_components()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/duration.py`
+- **.test_days()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test_microseconds()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test_negative()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test_simple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test_days()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test_microseconds()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test_negative()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test_simple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.prepare_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.test_durationfield_prepare_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
+- **.test_days()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateparse.py`
+- **.test_fractions_of_seconds()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateparse.py`
+- **.test_hours_minutes_seconds()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateparse.py`
+- *... and 22 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (7 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 167](Community_167.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 32](Community_32.md) (1 shared connections)
+- [Community 1](Community_1.md) (12 shared connections)
+- [Community 12](Community_12.md) (10 shared connections)
+- [Community 892](Community_892.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 388](Community_388.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/dateparse.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/duration.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateparse.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
 
 ## Audit Trail
 
-- EXTRACTED: 65 (90%)
-- INFERRED: 7 (10%)
+- EXTRACTED: 102 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

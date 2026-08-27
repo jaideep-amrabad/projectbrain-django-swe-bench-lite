@@ -1,24 +1,26 @@
 # Community 1089
 
-> 3 nodes · cohesion 0.67
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **.test_response_resolver_match_redirect_follow()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_response_resolver_match_regular_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **The response ResolverMatch instance contains the correct information when…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.date_extract_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.time_extract_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.time_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Given a lookup_type of 'hour', 'minute' or 'second', return the SQL that…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Given a lookup_type of 'year', 'month', or 'day', return the SQL that extracts…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Relationships
 
-- [Community 551](Community_551.md) (2 shared connections)
+- [Community 44](Community_44.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

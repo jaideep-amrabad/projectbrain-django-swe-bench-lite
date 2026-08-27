@@ -1,49 +1,60 @@
 # Community 448
 
-> 23 nodes · cohesion 0.11
+> 34 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **TimestampSigner** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **Signer** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **BadSignature** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **SignatureExpired** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.sign_object()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.signature()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.unsign()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.unsign()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **dumps()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **loads()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.unsign_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.sign()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.sign()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.timestamp()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.test_decode_serializer_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **Exception** (1 connections)
-- **Reverse of dumps(), raise BadSignature if signature fails. The serializer is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **Return URL-safe, hmac signed base64 compressed JSON string. If compress is True…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **Retrieve original value and check it wasn't signed more than max_age seconds…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **Signature does not match.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **Signature timestamp is older than required max_age.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **Return URL-safe, hmac signed base64 compressed JSON string. If key is None, use…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **RadioSelectTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
+- **NullBooleanFieldTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_nullbooleanfield.py`
+- **RadioSelect** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **DeepCopyWidget** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **FormsI18nTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_non_ascii_choices()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
+- **.test_deepcopy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_constructor_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
+- **.test_render_as_subwidget()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
+- **.test_nullbooleanfield_4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_nullbooleanfield.py`
+- **.test_non_ascii_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
+- **.test_select_translated_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
+- **._get_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **._set_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_class_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
+- **.test_doesnt_localize_input_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
+- **.test_render_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
+- **.test_nullbooleanfield_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_nullbooleanfield.py`
+- **.test_nullbooleanfield_3()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_nullbooleanfield.py`
+- **.test_nullbooleanfield_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_nullbooleanfield.py`
+- **.test_nullbooleanfield_clean()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_nullbooleanfield.py`
+- **.test_lazy_labels()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
+- **MultiWidget should define __deepcopy__() (#12048).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 3](Community_3.md) (10 shared connections)
-- [Community 219](Community_219.md) (2 shared connections)
-- [Community 603](Community_603.md) (1 shared connections)
-- [Community 35](Community_35.md) (1 shared connections)
+- [Community 1](Community_1.md) (9 shared connections)
+- [Community 231](Community_231.md) (4 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 127](Community_127.md) (1 shared connections)
+- [Community 259](Community_259.md) (1 shared connections)
+- [Community 87](Community_87.md) (1 shared connections)
+- [Community 717](Community_717.md) (1 shared connections)
+- [Community 543](Community_543.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_nullbooleanfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 45 (82%)
+- INFERRED: 10 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,40 +1,34 @@
 # Community 811
 
-> 13 nodes · cohesion 0.17
+> 10 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **CallableSettingWrapper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.cleanse_setting()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **CallableSettingWrapperTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.get_safe_settings()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.get_safe_request_meta()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **Return a dictionary of the settings module with values of sensitive settings…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **Return a dictionary of request.META with sensitive values redacted.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **Object to wrap callable appearing in settings. * Not to call in the debug page…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **Cleanse an individual setting key/value of sensitive content. If the value is a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **Unittests for CallableSettingWrapper** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **dictsort()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **FunctionTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
+- **.test_dictsort_complex_sorting_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
+- **.test_invalid_values()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
+- **.test_sort()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
+- **.test_sort_list_of_tuple_like_dicts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
+- **.test_sort_list_of_tuples()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
+- **Given a list of dicts, return that list sorted by the property given in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **Since dictsort uses template.Variable under the hood, it can sort on keys like…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
+- **If dictsort is passed something other than a list of dictionaries, fail…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
 
 ## Relationships
 
-- [Community 102](Community_102.md) (3 shared connections)
-- [Community 95](Community_95.md) (2 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 446](Community_446.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 236](Community_236.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (90%)
-- INFERRED: 2 (10%)
+- EXTRACTED: 19 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

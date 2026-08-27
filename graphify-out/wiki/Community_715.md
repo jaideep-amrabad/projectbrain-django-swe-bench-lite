@@ -1,44 +1,36 @@
 # Community 715
 
-> 21 nodes · cohesion 0.10
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **BaseIterable** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **ModelIterable** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **RelatedPopulator** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **ValuesListIterable** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **FlatValuesListIterable** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **get_related_populators()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **NamedValuesListIterable** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **ValuesIterable** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Iterable returned by QuerySet.values_list(flat=False) that yields a tuple for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Iterable returned by QuerySet.values_list(named=True) that yields a namedtuple…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Iterable returned by QuerySet.values_list(flat=True) that yields single values.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **RelatedPopulator is used for select_related() object instantiation. The idea is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Iterable that yields a model instance for each row.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Iterable returned by QuerySet.values() that yields a dict for each row.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.populate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **ActiveTranslationField** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **ArticleTranslationDescriptor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **ColConstraint** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **.get_extra_restriction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **ActiveTranslationFieldWithQ** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **.contribute_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **.get_extra_descriptor_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **.get_extra_descriptor_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **.__set__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **This field will allow querying and fetching the currently active translation…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **The set of articletranslation should not set any local fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (8 shared connections)
-- [Community 278](Community_278.md) (2 shared connections)
-- [Community 343](Community_343.md) (1 shared connections)
+- [Community 621](Community_621.md) (4 shared connections)
+- [Community 14](Community_14.md) (3 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

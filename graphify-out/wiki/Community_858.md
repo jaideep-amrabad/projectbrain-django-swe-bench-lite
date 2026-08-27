@@ -1,37 +1,36 @@
 # Community 858
 
-> 11 nodes · cohesion 0.18
+> 9 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **EmptyManager** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
-- **.test_create_model_add_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_create_model_alter_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_create_model_remove_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_create_model_rename_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_create_rename_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **AddField should optimize into CreateModel.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **AlterField should optimize into CreateModel.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **RenameField should optimize into CreateModel.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **RemoveField should optimize into CreateModel.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **CreateModel should absorb RenameModels.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **CallableVariablesTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
+- **Doodad** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **FancyDoodad** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.test_alters_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
+- **.test_callable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
+- **.test_do_not_call()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
+- **.test_do_not_call_and_alters_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
+- **FancyDoodadInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
 
 ## Relationships
 
-- [Community 797](Community_797.md) (6 shared connections)
-- [Community 142](Community_142.md) (5 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 81](Community_81.md) (1 shared connections)
+- [Community 7](Community_7.md) (6 shared connections)
+- [Community 78](Community_78.md) (2 shared connections)
+- [Community 68](Community_68.md) (2 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 17 (77%)
+- INFERRED: 5 (23%)
 - AMBIGUOUS: 0 (0%)
 
 ---

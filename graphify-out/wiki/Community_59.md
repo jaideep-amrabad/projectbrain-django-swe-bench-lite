@@ -1,61 +1,78 @@
 # Community 59
 
-> 135 nodes · cohesion 0.03
+> 87 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **models/functions.py** (69 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
-- **distapp/tests.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **DistanceFunctionsTests** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **Distance** (29 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
-- **Length** (23 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
-- **GeoFunc** (22 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
-- **DistanceTest** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **GeomOutputGeoFunc** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
-- **Area** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
-- **OracleToleranceMixin** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
-- **.__init__()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
-- **.as_sql()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
-- **Perimeter** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
-- **Union** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
-- **distapp/models.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **._handle_param()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
-- **GeoFuncMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
-- **Transform** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
-- **NamedModel** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- **Scale** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
-- **.get_names()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **DistanceResultMixin** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
-- **.as_postgresql()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
-- **IsValid** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
-- **Translate** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
-- *... and 110 more nodes in this community*
+- **checks/__init__.py** (77 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/__init__.py`
+- **Error** (38 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
+- **check_framework/test_security.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **test_model_checks.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
+- **test_urls.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
+- **Tags** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/registry.py`
+- **checks/urls.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
+- **.register()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/registry.py`
+- **caches.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/caches.py`
+- **CheckMessage** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
+- **model_checks.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/model_checks.py`
+- **security/csrf.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
+- **translation.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
+- **sessions.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
+- **check_url_namespaces_unique()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
+- **messages.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
+- **check_url_settings()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
+- **_check_lazy_references()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/model_checks.py`
+- **checks/templates.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/templates.py`
+- **get_warning_for_invalid_pattern()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
+- **async_checks.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/async_checks.py`
+- **checks/files.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/files.py`
+- **check_resolver()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
+- **test_files.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_files.py`
+- **CheckURLSettingsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
+- *... and 62 more nodes in this community*
 
 ## Relationships
 
-- [Community 21](Community_21.md) (23 shared connections)
-- [Community 136](Community_136.md) (21 shared connections)
-- [Community 42](Community_42.md) (19 shared connections)
-- [Community 71](Community_71.md) (18 shared connections)
-- [Community 82](Community_82.md) (14 shared connections)
-- [Community 40](Community_40.md) (12 shared connections)
-- [Community 2](Community_2.md) (12 shared connections)
-- [Community 410](Community_410.md) (9 shared connections)
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 92](Community_92.md) (6 shared connections)
-- [Community 167](Community_167.md) (5 shared connections)
-- [Community 52](Community_52.md) (4 shared connections)
+- [Community 8](Community_8.md) (40 shared connections)
+- [Community 2](Community_2.md) (24 shared connections)
+- [Community 224](Community_224.md) (19 shared connections)
+- [Community 165](Community_165.md) (17 shared connections)
+- [Community 0](Community_0.md) (12 shared connections)
+- [Community 294](Community_294.md) (9 shared connections)
+- [Community 13](Community_13.md) (9 shared connections)
+- [Community 207](Community_207.md) (8 shared connections)
+- [Community 742](Community_742.md) (8 shared connections)
+- [Community 74](Community_74.md) (8 shared connections)
+- [Community 5](Community_5.md) (6 shared connections)
+- [Community 6](Community_6.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/checks.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/async_checks.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/caches.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/database.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/files.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/model_checks.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/registry.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/security/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/templates.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_files.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
 
 ## Audit Trail
 
-- EXTRACTED: 415 (91%)
-- INFERRED: 43 (9%)
+- EXTRACTED: 395 (98%)
+- INFERRED: 10 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

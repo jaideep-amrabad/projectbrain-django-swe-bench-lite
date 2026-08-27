@@ -1,29 +1,29 @@
 # Community 982
 
-> 6 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **multi_table.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
-- **Parent** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
-- **Child** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
-- **ParentManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
-- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
+- **XViewMiddlewareTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_middleware.py`
+- **.test_no_auth_middleware()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_middleware.py`
+- **TestDataMixin** (1 connections)
+- **.test_callable_object_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_middleware.py`
+- **.test_xview_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_middleware.py`
+- **.test_xview_func()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_middleware.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
+- [Community 71](Community_71.md) (3 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/models/multi_table.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_middleware.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 8 (89%)
+- INFERRED: 1 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

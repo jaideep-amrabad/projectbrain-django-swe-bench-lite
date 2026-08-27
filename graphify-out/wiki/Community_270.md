@@ -1,51 +1,56 @@
 # Community 270
 
-> 42 nodes · cohesion 0.05
+> 28 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **BaseContext** (22 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **RenderContext** (12 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **ContextDict** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.update()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.__eq__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.flatten()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.push()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.push_state()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.__delitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.new()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.pop()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **._reset_dicts()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.set_upward()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.__setitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.test_render_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
-- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.__copy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.get()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- *... and 17 more nodes in this community*
+- **TimeField** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.has_default()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **DateTimeCheckMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.formfield()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.formfield()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.check()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_choices()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **._check_fix_default_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **._check_fix_default_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **._check_mutually_exclusive_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **._check_fix_default_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_pk_value_on_save()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **Warn that using an actual date or datetime value is probably wrong; it's only…** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **return_None()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_db_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **._check_fix_default_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **Hook to generate new PK values on save. This method is called when saving…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **Return a boolean of whether this field has a default value.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **Return the default value for this field.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (6 shared connections)
-- [Community 38](Community_38.md) (5 shared connections)
-- [Community 155](Community_155.md) (1 shared connections)
+- [Community 530](Community_530.md) (6 shared connections)
+- [Community 120](Community_120.md) (6 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 630](Community_630.md) (3 shared connections)
+- [Community 48](Community_48.md) (3 shared connections)
+- [Community 710](Community_710.md) (2 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 892](Community_892.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 57 (97%)
-- INFERRED: 2 (3%)
+- EXTRACTED: 60 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

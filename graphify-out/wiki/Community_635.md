@@ -1,41 +1,40 @@
 # Community 635
 
-> 16 nodes · cohesion 0.13
+> 15 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **ImageFieldTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.test_pickle()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **Person** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.test_delete_when_missing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.test_equal_notequal_hash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.test_instantiate_missing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.test_size_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **Model that defines an ImageField with no dimension fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.test_defer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **Tests for ImageField that don't need to be run with each of the different test…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **Bug #9786: Ensure '==' and '!=' work correctly. Bug #9508: make sure hash()…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **If the underlying file is unavailable, still create instantiate the object…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **Bug #8175: correctly delete an object where the file no longer exists on the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **Bug #8534: FileField.size should not leave the file open.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **ImageField can be pickled, unpickled, and that the image of the unpickled…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **forms/ranges.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **BaseRangeField** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **RangeWidget** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **HiddenRangeWidget** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **DateRangeField** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **DateTimeRangeField** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **DecimalRangeField** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **IntegerRangeField** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **.compress()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **.prepare_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **.decompress()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **A widget that splits input into two <input type="hidden"> inputs.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
 
 ## Relationships
 
-- [Community 172](Community_172.md) (6 shared connections)
-- [Community 275](Community_275.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 231](Community_231.md) (2 shared connections)
+- [Community 117](Community_117.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (88%)
-- INFERRED: 3 (12%)
+- EXTRACTED: 32 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,63 +1,57 @@
 # Community 94
 
-> 77 nodes · cohesion 0.04
+> 125 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **contrib/admin/widgets.py** (47 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **urlencode()** (30 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- **URLEncodeTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.__init__()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **smart_urlquote()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **AutocompleteMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **ForeignKeyRawIdWidget** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **ManyToManyRawIdWidget** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.get_context()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.get_context()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **AdminDateWidget** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **FilteredSelectMultiple** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **AdminSplitDateTime** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.base_url_parameters()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **Media** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **AdminIntegerFieldWidget** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **AdminRadioSelect** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **AdminTimeWidget** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **AdminURLFieldWidget** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.build_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.get_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.label_and_url_for_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.url_parameters()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **url_params_from_lookup_dict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.test_multivaluedict()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- *... and 52 more nodes in this community*
+- **CollectionTestCase** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
+- **TestHashedFiles** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.run_collectstatic()** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **hashed_file_path()** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.assertPostCondition()** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **TestCollectionManifestStorage** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **TestCollectionLinks** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestStaticFilePermissions** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **TestInteractiveMessages** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestCollectionClear** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestCollectionOverwriteWarning** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestCollectionVerbosity** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestCollectionHashedFilesCache** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **TestCollectionExcludeNoDefaultIgnore** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **TestCollectionFilesOverride** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **.setUp()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **TestCollectionSimpleStorage** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **TestExtraPatternsStorage** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **._collectstatic_output()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **.test_post_processing_failure()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **TestCollectionCustomIgnorePatterns** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **.test_skips_newer_files_in_remote_storage()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **.test_warning_when_clearing_staticdir()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **.test_warning_when_overwriting_files_in_staticdir()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **.test_file_change_after_collectstatic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- *... and 100 more nodes in this community*
 
 ## Relationships
 
-- [Community 16](Community_16.md) (6 shared connections)
-- [Community 46](Community_46.md) (5 shared connections)
-- [Community 19](Community_19.md) (5 shared connections)
-- [Community 145](Community_145.md) (5 shared connections)
-- [Community 18](Community_18.md) (5 shared connections)
-- [Community 6](Community_6.md) (4 shared connections)
-- [Community 419](Community_419.md) (3 shared connections)
-- [Community 72](Community_72.md) (3 shared connections)
-- [Community 555](Community_555.md) (3 shared connections)
-- [Community 55](Community_55.md) (2 shared connections)
-- [Community 756](Community_756.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
+- [Community 2](Community_2.md) (20 shared connections)
+- [Community 8](Community_8.md) (19 shared connections)
+- [Community 11](Community_11.md) (14 shared connections)
+- [Community 133](Community_133.md) (5 shared connections)
+- [Community 757](Community_757.md) (3 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 330](Community_330.md) (1 shared connections)
+- [Community 511](Community_511.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
 
 ## Audit Trail
 
-- EXTRACTED: 173 (98%)
-- INFERRED: 4 (2%)
+- EXTRACTED: 251 (100%)
+- INFERRED: 1 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

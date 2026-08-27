@@ -1,37 +1,31 @@
 # Community 533
 
-> 12 nodes · cohesion 0.17
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **GenericRelationTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_custom_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_traverse_GFK()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_charfield_GFK()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_generic_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_nullable_GFK()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_prefetch_GFK()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_prefetch_GFK_fk_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_prefetch_GFK_nonint_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_prefetch_GFK_uuid_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **A 'content_object' can be traversed with prefetch_related() and get to related…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **TestValidators** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.test_max_length_validator_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.test_message_dict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.test_message_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.test_regex_validator_flags()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.test_single_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.test_validators()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
 
 ## Relationships
 
-- [Community 278](Community_278.md) (7 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 344](Community_344.md) (1 shared connections)
-- [Community 353](Community_353.md) (1 shared connections)
+- [Community 274](Community_274.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (67%)
-- INFERRED: 7 (33%)
+- EXTRACTED: 13 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

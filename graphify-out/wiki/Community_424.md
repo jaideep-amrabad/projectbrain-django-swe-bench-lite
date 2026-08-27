@@ -1,53 +1,61 @@
 # Community 424
 
-> 27 nodes · cohesion 0.08
+> 33 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **SomeClass** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.test_basic_syntax20b()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **.test_basic_syntax09()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **.test_basic_syntax10()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **.test_basic_syntax11()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **.test_basic_syntax20()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **.test_filter_syntax23()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- **.test_filter_syntax24()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- **OtherClass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **In attribute and dict lookups that raise an unexpected exception without a…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **Fail silently when accessing a non-simple method** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **Don't silence a TypeError if it was raised inside a callable.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **Attribute syntax allows a template to call an object's attribute** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **Multiple levels of attribute access are allowed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **Fail silently when a variable's attribute isn't found.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **.method()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.attribute_error_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.method()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.method2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.method3()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.method4()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.method5()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.noisy_fail_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- *... and 2 more nodes in this community*
+- **LineString** (59 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- **._listarr()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- **.test_linestring()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos.py`
+- **.test_distance()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos.py`
+- **.test_threed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos.py`
+- **.array()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- **._set_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- **.tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- **.x()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- **.y()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- **.z()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- **Return a list or numpy array of the X variable.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- **.test_crosses_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
+- **.test_empty_geometries()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
+- **._checkdim()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- **.__len__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- **.test_getitem()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_coordseq.py`
+- **.test_closed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos.py`
+- **.test_linestring_iter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos.py`
+- **.test_linestring_list_assignment()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos.py`
+- **._get_single_external()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- **._set_single()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- **Return a tuple version of the geometry from the coordinate sequence.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Community 205](Community_205.md) (10 shared connections)
-- [Community 251](Community_251.md) (10 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
+- [Community 30](Community_30.md) (23 shared connections)
+- [Community 70](Community_70.md) (14 shared connections)
+- [Community 61](Community_61.md) (4 shared connections)
+- [Community 180](Community_180.md) (3 shared connections)
+- [Community 57](Community_57.md) (2 shared connections)
+- [Community 83](Community_83.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 33](Community_33.md) (2 shared connections)
+- [Community 19](Community_19.md) (2 shared connections)
+- [Community 75](Community_75.md) (1 shared connections)
+- [Community 905](Community_905.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_coordseq.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 90 (94%)
+- INFERRED: 6 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

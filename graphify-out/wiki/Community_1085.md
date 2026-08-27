@@ -1,24 +1,28 @@
 # Community 1085
 
-> 3 nodes · cohesion 0.67
+> 5 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.test_missing_django_version_unpickling()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_unsupported_unpickle()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **#21430 -- Verifies a warning is raised for querysets that are unpickled without…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **get_bytes_from_wsgi()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **get_str_from_wsgi()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **.COOKIES()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **.GET()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **Get a value from the WSGI environ dictionary as bytes. key and default should…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
 
 ## Relationships
 
-- [Community 365](Community_365.md) (2 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 108](Community_108.md) (2 shared connections)
+- [Community 203](Community_203.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

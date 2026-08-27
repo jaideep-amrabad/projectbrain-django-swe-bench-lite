@@ -1,41 +1,62 @@
 # Community 151
 
-> 12 nodes · cohesion 0.20
+> 67 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **LoginRequiredTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
-- **.test_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
-- **normal_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/views.py`
-- **.test_callable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
-- **.test_login_required()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
-- **.test_login_required_next_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
-- **.test_full_dec_normal()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
-- **login_required works on a simple view wrapped in a login_required decorator.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
-- **Tests the login_required decorators** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
-- **login_required is assignable to callable objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
-- **login_required is assignable to normal views.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
-- **All methods of middleware are called for normal HttpResponses** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **DiscoverRunner** (71 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **DiscoverRunnerTests** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **captured_stderr()** (25 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **test_discover_runner.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.run_tests()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.test_name_patterns()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **RunTestsExceptionHandlingTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **change_cwd()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_buffer_mode_test_fail()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_buffer_mode_test_pass()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_empty_label()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_faulthandler_enabled_fileno()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **patch** (4 connections)
+- **.get_test_runner_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.run_checks()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.run_suite()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.teardown_databases()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.test_duplicates_ignored()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_excluded_tags_displayed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_faulthandler_already_enabled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_faulthandler_disabled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_faulthandler_enabled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_file_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_ignore_adjacent()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_included_tags_displayed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- *... and 42 more nodes in this community*
 
 ## Relationships
 
-- [Community 52](Community_52.md) (3 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 792](Community_792.md) (1 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
-- [Community 313](Community_313.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 473](Community_473.md) (12 shared connections)
+- [Community 306](Community_306.md) (9 shared connections)
+- [Community 181](Community_181.md) (6 shared connections)
+- [Community 384](Community_384.md) (4 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 29](Community_29.md) (3 shared connections)
+- [Community 13](Community_13.md) (3 shared connections)
+- [Community 640](Community_640.md) (2 shared connections)
+- [Community 878](Community_878.md) (2 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 531](Community_531.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
-- `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (90%)
-- INFERRED: 2 (10%)
+- EXTRACTED: 175 (95%)
+- INFERRED: 9 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

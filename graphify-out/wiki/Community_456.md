@@ -1,31 +1,46 @@
 # Community 456
 
-> 7 nodes · cohesion 0.29
+> 24 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **MultiTableInheritanceTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_child_link_prefetch()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_foreignkey()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_foreignkey_to_inherited()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_m2m_to_inheriting_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_parent_link_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **DebugInvocationTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **ErrorTestCase** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **.get_runner()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **.isolate_debug_test()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **test_simpletestcase.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **.test_debug_bubbles_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **.test_debug_bubbles_post_teardown_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **.test_debug_bubbles_pre_setup_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **.test_run_cleanup()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **.test_debug_cleanup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **.test_debug_skipped_test_no_cleanup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **.test_run_post_teardown_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **.test_run_pre_setup_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **.test_run_skipped_test_no_cleanup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **.skipped_test()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **.raising_test()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **.simple_test()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **object** (1 connections)
+- **skip** (1 connections)
+- **debug() bubbles up exceptions during _pre_setup.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **debug() bubbles up exceptions during _post_teardown.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **Simple test run: catches errors and runs cleanup.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **Simple debug run without errors.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **debug() bubbles up exceptions before cleanup.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
 
 ## Relationships
 
-- [Community 278](Community_278.md) (6 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (64%)
-- INFERRED: 5 (36%)
+- EXTRACTED: 44 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

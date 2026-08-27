@@ -1,55 +1,49 @@
 # Community 464
 
-> 24 nodes · cohesion 0.14
+> 23 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **GZipMiddleware** (22 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/gzip.py`
-- **GZipMiddlewareTest** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.decompress()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_compress_file_response()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_compress_deterministic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_compress_non_200_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_compress_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_compress_streaming_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_compress_streaming_response_unicode()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.get_mtime()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_no_compress_compressed_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_no_compress_incompressible_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_no_compress_short_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **Compression is performed on responses with streaming content.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **Compress content if the browser allows gzip compression. Set the Vary header…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/gzip.py`
-- **Tests the GZipMiddleware.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **Compression is performed on responses with compressible content.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **Compression is performed on FileResponse.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **Compression is performed on responses with a status other than 200 (#10762).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **Compression isn't performed on responses with short content.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **Compression isn't performed on responses that are already compressed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **Compression isn't performed on responses with incompressible content.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **Compression results are the same for the same content and don't include a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **TestRegistration** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **admin_registration/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
+- **Location** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
+- **Person** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
+- **Place** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
+- **Traveler** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
+- **.test_abstract_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_is_registered_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_is_registered_not_registered_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
+- **Tests for various ways of registering models with the admin site.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
+- **Exception is raised when trying to register an abstract model. Refs #12004.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **Checks for registered models should return true.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **Checks for unregistered models should return false.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_bare_registration()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_iterable_registration()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_prevent_double_registration()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_prevent_double_registration_for_custom_admin()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_registration_with_model_admin()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_registration_with_star_star_options()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_star_star_overrides()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_unregister_unregistered_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
 
 ## Relationships
 
-- [Community 279](Community_279.md) (6 shared connections)
-- [Community 999](Community_999.md) (2 shared connections)
-- [Community 52](Community_52.md) (2 shared connections)
-- [Community 88](Community_88.md) (2 shared connections)
-- [Community 264](Community_264.md) (2 shared connections)
-- [Community 238](Community_238.md) (1 shared connections)
-- [Community 176](Community_176.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
+- [Community 71](Community_71.md) (6 shared connections)
+- [Community 165](Community_165.md) (3 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/middleware/gzip.py`
-- `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 51 (89%)
-- INFERRED: 6 (11%)
+- EXTRACTED: 32 (84%)
+- INFERRED: 6 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

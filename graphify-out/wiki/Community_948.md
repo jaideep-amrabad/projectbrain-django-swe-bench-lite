@@ -1,32 +1,36 @@
 # Community 948
 
-> 7 nodes · cohesion 0.29
+> 7 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **CacheTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache_fragment_cache()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache_missing_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache_regression_20130()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **When a cache called "template_fragments" is present, the cache tag will use it…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **When a cache that doesn't exist is specified, the cache tag will raise a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **SessionTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **.test_safedata()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **.test_get()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **.get_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **.stored_messages_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **.test_no_session()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **A message containing SafeData keeps its safe status when retrieved from the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 70](Community_70.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
+- [Community 101](Community_101.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 469](Community_469.md) (2 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 333](Community_333.md) (1 shared connections)
+- [Community 843](Community_843.md) (1 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
+- [Community 845](Community_845.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 16 (89%)
+- INFERRED: 2 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

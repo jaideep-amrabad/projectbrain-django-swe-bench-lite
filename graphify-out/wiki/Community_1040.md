@@ -1,25 +1,31 @@
 # Community 1040
 
-> 4 nodes · cohesion 0.50
+> 7 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **CoroutineClearingView** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
-- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
-- **.__del__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
-- **Return an unawaited coroutine (common error for async views).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
+- **slugify()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **FunctionTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slugify.py`
+- **.test_slugify_lazy_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slugify.py`
+- **.test_non_string_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slugify.py`
+- **.test_slugify()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slugify.py`
+- **.test_unicode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slugify.py`
+- **Convert to ASCII. Convert spaces to hyphens. Remove characters that aren't…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 
 ## Relationships
 
-- [Community 29](Community_29.md) (1 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 236](Community_236.md) (2 shared connections)
+- [Community 175](Community_175.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slugify.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

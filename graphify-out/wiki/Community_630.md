@@ -1,42 +1,57 @@
 # Community 630
 
-> 17 nodes · cohesion 0.12
+> 24 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **SignalTestCase** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
-- **.test_login_with_custom_user_without_last_login_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
-- **.test_update_last_login()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
-- **.test_failed_login_without_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
-- **Set up the listeners and reset the logged in/logged out counters** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
-- **Disconnect the listeners** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
-- **Only `last_login` is updated in `update_last_login`** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
-- **The user_logged_in signal is only registered if the user model has a last_login…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
-- **.listener_login()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
-- **.listener_login_failed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
-- **.listener_logout()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
-- **.test_login()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
-- **.test_logout()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
-- **.test_logout_anonymous()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **BinaryField** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **AutoFieldMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.check()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.clean()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_db_prep_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **._check_str_default_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.value_to_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_db_prep_save()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.run_validators()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **._check_db_collation()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **._check_primary_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.contribute_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_db_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.contribute_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_placeholder()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **Binary data is serialized as base64** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **Convert the value's type and run validation. Validation errors from to_python()…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **Return field's value prepared for saving into a database.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 
 ## Relationships
 
-- [Community 52](Community_52.md) (3 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 225](Community_225.md) (1 shared connections)
+- [Community 48](Community_48.md) (6 shared connections)
+- [Community 157](Community_157.md) (4 shared connections)
+- [Community 120](Community_120.md) (4 shared connections)
+- [Community 270](Community_270.md) (3 shared connections)
+- [Community 530](Community_530.md) (3 shared connections)
+- [Community 41](Community_41.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 710](Community_710.md) (2 shared connections)
+- [Community 799](Community_799.md) (1 shared connections)
+- [Community 462](Community_462.md) (1 shared connections)
+- [Community 175](Community_175.md) (1 shared connections)
+- [Community 892](Community_892.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 55 (95%)
+- INFERRED: 3 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

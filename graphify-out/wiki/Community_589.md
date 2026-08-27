@@ -1,63 +1,43 @@
 # Community 589
 
-> 61 nodes · cohesion 0.04
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **NewDatabaseTests** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **LegacyDatabaseTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **requires_tz_support** (17 connections)
-- **timezones/models.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- **timezones/admin.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/admin.py`
-- **ForcedTimeZoneDatabaseTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **Timestamp** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- **override_database_connection_timezone()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **AllDayEvent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- **Session** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- **SessionEvent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- **.test_date_and_time_template_filters()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **MaybeEvent** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- **.test_cursor_explicit_time_zone()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **timezones/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/urls.py`
-- **.test_read_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_write_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_in_local_timezone()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_in_local_timezone_with_microsecond()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_in_other_timezone()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_in_utc()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_unsupported()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_query_annotation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_cursor_execute_accepts_aware_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_cursor_execute_accepts_naive_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- *... and 36 more nodes in this community*
+- **SignalTestCase** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.test_login_with_custom_user_without_last_login_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.test_update_last_login()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.test_failed_login_without_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **Set up the listeners and reset the logged in/logged out counters** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **Disconnect the listeners** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **Only `last_login` is updated in `update_last_login`** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **The user_logged_in signal is only registered if the user model has a last_login…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.listener_login()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.listener_login_failed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.listener_logout()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.test_login()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.test_logout()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.test_logout_anonymous()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
 
 ## Relationships
 
-- [Community 20](Community_20.md) (12 shared connections)
-- [Community 425](Community_425.md) (11 shared connections)
-- [Community 21](Community_21.md) (11 shared connections)
-- [Community 38](Community_38.md) (6 shared connections)
-- [Community 6](Community_6.md) (4 shared connections)
-- [Community 11](Community_11.md) (4 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 167](Community_167.md) (3 shared connections)
-- [Community 36](Community_36.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 56](Community_56.md) (1 shared connections)
+- [Community 347](Community_347.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/timezones/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/timezones/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/timezones/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
 
 ## Audit Trail
 
-- EXTRACTED: 122 (90%)
-- INFERRED: 14 (10%)
+- EXTRACTED: 22 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,41 +1,47 @@
 # Community 601
 
-> 17 nodes · cohesion 0.12
+> 26 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **DjangoAdminSettingsDirectory** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_setup_environ()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_setup_environ_custom_template()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_startapp_unicode_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **directory: django-admin builtin commands succeed if settings are provided as…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **A series of tests for django-admin when the settings file is in a directory.…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **directory: startapp creates the correct directory** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **directory: startapp creates the correct directory with a custom template** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **startapp creates the correct directory with Unicode characters.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **directory: django-admin builtin commands fail with an error when no settings…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **directory: django-admin builtin commands fail if settings file (from…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **directory: django-admin can't execute user commands unless settings are provided** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **MeasureBase** (24 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- **pretty_name()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- **.default_units()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- **.__truediv__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- **.__add__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- **.__iadd__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- **.__imul__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- **.__isub__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- **.__itruediv__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- **.__mul__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- **.__repr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- **.__sub__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- **.__truediv__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- **.unit_attname()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- **._get_standard()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- **.__lt__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- **.__rmul__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- **._set_standard()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- **Return the unit value and the default units specified from the given keyword…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 110](Community_110.md) (14 shared connections)
-- [Community 257](Community_257.md) (8 shared connections)
-- [Community 260](Community_260.md) (2 shared connections)
-- [Community 292](Community_292.md) (1 shared connections)
+- [Community 75](Community_75.md) (6 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 40 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

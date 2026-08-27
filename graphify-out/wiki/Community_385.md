@@ -1,58 +1,61 @@
 # Community 385
 
-> 30 nodes · cohesion 0.08
+> 55 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **MultiValueFieldTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **ComplexField** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **ComplexFieldForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **BasicFieldsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
-- **ComplexMultiWidget** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_field_deepcopies_widget_instance()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
-- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_clean_disabled_multivalue()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **Field** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_cooperative_multiple_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
-- **.test_field_sets_widget_is_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
-- **.test_disabled_field_has_changed_always_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
-- **.test_form_as_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_form_as_table_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_form_cleaned_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_has_changed_first_widget()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_has_changed_last_widget()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_no_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **Nested** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.compress()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.decompress()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_bad_choice()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_clean()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- *... and 5 more nodes in this community*
+- **LazySettings** (18 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **UserSettingsHolder** (12 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **Settings** (11 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **IsOverriddenTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **global_settings.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/conf/global_settings.py`
+- **diffsettings.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
+- **Command** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
+- **.__getattr__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **._setup()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **._add_script_prefix()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.configure()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__delattr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__setattr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
+- **module_to_dict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
+- **TestListSettings** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.configured()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__delattr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__setattr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.test_configure()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_evaluated_lazysettings_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_override()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- *... and 30 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (8 shared connections)
-- [Community 34](Community_34.md) (2 shared connections)
-- [Community 47](Community_47.md) (2 shared connections)
-- [Community 108](Community_108.md) (2 shared connections)
-- [Community 50](Community_50.md) (2 shared connections)
-- [Community 240](Community_240.md) (1 shared connections)
-- [Community 582](Community_582.md) (1 shared connections)
-- [Community 311](Community_311.md) (1 shared connections)
-- [Community 472](Community_472.md) (1 shared connections)
+- [Community 2](Community_2.md) (12 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 72](Community_72.md) (2 shared connections)
+- [Community 115](Community_115.md) (2 shared connections)
+- [Community 235](Community_235.md) (1 shared connections)
+- [Community 207](Community_207.md) (1 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
+- [Community 490](Community_490.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/conf/global_settings.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
+- `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (81%)
-- INFERRED: 10 (19%)
+- EXTRACTED: 90 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

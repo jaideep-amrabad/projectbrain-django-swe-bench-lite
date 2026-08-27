@@ -1,57 +1,61 @@
 # Community 131
 
-> 46 nodes · cohesion 0.05
+> 45 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **SessionBase** (54 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.get()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **._get_new_session_key()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.get_expiry_age()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.get_expiry_date()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.exists()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.get_expire_at_browser_close()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.get_session_cookie_age()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **no_clear_expired.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/no_clear_expired.py`
-- **SessionStore** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/no_clear_expired.py`
-- **.clear_expired()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **._get_or_create_session_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.is_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.save()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.set_expiry()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.test_cookie_worked()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **Return True when there is no session_key and the session is empty.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **Return session key that isn't being used.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **Get the number of seconds until the session expires. Optionally, this function…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **Get session the expiry date (as a datetime object). Optionally, this function…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **Set a custom expiration for the session. ``value`` can be an integer, a Python…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **Return ``True`` if the session is set to expire when the browser closes, and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **Return True if the given session_key already exists.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- *... and 21 more nodes in this community*
+- **FileSystemStorage** (53 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.path()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **file_storage/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
+- **._datetime_from_timestamp()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **._value_or_setting()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.test_deconstruction()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **OverwritingStorage** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.get_accessed_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.get_created_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.get_modified_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **._open()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.open()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **callable_storage()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
+- **CallableStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
+- **CustomValidNameStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
+- **CustomStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **DiscardingFalseContentStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **FileSystemStorageTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_lazy_base_url_init()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.base_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **._clear_cached_properties()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.directory_permissions_mode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.file_permissions_mode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.listdir()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [Community 3](Community_3.md) (8 shared connections)
-- [Community 876](Community_876.md) (5 shared connections)
-- [Community 892](Community_892.md) (2 shared connections)
-- [Community 1036](Community_1036.md) (2 shared connections)
-- [Community 1038](Community_1038.md) (2 shared connections)
-- [Community 645](Community_645.md) (1 shared connections)
-- [Community 646](Community_646.md) (1 shared connections)
-- [Community 595](Community_595.md) (1 shared connections)
-- [Community 802](Community_802.md) (1 shared connections)
+- [Community 2](Community_2.md) (15 shared connections)
+- [Community 350](Community_350.md) (6 shared connections)
+- [Community 479](Community_479.md) (6 shared connections)
+- [Community 281](Community_281.md) (3 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 285](Community_285.md) (2 shared connections)
+- [Community 1032](Community_1032.md) (1 shared connections)
+- [Community 988](Community_988.md) (1 shared connections)
+- [Community 943](Community_943.md) (1 shared connections)
+- [Community 1041](Community_1041.md) (1 shared connections)
+- [Community 274](Community_274.md) (1 shared connections)
+- [Community 78](Community_78.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/no_clear_expired.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 77 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 102 (97%)
+- INFERRED: 3 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

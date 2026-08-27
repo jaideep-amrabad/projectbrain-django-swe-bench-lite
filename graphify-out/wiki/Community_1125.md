@@ -1,27 +1,31 @@
 # Community 1125
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **Restaurant** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **RestaurantInlineAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.get_absolute_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Command** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/squashmigrations.py`
+- **.handle()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/squashmigrations.py`
+- **.find_migration()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/squashmigrations.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/squashmigrations.py`
 
 ## Relationships
 
-- [Community 70](Community_70.md) (2 shared connections)
-- [Community 102](Community_102.md) (1 shared connections)
+- [Community 5](Community_5.md) (4 shared connections)
+- [Community 142](Community_142.md) (2 shared connections)
+- [Community 103](Community_103.md) (2 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 72](Community_72.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/squashmigrations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (80%)
-- INFERRED: 1 (20%)
+- EXTRACTED: 12 (75%)
+- INFERRED: 4 (25%)
 - AMBIGUOUS: 0 (0%)
 
 ---

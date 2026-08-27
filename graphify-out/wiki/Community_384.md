@@ -1,51 +1,64 @@
 # Community 384
 
-> 26 nodes · cohesion 0.08
+> 31 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **NaturalKeyFixtureTests** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **Circle3** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **RefToNKChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.test_dependency_sorting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_nk_deserialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_nk_deserialize_xml()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_nk_on_serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_normal_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.test_dependency_self_referential()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_3()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_4()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_5()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_6()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_dangling()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_long()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_normal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_tight_circular()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_tight_circular_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **Test for ticket #13030 - Python based parser version natural keys deserialize…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **Test for ticket #13030 - XML version natural keys deserialize with fk to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **Natural key requirements are taken into account when serializing models.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **It doesn't matter what order you mention the models, Store *must* be serialized…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- *... and 1 more nodes in this community*
+- **runtests.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **test.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
+- **NullTimeKeeper** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **TimeKeeper** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **setup()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **django_tests()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **get_command_line_option()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
+- **default_test_processes()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **get_runner()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **Command** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
+- **.handle()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **bisect_tests()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **get_installed()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **paired_tests()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **teardown()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **.add_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
+- **.run_from_argv()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
+- **RemovedInDjango50Warning** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- **actual_test_processes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **get_subprocess_args()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **get_test_modules()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **PendingDeprecationWarning** (1 connections)
+- **Pre-parse the command line to extract the value of the --testrunner option.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [Community 362](Community_362.md) (9 shared connections)
-- [Community 607](Community_607.md) (3 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 2](Community_2.md) (7 shared connections)
+- [Community 6](Community_6.md) (6 shared connections)
+- [Community 181](Community_181.md) (5 shared connections)
+- [Community 13](Community_13.md) (4 shared connections)
+- [Community 151](Community_151.md) (4 shared connections)
+- [Community 115](Community_115.md) (3 shared connections)
+- [Community 72](Community_72.md) (2 shared connections)
+- [Community 694](Community_694.md) (2 shared connections)
+- [Community 640](Community_640.md) (2 shared connections)
+- [Community 739](Community_739.md) (2 shared connections)
+- [Community 253](Community_253.md) (1 shared connections)
+- [Community 740](Community_740.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- `raw/code/hyd-evaluation/django-django/tests/runtests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (76%)
-- INFERRED: 9 (24%)
+- EXTRACTED: 95 (93%)
+- INFERRED: 7 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

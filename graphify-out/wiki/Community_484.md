@@ -1,46 +1,50 @@
 # Community 484
 
-> 19 nodes · cohesion 0.13
+> 22 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **PrefixNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **StaticNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **.handle_simple()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **do_static()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **get_media_prefix()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **get_static_prefix()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **.handle_simple()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **.handle_token()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **.url()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **.handle_token()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **.render()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **Class method to parse prefix node and return a Node.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **Join the given path with the STATIC_URL setting. Usage:: {% static path [as…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **Populate a template variable with the static prefix, ``settings.STATIC_URL``.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **Populate a template variable with the media prefix, ``settings.MEDIA_URL``.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- **BaseModelBackendTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **CustomPermissionsUserModelBackendTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **ExtensionUserModelBackendTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_authentication_timing()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_anonymous_has_no_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_inactive_has_no_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_custom_perms()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_get_all_superuser_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_has_no_object_perm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.create_users()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_has_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.create_users()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **Regressiontest for #12462** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **#17903 -- Anonymous users shouldn't have permissions in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **#17903 -- Inactive users shouldn't have permissions in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **A superuser has all permissions. Refs #14795.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **Hasher is run once regardless of whether the user exists. Refs #20760.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **Tests for the ModelBackend using the custom ExtensionUser model. This isn't a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **Tests for the ModelBackend using the CustomPermissionsUser model. As with the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **A base class for tests that need to validate the ModelBackend with different…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
 
 ## Relationships
 
-- [Community 50](Community_50.md) (7 shared connections)
 - [Community 4](Community_4.md) (3 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
-- [Community 446](Community_446.md) (1 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
-- [Community 223](Community_223.md) (1 shared connections)
+- [Community 389](Community_389.md) (3 shared connections)
+- [Community 509](Community_509.md) (3 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
+- [Community 128](Community_128.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/templatetags/static.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (92%)
-- INFERRED: 3 (8%)
+- EXTRACTED: 37 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

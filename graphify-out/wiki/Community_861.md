@@ -1,36 +1,35 @@
 # Community 861
 
-> 11 nodes · cohesion 0.24
+> 9 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **BulkUpdateNoteTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.create_tags()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_foreign_keys_do_not_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_functions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_set_field_to_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_set_mixed_fields_to_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_unsaved_models()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_batch_size()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_multiple_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
-- **.test_simple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
+- **Article** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **SubclassTestCaseFixtureLoadingTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **TestCaseFixtureLoadingTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_class_fixtures()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_class_fixtures()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **Test case has installed 3 fixture objects** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **Make sure that subclasses can remove fixtures from parent class (#21089).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **There were no fixture objects installed** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 114](Community_114.md) (2 shared connections)
-- [Community 1013](Community_1013.md) (1 shared connections)
-- [Community 273](Community_273.md) (1 shared connections)
+- [Community 357](Community_357.md) (5 shared connections)
+- [Community 322](Community_322.md) (1 shared connections)
+- [Community 452](Community_452.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (89%)
-- INFERRED: 2 (11%)
+- EXTRACTED: 13 (76%)
+- INFERRED: 4 (24%)
 - AMBIGUOUS: 0 (0%)
 
 ---

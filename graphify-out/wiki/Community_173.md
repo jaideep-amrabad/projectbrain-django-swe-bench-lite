@@ -1,59 +1,60 @@
 # Community 173
 
-> 59 nodes · cohesion 0.07
+> 58 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **BaseDatabaseSchemaEditor** (81 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.alter_field()** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.quote_name()** (23 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.execute()** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._delete_constraint_sql()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._create_primary_key_sql()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.remove_field()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._constraint_names()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._create_index_name()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._delete_composed_index()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.alter_db_table()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.alter_index_together()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.alter_unique_together()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.delete_model()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._delete_primary_key()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._alter_column_collation_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._alter_column_null_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._alter_column_type_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.alter_db_tablespace()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._alter_many_to_many()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._collate_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._delete_fk_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.add_constraint()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.add_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._delete_check_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- *... and 34 more nodes in this community*
+- **TestQuerying** (55 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **IndexTransform** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **SliceTransform** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **ArrayLenTransform** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **IndexTransformFactory** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **SliceTransformFactory** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **.test_index_transform_expression()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.get_transform()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **Transform** (3 connections)
+- **expectedFailure** (3 connections)
+- **.test_slice_transform_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_contains_including_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_exact_with_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_in_including_F_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_index_used_on_nested_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_lookups_autofield_array()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_slice_nested()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- *... and 33 more nodes in this community*
 
 ## Relationships
 
-- [Community 502](Community_502.md) (23 shared connections)
-- [Community 341](Community_341.md) (17 shared connections)
-- [Community 43](Community_43.md) (12 shared connections)
-- [Community 680](Community_680.md) (9 shared connections)
-- [Community 415](Community_415.md) (3 shared connections)
-- [Community 407](Community_407.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 620](Community_620.md) (1 shared connections)
-- [Community 559](Community_559.md) (1 shared connections)
-- [Community 597](Community_597.md) (1 shared connections)
-- [Community 522](Community_522.md) (1 shared connections)
-- [Community 1028](Community_1028.md) (1 shared connections)
+- [Community 73](Community_73.md) (10 shared connections)
+- [Community 396](Community_396.md) (5 shared connections)
+- [Community 212](Community_212.md) (4 shared connections)
+- [Community 65](Community_65.md) (3 shared connections)
+- [Community 38](Community_38.md) (3 shared connections)
+- [Community 43](Community_43.md) (3 shared connections)
+- [Community 274](Community_274.md) (1 shared connections)
+- [Community 95](Community_95.md) (1 shared connections)
+- [Community 40](Community_40.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 850](Community_850.md) (1 shared connections)
+- [Community 79](Community_79.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
 
 ## Audit Trail
 
-- EXTRACTED: 184 (96%)
-- INFERRED: 7 (4%)
+- EXTRACTED: 87 (88%)
+- INFERRED: 12 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

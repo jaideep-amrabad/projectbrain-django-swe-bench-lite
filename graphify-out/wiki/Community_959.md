@@ -1,36 +1,45 @@
 # Community 959
 
-> 6 nodes · cohesion 0.40
+> 11 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **SessionTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
-- **.test_safedata()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
-- **.test_get()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
-- **.get_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
-- **.stored_messages_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
-- **A message containing SafeData keeps its safe status when retrieved from the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **method_decorator()** (29 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **.dispatch()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
+- **.dispatch()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
+- **.dispatch()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
+- **.dispatch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
+- **.dispatch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
+- **.test_invalid_method_name_to_decorate()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **.test_new_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **Convert a function decorator into a method decorator** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **A decorator that sets a new attribute on the method.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **@method_decorator on a nonexistent method raises an error.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
 
 ## Relationships
 
-- [Community 302](Community_302.md) (2 shared connections)
-- [Community 488](Community_488.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 259](Community_259.md) (1 shared connections)
-- [Community 56](Community_56.md) (1 shared connections)
-- [Community 539](Community_539.md) (1 shared connections)
-- [Community 46](Community_46.md) (1 shared connections)
-- [Community 461](Community_461.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 4](Community_4.md) (9 shared connections)
+- [Community 215](Community_215.md) (8 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 933](Community_933.md) (2 shared connections)
+- [Community 1014](Community_1014.md) (2 shared connections)
+- [Community 186](Community_186.md) (2 shared connections)
+- [Community 939](Community_939.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 1749](Community_1749.md) (1 shared connections)
+- [Community 77](Community_77.md) (1 shared connections)
+- [Community 225](Community_225.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (88%)
-- INFERRED: 2 (12%)
+- EXTRACTED: 47 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

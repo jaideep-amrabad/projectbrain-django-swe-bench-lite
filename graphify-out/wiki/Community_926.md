@@ -1,32 +1,33 @@
 # Community 926
 
-> 8 nodes · cohesion 0.25
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **ClassDecoratedTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_max_recursion_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_method_override()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_setupclass_override()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_override()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **Settings are overridden within setUpClass (#21281).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **Overriding a method on a super class and then calling that method on the super…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **FallbackStorage** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
+- **._get()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
+- **._store()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
+- **Get a single list of messages from all storage backends.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
+- **Store the messages and return any unstored messages after trying all backends.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
+- **Try to store all messages in the first backend. Store any unstored messages in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
 
 ## Relationships
 
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 37](Community_37.md) (2 shared connections)
-- [Community 144](Community_144.md) (1 shared connections)
+- [Community 101](Community_101.md) (2 shared connections)
+- [Community 477](Community_477.md) (1 shared connections)
+- [Community 669](Community_669.md) (1 shared connections)
+- [Community 843](Community_843.md) (1 shared connections)
+- [Community 469](Community_469.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (92%)
-- INFERRED: 1 (8%)
+- EXTRACTED: 9 (75%)
+- INFERRED: 3 (25%)
 - AMBIGUOUS: 0 (0%)
 
 ---

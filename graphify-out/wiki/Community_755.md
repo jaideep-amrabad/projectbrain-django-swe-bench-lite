@@ -1,45 +1,37 @@
 # Community 755
 
-> 15 nodes · cohesion 0.13
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **._cursor()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **.ensure_connection()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **._prepare_cursor()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **.create_cursor()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **.make_cursor()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **.make_debug_cursor()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **.__repr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **Create a cursor. Assume that a connection is established.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **Guarantee that a connection to the database is established.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **Validate the connection is usable and perform database cursor wrapping.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **Create a cursor, opening a connection if necessary.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **Create a cursor that logs all queries in self.queries_log.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **Create a cursor without debug logging.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **Display the module, class, and name of the field.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **RedirectTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
+- **.test_redirect_not_found_with_append_slash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
+- **.test_redirect_shortcircuits_non_404_response()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
+- **.test_redirect_with_append_slash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
+- **.test_redirect_with_append_slash_and_query_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
+- **.test_response_gone()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
+- **Exercise the second Redirect.DoesNotExist branch in RedirectFallbackMiddleware.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
+- **RedirectFallbackMiddleware short-circuits on non-404 requests.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
+- **When the redirect target is '', return a 410** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
+- **.test_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
+- **.test_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
 
 ## Relationships
 
-- [Community 41](Community_41.md) (7 shared connections)
-- [Community 43](Community_43.md) (2 shared connections)
-- [Community 865](Community_865.md) (1 shared connections)
-- [Community 837](Community_837.md) (1 shared connections)
-- [Community 834](Community_834.md) (1 shared connections)
-- [Community 109](Community_109.md) (1 shared connections)
-- [Community 315](Community_315.md) (1 shared connections)
+- [Community 8](Community_8.md) (4 shared connections)
+- [Community 71](Community_71.md) (2 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 286](Community_286.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (93%)
-- INFERRED: 2 (7%)
+- EXTRACTED: 19 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

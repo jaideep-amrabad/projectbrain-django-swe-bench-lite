@@ -1,36 +1,35 @@
 # Community 795
 
-> 11 nodes · cohesion 0.29
+> 11 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **IsolationLevelTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
-- **.get_isolation_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
-- **get_connection()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
-- **.test_connect_isolation_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
-- **.test_default_isolation_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
-- **.test_setting_isolation_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
-- **.test_uppercase_isolation_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
-- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
-- **.test_auto_is_null_auto_config()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
-- **.test_isolation_level_validation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
-- **skipUnless** (1 connections)
+- **TemplateReloadTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
+- **Jinja2TemplateReloadTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
+- **patch** (4 connections)
+- **.test_reset_all_loaders()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
+- **.test_non_template_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
+- **.test_reset_all_loaders()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
+- **.test_template_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
+- **.test_get_template_directories()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
+- **.test_watch_for_template_changes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
+- **.test_get_template_directories()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
+- **.test_watch_for_template_changes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
 
 ## Relationships
 
-- [Community 52](Community_52.md) (2 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 75](Community_75.md) (1 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 815](Community_815.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_autoreloader.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 19 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

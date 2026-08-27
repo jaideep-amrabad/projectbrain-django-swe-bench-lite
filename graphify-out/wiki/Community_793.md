@@ -1,39 +1,44 @@
 # Community 793
 
-> 14 nodes · cohesion 0.14
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **HandlerTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_invalid_multipart_boundary()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_bad_path_info()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_invalid_unicode_cookie()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_non_ascii_cookie()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_non_ascii_query_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_middleware_initialized()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **A non-UTF-8 path populates PATH_INFO with an URL-encoded path and produces a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **Non-ASCII query strings are properly decoded (#20530, #22996).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **Non-ASCII cookies set in JavaScript are properly decoded (#20557).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **Invalid cookie content should result in an absent cookie, but not in a crash…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **Invalid boundary string should produce a "Bad Request" response, not a server…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **setup** (45 connections)
+- **.test_inheritance05()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance24()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance25()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_duplicate_block()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance31()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance39()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Two-level with double quotes instead of single quotes** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Inheritance from local context without use of template loader** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Inheritance from local context with variable parent template** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 150](Community_150.md) (7 shared connections)
-- [Community 100](Community_100.md) (4 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
+- [Community 835](Community_835.md) (15 shared connections)
+- [Community 1110](Community_1110.md) (2 shared connections)
+- [Community 1111](Community_1111.md) (2 shared connections)
+- [Community 1168](Community_1168.md) (1 shared connections)
+- [Community 1169](Community_1169.md) (1 shared connections)
+- [Community 1170](Community_1170.md) (1 shared connections)
+- [Community 1171](Community_1171.md) (1 shared connections)
+- [Community 1172](Community_1172.md) (1 shared connections)
+- [Community 1173](Community_1173.md) (1 shared connections)
+- [Community 1174](Community_1174.md) (1 shared connections)
+- [Community 1175](Community_1175.md) (1 shared connections)
+- [Community 1176](Community_1176.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (85%)
-- INFERRED: 4 (15%)
+- EXTRACTED: 55 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

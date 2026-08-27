@@ -1,12 +1,11 @@
 # Community 556
 
-> 19 nodes · cohesion 0.15
+> 18 nodes · cohesion 0.16
 
 ## Key Concepts
 
 - **FlatpageForm** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/forms.py`
 - **FlatpageAdminFormTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
-- **.clean_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/forms.py`
 - **._trailing_slash_required()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/forms.py`
 - **.test_flatpage_admin_form_edit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
 - **.test_flatpage_admin_form_url_uniqueness_validation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
@@ -26,11 +25,10 @@
 
 ## Relationships
 
-- [Community 37](Community_37.md) (6 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 72](Community_72.md) (2 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 71](Community_71.md) (5 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
@@ -39,7 +37,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 39 (100%)
+- EXTRACTED: 37 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

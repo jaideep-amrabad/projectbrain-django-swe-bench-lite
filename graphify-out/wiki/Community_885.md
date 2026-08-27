@@ -1,34 +1,38 @@
 # Community 885
 
-> 9 nodes · cohesion 0.42
+> 14 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **DiscoverRunnerGetDatabasesTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.assertSkippedDatabases()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.get_databases()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_all()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_default_and_other()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_default_only()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_mixed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_no_databases_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_other_only()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **FileProxyMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
+- **TemporaryFile** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- **.__del__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- **Temporary file object constructor that supports reopening of the temporary file…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- **.__enter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- **.__exit__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- **.closed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
+- **.readable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
+- **.seekable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
+- **.writable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
+- **A mixin class used to forward file methods to an underlaying file object. The…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
 
 ## Relationships
 
-- [Community 230](Community_230.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 60](Community_60.md) (1 shared connections)
-- [Community 380](Community_380.md) (1 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 268](Community_268.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 19 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

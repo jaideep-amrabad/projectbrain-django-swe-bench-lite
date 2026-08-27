@@ -1,57 +1,53 @@
 # Community 341
 
-> 25 nodes · cohesion 0.11
+> 32 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **._create_index_sql()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **Columns** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **._create_unique_sql()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **IndexName** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **ColumnsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **IndexNameTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **._index_include_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._index_columns()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._unique_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._deferrable_constraint_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._index_condition_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._get_index_tablespace_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **Return the SQL statement to create the index for one or several fields or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **Hold a reference to an index name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **Hold a reference to one or many columns.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.test_references_column()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **.test_rename_column_references()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **.test_repr()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **.test_str()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **.test_repr()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **.test_str()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **PickleabilityTestCase** (45 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.assert_pickles()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_annotation_with_callable_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_datetime_callable_default_all()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_datetime_callable_default_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_filter_deferred()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_filter_reverse_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_order_by_model_with_abstract_inheritance_and_meta_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_pickle_exists_kwargs_queryset_not_evaluated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_pickle_exists_queryset_not_evaluated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_pickle_subquery_queryset_not_evaluated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_related_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_specialized_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_standalone_method_as_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_staticmethod_as_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_string_as_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_annotation_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_annotation_values_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_doesnotexist_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_doesnotexist_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_forward_relatedobjectdoesnotexist_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_manager_pickle()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_model_pickle_dynamic()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_multipleobjectsreturned_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 173](Community_173.md) (17 shared connections)
-- [Community 407](Community_407.md) (6 shared connections)
-- [Community 502](Community_502.md) (4 shared connections)
-- [Community 43](Community_43.md) (4 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 415](Community_415.md) (3 shared connections)
-- [Community 680](Community_680.md) (3 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
-- [Community 597](Community_597.md) (1 shared connections)
+- [Community 629](Community_629.md) (8 shared connections)
+- [Community 1108](Community_1108.md) (2 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 1167](Community_1167.md) (1 shared connections)
+- [Community 1165](Community_1165.md) (1 shared connections)
+- [Community 1166](Community_1166.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 71 (95%)
-- INFERRED: 4 (5%)
+- EXTRACTED: 53 (90%)
+- INFERRED: 6 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

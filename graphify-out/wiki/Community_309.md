@@ -1,60 +1,54 @@
 # Community 309
 
-> 43 nodes · cohesion 0.08
+> 25 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **model_formsets_regress/tests.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **InlineFormsetTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **model_formsets_regress/models.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- **User** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- **FormsetTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_formset_over_inherited_model()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **UserSite** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- **.test_formset_over_to_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **RedeleteTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **Restaurant** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- **.test_formset_with_none_instance()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **Host** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- **Network** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- **CustomDeleteUserForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **Manager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- **ProfileNetwork** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- **UserPreferences** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- **UserProfile** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- **.test_error_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_empty_fields_on_modelformset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_inline_model_with_primary_to_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_inline_model_with_to_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_inline_model_with_to_field_to_rel()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_save_as_new_with_new_inlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **UserSiteForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- *... and 18 more nodes in this community*
+- **MultipleObjectMixin** (17 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **BaseListView** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **.paginate_queryset()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **.get()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **.get_context_data()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **ListView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **.get_queryset()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **.get_allow_empty()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **.get_paginate_by()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **.get_context_object_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **.get_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **.get_paginate_orphans()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **.get_paginator()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **A mixin for views manipulating multiple objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **Get the name of the item to be used in the context.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **Get the context for this view.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **A base view for displaying a list of objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **Render some list of objects, set by `self.model` or `self.queryset`.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **Return the list of items for this view. The return value must be an iterable…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **Return the field or fields to use for ordering the queryset.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **Paginate the queryset, if needed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **Get the number of items to paginate by, or ``None`` for no pagination.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **Return an instance of the paginator for this view.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **Return the maximum number of orphans extend the last page by when paginating.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **Return ``True`` if the view should display empty lists and ``False`` if a 404…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
 
 ## Relationships
 
-- [Community 236](Community_236.md) (11 shared connections)
-- [Community 237](Community_237.md) (5 shared connections)
-- [Community 50](Community_50.md) (5 shared connections)
-- [Community 842](Community_842.md) (4 shared connections)
-- [Community 532](Community_532.md) (4 shared connections)
-- [Community 358](Community_358.md) (4 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 311](Community_311.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 141](Community_141.md) (1 shared connections)
-- [Community 121](Community_121.md) (1 shared connections)
-- [Community 107](Community_107.md) (1 shared connections)
+- [Community 4](Community_4.md) (6 shared connections)
+- [Community 49](Community_49.md) (3 shared connections)
+- [Community 55](Community_55.md) (3 shared connections)
+- [Community 930](Community_930.md) (1 shared connections)
+- [Community 397](Community_397.md) (1 shared connections)
+- [Community 607](Community_607.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 248](Community_248.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
 
 ## Audit Trail
 
-- EXTRACTED: 96 (83%)
-- INFERRED: 20 (17%)
+- EXTRACTED: 49 (94%)
+- INFERRED: 3 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

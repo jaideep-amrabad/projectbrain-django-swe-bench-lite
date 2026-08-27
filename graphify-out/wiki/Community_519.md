@@ -1,43 +1,48 @@
 # Community 519
 
-> 16 nodes · cohesion 0.14
+> 20 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **BaseValidator** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **MaxLengthValidator** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **TestValidators** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **.__call__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **.clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **.compare()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **.test_max_length_validator_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **.test_message_dict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **.test_message_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **.test_regex_validator_flags()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **.test_single_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **.clean()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **.compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **.test_validators()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **Person** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **admin_docs/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **.test_lazy_reference_checks()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **Company** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **.dummy_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **._get_full_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **Family** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **Group** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **.a_property()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **.add_image()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **.delete_image()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **.get_groups_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **.get_status_count()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **.rename_company()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **.save_changes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **.set_status()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **.suffix_company_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **Models for testing various aspects of the djang.contrib.admindocs app** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **Stores information about a person, related to :model:`myapp.Company`. **Notes**…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- **Get the full name of the person** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
 
 ## Relationships
 
-- [Community 419](Community_419.md) (8 shared connections)
-- [Community 72](Community_72.md) (4 shared connections)
-- [Community 37](Community_37.md) (3 shared connections)
-- [Community 107](Community_107.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 71](Community_71.md) (3 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 451](Community_451.md) (2 shared connections)
+- [Community 59](Community_59.md) (1 shared connections)
+- [Community 74](Community_74.md) (1 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_docs/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 26 (90%)
+- INFERRED: 3 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,46 +1,54 @@
 # Community 513
 
-> 22 nodes · cohesion 0.09
+> 34 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **InclusionTagTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **SimpleTagTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_no_render_side_effect()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_render_context_is_cleared()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_15070_use_l10n()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.verify_tag()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_inclusion_tag_registration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_inclusion_tags()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_inclusion_tags_from_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_simple_tag_escaping_autoescape_off()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_simple_tag_explicit_escaping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_simple_tag_format_html_escaping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_simple_tag_naive_escaping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_simple_tag_registration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_simple_tags()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_include_tag_missing_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_inclusion_tag_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **Inclusion tag passes down `use_l10n` of context to the Context of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **#23441 -- InclusionNode shouldn't modify its nodelist at render time.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **#24555 -- InclusionNode should push and pop the render_context stack when…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_simple_tag_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
-- **.test_simple_tag_missing_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **BaseMemcachedCache** (23 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.validate_key()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **MemcachedCache** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.get_backend_timeout()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **PyLibMCCache** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **MemcachedCacheDeprecationTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **PyMemcacheCache** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.add()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.set()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.set_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.touch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.touch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **An implementation of a cache binding using python-memcached** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **._cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.decr()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.delete_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.get_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.incr()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 38](Community_38.md) (10 shared connections)
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 70](Community_70.md) (2 shared connections)
+- [Community 605](Community_605.md) (6 shared connections)
+- [Community 101](Community_101.md) (2 shared connections)
+- [Community 274](Community_274.md) (2 shared connections)
+- [Community 275](Community_275.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 66 (94%)
+- INFERRED: 4 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

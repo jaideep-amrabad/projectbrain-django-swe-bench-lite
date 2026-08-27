@@ -1,54 +1,78 @@
 # Community 30
 
-> 34 nodes · cohesion 0.06
+> 203 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **DateFormat** (21 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.d()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.E()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.I()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.l()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.m()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.n()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.U()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.y()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.b()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.F()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.j()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.o()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.S()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.z()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Month, textual, 3 letters, lowercase; e.g. 'jan** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Day of the month, 2 digits with leading zeros; i.e. '01' to '31** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Day of the week, textual, 3 letters; e.g. 'Fri** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Alternative month names as required by some locales. Proprietary extension.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Month, textual, long; e.g. 'January** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **1' if Daylight Savings Time, '0' otherwise.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Day of the month without leading zeros; i.e. '1' to '31** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Day of the week, textual, long; e.g. 'Friday** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Boolean for whether it is a leap year; i.e. True or False** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Month; i.e. '01' to '12** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- *... and 9 more nodes in this community*
+- **GEOSGeometry** (118 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **GEOSTest** (84 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos.py`
+- **fromstr()** (59 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/factory.py`
+- **Polygon** (58 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/polygon.py`
+- **collections.py** (54 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/collections.py`
+- **geos/__init__.py** (51 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/__init__.py`
+- **geos/geometry.py** (49 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **GeometryCollection** (29 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/collections.py`
+- **LinearRing** (28 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- **test_geos.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos.py`
+- **MultiPoint** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/collections.py`
+- **linestring.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- **gis/shortcuts.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/shortcuts.py`
+- **MultiPolygon** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/collections.py`
+- **MultiLineString** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/collections.py`
+- **geos/coordseq.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **geos/prototypes/__init__.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/__init__.py`
+- **GEOSBase** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/base.py`
+- **geos/io.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/io.py`
+- **point.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
+- **geos/base.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/base.py`
+- **.test_deconstructible()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos.py`
+- **polygon.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/polygon.py`
+- **.test_emptyCollections()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos.py`
+- **test_io.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
+- *... and 178 more nodes in this community*
 
 ## Relationships
 
-- [Community 10](Community_10.md) (5 shared connections)
-- [Community 656](Community_656.md) (1 shared connections)
-- [Community 560](Community_560.md) (1 shared connections)
-- [Community 178](Community_178.md) (1 shared connections)
-- [Community 108](Community_108.md) (1 shared connections)
-- [Community 719](Community_719.md) (1 shared connections)
-- [Community 81](Community_81.md) (1 shared connections)
+- [Community 70](Community_70.md) (54 shared connections)
+- [Community 19](Community_19.md) (33 shared connections)
+- [Community 61](Community_61.md) (29 shared connections)
+- [Community 424](Community_424.md) (23 shared connections)
+- [Community 33](Community_33.md) (19 shared connections)
+- [Community 386](Community_386.md) (17 shared connections)
+- [Community 75](Community_75.md) (14 shared connections)
+- [Community 2](Community_2.md) (13 shared connections)
+- [Community 105](Community_105.md) (13 shared connections)
+- [Community 83](Community_83.md) (12 shared connections)
+- [Community 57](Community_57.md) (9 shared connections)
+- [Community 5](Community_5.md) (8 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/adapter.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/collections.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/error.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/factory.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/io.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/polygon.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prepared.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/shortcuts.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_serializers.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_geos.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (95%)
-- INFERRED: 2 (5%)
+- EXTRACTED: 754 (97%)
+- INFERRED: 23 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

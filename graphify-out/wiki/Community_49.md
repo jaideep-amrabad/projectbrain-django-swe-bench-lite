@@ -1,62 +1,70 @@
 # Community 49
 
-> 132 nodes · cohesion 0.03
+> 98 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **ChangeListTests** (97 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **admin_changelist/tests.py** (87 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **admin_changelist/admin.py** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **admin_changelist/models.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
-- **test_date_hierarchy.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
-- **._create_superuser()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **ChildAdmin** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **ConcertAdmin** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **._mocked_authenticated_request()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **EventAdmin** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **SwallowAdmin** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **.test_result_list_empty_changelist_value()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_result_list_html()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_result_list_set_empty_value_display_in_model_admin()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_result_list_set_empty_value_display_on_admin_site()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **Event** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
-- **Musician** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
-- **Parent** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
-- **.test_dynamic_list_display_links()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_no_list_display_links()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **CustomPaginationAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **CustomPaginator** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **DynamicListDisplayChildAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **DynamicListDisplayLinksChildAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **DynamicListFilterChildAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- *... and 107 more nodes in this community*
+- **View** (42 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **generic/__init__.py** (41 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/__init__.py`
+- **edit.py** (32 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **TemplateView** (24 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **detail.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **SingleObjectTemplateResponseMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **FormView** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **TemplateResponseMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **SingleObjectMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **ContextMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **BaseDetailView** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **ProcessFormView** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **forms_tests/views.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/views.py`
+- **BaseCreateView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **BaseUpdateView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **CreateView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **UpdateView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **nested_urls.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/nested_urls.py`
+- **classonlymethod** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **.get_object()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **DeletionMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **DetailView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **BaseDeleteView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **BaseFormView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **DeleteView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- *... and 73 more nodes in this community*
 
 ## Relationships
 
-- [Community 38](Community_38.md) (15 shared connections)
-- [Community 6](Community_6.md) (15 shared connections)
-- [Community 16](Community_16.md) (9 shared connections)
-- [Community 2](Community_2.md) (9 shared connections)
-- [Community 52](Community_52.md) (7 shared connections)
-- [Community 0](Community_0.md) (7 shared connections)
-- [Community 36](Community_36.md) (6 shared connections)
-- [Community 145](Community_145.md) (6 shared connections)
-- [Community 516](Community_516.md) (4 shared connections)
-- [Community 928](Community_928.md) (4 shared connections)
-- [Community 378](Community_378.md) (4 shared connections)
-- [Community 10](Community_10.md) (4 shared connections)
+- [Community 4](Community_4.md) (43 shared connections)
+- [Community 55](Community_55.md) (16 shared connections)
+- [Community 14](Community_14.md) (16 shared connections)
+- [Community 288](Community_288.md) (10 shared connections)
+- [Community 77](Community_77.md) (10 shared connections)
+- [Community 1](Community_1.md) (10 shared connections)
+- [Community 301](Community_301.md) (8 shared connections)
+- [Community 2](Community_2.md) (6 shared connections)
+- [Community 71](Community_71.md) (4 shared connections)
+- [Community 309](Community_309.md) (3 shared connections)
+- [Community 186](Community_186.md) (3 shared connections)
+- [Community 939](Community_939.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/urls/included.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/urls/namespace.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/urls/path_unused.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/nested_urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 363 (89%)
-- INFERRED: 46 (11%)
+- EXTRACTED: 298 (98%)
+- INFERRED: 6 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

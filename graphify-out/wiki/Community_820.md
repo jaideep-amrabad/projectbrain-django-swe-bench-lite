@@ -1,29 +1,31 @@
 # Community 820
 
-> 10 nodes · cohesion 0.33
+> 10 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **make_template_fragment_key()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/utils.py`
-- **TestMakeTemplateFragmentKey** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **cache/utils.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/utils.py`
-- **.test_long_vary_on()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_proper_escaping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_with_ints_vary_on()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_with_many_vary_on()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_with_one_vary_on()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_with_unicode_vary_on()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_without_vary_on()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **test_agnostic_order_trimjoin.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_agnostic_order_trimjoin.py`
+- **customers.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/customers.py`
+- **TestLookupQuery** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_agnostic_order_trimjoin.py`
+- **Address** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/customers.py`
+- **Customer** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/customers.py`
+- **Contact** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/customers.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/customers.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_agnostic_order_trimjoin.py`
+- **.test_deep_mixed_backward()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_agnostic_order_trimjoin.py`
+- **.test_deep_mixed_forward()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_agnostic_order_trimjoin.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 999](Community_999.md) (3 shared connections)
+- [Community 621](Community_621.md) (5 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/cache/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/customers.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_agnostic_order_trimjoin.py`
 
 ## Audit Trail
 

@@ -4,20 +4,21 @@
 
 ## Key Concepts
 
-- **test_client_regress/context_processors.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/context_processors.py`
-- **special()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/context_processors.py`
+- **.test_single()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **The optimizer does nothing on a single operation, and that it does it in just…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 659](Community_659.md) (1 shared connections)
+- [Community 687](Community_687.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/context_processors.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

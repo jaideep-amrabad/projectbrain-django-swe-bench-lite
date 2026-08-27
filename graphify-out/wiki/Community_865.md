@@ -1,41 +1,39 @@
 # Community 865
 
-> 10 nodes · cohesion 0.20
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **.func()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **.get_autocommit()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **.close_if_unusable_or_obsolete()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **.on_commit()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **.is_usable()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **.__get__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **Get the autocommit state.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **Test if the database connection is usable. This method may assume that…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **Close the current connection if unrecoverable errors have occurred or if it…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **Call the function and put the return value in instance.__dict__ so that…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **GeometryFieldTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **.test_field_string_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **.test_geom_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **.test_srid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **.test_to_python()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **.test_field_with_text_widget()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **.test_init()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **.test_to_python_different_map_srid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **Initialization of a geometry field with a valid/empty/invalid string. Only the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **Testing GeometryField initialization with defaults.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **Testing GeometryField with a SRID set.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **Testing GeometryField's handling of null (None) geometries.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **Testing GeometryField's handling of different geometry types.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **to_python() either returns a correct GEOSGeometry object or a ValidationError.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
 
 ## Relationships
 
-- [Community 41](Community_41.md) (4 shared connections)
-- [Community 71](Community_71.md) (2 shared connections)
-- [Community 755](Community_755.md) (1 shared connections)
-- [Community 834](Community_834.md) (1 shared connections)
-- [Community 43](Community_43.md) (1 shared connections)
-- [Community 837](Community_837.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 655](Community_655.md) (1 shared connections)
-- [Community 116](Community_116.md) (1 shared connections)
+- [Community 30](Community_30.md) (6 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 22 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

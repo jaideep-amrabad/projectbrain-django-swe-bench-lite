@@ -1,32 +1,33 @@
 # Community 890
 
-> 9 nodes · cohesion 0.28
+> 8 nodes · cohesion 0.39
 
 ## Key Concepts
 
-- **ResponseHeaders** (9 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **._convert_to_charset()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.__delitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.pop()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.__setitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **Populate the initial data using __setitem__ to ensure values are correctly…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **Convert headers key/value to ascii/latin-1 native strings. `charset` must be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.setdefault()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **wordwrap()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **FunctionTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_wordwrap.py`
+- **.test_wrap_lazy_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_wordwrap.py`
+- **.test_indent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_wordwrap.py`
+- **.test_indent2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_wordwrap.py`
+- **.test_non_string_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_wordwrap.py`
+- **.test_wrap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_wordwrap.py`
+- **Wrap words at `arg` line length.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 
 ## Relationships
 
-- [Community 52](Community_52.md) (2 shared connections)
-- [Community 193](Community_193.md) (1 shared connections)
-- [Community 494](Community_494.md) (1 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 236](Community_236.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 614](Community_614.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_wordwrap.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 19 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

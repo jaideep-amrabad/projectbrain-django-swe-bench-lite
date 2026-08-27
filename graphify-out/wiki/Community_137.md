@@ -1,61 +1,57 @@
 # Community 137
 
-> 70 nodes · cohesion 0.07
+> 67 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **SearchQuery** (55 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **SearchVector** (52 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **test_search.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **MultipleFieldsTest** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **TestCombinations** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **TestRankingAndWeights** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **SearchRank** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **SimpleSearchTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **Line** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- **GrailTestData** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **SearchVectorFieldTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **Scene** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- **SearchVectorIndexTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **.test_ranking_with_masked_normalization()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **.test_config_from_field_explicit()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **.test_web_search()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **.test_web_search_with_config()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **SearchQueryTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **.test_search_vector_index()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **.test_cover_density_ranking()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **.test_ranked_custom_weights()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **.test_ranking()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **.test_ranking_chaining()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **.test_ranking_with_normalization()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **.test_weights_in_vector()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- *... and 45 more nodes in this community*
+- **delete_regress/tests.py** (44 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- **delete_regress/models.py** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **DeleteCascadeTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- **ProxyDeleteTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- **DeleteCascadeTransactionTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- **DeleteTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- **.create_image()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- **Image** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **DeleteLockingTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- **FooFile** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **FooFileProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **Photo** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **Award** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **Book** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **Contact** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **Email** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **File** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **FooImage** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **FooPhoto** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **OrderedPerson** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **Researcher** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **LargeDeleteTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- **.test_delete_proxy_of_proxy()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- *... and 42 more nodes in this community*
 
 ## Relationships
 
-- [Community 417](Community_417.md) (21 shared connections)
-- [Community 37](Community_37.md) (16 shared connections)
-- [Community 192](Community_192.md) (8 shared connections)
-- [Community 496](Community_496.md) (7 shared connections)
-- [Community 23](Community_23.md) (4 shared connections)
-- [Community 379](Community_379.md) (3 shared connections)
-- [Community 953](Community_953.md) (3 shared connections)
-- [Community 90](Community_90.md) (3 shared connections)
-- [Community 21](Community_21.md) (3 shared connections)
-- [Community 196](Community_196.md) (2 shared connections)
-- [Community 40](Community_40.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
+- [Community 5](Community_5.md) (5 shared connections)
+- [Community 70](Community_70.md) (5 shared connections)
+- [Community 6](Community_6.md) (5 shared connections)
+- [Community 122](Community_122.md) (4 shared connections)
+- [Community 207](Community_207.md) (3 shared connections)
+- [Community 36](Community_36.md) (3 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 901](Community_901.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 215 (88%)
-- INFERRED: 30 (12%)
+- EXTRACTED: 131 (80%)
+- INFERRED: 33 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

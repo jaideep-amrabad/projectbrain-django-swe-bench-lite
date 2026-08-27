@@ -1,65 +1,48 @@
 # Community 268
 
-> 51 nodes · cohesion 0.05
+> 22 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **SimpleUploadedFile** (60 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- **FileAndImageFieldTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **ImageFieldTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
-- **FileFieldTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filefield.py`
-- **ValidatorCustomMessageTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_validators.py`
-- **TextFileForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **get_img_path()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
-- **.test_imagefield_annotate_with_bitmap_image_after_clean()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
-- **.test_corrupted_image()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
-- **.test_file_extension_validation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
-- **.test_imagefield_annotate_with_image_after_clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
-- **.test_clear_and_file_contradiction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_file_field_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_file_field_multiple_save()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_filefield_required_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_full_clear()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.from_dict()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- **.test_filefield_read()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_filefield_reopen()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_filefield_write()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_file_mode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_filefield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filefield.py`
-- **.test_filefield_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filefield.py`
-- **.test_filefield_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filefield.py`
-- **.test_filefield_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filefield.py`
-- *... and 26 more nodes in this community*
+- **File** (26 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **.__iter__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **endswith_cr()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **endswith_lf()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **equals_lf()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **.chunks()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **.multiple_chunks()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **Return True if line (a text or bytestring) ends with '\r'.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **.__enter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **.open()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **.size()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **Return True if line (a text or bytestring) equals '\n'.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **Read the file and yield chunks of ``chunk_size`` bytes (defaults to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **Return ``True`` if you can expect multiple chunks. NB: If a particular file…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
 
 ## Relationships
 
-- [Community 130](Community_130.md) (11 shared connections)
-- [Community 1](Community_1.md) (6 shared connections)
-- [Community 177](Community_177.md) (5 shared connections)
-- [Community 223](Community_223.md) (5 shared connections)
-- [Community 72](Community_72.md) (5 shared connections)
-- [Community 138](Community_138.md) (4 shared connections)
-- [Community 357](Community_357.md) (4 shared connections)
-- [Community 280](Community_280.md) (3 shared connections)
-- [Community 299](Community_299.md) (3 shared connections)
-- [Community 157](Community_157.md) (3 shared connections)
-- [Community 432](Community_432.md) (2 shared connections)
-- [Community 34](Community_34.md) (2 shared connections)
+- [Community 2](Community_2.md) (11 shared connections)
+- [Community 350](Community_350.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 146](Community_146.md) (1 shared connections)
+- [Community 885](Community_885.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_validators.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 109 (84%)
-- INFERRED: 21 (16%)
+- EXTRACTED: 39 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

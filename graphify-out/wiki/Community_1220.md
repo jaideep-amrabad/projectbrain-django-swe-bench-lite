@@ -1,22 +1,23 @@
 # Community 1220
 
-> 1 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **prepopulate_init.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/prepopulate_init.js`
+- **.test_redirect_http()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **GET a URL that redirects to an http URI** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 528](Community_528.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/prepopulate_init.js`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,52 +1,70 @@
 # Community 286
 
-> 40 nodes · cohesion 0.06
+> 43 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **GDALBand** (23 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **BandList** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.statistics()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.nodata_value()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.data()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.datatype()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **._flush()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.description()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.max()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.mean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.min()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.std()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.color_interp()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.height()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.pixel_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.width()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.bands()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **list** (1 connections)
-- **setter** (1 connections)
-- **Return the minimum pixel value for this band.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- *... and 15 more nodes in this community*
+- **MiddlewareMixin** (49 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- **test_middleware_mixin.py** (45 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_middleware_mixin.py`
+- **MiddlewareMixinTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_middleware_mixin.py`
+- **SecurityMiddleware** (10 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/security.py`
+- **RedirectFallbackMiddleware** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/redirects/middleware.py`
+- **middleware/clickjacking.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/clickjacking.py`
+- **XViewMiddleware** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/middleware.py`
+- **sites/middleware.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/middleware.py`
+- **CurrentSiteMiddleware** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/middleware.py`
+- **security.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/security.py`
+- **CSPMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **FlatpageFallbackMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/middleware.py`
+- **.test_sync_to_async_uses_base_thread_and_connection()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_middleware_mixin.py`
+- **.__acall__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- **._async_check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- **.test_sites_not_installed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
+- **.test_request()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **ChangeURLconfMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/middleware.py`
+- **NullChangeURLconfMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/middleware.py`
+- **ReverseInnerInResponseMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/middleware.py`
+- **.process_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/middleware.py`
+- **ReverseOuterInResponseMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/middleware.py`
+- **.process_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/middleware.py`
+- **.process_response()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/middleware.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/redirects/middleware.py`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [Community 45](Community_45.md) (7 shared connections)
-- [Community 68](Community_68.md) (4 shared connections)
-- [Community 163](Community_163.md) (1 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
+- [Community 4](Community_4.md) (20 shared connections)
+- [Community 2](Community_2.md) (19 shared connections)
+- [Community 71](Community_71.md) (16 shared connections)
+- [Community 9](Community_9.md) (7 shared connections)
+- [Community 126](Community_126.md) (6 shared connections)
+- [Community 14](Community_14.md) (5 shared connections)
+- [Community 186](Community_186.md) (4 shared connections)
+- [Community 539](Community_539.md) (4 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 27](Community_27.md) (4 shared connections)
+- [Community 372](Community_372.md) (3 shared connections)
+- [Community 443](Community_443.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/middleware.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/middleware.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/redirects/middleware.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/middleware.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/clickjacking.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/security.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_middleware_mixin.py`
+- `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/middleware.py`
 
 ## Audit Trail
 
-- EXTRACTED: 56 (92%)
-- INFERRED: 5 (8%)
+- EXTRACTED: 164 (92%)
+- INFERRED: 14 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

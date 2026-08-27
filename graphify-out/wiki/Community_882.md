@@ -1,31 +1,34 @@
 # Community 882
 
-> 9 nodes · cohesion 0.39
+> 8 nodes · cohesion 0.32
 
 ## Key Concepts
 
-- **LengthTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length.py`
-- **setup** (7 connections)
-- **.test_length05()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length.py`
-- **.test_length01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length.py`
-- **.test_length02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length.py`
-- **.test_length03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length.py`
-- **.test_length04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length.py`
-- **.test_length06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length.py`
-- **.test_length07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length.py`
+- **SiteManager** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- **.get_current()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- **._get_site_by_request()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- **.clear_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- **._get_site_by_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- **Return the current Site based on the SITE_ID in the project's settings. If…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- **Clear the ``Site`` object cache.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (3 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 89](Community_89.md) (1 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
+- [Community 694](Community_694.md) (1 shared connections)
+- [Community 55](Community_55.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 13 (87%)
+- INFERRED: 2 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

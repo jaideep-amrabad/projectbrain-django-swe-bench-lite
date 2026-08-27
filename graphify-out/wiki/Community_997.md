@@ -1,27 +1,32 @@
 # Community 997
 
-> 5 nodes · cohesion 0.40
+> 9 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **TestDeserializeDbFromString** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
-- **.test_circular_reference()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
-- **.test_circular_reference_with_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
-- **.test_self_reference()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
-- **.test_serialize_db_to_string_base_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- **AppDirectoriesFinder** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.find()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.find_in_app()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **A static files finder that looks in the directory of each app as specified in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **List all files in all app storages.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **Look for files in the app directories.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **Find a requested static file in an app's static locations.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
 
 ## Relationships
 
-- [Community 32](Community_32.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 638](Community_638.md) (1 shared connections)
+- [Community 281](Community_281.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

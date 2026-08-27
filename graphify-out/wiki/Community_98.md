@@ -1,57 +1,62 @@
 # Community 98
 
-> 78 nodes · cohesion 0.04
+> 87 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **MigrationGraph** (57 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **GraphTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
-- **Node** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **test_graph.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
-- **DummyNode** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **CircularDependencyError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- **NodeTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
-- **.forwards_plan()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.make_state()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.add_dependency()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.backwards_plan()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.iterative_dfs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.add_dummy_node()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **._generate_plan()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.leaf_nodes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **._nodes_and_edges()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.validate_consistency()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.test_circular_graph()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
-- **.test_complex_graph()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
-- **.test_infinite_loop()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
-- **.test_iterative_dfs_complexity()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
-- **.test_missing_child_nodes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
-- **.test_missing_parent_nodes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
-- **.test_plan_invalid_node()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
-- **.test_remove_replaced_nodes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
-- *... and 53 more nodes in this community*
+- **LookupTests** (59 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
+- **lookup/tests.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
+- **lookup/models.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **DecimalFieldLookupTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_decimalfield.py`
+- **lookup/test_decimalfield.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_decimalfield.py`
+- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **TimeFieldLookupTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_timefield.py`
+- **Author** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **IsNullWithNoneAsRHS** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **Season** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **lookup/test_timefield.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_timefield.py`
+- **Alarm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **Tag** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **Freebie** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **Game** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **Player** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **Product** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **Stock** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **.setUpTestData()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_decimalfield.py`
+- **.test_regex_backreferencing()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
+- **NulledTextField** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **NulledTransform** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
+- **.test_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
+- *... and 62 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (10 shared connections)
-- [Community 866](Community_866.md) (8 shared connections)
-- [Community 122](Community_122.md) (4 shared connections)
-- [Community 159](Community_159.md) (4 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 75](Community_75.md) (3 shared connections)
-- [Community 27](Community_27.md) (2 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
+- [Community 6](Community_6.md) (11 shared connections)
+- [Community 12](Community_12.md) (6 shared connections)
+- [Community 5](Community_5.md) (5 shared connections)
+- [Community 70](Community_70.md) (5 shared connections)
+- [Community 65](Community_65.md) (4 shared connections)
+- [Community 172](Community_172.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 95](Community_95.md) (2 shared connections)
+- [Community 28](Community_28.md) (2 shared connections)
+- [Community 22](Community_22.md) (2 shared connections)
+- [Community 74](Community_74.md) (2 shared connections)
+- [Community 159](Community_159.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
+- `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/lookup/test_decimalfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/lookup/test_timefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 140 (93%)
-- INFERRED: 10 (7%)
+- EXTRACTED: 145 (90%)
+- INFERRED: 17 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

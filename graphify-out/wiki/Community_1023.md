@@ -1,24 +1,23 @@
 # Community 1023
 
-> 5 nodes · cohesion 0.40
+> 5 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **AtomicMySQLTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_implicit_savepoint_rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **skipIf** (1 connections)
-- **skipUnless** (1 connections)
-- **MySQL implicitly rolls back savepoints when it deadlocks (#22291).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **ActionAdmin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
+- **.get_urls()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
+- **.remove_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
+- **A ModelAdmin for the Action model that changes the URL of the add_view to '<app…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
+- **Remove all entries named 'name' from the ModelAdmin instance URL patterns list** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 703](Community_703.md) (1 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
 
 ## Audit Trail
 

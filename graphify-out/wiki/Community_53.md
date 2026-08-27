@@ -1,61 +1,62 @@
 # Community 53
 
-> 118 nodes · cohesion 0.02
+> 113 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **.formfield()** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **DecimalField** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_prep_value()** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **CharField** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **DateField** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.deconstruct()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.__init__()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **TimeField** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **DateTimeField** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.to_python()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **FloatField** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **GenericIPAddressField** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **UUIDField** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **FilePathField** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **IPAddressField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **SlugField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.check()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **EmailField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **NullBooleanField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **URLField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.check()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_prep_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_prep_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_prep_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_prep_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- *... and 93 more nodes in this community*
+- **CsrfViewMiddleware** (66 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **CsrfViewMiddlewareTestMixin** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **post_form_view()** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- **token_view()** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- **._get_GET_no_csrf_cookie_request()** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **CsrfViewMiddlewareTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **CsrfViewMiddlewareUseSessionsTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **._get_POST_request_with_token()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **ensure_csrf_cookie_view()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- **._check_token_present()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.process_view()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **._get_POST_csrf_cookie_request()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_get_token_for_exempt_view()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_token_node_empty_csrf_cookie()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **._get_GET_csrf_cookie_request()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_csrf_token_in_header_with_customized_name()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_get_token_for_requires_csrf_token_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_https_bad_referer()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_https_csrf_trusted_origin_allowed()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_https_csrf_wildcard_trusted_origin_allowed()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_https_good_referer()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_https_good_referer_2()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **._test_https_good_referer_behind_proxy()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **._test_https_good_referer_matches_cookie_domain()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **._test_https_good_referer_matches_cookie_domain_with_different_port()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- *... and 88 more nodes in this community*
 
 ## Relationships
 
-- [Community 109](Community_109.md) (20 shared connections)
-- [Community 71](Community_71.md) (19 shared connections)
-- [Community 179](Community_179.md) (14 shared connections)
-- [Community 317](Community_317.md) (7 shared connections)
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 33](Community_33.md) (5 shared connections)
-- [Community 67](Community_67.md) (4 shared connections)
-- [Community 953](Community_953.md) (4 shared connections)
-- [Community 10](Community_10.md) (3 shared connections)
-- [Community 652](Community_652.md) (3 shared connections)
-- [Community 86](Community_86.md) (2 shared connections)
-- [Community 197](Community_197.md) (2 shared connections)
+- [Community 101](Community_101.md) (22 shared connections)
+- [Community 8](Community_8.md) (16 shared connections)
+- [Community 4](Community_4.md) (8 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 636](Community_636.md) (4 shared connections)
+- [Community 286](Community_286.md) (3 shared connections)
+- [Community 780](Community_780.md) (2 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 59](Community_59.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
+- [Community 1746](Community_1746.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
+- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 256 (98%)
-- INFERRED: 5 (2%)
+- EXTRACTED: 287 (86%)
+- INFERRED: 48 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

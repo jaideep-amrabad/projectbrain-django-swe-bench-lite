@@ -1,58 +1,56 @@
 # Community 379
 
-> 21 nodes · cohesion 0.15
+> 40 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **postgres/apps.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
-- **IndexExpression** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- **PostgresConfig** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
-- **uninstall_if_needed()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
-- **SearchLookup** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
-- **SearchVectorExact** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **.ready()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
-- **TrigramSimilar** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
-- **Unaccent** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
-- **RangeSerializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/serializers.py`
-- **postgres/serializers.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/serializers.py`
-- **.process_rhs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **.process_lhs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
-- **.as_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **.register_wrappers()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- **Undo the effects of PostgresConfig.ready() when django.contrib.postgres is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
-- **Transform** (1 connections)
-- **.serialize()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/serializers.py`
-- **.as_sqlite()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- **.set_wrapper_classes()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- **Order and wrap expressions for CREATE INDEX statements.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
+- **MessageCompilationTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **SendTestEmailManagementCommand** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_sendtestemail.py`
+- **IgnoreDirectoryCompilationTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **RunInTmpDirMixin** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
+- **copytree()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
+- **FuzzyTranslationTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **MultipleLocaleCompilationTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.setUp()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.test_fuzzy_compiling()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.test_nofuzzy_compiling()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.assertAllExist()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.assertNoneExist()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.test_ignores_based_on_pattern()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.test_multiple_locale_dirs_ignored()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.test_one_locale_dir_ignored()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **ProjectAndAppTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **AppCompilationTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.test_multiple_locales()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.test_one_locale()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **PathLibLocaleCompilationTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.test_locale_paths_pathlib()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **PoFileContentsTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **The mail should be sent to the email addresses specified in settings.MANAGERS.** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_sendtestemail.py`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [Community 61](Community_61.md) (7 shared connections)
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 231](Community_231.md) (5 shared connections)
-- [Community 431](Community_431.md) (4 shared connections)
-- [Community 90](Community_90.md) (3 shared connections)
-- [Community 137](Community_137.md) (3 shared connections)
-- [Community 156](Community_156.md) (3 shared connections)
-- [Community 69](Community_69.md) (2 shared connections)
-- [Community 140](Community_140.md) (2 shared connections)
-- [Community 39](Community_39.md) (2 shared connections)
-- [Community 953](Community_953.md) (2 shared connections)
-- [Community 232](Community_232.md) (1 shared connections)
+- [Community 11](Community_11.md) (19 shared connections)
+- [Community 13](Community_13.md) (14 shared connections)
+- [Community 8](Community_8.md) (6 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 719](Community_719.md) (1 shared connections)
+- [Community 657](Community_657.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/serializers.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/test_sendtestemail.py`
 
 ## Audit Trail
 
-- EXTRACTED: 64 (79%)
-- INFERRED: 17 (21%)
+- EXTRACTED: 96 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,54 +1,51 @@
 # Community 416
 
-> 27 nodes · cohesion 0.09
+> 26 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **SpatiaLiteOperations** (24 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **._get_spatialite_func()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **.spatialite_version_tuple()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **.lwgeom_version()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **.spatial_version()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **.spatialite_version()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **.convert_extent()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **.geos_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **.proj_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **.geo_db_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **.get_distance()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **.spatial_aggregate_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **.unsupported_functions()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **DatabaseOperations** (1 connections)
-- **Convert the polygon data received from SpatiaLite to min/max values.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **Return None because geometry columns are added via the `AddGeometryColumn`…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **Return the distance parameters for the given geometry field, lookup value, and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **Helper routine for calling SpatiaLite functions and returning their result. Any…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **Return the version of GEOS used by SpatiaLite as a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **Return the version of the PROJ library used by SpatiaLite.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **Return the version of LWGEOM library used by SpatiaLite.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **Return the SpatiaLite library version as a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **Return the SpatiaLite version as a tuple (version string, major, minor,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **Return the spatial aggregate SQL template and function for the given Aggregate…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **Determine the version of the SpatiaLite library.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- *... and 2 more nodes in this community*
+- **ExistingRelatedInstancesTests** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **known_related_objects/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/models.py`
+- **known_related_objects/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **Organiser** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/models.py`
+- **Pool** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/models.py`
+- **PoolStyle** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/models.py`
+- **Tournament** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/models.py`
+- **Existing related object instance caching. Queries are not redone when going…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_foreign_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_foreign_key_multiple_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_foreign_key_prefetch_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_one_to_one()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_one_to_one_multi_prefetch_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_one_to_one_multi_select_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_one_to_one_prefetch_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_one_to_one_select_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_queryset_and()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_queryset_or()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_queryset_or_different_cached_items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_queryset_or_only_one_with_precache()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_reverse_one_to_one()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_reverse_one_to_one_multi_prefetch_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_reverse_one_to_one_multi_select_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_reverse_one_to_one_prefetch_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 71](Community_71.md) (4 shared connections)
-- [Community 26](Community_26.md) (2 shared connections)
-- [Community 42](Community_42.md) (2 shared connections)
-- [Community 43](Community_43.md) (1 shared connections)
-- [Community 446](Community_446.md) (1 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
-- [Community 107](Community_107.md) (1 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/known_related_objects/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (89%)
-- INFERRED: 5 (11%)
+- EXTRACTED: 34 (89%)
+- INFERRED: 4 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

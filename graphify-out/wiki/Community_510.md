@@ -1,48 +1,58 @@
 # Community 510
 
-> 22 nodes · cohesion 0.10
+> 36 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **RecursiveM2MTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
-- **RecursiveSymmetricalM2MThroughTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
-- **m2m_recursive/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
-- **m2m_recursive/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/models.py`
-- **Person** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/models.py`
-- **Colleague** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/models.py`
-- **Many-to-many relationships between the same two tables In this example, a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/models.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
-- **.test_recursive_m2m_add_in_both_directions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
-- **.test_recursive_m2m_add_via_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
-- **.test_recursive_m2m_all()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
-- **.test_recursive_m2m_clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
-- **.test_recursive_m2m_related_to_self()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
-- **.test_recursive_m2m_remove()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
-- **.test_recursive_m2m_reverse_add()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
-- **.test_recursive_m2m_all()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
-- **.test_recursive_m2m_clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
-- **.test_recursive_m2m_remove()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
-- **.test_recursive_m2m_reverse_add()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
-- **.test_recursive_m2m_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **ASGIHandler** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **ASGIStaticFilesHandler** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **StaticFilesHandlerMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **.__call__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **TestASGIStaticFilesHandler** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_handlers.py`
+- **.send_response()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **.__call__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **.get_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **.serve()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **._should_handle()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **.read_body()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **.__call__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **.file_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **.get_base_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **.get_response_async()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **.chunk_bytes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **.get_script_prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **.handle_uncaught_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **.test_get_async_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_handlers.py`
+- **.test_get_async_response_not_found()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_handlers.py`
+- **Common methods used by WSGI and ASGI handlers.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **Check if the path should be handled. Ignore the path if: * the host is provided…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **Return the relative path to the media file on disk for the given URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
+- [Community 2](Community_2.md) (14 shared connections)
+- [Community 639](Community_639.md) (3 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 248](Community_248.md) (2 shared connections)
+- [Community 88](Community_88.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
+- [Community 114](Community_114.md) (1 shared connections)
+- [Community 133](Community_133.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_handlers.py`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (94%)
-- INFERRED: 2 (6%)
+- EXTRACTED: 70 (91%)
+- INFERRED: 7 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

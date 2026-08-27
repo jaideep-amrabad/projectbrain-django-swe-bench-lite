@@ -1,63 +1,75 @@
 # Community 26
 
-> 168 nodes · cohesion 0.01
+> 196 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **GEOSGeometryBase** (101 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **OracleOperations** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/operations.py`
-- **._topology()** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **wkb_r()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
-- **LinearGeometryMixin** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **.transform()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **Return True if the DE-9IM Intersection Matrix for the two geometries is…** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **._post_init()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **.clone()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **ewkb_w()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
-- **wkb_w()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
-- **.difference()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **.hex()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **.intersection()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **.relate_pattern()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **.__setstate__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **.sym_difference()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **.union()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **.__and__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **.boundary()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **.buffer()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **.buffer_with_style()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **.centroid()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **.convex_hull()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **.__copy__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- *... and 143 more nodes in this community*
+- **i18n/tests.py** (84 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.import_module()** (42 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **FormattingTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **get_format()** (25 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
+- **TranslationTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **activate()** (22 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **date_format()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
+- **SafeString** (15 connections) — `raw/code/hyd-evaluation/django-django/django/utils/safestring.py`
+- **deactivate()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **ClientMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **get_language_info()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **.test_l10n_disabled()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **localize_input()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
+- **time_format()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
+- **LocalizedDateTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **ResolutionOrderI18NTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **iter_format_modules()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
+- **i18n/forms.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/forms.py`
+- **i18n/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/models.py`
+- **FrenchTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
+- **.test_l10n_enabled()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **get_format_modules()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
+- **translation_file_changed()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/reloader.py`
+- **CustomDateInputFormatsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **CompanyForm** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/forms.py`
+- *... and 171 more nodes in this community*
 
 ## Relationships
 
-- [Community 42](Community_42.md) (28 shared connections)
-- [Community 71](Community_71.md) (15 shared connections)
-- [Community 12](Community_12.md) (4 shared connections)
-- [Community 244](Community_244.md) (4 shared connections)
-- [Community 301](Community_301.md) (2 shared connections)
-- [Community 416](Community_416.md) (2 shared connections)
-- [Community 678](Community_678.md) (2 shared connections)
-- [Community 194](Community_194.md) (2 shared connections)
-- [Community 163](Community_163.md) (2 shared connections)
-- [Community 952](Community_952.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 1](Community_1.md) (64 shared connections)
+- [Community 0](Community_0.md) (33 shared connections)
+- [Community 14](Community_14.md) (20 shared connections)
+- [Community 8](Community_8.md) (16 shared connections)
+- [Community 7](Community_7.md) (12 shared connections)
+- [Community 2](Community_2.md) (11 shared connections)
+- [Community 12](Community_12.md) (10 shared connections)
+- [Community 35](Community_35.md) (10 shared connections)
+- [Community 50](Community_50.md) (5 shared connections)
+- [Community 13](Community_13.md) (4 shared connections)
+- [Community 348](Community_348.md) (4 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/operations.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/operations.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
+- `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/middleware.py`
+- `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/safestring.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/reloader.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
 
 ## Audit Trail
 
-- EXTRACTED: 253 (93%)
-- INFERRED: 18 (7%)
+- EXTRACTED: 497 (91%)
+- INFERRED: 51 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---
