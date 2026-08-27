@@ -68,7 +68,6 @@ class ExtraInfo(models.Model):
     note = models.ForeignKey(Note, models.CASCADE, null=True)
     value = models.IntegerField(null=True)
     date = models.ForeignKey(DateTimePK, models.SET_NULL, null=True)
-    filterable = models.BooleanField(default=True)
 
     class Meta:
         ordering = ['info']
