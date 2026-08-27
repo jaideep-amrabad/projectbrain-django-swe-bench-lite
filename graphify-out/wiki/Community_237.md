@@ -1,6 +1,6 @@
 # Community 237
 
-> 46 nodes · cohesion 0.06
+> 44 nodes · cohesion 0.06
 
 ## Key Concepts
 
@@ -8,7 +8,6 @@
 - **BandAdmin** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
 - **AdminActionsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_actions.py`
 - **.test_log_actions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_no_exists_for_m2m_in_list_filter_without_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
 - **.test_get_actions_respects_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_actions.py`
 - **.test_custom_form_meta_exclude()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
 - **.test_custom_form_meta_exclude_with_readonly()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
@@ -29,33 +28,33 @@
 - **.test_field_arguments_restricted_on_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
 - **.test_formset_overriding_get_exclude_with_form_exclude()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
 - **.test_formset_overriding_get_exclude_with_form_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- *... and 21 more nodes in this community*
+- **.test_get_deleted_objects()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- *... and 19 more nodes in this community*
 
 ## Relationships
 
-- [Community 51](Community_51.md) (8 shared connections)
-- [Community 131](Community_131.md) (8 shared connections)
+- [Community 48](Community_48.md) (8 shared connections)
+- [Community 127](Community_127.md) (8 shared connections)
 - [Community 388](Community_388.md) (7 shared connections)
-- [Community 5](Community_5.md) (4 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 281](Community_281.md) (2 shared connections)
-- [Community 317](Community_317.md) (2 shared connections)
-- [Community 42](Community_42.md) (2 shared connections)
-- [Community 50](Community_50.md) (2 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 279](Community_279.md) (2 shared connections)
+- [Community 316](Community_316.md) (2 shared connections)
+- [Community 41](Community_41.md) (2 shared connections)
+- [Community 47](Community_47.md) (2 shared connections)
 - [Community 209](Community_209.md) (1 shared connections)
-- [Community 56](Community_56.md) (1 shared connections)
-- [Community 41](Community_41.md) (1 shared connections)
+- [Community 53](Community_53.md) (1 shared connections)
+- [Community 44](Community_44.md) (1 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_actions.py`
 - `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 66 (62%)
+- EXTRACTED: 64 (62%)
 - INFERRED: 40 (38%)
 - AMBIGUOUS: 0 (0%)
 

@@ -27,11 +27,11 @@
 
 ## Relationships
 
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 42](Community_42.md) (1 shared connections)
-- [Community 480](Community_480.md) (1 shared connections)
-- [Community 987](Community_987.md) (1 shared connections)
-- [Community 95](Community_95.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 507](Community_507.md) (1 shared connections)
+- [Community 1062](Community_1062.md) (1 shared connections)
+- [Community 82](Community_82.md) (1 shared connections)
 
 ## Source Files
 

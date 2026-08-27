@@ -1,6 +1,6 @@
 # Community 227
 
-> 44 nodes · cohesion 0.07
+> 46 nodes · cohesion 0.06
 
 ## Key Concepts
 
@@ -29,21 +29,21 @@
 - **.update_dimension_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
 - **.test_filefield_dangerous_filename()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
 - **.test_filefield_dangerous_filename_dot_segments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
-- *... and 19 more nodes in this community*
+- *... and 21 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 228](Community_228.md) (6 shared connections)
-- [Community 159](Community_159.md) (3 shared connections)
-- [Community 285](Community_285.md) (3 shared connections)
-- [Community 174](Community_174.md) (2 shared connections)
-- [Community 32](Community_32.md) (2 shared connections)
-- [Community 553](Community_553.md) (1 shared connections)
+- [Community 14](Community_14.md) (6 shared connections)
+- [Community 283](Community_283.md) (5 shared connections)
+- [Community 158](Community_158.md) (4 shared connections)
+- [Community 397](Community_397.md) (3 shared connections)
+- [Community 172](Community_172.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 552](Community_552.md) (1 shared connections)
 - [Community 188](Community_188.md) (1 shared connections)
-- [Community 853](Community_853.md) (1 shared connections)
+- [Community 849](Community_849.md) (1 shared connections)
 - [Community 210](Community_210.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
@@ -53,7 +53,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 85 (96%)
+- EXTRACTED: 87 (96%)
 - INFERRED: 4 (4%)
 - AMBIGUOUS: 0 (0%)
 

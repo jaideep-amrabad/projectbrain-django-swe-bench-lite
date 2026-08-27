@@ -14,7 +14,7 @@
 - **.test_atom_feed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
 - **.test_feed_last_modified_time_naive_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
 - **.test_get_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_naive_datetime_conversion()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_latest_post_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
 - **.test_template_context_feed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
 - **.test_template_feed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
 - **Test if the 'isPermaLink' attribute of <guid> element of an item in the RSS…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
@@ -33,12 +33,13 @@
 
 ## Relationships
 
-- [Community 79](Community_79.md) (4 shared connections)
-- [Community 161](Community_161.md) (3 shared connections)
-- [Community 271](Community_271.md) (3 shared connections)
-- [Community 42](Community_42.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 375](Community_375.md) (1 shared connections)
+- [Community 949](Community_949.md) (3 shared connections)
+- [Community 269](Community_269.md) (3 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 374](Community_374.md) (1 shared connections)
 
 ## Source Files
 

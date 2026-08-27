@@ -1,6 +1,6 @@
 # Community 210
 
-> 47 nodes · cohesion 0.08
+> 43 nodes · cohesion 0.09
 
 ## Key Concepts
 
@@ -14,12 +14,10 @@
 - **.stored_messages_count()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
 - **override_settings_tags** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
 - **.test_default_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_full_request_response_cycle()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
 - **.test_high_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
 - **.test_low_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
 - **.test_middleware_disabled()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
 - **.test_middleware_disabled_fail_silently()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_multiple_posts()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
 - **.test_settings_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
 - **set_level()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
 - **.test_add_lazy_translation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
@@ -29,20 +27,20 @@
 - **.test_existing_read_add_update()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
 - **.test_no_update()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
 - **.test_existing_read()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- *... and 22 more nodes in this community*
+- **.test_level_tag()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.test_tags()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [Community 73](Community_73.md) (10 shared connections)
-- [Community 9](Community_9.md) (7 shared connections)
-- [Community 16](Community_16.md) (6 shared connections)
-- [Community 591](Community_591.md) (3 shared connections)
-- [Community 856](Community_856.md) (2 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 766](Community_766.md) (1 shared connections)
-- [Community 266](Community_266.md) (1 shared connections)
-- [Community 35](Community_35.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 481](Community_481.md) (9 shared connections)
+- [Community 11](Community_11.md) (5 shared connections)
+- [Community 550](Community_550.md) (4 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 19](Community_19.md) (4 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 811](Community_811.md) (1 shared connections)
+- [Community 265](Community_265.md) (1 shared connections)
 - [Community 227](Community_227.md) (1 shared connections)
 
 ## Source Files
@@ -52,7 +50,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 118 (98%)
+- EXTRACTED: 110 (98%)
 - INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
