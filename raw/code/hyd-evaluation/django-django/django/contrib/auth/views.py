@@ -43,7 +43,6 @@ class LoginView(SuccessURLAllowedHostsMixin, FormView):
     """
     form_class = AuthenticationForm
     authentication_form = None
-    next_page = None
     redirect_field_name = REDIRECT_FIELD_NAME
     template_name = 'registration/login.html'
     redirect_authenticated_user = False
@@ -64,7 +63,8 @@ class LoginView(SuccessURLAllowedHostsMixin, FormView):
         return super().dispatch(request, *args, **kwargs)
 
     def get_success_url(self):
-        return self.get_redirect_url() or self.get_default_redirect_url()
+        url = self.get_redirect_url()
+        return url or resolve_url(settings.LOGIN_REDIRECT_URL)
 
     def get_redirect_url(self):
         """Return the user-originating redirect URL if it's safe."""
@@ -78,10 +78,6 @@ class LoginView(SuccessURLAllowedHostsMixin, FormView):
             require_https=self.request.is_secure(),
         )
         return redirect_to if url_is_safe else ''
-
-    def get_default_redirect_url(self):
-        """Return the default redirect URL."""
-        return resolve_url(self.next_page or settings.LOGIN_REDIRECT_URL)
 
     def get_form_class(self):
         return self.authentication_form or self.form_class

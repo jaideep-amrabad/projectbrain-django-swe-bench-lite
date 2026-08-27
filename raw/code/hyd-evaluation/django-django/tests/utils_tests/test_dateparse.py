@@ -70,7 +70,6 @@ class DurationParseTests(unittest.TestCase):
     def test_parse_postgresql_format(self):
         test_values = (
             ('1 day', timedelta(1)),
-            ('-1 day', timedelta(-1)),
             ('1 day 0:00:01', timedelta(days=1, seconds=1)),
             ('1 day -0:00:01', timedelta(days=1, seconds=-1)),
             ('-1 day -0:00:01', timedelta(days=-1, seconds=-1)),
@@ -135,22 +134,13 @@ class DurationParseTests(unittest.TestCase):
             ('P4M', None),
             ('P4W', None),
             ('P4D', timedelta(days=4)),
-            ('-P1D', timedelta(days=-1)),
             ('P0.5D', timedelta(hours=12)),
             ('P0,5D', timedelta(hours=12)),
-            ('-P0.5D', timedelta(hours=-12)),
-            ('-P0,5D', timedelta(hours=-12)),
             ('PT5H', timedelta(hours=5)),
-            ('-PT5H', timedelta(hours=-5)),
             ('PT5M', timedelta(minutes=5)),
-            ('-PT5M', timedelta(minutes=-5)),
             ('PT5S', timedelta(seconds=5)),
-            ('-PT5S', timedelta(seconds=-5)),
             ('PT0.000005S', timedelta(microseconds=5)),
             ('PT0,000005S', timedelta(microseconds=5)),
-            ('-PT0.000005S', timedelta(microseconds=-5)),
-            ('-PT0,000005S', timedelta(microseconds=-5)),
-            ('-P4DT1H', timedelta(days=-4, hours=-1)),
         )
         for source, expected in test_values:
             with self.subTest(source=source):

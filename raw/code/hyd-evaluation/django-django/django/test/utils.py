@@ -25,7 +25,6 @@ from django.db.models.options import Options
 from django.template import Template
 from django.test.signals import setting_changed, template_rendered
 from django.urls import get_script_prefix, set_script_prefix
-from django.utils.deprecation import RemovedInDjango50Warning
 from django.utils.translation import deactivate
 
 try:
@@ -157,18 +156,8 @@ def teardown_test_environment():
     del mail.outbox
 
 
-def setup_databases(
-    verbosity,
-    interactive,
-    *,
-    time_keeper=None,
-    keepdb=False,
-    debug_sql=False,
-    parallel=0,
-    aliases=None,
-    serialized_aliases=None,
-    **kwargs,
-):
+def setup_databases(verbosity, interactive, *, time_keeper=None, keepdb=False, debug_sql=False, parallel=0,
+                    aliases=None):
     """Create the test databases."""
     if time_keeper is None:
         time_keeper = NullTimeKeeper()
@@ -187,29 +176,11 @@ def setup_databases(
             if first_alias is None:
                 first_alias = alias
                 with time_keeper.timed("  Creating '%s'" % alias):
-                    # RemovedInDjango50Warning: when the deprecation ends,
-                    # replace with:
-                    # serialize_alias = serialized_aliases is None or alias in serialized_aliases
-                    try:
-                        serialize_alias = connection.settings_dict['TEST']['SERIALIZE']
-                    except KeyError:
-                        serialize_alias = (
-                            serialized_aliases is None or
-                            alias in serialized_aliases
-                        )
-                    else:
-                        warnings.warn(
-                            'The SERIALIZE test database setting is '
-                            'deprecated as it can be inferred from the '
-                            'TestCase/TransactionTestCase.databases that '
-                            'enable the serialized_rollback feature.',
-                            category=RemovedInDjango50Warning,
-                        )
                     connection.creation.create_test_db(
                         verbosity=verbosity,
                         autoclobber=not interactive,
                         keepdb=keepdb,
-                        serialize=serialize_alias,
+                        serialize=connection.settings_dict['TEST'].get('SERIALIZE', True),
                     )
                 if parallel > 1:
                     for index in range(parallel):
@@ -233,20 +204,6 @@ def setup_databases(
             connections[alias].force_debug_cursor = True
 
     return old_names
-
-
-def iter_test_cases(tests):
-    """
-    Return an iterator over a test suite's unittest.TestCase objects.
-
-    The tests argument can also be an iterable of TestCase objects.
-    """
-    for test in tests:
-        if isinstance(test, TestCase):
-            yield test
-        else:
-            # Otherwise, assume it is a test suite.
-            yield from iter_test_cases(test)
 
 
 def dependency_ordered(test_databases, dependencies):
@@ -323,14 +280,9 @@ def get_unique_databases_and_mirrors(aliases=None):
             # we only need to create the test database once.
             item = test_databases.setdefault(
                 connection.creation.test_db_signature(),
-                (connection.settings_dict['NAME'], []),
+                (connection.settings_dict['NAME'], set())
             )
-            # The default database must be the first because data migrations
-            # use the default alias by default.
-            if alias == DEFAULT_DB_ALIAS:
-                item[1].insert(0, alias)
-            else:
-                item[1].append(alias)
+            item[1].add(alias)
 
             if 'DEPENDENCIES' in test_settings:
                 dependencies[alias] = test_settings['DEPENDENCIES']

@@ -100,12 +100,12 @@ class SelectRelatedRegressTests(TestCase):
     def test_multi_table_inheritance(self):
         """ Exercising select_related() with multi-table model inheritance. """
         c1 = Child.objects.create(name="child1", value=42)
-        i1 = Item.objects.create(name="item1", child=c1)
-        i2 = Item.objects.create(name="item2")
+        Item.objects.create(name="item1", child=c1)
+        Item.objects.create(name="item2")
 
-        self.assertSequenceEqual(
+        self.assertQuerysetEqual(
             Item.objects.select_related("child").order_by("name"),
-            [i1, i2],
+            ["<Item: item1>", "<Item: item2>"]
         )
 
     def test_regression_12851(self):

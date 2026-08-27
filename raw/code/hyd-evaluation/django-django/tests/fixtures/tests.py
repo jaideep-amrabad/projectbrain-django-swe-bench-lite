@@ -1,4 +1,3 @@
-import gzip
 import os
 import sys
 import tempfile
@@ -40,13 +39,11 @@ class TestCaseFixtureLoadingTests(TestCase):
 
     def test_class_fixtures(self):
         "Test case has installed 3 fixture objects"
-        self.assertSequenceEqual(
-            Article.objects.values_list('headline', flat=True), [
-                'Django conquers world!',
-                'Copyright is fine the way it is',
-                'Poker has no place on ESPN',
-            ],
-        )
+        self.assertQuerysetEqual(Article.objects.all(), [
+            '<Article: Django conquers world!>',
+            '<Article: Copyright is fine the way it is>',
+            '<Article: Poker has no place on ESPN>',
+        ])
 
 
 class SubclassTestCaseFixtureLoadingTests(TestCaseFixtureLoadingTests):
@@ -81,26 +78,9 @@ class DumpDataAssertMixin:
             primary_keys=primary_keys,
         )
         if filename:
-            file_root, file_ext = os.path.splitext(filename)
-            compression_formats = {
-                '.bz2': (open, file_root),
-                '.gz': (gzip.open, filename),
-                '.lzma': (open, file_root),
-                '.xz': (open, file_root),
-                '.zip': (open, file_root),
-            }
-            if HAS_BZ2:
-                compression_formats['.bz2'] = (bz2.open, filename)
-            if HAS_LZMA:
-                compression_formats['.lzma'] = (lzma.open, filename)
-                compression_formats['.xz'] = (lzma.open, filename)
-            try:
-                open_method, file_path = compression_formats[file_ext]
-            except KeyError:
-                open_method, file_path = open, filename
-            with open_method(file_path, 'rt') as f:
+            with open(filename) as f:
                 command_output = f.read()
-            os.remove(file_path)
+            os.remove(filename)
         else:
             command_output = new_io.getvalue().strip()
         if format == "json":
@@ -118,10 +98,10 @@ class FixtureLoadingTests(DumpDataAssertMixin, TestCase):
         Site.objects.all().delete()
         # Load fixture 1. Single JSON file, with two objects.
         management.call_command('loaddata', 'fixture1.json', verbosity=0)
-        self.assertSequenceEqual(
-            Article.objects.values_list('headline', flat=True),
-            ['Time to reform copyright', 'Poker has no place on ESPN'],
-        )
+        self.assertQuerysetEqual(Article.objects.all(), [
+            '<Article: Time to reform copyright>',
+            '<Article: Poker has no place on ESPN>',
+        ])
 
         # Dump the current contents of the database as a JSON fixture
         self._dumpdata_assert(
@@ -204,33 +184,27 @@ class FixtureLoadingTests(DumpDataAssertMixin, TestCase):
 
         # Load fixture 2. JSON file imported by default. Overwrites some existing objects
         management.call_command('loaddata', 'fixture2.json', verbosity=0)
-        self.assertSequenceEqual(
-            Article.objects.values_list('headline', flat=True),
-            [
-                'Django conquers world!',
-                'Copyright is fine the way it is',
-                'Poker has no place on ESPN',
-            ],
-        )
+        self.assertQuerysetEqual(Article.objects.all(), [
+            '<Article: Django conquers world!>',
+            '<Article: Copyright is fine the way it is>',
+            '<Article: Poker has no place on ESPN>',
+        ])
 
         # Load fixture 3, XML format.
         management.call_command('loaddata', 'fixture3.xml', verbosity=0)
-        self.assertSequenceEqual(
-            Article.objects.values_list('headline', flat=True),
-            [
-                'XML identified as leading cause of cancer',
-                'Django conquers world!',
-                'Copyright is fine the way it is',
-                'Poker on TV is great!',
-            ],
-        )
+        self.assertQuerysetEqual(Article.objects.all(), [
+            '<Article: XML identified as leading cause of cancer>',
+            '<Article: Django conquers world!>',
+            '<Article: Copyright is fine the way it is>',
+            '<Article: Poker on TV is great!>',
+        ])
 
         # Load fixture 6, JSON file with dynamic ContentType fields. Testing ManyToOne.
         management.call_command('loaddata', 'fixture6.json', verbosity=0)
         self.assertQuerysetEqual(Tag.objects.all(), [
             '<Tag: <Article: Copyright is fine the way it is> tagged "copyright">',
             '<Tag: <Article: Copyright is fine the way it is> tagged "law">',
-        ], transform=repr, ordered=False)
+        ], ordered=False)
 
         # Load fixture 7, XML file with dynamic ContentType fields. Testing ManyToOne.
         management.call_command('loaddata', 'fixture7.xml', verbosity=0)
@@ -239,7 +213,7 @@ class FixtureLoadingTests(DumpDataAssertMixin, TestCase):
             '<Tag: <Article: Copyright is fine the way it is> tagged "legal">',
             '<Tag: <Article: Django conquers world!> tagged "django">',
             '<Tag: <Article: Django conquers world!> tagged "world domination">',
-        ], transform=repr, ordered=False)
+        ], ordered=False)
 
         # Load fixture 8, JSON file with dynamic Permission fields. Testing ManyToMany.
         management.call_command('loaddata', 'fixture8.json', verbosity=0)
@@ -247,7 +221,7 @@ class FixtureLoadingTests(DumpDataAssertMixin, TestCase):
             '<Visa: Django Reinhardt Can add user, Can change user, Can delete user>',
             '<Visa: Stephane Grappelli Can add user>',
             '<Visa: Prince >'
-        ], transform=repr, ordered=False)
+        ], ordered=False)
 
         # Load fixture 9, XML file with dynamic Permission fields. Testing ManyToMany.
         management.call_command('loaddata', 'fixture9.xml', verbosity=0)
@@ -255,18 +229,15 @@ class FixtureLoadingTests(DumpDataAssertMixin, TestCase):
             '<Visa: Django Reinhardt Can add user, Can change user, Can delete user>',
             '<Visa: Stephane Grappelli Can add user, Can delete user>',
             '<Visa: Artist formerly known as "Prince" Can change user>'
-        ], transform=repr, ordered=False)
+        ], ordered=False)
 
         # object list is unaffected
-        self.assertSequenceEqual(
-            Article.objects.values_list('headline', flat=True),
-            [
-                'XML identified as leading cause of cancer',
-                'Django conquers world!',
-                'Copyright is fine the way it is',
-                'Poker on TV is great!',
-            ],
-        )
+        self.assertQuerysetEqual(Article.objects.all(), [
+            '<Article: XML identified as leading cause of cancer>',
+            '<Article: Django conquers world!>',
+            '<Article: Copyright is fine the way it is>',
+            '<Article: Poker on TV is great!>',
+        ])
 
         # By default, you get raw keys on dumpdata
         self._dumpdata_assert(
@@ -419,15 +390,13 @@ class FixtureLoadingTests(DumpDataAssertMixin, TestCase):
     @unittest.skipIf(sys.platform == 'win32', "Windows doesn't support '?' in filenames.")
     def test_load_fixture_with_special_characters(self):
         management.call_command('loaddata', 'fixture_with[special]chars', verbosity=0)
-        self.assertEqual(
-            Article.objects.get().headline,
-            'How To Deal With Special Characters',
-        )
+        self.assertQuerysetEqual(Article.objects.all(), ['<Article: How To Deal With Special Characters>'])
 
     def test_dumpdata_with_filtering_manager(self):
         spy1 = Spy.objects.create(name='Paul')
         spy2 = Spy.objects.create(name='Alex', cover_blown=True)
-        self.assertSequenceEqual(Spy.objects.all(), [spy1])
+        self.assertQuerysetEqual(Spy.objects.all(),
+                                 ['<Spy: Paul>'])
         # Use the default manager
         self._dumpdata_assert(
             ['fixtures.Spy'],
@@ -510,66 +479,6 @@ class FixtureLoadingTests(DumpDataAssertMixin, TestCase):
             filename='dumpdata.json'
         )
 
-    def test_dumpdata_with_file_gzip_output(self):
-        management.call_command('loaddata', 'fixture1.json', verbosity=0)
-        self._dumpdata_assert(
-            ['fixtures'],
-            '[{"pk": 1, "model": "fixtures.category", "fields": {"description": "Latest news stories", "title": '
-            '"News Stories"}}, {"pk": 2, "model": "fixtures.article", "fields": {"headline": "Poker has no place '
-            'on ESPN", "pub_date": "2006-06-16T12:00:00"}}, {"pk": 3, "model": "fixtures.article", "fields": '
-            '{"headline": "Time to reform copyright", "pub_date": "2006-06-16T13:00:00"}}]',
-            filename='dumpdata.json.gz',
-        )
-
-    @unittest.skipUnless(HAS_BZ2, 'No bz2 library detected.')
-    def test_dumpdata_with_file_bz2_output(self):
-        management.call_command('loaddata', 'fixture1.json', verbosity=0)
-        self._dumpdata_assert(
-            ['fixtures'],
-            '[{"pk": 1, "model": "fixtures.category", "fields": {"description": "Latest news stories", "title": '
-            '"News Stories"}}, {"pk": 2, "model": "fixtures.article", "fields": {"headline": "Poker has no place '
-            'on ESPN", "pub_date": "2006-06-16T12:00:00"}}, {"pk": 3, "model": "fixtures.article", "fields": '
-            '{"headline": "Time to reform copyright", "pub_date": "2006-06-16T13:00:00"}}]',
-            filename='dumpdata.json.bz2',
-        )
-
-    @unittest.skipUnless(HAS_LZMA, 'No lzma library detected.')
-    def test_dumpdata_with_file_lzma_output(self):
-        management.call_command('loaddata', 'fixture1.json', verbosity=0)
-        self._dumpdata_assert(
-            ['fixtures'],
-            '[{"pk": 1, "model": "fixtures.category", "fields": {"description": "Latest news stories", "title": '
-            '"News Stories"}}, {"pk": 2, "model": "fixtures.article", "fields": {"headline": "Poker has no place '
-            'on ESPN", "pub_date": "2006-06-16T12:00:00"}}, {"pk": 3, "model": "fixtures.article", "fields": '
-            '{"headline": "Time to reform copyright", "pub_date": "2006-06-16T13:00:00"}}]',
-            filename='dumpdata.json.lzma',
-        )
-
-    @unittest.skipUnless(HAS_LZMA, 'No lzma library detected.')
-    def test_dumpdata_with_file_xz_output(self):
-        management.call_command('loaddata', 'fixture1.json', verbosity=0)
-        self._dumpdata_assert(
-            ['fixtures'],
-            '[{"pk": 1, "model": "fixtures.category", "fields": {"description": "Latest news stories", "title": '
-            '"News Stories"}}, {"pk": 2, "model": "fixtures.article", "fields": {"headline": "Poker has no place '
-            'on ESPN", "pub_date": "2006-06-16T12:00:00"}}, {"pk": 3, "model": "fixtures.article", "fields": '
-            '{"headline": "Time to reform copyright", "pub_date": "2006-06-16T13:00:00"}}]',
-            filename='dumpdata.json.xz',
-        )
-
-    def test_dumpdata_with_file_zip_output(self):
-        management.call_command('loaddata', 'fixture1.json', verbosity=0)
-        msg = "Unsupported file extension (.zip). Fixtures saved in 'dumpdata.json'."
-        with self.assertWarnsMessage(RuntimeWarning, msg):
-            self._dumpdata_assert(
-                ['fixtures'],
-                '[{"pk": 1, "model": "fixtures.category", "fields": {"description": "Latest news stories", "title": '
-                '"News Stories"}}, {"pk": 2, "model": "fixtures.article", "fields": {"headline": "Poker has no place '
-                'on ESPN", "pub_date": "2006-06-16T12:00:00"}}, {"pk": 3, "model": "fixtures.article", "fields": '
-                '{"headline": "Time to reform copyright", "pub_date": "2006-06-16T13:00:00"}}]',
-                filename='dumpdata.json.zip',
-            )
-
     def test_dumpdata_progressbar(self):
         """
         Dumpdata shows a progress bar on the command line when --output is set,
@@ -624,54 +533,50 @@ class FixtureLoadingTests(DumpDataAssertMixin, TestCase):
     def test_compress_format_loading(self):
         # Load fixture 4 (compressed), using format specification
         management.call_command('loaddata', 'fixture4.json', verbosity=0)
-        self.assertEqual(Article.objects.get().headline, 'Django pets kitten')
+        self.assertQuerysetEqual(Article.objects.all(), [
+            '<Article: Django pets kitten>',
+        ])
 
     def test_compressed_specified_loading(self):
         # Load fixture 5 (compressed), using format *and* compression specification
         management.call_command('loaddata', 'fixture5.json.zip', verbosity=0)
-        self.assertEqual(
-            Article.objects.get().headline,
-            'WoW subscribers now outnumber readers',
-        )
+        self.assertQuerysetEqual(Article.objects.all(), [
+            '<Article: WoW subscribers now outnumber readers>',
+        ])
 
     def test_compressed_loading(self):
         # Load fixture 5 (compressed), only compression specification
         management.call_command('loaddata', 'fixture5.zip', verbosity=0)
-        self.assertEqual(
-            Article.objects.get().headline,
-            'WoW subscribers now outnumber readers',
-        )
+        self.assertQuerysetEqual(Article.objects.all(), [
+            '<Article: WoW subscribers now outnumber readers>',
+        ])
 
     def test_compressed_loading_gzip(self):
         management.call_command('loaddata', 'fixture5.json.gz', verbosity=0)
-        self.assertEqual(
-            Article.objects.get().headline,
-            'WoW subscribers now outnumber readers',
-        )
+        self.assertQuerysetEqual(Article.objects.all(), [
+            '<Article: WoW subscribers now outnumber readers>',
+        ])
 
     @unittest.skipUnless(HAS_BZ2, 'No bz2 library detected.')
     def test_compressed_loading_bz2(self):
         management.call_command('loaddata', 'fixture5.json.bz2', verbosity=0)
-        self.assertEqual(
-            Article.objects.get().headline,
-            'WoW subscribers now outnumber readers',
-        )
+        self.assertQuerysetEqual(Article.objects.all(), [
+            '<Article: WoW subscribers now outnumber readers>',
+        ])
 
     @unittest.skipUnless(HAS_LZMA, 'No lzma library detected.')
     def test_compressed_loading_lzma(self):
         management.call_command('loaddata', 'fixture5.json.lzma', verbosity=0)
-        self.assertEqual(
-            Article.objects.get().headline,
-            'WoW subscribers now outnumber readers',
-        )
+        self.assertQuerysetEqual(Article.objects.all(), [
+            '<Article: WoW subscribers now outnumber readers>',
+        ])
 
     @unittest.skipUnless(HAS_LZMA, 'No lzma library detected.')
     def test_compressed_loading_xz(self):
         management.call_command('loaddata', 'fixture5.json.xz', verbosity=0)
-        self.assertEqual(
-            Article.objects.get().headline,
-            'WoW subscribers now outnumber readers',
-        )
+        self.assertQuerysetEqual(Article.objects.all(), [
+            '<Article: WoW subscribers now outnumber readers>',
+        ])
 
     def test_ambiguous_compressed_fixture(self):
         # The name "fixture5" is ambiguous, so loading raises an error.
@@ -683,13 +588,10 @@ class FixtureLoadingTests(DumpDataAssertMixin, TestCase):
         # Load db fixtures 1 and 2. These will load using the 'default' database identifier implicitly
         management.call_command('loaddata', 'db_fixture_1', verbosity=0)
         management.call_command('loaddata', 'db_fixture_2', verbosity=0)
-        self.assertSequenceEqual(
-            Article.objects.values_list('headline', flat=True),
-            [
-                'Who needs more than one database?',
-                'Who needs to use compressed data?',
-            ],
-        )
+        self.assertQuerysetEqual(Article.objects.all(), [
+            '<Article: Who needs more than one database?>',
+            '<Article: Who needs to use compressed data?>',
+        ])
 
     def test_loaddata_error_message(self):
         """
@@ -720,10 +622,9 @@ class FixtureLoadingTests(DumpDataAssertMixin, TestCase):
             management.call_command('loaddata', 'db_fixture_1', verbosity=0, app_label="someotherapp")
         self.assertQuerysetEqual(Article.objects.all(), [])
         management.call_command('loaddata', 'db_fixture_1', verbosity=0, app_label="fixtures")
-        self.assertEqual(
-            Article.objects.get().headline,
-            'Who needs more than one database?',
-        )
+        self.assertQuerysetEqual(Article.objects.all(), [
+            '<Article: Who needs more than one database?>',
+        ])
 
     def test_loaddata_verbosity_three(self):
         output = StringIO()
@@ -739,13 +640,10 @@ class FixtureLoadingTests(DumpDataAssertMixin, TestCase):
         # Load db fixtures 1 and 2. These will load using the 'default' database identifier explicitly
         management.call_command('loaddata', 'db_fixture_1', verbosity=0, database='default')
         management.call_command('loaddata', 'db_fixture_2', verbosity=0, database='default')
-        self.assertSequenceEqual(
-            Article.objects.values_list('headline', flat=True),
-            [
-                'Who needs more than one database?',
-                'Who needs to use compressed data?',
-            ],
-        )
+        self.assertQuerysetEqual(Article.objects.all(), [
+            '<Article: Who needs more than one database?>',
+            '<Article: Who needs to use compressed data?>',
+        ])
 
     def test_unmatched_identifier_loading(self):
         # Try to load db fixture 3. This won't load because the database identifier doesn't match
@@ -764,7 +662,7 @@ class FixtureLoadingTests(DumpDataAssertMixin, TestCase):
         self.assertQuerysetEqual(Tag.objects.all(), [
             '<Tag: <Article: Time to reform copyright> tagged "copyright">',
             '<Tag: <Article: Time to reform copyright> tagged "law">'
-        ], transform=repr, ordered=False)
+        ], ordered=False)
 
         # Dump the current contents of the database as a JSON fixture
         self._dumpdata_assert(
@@ -809,14 +707,14 @@ class FixtureLoadingTests(DumpDataAssertMixin, TestCase):
         management.call_command('loaddata', 'fixture1', exclude=['fixtures'], verbosity=0)
         self.assertFalse(Article.objects.exists())
         self.assertFalse(Category.objects.exists())
-        self.assertEqual(Site.objects.get().domain, 'example.com')
+        self.assertQuerysetEqual(Site.objects.all(), ['<Site: example.com>'])
 
     def test_loading_with_exclude_model(self):
         Site.objects.all().delete()
         management.call_command('loaddata', 'fixture1', exclude=['fixtures.Article'], verbosity=0)
         self.assertFalse(Article.objects.exists())
-        self.assertEqual(Category.objects.get().title, 'News Stories')
-        self.assertEqual(Site.objects.get().domain, 'example.com')
+        self.assertQuerysetEqual(Category.objects.all(), ['<Category: News Stories>'])
+        self.assertQuerysetEqual(Site.objects.all(), ['<Site: example.com>'])
 
     def test_exclude_option_errors(self):
         """Excluding a bogus app or model should raise an error."""
@@ -842,21 +740,18 @@ class FixtureLoadingTests(DumpDataAssertMixin, TestCase):
 
         with mock.patch('django.core.management.commands.loaddata.sys.stdin', open(fixture_json)):
             management.call_command('loaddata', '--format=json', '-', verbosity=0)
-            self.assertSequenceEqual(
-                Article.objects.values_list('headline', flat=True),
-                ['Time to reform copyright', 'Poker has no place on ESPN'],
-            )
+            self.assertQuerysetEqual(Article.objects.all(), [
+                '<Article: Time to reform copyright>',
+                '<Article: Poker has no place on ESPN>',
+            ])
 
         with mock.patch('django.core.management.commands.loaddata.sys.stdin', open(fixture_xml)):
             management.call_command('loaddata', '--format=xml', '-', verbosity=0)
-            self.assertSequenceEqual(
-                Article.objects.values_list('headline', flat=True),
-                [
-                    'XML identified as leading cause of cancer',
-                    'Time to reform copyright',
-                    'Poker on TV is great!',
-                ],
-            )
+            self.assertQuerysetEqual(Article.objects.all(), [
+                '<Article: XML identified as leading cause of cancer>',
+                '<Article: Time to reform copyright>',
+                '<Article: Poker on TV is great!>',
+            ])
 
 
 class NonexistentFixtureTests(TestCase):
@@ -894,10 +789,10 @@ class FixtureTransactionTests(DumpDataAssertMixin, TransactionTestCase):
     def test_format_discovery(self):
         # Load fixture 1 again, using format discovery
         management.call_command('loaddata', 'fixture1', verbosity=0)
-        self.assertSequenceEqual(
-            Article.objects.values_list('headline', flat=True),
-            ['Time to reform copyright', 'Poker has no place on ESPN'],
-        )
+        self.assertQuerysetEqual(Article.objects.all(), [
+            '<Article: Time to reform copyright>',
+            '<Article: Poker has no place on ESPN>',
+        ])
 
         # Try to load fixture 2 using format discovery; this will fail
         # because there are two fixture2's in the fixtures directory
@@ -906,10 +801,10 @@ class FixtureTransactionTests(DumpDataAssertMixin, TransactionTestCase):
             management.call_command('loaddata', 'fixture2', verbosity=0)
 
         # object list is unaffected
-        self.assertSequenceEqual(
-            Article.objects.values_list('headline', flat=True),
-            ['Time to reform copyright', 'Poker has no place on ESPN'],
-        )
+        self.assertQuerysetEqual(Article.objects.all(), [
+            '<Article: Time to reform copyright>',
+            '<Article: Poker has no place on ESPN>',
+        ])
 
         # Dump the current contents of the database as a JSON fixture
         self._dumpdata_assert(
@@ -922,14 +817,11 @@ class FixtureTransactionTests(DumpDataAssertMixin, TransactionTestCase):
 
         # Load fixture 4 (compressed), using format discovery
         management.call_command('loaddata', 'fixture4', verbosity=0)
-        self.assertSequenceEqual(
-            Article.objects.values_list('headline', flat=True),
-            [
-                'Django pets kitten',
-                'Time to reform copyright',
-                'Poker has no place on ESPN',
-            ],
-        )
+        self.assertQuerysetEqual(Article.objects.all(), [
+            '<Article: Django pets kitten>',
+            '<Article: Time to reform copyright>',
+            '<Article: Poker has no place on ESPN>',
+        ])
 
 
 class ForwardReferenceTests(DumpDataAssertMixin, TestCase):
@@ -969,9 +861,9 @@ class ForwardReferenceTests(DumpDataAssertMixin, TestCase):
         management.call_command('loaddata', 'forward_reference_m2m.json', verbosity=0)
         self.assertEqual(NaturalKeyThing.objects.count(), 3)
         t1 = NaturalKeyThing.objects.get_by_natural_key('t1')
-        self.assertSequenceEqual(
-            t1.other_things.order_by('key').values_list('key', flat=True),
-            ['t2', 't3'],
+        self.assertQuerysetEqual(
+            t1.other_things.order_by('key'),
+            ['<NaturalKeyThing: t2>', '<NaturalKeyThing: t3>']
         )
         self._dumpdata_assert(
             ['fixtures'],
@@ -991,9 +883,9 @@ class ForwardReferenceTests(DumpDataAssertMixin, TestCase):
         )
         self.assertEqual(NaturalKeyThing.objects.count(), 3)
         t1 = NaturalKeyThing.objects.get_by_natural_key('t1')
-        self.assertSequenceEqual(
-            t1.other_things.order_by('key').values_list('key', flat=True),
-            ['t2', 't3'],
+        self.assertQuerysetEqual(
+            t1.other_things.order_by('key'),
+            ['<NaturalKeyThing: t2>', '<NaturalKeyThing: t3>']
         )
         self._dumpdata_assert(
             ['fixtures'],

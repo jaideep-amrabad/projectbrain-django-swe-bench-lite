@@ -195,8 +195,9 @@ class Command(BaseCommand):
                                 )
                         # psycopg2 raises ValueError if data contains NUL chars.
                         except (DatabaseError, IntegrityError, ValueError) as e:
-                            e.args = ("Could not load %(object_label)s(pk=%(pk)s): %(error_msg)s" % {
-                                'object_label': obj.object._meta.label,
+                            e.args = ("Could not load %(app_label)s.%(object_name)s(pk=%(pk)s): %(error_msg)s" % {
+                                'app_label': obj.object._meta.app_label,
+                                'object_name': obj.object._meta.object_name,
                                 'pk': obj.object.pk,
                                 'error_msg': e,
                             },)

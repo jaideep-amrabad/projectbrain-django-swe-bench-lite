@@ -12,6 +12,7 @@ Usage:
 """
 import calendar
 import datetime
+import time
 from email.utils import format_datetime as format_datetime_rfc5322
 
 from django.utils.dates import (
@@ -19,8 +20,7 @@ from django.utils.dates import (
 )
 from django.utils.regex_helper import _lazy_re_compile
 from django.utils.timezone import (
-    _datetime_ambiguous_or_imaginary, get_default_timezone, is_naive,
-    make_aware,
+    get_default_timezone, is_aware, is_naive, make_aware,
 )
 from django.utils.translation import gettext as _
 
@@ -100,7 +100,11 @@ class TimeFormat(Formatter):
 
     def g(self):
         "Hour, 12-hour format without leading zeros; i.e. '1' to '12'"
-        return self.data.hour % 12 or 12
+        if self.data.hour == 0:
+            return 12
+        if self.data.hour > 12:
+            return self.data.hour - 12
+        return self.data.hour
 
     def G(self):
         "Hour, 24-hour format without leading zeros; i.e. '0' to '23'"
@@ -160,9 +164,15 @@ class TimeFormat(Formatter):
         if not self.timezone:
             return ""
 
-        if not _datetime_ambiguous_or_imaginary(self.data, self.timezone):
+        name = None
+        try:
             name = self.timezone.tzname(self.data)
-        else:
+        except Exception:
+            # pytz raises AmbiguousTimeError during the autumn DST change.
+            # This happens mainly when __init__ receives a naive datetime
+            # and sets self.timezone = get_default_timezone().
+            pass
+        if name is None:
             name = self.format('O')
         return str(name)
 
@@ -178,13 +188,16 @@ class TimeFormat(Formatter):
 
         If timezone information is not available, return an empty string.
         """
-        if (
-            not self.timezone or
-            _datetime_ambiguous_or_imaginary(self.data, self.timezone)
-        ):
+        if not self.timezone:
             return ""
 
-        offset = self.timezone.utcoffset(self.data)
+        try:
+            offset = self.timezone.utcoffset(self.data)
+        except Exception:
+            # pytz raises AmbiguousTimeError during the autumn DST change.
+            # This happens mainly when __init__ receives a naive datetime
+            # and sets self.timezone = get_default_timezone().
+            return ""
 
         # `offset` is a datetime.timedelta. For negative values (to the west of
         # UTC) only days can be negative (days=-1) and seconds are always
@@ -223,12 +236,16 @@ class DateFormat(TimeFormat):
 
     def I(self):  # NOQA: E743, E741
         "'1' if Daylight Savings Time, '0' otherwise."
-        if (
-            not self.timezone or
-            _datetime_ambiguous_or_imaginary(self.data, self.timezone)
-        ):
+        try:
+            if self.timezone and self.timezone.dst(self.data):
+                return '1'
+            else:
+                return '0'
+        except Exception:
+            # pytz raises AmbiguousTimeError during the autumn DST change.
+            # This happens mainly when __init__ receives a naive datetime
+            # and sets self.timezone = get_default_timezone().
             return ''
-        return '1' if self.timezone.dst(self.data) else '0'
 
     def j(self):
         "Day of the month without leading zeros; i.e. '1' to '31'"
@@ -294,10 +311,10 @@ class DateFormat(TimeFormat):
 
     def U(self):
         "Seconds since the Unix epoch (January 1 1970 00:00:00 GMT)"
-        value = self.data
-        if not isinstance(value, datetime.datetime):
-            value = datetime.datetime.combine(value, datetime.time.min)
-        return int(value.timestamp())
+        if isinstance(self.data, datetime.datetime) and is_aware(self.data):
+            return int(calendar.timegm(self.data.utctimetuple()))
+        else:
+            return int(time.mktime(self.data.timetuple()))
 
     def w(self):
         "Day of the week, numeric, i.e. '0' (Sunday) to '6' (Saturday)"
@@ -308,12 +325,12 @@ class DateFormat(TimeFormat):
         return self.data.isocalendar()[1]
 
     def y(self):
-        """Year, 2 digits with leading zeros; e.g. '99'."""
-        return '%02d' % (self.data.year % 100)
+        "Year, 2 digits; e.g. '99'"
+        return str(self.data.year)[2:]
 
     def Y(self):
-        """Year, 4 digits with leading zeros; e.g. '1999'."""
-        return '%04d' % self.data.year
+        "Year, 4 digits; e.g. '1999'"
+        return self.data.year
 
     def z(self):
         """Day of the year, i.e. 1 to 366."""

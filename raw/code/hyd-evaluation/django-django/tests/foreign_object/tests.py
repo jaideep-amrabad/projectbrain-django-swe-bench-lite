@@ -92,7 +92,7 @@ class MultiColumnFKTests(TestCase):
 
     def test_reverse_query_filters_correctly(self):
 
-        timemark = datetime.datetime.now(tz=datetime.timezone.utc).replace(tzinfo=None)
+        timemark = datetime.datetime.utcnow()
         timedelta = datetime.timedelta(days=1)
 
         # Creating a to valid memberships
@@ -408,15 +408,15 @@ class MultiColumnFKTests(TestCase):
         Person.objects.bulk_create(objs, 10)
 
     def test_isnull_lookup(self):
-        m1 = Membership.objects.create(membership_country=self.usa, person=self.bob, group_id=None)
-        m2 = Membership.objects.create(membership_country=self.usa, person=self.bob, group=self.cia)
-        self.assertSequenceEqual(
+        Membership.objects.create(membership_country=self.usa, person=self.bob, group_id=None)
+        Membership.objects.create(membership_country=self.usa, person=self.bob, group=self.cia)
+        self.assertQuerysetEqual(
             Membership.objects.filter(group__isnull=True),
-            [m1],
+            ['<Membership: Bob is a member of NULL>']
         )
-        self.assertSequenceEqual(
+        self.assertQuerysetEqual(
             Membership.objects.filter(group__isnull=False),
-            [m2],
+            ['<Membership: Bob is a member of CIA>']
         )
 
 

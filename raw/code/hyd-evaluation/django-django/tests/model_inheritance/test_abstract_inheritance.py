@@ -225,24 +225,19 @@ class AbstractInheritanceTests(SimpleTestCase):
             Foo._meta.get_field('foo').check(),
             [
                 Error(
-                    "Reverse accessor for 'model_inheritance.Foo.foo' clashes "
-                    "with field name 'model_inheritance.Descendant.foo'.",
+                    "Reverse accessor for 'Foo.foo' clashes with field name 'Descendant.foo'.",
                     hint=(
-                        "Rename field 'model_inheritance.Descendant.foo', or "
-                        "add/change a related_name argument to the definition "
-                        "for field 'model_inheritance.Foo.foo'."
+                        "Rename field 'Descendant.foo', or add/change a related_name "
+                        "argument to the definition for field 'Foo.foo'."
                     ),
                     obj=Foo._meta.get_field('foo'),
                     id='fields.E302',
                 ),
                 Error(
-                    "Reverse query name for 'model_inheritance.Foo.foo' "
-                    "clashes with field name "
-                    "'model_inheritance.Descendant.foo'.",
+                    "Reverse query name for 'Foo.foo' clashes with field name 'Descendant.foo'.",
                     hint=(
-                        "Rename field 'model_inheritance.Descendant.foo', or "
-                        "add/change a related_name argument to the definition "
-                        "for field 'model_inheritance.Foo.foo'."
+                        "Rename field 'Descendant.foo', or add/change a related_name "
+                        "argument to the definition for field 'Foo.foo'."
                     ),
                     obj=Foo._meta.get_field('foo'),
                     id='fields.E303',

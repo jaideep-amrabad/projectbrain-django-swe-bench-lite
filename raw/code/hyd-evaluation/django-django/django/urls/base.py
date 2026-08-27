@@ -1,4 +1,4 @@
-from urllib.parse import unquote, urlsplit, urlunsplit
+from urllib.parse import urlsplit, urlunsplit
 
 from asgiref.local import Local
 
@@ -163,8 +163,7 @@ def translate_url(url, lang_code):
     """
     parsed = urlsplit(url)
     try:
-        # URL may be encoded.
-        match = resolve(unquote(parsed.path))
+        match = resolve(parsed.path)
     except Resolver404:
         pass
     else:

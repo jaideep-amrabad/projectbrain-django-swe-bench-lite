@@ -123,9 +123,10 @@ class DatabaseCache(BaseDatabaseCache):
             now = now.replace(microsecond=0)
             if timeout is None:
                 exp = datetime.max
+            elif settings.USE_TZ:
+                exp = datetime.utcfromtimestamp(timeout)
             else:
-                tz = timezone.utc if settings.USE_TZ else None
-                exp = datetime.fromtimestamp(timeout, tz=tz)
+                exp = datetime.fromtimestamp(timeout)
             exp = exp.replace(microsecond=0)
             if num > self._max_entries:
                 self._cull(db, cursor, now)
@@ -224,7 +225,7 @@ class DatabaseCache(BaseDatabaseCache):
                 ),
                 keys,
             )
-            return bool(cursor.rowcount)
+        return bool(cursor.rowcount)
 
     def has_key(self, key, version=None):
         key = self.make_key(key, version=version)
@@ -234,7 +235,11 @@ class DatabaseCache(BaseDatabaseCache):
         connection = connections[db]
         quote_name = connection.ops.quote_name
 
-        now = timezone.now().replace(microsecond=0, tzinfo=None)
+        if settings.USE_TZ:
+            now = datetime.utcnow()
+        else:
+            now = datetime.now()
+        now = now.replace(microsecond=0)
 
         with connection.cursor() as cursor:
             cursor.execute(

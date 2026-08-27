@@ -17,7 +17,7 @@ from unittest import mock
 from django import conf, get_version
 from django.conf import settings
 from django.core.management import (
-    BaseCommand, CommandError, call_command, color, execute_from_command_line,
+    BaseCommand, CommandError, call_command, color,
 )
 from django.core.management.commands.loaddata import Command as LoaddataCommand
 from django.core.management.commands.runserver import (
@@ -31,7 +31,6 @@ from django.db.migrations.recorder import MigrationRecorder
 from django.test import (
     LiveServerTestCase, SimpleTestCase, TestCase, override_settings,
 )
-from django.test.utils import captured_stderr, captured_stdout
 
 custom_templates_dir = os.path.join(os.path.dirname(__file__), 'custom_templates')
 
@@ -61,7 +60,6 @@ class AdminScriptTestCase(SimpleTestCase):
                 settings_file.write("%s\n" % extra)
             exports = [
                 'DATABASES',
-                'DEFAULT_AUTO_FIELD',
                 'ROOT_URLCONF',
                 'SECRET_KEY',
             ]
@@ -167,12 +165,12 @@ class AdminScriptTestCase(SimpleTestCase):
 ##########################################################################
 # DJANGO ADMIN TESTS
 # This first series of test classes checks the environment processing
-# of the django-admin.
+# of the django-admin.py script
 ##########################################################################
 
 
 class DjangoAdminNoSettings(AdminScriptTestCase):
-    "A series of tests for django-admin when there is no settings.py file."
+    "A series of tests for django-admin.py when there is no settings.py file."
 
     def test_builtin_command(self):
         "no settings: django-admin builtin commands fail with an error when no settings provided"
@@ -207,8 +205,7 @@ class DjangoAdminNoSettings(AdminScriptTestCase):
 
 
 class DjangoAdminDefaultSettings(AdminScriptTestCase):
-    """
-    A series of tests for django-admin when using a settings.py file that
+    """A series of tests for django-admin.py when using a settings.py file that
     contains the test application.
     """
     def setUp(self):
@@ -274,8 +271,7 @@ class DjangoAdminDefaultSettings(AdminScriptTestCase):
 
 
 class DjangoAdminFullPathDefaultSettings(AdminScriptTestCase):
-    """
-    A series of tests for django-admin when using a settings.py file that
+    """A series of tests for django-admin.py when using a settings.py file that
     contains the test application specified using a full path.
     """
     def setUp(self):
@@ -342,8 +338,7 @@ class DjangoAdminFullPathDefaultSettings(AdminScriptTestCase):
 
 
 class DjangoAdminMinimalSettings(AdminScriptTestCase):
-    """
-    A series of tests for django-admin when using a settings.py file that
+    """A series of tests for django-admin.py when using a settings.py file that
     doesn't contain the test application.
     """
     def setUp(self):
@@ -409,9 +404,8 @@ class DjangoAdminMinimalSettings(AdminScriptTestCase):
 
 
 class DjangoAdminAlternateSettings(AdminScriptTestCase):
-    """
-    A series of tests for django-admin when using a settings file with a name
-    other than 'settings.py'.
+    """A series of tests for django-admin.py when using a settings file
+    with a name other than 'settings.py'.
     """
     def setUp(self):
         super().setUp()
@@ -476,8 +470,7 @@ class DjangoAdminAlternateSettings(AdminScriptTestCase):
 
 
 class DjangoAdminMultipleSettings(AdminScriptTestCase):
-    """
-    A series of tests for django-admin when multiple settings files
+    """A series of tests for django-admin.py when multiple settings files
     (including the default 'settings.py') are available. The default settings
     file is insufficient for performing the operations described, so the
     alternate settings must be used by the running script.
@@ -546,7 +539,7 @@ class DjangoAdminMultipleSettings(AdminScriptTestCase):
 
 class DjangoAdminSettingsDirectory(AdminScriptTestCase):
     """
-    A series of tests for django-admin when the settings file is in a
+    A series of tests for django-admin.py when the settings file is in a
     directory. (see #9751).
     """
 
@@ -1313,29 +1306,6 @@ class ManageRunserver(SimpleTestCase):
         # You have # ...
         self.assertIn('unapplied migration(s)', self.output.getvalue())
 
-    @mock.patch('django.core.management.commands.runserver.run')
-    @mock.patch('django.core.management.base.BaseCommand.check_migrations')
-    @mock.patch('django.core.management.base.BaseCommand.check')
-    def test_skip_checks(self, mocked_check, *mocked_objects):
-        call_command(
-            'runserver',
-            use_reloader=False,
-            skip_checks=True,
-            stdout=self.output,
-        )
-        self.assertNotIn('Performing system checks...', self.output.getvalue())
-        mocked_check.assert_not_called()
-
-        self.output.truncate(0)
-        call_command(
-            'runserver',
-            use_reloader=False,
-            skip_checks=False,
-            stdout=self.output,
-        )
-        self.assertIn('Performing system checks...', self.output.getvalue())
-        mocked_check.assert_called()
-
 
 class ManageRunserverMigrationWarning(TestCase):
 
@@ -1897,20 +1867,6 @@ class ArgumentOrder(AdminScriptTestCase):
         )
 
 
-class ExecuteFromCommandLine(SimpleTestCase):
-    def test_program_name_from_argv(self):
-        """
-        Program name is computed from the execute_from_command_line()'s argv
-        argument, not sys.argv.
-        """
-        args = ['help', 'shell']
-        with captured_stdout() as out, captured_stderr() as err:
-            with mock.patch('sys.argv', [None] + args):
-                execute_from_command_line(['django-admin'] + args)
-        self.assertIn('usage: django-admin shell', out.getvalue())
-        self.assertEqual(err.getvalue(), '')
-
-
 @override_settings(ROOT_URLCONF='admin_scripts.urls')
 class StartProject(LiveServerTestCase, AdminScriptTestCase):
 
@@ -2216,20 +2172,6 @@ class StartApp(AdminScriptTestCase):
             "already exists. Overlaying an app into an existing directory "
             "won't replace conflicting files."
         )
-
-    def test_template(self):
-        out, err = self.run_django_admin(['startapp', 'new_app'])
-        self.assertNoOutput(err)
-        app_path = os.path.join(self.test_dir, 'new_app')
-        self.assertIs(os.path.exists(app_path), True)
-        with open(os.path.join(app_path, 'apps.py')) as f:
-            content = f.read()
-            self.assertIn('class NewAppConfig(AppConfig)', content)
-            self.assertIn(
-                "default_auto_field = 'django.db.models.BigAutoField'",
-                content,
-            )
-            self.assertIn("name = 'new_app'", content)
 
 
 class DiffSettings(AdminScriptTestCase):

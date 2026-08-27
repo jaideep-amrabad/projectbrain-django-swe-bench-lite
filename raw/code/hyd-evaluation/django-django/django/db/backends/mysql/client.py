@@ -1,3 +1,5 @@
+import subprocess
+
 from django.db.backends.base.client import BaseDatabaseClient
 
 
@@ -5,13 +7,9 @@ class DatabaseClient(BaseDatabaseClient):
     executable_name = 'mysql'
 
     @classmethod
-    def settings_to_cmd_args_env(cls, settings_dict, parameters):
+    def settings_to_cmd_args(cls, settings_dict, parameters):
         args = [cls.executable_name]
-        env = None
-        database = settings_dict['OPTIONS'].get(
-            'database',
-            settings_dict['OPTIONS'].get('db', settings_dict['NAME']),
-        )
+        db = settings_dict['OPTIONS'].get('db', settings_dict['NAME'])
         user = settings_dict['OPTIONS'].get('user', settings_dict['USER'])
         password = settings_dict['OPTIONS'].get(
             'password',
@@ -31,14 +29,7 @@ class DatabaseClient(BaseDatabaseClient):
         if user:
             args += ["--user=%s" % user]
         if password:
-            # The MYSQL_PWD environment variable usage is discouraged per
-            # MySQL's documentation due to the possibility of exposure through
-            # `ps` on old Unix flavors but --password suffers from the same
-            # flaw on even more systems. Usage of an environment variable also
-            # prevents password exposure if the subprocess.run(check=True) call
-            # raises a CalledProcessError since the string representation of
-            # the latter includes all of the provided `args`.
-            env = {'MYSQL_PWD': password}
+            args += ["--password=%s" % password]
         if host:
             if '/' in host:
                 args += ["--socket=%s" % host]
@@ -54,7 +45,11 @@ class DatabaseClient(BaseDatabaseClient):
             args += ["--ssl-key=%s" % client_key]
         if charset:
             args += ['--default-character-set=%s' % charset]
-        if database:
-            args += [database]
+        if db:
+            args += [db]
         args.extend(parameters)
-        return args, env
+        return args
+
+    def runshell(self, parameters):
+        args = DatabaseClient.settings_to_cmd_args(self.connection.settings_dict, parameters)
+        subprocess.run(args, check=True)

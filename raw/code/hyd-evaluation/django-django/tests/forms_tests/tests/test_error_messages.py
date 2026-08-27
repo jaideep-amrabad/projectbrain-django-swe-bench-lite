@@ -8,7 +8,8 @@ from django.forms import (
     SplitDateTimeField, TimeField, URLField, utils,
 )
 from django.template import Context, Template
-from django.test import SimpleTestCase, TestCase
+from django.test import SimpleTestCase, TestCase, ignore_warnings
+from django.utils.deprecation import RemovedInDjango40Warning
 from django.utils.safestring import mark_safe
 
 from ..models import ChoiceModel
@@ -309,15 +310,23 @@ class ModelChoiceFieldErrorMessagesTestCase(TestCase, AssertFormErrorsMixin):
         self.assertFormErrors(['NOT A LIST OF VALUES'], f.clean, '3')
         self.assertFormErrors(['4 IS INVALID CHOICE'], f.clean, ['4'])
 
-    def test_modelchoicefield_value_placeholder(self):
-        f = ModelChoiceField(
+
+class DeprecationTests(TestCase, AssertFormErrorsMixin):
+    @ignore_warnings(category=RemovedInDjango40Warning)
+    def test_list_error_message(self):
+        f = ModelMultipleChoiceField(
             queryset=ChoiceModel.objects.all(),
-            error_messages={
-                'invalid_choice': '"%(value)s" is not one of the available choices.',
-            },
+            error_messages={'list': 'NOT A LIST OF VALUES'},
         )
-        self.assertFormErrors(
-            ['"invalid" is not one of the available choices.'],
-            f.clean,
-            'invalid',
+        self.assertFormErrors(['NOT A LIST OF VALUES'], f.clean, '3')
+
+    def test_list_error_message_warning(self):
+        msg = (
+            "The 'list' error message key is deprecated in favor of "
+            "'invalid_list'."
         )
+        with self.assertRaisesMessage(RemovedInDjango40Warning, msg):
+            ModelMultipleChoiceField(
+                queryset=ChoiceModel.objects.all(),
+                error_messages={'list': 'NOT A LIST OF VALUES'},
+            )

@@ -31,8 +31,3 @@ class PlainAppsConfig(AppConfig):
 class RelabeledAppsConfig(AppConfig):
     name = 'apps'
     label = 'relabeled'
-
-
-class ModelPKAppsConfig(AppConfig):
-    name = 'apps'
-    default_auto_field = 'django.db.models.BigAutoField'

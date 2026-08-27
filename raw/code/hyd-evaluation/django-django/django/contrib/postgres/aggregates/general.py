@@ -43,8 +43,7 @@ class BoolOr(Aggregate):
 
 class JSONBAgg(OrderableAggMixin, Aggregate):
     function = 'JSONB_AGG'
-    template = '%(function)s(%(distinct)s%(expressions)s %(ordering)s)'
-    allow_distinct = True
+    template = '%(function)s(%(expressions)s %(ordering)s)'
     output_field = JSONField()
 
     def convert_value(self, value, expression, connection):

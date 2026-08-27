@@ -246,10 +246,7 @@ class InlineFormsetTests(TestCase):
         formset.save()
         self.assertQuerysetEqual(
             dalnet.host_set.order_by("hostname"),
-            Host.objects.filter(hostname__in=[
-                'matrix.de.eu.dal.net',
-                'tranquility.hub.dal.net',
-            ]).order_by('hostname'),
+            ["<Host: matrix.de.eu.dal.net>", "<Host: tranquility.hub.dal.net>"]
         )
 
     def test_initial_data(self):
@@ -411,8 +408,8 @@ class FormfieldShouldDeleteFormTests(TestCase):
             fields = "__all__"
 
         def should_delete(self):
-            """Delete form if odd serial."""
-            return self.instance.serial % 2 != 0
+            """ delete form if odd PK """
+            return self.instance.pk % 2 != 0
 
     NormalFormset = modelformset_factory(User, form=CustomDeleteUserForm, can_delete=True)
     DeleteFormset = modelformset_factory(User, form=CustomDeleteUserForm, formset=BaseCustomDeleteModelFormSet)
@@ -495,14 +492,14 @@ class FormfieldShouldDeleteFormTests(TestCase):
         data.update(self.delete_all_ids)
         formset = self.DeleteFormset(data, queryset=User.objects.all())
 
-        # Three with odd serial values were deleted.
+        # verify two were deleted
         self.assertTrue(formset.is_valid())
         self.assertEqual(len(formset.save()), 0)
-        self.assertEqual(User.objects.count(), 1)
+        self.assertEqual(len(User.objects.all()), 2)
 
-        # No odd serial values left.
-        odd_serials = [user.serial for user in User.objects.all() if user.serial % 2]
-        self.assertEqual(len(odd_serials), 0)
+        # verify no "odd" PKs left
+        odd_ids = [user.pk for user in User.objects.all() if user.pk % 2]
+        self.assertEqual(len(odd_ids), 0)
 
 
 class RedeleteTests(TestCase):

@@ -5,7 +5,7 @@ from django.forms import ModelChoiceField
 from django.test import TestCase, override_settings
 from django.utils import translation
 
-from .models import Album, Band, ReleaseEvent, VideoStream
+from .models import Album, Band
 
 
 class AlbumForm(forms.ModelForm):
@@ -14,12 +14,12 @@ class AlbumForm(forms.ModelForm):
         fields = ['band', 'featuring']
         widgets = {
             'band': AutocompleteSelect(
-                Album._meta.get_field('band'),
+                Album._meta.get_field('band').remote_field,
                 admin.site,
                 attrs={'class': 'my-class'},
             ),
             'featuring': AutocompleteSelect(
-                Album._meta.get_field('featuring'),
+                Album._meta.get_field('featuring').remote_field,
                 admin.site,
             )
         }
@@ -41,18 +41,6 @@ class RequiredBandForm(forms.Form):
     )
 
 
-class VideoStreamForm(forms.ModelForm):
-    class Meta:
-        model = VideoStream
-        fields = ['release_event']
-        widgets = {
-            'release_event': AutocompleteSelect(
-                VideoStream._meta.get_field('release_event'),
-                admin.site,
-            ),
-        }
-
-
 @override_settings(ROOT_URLCONF='admin_widgets.urls')
 class AutocompleteMixinTests(TestCase):
     empty_option = '<option value=""></option>'
@@ -66,12 +54,9 @@ class AutocompleteMixinTests(TestCase):
             'data-ajax--cache': 'true',
             'data-ajax--delay': 250,
             'data-ajax--type': 'GET',
-            'data-ajax--url': '/autocomplete/',
+            'data-ajax--url': '/admin_widgets/band/autocomplete/',
             'data-theme': 'admin-autocomplete',
             'data-allow-clear': 'false',
-            'data-app-label': 'admin_widgets',
-            'data-field-name': 'band',
-            'data-model-name': 'album',
             'data-placeholder': ''
         })
 
@@ -91,19 +76,19 @@ class AutocompleteMixinTests(TestCase):
         self.assertJSONEqual(attrs['data-allow-clear'], False)
 
     def test_get_url(self):
-        rel = Album._meta.get_field('band')
+        rel = Album._meta.get_field('band').remote_field
         w = AutocompleteSelect(rel, admin.site)
         url = w.get_url()
-        self.assertEqual(url, '/autocomplete/')
+        self.assertEqual(url, '/admin_widgets/band/autocomplete/')
 
     def test_render_options(self):
         beatles = Band.objects.create(name='The Beatles', style='rock')
         who = Band.objects.create(name='The Who', style='rock')
         # With 'band', a ForeignKey.
-        form = AlbumForm(initial={'band': beatles.uuid})
+        form = AlbumForm(initial={'band': beatles.pk})
         output = form.as_table()
-        selected_option = '<option value="%s" selected>The Beatles</option>' % beatles.uuid
-        option = '<option value="%s">The Who</option>' % who.uuid
+        selected_option = '<option value="%s" selected>The Beatles</option>' % beatles.pk
+        option = '<option value="%s">The Who</option>' % who.pk
         self.assertIn(selected_option, output)
         self.assertNotIn(option, output)
         # With 'featuring', a ManyToManyField.
@@ -125,15 +110,6 @@ class AutocompleteMixinTests(TestCase):
         form = RequiredBandForm()
         output = form.as_table()
         self.assertNotIn(self.empty_option, output)
-
-    def test_render_options_fk_as_pk(self):
-        beatles = Band.objects.create(name='The Beatles', style='rock')
-        rubber_soul = Album.objects.create(name='Rubber Soul', band=beatles)
-        release_event = ReleaseEvent.objects.create(name='Test Target', album=rubber_soul)
-        form = VideoStreamForm(initial={'release_event': release_event.pk})
-        output = form.as_table()
-        selected_option = '<option value="%s" selected>Test Target</option>' % release_event.pk
-        self.assertIn(selected_option, output)
 
     def test_media(self):
         rel = Album._meta.get_field('band').remote_field

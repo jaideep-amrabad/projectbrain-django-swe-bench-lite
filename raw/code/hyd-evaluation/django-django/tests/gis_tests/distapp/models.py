@@ -29,7 +29,6 @@ class AustraliaCity(NamedModel):
     point = models.PointField()
     radius = models.IntegerField(default=10000)
     allowed_distance = models.FloatField(default=0.5)
-    ref_point = models.PointField(null=True)
 
 
 class CensusZipcode(NamedModel):

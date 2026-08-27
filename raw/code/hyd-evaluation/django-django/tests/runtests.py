@@ -2,7 +2,6 @@
 import argparse
 import atexit
 import copy
-import gc
 import os
 import shutil
 import socket
@@ -26,9 +25,10 @@ else:
     from django.test.selenium import SeleniumTestCaseBase
     from django.test.utils import NullTimeKeeper, TimeKeeper, get_runner
     from django.utils.deprecation import (
-        RemovedInDjango41Warning, RemovedInDjango50Warning,
+        RemovedInDjango40Warning, RemovedInDjango41Warning,
     )
     from django.utils.log import DEFAULT_LOGGING
+    from django.utils.version import PY37
 
 try:
     import MySQLdb
@@ -39,7 +39,7 @@ else:
     warnings.filterwarnings('ignore', r'\(1003, *', category=MySQLdb.Warning)
 
 # Make deprecation warnings errors to ensure no usage of deprecated features.
-warnings.simplefilter('error', RemovedInDjango50Warning)
+warnings.simplefilter("error", RemovedInDjango40Warning)
 warnings.simplefilter('error', RemovedInDjango41Warning)
 # Make resource and runtime warning errors to ensure no usage of error prone
 # patterns.
@@ -47,19 +47,6 @@ warnings.simplefilter("error", ResourceWarning)
 warnings.simplefilter("error", RuntimeWarning)
 # Ignore known warnings in test dependencies.
 warnings.filterwarnings("ignore", "'U' mode is deprecated", DeprecationWarning, module='docutils.io')
-# RemovedInDjango41Warning: Ignore MemcachedCache deprecation warning.
-warnings.filterwarnings(
-    'ignore',
-    'MemcachedCache is deprecated',
-    category=RemovedInDjango41Warning,
-)
-
-# Reduce garbage collection frequency to improve performance. Since CPython
-# uses refcounting, garbage collection only collects objects with cyclic
-# references, which are a minority, so the garbage collection threshold can be
-# larger than the default threshold of 700 allocations + deallocations without
-# much increase in memory usage.
-gc.set_threshold(100_000)
 
 RUNTESTS_DIR = os.path.abspath(os.path.dirname(__file__))
 
@@ -132,12 +119,19 @@ def get_installed():
     return [app_config.name for app_config in apps.get_app_configs()]
 
 
-def setup(verbosity, test_labels, start_at, start_after):
-    # Reduce each test label to just the top-level module part.
+def setup(verbosity, test_labels, parallel, start_at, start_after):
+    # Reduce the given test labels to just the app module path.
     test_labels_set = set()
     for label in test_labels:
-        test_module = label.split('.')[0]
-        test_labels_set.add(test_module)
+        bits = label.split('.')[:1]
+        test_labels_set.add('.'.join(bits))
+
+    if verbosity >= 1:
+        msg = "Testing against Django installed in '%s'" % os.path.dirname(django.__file__)
+        max_parallel = default_test_processes() if parallel == 0 else parallel
+        if max_parallel > 1:
+            msg += " with up to %d processes" % max_parallel
+        print(msg)
 
     # Force declaring available_apps in TransactionTestCase for faster tests.
     def no_available_apps(self):
@@ -159,7 +153,7 @@ def setup(verbosity, test_labels, start_at, start_after):
     # Redirect some settings for the duration of these tests.
     settings.INSTALLED_APPS = ALWAYS_INSTALLED_APPS
     settings.ROOT_URLCONF = 'urls'
-    settings.STATIC_URL = 'static/'
+    settings.STATIC_URL = '/static/'
     settings.STATIC_ROOT = os.path.join(TMPDIR, 'static')
     settings.TEMPLATES = [{
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -191,6 +185,7 @@ def setup(verbosity, test_labels, start_at, start_after):
     settings.LOGGING = log_config
     settings.SILENCED_SYSTEM_CHECKS = [
         'fields.W342',  # ForeignKey(unique=True) -> OneToOneField
+        'fields.W903',  # NullBooleanField deprecated.
     ]
 
     # Load all the ALWAYS_INSTALLED_APPS.
@@ -253,10 +248,6 @@ def setup(verbosity, test_labels, start_at, start_after):
 
     apps.set_installed_apps(settings.INSTALLED_APPS)
 
-    # Set an environment variable that other code may consult to see if
-    # Django's own test suite is running.
-    os.environ['RUNNING_DJANGOS_TEST_SUITE'] = 'true'
-
     return state
 
 
@@ -270,7 +261,6 @@ def teardown(state):
     # FileNotFoundError at the end of a test run (#27890).
     from multiprocessing.util import _finalizer_registry
     _finalizer_registry.pop((-100, 0), None)
-    del os.environ['RUNNING_DJANGOS_TEST_SUITE']
 
 
 def actual_test_processes(parallel):
@@ -302,18 +292,14 @@ def django_tests(verbosity, interactive, failfast, keepdb, reverse,
                  test_labels, debug_sql, parallel, tags, exclude_tags,
                  test_name_patterns, start_at, start_after, pdb, buffer,
                  timing):
-    if verbosity >= 1:
-        msg = "Testing against Django installed in '%s'" % os.path.dirname(django.__file__)
-        max_parallel = default_test_processes() if parallel == 0 else parallel
-        if max_parallel > 1:
-            msg += " with up to %d processes" % max_parallel
-        print(msg)
+    state = setup(verbosity, test_labels, parallel, start_at, start_after)
+    extra_tests = []
 
-    state = setup(verbosity, test_labels, start_at, start_after)
     # Run the test suite, including the extra validation tests.
     if not hasattr(settings, 'TEST_RUNNER'):
         settings.TEST_RUNNER = 'django.test.runner.DiscoverRunner'
     TestRunner = get_runner(settings)
+
     test_runner = TestRunner(
         verbosity=verbosity,
         interactive=interactive,
@@ -329,17 +315,12 @@ def django_tests(verbosity, interactive, failfast, keepdb, reverse,
         buffer=buffer,
         timing=timing,
     )
-    failures = test_runner.run_tests(test_labels or get_installed())
+    failures = test_runner.run_tests(
+        test_labels or get_installed(),
+        extra_tests=extra_tests,
+    )
     teardown(state)
     return failures
-
-
-def get_app_test_labels(verbosity, start_at, start_after):
-    test_labels = []
-    state = setup(verbosity, test_labels, start_at, start_after)
-    test_labels = get_installed()
-    teardown(state)
-    return test_labels
 
 
 def get_subprocess_args(options):
@@ -359,9 +340,10 @@ def get_subprocess_args(options):
     return subprocess_args
 
 
-def bisect_tests(bisection_label, options, test_labels, start_at, start_after):
-    if not test_labels:
-        test_labels = get_app_test_labels(options.verbosity, start_at, start_after)
+def bisect_tests(bisection_label, options, test_labels, parallel, start_at, start_after):
+    state = setup(options.verbosity, test_labels, parallel, start_at, start_after)
+
+    test_labels = test_labels or get_installed()
 
     print('***** Bisecting test suite: %s' % ' '.join(test_labels))
 
@@ -406,11 +388,13 @@ def bisect_tests(bisection_label, options, test_labels, start_at, start_after):
 
     if len(test_labels) == 1:
         print("***** Source of error: %s" % test_labels[0])
+    teardown(state)
 
 
-def paired_tests(paired_test, options, test_labels, start_at, start_after):
-    if not test_labels:
-        test_labels = get_app_test_labels(options.verbosity, start_at, start_after)
+def paired_tests(paired_test, options, test_labels, parallel, start_at, start_after):
+    state = setup(options.verbosity, test_labels, parallel, start_at, start_after)
+
+    test_labels = test_labels or get_installed()
 
     print('***** Trying paired execution')
 
@@ -433,6 +417,7 @@ def paired_tests(paired_test, options, test_labels, start_at, start_after):
             return
 
     print('***** No problem pair found')
+    teardown(state)
 
 
 if __name__ == "__main__":
@@ -532,13 +517,14 @@ if __name__ == "__main__":
         '--timing', action='store_true',
         help='Output timings, including database set up and total run time.',
     )
-    parser.add_argument(
-        '-k', dest='test_name_patterns', action='append',
-        help=(
-            'Only run test methods and classes matching test name pattern. '
-            'Same as unittest -k option. Can be used multiple times.'
-        ),
-    )
+    if PY37:
+        parser.add_argument(
+            '-k', dest='test_name_patterns', action='append',
+            help=(
+                'Only run test methods and classes matching test name pattern. '
+                'Same as unittest -k option. Can be used multiple times.'
+            ),
+        )
 
     options = parser.parse_args()
 
@@ -582,13 +568,13 @@ if __name__ == "__main__":
 
     if options.bisect:
         bisect_tests(
-            options.bisect, options, options.modules, options.start_at,
-            options.start_after,
+            options.bisect, options, options.modules, options.parallel,
+            options.start_at, options.start_after,
         )
     elif options.pair:
         paired_tests(
-            options.pair, options, options.modules, options.start_at,
-            options.start_after,
+            options.pair, options, options.modules, options.parallel,
+            options.start_at, options.start_after,
         )
     else:
         time_keeper = TimeKeeper() if options.timing else NullTimeKeeper()
