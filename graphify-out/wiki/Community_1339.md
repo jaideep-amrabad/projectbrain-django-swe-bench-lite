@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **test_migrations_squashed/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_squashed/__init__.py`
+- **django/db/backends/oracle/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_squashed/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/__init__.py`
 
 ## Audit Trail
 

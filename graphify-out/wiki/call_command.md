@@ -1,8 +1,8 @@
 # call_command()
 
-> God node · 263 connections · `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+> God node · 264 connections · `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
 
-**Community:** [Community 123](Community_123.md)
+**Community:** [Community 6](Community_6.md)
 
 ## Connections by Relation
 
@@ -15,6 +15,7 @@
 - .test_migrate_inconsistent_history() `EXTRACTED`
 - .test_migrate_record_replaced() `EXTRACTED`
 - .test_migrate_record_squashed() `EXTRACTED`
+- .test_showmigrations_list() `EXTRACTED`
 - .test_stdin_read() `EXTRACTED`
 - load_command_class() `EXTRACTED`
 - update_catalogs() `EXTRACTED`
@@ -26,7 +27,6 @@
 - ._collectstatic_output() `EXTRACTED`
 - .test_post_processing_failure() `EXTRACTED`
 - ._fixture_setup() `EXTRACTED`
-- .test_command_no_color() `EXTRACTED`
 
 ### contains
 - core/management/__init__.py `EXTRACTED`
@@ -39,8 +39,8 @@
 - geoapp/tests.py `EXTRACTED`
 - auth_tests/test_management.py `EXTRACTED`
 - test_runner/tests.py `EXTRACTED`
-- check_framework/tests.py `EXTRACTED`
 - test/runner.py `EXTRACTED`
+- check_framework/tests.py `EXTRACTED`
 - migrations/test_commands.py `EXTRACTED`
 - test_compilation.py `EXTRACTED`
 - test_storage.py `EXTRACTED`
