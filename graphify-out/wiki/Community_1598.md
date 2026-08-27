@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **good/templatetags/subpackage/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/good/templatetags/subpackage/__init__.py`
+- **grandchild_module.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/child_module/grandchild_module.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/good/templatetags/subpackage/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/child_module/grandchild_module.py`
 
 ## Audit Trail
 

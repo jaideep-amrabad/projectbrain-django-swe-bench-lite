@@ -1,8 +1,8 @@
 # Q
 
-> God node · 212 connections · `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+> God node · 215 connections · `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
 
-**Community:** [Community 123](Community_123.md)
+**Community:** [Community 56](Community_56.md)
 
 ## Connections by Relation
 
@@ -17,16 +17,16 @@
 - .delete_batch() `EXTRACTED`
 - .test_partial_gin_index() `EXTRACTED`
 - .test_partial_gin_index_with_tablespace() `EXTRACTED`
+- update_proxy_model_permissions() `INFERRED`
 - .test_annotation_disjunction() `INFERRED`
 - .test_conditional_aggregate_on_complex_condition() `INFERRED`
+- .test_filtered_aggregate_ref_subquery_annotation() `INFERRED`
 - .test_combined_q_object() `INFERRED`
 - .test_aggregate_subquery_annotation() `INFERRED`
 - .test_all_gis_lookups_with_rasters() `INFERRED`
-- .test_dwithin_gis_lookup_ouptut_with_rasters() `INFERRED`
+- .test_dwithin_gis_lookup_output_with_rasters() `INFERRED`
 - .__init__() `EXTRACTED`
 - .get_reverse_related_filter() `EXTRACTED`
-- .delete_qs() `EXTRACTED`
-- .test_multiple_conditions() `EXTRACTED`
 
 ### contains
 - query_utils.py `EXTRACTED`

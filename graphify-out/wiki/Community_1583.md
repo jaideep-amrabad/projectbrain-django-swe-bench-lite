@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **sites_framework/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/__init__.py`
+- **tagged/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/tagged/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/sites_framework/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/tagged/__init__.py`
 
 ## Audit Trail
 

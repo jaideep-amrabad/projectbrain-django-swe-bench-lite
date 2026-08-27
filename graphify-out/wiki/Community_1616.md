@@ -1,23 +1,34 @@
 # Community 1616
 
-> 1 nodes · cohesion 1.00
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **test_runner/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/__init__.py`
+- **AddField** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **Add a field to a model.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 88](Community_88.md) (3 shared connections)
+- [Community 720](Community_720.md) (2 shared connections)
+- [Community 92](Community_92.md) (1 shared connections)
+- [Community 16](Community_16.md) (1 shared connections)
+- [Community 170](Community_170.md) (1 shared connections)
+- [Community 915](Community_915.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 14 (93%)
+- INFERRED: 1 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

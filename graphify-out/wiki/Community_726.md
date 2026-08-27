@@ -1,35 +1,35 @@
 # Community 726
 
-> 11 nodes · cohesion 0.42
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **ExecuteWrapperTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.mock_wrapper()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.test_nested_wrapper_invoked()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.call_execute()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.call_executemany()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.test_database_queried()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.test_wrapper_connection_specific()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.test_wrapper_invoked()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.test_wrapper_invoked_many()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.test_outer_wrapper_blocks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.test_wrapper_gets_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- **.get_object()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **.get_context_data()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **.get_queryset()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **.get_context_object_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **.get_slug_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **Return the object the view is displaying. Require `self.queryset` and a `pk` or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **Return the `QuerySet` that will be used to look up the object. This method is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **Get the name of a slug field to be used to look up by slug.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **Get the name to use for the object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **Insert the single object into the context dict.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
 
 ## Relationships
 
-- [Community 177](Community_177.md) (6 shared connections)
-- [Community 67](Community_67.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 67](Community_67.md) (6 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (81%)
-- INFERRED: 6 (19%)
+- EXTRACTED: 18 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

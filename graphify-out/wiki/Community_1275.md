@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **app_template/api.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/custom_templates/app_template/api.py`
+- **contains_tuple.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/contains_tuple.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/custom_templates/app_template/api.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/contains_tuple.py`
 
 ## Audit Trail
 

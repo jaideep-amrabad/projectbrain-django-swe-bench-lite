@@ -2,7 +2,7 @@
 
 > God node · 264 connections · `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
 
-**Community:** [Community 79](Community_79.md)
+**Community:** [Community 49](Community_49.md)
 
 ## Connections by Relation
 
@@ -39,8 +39,8 @@
 - geoapp/tests.py `EXTRACTED`
 - auth_tests/test_management.py `EXTRACTED`
 - test_runner/tests.py `EXTRACTED`
-- check_framework/tests.py `EXTRACTED`
 - test/runner.py `EXTRACTED`
+- check_framework/tests.py `EXTRACTED`
 - migrations/test_commands.py `EXTRACTED`
 - test_compilation.py `EXTRACTED`
 - test_storage.py `EXTRACTED`

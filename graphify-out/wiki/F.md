@@ -1,8 +1,8 @@
 # F
 
-> God node · 310 connections · `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+> God node · 315 connections · `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
 
-**Community:** [Community 8](Community_8.md)
+**Community:** [Community 44](Community_44.md)
 
 ## Connections by Relation
 
@@ -17,6 +17,7 @@
 - .datetimes() `EXTRACTED`
 - .test_case_aggregate() `EXTRACTED`
 - .test_custom_functions() `EXTRACTED`
+- .test_extract_year_exact_lookup() `EXTRACTED`
 - .test_annotate_with_in_clause() `EXTRACTED`
 - .test_filter_with_aggregation_in_condition() `EXTRACTED`
 - .test_fail_insert() `EXTRACTED`
@@ -26,7 +27,6 @@
 - .test_range_n_preceding_and_following() `EXTRACTED`
 - .test_range_unbound() `EXTRACTED`
 - .test_rank() `EXTRACTED`
-- .test_row_range_rank() `EXTRACTED`
 
 ### contains
 - expressions.py `EXTRACTED`
@@ -41,6 +41,7 @@
 - modeladmin/test_checks.py `EXTRACTED`
 - timezones/tests.py `EXTRACTED`
 - admin/checks.py `EXTRACTED`
+- test_extract_trunc.py `EXTRACTED`
 - expressions_window/tests.py `EXTRACTED`
 - main.py `EXTRACTED`
 - aggregation_regress/tests.py `EXTRACTED`
@@ -51,7 +52,6 @@
 - test_query.py `EXTRACTED`
 - test_search.py `EXTRACTED`
 - queries/test_bulk_update.py `EXTRACTED`
-- admin_ordering/tests.py `EXTRACTED`
 
 ### inherits
 - OuterRef `EXTRACTED`

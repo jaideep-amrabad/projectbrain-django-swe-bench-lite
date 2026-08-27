@@ -1,30 +1,30 @@
 # Community 848
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **QuerySetBitwiseOperationTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_or_with_both_slice()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_or_with_both_slice_and_ordering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_or_with_lhs_slice()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_or_with_rhs_slice()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **FixedOffset** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **.dst()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **.tzname()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **.utcoffset()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **Fixed offset in minutes east from UTC. Taken from Python's docs. Kept as close…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **tzinfo** (1 connections)
 
 ## Relationships
 
-- [Community 11](Community_11.md) (3 shared connections)
-- [Community 45](Community_45.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 58](Community_58.md) (1 shared connections)
+- [Community 189](Community_189.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (80%)
-- INFERRED: 2 (20%)
+- EXTRACTED: 7 (88%)
+- INFERRED: 1 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,8 +1,8 @@
 # override_settings
 
-> God node · 1206 connections · `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+> God node · 1208 connections · `raw/code/hyd-evaluation/django-django/django/test/utils.py`
 
-**Community:** [Community 9](Community_9.md)
+**Community:** [Community 13](Community_13.md)
 
 ## Connections by Relation
 
@@ -82,9 +82,9 @@
 - DetailViewTest `EXTRACTED`
 - CreatesuperuserManagementCommandTestCase `EXTRACTED`
 - CollectionTestCase `EXTRACTED`
+- SyndicationFeedTest `EXTRACTED`
 - TestUtilsHashPass `EXTRACTED`
 - ConditionalGet `EXTRACTED`
-- SyndicationFeedTest `EXTRACTED`
 - FileUploadTests `EXTRACTED`
 - CommandTests `EXTRACTED`
 - DummyCacheTests `EXTRACTED`
