@@ -1,41 +1,45 @@
 # Community 679
 
-> 15 nodes · cohesion 0.16
+> 15 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **DateFieldTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
-- **GetDate** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
-- **.test_l10n_date_changed()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
-- **.test_form_label_association()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
-- **.test_l10n_invalid_date_in()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
-- **.test_datefield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
-- **.test_datefield_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
-- **.test_datefield_strptime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
-- **.test_form_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
-- **.test_datefield_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
-- **.test_datefield_4()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
-- **.test_datefield_5()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
-- **.test_datefield_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
-- **field.strptime() doesn't raise a UnicodeEncodeError (#16123)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
-- **DateField.has_changed() with SelectDateWidget works with a localized date…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **SessionStore** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
+- **.create_model_instance()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
+- **.save()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
+- **.get_model_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
+- **._get_session_from_db()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
+- **.model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
+- **.clear_expired()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
+- **.create()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
+- **.load()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
+- **Implement database session store.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
+- **Return a new instance of the session model object, which represents the current…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
+- **Save the current session data to the database. If 'must_create' is True, raise…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
+- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
+- **.exists()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 604](Community_604.md) (1 shared connections)
+- [Community 6](Community_6.md) (4 shared connections)
+- [Community 317](Community_317.md) (3 shared connections)
+- [Community 598](Community_598.md) (2 shared connections)
+- [Community 621](Community_621.md) (2 shared connections)
+- [Community 110](Community_110.md) (1 shared connections)
+- [Community 829](Community_829.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 107](Community_107.md) (1 shared connections)
+- [Community 256](Community_256.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (89%)
-- INFERRED: 3 (11%)
+- EXTRACTED: 28 (78%)
+- INFERRED: 8 (22%)
 - AMBIGUOUS: 0 (0%)
 
 ---

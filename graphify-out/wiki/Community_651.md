@@ -1,48 +1,44 @@
 # Community 651
 
-> 20 nodes · cohesion 0.11
+> 13 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **ArticleAdmin** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **AdminTemplateTagsTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
-- **.test_submit_row()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
-- **.test_override_change_form_template_tags()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
-- **.test_override_change_list_template_tags()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
-- **.test_override_show_save_and_add_another()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
-- **CustomArticleAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.changelist_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.delete_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.save_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.changelist_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.modeladmin_year()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.order_by_expression()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.order_by_f_expression()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.order_by_orderby_expression()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **Tests various hooks for using custom templates and contexts.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **AdminViewBasicTestCase** (1 connections)
-- **submit_row template tag should pass whole context.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
-- **admin_modify template tags follow the standard search pattern…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
-- **admin_list template tags follow the standard search pattern…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
+- **AdminPasswordChangeForm** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **AdminPasswordChangeFormTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.save()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.clean_password2()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.save()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.test_html_autocomplete_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_missing_passwords()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_non_matching_passwords()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_one_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_password_whitespace_not_stripped()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.changed_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **A form used to change the password of a user in the admin interface.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **Save the new password.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 13](Community_13.md) (4 shared connections)
-- [Community 64](Community_64.md) (2 shared connections)
-- [Community 109](Community_109.md) (2 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 618](Community_618.md) (1 shared connections)
+- [Community 750](Community_750.md) (2 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 652](Community_652.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 502](Community_502.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 822](Community_822.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (92%)
-- INFERRED: 3 (8%)
+- EXTRACTED: 27 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

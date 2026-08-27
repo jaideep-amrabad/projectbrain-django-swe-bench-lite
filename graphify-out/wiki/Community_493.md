@@ -1,51 +1,53 @@
 # Community 493
 
-> 25 nodes · cohesion 0.11
+> 23 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **BooleanFieldTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **NullBooleanModel** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **ValidationTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **BooleanModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **FksToBooleans** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **._test_get_prep_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **.test_null_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **._test_to_python()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **.test_nullbooleanfield_blank()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **.test_booleanfield_choices_blank()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **.test_booleanfield_get_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **.test_booleanfield_to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **.test_nullbooleanfield_get_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **.test_nullbooleanfield_old_get_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **.test_nullbooleanfield_old_to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **.test_nullbooleanfield_to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **.test_select_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **Model with FKs to models with {Null,}BooleanField's, #15040** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.test_nullbooleanfield_formfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **.test_return_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **A BooleanField defaults to None, which isn't a valid value (#15124).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **NullBooleanField shouldn't throw a validation error when given a value of None.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **BooleanField with choices and defaults doesn't generate a formfield with the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **Boolean fields retrieved via select_related() should return booleans.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **.test_boolean_field_doesnt_accept_empty_input()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **condition()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/http.py`
+- **conditional_processing/views.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/views.py`
+- **CheckCondition** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **etag()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/http.py`
+- **last_modified()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/http.py`
+- **etag_view_none()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/views.py`
+- **etag_view_unquoted()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/views.py`
+- **etag_view_weak()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/views.py`
+- **conditional_processing/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/urls.py`
+- **etag_view1()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/views.py`
+- **etag_view2()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/views.py`
+- **index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/views.py`
+- **last_modified_view1()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/views.py`
+- **last_modified_view2()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/views.py`
+- **.__get__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.add_condition()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Descriptor class for deferred condition checking.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Decorator to support conditional retrieval (or change) for a view function. The…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/http.py`
+- **conditional_processing/__init__.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/__init__.py`
+- **Use an etag_func() that returns an unquoted ETag.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/views.py`
+- **Use an etag_func() that returns a weak ETag.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/views.py`
+- **Use an etag_func() that returns None, as opposed to setting etag_func=None.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/conditional_processing/views.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 368](Community_368.md) (3 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 6](Community_6.md) (10 shared connections)
+- [Community 40](Community_40.md) (9 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/http.py`
+- `raw/code/hyd-evaluation/django-django/tests/conditional_processing/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/conditional_processing/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/conditional_processing/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (91%)
-- INFERRED: 4 (9%)
+- EXTRACTED: 52 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

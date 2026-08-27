@@ -4,36 +4,37 @@
 
 ## Key Concepts
 
-- **GeometryFieldTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
-- **.test_field_string_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
-- **.test_geom_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
-- **.test_srid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
-- **.test_to_python()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
-- **.test_field_with_text_widget()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
-- **.test_init()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
-- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
-- **.test_to_python_different_map_srid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
-- **Initialization of a geometry field with a valid/empty/invalid string. Only the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
-- **Testing GeometryField initialization with defaults.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
-- **Testing GeometryField with a SRID set.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
-- **Testing GeometryField's handling of null (None) geometries.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
-- **Testing GeometryField's handling of different geometry types.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
-- **to_python() either returns a correct GEOSGeometry object or a ValidationError.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **NoYamlSerializerTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **YamlImportModuleMock** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **.test_serializer_pyyaml_error_message()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **.tearDownClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **.test_deserializer_pyyaml_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **.test_dumpdata_pyyaml_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **Provides a wrapped import_module function to simulate yaml ImportError In order…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **Not having pyyaml installed provides a misleading error Refs: #12756** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **Removes imported yaml and stubs importlib.import_module** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **Puts yaml back if necessary** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **Using yaml serializer without pyyaml raises ImportError** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **Using yaml deserializer without pyyaml raises ImportError** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **Calling dumpdata produces an error when yaml package missing** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
 
 ## Relationships
 
-- [Community 16](Community_16.md) (6 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 86](Community_86.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 96](Community_96.md) (1 shared connections)
+- [Community 296](Community_296.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 18 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

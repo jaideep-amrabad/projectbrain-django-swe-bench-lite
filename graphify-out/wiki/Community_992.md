@@ -1,31 +1,30 @@
 # Community 992
 
-> 7 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **FileSaveRaceConditionTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **SlowFile** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.save_file()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_race_condition()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.chunks()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **SignalsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.register_finished()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.register_started()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_request_signals()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_request_signals_streaming_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
 
 ## Relationships
 
-- [Community 76](Community_76.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 201](Community_201.md) (1 shared connections)
-- [Community 154](Community_154.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

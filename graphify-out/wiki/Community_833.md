@@ -1,31 +1,32 @@
 # Community 833
 
-> 10 nodes · cohesion 0.44
+> 7 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **actions.js** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
-- **reset()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
-- **showQuestion()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
-- **hide()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
-- **show()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
-- **checker()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
-- **clearAcross()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
-- **showClear()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
-- **updateCounter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
-- **ready()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
+- **ACos** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **ACosTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_acos.py`
+- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_acos.py`
+- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_acos.py`
+- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_acos.py`
+- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_acos.py`
+- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_acos.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 38](Community_38.md) (5 shared connections)
+- [Community 132](Community_132.md) (1 shared connections)
+- [Community 111](Community_111.md) (1 shared connections)
+- [Community 60](Community_60.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_acos.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 17 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

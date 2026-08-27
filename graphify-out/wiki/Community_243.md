@@ -1,62 +1,59 @@
 # Community 243
 
-> 55 nodes · cohesion 0.05
+> 47 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **.e()** (77 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **AssertRedirectsTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **AssertFormErrorTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.srs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.run_select_for_update()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_noerror_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_unknown_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_unknown_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_unknown_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_unknown_nonfield_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_incorrect_target()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_lost_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_redirect_chain_on_non_redirect_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_redirect_on_non_redirect_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_redirect_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_redirect_to_different_host()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_target_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **An assertion is raised if the original page couldn't be retrieved as expected** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_no_error_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_unknown_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_circular_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_multiple_redirect_chain()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_redirect_chain()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_redirect_chain_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_redirect_chain_head()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- *... and 30 more nodes in this community*
+- **parse_duration()** (25 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateparse.py`
+- **duration_string()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/duration.py`
+- **duration_iso_string()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/duration.py`
+- **DurationFieldTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
+- **DurationParseTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateparse.py`
+- **TestDurationString** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **TestISODurationString** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **TestParseDurationRoundtrip** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **TestParseISODurationRoundtrip** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **DurationField** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.to_python()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **_get_duration_components()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/duration.py`
+- **.test_days()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test_microseconds()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test_negative()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test_simple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test_days()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test_microseconds()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test_negative()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test_simple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.prepare_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.test_durationfield_prepare_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
+- **.test_days()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateparse.py`
+- **.test_fractions_of_seconds()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateparse.py`
+- **.test_hours_minutes_seconds()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateparse.py`
+- *... and 22 more nodes in this community*
 
 ## Relationships
 
-- [Community 5](Community_5.md) (8 shared connections)
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 231](Community_231.md) (3 shared connections)
-- [Community 370](Community_370.md) (3 shared connections)
-- [Community 400](Community_400.md) (2 shared connections)
-- [Community 425](Community_425.md) (2 shared connections)
-- [Community 189](Community_189.md) (2 shared connections)
-- [Community 778](Community_778.md) (2 shared connections)
-- [Community 53](Community_53.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 179](Community_179.md) (1 shared connections)
+- [Community 7](Community_7.md) (10 shared connections)
+- [Community 5](Community_5.md) (9 shared connections)
+- [Community 11](Community_11.md) (4 shared connections)
+- [Community 508](Community_508.md) (2 shared connections)
+- [Community 104](Community_104.md) (1 shared connections)
+- [Community 267](Community_267.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/dateparse.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/duration.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateparse.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
 
 ## Audit Trail
 
-- EXTRACTED: 67 (47%)
-- INFERRED: 75 (53%)
+- EXTRACTED: 102 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

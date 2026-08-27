@@ -1,28 +1,24 @@
 # Community 1082
 
-> 5 nodes · cohesion 0.40
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **IsActiveTestCase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_is_active_field_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_builtin_user_isactive()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **Tests the behavior of the guaranteed is_active attribute** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **tests that the default value for is_active is provided** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **Simple** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Simple model with nothing on it for use in testing** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 63](Community_63.md) (1 shared connections)
+- [Community 78](Community_78.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

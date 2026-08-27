@@ -1,45 +1,50 @@
 # Community 592
 
-> 18 nodes · cohesion 0.14
+> 18 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **HTMLEqualTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **parse_html()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.test_contains_html()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_html_contain()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_html_parser()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_parse_html_in_script()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_parsing_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_self_closing_tags()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_unicode_handling()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **Take a string that contains *valid* HTML and turn it into a Python object…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.test_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_class_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_complex_examples()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_ignore_comments()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_normalize_refs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_simple_equal_html()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_unequal_html()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **CustomJSONDecoder** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **TestValidation** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **ImageFieldFile** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **TestImageFieldFile** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **TestFormField** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.test_invalid_decoder()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_invalid_encoder()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **ImageFile** (1 connections)
+- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.as_uuid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **Custom Field File class that records whether or not the underlying file was…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.open()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.test_formfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_formfield_custom_encoder_decoder()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_custom_encoder()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_validation_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
 
 ## Relationships
 
-- [Community 76](Community_76.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 12](Community_12.md) (2 shared connections)
-- [Community 57](Community_57.md) (2 shared connections)
-- [Community 473](Community_473.md) (1 shared connections)
+- [Community 187](Community_187.md) (3 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 267](Community_267.md) (3 shared connections)
+- [Community 168](Community_168.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 601](Community_601.md) (1 shared connections)
+- [Community 857](Community_857.md) (1 shared connections)
+- [Community 189](Community_189.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 28 (80%)
+- INFERRED: 7 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

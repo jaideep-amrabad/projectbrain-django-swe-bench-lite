@@ -1,31 +1,24 @@
 # Community 1001
 
-> 7 nodes · cohesion 0.29
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **ChoicesTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_check()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_flatchoices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_formfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_invalid_choice()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.end_transaction_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Return the SQL statement required to end a transaction.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 368](Community_368.md) (1 shared connections)
+- [Community 106](Community_106.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (89%)
-- INFERRED: 1 (11%)
+- EXTRACTED: 2 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

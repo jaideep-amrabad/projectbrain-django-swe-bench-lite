@@ -1,57 +1,64 @@
 # Community 137
 
-> 62 nodes · cohesion 0.04
+> 63 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **Operation** (30 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **RunPython** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **RunSQL** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **SeparateDatabaseAndState** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **operations/base.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **TestOperation** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/more_operations.py`
-- **special.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **more_operations.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/more_operations.py`
-- **.references_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.references_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **._run_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **.allow_migrate_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.database_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.describe()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.migration_name_fragment()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.reduce()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.state_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **Return True if there is a chance this operation references the given model name…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **.database_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **.__new__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **Return whether or not a model may be migrated. This is a thin wrapper around…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- *... and 37 more nodes in this community*
+- **forms_tests/tests/tests.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
+- **forms_tests/models.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/models.py`
+- **ModelForm** (14 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **forms_tests/views.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/views.py`
+- **ModelFormMetaclass** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **EmptyLabelTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
+- **ChoiceFieldForm** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
+- **Meta** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
+- **ModelFormInheritanceTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/models.py`
+- **ChoiceModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/models.py`
+- **ChoiceOptionModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/models.py`
+- **EmptyIntegerLabelChoiceForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
+- **ModelFormCallableModelDefault** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
+- **ChoiceFieldExclusionForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
+- **EmptyCharLabelChoiceForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
+- **EmptyCharLabelNoneChoiceForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
+- **OptionalMultiChoiceModelForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
+- **RelatedModelFormTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
+- **TestTicket14567** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
+- **ArticleFormView** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/views.py`
+- **ChoiceFieldModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/models.py`
+- **Defaults** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/models.py`
+- **.test_html_rendering_of_prepopulated_models()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
+- **ManyToManyExclusionTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
+- *... and 38 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (6 shared connections)
-- [Community 186](Community_186.md) (5 shared connections)
-- [Community 99](Community_99.md) (3 shared connections)
-- [Community 506](Community_506.md) (3 shared connections)
-- [Community 113](Community_113.md) (2 shared connections)
-- [Community 460](Community_460.md) (1 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
-- [Community 143](Community_143.md) (1 shared connections)
+- [Community 5](Community_5.md) (8 shared connections)
+- [Community 38](Community_38.md) (5 shared connections)
+- [Community 79](Community_79.md) (4 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 131](Community_131.md) (3 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 169](Community_169.md) (2 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/more_operations.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 93 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 142 (97%)
+- INFERRED: 4 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,47 +1,41 @@
 # Community 695
 
-> 15 nodes · cohesion 0.15
+> 15 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **OrderedSet** (26 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **OrderedSetTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.get_parent_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.discard()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.remove()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.test_bool()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_len()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **Return all the ancestors of this model as a list ordered by MRO. Useful for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.add()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **A set which keeps the ordering of the inserted items.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **DateFieldTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **GetDate** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_l10n_date_changed()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_form_label_association()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_l10n_invalid_date_in()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_datefield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_datefield_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_datefield_strptime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_form_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_datefield_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_datefield_4()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_datefield_5()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_datefield_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **field.strptime() doesn't raise a UnicodeEncodeError (#16123)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **DateField.has_changed() with SelectDateWidget works with a localized date…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
 
 ## Relationships
 
-- [Community 76](Community_76.md) (5 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 361](Community_361.md) (2 shared connections)
-- [Community 90](Community_90.md) (2 shared connections)
-- [Community 119](Community_119.md) (2 shared connections)
-- [Community 134](Community_134.md) (1 shared connections)
-- [Community 566](Community_566.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 9](Community_9.md) (3 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 293](Community_293.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 24 (89%)
+- INFERRED: 3 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

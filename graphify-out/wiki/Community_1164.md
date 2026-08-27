@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **.test_view_with_method_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_view_with_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **Request a page that is protected with @permission_required** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.limit_offset_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **._get_limit_offset_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Return LIMIT/OFFSET SQL clause.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Relationships
 
-- [Community 555](Community_555.md) (2 shared connections)
+- [Community 106](Community_106.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Audit Trail
 

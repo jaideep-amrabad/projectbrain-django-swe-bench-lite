@@ -1,47 +1,59 @@
 # Community 497
 
-> 23 nodes · cohesion 0.09
+> 23 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **CustomTestRunnerOptionsSettingsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **CustomTestRunnerOptionsCmdlineTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **SetupDatabasesTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.setUp()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **Ticket17477RegressionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_ticket_17477()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_no_testrunner()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_testrunner_equals()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_testrunner_option()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_all_options_given()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_default_and_given_options()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_default_options()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_option_name_and_value_separated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **Custom runners can add command line arguments. The runner is specified through…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **Custom runners can add command line arguments when the runner is specified…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **manage.py help test' works after r16352.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_destroy_test_db_restores_db_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_serialization()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_serialized_off()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_setup_aliased_databases()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **proxy_models/tests.py** (47 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **proxy_models/models.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **ProxyModelAdminTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **proxy_models/admin.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/admin.py`
+- **Issue** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **ProxyTrackerUser** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **TrackerUser** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **BaseUser** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **Improvement** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **MyPersonProxy** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **Bug** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **ProxyImprovement** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **State** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **StateProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **LowerStatusPerson** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **Country** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **proxy_models/urls.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/urls.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **By specifying the 'proxy' Meta attribute, model subclasses can specify that…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **A model that has relation to a proxy model or to a proxy of proxy model** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
 
 ## Relationships
 
-- [Community 119](Community_119.md) (4 shared connections)
-- [Community 203](Community_203.md) (3 shared connections)
-- [Community 207](Community_207.md) (2 shared connections)
+- [Community 814](Community_814.md) (18 shared connections)
+- [Community 290](Community_290.md) (13 shared connections)
+- [Community 0](Community_0.md) (9 shared connections)
+- [Community 17](Community_17.md) (7 shared connections)
+- [Community 921](Community_921.md) (7 shared connections)
+- [Community 1143](Community_1143.md) (5 shared connections)
+- [Community 41](Community_41.md) (3 shared connections)
+- [Community 1142](Community_1142.md) (2 shared connections)
+- [Community 38](Community_38.md) (2 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 1144](Community_1144.md) (2 shared connections)
+- [Community 42](Community_42.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_models/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_models/urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 106 (87%)
+- INFERRED: 16 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

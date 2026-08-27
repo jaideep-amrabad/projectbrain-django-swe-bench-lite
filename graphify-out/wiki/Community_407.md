@@ -1,60 +1,50 @@
 # Community 407
 
-> 28 nodes · cohesion 0.14
+> 24 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **generic/dates.py** (47 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **BaseDateListView** (16 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **YearMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **MultipleObjectTemplateResponseMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **BaseDayArchiveView** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **BaseMonthArchiveView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **BaseWeekArchiveView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **BaseYearArchiveView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **ArchiveIndexView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **BaseTodayArchiveView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **DayArchiveView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **MonthArchiveView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **TodayArchiveView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **WeekArchiveView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **YearArchiveView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_template_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **.get_dated_items()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **List of objects published in a given year.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **List of objects published in a given month.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **List of objects published in a given week.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **List of objects published on a given day.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **List of objects published today.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Mixin for views manipulating year-based data.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Abstract base class for date-based views displaying a list of objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Obtain the list of dates and items.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- *... and 3 more nodes in this community*
+- **BasicExtractorTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_blocktranslate_trimmed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_po_file_encoding_when_updating()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_pot_charset_header_is_utf8()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_use_i18n_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_extraction_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_makemessages_find_files()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_template_comments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_template_message_context_extractor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.assertMsgStr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_comments_extractor()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_context_in_single_quotes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_extraction_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_no_option()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_special_char_extracted()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_unicode_decode_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_unicode_file_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **makemessages also runs successfully when USE_I18N is False.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **test xgettext warning about multiple bare interpolation placeholders** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **Message contexts are correctly extracted for the {% translate %} and {%…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **Template comment tags on the same line of other constructs (#19552)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **find_files only discover files having the proper extensions.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **Update of PO file doesn't corrupt it with non-UTF-8 encoding on Windows…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **Content-Type: ... charset=CHARSET is replaced with charset=UTF-8** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (19 shared connections)
-- [Community 521](Community_521.md) (11 shared connections)
-- [Community 672](Community_672.md) (10 shared connections)
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 646](Community_646.md) (5 shared connections)
-- [Community 596](Community_596.md) (5 shared connections)
-- [Community 11](Community_11.md) (3 shared connections)
-- [Community 457](Community_457.md) (3 shared connections)
-- [Community 707](Community_707.md) (3 shared connections)
-- [Community 76](Community_76.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 269](Community_269.md) (3 shared connections)
+- [Community 935](Community_935.md) (1 shared connections)
+- [Community 770](Community_770.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
 
 ## Audit Trail
 
-- EXTRACTED: 121 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 31 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

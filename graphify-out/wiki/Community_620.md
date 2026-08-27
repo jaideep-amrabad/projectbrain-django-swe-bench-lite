@@ -1,50 +1,50 @@
 # Community 620
 
-> 17 nodes · cohesion 0.12
+> 32 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **AuthViewsTestCase** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **LogoutThenLoginTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **LoginSuccessURLAllowedHostsTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **AuthViewNamedURLTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_named_urls()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **SessionAuthenticationTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_user_password_change_updates_session()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.logout()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_success_url_allowed_hosts_safe_host()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_success_url_allowed_hosts_same_host()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_success_url_allowed_hosts_unsafe_host()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.confirm_logged_out()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **Helper base class for all the follow test cases.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **#21649 - Ensure contrib.auth.views.password_change updates the user's session…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **Named URLs should be reversible** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **Tests for the logout_then_login view** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **RangesModel** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **TestQuerying** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **TestSaveLoad** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **TestSerialization** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_bound_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_all_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_model_set_on_base_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_range_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_range_object_boundaries()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_unbounded()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_dumping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_serialize_range_with_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_adjacent_to()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_contained_by()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_contains_range()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_endswith()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_exact()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_fully_gt()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_fully_lt()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_isempty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (6 shared connections)
-- [Community 359](Community_359.md) (5 shared connections)
-- [Community 8](Community_8.md) (4 shared connections)
-- [Community 710](Community_710.md) (2 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 786](Community_786.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 272](Community_272.md) (1 shared connections)
-- [Community 776](Community_776.md) (1 shared connections)
-- [Community 675](Community_675.md) (1 shared connections)
-- [Community 1006](Community_1006.md) (1 shared connections)
-- [Community 787](Community_787.md) (1 shared connections)
+- [Community 30](Community_30.md) (14 shared connections)
+- [Community 94](Community_94.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 51 (86%)
+- INFERRED: 8 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

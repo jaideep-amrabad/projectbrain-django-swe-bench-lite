@@ -1,43 +1,41 @@
 # Community 658
 
-> 17 nodes · cohesion 0.12
+> 16 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **SessionTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_logout_with_custom_auth_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_logout_with_custom_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Logout should send user_logged_out signal if user was logged in.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_login_with_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_login_without_signal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_logout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_logout_with_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_logout_without_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_session()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Logout should work whether the user is logged in or not (#9978).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Request a logout after logging in with custom authentication backend** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Logout should send signal even if user not authenticated.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Login should send user_logged_in signal on successful login.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Login shouldn't send signal if user wasn't logged in** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **The session isn't lost if a user logs in** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_session_initiated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **DatabaseIntrospection** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **.identifier_converter()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **.get_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **.get_relations()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **.get_table_description()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **.get_table_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **.get_key_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **.get_primary_key_column()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **.get_sequences()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **.data_types_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **.get_field_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **Identifier comparison is case insensitive under Oracle.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **Return a dictionary of {field_name: (field_name_other_table, other_table)}…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **Retrieve any constraints or keys (unique, pk, fk, check, index) across one or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **Return a list of table and view names in the current database.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **Return a description of the table with the DB-API cursor.description interface.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (3 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 312](Community_312.md) (1 shared connections)
-- [Community 123](Community_123.md) (1 shared connections)
+- [Community 366](Community_366.md) (1 shared connections)
+- [Community 566](Community_566.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 26 (93%)
+- INFERRED: 2 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

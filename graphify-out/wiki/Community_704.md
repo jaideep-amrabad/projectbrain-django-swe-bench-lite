@@ -1,40 +1,35 @@
 # Community 704
 
-> 14 nodes · cohesion 0.23
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **RegexField** (14 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **RegexFieldTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **._set_regex()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.test_change_regex_after_init()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
-- **.test_get_regex()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
-- **.test_regexfield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
-- **.test_regexfield_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
-- **.test_regexfield_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
-- **.test_regexfield_4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
-- **.test_regexfield_strip()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
-- **.test_regexfield_unicode_characters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
-- **regex can be either a string or a compiled regular expression object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **._get_regex()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **AsyncHandlerRequestTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_sync_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **Calling an async view down the normal synchronous path.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_no_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_suspiciousop_in_view_returns_400()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_unawaited_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **Async variants of the normal handler request tests.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **Calling a sync view down the asynchronous path.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 80](Community_80.md) (2 shared connections)
-- [Community 418](Community_418.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 272](Community_272.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (67%)
-- INFERRED: 9 (33%)
+- EXTRACTED: 13 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

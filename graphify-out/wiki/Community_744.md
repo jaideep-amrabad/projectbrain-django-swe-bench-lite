@@ -1,37 +1,36 @@
 # Community 744
 
-> 11 nodes · cohesion 0.24
+> 14 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **migration_test_data_persistence/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/tests.py`
-- **migration_test_data_persistence/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/models.py`
-- **MigrationDataNormalPersistenceTestCase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/tests.py`
-- **MigrationDataPersistenceTestCase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/tests.py`
-- **Book** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/models.py`
-- **Unmanaged** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/models.py`
-- **.test_persistence()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/tests.py`
-- **.test_persistence()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/tests.py`
-- **Data loaded in migrations is available on TestCase** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/tests.py`
-- **Data loaded in migrations is available if…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/tests.py`
+- **TemplateTagTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
+- **setup** (12 connections)
+- **.test_templatetag01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
+- **.test_templatetag02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
+- **.test_templatetag03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
+- **.test_templatetag04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
+- **.test_templatetag05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
+- **.test_templatetag06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
+- **.test_templatetag07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
+- **.test_templatetag08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
+- **.test_templatetag09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
+- **.test_templatetag10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
+- **.test_templatetag11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
+- **.test_templatetag12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 542](Community_542.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (90%)
-- INFERRED: 2 (10%)
+- EXTRACTED: 26 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,37 +1,41 @@
 # Community 769
 
-> 13 nodes · cohesion 0.15
+> 15 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **CachedLoaderTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- **.test_template_name_lazy_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- **.test_cached_exception_no_traceback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- **.test_get_template_missing_debug_off()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- **.test_get_template_missing_debug_on()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- **.test_template_name_leading_dash_caching()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- **.test_get_template()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- **With template debugging disabled, the raw TemplateDoesNotExist class should be…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- **With template debugging enabled, a TemplateDoesNotExist instance should be…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- **When a TemplateDoesNotExist instance is cached, the cached instance should not…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- **#26536 -- A leading dash in a template name shouldn't be stripped from its…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- **#26603 -- A template name specified as a lazy string should be forced to text…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
+- **ExcludedLocaleExtractionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.assertNotRecentlyModified()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.assertRecentlyModified()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.setUp()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **SymlinkExtractorTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **._set_times_for_all_po_files()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_multiple_locales_excluded()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_multiple_locales_excluded_with_locale()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_one_locale_excluded()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_one_locale_excluded_with_locale()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_symlink()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **Assert that file was recently modified (modification time was less than 10…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **Assert that file was not recently modified (modification time was more than 10…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **Set access and modification times to the Unix epoch time for all the .po files.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 49](Community_49.md) (2 shared connections)
-- [Community 594](Community_594.md) (1 shared connections)
+- [Community 269](Community_269.md) (5 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 494](Community_494.md) (1 shared connections)
+- [Community 878](Community_878.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 31 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

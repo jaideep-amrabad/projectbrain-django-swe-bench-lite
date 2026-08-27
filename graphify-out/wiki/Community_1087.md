@@ -4,23 +4,25 @@
 
 ## Key Concepts
 
-- **FileInputTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_fileinput.py`
-- **.test_render()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_fileinput.py`
-- **.test_use_required_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_fileinput.py`
-- **.test_value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_fileinput.py`
-- **FileInput widgets never render the value attribute. The old value isn't useful…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_fileinput.py`
+- **TestComplexSettingOverride** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_complex_override_warning()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **Regression test for #19031** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (2 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_fileinput.py`
+- `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

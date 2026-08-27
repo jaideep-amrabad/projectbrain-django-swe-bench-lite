@@ -4,27 +4,27 @@
 
 ## Key Concepts
 
-- **default_if_none()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default_if_none.py`
-- **.test_empty_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default_if_none.py`
-- **.test_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default_if_none.py`
-- **.test_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default_if_none.py`
-- **If value is None, use given default.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **SqliteDbshellCommandTestCase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
+- **._run_dbshell()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
+- **.test_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
+- **.test_path_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
+- **skipUnless** (1 connections)
+- **Run runshell command and capture its arguments.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 171](Community_171.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 304](Community_304.md) (1 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default_if_none.py`
+- `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 10 (91%)
+- INFERRED: 1 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

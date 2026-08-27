@@ -1,23 +1,25 @@
 # Community 1187
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **bad_error_handlers.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/bad_error_handlers.py`
-- **bad_handler()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/bad_error_handlers.py`
+- **.test_inheritance30()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance33()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Base template, putting block in a conditional {% if %} tag** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 850](Community_850.md) (2 shared connections)
+- [Community 887](Community_887.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/bad_error_handlers.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

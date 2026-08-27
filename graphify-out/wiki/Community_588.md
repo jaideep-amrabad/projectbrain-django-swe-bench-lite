@@ -1,46 +1,41 @@
 # Community 588
 
-> 18 nodes · cohesion 0.11
+> 19 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **.run_tests()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.build_suite()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **is_discoverable()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.tags()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **.get_test_runner_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.run_checks()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.run_suite()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.teardown_databases()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **filter_tests_by_tags()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.get_resultclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.setup_databases()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.setup_test_environment()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.suite_result()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.teardown_test_environment()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.enable()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **Destroy all the non-mirror databases.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Run the unit tests for all the test labels in the provided list. Test labels…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Check if a test label points to a Python package or file directory. Relative…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **TimeuntilTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- **setup** (16 connections)
+- **.test_timeuntil10()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- **.test_timeuntil11()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- **requires_tz_support** (2 connections)
+- **.test_aware_naive_type_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- **.test_naive_aware_type_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- **.test_timeuntil01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- **.test_timeuntil02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- **.test_timeuntil03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- **.test_timeuntil04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- **.test_timeuntil05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- **.test_timeuntil06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- **.test_timeuntil07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- **.test_timeuntil08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- **.test_timeuntil09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- **.test_timeuntil12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- **.test_timeuntil13()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- **.test_timeuntil14()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
 
 ## Relationships
 
-- [Community 207](Community_207.md) (11 shared connections)
-- [Community 119](Community_119.md) (3 shared connections)
-- [Community 10](Community_10.md) (2 shared connections)
-- [Community 635](Community_635.md) (1 shared connections)
-- [Community 222](Community_222.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (91%)
-- INFERRED: 3 (9%)
+- EXTRACTED: 36 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

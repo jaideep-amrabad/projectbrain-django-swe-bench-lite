@@ -1,41 +1,45 @@
 # Community 606
 
-> 17 nodes · cohesion 0.15
+> 18 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **ChoicesMeta** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **enums.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **Choices** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **TextChoices** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **IntegerChoices** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **Class for creating enumerated choices.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **int** (1 connections)
-- **.choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **.names()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **.__new__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **.values()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **str** (1 connections)
-- **Use value when cast to str, so that Choices set as model instance attributes…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **A metaclass for creating a enum choices.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **._generate_next_value_()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **FSFilesHandler** (11 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **_MediaFilesHandler** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.serve()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **_StaticFilesHandler** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__call__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._should_handle()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.file_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.get_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.get_base_dir()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.get_base_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **WSGI middleware that intercepts calls to a directory, as defined by one of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Check if the path should be handled. Ignore the path if: * the host is provided…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Return the relative path to the file on disk for the given URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Handler for serving static files. A private class that is meant to be used…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Handler for serving the media files. A private class that is meant to be used…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.get_base_dir()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.get_base_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Relationships
 
-- [Community 76](Community_76.md) (3 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 60](Community_60.md) (1 shared connections)
+- [Community 6](Community_6.md) (4 shared connections)
+- [Community 272](Community_272.md) (1 shared connections)
+- [Community 326](Community_326.md) (1 shared connections)
+- [Community 573](Community_573.md) (1 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
+- [Community 527](Community_527.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 31 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

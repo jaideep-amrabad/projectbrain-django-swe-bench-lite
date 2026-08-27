@@ -1,20 +1,20 @@
 # Community 1195
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.test_formset_validate_min_flag()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **If validate_min is set and min_num is more than TOTAL_FORMS in the data, a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **Test** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests/tests.py`
+- **sample/tests/tests.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests/tests.py`
+- **.test_sample()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests/tests.py`
 
 ## Relationships
 
-- [Community 470](Community_470.md) (1 shared connections)
-- [Community 546](Community_546.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests/tests.py`
 
 ## Audit Trail
 

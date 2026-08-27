@@ -1,45 +1,41 @@
 # Community 698
 
-> 14 nodes · cohesion 0.20
+> 15 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **admin/apps.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
-- **SimpleAdminConfig** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
-- **check_dependencies()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **_contains_subclass()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **AdminConfig** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
-- **.ready()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
-- **check_admin_app()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **admin_default_site/apps.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_default_site/apps.py`
-- **MyCustomAdminConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_default_site/apps.py`
-- **.ready()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
-- **The default AppConfig for admin which does autodiscovery.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
-- **Simple AppConfig which does not do automatic discovery.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
-- **Return whether or not a dotted class path (or a subclass of that class) is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **Check that the admin's dependencies are correctly installed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **FromDBValueTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
+- **from_db_value/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
+- **from_db_value/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
+- **Cash** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
+- **CashField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
+- **CashModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
+- **.from_db_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
+- **.test_aggregation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
+- **.test_connection()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
+- **.test_defer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
+- **.test_simple_load()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
+- **.test_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
+- **.test_values_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 63](Community_63.md) (2 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 143](Community_143.md) (1 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 490](Community_490.md) (1 shared connections)
-- [Community 53](Community_53.md) (1 shared connections)
-- [Community 968](Community_968.md) (1 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 38](Community_38.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_default_site/apps.py`
+- `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (90%)
-- INFERRED: 3 (10%)
+- EXTRACTED: 24 (89%)
+- INFERRED: 3 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

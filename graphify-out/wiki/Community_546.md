@@ -1,53 +1,48 @@
 # Community 546
 
-> 20 nodes · cohesion 0.10
+> 20 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **FormsFormsetTestCase** (63 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_form_kwargs_formset_dynamic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_calls_forms_is_valid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_with_ordering_and_deletion()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_more_initial_than_max_num()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_absolute_max()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_clean_hook()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_error_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_validate_min_excludes_empty_forms()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_limited_max_forms_two()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_management_form_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_default_absolute_max()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_non_form_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **Formset's forms use the formset's error_class.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **Formsets call is_valid() on each form.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **Form kwargs can be passed dynamically in a formset.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **FormSets with ordering + deletion.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **FormSets have a clean() hook for doing extra validation that isn't tied to any…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **More initial forms than max_num results in all initial forms being displayed…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **The management form has the correct prefix.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **DatabaseCreationTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **DatabaseCreation** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
+- **.check_sql_table_creation_suffix()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **.test_create_test_db()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **._clone_test_db()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
+- **._get_database_create_suffix()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
+- **._database_exists()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
+- **._execute_create_test_db()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
+- **._quote_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
+- **.sql_table_creation_suffix()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
+- **.changed_test_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **._execute_raise_database_already_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **._execute_raise_permission_denied()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **.patch_test_db_creation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **.test_sql_table_creation_suffix_with_encoding()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **.test_sql_table_creation_suffix_with_encoding_and_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **.test_sql_table_creation_suffix_with_none_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **.test_sql_table_creation_suffix_with_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **patch** (1 connections)
+- **skipUnless** (1 connections)
 
 ## Relationships
 
-- [Community 470](Community_470.md) (20 shared connections)
-- [Community 547](Community_547.md) (11 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 1193](Community_1193.md) (1 shared connections)
-- [Community 1194](Community_1194.md) (1 shared connections)
-- [Community 1201](Community_1201.md) (1 shared connections)
-- [Community 1202](Community_1202.md) (1 shared connections)
-- [Community 1191](Community_1191.md) (1 shared connections)
-- [Community 1209](Community_1209.md) (1 shared connections)
-- [Community 1189](Community_1189.md) (1 shared connections)
-- [Community 1205](Community_1205.md) (1 shared connections)
+- [Community 7](Community_7.md) (6 shared connections)
+- [Community 235](Community_235.md) (2 shared connections)
+- [Community 20](Community_20.md) (2 shared connections)
+- [Community 561](Community_561.md) (1 shared connections)
+- [Community 125](Community_125.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
 
 ## Audit Trail
 
-- EXTRACTED: 76 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 41 (91%)
+- INFERRED: 4 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

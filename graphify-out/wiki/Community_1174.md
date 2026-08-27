@@ -1,20 +1,20 @@
 # Community 1174
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **Inquisition** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **TestRouter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
+- **Routes to the 'other' database if the model name starts with 'Other'.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
+- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
 
 ## Relationships
 
-- [Community 64](Community_64.md) (1 shared connections)
-- [Community 78](Community_78.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
 
 ## Audit Trail
 

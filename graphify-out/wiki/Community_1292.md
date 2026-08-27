@@ -4,20 +4,21 @@
 
 ## Key Concepts
 
-- **.test_response_headers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **Check the value of HTTP headers returned in a response** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_inheritance15()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **A block within another block** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 555](Community_555.md) (1 shared connections)
+- [Community 850](Community_850.md) (1 shared connections)
+- [Community 887](Community_887.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

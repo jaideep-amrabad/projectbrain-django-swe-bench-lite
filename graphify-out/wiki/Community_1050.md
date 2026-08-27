@@ -1,35 +1,25 @@
 # Community 1050
 
-> 6 nodes · cohesion 0.33
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **Author** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.test_repr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_deserializedobject.py`
-- **.test_serializer_pyyaml_error_message()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **.test_unicode_serialization()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **Using yaml serializer without pyyaml raises ImportError** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **ChapterXtra1** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- [Community 463](Community_463.md) (2 shared connections)
-- [Community 231](Community_231.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 143](Community_143.md) (1 shared connections)
-- [Community 396](Community_396.md) (1 shared connections)
+- [Community 63](Community_63.md) (1 shared connections)
+- [Community 78](Community_78.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_deserializedobject.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (73%)
-- INFERRED: 3 (27%)
+- EXTRACTED: 3 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

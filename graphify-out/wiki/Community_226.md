@@ -1,59 +1,57 @@
 # Community 226
 
-> 45 nodes · cohesion 0.10
+> 28 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **WriterTests** (56 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.assertSerializedEqual()** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.serialize()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **.assertSerializedResultEqual()** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.serialize_round_trip()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_class_based_validators()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_datetime()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_numbers()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_enums()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_functions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_managers()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_pathlib()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_settings()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_uuid()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.assertSerializedFieldEqual()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_builtin_types()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_choices()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_compiled_regex()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_empty_nonempty_tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_frozensets()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_lazy_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_multiline_strings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_path_like()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_serialize_set()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- *... and 20 more nodes in this community*
+- **TypedMultipleChoiceField** (15 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **TypedMultipleChoiceFieldTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
+- **.clean()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **ComboField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.validate()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **._coerce()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **ComboFieldTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_combofield.py`
+- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.validate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.test_typedmultiplechoicefield_special_coerce()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.test_combofield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_combofield.py`
+- **.test_combofield_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_combofield.py`
+- **.test_typedmultiplechoicefield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
+- **.test_typedmultiplechoicefield_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
+- **.test_typedmultiplechoicefield_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
+- **.test_typedmultiplechoicefield_4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
+- **.test_typedmultiplechoicefield_5()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
+- **.test_typedmultiplechoicefield_6()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
+- **.test_typedmultiplechoicefield_7()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
+- **.test_typedmultiplechoicefield_has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
+- **Validate every value in the given list. A value is validated against the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **Validate that the values are in self.choices and can be coerced to the right…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 404](Community_404.md) (13 shared connections)
-- [Community 143](Community_143.md) (4 shared connections)
-- [Community 113](Community_113.md) (3 shared connections)
-- [Community 991](Community_991.md) (3 shared connections)
-- [Community 24](Community_24.md) (3 shared connections)
-- [Community 1130](Community_1130.md) (2 shared connections)
-- [Community 76](Community_76.md) (2 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 605](Community_605.md) (1 shared connections)
-- [Community 1228](Community_1228.md) (1 shared connections)
+- [Community 104](Community_104.md) (8 shared connections)
+- [Community 5](Community_5.md) (7 shared connections)
+- [Community 334](Community_334.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 369](Community_369.md) (1 shared connections)
+- [Community 758](Community_758.md) (1 shared connections)
+- [Community 346](Community_346.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_combofield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 128 (95%)
-- INFERRED: 7 (5%)
+- EXTRACTED: 51 (82%)
+- INFERRED: 11 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

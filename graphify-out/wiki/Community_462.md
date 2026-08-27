@@ -1,52 +1,56 @@
 # Community 462
 
-> 25 nodes · cohesion 0.18
+> 26 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **ModelAdminPermissionTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **MockRequest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **MockAddUser** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_has_add_permission()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_has_change_permission()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_has_delete_permission()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_has_module_permission()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_has_view_permission()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **MockChangeUser** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **MockDeleteUser** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **MockViewUser** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **MockUser** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_inline_has_add_permission_uses_obj()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_get_deleted_objects_with_custom_has_delete_permission()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.has_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.has_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.has_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.has_module_perms()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.has_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **ModelAdmin.get_deleted_objects() uses ModelAdmin.has_delete_permission() for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **has_view_permission() returns True for users who can view objects and False for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **has_add_permission returns True for users who can add objects and False for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **has_change_permission returns True for users who can edit objects and False for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **has_delete_permission returns True for users who can delete objects and False…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **as_module_permission returns True for users who have any permission for the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **BasePasswordHasher** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **BasePasswordHasherTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- **.salt()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.decode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.harden_runtime()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.safe_summary()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.verify()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- **.must_update()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **Abstract base class for password hashers When creating your own hasher, you…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **Generate a cryptographically secure nonce salt in ASCII.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **Check if the given password is correct.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **Create an encoded database value. The result is normally formatted as…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **Return a decoded database value. The result is a dictionary and should contain…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **Return a summary of safe values. The result is a dictionary and will be used…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **Bridge the runtime gap between the work factor supplied in `encoded` and the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.test_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- **.test_decode()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- **.test_encode()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- **.test_harden_runtime()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- **.test_load_library_importerror()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- **.test_load_library_no_algorithm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- **.test_must_update()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- **.test_safe_summary()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 30](Community_30.md) (7 shared connections)
-- [Community 43](Community_43.md) (7 shared connections)
-- [Community 255](Community_255.md) (4 shared connections)
-- [Community 25](Community_25.md) (4 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 159](Community_159.md) (4 shared connections)
+- [Community 206](Community_206.md) (2 shared connections)
+- [Community 928](Community_928.md) (2 shared connections)
+- [Community 823](Community_823.md) (2 shared connections)
+- [Community 511](Community_511.md) (1 shared connections)
+- [Community 776](Community_776.md) (1 shared connections)
+- [Community 380](Community_380.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
 
 ## Audit Trail
 
-- EXTRACTED: 72 (91%)
-- INFERRED: 7 (9%)
+- EXTRACTED: 39 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

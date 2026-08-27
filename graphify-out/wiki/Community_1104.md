@@ -1,27 +1,24 @@
 # Community 1104
 
-> 5 nodes · cohesion 0.40
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **.test_csrf_enabled_client()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **Client** (3 connections)
-- **.test_exc_info()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **CustomTestClient** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **A client can be instantiated with CSRF checks enabled** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_simple_sitemap_custom_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **A simple sitemap index can be rendered with a custom template** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 555](Community_555.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 192](Community_192.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

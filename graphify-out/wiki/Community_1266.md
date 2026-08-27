@@ -4,20 +4,21 @@
 
 ## Key Concepts
 
-- **.test_follow_relative_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **A URL with a relative redirect can be followed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_more_initial_than_max_num()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **More initial forms than max_num results in all initial forms being displayed…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
 
 ## Relationships
 
-- [Community 555](Community_555.md) (1 shared connections)
+- [Community 492](Community_492.md) (1 shared connections)
+- [Community 580](Community_580.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,44 +1,48 @@
 # Community 523
 
-> 21 nodes · cohesion 0.16
+> 19 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **BashCompletionTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **._run_autocomplete()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **._user_input()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **.test_app_completion()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **.test_completed_subcommand()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **.test_custom_command()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **.test_django_admin_py()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **.test_help()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **.test_manage_py()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **.test_subcommands()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **Testing the Python level bash completion code. This requires setting up the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **Set the environment and the list of command line arguments. This sets the bash…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **django_admin.py will autocomplete option flags** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **manage.py will autocomplete option flags** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **A custom command can autocomplete option flags** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **Subcommands can be autocompleted** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **Show option flags in case a subcommand is completed** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **No errors, just an empty list if there are no autocomplete options** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
-- **Application names will be autocompleted for an AppCommand** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- **messages/api.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **add_message()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **info()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **MessageFailure** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **get_messages()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **messages/context_processors.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/context_processors.py`
+- **debug()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **success()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **warning()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/context_processors.py`
+- **auth_processor_messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
+- **Exception** (1 connections)
+- **Attempt to add a message to the request using the 'messages' app.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **Return the message storage on the request if it exists, otherwise return an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **Add a message with the ``DEBUG`` level.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **Add a message with the ``INFO`` level.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **Add a message with the ``SUCCESS`` level.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **Add a message with the ``WARNING`` level.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **Return a lazy 'messages' context variable as well as 'DEFAULT_MESSAGE_LEVELS'.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/context_processors.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 750](Community_750.md) (1 shared connections)
+- [Community 364](Community_364.md) (5 shared connections)
+- [Community 701](Community_701.md) (4 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 524](Community_524.md) (2 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 336](Community_336.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/context_processors.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 37 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 40 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

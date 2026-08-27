@@ -1,26 +1,25 @@
 # Community 1154
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **NoSettingsExtractionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **skipUnless** (2 connections)
-- **.test_makemessages_no_settings()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **WriteToStdoutStderrTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/buffer/tests_buffer.py`
+- **tests_buffer.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/buffer/tests_buffer.py`
+- **.test_fail()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/buffer/tests_buffer.py`
+- **.test_pass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/buffer/tests_buffer.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 203](Community_203.md) (1 shared connections)
-- [Community 526](Community_526.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/buffer/tests_buffer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

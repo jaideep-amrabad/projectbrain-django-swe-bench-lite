@@ -1,61 +1,54 @@
 # Community 329
 
-> 35 nodes · cohesion 0.09
+> 25 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **Book** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
-- **test_dates.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **generic_views/models.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
-- **Artist** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
-- **WeekArchiveViewTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **DayArchiveViewTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **test_list.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **TestDataMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **BookSigning** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
-- **Page** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
-- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
-- **.get_absolute_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
-- **.test_aware_datetime_week_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
-- **.test_custom_month_format()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_datetime_day_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_day_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_day_view_allow_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_day_view_allow_future()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_day_view_invalid_pattern()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_day_view_paginated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_next_prev_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_today_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- *... and 10 more nodes in this community*
+- **.add_field()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **split_identifier()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **._create_fk_sql()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._alter_column_default_sql()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.column_sql()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.table_sql()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.create_model()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._field_indexes_sql()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._fk_constraint_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._model_indexes_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.skip_default()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._column_default_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.prepare_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._field_should_be_indexed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Hook to specialize column null alteration. Return a (sql, params) fragment to…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Return a list of all index SQL statements (field indexes, index_together,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Return a list of all index SQL statements for the specified field.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Take a model and return its table definition.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Take a field and return its column definition. The field must already have had…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Some backends don't accept default values for certain columns types (i.e. MySQL…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Only used for backends which have requires_literal_defaults feature** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Return the SQL to use in a DEFAULT clause. The resulting string should contain…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Create a table and any accompanying indexes or unique constraints for the given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Create a field on a model. Usually involves adding a column, but may involve…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Split an SQL identifier into a two element tuple of (namespace, name). The…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
 
 ## Relationships
 
-- [Community 107](Community_107.md) (23 shared connections)
-- [Community 4](Community_4.md) (12 shared connections)
-- [Community 579](Community_579.md) (6 shared connections)
-- [Community 684](Community_684.md) (5 shared connections)
-- [Community 11](Community_11.md) (5 shared connections)
-- [Community 8](Community_8.md) (5 shared connections)
-- [Community 412](Community_412.md) (4 shared connections)
-- [Community 685](Community_685.md) (4 shared connections)
-- [Community 598](Community_598.md) (4 shared connections)
-- [Community 38](Community_38.md) (4 shared connections)
-- [Community 438](Community_438.md) (3 shared connections)
-- [Community 60](Community_60.md) (2 shared connections)
+- [Community 80](Community_80.md) (23 shared connections)
+- [Community 316](Community_316.md) (4 shared connections)
+- [Community 7](Community_7.md) (4 shared connections)
+- [Community 93](Community_93.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 464](Community_464.md) (1 shared connections)
+- [Community 115](Community_115.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 106 (74%)
-- INFERRED: 38 (26%)
+- EXTRACTED: 69 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

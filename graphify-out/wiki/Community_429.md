@@ -1,59 +1,54 @@
 # Community 429
 
-> 26 nodes · cohesion 0.08
+> 25 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **DatabaseWrapper** (28 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **CursorWrapper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.check_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.create_cursor()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.execute()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.executemany()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.disable_constraint_checking()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.enable_constraint_checking()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.get_connection_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.data_type_check_constraints()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.display_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.init_connection_state()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.is_usable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.mysql_is_mariadb()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.mysql_server_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.mysql_server_info()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.mysql_version()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **._set_autocommit()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.sql_mode()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **Disable foreign key checks, primarily for use in adding rows with forward…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **Re-enable foreign key checks after they have been disabled.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **Check each table name in `table_names` for rows with invalid foreign key…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- *... and 1 more nodes in this community*
+- **BackendTestCase** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.create_squares()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.create_squares_with_executemany()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_cursor_executemany_with_pyformat_iterator()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_queries()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_cursor_execute_with_pyformat()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_cursor_executemany_with_iterator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_cursor_executemany_with_pyformat()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_database_operations_init()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_is_usable_after_database_disconnects()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_cursor_contextmanager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_cursor_contextmanager_closing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_cursor_executemany()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_cursor_executemany_with_empty_params_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_database_operations_helper_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_duplicate_table_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_cached_db_features()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_timezone_none_use_tz_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_unicode_password()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **skipUnless** (1 connections)
+- **DatabaseOperations initialization doesn't query the database. See #17656.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **Creating an existing table returns a DatabaseError** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **Cursors can be used as a context manager** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **is_usable() doesn't crash when the database disconnects (#21553).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **Test the documented API of connection.queries.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
 
 ## Relationships
 
-- [Community 72](Community_72.md) (4 shared connections)
-- [Community 76](Community_76.md) (3 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 357](Community_357.md) (1 shared connections)
-- [Community 640](Community_640.md) (1 shared connections)
-- [Community 169](Community_169.md) (1 shared connections)
-- [Community 664](Community_664.md) (1 shared connections)
-- [Community 341](Community_341.md) (1 shared connections)
-- [Community 361](Community_361.md) (1 shared connections)
-- [Community 279](Community_279.md) (1 shared connections)
-- [Community 564](Community_564.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 28](Community_28.md) (5 shared connections)
+- [Community 9](Community_9.md) (3 shared connections)
+- [Community 148](Community_148.md) (2 shared connections)
+- [Community 119](Community_119.md) (2 shared connections)
+- [Community 20](Community_20.md) (2 shared connections)
+- [Community 843](Community_843.md) (1 shared connections)
+- [Community 417](Community_417.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (82%)
-- INFERRED: 8 (18%)
+- EXTRACTED: 43 (90%)
+- INFERRED: 5 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

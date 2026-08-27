@@ -1,57 +1,54 @@
 # Community 269
 
-> 39 nodes · cohesion 0.05
+> 21 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **test_client_regress/views.py** (41 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
-- **CustomTestException** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
-- **get_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
-- **nested_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
-- **render_template_multiple_times()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
-- **staff_only_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
-- **body()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
-- **check_headers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
-- **check_session_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
-- **no_template_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
-- **read_all()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
-- **read_buffer()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
-- **redirect_based_on_extra_headers_1_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
-- **redirect_based_on_extra_headers_2_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
-- **request_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
-- **request_methods_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
-- **return_text_file()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
-- **set_session_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
-- **view_with_argument()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
-- **redirect_to_self_with_changing_query_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
-- **return_json_response()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
-- **return_json_response_latin1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
-- **return_undecodable_binary()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
-- **Exception** (1 connections)
-- **A view that parses and returns text as a file.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
-- *... and 14 more nodes in this community*
+- **ExtractorTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.assertLocationCommentPresent()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **LocationCommentsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.assertLocationCommentNotPresent()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_add_location_file()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **._assertPoLocComment()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_add_location_full()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_add_location_never()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_location_comments_for_templatized_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **._get_token_line_number()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_no_location_disabled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_no_location_enabled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **requires_gettext_019** (3 connections)
+- **Check the opposite of assertLocationComment()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **Behavior is correct if --no-location switch is specified. See #16903.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **Behavior is correct if --no-location switch isn't specified.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **Ensure no leaky paths in comments, e.g. #: path\to\file.html.py:123 Refs…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **makemessages --add-location=full** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **makemessages --add-location=file** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **makemessages --add-location=never** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **r""" self.assertLocationCommentPresent('django.po', 42, 'dirA', 'dirB',…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
 
 ## Relationships
 
-- [Community 57](Community_57.md) (18 shared connections)
-- [Community 4](Community_4.md) (9 shared connections)
-- [Community 229](Community_229.md) (5 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 210](Community_210.md) (2 shared connections)
-- [Community 317](Community_317.md) (2 shared connections)
-- [Community 35](Community_35.md) (2 shared connections)
-- [Community 76](Community_76.md) (1 shared connections)
-- [Community 312](Community_312.md) (1 shared connections)
+- [Community 769](Community_769.md) (5 shared connections)
+- [Community 770](Community_770.md) (4 shared connections)
+- [Community 407](Community_407.md) (3 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 886](Community_886.md) (2 shared connections)
+- [Community 878](Community_878.md) (2 shared connections)
+- [Community 959](Community_959.md) (1 shared connections)
+- [Community 1077](Community_1077.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 936](Community_936.md) (1 shared connections)
+- [Community 1135](Community_1135.md) (1 shared connections)
+- [Community 960](Community_960.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
 
 ## Audit Trail
 
-- EXTRACTED: 85 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 58 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

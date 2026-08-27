@@ -1,62 +1,61 @@
 # Community 62
 
-> 113 nodes · cohesion 0.02
+> 92 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **FormsTestCase** (116 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **Person** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **TestForm** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
-- **FileForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- **form_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
-- **.test_boundfield_bool()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **PersonNew** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **form_view_with_template()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
-- **.test_baseform_repr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_baseform_repr_dont_trigger_validation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_boundfield_invalid_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_empty_querydict_args()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_error_escaping()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_forms_with_file_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_hidden_widget()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_subclassing_forms()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_templates_with_forms()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_validators_independence()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_subclassing_errorlist()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
-- **.test_auto_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_auto_id_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_auto_id_on_form_and_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_auto_id_true()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_boundfield_css_classes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_boundfield_initial_called_once()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- *... and 88 more nodes in this community*
+- **postgres_tests/test_indexes.py** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **SchemaTests** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **postgres_tests/test_operations.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- **.get_constraints()** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **BrinIndex** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- **postgres/indexes.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- **BloomIndex** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- **BTreeIndex** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- **GinIndex** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- **GistIndex** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- **PostgresIndex** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- **HashIndex** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- **SpGistIndex** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- **IndexTestMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **BloomIndexTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **.deconstruct()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- **.__init__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- **BrinIndexTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **BTreeIndexTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **GinIndexTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **GistIndexTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **HashIndexTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **SpGistIndexTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **.test_partial_gin_index()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **.test_partial_gin_index_with_tablespace()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- *... and 67 more nodes in this community*
 
 ## Relationships
 
-- [Community 378](Community_378.md) (11 shared connections)
-- [Community 389](Community_389.md) (11 shared connections)
-- [Community 6](Community_6.md) (8 shared connections)
-- [Community 42](Community_42.md) (5 shared connections)
-- [Community 604](Community_604.md) (4 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 175](Community_175.md) (3 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 236](Community_236.md) (2 shared connections)
-- [Community 418](Community_418.md) (1 shared connections)
-- [Community 241](Community_241.md) (1 shared connections)
-- [Community 150](Community_150.md) (1 shared connections)
+- [Community 30](Community_30.md) (16 shared connections)
+- [Community 394](Community_394.md) (8 shared connections)
+- [Community 7](Community_7.md) (7 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 28](Community_28.md) (4 shared connections)
+- [Community 60](Community_60.md) (3 shared connections)
+- [Community 223](Community_223.md) (3 shared connections)
+- [Community 16](Community_16.md) (3 shared connections)
+- [Community 146](Community_146.md) (3 shared connections)
+- [Community 75](Community_75.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 41](Community_41.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 188 (91%)
-- INFERRED: 19 (9%)
+- EXTRACTED: 243 (92%)
+- INFERRED: 22 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,27 +1,23 @@
 # Community 1105
 
-> 5 nodes · cohesion 0.40
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **.test_view_with_login()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_view_with_login_when_sessions_app_is_not_installed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **Request a page that is protected with @login_required** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_view_with_bad_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_view_with_force_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_simple_sitemap_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **A simple sitemap index can be rendered** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
 
 ## Relationships
 
-- [Community 555](Community_555.md) (4 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 192](Community_192.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

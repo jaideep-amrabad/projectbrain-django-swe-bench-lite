@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **Money** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **Song** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- [Community 226](Community_226.md) (1 shared connections)
-- [Community 143](Community_143.md) (1 shared connections)
+- [Community 63](Community_63.md) (1 shared connections)
+- [Community 78](Community_78.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 

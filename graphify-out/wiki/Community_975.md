@@ -1,31 +1,32 @@
 # Community 975
 
-> 7 nodes · cohesion 0.29
+> 7 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **FileDescriptor** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **ImageFileDescriptor** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.__get__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.__set__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.__set__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **The descriptor for the file attribute on the model instance. Return a FieldFile…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **Just like the FileDescriptor, but for ImageFields. The only difference is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **InvalidQueryTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_deprecation.py`
+- **InvalidQuery** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **.assert_warns()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_deprecation.py`
+- **.test_isinstance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_deprecation.py`
+- **.test_issubclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_deprecation.py`
+- **.test_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_deprecation.py`
+- **Exception** (1 connections)
 
 ## Relationships
 
-- [Community 76](Community_76.md) (3 shared connections)
-- [Community 223](Community_223.md) (1 shared connections)
-- [Community 154](Community_154.md) (1 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 785](Community_785.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/test_deprecation.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (91%)
-- INFERRED: 1 (9%)
+- EXTRACTED: 12 (86%)
+- INFERRED: 2 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **.test_create_model_no_reordering_of_inherited_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **A CreateModel that inherits from another isn't reordered to avoid moving it…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **EmptyModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- [Community 722](Community_722.md) (1 shared connections)
-- [Community 721](Community_721.md) (1 shared connections)
+- [Community 63](Community_63.md) (1 shared connections)
+- [Community 78](Community_78.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 

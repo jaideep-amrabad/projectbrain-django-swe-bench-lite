@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **app3/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/app3/__init__.py`
+- **templatetags/empty.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/good/templatetags/empty.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/app3/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/good/templatetags/empty.py`
 
 ## Audit Trail
 

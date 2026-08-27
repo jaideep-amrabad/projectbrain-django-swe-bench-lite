@@ -1,61 +1,53 @@
 # Community 209
 
-> 60 nodes · cohesion 0.05
+> 46 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **SelectForUpdateTests** (49 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **select_for_update/tests.py** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.has_for_update_sql()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **select_for_update/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- **.end_blocking_transaction()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_for_update_sql_generated()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_for_update_sql_generated_nowait()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_for_update_sql_generated_of()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_for_update_sql_generated_skip_locked()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_raw_lock_not_available()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_update_sql_generated_no_key()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **Country** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- **.start_blocking_transaction()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_block()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_for_update_sql_model_inheritance_generated_of()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_for_update_sql_model_inheritance_nested_ptr_generated_of()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_for_update_sql_model_inheritance_ptr_generated_of()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_for_update_sql_multilevel_model_inheritance_ptr_generated_of()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_for_update_sql_related_model_inheritance_generated_of()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_nowait_raises_error_on_block()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **.test_skip_locked_skips_locked_rows()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **EUCountry** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- **.raw()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **City** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- **EUCity** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- *... and 35 more nodes in this community*
+- **URLTestCaseBase** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **URLRedirectTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **URLResponseTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **URLTranslationTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **PathUnusedTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **URLRedirectWithoutTrailingSlashSettingTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **URLRedirectWithoutTrailingSlashTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **URLVaryAcceptLanguageTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **URLNamespaceTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **Tests the redirect when the requested URL doesn't end with a slash…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.test_account_register()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.test_custom_redirect_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.test_en_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.test_not_prefixed_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.test_no_prefix_translated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.test_translate_url_utility()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.test_users_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.test_no_lang_activate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **If no i18n_patterns is used in root URLconfs, then no language activation…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **Tests if the pattern-strings are translated correctly (within the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **Tests if the translations are still working within namespaces.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **Tests if the user gets redirected to the right URL when there is no language-…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **'Accept-Language' is not added to the Vary header when using prefixed URLs.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- *... and 21 more nodes in this community*
 
 ## Relationships
 
-- [Community 29](Community_29.md) (28 shared connections)
-- [Community 238](Community_238.md) (11 shared connections)
-- [Community 130](Community_130.md) (10 shared connections)
-- [Community 85](Community_85.md) (6 shared connections)
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 542](Community_542.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 440](Community_440.md) (2 shared connections)
-- [Community 304](Community_304.md) (1 shared connections)
-- [Community 60](Community_60.md) (1 shared connections)
-- [Community 76](Community_76.md) (1 shared connections)
-- [Community 387](Community_387.md) (1 shared connections)
+- [Community 17](Community_17.md) (10 shared connections)
+- [Community 9](Community_9.md) (6 shared connections)
+- [Community 12](Community_12.md) (5 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- `raw/code/hyd-evaluation/django-django/tests/select_for_update/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 151 (89%)
-- INFERRED: 18 (11%)
+- EXTRACTED: 71 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

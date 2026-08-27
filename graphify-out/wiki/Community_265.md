@@ -1,55 +1,52 @@
 # Community 265
 
-> 41 nodes · cohesion 0.09
+> 39 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **ConditionalGetMiddleware** (32 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/http.py`
-- **ConditionalGetMiddlewareTest** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.get_response()** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **ETagGZipMiddlewareTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_etag_match()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_not_modified_headers()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_strong_etag_modified()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_weak_etag_not_modified()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.needs_etag()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/http.py`
-- **.test_if_modified_since_and_client_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_if_modified_since_and_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_if_none_match_and_client_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_if_none_match_and_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_no_etag_response_empty_content()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_no_etag_streaming_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_no_head()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_no_unsafe()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_etag_extended_cache_control()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_if_modified_since_and_last_modified_in_the_future()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_if_modified_since_and_last_modified_in_the_past()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_if_modified_since_and_no_last_modified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_if_modified_since_and_same_last_modified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_if_none_match_and_different_etag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_if_none_match_and_no_etag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_if_none_match_and_same_etag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- *... and 16 more nodes in this community*
+- **DatabaseOperations** (41 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **._convert_field_to_tz()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.quote_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.datetime_extract_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.date_extract_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.datetime_cast_date_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.datetime_cast_time_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.datetime_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.fetch_returned_insert_rows()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.force_no_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.last_executed_query()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **._prepare_tzname_delta()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.return_insert_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.sequence_reset_by_name_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.sql_flush()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.adapt_datetimefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.adapt_timefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.binary_placeholder_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.bulk_insert_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.combine_expression()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.convert_booleanfield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.convert_datetimefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.convert_uuidfield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.date_trunc_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **.explain_query_prefix()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [Community 472](Community_472.md) (6 shared connections)
-- [Community 106](Community_106.md) (5 shared connections)
-- [Community 35](Community_35.md) (4 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 416](Community_416.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 106](Community_106.md) (1 shared connections)
+- [Community 415](Community_415.md) (1 shared connections)
+- [Community 118](Community_118.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/middleware/http.py`
-- `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 75 (80%)
-- INFERRED: 19 (20%)
+- EXTRACTED: 52 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

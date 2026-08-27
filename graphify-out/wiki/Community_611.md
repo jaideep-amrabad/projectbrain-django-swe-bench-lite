@@ -1,42 +1,43 @@
 # Community 611
 
-> 17 nodes · cohesion 0.15
+> 18 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **TranslationCheckTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
-- **check_language_settings_consistent()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
-- **check_setting_language_code()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
-- **check_setting_languages()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
-- **check_setting_languages_bidi()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
-- **.test_inconsistent_language_settings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
-- **.test_valid_variant_consistent_language_settings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
-- **Error if LANGUAGES setting is invalid.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
-- **.test_invalid_language_code()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
-- **.test_invalid_languages()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
-- **.test_invalid_languages_bidi()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
-- **.test_valid_language_code()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
-- **.test_valid_languages()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
-- **.test_valid_languages_bidi()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
-- **Error if LANGUAGE_CODE setting is invalid.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
-- **Error if language settings are not consistent with each other.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
+- **TemplateViewTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **._assert_about()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_get()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_get_generic_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_get_template_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_cached_views()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_head()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_resolve_login_required_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_resolve_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_template_name_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **Test a view that simply renders a template on GET** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **Test a TemplateView responds correctly to HEAD** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **Test a view that renders a template on GET with the template name as an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **Test a completely generic view that renders a template on GET with the template…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **A template view must provide a template name.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **A template view can be cached** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_content_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_extra_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
 
 ## Relationships
 
-- [Community 12](Community_12.md) (10 shared connections)
-- [Community 444](Community_444.md) (4 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 262](Community_262.md) (2 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 862](Community_862.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

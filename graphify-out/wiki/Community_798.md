@@ -1,36 +1,32 @@
 # Community 798
 
-> 12 nodes · cohesion 0.17
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Jinja2Tests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
-- **.test_context_processors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
-- **.test_dirs_pathlib()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
-- **.test_self_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
-- **.test_exception_debug_info_max_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
-- **.test_exception_debug_info_min_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
-- **.test_origin()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
-- **.test_origin_from_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
-- **.test_template_render_error_nonexistent_source()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
-- **.test_template_render_nested_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
-- **skipIf** (1 connections)
-- **Using 'self' in the context should not throw errors (#24538).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
+- **PostGISSchemaEditor** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/schema.py`
+- **._alter_column_type_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/schema.py`
+- **._create_index_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/schema.py`
+- **._field_should_be_indexed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/schema.py`
+- **.geo_quote_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/schema.py`
+- **DatabaseSchemaEditor** (1 connections)
+- **Special case when dimension changed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/schema.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 490](Community_490.md) (1 shared connections)
+- [Community 93](Community_93.md) (2 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 757](Community_757.md) (1 shared connections)
+- [Community 820](Community_820.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 9 (82%)
+- INFERRED: 2 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,44 +1,56 @@
 # Community 661
 
-> 15 nodes · cohesion 0.18
+> 26 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **PasswordChangeForm** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **PasswordChangeFormTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **patch** (4 connections)
-- **.clean_old_password()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.test_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_field_order()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_html_autocomplete_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_incorrect_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_password_verification()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_password_whitespace_not_stripped()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **A form that lets a user change their password by entering their old password.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **Validate that the old_password field is correct.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **MediaType** (15 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **HttpHeaders** (9 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **MediaTypeTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_accept_header.py`
+- **test_accept_header.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_accept_header.py`
+- **HttpHeadersTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.parse_header_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.accepted_types()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **parse_accept_header()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.headers()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.test_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_accept_header.py`
+- **.test_is_all_types()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_accept_header.py`
+- **.test_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_accept_header.py`
+- **.test_no_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_accept_header.py`
+- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_accept_header.py`
+- **.test_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_accept_header.py`
+- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_parse_header_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.is_all_types()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.match()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **Allow header lookup using underscores in place of hyphens.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (6 shared connections)
-- [Community 773](Community_773.md) (4 shared connections)
-- [Community 732](Community_732.md) (2 shared connections)
-- [Community 498](Community_498.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 6](Community_6.md) (7 shared connections)
+- [Community 73](Community_73.md) (4 shared connections)
+- [Community 116](Community_116.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 181](Community_181.md) (1 shared connections)
 - [Community 38](Community_38.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- `raw/code/hyd-evaluation/django-django/tests/requests/test_accept_header.py`
+- `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 49 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

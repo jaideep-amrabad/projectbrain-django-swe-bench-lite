@@ -1,59 +1,45 @@
 # Community 571
 
-> 33 nodes · cohesion 0.07
+> 19 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **ContextList** (14 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **ContextTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **_AssertTemplateUsedContext** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **_AssertTemplateNotUsedContext** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.__exit__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.assertTemplateNotUsed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.assertTemplateUsed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **._assert_template_used()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.test_contextlist_get()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_contextlist_keys()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.message()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.test()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Assert that the template with the provided name was used in rendering the…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.test_inherited_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_nested_requests()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_single_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.__enter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.message()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.on_template_render()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.test()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- *... and 8 more nodes in this community*
+- **BrokenLinkEmailsMiddleware** (14 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
+- **BrokenLinkEmailsMiddlewareTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.process_response()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
+- **.is_ignorable_request()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
+- **.is_internal_request()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
+- **.test_referer_equal_to_requested_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_referer_equal_to_requested_url_without_trailing_slash_when_append_slash_is_set()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_referer_equal_to_requested_url_without_trailing_slash_when_append_slash_is_unset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_404_error_reporting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_404_error_reporting_ignored_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_404_error_reporting_no_referer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_referer_equal_to_requested_url_on_another_domain()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **Send broken link emails for relevant 404 NOT FOUND responses.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
+- **Return True if the referring URL is the same domain as the current request.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
+- **Return True if the given request *shouldn't* notify the site managers according…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
+- **.get_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_custom_request_checker()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **Some bots set the referer to the current URL to avoid being blocked by an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 76](Community_76.md) (4 shared connections)
-- [Community 42](Community_42.md) (2 shared connections)
-- [Community 593](Community_593.md) (1 shared connections)
-- [Community 238](Community_238.md) (1 shared connections)
-- [Community 327](Community_327.md) (1 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 312](Community_312.md) (1 shared connections)
+- [Community 6](Community_6.md) (4 shared connections)
+- [Community 9](Community_9.md) (3 shared connections)
+- [Community 307](Community_307.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 56 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 36 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

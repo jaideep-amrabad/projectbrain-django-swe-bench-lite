@@ -1,55 +1,53 @@
 # Community 463
 
-> 25 nodes · cohesion 0.11
+> 24 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **serializers/models/base.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **Meta** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **Actor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **Movie** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **Category** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **CategoryMetaData** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **ProxyBaseModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.test_serialize_superfluous_queries()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_serialize_unicode_roundtrip()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **ProxyProxyBaseModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.setUpTestData()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **AuthorProfile** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **CategoryMetaDataManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **Serialization ``django.core.serializers`` provides interfaces to converting…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **Unicode makes the roundtrip intact** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **Ensure no superfluous queries are made when serializing ForeignKeys #17602** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **LocMemCache** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **cache/backends/locmem.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **._has_expired()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **._delete()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **closeable_cache.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
+- **liberal_backend.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
+- **.add()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **.has_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **.incr()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **._set()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **CacheClass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
+- **CloseHookMixin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
+- **.close()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
+- **CacheClass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
+- **LiberalKeyValidationMixin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
+- **.test_use_as_contextmanager()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **._cull()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **.touch()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **.clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **Thread-safe in-memory cache backend.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **.validate_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
+- **The connection can be used as a contextmanager.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Relationships
 
-- [Community 396](Community_396.md) (5 shared connections)
-- [Community 127](Community_127.md) (3 shared connections)
-- [Community 613](Community_613.md) (3 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 1050](Community_1050.md) (2 shared connections)
-- [Community 143](Community_143.md) (1 shared connections)
-- [Community 1051](Community_1051.md) (1 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
+- [Community 251](Community_251.md) (2 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 199](Community_199.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (86%)
-- INFERRED: 7 (14%)
+- EXTRACTED: 43 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

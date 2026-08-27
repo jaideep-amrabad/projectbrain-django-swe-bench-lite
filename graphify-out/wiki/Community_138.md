@@ -1,61 +1,53 @@
 # Community 138
 
-> 62 nodes · cohesion 0.06
+> 41 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **UrlTagTests** (50 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **setup** (47 connections)
-- **RequestContext** (30 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **RequestContextTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
-- **.test_url_namespace01()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_url_namespace02()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_url_namespace_explicit_current_app()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_url_namespace_no_current_app()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_copy_request_context_twice()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
-- **.test_include_only()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
-- **.test_url_namespace03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_modify_context_and_render()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
-- **.test_stack_size()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
-- **.test_url01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_url02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_url02a()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_url02b()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_url02c()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_url03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_url04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_url05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_url06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_url08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_url09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_url10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- *... and 37 more nodes in this community*
+- **ConditionalGetMiddleware** (32 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/http.py`
+- **ConditionalGetMiddlewareTest** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.get_response()** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **ETagGZipMiddlewareTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_etag_match()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_not_modified_headers()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_strong_etag_modified()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_weak_etag_not_modified()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.needs_etag()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/http.py`
+- **.test_if_modified_since_and_client_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_if_modified_since_and_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_if_none_match_and_client_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_if_none_match_and_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_no_etag_response_empty_content()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_no_etag_streaming_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_no_head()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_no_unsafe()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_etag_extended_cache_control()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_if_modified_since_and_last_modified_in_the_future()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_if_modified_since_and_last_modified_in_the_past()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_if_modified_since_and_no_last_modified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_if_modified_since_and_same_last_modified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_if_none_match_and_different_etag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_if_none_match_and_no_etag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_if_none_match_and_same_etag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (9 shared connections)
-- [Community 42](Community_42.md) (4 shared connections)
-- [Community 111](Community_111.md) (4 shared connections)
-- [Community 229](Community_229.md) (2 shared connections)
-- [Community 35](Community_35.md) (2 shared connections)
-- [Community 668](Community_668.md) (1 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
-- [Community 490](Community_490.md) (1 shared connections)
-- [Community 75](Community_75.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 252](Community_252.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 6](Community_6.md) (8 shared connections)
+- [Community 349](Community_349.md) (6 shared connections)
+- [Community 101](Community_101.md) (5 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/http.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 144 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 75 (80%)
+- INFERRED: 19 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,57 +4,55 @@
 
 ## Key Concepts
 
-- **MigrationAutodetector** (63 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **._detect_changes()** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.add_operation()** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_altered_fields()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **._get_dependencies_for_foreign_key()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.through()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.deep_deconstruct()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_created_models()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_renamed_models()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **._sort_migrations()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **._build_migration_list()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.changes()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **._generate_added_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **._generate_altered_foo_together()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_deleted_models()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_renamed_fields()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **._resolve_dependency()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.arrange_for_graph()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.check_dependency()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_added_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_altered_options()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_created_proxies()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_deleted_proxies()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **._generate_removed_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_removed_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **GenericRelationTests** (53 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/tests.py`
+- **generic_relations_regress/models.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **generic_relations_regress/tests.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/tests.py`
+- **Note** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **B** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **Link** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **Place** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **Restaurant** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **Tag** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **A** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **Address** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **C** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **Cafe** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **CharLink** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **Company** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **Contact** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **Content** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **D** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **Developer** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **Guild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **HasLinkThing** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **Node** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **OddRelation1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- **OddRelation2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
 - *... and 43 more nodes in this community*
 
 ## Relationships
 
-- [Community 18](Community_18.md) (4 shared connections)
-- [Community 86](Community_86.md) (4 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 810](Community_810.md) (3 shared connections)
-- [Community 5](Community_5.md) (3 shared connections)
-- [Community 24](Community_24.md) (2 shared connections)
-- [Community 292](Community_292.md) (2 shared connections)
-- [Community 113](Community_113.md) (2 shared connections)
-- [Community 284](Community_284.md) (1 shared connections)
-- [Community 131](Community_131.md) (1 shared connections)
-- [Community 103](Community_103.md) (1 shared connections)
-- [Community 853](Community_853.md) (1 shared connections)
+- [Community 108](Community_108.md) (19 shared connections)
+- [Community 0](Community_0.md) (7 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 16](Community_16.md) (2 shared connections)
+- [Community 335](Community_335.md) (2 shared connections)
+- [Community 120](Community_120.md) (2 shared connections)
+- [Community 38](Community_38.md) (2 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 153 (91%)
-- INFERRED: 15 (9%)
+- EXTRACTED: 130 (75%)
+- INFERRED: 44 (25%)
 - AMBIGUOUS: 0 (0%)
 
 ---

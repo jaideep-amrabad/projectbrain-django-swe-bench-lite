@@ -1,27 +1,26 @@
 # Community 1150
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **FunkyTag** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Because we all know there's only one real use case for GFKs.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **UrlencodeTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlencode.py`
+- **setup** (2 connections)
+- **.test_urlencode01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlencode.py`
+- **.test_urlencode02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlencode.py`
 
 ## Relationships
 
-- [Community 64](Community_64.md) (1 shared connections)
-- [Community 78](Community_78.md) (1 shared connections)
-- [Community 108](Community_108.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlencode.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (80%)
-- INFERRED: 1 (20%)
+- EXTRACTED: 6 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

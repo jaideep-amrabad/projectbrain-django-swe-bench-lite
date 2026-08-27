@@ -1,51 +1,61 @@
 # Community 367
 
-> 31 nodes · cohesion 0.12
+> 30 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **ManyToManySignalsTest** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
-- **._initialize_signal_car()** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
-- **m2m_signals/tests.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
-- **m2m_signals/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/models.py`
-- **Car** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/models.py`
-- **Part** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/models.py`
-- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/models.py`
-- **SportsCar** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/models.py`
-- **._initialize_signal_person()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
-- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/models.py`
-- **.test_m2m_relations_add_remove_clear()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
-- **.test_m2m_relations_signals_all_the_doors_off_of_cars()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
-- **.test_m2m_relations_signals_alternative_ways()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
-- **.test_m2m_relations_signals_clear_all_parts_of_the_self_vw()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
-- **.test_m2m_relations_signals_clearing_removing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
-- **.test_m2m_relations_signals_give_the_self_vw_some_optional_parts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
-- **.test_m2m_relations_signals_remove_relation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
-- **.test_m2m_relations_signals_reverse_relation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
-- **.test_m2m_relations_signals_reverse_relation_with_custom_related_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
-- **.test_m2m_relations_signals_when_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
-- **.test_m2m_relations_with_self_add_fan()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
-- **.test_m2m_relations_with_self_add_friends()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
-- **.test_m2m_relations_with_self_add_idols()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
-- **.test_pk_set_on_repeated_add_remove()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
-- **.m2m_changed_signal_receiver()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
-- *... and 6 more nodes in this community*
+- **operations/__init__.py** (28 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/__init__.py`
+- **AlterTogetherOptionOperation** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **AlterModelOptions** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.__init__()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **normalize_together()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **AlterIndexTogether** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **AlterUniqueTogether** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.migration_name_fragment()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.migration_name_fragment()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.option_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 323](Community_323.md) (9 shared connections)
+- [Community 416](Community_416.md) (6 shared connections)
+- [Community 54](Community_54.md) (6 shared connections)
+- [Community 567](Community_567.md) (5 shared connections)
+- [Community 401](Community_401.md) (3 shared connections)
+- [Community 859](Community_859.md) (3 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 242](Community_242.md) (2 shared connections)
+- [Community 634](Community_634.md) (2 shared connections)
+- [Community 934](Community_934.md) (2 shared connections)
+- [Community 830](Community_830.md) (1 shared connections)
+- [Community 860](Community_860.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/m2m_signals/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/m2m_signals/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
 
 ## Audit Trail
 
-- EXTRACTED: 57 (93%)
-- INFERRED: 4 (7%)
+- EXTRACTED: 78 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

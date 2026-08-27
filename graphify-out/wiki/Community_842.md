@@ -1,46 +1,35 @@
 # Community 842
 
-> 18 nodes · cohesion 0.15
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **check_finders()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/checks.py`
-- **BaseFinder** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **FindersCheckTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
-- **.test_check_finders()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
-- **.test_dirs_contains_static_root()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
-- **.test_dirs_contains_static_root_in_tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
-- **.test_dirs_not_tuple_or_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
-- **.test_prefix_contains_trailing_slash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
-- **.find()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.test_base_finder_check_not_implemented()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
-- **.test_no_errors_with_test_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
-- **Check all registered staticfiles finders.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/checks.py`
-- **.check()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **A base file finder to be used for custom staticfiles finder classes.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **Given a relative file path, find an absolute file path. If the ``all``…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **Given an optional list of paths to ignore, return a two item iterable…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **check_finders() concatenates all errors.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
+- **M2mThroughFieldsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_explicit_field_names()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_invalid_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_invalid_order()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_m2m_field_argument_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_intersection_foreign_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_superset_foreign_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **ManyToManyField accepts the ``through_fields`` kwarg only if an intermediary…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **Mixing up the order of link fields to ManyToManyField.through_fields triggers…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **Providing invalid field names to ManyToManyField.through_fields triggers…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **If ``through_fields`` kwarg is given, it must specify both link fields of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
 
 ## Relationships
 
-- [Community 12](Community_12.md) (8 shared connections)
-- [Community 8](Community_8.md) (4 shared connections)
-- [Community 291](Community_291.md) (3 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 42](Community_42.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/checks.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
 
 ## Audit Trail
 
-- EXTRACTED: 37 (92%)
-- INFERRED: 3 (8%)
+- EXTRACTED: 13 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

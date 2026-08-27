@@ -4,24 +4,24 @@
 
 ## Key Concepts
 
-- **.test_serialize_local_function_reference()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **TestModel1** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.upload_to()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **A reference in a local scope can't be serialized.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **FormsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_forms.py`
+- **ArticleForm** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_forms.py`
+- **.test_foreign_object_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_forms.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_forms.py`
 
 ## Relationships
 
-- [Community 226](Community_226.md) (2 shared connections)
-- [Community 143](Community_143.md) (1 shared connections)
+- [Community 404](Community_404.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (83%)
-- INFERRED: 1 (17%)
+- EXTRACTED: 5 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

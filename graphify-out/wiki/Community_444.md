@@ -1,64 +1,57 @@
 # Community 444
 
-> 25 nodes · cohesion 0.15
+> 25 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **register()** (48 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
-- **security/base.py** (23 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **_security_middleware()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **GroupAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/admin.py`
-- **check_content_type_nosniff()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_referrer_policy()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_security_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_ssl_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_sts()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_sts_include_subdomains()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_sts_preload()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_xframe_deny()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_xframe_options_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **_xframe_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_csrf_cookie_secure()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
-- **check_csrf_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
-- **_csrf_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
-- **FlatPageAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/admin.py`
-- **SiteAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/admin.py`
-- **check_all_models()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/model_checks.py`
-- **check_allowed_hosts()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_debug()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_secret_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **Register the given model(s) classes and wrapped ModelAdmin class with admin…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
-- **.formfield_for_manytomany()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/admin.py`
+- **AuthenticationForm** (29 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **AuthenticationFormTest** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.clean()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.confirm_login_allowed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.test_inactive_user_incorrect_password()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.get_invalid_login_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.test_username_field_max_length_defaults_to_254()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_username_field_max_length_matches_user_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **CustomRequestAuthenticationForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
+- **.test_custom_login_allowed_policy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_get_invalid_login_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_html_autocomplete_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_inactive_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_inactive_user_i18n()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_invalid_username()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_login_failed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_password_whitespace_not_stripped()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_success()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_unicode_username()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_username_field_autocapitalize_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.get_user()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **Base class for authenticating users. Extend this to get a form that accepts…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **Controls whether the given User may log in. This is a policy setting,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **An invalid login doesn't leak the inactive status of a user.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
 
 ## Relationships
 
-- [Community 12](Community_12.md) (10 shared connections)
-- [Community 534](Community_534.md) (8 shared connections)
-- [Community 1](Community_1.md) (8 shared connections)
-- [Community 611](Community_611.md) (4 shared connections)
+- [Community 2](Community_2.md) (6 shared connections)
+- [Community 9](Community_9.md) (5 shared connections)
+- [Community 104](Community_104.md) (4 shared connections)
+- [Community 17](Community_17.md) (3 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
 - [Community 0](Community_0.md) (2 shared connections)
-- [Community 1112](Community_1112.md) (2 shared connections)
-- [Community 360](Community_360.md) (2 shared connections)
-- [Community 1066](Community_1066.md) (1 shared connections)
-- [Community 921](Community_921.md) (1 shared connections)
-- [Community 1019](Community_1019.md) (1 shared connections)
-- [Community 973](Community_973.md) (1 shared connections)
-- [Community 103](Community_103.md) (1 shared connections)
+- [Community 652](Community_652.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 822](Community_822.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/admin.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/admin.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sites/admin.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/model_checks.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 91 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 64 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

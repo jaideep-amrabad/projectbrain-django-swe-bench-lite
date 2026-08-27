@@ -1,57 +1,66 @@
 # Community 142
 
-> 42 nodes · cohesion 0.07
+> 65 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **model_fields/test_imagefield.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **ImageFieldTwoDimensionsTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **ImageFieldTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **ImageFieldTestMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **skipIf** (7 connections)
-- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **PersonDimensionsFirst** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **PersonWithHeight** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **ImageFieldDimensionsFirstTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **ImageFieldNoDimensionsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **ImageFieldOneDimensionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **ImageFieldUsingFileTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **PersonWithHeightAndWidth** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.test_pickle()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **Person** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.test_delete_when_missing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.test_equal_notequal_hash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.test_instantiate_missing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.test_size_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.test_default_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **Model that defines an ImageField with no dimension fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **Concrete model that subclass an abstract one with only on dimension field.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **Model that defines height and width fields after the ImageField.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- *... and 17 more nodes in this community*
+- **JsonResponse** (27 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **file_uploads/views.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **FileUploadHandler** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **HttpResponseServerError** (13 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **StopUpload** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **QuotaUploadHandler** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
+- **JsonResponseTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **file_uploads/uploadhandler.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
+- **ErroringUploadHandler** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
+- **file_upload_echo()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **file_upload_view_verify()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **file_upload_view()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **file_upload_quota()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **file_upload_quota_broken()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **file_upload_unicode_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **.handle_uncaught_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **CustomUploadError** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
+- **file_upload_content_type_extra()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **file_upload_echo_content()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **file_upload_errors()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **file_upload_getlist_count()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- **.file_complete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **.handle_raw_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **.new_file()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **.receive_data_chunk()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- *... and 40 more nodes in this community*
 
 ## Relationships
 
-- [Community 443](Community_443.md) (12 shared connections)
-- [Community 368](Community_368.md) (6 shared connections)
-- [Community 76](Community_76.md) (6 shared connections)
-- [Community 38](Community_38.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 916](Community_916.md) (2 shared connections)
-- [Community 550](Community_550.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 6](Community_6.md) (15 shared connections)
+- [Community 40](Community_40.md) (9 shared connections)
+- [Community 14](Community_14.md) (5 shared connections)
+- [Community 320](Community_320.md) (4 shared connections)
+- [Community 196](Community_196.md) (4 shared connections)
+- [Community 44](Community_44.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 213](Community_213.md) (2 shared connections)
+- [Community 267](Community_267.md) (2 shared connections)
+- [Community 114](Community_114.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 485](Community_485.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/logging_tests/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 85 (90%)
-- INFERRED: 9 (10%)
+- EXTRACTED: 136 (95%)
+- INFERRED: 7 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

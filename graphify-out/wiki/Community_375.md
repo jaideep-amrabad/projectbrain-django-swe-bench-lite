@@ -1,58 +1,52 @@
 # Community 375
 
-> 44 nodes · cohesion 0.11
+> 30 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **geo3d/tests.py** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/tests.py`
-- **Geo3DFunctionsTests** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/tests.py`
-- **Geo3DTest** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/tests.py`
-- **geo3d/models.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/models.py`
-- **Geo3DLoadingHelper** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/tests.py`
-- **NamedModel** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/models.py`
-- **._load_city_data()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/tests.py`
-- **AsGeoJSON** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
-- **City3D** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/models.py`
-- **Interstate3D** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/models.py`
-- **InterstateProj3D** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/models.py`
-- **Polygon3D** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/models.py`
-- **.test_union()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/tests.py`
-- **Interstate2D** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/models.py`
-- **InterstateProj2D** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/models.py`
-- **Polygon2D** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/models.py`
-- **SimpleModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/models.py`
-- **._load_interstate_data()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/tests.py`
-- **._load_polygon_data()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/tests.py`
-- **.test_extent()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/tests.py`
-- **MultiPoint3D** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/models.py`
-- **Point2D** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/models.py`
-- **Point3D** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/models.py`
-- **.test_geojson()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/tests.py`
-- **.test_kml()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/tests.py`
-- *... and 19 more nodes in this community*
+- **ExtraRegressTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **TestObject** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/models.py`
+- **RevisionableModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/models.py`
+- **.test_regression_10847()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_regression_17877()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_values_with_extra()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_log_on_variable_does_not_exist_silent()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_logging.py`
+- **.test_dates_query()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_regression_7314_7372()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_regression_7957()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_regression_7961()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_regression_8039()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_regression_8063()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_regression_8819()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.new_revision()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/models.py`
+- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_extra_stay_tied()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_extra_values_distinct_ordering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **Regression test for #7961: When not using a portion of an extra(...) in a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **Regression test for #8063: limiting a query shouldn't discard any extra() bits.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **Regression test for #8039: Ordering sometimes removed relevant tables from…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **Regression test for #8819: Fields in the extra(select=...) list should be…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **When calling the dates() method on a queryset with extra selection columns, we…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 22](Community_22.md) (21 shared connections)
-- [Community 16](Community_16.md) (11 shared connections)
-- [Community 29](Community_29.md) (5 shared connections)
-- [Community 155](Community_155.md) (3 shared connections)
-- [Community 67](Community_67.md) (3 shared connections)
-- [Community 23](Community_23.md) (3 shared connections)
-- [Community 38](Community_38.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 58](Community_58.md) (1 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/extra_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_logging.py`
 
 ## Audit Trail
 
-- EXTRACTED: 124 (82%)
-- INFERRED: 28 (18%)
+- EXTRACTED: 37 (90%)
+- INFERRED: 4 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

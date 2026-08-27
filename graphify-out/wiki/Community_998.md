@@ -1,35 +1,32 @@
 # Community 998
 
-> 7 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **SessionTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
-- **.test_safedata()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
-- **.test_get()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
-- **.get_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
-- **.stored_messages_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
-- **.test_no_session()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
-- **A message containing SafeData keeps its safe status when retrieved from the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **mutually_referential/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mutually_referential/models.py`
+- **mutually_referential/tests.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mutually_referential/tests.py`
+- **Parent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mutually_referential/models.py`
+- **MutuallyReferentialTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mutually_referential/tests.py`
+- **.test_mutually_referential()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mutually_referential/tests.py`
+- **Child** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mutually_referential/models.py`
+- **Mutually referential many-to-one relationships Strings can be used instead of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mutually_referential/models.py`
 
 ## Relationships
 
-- [Community 635](Community_635.md) (3 shared connections)
 - [Community 0](Community_0.md) (2 shared connections)
-- [Community 461](Community_461.md) (2 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 248](Community_248.md) (1 shared connections)
-- [Community 671](Community_671.md) (1 shared connections)
-- [Community 94](Community_94.md) (1 shared connections)
+- [Community 38](Community_38.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- `raw/code/hyd-evaluation/django-django/tests/mutually_referential/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/mutually_referential/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (89%)
-- INFERRED: 2 (11%)
+- EXTRACTED: 13 (93%)
+- INFERRED: 1 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,65 +1,60 @@
 # Community 373
 
-> 30 nodes · cohesion 0.09
+> 22 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **PostgreSQLTestCase** (52 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/__init__.py`
-- **postgres_tests/test_functions.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_functions.py`
-- **UnaccentTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
-- **TestDateTimeExactQuerying** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **postgres/functions.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/functions.py`
-- **InspectDBTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_introspection.py`
-- **RandomUUID** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/functions.py`
-- **TransactionNow** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/functions.py`
-- **TestRandomUUID** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_functions.py`
-- **TestTransactionNow** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_functions.py`
-- **UnaccentTextFieldTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
-- **NowTestModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- **UUIDTestModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- **.test_transaction_now()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_functions.py`
-- **.assertFieldsInModel()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_introspection.py`
-- **.test_random_uuid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_functions.py`
-- **.test_range_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_introspection.py`
-- **.test_unaccent_chained()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
-- **.test_unaccent_with_conforming_strings_off()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_exact_dates()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_exact_datetimes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_exact_times()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **The test case puts everything under a transaction, so two models updated with a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_functions.py`
-- **Unaccent can be used chained with a lookup (which should be the case since…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
-- *... and 5 more nodes in this community*
+- **handlers/views.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
+- **csrf_exempt()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
+- **_non_atomic_requests()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **handlers/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/urls.py`
+- **CoroutineClearingView** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
+- **malformed_post()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
+- **not_in_transaction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
+- **method_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
+- **async_regular()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
+- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
+- **httpstatus_enum()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
+- **in_transaction()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
+- **NoResponse** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
+- **regular()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
+- **streaming()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
+- **suspicious()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
+- **Mark a view function as being exempt from the CSRF view protection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
+- **tests/handlers/__init__.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/__init__.py`
+- **.__del__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
+- **no_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
+- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
+- **Return an unawaited coroutine (common error for async views).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
 
 ## Relationships
 
-- [Community 143](Community_143.md) (13 shared connections)
-- [Community 161](Community_161.md) (9 shared connections)
-- [Community 96](Community_96.md) (8 shared connections)
-- [Community 39](Community_39.md) (4 shared connections)
-- [Community 224](Community_224.md) (4 shared connections)
-- [Community 73](Community_73.md) (3 shared connections)
+- [Community 40](Community_40.md) (10 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 47](Community_47.md) (2 shared connections)
 - [Community 2](Community_2.md) (2 shared connections)
-- [Community 88](Community_88.md) (2 shared connections)
-- [Community 99](Community_99.md) (2 shared connections)
-- [Community 91](Community_91.md) (2 shared connections)
-- [Community 277](Community_277.md) (2 shared connections)
-- [Community 354](Community_354.md) (2 shared connections)
+- [Community 155](Community_155.md) (2 shared connections)
+- [Community 441](Community_441.md) (1 shared connections)
+- [Community 123](Community_123.md) (1 shared connections)
+- [Community 678](Community_678.md) (1 shared connections)
+- [Community 50](Community_50.md) (1 shared connections)
+- [Community 637](Community_637.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/functions.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_functions.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_introspection.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
+- `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
+- `raw/code/hyd-evaluation/django-django/tests/handlers/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/handlers/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 98 (95%)
-- INFERRED: 5 (5%)
+- EXTRACTED: 48 (92%)
+- INFERRED: 4 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

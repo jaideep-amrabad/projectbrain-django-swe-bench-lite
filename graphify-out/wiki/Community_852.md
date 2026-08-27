@@ -1,31 +1,31 @@
 # Community 852
 
-> 10 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.44
 
 ## Key Concepts
 
-- **override** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **deactivate()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **activate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **.__enter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **ContextDecorator** (1 connections)
-- **Temporarily set the time zone for the current thread. This is a context manager…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **Set the time zone for the current thread. The ``timezone`` argument must be an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **Unset the time zone for the current thread. Django will then use the time zone…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **actions.js** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
+- **reset()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
+- **showQuestion()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
+- **hide()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
+- **show()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
+- **checker()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
+- **clearAcross()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
+- **showClear()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
+- **updateCounter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
+- **ready()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
 
 ## Relationships
 
-- [Community 11](Community_11.md) (3 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,43 +1,54 @@
 # Community 361
 
-> 16 nodes · cohesion 0.16
+> 30 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **DatabaseIntrospection** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **.get_constraints()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **.get_table_description()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **._parse_constraint_columns()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **.get_key_columns()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **.get_relations()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **.get_sequences()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **.get_storage_engine()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **.get_table_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **.get_field_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **Return a dictionary of {field_name: (field_name_other_table, other_table)}…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **Return a list of (column_name, referenced_table_name, referenced_column_name)…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **Retrieve the storage engine for a given table. Return the default storage…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **Retrieve any constraints or keys (unique, pk, fk, check, index) across one or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **Return a list of table and view names in the current database.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **Return a description of the table with the DB-API cursor.description interface."** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **StaticTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **static()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/conf/urls/static.py`
+- **StaticHelperTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **.test_debug_off()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **.test_special_prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **.test_serve()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **.test_empty_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **.test_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **.test_chunked()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **.test_index_custom_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **.test_invalid_if_modified_since()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **.test_invalid_if_modified_since2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **Return a URL pattern for serving files in debug mode. from django.conf import…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/urls/static.py`
+- **Test case to make sure the static URL pattern helper works as expected** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **No URLs are served if DEBUG=False.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **No URLs are served if prefix contains a netloc part.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **Tests django views in django/views/static.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **The static view can serve static media** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **The static view should stream files in chunks to avoid large memory usage** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **Handle bogus If-Modified-Since values gracefully Assume that a file is modified…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **Handle even more bogus If-Modified-Since values gracefully Assume that a file…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **.test_404()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **.test_copes_with_empty_path_component()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 76](Community_76.md) (2 shared connections)
-- [Community 695](Community_695.md) (2 shared connections)
-- [Community 357](Community_357.md) (1 shared connections)
-- [Community 278](Community_278.md) (1 shared connections)
-- [Community 429](Community_429.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
+- [Community 6](Community_6.md) (4 shared connections)
+- [Community 9](Community_9.md) (3 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 267](Community_267.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- `raw/code/hyd-evaluation/django-django/django/conf/urls/static.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (93%)
-- INFERRED: 2 (7%)
+- EXTRACTED: 44 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

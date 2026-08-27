@@ -4,26 +4,25 @@
 
 ## Key Concepts
 
-- **ExtraWhere** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **.add_extra()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **Add data to the various extra_* attributes for user-created additions to the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- **TimeFieldTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_timefield.py`
+- **.test_timefield_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_timefield.py`
+- **.test_timefield_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_timefield.py`
+- **.test_timefield_3()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_timefield.py`
+- **.test_timefield_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_timefield.py`
 
 ## Relationships
 
-- [Community 97](Community_97.md) (2 shared connections)
-- [Community 76](Community_76.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_timefield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (88%)
-- INFERRED: 1 (12%)
+- EXTRACTED: 7 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

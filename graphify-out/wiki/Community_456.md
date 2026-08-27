@@ -1,54 +1,53 @@
 # Community 456
 
-> 25 nodes · cohesion 0.10
+> 23 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **SelectDateWidgetTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- **SelectDateWidget** (15 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.id_for_label()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **._parse_date_fmt()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.id_for_label()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.value_from_datadict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_custom_input_format()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- **.test_l10n()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- **.test_years_rendered_without_separator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- **.value_omitted_from_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_custom_months()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- **.test_render_invalid_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- **.test_render_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- **.test_selectdate_empty_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- **Don't include for="field_0" in <label> because clicking such a label would…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **A widget that splits date input into three <select> boxes. This also serves as…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **Invalid dates should still render the failed date.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- **Rendering the None or '' values should yield the same output.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- **.test_format_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- **.test_render_datetime()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- **.test_render_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- **.test_render_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- **.test_selectdate_required()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- **.test_value_from_datadict()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- **.test_value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **FallbackTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **set_cookie_data()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- **.get_session_storage()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **set_session_data()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **.stored_session_messages_count()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **.test_flush_used_backends()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **.get_cookie_storage()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **.get_request()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **.stored_cookie_messages_count()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **.test_get_fallback()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **.test_get_fallback_only()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **.test_get()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **.test_no_fallback()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **.stored_messages_count()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **.test_session_fallback()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **.test_session_fallback_only()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **.test_get_empty()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **Set ``request.COOKIES`` with the encoded data and remove the storage backend's…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- **(1) A short number of messages whose data size doesn't exceed what is allowed…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **If the data exceeds what is allowed in a cookie, messages which did not fit are…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **Large messages, none of which fit in a cookie, are stored in the SessionBackend…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **Return the storage totals from both cookie and session backends.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **Sets the messages into the backend request's session and remove the backend's…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (4 shared connections)
-- [Community 433](Community_433.md) (3 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 567](Community_567.md) (2 shared connections)
-- [Community 218](Community_218.md) (2 shared connections)
-- [Community 814](Community_814.md) (2 shared connections)
-- [Community 902](Community_902.md) (1 shared connections)
+- [Community 364](Community_364.md) (5 shared connections)
+- [Community 626](Community_626.md) (2 shared connections)
+- [Community 993](Community_993.md) (2 shared connections)
+- [Community 655](Community_655.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 701](Community_701.md) (1 shared connections)
+- [Community 234](Community_234.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (89%)
-- INFERRED: 5 (11%)
+- EXTRACTED: 64 (97%)
+- INFERRED: 2 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

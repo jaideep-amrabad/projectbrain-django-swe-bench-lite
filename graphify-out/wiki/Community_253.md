@@ -1,51 +1,62 @@
 # Community 253
 
-> 42 nodes · cohesion 0.07
+> 78 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **IfParser** (15 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **Literal** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **smartif.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **TokenBase** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **SmartIfTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **TemplateLiteral** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- **TemplateIfParser** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- **.assertCalcEqual()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **EndToken** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.create_var()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.next_token()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.translate_token()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **test_smartif.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **.test_precedence()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **.create_var()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- **.parse()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **infix()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.display()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.test_in()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **.test_not()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **.test_not_in()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **.test_or()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- *... and 17 more nodes in this community*
+- **inlineformset_factory()** (66 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **ModelFormsetTest** (66 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **modelformset_factory()** (54 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **TestModelFormsetOverridesTroughFormMeta** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **Poet** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **DeletionTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **Player** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **.test_inline_formsets_with_custom_save_method_related_instance()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_add_form_deletion_when_invalid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_change_form_deletion_when_invalid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_custom_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_custom_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_custom_queryset_init()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_inline_formsets_with_nullable_unique_together()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_inline_formsets_with_wrong_fk_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_inlineformset_factory_with_null_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_model_formset_with_initial_model_instance()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_modelformset_factory_without_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_prevent_duplicates_from_with_the_same_formset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_initial_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_delete_already_deleted()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_resubmit()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_deletion()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_outdated_deletion()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_callable_defaults()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- *... and 53 more nodes in this community*
 
 ## Relationships
 
-- [Community 7](Community_7.md) (6 shared connections)
-- [Community 502](Community_502.md) (1 shared connections)
+- [Community 204](Community_204.md) (45 shared connections)
+- [Community 278](Community_278.md) (16 shared connections)
+- [Community 318](Community_318.md) (14 shared connections)
+- [Community 883](Community_883.md) (4 shared connections)
+- [Community 38](Community_38.md) (3 shared connections)
+- [Community 593](Community_593.md) (2 shared connections)
+- [Community 524](Community_524.md) (2 shared connections)
+- [Community 267](Community_267.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
+- [Community 122](Community_122.md) (1 shared connections)
+- [Community 51](Community_51.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 65 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 204 (86%)
+- INFERRED: 32 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

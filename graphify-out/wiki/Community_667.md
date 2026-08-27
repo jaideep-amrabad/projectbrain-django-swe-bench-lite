@@ -1,38 +1,41 @@
 # Community 667
 
-> 15 nodes · cohesion 0.14
+> 16 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **LazyStream** (12 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **._update_unget_history()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.unget()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.__next__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.read()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.tell()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **The LazyStream wrapper allows one to get and "unget" bytes from a stream. Given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **Every LazyStream must have a producer when instantiated. A producer is an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **Used when the exact number of bytes to read is unimportant. Return whatever…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **Used to invalidate/disable this lazy stream. Replace the producer with an empty…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **Place bytes back onto the front of the lazy stream. Future calls to read() will…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **Update the unget history as a sanity check to see if we've pushed back the same…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **ManageMinimalSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **minimal: manage.py builtin commands fail if settings are provided as argument** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **minimal: manage.py can't execute user commands, even if settings are provided…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **A series of tests for manage.py when using a settings.py file that doesn't…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **minimal: manage.py builtin commands fail with an error when no settings provided** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **minimal: manage.py builtin commands fail if settings file (from argument)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **minimal: manage.py builtin commands fail if settings file (from environment)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **minimal: manage.py can't execute user commands without appropriate settings** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Relationships
 
-- [Community 53](Community_53.md) (2 shared connections)
-- [Community 543](Community_543.md) (1 shared connections)
-- [Community 363](Community_363.md) (1 shared connections)
+- [Community 214](Community_214.md) (8 shared connections)
+- [Community 112](Community_112.md) (8 shared connections)
+- [Community 98](Community_98.md) (8 shared connections)
+- [Community 191](Community_191.md) (2 shared connections)
+- [Community 246](Community_246.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
+- EXTRACTED: 44 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

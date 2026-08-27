@@ -1,44 +1,41 @@
 # Community 640
 
-> 17 nodes · cohesion 0.16
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **DatabaseSchemaEditor** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **django/db/backends/mysql/schema.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._is_limited_data_type()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._set_field_new_type_null_status()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **.skip_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **.add_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._alter_column_type_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._column_default_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._delete_composed_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._field_should_be_indexed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._rename_field_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **.quote_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **.sql_delete_check()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **.sql_rename_column()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **._supports_limited_data_type_defaults()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **MySQL can remove an implicit FK index on a field when that field is covered by…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
-- **Keep the null property of the old field. If it has changed, it will be handled…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **Tests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **TransactionalTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **.test_boolean_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **skipUnless** (2 connections)
+- **.test_client_encoding()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **.test_cursor_var()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **.test_dbms_session()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **.test_order_of_nls_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **.test_quote_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **%' chars are escaped for query execution.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **A stored procedure can be called through a cursor wrapper.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **Cursor variables can be passed as query parameters.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **Client encoding is set correctly.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **An 'almost right' datetime works with configured NLS parameters (#18465).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **Boolean fields have check constraints on their values.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **.test_hidden_no_data_found_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **.test_password_with_at_sign()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
 
 ## Relationships
 
-- [Community 84](Community_84.md) (2 shared connections)
-- [Community 67](Community_67.md) (2 shared connections)
-- [Community 76](Community_76.md) (2 shared connections)
-- [Community 128](Community_128.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 429](Community_429.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
+- [Community 843](Community_843.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 19 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

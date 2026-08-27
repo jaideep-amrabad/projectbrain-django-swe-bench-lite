@@ -1,31 +1,35 @@
 # Community 896
 
-> 9 nodes · cohesion 0.22
+> 9 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **MLStripper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **_strip_once()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **.get_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **.handle_charref()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **.handle_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **.handle_entityref()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **HTMLParser** (1 connections)
-- **Internal tag stripping utility used by strip_tags.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **check_password()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/handlers/modwsgi.py`
+- **ModWsgiHandlerTestCase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
+- **.test_check_password_custom_user()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
+- **.test_check_password()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
+- **.test_groups_for_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
+- **check_password() returns the correct values as per…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
+- **Authenticate against Django's auth database. mod_wsgi docs specify None, True,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/handlers/modwsgi.py`
+- **Tests for the mod_wsgi authentication handler** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
+- **groups_for_user() returns correct values as per…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 572](Community_572.md) (1 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 843](Community_843.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/handlers/modwsgi.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

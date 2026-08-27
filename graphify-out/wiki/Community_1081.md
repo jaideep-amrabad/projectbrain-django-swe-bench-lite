@@ -4,27 +4,25 @@
 
 ## Key Concepts
 
-- **ChangedBackendSettingsTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_changed_backend_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **Tests for changes in the settings.AUTHENTICATION_BACKENDS** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **Removing a backend configured in AUTHENTICATION_BACKENDS makes already logged-…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **AuthTestCase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.test_auth_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.test_dumpdata()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **The methods on the auth manager obey database hints** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **dumpdata honors allow_migrate restrictions on the router** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
 
 ## Relationships
 
-- [Community 123](Community_123.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 - [Community 38](Community_38.md) (1 shared connections)
-- [Community 94](Community_94.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **m2m_regress/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/__init__.py`
+- **geo3d/views.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/views.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/m2m_regress/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/views.py`
 
 ## Audit Trail
 

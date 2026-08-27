@@ -1,43 +1,45 @@
 # Community 613
 
-> 17 nodes · cohesion 0.12
+> 18 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **Team** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **TeamField** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.test_custom_field_serialization()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.last_executed_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **Player** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.to_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.from_db_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **Return a string of the query last executed by the given cursor, with…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.get_db_prep_save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.value_to_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **Custom fields serialize and deserialize intact** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **test_api.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **ApiTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **DummyStorage** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **CustomRequest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **CustomRequestApiTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/utils.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **.__getattribute__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **.test_middleware_missing()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **.test_middleware_missing_silently()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **.test_ok()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **.test_request_is_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **.add()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **dummy message-store to test the api methods** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **add_message() should use ducktyping to allow request wrappers such as the one…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
 
 ## Relationships
 
-- [Community 463](Community_463.md) (3 shared connections)
-- [Community 59](Community_59.md) (1 shared connections)
-- [Community 396](Community_396.md) (1 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 70](Community_70.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 364](Community_364.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (86%)
-- INFERRED: 3 (14%)
+- EXTRACTED: 26 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

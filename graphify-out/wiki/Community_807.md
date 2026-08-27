@@ -1,33 +1,35 @@
 # Community 807
 
-> 11 nodes · cohesion 0.20
+> 12 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **MapWidget()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **OLMapWidget.js** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **.clearFeatures()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **.enableDrawing()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **GeometryTypeControl()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **.createInteractions()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **.createMap()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **.defaultCenter()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **.disableDrawing()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **.serializeFeatures()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
-- **TODO: allow deleting individual features (#8972)** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
+- **FilePathFieldTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
+- **.assertChoices()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
+- **fix_os_paths()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
+- **.test_allow_folders()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
+- **.test_clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
+- **.test_fix_os_paths()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
+- **.test_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
+- **.test_no_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
+- **.test_recursive()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
+- **.test_recursive_folders_without_files()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
+- **.test_recursive_no_folders_or_files()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
+- **.test_nonexistent_path()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (91%)
-- INFERRED: 1 (9%)
+- EXTRACTED: 22 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

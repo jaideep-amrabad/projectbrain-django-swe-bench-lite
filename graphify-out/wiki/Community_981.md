@@ -1,33 +1,41 @@
 # Community 981
 
-> 7 nodes · cohesion 0.43
+> 12 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **Round** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **RoundTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
-- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
-- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
-- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
-- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
-- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
+- **LoginRequiredTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
+- **.test_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
+- **normal_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/views.py`
+- **.test_callable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
+- **.test_login_required()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
+- **.test_login_required_next_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
+- **.test_full_dec_normal()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **login_required works on a simple view wrapped in a login_required decorator.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
+- **Tests the login_required decorators** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
+- **login_required is assignable to callable objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
+- **login_required is assignable to normal views.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
+- **All methods of middleware are called for normal HttpResponses** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
 
 ## Relationships
 
-- [Community 11](Community_11.md) (4 shared connections)
-- [Community 314](Community_314.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 87](Community_87.md) (1 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 530](Community_530.md) (1 shared connections)
+- [Community 40](Community_40.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 388](Community_388.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 19 (90%)
+- INFERRED: 2 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,51 +1,30 @@
 # Community 481
 
-> 24 nodes · cohesion 0.08
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **DebugViewTests** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_template_loader_postmortem()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_default_urlconf_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_regression_21530()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_403()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_403_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_404_empty_path_not_in_urls()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_exception_reporter_from_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_files()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_no_template_source_loaders()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_non_l10ned_numeric_ids()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_template_exceptions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_400()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_404()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_404_not_in_urls()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_classbased_technical_404()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_exception_reporter_from_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_technical_404()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_technical_404_converter_raise_404()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **Numeric IDs and fancy traceback context blocks line numbers shouldn't be…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **Tests for not existing file** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **Make sure if you don't specify a template, the debug view doesn't blow up.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **Make sure that the default URLconf template is shown shown instead of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **Regression test for bug #21530. If the admin app include is replaced with…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **Command** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
+- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
+- **module_to_dict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
+- **.output_hash()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
+- **.output_unified()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
+- **Convert a module namespace to a Python dictionary.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (8 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 175](Community_175.md) (2 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 53](Community_53.md) (1 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 343](Community_343.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/diffsettings.py`
 
 ## Audit Trail
 
-- EXTRACTED: 37 (95%)
-- INFERRED: 2 (5%)
+- EXTRACTED: 10 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

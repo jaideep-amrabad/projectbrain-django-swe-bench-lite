@@ -1,36 +1,35 @@
 # Community 779
 
-> 12 nodes · cohesion 0.20
+> 13 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **Loader** (10 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **.get_template()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **.cache_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **.generate_hash()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **.reset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **.get_contents()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **.get_template_sources()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **BaseLoader** (1 connections)
-- **Perform the caching that gives this loader its name. Often many of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **Generate a cache key for the template name and skip. If skip is provided, only…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **Empty the template cache.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
+- **LengthIsTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **setup** (11 connections)
+- **.test_length_is01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **.test_length_is02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **.test_length_is03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **.test_length_is04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **.test_length_is05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **.test_length_is06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **.test_length_is07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **.test_length_is08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **.test_length_is09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **.test_length_is10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **.test_length_is11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 668](Community_668.md) (1 shared connections)
-- [Community 243](Community_243.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (88%)
-- INFERRED: 2 (12%)
+- EXTRACTED: 24 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

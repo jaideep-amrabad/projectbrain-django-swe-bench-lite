@@ -1,34 +1,33 @@
 # Community 978
 
-> 7 nodes · cohesion 0.43
+> 7 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **ASin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **ASinTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_asin.py`
-- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_asin.py`
-- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_asin.py`
-- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_asin.py`
-- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_asin.py`
-- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_asin.py`
+- **CallableSettingWrapper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **CallableSettingWrapperTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **Object to wrap callable appearing in settings. * Not to call in the debug page…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **Unittests for CallableSettingWrapper** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 
 ## Relationships
 
-- [Community 11](Community_11.md) (4 shared connections)
-- [Community 314](Community_314.md) (1 shared connections)
-- [Community 541](Community_541.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 87](Community_87.md) (1 shared connections)
+- [Community 213](Community_213.md) (2 shared connections)
+- [Community 255](Community_255.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_asin.py`
+- `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 11 (92%)
+- INFERRED: 1 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

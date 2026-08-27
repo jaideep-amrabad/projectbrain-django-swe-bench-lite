@@ -4,27 +4,28 @@
 
 ## Key Concepts
 
-- **AutoFieldInheritanceTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
-- **.field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **.test_isinstance_of_autofield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
-- **Makes ReverseManyToOneDescriptor work in both directions.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **.test_issubclass_of_autofield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
+- **CacheSessionTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_load_overlong_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_non_default_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_create_and_save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_default_cache()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
 
 ## Relationships
 
-- [Community 856](Community_856.md) (1 shared connections)
-- [Community 322](Community_322.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 220](Community_220.md) (1 shared connections)
+- [Community 678](Community_678.md) (1 shared connections)
+- [Community 411](Community_411.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
+- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (86%)
-- INFERRED: 1 (14%)
+- EXTRACTED: 8 (89%)
+- INFERRED: 1 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

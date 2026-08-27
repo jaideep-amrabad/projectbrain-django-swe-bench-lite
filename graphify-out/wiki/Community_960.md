@@ -1,30 +1,25 @@
 # Community 960
 
-> 8 nodes · cohesion 0.25
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **TagRegistrationTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
-- **.test_tag()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
-- **.test_tag_call()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
-- **.test_tag_invalid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
-- **.test_tag_name_arg()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
-- **.test_tag_name_kwarg()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
-- **.test_tag_parens()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- **NoWrapExtractorTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_no_wrap_disabled()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_no_wrap_enabled()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
 
 ## Relationships
 
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 269](Community_269.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

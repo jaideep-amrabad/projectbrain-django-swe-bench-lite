@@ -1,33 +1,27 @@
 # Community 955
 
-> 8 nodes · cohesion 0.36
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **EscapeTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
-- **setup** (4 connections)
-- **.test_escape01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
-- **.test_escape02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
-- **.test_escape_lazy_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
-- **.test_escape03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
-- **.test_escape04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
-- **The "escape" filter works the same whether autoescape is on or off, but it has…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
+- **WorkerInlineAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **Worker** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.view_on_site()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 76](Community_76.md) (1 shared connections)
-- [Community 166](Community_166.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 63](Community_63.md) (2 shared connections)
+- [Community 78](Community_78.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (88%)
-- INFERRED: 2 (12%)
+- EXTRACTED: 4 (80%)
+- INFERRED: 1 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

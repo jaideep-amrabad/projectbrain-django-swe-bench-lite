@@ -1,37 +1,40 @@
 # Community 725
 
-> 14 nodes · cohesion 0.15
+> 14 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **natural.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **NaturalKeyThing** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **Manager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **NaturalPKWithDefault** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **NaturalKeyAnchor** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **NaturalKeyAnchorManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **FKDataNaturalKey** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **Models for test_natural.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **watch_for_translation_changes()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/reloader.py`
+- **WatchForTranslationChangesTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **Trans** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **.__getattr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **_is_django_module()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/reloader.py`
+- **.test_i18n_disabled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_i18n_app_dirs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_i18n_app_dirs_ignore_django_apps()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_i18n_enabled()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_i18n_local_locale()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_i18n_locale_paths()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **The purpose of this class is to store the actual translation function upon…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **Register file watchers for .mo files in potential locale paths.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/reloader.py`
+- **Return True if the given module is nested under Django.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/reloader.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 143](Community_143.md) (1 shared connections)
+- [Community 11](Community_11.md) (7 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/reloader.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 26 (93%)
+- INFERRED: 2 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

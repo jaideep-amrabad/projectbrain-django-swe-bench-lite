@@ -1,38 +1,38 @@
 # Community 676
 
-> 15 nodes · cohesion 0.25
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **ServerSideCursorsPostgres** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **.assertUsesCursor()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **.test_server_side_cursors_setting()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **.asserNotUsesCursor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **.inspect_cursors()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **.override_db_setting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **.test_closed_server_side_cursor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **.test_server_side_cursor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **.test_server_side_cursor_many_cursors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **.test_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **.test_values_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **.test_values_list_fields_not_equal_to_names()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **.test_values_list_flat()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
-- **skipUnless** (1 connections)
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
+- **GeometryCollection** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.add()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.__len__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.point_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **MultiLineString** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **MultiPoint** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **MultiPolygon** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **The Geometry Collection class.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Get the Geometry at the specified index.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Return the number of geometries in this Geometry Collection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Add the geometry to this Geometry Collection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Return the number of Points in this Geometry Collection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Return a tuple representation of this Geometry Collection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
 
 ## Relationships
 
-- [Community 41](Community_41.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
+- [Community 117](Community_117.md) (6 shared connections)
+- [Community 32](Community_32.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 22 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

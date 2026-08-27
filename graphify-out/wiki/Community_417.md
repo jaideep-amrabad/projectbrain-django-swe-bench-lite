@@ -1,54 +1,62 @@
 # Community 417
 
-> 27 nodes · cohesion 0.09
+> 28 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **SpatiaLiteOperations** (24 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **._get_spatialite_func()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **.spatialite_version_tuple()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **.lwgeom_version()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **.spatial_version()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **.spatialite_version()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **.convert_extent()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **.geos_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **.proj_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **.geo_db_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **.get_distance()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **.spatial_aggregate_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **.unsupported_functions()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **DatabaseOperations** (1 connections)
-- **Convert the polygon data received from SpatiaLite to min/max values.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **Return None because geometry columns are added via the `AddGeometryColumn`…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **Return the distance parameters for the given geometry field, lookup value, and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **Helper routine for calling SpatiaLite functions and returning their result. Any…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **Return the version of GEOS used by SpatiaLite as a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **Return the version of the PROJ library used by SpatiaLite.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **Return the version of LWGEOM library used by SpatiaLite.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **Return the SpatiaLite library version as a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **Return the SpatiaLite version as a tuple (version string, major, minor,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **Return the spatial aggregate SQL template and function for the given Aggregate…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- **Determine the version of the SpatiaLite library.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
-- *... and 2 more nodes in this community*
+- **NullBooleanSelectTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
+- **.__init__()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **NullBooleanSelect** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.w()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.test_queries_limit()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_l10n()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.format_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.value_from_datadict()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **A Select Widget intended to be used with NullBooleanField.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **Day of the week, numeric, i.e. '0' (Sunday) to '6' (Saturday)** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **ISO-8601 week number of year, weeks starting on Monday** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **The backend doesn't store an unlimited number of queries (#12581).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_render_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
+- **.test_render_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
+- **.test_render_true()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
+- **.test_render_value_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
+- **.test_render_value_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
+- **.test_render_value_3()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
+- **.test_render_value_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 31](Community_31.md) (4 shared connections)
-- [Community 467](Community_467.md) (2 shared connections)
-- [Community 16](Community_16.md) (2 shared connections)
-- [Community 32](Community_32.md) (1 shared connections)
-- [Community 76](Community_76.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 564](Community_564.md) (1 shared connections)
+- [Community 5](Community_5.md) (6 shared connections)
+- [Community 324](Community_324.md) (2 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 190](Community_190.md) (2 shared connections)
+- [Community 550](Community_550.md) (1 shared connections)
+- [Community 244](Community_244.md) (1 shared connections)
+- [Community 169](Community_169.md) (1 shared connections)
+- [Community 451](Community_451.md) (1 shared connections)
+- [Community 452](Community_452.md) (1 shared connections)
+- [Community 315](Community_315.md) (1 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
+- [Community 429](Community_429.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (89%)
-- INFERRED: 5 (11%)
+- EXTRACTED: 44 (94%)
+- INFERRED: 3 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,57 +1,53 @@
 # Community 344
 
-> 33 nodes · cohesion 0.08
+> 34 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **BoundField** (28 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.as_widget()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.value()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.subwidgets()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.as_hidden()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.as_text()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.as_textarea()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.__str__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.build_widget_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.auto_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.css_classes()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.data()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.id_for_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.is_hidden()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **Return a string of HTML for representing this as an <input type="text">.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.widget_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **Return a string of HTML for representing this as an <input type="hidden">.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **Return the data for this BoundField, or None if it wasn't given.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **Return the value for this BoundField, using the initial value if the form is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- *... and 8 more nodes in this community*
+- **BuildFile** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **jslex.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **test_jslex.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_jslex.py`
+- **JsLexer** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **prepare_js_for_gettext()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **Lexer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **.preprocess()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **Tok** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **make_function()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_jslex.py`
+- **.cleanup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **.postprocess_messages()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **.work_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **.lex()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **literals()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **JsToCForGettextTest** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_jslex.py`
+- **JsTokensTest** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_jslex.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **.is_templatized()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **.path()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **Postprocess messages generated by xgettext GNU gettext utility. Transform paths…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **Remove a preprocessed copy of a translatable file (if any).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **Represent the state of a translatable file during the build process.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **Path to a file which is being fed into GNU gettext pipeline. This may be either…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **Preprocess (if necessary) a translatable file before passing it to xgettext GNU…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
 - [Community 1](Community_1.md) (4 shared connections)
-- [Community 406](Community_406.md) (2 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 131](Community_131.md) (1 shared connections)
-- [Community 76](Community_76.md) (1 shared connections)
-- [Community 236](Community_236.md) (1 shared connections)
-- [Community 241](Community_241.md) (1 shared connections)
-- [Community 813](Community_813.md) (1 shared connections)
-- [Community 433](Community_433.md) (1 shared connections)
-- [Community 189](Community_189.md) (1 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_jslex.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (93%)
-- INFERRED: 4 (7%)
+- EXTRACTED: 47 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

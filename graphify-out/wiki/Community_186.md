@@ -1,62 +1,52 @@
 # Community 186
 
-> 82 nodes · cohesion 0.04
+> 50 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **operations/models.py** (40 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **FieldOperation** (25 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **operations/fields.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **CreateModel** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **RenameField** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **AlterField** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **RemoveField** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **AddField** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **field_references()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/utils.py`
-- **FieldOperationTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- **operations/utils.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/utils.py`
-- **get_references()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/utils.py`
-- **.reduce()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **field_is_referenced()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/utils.py`
-- **resolve_relation()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/utils.py`
-- **.is_same_field_operation()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **.reduce()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **.reduce()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **.is_same_model_operation()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **.references_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **.state_forwards()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.references_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- *... and 57 more nodes in this community*
+- **SyndicationFeedTest** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **FeedTestCase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_rss2_feed()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.assertChildNodeContent()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.assertChildNodes()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_rss091_feed()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.assertCategories()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_atom_feed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_feed_last_modified_time_naive_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_latest_post_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_naive_datetime_conversion()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_template_context_feed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_template_feed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **Test if the 'isPermaLink' attribute of <guid> element of an item in the RSS…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_add_domain()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_atom_feed_published_and_updated_elements()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_aware_datetime_conversion()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_custom_feed_generator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_feed_last_modified_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_feed_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_item_link_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_rss2_feed_guid_permalink_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_rss2_feed_guid_permalink_true()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_secure_urls()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_title_escaping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [Community 17](Community_17.md) (18 shared connections)
-- [Community 2](Community_2.md) (12 shared connections)
-- [Community 76](Community_76.md) (7 shared connections)
-- [Community 24](Community_24.md) (7 shared connections)
-- [Community 137](Community_137.md) (5 shared connections)
-- [Community 460](Community_460.md) (4 shared connections)
-- [Community 167](Community_167.md) (3 shared connections)
-- [Community 18](Community_18.md) (3 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 789](Community_789.md) (1 shared connections)
+- [Community 11](Community_11.md) (4 shared connections)
+- [Community 135](Community_135.md) (2 shared connections)
+- [Community 418](Community_418.md) (2 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 188 (95%)
-- INFERRED: 10 (5%)
+- EXTRACTED: 67 (96%)
+- INFERRED: 3 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

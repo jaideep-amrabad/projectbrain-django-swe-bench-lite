@@ -1,24 +1,24 @@
 # Community 1163
 
-> 3 nodes · cohesion 0.67
+> 3 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **.test_view_with_method_force_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_view_with_method_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **Request a page that is protected with a @login_required method** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **urlify.js** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/urlify.js`
+- **downcode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/urlify.js`
+- **URLify()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/urlify.js`
 
 ## Relationships
 
-- [Community 555](Community_555.md) (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/urlify.js`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

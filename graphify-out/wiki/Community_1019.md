@@ -4,29 +4,29 @@
 
 ## Key Concepts
 
-- **check_setting_app_dirs_loaders()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/templates.py`
-- **CheckTemplateSettingsAppDirsTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **.test_app_dirs_and_loaders()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **.test_app_dirs_removed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **.test_loaders_removed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
-- **Error if template loaders are specified and APP_DIRS is True.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **timesince_filter()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_explicit_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_no_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **.test_since_now()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **Format a date as the time since that date (i.e. "4 days, 6 hours").** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 444](Community_444.md) (1 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 387](Community_387.md) (1 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/checks/templates.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 13 (93%)
+- INFERRED: 1 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

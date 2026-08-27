@@ -1,52 +1,66 @@
 # Community 336
 
-> 34 nodes · cohesion 0.09
+> 31 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **AdminFormfieldForDBFieldTests** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.assertFormfield()** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_formfield_overrides_for_custom_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_formfield_overrides_m2m_filter_widget()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_formfield_overrides_widget_instances()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_m2m_widgets()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_CharField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_choices_with_radio_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_DateField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_DateTimeField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_EmailField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_field_with_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_FileField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_filtered_many_to_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_ForeignKey()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_formfield_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_formfield_overrides_for_datetime_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_IntegerField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_many_to_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_radio_fields_ForeignKey()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_raw_id_ForeignKey()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_raw_id_many_to_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_TextField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_TimeField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- *... and 9 more nodes in this community*
+- **render()** (35 connections) — `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
+- **shortcuts/views.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/views.py`
+- **context_processors/views.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/views.py`
+- **context_processors/models.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/models.py`
+- **nested_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
+- **DebugObject** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/models.py`
+- **context_processors/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/urls.py`
+- **debug_processor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/views.py`
+- **shortcuts/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/urls.py`
+- **request_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
+- **auth_processor_attr_access()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
+- **auth_processor_no_attr_access()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
+- **auth_processor_perm_in_perms()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
+- **auth_processor_perms()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
+- **auth_processor_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
+- **request_processor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/views.py`
+- **render_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/views.py`
+- **render_view_with_content_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/views.py`
+- **render_view_with_multiple_templates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/views.py`
+- **render_view_with_status()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/views.py`
+- **render_view_with_using()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/views.py`
+- **request_context_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
+- **return_unicode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
+- **jsi18n_multi_catalogs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **render_no_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [Community 50](Community_50.md) (7 shared connections)
-- [Community 255](Community_255.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 446](Community_446.md) (1 shared connections)
+- [Community 2](Community_2.md) (11 shared connections)
+- [Community 213](Community_213.md) (7 shared connections)
+- [Community 40](Community_40.md) (6 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
+- [Community 44](Community_44.md) (1 shared connections)
+- [Community 523](Community_523.md) (1 shared connections)
+- [Community 57](Community_57.md) (1 shared connections)
+- [Community 147](Community_147.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/widgetadmin.py`
+- `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/context_processors/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/context_processors/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/context_processors/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/context_processors/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/shortcuts/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/shortcuts/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/shortcuts/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 56 (88%)
-- INFERRED: 8 (12%)
+- EXTRACTED: 70 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,6 +1,6 @@
 # Community 108
 
-> 75 nodes · cohesion 0.04
+> 71 nodes · cohesion 0.04
 
 ## Key Concepts
 
@@ -9,7 +9,6 @@
 - **AbstractInheritanceTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
 - **GenericRelationTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_checks.py`
 - **GenericForeignKeyTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_checks.py`
-- **GenericForeignKeyTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_fields.py`
 - **.get_content_type()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
 - **.check()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
 - **.test_pointing_to_swapped_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_checks.py`
@@ -29,36 +28,36 @@
 - **._check_field_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
 - **._check_object_id_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
 - **.__get__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
-- *... and 50 more nodes in this community*
+- **.get_filter_kwargs_for_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- *... and 46 more nodes in this community*
 
 ## Relationships
 
-- [Community 122](Community_122.md) (19 shared connections)
-- [Community 71](Community_71.md) (14 shared connections)
-- [Community 140](Community_140.md) (12 shared connections)
-- [Community 82](Community_82.md) (9 shared connections)
-- [Community 0](Community_0.md) (8 shared connections)
-- [Community 699](Community_699.md) (7 shared connections)
-- [Community 337](Community_337.md) (7 shared connections)
-- [Community 12](Community_12.md) (7 shared connections)
+- [Community 121](Community_121.md) (19 shared connections)
+- [Community 0](Community_0.md) (15 shared connections)
+- [Community 51](Community_51.md) (14 shared connections)
+- [Community 149](Community_149.md) (12 shared connections)
+- [Community 158](Community_158.md) (9 shared connections)
+- [Community 311](Community_311.md) (7 shared connections)
 - [Community 78](Community_78.md) (5 shared connections)
-- [Community 74](Community_74.md) (5 shared connections)
-- [Community 184](Community_184.md) (5 shared connections)
-- [Community 93](Community_93.md) (5 shared connections)
+- [Community 76](Community_76.md) (5 shared connections)
+- [Community 130](Community_130.md) (5 shared connections)
+- [Community 260](Community_260.md) (5 shared connections)
+- [Community 26](Community_26.md) (4 shared connections)
+- [Community 127](Community_127.md) (4 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
 - `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_checks.py`
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_fields.py`
 - `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
 - `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
 
 ## Audit Trail
 
-- EXTRACTED: 176 (65%)
-- INFERRED: 94 (35%)
+- EXTRACTED: 170 (65%)
+- INFERRED: 93 (35%)
 - AMBIGUOUS: 0 (0%)
 
 ---

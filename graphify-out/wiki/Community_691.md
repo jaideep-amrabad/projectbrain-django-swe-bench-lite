@@ -1,46 +1,40 @@
 # Community 691
 
-> 15 nodes · cohesion 0.21
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **queryset_pickle/models.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **queryset_pickle/tests.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **Event** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **AbstractEvent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **Container** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **Group** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **MyEvent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **Happening** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **M2MModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **Numbers** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **Edition** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **.get_static_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **SomeModel** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **standalone_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **LoginRedirectAuthenticatedUser** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_redirect_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_redirect_loop()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_redirect_param()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_guest()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_permission_required_logged_in()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_permission_required_not_logged_in()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **Stay on the login page by default.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **If not logged in, stay on the same page.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **If logged in, go to default redirected URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **If logged in, go to custom redirected URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **If next is specified as a GET parameter, go there.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **Detect a redirect loop if LOGIN_REDIRECT_URL is not correctly set, with and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Relationships
 
-- [Community 395](Community_395.md) (7 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 1095](Community_1095.md) (3 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
-- [Community 1135](Community_1135.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 337](Community_337.md) (6 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 530](Community_530.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (82%)
-- INFERRED: 8 (18%)
+- EXTRACTED: 23 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

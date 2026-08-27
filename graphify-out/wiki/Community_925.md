@@ -1,34 +1,32 @@
 # Community 925
 
-> 8 nodes · cohesion 0.32
+> 9 nodes · cohesion 0.39
 
 ## Key Concepts
 
-- **Command** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/management/commands/dance.py`
-- **DeprecationTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_requires_system_checks_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_requires_system_checks_true()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.handle()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/management/commands/dance.py`
-- **.test_requires_system_checks_invalid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_requires_system_checks_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/management/commands/dance.py`
+- **WithTagTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_with.py`
+- **setup** (7 connections)
+- **.test_legacywith01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_with.py`
+- **.test_legacywith02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_with.py`
+- **.test_with01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_with.py`
+- **.test_with02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_with.py`
+- **.test_with03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_with.py`
+- **.test_with_error01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_with.py`
+- **.test_with_error02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_with.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (4 shared connections)
-- [Community 76](Community_76.md) (3 shared connections)
-- [Community 286](Community_286.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/user_commands/management/commands/dance.py`
-- `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_with.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 16 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

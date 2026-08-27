@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **.test_view_with_inactive_force_login()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **Request a page that is protected with @login, but use an inactive login** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_inheritance42()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Expression starting and ending with a quote** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 555](Community_555.md) (1 shared connections)
+- [Community 850](Community_850.md) (1 shared connections)
+- [Community 887](Community_887.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 

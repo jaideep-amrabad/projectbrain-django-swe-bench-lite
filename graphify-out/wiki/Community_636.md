@@ -1,45 +1,43 @@
 # Community 636
 
-> 16 nodes · cohesion 0.17
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **CookieStorage** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **._decode()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **._encode()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **._legacy_decode()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **._legacy_hash()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **._store()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **._get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **._update_cookie()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **Store the messages to a cookie and return a list of any messages which could…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **# RemovedInDjango40Warning: pre-Django 3.1 hashes will be invalid. Create an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **Return an encoded version of the messages list which can be stored as plain…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **Safely decode an encoded text stream back into a list of messages. If the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **Store messages in a cookie.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **Retrieve a list of messages from the messages cookie. If the not_finished…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **Either set the cookie with the encoded data if there is any data to store, or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **.set_values()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.set_annotation_mask()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.set_extra_mask()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.append_annotation_mask()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.clear_deferred_loading()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.clear_select_clause()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.add_annotation()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.clear_select_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.rewrite_cols()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.set_group_by()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Add a single annotation expression to the Query.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Remove all fields from SELECT clause.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Clear the list of fields to select (but not extra_select columns). Some…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Expand the GROUP BY clause required by the query. This will usually be the set…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Remove any fields from the deferred loading set.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Set the mask of annotations that will be returned by the SELECT.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Set the mask of extra select items that will be returned by SELECT. Don't…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
 
 ## Relationships
 
-- [Community 40](Community_40.md) (3 shared connections)
-- [Community 635](Community_635.md) (3 shared connections)
-- [Community 701](Community_701.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 249](Community_249.md) (1 shared connections)
-- [Community 671](Community_671.md) (1 shared connections)
-- [Community 461](Community_461.md) (1 shared connections)
+- [Community 97](Community_97.md) (10 shared connections)
+- [Community 650](Community_650.md) (1 shared connections)
+- [Community 67](Community_67.md) (1 shared connections)
+- [Community 716](Community_716.md) (1 shared connections)
+- [Community 172](Community_172.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (85%)
-- INFERRED: 5 (15%)
+- EXTRACTED: 30 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

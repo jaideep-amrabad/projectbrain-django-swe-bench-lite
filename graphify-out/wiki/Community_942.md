@@ -4,29 +4,28 @@
 
 ## Key Concepts
 
-- **DurationFieldTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
-- **.test_durationfield_prepare_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
-- **.test_durationfield_clean()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
-- **.test_durationfield_clean_not_required()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
-- **.test_durationfield_integer_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
-- **.test_durationfield_render()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
-- **.test_overflow()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
-- **.test_overflow_translation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
+- **DeferDeletionSignalsTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- **.post_delete_receiver()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- **.pre_delete_receiver()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- **.test_delete_defered_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- **.test_delete_defered_proxy_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 234](Community_234.md) (1 shared connections)
+- [Community 317](Community_317.md) (3 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 9 (82%)
+- INFERRED: 2 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

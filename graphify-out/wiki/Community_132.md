@@ -1,57 +1,62 @@
 # Community 132
 
-> 65 nodes · cohesion 0.06
+> 73 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **delete_regress/tests.py** (44 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **delete_regress/models.py** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **DeleteCascadeTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **ProxyDeleteTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **DeleteCascadeTransactionTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **DeleteTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **.create_image()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **Image** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **DeleteLockingTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **FooFile** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **FooFileProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **Photo** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **Award** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **Book** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **Contact** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **Email** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **File** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **FooImage** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **FooPhoto** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **OrderedPerson** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **Researcher** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **LargeDeleteTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **.test_delete_proxy_of_proxy()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- *... and 40 more nodes in this community*
+- **Transform** (17 connections)
+- **Degrees** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **ASin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Ceil** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Cos** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Sin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Tan** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Abs** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Floor** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Round** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Sign** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **AbsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_abs.py`
+- **ASinTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_asin.py`
+- **CeilTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ceil.py`
+- **CosTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cos.py`
+- **DegreesTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_degrees.py`
+- **FloorTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_floor.py`
+- **RoundTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
+- **SignTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sign.py`
+- **SinTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sin.py`
+- **TanTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_tan.py`
+- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_abs.py`
+- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_abs.py`
+- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_abs.py`
+- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_abs.py`
+- *... and 48 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 29](Community_29.md) (5 shared connections)
-- [Community 38](Community_38.md) (5 shared connections)
-- [Community 108](Community_108.md) (4 shared connections)
-- [Community 699](Community_699.md) (3 shared connections)
-- [Community 542](Community_542.md) (3 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 410](Community_410.md) (1 shared connections)
+- [Community 38](Community_38.md) (50 shared connections)
+- [Community 111](Community_111.md) (10 shared connections)
+- [Community 60](Community_60.md) (10 shared connections)
+- [Community 833](Community_833.md) (1 shared connections)
+- [Community 837](Community_837.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_abs.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_asin.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ceil.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cos.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_degrees.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_floor.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sign.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sin.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_tan.py`
 
 ## Audit Trail
 
-- EXTRACTED: 130 (80%)
-- INFERRED: 32 (20%)
+- EXTRACTED: 174 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

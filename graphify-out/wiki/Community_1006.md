@@ -1,31 +1,28 @@
 # Community 1006
 
-> 7 nodes · cohesion 0.48
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **LoginRedirectUrlTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.assertLoginRedirectURLEqual()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_custom()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_named()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_remote()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **Tests for settings.LOGIN_REDIRECT_URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **TestNumberFormat** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **.test_decimal_numbers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **.test_decimal_subclass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **.test_float_numbers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **.test_format_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **.test_format_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **.test_large_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 620](Community_620.md) (1 shared connections)
-- [Community 359](Community_359.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,52 +1,64 @@
 # Community 489
 
-> 23 nodes · cohesion 0.12
+> 28 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **clean_ipv6_address()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
-- **GenericIPAddressField** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **is_valid_ipv6_address()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
-- **TestUtilsIPv6** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **test_ipv6.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_prep_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **._check_blank_and_null_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_db_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.test_cleans_plain_address()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **.test_cleans_with_v4_mapping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **.test_unpacks_ipv4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **.test_validates_correct_plain_address()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **.test_validates_correct_with_v4mapping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **.test_validates_incorrect_plain_address()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **.test_validates_incorrect_with_v4mapping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Return whether or not the `ip_str` string is a valid IPv6 address.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
-- **Clean an IPv6 address string. Raise ValidationError if the address is invalid.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
+- **MigrationWriter** (32 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **postgres/apps.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
+- **uninstall_if_needed()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
+- **PostgresConfig** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
+- **SearchLookup** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **TrigramSimilar** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **Unaccent** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **RangeSerializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/serializers.py`
+- **Serializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **.ready()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
+- **postgres/serializers.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/serializers.py`
+- **.register_serializer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **.test_register_serializer()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.unregister_serializer()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **.test_models_import_omitted()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.process_lhs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **.test_migration_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_register_non_serializer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **Undo the effects of PostgresConfig.ready() when django.contrib.postgres is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
+- **Transform** (1 connections)
+- **.serialize()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/serializers.py`
+- **.register()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **.unregister()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- **.filename()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 202](Community_202.md) (6 shared connections)
-- [Community 6](Community_6.md) (5 shared connections)
-- [Community 76](Community_76.md) (2 shared connections)
-- [Community 143](Community_143.md) (2 shared connections)
-- [Community 116](Community_116.md) (1 shared connections)
-- [Community 80](Community_80.md) (1 shared connections)
+- [Community 54](Community_54.md) (14 shared connections)
+- [Community 164](Community_164.md) (9 shared connections)
+- [Community 145](Community_145.md) (5 shared connections)
+- [Community 146](Community_146.md) (4 shared connections)
+- [Community 298](Community_298.md) (3 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 75](Community_75.md) (2 shared connections)
+- [Community 194](Community_194.md) (2 shared connections)
+- [Community 515](Community_515.md) (2 shared connections)
+- [Community 20](Community_20.md) (2 shared connections)
+- [Community 56](Community_56.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/serializers.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 73 (78%)
+- INFERRED: 20 (22%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,63 +1,54 @@
 # Community 501
 
-> 39 nodes · cohesion 0.08
+> 22 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **ASGIHandler** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- **ASGITest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
-- **ASGIStaticFilesHandler** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- **get_asgi_application()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/asgi.py`
-- **.__call__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- **.test_static_file_response()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
-- **TestASGIStaticFilesHandler** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_handlers.py`
-- **.create_request()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- **.send_response()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- **.read_body()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- **.chunk_bytes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- **.get_script_prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- **.handle_uncaught_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- **.test_file_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
-- **.test_get_asgi_application()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
-- **.test_get_async_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_handlers.py`
-- **.test_get_async_response_not_found()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_handlers.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
-- **.test_disconnect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
-- **.test_get_query_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
-- **.test_headers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
-- **.test_non_unicode_query_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
-- **.test_request_lifecycle_signals_dispatched_with_thread_sensitive()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
-- **.test_wrong_connection_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
-- *... and 14 more nodes in this community*
+- **MySQLGISSchemaEditor** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
+- **gis/db/backends/mysql/base.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/base.py`
+- **DatabaseFeatures** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/features.py`
+- **DatabaseWrapper** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/base.py`
+- **gis/db/backends/mysql/introspection.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/introspection.py`
+- **MySQLIntrospection** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/introspection.py`
+- **._create_spatial_index_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
+- **.create_spatial_indexes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
+- **.get_geometry_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/introspection.py`
+- **.add_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
+- **.column_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
+- **.create_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
+- **.remove_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
+- **MySQLDatabaseFeatures** (1 connections)
+- **MySQLDatabaseWrapper** (1 connections)
+- **.supports_empty_geometry_collection()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/features.py`
+- **.supports_geometry_field_unique_index()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/features.py`
+- **.supports_spatial_index()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/introspection.py`
+- **DatabaseIntrospection** (1 connections)
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
+- **.skip_default()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
+- **DatabaseSchemaEditor** (1 connections)
 
 ## Relationships
 
-- [Community 35](Community_35.md) (4 shared connections)
-- [Community 20](Community_20.md) (4 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 76](Community_76.md) (4 shared connections)
-- [Community 400](Community_400.md) (3 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 48](Community_48.md) (2 shared connections)
-- [Community 53](Community_53.md) (1 shared connections)
-- [Community 57](Community_57.md) (1 shared connections)
-- [Community 210](Community_210.md) (1 shared connections)
-- [Community 109](Community_109.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 7](Community_7.md) (6 shared connections)
+- [Community 99](Community_99.md) (2 shared connections)
+- [Community 68](Community_68.md) (2 shared connections)
+- [Community 166](Community_166.md) (2 shared connections)
+- [Community 415](Community_415.md) (1 shared connections)
+- [Community 596](Community_596.md) (1 shared connections)
+- [Community 657](Community_657.md) (1 shared connections)
+- [Community 117](Community_117.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
-- `raw/code/hyd-evaluation/django-django/django/core/asgi.py`
-- `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_handlers.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/features.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/introspection.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 80 (93%)
-- INFERRED: 6 (7%)
+- EXTRACTED: 40 (89%)
+- INFERRED: 5 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

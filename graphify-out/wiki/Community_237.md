@@ -1,51 +1,53 @@
 # Community 237
 
-> 44 nodes · cohesion 0.07
+> 43 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **urlize()** (34 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **FunctionTests** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **.test_brackets()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **.test_exclamation_marks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **.test_idn()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **.test_invalid_email()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **.test_lazystring()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **.test_malformed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **.test_nofollow()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **.test_parenthesis()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **.test_quotation_marks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **.test_quote_commas()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **.test_quoting()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **.test_tlds()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **.test_trailing_period()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **.test_uppercase()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **.test_autoescape()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **.test_autoescape_off()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **.test_email()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **.test_https()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **.test_ipv4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **.test_ipv6()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **.test_non_string_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **.test_trailing_multiple_punctuation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **.test_unicode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- *... and 19 more nodes in this community*
+- **PasswordResetTest** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **._test_confirm_start()** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **UUIDUserPasswordResetTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_invalid_uuid()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_custom_reset_url_token_link_redirects_to_set_password_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_different_passwords()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_invalid_hash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_link_redirects_to_set_password_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_login_post_reset_already_logged_in()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_login_post_reset_custom_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_invalid_link_if_going_directly_to_the_final_reset_password_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_poisoned_http_host()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_poisoned_http_host_admin_site()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_complete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_custom_reset_url_token()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_display_user_from_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_invalid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_invalid_post()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_login_post_reset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_redirect_custom()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_redirect_custom_named()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_redirect_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_valid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_email_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_email_found_custom_from()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 171](Community_171.md) (2 shared connections)
-- [Community 166](Community_166.md) (1 shared connections)
+- [Community 2](Community_2.md) (6 shared connections)
+- [Community 472](Community_472.md) (5 shared connections)
+- [Community 9](Community_9.md) (4 shared connections)
+- [Community 530](Community_530.md) (1 shared connections)
+- [Community 762](Community_762.md) (1 shared connections)
+- [Community 337](Community_337.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 78 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 76 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

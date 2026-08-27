@@ -1,34 +1,36 @@
 # Community 809
 
-> 11 nodes · cohesion 0.27
+> 12 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **locks.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
-- **_fd()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
-- **OVERLAPPED** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
-- **lock()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
-- **unlock()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
-- **_OFFSET** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
-- **_OFFSET_UNION** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
-- **Structure** (2 connections)
-- **Portable file locking utilities. Based partially on an example by Jonathan…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
-- **Get a filedescriptor from something which could be a file or an fd.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
-- **Union** (1 connections)
+- **GetChoicesOrderingTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **GetChoicesLimitChoicesToTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.assertChoicesEqual()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_get_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_get_choices_reverse_related_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_get_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_get_choices_default_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_get_choices_reverse_related_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_get_choices_reverse_related_field_default_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.assertChoicesEqual()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
 
 ## Relationships
 
-- [Community 76](Community_76.md) (4 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 5](Community_5.md) (4 shared connections)
+- [Community 38](Community_38.md) (2 shared connections)
+- [Community 41](Community_41.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 20 (83%)
+- INFERRED: 4 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

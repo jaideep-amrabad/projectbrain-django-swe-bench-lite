@@ -1,25 +1,23 @@
 # Community 1108
 
-> 4 nodes · cohesion 0.50
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **calendar.js** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/calendar.js`
-- **calendarMonth()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/calendar.js`
-- **Calendar()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/calendar.js`
-- **onClick()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/calendar.js`
+- **.test_sitemap_last_modified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **Last-Modified header is set correctly** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 192](Community_192.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/calendar.js`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

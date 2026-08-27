@@ -1,45 +1,45 @@
 # Community 668
 
-> 15 nodes · cohesion 0.14
+> 16 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **Template** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- **make_context()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **copy_exception()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- **reraise()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- **.get_templatetag_libraries()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- **.get_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- **.render()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- **.from_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- **Return a collation of template tag libraries from installed applications and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- **Create a new TemplateDoesNotExist. Preserve its declared attributes and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- **Reraise TemplateDoesNotExist while maintaining template debug information.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- **.origin()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- **Create a suitable Context from a plain dict and optionally an HttpRequest.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **ArticleAdmin** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **AdminTemplateTagsTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
+- **.test_submit_row()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
+- **.test_override_change_form_template_tags()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
+- **.test_override_change_list_template_tags()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
+- **.test_override_show_save_and_add_another()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
+- **.delete_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.save_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.modeladmin_year()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.order_by_expression()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.order_by_f_expression()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.order_by_orderby_expression()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **AdminViewBasicTestCase** (1 connections)
+- **submit_row template tag should pass whole context.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
+- **admin_modify template tags follow the standard search pattern…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
+- **admin_list template tags follow the standard search pattern…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
 
 ## Relationships
 
-- [Community 7](Community_7.md) (5 shared connections)
-- [Community 490](Community_490.md) (4 shared connections)
-- [Community 779](Community_779.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 222](Community_222.md) (1 shared connections)
-- [Community 49](Community_49.md) (1 shared connections)
-- [Community 42](Community_42.md) (1 shared connections)
-- [Community 138](Community_138.md) (1 shared connections)
+- [Community 17](Community_17.md) (5 shared connections)
+- [Community 12](Community_12.md) (4 shared connections)
+- [Community 103](Community_103.md) (2 shared connections)
+- [Community 312](Community_312.md) (2 shared connections)
+- [Community 63](Community_63.md) (1 shared connections)
+- [Community 1116](Community_1116.md) (1 shared connections)
+- [Community 638](Community_638.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 30 (91%)
+- INFERRED: 3 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

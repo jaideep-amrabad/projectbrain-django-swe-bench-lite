@@ -1,57 +1,51 @@
 # Community 281
 
-> 30 nodes · cohesion 0.08
+> 29 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **MultiValueFieldTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **ComplexField** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **ComplexFieldForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **BasicFieldsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
-- **ComplexMultiWidget** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_field_deepcopies_widget_instance()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
-- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_clean_disabled_multivalue()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **Field** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_cooperative_multiple_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
-- **.test_field_sets_widget_is_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
-- **.test_disabled_field_has_changed_always_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
-- **.test_form_as_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_form_as_table_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_form_cleaned_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_has_changed_first_widget()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_has_changed_last_widget()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_no_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **Nested** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.compress()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.decompress()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_bad_choice()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_clean()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- *... and 5 more nodes in this community*
+- **BaseStorageFinder** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **FileSystemFinder** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **AppDirectoriesFinder** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.list()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **DefaultStorageFinder** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.find_location()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.find()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.find_in_app()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.find()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.find()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.check()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **Find a requested static file in a location and return the found absolute path…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **List all files in all locations.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **A static files finder that looks in the directory of each app as specified in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **List all files in all app storages.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **Look for files in the app directories.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **Find a requested static file in an app's static locations.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **A base static files finder to be used to extended with an own storage class.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **Look for files in the default file storage, if it's local.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 6](Community_6.md) (6 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 236](Community_236.md) (3 shared connections)
-- [Community 406](Community_406.md) (2 shared connections)
-- [Community 389](Community_389.md) (2 shared connections)
-- [Community 150](Community_150.md) (1 shared connections)
-- [Community 62](Community_62.md) (1 shared connections)
-- [Community 604](Community_604.md) (1 shared connections)
+- [Community 14](Community_14.md) (7 shared connections)
+- [Community 446](Community_446.md) (3 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 188](Community_188.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (81%)
-- INFERRED: 10 (19%)
+- EXTRACTED: 42 (89%)
+- INFERRED: 5 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

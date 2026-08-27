@@ -1,46 +1,40 @@
 # Community 614
 
-> 17 nodes · cohesion 0.18
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **DatabaseSchemaEditor** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **django/db/backends/oracle/schema.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._alter_field_type_workaround()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **.alter_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._generate_temp_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **.normalize_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **.remove_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._drop_identity()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._is_identity_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **.prepare_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **.quote_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **.delete_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._field_should_be_indexed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._unique_should_be_added()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **Get the properly shortened and uppercased identifier as returned by…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **Generate temporary names for workarounds that need temp columns.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **Oracle refuses to change from some type to other type. What we need to do…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **CookieTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_decode()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_invalid_cookies()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_nonstandard_keys()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_python_cookies()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_repeated_nonstandard_keys()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_cookie_edgecases()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_httponly_after_load()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_load_dict()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_pickle()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_samesite()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **Semicolons and commas are encoded.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **Semicolons and commas are decoded.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **A single non-standard cookie name doesn't affect all cookies (#13007).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **A repeated non-standard name doesn't affect all cookies (#15852).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **Test cases copied from Python's Lib/test/test_http_cookies.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **Cookie strings that go against RFC6265 but browsers will send if set via…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 84](Community_84.md) (2 shared connections)
-- [Community 67](Community_67.md) (2 shared connections)
-- [Community 76](Community_76.md) (2 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
-- [Community 128](Community_128.md) (1 shared connections)
-- [Community 641](Community_641.md) (1 shared connections)
-- [Community 243](Community_243.md) (1 shared connections)
+- [Community 6](Community_6.md) (7 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (95%)
-- INFERRED: 2 (5%)
+- EXTRACTED: 24 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

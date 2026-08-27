@@ -1,53 +1,61 @@
 # Community 343
 
-> 29 nodes · cohesion 0.08
+> 47 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **BaseManager** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
-- **ManagerDescriptor** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
-- **ManagerTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.deconstruct()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
-- **._get_queryset_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
-- **._set_creation_counter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
-- **.test_manager_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.all()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
-- **.contribute_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
-- **.from_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
-- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
-- **.check()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
-- **.__class_getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
-- **.db()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
-- **.db_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
-- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
-- **.__new__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
-- **.__get__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
-- **Set the creation counter value for this instance and increment the class-level…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
-- *... and 4 more nodes in this community*
+- **LazySettings** (20 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **Settings** (15 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **UserSettingsHolder** (13 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **DeprecationTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
+- **IsOverriddenTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_timeout()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
+- **.configure()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__delattr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__setattr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **TestListSettings** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.configured()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.PASSWORD_RESET_TIMEOUT_DAYS()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__delattr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__getattr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.is_overridden()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__setattr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.test_access()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
+- **.test_settings_init_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
+- **.test_use_both_settings_init_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
+- **.test_configure()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_evaluated_lazysettings_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_override()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- *... and 22 more nodes in this community*
 
 ## Relationships
 
-- [Community 105](Community_105.md) (4 shared connections)
-- [Community 711](Community_711.md) (2 shared connections)
-- [Community 329](Community_329.md) (1 shared connections)
-- [Community 222](Community_222.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 6](Community_6.md) (5 shared connections)
+- [Community 8](Community_8.md) (5 shared connections)
+- [Community 17](Community_17.md) (4 shared connections)
+- [Community 785](Community_785.md) (4 shared connections)
+- [Community 445](Community_445.md) (2 shared connections)
+- [Community 411](Community_411.md) (2 shared connections)
+- [Community 92](Community_92.md) (2 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 481](Community_481.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 175](Community_175.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
-- `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
+- `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (95%)
-- INFERRED: 2 (5%)
+- EXTRACTED: 82 (94%)
+- INFERRED: 5 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,60 +1,51 @@
 # Community 297
 
-> 38 nodes · cohesion 0.09
+> 36 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **model_formsets_regress/tests.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **InlineFormsetTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **model_formsets_regress/models.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- **User** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- **FormsetTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_formset_over_inherited_model()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **UserSite** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- **.test_formset_over_to_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **RedeleteTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **Restaurant** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- **.test_formset_with_none_instance()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **Host** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- **Network** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- **Manager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- **ProfileNetwork** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- **UserPreferences** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- **UserProfile** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- **.test_error_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_empty_fields_on_modelformset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_inline_model_with_primary_to_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_inline_model_with_to_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_inline_model_with_to_field_to_rel()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_save_as_new_with_new_inlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **UserSiteForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **Place** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- *... and 13 more nodes in this community*
+- **TermColorTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **parse_color_setting()** (24 connections) — `raw/code/hyd-evaluation/django-django/django/utils/termcolors.py`
+- **colorize()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/termcolors.py`
+- **make_style()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/color.py`
+- **termcolors.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/termcolors.py`
+- **make_style()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/termcolors.py`
+- **test_termcolors.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **Style** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/color.py`
+- **.test_bad_color()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_bad_option()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_bad_palette()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_bad_role()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_color_case()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_colorize_empty_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_colorize_fg_bg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_colorize_opts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_colorize_reset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_empty_definition()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_empty_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_empty_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_fg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_fg_bg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_fg_bg_opts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_fg_opts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_multiple_roles()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [Community 216](Community_216.md) (11 shared connections)
-- [Community 235](Community_235.md) (5 shared connections)
-- [Community 868](Community_868.md) (4 shared connections)
-- [Community 529](Community_529.md) (4 shared connections)
-- [Community 432](Community_432.md) (4 shared connections)
-- [Community 6](Community_6.md) (4 shared connections)
-- [Community 38](Community_38.md) (4 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 604](Community_604.md) (3 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 117](Community_117.md) (1 shared connections)
-- [Community 178](Community_178.md) (1 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 119](Community_119.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/color.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/termcolors.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
 
 ## Audit Trail
 
-- EXTRACTED: 91 (82%)
-- INFERRED: 20 (18%)
+- EXTRACTED: 68 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

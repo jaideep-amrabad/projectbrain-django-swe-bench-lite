@@ -1,30 +1,26 @@
 # Community 959
 
-> 8 nodes · cohesion 0.25
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **FilterRegistrationTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
-- **.test_filter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
-- **.test_filter_call()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
-- **.test_filter_invalid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
-- **.test_filter_name_arg()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
-- **.test_filter_name_kwarg()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
-- **.test_filter_parens()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- **NoSettingsExtractionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **skipUnless** (2 connections)
+- **.test_makemessages_no_settings()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
 
 ## Relationships
 
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 191](Community_191.md) (1 shared connections)
+- [Community 269](Community_269.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

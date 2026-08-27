@@ -1,63 +1,63 @@
 # Community 236
 
-> 71 nodes · cohesion 0.04
+> 43 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **MultiWidget** (25 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **TextInput** (25 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **MultiWidgetTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **SplitDateTimeWidget** (13 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **TextInputTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
-- **MyMultiWidget** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **SplitDateTimeWidgetTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
-- **DeepCopyWidget** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **ComplexMultiWidget** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **.test_needs_multipart_true()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **.test_needs_multipart_false()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **.test_formatting()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
-- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.decompress()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_boundfield_id_for_label_override_by_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_constructor_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **.test_constructor_attrs_with_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **.test_deepcopy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **.test_nested_multiwidget()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **.test_no_whitespace_between_widgets()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **.test_subwidgets_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **.test_text_inputs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- *... and 46 more nodes in this community*
+- **ModelAdminTests** (43 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **BandAdmin** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
+- **AdminActionsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_actions.py`
+- **.test_no_distinct_for_m2m_in_list_filter_without_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- **.test_formfield_overrides_m2m_filter_widget()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_formfield_overrides_widget_instances()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_get_actions_respects_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_actions.py`
+- **.test_custom_form_meta_exclude()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_custom_form_meta_exclude_with_readonly()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_form_exclude_kwarg_override()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_formset_exclude_kwarg_override()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_lookup_allowed_allows_nonexistent_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_raw_id_fields_widget_override()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_regression_for_ticket_15820()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_actions_replace_global_action()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_actions.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_custom_form_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_custom_formfield_override_readonly()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_default_foreign_key_widget()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_field_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_field_arguments_restricted_on_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_formset_overriding_get_exclude_with_form_exclude()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_formset_overriding_get_exclude_with_form_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_get_deleted_objects()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_get_exclude_overrides_exclude()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [Community 6](Community_6.md) (22 shared connections)
-- [Community 11](Community_11.md) (4 shared connections)
-- [Community 281](Community_281.md) (3 shared connections)
-- [Community 471](Community_471.md) (3 shared connections)
-- [Community 433](Community_433.md) (2 shared connections)
-- [Community 902](Community_902.md) (2 shared connections)
-- [Community 62](Community_62.md) (2 shared connections)
-- [Community 389](Community_389.md) (2 shared connections)
-- [Community 971](Community_971.md) (1 shared connections)
-- [Community 437](Community_437.md) (1 shared connections)
-- [Community 566](Community_566.md) (1 shared connections)
-- [Community 305](Community_305.md) (1 shared connections)
+- [Community 37](Community_37.md) (7 shared connections)
+- [Community 122](Community_122.md) (7 shared connections)
+- [Community 34](Community_34.md) (5 shared connections)
+- [Community 458](Community_458.md) (4 shared connections)
+- [Community 5](Community_5.md) (4 shared connections)
+- [Community 276](Community_276.md) (2 shared connections)
+- [Community 371](Community_371.md) (2 shared connections)
+- [Community 38](Community_38.md) (2 shared connections)
+- [Community 50](Community_50.md) (2 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 233](Community_233.md) (1 shared connections)
+- [Community 443](Community_443.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_actions.py`
+- `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 111 (75%)
-- INFERRED: 37 (25%)
+- EXTRACTED: 59 (60%)
+- INFERRED: 39 (40%)
 - AMBIGUOUS: 0 (0%)
 
 ---

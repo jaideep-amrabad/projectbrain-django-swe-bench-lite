@@ -1,40 +1,35 @@
 # Community 819
 
-> 11 nodes · cohesion 0.20
+> 12 nodes · cohesion 0.32
 
 ## Key Concepts
 
-- **AdminActionsPermissionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **Subscriber** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ExternalSubscriber** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **OldSubscriber** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.test_model_admin_no_delete_permission()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_model_admin_no_delete_permission_externalsubscriber()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **Permission is denied if the user doesn't have delete permission for the model…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **Permission is denied if the user doesn't have delete permission for a related…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **ValidationMessagesTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
+- **._test_validation_messages()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
+- **.test_autofield_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
+- **.test_boolean_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
+- **.test_date_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
+- **.test_datetime_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
+- **.test_decimal_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
+- **.test_float_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
+- **.test_integer_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
+- **.test_null_boolean_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
+- **.test_nullable_boolean_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
+- **.test_time_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
 
 ## Relationships
 
-- [Community 64](Community_64.md) (3 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 78](Community_78.md) (3 shared connections)
-- [Community 316](Community_316.md) (2 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
 - [Community 38](Community_38.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (85%)
-- INFERRED: 4 (15%)
+- EXTRACTED: 23 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

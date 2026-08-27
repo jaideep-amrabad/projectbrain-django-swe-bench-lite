@@ -1,47 +1,40 @@
 # Community 656
 
-> 16 nodes · cohesion 0.12
+> 16 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **Book** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
-- **FixtureTestCase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **PickleQuerySetTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_foreign_key_cross_database_protection()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_fixture_loading()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_pseudo_empty_fixtures()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_default_creation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_other_creation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_refresh()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
-- **.test_pickling()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **Foreign keys can cross databases if they two databases have a common source** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **Multi-db fixtures are loaded correctly** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **A fixture can contain entries, but lead to nothing in the database; this…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **Objects created on the default database don't leak onto other databases** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **Objects created on another database don't leak onto the default database** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **SessionStore** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
+- **.save()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
+- **.create()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
+- **.cycle_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
+- **._get_session_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
+- **.load()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
+- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
+- **.exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
+- **To create a new key, set the modified flag so that the cookie is set on the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
+- **To save, get the session key as a securely signed string and then set the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
+- **This method makes sense when you're talking to a shared resource, but it…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
+- **To delete, clear the session key and the underlying data structure and set the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
+- **Keep the same data but with a new key. Call save() and it will automatically…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
+- **Instead of generating a random string, generate a secure url-safe…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
+- **Load the data from the key itself instead of fetching from some external data…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
+- **.clear_expired()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
 
 ## Relationships
 
-- [Community 393](Community_393.md) (7 shared connections)
-- [Community 211](Community_211.md) (4 shared connections)
-- [Community 825](Community_825.md) (2 shared connections)
-- [Community 552](Community_552.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 108](Community_108.md) (1 shared connections)
-- [Community 601](Community_601.md) (1 shared connections)
-- [Community 794](Community_794.md) (1 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 110](Community_110.md) (1 shared connections)
+- [Community 847](Community_847.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (76%)
-- INFERRED: 9 (24%)
+- EXTRACTED: 21 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

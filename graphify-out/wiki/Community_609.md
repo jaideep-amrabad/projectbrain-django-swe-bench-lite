@@ -1,44 +1,45 @@
 # Community 609
 
-> 17 nodes · cohesion 0.21
+> 18 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **SessionStore** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **._key_to_file()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **.load()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **._get_storage_path()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **._expiry_date()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **._last_modification()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **.create()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **.delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **.save()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **.clear_expired()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **.exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **Implement a file based session store.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **Get the file associated with this session key.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **Return the modification time of the file storing the session's content.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **Return the expiry time of the file storing the session's content.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **.clean()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
+- **Tests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **._select()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_nodb_cursor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_connect_and_rollback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_connect_isolation_level()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_connect_non_autocommit()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_copy_cursors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_correct_extraction_psycopg2_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_database_name_too_long()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_lookup_cast()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_select_ascii_array()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_select_unicode_array()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **skipUnless** (1 connections)
+- **The connection wrapper shouldn't believe that autocommit is enabled after…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **The transaction level can be configured with DATABASES…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **The _nodb_cursor() fallbacks to the default connection database when access to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **PostgreSQL shouldn't roll back SET TIME ZONE, even if the first transaction is…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_connect_no_is_usable_checks()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
 
 ## Relationships
 
-- [Community 53](Community_53.md) (3 shared connections)
-- [Community 153](Community_153.md) (1 shared connections)
-- [Community 104](Community_104.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 103](Community_103.md) (1 shared connections)
-- [Community 243](Community_243.md) (1 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 561](Community_561.md) (1 shared connections)
+- [Community 266](Community_266.md) (1 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (92%)
-- INFERRED: 3 (8%)
+- EXTRACTED: 25 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

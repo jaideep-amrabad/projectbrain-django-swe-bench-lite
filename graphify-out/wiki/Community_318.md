@@ -1,55 +1,55 @@
 # Community 318
 
-> 58 nodes · cohesion 0.04
+> 34 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **BaseModelBackendTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.authenticate()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **PermissionDeniedBackendTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **AllowAllUsersModelBackendTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **ModelBackendTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **AuthenticateTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **CustomPermissionsUserModelBackendTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **ExtensionUserModelBackendTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **CustomUserModelBackendAuthenticateTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_skips_backends_without_arguments()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_type_error_raised()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_authentication_timing()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_authenticate_user_without_is_active_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_permission_denied()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_get_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_skips_backends_with_decorated_method()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_anonymous_has_no_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_authentication_without_credentials()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_inactive_has_no_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_authenticate_inactive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_authenticates()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_authenticate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_custom_perms()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_get_all_superuser_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- *... and 33 more nodes in this community*
+- **InlineFormsetFactoryTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
+- **inline_formsets/tests.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
+- **DeletionTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
+- **inline_formsets/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
+- **Poem** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
+- **Poet** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
+- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
+- **Parent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
+- **School** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
+- **.test_add_form_deletion_when_invalid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
+- **.test_change_form_deletion_when_invalid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
+- **.test_save_new()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
+- **.test_exception_on_unspecified_foreign_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
+- **.test_fk_in_all_formset_forms()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
+- **.test_fk_name_not_foreign_key_field_from_child()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
+- **.test_fk_not_duplicated_in_form_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
+- **.test_inline_formset_factory()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
+- **.test_non_foreign_key_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
+- **.test_unsaved_fk_validate_unique()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
+- **.test_zero_primary_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
+- **.test_deletion()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
+- **.test_any_iterable_allowed_as_argument_to_exclude()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 123](Community_123.md) (12 shared connections)
-- [Community 8](Community_8.md) (10 shared connections)
-- [Community 38](Community_38.md) (7 shared connections)
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 94](Community_94.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 146](Community_146.md) (1 shared connections)
-- [Community 124](Community_124.md) (1 shared connections)
+- [Community 253](Community_253.md) (14 shared connections)
+- [Community 38](Community_38.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 28](Community_28.md) (2 shared connections)
+- [Community 137](Community_137.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 101 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 63 (88%)
+- INFERRED: 9 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

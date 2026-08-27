@@ -4,25 +4,26 @@
 
 ## Key Concepts
 
-- **AdminURLWidgetTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_render_quoting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_get_context_validates_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_render()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_render_idn()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **WARNING: This test doesn't use assertHTMLEqual since it will get rid of some…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **RenderTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
+- **.test_render_with_using()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
+- **.test_render()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
+- **.test_render_with_content_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
+- **.test_render_with_multiple_templates()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
+- **.test_render_with_status()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
 
 ## Relationships
 
-- [Community 50](Community_50.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 862](Community_862.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

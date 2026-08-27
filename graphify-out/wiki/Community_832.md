@@ -1,33 +1,41 @@
 # Community 832
 
-> 8 nodes · cohesion 0.25
+> 11 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **DeprecationTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
-- **.test_timeout()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
-- **.test_access()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
-- **.test_settings_init_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
-- **.test_use_both_settings_init_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
-- **.test_access_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
-- **.test_override_settings_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
-- **The token is valid after n days, but no greater.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
+- **DecimalField** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.check()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.as_postgresql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
+- **._check_decimal_places()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **._check_decimal_places_and_max_digits()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **._check_max_digits()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_db_prep_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.context()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.validators()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 
 ## Relationships
 
-- [Community 76](Community_76.md) (4 shared connections)
-- [Community 449](Community_449.md) (2 shared connections)
-- [Community 19](Community_19.md) (2 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
+- [Community 224](Community_224.md) (4 shared connections)
+- [Community 111](Community_111.md) (3 shared connections)
+- [Community 345](Community_345.md) (2 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 162](Community_162.md) (1 shared connections)
+- [Community 508](Community_508.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 368](Community_368.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (88%)
-- INFERRED: 2 (12%)
+- EXTRACTED: 25 (93%)
+- INFERRED: 2 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

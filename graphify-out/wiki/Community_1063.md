@@ -1,26 +1,27 @@
 # Community 1063
 
-> 5 nodes · cohesion 0.40
+> 5 nodes · cohesion 0.60
 
 ## Key Concepts
 
-- **core.js** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
-- **findPosX()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
-- **findPosY()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
-- **quickElement()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
-- **removeChildren()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
+- **not_installed/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/not_installed/models.py`
+- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/not_installed/models.py`
+- **M2MRelatedModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/not_installed/models.py`
+- **NotInstalledModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/not_installed/models.py`
+- **RelatedModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/not_installed/models.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
+- `raw/code/hyd-evaluation/django-django/tests/app_loading/not_installed/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

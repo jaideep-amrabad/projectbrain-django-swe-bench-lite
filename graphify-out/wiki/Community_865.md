@@ -1,55 +1,33 @@
 # Community 865
 
-> 25 nodes · cohesion 0.08
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **FakeSMTPServer** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.get_traceback_data()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **SMTPBackendStoppedServerTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **SMTPBackendTestsBase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.get_traceback_html()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.get_traceback_text()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.setUpClass()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.start()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_fail_silently_on_connection_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_server_stopped()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **Return a dictionary containing traceback information.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **Return HTML version of debug 500 HTTP error page.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **Return plain text version of debug 500 HTTP error page.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.flush_sink()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.get_sink()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.process_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.run()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.stop()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **Asyncore SMTP server wrapped into a thread. Based on DummyFTPServer from:…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **These tests require a separate class, because the FakeSMTPServer is shut down…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **Closing the backend while the SMTP server is stopped doesn't raise an exception.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **A socket connection error is silenced with fail_silently=True.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.tearDownClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **ModelChoiceIterator** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **ModelChoiceIteratorValue** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.choice()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 
 ## Relationships
 
-- [Community 514](Community_514.md) (4 shared connections)
-- [Community 612](Community_612.md) (3 shared connections)
-- [Community 42](Community_42.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 53](Community_53.md) (1 shared connections)
-- [Community 147](Community_147.md) (1 shared connections)
-- [Community 564](Community_564.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 79](Community_79.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 13 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

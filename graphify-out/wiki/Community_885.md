@@ -1,30 +1,32 @@
 # Community 885
 
-> 9 nodes · cohesion 0.28
+> 10 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **OutputWrapper** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.style_func()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.isatty()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.write()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **setter** (1 connections)
-- **Wrapper around stdout/stderr** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **TextIOBase** (1 connections)
+- **DefaultTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default.py`
+- **setup** (6 connections)
+- **DefaultIfNoneTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default.py`
+- **.test_default03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default.py`
+- **.test_default04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default.py`
+- **.test_default_if_none01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default.py`
+- **.test_default_if_none02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default.py`
+- **.test_default01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default.py`
+- **.test_default02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default.py`
+- **Literal string arguments to the default filter are always treated as safe…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (3 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 647](Community_647.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 19 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

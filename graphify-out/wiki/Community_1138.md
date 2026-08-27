@@ -4,18 +4,18 @@
 
 ## Key Concepts
 
-- **ViewContainer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/method_view_urls.py`
-- **method_view_urls.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/method_view_urls.py`
-- **.classmethod_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/method_view_urls.py`
-- **.method_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/method_view_urls.py`
+- **DeconstructibleObject** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **A custom deconstructible object.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 54](Community_54.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/method_view_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 
 ## Audit Trail
 

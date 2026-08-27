@@ -1,44 +1,35 @@
 # Community 660
 
-> 15 nodes · cohesion 0.20
+> 9 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **InlineModelAdminChecks** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **.check()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_exclude_of_parent_model()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_formset()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **GenericInlineModelAdminChecks** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
-- **._check_extra()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_max_num()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_min_num()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_relation()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **Check that extra is an integer.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **Check that max_num is an integer.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **Check that min_num is an integer.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **Check formset is a subclass of BaseModelFormSet.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_exclude_of_parent_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
-- **._check_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
+- **QuerySetIteratorTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
+- **cursor_iter()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.test_default_iterator_chunk_size()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
+- **.test_iterator_chunk_size()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
+- **.test_no_chunked_reads()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
+- **Yield blocks of rows from a cursor and ensure the cursor is closed when done.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
+- **.test_iterator_invalid_chunk_size()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
+- **If the database backend doesn't support chunked reads, then the result of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 324](Community_324.md) (4 shared connections)
-- [Community 385](Community_385.md) (2 shared connections)
-- [Community 216](Community_216.md) (2 shared connections)
-- [Community 968](Community_968.md) (2 shared connections)
-- [Community 731](Community_731.md) (1 shared connections)
-- [Community 108](Community_108.md) (1 shared connections)
+- [Community 69](Community_69.md) (3 shared connections)
+- [Community 362](Community_362.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (95%)
-- INFERRED: 2 (5%)
+- EXTRACTED: 12 (80%)
+- INFERRED: 3 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

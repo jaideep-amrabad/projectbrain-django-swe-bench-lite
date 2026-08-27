@@ -1,61 +1,53 @@
 # Community 542
 
-> 25 nodes · cohesion 0.10
+> 43 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **TransactionTestCase** (130 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **MigrateTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
-- **TransactionsPerRequestTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **oracle/test_introspection.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_introspection.py`
-- **DatabaseSequenceTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_introspection.py`
-- **UpdateOrCreateTransactionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_migrate_gis()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
-- **._fixture_setup()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **._reset_sequences()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.test_creation_in_transaction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_updates_in_transaction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **Objects are selected and updated in a transaction to avoid race conditions.…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.assertTableExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
-- **.assertTableNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
-- **._should_reload_connections()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.test_get_sequences()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_introspection.py`
-- **.test_get_sequences_manually_created_index()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_introspection.py`
-- **skipUnless** (1 connections)
-- **.get_table_description()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
-- **Tests basic usage of the migrate command when a model uses Geodjango fields…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
-- **Tests running the migrate command in Geodjango.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
-- **.test_auto_transaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_auto_transaction_async_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_no_auto_transaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_no_transaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.__init__()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **ForeignKeyRawIdWidget** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **ManyToManyRawIdWidget** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.get_context()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.get_context()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **FilteredSelectMultiple** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **AdminSplitDateTime** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.base_url_parameters()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **Media** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **AdminIntegerFieldWidget** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **AdminTimeWidget** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **AdminURLFieldWidget** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.label_and_url_for_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.url_parameters()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **url_params_from_lookup_dict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **AdminBigIntegerFieldWidget** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **AdminEmailInputWidget** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.get_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **AdminTextareaWidget** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **AdminTextInputWidget** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [Community 41](Community_41.md) (13 shared connections)
-- [Community 143](Community_143.md) (9 shared connections)
-- [Community 37](Community_37.md) (8 shared connections)
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 533](Community_533.md) (5 shared connections)
-- [Community 345](Community_345.md) (5 shared connections)
-- [Community 164](Community_164.md) (4 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 454](Community_454.md) (4 shared connections)
-- [Community 302](Community_302.md) (3 shared connections)
-- [Community 132](Community_132.md) (3 shared connections)
-- [Community 486](Community_486.md) (3 shared connections)
+- [Community 5](Community_5.md) (15 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 267](Community_267.md) (1 shared connections)
+- [Community 443](Community_443.md) (1 shared connections)
+- [Community 607](Community_607.md) (1 shared connections)
+- [Community 719](Community_719.md) (1 shared connections)
+- [Community 180](Community_180.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_introspection.py`
-- `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_commands.py`
-- `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
 
 ## Audit Trail
 
-- EXTRACTED: 165 (99%)
+- EXTRACTED: 71 (99%)
 - INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 

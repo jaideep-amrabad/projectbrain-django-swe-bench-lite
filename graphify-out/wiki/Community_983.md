@@ -4,25 +4,26 @@
 
 ## Key Concepts
 
-- **._convert_field_to_tz()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.datetime_extract_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.date_extract_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.datetime_cast_date_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.datetime_cast_time_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.datetime_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **._prepare_tzname_delta()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **TestCreateSuperUserSignals** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **Simple test case for ticket #20541** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.post_save_listener()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_create_superuser()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_create_user()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
 
 ## Relationships
 
-- [Community 280](Community_280.md) (7 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

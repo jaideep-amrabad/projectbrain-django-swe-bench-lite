@@ -1,23 +1,22 @@
 # Community 1804
 
-> 2 nodes · cohesion 1.00
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **.test_dumpdata_progressbar()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **Dumpdata shows a progress bar on the command line when --output is set, stdout…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **sample/empty.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/empty.py`
 
 ## Relationships
 
-- [Community 170](Community_170.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/empty.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

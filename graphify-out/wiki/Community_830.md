@@ -1,34 +1,38 @@
 # Community 830
 
-> 11 nodes · cohesion 0.31
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **NowTagTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_now.py`
-- **setup** (8 connections)
-- **.test_now02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_now.py`
-- **.test_now03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_now.py`
-- **.test_now04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_now.py`
-- **.test_now01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_now.py`
-- **.test_now05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_now.py`
-- **.test_now06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_now.py`
-- **.test_now07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_now.py`
-- **.test_now_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_now.py`
-- **#15092 - Also accept simple quotes** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_now.py`
+- **AddField** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **.migration_name_fragment()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **Add a field to a model.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 218](Community_218.md) (2 shared connections)
+- [Community 323](Community_323.md) (4 shared connections)
+- [Community 549](Community_549.md) (2 shared connections)
+- [Community 48](Community_48.md) (1 shared connections)
+- [Community 367](Community_367.md) (1 shared connections)
+- [Community 54](Community_54.md) (1 shared connections)
+- [Community 416](Community_416.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_now.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 19 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

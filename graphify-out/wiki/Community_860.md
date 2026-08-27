@@ -1,35 +1,33 @@
 # Community 860
 
-> 10 nodes · cohesion 0.27
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **GeoFeedTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_feeds.py`
-- **.assertChildNodes()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_feeds.py`
-- **.test_geofeed_atom()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_feeds.py`
-- **.test_geofeed_rss()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_feeds.py`
-- **.test_geofeed_w3c()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_feeds.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_feeds.py`
-- **Taken from syndication/tests.py.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_feeds.py`
-- **Tests geographic feeds using GeoRSS over RSSv2.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_feeds.py`
-- **Testing geographic feeds using GeoRSS over Atom.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_feeds.py`
-- **Testing geographic feeds using W3C Geo.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_feeds.py`
+- **RunPython** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **Run Python code in a context suitable for doing versioned ORM operations.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **.noop()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **.reversible()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 58](Community_58.md) (1 shared connections)
+- [Community 242](Community_242.md) (2 shared connections)
+- [Community 367](Community_367.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_feeds.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 12 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

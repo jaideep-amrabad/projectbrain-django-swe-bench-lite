@@ -1,42 +1,48 @@
 # Community 548
 
-> 20 nodes · cohesion 0.20
+> 20 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **ListMixinTest** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **.lists_of_len()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **.limits_plus()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **.test02_setslice()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **.test01_getslice()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **.test04_get_set_del_single()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **.step_range()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **.test05_out_of_range_exceptions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **.test06_list_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **.test09_iterable_check()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **.test10_checkindex()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **.test03_delslice()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **.test07_allowed_types()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **.test08_min_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **.test_11_sorting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **.test_12_arithmetic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **Get/set/delete single item** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **Out of range exceptions** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **Error on assigning non-iterable to slice** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
-- **Tests base class ListMixin by comparing a list clone which is a ListMixin…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- **DatabaseSchemaEditor** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
+- **._remake_table()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
+- **.alter_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
+- **.alter_db_table()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
+- **._alter_many_to_many()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
+- **.delete_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
+- **._is_referenced_by_fk_constraint()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
+- **.remove_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
+- **.add_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
+- **.add_constraint()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
+- **.__enter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
+- **.quote_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
+- **.remove_constraint()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
+- **.__exit__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
+- **Shortcut to transform a model from old_model into new_model This follows the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
+- **Create a field on a model. Usually involves adding a column, but may involve…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
+- **Remove a field from a model. Usually involves deleting a column, but for M2Ms…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
+- **Perform a "physical" (non-ManyToMany) field update.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
+- **Alter M2Ms to repoint their to= endpoints.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
+- **Return whether or not the provided table name is referenced by another one. If…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
 
 ## Relationships
 
-- [Community 734](Community_734.md) (3 shared connections)
+- [Community 7](Community_7.md) (4 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 48](Community_48.md) (2 shared connections)
+- [Community 80](Community_80.md) (1 shared connections)
+- [Community 683](Community_683.md) (1 shared connections)
+- [Community 93](Community_93.md) (1 shared connections)
+- [Community 125](Community_125.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_mutable_list.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 41 (93%)
+- INFERRED: 3 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

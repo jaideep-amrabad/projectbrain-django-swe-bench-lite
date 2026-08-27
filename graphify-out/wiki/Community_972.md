@@ -4,21 +4,21 @@
 
 ## Key Concepts
 
-- **DefaultCacheProxy** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
-- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
-- **.__delattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
-- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
-- **.__setattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
-- **Proxy access to the default Cache object's attributes. This allows the legacy…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
+- **Deserializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.__next__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Abstract base deserializer class.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Init this serializer given a stream or a string** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Iteration interface -- return the next item in the stream** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
 
 ## Relationships
 
-- [Community 53](Community_53.md) (1 shared connections)
+- [Community 86](Community_86.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
 
 ## Audit Trail
 

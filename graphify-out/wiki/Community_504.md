@@ -1,41 +1,48 @@
 # Community 504
 
-> 13 nodes · cohesion 0.15
+> 20 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **.add_q()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **JoinPromoter** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.add_filter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.demote_joins()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.add_votes()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.update_join_types()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **A preprocessor for the internal _add_q(). Responsible for doing final join…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **Add a Q-object to the current filter.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **A class to abstract away join promotion problems for complex filter conditions.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **Add single vote per item to self.votes. Parameter can be any iterable.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **Change join types so that the generated query is as efficient as possible, but…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **Change join type from LOUTER to INNER for all joins in aliases. Similarly to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Command** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.collect()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.link_file()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.log()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.delete_file()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.handle()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.clear_dir()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.copy_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.set_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.is_local_storage()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.local()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **Copies or symlinks static files from different locations to the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **Delete the given relative path using the destination storage backend.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **Check if the target file should be deleted if it already exists.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **Attempt to link ``path``** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **Attempt to copy ``path`` with storage** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **Set instance variables based on an options dict** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **Perform the bulk of the work of collectstatic. Split off from handle() to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
 
 ## Relationships
 
-- [Community 97](Community_97.md) (3 shared connections)
-- [Community 315](Community_315.md) (2 shared connections)
-- [Community 431](Community_431.md) (1 shared connections)
-- [Community 76](Community_76.md) (1 shared connections)
-- [Community 487](Community_487.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 208](Community_208.md) (1 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 22](Community_22.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 308](Community_308.md) (1 shared connections)
+- [Community 119](Community_119.md) (1 shared connections)
+- [Community 256](Community_256.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (86%)
-- INFERRED: 3 (14%)
+- EXTRACTED: 38 (90%)
+- INFERRED: 4 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

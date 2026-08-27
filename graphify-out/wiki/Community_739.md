@@ -1,44 +1,40 @@
 # Community 739
 
-> 13 nodes · cohesion 0.17
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **Table** (23 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **TableTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **._create_check_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **Hold a reference to a table.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.references_table()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.rename_table_references()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.test_references_table()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **.test_rename_table_references()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **.test_repr()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
-- **.test_str()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **TestQuerying** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.assertSequenceEqualWithoutHyphens()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_filter_with_expr()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_contains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_endswith()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_icontains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_iendswith()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_iexact()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_istartswith()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_startswith()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **Backends with a native datatype for UUID don't support fragment lookups without…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_exact()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_isnull()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
 
 ## Relationships
 
-- [Community 84](Community_84.md) (7 shared connections)
-- [Community 405](Community_405.md) (4 shared connections)
-- [Community 230](Community_230.md) (3 shared connections)
-- [Community 128](Community_128.md) (3 shared connections)
-- [Community 91](Community_91.md) (2 shared connections)
-- [Community 573](Community_573.md) (1 shared connections)
-- [Community 777](Community_777.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 288](Community_288.md) (2 shared connections)
+- [Community 87](Community_87.md) (2 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 39](Community_39.md) (1 shared connections)
+- [Community 36](Community_36.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (91%)
-- INFERRED: 3 (9%)
+- EXTRACTED: 27 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

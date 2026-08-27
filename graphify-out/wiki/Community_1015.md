@@ -1,29 +1,30 @@
 # Community 1015
 
-> 6 nodes · cohesion 0.33
+> 6 nodes · cohesion 0.47
 
 ## Key Concepts
 
-- **._check_radio_fields()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_radio_fields_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_radio_fields_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **Check that `radio_fields` is a dictionary.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **Check that a key of `radio_fields` dictionary is name of existing field and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **Check type of a value of `radio_fields` dictionary.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **filesizeformat()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_filesizeformat.py`
+- **.test_formats()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_filesizeformat.py`
+- **.test_localized_formats()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_filesizeformat.py`
+- **.test_negative_numbers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_filesizeformat.py`
+- **Format the value like a 'human-readable' file size (i.e. 13 KB, 4.1 MB, 102…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 
 ## Relationships
 
-- [Community 385](Community_385.md) (4 shared connections)
-- [Community 324](Community_324.md) (1 shared connections)
-- [Community 659](Community_659.md) (1 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 11](Community_11.md) (3 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_filesizeformat.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 15 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

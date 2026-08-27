@@ -4,25 +4,24 @@
 
 ## Key Concepts
 
-- **ProxyBug** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **ProxyProxyBug** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **Proxy of an inherited class** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **A proxy of proxy model with related field** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **ObjectDoesNotExistDetail** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **CustomMultipleObjectMixinView** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
 
 ## Relationships
 
-- [Community 583](Community_583.md) (5 shared connections)
-- [Community 626](Community_626.md) (2 shared connections)
-- [Community 311](Community_311.md) (2 shared connections)
+- [Community 105](Community_105.md) (2 shared connections)
+- [Community 229](Community_229.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (83%)
-- INFERRED: 2 (17%)
+- EXTRACTED: 5 (83%)
+- INFERRED: 1 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

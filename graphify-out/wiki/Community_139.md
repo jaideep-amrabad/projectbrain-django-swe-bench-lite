@@ -1,54 +1,61 @@
 # Community 139
 
-> 61 nodes · cohesion 0.04
+> 30 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **TestFixtures** (44 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **Animal** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.test_loaddata_forward_refs_split_fixtures()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dumpdata_uses_default_manager()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_duplicate_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_fixture_dirs_with_default_fixture_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_fixture_dirs_with_duplicates()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_loaddata_works_when_fixture_has_forward_refs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_pretty_print_xml()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_pretty_print_xml_empty_strings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_relative_path_in_fixture_dirs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_unimportable_serializer()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **Regression test for ticket #4558 -- pretty printing of XML fixtures doesn't…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **Test for ticket #4371 -- Loading a fixture file with invalid data using…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_absolute_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_close_connection_after_loaddata()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_field_value_coerce()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_fixtures_dir_pathlib()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_invalid_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_invalid_data_no_ext()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_loaddata_no_fixture_specified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_loaddata_not_found_fields_ignore()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_loaddata_not_found_fields_ignore_xml()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- *... and 36 more nodes in this community*
+- **BytesIO** (51 connections)
+- **FileTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **DataUploadMaxNumberOfFieldsGet** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
+- **NoNameFileTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_file_iteration()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_file_iteration_mac_newlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_file_iteration_windows_newlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_get_max_fields_exceeded()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
+- **.test_get_max_fields_not_exceeded()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.test_file_iteration_mixed_newlines()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_file_iteration_with_mac_newline_at_chunk_boundary()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_file_iteration_with_unix_newline_at_chunk_boundary()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_file_iteration_with_windows_newline_at_chunk_boundary()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_namedtemporaryfile_closes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_open_resets_opened_file_to_start_and_returns_context_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_noname_file_default_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_noname_file_get_size()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_file_iteration_with_text()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_io_wrapper()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_open_reopens_closed_file_and_returns_context_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_readable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_seekable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_unicode_file_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_writable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 112](Community_112.md) (7 shared connections)
-- [Community 8](Community_8.md) (7 shared connections)
-- [Community 623](Community_623.md) (4 shared connections)
-- [Community 29](Community_29.md) (3 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 85](Community_85.md) (1 shared connections)
+- [Community 95](Community_95.md) (12 shared connections)
+- [Community 319](Community_319.md) (7 shared connections)
+- [Community 320](Community_320.md) (3 shared connections)
+- [Community 578](Community_578.md) (3 shared connections)
+- [Community 575](Community_575.md) (3 shared connections)
+- [Community 267](Community_267.md) (2 shared connections)
+- [Community 58](Community_58.md) (2 shared connections)
+- [Community 282](Community_282.md) (2 shared connections)
+- [Community 349](Community_349.md) (2 shared connections)
+- [Community 438](Community_438.md) (2 shared connections)
+- [Community 131](Community_131.md) (2 shared connections)
+- [Community 114](Community_114.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
 
 ## Audit Trail
 
-- EXTRACTED: 79 (90%)
-- INFERRED: 9 (10%)
+- EXTRACTED: 37 (42%)
+- INFERRED: 52 (58%)
 - AMBIGUOUS: 0 (0%)
 
 ---

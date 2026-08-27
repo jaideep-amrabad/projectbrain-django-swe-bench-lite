@@ -1,55 +1,61 @@
 # Community 353
 
-> 32 nodes · cohesion 0.12
+> 30 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **M2MRegressionTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/tests.py`
-- **m2m_regress/models.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **m2m_regress/tests.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/tests.py`
-- **RegressionModelSplit** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **SelfRefer** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **SelfReferChild** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **SelfReferChildSibling** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **Tag** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **TagCollection** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **BadModelWithSplit** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **Entry** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **Line** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **Worksheet** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **Post** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **.test_m2m_inheritance_symmetry()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/tests.py`
-- **.test_m2m_abstract_split()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/tests.py`
-- **.test_m2m_pk_field_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/tests.py`
-- **.split()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **Model with a split method should not cause an error in add_lazy_relation** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- *... and 7 more nodes in this community*
+- **ModelFormBasicTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Category** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **ArticleForm** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **BaseCategoryForm** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **FieldOverridesByFormMetaForm** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **TestFieldOverridesByFormMeta** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.create_basic_data()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_m2m_initial_callable()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_initial_values()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **RoykoForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_m2m_editing()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_multi_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_runtime_choicefield_populated()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_disabled_multiplemodelchoicefield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_auto_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_base_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_basic_creation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_save_commit_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_save_with_data_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_error_messages_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_field_type_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_help_text_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_label_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_widget_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 76](Community_76.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 79](Community_79.md) (12 shared connections)
+- [Community 555](Community_555.md) (6 shared connections)
+- [Community 616](Community_616.md) (3 shared connections)
+- [Community 1139](Community_1139.md) (3 shared connections)
+- [Community 474](Community_474.md) (2 shared connections)
+- [Community 906](Community_906.md) (1 shared connections)
+- [Community 216](Community_216.md) (1 shared connections)
+- [Community 774](Community_774.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 105](Community_105.md) (1 shared connections)
+- [Community 335](Community_335.md) (1 shared connections)
+- [Community 137](Community_137.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/m2m_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/m2m_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 58 (85%)
-- INFERRED: 10 (15%)
+- EXTRACTED: 64 (79%)
+- INFERRED: 17 (21%)
 - AMBIGUOUS: 0 (0%)
 
 ---

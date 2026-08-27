@@ -1,63 +1,53 @@
 # Community 234
 
-> 51 nodes · cohesion 0.07
+> 29 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **parse_duration()** (25 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateparse.py`
-- **duration_string()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/duration.py`
-- **duration_iso_string()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/duration.py`
-- **test_duration.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
-- **DurationField** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **duration.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/duration.py`
-- **DurationParseTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateparse.py`
-- **duration_microseconds()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/duration.py`
-- **TestDurationString** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
-- **TestISODurationString** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
-- **TestParseDurationRoundtrip** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
-- **TestParseISODurationRoundtrip** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
-- **DurationField** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.to_python()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **_get_duration_components()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/duration.py`
-- **.test_days()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
-- **.test_microseconds()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
-- **.test_negative()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
-- **.test_simple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
-- **.test_days()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
-- **.test_microseconds()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
-- **.test_negative()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
-- **.test_simple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
-- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_db_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- *... and 26 more nodes in this community*
+- **BaseStorage** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **FallbackStorage** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
+- **.update()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.add()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **._get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **._get_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **._loaded_messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **._prepare_messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **._store()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **._set_level()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **._get()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
+- **._store()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
+- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Prepare a list of messages for storage.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Store all unread messages. If the backend has yet to be iterated, store…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Queue a message to be stored. The message is only queued if it contained…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Return the minimum recorded level. The default level is the ``MESSAGE_LEVEL``…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Set a custom minimum recorded level. If set to ``None``, the default level will…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **This is the base backend for temporary message storage. This is not a complete…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Return a list of loaded messages, retrieving them first if they have not been…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Retrieve a list of stored messages. Return a tuple of the messages and a flag…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Store a list of messages and return a list of any messages which could not be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 6](Community_6.md) (8 shared connections)
-- [Community 76](Community_76.md) (7 shared connections)
-- [Community 11](Community_11.md) (6 shared connections)
-- [Community 402](Community_402.md) (3 shared connections)
-- [Community 488](Community_488.md) (2 shared connections)
-- [Community 89](Community_89.md) (1 shared connections)
-- [Community 116](Community_116.md) (1 shared connections)
-- [Community 39](Community_39.md) (1 shared connections)
-- [Community 202](Community_202.md) (1 shared connections)
-- [Community 406](Community_406.md) (1 shared connections)
-- [Community 942](Community_942.md) (1 shared connections)
+- [Community 364](Community_364.md) (7 shared connections)
+- [Community 655](Community_655.md) (2 shared connections)
+- [Community 626](Community_626.md) (2 shared connections)
+- [Community 92](Community_92.md) (1 shared connections)
+- [Community 456](Community_456.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/dateparse.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/duration.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateparse.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
 
 ## Audit Trail
 
-- EXTRACTED: 121 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 40 (91%)
+- INFERRED: 4 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **.test_create_model_reordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **AddField optimizes into CreateModel if it's a FK to a model that's between them…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **ParentWithUUIDPK** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- [Community 722](Community_722.md) (1 shared connections)
-- [Community 721](Community_721.md) (1 shared connections)
+- [Community 63](Community_63.md) (1 shared connections)
+- [Community 78](Community_78.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 

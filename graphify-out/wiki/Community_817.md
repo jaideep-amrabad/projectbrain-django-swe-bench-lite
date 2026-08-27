@@ -1,34 +1,33 @@
 # Community 817
 
-> 11 nodes · cohesion 0.31
+> 12 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **slice_filter()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **FunctionTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
-- **.test_fail_silently()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
-- **.test_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
-- **.test_index_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
-- **.test_negative_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
-- **.test_range()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
-- **.test_range_multiple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
-- **.test_range_step()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
-- **.test_zero_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
-- **Return a slice of the list using the same syntax as Python's list slicing.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **ExceptionsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
+- **setup** (5 connections)
+- **.test_exception01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
+- **.test_exception02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
+- **.test_exception03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
+- **.test_exception04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
+- **.test_exception05()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
+- **Raise exception for invalid template name** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
+- **Raise exception for invalid variable template name** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
+- **Raise exception for extra {% extends %} tags** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
+- **Raise exception for custom tags used in child with {% load %} tag in parent,…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
+- **Raise exception for block.super used in base template** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 171](Community_171.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 17 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,24 +1,25 @@
 # Community 1173
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **ChapterXtra1** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **UsernameValidatorsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.test_ascii_validator()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.test_unicode_validator()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
 
 ## Relationships
 
-- [Community 64](Community_64.md) (1 shared connections)
-- [Community 78](Community_78.md) (1 shared connections)
+- [Community 267](Community_267.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

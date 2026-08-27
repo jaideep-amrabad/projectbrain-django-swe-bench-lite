@@ -4,23 +4,24 @@
 
 ## Key Concepts
 
-- **TestSingleEnclosureAtomFeed** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **A feed to test that Atom feeds work with a single enclosure.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.item_enclosure_size()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.item_enclosure_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.item_mime_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **CustomOptionsTestRunner** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/runner.py`
+- **test_runner/runner.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/runner.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/runner.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/runner.py`
+- **.run_tests()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/runner.py`
 
 ## Relationships
 
-- [Community 158](Community_158.md) (2 shared connections)
+- [Community 167](Community_167.md) (2 shared connections)
+- [Community 386](Community_386.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/runner.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

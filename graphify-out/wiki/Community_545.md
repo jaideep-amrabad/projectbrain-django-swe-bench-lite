@@ -1,70 +1,44 @@
 # Community 545
 
-> 48 nodes · cohesion 0.05
+> 20 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **StreamingHttpResponse** (28 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **handlers/views.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
-- **servers/views.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
-- **csrf_exempt()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
-- **FileCloseTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/models.py`
-- **servers/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/models.py`
-- **handlers/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/urls.py`
-- **CoroutineClearingView** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
-- **malformed_post()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
-- **servers/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/urls.py`
-- **check_model_instance_from_subview()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
-- **create_model_instance()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
-- **method_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
-- **model_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
-- **subview_calling_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
-- **download()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **async_regular()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
-- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
-- **httpstatus_enum()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
-- **in_transaction()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
-- **NoResponse** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
-- **regular()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
-- **streaming()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
-- **suspicious()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
-- *... and 23 more nodes in this community*
+- **Serializer** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **.indent()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **._start_relational_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **.handle_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **.end_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **.end_serialization()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **.handle_fk_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **.handle_m2m_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **.start_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **.start_serialization()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **ValueError** (2 connections)
+- **Handle a ManyToManyField. Related objects are only serialized as references to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **Output the <field> element for relational fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **Serialize a QuerySet to XML.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **Start serialization -- open the XML document and the root element.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **End serialization -- end the document.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **Called as each object is handled.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **Called after handling all fields for an object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **Handle each field on an object (except for ForeignKeys and ManyToManyFields).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **Handle a ForeignKey (they need to be treated slightly differently from regular…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
 
 ## Relationships
 
-- [Community 57](Community_57.md) (16 shared connections)
-- [Community 1](Community_1.md) (8 shared connections)
-- [Community 35](Community_35.md) (6 shared connections)
-- [Community 330](Community_330.md) (5 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 48](Community_48.md) (3 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 416](Community_416.md) (3 shared connections)
-- [Community 435](Community_435.md) (3 shared connections)
-- [Community 64](Community_64.md) (2 shared connections)
 - [Community 0](Community_0.md) (2 shared connections)
-- [Community 52](Community_52.md) (2 shared connections)
+- [Community 418](Community_418.md) (2 shared connections)
+- [Community 480](Community_480.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/handlers/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/handlers/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/handlers/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/servers/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/servers/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/servers/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/middleware.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 111 (93%)
-- INFERRED: 8 (7%)
+- EXTRACTED: 29 (94%)
+- INFERRED: 2 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

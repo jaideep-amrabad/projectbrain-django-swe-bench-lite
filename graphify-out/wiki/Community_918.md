@@ -1,33 +1,29 @@
 # Community 918
 
-> 8 nodes · cohesion 0.25
+> 4 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **UnsaltedMD5PasswordHasher** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.safe_summary()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.verify()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Incredibly insecure algorithm that you should *never* use; stores unsalted MD5…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.decode()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.encode()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.harden_runtime()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.salt()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **ManyToManyFieldDBTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_manytomanyfield.py`
+- **ManyToMany** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.test_value_from_object_instance_without_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_manytomanyfield.py`
+- **.test_value_from_object_instance_with_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_manytomanyfield.py`
 
 ## Relationships
 
-- [Community 300](Community_300.md) (3 shared connections)
-- [Community 48](Community_48.md) (1 shared connections)
-- [Community 427](Community_427.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 187](Community_187.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_manytomanyfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 7 (88%)
+- INFERRED: 1 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

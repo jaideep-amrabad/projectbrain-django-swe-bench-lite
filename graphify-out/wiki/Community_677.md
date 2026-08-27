@@ -1,53 +1,40 @@
 # Community 677
 
-> 46 nodes · cohesion 0.05
+> 15 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **DBCacheTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **FileBasedCacheTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **LocMemCacheTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.setUp()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **PicklingSideEffect** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.tearDown()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **limit_locmem_entries** (3 connections)
-- **.drop_table()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.tearDown()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_createcachetable_with_table_argument()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **DBCacheWithTimeZoneTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **FileBasedCachePathLibTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_locking_on_pickle()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_lru_get()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_lru_incr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_lru_set()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_multiple_caches()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.create_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_createcachetable_dry_run_mode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.mkdtemp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- *... and 21 more nodes in this community*
+- **forms/ranges.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **BaseRangeField** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **RangeWidget** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **HiddenRangeWidget** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **DateRangeField** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **DateTimeRangeField** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **DecimalRangeField** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **IntegerRangeField** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **.compress()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **.prepare_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **.decompress()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **A widget that splits input into two <input type="hidden"> inputs.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
 
 ## Relationships
 
-- [Community 35](Community_35.md) (8 shared connections)
-- [Community 8](Community_8.md) (6 shared connections)
-- [Community 274](Community_274.md) (3 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 542](Community_542.md) (1 shared connections)
-- [Community 1120](Community_1120.md) (1 shared connections)
-- [Community 251](Community_251.md) (1 shared connections)
+- [Community 5](Community_5.md) (5 shared connections)
+- [Community 244](Community_244.md) (2 shared connections)
+- [Community 30](Community_30.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
 
 ## Audit Trail
 
-- EXTRACTED: 74 (100%)
+- EXTRACTED: 32 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

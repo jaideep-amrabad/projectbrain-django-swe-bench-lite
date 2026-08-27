@@ -1,47 +1,53 @@
 # Community 560
 
-> 19 nodes · cohesion 0.15
+> 20 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **._load_library()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **BCryptSHA256PasswordHasher** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Argon2PasswordHasher** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.params()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.encode()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.must_update()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.safe_summary()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **BCryptPasswordHasher** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.verify()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.decode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.verify()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.must_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.salt()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.harden_runtime()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.decode()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Secure password hashing using the argon2 algorithm. This is the winner of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Secure password hashing using the bcrypt algorithm (recommended) This is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Secure password hashing using the bcrypt algorithm This is considered by many…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **ClientTest** (87 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_exc_info_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_external_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_follow_307_and_308_get_head_query_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_follow_307_and_308_preserves_get_params()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_follow_307_and_308_preserves_post_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_follow_307_and_308_preserves_put_body()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_follow_307_and_308_preserves_query_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_get_data_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_get_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_post_data_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_put()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_query_string_encoding()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_relative_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_relative_redirect_no_trailing_slash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_trace()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_unknown_page()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_uploading_named_temp_file()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_uploading_temp_file()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 300](Community_300.md) (8 shared connections)
-- [Community 48](Community_48.md) (3 shared connections)
-- [Community 427](Community_427.md) (3 shared connections)
-- [Community 60](Community_60.md) (1 shared connections)
-- [Community 170](Community_170.md) (1 shared connections)
-- [Community 243](Community_243.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 1096](Community_1096.md) (4 shared connections)
+- [Community 1152](Community_1152.md) (3 shared connections)
+- [Community 1153](Community_1153.md) (3 shared connections)
+- [Community 1189](Community_1189.md) (2 shared connections)
+- [Community 1191](Community_1191.md) (2 shared connections)
+- [Community 1190](Community_1190.md) (2 shared connections)
+- [Community 1192](Community_1192.md) (2 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 1325](Community_1325.md) (1 shared connections)
+- [Community 1324](Community_1324.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (93%)
-- INFERRED: 3 (7%)
+- EXTRACTED: 86 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

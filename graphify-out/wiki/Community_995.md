@@ -4,27 +4,27 @@
 
 ## Key Concepts
 
-- **CustomContextView** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **.get_context_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **.get_context_object_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **.get_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **CustomTemplateView** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **.get_context_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **TestCharField** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
+- **.test_emoji()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
+- **.test_max_length_passed_to_formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
+- **skipIf** (1 connections)
+- **CharField passes its max_length attribute to form fields created using the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
+- **.test_assignment_from_choice_enum()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
+- **.test_lookup_integer_in_charfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
 
 ## Relationships
 
-- [Community 107](Community_107.md) (4 shared connections)
-- [Community 329](Community_329.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (92%)
-- INFERRED: 1 (8%)
+- EXTRACTED: 8 (89%)
+- INFERRED: 1 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

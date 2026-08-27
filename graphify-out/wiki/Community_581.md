@@ -1,44 +1,46 @@
 # Community 581
 
-> 19 nodes · cohesion 0.11
+> 19 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **DecimalFieldTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **BigD** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.test_save_without_float_conversion()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **.test_fetch_from_db_without_float_rounding()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **.test_filter_with_strings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **.test_lookup_really_big_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **.test_roundtrip_with_trailing_zeros()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **.test_default()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **.test_get_prep_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **.test_invalid_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **.test_max_decimal_places_validation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **.test_max_digits_validation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **.test_max_whole_digits_validation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **.test_to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **skipIf** (1 connections)
-- **Trailing zeros in the fractional part aren't truncated.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **Should be able to filter decimal fields using strings (#8023).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **Ensure decimals don't go through a corrupting float conversion during save…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **Really big values can be used in a filter statement.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **ArchiveIndexViewTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **_make_books()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_date_list_order()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_paginated_archive_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_paginated_archive_view_does_not_load_entire_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_allow_empty_archive_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_archive_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_archive_view_by_month()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_archive_view_context_object_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_archive_view_custom_sorting()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_archive_view_custom_sorting_dec()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_archive_view_invalid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_archive_view_template()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_archive_view_template_suffix()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_archive_view_without_date_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_datetime_archive_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_empty_archive_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_no_duplicate_query()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **date_list should be sorted descending in index** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 368](Community_368.md) (1 shared connections)
+- [Community 229](Community_229.md) (6 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 - [Community 38](Community_38.md) (1 shared connections)
+- [Community 734](Community_734.md) (1 shared connections)
+- [Community 699](Community_699.md) (1 shared connections)
+- [Community 612](Community_612.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (92%)
-- INFERRED: 2 (8%)
+- EXTRACTED: 28 (90%)
+- INFERRED: 3 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

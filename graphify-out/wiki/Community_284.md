@@ -1,57 +1,53 @@
 # Community 284
 
-> 42 nodes · cohesion 0.05
+> 37 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **FieldDeconstructionTests** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **isolate_lru_cache()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.test_swappable_changed()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_foreign_key_swapped()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_many_to_many_field_swapped()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_decimal_field_0_decimal_places()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **Clear the cache of an LRU cache object on entering and exiting.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.test_auto_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_big_integer_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_binary_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_boolean_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_char_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_char_field_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_csi_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_date_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_datetime_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_db_tablespace()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_decimal_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_email_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_file_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_file_path_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_float_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_foreign_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- **.test_generic_ip_address_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- *... and 17 more nodes in this community*
+- **ForwardManyToOneDescriptor** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **ReverseOneToOneDescriptor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **ForwardOneToOneDescriptor** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **ActiveTranslationField** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **.get_queryset()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **ArticleTranslationDescriptor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **.__get__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.__get__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **ColConstraint** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **.RelatedObjectDoesNotExist()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.get_extra_restriction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **.get_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.get_prefetch_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.__reduce__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.__set__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.get_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **Get the related instance through the forward relation. With the example above,…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **Get the related instance through the reverse relation. With the example above,…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **Accessor to the related object on the forward side of a many-to-one or one-to-…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.get_prefetch_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.__set__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.contribute_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **.get_extra_descriptor_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **.get_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 18](Community_18.md) (10 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 86](Community_86.md) (1 shared connections)
-- [Community 121](Community_121.md) (1 shared connections)
+- [Community 7](Community_7.md) (8 shared connections)
+- [Community 404](Community_404.md) (4 shared connections)
+- [Community 35](Community_35.md) (3 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 275](Community_275.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
 
 ## Audit Trail
 
-- EXTRACTED: 62 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 58 (92%)
+- INFERRED: 5 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

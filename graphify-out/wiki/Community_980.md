@@ -1,33 +1,39 @@
 # Community 980
 
-> 7 nodes · cohesion 0.43
+> 11 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **Floor** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **FloorTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_floor.py`
-- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_floor.py`
-- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_floor.py`
-- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_floor.py`
-- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_floor.py`
-- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_floor.py`
+- **AdminActionsPermissionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **Subscriber** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **ExternalSubscriber** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **OldSubscriber** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.test_model_admin_no_delete_permission()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.test_model_admin_no_delete_permission_externalsubscriber()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **Permission is denied if the user doesn't have delete permission for the model…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **Permission is denied if the user doesn't have delete permission for a related…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
 
 ## Relationships
 
-- [Community 11](Community_11.md) (4 shared connections)
-- [Community 314](Community_314.md) (1 shared connections)
+- [Community 12](Community_12.md) (4 shared connections)
+- [Community 63](Community_63.md) (3 shared connections)
+- [Community 17](Community_17.md) (3 shared connections)
+- [Community 78](Community_78.md) (3 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 - [Community 38](Community_38.md) (1 shared connections)
-- [Community 87](Community_87.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_floor.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 22 (85%)
+- INFERRED: 4 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

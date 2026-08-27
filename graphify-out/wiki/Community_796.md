@@ -1,39 +1,37 @@
 # Community 796
 
-> 12 nodes · cohesion 0.26
+> 12 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **reverse_lookup/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
-- **ReverseLookupTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
-- **reverse_lookup/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/models.py`
-- **Choice** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/models.py`
-- **Poll** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/models.py`
-- **User** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/models.py`
-- **.test_reverse_field_name_disallowed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
-- **Reverse lookups This demonstrates the reverse lookup features of the database…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/models.py`
-- **If a related_name is given you can't use the field name instead** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
-- **.test_reverse_by_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
-- **.test_reverse_by_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
+- **dependency_ordered()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **DependencyOrderingTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **get_unique_databases_and_mirrors()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **setup_databases()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.test_chained_dependencies()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_circular_dependencies()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_multiple_dependencies()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_own_alias_dependency()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_simple_dependencies()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **Create the test databases.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **Reorder test_databases into an order that honors the dependencies described in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **Figure out which databases actually need to be created. Deduplicate entries in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 76](Community_76.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 386](Community_386.md) (3 shared connections)
+- [Community 41](Community_41.md) (3 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (88%)
-- INFERRED: 3 (12%)
+- EXTRACTED: 22 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,51 +1,53 @@
 # Community 279
 
-> 39 nodes · cohesion 0.06
+> 37 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **DatabaseOperations** (41 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **._convert_field_to_tz()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.quote_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.datetime_extract_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.date_extract_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.datetime_cast_date_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.datetime_cast_time_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.datetime_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.fetch_returned_insert_rows()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.force_no_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.last_executed_query()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **._prepare_tzname_delta()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.return_insert_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.sequence_reset_by_name_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.sql_flush()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.adapt_datetimefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.adapt_timefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.binary_placeholder_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.bulk_insert_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.combine_expression()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.convert_booleanfield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.convert_datetimefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.convert_uuidfield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.date_trunc_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.explain_query_prefix()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- *... and 14 more nodes in this community*
+- **model_enums/tests.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **ChoicesTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **CustomChoicesTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_integerchoices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_textchoices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **Constants** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **Separator** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **Suit** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **YearInSchool** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **bytes** (1 connections)
+- **float** (1 connections)
+- **.test_integerchoices_auto_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_integerchoices_containment()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_integerchoices_empty_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_integerchoices_functional_api()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_invalid_definition()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_str()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_textchoices_auto_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_textchoices_blank_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_textchoices_containment()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_textchoices_empty_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_textchoices_functional_api()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_bool_unsupported()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_labels_valid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- **.test_timezone_unsupported()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 76](Community_76.md) (2 shared connections)
-- [Community 31](Community_31.md) (1 shared connections)
-- [Community 59](Community_59.md) (1 shared connections)
-- [Community 429](Community_429.md) (1 shared connections)
-- [Community 147](Community_147.md) (1 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 267](Community_267.md) (3 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 65](Community_65.md) (1 shared connections)
+- [Community 650](Community_650.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (98%)
+- EXTRACTED: 53 (98%)
 - INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 

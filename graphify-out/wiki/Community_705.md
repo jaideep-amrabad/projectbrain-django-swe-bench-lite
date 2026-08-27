@@ -1,41 +1,45 @@
 # Community 705
 
-> 14 nodes · cohesion 0.20
+> 15 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **watch_for_translation_changes()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/reloader.py`
-- **WatchForTranslationChangesTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **Trans** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **.__getattr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **_is_django_module()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/reloader.py`
-- **.test_i18n_disabled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_i18n_app_dirs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_i18n_app_dirs_ignore_django_apps()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_i18n_enabled()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_i18n_local_locale()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_i18n_locale_paths()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **The purpose of this class is to store the actual translation function upon…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **Register file watchers for .mo files in potential locale paths.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/reloader.py`
-- **Return True if the given module is nested under Django.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/reloader.py`
+- **queryset_pickle/models.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **queryset_pickle/tests.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **Event** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **AbstractEvent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **Container** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **Group** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **MyEvent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **Happening** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **M2MModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **Numbers** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **Edition** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **.get_static_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **SomeModel** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **standalone_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
 
 ## Relationships
 
-- [Community 218](Community_218.md) (5 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 395](Community_395.md) (7 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 11](Community_11.md) (3 shared connections)
+- [Community 1085](Community_1085.md) (3 shared connections)
+- [Community 1145](Community_1145.md) (2 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/reloader.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (93%)
-- INFERRED: 2 (7%)
+- EXTRACTED: 36 (82%)
+- INFERRED: 8 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

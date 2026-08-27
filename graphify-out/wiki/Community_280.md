@@ -1,53 +1,49 @@
 # Community 280
 
-> 23 nodes · cohesion 0.09
+> 37 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **DatabaseOperations** (43 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.adapt_datefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.adapt_datetimefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.adapt_decimalfield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.adapt_ipaddressfield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.adapt_timefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.bulk_insert_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.date_trunc_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.deferrable_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.distinct_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.explain_query_prefix()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.ignore_conflicts_suffix_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.json_cast_text_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.last_executed_query()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.lookup_cast()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.no_limit_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.prep_for_iexact_query()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.prepare_sql_script()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.sequence_reset_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.set_time_zone_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.subtract_temporals()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.time_trunc_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.unification_cast_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **inclusion.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_tag** (24 connections)
+- **Expected inclusion_no_params __doc__** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **Expected inclusion_unlimited_args __doc__** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_explicit_no_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_explicit_no_context_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_no_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_no_params_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_no_params_with_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_no_params_with_context_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_one_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_one_default_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_one_param()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_one_param_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_only_unlimited_args()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_only_unlimited_args_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_params_and_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_params_and_context_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_tag_use_l10n()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_tag_without_context_parameter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_two_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_two_params_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_unlimited_args()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_unlimited_args_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_unlimited_args_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 983](Community_983.md) (7 shared connections)
-- [Community 1075](Community_1075.md) (5 shared connections)
-- [Community 76](Community_76.md) (3 shared connections)
-- [Community 321](Community_321.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 59](Community_59.md) (1 shared connections)
-- [Community 1171](Community_1171.md) (1 shared connections)
-- [Community 1169](Community_1169.md) (1 shared connections)
-- [Community 569](Community_569.md) (1 shared connections)
+- [Community 65](Community_65.md) (2 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 73 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

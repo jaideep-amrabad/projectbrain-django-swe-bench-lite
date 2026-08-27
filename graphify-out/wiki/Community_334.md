@@ -1,54 +1,57 @@
 # Community 334
 
-> 34 nodes · cohesion 0.14
+> 32 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **TestConnectionOnCommit** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.assertDone()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.do()** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **ForcedError** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **transaction_hooks/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **on_commit()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **.notify()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_no_hooks_run_from_failed_transaction()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **transaction_hooks/models.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/models.py`
-- **.assertNotified()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_delays_execution_until_after_transaction_commit()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_discards_hooks_from_rolled_back_savepoint()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_does_not_execute_if_transaction_rolled_back()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_error_in_hook_doesnt_prevent_clearing_hooks()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_executes_only_after_final_transaction_committed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_hooks_cleared_after_rollback()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_hooks_cleared_on_reconnect()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_inner_savepoint_does_not_affect_outer()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_inner_savepoint_rolled_back_with_outer()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_no_savepoints_atomic_merged_with_outer()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **Thing** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/models.py`
-- **.test_db_query_in_hook()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_executes_immediately_if_no_transaction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_hook_in_hook()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_hooks_cleared_after_successful_commit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- *... and 9 more nodes in this community*
+- **MultiValueFieldTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **MultiValueField** (13 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **ComplexField** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **ComplexFieldForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **ComplexMultiWidget** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **.test_clean_disabled_multivalue()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **.__deepcopy__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.compress()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.__deepcopy__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.test_disabled_has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **.test_form_as_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **.test_form_as_table_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **.test_form_cleaned_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **.test_has_changed_first_widget()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **.test_has_changed_last_widget()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **.test_no_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **.has_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **Return a single value for the given list of values. The values can be assumed…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **Aggregate the logic of multiple Fields. Its clean() method takes a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.compress()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **.decompress()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 29](Community_29.md) (2 shared connections)
-- [Community 542](Community_542.md) (2 shared connections)
-- [Community 377](Community_377.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 5](Community_5.md) (7 shared connections)
+- [Community 346](Community_346.md) (3 shared connections)
+- [Community 244](Community_244.md) (3 shared connections)
+- [Community 104](Community_104.md) (2 shared connections)
+- [Community 226](Community_226.md) (2 shared connections)
+- [Community 369](Community_369.md) (1 shared connections)
+- [Community 987](Community_987.md) (1 shared connections)
+- [Community 293](Community_293.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 90 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 52 (90%)
+- INFERRED: 6 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

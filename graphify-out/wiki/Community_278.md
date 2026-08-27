@@ -1,62 +1,59 @@
 # Community 278
 
-> 52 nodes · cohesion 0.05
+> 59 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **BaseDatabaseIntrospection** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **DatabaseIntrospection** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
-- **SimpleDatabaseIntrospectionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
-- **postgis/introspection.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/introspection.py`
-- **postgresql/introspection.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
-- **.django_table_names()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.get_migratable_models()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.identifier_converter()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.installed_models()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.sequence_list()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.table_names()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.get_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.get_primary_key_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.get_sequences()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.get_relations()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
-- **.get_field_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.get_key_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.get_relations()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.get_table_description()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.get_table_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.get_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
-- **.get_key_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
-- **.get_table_description()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
-- **.get_table_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
-- *... and 27 more nodes in this community*
+- **model_formsets_regress/tests.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **InlineFormsetTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **model_formsets_regress/models.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
+- **FormfieldShouldDeleteFormTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **User** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
+- **FormsetTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_formset_over_inherited_model()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **UserSite** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
+- **BaseCustomDeleteFormSet** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_formset_over_to_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **RedeleteTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **Restaurant** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
+- **.test_init_database()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_formset_with_none_instance()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **Host** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
+- **Network** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
+- **BaseCustomDeleteModelFormSet** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **CustomDeleteUserForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **Manager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
+- **ProfileNetwork** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
+- **UserPreferences** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
+- **UserProfile** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
+- **.test_all_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_custom_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_no_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- *... and 34 more nodes in this community*
 
 ## Relationships
 
-- [Community 76](Community_76.md) (6 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 45](Community_45.md) (2 shared connections)
-- [Community 288](Community_288.md) (2 shared connections)
-- [Community 169](Community_169.md) (2 shared connections)
-- [Community 428](Community_428.md) (2 shared connections)
-- [Community 361](Community_361.md) (1 shared connections)
-- [Community 641](Community_641.md) (1 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 569](Community_569.md) (1 shared connections)
-- [Community 130](Community_130.md) (1 shared connections)
+- [Community 253](Community_253.md) (16 shared connections)
+- [Community 38](Community_38.md) (5 shared connections)
+- [Community 5](Community_5.md) (5 shared connections)
+- [Community 883](Community_883.md) (4 shared connections)
+- [Community 335](Community_335.md) (4 shared connections)
+- [Community 293](Community_293.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 136](Community_136.md) (2 shared connections)
+- [Community 176](Community_176.md) (2 shared connections)
+- [Community 299](Community_299.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/introspection.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 82 (96%)
-- INFERRED: 3 (4%)
+- EXTRACTED: 117 (85%)
+- INFERRED: 20 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

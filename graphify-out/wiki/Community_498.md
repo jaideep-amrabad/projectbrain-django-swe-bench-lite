@@ -1,53 +1,47 @@
 # Community 498
 
-> 22 nodes · cohesion 0.14
+> 17 nodes · cohesion 0.34
 
 ## Key Concepts
 
-- **UserCreationForm** (22 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **UserCreationFormTest** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_duplicate_normalized_unicode()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_password_help_text()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_user_create_form_validates_password_with_all_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_validates_password()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.clean_password2()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.test_both_passwords()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_html_autocomplete_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_invalid_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_normalize_username()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_password_verification()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_password_whitespace_not_stripped()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_unicode_username()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_user_already_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_username_field_autocapitalize_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **A form that creates a user, with no privileges, from the given username and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **To prevent almost identical usernames, visually identical but differing by…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **UserCreationForm password validation uses all of the form's data.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_custom_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_custom_form_hidden_username_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_custom_form_with_different_username_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **Event** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
+- **SerializationTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **timezones/admin.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/admin.py`
+- **.assert_json_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.assert_python_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.assert_xml_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.assert_yaml_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_aware_datetime_in_local_timezone()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_aware_datetime_in_other_timezone()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_aware_datetime_in_utc()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_aware_datetime_with_microsecond()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_naive_datetime()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_naive_datetime_with_microsecond()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **timezones/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/urls.py`
+- **EventAdmin** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/admin.py`
+- **TimestampAdmin** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/admin.py`
+- **timezones/__init__.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/__init__.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 661](Community_661.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 633](Community_633.md) (1 shared connections)
-- [Community 632](Community_632.md) (1 shared connections)
-- [Community 732](Community_732.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 773](Community_773.md) (1 shared connections)
+- [Community 77](Community_77.md) (14 shared connections)
+- [Community 17](Community_17.md) (3 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 57 (86%)
+- INFERRED: 9 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

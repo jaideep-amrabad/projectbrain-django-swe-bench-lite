@@ -1,62 +1,51 @@
 # Community 406
 
-> 54 nodes · cohesion 0.05
+> 28 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **Field** (25 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **TypedMultipleChoiceField** (15 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **MultiValueField** (13 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **TypedMultipleChoiceFieldTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
-- **.clean()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **ComboField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.validate()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **._coerce()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.clean()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.run_validators()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.has_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **ComboFieldTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_combofield.py`
-- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.get_bound_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.validate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.test_typedmultiplechoicefield_special_coerce()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
-- **.__deepcopy__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.bound_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.widget_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.compress()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- *... and 29 more nodes in this community*
+- **ListViewTests** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **._make_authors()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_paginated_list_view_returns_useful_message_on_invalid_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_paginated_custom_page_kwarg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_paginated_custom_paginator_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_paginated_custom_paginator_constructor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_paginated_get_last_page_by_query_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_paginated_get_page_by_query_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_paginated_get_page_by_urlvar()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_paginated_invalid_page()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_paginated_list_view_does_not_load_entire_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_paginated_orphaned_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_paginated_page_out_of_range()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_paginated_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_allow_empty_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_context_object_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_duplicate_context_object_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_explicitly_ordered_list_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_invalid_get_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_missing_items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_paginated_non_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_paginated_queryset_shortdata()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- **.test_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 6](Community_6.md) (13 shared connections)
-- [Community 80](Community_80.md) (12 shared connections)
-- [Community 378](Community_378.md) (3 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 344](Community_344.md) (2 shared connections)
-- [Community 389](Community_389.md) (2 shared connections)
-- [Community 281](Community_281.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 1074](Community_1074.md) (1 shared connections)
-- [Community 234](Community_234.md) (1 shared connections)
-- [Community 243](Community_243.md) (1 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
+- [Community 229](Community_229.md) (4 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 105](Community_105.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_combofield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedmultiplechoicefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
 
 ## Audit Trail
 
-- EXTRACTED: 102 (89%)
-- INFERRED: 13 (11%)
+- EXTRACTED: 43 (91%)
+- INFERRED: 4 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

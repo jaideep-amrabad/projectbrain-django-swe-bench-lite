@@ -1,62 +1,60 @@
 # Community 368
 
-> 31 nodes · cohesion 0.08
+> 28 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **model_fields/models.py** (91 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **model_fields/test_floatfield.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_floatfield.py`
-- **model_fields/test_slugfield.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_slugfield.py`
-- **SlugFieldTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_slugfield.py`
-- **TestFloatField** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_floatfield.py`
-- **ManyToManyFieldDBTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_manytomanyfield.py`
-- **FkToChar** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **FloatModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **ManyToMany** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **PersonTwoImages** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **BigS** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **Choiceful** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **DateTimeModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **NullDurationModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **PrimaryKeyCharModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **UnicodeSlugField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **VerboseNameField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.test_float_validates_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_floatfield.py`
-- **.test_value_from_object_instance_without_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_manytomanyfield.py`
-- **.test_slugfield_max_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_slugfield.py`
-- **.test_slugfield_unicode_max_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_slugfield.py`
-- **DecimalLessThanOne** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **FieldClassAttributeModel** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **get_foo()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **Model with FK to a model with a CharField primary key, #19299** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- *... and 6 more nodes in this community*
+- **Cast** (48 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **CastTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
+- **.as_sql()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **.test_expression_wrapped_with_parentheses_on_postgresql()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
+- **.test_cast_to_char_field_with_max_length()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
+- **.as_oracle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **.test_cast_to_decimal_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
+- **.as_mysql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **.as_oracle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **.as_postgresql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **.as_sqlite()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **.as_oracle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **.test_cast_from_db_date_to_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
+- **.test_cast_from_db_datetime_to_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
+- **.test_cast_from_db_datetime_to_date_group_by()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
+- **.test_cast_from_db_datetime_to_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
+- **.test_cast_from_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
+- **.test_cast_from_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
+- **.test_cast_from_python_to_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
+- **.test_cast_from_python_to_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
+- **.test_cast_from_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
+- **.test_cast_to_char_field_without_max_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
+- **.test_cast_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
+- **.test_cast_to_text_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
+- **Coerce an expression to a new field type.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 6](Community_6.md) (13 shared connections)
-- [Community 322](Community_322.md) (11 shared connections)
-- [Community 310](Community_310.md) (7 shared connections)
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 2](Community_2.md) (6 shared connections)
-- [Community 12](Community_12.md) (6 shared connections)
-- [Community 142](Community_142.md) (6 shared connections)
 - [Community 38](Community_38.md) (5 shared connections)
-- [Community 76](Community_76.md) (4 shared connections)
-- [Community 758](Community_758.md) (4 shared connections)
-- [Community 699](Community_699.md) (3 shared connections)
-- [Community 493](Community_493.md) (3 shared connections)
+- [Community 39](Community_39.md) (3 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 52](Community_52.md) (2 shared connections)
+- [Community 111](Community_111.md) (2 shared connections)
+- [Community 70](Community_70.md) (2 shared connections)
+- [Community 793](Community_793.md) (2 shared connections)
+- [Community 64](Community_64.md) (2 shared connections)
+- [Community 30](Community_30.md) (2 shared connections)
+- [Community 46](Community_46.md) (2 shared connections)
+- [Community 207](Community_207.md) (2 shared connections)
+- [Community 28](Community_28.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_floatfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_manytomanyfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_slugfield.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
 
 ## Audit Trail
 
-- EXTRACTED: 126 (92%)
-- INFERRED: 11 (8%)
+- EXTRACTED: 81 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

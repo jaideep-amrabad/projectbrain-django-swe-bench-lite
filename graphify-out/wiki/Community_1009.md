@@ -1,31 +1,27 @@
 # Community 1009
 
-> 7 nodes · cohesion 0.29
+> 6 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **CacheTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache_fragment_cache()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache_missing_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache_regression_20130()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **When a cache called "template_fragments" is present, the cache tag will use it…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **When a cache that doesn't exist is specified, the cache tag will raise a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **HStoreField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
+- **.has_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
+- **.to_python()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
+- **.prepare_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
+- **A field for HStore data which accepts dictionary JSON input.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
+- **Return True if data differs from initial.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 42](Community_42.md) (2 shared connections)
-- [Community 49](Community_49.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

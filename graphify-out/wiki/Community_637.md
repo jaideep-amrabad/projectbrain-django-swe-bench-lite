@@ -1,47 +1,47 @@
 # Community 637
 
-> 15 nodes · cohesion 0.19
+> 14 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **SessionStore** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **.create_model_instance()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **.save()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **.get_model_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **._get_session_from_db()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **.model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **.clear_expired()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **.create()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **.load()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **Implement database session store.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **Return a new instance of the session model object, which represents the current…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **Save the current session data to the database. If 'must_create' is True, raise…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **.exists()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
+- **.process_view()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **_mask_cipher_secret()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **_get_new_csrf_string()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **._get_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **_get_new_csrf_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **_sanitize_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **.test_csrf_validation_passes_after_process_request_login()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **._reject()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **_get_failure_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **._accept()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **.process_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **Return the view to be used for CSRF rejections.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **Given a secret (assumed to be a string of CSRF_ALLOWED_CHARS), generate a token…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **CSRF check must access the CSRF token from the session or cookie, rather than…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
 
 ## Relationships
 
-- [Community 53](Community_53.md) (3 shared connections)
-- [Community 500](Community_500.md) (3 shared connections)
-- [Community 738](Community_738.md) (2 shared connections)
-- [Community 348](Community_348.md) (1 shared connections)
-- [Community 153](Community_153.md) (1 shared connections)
-- [Community 808](Community_808.md) (1 shared connections)
-- [Community 76](Community_76.md) (1 shared connections)
-- [Community 1068](Community_1068.md) (1 shared connections)
-- [Community 602](Community_602.md) (1 shared connections)
-- [Community 115](Community_115.md) (1 shared connections)
-- [Community 243](Community_243.md) (1 shared connections)
+- [Community 6](Community_6.md) (6 shared connections)
+- [Community 47](Community_47.md) (5 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 678](Community_678.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 797](Community_797.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 373](Community_373.md) (1 shared connections)
+- [Community 360](Community_360.md) (1 shared connections)
+- [Community 380](Community_380.md) (1 shared connections)
+- [Community 327](Community_327.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (78%)
-- INFERRED: 8 (22%)
+- EXTRACTED: 40 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

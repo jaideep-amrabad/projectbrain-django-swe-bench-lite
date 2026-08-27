@@ -1,50 +1,55 @@
 # Community 351
 
-> 30 nodes · cohesion 0.08
+> 33 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **FormMixin** (17 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **FormMixinTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.get_form()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **.get_context_data()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **.post()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **.form_invalid()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **.get_form_kwargs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **.get_initial()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **.get_prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **.form_valid()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **.get_form_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **.test_initial_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.get_form_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **Return the keyword arguments for instantiating the form.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **.test_get_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **Provide a way to show and handle a form in a request.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **If the form is valid, save the associated model.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **Handle GET requests: instantiate a blank version of the form.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **Handle POST requests: instantiate a form instance with the passed POST…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **Return the initial data to use for forms on this view.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **Return the prefix to use for forms.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **Return the form class to use.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **Return an instance of the form to be used in this view.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- **If the form is invalid, render the invalid form.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- *... and 5 more nodes in this community*
+- **OperationTestCase** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **OperationTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.alter_gis_model()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.assertColumnExists()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.assertSpatialIndexExists()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.set_up_test_model()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.test_add_blank_geom_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.test_add_blank_raster_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.test_add_geom_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.test_add_raster_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.test_alter_geom_field_dim()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **NoRasterSupportTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.test_remove_geom_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.test_remove_raster_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.apply_operations()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.assertColumnNotExists()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.assertGeometryColumnsCount()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.test_add_raster_field_on_db_without_raster_support()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.get_table_description()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.test_create_raster_model_on_db_without_raster_support()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.test_create_model_spatial_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.test_geom_col_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.has_spatial_indexes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (13 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 28](Community_28.md) (4 shared connections)
+- [Community 68](Community_68.md) (3 shared connections)
+- [Community 252](Community_252.md) (2 shared connections)
+- [Community 33](Community_33.md) (2 shared connections)
+- [Community 120](Community_120.md) (1 shared connections)
+- [Community 843](Community_843.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 74 (97%)
+- INFERRED: 2 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

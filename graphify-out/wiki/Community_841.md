@@ -1,38 +1,37 @@
 # Community 841
 
-> 10 nodes · cohesion 0.22
+> 11 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **MessageMiddleware** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
-- **messages_tests/test_middleware.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_middleware.py`
-- **.test_response_without_messages()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_middleware.py`
-- **.process_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
-- **.process_response()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
-- **MessageMiddlewareSubclass** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
-- **MiddlewareTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_middleware.py`
-- **Update the storage backend (i.e., save the messages). Raise ValueError if not…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
-- **Middleware that handles temporary messages.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
-- **MessageMiddleware is tolerant of messages not existing on request.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_middleware.py`
+- **fixtures_model_package/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/tests.py`
+- **fixtures_model_package/models/__init__.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/models/__init__.py`
+- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/models/__init__.py`
+- **FixtureTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/tests.py`
+- **SampleTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/tests.py`
+- **.test_loaddata()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/tests.py`
+- **.test_class_fixtures()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/models/__init__.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/models/__init__.py`
+- **Test cases can load fixture objects into models defined in packages** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/tests.py`
+- **Fixtures can load data into models defined in packages** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/tests.py`
 
 ## Relationships
 
-- [Community 416](Community_416.md) (3 shared connections)
-- [Community 43](Community_43.md) (2 shared connections)
-- [Community 94](Community_94.md) (2 shared connections)
-- [Community 57](Community_57.md) (2 shared connections)
-- [Community 325](Community_325.md) (1 shared connections)
+- [Community 38](Community_38.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_middleware.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/models/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

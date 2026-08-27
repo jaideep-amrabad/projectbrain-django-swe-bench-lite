@@ -1,61 +1,62 @@
 # Community 96
 
-> 84 nodes · cohesion 0.06
+> 80 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **SearchQuery** (55 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **SearchVector** (50 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **test_search.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **MultipleFieldsTest** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **TestCombinations** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **SearchHeadlineTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **TestRankingAndWeights** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **SearchHeadline** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **SearchRank** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **SimpleSearchTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **Line** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- **GrailTestData** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **SearchVectorFieldTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **Scene** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- **.as_sql()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **.test_headline()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **SearchVectorIndexTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **.test_ranking_with_masked_normalization()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **.test_config_from_field_explicit()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **.test_web_search()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **.test_web_search_with_config()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **.test_headline_with_config_from_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **SearchQueryTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- **.test_search_vector_index()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
-- *... and 59 more nodes in this community*
+- **SerializersTestBase** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **serializers/models/base.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **Meta** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **YamlSerializerTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **Team** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **TeamField** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **Author** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **Actor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **Movie** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **Category** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **CategoryMetaData** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **ProxyBaseModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.test_custom_field_serialization()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_serialize_superfluous_queries()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_serialize_unicode_roundtrip()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.last_executed_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **ComplexModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **Player** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **ProxyProxyBaseModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.setUpTestData()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_one_to_one_as_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_pre_1000ad_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_serialize_to_stream()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_serialize_with_null_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- *... and 55 more nodes in this community*
 
 ## Relationships
 
-- [Community 224](Community_224.md) (17 shared connections)
-- [Community 373](Community_373.md) (8 shared connections)
-- [Community 161](Community_161.md) (7 shared connections)
-- [Community 1](Community_1.md) (6 shared connections)
-- [Community 34](Community_34.md) (6 shared connections)
-- [Community 39](Community_39.md) (4 shared connections)
-- [Community 136](Community_136.md) (4 shared connections)
-- [Community 36](Community_36.md) (4 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 29](Community_29.md) (3 shared connections)
-- [Community 143](Community_143.md) (3 shared connections)
-- [Community 77](Community_77.md) (2 shared connections)
+- [Community 86](Community_86.md) (6 shared connections)
+- [Community 134](Community_134.md) (3 shared connections)
+- [Community 439](Community_439.md) (3 shared connections)
+- [Community 11](Community_11.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 843](Community_843.md) (2 shared connections)
+- [Community 106](Community_106.md) (1 shared connections)
+- [Community 706](Community_706.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 267](Community_267.md) (1 shared connections)
+- [Community 559](Community_559.md) (1 shared connections)
+- [Community 957](Community_957.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 246 (89%)
-- INFERRED: 31 (11%)
+- EXTRACTED: 109 (87%)
+- INFERRED: 17 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

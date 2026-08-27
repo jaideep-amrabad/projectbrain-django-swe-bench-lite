@@ -1,41 +1,40 @@
 # Community 684
 
-> 15 nodes · cohesion 0.13
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **DateDetailViewTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_aware_datetime_archive_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_aware_datetime_date_detail()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_aware_datetime_day_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **requires_tz_support** (3 connections)
-- **.test_get_object_custom_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_date_detail_allow_future()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_date_detail_by_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_date_detail_by_slug()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_date_detail_custom_month_format()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_datetime_date_detail()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_get_object_custom_queryset_numqueries()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_invalid_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_year_out_of_range()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **Custom querysets are used when provided to BaseDateDetailView.get_object().** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **AuthenticationMiddleware** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
+- **TestAuthenticationMiddleware** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_middleware.py`
+- **.setUp()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_middleware.py`
+- **.process_request()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
+- **AuthenticationMiddlewareSubclass** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
+- **.test_no_session()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_middleware.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_middleware.py`
+- **.test_changed_password_invalidates_session()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_middleware.py`
+- **.test_no_password_change_does_not_invalidate_legacy_session()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_middleware.py`
+- **.test_no_password_change_doesnt_invalidate_session()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_middleware.py`
 
 ## Relationships
 
-- [Community 329](Community_329.md) (5 shared connections)
-- [Community 8](Community_8.md) (4 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
-- [Community 579](Community_579.md) (1 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 50](Community_50.md) (2 shared connections)
+- [Community 521](Community_521.md) (2 shared connections)
+- [Community 73](Community_73.md) (2 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 - [Community 38](Community_38.md) (1 shared connections)
+- [Community 40](Community_40.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_middleware.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (92%)
-- INFERRED: 2 (8%)
+- EXTRACTED: 21 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

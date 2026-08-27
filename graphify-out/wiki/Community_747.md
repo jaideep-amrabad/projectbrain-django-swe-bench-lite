@@ -1,35 +1,40 @@
 # Community 747
 
-> 11 nodes · cohesion 0.27
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **InlinesCheckTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.assertIsInvalidRegexp()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.test_invalid_callable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.test_invalid_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.test_invalid_model_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.test_missing_model_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.test_not_correct_inline_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.test_not_iterable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.test_not_model_admin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.test_valid_case()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **Same as assertIsInvalid but treats the given msg as a regexp.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **CsrfViewTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
+- **.test_custom_template_does_not_exist()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
+- **.test_translation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
+- **.test_custom_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
+- **.test_no_django_template_engine()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
+- **.test_no_referer()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
+- **.test_no_cookies()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
+- **A custom CSRF_FAILURE_TEMPLATE_NAME is used.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
+- **An exception is raised if a nonexistent template is supplied.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
+- **An invalid request is rejected with a localized error message.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
+- **Referer header is strictly checked for POST over HTTPS. Trigger the exception…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
+- **The CSRF cookie is checked for POST. Failure to send this cookie should provide…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
+- **The CSRF view doesn't depend on the TEMPLATES configuration (#24388).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
 
 ## Relationships
 
-- [Community 25](Community_25.md) (8 shared connections)
-- [Community 43](Community_43.md) (1 shared connections)
-- [Community 30](Community_30.md) (1 shared connections)
+- [Community 9](Community_9.md) (5 shared connections)
+- [Community 65](Community_65.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 267](Community_267.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (84%)
-- INFERRED: 4 (16%)
+- EXTRACTED: 24 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

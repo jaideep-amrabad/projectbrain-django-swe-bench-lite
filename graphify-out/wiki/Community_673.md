@@ -1,44 +1,41 @@
 # Community 673
 
-> 15 nodes · cohesion 0.18
+> 16 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **JavaScriptCatalog** (15 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
-- **.get()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
-- **.get_context_data()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
-- **.render_to_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
-- **JSONCatalog** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
-- **.render_to_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
-- **.get_catalog()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
-- **.get_paths()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
-- **.get_plural()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
-- **._num_plurals()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
-- **._plural_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
-- **Return the selected language catalog as a JavaScript library. Receive the list…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
-- **Return the number of plurals for this catalog language, or 2 if no plural…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
-- **Return the plural string (including nplurals) for this catalog language, or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
-- **Return the selected language catalog as a JSON object. Receive the same…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **CheckboxSelectMultipleTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_label()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_separate_ids_constructor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_doesnt_localize_input_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_render_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_separate_ids()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_nested_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_nested_choices_without_id()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_render_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_render_value_multiple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_use_required_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **Each input gets a separate ID.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **Each input gets a separate ID when the ID is passed to the constructor.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **CheckboxSelectMultiple doesn't contain 'for="field_0"' in the <label> because…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **If the value is None, none of the options are selected, even if the choices…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 283](Community_283.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 218](Community_218.md) (1 shared connections)
-- [Community 49](Community_49.md) (1 shared connections)
+- [Community 190](Community_190.md) (2 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 - [Community 57](Community_57.md) (1 shared connections)
-- [Community 42](Community_42.md) (1 shared connections)
-- [Community 210](Community_210.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 18 (90%)
+- INFERRED: 2 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

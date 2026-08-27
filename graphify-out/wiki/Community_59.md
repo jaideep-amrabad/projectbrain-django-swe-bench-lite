@@ -1,58 +1,50 @@
 # Community 59
 
-> 127 nodes · cohesion 0.02
+> 114 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **BaseDatabaseOperations** (89 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.adapt_unknown_value()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.window_frame_rows_start_end()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.quote_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.adapt_datefield_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.adapt_datetimefield_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.adapt_decimalfield_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.adapt_timefield_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.combine_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.date_extract_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.limit_offset_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.savepoint_commit_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.savepoint_create_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.savepoint_rollback_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.time_extract_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.window_frame_range_start_end()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.year_lookup_bounds_for_date_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.year_lookup_bounds_for_datetime_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.adapt_ipaddressfield_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.autoinc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.binary_placeholder_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.bulk_batch_size()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.cache_key_culling_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.check_expression_support()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.combine_duration_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- *... and 102 more nodes in this community*
+- **IfTagTests** (116 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **setup** (114 connections)
+- **.test_else_if_tag_error01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_is_both_variables_missing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_is_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_is_no_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_is_not_both_variables_missing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_is_not_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_is_not_no_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_is_not_variable_missing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_is_variable_missing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag13()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag_and01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- *... and 89 more nodes in this community*
 
 ## Relationships
 
-- [Community 76](Community_76.md) (5 shared connections)
-- [Community 387](Community_387.md) (5 shared connections)
-- [Community 169](Community_169.md) (2 shared connections)
-- [Community 85](Community_85.md) (1 shared connections)
-- [Community 408](Community_408.md) (1 shared connections)
-- [Community 41](Community_41.md) (1 shared connections)
-- [Community 279](Community_279.md) (1 shared connections)
-- [Community 120](Community_120.md) (1 shared connections)
-- [Community 280](Community_280.md) (1 shared connections)
-- [Community 294](Community_294.md) (1 shared connections)
-- [Community 613](Community_613.md) (1 shared connections)
-- [Community 222](Community_222.md) (1 shared connections)
+- [Community 1305](Community_1305.md) (2 shared connections)
+- [Community 1306](Community_1306.md) (2 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
 
 ## Audit Trail
 
-- EXTRACTED: 166 (100%)
+- EXTRACTED: 230 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

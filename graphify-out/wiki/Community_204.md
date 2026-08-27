@@ -1,57 +1,61 @@
 # Community 204
 
-> 37 nodes · cohesion 0.06
+> 64 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **FileUploadTests** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **CountingMD5PasswordHasher** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **._test_base64_upload()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_unicode_file_name_rfc2231()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_unicode_name_rfc2231()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_big_base64_newlines_upload()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_big_base64_upload()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_blank_filenames()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_content_type_extra()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_dangerous_file_names()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_empty_multipart_handled_gracefully()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_file_content()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_file_error_blocking()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_filename_case_preservation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_filename_overflow()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_truncated_multipart_handled_gracefully()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_unicode_file_name_rfc2231_with_double_quotes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_unicode_name_rfc2231_with_double_quotes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **Test receiving file upload when filename is encoded with RFC2231 (#22971).** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **Hasher that counts how many times it computes a hash.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_broken_custom_upload_handler()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_custom_upload_handler()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_fileupload_getlist()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_fileuploads_closed_at_request_end()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- *... and 12 more nodes in this community*
+- **model_formsets/tests.py** (48 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **model_formsets/models.py** (40 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **InlineFormsetTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- **model_formsets/test_uuid.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- **Author** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Book** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **AlternateBook** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **BookWithOptionalAltEditor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **MexicanRestaurant** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Place** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Poem** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Price** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Restaurant** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Revision** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **AuthorMeeting** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **BetterAuthor** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **BookWithCustomPK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **ClassyMexicanRestaurant** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Owner** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **OwnerProfile** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Post** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Product** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Repository** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **#24958 - Variant of test_inlineformset_factory_nulls_default_pks for the case…** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- *... and 39 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 175](Community_175.md) (2 shared connections)
-- [Community 123](Community_123.md) (1 shared connections)
-- [Community 300](Community_300.md) (1 shared connections)
+- [Community 253](Community_253.md) (45 shared connections)
+- [Community 5](Community_5.md) (6 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 38](Community_38.md) (3 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 181](Community_181.md) (2 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
 - [Community 8](Community_8.md) (1 shared connections)
-- [Community 53](Community_53.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 210](Community_210.md) (1 shared connections)
-- [Community 298](Community_298.md) (1 shared connections)
+- [Community 176](Community_176.md) (1 shared connections)
+- [Community 593](Community_593.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (87%)
-- INFERRED: 7 (13%)
+- EXTRACTED: 149 (81%)
+- INFERRED: 35 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

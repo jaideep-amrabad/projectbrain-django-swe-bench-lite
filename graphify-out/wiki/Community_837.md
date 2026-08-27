@@ -1,35 +1,33 @@
 # Community 837
 
-> 10 nodes · cohesion 0.29
+> 7 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **CommonPasswordValidator** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **CommonPasswordValidatorTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **.validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **.test_help_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **.test_validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **.test_validate_custom_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **.test_validate_django_supplied_file()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **.get_help_text()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **Validate whether the password is a common password. The password is rejected if…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **ATan** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **ATanTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan.py`
+- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan.py`
+- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan.py`
+- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan.py`
+- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan.py`
+- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 38](Community_38.md) (5 shared connections)
+- [Community 132](Community_132.md) (1 shared connections)
+- [Community 111](Community_111.md) (1 shared connections)
+- [Community 60](Community_60.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 17 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

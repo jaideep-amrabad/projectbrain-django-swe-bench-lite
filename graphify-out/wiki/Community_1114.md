@@ -4,24 +4,24 @@
 
 ## Key Concepts
 
-- **CustomAdminSiteTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_default_site/tests.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_default_site/tests.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_default_site/tests.py`
-- **.test_use_custom_admin_site()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_default_site/tests.py`
+- **.check_related_objects()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.check_query_object_type()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Check whether the object passed while querying is of the correct type. If not,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Check the type of object passed to query relations.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 97](Community_97.md) (2 shared connections)
+- [Community 172](Community_172.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_default_site/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

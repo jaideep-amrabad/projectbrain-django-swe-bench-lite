@@ -1,63 +1,61 @@
 # Community 231
 
-> 44 nodes · cohesion 0.07
+> 57 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **serializers/base.py** (30 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **DeserializationError** (15 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **python.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **Deserializer()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **pyyaml.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
-- **jsonl.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/jsonl.py`
-- **DeserializedObject** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.save_deferred_fields()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **deserialize_m2m_values()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **M2MDeserializationError** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **ProgressBar** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **build_instance()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Deserializer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
-- **Deserializer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/jsonl.py`
-- **_get_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **Deserializer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
-- **DjangoSafeDumper** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
-- **.WithData()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **deserialize_fk_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Exception** (3 connections)
-- **SerializationError** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.save()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Something bad happened during serialization.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- *... and 19 more nodes in this community*
+- **UrlTagTests** (50 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
+- **setup** (47 connections)
+- **RequestContext** (30 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **.test_url_namespace01()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
+- **.test_url_namespace02()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
+- **.test_url_namespace_explicit_current_app()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
+- **.test_url_namespace_no_current_app()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
+- **.test_copy_request_context_twice()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
+- **.test_url_namespace03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
+- **.test_stack_size()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
+- **.test_url01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
+- **.test_url02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
+- **.test_url02a()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
+- **.test_url02b()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
+- **.test_url02c()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
+- **.test_url03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
+- **.test_url04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
+- **.test_url05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
+- **.test_url06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
+- **.test_url08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
+- **.test_url09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
+- **.test_url10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
+- **.test_url11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
+- **.test_url12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
+- **.test_url13()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
+- *... and 32 more nodes in this community*
 
 ## Relationships
 
-- [Community 143](Community_143.md) (8 shared connections)
-- [Community 2](Community_2.md) (7 shared connections)
-- [Community 76](Community_76.md) (7 shared connections)
-- [Community 450](Community_450.md) (5 shared connections)
-- [Community 247](Community_247.md) (3 shared connections)
-- [Community 5](Community_5.md) (3 shared connections)
-- [Community 243](Community_243.md) (3 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 112](Community_112.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 45](Community_45.md) (1 shared connections)
+- [Community 65](Community_65.md) (10 shared connections)
+- [Community 262](Community_262.md) (4 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 678](Community_678.md) (2 shared connections)
+- [Community 47](Community_47.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 77](Community_77.md) (1 shared connections)
+- [Community 245](Community_245.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 73](Community_73.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/jsonl.py`
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
+- `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
 
 ## Audit Trail
 
-- EXTRACTED: 114 (97%)
-- INFERRED: 4 (3%)
+- EXTRACTED: 136 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

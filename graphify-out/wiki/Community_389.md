@@ -4,60 +4,57 @@
 
 ## Key Concepts
 
-- **MultipleChoiceField** (22 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **SplitDateTimeField** (14 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **SongForm** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
-- **MultipleChoiceFieldTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
-- **.test_multiple_choice_list_data()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **SplitDateTimeFieldTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_splitdatetimefield.py`
-- **.test_multiple_choice_checkbox()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_multiple_hidden()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **MultiValueDictLike** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_hidden_data()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_checkbox_auto_id()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_empty_permitted()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_forms_with_multiple_choice()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_label_split_datetime_not_displayed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.test_disabled_has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
-- **.test_multiplechoicefield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
-- **.test_multiplechoicefield_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
-- **.test_multiplechoicefield_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
-- **.test_multiplechoicefield_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
-- **.test_splitdatetimefield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_splitdatetimefield.py`
-- **.test_splitdatetimefield_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_splitdatetimefield.py`
-- **.test_splitdatetimefield_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_splitdatetimefield.py`
-- **.test_boundfield_widget_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_callable_initial_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
+- **fixtures/tests.py** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **fixtures/models.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **Category** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **NaturalKeyThing** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **Person** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **ProxySpy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **Spy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **Tag** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **CircularA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **CircularB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **Visa** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **Book** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **PrimaryKeyUUIDModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **Blog** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **NaturalKeyManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
 - *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 62](Community_62.md) (11 shared connections)
-- [Community 6](Community_6.md) (6 shared connections)
-- [Community 418](Community_418.md) (3 shared connections)
-- [Community 378](Community_378.md) (2 shared connections)
-- [Community 406](Community_406.md) (2 shared connections)
-- [Community 281](Community_281.md) (2 shared connections)
-- [Community 236](Community_236.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 42](Community_42.md) (2 shared connections)
-- [Community 250](Community_250.md) (2 shared connections)
-- [Community 80](Community_80.md) (1 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
+- [Community 0](Community_0.md) (8 shared connections)
+- [Community 350](Community_350.md) (7 shared connections)
+- [Community 513](Community_513.md) (7 shared connections)
+- [Community 913](Community_913.md) (5 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 108](Community_108.md) (2 shared connections)
+- [Community 1126](Community_1126.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 503](Community_503.md) (2 shared connections)
+- [Community 41](Community_41.md) (2 shared connections)
+- [Community 86](Community_86.md) (2 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_splitdatetimefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (56%)
-- INFERRED: 36 (44%)
+- EXTRACTED: 81 (89%)
+- INFERRED: 10 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

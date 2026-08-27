@@ -1,74 +1,63 @@
 # Community 56
 
-> 122 nodes · cohesion 0.03
+> 30 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **functions/text.py** (40 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **Left** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **Length** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **Substr** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **Transform** (15 connections)
-- **TestQuerying** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **StrIndex** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **test_pad.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_pad.py`
-- **test_substr.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_substr.py`
-- **test_trim.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_trim.py`
-- **Chr** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **Repeat** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **.assertSequenceEqualWithoutHyphens()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **LPad** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **Ord** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **Right** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **SHA224** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **SHA256** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **SHA384** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **SHA512** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **OracleHashMixin** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **PostgreSQLSHAMixin** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **SHA1** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **.__init__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **Trim** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- *... and 97 more nodes in this community*
+- **Signal** (26 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **django/dispatch/__init__.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/__init__.py`
+- **dispatcher.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **._live_receivers()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **signals/test_deprecation.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/test_deprecation.py`
+- **backends/signals.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/signals.py`
+- **ModelSignal** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
+- **.connect()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **SignalDeprecationTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/test_deprecation.py`
+- **._lazy_method()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
+- **_make_id()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **._clear_dead_receivers()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **.disconnect()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **.send()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **.send_robust()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **.connect()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
+- **.disconnect()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
+- **.has_listeners()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **.test_providing_args_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/test_deprecation.py`
+- **.test_without_providing_args_does_not_warn()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/test_deprecation.py`
+- **Signal subclass that allows the sender to be lazily specified as a string of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
+- **Disconnect receiver from sender for signal. If weak references are used,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **Send signal from sender to all connected receivers. If any receiver raises an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **Send signal from sender to all connected receivers catching errors. Arguments:…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **Base class for all signals Internal attributes: receivers { receiverkey (id) :…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 11](Community_11.md) (59 shared connections)
-- [Community 36](Community_36.md) (18 shared connections)
-- [Community 38](Community_38.md) (15 shared connections)
-- [Community 159](Community_159.md) (12 shared connections)
-- [Community 87](Community_87.md) (7 shared connections)
-- [Community 39](Community_39.md) (6 shared connections)
-- [Community 34](Community_34.md) (6 shared connections)
-- [Community 73](Community_73.md) (6 shared connections)
-- [Community 26](Community_26.md) (6 shared connections)
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 173](Community_173.md) (4 shared connections)
-- [Community 76](Community_76.md) (3 shared connections)
+- [Community 11](Community_11.md) (8 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 785](Community_785.md) (4 shared connections)
+- [Community 6](Community_6.md) (4 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 109](Community_109.md) (3 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 54](Community_54.md) (2 shared connections)
+- [Community 432](Community_432.md) (2 shared connections)
+- [Community 489](Community_489.md) (1 shared connections)
+- [Community 148](Community_148.md) (1 shared connections)
+- [Community 30](Community_30.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_chr.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_left.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_length.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_ord.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_pad.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_repeat.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_right.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_sha224.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_strindex.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_substr.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_trim.py`
-- `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/signals.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
+- `raw/code/hyd-evaluation/django-django/django/dispatch/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- `raw/code/hyd-evaluation/django-django/tests/signals/test_deprecation.py`
 
 ## Audit Trail
 
-- EXTRACTED: 369 (98%)
-- INFERRED: 8 (2%)
+- EXTRACTED: 83 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,21 +4,21 @@
 
 ## Key Concepts
 
-- **.test_response_resolver_match_redirect_follow()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_response_resolver_match_regular_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **The response ResolverMatch instance contains the correct information when…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **cancel.js** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/cancel.js`
+- **handleClick()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/cancel.js`
+- **ready()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/cancel.js`
 
 ## Relationships
 
-- [Community 555](Community_555.md) (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/cancel.js`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

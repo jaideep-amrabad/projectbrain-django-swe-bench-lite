@@ -1,52 +1,46 @@
 # Community 488
 
-> 24 nodes · cohesion 0.09
+> 23 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **BinaryField** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.value_from_object()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_db_prep_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.test_add_field_binary()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **._check_str_default_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.value_to_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.value_to_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_db_prep_save()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.value_to_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_db_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.value_to_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.value_to_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.value_to_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_placeholder()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Binary data is serialized as base64** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Return field's value prepared for saving into a database.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Return a string value of this field from the passed obj. This is used by the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Return the value of this field in the given model instance.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Tests binary fields get a sane default (#22851)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **FormatStylePlaceholderCursor** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **VariableWrapper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.executemany()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.execute()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._fix_for_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._format_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._guess_input_sizes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._output_type_handler()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._param_generator()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.arrayvar()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._get_decimal_converter()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.var()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._output_number_converter()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **An adapter class for cursor variables that prevents the wrapped object from…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **Django uses "format" (e.g. '%s') style placeholders, but Oracle uses ":var"…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **Called for each db column fetched from cursors. Return numbers as the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.bind_parameter()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.__setattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
 
 ## Relationships
 
-- [Community 202](Community_202.md) (10 shared connections)
-- [Community 116](Community_116.md) (4 shared connections)
-- [Community 234](Community_234.md) (2 shared connections)
-- [Community 55](Community_55.md) (2 shared connections)
-- [Community 76](Community_76.md) (1 shared connections)
-- [Community 166](Community_166.md) (1 shared connections)
+- [Community 7](Community_7.md) (5 shared connections)
+- [Community 566](Community_566.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (95%)
-- INFERRED: 2 (5%)
+- EXTRACTED: 39 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

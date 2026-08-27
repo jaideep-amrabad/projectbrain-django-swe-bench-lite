@@ -1,39 +1,39 @@
 # Community 644
 
-> 16 nodes · cohesion 0.20
+> 17 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **BaseConverter** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
-- **TestBaseConv** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
-- **baseconv.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
-- **.convert()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
-- **test_baseconv.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
-- **.decode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
-- **.encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
-- **.test_base11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
-- **.test_base20()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
-- **.test_base7()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
-- **.test_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
-- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
-- **.test_base64()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
-- **.test_baseconv()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
+- **QuerySetSupportsPythonIdioms** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.get_ordered_articles()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_can_get_items_using_index_and_slice_notation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_slicing_can_slice_again_after_slicing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_slicing_negative_indexing_not_supported_for_range()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_slicing_negative_indexing_not_supported_for_single_element()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_slicing_with_steps_can_be_used()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_slicing_with_tests_is_not_lazy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_slicing_without_step_is_lazy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **hint: inverting your ordering might do what you need** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_can_combine_queries_using_and_and_or_operators()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_can_get_number_of_items_in_queryset_using_standard_len()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_invalid_index()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_slicing_cannot_combine_queries_once_sliced()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_slicing_cannot_filter_queryset_once_sliced()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_slicing_cannot_reorder_queryset_once_sliced()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Relationships
 
-- [Community 53](Community_53.md) (1 shared connections)
+- [Community 69](Community_69.md) (2 shared connections)
 - [Community 38](Community_38.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (96%)
+- EXTRACTED: 24 (96%)
 - INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 

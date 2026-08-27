@@ -1,30 +1,29 @@
 # Community 988
 
-> 7 nodes · cohesion 0.43
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **wordcount()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **FunctionTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_wordcount.py`
-- **.test_count_multiple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_wordcount.py`
-- **.test_count_one()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_wordcount.py`
-- **.test_empty_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_wordcount.py`
-- **.test_non_string_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_wordcount.py`
-- **Return the number of words.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **EmailFieldTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_emailfield.py`
+- **.test_email_regexp_for_performance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_emailfield.py`
+- **.test_emailfield_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_emailfield.py`
+- **.test_emailfield_min_max_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_emailfield.py`
+- **.test_emailfield_not_required()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_emailfield.py`
+- **.test_emailfield_strip_on_none_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_emailfield.py`
+- **.test_emailfield_unable_to_set_strip_kwarg()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_emailfield.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 171](Community_171.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_wordcount.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_emailfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,49 +1,50 @@
 # Community 549
 
-> 20 nodes · cohesion 0.21
+> 20 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **m2m_through/tests.py** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **m2m_through/models.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **Meta** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **CustomMembership** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **Membership** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **Employee** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **Group** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **Ingredient** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **Recipe** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **Event** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **Friendship** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **Invitation** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **PersonSelfRefM2M** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **RecipeIngredient** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **Relationship** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **SymmetricalFriendship** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **TestNoDefaultsOrNulls** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **FieldOperation** (25 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **FieldOperationTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- **.reduce()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **.is_same_field_operation()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **.reduce()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **.reduce()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **.is_same_model_operation()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **.reduce()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **.references_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **.reduce()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **.test_reference_field_by_through_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- **.test_references_field_by_from_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- **.test_references_field_by_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- **.test_references_field_by_remote_field_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- **.test_references_field_by_through()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- **.test_references_field_by_to_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- **.test_references_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **.model_name_lower()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **.name_lower()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
 
 ## Relationships
 
-- [Community 257](Community_257.md) (7 shared connections)
-- [Community 864](Community_864.md) (6 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 1128](Community_1128.md) (4 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 323](Community_323.md) (8 shared connections)
+- [Community 830](Community_830.md) (2 shared connections)
+- [Community 54](Community_54.md) (2 shared connections)
+- [Community 634](Community_634.md) (2 shared connections)
+- [Community 242](Community_242.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 416](Community_416.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (78%)
-- INFERRED: 14 (22%)
+- EXTRACTED: 45 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

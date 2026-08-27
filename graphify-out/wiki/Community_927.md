@@ -1,35 +1,33 @@
 # Community 927
 
-> 8 nodes · cohesion 0.36
+> 9 nodes · cohesion 0.42
 
 ## Key Concepts
 
-- **Radians** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **RadiansTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_radians.py`
-- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_radians.py`
-- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_radians.py`
-- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_radians.py`
-- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_radians.py`
-- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_radians.py`
-- **.as_oracle()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **DiscoverRunnerGetDatabasesTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.assertSkippedDatabases()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.get_databases()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_all()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_default_and_other()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_default_only()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_mixed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_no_databases_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_other_only()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
 
 ## Relationships
 
-- [Community 11](Community_11.md) (4 shared connections)
-- [Community 314](Community_314.md) (1 shared connections)
-- [Community 541](Community_541.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 87](Community_87.md) (1 shared connections)
+- [Community 167](Community_167.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 494](Community_494.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_radians.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 18 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

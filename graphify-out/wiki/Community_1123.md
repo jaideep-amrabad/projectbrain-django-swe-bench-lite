@@ -4,22 +4,25 @@
 
 ## Key Concepts
 
-- **CustomForeignObjectRel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **.foreign_related_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **.get_attname()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **Define some extra Field methods so this Rel acts more like a Field, which lets…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **MultiDatabaseTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_admin_multidb.py`
+- **.test_add_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_admin_multidb.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_admin_multidb.py`
+- **patch** (1 connections)
 
 ## Relationships
 
-- [Community 90](Community_90.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_admin_multidb.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

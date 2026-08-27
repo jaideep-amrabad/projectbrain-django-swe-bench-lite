@@ -4,24 +4,24 @@
 
 ## Key Concepts
 
-- **.construct_managers()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.render()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **Deep-clone the managers using deconstruction.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **Create a Model object from our current state into the given apps.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **._effective_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.test_effective_default_callable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_schema.py`
+- **Return a field's effective database default value.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **SchemaEditor.effective_default() shouldn't call callable defaults.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_schema.py`
 
 ## Relationships
 
-- [Community 18](Community_18.md) (2 shared connections)
-- [Community 53](Community_53.md) (1 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
+- [Community 80](Community_80.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

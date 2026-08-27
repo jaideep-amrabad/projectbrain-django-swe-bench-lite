@@ -1,39 +1,49 @@
 # Community 652
 
-> 16 nodes · cohesion 0.25
+> 16 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **ParsingTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
-- **.parse_definition()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
-- **.assertConstraint()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
-- **sqlite/test_introspection.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
-- **IntrospectionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
-- **.test_check_and_unique_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
-- **.test_check_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
-- **.test_check_column_with_operators_and_functions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
-- **.test_check_constraint()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
-- **.test_unique_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
-- **.test_unique_constraint()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
-- **.test_unique_constraint_multicolumn()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
-- **.test_get_primary_key_column()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
-- **skipUnless** (2 connections)
-- **Get the primary key column regardless of whether or not it has quotation.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
-- **Parse a column or constraint definition.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **ReadOnlyPasswordHashField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **ReadOnlyPasswordHashWidget** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **ReadOnlyPasswordHashTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.test_render()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.test_bug_19349_render_with_none_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_readonly_field_has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **The 'request' parameter is set for custom auth use by subclasses. The form data…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.bound_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.has_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
 
 ## Relationships
 
-- [Community 38](Community_38.md) (3 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 651](Community_651.md) (1 shared connections)
+- [Community 267](Community_267.md) (1 shared connections)
+- [Community 444](Community_444.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 206](Community_206.md) (1 shared connections)
+- [Community 822](Community_822.md) (1 shared connections)
+- [Community 653](Community_653.md) (1 shared connections)
+- [Community 502](Community_502.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 31 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

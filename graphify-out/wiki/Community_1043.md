@@ -1,28 +1,30 @@
 # Community 1043
 
-> 6 nodes · cohesion 0.33
+> 6 nodes · cohesion 0.53
 
 ## Key Concepts
 
-- **UUIDFieldTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
-- **.test_clean_value_with_dashes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
-- **.test_uuidfield_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
-- **.test_uuidfield_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
-- **.test_uuidfield_3()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
-- **.test_uuidfield_4()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
+- **RequestFactoryStateTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.common_test_that_should_always_pass()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_request_after_client()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_request_after_client_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Regression tests for #15929.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

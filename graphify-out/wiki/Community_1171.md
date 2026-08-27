@@ -1,23 +1,25 @@
 # Community 1171
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.max_name_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **Return the maximum length of an identifier. The maximum length of an identifier…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **ModelWithStringPrimaryKey** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.get_absolute_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- [Community 280](Community_280.md) (1 shared connections)
+- [Community 63](Community_63.md) (1 shared connections)
+- [Community 78](Community_78.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

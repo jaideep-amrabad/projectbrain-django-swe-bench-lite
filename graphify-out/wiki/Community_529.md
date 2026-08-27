@@ -1,46 +1,42 @@
 # Community 529
 
-> 21 nodes · cohesion 0.11
+> 16 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **FormfieldShouldDeleteFormTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **BaseCustomDeleteFormSet** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_init_database()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **BaseCustomDeleteModelFormSet** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **CustomDeleteUserForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_all_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_custom_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_no_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.should_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.add_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **._should_delete_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **A formset mix-in that lets a form decide if it's to be deleted. Works for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **Regression for #14099: BaseModelFormSet should use ModelFormSet method…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **Model FormSet with CustomDelete MixIn** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **A model form with a 'should_delete' method** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **delete form if odd PK** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **Add test data to database via formset** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **Verify base formset doesn't modify database** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **Verify base formset honors DELETE field** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **Verify DeleteFormset ignores DELETE field and uses form method** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **Lexer** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **Token** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.create_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **DebugLexer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.tokenize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.tokenize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.test_token_smart_split()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_parser.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.split_contents()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **A token representing a string from the template. token_type A TokenType, either…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **Return a list of tokens from a given template_string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **Convert the given token string into a new Token object and return it. If in_tag…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **Split a template string into tokens and annotates each token with its start and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **#7027 -- _() syntax should work with spaces** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_parser.py`
 
 ## Relationships
 
-- [Community 297](Community_297.md) (4 shared connections)
-- [Community 117](Community_117.md) (1 shared connections)
-- [Community 178](Community_178.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
+- [Community 13](Community_13.md) (5 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 267](Community_267.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_parser.py`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 27 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

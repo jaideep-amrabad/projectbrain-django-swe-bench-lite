@@ -1,39 +1,40 @@
 # Community 783
 
-> 12 nodes · cohesion 0.27
+> 13 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **base36_to_int()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- **int_to_base36()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- **Base36IntTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_roundtrip()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_values()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_input_too_large()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_invalid_literal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_negative_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_to_base36_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_to_int_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **Convert a base 36 string to an int. Raise ValueError if the input won't fit…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- **Convert an integer to a base36 string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- **TestBadSetUpTestData** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **TestRaiseLastException** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **MyException** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_no_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_raises_custom_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_raises_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **Exception** (1 connections)
+- **An exception in setUpTestData() shouldn't leak a transaction which would…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.tearDownClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_failure_in_setUpTestData_should_rollback_transaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_raises_exception_with_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Relationships
 
-- [Community 76](Community_76.md) (3 shared connections)
-- [Community 449](Community_449.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 35](Community_35.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 426](Community_426.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 330](Community_330.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 17 (89%)
+- INFERRED: 2 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

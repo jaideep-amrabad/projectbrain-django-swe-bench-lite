@@ -4,31 +4,30 @@
 
 ## Key Concepts
 
-- **JoinReuseTest** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_fk_reuse_annotation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_fk_reuse_disjunction()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_fk_reuse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_fk_reuse_order_by()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_fk_reuse_select_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_revfk_noreuse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_revo2o_reuse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **The queries reuse joins sensibly (for example, direct joins are always reused).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **Account** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **BarAccount** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **FooAccount** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **BarAccountAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **FooAccountAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **A simple, generic account encapsulating the information shared by all types of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **A service-specific account of type Foo.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **A service-specific account of type Bar.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- [Community 15](Community_15.md) (7 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 21](Community_21.md) (1 shared connections)
+- [Community 63](Community_63.md) (4 shared connections)
+- [Community 78](Community_78.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (63%)
-- INFERRED: 7 (37%)
+- EXTRACTED: 13 (87%)
+- INFERRED: 2 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

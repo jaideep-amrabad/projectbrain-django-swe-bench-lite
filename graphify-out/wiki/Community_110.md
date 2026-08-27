@@ -1,58 +1,55 @@
 # Community 110
 
-> 73 nodes · cohesion 0.03
+> 71 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **BaseExpression** (40 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **OrderBy** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.copy()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.get_source_expressions()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **ResolvedOuterRef** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.resolve_expression()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.output_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **._resolve_output_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.flatten()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.get_source_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.relabeled_clone()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.resolve_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **._resolve_output_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **._resolve_output_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.as_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.asc()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.contains_aggregate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.contains_column_references()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.contains_over_clause()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.convert_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.desc()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.get_group_by_cols()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **._output_field_or_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.select_format()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.copy()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- *... and 48 more nodes in this community*
+- **SessionBase** (55 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **SessionStore** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
+- **._legacy_decode()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.get()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **._get_new_session_key()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.cycle_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.delete()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.flush()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.get_expiry_age()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.get_expiry_date()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.create()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.exists()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.get_expire_at_browser_close()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **._get_session()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.get_session_cookie_age()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **._hash()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.load()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **._set_session_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **._validate_session_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **test_client_regress/session.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
+- **.clear()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.clear_expired()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.decode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **._get_or_create_session_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- *... and 46 more nodes in this community*
 
 ## Relationships
 
-- [Community 76](Community_76.md) (10 shared connections)
-- [Community 36](Community_36.md) (9 shared connections)
-- [Community 70](Community_70.md) (4 shared connections)
-- [Community 39](Community_39.md) (4 shared connections)
-- [Community 26](Community_26.md) (3 shared connections)
-- [Community 34](Community_34.md) (3 shared connections)
-- [Community 159](Community_159.md) (2 shared connections)
-- [Community 73](Community_73.md) (2 shared connections)
-- [Community 170](Community_170.md) (2 shared connections)
-- [Community 143](Community_143.md) (1 shared connections)
-- [Community 97](Community_97.md) (1 shared connections)
-- [Community 615](Community_615.md) (1 shared connections)
+- [Community 6](Community_6.md) (9 shared connections)
+- [Community 380](Community_380.md) (2 shared connections)
+- [Community 678](Community_678.md) (1 shared connections)
+- [Community 679](Community_679.md) (1 shared connections)
+- [Community 628](Community_628.md) (1 shared connections)
+- [Community 656](Community_656.md) (1 shared connections)
+- [Community 785](Community_785.md) (1 shared connections)
+- [Community 256](Community_256.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
 
 ## Audit Trail
 
-- EXTRACTED: 126 (98%)
+- EXTRACTED: 102 (98%)
 - INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 

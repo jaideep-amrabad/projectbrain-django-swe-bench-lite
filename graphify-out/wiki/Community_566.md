@@ -1,50 +1,50 @@
 # Community 566
 
-> 19 nodes · cohesion 0.13
+> 19 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **Media** (18 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.merge()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.absolute_path()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.media()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.render_css()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.render_js()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **._get_media()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **._css()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **._js()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **Return all media required to render the widgets on this form.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.__add__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **Return a Media object that only contains media of the given type.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **Merge lists while trying to keep the relative order of the elements. Warn if…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **Media for a multiwidget is the combination of all media of the subwidgets.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **Given a relative or absolute path to a static asset, return an absolute path.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **DatabaseWrapper** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.create_cursor()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._dsn()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.get_new_connection()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._maindb_connection()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **.check_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._commit()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._connect_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.init_connection_state()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.cx_oracle_version()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.get_connection_params()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.is_usable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.oracle_version()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._savepoint_commit()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._set_autocommit()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **Check constraints by setting them to immediate. Return them to deferred…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **This is analogous to other backends' `_nodb_connection` property, which allows…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 853](Community_853.md) (2 shared connections)
-- [Community 189](Community_189.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 433](Community_433.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 695](Community_695.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 236](Community_236.md) (1 shared connections)
+- [Community 7](Community_7.md) (7 shared connections)
+- [Community 273](Community_273.md) (2 shared connections)
+- [Community 488](Community_488.md) (2 shared connections)
+- [Community 715](Community_715.md) (1 shared connections)
+- [Community 74](Community_74.md) (1 shared connections)
+- [Community 659](Community_659.md) (1 shared connections)
+- [Community 304](Community_304.md) (1 shared connections)
+- [Community 658](Community_658.md) (1 shared connections)
+- [Community 125](Community_125.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 29 (76%)
+- INFERRED: 9 (24%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,28 +1,23 @@
 # Community 1008
 
-> 7 nodes · cohesion 0.43
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **I18nStringLiteralTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_underscore_syntax.py`
-- **setup** (4 connections)
-- **.test_i18n13()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_underscore_syntax.py`
-- **.test_i18n14()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_underscore_syntax.py`
-- **.test_i18n15()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_underscore_syntax.py`
-- **.test_i18n16()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_underscore_syntax.py`
-- **translation of constant strings** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_underscore_syntax.py`
+- **.no_limit_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Return the value to use for the LIMIT when we are wanting "LIMIT infinity".…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
+- [Community 106](Community_106.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_underscore_syntax.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

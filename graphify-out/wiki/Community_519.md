@@ -1,50 +1,47 @@
 # Community 519
 
-> 21 nodes · cohesion 0.16
+> 22 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **SimpleArrayField** (23 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **TestSimpleFormField** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_inlineformset_with_arrayfield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_already_converted_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_delimiter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_delimiter_with_nesting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_has_changed_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_max_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_min_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_model_field_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_model_field_formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_model_field_formfield_size()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_prepare_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_to_python_fail()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_valid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_validate_fail()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_validate_fail_base_field_error_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_validators_fail()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.prepare_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **BasicFieldTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **RenamedField** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.test_field_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_choices_form_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_deconstruct_nested_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_field_instance_is_picklable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_field_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_field_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_field_repr_nested()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_formfield_disabled()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_show_hidden_initial()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_field_str()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_field_verbose_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **deconstruct() uses __qualname__ for nested class support.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **Fields with choices respect show_hidden_initial as a kwarg to formfield().** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **__repr__() of a field displays its name.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **__repr__() uses __qualname__ for nested class support.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **A defined field name (name="fieldname") is used instead of the model model's…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **Can supply a custom choices form class to Field.formfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **Field.formfield() sets disabled for fields with choices.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **Fields are ordered based on their creation.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **Field instances can be pickled.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (4 shared connections)
-- [Community 143](Community_143.md) (3 shared connections)
-- [Community 200](Community_200.md) (3 shared connections)
-- [Community 562](Community_562.md) (2 shared connections)
-- [Community 216](Community_216.md) (1 shared connections)
-- [Community 235](Community_235.md) (1 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 187](Community_187.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (68%)
-- INFERRED: 15 (32%)
+- EXTRACTED: 25 (89%)
+- INFERRED: 3 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

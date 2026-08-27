@@ -1,54 +1,51 @@
 # Community 394
 
-> 29 nodes · cohesion 0.07
+> 21 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **OneToOneTests** (53 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_cached_relation_invalidated_on_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_hidden_accessor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_reverse_object_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_reverse_object_cached_when_related_is_accessed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_reverse_relationship_cache_cascade()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_assign_none_null_reverse_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_assign_none_reverse_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_assign_none_to_null_cached_reverse_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_assign_o2o_id_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_assign_o2o_id_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_foreign_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_getter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_manager_all()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_manager_get()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_nullable_o2o_delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_o2o_primary_key_delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_primary_key_to_field_filter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_rel_pk_exact()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_rel_pk_subquery()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_related_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_setter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_update_one_to_one_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **Regression test for #9023: accessing the reverse relationship shouldn't result…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- *... and 4 more nodes in this community*
+- **AddIndexConcurrently** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **RemoveIndexConcurrently** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **AddIndexConcurrentlyTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- **._ensure_not_in_transaction()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **RemoveIndexConcurrentlyTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- **NotInTransactionMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **.test_add()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- **.test_add_other_index_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- **.test_add_with_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- **.test_requires_atomic_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- **skipUnless** (3 connections)
+- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **.database_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **.database_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **.test_remove()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- **.test_requires_atomic_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **Create an index using PostgreSQL's CREATE INDEX CONCURRENTLY syntax.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **Remove an index using PostgreSQL's DROP INDEX CONCURRENTLY syntax.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
 
 ## Relationships
 
-- [Community 582](Community_582.md) (14 shared connections)
-- [Community 690](Community_690.md) (9 shared connections)
-- [Community 1156](Community_1156.md) (2 shared connections)
-- [Community 1132](Community_1132.md) (2 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 1229](Community_1229.md) (1 shared connections)
-- [Community 1230](Community_1230.md) (1 shared connections)
+- [Community 62](Community_62.md) (8 shared connections)
+- [Community 146](Community_146.md) (3 shared connections)
+- [Community 401](Community_401.md) (2 shared connections)
+- [Community 126](Community_126.md) (2 shared connections)
+- [Community 252](Community_252.md) (2 shared connections)
+- [Community 115](Community_115.md) (2 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (74%)
-- INFERRED: 15 (26%)
+- EXTRACTED: 46 (92%)
+- INFERRED: 4 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

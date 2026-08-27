@@ -1,57 +1,63 @@
 # Community 158
 
-> 56 nodes · cohesion 0.05
+> 63 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **syndication_tests/feeds.py** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestRss2Feed** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **Entry** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/models.py`
-- **TestAtomFeed** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestSingleEnclosureRSSFeed** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **syndication_tests/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/models.py`
-- **ArticlesFeed** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestLatestFeed** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/models.py`
-- **NaiveDatesFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TemplateContextFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TemplateFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestMultipleEnclosureAtomFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestMultipleEnclosureRSSFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestRss2FeedWithGuidIsPermaLinkFalse** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TZAwareDatesFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestNoPubdateFeed** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestRss2FeedWithGuidIsPermaLinkTrue** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **syndication_tests/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/urls.py`
-- **syndication/__init__.py** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/__init__.py`
-- **TestCustomFeed** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestFeedUrlFeed** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestLanguageFeed** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **TestRss091Feed** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.item_pubdate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- *... and 31 more nodes in this community*
+- **contenttypes_tests/models.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- **ContentTypesViewsTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
+- **contenttypes_tests/test_fields.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_fields.py`
+- **ContentTypesViewsSiteRelTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
+- **Post** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- **test_order_with_respect_to.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_order_with_respect_to.py`
+- **ShortcutViewTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
+- **Answer** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- **GenericForeignKeyTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_fields.py`
+- **SiteManager** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- **.get_current()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- **FooWithBrokenAbsoluteUrl** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- **FooWithoutUrl** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- **Question** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- **OrderWithRespectToGFKTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_order_with_respect_to.py`
+- **ProxyModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- **GenericRelationTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_fields.py`
+- **ConcreteModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- **ModelWithM2MToSite** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- **SchemeIncludedURL** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- **Site** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- **._get_site_by_request()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- **Article** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- **.test_shortcut_view_with_null_site_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
+- *... and 38 more nodes in this community*
 
 ## Relationships
 
-- [Community 11](Community_11.md) (9 shared connections)
-- [Community 195](Community_195.md) (3 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 1097](Community_1097.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 1055](Community_1055.md) (1 shared connections)
+- [Community 0](Community_0.md) (30 shared connections)
+- [Community 108](Community_108.md) (9 shared connections)
+- [Community 38](Community_38.md) (7 shared connections)
+- [Community 503](Community_503.md) (5 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 393](Community_393.md) (3 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 295](Community_295.md) (2 shared connections)
+- [Community 42](Community_42.md) (2 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 92](Community_92.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/syndication/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/urls.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_order_with_respect_to.py`
+- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 89 (93%)
-- INFERRED: 7 (7%)
+- EXTRACTED: 129 (83%)
+- INFERRED: 27 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

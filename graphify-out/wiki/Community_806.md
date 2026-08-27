@@ -1,36 +1,40 @@
 # Community 806
 
-> 11 nodes · cohesion 0.22
+> 12 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **CPointerBase** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/ptr.py`
-- **test_ptr.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_ptr.py`
-- **CPointerBaseTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_ptr.py`
-- **ptr.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/ptr.py`
-- **.ptr()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/ptr.py`
-- **.__del__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/ptr.py`
-- **setter** (1 connections)
-- **Free the memory used by the C++ object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/ptr.py`
-- **Base class for objects that have a pointer access property that controls access…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/ptr.py`
-- **.test()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_ptr.py`
-- **.test_destructor_catches_importerror()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_ptr.py`
+- **TestManagerInheritance** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
+- **CustomManager** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **.test_deconstruct_from_queryset_failing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **.test_base_manager_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
+- **.test_default_manager_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
+- **.test_implicit_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
+- **.test_manager_class_getitem()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
+- **.test_manager_no_duplicates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **MemberManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **skipUnless** (1 connections)
 
 ## Relationships
 
-- [Community 16](Community_16.md) (4 shared connections)
-- [Community 45](Community_45.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
+- [Community 257](Community_257.md) (2 shared connections)
+- [Community 69](Community_69.md) (2 shared connections)
+- [Community 76](Community_76.md) (1 shared connections)
+- [Community 42](Community_42.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/ptr.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_ptr.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (91%)
-- INFERRED: 2 (9%)
+- EXTRACTED: 15 (71%)
+- INFERRED: 6 (29%)
 - AMBIGUOUS: 0 (0%)
 
 ---

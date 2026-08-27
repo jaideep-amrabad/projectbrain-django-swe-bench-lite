@@ -4,25 +4,23 @@
 
 ## Key Concepts
 
-- **SHA1Tests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_sha1.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_sha1.py`
-- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_sha1.py`
-- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_sha1.py`
+- **TestLookupQuery** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_agnostic_order_trimjoin.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_agnostic_order_trimjoin.py`
+- **.test_deep_mixed_backward()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_agnostic_order_trimjoin.py`
+- **.test_deep_mixed_forward()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_agnostic_order_trimjoin.py`
 
 ## Relationships
 
-- [Community 11](Community_11.md) (2 shared connections)
+- [Community 404](Community_404.md) (1 shared connections)
 - [Community 38](Community_38.md) (1 shared connections)
-- [Community 56](Community_56.md) (1 shared connections)
-- [Community 87](Community_87.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_sha1.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_agnostic_order_trimjoin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

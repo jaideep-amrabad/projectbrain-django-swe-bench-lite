@@ -4,50 +4,56 @@
 
 ## Key Concepts
 
-- **Serializer** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **Serializer** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/jsonl.py`
-- **Serializer** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
-- **._value_from_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **.get_dump_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **._init_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/jsonl.py`
-- **.start_serialization()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/jsonl.py`
-- **.end_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **.handle_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **.handle_fk_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **PythonSerializer** (1 connections)
-- **Convert a queryset to JSON Lines.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/jsonl.py`
-- **.end_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/jsonl.py`
-- **.getvalue()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/jsonl.py`
-- **Serialize a QuerySet to basic Python objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **.end_serialization()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **.getvalue()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **.handle_m2m_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **.start_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **.start_serialization()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **PythonSerializer** (1 connections)
-- **Convert a queryset to YAML.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
-- **.end_serialization()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
-- **.getvalue()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
-- **.handle_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
+- **ConnectionHandler** (22 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **ConnectionHandlerTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- **ConnectionDoesNotExist** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.ensure_defaults()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.__getitem__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.prepare_test_settings()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.databases()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.test_no_database()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.assertImproperlyConfigured()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- **.test_connection_handler_no_databases()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- **.test_makemigrations_empty_connections()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **Exception** (2 connections)
+- **._get_databases()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.test_no_default_database()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- **.all()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.close_all()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.__delitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.__setitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **databases is an optional dictionary of database definitions (structured like…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **Put the defaults into the settings dictionary for a given connection where no…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **Make sure the test settings are available in the 'TEST' sub-dictionary.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **Ensure runserver.check_migrations doesn't choke on empty DATABASES.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **Empty DATABASES and empty 'default' settings default to the dummy backend.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
 
 ## Relationships
 
-- [Community 231](Community_231.md) (5 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 76](Community_76.md) (1 shared connections)
-- [Community 535](Community_535.md) (1 shared connections)
-- [Community 147](Community_147.md) (1 shared connections)
+- [Community 7](Community_7.md) (8 shared connections)
+- [Community 10](Community_10.md) (3 shared connections)
+- [Community 531](Community_531.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 191](Community_191.md) (1 shared connections)
+- [Community 54](Community_54.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 167](Community_167.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/jsonl.py`
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
+- `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (89%)
-- INFERRED: 4 (11%)
+- EXTRACTED: 45 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,27 +4,28 @@
 
 ## Key Concepts
 
-- **TestCreateSuperUserSignals** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **Simple test case for ticket #20541** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.post_save_listener()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_create_superuser()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.test_create_user()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **ChoicesTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_check()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_flatchoices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_formfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_invalid_choice()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 187](Community_187.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 8 (89%)
+- INFERRED: 1 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,38 +1,39 @@
 # Community 663
 
-> 15 nodes · cohesion 0.19
+> 16 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **Deserializer** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **._handle_object()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **._handle_fk_field_node()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **._handle_m2m_field_node()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **._make_parser()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **getInnerText()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **._get_model_from_node()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.__next__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **Create a hardened XML parser (no custom/external entities).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **Convert an <object> node to a DeserializedObject.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **Handle a <field> node for a ForeignKey** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **Handle a <field> node for a ManyToManyField.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **Look up a model from a <object model=...> or a <field rel=... to=...> node.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **Get all the inner text of a DOM node (recursively).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **BaseConverter** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
+- **TestBaseConv** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
+- **baseconv.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
+- **.convert()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
+- **test_baseconv.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
+- **.decode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
+- **.encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
+- **.test_base11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
+- **.test_base20()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
+- **.test_base7()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
+- **.test_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
+- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
+- **.test_base64()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
+- **.test_baseconv()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 482](Community_482.md) (2 shared connections)
-- [Community 243](Community_243.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (96%)
+- EXTRACTED: 25 (96%)
 - INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,40 +1,36 @@
 # Community 788
 
-> 12 nodes · cohesion 0.27
+> 12 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **IsolationLevelTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
-- **mysql/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
-- **.get_isolation_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
-- **get_connection()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
-- **.test_connect_isolation_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
-- **.test_default_isolation_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
-- **.test_setting_isolation_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
-- **.test_uppercase_isolation_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
-- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
-- **.test_auto_is_null_auto_config()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
-- **.test_isolation_level_validation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
-- **skipUnless** (1 connections)
+- **PostGISAdapter** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- **.getquoted()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- **.__conform__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- **.prepare()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- **Initialize on the spatial object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- **Does the given protocol conform to what Psycopg2 expects?** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- **This method allows escaping the binary in the style required by the server's…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- **Return a properly quoted string for use in PostgreSQL/PostGIS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
 
 ## Relationships
 
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 130](Community_130.md) (1 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 483](Community_483.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 15 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

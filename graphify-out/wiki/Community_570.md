@@ -1,56 +1,60 @@
 # Community 570
 
-> 26 nodes · cohesion 0.10
+> 29 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **TestDataTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **TestData** (11 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **CloneTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **assert_no_queries()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **.test_no_fields_cloning()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_no_model_options_cloning()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **NonDeepCopyAble** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **.__deepcopy__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **.test_class_attribute_equality()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **.test_class_attribute_identity()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **.test_identity_preservation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **.test_known_related_objects_identity_preservation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **.__get__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.get_memo()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Cloning a queryset does not get out of hand. While complete testing is…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **.test_undeepcopyable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **Descriptor to provide TestCase instance isolation for attributes assigned…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Class level test data is equal to instance level test data.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **Class level test data is not identical to instance level test data.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **Identity of test data is preserved between accesses.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **Known related objects identity is preserved.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- *... and 1 more nodes in this community*
+- **Media** (18 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **stable_topological_sort()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
+- **CyclicDependencyError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
+- **topological_sort_as_sets()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
+- **test_topological_sort.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
+- **.merge()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **topological_sort.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
+- **.absolute_path()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **TopologicalSortTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
+- **.media()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.render_css()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.render_js()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **._get_media()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.test_basic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
+- **._css()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **._js()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.test_cyclic_dependency()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
+- **Return all media required to render the widgets on this form.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **.__add__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **Return a Media object that only contains media of the given type.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **Merge lists while trying to keep the relative order of the elements. Warn if…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 76](Community_76.md) (8 shared connections)
-- [Community 15](Community_15.md) (4 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 34](Community_34.md) (2 shared connections)
-- [Community 345](Community_345.md) (1 shared connections)
-- [Community 306](Community_306.md) (1 shared connections)
-- [Community 454](Community_454.md) (1 shared connections)
+- [Community 5](Community_5.md) (6 shared connections)
+- [Community 267](Community_267.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 54](Community_54.md) (2 shared connections)
+- [Community 180](Community_180.md) (1 shared connections)
+- [Community 324](Community_324.md) (1 shared connections)
+- [Community 657](Community_657.md) (1 shared connections)
+- [Community 647](Community_647.md) (1 shared connections)
+- [Community 244](Community_244.md) (1 shared connections)
+- [Community 100](Community_100.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (82%)
-- INFERRED: 9 (18%)
+- EXTRACTED: 60 (97%)
+- INFERRED: 2 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,30 +1,27 @@
 # Community 1049
 
-> 6 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.60
 
 ## Key Concepts
 
-- **QuerySetBitwiseOperationTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_or_with_both_slice()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_or_with_both_slice_and_ordering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_or_with_lhs_slice()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_or_with_rhs_slice()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **RenameContentType** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
+- **._rename()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
+- **.rename_backward()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
+- **.rename_forward()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
 
 ## Relationships
 
-- [Community 15](Community_15.md) (3 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
+- [Community 41](Community_41.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (80%)
-- INFERRED: 2 (20%)
+- EXTRACTED: 8 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

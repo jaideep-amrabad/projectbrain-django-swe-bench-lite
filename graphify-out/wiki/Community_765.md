@@ -1,37 +1,39 @@
 # Community 765
 
-> 13 nodes · cohesion 0.21
+> 13 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **MultipleLocaleActivationTransTagTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.get_template()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **TranslationTransTagTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_template_tags_pgettext()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_single_locale_activation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_multiple_locale_deactivate_trans()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_multiple_locale_direct_switch_trans()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_multiple_locale_trans()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **MultipleLocaleActivationTranslateTagTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **TranslationTranslateTagTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.get_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **{% translate %} takes message contexts into account (#14806).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **Simple baseline behavior with one locale for all the supported i18n constructs.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **field_subclassing/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
+- **field_subclassing/fields.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
+- **CustomDeferredAttribute** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
+- **CustomTypedField** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
+- **CustomDescriptorField** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
+- **DescriptorClassTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
+- **TestDbType** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
+- **._count_call()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
+- **.test_db_parameters_respects_db_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
+- **.__get__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
+- **.__set__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
+- **.test_descriptor_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
+- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
 
 ## Relationships
 
-- [Community 42](Community_42.md) (7 shared connections)
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 29 (91%)
+- INFERRED: 3 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

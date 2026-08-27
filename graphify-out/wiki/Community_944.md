@@ -4,25 +4,25 @@
 
 ## Key Concepts
 
-- **DeleteViewTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_delete_by_delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_delete_by_post()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_delete_with_interpolated_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_delete_with_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_delete_with_special_properties()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_delete_without_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **DateInputTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_dateinput.py`
+- **.test_format()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_dateinput.py`
+- **.test_l10n()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_dateinput.py`
+- **.test_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_dateinput.py`
+- **.test_render_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_dateinput.py`
+- **.test_render_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_dateinput.py`
+- **Should be able to initialize from a string value.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_dateinput.py`
+- **Use 'format' to change the way a value is displayed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_dateinput.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 107](Community_107.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 190](Community_190.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_dateinput.py`
 
 ## Audit Trail
 

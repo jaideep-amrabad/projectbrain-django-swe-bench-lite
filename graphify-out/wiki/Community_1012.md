@@ -1,28 +1,23 @@
 # Community 1012
 
-> 7 nodes · cohesion 0.29
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **TestArchive** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
-- **.test_extract_file_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
-- **skipIf** (1 connections)
-- **archive.extract() preserves file permissions.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
-- **.test_extract_function()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
+- **.pk_default_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Return the value to use during an INSERT statement to specify that the field…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Relationships
 
-- [Community 11](Community_11.md) (1 shared connections)
+- [Community 106](Community_106.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

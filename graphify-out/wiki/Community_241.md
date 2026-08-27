@@ -1,66 +1,63 @@
 # Community 241
 
-> 29 nodes · cohesion 0.09
+> 56 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **gis/admin/__init__.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/__init__.py`
-- **gis/admin/options.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
-- **gis/admin/widgets.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/widgets.py`
-- **Textarea** (11 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **GeoModelAdmin** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
-- **TextareaTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textarea.py`
-- **OpenLayersWidget** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/widgets.py`
-- **StackedInline** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_map_widget()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
-- **.formfield_for_dbfield()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
-- **.media()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
-- **OSMGeoAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
-- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/widgets.py`
-- **.map_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/widgets.py`
-- **Media** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_widget_output()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_mark_safe()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textarea.py`
-- **.test_render_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textarea.py`
-- **The administration options class for Geographic models. Map settings may be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
-- **Injects OpenLayers JavaScript into the admin.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
-- **Overloaded from ModelAdmin so that an OpenLayersWidget is used for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
-- **Return a subclass of the OpenLayersWidget (or whatever was specified in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
-- **Render an OpenLayers map using the WKT of the geometry.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/widgets.py`
-- **Build the map options hash for the OpenLayers template.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/widgets.py`
-- *... and 4 more nodes in this community*
+- **gis/forms/fields.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **test_geoforms.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **gis/forms/__init__.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/__init__.py`
+- **gis/forms/widgets.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
+- **GeometryField** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **SpecializedFieldTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **BaseGeometryWidget** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
+- **OpenLayersWidget** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
+- **.assertTextarea()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **.assertMapWidget()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **gis/geometry.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geometry.py`
+- **.to_python()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **OSMWidget** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
+- **GeometryWidgetTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **OSMWidgetTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **.test_pointfield()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **GeometryCollectionField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **.has_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **LineStringField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **MultiLineStringField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **MultiPointField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **MultiPolygonField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **PointField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **PolygonField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- *... and 31 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (7 shared connections)
-- [Community 16](Community_16.md) (6 shared connections)
-- [Community 6](Community_6.md) (6 shared connections)
-- [Community 45](Community_45.md) (5 shared connections)
-- [Community 30](Community_30.md) (3 shared connections)
-- [Community 731](Community_731.md) (1 shared connections)
-- [Community 444](Community_444.md) (1 shared connections)
-- [Community 709](Community_709.md) (1 shared connections)
-- [Community 25](Community_25.md) (1 shared connections)
-- [Community 43](Community_43.md) (1 shared connections)
-- [Community 155](Community_155.md) (1 shared connections)
-- [Community 67](Community_67.md) (1 shared connections)
+- [Community 5](Community_5.md) (10 shared connections)
+- [Community 141](Community_141.md) (9 shared connections)
+- [Community 66](Community_66.md) (8 shared connections)
+- [Community 117](Community_117.md) (5 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 267](Community_267.md) (4 shared connections)
+- [Community 11](Community_11.md) (3 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 68](Community_68.md) (1 shared connections)
+- [Community 324](Community_324.md) (1 shared connections)
+- [Community 594](Community_594.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/widgets.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textarea.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geometry.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 75 (95%)
-- INFERRED: 4 (5%)
+- EXTRACTED: 149 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

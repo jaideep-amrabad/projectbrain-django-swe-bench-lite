@@ -1,28 +1,24 @@
 # Community 1090
 
-> 5 nodes · cohesion 0.40
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **GetChoicesTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_lazy_strings_not_evaluated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_blank_in_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_blank_in_grouped_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_empty_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_simple_i18n_sitemap_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **A simple i18n sitemap index can be rendered.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 166](Community_166.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 192](Community_192.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

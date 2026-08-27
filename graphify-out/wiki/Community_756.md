@@ -1,37 +1,34 @@
 # Community 756
 
-> 13 nodes · cohesion 0.26
+> 13 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **._run_makemessages()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.assertNotMsgId()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **IgnoredExtractorTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **JavascriptExtractorTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_media_static_dirs_ignored()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_default_root_settings()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_ignore_directory()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_ignore_file_patterns()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_ignore_subdirectory()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_media_static_dirs_ignored()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_javascript_literals()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **Regression test for #23583.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **Regression test for #23717.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.adapt_unknown_value()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.adapt_datefield_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.adapt_datetimefield_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.adapt_decimalfield_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.adapt_timefield_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.year_lookup_bounds_for_date_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.year_lookup_bounds_for_datetime_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Return a two-elements list with the lower and upper bound to be used with a…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Transform a value to something compatible with the backend driver. This method…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Transform a date value to an object compatible with what is expected by the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Transform a datetime value to an object compatible with what is expected by the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Transform a time value to an object compatible with what is expected by the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Transform a decimal.Decimal value to an object compatible with what is expected…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Relationships
 
-- [Community 526](Community_526.md) (4 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 476](Community_476.md) (1 shared connections)
+- [Community 106](Community_106.md) (7 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,26 +4,29 @@
 
 ## Key Concepts
 
-- **MessageTestingAdmin** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.message_debug()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.message_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.message_extra_tags()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.message_info()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.message_success()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.message_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **TestEmptyFormSet** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_empty_formset_is_multipart()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_empty_formset_is_valid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_empty_formset_media()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **An empty formset still calls clean()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **Media is available on empty formset.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **is_multipart() works with an empty formset.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
 
 ## Relationships
 
-- [Community 64](Community_64.md) (1 shared connections)
+- [Community 492](Community_492.md) (3 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 136](Community_136.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 11 (92%)
+- INFERRED: 1 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

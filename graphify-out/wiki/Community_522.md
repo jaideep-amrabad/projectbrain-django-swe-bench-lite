@@ -1,48 +1,46 @@
 # Community 522
 
-> 21 nodes · cohesion 0.10
+> 22 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **Meta** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Category** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Chapter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Plot** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **UserProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Color** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Color2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Pizza** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **PlotProxy** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ReadablePizza** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ReadOnlyPizza** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **FoodDelivery** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Language** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **CategoryInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **ChapterInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **User** (1 connections)
-- **Proxy a model with a different app_label.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **TimezoneTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_get_default_timezone_utc()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_now()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_activate_invalid_timezone()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_fixedoffset_negative_timedelta()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_fixedoffset_timedelta()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_get_default_timezone()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_is_aware()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_is_naive()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_localdate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_make_aware()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_make_aware2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_make_aware_no_tz()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_make_aware_pytz()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_make_aware_pytz_ambiguous()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_make_aware_pytz_non_existent()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_make_naive()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_make_naive_no_tz()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_override()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_override_decorator()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_override_fixed_offset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_override_string_tz()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
 
 ## Relationships
 
-- [Community 64](Community_64.md) (14 shared connections)
-- [Community 78](Community_78.md) (13 shared connections)
-- [Community 419](Community_419.md) (1 shared connections)
-- [Community 618](Community_618.md) (1 shared connections)
-- [Community 108](Community_108.md) (1 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (94%)
-- INFERRED: 3 (6%)
+- EXTRACTED: 25 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

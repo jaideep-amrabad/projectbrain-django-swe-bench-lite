@@ -1,36 +1,38 @@
 # Community 771
 
-> 13 nodes · cohesion 0.15
+> 13 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **XMLEqualTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_comment_root()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_doctype_root()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_parsing_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_processing_instruction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_simple_equal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_simple_equal_raise()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_simple_equal_raises_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_simple_equal_unordered()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_simple_equal_with_leading_or_trailing_whitespace()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_simple_not_equal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_simple_not_equal_raise()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_simple_not_equal_with_whitespace_in_the_middle()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **m2o_recursive/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
+- **m2o_recursive/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
+- **ManyToOneRecursiveTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
+- **MultipleManyToOneRecursiveTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
+- **Category** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
+- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
+- **Relating an object to itself, many-to-one To define a many-to-one relationship…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
+- **.test_m2o_recursive()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
+- **.test_m2o_recursive2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
 
 ## Relationships
 
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 38](Community_38.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 20 (91%)
+- INFERRED: 2 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,31 +1,30 @@
 # Community 895
 
-> 8 nodes · cohesion 0.25
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **QuerysetOrderedTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_annotated_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_cleared_default_ordering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_empty_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_explicit_ordering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_no_default_or_explicit_ordering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_order_by_extra()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Tests for the Queryset.ordered attribute.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **GenericSitemap** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- **.items()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- **.test_generic_sitemap_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- **.lastmod()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
 
 ## Relationships
 
-- [Community 15](Community_15.md) (3 shared connections)
-- [Community 21](Community_21.md) (1 shared connections)
+- [Community 420](Community_420.md) (2 shared connections)
+- [Community 503](Community_503.md) (2 shared connections)
+- [Community 484](Community_484.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (73%)
-- INFERRED: 3 (27%)
+- EXTRACTED: 10 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

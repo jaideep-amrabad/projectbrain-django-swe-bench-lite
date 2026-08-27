@@ -1,33 +1,31 @@
 # Community 888
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.36
 
 ## Key Concepts
 
-- **DatabaseErrorWrapper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **.wrap_database_errors()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **Context manager and decorator that re-throws backend-specific database…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **.__enter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **.__exit__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **Context manager and decorator that reraises backend-specific database…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **wrapper is a database wrapper. It must have a Database attribute defining…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **FilterTagTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
+- **setup** (8 connections)
+- **.test_filter01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
+- **.test_filter02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
+- **.test_filter03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
+- **.test_filter04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
+- **.test_filter05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
+- **.test_filter05bis()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
+- **.test_filter06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
+- **.test_filter06bis()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
 
 ## Relationships
 
-- [Community 72](Community_72.md) (1 shared connections)
-- [Community 76](Community_76.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

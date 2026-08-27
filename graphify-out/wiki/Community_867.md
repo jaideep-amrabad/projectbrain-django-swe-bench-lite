@@ -1,33 +1,32 @@
 # Community 867
 
-> 10 nodes · cohesion 0.20
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **TextFieldTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
-- **.test_choices_generates_select_widget()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
-- **.test_emoji()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
-- **.test_max_length_passed_to_formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
-- **.test_to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
-- **skipIf** (1 connections)
-- **TextField passes its max_length attribute to form fields created using their…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
-- **A TextField with choices uses a Select widget.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
-- **TextField.to_python() should return a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
-- **.test_lookup_integer_in_textfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
+- **ManageRunserverMigrationWarning** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **RunserverCommand** (3 connections)
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_migration_warning_multiple_apps()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_migration_warning_one_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (2 shared connections)
+- [Community 486](Community_486.md) (2 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 191](Community_191.md) (1 shared connections)
 - [Community 38](Community_38.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (92%)
-- INFERRED: 1 (8%)
+- EXTRACTED: 9 (75%)
+- INFERRED: 3 (25%)
 - AMBIGUOUS: 0 (0%)
 
 ---

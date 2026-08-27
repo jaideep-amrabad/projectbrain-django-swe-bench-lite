@@ -1,23 +1,21 @@
 # Community 1146
 
-> 4 nodes · cohesion 0.50
+> 4 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **OSMWidgetTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
-- **.test_default_lat_lon()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
-- **.test_osm_widget()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **EscapejsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapejs.py`
+- **.test_escapejs01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapejs.py`
+- **.test_escapejs02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapejs.py`
+- **setup** (2 connections)
 
 ## Relationships
 
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapejs.py`
 
 ## Audit Trail
 

@@ -1,50 +1,37 @@
 # Community 711
 
-> 16 nodes · cohesion 0.18
+> 14 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **basic/tests.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **basic/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **SelectOnSaveTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **ArticleSelectOnSave** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **ChildPrimaryKeyWithDefault** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **PrimaryKeyWithDefault** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **SelfRef** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **ConcurrentSaveTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **FeaturedArticle** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **.test_concurrent_delete_with_save()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_select_on_save_lying_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **Bare-bones model This is a basic model with only two non-primary-key fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **Test fetching, deleting and finally saving an object - we should get an insert…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **select_on_save works correctly if the database doesn't return correct…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_select_on_save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **Command** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **.handle_inspection()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **gis/management/commands/inspectdb.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/inspectdb.py`
+- **Command** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/inspectdb.py`
+- **.get_field_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **.get_meta()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **.normalize_col_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **InspectDBCommand** (1 connections)
+- **.get_field_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/inspectdb.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **Modify the column name to make it Python-compatible as a field name** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **Given the database connection, the table name, and the cursor row description,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **Return a sequence comprising the lines of code necessary to construct the inner…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
 
 ## Relationships
 
-- [Community 622](Community_622.md) (11 shared connections)
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 748](Community_748.md) (3 shared connections)
-- [Community 420](Community_420.md) (3 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 343](Community_343.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 29](Community_29.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 542](Community_542.md) (2 shared connections)
-- [Community 105](Community_105.md) (2 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/inspectdb.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
 
 ## Audit Trail
 
-- EXTRACTED: 54 (87%)
-- INFERRED: 8 (13%)
+- EXTRACTED: 21 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

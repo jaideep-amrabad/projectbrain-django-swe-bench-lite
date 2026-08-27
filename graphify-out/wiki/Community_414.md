@@ -1,48 +1,34 @@
 # Community 414
 
-> 28 nodes · cohesion 0.14
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **IncludeTagTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **setup** (26 connections)
-- **.test_include04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include_error07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include_error08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include_error09()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include_error10()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include13()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include14()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include_error01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include_error02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include_error03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include_error04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include_error05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- *... and 3 more nodes in this community*
+- **SMTPBackendStoppedServerTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **SMTPBackendTestsBase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.setUpClass()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_fail_silently_on_connection_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_server_stopped()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **These tests require a separate class, because the FakeSMTPServer is shut down…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **Closing the backend while the SMTP server is stopped doesn't raise an exception.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **A socket connection error is silenced with fail_silently=True.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.tearDownClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Relationships
 
-- [Community 42](Community_42.md) (5 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
+- [Community 307](Community_307.md) (2 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 768](Community_768.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 59 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **.test_optimize_through_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **field-level through checking is working. This should manage to collapse model…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **UserMessenger** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Dummy class for testing message_user functions on ModelAdmin** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- [Community 722](Community_722.md) (1 shared connections)
-- [Community 721](Community_721.md) (1 shared connections)
+- [Community 63](Community_63.md) (1 shared connections)
+- [Community 78](Community_78.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 

@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **.test_json_serialization()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **The test client serializes JSON data.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_pickle_prefetch_related_with_m2m_and_objects_deletion()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **#24831 -- Cached properties on ManyToOneRel created in QuerySet.delete() caused…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
 
 ## Relationships
 
-- [Community 555](Community_555.md) (1 shared connections)
+- [Community 395](Community_395.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
 
 ## Audit Trail
 

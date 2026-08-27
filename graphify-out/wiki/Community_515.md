@@ -1,44 +1,62 @@
 # Community 515
 
-> 22 nodes · cohesion 0.17
+> 30 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **TimesinceTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **setup** (18 connections)
-- **.test_timesince12()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince13()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **requires_tz_support** (2 connections)
-- **.test_timesince01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince14()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince15()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince16()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince17()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince18()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **#20246 - \xa0 in output avoids line-breaks between value and unit** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **HumanizeTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **utc()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **.humanize_tester()** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_serialize_datetime()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_naturaltime()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_migration_file_header_comments()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_naturalday_uses_localtime()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_sorted_imports()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_i18n_html_ordinal()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_inflection_for_timedelta()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_apnumber()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_i18n_intcomma()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_i18n_intword()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_intcomma()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_intcomma_without_number_grouping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_intword()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_l10n_intcomma()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_naturalday()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_naturalday_tz()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_naturaltime_as_documented()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_ordinal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **MockDateTime** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.now()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_latest_post_date_returns_utc_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
+- **Convert a datetime to UTC.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
+- [Community 11](Community_11.md) (11 shared connections)
+- [Community 164](Community_164.md) (5 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 489](Community_489.md) (2 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 194](Community_194.md) (1 shared connections)
+- [Community 418](Community_418.md) (1 shared connections)
+- [Community 610](Community_610.md) (1 shared connections)
+- [Community 40](Community_40.md) (1 shared connections)
+- [Community 126](Community_126.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 59 (80%)
+- INFERRED: 15 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,28 +1,26 @@
 # Community 1167
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **NullInExcludeTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_double_exclude()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_null_in_exclude_qs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **DependentChildAdminForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **Issue #20522 Form to test child dependency on parent object's validation** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Relationships
 
-- [Community 15](Community_15.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
+- [Community 63](Community_63.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (88%)
-- INFERRED: 1 (12%)
+- EXTRACTED: 4 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

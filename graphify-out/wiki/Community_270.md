@@ -1,54 +1,66 @@
 # Community 270
 
-> 52 nodes · cohesion 0.04
+> 73 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **TestInline** (54 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_min_num()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_custom_min_num()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_localize_pk_shortcut()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_callable_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_can_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_create_inlines_on_inherited_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_custom_form_tabular_inline_label()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_custom_form_tabular_inline_overridden_label()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_custom_pk_shortcut()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_help_text()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_hidden_field_no_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inlines_show_change_link_registered()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inlines_show_change_link_unregistered()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_many_to_many_inlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_no_parent_callable_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_non_related_name_inline()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_noneditable_inline_has_field_inputs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_tabular_inline_column_css_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_tabular_inline_show_change_link_false_registered()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_tabular_model_form_meta_readonly_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_tabular_non_field_errors()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_custom_form_tabular_inline_extra_field_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_custom_get_extra_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_editable_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- *... and 27 more nodes in this community*
+- **test_testcase.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **TestDataTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **test_utils/views.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/views.py`
+- **Car** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/models.py`
+- **TestData** (11 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **AssertQuerysetEqualTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Person** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/models.py`
+- **test_transactiontestcase.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
+- **test_utils/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/models.py`
+- **SetupTestDataIsolationTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **TestTestCase** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **AssertNumQueriesContextManagerTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **PossessedCar** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/models.py`
+- **TestSerializedRollbackInhibitsPostMigrate** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
+- **AssertNumQueriesTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **DisallowedDatabaseQueriesTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **assert_no_queries()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **AllowedDatabaseQueriesTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **DisallowedDatabaseQueriesTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
+- **TransactionTestCaseDatabasesTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
+- **get_person()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/views.py`
+- **no_template_used()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/views.py`
+- **.test_class_attribute_equality()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **.test_class_attribute_identity()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **.test_identity_preservation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- *... and 48 more nodes in this community*
 
 ## Relationships
 
-- [Community 13](Community_13.md) (30 shared connections)
-- [Community 33](Community_33.md) (20 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 30](Community_30.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 784](Community_784.md) (1 shared connections)
+- [Community 14](Community_14.md) (11 shared connections)
+- [Community 38](Community_38.md) (9 shared connections)
+- [Community 6](Community_6.md) (4 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 843](Community_843.md) (4 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 9](Community_9.md) (4 shared connections)
+- [Community 40](Community_40.md) (4 shared connections)
+- [Community 4](Community_4.md) (4 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 91 (83%)
-- INFERRED: 18 (17%)
+- EXTRACTED: 141 (88%)
+- INFERRED: 19 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

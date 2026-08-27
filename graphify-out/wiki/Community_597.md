@@ -1,46 +1,41 @@
 # Community 597
 
-> 18 nodes · cohesion 0.16
+> 16 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **DataTypesTestCase** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
-- **datatypes/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
-- **Donut** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
-- **datatypes/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
-- **.test_error_on_timezone()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
-- **RumBaba** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
-- **.test_boolean_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
-- **.test_date_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
-- **.test_datefield_auto_now_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
-- **.test_textfields_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
-- **.test_time_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
-- **.test_year_boundaries()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
-- **This is a basic model to test saving and loading boolean and date-related…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
-- **Year boundary tests (ticket #3689)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
-- **TextField values returned from the database should be str.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
-- **Regression test for #8354: the MySQL and Oracle backends should raise an error…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
-- **Regression test for #10970, auto_now_add for DateField should store a Python…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **DatabaseSchemaEditor** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **._is_limited_data_type()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **._set_field_new_type_null_status()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **.skip_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **.add_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **._alter_column_type_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **._column_default_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **._delete_composed_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **._field_should_be_indexed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **._rename_field_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **.quote_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **.sql_delete_check()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **.sql_rename_column()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **._supports_limited_data_type_defaults()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **MySQL can remove an implicit FK index on a field when that field is covered by…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **Keep the null property of the old field. If it has changed, it will be handled…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
-- [Community 85](Community_85.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 991](Community_991.md) (1 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 68](Community_68.md) (1 shared connections)
+- [Community 80](Community_80.md) (1 shared connections)
+- [Community 415](Community_415.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (91%)
-- INFERRED: 3 (9%)
+- EXTRACTED: 25 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

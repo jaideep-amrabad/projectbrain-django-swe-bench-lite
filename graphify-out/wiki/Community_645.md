@@ -1,46 +1,34 @@
 # Community 645
 
-> 16 nodes · cohesion 0.16
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **AdminEmailHandler** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **ServerFormatter** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **.emit()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **LogFormattersTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.format_subject()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **.send_mail()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **.format()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **.test_custom_exception_reporter_is_used()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.copy()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.uses_server_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **.test_server_formatter_styles()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **Escape CR and LF characters.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **An exception log handler that emails log entries to site admins. If the request…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **.test_server_formatter_default_format()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **TranslationCatalog** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Simulate a dict for DjangoTranslation._catalog so as multiple catalogs with…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.get()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.keys()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.plural()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.__setitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.update()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
 
 ## Relationships
 
-- [Community 53](Community_53.md) (6 shared connections)
-- [Community 130](Community_130.md) (2 shared connections)
-- [Community 323](Community_323.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 689](Community_689.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 604](Community_604.md) (2 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 13 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

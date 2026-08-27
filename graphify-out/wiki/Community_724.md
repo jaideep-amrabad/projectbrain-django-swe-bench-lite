@@ -1,44 +1,39 @@
 # Community 724
 
-> 14 nodes · cohesion 0.29
+> 14 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **proxy_model_inheritance/tests.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
-- **MultiTableInheritanceProxyTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
-- **proxy_model_inheritance/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
-- **ProxyModel** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
-- **ConcreteModelSubclass** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
-- **ConcreteModelSubclassProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
-- **ProxyModelInheritanceTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
-- **ConcreteModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
-- **.test_table_exists()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
-- **.test_model_subclass_proxy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
-- **.test_deletion_through_intermediate_proxy()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
-- **Proxy model inheritance across apps can result in migrate not creating the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
-- **Deleting an instance of a model proxying a multi-table inherited subclass…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
+- **urls/converters.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **IntConverter** (5 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **StringConverter** (5 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **get_converter()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **UUIDConverter** (3 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **get_converters()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **PathConverter** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **SlugConverter** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **.to_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **.to_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **.to_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 10](Community_10.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 542](Community_542.md) (2 shared connections)
-- [Community 380](Community_380.md) (2 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
+- [Community 17](Community_17.md) (4 shared connections)
+- [Community 213](Community_213.md) (2 shared connections)
+- [Community 583](Community_583.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (88%)
-- INFERRED: 5 (12%)
+- EXTRACTED: 23 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

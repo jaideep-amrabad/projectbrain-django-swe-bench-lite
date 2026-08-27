@@ -1,72 +1,62 @@
 # Community 223
 
-> 67 nodes · cohesion 0.05
+> 42 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **auth/management/__init__.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
-- **auth/apps.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/apps.py`
-- **DeferredAttribute** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **contenttypes_tests/test_operations.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_operations.py`
-- **contenttypes/apps.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/apps.py`
-- **contenttypes/management/__init__.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
-- **auth/checks.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/checks.py`
-- **create_permissions()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
-- **field_subclassing/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
-- **contenttypes/checks.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/checks.py`
-- **create_contenttypes()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
-- **CreatePermissionsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **field_subclassing/fields.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
-- **check_model_name_lengths()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/checks.py`
-- **.ready()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/apps.py`
-- **_get_builtin_permissions()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
-- **RenameContentType** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
-- **check_models_permissions()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/checks.py`
-- **update_last_login()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.ready()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/apps.py`
-- **inject_rename_contenttypes_operations()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
-- **ForeignKeyDeferredAttribute** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **CustomDeferredAttribute** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
-- **CustomTypedField** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
-- **AuthConfig** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/apps.py`
-- *... and 42 more nodes in this community*
+- **search.py** (29 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **test_trigram.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
+- **TrigramTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
+- **test_unaccent.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
+- **UnaccentTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
+- **SearchQueryCombinable** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **CharFieldModel** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **CombinedSearchQuery** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **._combine()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **SearchVectorField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **CombinedSearchVector** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **TrigramBase** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **TrigramDistance** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **TrigramSimilarity** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **TextFieldModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **SearchVectorCombinable** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **TrigramTextFieldTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
+- **UnaccentTextFieldTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
+- **SearchQueryField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **Field** (2 connections)
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__and__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__or__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__rand__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (13 shared connections)
-- [Community 0](Community_0.md) (12 shared connections)
-- [Community 5](Community_5.md) (10 shared connections)
-- [Community 12](Community_12.md) (7 shared connections)
-- [Community 1](Community_1.md) (6 shared connections)
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 76](Community_76.md) (5 shared connections)
-- [Community 63](Community_63.md) (4 shared connections)
-- [Community 143](Community_143.md) (4 shared connections)
-- [Community 105](Community_105.md) (4 shared connections)
-- [Community 731](Community_731.md) (3 shared connections)
-- [Community 699](Community_699.md) (3 shared connections)
+- [Community 30](Community_30.md) (12 shared connections)
+- [Community 75](Community_75.md) (12 shared connections)
+- [Community 67](Community_67.md) (4 shared connections)
+- [Community 126](Community_126.md) (4 shared connections)
+- [Community 62](Community_62.md) (3 shared connections)
+- [Community 46](Community_46.md) (2 shared connections)
+- [Community 568](Community_568.md) (2 shared connections)
+- [Community 145](Community_145.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 39](Community_39.md) (1 shared connections)
+- [Community 368](Community_368.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/apps.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/checks.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/apps.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/checks.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_checks.py`
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_operations.py`
-- `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
 
 ## Audit Trail
 
-- EXTRACTED: 184 (91%)
-- INFERRED: 18 (9%)
+- EXTRACTED: 107 (92%)
+- INFERRED: 9 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

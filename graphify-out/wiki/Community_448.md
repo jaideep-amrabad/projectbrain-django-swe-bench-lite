@@ -1,53 +1,51 @@
 # Community 448
 
-> 25 nodes · cohesion 0.14
+> 25 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **PasswordResetFormTest** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **PasswordResetForm** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.create_dummy_user()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_inactive_user()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_save_html_email_template_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_save_plaintext_email()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_cleaned_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_custom_email_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_nonexistent_email()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_custom_email_subject()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_html_autocomplete_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_invalid_email()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_preserve_username_case()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_unusable_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_user_email_domain_unicode_collision()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_user_email_domain_unicode_collision_nonexistent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_user_email_unicode_collision()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_user_email_unicode_collision_nonexistent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **Test the PasswordResetForm.save() method with no html_email_template_name…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_custom_email_constructor()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **Create a user and return a tuple (user_object, username, email).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **Test nonexistent email address. This should not fail because it would expose…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **Preserve the case of the user name (before the @ in the email address) when…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **Inactive user cannot receive password reset email.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **Serializer** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **Serializer** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/jsonl.py`
+- **Serializer** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
+- **._value_from_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **.get_dump_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **._init_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/jsonl.py`
+- **.start_serialization()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/jsonl.py`
+- **.end_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **.handle_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **.handle_fk_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **PythonSerializer** (1 connections)
+- **Convert a queryset to JSON Lines.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/jsonl.py`
+- **.end_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/jsonl.py`
+- **.getvalue()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/jsonl.py`
+- **Serialize a QuerySet to basic Python objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **.end_serialization()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **.getvalue()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **.handle_m2m_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **.start_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **.start_serialization()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **PythonSerializer** (1 connections)
+- **Convert a queryset to YAML.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
+- **.end_serialization()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
+- **.getvalue()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
+- **.handle_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 917](Community_917.md) (3 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 773](Community_773.md) (1 shared connections)
+- [Community 86](Community_86.md) (5 shared connections)
+- [Community 267](Community_267.md) (3 shared connections)
+- [Community 543](Community_543.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/jsonl.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
 
 ## Audit Trail
 
-- EXTRACTED: 53 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 34 (89%)
+- INFERRED: 4 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

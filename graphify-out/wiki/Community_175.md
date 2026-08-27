@@ -1,66 +1,61 @@
 # Community 175
 
-> 50 nodes · cohesion 0.05
+> 52 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **SimpleUploadedFile** (60 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- **ImageFieldTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
-- **DirectoryCreationTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **FileFieldTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filefield.py`
-- **ValidatorCustomMessageTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_validators.py`
-- **FormsModelTestCase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- **.test_readonly_root()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **get_img_path()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
-- **.test_imagefield_annotate_with_bitmap_image_after_clean()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
-- **.test_file_extension_validation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
-- **.test_imagefield_annotate_with_image_after_clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
-- **.test_unicode_filename()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- **.test_clear_and_file_contradiction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_file_field_multiple_save()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_full_clear()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.from_dict()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- **.test_filefield_read()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_filefield_reopen()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_filefield_write()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.tearDownClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_not_a_directory()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.tearDownClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- *... and 25 more nodes in this community*
+- **override_system_checks** (29 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **TestContextDecorator** (17 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **CheckCommandTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **UserModelChecksTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
+- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **SilencingCheckTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.enable()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.test_silenced_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.test_silenced_warning()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.disable()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.enable()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.decorate_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.enable()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.__call__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.test_is_anonymous_authenticated_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
+- **.test_required_fields_is_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
+- **.test_username_non_unique()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
+- **.test_username_not_in_required_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
+- **.test_fail_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.test_given_app()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.test_given_tag()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.test_invalid_tag()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.test_list_deployment_check_included()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.test_list_deployment_check_omitted()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.test_list_tags()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- *... and 27 more nodes in this community*
 
 ## Relationships
 
-- [Community 6](Community_6.md) (12 shared connections)
-- [Community 83](Community_83.md) (8 shared connections)
-- [Community 154](Community_154.md) (5 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 50](Community_50.md) (3 shared connections)
-- [Community 340](Community_340.md) (3 shared connections)
-- [Community 62](Community_62.md) (3 shared connections)
-- [Community 157](Community_157.md) (3 shared connections)
-- [Community 814](Community_814.md) (3 shared connections)
-- [Community 298](Community_298.md) (2 shared connections)
-- [Community 418](Community_418.md) (2 shared connections)
-- [Community 305](Community_305.md) (2 shared connections)
+- [Community 10](Community_10.md) (13 shared connections)
+- [Community 9](Community_9.md) (10 shared connections)
+- [Community 42](Community_42.md) (9 shared connections)
+- [Community 41](Community_41.md) (8 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 126](Community_126.md) (3 shared connections)
+- [Community 411](Community_411.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 48](Community_48.md) (1 shared connections)
+- [Community 92](Community_92.md) (1 shared connections)
+- [Community 343](Community_343.md) (1 shared connections)
+- [Community 726](Community_726.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_validators.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 112 (88%)
-- INFERRED: 16 (12%)
+- EXTRACTED: 121 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

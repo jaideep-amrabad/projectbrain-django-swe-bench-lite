@@ -1,46 +1,59 @@
 # Community 527
 
-> 21 nodes · cohesion 0.10
+> 24 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **CharFieldTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_lazy_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_non_iterable_choices_two_letters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_bad_db_index_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_bad_max_length_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_bad_validators()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_choices_containing_lazy()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_choices_containing_non_pairs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_choices_in_max_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_choices_named_group()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_choices_named_group_bad_structure()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_choices_named_group_lazy()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_choices_named_group_non_pairs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_iterable_of_iterable_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_missing_max_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_negative_max_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_non_iterable_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_str_max_length_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_str_max_length_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_valid_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **Two letters isn't a valid choice pair.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **servers/tests.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **WSGIServer** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **LiveServerThread** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **ThreadedWSGIServer** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.run()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **QuietWSGIRequestHandler** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **LiveServerSingleThread** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **LiveServerAddress** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **SingleTreadLiveServerViews** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **._create_server()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **SingleThreadLiveServerTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **._create_server()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_closes_connection_with_content_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **BaseHTTPServer that implements the Python WSGI protocol** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **A threaded version of the WSGIServer** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.terminate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.log_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **A WSGIRequestHandler that doesn't log to standard output any of the requests…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Thread for running a live http server while the tests are running.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Set up the live server and databases, and then loop over handling HTTP requests.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_live_server_url_is_class_property()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **Tests for django.core.servers.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **Contrast to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
 
 ## Relationships
 
-- [Community 12](Community_12.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 564](Community_564.md) (1 shared connections)
-- [Community 166](Community_166.md) (1 shared connections)
+- [Community 6](Community_6.md) (7 shared connections)
+- [Community 396](Community_396.md) (5 shared connections)
+- [Community 282](Community_282.md) (2 shared connections)
+- [Community 272](Community_272.md) (2 shared connections)
+- [Community 465](Community_465.md) (2 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 40](Community_40.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 901](Community_901.md) (1 shared connections)
+- [Community 573](Community_573.md) (1 shared connections)
+- [Community 606](Community_606.md) (1 shared connections)
+- [Community 256](Community_256.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 56 (90%)
+- INFERRED: 6 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

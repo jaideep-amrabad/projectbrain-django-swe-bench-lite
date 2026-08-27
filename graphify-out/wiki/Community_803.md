@@ -1,35 +1,37 @@
 # Community 803
 
-> 12 nodes · cohesion 0.32
+> 12 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **ValidationMessagesTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
-- **._test_validation_messages()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
-- **.test_autofield_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
-- **.test_boolean_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
-- **.test_date_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
-- **.test_datetime_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
-- **.test_decimal_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
-- **.test_float_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
-- **.test_integer_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
-- **.test_null_boolean_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
-- **.test_nullable_boolean_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
-- **.test_time_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
+- **DatabaseCreationTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
+- **.test_create_test_db()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
+- **.test_create_test_user()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
+- **.patch_execute_statements()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
+- **.test_oracle_managed_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
+- **object** (3 connections)
+- **._execute_raise_insufficient_privileges()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
+- **._execute_raise_tablespace_already_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
+- **._execute_raise_user_already_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
+- **._test_database_passwd()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
+- **patch** (1 connections)
+- **skipUnless** (1 connections)
 
 ## Relationships
 
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 7](Community_7.md) (4 shared connections)
+- [Community 273](Community_273.md) (3 shared connections)
+- [Community 20](Community_20.md) (3 shared connections)
 - [Community 38](Community_38.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 24 (89%)
+- INFERRED: 3 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

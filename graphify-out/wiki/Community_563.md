@@ -1,35 +1,42 @@
 # Community 563
 
-> 12 nodes · cohesion 0.21
+> 19 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **EmailBackend** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- **._send()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- **.send_messages()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- **.close()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- **.open()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- **.connection_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- **A helper method that does the actual sending.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- **A wrapper that manages the SMTP network connection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- **Ensure an open connection to the email server. Return whether or not a new…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- **Close the connection to the email server.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- **Send one or more EmailMessage objects and return the number of email messages…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
+- **Page** (15 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **ValidAdjacentNumsPage** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
+- **.has_other_pages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.end_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.has_next()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.has_previous()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.start_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **._get_page()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
+- **Page** (1 connections)
+- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.next_page_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.previous_page_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **Return the 1-based index of the first object on this page, relative to total…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **Return the 1-based index of the last object on this page, relative to total…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.next_page_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
+- **.previous_page_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
 
 ## Relationships
 
-- [Community 399](Community_399.md) (2 shared connections)
-- [Community 1067](Community_1067.md) (1 shared connections)
+- [Community 124](Community_124.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
+- `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 24 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

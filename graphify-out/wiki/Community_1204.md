@@ -4,21 +4,20 @@
 
 ## Key Concepts
 
-- **.test_max_num_zero()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **If max_num is 0 then no form is rendered at all, regardless of extra, unless…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.field_cast_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Given a column type (e.g. 'BLOB', 'VARCHAR') and an internal type (e.g.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Relationships
 
-- [Community 470](Community_470.md) (1 shared connections)
-- [Community 546](Community_546.md) (1 shared connections)
+- [Community 106](Community_106.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

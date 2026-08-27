@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **admin_checks/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/__init__.py`
+- **gis/management/commands/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_checks/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/__init__.py`
 
 ## Audit Trail
 

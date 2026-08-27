@@ -1,55 +1,46 @@
 # Community 605
 
-> 16 nodes · cohesion 0.14
+> 18 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **frozenset** (24 connections)
-- **DatabaseAliasTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **iter_modules_and_files()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **iter_all_python_module_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.test_in_bulk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **Set** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_all()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_main_module_without_file_is_not_resolved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_module_without_spec()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **Iterate through all modules needed to be watched.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_close_match()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_no_close_match()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **HTMLEqualTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **parse_html()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.test_contains_html()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_html_contain()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_html_parser()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_parse_html_in_script()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_parsing_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_self_closing_tags()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_unicode_handling()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Take a string that contains *valid* HTML and turn it into a Python object…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.test_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_class_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_complex_examples()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_ignore_comments()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_normalize_refs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_equal_html()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_unequal_html()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Relationships
 
-- [Community 163](Community_163.md) (4 shared connections)
-- [Community 556](Community_556.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 24](Community_24.md) (2 shared connections)
-- [Community 101](Community_101.md) (1 shared connections)
-- [Community 342](Community_342.md) (1 shared connections)
-- [Community 134](Community_134.md) (1 shared connections)
-- [Community 431](Community_431.md) (1 shared connections)
-- [Community 740](Community_740.md) (1 shared connections)
-- [Community 418](Community_418.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 226](Community_226.md) (1 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 40](Community_40.md) (2 shared connections)
+- [Community 470](Community_470.md) (1 shared connections)
+- [Community 869](Community_869.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/html.py`
 - `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (44%)
-- INFERRED: 24 (56%)
+- EXTRACTED: 31 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

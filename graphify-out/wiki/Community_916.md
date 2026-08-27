@@ -1,36 +1,34 @@
 # Community 916
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **ImageFieldFile** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **TestImageFieldFile** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **ImageFile** (1 connections)
-- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **Custom Field File class that records whether or not the underlying file was…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.open()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **TimeInputTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_timeinput.py`
+- **.test_format()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_timeinput.py`
+- **.test_l10n()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_timeinput.py`
+- **.test_render_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_timeinput.py`
+- **.test_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_timeinput.py`
+- **The microseconds are trimmed on display, by default.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_timeinput.py`
+- **Initializing from a string value.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_timeinput.py`
+- **Use 'format' to change the way a value is displayed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_timeinput.py`
+- **.test_render_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_timeinput.py`
 
 ## Relationships
 
-- [Community 368](Community_368.md) (2 shared connections)
-- [Community 142](Community_142.md) (2 shared connections)
-- [Community 76](Community_76.md) (1 shared connections)
-- [Community 590](Community_590.md) (1 shared connections)
-- [Community 443](Community_443.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 190](Community_190.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_timeinput.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (87%)
-- INFERRED: 2 (13%)
+- EXTRACTED: 11 (92%)
+- INFERRED: 1 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,35 +1,40 @@
 # Community 805
 
-> 11 nodes · cohesion 0.22
+> 12 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **Point** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.geos()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **Return the X coordinate for this Point.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **._create_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **._geos_ptr()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.x()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.y()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.z()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **Return a GEOSGeometry object from this OGRGeometry.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **Return the tuple of this point.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **DBCacheTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.drop_table()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.tearDown()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_createcachetable_with_table_argument()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **DBCacheWithTimeZoneTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.create_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_createcachetable_dry_run_mode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_delete_many_num_queries()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_get_many_num_queries()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_second_call_doesnt_crash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **Delete and recreate cache table with legacy behavior (explicitly specifying the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Relationships
 
-- [Community 45](Community_45.md) (3 shared connections)
-- [Community 27](Community_27.md) (2 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
+- [Community 9](Community_9.md) (3 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 843](Community_843.md) (1 shared connections)
+- [Community 263](Community_263.md) (1 shared connections)
+- [Community 1124](Community_1124.md) (1 shared connections)
+- [Community 712](Community_712.md) (1 shared connections)
+- [Community 693](Community_693.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 24 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

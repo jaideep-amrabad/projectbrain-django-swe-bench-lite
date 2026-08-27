@@ -1,42 +1,31 @@
 # Community 923
 
-> 8 nodes · cohesion 0.32
+> 9 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **make_hashable()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/utils/hashable.py`
-- **TestHashable** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_hashable.py`
-- **._get_FIELD_display()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **.test_equal()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_hashable.py`
-- **.identity()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.__hash__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
-- **.test_count_equal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_hashable.py`
-- **.test_unhashable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_hashable.py`
+- **PathNotImplementedStorage** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **NeverCopyRemoteStorage** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **._path()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **.exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **.listdir()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **.get_modified_time()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **._save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **Return a future modified time for all files so that nothing is collected.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
 
 ## Relationships
 
-- [Community 76](Community_76.md) (5 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 170](Community_170.md) (2 shared connections)
-- [Community 147](Community_147.md) (1 shared connections)
-- [Community 101](Community_101.md) (1 shared connections)
-- [Community 110](Community_110.md) (1 shared connections)
-- [Community 105](Community_105.md) (1 shared connections)
-- [Community 328](Community_328.md) (1 shared connections)
-- [Community 605](Community_605.md) (1 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/hashable.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_hashable.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 13 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

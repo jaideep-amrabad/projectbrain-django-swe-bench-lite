@@ -1,33 +1,24 @@
 # Community 970
 
-> 7 nodes · cohesion 0.38
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **pbkdf2()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- **TestUtilsCryptoPBKDF2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- **.encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.test_default_hmac_alg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- **.test_public_vectors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- **.test_regression_vectors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- **Return the hash of password using pbkdf2.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
+- **.has_usable_password()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
+- **Return False if set_unusable_password() has been called for this user.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
 
 ## Relationships
 
-- [Community 76](Community_76.md) (3 shared connections)
-- [Community 835](Community_835.md) (1 shared connections)
-- [Community 147](Community_147.md) (1 shared connections)
-- [Community 48](Community_48.md) (1 shared connections)
+- [Community 206](Community_206.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,35 +1,33 @@
 # Community 726
 
-> 14 nodes · cohesion 0.23
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **RegroupTagTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
-- **setup** (9 connections)
-- **.test_regroup02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
-- **.test_regroup03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
-- **.test_regroup04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
-- **.test_regroup01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
-- **.test_regroup05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
-- **.test_regroup06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
-- **.test_regroup07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
-- **.test_regroup08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
-- **.test_regroup_unpack()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
-- **Test for silent failure when target variable isn't found** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
-- **Regression tests for #17675 The date template filter has expects_localtime =…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
-- **The join template filter has needs_autoescape = True** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- **ModelsPermissionsChecksTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
+- **.test_clashing_custom_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
+- **.test_clashing_default_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
+- **.test_custom_permission_codename_max_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
+- **.test_custom_permission_name_max_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
+- **.test_empty_default_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
+- **.test_model_name_max_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
+- **.test_non_clashing_custom_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
+- **.test_verbose_name_max_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
+- [Community 42](Community_42.md) (1 shared connections)
+- [Community 175](Community_175.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

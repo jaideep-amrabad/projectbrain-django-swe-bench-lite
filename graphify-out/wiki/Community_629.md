@@ -1,39 +1,49 @@
 # Community 629
 
-> 17 nodes · cohesion 0.21
+> 17 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **ChainingTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
-- **setup** (14 connections)
-- **.test_chaining01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
-- **.test_chaining02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
-- **.test_chaining03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
-- **.test_chaining04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
-- **.test_chaining05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
-- **.test_chaining06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
-- **.test_chaining07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
-- **.test_chaining08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
-- **.test_chaining09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
-- **.test_chaining10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
-- **.test_chaining11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
-- **.test_chaining12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
-- **.test_chaining13()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
-- **.test_chaining14()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
-- **Chaining safeness-preserving filters should not alter the safe status.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
+- **test_liveserver.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **StaticLiveServerTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/testing.py`
+- **testing.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/testing.py`
+- **LiveServerBase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **StaticLiveServerChecks** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **StaticLiveServerView** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **.test_collectstatic_emulation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **.raises_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **.tearDownClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **.tearDownClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **.urlopen()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **Extend django.test.LiveServerTestCase to transparently overlay at test…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/testing.py`
+- **A subset of the tests in tests/servers/tests exercising…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **StaticLiveServerTestCase use of staticfiles' serve() allows it to discover…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **.test_test_test()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (6 shared connections)
+- [Community 486](Community_486.md) (2 shared connections)
+- [Community 465](Community_465.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 126](Community_126.md) (2 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 169](Community_169.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/testing.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 41 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,53 +1,52 @@
 # Community 358
 
-> 31 nodes · cohesion 0.08
+> 31 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **RemoteUserBackend** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
-- **RemoteUserMiddleware** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
-- **.authenticate()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
-- **CustomRemoteUserBackend** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
-- **.user_can_authenticate()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
-- **.process_request()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
-- **._remove_invalid_user()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
-- **AllowAllUsersRemoteUserBackend** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
-- **.clean_username()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
-- **.configure_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
-- **PersistentRemoteUserMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
-- **.clean_username()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
-- **CustomHeaderMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
-- **RemoteUserNoCreateBackend** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
-- **.authenticate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
-- **.get_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
-- **.clean_username()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
-- **.configure_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
-- **This backend is to be used in conjunction with the ``RemoteUserMiddleware``…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
-- **The username passed as ``remote_user`` is considered trusted. Return the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
-- **Perform any cleaning on the "username" prior to using it to get or create the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
-- **Configure a user after creation and return the updated user. By default, return…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
-- **Middleware for Web-server provided authentication on logon pages. Like…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
-- **Middleware for utilizing Web-server-provided authentication. If request.user is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
-- **Allow the backend to clean the username, if the backend defines a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
+- **OverrideSettingsTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **DoNothingDecorator** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_exception_in_setup()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_database_routers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_staticfiles_dirs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_staticfiles_finders()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_urlconf_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_urlconf_first()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_urlconf_second()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **TestContextDecoratorTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_file_upload_directory_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_file_upload_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_media_root()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_media_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_static_root()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_static_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_staticfiles_storage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **object** (2 connections)
+- **.disable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.enable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding the MEDIA_ROOT setting should be reflected in the base_location…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding the MEDIA_URL setting should be reflected in the base_url attribute…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding the FILE_UPLOAD_PERMISSIONS setting should be reflected in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding the FILE_UPLOAD_DIRECTORY_PERMISSIONS setting should be reflected in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding DATABASE_ROUTERS should update the master router.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 - *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (7 shared connections)
-- [Community 35](Community_35.md) (5 shared connections)
-- [Community 123](Community_123.md) (3 shared connections)
-- [Community 416](Community_416.md) (1 shared connections)
+- [Community 14](Community_14.md) (5 shared connections)
+- [Community 12](Community_12.md) (3 shared connections)
+- [Community 9](Community_9.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 175](Community_175.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/middleware.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 44 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

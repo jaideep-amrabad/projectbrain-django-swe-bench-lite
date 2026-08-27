@@ -1,37 +1,36 @@
 # Community 782
 
-> 11 nodes · cohesion 0.27
+> 13 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **SeleniumTestCaseBase** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **.create_webdriver()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **.import_webdriver()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **ActionSelenium** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **.create_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **.import_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **.__new__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **.get_capability()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **Dynamically create new classes and add them to the test module when multiple…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **Validate the comma-separated list of requested browsers.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **StaticTagTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
+- **setup** (11 connections)
+- **.test_static_prefixtag01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
+- **.test_static_prefixtag02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
+- **.test_static_prefixtag03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
+- **.test_static_prefixtag04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
+- **.test_static_prefixtag_without_as()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
+- **.test_static_quotes_urls()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
+- **.test_static_statictag01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
+- **.test_static_statictag02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
+- **.test_static_statictag03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
+- **.test_static_statictag04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
+- **.test_static_statictag_without_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
 
 ## Relationships
 
-- [Community 53](Community_53.md) (3 shared connections)
-- [Community 103](Community_103.md) (2 shared connections)
-- [Community 403](Community_403.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 25 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

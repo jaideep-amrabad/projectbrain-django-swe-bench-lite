@@ -1,55 +1,62 @@
 # Community 335
 
-> 34 nodes · cohesion 0.06
+> 28 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **DateFormat** (21 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.d()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.E()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.l()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.m()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.n()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.U()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.y()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.b()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.F()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.I()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.j()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.o()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.S()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.z()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Month, textual, 3 letters, lowercase; e.g. 'jan** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Day of the month, 2 digits with leading zeros; i.e. '01' to '31** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Day of the week, textual, 3 letters; e.g. 'Fri** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Alternative month names as required by some locales. Proprietary extension.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Month, textual, long; e.g. 'January** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **1' if Daylight Savings Time, '0' otherwise.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Day of the month without leading zeros; i.e. '1' to '31** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Day of the week, textual, long; e.g. 'Friday** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Boolean for whether it is a leap year; i.e. True or False** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Month; i.e. '01' to '12** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- *... and 9 more nodes in this community*
+- **modelform_factory()** (29 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **FormFieldCallbackTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Person** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **construct_instance()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.test_empty_fields_to_construct_instance()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **CustomMetaclassTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_baseform_with_widgets_in_meta()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_custom_callback()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_factory_with_widget_argument()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_modelform_factory_with_all_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_modelform_factory_without_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_setattr_raises_validation_error_field_specific()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_setattr_raises_validation_error_non_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_editable_generic_rel()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/tests.py`
+- **.test_modelform_factory_metaclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_bad_callback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_inherit_after_custom_callback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_extra_field_modelform_factory()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_save_blank_null_unique_charfield_saves_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Regression for #19733** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Construct and return a model instance from the bound ``form``'s…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **Return a ModelForm containing form fields for the given model. You can…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **No fields should be set on a model instance if construct_instance receives…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Regression for #13095: Using base forms with widgets defined in Meta should not…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Regression for #15315: modelform_factory should accept widgets argument** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 11](Community_11.md) (3 shared connections)
-- [Community 176](Community_176.md) (1 shared connections)
-- [Community 326](Community_326.md) (1 shared connections)
-- [Community 166](Community_166.md) (1 shared connections)
-- [Community 437](Community_437.md) (1 shared connections)
-- [Community 247](Community_247.md) (1 shared connections)
-- [Community 167](Community_167.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 79](Community_79.md) (8 shared connections)
+- [Community 278](Community_278.md) (4 shared connections)
+- [Community 216](Community_216.md) (4 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 121](Community_121.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 510](Community_510.md) (1 shared connections)
+- [Community 122](Community_122.md) (1 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 253](Community_253.md) (1 shared connections)
+- [Community 353](Community_353.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (95%)
-- INFERRED: 2 (5%)
+- EXTRACTED: 62 (93%)
+- INFERRED: 5 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

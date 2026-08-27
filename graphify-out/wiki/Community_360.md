@@ -1,56 +1,63 @@
 # Community 360
 
-> 31 nodes · cohesion 0.10
+> 41 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **check_url_config()** (22 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
-- **CheckUrlConfigTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **check_url_namespaces_unique()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
-- **get_warning_for_invalid_pattern()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
-- **check_resolver()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
-- **CheckCustomErrorHandlersTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **UpdatedToPathTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_no_root_urlconf_in_settings()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_bad_handlers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_bad_handlers_invalid_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_good_handlers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_beginning_with_slash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_beginning_with_slash_append_slash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_check_non_unique_namespaces()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_check_resolver_recursive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_check_unique_namespaces()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_contains_included_tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_contains_tuple_not_url_instance()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_include_with_dollar()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_name_with_colon()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_no_warnings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_no_warnings_i18n()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_beginning_with_caret()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_contains_re_named_group()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_ending_with_dollar()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- *... and 6 more nodes in this community*
+- **get_callable()** (21 connections) — `raw/code/hyd-evaluation/django-django/django/urls/utils.py`
+- **test_module_loading.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **module_has_submodule()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
+- **ViewLoadingTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.create()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- **EggLoader** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **CustomLoader** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_deep_loader()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_shallow_loader()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_has_sumbodule_with_dotted_path()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_loader()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **TestLoader** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.import_models()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- **.test_view_loading()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **DefaultLoader** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **ModuleImportTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **TestFinder** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_attributeerror_not_hidden()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_module_does_not_exist()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_non_string_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_not_callable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_parent_module_does_not_exist()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_string_without_dot()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_view_does_not_exist()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_import_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [Community 12](Community_12.md) (18 shared connections)
-- [Community 8](Community_8.md) (18 shared connections)
-- [Community 103](Community_103.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 444](Community_444.md) (2 shared connections)
-- [Community 218](Community_218.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 487](Community_487.md) (1 shared connections)
+- [Community 17](Community_17.md) (11 shared connections)
+- [Community 296](Community_296.md) (7 shared connections)
+- [Community 54](Community_54.md) (6 shared connections)
+- [Community 6](Community_6.md) (4 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 759](Community_759.md) (3 shared connections)
+- [Community 309](Community_309.md) (3 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 48](Community_48.md) (1 shared connections)
+- [Community 637](Community_637.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
+- `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
 
 ## Audit Trail
 
-- EXTRACTED: 87 (93%)
-- INFERRED: 7 (7%)
+- EXTRACTED: 89 (91%)
+- INFERRED: 9 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

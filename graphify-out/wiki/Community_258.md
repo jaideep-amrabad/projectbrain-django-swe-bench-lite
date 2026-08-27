@@ -1,51 +1,51 @@
 # Community 258
 
-> 41 nodes · cohesion 0.06
+> 35 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **InlineAdminForm** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **AdminField** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **InlineAdminFormSet** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **AdminForm** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **Fieldline** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **Fieldset** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **InlineFieldset** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **AdminErrorList** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.__iter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.__iter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.test_immutable_content_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.deletion_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.fk_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.ordering_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.pk_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- *... and 16 more nodes in this community*
+- **LazyObjectTestCase** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.lazy_wrap()** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **Foo** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_copy_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_copy_class_no_evaluation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_deepcopy_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_deepcopy_class_no_evaluation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_delattr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_getattr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_pickle()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_setattr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_setattr2()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.lazy_wrap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_bool()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_bytes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_cmp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_contains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_copy_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_copy_list_no_evaluation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_deepcopy_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_deepcopy_list_no_evaluation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_delitem()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_dir()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_getitem()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (11 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 33](Community_33.md) (3 shared connections)
+- [Community 521](Community_521.md) (7 shared connections)
+- [Community 156](Community_156.md) (3 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
 
 ## Audit Trail
 
-- EXTRACTED: 64 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 77 (95%)
+- INFERRED: 4 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,48 +1,78 @@
 # Community 503
 
-> 22 nodes · cohesion 0.16
+> 100 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **HashedFilesMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **ManifestFilesMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.post_process()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.hashed_name()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.clean_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **._url()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.stored_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.hash_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **._stored_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.file_hash()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.url_converter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.load_manifest()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.save_manifest()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.post_process()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **.read_manifest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **Return the non-hashed URL in DEBUG mode.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **Return the custom URL converter for the given file name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **Post process the given dictionary of files (called from collectstatic).…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- **Return a hash of the file with the given name and optional content.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **Site** (42 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- **sites/models.py** (39 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- **get_current_site()** (33 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/shortcuts.py`
+- **urls/http.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- **contrib/sitemaps/__init__.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- **flatpages/models.py** (23 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/models.py`
+- **contrib/sitemaps/views.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/views.py`
+- **sitemaps_tests/test_http.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **sites_framework/tests.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
+- **redirects_tests/tests.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
+- **FlatPage** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/models.py`
+- **sites/shortcuts.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/shortcuts.py`
+- **flatpages_tests/test_middleware.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
+- **flatpages_tests/test_views.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
+- **CurrentSiteManager** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
+- **flatpages_tests/test_forms.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
+- **flatpages_tests/test_templatetags.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_templatetags.py`
+- **flatpages_tests/test_csrf.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **flatpages/forms.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/forms.py`
+- **shortcut()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/views.py`
+- **sites_framework/models.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
+- **managers.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
+- **flatpages.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/templatetags/flatpages.py`
+- **redirects/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/redirects/models.py`
+- **flatpages_tests/test_sitemaps.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_sitemaps.py`
+- *... and 75 more nodes in this community*
 
 ## Relationships
 
-- [Community 20](Community_20.md) (4 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 154](Community_154.md) (2 shared connections)
-- [Community 920](Community_920.md) (1 shared connections)
-- [Community 1016](Community_1016.md) (1 shared connections)
+- [Community 17](Community_17.md) (32 shared connections)
+- [Community 0](Community_0.md) (31 shared connections)
+- [Community 6](Community_6.md) (31 shared connections)
+- [Community 11](Community_11.md) (26 shared connections)
+- [Community 41](Community_41.md) (15 shared connections)
+- [Community 420](Community_420.md) (14 shared connections)
+- [Community 2](Community_2.md) (13 shared connections)
+- [Community 5](Community_5.md) (13 shared connections)
+- [Community 1](Community_1.md) (13 shared connections)
+- [Community 9](Community_9.md) (12 shared connections)
+- [Community 321](Community_321.md) (12 shared connections)
+- [Community 484](Community_484.md) (10 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/views.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/admin.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/forms.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/sitemaps.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/templatetags/flatpages.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/redirects/admin.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/redirects/middleware.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/redirects/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/views.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/admin.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/middleware.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/shortcuts.py`
+- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
+- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/settings.py`
+- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (90%)
-- INFERRED: 5 (10%)
+- EXTRACTED: 508 (98%)
+- INFERRED: 12 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

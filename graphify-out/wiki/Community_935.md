@@ -1,30 +1,26 @@
 # Community 935
 
-> 8 nodes · cohesion 0.36
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **AbsoluteUrlOverrideTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
-- **._create_model_class()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
-- **.test_get_absolute_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
-- **.test_insert_get_absolute_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
-- **.test_override_get_absolute_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
-- **get_absolute_url() functions as a normal method.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
-- **ABSOLUTE_URL_OVERRIDES should override get_absolute_url().** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
-- **ABSOLUTE_URL_OVERRIDES should work even if the model doesn't have a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
+- **.test_add_location_gettext_version_check()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_makemessages_gettext_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **patch** (2 connections)
+- **CommandError is raised when using makemessages --add-location with gettext <…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
+- [Community 407](Community_407.md) (1 shared connections)
+- [Community 269](Community_269.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

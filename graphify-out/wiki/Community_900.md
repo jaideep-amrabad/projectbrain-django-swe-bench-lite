@@ -1,34 +1,30 @@
 # Community 900
 
-> 9 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **SlugPage** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **test_empty_join.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
-- **RestrictedConditionsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
-- **.test_restrictions_with_no_joining_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **It's possible to create a working related field that doesn't use any joining…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
-- **.test_empty_join_conditions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
+- **OutputWrapper** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.style_func()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.isatty()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.write()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **setter** (1 connections)
+- **Wrapper around stdout/stderr** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **TextIOBase** (1 connections)
 
 ## Relationships
 
-- [Community 654](Community_654.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 90](Community_90.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

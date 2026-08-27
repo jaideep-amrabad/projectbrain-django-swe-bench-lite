@@ -1,24 +1,25 @@
 # Community 1197
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.test_formset_with_deletion()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **formset_factory's can_delete argument adds a boolean "delete" field to each…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **AssertFieldOutputTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_assert_field_output()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_custom_required_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Relationships
 
-- [Community 470](Community_470.md) (1 shared connections)
-- [Community 546](Community_546.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,28 +1,29 @@
 # Community 1022
 
-> 6 nodes · cohesion 0.47
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **InvalidQueryType** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **.__warn()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **.__instancecheck__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **.__subclasscheck__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **._subclasses()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **type** (1 connections)
+- **PostAdmin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **FieldOverridePostAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.multiline_html()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.coolness()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.multiline()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Relationships
 
-- [Community 76](Community_76.md) (2 shared connections)
+- [Community 63](Community_63.md) (2 shared connections)
+- [Community 647](Community_647.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (89%)
-- INFERRED: 1 (11%)
+- EXTRACTED: 8 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

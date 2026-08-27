@@ -1,59 +1,52 @@
 # Community 259
 
-> 41 nodes · cohesion 0.15
+> 40 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **make_password()** (35 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **TestUtilsHashPass** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **check_password()** (29 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **get_hasher()** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **is_password_usable()** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **identify_hasher()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.test_bcrypt()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_crypt()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **TestUtilsHashPassArgon2** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **skipUnless** (6 connections)
-- **.test_bcrypt_sha256()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_bcrypt_upgrade()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_md5()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_sha1()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_unsalted_md5()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_unsalted_sha1()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_bcrypt_harden_runtime()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_no_upgrade_on_incorrect_pass()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_pbkdf2()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_unusable()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_upgrade()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_argon2()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_bytes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_check_password_calls_harden_runtime()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_pbkdf2_upgrade()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- *... and 16 more nodes in this community*
+- **GDALBand** (23 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **BandList** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.statistics()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.nodata_value()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.data()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.datatype()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **._flush()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.description()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.max()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.mean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.min()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.std()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.color_interp()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.height()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.pixel_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.width()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.bands()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **list** (1 connections)
+- **setter** (1 connections)
+- **Return the minimum pixel value for this band.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [Community 8](Community_8.md) (12 shared connections)
-- [Community 835](Community_835.md) (11 shared connections)
-- [Community 48](Community_48.md) (7 shared connections)
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 44](Community_44.md) (3 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 937](Community_937.md) (1 shared connections)
-- [Community 632](Community_632.md) (1 shared connections)
-- [Community 76](Community_76.md) (1 shared connections)
-- [Community 339](Community_339.md) (1 shared connections)
+- [Community 117](Community_117.md) (8 shared connections)
+- [Community 61](Community_61.md) (3 shared connections)
+- [Community 118](Community_118.md) (1 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
 
 ## Audit Trail
 
-- EXTRACTED: 168 (99%)
-- INFERRED: 2 (1%)
+- EXTRACTED: 56 (92%)
+- INFERRED: 5 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

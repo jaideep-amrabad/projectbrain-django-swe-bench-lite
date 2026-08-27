@@ -1,53 +1,55 @@
 # Community 291
 
-> 29 nodes · cohesion 0.08
+> 37 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **BaseStorageFinder** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **FileSystemFinder** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **AppDirectoriesFinder** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.list()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **DefaultStorageFinder** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.find_location()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.find()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.find_in_app()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.find()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.find()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.check()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **Find a requested static file in a location and return the found absolute path…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **List all files in all locations.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **A static files finder that looks in the directory of each app as specified in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **List all files in all app storages.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **Look for files in the app directories.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **Find a requested static file in an app's static locations.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **A base static files finder to be used to extended with an own storage class.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **Look for files in the default file storage, if it's local.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- *... and 4 more nodes in this community*
+- **SessionTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **AssertTemplateUsedTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **TestDataMixin** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **ExceptionTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **LoginTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **SessionEngineTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_no_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_login_different_client()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_logout_with_custom_auth_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_logout_with_custom_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_multiple_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_single_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_template_rendered_multiple_times()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_exception_cleared()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Logout should send user_logged_out signal if user was logged in.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_login_with_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_login_without_signal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_logout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_logout_with_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_logout_without_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_session()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Logout should work whether the user is logged in or not (#9978).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Request a logout after logging in with custom authentication backend** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Logout should send signal even if user not authenticated.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 12](Community_12.md) (5 shared connections)
-- [Community 842](Community_842.md) (3 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 201](Community_201.md) (2 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 9](Community_9.md) (7 shared connections)
+- [Community 17](Community_17.md) (6 shared connections)
+- [Community 38](Community_38.md) (5 shared connections)
+- [Community 256](Community_256.md) (1 shared connections)
+- [Community 40](Community_40.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 431](Community_431.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (89%)
-- INFERRED: 5 (11%)
+- EXTRACTED: 57 (95%)
+- INFERRED: 3 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

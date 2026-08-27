@@ -1,54 +1,62 @@
 # Community 191
 
-> 50 nodes · cohesion 0.04
+> 53 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **URLTestCaseBase** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **URLRedirectTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **URLResponseTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **clear_url_caches()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
-- **URLTranslationTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **PathUnusedTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **URLRedirectWithoutTrailingSlashSettingTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **URLRedirectWithoutTrailingSlashTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **URLVaryAcceptLanguageTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **URLNamespaceTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **URLRedirectWithScriptAliasTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **Tests the redirect when the requested URL doesn't end with a slash…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **.test_account_register()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **.test_custom_redirect_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **.test_en_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **.test_not_prefixed_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **.test_language_prefix_with_script_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **.test_no_prefix_translated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **.test_translate_url_utility()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **.test_users_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **.test_no_lang_activate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **If no i18n_patterns is used in root URLconfs, then no language activation…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **Tests if the pattern-strings are translated correctly (within the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- *... and 25 more nodes in this community*
+- **admin_scripts/tests.py** (62 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **AdminScriptTestCase** (51 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **ManageTestserver** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **Command** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/testserver.py`
+- **ManageNoSettings** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **SettingsCustomLoggingTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **CommandRunTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.run_test()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **Dumpdata** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_pks_parsing()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_non_existent_command_output()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **SettingsConfigTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **MainModule** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **ManageManuallyConfiguredSettings** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **ManageRunserverEmptyAllowedHosts** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_empty_allowed_hosts_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_params_to_runserver()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **._ext_backend_paths()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **Discovery** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_precedence()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_program_name_in_help()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_testserver_handle_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- *... and 28 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (14 shared connections)
-- [Community 8](Community_8.md) (6 shared connections)
-- [Community 13](Community_13.md) (5 shared connections)
-- [Community 48](Community_48.md) (2 shared connections)
-- [Community 42](Community_42.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 112](Community_112.md) (21 shared connections)
+- [Community 3](Community_3.md) (14 shared connections)
+- [Community 98](Community_98.md) (14 shared connections)
+- [Community 214](Community_214.md) (13 shared connections)
+- [Community 246](Community_246.md) (7 shared connections)
+- [Community 10](Community_10.md) (6 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 6](Community_6.md) (5 shared connections)
+- [Community 608](Community_608.md) (4 shared connections)
+- [Community 22](Community_22.md) (3 shared connections)
+- [Community 17](Community_17.md) (3 shared connections)
+- [Community 500](Community_500.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/urls/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/testserver.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 80 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 187 (98%)
+- INFERRED: 3 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

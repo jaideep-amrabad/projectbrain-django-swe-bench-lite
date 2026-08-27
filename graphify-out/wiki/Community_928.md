@@ -1,35 +1,45 @@
 # Community 928
 
-> 8 nodes · cohesion 0.32
+> 12 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **ReverseTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_reverse.py`
-- **Reverse** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **.test_expressions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_reverse.py`
-- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_reverse.py`
-- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_reverse.py`
-- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_reverse.py`
-- **.as_oracle()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_reverse.py`
+- **hashers.py** (40 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **UnsaltedMD5PasswordHasher** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **get_hashers()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **BCryptPasswordHasher** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **get_hashers_by_algorithm()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.verify()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **Secure password hashing using the bcrypt algorithm This is considered by many…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **Incredibly insecure algorithm that you should *never* use; stores unsalted MD5…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.decode()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.encode()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.harden_runtime()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.salt()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
 
 ## Relationships
 
-- [Community 11](Community_11.md) (3 shared connections)
-- [Community 56](Community_56.md) (3 shared connections)
-- [Community 22](Community_22.md) (2 shared connections)
-- [Community 87](Community_87.md) (2 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
+- [Community 206](Community_206.md) (8 shared connections)
+- [Community 159](Community_159.md) (8 shared connections)
+- [Community 6](Community_6.md) (7 shared connections)
+- [Community 11](Community_11.md) (4 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 511](Community_511.md) (3 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 462](Community_462.md) (2 shared connections)
+- [Community 380](Community_380.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 56](Community_56.md) (1 shared connections)
+- [Community 54](Community_54.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_reverse.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (90%)
-- INFERRED: 2 (10%)
+- EXTRACTED: 57 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,34 +1,45 @@
 # Community 822
 
-> 11 nodes · cohesion 0.29
+> 12 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **AccessorClashTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **._test_accessor_clash()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_clash_between_accessors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_fk_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_fk_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_fk_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_m2m_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_m2m_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_m2m_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_m2m_to_m2m_with_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_no_clash_for_hidden_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **SetPasswordForm** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **SetPasswordFormTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **TestDataMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_help_text_translation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_validates_password()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.clean_new_password2()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.test_html_autocomplete_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_password_verification()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_password_whitespace_not_stripped()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **A form that lets a user change set their password without entering the old…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
 
 ## Relationships
 
-- [Community 149](Community_149.md) (3 shared connections)
-- [Community 12](Community_12.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 750](Community_750.md) (4 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 652](Community_652.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 651](Community_651.md) (1 shared connections)
+- [Community 444](Community_444.md) (1 shared connections)
+- [Community 412](Community_412.md) (1 shared connections)
+- [Community 653](Community_653.md) (1 shared connections)
+- [Community 502](Community_502.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 35 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

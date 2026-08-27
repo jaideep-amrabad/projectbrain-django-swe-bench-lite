@@ -1,52 +1,50 @@
 # Community 286
 
-> 37 nodes · cohesion 0.05
+> 37 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **CommandTests** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_create_parser_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_find_command_without_PATH()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_system_exit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_call_command_no_checks()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_call_command_option_parsing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_call_command_option_parsing_non_string_arg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_explode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_no_translations_deactivate_translations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_call_command_unrecognized_option()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_call_command_with_required_parameters_in_mixed_options()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_call_command_with_required_parameters_in_options()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_calling_a_command_with_no_app_labels_and_parameters_should_raise_a_command_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_calling_a_command_with_only_empty_parameter_should_ends_gracefully()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_calling_command_with_app_labels_and_parameters_should_be_ok()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_calling_command_with_parameters_and_app_labels_at_the_end_should_be_ok()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_check_migrations()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_command()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_command_add_arguments_after_common_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_command_style()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_language_preserved()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_mutually_exclusive_group_required_options()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_output_transaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_requires_system_checks_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_requires_system_checks_specific()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **LoremIpsumTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **words()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
+- **lorem_ipsum.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
+- **paragraphs()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
+- **sentence()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
+- **paragraph()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
+- **test_lorem_ipsum.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **patch** (5 connections)
+- **.test_not_common_words()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_paragraph()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_paragraphs_not_common()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_sentence()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_sentence_ending()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.render()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- **.test_common_large_number_of_words()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_common_words_in_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_more_words_than_common()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_negative_words()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_paragraphs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_sentence_starts_with_capital()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_same_or_less_common_words()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **Utility functions for generating "lorem ipsum" Latin text.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
+- **Return a randomly generated sentence of lorem ipsum text. The first word is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
+- **Return a randomly generated paragraph of lorem ipsum text. The paragraph…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
+- **Return a list of paragraphs as returned by paragraph(). If `common` is True,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
 - *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 5](Community_5.md) (3 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 925](Community_925.md) (1 shared connections)
-- [Community 380](Community_380.md) (1 shared connections)
-- [Community 750](Community_750.md) (1 shared connections)
+- [Community 13](Community_13.md) (4 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (100%)
+- EXTRACTED: 64 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

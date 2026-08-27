@@ -1,23 +1,24 @@
 # Community 1184
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.test_non_existent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **Nonexistent cache keys return as None/default.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_missing_django_version_unpickling()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_unsupported_unpickle()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **#21430 -- Verifies a warning is raised for querysets that are unpickled without…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
 
 ## Relationships
 
-- [Community 274](Community_274.md) (1 shared connections)
+- [Community 395](Community_395.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

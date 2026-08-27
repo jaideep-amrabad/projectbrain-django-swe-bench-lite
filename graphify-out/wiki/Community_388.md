@@ -1,57 +1,41 @@
 # Community 388
 
-> 29 nodes · cohesion 0.09
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **prefetch_related_objects()** (22 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **PrefetchRelatedObjectsTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- **DirectPrefetchedObjectCacheReuseTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **normalize_prefetch_lookups()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **prefetch_one_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.test_m2m_then_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- **.test_prefetch_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- **.test_prefetch_object_to_attr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- **.test_prefetch_queryset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- **.test_detect_is_fetched()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **._prefetch_related_objects()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.test_foreignkey_forward()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- **.test_foreignkey_reverse()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- **.test_m2m_forward()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- **.test_m2m_reverse()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- **.test_unknown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- **.test_add_clears_prefetched_objects()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_detect_is_fetched_with_to_attr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_prefetch_reverse_foreign_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_remove_clears_prefetched_objects()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **Normalize lookups into Prefetch objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Populate prefetched object caches for a list of model instances based on the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Helper function for prefetch_related_objects(). Run prefetches on all instances…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- **A m2m can be followed through another m2m.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- *... and 4 more nodes in this community*
+- **DecoratorFromMiddlewareTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **FullMiddleware** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **template_response_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
+- **.test_full_dec_templateresponse()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.test_process_view_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.test_callable_process_view_middleware()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.process_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.process_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.process_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.process_template_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **Tests for view decorators created using…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **Test a middleware that implements process_view.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **Test a middleware that implements process_view, operating on a callable class.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **All methods of middleware are called for TemplateResponses in the right…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
 
 ## Relationships
 
-- [Community 93](Community_93.md) (12 shared connections)
-- [Community 315](Community_315.md) (6 shared connections)
-- [Community 105](Community_105.md) (3 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 376](Community_376.md) (1 shared connections)
-- [Community 304](Community_304.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 60](Community_60.md) (1 shared connections)
+- [Community 17](Community_17.md) (3 shared connections)
+- [Community 735](Community_735.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 981](Community_981.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
 
 ## Audit Trail
 
-- EXTRACTED: 57 (88%)
-- INFERRED: 8 (12%)
+- EXTRACTED: 19 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

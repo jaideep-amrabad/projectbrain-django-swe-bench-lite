@@ -1,34 +1,36 @@
 # Community 824
 
-> 11 nodes · cohesion 0.18
+> 11 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **ValidationTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- **Choices** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- **.test_choices_validation_supports_named_groups()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- **.test_enum_choices_cleans_valid_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- **.test_enum_choices_invalid_input()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- **.test_integerfield_cleans_valid_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- **.test_integerfield_raises_error_on_empty_input()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- **.test_integerfield_raises_error_on_invalid_intput()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- **.test_integerfield_validates_zero_against_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- **.test_nullable_integerfield_cleans_none_on_null_and_blank_true()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- **.test_nullable_integerfield_raises_error_with_blank_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **OracleGISSchemaEditor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
+- **._create_spatial_index_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
+- **.geo_quote_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
+- **.column_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
+- **.remove_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
+- **.run_geometry_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
+- **.add_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
+- **.create_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
+- **.delete_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
+- **DatabaseSchemaEditor** (1 connections)
 
 ## Relationships
 
-- [Community 322](Community_322.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 715](Community_715.md) (2 shared connections)
+- [Community 68](Community_68.md) (1 shared connections)
+- [Community 125](Community_125.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 21 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

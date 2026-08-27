@@ -1,62 +1,60 @@
 # Community 272
 
-> 53 nodes · cohesion 0.04
+> 28 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **LogEntry** (30 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
-- **LogEntryTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **ChangelistTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.__str__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
-- **AdminLogNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/log.py`
-- **.get_change_message()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
-- **.test_logentry_change_message_localized_datetime_input()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **UUIDUserTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.get_admin_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
-- **.test_logentry_change_message()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **.test_logentry_get_admin_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **.get_user_data()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_view_user_password_is_readonly()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_logentry_change_message_not_json()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **.test_proxy_model_content_type_is_used_for_log_entries()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **.test_user_change_email()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_user_change_password_passes_user_to_has_change_permission()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_user_not_change()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.get_edited_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
-- **.is_addition()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
-- **.is_change()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
-- **.is_deletion()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **.test_action_flag_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **.test_logentry_get_edited_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- *... and 28 more nodes in this community*
+- **WSGIHandler** (22 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **HandlerTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **HandlerRequestTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **test_exception.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/test_exception.py`
+- **ExceptionHandlerTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/test_exception.py`
+- **.get_suspicious_environ()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/test_exception.py`
+- **.test_data_upload_max_memory_size_exceeded()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/test_exception.py`
+- **.test_data_upload_max_number_fields_exceeded()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/test_exception.py`
+- **.test_invalid_multipart_boundary()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_bad_path_info()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_invalid_unicode_cookie()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_non_ascii_cookie()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_non_ascii_query_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_handle_accepts_httpstatus_enum_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_middleware_returns_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_middleware_initialized()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **.test_environ_path_info_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_invalid_urls()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_no_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_suspiciousop_in_view_returns_400()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **A non-UTF-8 path populates PATH_INFO with an URL-encoded path and produces a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **Non-ASCII query strings are properly decoded (#20530, #22996).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (20 shared connections)
-- [Community 13](Community_13.md) (13 shared connections)
-- [Community 8](Community_8.md) (4 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 854](Community_854.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
-- [Community 40](Community_40.md) (1 shared connections)
-- [Community 76](Community_76.md) (1 shared connections)
-- [Community 30](Community_30.md) (1 shared connections)
-- [Community 42](Community_42.md) (1 shared connections)
-- [Community 198](Community_198.md) (1 shared connections)
+- [Community 6](Community_6.md) (8 shared connections)
+- [Community 9](Community_9.md) (6 shared connections)
+- [Community 95](Community_95.md) (6 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 527](Community_527.md) (2 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 486](Community_486.md) (1 shared connections)
+- [Community 606](Community_606.md) (1 shared connections)
+- [Community 282](Community_282.md) (1 shared connections)
+- [Community 704](Community_704.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/log.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- `raw/code/hyd-evaluation/django-django/tests/handlers/test_exception.py`
+- `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 104 (89%)
-- INFERRED: 13 (11%)
+- EXTRACTED: 64 (90%)
+- INFERRED: 7 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

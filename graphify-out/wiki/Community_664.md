@@ -1,45 +1,40 @@
 # Community 664
 
-> 16 nodes · cohesion 0.22
+> 16 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **DatabaseCreation** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
-- **DatabaseCreationTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
-- **mysql/test_creation.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
-- **.test_create_test_db_database_exists()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
-- **.test_create_test_db_unexpected_error()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
-- **._clone_test_db()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
-- **.patch_test_db_creation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
-- **.test_clone_test_db_database_exists()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
-- **.test_clone_test_db_options_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
-- **._clone_db()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
-- **._execute_create_test_db()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
-- **.sql_table_creation_suffix()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
-- **._execute_raise_access_denied()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
-- **._execute_raise_database_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
-- **patch** (2 connections)
-- **skipUnless** (1 connections)
+- **SyndicationFeed** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.add_item()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.writeString()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.add_item_elements()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.add_root_elements()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.root_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.write()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **Return extra attributes to place on the root (i.e. feed/channel) element.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **Add elements in the root (i.e. feed/channel) element. Called from write().** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **Add elements on each item (i.e. item/entry) element.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **Output the feed in the given encoding to outfile, which is a file-like object.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **Return the feed in the given encoding as a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **Base class for all syndication feeds. Subclasses should provide write()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **Add an item to the feed. All args are expected to be strings except pubdate and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.num_items()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
 
 ## Relationships
 
-- [Community 129](Community_129.md) (4 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 130](Community_130.md) (4 shared connections)
-- [Community 169](Community_169.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 76](Community_76.md) (1 shared connections)
-- [Community 429](Community_429.md) (1 shared connections)
+- [Community 418](Community_418.md) (5 shared connections)
+- [Community 267](Community_267.md) (2 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (85%)
-- INFERRED: 7 (15%)
+- EXTRACTED: 23 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

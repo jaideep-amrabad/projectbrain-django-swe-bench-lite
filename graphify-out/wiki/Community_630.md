@@ -1,40 +1,45 @@
 # Community 630
 
-> 17 nodes · cohesion 0.16
+> 17 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **FileSystemLoaderTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- **.source_checker()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- **.set_dirs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- **.test_case_sensitivity()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- **.test_loaders_dirs_empty()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- **.test_permissions_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- **.test_directory_security()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- **.test_loaders_dirs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- **.test_unicode_dir_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- **.test_unicode_template_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- **.test_bytestring()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- **.test_file_does_not_exist()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- **.test_get_template()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- **.test_notafile_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
+- **ASGITest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **get_asgi_application()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/asgi.py`
+- **.test_static_file_response()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **.test_file_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **.test_get_asgi_application()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **.test_disconnect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **.test_get_query_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **.test_headers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **.test_non_unicode_query_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **.test_request_lifecycle_signals_dispatched_with_thread_sensitive()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **.test_wrong_connection_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **The public interface to Django's ASGI support. Return an ASGI 3 callable.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/asgi.py`
 - **skipIf** (1 connections)
-- **skipUnless** (1 connections)
-- **An empty dirs list in loaders overrides top level dirs.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
+- **get_asgi_application() returns a functioning ASGI callable.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **Makes sure that FileResponse works over ASGI.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
 
 ## Relationships
 
-- [Community 49](Community_49.md) (4 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
+- [Community 6](Community_6.md) (4 shared connections)
+- [Community 485](Community_485.md) (3 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 126](Community_126.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
+- `raw/code/hyd-evaluation/django-django/django/core/asgi.py`
+- `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 34 (92%)
+- INFERRED: 3 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

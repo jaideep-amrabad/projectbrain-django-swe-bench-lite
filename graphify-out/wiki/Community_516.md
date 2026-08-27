@@ -4,46 +4,44 @@
 
 ## Key Concepts
 
-- **test_lazyobject.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **SimpleLazyObjectPickleTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **BaseBaz** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **Baz** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.test_pickle_with_reduce()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **utils_tests/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/models.py`
-- **BazProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **Category** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/models.py`
-- **CategoryInfo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/models.py`
-- **.test_pickle_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.__reduce__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **.__reduce_ex__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **A base class with a funky __reduce__ method, meant to simulate the __reduce__…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **A class that inherits from BaseBaz and has its own __reduce_ex__ method.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **A class that acts as a proxy for Baz. It does some scary mucking about with…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **Regression test for pickling a SimpleLazyObject wrapping a model (#25389). Also…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **Test in a fairly synthetic setting.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
-- **Test on an actual model, based on the report in #25426.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **HandlerLoggingTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.assertLogsRequest()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **I18nLoggingTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **SecurityLoggerTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **SetupDefaultLoggingMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **LoggingAssertionMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_internal_server_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_internal_server_error_599()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_multi_part_parser_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_page_not_found_raised()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_page_not_found_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_permission_denied()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_uncaught_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_suspicious_email_admins()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_suspicious_operation_creates_log_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_suspicious_operation_uses_sublogger()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_page_found_no_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_redirect_no_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_i18n_page_found_no_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_i18n_page_not_found_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.tearDownClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
 
 ## Relationships
 
-- [Community 76](Community_76.md) (5 shared connections)
-- [Community 271](Community_271.md) (3 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
+- [Community 6](Community_6.md) (6 shared connections)
+- [Community 9](Community_9.md) (5 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 255](Community_255.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (93%)
-- INFERRED: 3 (7%)
+- EXTRACTED: 45 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

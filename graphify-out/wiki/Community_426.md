@@ -1,57 +1,61 @@
 # Community 426
 
-> 30 nodes · cohesion 0.08
+> 26 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **trans_null.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **get_language_from_request()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **get_supported_language_variant()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **LookupError** (6 connections)
-- **.get_registered_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
-- **.lazy_model_operation()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
-- **get_language_from_path()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **get_languages()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **.get_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
-- **parse_accept_lang_header()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **get_supported_language_variant()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **gettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **ngettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **npgettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **pgettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **Return the model with the given case-insensitive model_name. Raise LookupError…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
-- **Similar to get_model(), but doesn't require that an app exists with the given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
-- **Take a function and a number of ("app_label", "modelname") tuples, and when all…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
-- **activate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **check_for_language()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **deactivate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **get_language()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **get_language_bidi()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **get_language_from_path()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- **get_language_from_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- *... and 5 more nodes in this community*
+- **test_autoreload.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **BaseReloaderTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **WatchmanUnavailable** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **GetReloaderTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **RestartWithReloaderTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.patch_autoreload()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **skip_unless_watchman_available()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **TestCheckErrors** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **TestCommonRoots** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **on_macos_with_hfs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/utils.py`
+- **.test_wait_for_apps_ready_checks_for_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_wait_for_apps_ready_without_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_watch_files_with_recursive_glob()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_watchman_available()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_watchman_unavailable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_manage_py()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_python_m_django()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **utils_tests/utils.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/utils.py`
+- **.test_run_loop_catches_stopiteration()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_run_loop_stop_and_return()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_watch_dir_with_unresolvable_path()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_watch_with_glob()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **object** (1 connections)
+- **.test_mutates_error_files()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_common_roots()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 48](Community_48.md) (7 shared connections)
-- [Community 167](Community_167.md) (3 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 86](Community_86.md) (1 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
-- [Community 118](Community_118.md) (1 shared connections)
-- [Community 218](Community_218.md) (1 shared connections)
+- [Community 330](Community_330.md) (9 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 54](Community_54.md) (4 shared connections)
+- [Community 541](Community_541.md) (4 shared connections)
+- [Community 48](Community_48.md) (4 shared connections)
+- [Community 228](Community_228.md) (2 shared connections)
+- [Community 41](Community_41.md) (2 shared connections)
+- [Community 309](Community_309.md) (2 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 296](Community_296.md) (1 shared connections)
+- [Community 783](Community_783.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/apps/config.py`
-- `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (82%)
-- INFERRED: 9 (18%)
+- EXTRACTED: 62 (93%)
+- INFERRED: 5 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

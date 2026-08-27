@@ -1,54 +1,63 @@
 # Community 521
 
-> 28 nodes · cohesion 0.11
+> 38 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **.get_dated_items()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_dated_items()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_object()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **MonthMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **BaseDateDetailView** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **_date_from_string()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_year()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_year_format()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_month()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **DateDetailView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_day()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_month_format()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_previous_month()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_day_format()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **._get_current_month()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Detail view of a single object on a single date; this differs from the standard…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Return the start date of the previous interval.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Get a day format string in strptime syntax to be used to parse the day from url…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Return the day for which this view should display data.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Get a year format string in strptime syntax to be used to parse the year from…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Return the year for which this view should display data.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Do the actual heavy lifting of getting the dated items; this accepts a date…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Get the object this request displays.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Get a datetime.date object given a format string and a year, month, and day…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Mixin for views manipulating month-based data.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- *... and 3 more nodes in this community*
+- **SimpleLazyObject** (54 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **test_lazyobject.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **SimpleLazyObjectTestCase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **SimpleLazyObjectPickleTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **BaseBaz** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **Baz** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_pickle_with_reduce()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **utils_tests/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/models.py`
+- **BazProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_subquery_filter_by_lazy()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **TestUtilsSimpleLazyObjectDjangoTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_simplelazyobject.py`
+- **Category** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/models.py`
+- **CategoryInfo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/models.py`
+- **.test_pickle_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_none()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_dict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_list_set()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_trace()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_pickle()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_simplelazyobject.py`
+- **A lazy object initialized from any function. Designed for compound objects of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **Pass in a callable that returns the object to be wrapped. If copies are made of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Community 407](Community_407.md) (11 shared connections)
-- [Community 646](Community_646.md) (9 shared connections)
-- [Community 596](Community_596.md) (8 shared connections)
-- [Community 1](Community_1.md) (6 shared connections)
-- [Community 672](Community_672.md) (6 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 707](Community_707.md) (3 shared connections)
+- [Community 258](Community_258.md) (7 shared connections)
+- [Community 267](Community_267.md) (6 shared connections)
+- [Community 53](Community_53.md) (5 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 785](Community_785.md) (3 shared connections)
+- [Community 14](Community_14.md) (3 shared connections)
+- [Community 684](Community_684.md) (2 shared connections)
+- [Community 607](Community_607.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 164](Community_164.md) (2 shared connections)
+- [Community 118](Community_118.md) (2 shared connections)
+- [Community 147](Community_147.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_simplelazyobject.py`
 
 ## Audit Trail
 
-- EXTRACTED: 88 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 95 (86%)
+- INFERRED: 15 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

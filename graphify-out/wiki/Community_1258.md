@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **.test_inheritance42()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Expression starting and ending with a quote** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_formset_with_deletion_invalid_deleted_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **deleted_forms works on a valid formset even if a deleted form would have been…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
 
 ## Relationships
 
-- [Community 829](Community_829.md) (1 shared connections)
-- [Community 874](Community_874.md) (1 shared connections)
+- [Community 492](Community_492.md) (1 shared connections)
+- [Community 580](Community_580.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
 
 ## Audit Trail
 

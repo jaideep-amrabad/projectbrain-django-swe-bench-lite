@@ -1,53 +1,43 @@
 # Community 195
 
-> 50 nodes · cohesion 0.05
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **SyndicationFeedTest** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **FeedTestCase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_rss2_feed()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.assertChildNodeContent()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.assertChildNodes()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_rss091_feed()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.assertCategories()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_atom_feed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_feed_last_modified_time_naive_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_latest_post_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_naive_datetime_conversion()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_template_context_feed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_template_feed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **Test if the 'isPermaLink' attribute of <guid> element of an item in the RSS…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_add_domain()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_atom_feed_published_and_updated_elements()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_aware_datetime_conversion()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_custom_feed_generator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_feed_last_modified_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_feed_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_item_link_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_rss2_feed_guid_permalink_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_rss2_feed_guid_permalink_true()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_secure_urls()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- **.test_title_escaping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
-- *... and 25 more nodes in this community*
+- **ManageMultipleSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **multiple: manage.py can execute user commands if settings are provided as…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **A series of tests for manage.py when multiple settings files (including the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **multiple: manage.py builtin commands fail with an error when no settings…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **multiple: manage.py builtin commands succeed if settings are provided as…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **multiple: manage.py can execute builtin commands if settings are provided in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **multiple: manage.py builtin commands fail if settings file (from argument)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **multiple: manage.py builtin commands fail if settings file (from environment)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **multiple: manage.py can't execute user commands using default settings** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Relationships
 
-- [Community 158](Community_158.md) (3 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
-- [Community 436](Community_436.md) (2 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 520](Community_520.md) (1 shared connections)
+- [Community 214](Community_214.md) (8 shared connections)
+- [Community 112](Community_112.md) (8 shared connections)
+- [Community 98](Community_98.md) (8 shared connections)
+- [Community 191](Community_191.md) (2 shared connections)
+- [Community 246](Community_246.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 67 (96%)
-- INFERRED: 3 (4%)
+- EXTRACTED: 44 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

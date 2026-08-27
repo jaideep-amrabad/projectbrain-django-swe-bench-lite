@@ -4,25 +4,25 @@
 
 ## Key Concepts
 
-- **.db_returning()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.db_returning_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **Private API intended only to be used by Django itself. Currently only the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Private API intended only to be used by Django itself. Fields to be returned…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.build_lookup()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.try_transform()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Try to extract transforms and lookup from given lhs. The lhs value is something…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Helper method for build_lookup(). Try to fetch and initialize a transform for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
 
 ## Relationships
 
-- [Community 116](Community_116.md) (1 shared connections)
-- [Community 134](Community_134.md) (1 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 97](Community_97.md) (2 shared connections)
+- [Community 172](Community_172.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (80%)
-- INFERRED: 1 (20%)
+- EXTRACTED: 8 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

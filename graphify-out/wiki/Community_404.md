@@ -1,56 +1,65 @@
 # Community 404
 
-> 21 nodes · cohesion 0.10
+> 28 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **MigrationWriter** (32 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **.as_string()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **.safe_exec()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **PostgresConfigTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_apps.py`
-- **.register_serializer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **.test_register_serializer()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_simple_migration()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.unregister_serializer()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **.test_custom_operation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_models_import_omitted()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_register_type_handlers_connection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_apps.py`
-- **.test_migration_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_register_non_serializer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_register_serializer_for_migrations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_apps.py`
-- **.filename()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **.path()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **Take a Migration instance and is able to produce the contents of the migration…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **Return a string of the file contents.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **Tests serializing a simple migration.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **django.db.models shouldn't be imported if unused.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **foreign_object/tests.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **foreign_object/models/__init__.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/__init__.py`
+- **foreign_object/models/article.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **person.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
+- **foreign_object/test_forms.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_forms.py`
+- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **test_agnostic_order_trimjoin.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_agnostic_order_trimjoin.py`
+- **customers.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/customers.py`
+- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
+- **Group** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
+- **Membership** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
+- **NewsArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **Address** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/customers.py`
+- **Customer** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/customers.py`
+- **Country** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
+- **ActiveTranslationFieldWithQ** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **ArticleIdea** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **ArticleTag** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **Contact** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/customers.py`
+- **Friendship** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
+- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
+- **.get_extra_descriptor_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/customers.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 226](Community_226.md) (13 shared connections)
-- [Community 136](Community_136.md) (5 shared connections)
-- [Community 810](Community_810.md) (3 shared connections)
-- [Community 564](Community_564.md) (3 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 143](Community_143.md) (3 shared connections)
-- [Community 991](Community_991.md) (2 shared connections)
-- [Community 130](Community_130.md) (2 shared connections)
-- [Community 113](Community_113.md) (2 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 243](Community_243.md) (1 shared connections)
-- [Community 373](Community_373.md) (1 shared connections)
+- [Community 0](Community_0.md) (9 shared connections)
+- [Community 11](Community_11.md) (8 shared connections)
+- [Community 391](Community_391.md) (6 shared connections)
+- [Community 284](Community_284.md) (4 shared connections)
+- [Community 38](Community_38.md) (4 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 914](Community_914.md) (2 shared connections)
+- [Community 42](Community_42.md) (2 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 1129](Community_1129.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_apps.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/customers.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_agnostic_order_trimjoin.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 53 (84%)
-- INFERRED: 10 (16%)
+- EXTRACTED: 104 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

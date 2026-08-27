@@ -1,59 +1,31 @@
 # Community 84
 
-> 61 nodes · cohesion 0.07
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **BaseDatabaseSchemaEditor** (77 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.alter_field()** (27 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.execute()** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.quote_name()** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._delete_constraint_sql()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._create_primary_key_sql()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.remove_field()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._constraint_names()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._create_index_name()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.create_model()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._delete_composed_index()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.alter_db_table()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.alter_index_together()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.alter_unique_together()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._delete_index_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.delete_model()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._delete_primary_key()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._model_indexes_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._alter_column_null_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._alter_column_type_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.alter_db_tablespace()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._alter_many_to_many()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **._delete_fk_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.add_constraint()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.add_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- *... and 36 more nodes in this community*
+- **TagRegistrationTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- **.test_tag()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- **.test_tag_call()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- **.test_tag_invalid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- **.test_tag_name_arg()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- **.test_tag_name_kwarg()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- **.test_tag_parens()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
 
 ## Relationships
 
-- [Community 573](Community_573.md) (23 shared connections)
-- [Community 405](Community_405.md) (18 shared connections)
-- [Community 739](Community_739.md) (7 shared connections)
-- [Community 128](Community_128.md) (5 shared connections)
-- [Community 230](Community_230.md) (5 shared connections)
-- [Community 640](Community_640.md) (2 shared connections)
-- [Community 614](Community_614.md) (2 shared connections)
-- [Community 1020](Community_1020.md) (2 shared connections)
-- [Community 72](Community_72.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
-- [Community 387](Community_387.md) (1 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
 
 ## Audit Trail
 
-- EXTRACTED: 183 (97%)
-- INFERRED: 6 (3%)
+- EXTRACTED: 10 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

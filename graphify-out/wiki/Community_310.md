@@ -1,60 +1,48 @@
 # Community 310
 
-> 37 nodes · cohesion 0.08
+> 35 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **model_fields/test_uuid.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **TestAsPrimaryKey** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **TestSaveLoad** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **PrimaryKeyUUIDModel** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **TestMethods** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **TestSerialization** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **UUIDGrandchild** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **UUIDModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **TestAsPrimaryKeyTransactionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **NullableUUIDModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **RelatedToUUIDModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **TestValidation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **UUIDChild** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.test_unsaved_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_two_level_foreign_keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_uuid_pk_on_bulk_create()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_dumping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_creation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_underlying_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_update_with_related_model_id()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_update_with_related_model_instance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_uuid_pk_on_save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- **.test_to_python_int_too_large()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
-- *... and 12 more nodes in this community*
+- **Archive** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **BaseArchive** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **TarArchive** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **ZipArchive** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.has_leading_dir()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **ArchiveException** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **._copy_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.split_leading_dir()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.extract()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **UnrecognizedArchiveFormat** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.extract()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **._archive_cls()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **extract()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.__enter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.extract()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.list()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.extract()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.list()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **Exception** (1 connections)
+- **If the file in the archive has some permissions (this assumes a file won't be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **Return True if all the paths have the same leading path name (i.e., everything…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Community 368](Community_368.md) (7 shared connections)
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 56](Community_56.md) (3 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 38](Community_38.md) (3 shared connections)
-- [Community 29](Community_29.md) (2 shared connections)
-- [Community 542](Community_542.md) (2 shared connections)
-- [Community 34](Community_34.md) (1 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
-- [Community 73](Community_73.md) (1 shared connections)
-- [Community 143](Community_143.md) (1 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
+- [Community 14](Community_14.md) (7 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
 
 ## Audit Trail
 
-- EXTRACTED: 72 (88%)
-- INFERRED: 10 (12%)
+- EXTRACTED: 49 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

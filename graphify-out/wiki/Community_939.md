@@ -4,29 +4,31 @@
 
 ## Key Concepts
 
-- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/models.py`
-- **MethodsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/tests.py`
-- **.articles_from_same_day_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/models.py`
-- **.articles_from_same_day_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/models.py`
-- **.was_published_today()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/models.py`
-- **Verbose version of get_articles_from_same_day_1, which does a custom database…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/models.py`
-- **.test_custom_methods()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/tests.py`
+- **AbstractUserTestCase** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_check_password_upgrade()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_email_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_user_clean_normalize_email()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_user_double_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_last_login_default()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **Calling user.save() twice should trigger password_changed() once.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **password_changed() shouldn't be called if User.check_password() triggers a hash…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
 
 ## Relationships
 
-- [Community 11](Community_11.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
 - [Community 38](Community_38.md) (1 shared connections)
+- [Community 206](Community_206.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/custom_methods/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/custom_methods/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (91%)
-- INFERRED: 1 (9%)
+- EXTRACTED: 13 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

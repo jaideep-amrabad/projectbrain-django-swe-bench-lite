@@ -1,38 +1,36 @@
 # Community 784
 
-> 12 nodes · cohesion 0.17
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **TestReadOnlyChangeViewInlinePermissions** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.setUpTestData()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_add_url_not_allowed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_extra_inlines_are_not_shown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_get_to_change_url_is_allowed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_delete_buttons_are_not_shown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inlines_are_rendered_as_read_only()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_main_model_is_rendered_as_read_only()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_post_to_change_url_not_allowed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_submit_line_shows_only_close_button()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **XMLEqualTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_comment_root()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_doctype_root()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_parsing_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_processing_instruction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_equal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_equal_raise()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_equal_raises_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_equal_unordered()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_equal_with_leading_or_trailing_whitespace()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_not_equal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_not_equal_raise()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_not_equal_with_whitespace_in_the_middle()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Relationships
 
-- [Community 33](Community_33.md) (3 shared connections)
-- [Community 270](Community_270.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (89%)
-- INFERRED: 2 (11%)
+- EXTRACTED: 14 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

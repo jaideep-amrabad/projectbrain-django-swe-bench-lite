@@ -1,45 +1,49 @@
 # Community 561
 
-> 19 nodes · cohesion 0.15
+> 19 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **FlatpageForm** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/forms.py`
-- **FlatpageAdminFormTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
-- **.clean_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/forms.py`
-- **._trailing_slash_required()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/forms.py`
-- **.test_flatpage_admin_form_edit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
-- **.test_flatpage_admin_form_url_uniqueness_validation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
-- **.test_flatpage_admin_form_url_validation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
-- **.test_flatpage_doesnt_requires_trailing_slash_without_append_slash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
-- **.test_flatpage_requires_trailing_slash_with_append_slash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
-- **.clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/forms.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/forms.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
-- **.test_flatpage_nosites()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
-- **.test_flatpage_requires_leading_slash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/forms.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
-- **The flatpage admin form correctly validates urls** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
-- **The flatpage admin form correctly enforces url uniqueness among flatpages of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
-- **Existing flatpages can be edited in the admin form without triggering the url-…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
+- **DatabaseWrapper** (25 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **CursorDebugWrapper** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.check_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.chunked_cursor()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.create_cursor()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.ensure_timezone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.get_connection_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.get_new_connection()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.init_connection_state()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.make_debug_cursor()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **BaseCursorDebugWrapper** (1 connections)
+- **.copy_expert()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.copy_to()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.is_usable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **._nodb_cursor()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.pg_version()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **._set_autocommit()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.tzinfo_factory()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **Check constraints by setting them to immediate. Return them to deferred…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (7 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
+- [Community 7](Community_7.md) (9 shared connections)
+- [Community 609](Community_609.md) (1 shared connections)
+- [Community 74](Community_74.md) (1 shared connections)
+- [Community 757](Community_757.md) (1 shared connections)
+- [Community 304](Community_304.md) (1 shared connections)
+- [Community 546](Community_546.md) (1 shared connections)
+- [Community 791](Community_791.md) (1 shared connections)
+- [Community 266](Community_266.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 29 (81%)
+- INFERRED: 7 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

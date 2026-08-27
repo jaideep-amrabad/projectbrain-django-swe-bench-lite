@@ -1,49 +1,49 @@
 # Community 459
 
-> 25 nodes · cohesion 0.08
+> 25 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **FlatpageViewTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **FlatpageViewAppendSlashTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **TestDataMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **.test_redirect_fallback_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **.test_redirect_fallback_non_existent_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **.test_redirect_view_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **.test_redirect_view_flatpage_special_chars()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **.test_redirect_view_non_existent_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **.test_fallback_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **.test_fallback_non_existent_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **.test_view_authenticated_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **.test_view_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **.test_view_flatpage_special_chars()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **.test_view_non_existent_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **A nonexistent flatpage won't be served if the fallback middleware is disabled.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **A flatpage can be served through a view and should add a slash** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **A nonexistent flatpage raises 404 when served through a view and should not add…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **A fallback flatpage won't be served if the middleware is disabled and should…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **A flatpage with special chars in the URL can be served through a view and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **A flatpage can be served through a view** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **A nonexistent flatpage raises 404 when served through a view.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **A flatpage served through a view can require authentication** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **A fallback flatpage won't be served if the middleware is disabled** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **A flatpage with special chars in the URL can be served through a view** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
+- **setup()** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **I18nTransTagTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_i18n01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_i18n02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_i18n06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_i18n09()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_i18n22()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_i18n23()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_i18n20()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_i18n24()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_i18n25()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_i18n35()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_i18n36()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_syntax_error_bad_option()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_syntax_error_context_as()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_syntax_error_context_noop()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_syntax_error_duplicate_option()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_syntax_error_missing_assignment()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_syntax_error_missing_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_syntax_error_no_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_trans_tag_using_a_string_that_looks_like_str_fmt()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **simple translation of a string delimited by '.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **simple translation of a string to German** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **simple non-translation (only marking) of a string to German** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **Using filters with the {% translate %} tag (#5972).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (6 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 647](Community_647.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 48 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

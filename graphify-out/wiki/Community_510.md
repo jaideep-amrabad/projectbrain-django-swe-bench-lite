@@ -1,47 +1,40 @@
 # Community 510
 
-> 22 nodes · cohesion 0.09
+> 12 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **FormsMediaTestCase** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_form_media()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_merge_js_three_way()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_multi_widget()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_combine_media()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_construction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_html_safe()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_media_deduplication()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_media_dsl()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_media_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_media_inheritance_extends()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_media_inheritance_from_property()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_media_inheritance_single_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_media_property()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_media_property_parent_references()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_merge()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_merge_css_three_way()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_merge_js_three_way2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_merge_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **.test_multi_media()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **Tests for the media handling on widgets and forms** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
-- **The relative order of scripts is preserved in a three-way merge.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- **BaseModelForm** (12 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **._post_clean()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.validate_unique()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **._get_validation_exclusions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.save()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **._save_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **._update_errors()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.clean()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **For backwards-compatibility, exclude several types of fields from model…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **Call the instance's validate_unique() method and update the form's validation…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **Save the many-to-many fields and generic relations for this form.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **Save this form's self.instance object if commit=True. Otherwise, add a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 42](Community_42.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 236](Community_236.md) (1 shared connections)
+- [Community 176](Community_176.md) (2 shared connections)
+- [Community 256](Community_256.md) (2 shared connections)
+- [Community 54](Community_54.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 180](Community_180.md) (1 shared connections)
+- [Community 137](Community_137.md) (1 shared connections)
+- [Community 335](Community_335.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_media.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 23 (92%)
+- INFERRED: 2 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

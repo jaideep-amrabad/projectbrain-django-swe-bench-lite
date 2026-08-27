@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **.test_incomplete_data_form_with_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **POST incomplete data to a form using multiple templates** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_related_object_cached_when_reverse_is_accessed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- **Regression for #13839 and #17439. The origin of a one-to-one relation is cached…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
 
 ## Relationships
 
-- [Community 555](Community_555.md) (1 shared connections)
+- [Community 392](Community_392.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
 
 ## Audit Trail
 

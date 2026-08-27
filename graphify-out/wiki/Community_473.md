@@ -1,50 +1,51 @@
 # Community 473
 
-> 24 nodes · cohesion 0.11
+> 24 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **Element** (13 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **Parser** (12 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **RootElement** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.handle_endtag()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **._count()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.handle_startendtag()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.handle_starttag()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.append()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.__contains__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **normalize_whitespace()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.format_position()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.finalize()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.handle_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **HTMLParser** (1 connections)
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **CustomColumnsTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **custom_columns/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **custom_columns/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
+- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
+- **Author** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
+- **Custom column/table names If your database column name is different than your…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_attribute_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_author_filtering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_author_get()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_author_get_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_author_querying()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_field_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_filter_first_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_filter_on_nonexistent_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_get_all_articles_for_an_author()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_get_all_authors_for_an_article()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_get_author_m2m_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_get_first_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_m2m_table()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_query_all_available_authors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
 
 ## Relationships
 
-- [Community 76](Community_76.md) (5 shared connections)
-- [Community 176](Community_176.md) (1 shared connections)
-- [Community 592](Community_592.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 38](Community_38.md) (2 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
-- [Community 813](Community_813.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 33 (94%)
+- INFERRED: 2 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

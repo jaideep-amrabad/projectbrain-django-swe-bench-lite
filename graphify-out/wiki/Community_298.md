@@ -1,61 +1,63 @@
 # Community 298
 
-> 37 nodes · cohesion 0.07
+> 45 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **BytesIO** (51 connections)
-- **FileTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **DataUploadMaxMemorySizeGetTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
-- **DataUploadMaxNumberOfFieldsGet** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
-- **NoNameFileTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_file_iteration()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_file_iteration_mac_newlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_file_iteration_windows_newlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
-- **.test_get_max_fields_exceeded()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
-- **.test_get_max_fields_not_exceeded()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.test_file_iteration_mixed_newlines()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_file_iteration_with_mac_newline_at_chunk_boundary()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_file_iteration_with_unix_newline_at_chunk_boundary()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_file_iteration_with_windows_newline_at_chunk_boundary()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_file_mode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_namedtemporaryfile_closes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_open_resets_opened_file_to_start_and_returns_context_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_noname_file_default_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_noname_file_get_size()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_file_iteration_with_text()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_io_wrapper()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_open_reopens_closed_file_and_returns_context_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_readable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- *... and 12 more nodes in this community*
+- **MigrationQuestioner** (41 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **InteractiveMigrationQuestioner** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **Command** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
+- **.handle()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
+- **.handle_merge()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
+- **NonInteractiveMigrationQuestioner** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **._ask_default()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.write_migration_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
+- **.timezone()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.ask_auto_now_add_addition()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.ask_not_null_addition()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.ask_not_null_alteration()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **._boolean_input()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **._choice_input()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.test_timedelta_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
+- **.ask_rename()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.ask_rename_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.ask_initial()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.test_ask_initial_with_disabled_migrations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.ask_merge()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.ask_auto_now_add_addition()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.ask_merge()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.ask_not_null_addition()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.ask_not_null_alteration()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [Community 100](Community_100.md) (14 shared connections)
-- [Community 409](Community_409.md) (7 shared connections)
-- [Community 589](Community_589.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 35](Community_35.md) (2 shared connections)
-- [Community 133](Community_133.md) (2 shared connections)
-- [Community 401](Community_401.md) (2 shared connections)
-- [Community 16](Community_16.md) (2 shared connections)
-- [Community 472](Community_472.md) (2 shared connections)
-- [Community 76](Community_76.md) (2 shared connections)
-- [Community 210](Community_210.md) (2 shared connections)
-- [Community 175](Community_175.md) (2 shared connections)
+- [Community 24](Community_24.md) (16 shared connections)
+- [Community 54](Community_54.md) (10 shared connections)
+- [Community 100](Community_100.md) (7 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 20](Community_20.md) (4 shared connections)
+- [Community 489](Community_489.md) (3 shared connections)
+- [Community 33](Community_33.md) (1 shared connections)
+- [Community 48](Community_48.md) (1 shared connections)
+- [Community 252](Community_252.md) (1 shared connections)
+- [Community 528](Community_528.md) (1 shared connections)
+- [Community 74](Community_74.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (46%)
-- INFERRED: 53 (54%)
+- EXTRACTED: 108 (87%)
+- INFERRED: 16 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

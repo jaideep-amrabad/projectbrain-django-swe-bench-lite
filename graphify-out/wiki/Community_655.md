@@ -1,40 +1,44 @@
 # Community 655
 
-> 16 nodes · cohesion 0.12
+> 16 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **CheckboxSelectMultipleTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
-- **.test_label()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
-- **.test_separate_ids_constructor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
-- **.test_doesnt_localize_input_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
-- **.test_render_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
-- **.test_separate_ids()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
-- **.test_nested_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
-- **.test_nested_choices_without_id()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
-- **.test_render_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
-- **.test_render_value_multiple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
-- **.test_use_required_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
-- **.test_value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
-- **Each input gets a separate ID.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
-- **Each input gets a separate ID when the ID is passed to the constructor.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
-- **CheckboxSelectMultiple doesn't contain 'for="field_0"' in the <label> because…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
-- **If the value is None, none of the options are selected, even if the choices…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **CookieStorage** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **._decode()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **._encode()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **._legacy_decode()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **._legacy_hash()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **._store()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **._get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **._update_cookie()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **Store the messages to a cookie and return a list of any messages which could…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **# RemovedInDjango40Warning: pre-Django 3.1 hashes will be invalid. Create an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **Return an encoded version of the messages list which can be stored as plain…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **Safely decode an encoded text stream back into a list of messages. If the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **Store messages in a cookie.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **Retrieve a list of messages from the messages cookie. If the not_finished…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **Either set the cookie with the encoded data if there is any data to store, or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 62](Community_62.md) (1 shared connections)
+- [Community 364](Community_364.md) (4 shared connections)
+- [Community 37](Community_37.md) (3 shared connections)
+- [Community 234](Community_234.md) (2 shared connections)
+- [Community 626](Community_626.md) (2 shared connections)
+- [Community 456](Community_456.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 380](Community_380.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (90%)
-- INFERRED: 2 (10%)
+- EXTRACTED: 29 (85%)
+- INFERRED: 5 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

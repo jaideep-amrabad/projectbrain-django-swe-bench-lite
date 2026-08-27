@@ -1,55 +1,52 @@
 # Community 144
 
-> 60 nodes · cohesion 0.05
+> 34 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **ToFieldThroughTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
-- **m2m_through_regress/models.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **m2m_through_regress/tests.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
-- **MultiTableTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/test_multitable.py`
-- **M2MThroughTestCase** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
-- **test_multitable.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/test_multitable.py`
-- **Group** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **Person** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **M2MThroughSerializationTestCase** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
-- **Car** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **Membership** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **Driver** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **IndividualCompetitor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **CarDriver** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **CompetingTeam** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **Competitor** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **Event** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **ProxiedIndividualCompetitor** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **UserMembership** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **ThroughLoadDataTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **.test_serialization()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
-- **.test_join_trimming_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
-- **.test_sequence_creation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
-- **.test_m2m_relations_unusable_on_null_pk_obj()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
-- *... and 35 more nodes in this community*
+- **SpatialRefSysMixin** (24 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
+- **.srs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
+- **.angular_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
+- **.angular_units()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
+- **.datum()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
+- **.ellipsoid()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
+- **.geographic()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
+- **.get_spheroid()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
+- **.get_units()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
+- **.linear_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
+- **.linear_units()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
+- **.local()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
+- **.name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
+- **.projected()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
+- **.spheroid()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
+- **.units()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
+- **Return a tuple of (unit_value, unit_name) for the given WKT without using any…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
+- **Return a GDAL SpatialReference object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
+- **Class method used by GeometryField on initialization to retrieve the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
+- **Return the string representation, a 'pretty' OGC WKT.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
+- **Return a tuple of the ellipsoid parameters: (semimajor axis, semiminor axis,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
+- **Return the projection name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
+- **The SpatialRefSysMixin is a class used by the database-dependent SpatialRefSys…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
+- **Return the spheroid name for this spatial reference.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 38](Community_38.md) (7 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 143](Community_143.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 99](Community_99.md) (2 shared connections)
+- [Community 825](Community_825.md) (1 shared connections)
+- [Community 643](Community_643.md) (1 shared connections)
+- [Community 256](Community_256.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/test_multitable.py`
-- `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 95 (86%)
-- INFERRED: 16 (14%)
+- EXTRACTED: 40 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

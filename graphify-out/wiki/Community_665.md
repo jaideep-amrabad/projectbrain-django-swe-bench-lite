@@ -1,58 +1,42 @@
 # Community 665
 
-> 24 nodes · cohesion 0.12
+> 16 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **DatabaseWrapper** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **DatabaseCreation** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
-- **.is_in_memory_db()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
-- **.close()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.test_db_signature()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
-- **.check_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **._clone_test_db()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
-- **._create_test_db()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
-- **.get_test_db_clone_settings()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
-- **._get_test_db_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
-- **.get_connection_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.is_in_memory_db()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **._start_transaction_under_autocommit()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **._destroy_test_db()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
-- **.create_cursor()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.disable_constraint_checking()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.enable_constraint_checking()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.init_connection_state()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.is_usable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **._savepoint_allowed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **._set_autocommit()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **Check each table name in `table_names` for rows with invalid foreign key…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **Start a transaction explicitly in autocommit mode. Staying in autocommit mode…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **Return a tuple that uniquely identifies a test database. This takes into…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
+- **AdminCustomUrlsTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **.test_add_with_GET_args()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **.test_admin_URLs_no_clash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **.test_basic_add_GET()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **.test_basic_add_POST()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **.test_post_save_add_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **.test_post_save_change_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **.test_post_url_continue()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **ModelAdmin.response_post_save_add() controls the redirection after the 'Save'…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **The ModelAdmin.response_add()'s parameter `post_url_continue` controls the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **Remember that: * The Action model has a CharField PK. * The ModelAdmin for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **Ensure GET on the add_view works.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **Ensure GET on the add_view plus specifying a field value in the query string…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **Ensure POST on add_view works.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
 
 ## Relationships
 
-- [Community 402](Community_402.md) (3 shared connections)
-- [Community 72](Community_72.md) (3 shared connections)
-- [Community 302](Community_302.md) (2 shared connections)
-- [Community 129](Community_129.md) (2 shared connections)
-- [Community 467](Community_467.md) (1 shared connections)
-- [Community 387](Community_387.md) (1 shared connections)
-- [Community 169](Community_169.md) (1 shared connections)
-- [Community 162](Community_162.md) (1 shared connections)
-- [Community 428](Community_428.md) (1 shared connections)
-- [Community 294](Community_294.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 12](Community_12.md) (7 shared connections)
+- [Community 17](Community_17.md) (4 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 267](Community_267.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (88%)
-- INFERRED: 6 (12%)
+- EXTRACTED: 27 (90%)
+- INFERRED: 3 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

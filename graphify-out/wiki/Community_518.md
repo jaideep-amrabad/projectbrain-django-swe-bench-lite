@@ -1,47 +1,54 @@
 # Community 518
 
-> 21 nodes · cohesion 0.10
+> 22 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **HStoreField** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- **TestFormField** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **TestValidation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_invalid_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_model_field_formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_none_allowed_as_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_not_a_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- **.formfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- **.get_prep_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- **.validate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- **.value_to_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- **Field** (1 connections)
-- **.test_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_field_has_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_invalid_json()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_non_dict_json()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_none_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_not_string_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- **.test_valid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **MigrationTestBase** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **migrations/test_deprecated_fields.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_deprecated_fields.py`
+- **._get_column_allows_null()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.get_table_description()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **Tests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_deprecated_fields.py`
+- **.test_migrate()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_deprecated_fields.py`
+- **.assertColumnExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertColumnNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertColumnNotNull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertColumnNull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertConstraintExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertConstraintNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertFKExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertFKNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertIndexExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertIndexNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertTableExists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertTableNotExists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **.assertUniqueConstraintExists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **Contains an extended set of asserts for testing migrations and schema…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **Deprecated model fields should still be usable in historic migrations.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_deprecated_fields.py`
 
 ## Relationships
 
-- [Community 143](Community_143.md) (6 shared connections)
-- [Community 200](Community_200.md) (2 shared connections)
-- [Community 666](Community_666.md) (1 shared connections)
-- [Community 277](Community_277.md) (1 shared connections)
+- [Community 20](Community_20.md) (5 shared connections)
+- [Community 10](Community_10.md) (5 shared connections)
+- [Community 54](Community_54.md) (3 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 81](Community_81.md) (1 shared connections)
+- [Community 843](Community_843.md) (1 shared connections)
+- [Community 252](Community_252.md) (1 shared connections)
+- [Community 309](Community_309.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_deprecated_fields.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 50 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

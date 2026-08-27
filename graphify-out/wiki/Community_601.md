@@ -1,46 +1,42 @@
 # Community 601
 
-> 18 nodes · cohesion 0.22
+> 18 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **RouteForWriteTestCase** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.override_router()** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_fk_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_m2m_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_m2m_clear()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_m2m_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_m2m_get_or_create()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_m2m_remove()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_m2m_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_reverse_fk_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_reverse_fk_get_or_create()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_reverse_fk_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_reverse_m2m_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_reverse_m2m_clear()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_reverse_m2m_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_reverse_m2m_get_or_create()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_reverse_m2m_remove()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_reverse_m2m_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **FieldFile** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._require_file()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._get_file()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.open()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.path()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.size()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.closed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._del_file()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__getstate__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._set_file()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__setstate__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **File** (1 connections)
 
 ## Relationships
 
-- [Community 825](Community_825.md) (4 shared connections)
-- [Community 393](Community_393.md) (3 shared connections)
-- [Community 1093](Community_1093.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 656](Community_656.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 794](Community_794.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 592](Community_592.md) (1 shared connections)
+- [Community 283](Community_283.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (93%)
-- INFERRED: 3 (7%)
+- EXTRACTED: 26 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

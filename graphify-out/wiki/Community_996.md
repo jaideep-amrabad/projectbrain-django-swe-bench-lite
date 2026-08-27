@@ -4,27 +4,28 @@
 
 ## Key Concepts
 
-- **SignalsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.register_finished()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.register_started()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_request_signals()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_request_signals_streaming_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **GenericIPAddressFieldTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
+- **.test_genericipaddressfield_formfield_protocol()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
+- **.test_null_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
+- **.test_blank_string_saved_as_null()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
+- **.test_save_load()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
+- **GenericIPAddressField with a specified protocol does not generate a formfield…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
+- **Null values should be resolved to None.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 187](Community_187.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 8 (89%)
+- INFERRED: 1 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

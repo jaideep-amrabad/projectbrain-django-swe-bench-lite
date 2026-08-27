@@ -1,52 +1,51 @@
 # Community 457
 
-> 25 nodes · cohesion 0.12
+> 25 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **MultipleObjectMixin** (17 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **BaseListView** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **.paginate_queryset()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **.get()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **.get_context_data()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **ListView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **.get_queryset()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **.get_allow_empty()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **.get_paginate_by()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **.get_context_object_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **.get_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **.get_paginate_orphans()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **.get_paginator()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **A mixin for views manipulating multiple objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **Get the name of the item to be used in the context.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **Get the context for this view.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **A base view for displaying a list of objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **Render some list of objects, set by `self.model` or `self.queryset`.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **Return the list of items for this view. The return value must be an iterable…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **Return the field or fields to use for ordering the queryset.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **Paginate the queryset, if needed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **Get the number of items to paginate by, or ``None`` for no pagination.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **Return an instance of the paginator for this view.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **Return the maximum number of orphans extend the last page by when paginating.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **Return ``True`` if the view should display empty lists and ``False`` if a 404…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **BooleanFieldTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **NullBooleanModel** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **ValidationTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **BooleanModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **FksToBooleans** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **._test_get_prep_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_null_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **._test_to_python()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_nullbooleanfield_blank()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_booleanfield_choices_blank()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_booleanfield_get_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_booleanfield_to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_nullbooleanfield_get_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_nullbooleanfield_old_get_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_nullbooleanfield_old_to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_nullbooleanfield_to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_select_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **Model with FKs to models with {Null,}BooleanField's, #15040** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.test_nullbooleanfield_formfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_return_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **A BooleanField defaults to None, which isn't a valid value (#15124).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **NullBooleanField shouldn't throw a validation error when given a value of None.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **BooleanField with choices and defaults doesn't generate a formfield with the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **Boolean fields retrieved via select_related() should return booleans.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_boolean_field_doesnt_accept_empty_input()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (7 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 407](Community_407.md) (3 shared connections)
-- [Community 126](Community_126.md) (2 shared connections)
-- [Community 834](Community_834.md) (1 shared connections)
-- [Community 243](Community_243.md) (1 shared connections)
+- [Community 5](Community_5.md) (5 shared connections)
+- [Community 187](Community_187.md) (3 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (94%)
-- INFERRED: 3 (6%)
+- EXTRACTED: 39 (91%)
+- INFERRED: 4 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

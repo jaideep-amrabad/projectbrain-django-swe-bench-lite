@@ -1,57 +1,55 @@
 # Community 447
 
-> 25 nodes · cohesion 0.13
+> 30 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **AuthenticationForm** (29 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **AuthenticationFormTest** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.clean()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.confirm_login_allowed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.test_inactive_user_incorrect_password()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.get_invalid_login_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.test_username_field_max_length_defaults_to_254()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_username_field_max_length_matches_user_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **CustomRequestAuthenticationForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
-- **.test_custom_login_allowed_policy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_get_invalid_login_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_html_autocomplete_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_inactive_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_inactive_user_i18n()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_invalid_username()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_login_failed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_password_whitespace_not_stripped()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_success()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_unicode_username()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_username_field_autocapitalize_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.get_user()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **Base class for authenticating users. Extend this to get a form that accepts…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **Controls whether the given User may log in. This is a policy setting,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **An invalid login doesn't leak the inactive status of a user.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
+- **BaseEmailBackend** (20 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- **EmailBackend** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
+- **mail/backends/dummy.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/dummy.py`
+- **EmailBackend** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/locmem.py`
+- **.close()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- **custombackend.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/custombackend.py`
+- **EmailBackend** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/custombackend.py`
+- **.send_messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
+- **EmailBackend** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/dummy.py`
+- **.__enter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- **.open()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- **.send_messages()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- **.write_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
+- **.send_messages()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/locmem.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- **Open a network connection. This method can be overwritten by backend…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- **Close a network connection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- **Base class for email backend implementations. Subclasses must at least…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- **Send one or more EmailMessage objects and return the number of email messages…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
+- **Write all messages to the stream in a thread-safe way.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
+- **.send_messages()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/dummy.py`
+- **Dummy email backend that does nothing.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/dummy.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/locmem.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (7 shared connections)
-- [Community 8](Community_8.md) (5 shared connections)
-- [Community 80](Community_80.md) (4 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 229](Community_229.md) (2 shared connections)
-- [Community 632](Community_632.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 773](Community_773.md) (1 shared connections)
+- [Community 6](Community_6.md) (11 shared connections)
+- [Community 565](Community_565.md) (1 shared connections)
+- [Community 748](Community_748.md) (1 shared connections)
+- [Community 307](Community_307.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/dummy.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/locmem.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/custombackend.py`
 
 ## Audit Trail
 
-- EXTRACTED: 64 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 47 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,25 +1,28 @@
 # Community 1143
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **nav_sidebar.js** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/nav_sidebar.js`
-- **disableNavLinkTabbing()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/nav_sidebar.js`
-- **enableNavLinkTabbing()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/nav_sidebar.js`
+- **ProxyBug** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **ProxyProxyBug** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **Proxy of an inherited class** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **A proxy of proxy model with related field** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 497](Community_497.md) (5 shared connections)
+- [Community 814](Community_814.md) (2 shared connections)
+- [Community 290](Community_290.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/nav_sidebar.js`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 10 (83%)
+- INFERRED: 2 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

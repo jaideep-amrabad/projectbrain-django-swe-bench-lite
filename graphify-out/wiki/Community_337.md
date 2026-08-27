@@ -1,60 +1,59 @@
 # Community 337
 
-> 34 nodes · cohesion 0.11
+> 29 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **delete/tests.py** (48 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **delete/models.py** (45 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **RChild** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **GenericB2** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **R** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **DeleteTop** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **GenericB1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **GenericDeleteBottom** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **Origin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **Parent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **RChildChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **Referrer** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **B** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **B1** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **B2** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **B3** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **Base** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **DeleteBottom** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **get_default_r()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **HiddenUser** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **HiddenUserProfile** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **M2MFrom** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **M2MTo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **MR** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- *... and 9 more nodes in this community*
+- **.login()** (41 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **LogoutTest** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.confirm_logged_out()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_default_logout_then_login()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_security_check()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_security_check_https()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_logout_then_login_with_custom_login()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_logout_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_logout_with_custom_redirect_argument()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_logout_with_named_redirect()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_logout_with_next_page_specified()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_logout_with_redirect_argument()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_logout_preserve_language()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_logout_redirect_url_named_setting()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_logout_redirect_url_setting()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_logout_with_overridden_redirect_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_logout_with_post()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_success_url_allowed_hosts_safe_host()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_success_url_allowed_hosts_same_host()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_success_url_allowed_hosts_unsafe_host()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_14377()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_logout_doesnt_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **Logout with next_page option given redirects to specified resource** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **Logout with query string redirects to specified resource** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **Logout with custom query string redirects to specified resource** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 365](Community_365.md) (19 shared connections)
-- [Community 410](Community_410.md) (15 shared connections)
-- [Community 714](Community_714.md) (9 shared connections)
-- [Community 108](Community_108.md) (7 shared connections)
-- [Community 2](Community_2.md) (7 shared connections)
-- [Community 699](Community_699.md) (3 shared connections)
-- [Community 678](Community_678.md) (2 shared connections)
-- [Community 487](Community_487.md) (1 shared connections)
-- [Community 85](Community_85.md) (1 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
+- [Community 762](Community_762.md) (7 shared connections)
+- [Community 691](Community_691.md) (6 shared connections)
+- [Community 530](Community_530.md) (5 shared connections)
+- [Community 802](Community_802.md) (4 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 9](Community_9.md) (3 shared connections)
+- [Community 233](Community_233.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 267](Community_267.md) (2 shared connections)
+- [Community 73](Community_73.md) (2 shared connections)
+- [Community 845](Community_845.md) (1 shared connections)
+- [Community 237](Community_237.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 97 (73%)
-- INFERRED: 35 (27%)
+- EXTRACTED: 93 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

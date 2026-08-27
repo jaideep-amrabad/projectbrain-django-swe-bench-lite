@@ -1,60 +1,52 @@
 # Community 396
 
-> 29 nodes · cohesion 0.07
+> 26 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **SerializersTestBase** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **ComplexModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.test_one_to_one_as_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_pre_1000ad_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_serialize_to_stream()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_serialize_with_null_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_altering_serialized_output()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_deserialize_force_insert()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_deterministic_mapping_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_pkless_serialized_strings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_serialize_field_subset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_serialize_proxy_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_serialize_specific_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_serializer_roundtrip()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **Basic serialization works.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **Serialized content can be deserialized.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **The ability to create new objects by modifying serialized content.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **If you use your own primary key field (such as a OneToOneField), it doesn't…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **Output can be restricted to a subset of fields** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **Serialized data with no primary key results in a model instance with no id** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **Year values before 1000AD are properly formatted** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **Serialized strings without PKs can be turned into models** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **Mapping such as fields should be deterministically ordered. (#24558)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **Deserialized content can be saved with force_insert as a parameter.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- *... and 4 more nodes in this community*
+- **.urlopen()** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **LiveServerViews** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **LiveServerBase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **LiverServerThreadedTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **LiveServerDatabase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_database_writes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_fixtures_loaded()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_no_collectstatic_emulation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_protocol()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_check_model_instance_from_subview()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_view_calls_subview()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_404()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_closes_connection_without_content_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_environ()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_keep_alive_on_connection_with_content_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_media_files()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_static_files()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_keep_alive_connection_clears_previous_request_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **See `test_closes_connection_without_content_length` for details. This is a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **LiveServerTestCase reports a 404 status code when HTTP client tries to access a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **Fixtures are properly loaded and visible to the live server thread.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **Data written to the database by a view can be read.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **If LiverServerTestCase isn't threaded, these tests will hang.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **Launched server serves with HTTP 1.1.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 463](Community_463.md) (5 shared connections)
-- [Community 143](Community_143.md) (5 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
-- [Community 584](Community_584.md) (1 shared connections)
-- [Community 554](Community_554.md) (1 shared connections)
-- [Community 953](Community_953.md) (1 shared connections)
-- [Community 1053](Community_1053.md) (1 shared connections)
-- [Community 1050](Community_1050.md) (1 shared connections)
-- [Community 1051](Community_1051.md) (1 shared connections)
-- [Community 613](Community_613.md) (1 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
-- [Community 57](Community_57.md) (1 shared connections)
+- [Community 527](Community_527.md) (5 shared connections)
+- [Community 40](Community_40.md) (3 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 465](Community_465.md) (1 shared connections)
+- [Community 326](Community_326.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (90%)
-- INFERRED: 5 (10%)
+- EXTRACTED: 44 (94%)
+- INFERRED: 3 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

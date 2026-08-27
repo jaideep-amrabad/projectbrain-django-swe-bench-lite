@@ -1,30 +1,36 @@
 # Community 1026
 
-> 6 nodes · cohesion 0.47
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **first()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_first.py`
-- **.test_empty_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_first.py`
-- **.test_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_first.py`
-- **.test_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_first.py`
-- **Return the first item in a list.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **.test_create_child_no_update()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.a()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_cached_property_reuse_different_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
+- **.b()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
+- **Creating a child with non-abstract parents only issues INSERTs.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **Disallow this case because the decorated function wouldn't be cached.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 171](Community_171.md) (1 shared connections)
+- [Community 432](Community_432.md) (1 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
+- [Community 584](Community_584.md) (1 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 156](Community_156.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_first.py`
+- `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 7 (64%)
+- INFERRED: 4 (36%)
 - AMBIGUOUS: 0 (0%)
 
 ---

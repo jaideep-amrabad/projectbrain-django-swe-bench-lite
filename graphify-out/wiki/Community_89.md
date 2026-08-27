@@ -1,61 +1,64 @@
 # Community 89
 
-> 93 nodes · cohesion 0.06
+> 50 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **datetime.py** (47 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **test_extract_trunc.py** (44 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
-- **DateFunctionTests** (42 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
-- **.create_model()** (40 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
-- **Extract** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **TruncBase** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **Trunc** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **truncate_to()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
-- **.test_extract_func_with_timezone()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
-- **ExtractIsoYear** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **ExtractWeekDay** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **DateFunctionWithTimeZoneTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
-- **ExtractIsoWeekDay** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **ExtractQuarter** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **ExtractWeek** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **Now** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **TruncDate** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **TruncTime** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **TruncYear** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **ExtractHour** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **ExtractMinute** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **TruncDay** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **TruncHour** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **TruncWeek** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **.test_extract_year_exact_lookup()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
-- *... and 68 more nodes in this community*
+- **ArrayField** (54 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **MyModel** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/base/models.py`
+- **TestChecks** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **TestMigrations** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **TestValidation** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **ArrayFieldSubclass** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **KeysTransform** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **ValuesTransform** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **.test_nested_field_checks()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **Transform** (3 connections)
+- **.test_get_field_display()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_get_field_display_nested_array()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_field_checks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_invalid_base_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_invalid_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_valid_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_valid_default_none()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_subclass_deconstruct()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_invalid_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.db_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **.get_placeholder()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **.model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **.test_choices_tuple_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_deconstruct_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [Community 11](Community_11.md) (73 shared connections)
-- [Community 39](Community_39.md) (9 shared connections)
-- [Community 90](Community_90.md) (6 shared connections)
-- [Community 34](Community_34.md) (4 shared connections)
-- [Community 202](Community_202.md) (3 shared connections)
-- [Community 85](Community_85.md) (3 shared connections)
-- [Community 38](Community_38.md) (3 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 76](Community_76.md) (2 shared connections)
+- [Community 30](Community_30.md) (14 shared connections)
+- [Community 524](Community_524.md) (5 shared connections)
+- [Community 170](Community_170.md) (4 shared connections)
+- [Community 342](Community_342.md) (3 shared connections)
+- [Community 15](Community_15.md) (3 shared connections)
+- [Community 145](Community_145.md) (2 shared connections)
 - [Community 60](Community_60.md) (2 shared connections)
-- [Community 21](Community_21.md) (2 shared connections)
+- [Community 10](Community_10.md) (2 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 64](Community_64.md) (1 shared connections)
+- [Community 355](Community_355.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_now.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- `raw/code/hyd-evaluation/django-django/tests/base/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
 
 ## Audit Trail
 
-- EXTRACTED: 325 (90%)
-- INFERRED: 35 (10%)
+- EXTRACTED: 96 (83%)
+- INFERRED: 19 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,51 +1,62 @@
 # Community 524
 
-> 21 nodes · cohesion 0.14
+> 31 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **distinct_on_fields/tests.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
-- **DistinctOnTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
-- **distinct_on_fields/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **Tag** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **Celebrity** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **Staff** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **StaffTag** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **Fan** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **.test_basic_distinct_on()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
-- **.test_distinct_not_implemented_checks()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
-- **.test_distinct_on_get_ordering_preserved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
-- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
-- **.test_distinct_on_in_ordered_subquery()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
-- **Ordering shouldn't be cleared when distinct on fields are specified. refs #25081** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
-- **QuerySet.distinct('field', ...) works** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
+- **SimpleArrayField** (23 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **TestSimpleFormField** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **prefix_validation_error()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/utils.py`
+- **error()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **.run_validators()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.to_python()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.validate()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.run_validators()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **.validate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **.test_inlineformset_with_arrayfield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **._post_clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.test_already_converted_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_delimiter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_delimiter_with_nesting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_has_changed_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_max_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_min_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_model_field_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_model_field_formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_model_field_formfield_size()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_prepare_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_to_python_fail()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_valid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 29](Community_29.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 87](Community_87.md) (2 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
-- [Community 159](Community_159.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 21](Community_21.md) (1 shared connections)
+- [Community 5](Community_5.md) (9 shared connections)
+- [Community 89](Community_89.md) (5 shared connections)
+- [Community 293](Community_293.md) (4 shared connections)
+- [Community 523](Community_523.md) (2 shared connections)
+- [Community 253](Community_253.md) (2 shared connections)
+- [Community 30](Community_30.md) (2 shared connections)
+- [Community 502](Community_502.md) (1 shared connections)
+- [Community 267](Community_267.md) (1 shared connections)
+- [Community 521](Community_521.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (86%)
-- INFERRED: 6 (14%)
+- EXTRACTED: 53 (70%)
+- INFERRED: 23 (30%)
 - AMBIGUOUS: 0 (0%)
 
 ---

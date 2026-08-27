@@ -1,37 +1,28 @@
 # Community 1051
 
-> 6 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **Score** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.test_float_serialization()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_stream_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_indentation_whitespace()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **.test_no_indentation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **Float values serialize and deserialize intact** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **get_key_func()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **default_key_func()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **Default function to generate keys. Construct the key used by all other methods.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **Function to decide which key function to use. Default to ``default_key_func``.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
 
 ## Relationships
 
-- [Community 463](Community_463.md) (1 shared connections)
-- [Community 584](Community_584.md) (1 shared connections)
-- [Community 554](Community_554.md) (1 shared connections)
-- [Community 538](Community_538.md) (1 shared connections)
-- [Community 143](Community_143.md) (1 shared connections)
-- [Community 21](Community_21.md) (1 shared connections)
-- [Community 396](Community_396.md) (1 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 251](Community_251.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (67%)
-- INFERRED: 4 (33%)
+- EXTRACTED: 7 (88%)
+- INFERRED: 1 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

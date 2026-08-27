@@ -1,60 +1,59 @@
 # Community 112
 
-> 73 nodes · cohesion 0.05
+> 96 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **fixtures_regress/tests.py** (58 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **fixtures_regress/models.py** (51 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MNaturalKeyFixtureTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **BaseNKModel** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **NKChild** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Parent** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MComplexCircular2B** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **TestLoadFixtureFromOtherAppDirectory** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **Absolute** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Circle1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Circle2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Circle3** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **ExternalDependency** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MCircular1ThroughAB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MCircular1ThroughBC** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MCircular1ThroughCA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MCircular2ThroughAB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MComplexA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MComplexB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MComplexCircular1A** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MComplexCircular1B** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MComplexCircular1C** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MComplexCircular2A** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **M2MSimpleA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- *... and 48 more nodes in this community*
+- **.assertNoOutput()** (143 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.run_django_admin()** (77 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **StartProject** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **DjangoAdminSettingsDirectory** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **DjangoAdminAlternateSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **DjangoAdminFullPathDefaultSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **DjangoAdminMultipleSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- *... and 71 more nodes in this community*
 
 ## Relationships
 
-- [Community 623](Community_623.md) (17 shared connections)
-- [Community 139](Community_139.md) (7 shared connections)
-- [Community 507](Community_507.md) (7 shared connections)
-- [Community 2](Community_2.md) (6 shared connections)
-- [Community 38](Community_38.md) (3 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 231](Community_231.md) (2 shared connections)
-- [Community 29](Community_29.md) (2 shared connections)
-- [Community 542](Community_542.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 85](Community_85.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 98](Community_98.md) (67 shared connections)
+- [Community 191](Community_191.md) (21 shared connections)
+- [Community 214](Community_214.md) (18 shared connections)
+- [Community 453](Community_453.md) (17 shared connections)
+- [Community 246](Community_246.md) (16 shared connections)
+- [Community 608](Community_608.md) (8 shared connections)
+- [Community 720](Community_720.md) (8 shared connections)
+- [Community 557](Community_557.md) (8 shared connections)
+- [Community 667](Community_667.md) (8 shared connections)
+- [Community 195](Community_195.md) (8 shared connections)
+- [Community 760](Community_760.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 166 (86%)
-- INFERRED: 28 (14%)
+- EXTRACTED: 383 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

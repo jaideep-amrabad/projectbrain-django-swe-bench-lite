@@ -1,55 +1,51 @@
 # Community 434
 
-> 26 nodes · cohesion 0.08
+> 26 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **CharFieldTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- **PasswordInput** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_charfield_widget_attrs()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- **PasswordInputTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_passwordinput.py`
-- **.test_render_value_true()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_passwordinput.py`
-- **.get_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_charfield_length_not_int()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- **.test_charfield_strip()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- **.test_clean_non_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- **.test_strip_before_checking_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- **.test_charfield_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- **.test_charfield_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- **.test_charfield_3()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- **.test_charfield_4()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- **.test_charfield_5()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- **.test_charfield_disabled()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- **.test_null_characters_prohibited()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- **Values have whitespace stripped but not if strip=False.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- **A whitespace-only value, ' ', is stripped to an empty string and then converted…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- **CharField.clean() calls str(value) before stripping it.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- **Setting min_length or max_length to something that is not a number raises an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- **CharField.widget_attrs() always returns a dictionary and includes…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- **.test_render()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_passwordinput.py`
-- **.test_render_ignore_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_passwordinput.py`
+- **ResolutionOrderI18NTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.assertGettext()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **TranslationFileChangedTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **TranslationFilesMissing** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **LocalePathsResolutionOrderI18NTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_app_translation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **TranslationFallbackI18NTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.setUp()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_failure_finding_default_mo_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **AppResolutionOrderI18NTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **DjangoFallbackResolutionOrderI18NTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.tearDown()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_sparse_territory_catalog()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.tearDown()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_django_fallback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_locale_paths_override_app_translation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_locale_paths_translation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_ignores_non_mo_files()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_resets_cache_with_mo_files()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.patchGettextFind()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **Untranslated strings for territorial language variants use the translations of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
 - *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 6](Community_6.md) (7 shared connections)
-- [Community 433](Community_433.md) (1 shared connections)
-- [Community 902](Community_902.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 236](Community_236.md) (1 shared connections)
-- [Community 241](Community_241.md) (1 shared connections)
+- [Community 11](Community_11.md) (16 shared connections)
+- [Community 9](Community_9.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_passwordinput.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (86%)
-- INFERRED: 5 (14%)
+- EXTRACTED: 55 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

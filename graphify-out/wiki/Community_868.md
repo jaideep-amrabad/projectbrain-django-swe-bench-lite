@@ -1,35 +1,34 @@
 # Community 868
 
-> 10 nodes · cohesion 0.27
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **FormfieldCallbackTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **Callback** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_inlineformset_custom_callback()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_modelformset_custom_callback()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.assertCallbackCalled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_inlineformset_factory_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_modelformset_factory_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **Regression for #13095 and #17683: Using base forms with widgets defined in Meta…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **ParallelTestSuite** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **partition_suite_by_case()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.run()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Run a series of tests in parallel in several processes. While the unittest…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Distribute test cases across workers. Return an identifier of each test case…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **Partition a test suite by test case, preserving the order of tests.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
 
 ## Relationships
 
-- [Community 297](Community_297.md) (4 shared connections)
-- [Community 216](Community_216.md) (2 shared connections)
-- [Community 235](Community_235.md) (2 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
+- [Community 386](Community_386.md) (2 shared connections)
+- [Community 314](Community_314.md) (1 shared connections)
+- [Community 167](Community_167.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (90%)
-- INFERRED: 2 (10%)
+- EXTRACTED: 13 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

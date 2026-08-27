@@ -4,23 +4,23 @@
 
 ## Key Concepts
 
-- **CustomPaginator** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **TemplateResponseWithoutTemplate** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **._perform_cull_test()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_cull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_zero_cull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_zero_cull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Relationships
 
-- [Community 107](Community_107.md) (2 shared connections)
-- [Community 126](Community_126.md) (1 shared connections)
+- [Community 263](Community_263.md) (3 shared connections)
+- [Community 805](Community_805.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,54 +1,53 @@
 # Community 287
 
-> 38 nodes · cohesion 0.06
+> 33 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **model_enums/tests.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **ChoicesTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **CustomChoicesTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_templates()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_integerchoices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_textchoices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **Constants** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **Separator** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **Suit** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **YearInSchool** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **bytes** (1 connections)
-- **float** (1 connections)
-- **.test_integerchoices_auto_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_integerchoices_containment()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_integerchoices_empty_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_integerchoices_functional_api()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_invalid_definition()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_str()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_textchoices_auto_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_textchoices_blank_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_textchoices_containment()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_textchoices_empty_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_textchoices_functional_api()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_bool_unsupported()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- **.test_labels_valid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
-- *... and 13 more nodes in this community*
+- **Node** (25 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **NodeTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
+- **tree.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **.negate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **test_tree.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
+- **.__bool__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **.__contains__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **.__len__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
+- **.test_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
+- **.test_eq_children()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
+- **.test_eq_connector()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
+- **.test_eq_negated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
+- **.test_hash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
+- **.__deepcopy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **A class for storing a tree graph. Primarily used for filter constructs in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **A single internal node in the tree graph. A Node should be viewed as a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **Negate the sense of the root connector.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **Construct a new Node. If no connector is given, use the default.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **Return the number of children this node has.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **Return whether or not this node has children.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 42](Community_42.md) (4 shared connections)
-- [Community 76](Community_76.md) (3 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 605](Community_605.md) (1 shared connections)
+- [Community 7](Community_7.md) (5 shared connections)
+- [Community 856](Community_856.md) (2 shared connections)
+- [Community 931](Community_931.md) (2 shared connections)
+- [Community 97](Community_97.md) (2 shared connections)
+- [Community 174](Community_174.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_enums/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 48 (92%)
+- INFERRED: 4 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

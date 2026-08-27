@@ -1,31 +1,34 @@
 # Community 922
 
-> 8 nodes · cohesion 0.39
+> 9 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **Command** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
-- **.show_list()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
-- **.show_plan()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
-- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
-- **._validate_app_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
-- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
-- **Show all known migrations (or only those of the specified app_names) in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
-- **Show a list of all migrations on the system, or only those of some named apps.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
+- **FileSessionTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **FileSessionPathLibTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.mkdtemp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_configuration_check()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.mkdtemp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_invalid_key_backslash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_invalid_key_forwardslash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
 
 ## Relationships
 
-- [Community 130](Community_130.md) (3 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 220](Community_220.md) (1 shared connections)
+- [Community 628](Community_628.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
+- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 14 (93%)
+- INFERRED: 1 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,32 +1,27 @@
 # Community 930
 
-> 8 nodes · cohesion 0.25
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **DeclarativeFieldsMetaclass** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **MediaDefiningClass** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **media_property()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.__new__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.__new__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **Collect Fields declared on the base classes.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **type** (1 connections)
-- **Metaclass for classes that can have media definitions.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.get_distinct()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **._setup_joins()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Return a quoted list of fields to use in DISTINCT ON part of the query. This…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **Helper method for get_order_by() and get_distinct(). get_ordering() and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 157](Community_157.md) (1 shared connections)
+- [Community 362](Community_362.md) (2 shared connections)
+- [Community 151](Community_151.md) (2 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

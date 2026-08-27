@@ -1,37 +1,33 @@
 # Community 815
 
-> 11 nodes · cohesion 0.31
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **linebreaks_filter()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **FunctionTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
-- **.test_lazy_string_input()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
-- **.test_autoescape()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
-- **.test_autoescape_off()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
-- **.test_carriage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
-- **.test_carriage_newline()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
-- **.test_line()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
-- **.test_newline()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
-- **.test_non_string_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
-- **Replace line breaks in plain text with appropriate HTML; a single newline…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **BooleanField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **NullBooleanField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 171](Community_171.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 166](Community_166.md) (1 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 224](Community_224.md) (2 shared connections)
+- [Community 162](Community_162.md) (1 shared connections)
+- [Community 345](Community_345.md) (1 shared connections)
+- [Community 424](Community_424.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 13 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

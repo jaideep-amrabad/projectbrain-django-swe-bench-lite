@@ -1,36 +1,31 @@
 # Community 838
 
-> 8 nodes · cohesion 0.36
+> 7 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **custom_columns/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
-- **custom_columns/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
-- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
-- **Author** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
-- **Custom column/table names If your database column name is different than your…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
+- **LocalizeNode** (9 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
+- **LocalizeNodeTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
+- **.render()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
+- **Node** (1 connections)
 
 ## Relationships
 
-- [Community 653](Community_653.md) (3 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 76](Community_76.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (89%)
-- INFERRED: 2 (11%)
+- EXTRACTED: 11 (92%)
+- INFERRED: 1 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

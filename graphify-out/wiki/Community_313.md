@@ -1,36 +1,53 @@
 # Community 313
 
-> 11 nodes · cohesion 0.31
+> 33 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **OracleGISSchemaEditor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
-- **._create_spatial_index_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
-- **.geo_quote_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
-- **.column_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
-- **.remove_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
-- **.run_geometry_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
-- **.add_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
-- **.create_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
-- **.delete_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
-- **DatabaseSchemaEditor** (1 connections)
+- **RelatedModelsTests** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.assertRelated()** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.create_model()** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **get_related_models_recursive()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **_get_related_models()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **get_related_models_tuples()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **.test_generic_fk()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_abstract_base()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_base()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_base_to_base_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_base_to_subclass_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_circle()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_direct_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_direct_hidden_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_direct_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_direct_m2m_self()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_fk_through_proxy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_intermediate_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_intermediate_m2m_base()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_intermediate_m2m_extern_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_intermediate_m2m_self()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_multiple_bases()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_multiple_mixed_bases()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_multiple_nested_bases()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_nested_abstract_base()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Community 31](Community_31.md) (2 shared connections)
-- [Community 67](Community_67.md) (1 shared connections)
-- [Community 120](Community_120.md) (1 shared connections)
-- [Community 76](Community_76.md) (1 shared connections)
+- [Community 54](Community_54.md) (5 shared connections)
+- [Community 33](Community_33.md) (2 shared connections)
+- [Community 48](Community_48.md) (2 shared connections)
+- [Community 108](Community_108.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 93 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

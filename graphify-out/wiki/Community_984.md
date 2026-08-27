@@ -4,31 +4,30 @@
 
 ## Key Concepts
 
-- **Cos** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **CosTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cos.py`
-- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cos.py`
-- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cos.py`
-- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cos.py`
-- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cos.py`
-- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cos.py`
+- **field_defaults/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
+- **field_defaults/tests.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
+- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
+- **DefaultTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
+- **.test_field_defaults()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
+- **Callable defaults You can pass callable objects as the ``default`` parameter to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
 
 ## Relationships
 
-- [Community 11](Community_11.md) (4 shared connections)
-- [Community 314](Community_314.md) (1 shared connections)
-- [Community 541](Community_541.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 87](Community_87.md) (1 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 38](Community_38.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cos.py`
+- `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 15 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

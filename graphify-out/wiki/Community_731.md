@@ -1,60 +1,37 @@
 # Community 731
 
-> 59 nodes · cohesion 0.05
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **BaseModelAdmin** (35 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **InlineModelAdmin** (24 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_formset()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **get_permission_codename()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
-- **.formfield_for_foreignkey()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **._has_any_perms_for_target_model()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.formfield_for_manytomany()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_fieldsets()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_readonly_fields()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.has_delete_permission()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.formfield_for_dbfield()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_fields()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.formfield_for_choice_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_autocomplete_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_exclude()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_field_queryset()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_empty_value_display()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_inlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_prepopulated_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.get_queryset()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.has_add_permission()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.has_change_permission()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.has_delete_permission()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **.has_view_permission()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- *... and 34 more nodes in this community*
+- **URLFieldTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
+- **.test_urlfield_10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
+- **URLField correctly validates IPv6 (#18779).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
+- **.test_url_regex_ticket11198()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
+- **.test_urlfield_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
+- **.test_urlfield_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
+- **.test_urlfield_5()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
+- **.test_urlfield_6()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
+- **.test_urlfield_7()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
+- **.test_urlfield_9()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
+- **.test_urlfield_normalization()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
+- **.test_urlfield_not_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
+- **.test_urlfield_strip_on_none_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
+- **.test_urlfield_unable_to_set_strip_kwarg()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
 
 ## Relationships
 
-- [Community 30](Community_30.md) (26 shared connections)
-- [Community 1](Community_1.md) (11 shared connections)
-- [Community 223](Community_223.md) (3 shared connections)
-- [Community 446](Community_446.md) (2 shared connections)
-- [Community 108](Community_108.md) (1 shared connections)
-- [Community 385](Community_385.md) (1 shared connections)
-- [Community 505](Community_505.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 241](Community_241.md) (1 shared connections)
-- [Community 25](Community_25.md) (1 shared connections)
-- [Community 324](Community_324.md) (1 shared connections)
-- [Community 660](Community_660.md) (1 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 135 (95%)
-- INFERRED: 7 (5%)
+- EXTRACTED: 16 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

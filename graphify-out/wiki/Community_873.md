@@ -1,32 +1,33 @@
 # Community 873
 
-> 10 nodes · cohesion 0.36
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **JoinTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **setup** (8 connections)
-- **.test_join06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **.test_join08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **.test_join01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **.test_join02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **.test_join03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **.test_join04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **.test_join05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **.test_join07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
+- **JSONFieldTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **callable_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/models.py`
+- **.test_valid_callable_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **.test_invalid_default()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **.test_valid_default()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **.test_valid_default_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (4 shared connections)
+- [Community 137](Community_137.md) (1 shared connections)
+- [Community 42](Community_42.md) (1 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 9 (90%)
+- INFERRED: 1 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

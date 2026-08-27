@@ -1,48 +1,49 @@
 # Community 474
 
-> 17 nodes · cohesion 0.15
+> 23 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **PasswordResetConfirmClient** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/client.py`
-- **AuthTemplateTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
-- **.test_PasswordResetConfirmView_valid_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
-- **._get_password_reset_confirm_redirect_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/client.py`
-- **.test_PasswordResetConfirmView_invalid_token()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
-- **extract_token_from_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/client.py`
-- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/client.py`
-- **.post()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/client.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **Client** (1 connections)
-- **This client eases testing the password reset flow by emulating the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/client.py`
-- **.test_PasswordChangeDoneView()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
-- **.test_PasswordResetChangeView()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
-- **.test_PasswordResetCompleteView()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
-- **.test_PasswordResetDoneView()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
-- **.test_PasswordResetView()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
+- **ModelChoiceFieldTests** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_overridable_choice_iterator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_basics()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_choice_iterator_passes_model_to_widget()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_choices_bool()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_choices_bool_empty_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_choices_freshness()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_choices_not_fetched_when_not_rendering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_choices_radio_blank()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_clean_model_instance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_clean_to_field_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_custom_choice_iterator_passes_model_to_widget()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_deepcopies_widget()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_disabled_modelchoicefield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_disabled_modelchoicefield_has_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_disabled_modelchoicefield_initial_model_instance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_disabled_modelmultiplechoicefield_has_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_queryset_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_queryset_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_result_cache_not_shared()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **Iterator defaults to ModelChoiceIterator and can be overridden with the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 776](Community_776.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 244](Community_244.md) (2 shared connections)
-- [Community 449](Community_449.md) (2 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 79](Community_79.md) (4 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 353](Community_353.md) (2 shared connections)
 - [Community 38](Community_38.md) (1 shared connections)
+- [Community 1139](Community_1139.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/client.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (89%)
-- INFERRED: 4 (11%)
+- EXTRACTED: 27 (84%)
+- INFERRED: 5 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

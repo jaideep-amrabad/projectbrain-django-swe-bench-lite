@@ -1,49 +1,54 @@
 # Community 377
 
-> 30 nodes · cohesion 0.07
+> 25 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **get_connection()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **Atomic** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **clean_savepoints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **commit()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **get_autocommit()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **get_rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **mark_for_rollback_on_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **savepoint()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **savepoint_commit()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **savepoint_rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **set_autocommit()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **set_rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **.__enter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **ContextDecorator** (1 connections)
-- **Guarantee the atomic execution of a given block. An instance can be used either…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **Get a database connection by name, or the default database connection if no…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **Get the autocommit status of the connection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **Set the autocommit status of the connection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **Commit a transaction.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **Roll back a transaction.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **Create a savepoint (if supported and required by the backend) inside the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **Roll back the most recent savepoint (if one exists). Do nothing if savepoints…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- *... and 5 more nodes in this community*
+- **Reporter** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/models.py`
+- **AtomicErrorsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **AtomicMergeTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **AtomicMiscTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **NonAutocommitTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_atomic_allows_queries_after_fixing_transaction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_atomic_does_not_leak_savepoints_on_failure()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_wrap_callable_instance()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_orm_query_after_error_and_rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_atomic_prevents_queries_in_broken_transaction()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_atomic_prevents_queries_in_broken_transaction_after_client_close()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_orm_query_without_autocommit()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/models.py`
+- **.test_atomic_prevents_calling_transaction_methods()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_atomic_prevents_setting_autocommit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_merged_inner_savepoint_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_merged_outer_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_mark_for_rollback_on_error_in_autocommit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_mark_for_rollback_on_error_in_transaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **Test merging transactions with savepoint=False.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **#20028 -- Atomic must support wrapping callable instances.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **#23074 -- Savepoints must be released after rollback.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **ORM queries are allowed after an error and a rollback in non-autocommit mode…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **#24921 -- ORM queries must be possible after set_autocommit(False).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (13 shared connections)
-- [Community 334](Community_334.md) (1 shared connections)
+- [Community 7](Community_7.md) (5 shared connections)
+- [Community 843](Community_843.md) (5 shared connections)
+- [Community 28](Community_28.md) (4 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 378](Community_378.md) (1 shared connections)
+- [Community 120](Community_120.md) (1 shared connections)
+- [Community 432](Community_432.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- `raw/code/hyd-evaluation/django-django/tests/transactions/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 38 (84%)
+- INFERRED: 7 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

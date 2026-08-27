@@ -1,52 +1,42 @@
 # Community 408
 
-> 28 nodes · cohesion 0.07
+> 16 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **SimpleDatabaseOperationTests** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_adapt_timefield_value_unaware()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_adapt_datetimefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_adapt_timefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_adapt_timefield_value_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_adapt_unknown_value_date()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_adapt_unknown_value_decimal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_adapt_unknown_value_time()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_date_extract_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_date_trunc_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_datetime_cast_date_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_datetime_cast_time_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_datetime_extract_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_datetime_trunc_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_deferrable_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_end_transaction_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_json_cast_text_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_no_limit_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_pk_default_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_quote_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_regex_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_sequence_reset_by_name_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_set_time_zone_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_sql_flush()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- *... and 3 more nodes in this community*
+- **model_inheritance/models.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **CommonInfo** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Meta** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Student** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Attachment** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Worker** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Chef** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Post** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Rating** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Title** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Comment** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Link** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **NamedURL** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **XX. Model inheritance Model inheritance exists in two varieties: - abstract…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **# NOTE: The actual API tests for the following classes are in** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
 
 ## Relationships
 
-- [Community 41](Community_41.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 59](Community_59.md) (1 shared connections)
-- [Community 130](Community_130.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 1273](Community_1273.md) (16 shared connections)
+- [Community 584](Community_584.md) (7 shared connections)
+- [Community 1080](Community_1080.md) (5 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 538](Community_538.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 48 (89%)
+- INFERRED: 6 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

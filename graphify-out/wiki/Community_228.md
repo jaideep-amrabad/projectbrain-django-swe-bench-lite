@@ -1,52 +1,53 @@
 # Community 228
 
-> 45 nodes · cohesion 0.10
+> 44 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **SelectRelatedRegressTests** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
-- **select_related_regress/models.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **select_related_regress/tests.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
-- **Base** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Class** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **A** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **B** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **C** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Chick** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Client** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Hen** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Item** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Port** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **SpecialClient** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Building** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **ClientStatus** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Connection** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Country** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Device** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Enrollment** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Fowl** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Organizer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Person** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **State** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- *... and 20 more nodes in this community*
+- **WatchmanReloader** (19 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **BaseReloader** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **._update_watches()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **StatReloader** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **get_reloader()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.run()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.watched_files()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.check_server_status()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **._subscribe()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.notify_file_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.run_loop()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.check_availability()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.tick()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **._watch_glob()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.watched_roots()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.wait_for_apps_ready()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **common_roots()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.snapshot_files()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.tick()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **sys_path_directories()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **._check_subscription()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **._subscribe_dir()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **._watch_root()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.tick()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **trigger_reload()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- *... and 19 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 166](Community_166.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 54](Community_54.md) (10 shared connections)
+- [Community 650](Community_650.md) (2 shared connections)
+- [Community 426](Community_426.md) (2 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 528](Community_528.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
 
 ## Audit Trail
 
-- EXTRACTED: 78 (76%)
-- INFERRED: 24 (24%)
+- EXTRACTED: 79 (96%)
+- INFERRED: 3 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

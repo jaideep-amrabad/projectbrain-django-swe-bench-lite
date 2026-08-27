@@ -1,41 +1,39 @@
 # Community 627
 
-> 17 nodes · cohesion 0.16
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **QuerySetSupportsPythonIdioms** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.get_ordered_articles()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_can_get_items_using_index_and_slice_notation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_can_slice_again_after_slicing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_negative_indexing_not_supported_for_range()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_negative_indexing_not_supported_for_single_element()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_with_steps_can_be_used()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_with_tests_is_not_lazy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_without_step_is_lazy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **hint: inverting your ordering might do what you need** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_can_combine_queries_using_and_and_or_operators()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_can_get_number_of_items_in_queryset_using_standard_len()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_invalid_index()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_cannot_combine_queries_once_sliced()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_cannot_filter_queryset_once_sliced()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_cannot_reorder_queryset_once_sliced()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **AuthRouter** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
+- **.test_migrate_selection()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.allow_migrate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
+- **.allow_relation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
+- **.db_for_read()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
+- **.db_for_write()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
+- **Control all database operations on models in the contrib.auth application.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
+- **Point all read operations on auth models to 'default** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
+- **Point all operations on auth models to 'other** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
+- **Allow any relation if a model in Auth is involved** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
+- **Make sure the auth app only appears on the 'other' db** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
+- **Synchronization behavior is predictable** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
 
 ## Relationships
 
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 451](Community_451.md) (1 shared connections)
+- [Community 437](Community_437.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 475](Community_475.md) (2 shared connections)
+- [Community 217](Community_217.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
+- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 17 (89%)
+- INFERRED: 2 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

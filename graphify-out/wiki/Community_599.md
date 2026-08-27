@@ -1,41 +1,40 @@
 # Community 599
 
-> 18 nodes · cohesion 0.11
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **CookieTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_decode()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_invalid_cookies()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_nonstandard_keys()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_python_cookies()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_repeated_nonstandard_keys()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_cookie_edgecases()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_httponly_after_load()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_load_dict()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_pickle()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_samesite()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **Semicolons and commas are encoded.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **Semicolons and commas are decoded.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **A single non-standard cookie name doesn't affect all cookies (#13007).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **A repeated non-standard name doesn't affect all cookies (#15852).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **Test cases copied from Python's Lib/test/test_http_cookies.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **Cookie strings that go against RFC6265 but browsers will send if set via…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **._cursor()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **._prepare_cursor()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.create_cursor()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.make_cursor()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.make_debug_cursor()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.__repr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **Create a cursor. Assume that a connection is established.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **Validate the connection is usable and perform database cursor wrapping.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **Create a cursor, opening a connection if necessary.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **Create a cursor that logs all queries in self.queries_log.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **Create a cursor without debug logging.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **Display the module, class, and name of the field.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (6 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 74](Community_74.md) (7 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 162](Community_162.md) (1 shared connections)
+- [Community 635](Community_635.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 20 (91%)
+- INFERRED: 2 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

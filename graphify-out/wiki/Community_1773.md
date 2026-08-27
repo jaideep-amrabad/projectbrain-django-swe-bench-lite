@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **urls_error_handlers.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/urls_error_handlers.py`
+- **urls/empty.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/empty.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/urls_error_handlers.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/empty.py`
 
 ## Audit Trail
 

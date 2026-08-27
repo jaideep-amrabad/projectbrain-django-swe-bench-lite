@@ -4,21 +4,20 @@
 
 ## Key Concepts
 
-- **.test_min_num_displaying_more_than_one_blank_form_with_zero_extra()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **More than 1 empty form can be displayed using min_num.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.modify_insert_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Allow modification of insert parameters. Needed for Oracle Spatial backend due…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Relationships
 
-- [Community 470](Community_470.md) (1 shared connections)
-- [Community 546](Community_546.md) (1 shared connections)
+- [Community 106](Community_106.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

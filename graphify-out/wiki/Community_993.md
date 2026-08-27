@@ -1,32 +1,36 @@
 # Community 993
 
-> 7 nodes · cohesion 0.29
+> 7 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **TestAuthenticationMiddleware** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_middleware.py`
-- **.setUp()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_middleware.py`
-- **.test_no_session()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_middleware.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_middleware.py`
-- **.test_changed_password_invalidates_session()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_middleware.py`
-- **.test_no_password_change_does_not_invalidate_legacy_session()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_middleware.py`
-- **.test_no_password_change_doesnt_invalidate_session()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_middleware.py`
+- **SessionTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **.test_safedata()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **.test_get()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **.get_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **.stored_messages_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **.test_no_session()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **A message containing SafeData keeps its safe status when retrieved from the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 94](Community_94.md) (2 shared connections)
+- [Community 364](Community_364.md) (3 shared connections)
+- [Community 456](Community_456.md) (2 shared connections)
 - [Community 38](Community_38.md) (1 shared connections)
-- [Community 57](Community_57.md) (1 shared connections)
+- [Community 701](Community_701.md) (1 shared connections)
+- [Community 626](Community_626.md) (1 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
+- [Community 73](Community_73.md) (1 shared connections)
+- [Community 647](Community_647.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_middleware.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 16 (89%)
+- INFERRED: 2 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

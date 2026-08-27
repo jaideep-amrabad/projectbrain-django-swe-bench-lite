@@ -4,24 +4,25 @@
 
 ## Key Concepts
 
-- **Section** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.name_property()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **A simple section that links to articles, to test linking to related items in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **A property that simply returns the name. Used to test #24461** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **GetChoicesTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_lazy_strings_not_evaluated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_blank_in_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_blank_in_grouped_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_empty_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
 
 ## Relationships
 
-- [Community 64](Community_64.md) (1 shared connections)
-- [Community 78](Community_78.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 156](Community_156.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

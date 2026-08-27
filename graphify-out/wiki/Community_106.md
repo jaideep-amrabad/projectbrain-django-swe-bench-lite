@@ -1,62 +1,59 @@
 # Community 106
 
-> 76 nodes · cohesion 0.05
+> 70 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **CommonMiddleware** (42 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
-- **CommonMiddlewareTest** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **get_response_404()** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **XFrameOptionsMiddleware** (15 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/clickjacking.py`
-- **get_response_empty()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **XFrameOptionsMiddlewareTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **MiddlewareMixinTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_middleware_mixin.py`
-- **.test_append_slash_quoted()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_quoted_custom_urlconf()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_defaults_sameorigin()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_deny()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_same_origin()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.get_full_path_with_slash()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
-- **.process_request()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
-- **.should_redirect_with_slash()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
-- **.test_append_slash_disabled()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_disabled_custom_urlconf()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_have_slash()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_have_slash_custom_urlconf()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_leading_slashes()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_no_redirect_on_POST_in_DEBUG()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_no_redirect_on_POST_in_DEBUG_custom_urlconf()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_redirect()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_redirect_custom_urlconf()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_redirect_querystring()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- *... and 51 more nodes in this community*
+- **BaseDatabaseOperations** (89 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.window_frame_rows_start_end()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.combine_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.distinct_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.window_frame_range_start_end()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.autoinc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.check_expression_support()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.combine_duration_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.conditional_expression_supported_in_where_clause()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.date_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.datetime_cast_date_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.datetime_cast_time_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.execute_sql_flush()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.explain_query_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.fetch_returned_insert_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.for_update_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.force_no_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.get_db_converters()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.integer_field_range()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.json_cast_text_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.lookup_cast()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.max_in_list_size()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.max_name_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.prepare_sql_script()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.process_clob()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- *... and 45 more nodes in this community*
 
 ## Relationships
 
-- [Community 8](Community_8.md) (31 shared connections)
-- [Community 1](Community_1.md) (12 shared connections)
-- [Community 94](Community_94.md) (6 shared connections)
-- [Community 265](Community_265.md) (5 shared connections)
-- [Community 76](Community_76.md) (4 shared connections)
-- [Community 416](Community_416.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
+- [Community 7](Community_7.md) (9 shared connections)
+- [Community 756](Community_756.md) (7 shared connections)
+- [Community 11](Community_11.md) (4 shared connections)
+- [Community 933](Community_933.md) (4 shared connections)
+- [Community 1056](Community_1056.md) (3 shared connections)
 - [Community 940](Community_940.md) (2 shared connections)
-- [Community 35](Community_35.md) (2 shared connections)
-- [Community 103](Community_103.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 115](Community_115.md) (1 shared connections)
+- [Community 1164](Community_1164.md) (2 shared connections)
+- [Community 943](Community_943.md) (2 shared connections)
+- [Community 120](Community_120.md) (1 shared connections)
+- [Community 403](Community_403.md) (1 shared connections)
+- [Community 265](Community_265.md) (1 shared connections)
+- [Community 125](Community_125.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/middleware/clickjacking.py`
-- `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
-- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_middleware_mixin.py`
-- `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 178 (80%)
-- INFERRED: 44 (20%)
+- EXTRACTED: 127 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,39 +1,40 @@
 # Community 758
 
-> 13 nodes · cohesion 0.23
+> 13 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **GetFieldDisplayTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **Whiz** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **WhizDelayed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **WhizIter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **WhizIterEmpty** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.test_choices_and_field_display()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_empty_iterator_choices()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_get_FIELD_display_translated()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_iterator_choices()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **get_choices() works with Iterators.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **.test_overriding_inherited_FIELD_display()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **get_choices() interacts with get_FIELD_display() to return the expected values.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **A translated display value is coerced to str.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **TypedChoiceField** (13 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **TypedChoiceFieldTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- **._coerce()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.test_typedchoicefield_special_coerce()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- **.test_typedchoicefield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- **.test_typedchoicefield_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- **.test_typedchoicefield_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- **.test_typedchoicefield_4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- **.test_typedchoicefield_5()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- **.test_typedchoicefield_6()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- **.test_typedchoicefield_has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- **Validate that the value can be coerced to the right type (if not empty).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **A coerce function which results in a value not present in choices should raise…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (5 shared connections)
-- [Community 368](Community_368.md) (4 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 369](Community_369.md) (1 shared connections)
+- [Community 104](Community_104.md) (1 shared connections)
+- [Community 226](Community_226.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (86%)
-- INFERRED: 4 (14%)
+- EXTRACTED: 18 (69%)
+- INFERRED: 8 (31%)
 - AMBIGUOUS: 0 (0%)
 
 ---

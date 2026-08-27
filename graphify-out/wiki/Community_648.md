@@ -1,42 +1,44 @@
 # Community 648
 
-> 16 nodes · cohesion 0.15
+> 17 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **DiffSettings** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.assertNotInOutput()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_basic()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_default()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_unified()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_all()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_unified_all()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_settings_configured()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_dynamic_settings_configured()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Utility assertion: assert that the given message exists in the output** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Tests for diffsettings management command.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Runs without error and emits settings diff.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **The all option also shows settings with the default value.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **The --default option specifies an alternate settings module for comparison.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **--output=unified emits settings diff in unified mode.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **--output=unified --all emits settings diff in unified mode and includes…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **AssertContainsTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_assert_contains_renders_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_assert_contains_using_non_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_assert_not_contains_renders_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_assert_not_contains_using_non_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_contains()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_unicode_contains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_unicode_not_contains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **An unrendered SimpleTemplateResponse may be used in assertContains().** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **auto-rendering does not affect responses that aren't instances (or subclasses)…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_binary_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_binary_not_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_nontext_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_nontext_not_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Unicode characters can be found in template context** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Unicode characters can be searched for, and not found in template context** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Responses can be inspected for content, including counting repeated substrings** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Relationships
 
-- [Community 102](Community_102.md) (8 shared connections)
-- [Community 66](Community_66.md) (8 shared connections)
-- [Community 264](Community_264.md) (7 shared connections)
-- [Community 203](Community_203.md) (5 shared connections)
-- [Community 273](Community_273.md) (5 shared connections)
+- [Community 425](Community_425.md) (2 shared connections)
+- [Community 40](Community_40.md) (2 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 256](Community_256.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 51 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 25 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

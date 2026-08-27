@@ -1,68 +1,50 @@
 # Community 222
 
-> 48 nodes · cohesion 0.05
+> 45 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **.import_module()** (42 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **ClientMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.create()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
-- **get_package_libraries()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- **.test_calendar_show_date_from_input()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **EggLoader** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **get_installed_libraries()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- **.login()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.logout()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **YamlImportModuleMock** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **CustomLoader** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_deep_loader()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_shallow_loader()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_has_sumbodule_with_dotted_path()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_loader()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.import_models()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
-- **.compiler()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.session()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **DefaultLoader** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.handle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/management/commands/clearsessions.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/middleware.py`
-- **.store_exc_info()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.urlconf_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **Factory that creates an app config from an entry in INSTALLED_APPS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
-- *... and 23 more nodes in this community*
+- **setup** (44 connections)
+- **IfEqualTagTests** (40 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
+- **IfNotEqualTagTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
+- **.test_ifequal01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
+- **.test_ifequal02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
+- **.test_ifequal03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
+- **.test_ifequal04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
+- **.test_ifequal05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
+- **.test_ifequal06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
+- **.test_ifequal07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
+- **.test_ifequal08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
+- **.test_ifequal09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
+- **.test_ifequal10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
+- **.test_ifequal_filter01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
+- **.test_ifequal_filter02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
+- **.test_ifequal_filter03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
+- **.test_ifequal_filter04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
+- **.test_ifequal_filter05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
+- **.test_ifequal_numeric01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
+- **.test_ifequal_numeric02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
+- **.test_ifequal_numeric03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
+- **.test_ifequal_numeric04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
+- **.test_ifequal_numeric05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
+- **.test_ifequal_numeric06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
+- **.test_ifequal_numeric07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
+- *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [Community 5](Community_5.md) (11 shared connections)
-- [Community 218](Community_218.md) (4 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 556](Community_556.md) (3 shared connections)
-- [Community 53](Community_53.md) (2 shared connections)
-- [Community 63](Community_63.md) (2 shared connections)
-- [Community 76](Community_76.md) (2 shared connections)
-- [Community 94](Community_94.md) (2 shared connections)
-- [Community 143](Community_143.md) (2 shared connections)
-- [Community 130](Community_130.md) (2 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 411](Community_411.md) (2 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/apps/config.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/management/commands/clearsessions.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/middleware.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
 
 ## Audit Trail
 
-- EXTRACTED: 73 (63%)
-- INFERRED: 43 (37%)
+- EXTRACTED: 92 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

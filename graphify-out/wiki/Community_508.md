@@ -1,48 +1,57 @@
 # Community 508
 
-> 22 nodes · cohesion 0.11
+> 22 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **LocalizedDateTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **CustomDateInputFormatsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **SimpleDateFormatTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **Localized DateFields act as unlocalized widgets** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **DateFields can parse dates in the default format** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **DateFields with manually specified input formats can accept those formats** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **Localized DateFields with manually specified input formats can accept those…** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_dateField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_dateField_with_inputformat()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_localized_dateField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_localized_dateField_with_inputformat()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_dateField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_dateField_with_inputformat()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_localized_dateField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_localized_dateField_with_inputformat()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_dateField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_dateField_with_inputformat()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_localized_dateField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_localized_dateField_with_inputformat()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **Localized DateFields in a non-localized environment act as unlocalized widgets** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **DurationField** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.value_from_object()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **IntervalToSeconds** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/functions.py`
+- **SecondsToInterval** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/functions.py`
+- **oracle/functions.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/functions.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/functions.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/functions.py`
+- **.value_to_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.value_to_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.value_to_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.as_oracle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
+- **.value_to_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_db_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.value_to_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_db_converters()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **Store timedelta objects. Use interval on PostgreSQL, INTERVAL DAY TO SECOND on…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **Binary data is serialized as base64** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **Return a string value of this field from the passed obj. This is used by the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **Return the value of this field in the given model instance.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 218](Community_218.md) (2 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
+- [Community 46](Community_46.md) (3 shared connections)
+- [Community 162](Community_162.md) (3 shared connections)
+- [Community 111](Community_111.md) (2 shared connections)
+- [Community 345](Community_345.md) (2 shared connections)
+- [Community 243](Community_243.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 832](Community_832.md) (1 shared connections)
+- [Community 792](Community_792.md) (1 shared connections)
+- [Community 83](Community_83.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 224](Community_224.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/functions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 42 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

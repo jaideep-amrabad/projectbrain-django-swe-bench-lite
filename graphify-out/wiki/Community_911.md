@@ -1,30 +1,31 @@
 # Community 911
 
-> 9 nodes · cohesion 0.31
+> 9 nodes · cohesion 0.42
 
 ## Key Concepts
 
-- **PathNotImplementedStorage** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
-- **NeverCopyRemoteStorage** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
-- **._path()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
-- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
-- **.exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
-- **.listdir()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
-- **.get_modified_time()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
-- **._save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
-- **Return a future modified time for all files so that nothing is collected.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **MySqlDbshellCommandTestCase** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
+- **.get_command_line_arguments()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
+- **.test_basic_params_specified_in_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
+- **.test_can_connect_using_sockets()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
+- **.test_fails_with_keyerror_on_incomplete_config()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
+- **.test_options_override_settings_proper_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
+- **.test_options_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
+- **.test_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
+- **.test_ssl_certificate_is_added()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
 
 ## Relationships
 
-- [Community 20](Community_20.md) (2 shared connections)
+- [Community 304](Community_304.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 17 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

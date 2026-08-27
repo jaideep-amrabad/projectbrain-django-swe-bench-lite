@@ -1,53 +1,55 @@
 # Community 441
 
-> 26 nodes · cohesion 0.08
+> 25 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **SomeClass** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.test_basic_syntax20b()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **.test_basic_syntax09()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **.test_basic_syntax10()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **.test_basic_syntax11()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **.test_basic_syntax20()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **.test_filter_syntax13()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- **OtherClass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **Fail silently when accessing a non-simple method** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **Don't silence a TypeError if it was raised inside a callable.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **Attribute syntax allows a template to call an object's attribute** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **Multiple levels of attribute access are allowed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **Fail silently when a variable's attribute isn't found.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- **Fail silently for methods that raise an exception with a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- **.method()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.attribute_error_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.method()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.method2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.method3()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.method4()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.method5()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.noisy_fail_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.silent_fail_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- *... and 1 more nodes in this community*
+- **BaseHandler** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **.get_response()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **.get_response_async()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **AsyncClientHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **ClientHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.resolve_request()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **async_to_sync** (4 connections)
+- **.adapt_method_mode()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **.check_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **.make_view_atomic()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **.process_exception_by_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Resolve and call the view, then apply view, exception, and template_response…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Adapt a method to be in the correct "mode": - If is_async is False: -…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **Return an HttpResponse object for the given HttpRequest.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **Asynchronous version of get_response. Funneling everything, including WSGI,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **Retrieve/set the urlconf for the request. Return the view resolved, with its…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **Raise an error if the view returned None or an uncalled coroutine.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **Pass the exception to the exception middleware. If no middleware return a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **A HTTP Handler that can be used for testing purposes. Use the WSGI interface to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **An async version of ClientHandler.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
 
 ## Relationships
 
-- [Community 181](Community_181.md) (10 shared connections)
-- [Community 240](Community_240.md) (9 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 42](Community_42.md) (1 shared connections)
+- [Community 2](Community_2.md) (9 shared connections)
+- [Community 6](Community_6.md) (8 shared connections)
+- [Community 256](Community_256.md) (2 shared connections)
+- [Community 800](Community_800.md) (1 shared connections)
+- [Community 326](Community_326.md) (1 shared connections)
+- [Community 373](Community_373.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 95](Community_95.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- `raw/code/hyd-evaluation/django-django/django/test/client.py`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 51 (85%)
+- INFERRED: 9 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

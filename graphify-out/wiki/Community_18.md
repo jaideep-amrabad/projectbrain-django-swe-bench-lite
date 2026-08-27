@@ -1,60 +1,60 @@
 # Community 18
 
-> 182 nodes · cohesion 0.03
+> 29 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **AutodetectorTests** (136 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.get_changes()** (112 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.assertOperationTypes()** (102 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.assertNumberMigrations()** (101 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.assertOperationAttributes()** (85 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **ModelState** (68 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.assertMigrationDependencies()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_last_dependency()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_first_dependency()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_circular_dependency_swappable()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_circular_dependency_swappable2()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_circular_dependency_swappable_self()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_rename_model_reverse_relation_dependencies()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_rename_field_preserved_db_column()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_rename_model_with_fks_in_different_position()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_swappable()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_swappable_first_setting()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_add_model_with_field_removed_from_base_model()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_circular_fk_dependency()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_fk_dependency()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_fk_dependency_other_app()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_multiple_bases()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_proxy_fk_dependency()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_rename_field_and_foo_together()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_rename_field_foreign_key_to_field()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- *... and 157 more nodes in this community*
+- **MultiPartParser** (19 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.parse()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **parse_header()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **MultiParserTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **ChunkIter** (7 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **exhaust()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.handle_file_complete()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.IE_sanitize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.test_rfc2231_wrong_title()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **._close_files()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **_parse_header_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.test_bad_type_content_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_empty_upload_handlers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_invalid_content_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_negative_content_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_rfc2231_parsing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.__next__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **Parse the POST data and break it into a FILES MultiValueDict and a POST…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **Handle all the signaling that takes place when a file is complete.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **Cleanup filename from Internet Explorer full paths.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **An iterable that will yield chunks of data. Given a file-like object as the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **A rfc2388 multipart/form-data parser. ``MultiValueDict.parse()`` reads the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 642](Community_642.md) (49 shared connections)
-- [Community 292](Community_292.md) (36 shared connections)
-- [Community 51](Community_51.md) (10 shared connections)
-- [Community 167](Community_167.md) (10 shared connections)
-- [Community 284](Community_284.md) (10 shared connections)
-- [Community 86](Community_86.md) (9 shared connections)
-- [Community 24](Community_24.md) (8 shared connections)
-- [Community 8](Community_8.md) (7 shared connections)
-- [Community 130](Community_130.md) (5 shared connections)
-- [Community 121](Community_121.md) (4 shared connections)
-- [Community 186](Community_186.md) (3 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
+- [Community 6](Community_6.md) (14 shared connections)
+- [Community 14](Community_14.md) (3 shared connections)
+- [Community 118](Community_118.md) (3 shared connections)
+- [Community 325](Community_325.md) (2 shared connections)
+- [Community 700](Community_700.md) (1 shared connections)
+- [Community 142](Community_142.md) (1 shared connections)
+- [Community 73](Community_73.md) (1 shared connections)
+- [Community 181](Community_181.md) (1 shared connections)
+- [Community 116](Community_116.md) (1 shared connections)
+- [Community 661](Community_661.md) (1 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 711 (98%)
-- INFERRED: 18 (2%)
+- EXTRACTED: 61 (90%)
+- INFERRED: 7 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,46 +1,51 @@
 # Community 554
 
-> 20 nodes · cohesion 0.10
+> 20 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **JsonlSerializerTestCase** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **.test_custom_encoder()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **.test_helpful_error_message_for_foreign_keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **.test_helpful_error_message_for_many2many_natural1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **.test_helpful_error_message_for_many2many_natural2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **.test_helpful_error_message_for_many2many_non_natural()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **.test_helpful_error_message_for_many2many_not_iterable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **.test_helpful_error_message_invalid_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **.test_helpful_error_message_invalid_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **._get_field_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **._get_pk_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **.test_json_deserializer_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **._validate_output()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **Invalid foreign keys with a natural key throws a helpful error message, such as…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **Invalid many-to-many keys throws a helpful error message.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **Invalid many-to-many keys throws a helpful error message where one of a list of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **Invalid many-to-many keys throws a helpful error message where a natural many-…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **Not iterable many-to-many field value throws a helpful error message.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **If there is an invalid primary key, the error message contains the model…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
-- **If there is an invalid field value, the error message contains the model…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **NullableJSONModel** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **TestSaveLoad** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **JSONModel** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **JSONFieldTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **TestSerialization** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **AbstractPersonWithHeight** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.test_json_null_different_from_sql_null()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_primitives()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_custom_encoder_decoder()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_dumping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_xml_serialization()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **Abstract model that defines an ImageField with only one dimension field to make…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.test_db_check_constraints()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_invalid_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_dict()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_realistic_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_loading()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
 
 ## Relationships
 
-- [Community 143](Community_143.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 396](Community_396.md) (1 shared connections)
-- [Community 1051](Community_1051.md) (1 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
+- [Community 5](Community_5.md) (5 shared connections)
+- [Community 28](Community_28.md) (4 shared connections)
+- [Community 187](Community_187.md) (3 shared connections)
+- [Community 120](Community_120.md) (2 shared connections)
+- [Community 267](Community_267.md) (2 shared connections)
+- [Community 38](Community_38.md) (2 shared connections)
+- [Community 168](Community_168.md) (1 shared connections)
+- [Community 39](Community_39.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 38 (81%)
+- INFERRED: 9 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

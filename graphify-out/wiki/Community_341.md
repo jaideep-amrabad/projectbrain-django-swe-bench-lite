@@ -1,55 +1,48 @@
 # Community 341
 
-> 33 nodes · cohesion 0.06
+> 32 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **DatabaseFeatures** (30 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- **mysql/test_features.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_features.py`
-- **TestFeatures** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_features.py`
-- **.allows_auto_pk_0()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- **.can_introspect_foreign_keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- **._mysql_storage_engine()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- **.supports_transactions()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- **.test_allows_auto_pk_0()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_features.py`
-- **.test_skip_locked_no_wait()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_features.py`
-- **.test_supports_transactions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_features.py`
-- **.can_introspect_check_constraints()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- **.can_introspect_json_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- **.can_return_columns_from_insert()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- **.has_select_for_update_nowait()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- **.has_select_for_update_of()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- **.has_select_for_update_skip_locked()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- **.has_zoneinfo_database()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- **.ignores_table_name_case()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- **.introspected_field_types()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- **.is_sql_auto_is_null_enabled()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- **.supported_explain_formats()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- **.supports_column_check_constraints()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- **.supports_default_in_lead_lag()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- **.supports_explain_analyze()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- **.supports_json_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- *... and 8 more nodes in this community*
+- **WidthRatioTagTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
+- **setup** (26 connections)
+- **.test_widthratio06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
+- **.test_widthratio07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
+- **.test_widthratio11()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
+- **.test_widthratio15()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
+- **.test_typeerror_as_var()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
+- **.test_widthratio01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
+- **.test_widthratio02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
+- **.test_widthratio03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
+- **.test_widthratio04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
+- **.test_widthratio05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
+- **.test_widthratio08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
+- **.test_widthratio09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
+- **.test_widthratio10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
+- **.test_widthratio12a()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
+- **.test_widthratio12b()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
+- **.test_widthratio13a()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
+- **.test_widthratio13b()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
+- **.test_widthratio14a()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
+- **.test_widthratio14b()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
+- **.test_widthratio16()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
+- **.test_widthratio17()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
+- **.test_widthratio18()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
+- **.test_widthratio19()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 162](Community_162.md) (3 shared connections)
-- [Community 76](Community_76.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 357](Community_357.md) (1 shared connections)
-- [Community 429](Community_429.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_features.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_width_ratio.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 58 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

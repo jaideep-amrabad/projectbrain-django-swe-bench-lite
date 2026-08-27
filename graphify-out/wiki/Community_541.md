@@ -1,68 +1,46 @@
 # Community 541
 
-> 43 nodes · cohesion 0.07
+> 21 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **NumericOutputFieldMixin** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
-- **Log** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **ATan2** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **Mod** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **Power** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **.test_filtered_aggregates()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **StdDev** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
-- **Variance** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
-- **.test_aggregates()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
-- **Count** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
-- **Star** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **ATan2Tests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan2.py`
-- **LogTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_log.py`
-- **ModTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_mod.py`
-- **PowerTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_power.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
-- **.test_stddev()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
-- **._get_repr_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
-- **._get_repr_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
-- **._get_repr_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
-- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan2.py`
-- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan2.py`
-- *... and 18 more nodes in this community*
+- **WatchmanReloaderTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **RunWithReloaderTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **dict** (4 connections)
+- **.test_calls_start_django()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_calls_sys_exit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_swallows_keyboard_interrupt()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_check_availability()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_check_availability_lower_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_setting_timeout_from_environment_variable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_watched_roots_contains_sys_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_check_server_status()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_check_server_status_raises_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_pywatchman_not_available()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_update_watches_raises_exceptions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_watch_glob_ignores_non_existing_directories_two_levels()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_watch_glob_multiple_patterns()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_watch_glob_uses_existing_parent_directories()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_watched_roots_contains_directory_globs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_watched_roots_contains_files()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Relationships
 
-- [Community 11](Community_11.md) (20 shared connections)
-- [Community 21](Community_21.md) (11 shared connections)
-- [Community 76](Community_76.md) (8 shared connections)
-- [Community 39](Community_39.md) (6 shared connections)
-- [Community 73](Community_73.md) (5 shared connections)
-- [Community 314](Community_314.md) (4 shared connections)
-- [Community 38](Community_38.md) (4 shared connections)
-- [Community 159](Community_159.md) (3 shared connections)
-- [Community 202](Community_202.md) (2 shared connections)
-- [Community 97](Community_97.md) (1 shared connections)
-- [Community 977](Community_977.md) (1 shared connections)
-- [Community 978](Community_978.md) (1 shared connections)
+- [Community 330](Community_330.md) (8 shared connections)
+- [Community 426](Community_426.md) (4 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 309](Community_309.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
-- `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan2.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_log.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_mod.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_power.py`
-- `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Audit Trail
 
-- EXTRACTED: 116 (87%)
-- INFERRED: 17 (13%)
+- EXTRACTED: 35 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

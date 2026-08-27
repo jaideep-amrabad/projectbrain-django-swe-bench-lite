@@ -1,63 +1,69 @@
 # Community 111
 
-> 53 nodes · cohesion 0.05
+> 66 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **resolve()** (45 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
-- **SimplifiedURLTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
-- **DynamicConverter** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
-- **ConversionExceptionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
-- **LookaheadTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **ResolverMatchTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **empty_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/views.py`
-- **ConverterTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
-- **.test_404_tried_urls_have_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_non_regex()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_matching_urls()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
-- **.test_converter_resolve()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
-- **.test_converter_reverse()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
-- **.test_converter_reverse_with_second_layer_instance_namespace()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
-- **.regex()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
-- **.test_invalid_resolve()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_invalid_reverse()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_valid_resolve()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_valid_reverse()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_resolver_match_on_request_before_resolution()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_urlpattern_resolve()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_resolve_type_error_propagates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
-- **.test_resolve_value_error_means_no_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
-- **.test_reverse_type_error_propagates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
-- *... and 28 more nodes in this community*
+- **NumericOutputFieldMixin** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
+- **functions/mixins.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
+- **FloatField** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **Log** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **ATan2** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Cot** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Mod** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Radians** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Exp** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Ln** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Sqrt** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **CotTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cot.py`
+- **ExpTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_exp.py`
+- **LnTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ln.py`
+- **RadiansTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_radians.py`
+- **SqrtTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sqrt.py`
+- **ATan2Tests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan2.py`
+- **LogTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_log.py`
+- **ModTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_mod.py`
+- **FixDecimalInputMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
+- **.as_sqlite()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **._resolve_output_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan2.py`
+- *... and 41 more nodes in this community*
 
 ## Relationships
 
-- [Community 13](Community_13.md) (10 shared connections)
-- [Community 76](Community_76.md) (9 shared connections)
-- [Community 8](Community_8.md) (8 shared connections)
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 9](Community_9.md) (5 shared connections)
-- [Community 138](Community_138.md) (4 shared connections)
-- [Community 53](Community_53.md) (3 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 327](Community_327.md) (2 shared connections)
-- [Community 610](Community_610.md) (2 shared connections)
-- [Community 30](Community_30.md) (1 shared connections)
+- [Community 38](Community_38.md) (47 shared connections)
+- [Community 132](Community_132.md) (10 shared connections)
+- [Community 26](Community_26.md) (6 shared connections)
+- [Community 60](Community_60.md) (5 shared connections)
+- [Community 46](Community_46.md) (4 shared connections)
+- [Community 832](Community_832.md) (3 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 368](Community_368.md) (2 shared connections)
+- [Community 508](Community_508.md) (2 shared connections)
+- [Community 162](Community_162.md) (1 shared connections)
+- [Community 224](Community_224.md) (1 shared connections)
+- [Community 345](Community_345.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/urls/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan2.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cot.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_exp.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ln.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_log.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_mod.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_radians.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sqrt.py`
 
 ## Audit Trail
 
-- EXTRACTED: 124 (96%)
-- INFERRED: 5 (4%)
+- EXTRACTED: 180 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

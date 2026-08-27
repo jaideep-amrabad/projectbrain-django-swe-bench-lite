@@ -4,22 +4,23 @@
 
 ## Key Concepts
 
-- **FullMiddleware** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
-- **.test_process_view_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
-- **.process_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
-- **.process_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
-- **.process_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
-- **.process_template_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
-- **Test a middleware that implements process_view.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **JSONEqualTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_equal_parsing_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_not_equal_parsing_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_equal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_equal_raise()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_equal_unordered()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_not_equal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_not_equal_raise()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Audit Trail
 

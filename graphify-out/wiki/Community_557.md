@@ -1,44 +1,42 @@
 # Community 557
 
-> 19 nodes · cohesion 0.13
+> 16 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **SafeStringTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.assertRenderEqual()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **customescape** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_add_lazy_safe_text_and_safe_text()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe_decorator_does_not_affect_promises()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe_lazy()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe_object_implementing_dunder_html()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe_as_decorator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe_decorator_does_not_affect_dunder_html()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe_object_implementing_dunder_str()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe_str()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_mark_safe_result_implements_dunder_html()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.__html__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **str** (1 connections)
-- **Calling str() on a SafeString instance doesn't lose the safe status.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **mark_safe used as a decorator leaves the result of a function unchanged.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **mark_safe doesn't affect a callable that has an __html__() method.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **mark_safe doesn't affect lazy strings (Promise objects).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
+- **ManageDefaultSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **A series of tests for manage.py when using a settings.py file that contains the…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **default: manage.py builtin commands succeed if settings are provided as argument** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **default: manage.py can execute user commands when settings are provided as…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **default: manage.py builtin commands succeed when default settings are…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **default: manage.py builtin commands succeed if settings file (from argument)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **default: manage.py builtin commands fail if settings file (from environment)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **default: manage.py can execute user commands when default settings are…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (14 shared connections)
-- [Community 594](Community_594.md) (3 shared connections)
-- [Community 42](Community_42.md) (2 shared connections)
-- [Community 166](Community_166.md) (1 shared connections)
+- [Community 214](Community_214.md) (9 shared connections)
+- [Community 112](Community_112.md) (8 shared connections)
+- [Community 98](Community_98.md) (8 shared connections)
+- [Community 191](Community_191.md) (2 shared connections)
+- [Community 246](Community_246.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 45 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,54 +1,59 @@
 # Community 483
 
-> 23 nodes · cohesion 0.13
+> 40 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **ChangeList** (25 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **.get_queryset()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **.get_ordering()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **.get_filters_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **.get_ordering_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **.get_ordering_field_columns()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **.apply_select_related()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **._get_default_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **._get_deterministic_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **.get_query_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **.url_for_result()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **CustomChangeList** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.get_results()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **.has_related_field_in_list_display()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **ChangeListSearchForm** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **Return all params except IGNORED_PARAMS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **Return the proper model field name corresponding to the given field_name to use…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **Return the list of ordering fields for the change list. First check the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **Ensure a deterministic order across all database backends. Search for a single…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **Return a dictionary of ordering field column numbers and asc/desc.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **.get_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **PostGISOperations** (38 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **._get_postgis_func()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.spatial_version()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **ST_Polygon** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.postgis_version_tuple()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.postgis_lib_version()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.postgis_proj_version()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.geo_db_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **._normalize_distance_lookup_arg()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.parse_raster()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.postgis_full_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.postgis_geos_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.postgis_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.proj_version_tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.convert_extent()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.convert_extent3d()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.distance_expr_for_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.get_distance()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.get_geom_placeholder()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **Return PostGIS version number and compile-time options.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.output_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.function_names()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.geometry_columns()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.get_area_att_for_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.spatial_aggregate_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (11 shared connections)
-- [Community 30](Community_30.md) (2 shared connections)
-- [Community 64](Community_64.md) (2 shared connections)
-- [Community 40](Community_40.md) (2 shared connections)
-- [Community 126](Community_126.md) (1 shared connections)
-- [Community 70](Community_70.md) (1 shared connections)
-- [Community 595](Community_595.md) (1 shared connections)
-- [Community 243](Community_243.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
+- [Community 7](Community_7.md) (7 shared connections)
+- [Community 820](Community_820.md) (2 shared connections)
+- [Community 99](Community_99.md) (2 shared connections)
+- [Community 825](Community_825.md) (2 shared connections)
+- [Community 60](Community_60.md) (1 shared connections)
+- [Community 736](Community_736.md) (1 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
+- [Community 788](Community_788.md) (1 shared connections)
+- [Community 85](Community_85.md) (1 shared connections)
+- [Community 29](Community_29.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 54](Community_54.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (88%)
-- INFERRED: 7 (12%)
+- EXTRACTED: 66 (88%)
+- INFERRED: 9 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

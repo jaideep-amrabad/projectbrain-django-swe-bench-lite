@@ -1,28 +1,24 @@
 # Community 1088
 
-> 5 nodes · cohesion 0.40
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **CustomLayoutExtractionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_project_locale_paths()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_no_locale_raises()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_project_locale_paths_pathlib()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- *** translations for an app containing a locale folder are stored in that folder…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_alternate_i18n_sitemap_xdefault()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **A i18n sitemap index with x-default can be rendered.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 526](Community_526.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 192](Community_192.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

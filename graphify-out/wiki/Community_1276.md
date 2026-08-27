@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **.test_insecure()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **GET a URL through http** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_model_pickle()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **A model not defined on module level is picklable.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
 
 ## Relationships
 
-- [Community 555](Community_555.md) (1 shared connections)
+- [Community 395](Community_395.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
 
 ## Audit Trail
 

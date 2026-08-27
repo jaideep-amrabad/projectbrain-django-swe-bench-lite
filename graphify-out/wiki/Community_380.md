@@ -1,64 +1,53 @@
 # Community 380
 
-> 32 nodes · cohesion 0.07
+> 18 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **extend_sys_path()** (38 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **EggLoadingTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **TestSysPathDirectories** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_discover_commands_in_eggs()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- **.test_egg1()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **.test_egg2()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **.test_egg3()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **.test_egg4()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **.test_egg5()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **.test_multiple_paths()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_multiple_paths_explicit_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_single_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_middleware_headers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/project_template/test_settings.py`
-- **.test_sys_paths_directories()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_sys_paths_non_existing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_sys_paths_with_directories()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **Context manager to temporarily add paths to sys.path.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **Models module can be loaded from an app in an egg** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **Loading an app from an egg that has no models returns no models (and no error)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **Models module can be loaded from an app located under an egg's top-level package** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **Loading an app with no models from under the top-level egg package generates no…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **Loading an app from an egg that has an import error in its models module raises…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **A Py3.3+ namespace package can be an app if it has only one path.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- *... and 7 more nodes in this community*
+- **get_random_string()** (22 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
+- **salted_hmac()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
+- **test_crypto.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
+- **InvalidAlgorithm** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
+- **TestUtilsCryptoMisc** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
+- **DeprecationTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
+- **.get_session_auth_hash()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
+- **.test_get_random_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
+- **._legacy_get_session_auth_hash()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
+- **.test_get_random_string_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
+- **.test_constant_time_compare()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
+- **.test_invalid_algorithm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
+- **.test_salted_hmac()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
+- **Return an HMAC of the password field.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
+- **ValueError** (1 connections)
+- **Algorithm is not supported by hashlib.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
+- **Return the HMAC of 'value', using a key generated from key_salt and a secret…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
+- **Return a securely generated random string. The bit length of the returned value…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (7 shared connections)
-- [Community 556](Community_556.md) (5 shared connections)
-- [Community 76](Community_76.md) (4 shared connections)
-- [Community 364](Community_364.md) (3 shared connections)
-- [Community 24](Community_24.md) (2 shared connections)
-- [Community 724](Community_724.md) (2 shared connections)
-- [Community 49](Community_49.md) (2 shared connections)
-- [Community 222](Community_222.md) (2 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 47](Community_47.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
+- [Community 6](Community_6.md) (13 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 785](Community_785.md) (3 shared connections)
+- [Community 110](Community_110.md) (2 shared connections)
+- [Community 411](Community_411.md) (2 shared connections)
+- [Community 511](Community_511.md) (2 shared connections)
+- [Community 399](Community_399.md) (1 shared connections)
+- [Community 462](Community_462.md) (1 shared connections)
+- [Community 159](Community_159.md) (1 shared connections)
+- [Community 206](Community_206.md) (1 shared connections)
+- [Community 188](Community_188.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/project_template/test_settings.py`
-- `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
 
 ## Audit Trail
 
-- EXTRACTED: 71 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 67 (94%)
+- INFERRED: 4 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

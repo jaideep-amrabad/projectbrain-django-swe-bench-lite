@@ -1,32 +1,32 @@
 # Community 889
 
-> 8 nodes · cohesion 0.25
+> 10 nodes · cohesion 0.36
 
 ## Key Concepts
 
-- **Queries5Tests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket5261()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_extra_select_literal_percent_s()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ordering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket7045()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket7256()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket9848()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **InvalidStringTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_invalid_string.py`
+- **setup** (8 connections)
+- **.test_invalidstr01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_invalid_string.py`
+- **.test_invalidstr02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_invalid_string.py`
+- **.test_invalidstr03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_invalid_string.py`
+- **.test_invalidstr04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_invalid_string.py`
+- **.test_invalidstr04_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_invalid_string.py`
+- **.test_invalidstr05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_invalid_string.py`
+- **.test_invalidstr06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_invalid_string.py`
+- **.test_invalidstr07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_invalid_string.py`
 
 ## Relationships
 
-- [Community 15](Community_15.md) (5 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_invalid_string.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (71%)
-- INFERRED: 4 (29%)
+- EXTRACTED: 18 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

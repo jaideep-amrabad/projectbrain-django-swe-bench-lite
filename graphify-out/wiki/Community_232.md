@@ -1,57 +1,57 @@
 # Community 232
 
-> 32 nodes · cohesion 0.07
+> 36 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **ForeignObjectRel** (31 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.remote_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.__repr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_cache_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.is_hidden()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.target_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.check_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/validation.py`
-- **.get_accessor_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.get_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.get_path_info()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.hidden()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.set_field_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **Display the module, class, and name of the field.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.get_extra_restriction()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.get_joining_columns()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.get_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.many_to_many()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.many_to_one()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.one_to_many()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.one_to_one()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.related_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- *... and 7 more nodes in this community*
+- **sanitize_address()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **SafeMIMEText** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **forbid_multi_line_headers()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **SafeMIMEMultipart** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **BadHeaderError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **._create_mime_attachment()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **MIMEMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **._create_attachments()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **SafeMIMEMessage** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **._create_attachment()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.message()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **._create_alternatives()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **._create_message()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **._set_list_header_if_not_empty()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.as_bytes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.test_sanitize_address()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **._create_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.as_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **ValueError** (2 connections)
+- **Return the entire formatted message as a string. Optional `unixfrom' when True,…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.__setitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.__setitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.__setitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.test_sanitize_address_header_injection()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_sanitize_address_invalid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [Community 76](Community_76.md) (3 shared connections)
-- [Community 717](Community_717.md) (3 shared connections)
-- [Community 699](Community_699.md) (2 shared connections)
-- [Community 116](Community_116.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 342](Community_342.md) (1 shared connections)
-- [Community 72](Community_72.md) (1 shared connections)
-- [Community 167](Community_167.md) (1 shared connections)
+- [Community 6](Community_6.md) (12 shared connections)
+- [Community 103](Community_103.md) (10 shared connections)
+- [Community 307](Community_307.md) (4 shared connections)
+- [Community 118](Community_118.md) (2 shared connections)
+- [Community 436](Community_436.md) (1 shared connections)
+- [Community 139](Community_139.md) (1 shared connections)
+- [Community 967](Community_967.md) (1 shared connections)
+- [Community 565](Community_565.md) (1 shared connections)
+- [Community 267](Community_267.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/validation.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (85%)
-- INFERRED: 7 (15%)
+- EXTRACTED: 74 (96%)
+- INFERRED: 3 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

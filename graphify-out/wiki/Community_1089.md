@@ -1,27 +1,25 @@
 # Community 1089
 
-> 5 nodes · cohesion 0.40
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **._test_create_alter_foo_delete_model()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_create_alter_index_delete_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_create_alter_owrt_delete_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_create_alter_unique_delete_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **CreateModel, AlterModelTable, AlterUniqueTogether/AlterIndexTogether/…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_localized_priority()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **The priority value should not be localized.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
 
 ## Relationships
 
-- [Community 721](Community_721.md) (4 shared connections)
-- [Community 722](Community_722.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 192](Community_192.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

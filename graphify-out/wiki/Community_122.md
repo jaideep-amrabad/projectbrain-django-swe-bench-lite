@@ -1,58 +1,65 @@
 # Community 122
 
-> 65 nodes · cohesion 0.06
+> 81 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **GenericRelationTests** (53 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/tests.py`
-- **generic_relations_regress/models.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **generic_relations_regress/tests.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/tests.py`
-- **Note** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **B** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Link** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Place** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Restaurant** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Tag** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **A** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Address** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **C** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Cafe** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **CharLink** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Company** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Contact** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Content** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **D** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Developer** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Guild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **HasLinkThing** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Node** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **OddRelation1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **OddRelation2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- *... and 40 more nodes in this community*
+- **ModelAdmin** (153 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_changelist_instance()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **._get_list_editable_queryset()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **StaticFilesStorage** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.get_changelist_form()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_changelist_formset()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.path()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **BookAdminWithCustomQueryset** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **.get_sortable_by()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **._create_formsets()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_action()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **._get_base_actions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_formsets_with_inlines()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_list_display()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_search_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_urls()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.test_custom_min_num()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_log_actions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.get_inlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.delete_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_changeform_initial_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_changelist()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_deleted_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **._get_edited_object_pks()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_inline_instances()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- *... and 56 more nodes in this community*
 
 ## Relationships
 
-- [Community 108](Community_108.md) (19 shared connections)
-- [Community 2](Community_2.md) (6 shared connections)
-- [Community 699](Community_699.md) (3 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 432](Community_432.md) (2 shared connections)
-- [Community 85](Community_85.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 39](Community_39.md) (1 shared connections)
+- [Community 27](Community_27.md) (49 shared connections)
+- [Community 34](Community_34.md) (29 shared connections)
+- [Community 55](Community_55.md) (21 shared connections)
+- [Community 458](Community_458.md) (7 shared connections)
+- [Community 236](Community_236.md) (7 shared connections)
+- [Community 17](Community_17.md) (6 shared connections)
+- [Community 267](Community_267.md) (6 shared connections)
+- [Community 276](Community_276.md) (4 shared connections)
+- [Community 594](Community_594.md) (3 shared connections)
+- [Community 37](Community_37.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 454](Community_454.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/admin.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 128 (75%)
-- INFERRED: 43 (25%)
+- EXTRACTED: 210 (83%)
+- INFERRED: 42 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

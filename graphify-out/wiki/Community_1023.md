@@ -1,29 +1,27 @@
 # Community 1023
 
-> 6 nodes · cohesion 0.47
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **title()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_title.py`
-- **.test_non_string_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_title.py`
-- **.test_title()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_title.py`
-- **.test_unicode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_title.py`
-- **Convert a string into titlecase.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **GetFormsetsArgumentCheckingAdmin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.change_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **UndeletableObjectAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.change_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.add_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.get_formsets_with_inlines()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 171](Community_171.md) (2 shared connections)
+- [Community 63](Community_63.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_title.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,29 +1,48 @@
 # Community 1139
 
-> 4 nodes · cohesion 0.50
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **SHA256Tests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_sha256.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_sha256.py`
-- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_sha256.py`
-- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_sha256.py`
+- **Article** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **ModelOtherFieldTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Photo** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **BigIntForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **MarkupField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **.test_modelform_non_editable_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **.save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **.test_big_integer_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_http_prefixing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_url_on_modelform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **.formfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **Check basic URL field validation on model forms** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **When explicitly including a non-editable field in a ModelForm, the error…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **If the http:// prefix is omitted on form input, the field adds it again. (Refs…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Relationships
 
-- [Community 11](Community_11.md) (2 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 56](Community_56.md) (1 shared connections)
-- [Community 87](Community_87.md) (1 shared connections)
+- [Community 79](Community_79.md) (10 shared connections)
+- [Community 353](Community_353.md) (3 shared connections)
+- [Community 474](Community_474.md) (1 shared connections)
+- [Community 216](Community_216.md) (1 shared connections)
+- [Community 774](Community_774.md) (1 shared connections)
+- [Community 131](Community_131.md) (1 shared connections)
+- [Community 555](Community_555.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_sha256.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 27 (75%)
+- INFERRED: 9 (25%)
 - AMBIGUOUS: 0 (0%)
 
 ---

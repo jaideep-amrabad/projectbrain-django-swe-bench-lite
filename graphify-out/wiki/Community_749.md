@@ -1,36 +1,30 @@
 # Community 749
 
-> 13 nodes · cohesion 0.17
+> 8 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **DefaultNonExpiringCacheKeyTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_caches_set_with_timeout_as_none_has_correct_default_timeout()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_caches_set_with_timeout_as_none_set_non_expiring_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_caches_with_unset_timeout_set_expiring_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_caches_with_unset_timeout_has_correct_default_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_default_expiration_time_for_keys_is_5_minutes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **Memory caches that have the TIMEOUT parameter set to `None` in the default…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **Settings having Cache arguments with a TIMEOUT=None create Caches that will set…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **The default expiration time of a cache key is 5 minutes. This value is defined…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **Caches that have the TIMEOUT parameter undefined in the default settings will…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **Memory caches that have the TIMEOUT parameter unset will set cache keys having…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **._set_slice()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **.__setitem__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **._assign_extended_slice()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **._check_allowed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **._set_single_rebuild()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **Set the item(s) at the specified index/slice.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **Assign values to a slice of the object** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **Assign an extended slice by re-assigning individual items** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 35](Community_35.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 382](Community_382.md) (5 shared connections)
+- [Community 854](Community_854.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 15 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

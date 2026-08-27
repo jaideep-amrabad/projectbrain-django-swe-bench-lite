@@ -1,20 +1,21 @@
 # Community 1158
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.test_missing_django_version_unpickling()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_unsupported_unpickle()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **#21430 -- Verifies a warning is raised for querysets that are unpickled without…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **ViewContainer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/method_view_urls.py`
+- **method_view_urls.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/method_view_urls.py`
+- **.classmethod_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/method_view_urls.py`
+- **.method_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/method_view_urls.py`
 
 ## Relationships
 
-- [Community 395](Community_395.md) (2 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/method_view_urls.py`
 
 ## Audit Trail
 

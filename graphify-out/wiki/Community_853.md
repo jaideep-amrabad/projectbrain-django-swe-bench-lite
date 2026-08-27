@@ -1,37 +1,35 @@
 # Community 853
 
-> 10 nodes · cohesion 0.40
+> 10 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **stable_topological_sort()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
-- **CyclicDependencyError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
-- **topological_sort_as_sets()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
-- **test_topological_sort.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
-- **topological_sort.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
-- **TopologicalSortTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
-- **.test_basic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
-- **.test_cyclic_dependency()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
-- **ValueError** (1 connections)
-- **Variation of Kahn's algorithm (1962) that returns sets. Take a dependency graph…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
+- **CommonPasswordValidator** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **CommonPasswordValidatorTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **.test_help_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.test_validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.test_validate_custom_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.test_validate_django_supplied_file()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.get_help_text()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **Validate whether the password is a common password. The password is rejected if…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 566](Community_566.md) (2 shared connections)
-- [Community 121](Community_121.md) (1 shared connections)
+- [Community 267](Community_267.md) (3 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (93%)
-- INFERRED: 2 (7%)
+- EXTRACTED: 17 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

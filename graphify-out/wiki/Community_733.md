@@ -1,36 +1,38 @@
 # Community 733
 
-> 13 nodes · cohesion 0.15
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **Polygon** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.centroid()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.__len__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.point_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.shell()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **Return the number of interior rings in this Polygon.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **Get the ring at the specified index.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **Return the shell of this Polygon.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **Return a tuple of LinearRing coordinate tuples.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **Return the number of Points in this Polygon.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **Return the centroid (a Point) of this Polygon.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **TextInputTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
+- **.test_attrs_precedence()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
+- **.test_attrs_safestring()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
+- **.test_constructor_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
+- **.test_render_boolean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
+- **Boolean values are rendered to their string forms ("True" and "False").** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
+- **`attrs` passed to render() get precedence over those passed to the constructor** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
+- **.test_render()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
+- **.test_render_custom_attrs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
+- **.test_render_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
+- **.test_render_quoted()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
+- **.test_render_unicode()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
+- **.test_render_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
+- **.test_use_required_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
 
 ## Relationships
 
-- [Community 45](Community_45.md) (3 shared connections)
-- [Community 27](Community_27.md) (3 shared connections)
+- [Community 244](Community_244.md) (3 shared connections)
+- [Community 190](Community_190.md) (2 shared connections)
+- [Community 647](Community_647.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 16 (84%)
+- INFERRED: 3 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,24 +1,24 @@
 # Community 1192
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.test_formset_iteration()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **Formset instances are iterable.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_view_with_method_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_view_with_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **Request a page that is protected with @permission_required** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 470](Community_470.md) (1 shared connections)
-- [Community 546](Community_546.md) (1 shared connections)
+- [Community 560](Community_560.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

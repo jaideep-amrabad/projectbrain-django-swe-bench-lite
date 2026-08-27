@@ -1,53 +1,60 @@
 # Community 242
 
-> 43 nodes · cohesion 0.06
+> 42 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **.__init__()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **ForeignKeyRawIdWidget** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **ManyToManyRawIdWidget** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.get_context()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.get_context()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **FilteredSelectMultiple** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **AdminSplitDateTime** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.base_url_parameters()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **Media** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **AdminIntegerFieldWidget** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **AdminTimeWidget** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **AdminURLFieldWidget** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.label_and_url_for_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.url_parameters()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **url_params_from_lookup_dict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **AdminBigIntegerFieldWidget** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **AdminEmailInputWidget** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.get_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **AdminTextareaWidget** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **AdminTextInputWidget** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- *... and 18 more nodes in this community*
+- **Operation** (30 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **SeparateDatabaseAndState** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **operations/base.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **TestOperation** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/more_operations.py`
+- **special.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **more_operations.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/more_operations.py`
+- **.references_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.references_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.allow_migrate_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.database_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.describe()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.migration_name_fragment()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.reduce()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.state_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **Return True if there is a chance this operation references the given model name…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.__new__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **Return whether or not a model may be migrated. This is a thin wrapper around…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **Return either a list of operations the actual operation should be replaced with…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **Return a 3-tuple of class import path (or just name if it lives under…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **Base class for migration operations. It's responsible for both mutating the in-…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **Take the state from the previous migration, and mutate it so that it matches…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **Perform the mutation on the database schema in the normal (forwards) direction.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (16 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 446](Community_446.md) (1 shared connections)
-- [Community 595](Community_595.md) (1 shared connections)
-- [Community 544](Community_544.md) (1 shared connections)
-- [Community 189](Community_189.md) (1 shared connections)
+- [Community 323](Community_323.md) (4 shared connections)
+- [Community 146](Community_146.md) (3 shared connections)
+- [Community 54](Community_54.md) (3 shared connections)
+- [Community 512](Community_512.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 860](Community_860.md) (2 shared connections)
+- [Community 861](Community_861.md) (2 shared connections)
+- [Community 367](Community_367.md) (2 shared connections)
+- [Community 549](Community_549.md) (1 shared connections)
+- [Community 401](Community_401.md) (1 shared connections)
+- [Community 416](Community_416.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/more_operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 71 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 71 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,57 +1,52 @@
 # Community 431
 
-> 31 nodes · cohesion 0.09
+> 19 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **.add_fields()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.get_initial_alias()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.setup_joins()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.get_meta()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.resolve_ref()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.combine()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.join()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.trim_joins()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.unref_alias()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.trim_start()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.add_immediate_loading()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.ref_alias()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.set_select()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **._get_col()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.join_parent_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.reset_refcounts()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.table_alias()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **Compute the necessary table joins for the passage through the fields given in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **The 'target' parameter is the final field being joined to, 'joins' is the full…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **Add the given (model) fields to the select set. Add the field names in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **Add the given list of model field names to the set of fields to retrieve when…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **Trim joins from the start of the join path. The candidates for trim are the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **Return the Options instance (the model._meta) from which to start processing.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **Merge the 'rhs' query into the current one (with any 'rhs' effects being…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **Return a table alias for the given table_name and whether this is a new alias…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- *... and 6 more nodes in this community*
+- **ContextList** (14 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **ContextTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.test_contextlist_get()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_contextlist_keys()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.test_inherited_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_nested_requests()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_single_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **list** (1 connections)
+- **A wrapper that provides direct key access to context items contained in a list…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **Flattened keys of subcontexts.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.test_15368()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Context variables can be retrieved from a single context** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Context variables can be retrieved from a list of contexts** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **response.context is not lost when view call another view.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Relationships
 
-- [Community 97](Community_97.md) (18 shared connections)
-- [Community 208](Community_208.md) (6 shared connections)
-- [Community 76](Community_76.md) (3 shared connections)
-- [Community 615](Community_615.md) (3 shared connections)
-- [Community 890](Community_890.md) (2 shared connections)
-- [Community 740](Community_740.md) (2 shared connections)
-- [Community 605](Community_605.md) (1 shared connections)
-- [Community 504](Community_504.md) (1 shared connections)
-- [Community 929](Community_929.md) (1 shared connections)
-- [Community 159](Community_159.md) (1 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
+- [Community 607](Community_607.md) (1 shared connections)
+- [Community 573](Community_573.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 291](Community_291.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 77 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 33 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

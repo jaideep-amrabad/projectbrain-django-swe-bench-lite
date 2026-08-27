@@ -4,21 +4,22 @@
 
 ## Key Concepts
 
-- **UTF8Class** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.test_filter_syntax18()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- **Strings are converted to bytestrings in the final output.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- **Class whose __str__ returns non-ASCII data** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
+- **NonDjangoTemplatesDebugViewTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_template_not_found_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_400()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_403()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_404()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 
 ## Relationships
 
-- [Community 240](Community_240.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 213](Community_213.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_syntax.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 
 ## Audit Trail
 

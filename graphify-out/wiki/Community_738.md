@@ -1,42 +1,40 @@
 # Community 738
 
-> 14 nodes · cohesion 0.16
+> 14 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **DeferRegressionTest** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
-- **Item** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **Proxy** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **.test_ticket_12163()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
-- **.test_ticket_16409()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
-- **.test_defer_with_select_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
-- **.test_only_and_defer_usage_on_proxy_models()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
-- **.test_only_with_select_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
-- **.test_proxy_model_defer_with_select_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
-- **.test_resolve_columns()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
-- **.test_reverse_one_to_one_relations()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
-- **.test_ticket_23270()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- **m2m_and_m2o/tests.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
+- **m2m_and_m2o/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
+- **Issue** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
+- **RelatedObjectTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
+- **RelatedObjectUnicodeTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
+- **StringReferenceModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
+- **User** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
+- **.test_m2m_and_m2o()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
+- **.test_m2m_with_unicode_reference()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
+- **Many-to-many and many-to-one relationships to the same table Make sure to set…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
+- **Regression test for #6045: references to other models can be strings, providing…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
+- **.test_related_objects_have_name_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
 
 ## Relationships
 
-- [Community 348](Community_348.md) (18 shared connections)
-- [Community 941](Community_941.md) (2 shared connections)
-- [Community 637](Community_637.md) (2 shared connections)
-- [Community 21](Community_21.md) (2 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 38](Community_38.md) (3 shared connections)
+- [Community 16](Community_16.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (54%)
-- INFERRED: 19 (46%)
+- EXTRACTED: 26 (90%)
+- INFERRED: 3 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

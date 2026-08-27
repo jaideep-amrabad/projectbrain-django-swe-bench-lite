@@ -1,41 +1,42 @@
 # Community 591
 
-> 18 nodes · cohesion 0.11
+> 18 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **._handle_redirects()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.head()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.patch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.post()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.put()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.trace()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **Request a response from the server using GET.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **Request a response from the server using POST.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **Request a response from the server using HEAD.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **Request a response from the server using OPTIONS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **Send a resource to the server using PUT.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **Send a resource to the server using PATCH.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **Send a DELETE request to the server.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **Send a TRACE request to the server.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **Follow any redirects by requesting responses from the server using GET.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **LabelCommand** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **DjangoHelpFormatter** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **Command** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/findstatic.py`
+- **.add_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **._reordered_actions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.add_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.handle_label()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **label_command.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/label_command.py`
+- **Command** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/label_command.py`
+- **.add_usage()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **HelpFormatter** (1 connections)
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/findstatic.py`
+- **.handle_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/findstatic.py`
+- **A management command which takes one or more arbitrary arguments (labels) on…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **Perform the command's actions for ``label``, which will be the string as given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **Customized formatter so that command-specific arguments appear in the --help…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.handle_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/label_command.py`
 
 ## Relationships
 
-- [Community 35](Community_35.md) (9 shared connections)
-- [Community 190](Community_190.md) (1 shared connections)
-- [Community 425](Community_425.md) (1 shared connections)
+- [Community 3](Community_3.md) (6 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/findstatic.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/label_command.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
+- EXTRACTED: 29 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

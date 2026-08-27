@@ -1,43 +1,39 @@
 # Community 810
 
-> 11 nodes · cohesion 0.24
+> 13 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **Command** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- **.handle()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- **.handle_merge()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- **NonInteractiveMigrationQuestioner** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.write_migration_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- **Take a changes dict and write them out as migration files.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- **Handles merging together conflicted migrations interactively, if it's safe;…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- **.ask_auto_now_add_addition()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_not_null_addition()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_not_null_alteration()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **LimitChoicesToTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **StumpJokeForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **StumpJokeWithCustomFieldForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_custom_field_with_queryset_but_no_limit_choices_to()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_limit_choices_to_callable_for_fk_rel()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_limit_choices_to_callable_for_m2m_rel()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_callable_called_each_time_form_is_instantiated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_fields_for_model_applies_limit_choices_to()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Tests the functionality of ``limit_choices_to``.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **A ForeignKey can use limit_choices_to as a callable (#2554).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **A ManyToManyField can use limit_choices_to as a callable (#2554).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **A custom field with a `queryset` attribute but no `limit_choices_to` works…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Relationships
 
-- [Community 292](Community_292.md) (6 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 5](Community_5.md) (4 shared connections)
-- [Community 121](Community_121.md) (3 shared connections)
-- [Community 404](Community_404.md) (3 shared connections)
-- [Community 130](Community_130.md) (2 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
-- [Community 167](Community_167.md) (1 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
-- [Community 486](Community_486.md) (1 shared connections)
+- [Community 79](Community_79.md) (6 shared connections)
+- [Community 555](Community_555.md) (2 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 616](Community_616.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (77%)
-- INFERRED: 9 (23%)
+- EXTRACTED: 21 (84%)
+- INFERRED: 4 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

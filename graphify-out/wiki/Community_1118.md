@@ -4,25 +4,22 @@
 
 ## Key Concepts
 
-- **MD5Tests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_md5.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_md5.py`
-- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_md5.py`
-- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_md5.py`
+- **ReadOnlyPizzaAdmin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.has_add_permission()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.has_change_permission()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.has_delete_permission()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Relationships
 
-- [Community 11](Community_11.md) (2 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 56](Community_56.md) (1 shared connections)
-- [Community 87](Community_87.md) (1 shared connections)
+- [Community 63](Community_63.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_md5.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

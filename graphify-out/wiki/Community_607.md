@@ -1,43 +1,61 @@
 # Community 607
 
-> 17 nodes · cohesion 0.17
+> 38 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **TestUtils** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
-- **parse_rst()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
-- **parse_docstring()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
-- **.test_parse_rst_with_docstring_no_leading_line_feed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
-- **.test_description_output()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
-- **.test_parse_rst()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
-- **.test_title_output()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
-- **.test_initial_header_level()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
-- **.test_parse_docstring()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
-- **.test_publish_parts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
-- **Parse out the parts of a docstring. Return (title, body, metadata).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
-- **Convert the string from reST to an XHTML fragment.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
-- **skipUnless** (1 connections)
-- **Django shouldn't break the default role for interpreted text when…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
-- **This __doc__ output is required for testing. I copied this example from…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
-- **parse_rst() should use `cmsreference` as the default role.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- **urlencode()** (30 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- **URLEncodeTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.generic()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.request()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.request()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.generic()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **store_rendered_templates()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.check_exception()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.get()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.head()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **._get_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.trace()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.test_multivaluedict()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **Construct an arbitrary HTTP request.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **.test_custom_iterable_not_doseq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_dict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_dict_containing_empty_sequence_doseq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_dict_containing_sequence_doseq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_dict_containing_sequence_not_doseq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_dict_containing_tuple_not_doseq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_dict_with_bytearray()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_dict_with_bytes_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_dict_with_sequence_of_bytes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- **.test_generator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (6 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 750](Community_750.md) (1 shared connections)
+- [Community 2](Community_2.md) (16 shared connections)
+- [Community 267](Community_267.md) (4 shared connections)
+- [Community 95](Community_95.md) (3 shared connections)
+- [Community 262](Community_262.md) (2 shared connections)
+- [Community 521](Community_521.md) (2 shared connections)
+- [Community 118](Community_118.md) (2 shared connections)
+- [Community 27](Community_27.md) (2 shared connections)
+- [Community 797](Community_797.md) (2 shared connections)
+- [Community 296](Community_296.md) (1 shared connections)
+- [Community 431](Community_431.md) (1 shared connections)
+- [Community 482](Community_482.md) (1 shared connections)
+- [Community 542](Community_542.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 94 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

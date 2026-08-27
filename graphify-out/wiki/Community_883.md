@@ -1,34 +1,34 @@
 # Community 883
 
-> 9 nodes · cohesion 0.39
+> 10 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **make_template_fragment_key()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/utils.py`
-- **TestMakeTemplateFragmentKey** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_long_vary_on()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_proper_escaping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_with_ints_vary_on()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_with_many_vary_on()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_with_one_vary_on()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_with_unicode_vary_on()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_without_vary_on()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **FormfieldCallbackTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **Callback** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_inlineformset_custom_callback()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_modelformset_custom_callback()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.assertCallbackCalled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_inlineformset_factory_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_modelformset_factory_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **Regression for #13095 and #17683: Using base forms with widgets defined in Meta…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
 
 ## Relationships
 
-- [Community 35](Community_35.md) (3 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 278](Community_278.md) (4 shared connections)
+- [Community 253](Community_253.md) (4 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/cache/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 19 (90%)
+- INFERRED: 2 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

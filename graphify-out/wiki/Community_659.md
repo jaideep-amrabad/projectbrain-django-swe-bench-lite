@@ -1,39 +1,42 @@
 # Community 659
 
-> 13 nodes · cohesion 0.17
+> 16 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **refer_to_missing_field()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_prepopulated_fields()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_ordering()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_prepopulated_fields_value()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_ordering_item()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_prepopulated_fields_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_prepopulated_fields_value_item()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **Check that `prepopulated_fields` is a dictionary containing allowed field types.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **Check a key of `prepopulated_fields` dictionary, i.e. check that it is a name…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **Check a value of `prepopulated_fields` dictionary, i.e. it's an iterable of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **For `prepopulated_fields` equal to {"slug": ("title",)}, `field_name` is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **Check that ordering refers to existing fields or is random.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **Check that `ordering` refers to existing fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **DatabaseSchemaEditor** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **._alter_field_type_workaround()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **.alter_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **._generate_temp_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **.normalize_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **.remove_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **._drop_identity()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **._is_identity_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **.prepare_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **.quote_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **.delete_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **._field_should_be_indexed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **._unique_should_be_added()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **Get the properly shortened and uppercased identifier as returned by…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **Generate temporary names for workarounds that need temp columns.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **Oracle refuses to change from some type to other type. What we need to do…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
 
 ## Relationships
 
-- [Community 385](Community_385.md) (10 shared connections)
-- [Community 324](Community_324.md) (4 shared connections)
-- [Community 1107](Community_1107.md) (1 shared connections)
-- [Community 1015](Community_1015.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 68](Community_68.md) (1 shared connections)
+- [Community 80](Community_80.md) (1 shared connections)
+- [Community 566](Community_566.md) (1 shared connections)
+- [Community 256](Community_256.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 28 (93%)
+- INFERRED: 2 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

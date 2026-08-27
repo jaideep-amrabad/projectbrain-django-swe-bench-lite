@@ -1,61 +1,57 @@
 # Community 340
 
-> 33 nodes · cohesion 0.08
+> 32 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **TemporaryUploadedFile** (23 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- **FileFieldTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **Document** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.test_move_temporary_file()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **TemporaryUploadedFileTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_extension_kept()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_file_upload_temp_dir_pathlib()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_corrupted_image()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
-- **.test_abstract_filefield_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **.test_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **.test_clearable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **.test_delete_when_file_unset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **.test_media_root_pathlib()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **.test_open_returns_self()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **.test_pickle()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **.test_unchanged()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **.temporary_file_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- **.test_unique_when_same_filename()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **A file uploaded to a temporary location (i.e. stream-to-disk).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- **Return the full path of this file.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- **The temporary file name has the same suffix as the original file.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_defer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **.test_refresh_from_db()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **skipIf** (1 connections)
-- *... and 8 more nodes in this community*
+- **signals/tests.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **SignalTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **LazyModelRefTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **signals/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
+- **Person** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
+- **Book** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
+- **BaseSignalSetup** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **Author** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
+- **Car** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
+- **.receiver()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.test_disconnect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.test_register_model_class_senders_immediately()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.test_already_loaded_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.test_not_loaded_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.test_decorators()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.test_delete_signals()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.test_disconnect_in_dispatch()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.test_lazy_model_signal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.test_model_pre_init_and_post_init()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.test_save_signals()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
+- **Testing signals before/after saving and deleting.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 76](Community_76.md) (6 shared connections)
-- [Community 133](Community_133.md) (5 shared connections)
-- [Community 8](Community_8.md) (4 shared connections)
-- [Community 175](Community_175.md) (3 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 154](Community_154.md) (2 shared connections)
-- [Community 210](Community_210.md) (1 shared connections)
-- [Community 368](Community_368.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 48](Community_48.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 42](Community_42.md) (3 shared connections)
+- [Community 38](Community_38.md) (2 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 54](Community_54.md) (1 shared connections)
+- [Community 56](Community_56.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 61 (91%)
-- INFERRED: 6 (9%)
+- EXTRACTED: 61 (90%)
+- INFERRED: 7 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

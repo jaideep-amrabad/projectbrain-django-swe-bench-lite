@@ -1,27 +1,25 @@
 # Community 1149
 
-> 4 nodes · cohesion 0.50
+> 4 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **override_settings_tags** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.disable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.enable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **TitleTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_title.py`
+- **setup** (2 connections)
+- **.test_title1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_title.py`
+- **.test_title2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_title.py`
 
 ## Relationships
 
-- [Community 248](Community_248.md) (2 shared connections)
-- [Community 635](Community_635.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_title.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

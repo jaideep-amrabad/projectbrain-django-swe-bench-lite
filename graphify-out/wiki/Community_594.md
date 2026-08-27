@@ -1,51 +1,54 @@
 # Community 594
 
-> 18 nodes · cohesion 0.16
+> 18 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **lazystr()** (36 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **TestUtilsText** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
-- **.test_mark_safe_lazy_result_implements_dunder_html()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- **.test_unescape_entities()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
-- **.test_get_valid_filename()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
-- **.test_normalize_newlines()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
-- **.test_phone2numeric()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
-- **.test_smart_split()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
-- **.test_truncate_chars()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
-- **.test_truncate_words()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
-- **.test_unescape_string_literal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
-- **.test_wrap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
-- **Shortcut for the common case of a lazy callable that returns str.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **.test_compress_sequence()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
-- **.test_slugify()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
-- **.test_truncate_chars_html()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
-- **.test_truncate_html_words()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
-- **.test_unescape_entities_deprecated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
+- **gis/admin/__init__.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/__init__.py`
+- **gis/admin/options.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
+- **GeoModelAdmin** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
+- **OpenLayersWidget** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/widgets.py`
+- **.get_map_widget()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
+- **autodiscover()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/__init__.py`
+- **.formfield_for_dbfield()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
+- **.media()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
+- **OSMGeoAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
+- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/widgets.py`
+- **.map_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/widgets.py`
+- **Media** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
+- **The administration options class for Geographic models. Map settings may be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
+- **Injects OpenLayers JavaScript into the admin.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
+- **Overloaded from ModelAdmin so that an OpenLayersWidget is used for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
+- **Return a subclass of the OpenLayersWidget (or whatever was specified in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
+- **Render an OpenLayers map using the WKT of the geometry.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/widgets.py`
+- **Build the map options hash for the OpenLayers template.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/widgets.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (8 shared connections)
-- [Community 572](Community_572.md) (7 shared connections)
-- [Community 76](Community_76.md) (5 shared connections)
-- [Community 557](Community_557.md) (3 shared connections)
-- [Community 254](Community_254.md) (3 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 166](Community_166.md) (1 shared connections)
-- [Community 57](Community_57.md) (1 shared connections)
-- [Community 1030](Community_1030.md) (1 shared connections)
-- [Community 934](Community_934.md) (1 shared connections)
-- [Community 769](Community_769.md) (1 shared connections)
+- [Community 5](Community_5.md) (5 shared connections)
+- [Community 17](Community_17.md) (4 shared connections)
+- [Community 122](Community_122.md) (3 shared connections)
+- [Community 66](Community_66.md) (2 shared connections)
+- [Community 166](Community_166.md) (2 shared connections)
+- [Community 759](Community_759.md) (1 shared connections)
+- [Community 624](Community_624.md) (1 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
+- [Community 34](Community_34.md) (1 shared connections)
+- [Community 50](Community_50.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 117](Community_117.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/widgets.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
 
 ## Audit Trail
 
-- EXTRACTED: 57 (98%)
+- EXTRACTED: 48 (98%)
 - INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 

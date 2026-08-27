@@ -1,43 +1,54 @@
 # Community 370
 
-> 19 nodes · cohesion 0.13
+> 30 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **AssertFormsetErrorTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **An assertion is raised if the form's non field errors doesn't contain the…** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.getResponse()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_field_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_no_nonfield_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_no_nonform_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_nonfield_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_nonform_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_unknown_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_unknown_formset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_unknown_nonfield_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_unknown_nonform_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Makes response object for testing field and non-field errors** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **An assertion is raised if the formset name is unknown** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **An assertion is raised if the field doesn't contain the specified error** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **No assertion is raised if the field contains the provided error** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **No assertion is raised if the formsets non-field errors contains the provided…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **No assertion is raised if the formsets non-form errors contains the provided…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **time()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **DateTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **TimeTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **setup** (10 connections)
+- **setup** (8 connections)
+- **.test_date02_l10n()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **FunctionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **.test_time00_l10n()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **.test_date01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date05()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date09()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_time00()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **.test_time03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **.test_time04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **.test_inputs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **.test_time01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **.test_time02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **.test_time05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **.test_time06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 243](Community_243.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 11](Community_11.md) (8 shared connections)
+- [Community 1](Community_1.md) (8 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 422](Community_422.md) (1 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 62 (90%)
+- INFERRED: 7 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

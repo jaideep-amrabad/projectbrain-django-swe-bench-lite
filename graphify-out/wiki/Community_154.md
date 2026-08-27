@@ -1,64 +1,60 @@
 # Community 154
 
-> 112 nodes · cohesion 0.03
+> 48 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **ContentFile** (60 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
-- **FileStorageTests** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **FileFieldStorageTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **Storage** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
-- **FileStoragePermissions** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.getter()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **FileStoragePathParsing** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **._test_file_time_getter()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **ContentFileTestCase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_extended_length_storage()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **._test_file_time_getter_tz_handling_off()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **._test_file_time_getter_tz_handling_on()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_custom_valid_name_callable_upload_to()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_file_upload_default_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_file_upload_directory_default_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_file_upload_directory_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_file_upload_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **CustomStorageTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **DiscardingFalseContentStorageTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **._storage_max_filename_length()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_duplicate_filename()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_empty_upload_to()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_file_truncation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_filefield_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- *... and 87 more nodes in this community*
+- **ModelBackend** (32 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **BaseBackend** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **.authenticate()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **CustomUserBackend** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/auth_backends.py`
+- **.user_can_authenticate()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **._get_group_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **._get_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **SimpleBackend** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **test_client/auth_backends.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/auth_backends.py`
+- **AllowAllUsersModelBackend** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **.get_all_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **.get_all_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **._get_user_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **.has_module_perms()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **.user_can_authenticate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **.clean_username()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **.configure_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **ImportedModelBackend** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **CustomModelBackend** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.get_group_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **.get_user_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **.has_perm()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **.authenticate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **.get_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **Return a set of permission strings the user `user_obj` has from their…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- *... and 23 more nodes in this community*
 
 ## Relationships
 
-- [Community 76](Community_76.md) (16 shared connections)
-- [Community 201](Community_201.md) (7 shared connections)
-- [Community 8](Community_8.md) (7 shared connections)
-- [Community 175](Community_175.md) (5 shared connections)
-- [Community 303](Community_303.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 503](Community_503.md) (2 shared connections)
-- [Community 340](Community_340.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 133](Community_133.md) (2 shared connections)
-- [Community 435](Community_435.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
+- [Community 0](Community_0.md) (13 shared connections)
+- [Community 2](Community_2.md) (10 shared connections)
+- [Community 428](Community_428.md) (3 shared connections)
+- [Community 50](Community_50.md) (2 shared connections)
+- [Community 53](Community_53.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 255](Community_255.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/backend_alias.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/auth_backends.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/auth_backends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 198 (90%)
-- INFERRED: 22 (10%)
+- EXTRACTED: 83 (95%)
+- INFERRED: 4 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

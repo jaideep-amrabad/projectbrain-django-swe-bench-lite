@@ -4,31 +4,32 @@
 
 ## Key Concepts
 
-- **IfChangedTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
-- **.test_ifchanged_concurrency()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
-- **.test_ifchanged_render_once()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
-- **.test_include()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
-- **.test_include_state()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
-- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
-- **#15849 -- ifchanged should be thread-safe.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
-- **#19890. The content of ifchanged template tag was rendered twice.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
-- **#23516 -- This works as a regression test only if the cached loader isn't used.…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
-- **Tests the node state for different IncludeNodes (#27974).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- **FloatFieldTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_floatfield.py`
+- **.test_decimalfield_support_decimal_separator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_floatfield.py`
+- **.test_decimalfield_support_thousands_separator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_floatfield.py`
+- **.test_floatfield_localized()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_floatfield.py`
+- **.test_floatfield_widget_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_floatfield.py`
+- **.test_floatfield_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_floatfield.py`
+- **.test_floatfield_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_floatfield.py`
+- **.test_floatfield_3()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_floatfield.py`
+- **.test_floatfield_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_floatfield.py`
+- **A localized FloatField's widget renders to a text input without any number…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_floatfield.py`
 
 ## Relationships
 
-- [Community 49](Community_49.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 42](Community_42.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 190](Community_190.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_changed.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_floatfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 14 (93%)
+- INFERRED: 1 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

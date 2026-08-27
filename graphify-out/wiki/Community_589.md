@@ -1,44 +1,41 @@
 # Community 589
 
-> 15 nodes · cohesion 0.18
+> 19 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **WSGIRequestHandler** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **WSGIRequestHandlerTestCase** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.handle_one_request()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.test_strips_underscore_headers()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **Stub** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.test_https()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.test_log_message()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.get_environ()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.handle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **Copy of WSGIRequestHandler.handle() but with different ServerHandler** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.address_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.log_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **WSGIRequestHandler ignores headers containing underscores. This follows the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
-- **.sendall()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
+- **CommentSyntaxTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_comment.py`
+- **setup** (17 connections)
+- **.test_comment_syntax01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_comment.py`
+- **.test_comment_syntax02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_comment.py`
+- **.test_comment_syntax03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_comment.py`
+- **.test_comment_syntax04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_comment.py`
+- **.test_comment_syntax05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_comment.py`
+- **.test_comment_syntax06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_comment.py`
+- **.test_comment_syntax07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_comment.py`
+- **.test_comment_syntax08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_comment.py`
+- **.test_comment_syntax09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_comment.py`
+- **.test_comment_syntax10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_comment.py`
+- **.test_comment_syntax11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_comment.py`
+- **.test_comment_syntax12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_comment.py`
+- **.test_comment_tag01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_comment.py`
+- **.test_comment_tag02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_comment.py`
+- **.test_comment_tag03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_comment.py`
+- **.test_comment_tag04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_comment.py`
+- **.test_comment_tag05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_comment.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 100](Community_100.md) (3 shared connections)
-- [Community 298](Community_298.md) (3 shared connections)
-- [Community 76](Community_76.md) (1 shared connections)
-- [Community 48](Community_48.md) (1 shared connections)
-- [Community 330](Community_330.md) (1 shared connections)
-- [Community 401](Community_401.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- `raw/code/hyd-evaluation/django-django/tests/servers/test_basehttp.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_comment.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (85%)
-- INFERRED: 5 (15%)
+- EXTRACTED: 36 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

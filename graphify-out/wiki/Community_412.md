@@ -1,51 +1,53 @@
 # Community 412
 
-> 28 nodes · cohesion 0.10
+> 25 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **ListViewTests** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **._make_authors()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_list_view_returns_useful_message_on_invalid_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_custom_page_kwarg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_custom_paginator_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_custom_paginator_constructor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_get_last_page_by_query_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_get_page_by_query_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_get_page_by_urlvar()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_invalid_page()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_list_view_does_not_load_entire_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_orphaned_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_page_out_of_range()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_allow_empty_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_context_object_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_duplicate_context_object_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_explicitly_ordered_list_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_invalid_get_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_missing_items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_non_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_paginated_queryset_shortdata()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **.test_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- *... and 3 more nodes in this community*
+- **PasswordResetFormTest** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **PasswordResetForm** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.create_dummy_user()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_inactive_user()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_save_html_email_template_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_save_plaintext_email()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_cleaned_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_custom_email_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_nonexistent_email()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_custom_email_subject()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_html_autocomplete_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_invalid_email()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_preserve_username_case()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_unusable_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_user_email_domain_unicode_collision()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_user_email_domain_unicode_collision_nonexistent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_user_email_unicode_collision()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_user_email_unicode_collision_nonexistent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **Test the PasswordResetForm.save() method with no html_email_template_name…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_custom_email_constructor()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **Create a user and return a tuple (user_object, username, email).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **Test nonexistent email address. This should not fail because it would expose…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **Preserve the case of the user name (before the @ in the email address) when…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **Inactive user cannot receive password reset email.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
 
 ## Relationships
 
-- [Community 329](Community_329.md) (4 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
+- [Community 1103](Community_1103.md) (3 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
 - [Community 38](Community_38.md) (1 shared connections)
-- [Community 107](Community_107.md) (1 shared connections)
+- [Community 822](Community_822.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (91%)
-- INFERRED: 4 (9%)
+- EXTRACTED: 53 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,25 +1,26 @@
 # Community 1109
 
-> 4 nodes · cohesion 0.50
+> 4 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.metadata()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/base.py`
-- **setter** (1 connections)
-- **Return the metadata for this raster or band. The return value is a nested…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/base.py`
-- **Set the metadata. Update only the domains that are contained in the value…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/base.py`
+- **check_session_cookie_httponly()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
+- **check_session_cookie_secure()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
+- **_session_app()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
+- **_session_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
 
 ## Relationships
 
-- [Community 45](Community_45.md) (1 shared connections)
+- [Community 41](Community_41.md) (4 shared connections)
+- [Community 624](Community_624.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/base.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

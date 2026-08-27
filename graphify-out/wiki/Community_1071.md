@@ -4,25 +4,26 @@
 
 ## Key Concepts
 
-- **.__getstate__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **.__reduce__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **model_unpickle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **Used to unpickle Model subclasses with deferred fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **Hook to allow choosing the attributes to pickle.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **ContentFileStorageTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_content_saving()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **ContentFile can be saved correctly with the filesystem storage, if it was…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 
 ## Relationships
 
-- [Community 101](Community_101.md) (2 shared connections)
-- [Community 105](Community_105.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 188](Community_188.md) (1 shared connections)
+- [Community 211](Community_211.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (86%)
-- INFERRED: 1 (14%)
+- EXTRACTED: 7 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

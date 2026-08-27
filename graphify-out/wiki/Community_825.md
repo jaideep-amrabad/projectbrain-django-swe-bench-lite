@@ -1,37 +1,37 @@
 # Community 825
 
-> 11 nodes · cohesion 0.24
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **RouterAttributeErrorTestCase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **AttributeErrorRouter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **The AttributeError from AttributeErrorRouter bubbles up** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_attribute_error_save()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.override_router()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_attribute_error_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_attribute_error_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_attribute_error_read()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.db_for_read()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.db_for_write()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **A router to test the exception handling of ConnectionRouter** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **PostGISGeometryColumns** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
+- **PostGISSpatialRefSys** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
+- **.geom_col_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
+- **.table_name_col()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
+- **.wkt()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
+- **Return the name of the metadata column used to store the feature table name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
+- **Return the name of the metadata column used to store the feature geometry…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
+- **The 'spatial_ref_sys' table from PostGIS. See the PostGIS documentation at Ch.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
+- **The 'geometry_columns' view from PostGIS. See the PostGIS documentation at Ch.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
 
 ## Relationships
 
-- [Community 601](Community_601.md) (4 shared connections)
-- [Community 393](Community_393.md) (3 shared connections)
-- [Community 656](Community_656.md) (2 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 483](Community_483.md) (2 shared connections)
+- [Community 58](Community_58.md) (1 shared connections)
+- [Community 144](Community_144.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (92%)
-- INFERRED: 2 (8%)
+- EXTRACTED: 16 (89%)
+- INFERRED: 2 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

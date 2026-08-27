@@ -1,50 +1,60 @@
 # Community 494
 
-> 23 nodes · cohesion 0.09
+> 23 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **ModelChoiceFieldTests** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_overridable_choice_iterator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_basics()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_choice_iterator_passes_model_to_widget()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_choices_bool()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_choices_bool_empty_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_choices_freshness()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_choices_not_fetched_when_not_rendering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_choices_radio_blank()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_clean_model_instance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_clean_to_field_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_custom_choice_iterator_passes_model_to_widget()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_deepcopies_widget()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_disabled_modelchoicefield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_disabled_modelchoicefield_has_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_disabled_modelchoicefield_initial_model_instance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_disabled_modelmultiplechoicefield_has_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_queryset_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_queryset_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_result_cache_not_shared()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **Iterator defaults to ModelChoiceIterator and can be overridden with the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **captured_stdout()** (29 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **captured_stderr()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **RemoveStaleContentTypesTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **captured_output()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.test_contenttypes_removed_for_apps_not_in_installed_apps()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **.test_contenttypes_removed_in_installed_apps_without_models()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **.test_interactive_false()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **.test_interactive_true_with_dependent_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **.test_interactive_true_without_dependent_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **.test_command_help()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.test_command_help()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_buffer_mode_test_fail()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_buffer_mode_test_pass()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **.test_unavailable_content_type_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **Return a context manager used by captured_stdout/stdin/stderr that temporarily…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **Capture the output of sys.stdout: with captured_stdout() as stdout:…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **Capture the output of sys.stderr: with captured_stderr() as stderr:…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **interactive mode (the default) deletes stale content types and warns of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **interactive mode deletes stale content types even if there aren't any dependent…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **non-interactive mode deletes stale content types.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **A ContentType isn't created if the model isn't available.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
 
 ## Relationships
 
-- [Community 83](Community_83.md) (4 shared connections)
-- [Community 42](Community_42.md) (2 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 276](Community_276.md) (1 shared connections)
-- [Community 760](Community_760.md) (1 shared connections)
+- [Community 167](Community_167.md) (9 shared connections)
+- [Community 3](Community_3.md) (6 shared connections)
+- [Community 10](Community_10.md) (6 shared connections)
+- [Community 41](Community_41.md) (5 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 878](Community_878.md) (3 shared connections)
+- [Community 126](Community_126.md) (3 shared connections)
+- [Community 363](Community_363.md) (2 shared connections)
+- [Community 48](Community_48.md) (2 shared connections)
+- [Community 356](Community_356.md) (1 shared connections)
+- [Community 271](Community_271.md) (1 shared connections)
+- [Community 109](Community_109.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_management.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (84%)
-- INFERRED: 5 (16%)
+- EXTRACTED: 80 (96%)
+- INFERRED: 3 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

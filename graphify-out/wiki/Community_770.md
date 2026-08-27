@@ -1,39 +1,38 @@
 # Community 770
 
-> 13 nodes · cohesion 0.18
+> 13 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **TestBadSetUpTestData** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **TestRaiseLastException** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **MyException** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_no_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_raises_custom_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_raises_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **Exception** (1 connections)
-- **An exception in setUpTestData() shouldn't leak a transaction which would…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.tearDownClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_failure_in_setUpTestData_should_rollback_transaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_raises_exception_with_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **._run_makemessages()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.assertNotMsgId()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **IgnoredExtractorTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **JavascriptExtractorTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_media_static_dirs_ignored()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_default_root_settings()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_ignore_directory()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_ignore_file_patterns()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_ignore_subdirectory()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_media_static_dirs_ignored()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_javascript_literals()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **Regression test for #23583.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **Regression test for #23717.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
 
 ## Relationships
 
-- [Community 364](Community_364.md) (2 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 269](Community_269.md) (4 shared connections)
+- [Community 9](Community_9.md) (3 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 407](Community_407.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (89%)
-- INFERRED: 2 (11%)
+- EXTRACTED: 30 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

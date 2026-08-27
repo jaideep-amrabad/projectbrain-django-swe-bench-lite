@@ -1,50 +1,53 @@
 # Community 349
 
-> 29 nodes · cohesion 0.13
+> 24 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **ReloaderTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.increment_mtime()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **BaseReloaderTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **IntegrationTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.ensure_file()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **StatReloaderTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.tick_twice()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_glob()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_glob_recursive()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_multiple_globs()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_multiple_recursive_globs()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_nested_glob_recursive()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_overlapping_glob_recursive()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_overlapping_globs()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.set_mtime()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_tick_does_not_trigger_twice()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_wait_for_apps_ready_checks_for_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_wait_for_apps_ready_without_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_watch_files_with_recursive_glob()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_snapshot_files_updates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_run_loop_catches_stopiteration()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_run_loop_stop_and_return()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_watch_dir_with_unresolvable_path()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_watch_with_glob()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- *... and 4 more nodes in this community*
+- **GZipMiddleware** (20 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/gzip.py`
+- **GZipMiddlewareTest** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.decompress()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_compress_file_response()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_compress_deterministic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_compress_non_200_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_compress_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_compress_streaming_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_compress_streaming_response_unicode()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.get_mtime()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_no_compress_compressed_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_no_compress_incompressible_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_no_compress_short_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **Compression is performed on responses with streaming content.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **Compress content if the browser allows gzip compression. Set the Vary header…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/gzip.py`
+- **Tests the GZipMiddleware.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **Compression is performed on responses with compressible content.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **Compression is performed on FileResponse.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **Compression is performed on responses with a status other than 200 (#10762).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **Compression isn't performed on responses with short content.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **Compression isn't performed on responses that are already compressed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **Compression isn't performed on responses with incompressible content.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **Compression results are the same for the same content and don't include a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
 
 ## Relationships
 
-- [Community 364](Community_364.md) (15 shared connections)
-- [Community 167](Community_167.md) (3 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 138](Community_138.md) (6 shared connections)
+- [Community 6](Community_6.md) (4 shared connections)
+- [Community 139](Community_139.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 267](Community_267.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 40](Community_40.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/gzip.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 72 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 50 (91%)
+- INFERRED: 5 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

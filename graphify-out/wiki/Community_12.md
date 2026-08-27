@@ -1,78 +1,74 @@
 # Community 12
 
-> 294 nodes · cohesion 0.01
+> 245 nodes · cohesion 0.01
 
 ## Key Concepts
 
-- **isolate_apps** (180 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **checks/__init__.py** (75 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/__init__.py`
-- **test_utils/tests.py** (71 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **resolvers.py** (48 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **Warning** (36 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- **test_ordinary_fields.py** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **finders.py** (33 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **Error** (33 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- **get_resolver()** (30 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **invalid_models_tests/test_models.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **RegexPattern** (26 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- **collectstatic.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **test_model_checks.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
-- **test_relative_fields.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **test_urls.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **test_foreignkey.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_foreignkey.py`
-- **checks/urls.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
-- **test_abstract_inheritance.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/test_abstract_inheritance.py`
-- **Tags** (16 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/registry.py`
-- **now()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **ForeignKeyTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_foreignkey.py`
-- **.register()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/registry.py`
-- **CheckMessage** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- **model_checks.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/model_checks.py`
-- **translation.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
-- *... and 269 more nodes in this community*
+- **reverse()** (390 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- **AdminActionsTest** (41 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **TestInlinePermissions** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **SeleniumTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **AdminDocViewTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **override_script_prefix** (16 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **URLPatternReverse** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **AdminTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **AdminSidebarTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_nav_sidebar.py`
+- **SiteEachContextTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_adminsite.py`
+- **MultiDatabaseTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_multidb.py`
+- **SeleniumTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_nav_sidebar.py`
+- **URLEscapingTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **AdminDocViewWithMultipleEngines** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **URLPrefixTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.test_no_sites_framework()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **.test_min_num()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **ErroneousViewTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_localize_pk_shortcut()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_non_localized_pk()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **URLRedirectWithScriptAliasTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **UrlconfSubstitutionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Command** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/management/commands/reverse_url.py`
+- **.render()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- **.test_computed_list_display_localization()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- *... and 220 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (87 shared connections)
-- [Community 1](Community_1.md) (64 shared connections)
-- [Community 76](Community_76.md) (31 shared connections)
-- [Community 2](Community_2.md) (27 shared connections)
-- [Community 8](Community_8.md) (22 shared connections)
-- [Community 143](Community_143.md) (20 shared connections)
-- [Community 11](Community_11.md) (20 shared connections)
-- [Community 360](Community_360.md) (18 shared connections)
-- [Community 149](Community_149.md) (17 shared connections)
-- [Community 5](Community_5.md) (16 shared connections)
-- [Community 9](Community_9.md) (14 shared connections)
-- [Community 218](Community_218.md) (13 shared connections)
+- [Community 17](Community_17.md) (48 shared connections)
+- [Community 43](Community_43.md) (46 shared connections)
+- [Community 9](Community_9.md) (24 shared connections)
+- [Community 292](Community_292.md) (21 shared connections)
+- [Community 49](Community_49.md) (18 shared connections)
+- [Community 37](Community_37.md) (16 shared connections)
+- [Community 233](Community_233.md) (14 shared connections)
+- [Community 130](Community_130.md) (14 shared connections)
+- [Community 262](Community_262.md) (10 shared connections)
+- [Community 169](Community_169.md) (9 shared connections)
+- [Community 267](Community_267.md) (8 shared connections)
+- [Community 665](Community_665.md) (7 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sites/checks.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/apps.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/checks.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/async_checks.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/caches.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/model_checks.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/registry.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/templates.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
 - `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/urls/conf.py`
-- `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
-- `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_adminsite.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_multidb.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_nav_sidebar.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/user_commands/management/commands/reverse_url.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1155 (97%)
-- INFERRED: 35 (3%)
+- EXTRACTED: 703 (97%)
+- INFERRED: 23 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

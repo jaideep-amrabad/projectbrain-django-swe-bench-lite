@@ -1,45 +1,58 @@
 # Community 321
 
-> 18 nodes · cohesion 0.12
+> 33 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **Tests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **._select()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **.test_nodb_cursor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **.test_connect_and_rollback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **.test_connect_isolation_level()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **.test_connect_non_autocommit()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **.test_copy_cursors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **.test_correct_extraction_psycopg2_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **.test_database_name_too_long()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **.test_lookup_cast()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **.test_select_ascii_array()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **.test_select_unicode_array()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **skipUnless** (1 connections)
-- **The connection wrapper shouldn't believe that autocommit is enabled after…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **The transaction level can be configured with DATABASES…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **The _nodb_cursor() fallbacks to the default connection database when access to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **PostgreSQL shouldn't roll back SET TIME ZONE, even if the first transaction is…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **.test_connect_no_is_usable_checks()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **SitesFrameworkTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **RequestSite** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
+- **RequestSiteTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **clear_site_cache()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- **.test_clear_site_cache()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_clear_site_cache_domain()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_get_current_site()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_get_current_site_host_with_trailing_dot()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_get_current_site_no_site_id_and_handle_port_fallback()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_get_current_site_no_site_id()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_check_site_id()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_domain_name_with_whitespaces()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_unique_domain()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_valid_site_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **Clear the cache (if primed) each time a site is saved or deleted.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- **A class that shares the primary interface of Site (i.e., it has ``domain`` and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
+- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
+- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
+- **The site is matched if the name in the request has a trailing dot.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_init_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Community 76](Community_76.md) (2 shared connections)
+- [Community 503](Community_503.md) (12 shared connections)
+- [Community 9](Community_9.md) (8 shared connections)
+- [Community 41](Community_41.md) (7 shared connections)
+- [Community 73](Community_73.md) (7 shared connections)
+- [Community 126](Community_126.md) (3 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 802](Community_802.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 - [Community 38](Community_38.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 569](Community_569.md) (1 shared connections)
-- [Community 280](Community_280.md) (1 shared connections)
-- [Community 130](Community_130.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
+- `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 72 (96%)
+- INFERRED: 3 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

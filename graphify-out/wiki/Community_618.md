@@ -1,45 +1,49 @@
 # Community 618
 
-> 17 nodes · cohesion 0.12
+> 18 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **Article** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **FieldOverridePost** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **StateAdminForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **Post** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ArticleForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **FieldOverridePostForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **ArticleInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **StoryForm** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.changed_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.model_month()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.model_year()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.model_year_reversed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.property_year()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.awesomeness_level()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **A simple article to test admin views. Test backwards compatibility.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Book** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- **RouterAttributeErrorTestCase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **AttributeErrorRouter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **The AttributeError from AttributeErrorRouter bubbles up** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.test_attribute_error_save()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.test_default_creation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.test_other_creation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.override_router()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.test_attribute_error_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.test_attribute_error_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.test_attribute_error_read()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.test_refresh()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- **.db_for_read()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.db_for_write()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **A router to test the exception handling of ConnectionRouter** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **Objects created on the default database don't leak onto other databases** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **Objects created on another database don't leak onto the default database** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
 
 ## Relationships
 
-- [Community 64](Community_64.md) (8 shared connections)
-- [Community 78](Community_78.md) (3 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 854](Community_854.md) (1 shared connections)
-- [Community 651](Community_651.md) (1 shared connections)
-- [Community 522](Community_522.md) (1 shared connections)
+- [Community 619](Community_619.md) (5 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 217](Community_217.md) (4 shared connections)
+- [Community 740](Community_740.md) (3 shared connections)
+- [Community 475](Community_475.md) (2 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 38](Community_38.md) (2 shared connections)
+- [Community 108](Community_108.md) (1 shared connections)
+- [Community 811](Community_811.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (84%)
-- INFERRED: 5 (16%)
+- EXTRACTED: 35 (78%)
+- INFERRED: 10 (22%)
 - AMBIGUOUS: 0 (0%)
 
 ---

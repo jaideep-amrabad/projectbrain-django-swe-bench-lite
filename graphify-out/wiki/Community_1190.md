@@ -1,24 +1,24 @@
 # Community 1190
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.test_empty_ordered_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **Ordering fields are allowed to be left blank. If they are left blank, they'll…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_view_with_force_login_and_custom_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_view_with_login_and_custom_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **Request a page that is protected with…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 470](Community_470.md) (1 shared connections)
-- [Community 546](Community_546.md) (1 shared connections)
+- [Community 560](Community_560.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

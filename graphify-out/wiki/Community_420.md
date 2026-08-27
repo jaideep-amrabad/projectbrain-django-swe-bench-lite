@@ -1,53 +1,66 @@
 # Community 420
 
-> 23 nodes · cohesion 0.09
+> 49 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **ModelTest** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **EmptyQuerySet** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.test_create_relation_with_gettext_lazy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_extra_method_select_argument_with_dashes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_multiple_objects_max_num_fetched()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_create_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_emptyqs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_emptyqs_distinct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_eq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_hash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_hash_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_not_equal_and_equal_operators_behave_as_expected_on_instances()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_year_lookup_edge_case()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Marker class to checking if a queryset is empty by .none():…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.test_delete_and_access_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_emptyqs_customqs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_emptyqs_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_emptyqs_values_order()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_missing_hash_not_inherited()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_specified_parent_hash_inherited()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_ticket_20278()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **gettext_lazy objects work when saving model instances through various methods.…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **SitemapTestsBase** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/base.py`
+- **sitemaps_tests/base.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/base.py`
+- **_get_sitemap_full_url()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- **sitemaps_tests/test_utils.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
+- **sitemaps_tests/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
+- **TestModel** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
+- **test_generic.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
+- **PingGoogleTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
+- **ping_google()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- **GenericViewsSitemapTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
+- **test_https.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
+- **I18nTestModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
+- **HTTPSDetectionSitemapTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
+- **HTTPSSitemapTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
+- **sitemaps_tests/test_management.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_management.py`
+- **PingGoogleTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_management.py`
+- **SitemapNotFound** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- **Command** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/management/commands/ping_google.py`
+- **.test_get_sitemap_full_url_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
+- **.test_get_sitemap_full_url_no_sites()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
+- **.test_get_sitemap_full_url_not_detected()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
+- **.test_something()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
+- **.handle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/management/commands/ping_google.py`
+- **.get_absolute_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
+- **.test_generic_sitemap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [Community 622](Community_622.md) (12 shared connections)
-- [Community 11](Community_11.md) (6 shared connections)
-- [Community 711](Community_711.md) (3 shared connections)
-- [Community 83](Community_83.md) (1 shared connections)
-- [Community 105](Community_105.md) (1 shared connections)
-- [Community 760](Community_760.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
+- [Community 503](Community_503.md) (14 shared connections)
+- [Community 9](Community_9.md) (10 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 126](Community_126.md) (4 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 12](Community_12.md) (3 shared connections)
+- [Community 11](Community_11.md) (3 shared connections)
+- [Community 10](Community_10.md) (3 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 38](Community_38.md) (2 shared connections)
+- [Community 192](Community_192.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/management/commands/ping_google.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_management.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (80%)
-- INFERRED: 10 (20%)
+- EXTRACTED: 128 (96%)
+- INFERRED: 5 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

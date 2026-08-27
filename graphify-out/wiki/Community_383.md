@@ -1,51 +1,59 @@
 # Community 383
 
-> 30 nodes · cohesion 0.07
+> 29 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **PrefetchRelatedTests** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_onetoone_reverse_with_to_field_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_foreign_key_then_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_forward_m2m_to_attr_conflict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_in_and_prefetch_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_m2m_then_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_prefetch_eq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_reverse_m2m_to_attr_conflict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_reverse_one_to_one_then_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_attribute_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_bool()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_count()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_exists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_foreignkey_forward()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_foreignkey_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_invalid_final_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_len()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_m2m_forward()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_m2m_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_onetoone_reverse_no_match()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_overriding_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_survives_clone()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **Regression test for #20242 - QuerySet "in" didn't work the first time when…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- *... and 5 more nodes in this community*
+- **TemplateCommand** (16 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **.handle()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **.handle_template()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **get_random_secret_key()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
+- **startproject.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/startproject.py`
+- **.download()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **Command** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/startproject.py`
+- **.extract()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **.validate_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **Command** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/custom_startproject.py`
+- **startapp.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/startapp.py`
+- **Command** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/startapp.py`
+- **.is_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **.make_writeable()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **.splitext()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **custom_startproject.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/custom_startproject.py`
+- **.handle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/startproject.py`
+- **.test_get_random_secret_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.handle()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/startapp.py`
+- **Determine where the app or project templates are. Use django.__path__[0] as the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **Copy either a Django application layout template or a Django project layout…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **Download the given URL and return the file name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **Like os.path.splitext, but takes off .tar, too** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **Extract the given file to a temporary directory and return the path of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **Return True if the name looks like a URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 93](Community_93.md) (8 shared connections)
-- [Community 238](Community_238.md) (4 shared connections)
-- [Community 315](Community_315.md) (4 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
+- [Community 3](Community_3.md) (15 shared connections)
+- [Community 256](Community_256.md) (3 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 54](Community_54.md) (1 shared connections)
+- [Community 65](Community_65.md) (1 shared connections)
+- [Community 296](Community_296.md) (1 shared connections)
+- [Community 380](Community_380.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/startapp.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/startproject.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/custom_startproject.py`
+- `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (89%)
-- INFERRED: 5 (11%)
+- EXTRACTED: 58 (92%)
+- INFERRED: 5 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

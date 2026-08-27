@@ -1,48 +1,58 @@
 # Community 320
 
-> 36 nodes · cohesion 0.10
+> 27 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **ForTagTests** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **setup** (32 connections)
-- **.test_for_tag_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_unpack09()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_empty01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_empty02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_empty03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_filter_ws()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_unpack01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_unpack03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_unpack04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_unpack05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_unpack06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_unpack07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_unpack08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_unpack10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_unpack11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_unpack12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_unpack13()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_unpack14()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_unpack_strs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_vars01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- **.test_for_tag_vars02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- *... and 11 more nodes in this community*
+- **InMemoryUploadedFile** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- **UploadedFile** (15 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- **MemoryFileUploadHandler** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- **.file_complete()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **.test_save_doesnt_close()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **InMemoryUploadedFileTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- **.handle_raw_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **.receive_data_chunk()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **.test_unicode_uploadedfile_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_open_resets_file_to_start_and_returns_context_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.chunks()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- **.multiple_chunks()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- **.open()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- **File** (1 connections)
+- **An abstract uploaded file (``TemporaryUploadedFile`` and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- **A file uploaded into memory (i.e. stream-to-memory).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- **._get_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- **._set_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- **File upload handler to stream uploads into memory (used for small files).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **Use the content_length to signal whether or not this handler should be used.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
+- [Community 114](Community_114.md) (4 shared connections)
+- [Community 142](Community_142.md) (4 shared connections)
+- [Community 14](Community_14.md) (3 shared connections)
+- [Community 578](Community_578.md) (3 shared connections)
+- [Community 139](Community_139.md) (3 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 131](Community_131.md) (2 shared connections)
+- [Community 157](Community_157.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 68 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 45 (87%)
+- INFERRED: 7 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

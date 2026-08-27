@@ -1,67 +1,50 @@
 # Community 210
 
-> 60 nodes · cohesion 0.05
+> 46 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **JsonResponse** (27 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **file_uploads/views.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **UploadedFile** (15 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- **HttpResponseServerError** (13 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **StopUpload** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **QuotaUploadHandler** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
-- **JsonResponseTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **FileModel** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/models.py`
-- **file_uploads/uploadhandler.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
-- **ErroringUploadHandler** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
-- **file_upload_echo()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **file_upload_view_verify()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **file_uploads/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/models.py`
-- **file_upload_view()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **file_upload_filename_case_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **file_upload_quota()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **file_upload_quota_broken()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **file_upload_unicode_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **CustomUploadError** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
-- **file_upload_content_type_extra()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **file_upload_echo_content()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **file_upload_errors()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **file_upload_getlist_count()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **.receive_data_chunk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
-- *... and 35 more nodes in this community*
+- **setup()** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
+- **I18nBlockTransTagTests** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
+- **.test_i18n03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
+- **.test_i18n04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
+- **.test_i18n05()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
+- **.test_i18n07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
+- **.test_i18n08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
+- **.test_i18n17()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
+- **.test_i18n21()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
+- **.test_i18n26()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
+- **.test_i18n27()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
+- **.test_i18n28()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
+- **.test_legacyi18n04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
+- **.test_legacyi18n07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
+- **.test_legacyi18n08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
+- **.test_blocktrans_syntax_error_missing_assignment()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
+- **.test_blocktrans_tag_using_a_string_that_looks_like_str_fmt()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
+- **.test_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
+- **.test_i18n18()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
+- **.test_i18n19()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
+- **.test_i18n34()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
+- **.test_i18n34_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
+- **.test_i18n34_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
+- **.test_i18n37()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
+- **.test_i18n39()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
+- *... and 21 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (9 shared connections)
-- [Community 133](Community_133.md) (8 shared connections)
-- [Community 53](Community_53.md) (8 shared connections)
-- [Community 57](Community_57.md) (8 shared connections)
-- [Community 6](Community_6.md) (4 shared connections)
-- [Community 76](Community_76.md) (2 shared connections)
-- [Community 298](Community_298.md) (2 shared connections)
-- [Community 269](Community_269.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 124](Community_124.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 175](Community_175.md) (2 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 647](Community_647.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
 
 ## Audit Trail
 
-- EXTRACTED: 139 (93%)
-- INFERRED: 10 (7%)
+- EXTRACTED: 87 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

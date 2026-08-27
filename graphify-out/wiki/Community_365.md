@@ -1,51 +1,50 @@
 # Community 365
 
-> 31 nodes · cohesion 0.11
+> 30 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **OnDeleteTests** (44 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **create_a()** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **A** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **.test_auto()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_auto_nullable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_cascade()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_cascade_from_child()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_cascade_from_parent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_cascade_nullable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_do_nothing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_do_nothing_qscount()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_o2o_setnull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_protect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_protect_multiple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_protect_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_restrict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_restrict_multiple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_restrict_path_cascade_direct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_restrict_path_cascade_indirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_setdefault()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_setdefault_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_setnull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_setnull_from_child()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_setnull_from_parent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_setvalue()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- *... and 6 more nodes in this community*
+- **BaseMemcachedCache** (19 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.validate_key()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **MemcachedCache** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **PyLibMCCache** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.get_backend_timeout()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.add()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.set()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.set_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **._cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.decr()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.get_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.incr()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.touch()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.touch()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **An implementation of a cache binding using python-memcached** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.delete_many()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **._cache()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 337](Community_337.md) (19 shared connections)
-- [Community 410](Community_410.md) (2 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
+- [Community 6](Community_6.md) (5 shared connections)
+- [Community 251](Community_251.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
 
 ## Audit Trail
 
-- EXTRACTED: 58 (79%)
-- INFERRED: 15 (21%)
+- EXTRACTED: 51 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

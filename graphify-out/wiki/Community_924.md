@@ -1,29 +1,27 @@
 # Community 924
 
-> 8 nodes · cohesion 0.36
+> 9 nodes · cohesion 0.39
 
 ## Key Concepts
 
-- **Ceil** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **CeilTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ceil.py`
-- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ceil.py`
-- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ceil.py`
-- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ceil.py`
-- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ceil.py`
-- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ceil.py`
-- **.as_oracle()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **LengthTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length.py`
+- **setup** (7 connections)
+- **.test_length05()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length.py`
+- **.test_length01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length.py`
+- **.test_length02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length.py`
+- **.test_length03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length.py`
+- **.test_length04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length.py`
+- **.test_length06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length.py`
+- **.test_length07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length.py`
 
 ## Relationships
 
-- [Community 11](Community_11.md) (4 shared connections)
-- [Community 314](Community_314.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 87](Community_87.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 647](Community_647.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ceil.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length.py`
 
 ## Audit Trail
 

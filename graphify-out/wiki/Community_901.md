@@ -1,31 +1,36 @@
 # Community 901
 
-> 9 nodes · cohesion 0.22
+> 9 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **MultipleHiddenInputTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiplehiddeninput.py`
-- **.test_render_increment_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiplehiddeninput.py`
-- **.test_render_attrs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiplehiddeninput.py`
-- **.test_render_attrs_multiple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiplehiddeninput.py`
-- **.test_render_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiplehiddeninput.py`
-- **.test_render_multiple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiplehiddeninput.py`
-- **.test_render_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiplehiddeninput.py`
-- **.test_render_single()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiplehiddeninput.py`
-- **Each input should get a separate ID.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiplehiddeninput.py`
+- **Command** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.run()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.get_handler()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.inner_run()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.execute()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **Return the default WSGI handler for the runner.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **Run the server, using the autoreloader if needed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (3 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 486](Community_486.md) (1 shared connections)
+- [Community 191](Community_191.md) (1 shared connections)
+- [Community 527](Community_527.md) (1 shared connections)
+- [Community 92](Community_92.md) (1 shared connections)
+- [Community 256](Community_256.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiplehiddeninput.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 17 (85%)
+- INFERRED: 3 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

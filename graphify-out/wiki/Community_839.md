@@ -1,32 +1,36 @@
 # Community 839
 
-> 10 nodes · cohesion 0.22
+> 11 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **.nodata_value()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.data()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.datatype()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **._flush()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **setter** (1 connections)
-- **Return the nodata value for this band, or None if it isn't set.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **Set the nodata value for this band.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **Return the GDAL Pixel Datatype for this band.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **Read or writes pixel values for this band. Blocks of data can be accessed by…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **Call the flush method on the Band's parent raster and force a refresh of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **IsolationLevelTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.get_isolation_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **get_connection()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.test_connect_isolation_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.test_default_isolation_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.test_setting_isolation_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.test_uppercase_isolation_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.test_auto_is_null_auto_config()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.test_isolation_level_validation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **skipUnless** (1 connections)
 
 ## Relationships
 
-- [Community 45](Community_45.md) (4 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 20 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,33 +1,31 @@
 # Community 986
 
-> 7 nodes · cohesion 0.43
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Ln** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **LnTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ln.py`
-- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ln.py`
-- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ln.py`
-- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ln.py`
-- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ln.py`
-- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ln.py`
+- **FileStoragePathParsing** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_directory_with_dot()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_first_character_dot()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **File names with a dot as their first character don't have an extension, and the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **Regression test for #9610. If the directory name contains a dot and the file…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 
 ## Relationships
 
-- [Community 11](Community_11.md) (4 shared connections)
-- [Community 314](Community_314.md) (1 shared connections)
-- [Community 541](Community_541.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 87](Community_87.md) (1 shared connections)
+- [Community 211](Community_211.md) (2 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 188](Community_188.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ln.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

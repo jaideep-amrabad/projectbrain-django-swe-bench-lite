@@ -1,28 +1,27 @@
 # Community 1047
 
-> 6 nodes · cohesion 0.40
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **ModelPickleTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
-- **.test_missing_django_version_unpickling()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
-- **.test_unsupported_unpickle()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
-- **.test_with_getstate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
-- **#21430 -- Verifies a warning is raised for models that are unpickled without a…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
-- **A model may override __getstate__() to choose the attributes to pickle.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
+- **Actor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
+- [Community 63](Community_63.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 78](Community_78.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 4 (80%)
+- INFERRED: 1 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

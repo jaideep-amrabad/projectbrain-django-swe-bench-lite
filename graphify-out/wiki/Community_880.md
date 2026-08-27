@@ -1,31 +1,33 @@
 # Community 880
 
-> 9 nodes · cohesion 0.28
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **RelatedObjectLookups.js** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
-- **showAdminPopup()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
-- **showRelatedObjectLookupPopup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
-- **showRelatedObjectPopup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
-- **dismissAddRelatedObjectPopup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
-- **dismissChangeRelatedObjectPopup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
-- **dismissDeleteRelatedObjectPopup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
-- **dismissRelatedLookupPopup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
-- **updateRelatedObjectLinks()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
+- **M2mThroughReferentialTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- **.test_add_on_symmetrical_m2m_with_intermediate_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- **.test_self_referential_empty_qs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- **.test_self_referential_non_symmetrical_both()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- **.test_self_referential_non_symmetrical_clear_first_side()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- **.test_self_referential_non_symmetrical_first_side()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- **.test_self_referential_non_symmetrical_second_side()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- **.test_self_referential_symmetrical()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- **.test_set_on_symmetrical_m2m_with_intermediate_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- **.test_through_fields_self_referential()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 553](Community_553.md) (6 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 11 (69%)
+- INFERRED: 5 (31%)
 - AMBIGUOUS: 0 (0%)
 
 ---

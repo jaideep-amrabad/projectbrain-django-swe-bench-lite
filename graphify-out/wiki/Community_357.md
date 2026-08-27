@@ -1,64 +1,51 @@
 # Community 357
 
-> 41 nodes · cohesion 0.06
+> 31 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **BaseSpatialFeatures** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
-- **MySQLGISSchemaEditor** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- **gis/db/backends/mysql/base.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/base.py`
-- **gis/db/backends/mysql/features.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/features.py`
-- **DatabaseFeatures** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/features.py`
-- **spatialite/features.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/features.py`
-- **gis/db/backends/base/features.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
-- **DatabaseFeatures** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/features.py`
-- **DatabaseWrapper** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/base.py`
-- **gis/db/backends/mysql/introspection.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/introspection.py`
-- **MySQLIntrospection** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/introspection.py`
-- **._create_spatial_index_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- **.create_spatial_indexes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- **.get_geometry_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/introspection.py`
-- **.add_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- **.column_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- **.create_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- **.remove_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- **MySQLDatabaseFeatures** (1 connections)
-- **MySQLDatabaseWrapper** (1 connections)
-- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
-- **.supports_bbcontains_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
-- **.supports_collect_aggr()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
-- **.supports_contained_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
-- **.supports_crosses_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
-- *... and 16 more nodes in this community*
+- **AssertFormsetErrorTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **AssertFormErrorTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **An assertion is raised if the form's non field errors doesn't contain the…** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_noerror_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_unknown_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_unknown_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_unknown_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_unknown_nonfield_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.getResponse()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_field_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_no_error_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_no_nonfield_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_no_nonform_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_nonfield_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_nonform_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_unknown_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_unknown_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_unknown_formset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_unknown_nonfield_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_unknown_nonform_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **An assertion is raised if the field name is unknown** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **An assertion is raised if the field doesn't have any errors** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **An assertion is raised if the form name is unknown** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **An assertion is raised if the field doesn't contain the provided error** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [Community 76](Community_76.md) (8 shared connections)
-- [Community 162](Community_162.md) (4 shared connections)
-- [Community 31](Community_31.md) (4 shared connections)
-- [Community 288](Community_288.md) (3 shared connections)
-- [Community 67](Community_67.md) (3 shared connections)
-- [Community 45](Community_45.md) (3 shared connections)
-- [Community 467](Community_467.md) (3 shared connections)
-- [Community 155](Community_155.md) (1 shared connections)
-- [Community 429](Community_429.md) (1 shared connections)
-- [Community 341](Community_341.md) (1 shared connections)
-- [Community 361](Community_361.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 256](Community_256.md) (5 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/base.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/features.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/introspection.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/features.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 79 (92%)
-- INFERRED: 7 (8%)
+- EXTRACTED: 42 (89%)
+- INFERRED: 5 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

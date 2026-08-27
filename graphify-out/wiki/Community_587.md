@@ -1,42 +1,39 @@
 # Community 587
 
-> 18 nodes · cohesion 0.14
+> 14 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **LabelCommand** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **DjangoHelpFormatter** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **Command** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/findstatic.py`
-- **.add_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **._reordered_actions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.add_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.handle_label()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **label_command.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/label_command.py`
-- **Command** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/label_command.py`
-- **.add_usage()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **HelpFormatter** (1 connections)
-- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/findstatic.py`
-- **.handle_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/findstatic.py`
-- **A management command which takes one or more arbitrary arguments (labels) on…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **Perform the command's actions for ``label``, which will be the string as given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **Customized formatter so that command-specific arguments appear in the --help…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.handle_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/label_command.py`
+- **manage_translations.py** (12 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **_get_locale_dirs()** (5 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **update_catalogs()** (5 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **fetch()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **_check_diff()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **lang_stats()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **_tx_resource_for_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **Output language statistics of committed translation files for each Django…** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **# TODO: merge first with the latest en catalog** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **Fetch translations from Transifex, wrap long lines, generate mo files.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **Return a tuple (contrib name, absolute path) for all locale directories,…** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **Return the Transifex resource name** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **Output the approximate number of changed/added strings in the en catalog.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **Update the en/LC_MESSAGES/django.po (main and contrib) files with new/updated…** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (6 shared connections)
-- [Community 20](Community_20.md) (2 shared connections)
+- [Community 10](Community_10.md) (2 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/findstatic.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/label_command.py`
+- `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (100%)
+- EXTRACTED: 24 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

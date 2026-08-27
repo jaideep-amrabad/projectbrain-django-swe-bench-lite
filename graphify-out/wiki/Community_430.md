@@ -1,60 +1,54 @@
 # Community 430
 
-> 63 nodes · cohesion 0.04
+> 26 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **TestQuerying** (59 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **KeyTransform** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **KeyTextTransform** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **compile_json_path()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.preprocess_lhs()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.test_contains_contained_by_with_key_transform()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_key_sql_injection()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_key_transform_expression()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_nested_key_transform_expression()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_ordering_grouping_by_key_transform()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.as_postgresql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.as_mysql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.as_oracle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.as_postgresql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.as_sqlite()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.test_has_key_deep()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_has_key_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_key_transform_raw_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_nested_key_transform_raw_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_obj_subquery_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_ordering_grouping_by_count()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **skipIf** (2 connections)
-- **.test_array_key_contains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_contained_by()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_contains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- *... and 38 more nodes in this community*
+- **Article** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
+- **ModelInstanceCreationTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_can_initialize_model_instance_using_positional_arguments()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_can_leave_off_value_for_autofield_and_it_gets_value_on_save()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_for_datetimefields_saves_as_much_precision_as_was_given()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_can_create_instance_using_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_can_mix_and_match_position_and_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_cannot_create_instance_with_invalid_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_leaving_off_a_field_with_default_set_the_default_will_be_saved()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_object_is_not_written_to_database_until_save_was_called()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_querysets_checking_for_membership()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_saving_an_object_again_does_not_create_a_new_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_extra_method_select_argument_with_dashes_and_values()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_manually_specify_primary_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_microsecond_precision()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_queryset_delete_removes_all_items_in_that_queryset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_unicode_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
+- **.test_autofields_generate_different_values_for_each_instance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_save_parent_primary_with_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_save_primary_with_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_objects_attribute_is_only_available_on_the_class_itself()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
+- **You can initialize a model instance using positional arguments, which should…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **You can leave off the value for an AutoField when creating an object, because…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 29](Community_29.md) (9 shared connections)
-- [Community 77](Community_77.md) (6 shared connections)
-- [Community 233](Community_233.md) (5 shared connections)
-- [Community 666](Community_666.md) (3 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 85](Community_85.md) (3 shared connections)
-- [Community 14](Community_14.md) (3 shared connections)
-- [Community 143](Community_143.md) (2 shared connections)
-- [Community 550](Community_550.md) (2 shared connections)
-- [Community 34](Community_34.md) (2 shared connections)
-- [Community 26](Community_26.md) (2 shared connections)
-- [Community 21](Community_21.md) (2 shared connections)
+- [Community 11](Community_11.md) (16 shared connections)
+- [Community 491](Community_491.md) (12 shared connections)
+- [Community 670](Community_670.md) (11 shared connections)
+- [Community 941](Community_941.md) (3 shared connections)
+- [Community 763](Community_763.md) (2 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 118 (95%)
-- INFERRED: 6 (5%)
+- EXTRACTED: 56 (70%)
+- INFERRED: 24 (30%)
 - AMBIGUOUS: 0 (0%)
 
 ---

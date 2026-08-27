@@ -1,54 +1,51 @@
 # Community 533
 
-> 30 nodes · cohesion 0.07
+> 21 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **Reporter** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/models.py`
-- **AtomicErrorsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **AtomicMergeTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **AtomicMiscTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **AtomicMySQLTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **NonAutocommitTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_atomic_allows_queries_after_fixing_transaction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_atomic_does_not_leak_savepoints_on_failure()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_wrap_callable_instance()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_implicit_savepoint_rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_orm_query_after_error_and_rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_atomic_prevents_queries_in_broken_transaction()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_atomic_prevents_queries_in_broken_transaction_after_client_close()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_orm_query_without_autocommit()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/models.py`
-- **.test_atomic_prevents_calling_transaction_methods()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_atomic_prevents_setting_autocommit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_merged_inner_savepoint_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_merged_outer_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_mark_for_rollback_on_error_in_autocommit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **.test_mark_for_rollback_on_error_in_transaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **skipIf** (1 connections)
-- **skipUnless** (1 connections)
-- **Test merging transactions with savepoint=False.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- *... and 5 more nodes in this community*
+- **distinct_on_fields/tests.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
+- **DistinctOnTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
+- **distinct_on_fields/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
+- **Tag** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
+- **Celebrity** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
+- **Staff** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
+- **StaffTag** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
+- **Fan** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
+- **.test_basic_distinct_on()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
+- **.test_distinct_not_implemented_checks()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
+- **.test_distinct_on_get_ordering_preserved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
+- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
+- **.test_distinct_on_in_ordered_subquery()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
+- **Ordering shouldn't be cleared when distinct on fields are specified. refs #25081** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
+- **QuerySet.distinct('field', ...) works** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (7 shared connections)
-- [Community 542](Community_542.md) (5 shared connections)
-- [Community 29](Community_29.md) (4 shared connections)
-- [Community 384](Community_384.md) (1 shared connections)
-- [Community 85](Community_85.md) (1 shared connections)
-- [Community 391](Community_391.md) (1 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 38](Community_38.md) (3 shared connections)
+- [Community 28](Community_28.md) (2 shared connections)
+- [Community 60](Community_60.md) (2 shared connections)
+- [Community 87](Community_87.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/transactions/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/distinct_on_fields/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (86%)
-- INFERRED: 7 (14%)
+- EXTRACTED: 38 (86%)
+- INFERRED: 6 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

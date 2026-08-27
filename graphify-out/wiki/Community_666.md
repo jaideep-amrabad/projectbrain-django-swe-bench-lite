@@ -1,52 +1,36 @@
 # Community 666
 
-> 22 nodes · cohesion 0.10
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **JSONField** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **CheckFieldDefaultMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
-- **KeyTransformFactory** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.check()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **._check_supported()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.get_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.check()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
-- **._check_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.formfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.from_db_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.get_prep_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.select_format()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.validate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.value_to_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **Field** (1 connections)
+- **SwappableOperationTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- **.test_create_ignore_swapped()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- **.test_add_field_ignore_swapped()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- **.test_delete_ignore_swapped()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- **.test_indexes_ignore_swapped()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- **.test_add_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- **Tests the AddField operation.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- **Key operations ignore swappable models (we don't want to replicate all of them…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- **The CreateTable operation ignores swapped models.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- **Tests the DeleteModel operation ignores swapped models.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- **Add/RemoveIndex operations ignore swapped models.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
 
 ## Relationships
 
-- [Community 143](Community_143.md) (4 shared connections)
-- [Community 233](Community_233.md) (4 shared connections)
-- [Community 430](Community_430.md) (3 shared connections)
-- [Community 73](Community_73.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 200](Community_200.md) (1 shared connections)
-- [Community 518](Community_518.md) (1 shared connections)
+- [Community 9](Community_9.md) (4 shared connections)
+- [Community 33](Community_33.md) (3 shared connections)
+- [Community 54](Community_54.md) (1 shared connections)
+- [Community 252](Community_252.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 18 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,34 +1,38 @@
 # Community 823
 
-> 11 nodes · cohesion 0.18
+> 11 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **M2mThroughFieldsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_explicit_field_names()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_invalid_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_invalid_order()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_m2m_field_argument_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_intersection_foreign_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_superset_foreign_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **ManyToManyField accepts the ``through_fields`` kwarg only if an intermediary…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **Mixing up the order of link fields to ManyToManyField.through_fields triggers…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **Providing invalid field names to ManyToManyField.through_fields triggers…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **If ``through_fields`` kwarg is given, it must specify both link fields of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **._load_library()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **Argon2PasswordHasher** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.params()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.encode()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.must_update()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.decode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.verify()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.salt()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.harden_runtime()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **Secure password hashing using the argon2 algorithm. This is the winner of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
 
 ## Relationships
 
-- [Community 12](Community_12.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 159](Community_159.md) (5 shared connections)
+- [Community 462](Community_462.md) (2 shared connections)
+- [Community 928](Community_928.md) (1 shared connections)
+- [Community 174](Community_174.md) (1 shared connections)
+- [Community 362](Community_362.md) (1 shared connections)
+- [Community 256](Community_256.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 24 (89%)
+- INFERRED: 3 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,52 +1,50 @@
 # Community 355
 
-> 32 nodes · cohesion 0.10
+> 39 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **signals/tests.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **SignalTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **LazyModelRefTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **signals/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
-- **Person** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
-- **Book** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
-- **BaseSignalSetup** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **Author** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
-- **Car** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
-- **.receiver()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **.test_disconnect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **.test_register_model_class_senders_immediately()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **.test_already_loaded_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **.test_not_loaded_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **.test_decorators()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **.test_delete_signals()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **.test_disconnect_in_dispatch()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **.test_lazy_model_signal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **.test_model_pre_init_and_post_init()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **.test_save_signals()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
-- **Testing signals before/after saving and deleting.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- *... and 7 more nodes in this community*
+- **TestQuerying** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **HStoreModel** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **KeyTransform** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **SimpleTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **TestSerialization** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **KeyTransformFactory** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **.test_key_sql_injection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_key_transform_raw_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_obj_subquery_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.get_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_save_load_success()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_value_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_dumping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_roundtrip_with_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **.test_array_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_key_val_cast_to_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_contained_by()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_exact()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 167](Community_167.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 48](Community_48.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
-- [Community 105](Community_105.md) (1 shared connections)
+- [Community 30](Community_30.md) (14 shared connections)
+- [Community 53](Community_53.md) (4 shared connections)
+- [Community 342](Community_342.md) (1 shared connections)
+- [Community 89](Community_89.md) (1 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
 
 ## Audit Trail
 

@@ -1,53 +1,59 @@
 # Community 443
 
-> 29 nodes · cohesion 0.09
+> 25 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **.check_dimensions()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **TwoImageFieldTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **ImageFile** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
-- **._get_image_dimensions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
-- **get_image_dimensions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
-- **.height()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
-- **.width()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
-- **.test_assignment_to_None()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.test_constructor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.test_create()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.test_dimensions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.test_field_save_and_delete_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.test_image_after_constructor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.test_dimensions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **Dimensions are updated correctly in various situations.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.test_assignment()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.test_constructor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.test_create()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.test_field_save_and_delete_methods()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **File** (1 connections)
-- **A mixin for use alongside django.core.files.base.File, which provides…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
-- **Return the (width, height) of an image, given an open file or a path. Set…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
-- **Tests assigning an image field through the model's constructor.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **Tests behavior when image is not passed in constructor.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **Tests assigning an image in Manager.create().** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- *... and 4 more nodes in this community*
+- **test_autocomplete_widget.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **AutocompleteMixinTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **AutocompleteSelect** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **AutocompleteMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **AlbumForm** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **NotRequiredBandForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **RequiredBandForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **.build_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.get_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.test_render_options_not_required_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **.test_render_options_required_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **.media()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.optgroups()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.test_build_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **.test_build_attrs_no_custom_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **.test_build_attrs_not_required_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **.test_build_attrs_required_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **.test_get_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **.test_media()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **.test_render_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **Empty option is present if the field isn't required.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **Select widget mixin that loads options from AutocompleteJsonView via AJAX.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **Set select2's AJAX attributes. Attributes can be set using the html5 data…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **Return selected options based on the ModelChoiceIterator.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
 
 ## Relationships
 
-- [Community 142](Community_142.md) (12 shared connections)
-- [Community 76](Community_76.md) (3 shared connections)
-- [Community 916](Community_916.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 368](Community_368.md) (1 shared connections)
+- [Community 49](Community_49.md) (8 shared connections)
+- [Community 5](Community_5.md) (7 shared connections)
+- [Community 11](Community_11.md) (3 shared connections)
+- [Community 27](Community_27.md) (2 shared connections)
+- [Community 38](Community_38.md) (2 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
+- [Community 542](Community_542.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 267](Community_267.md) (1 shared connections)
+- [Community 236](Community_236.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (91%)
-- INFERRED: 5 (9%)
+- EXTRACTED: 59 (84%)
+- INFERRED: 11 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,41 +1,40 @@
 # Community 717
 
-> 14 nodes · cohesion 0.16
+> 14 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **ManyToOneRel** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **ManyToManyRel** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **OneToOneRel** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.get_related_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.get_related_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **Return the Field in the 'to' object to which this relationship is tied.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.__getstate__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.set_field_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **Used by the ForeignKey field to store information about the relation.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **Used by OneToOneField to store information about the relation.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **Used by ManyToManyField to store information about the relation.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **check_framework/test_templates.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **check_string_if_invalid_is_string()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/templates.py`
+- **CheckTemplateStringIfInvalidTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **check_setting_app_dirs_loaders()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/templates.py`
+- **CheckTemplateSettingsAppDirsTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_app_dirs_and_loaders()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_string_if_invalid_not_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_app_dirs_removed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_loaders_removed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_string_if_invalid_both_are_strings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_string_if_invalid_first_is_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_string_if_invalid_not_specified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **Error if template loaders are specified and APP_DIRS is True.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 76](Community_76.md) (3 shared connections)
-- [Community 232](Community_232.md) (3 shared connections)
-- [Community 131](Community_131.md) (1 shared connections)
-- [Community 68](Community_68.md) (1 shared connections)
-- [Community 105](Community_105.md) (1 shared connections)
+- [Community 41](Community_41.md) (4 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 9](Community_9.md) (3 shared connections)
+- [Community 624](Community_624.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/templates.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (85%)
-- INFERRED: 4 (15%)
+- EXTRACTED: 33 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

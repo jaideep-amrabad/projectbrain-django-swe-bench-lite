@@ -1,40 +1,45 @@
 # Community 662
 
-> 16 nodes · cohesion 0.19
+> 17 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **ContentTypeManager** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **._add_to_cache()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **.get_for_model()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **.get_for_models()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **.get_for_id()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **._get_from_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **._get_opts()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **.clear_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **.get_by_natural_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **.test_cache_not_shared_between_managers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **Lookup a ContentType by ID. Use the same shared cache as get_for_model (though…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **Clear out the content-type cache.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **Insert a ContentType into the cache.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **Return the ContentType object for a given model, creating the ContentType if…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- **Given *models, return a dictionary mapping {model: content_type}.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **date()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **AddTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
+- **setup** (7 connections)
+- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_add07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
+- **.test_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_escape_characters()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- **.test_add01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
+- **.test_add02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
+- **.test_add03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
+- **.test_add04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
+- **.test_add05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
+- **.test_add06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
+- **.test_no_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **Format a date according to the given format.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **Tests for #11687 and #16676** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
 
 ## Relationships
 
-- [Community 82](Community_82.md) (2 shared connections)
-- [Community 699](Community_699.md) (1 shared connections)
+- [Community 11](Community_11.md) (6 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 36 (92%)
+- INFERRED: 3 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

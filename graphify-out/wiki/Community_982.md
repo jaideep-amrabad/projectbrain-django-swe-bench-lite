@@ -1,33 +1,29 @@
 # Community 982
 
-> 7 nodes · cohesion 0.43
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Sin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **SinTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sin.py`
-- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sin.py`
-- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sin.py`
-- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sin.py`
-- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sin.py`
-- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sin.py`
+- **GetDefaultUsernameTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_actual_implementation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_existing()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_i18n()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_simple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
 
 ## Relationships
 
-- [Community 11](Community_11.md) (4 shared connections)
-- [Community 314](Community_314.md) (1 shared connections)
-- [Community 541](Community_541.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 - [Community 38](Community_38.md) (1 shared connections)
-- [Community 87](Community_87.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sin.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

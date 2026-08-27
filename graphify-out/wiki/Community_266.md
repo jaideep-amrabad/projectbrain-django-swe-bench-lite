@@ -1,53 +1,51 @@
 # Community 266
 
-> 40 nodes · cohesion 0.08
+> 39 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **RemoteTestResult** (25 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **DebugSQLTextTestResult** (8 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.check_picklable()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.stop_if_failfast()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **PDBDebugResult** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.addError()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.addFailure()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.addSubTest()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **ExceptionThatFailsUnpickling** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **RemoteTestResultTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **.check_subtest_picklable()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **._confirm_picklable()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.addError()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.addFailure()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.debug()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.test_pickle_errors_detection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **.addError()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.addFailure()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.addSubTest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.startTest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.stopTest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.addExpectedFailure()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.addUnexpectedSuccess()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **._print_unpicklable_subtest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.startTest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- *... and 15 more nodes in this community*
+- **DatabaseOperations** (43 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **._convert_field_to_tz()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.quote_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.datetime_extract_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.date_extract_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.datetime_cast_date_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.datetime_cast_time_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.datetime_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.fetch_returned_insert_rows()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.max_name_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **._prepare_tzname_delta()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.return_insert_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.sequence_reset_by_name_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.sql_flush()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.tablespace_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.adapt_datefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.adapt_datetimefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.adapt_decimalfield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.adapt_ipaddressfield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.adapt_timefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.bulk_insert_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.date_trunc_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.deferrable_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.distinct_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.explain_query_prefix()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [Community 119](Community_119.md) (3 shared connections)
-- [Community 564](Community_564.md) (3 shared connections)
-- [Community 1072](Community_1072.md) (2 shared connections)
-- [Community 851](Community_851.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 7](Community_7.md) (4 shared connections)
+- [Community 609](Community_609.md) (1 shared connections)
+- [Community 106](Community_106.md) (1 shared connections)
+- [Community 561](Community_561.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 69 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 54 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,31 +1,28 @@
 # Community 1068
 
-> 6 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **SessionStore** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
-- **DBStore** (1 connections)
-- **A database session store, that handles updating the account ID column inside…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
-- **.create_model_instance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
-- **.get_model_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
-- **.get_session_cookie_age()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
+- **CacheHandlerTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_per_thread()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_same_instance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **Attempting to retrieve the same alias should yield the same instance.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **Requesting the same alias from separate threads should yield separate instances.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Relationships
 
-- [Community 53](Community_53.md) (1 shared connections)
-- [Community 500](Community_500.md) (1 shared connections)
-- [Community 637](Community_637.md) (1 shared connections)
-- [Community 602](Community_602.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (78%)
-- INFERRED: 2 (22%)
+- EXTRACTED: 6 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

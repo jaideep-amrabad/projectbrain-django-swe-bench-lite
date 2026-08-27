@@ -1,36 +1,35 @@
 # Community 897
 
-> 9 nodes · cohesion 0.33
+> 9 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **bar.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/bar.py`
-- **models/foo.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/foo.py`
-- **admin/foo.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/admin/foo.py`
-- **Bar** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/bar.py`
-- **Foo** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/foo.py`
-- **complex_app/models/__init__.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/__init__.py`
-- **simple_app/models.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/simple_app/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/bar.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/foo.py`
+- **UserAttributeSimilarityValidator** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **UserAttributeSimilarityValidatorTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.test_validate_property()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **.test_help_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.test_validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **Validate whether the password is sufficiently different from the user's…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **.get_help_text()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
+- [Community 267](Community_267.md) (3 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 42](Community_42.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/admin/foo.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/bar.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/foo.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/simple_app/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 16 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

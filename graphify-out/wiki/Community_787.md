@@ -1,41 +1,42 @@
 # Community 787
 
-> 12 nodes · cohesion 0.17
+> 12 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **LoginTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_login_session_without_hash_session_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_legacy_session_key_flushed_on_login()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_security_check()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_security_check_https()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_session_key_flushed_on_login()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_session_key_flushed_on_login_after_password_change()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_current_site_in_context_after_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_login_form_contains_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **To avoid reusing another user's session, ensure a new, empty session is created…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **As above, but same user logging in after a password change.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **Session without django.contrib.auth.HASH_SESSION_KEY should login without an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **SimpleListFilter** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **NotNinetiesListFilter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **.lookups()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **Return the value (in string format) provided in the request's query string for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **Must be overridden to return a list of tuples (value, verbose value)** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.expected_parameters()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.has_output()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.lookups()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **.queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
 
 ## Relationships
 
-- [Community 359](Community_359.md) (4 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 13](Community_13.md) (3 shared connections)
-- [Community 222](Community_222.md) (2 shared connections)
-- [Community 620](Community_620.md) (1 shared connections)
-- [Community 115](Community_115.md) (1 shared connections)
-- [Community 775](Community_775.md) (1 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
+- [Community 55](Community_55.md) (4 shared connections)
+- [Community 267](Community_267.md) (2 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 34](Community_34.md) (1 shared connections)
+- [Community 54](Community_54.md) (1 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
+- [Community 264](Community_264.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (78%)
-- INFERRED: 6 (22%)
+- EXTRACTED: 24 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

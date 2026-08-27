@@ -1,42 +1,46 @@
 # Community 547
 
-> 20 nodes · cohesion 0.10
+> 20 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **.make_choiceformset()** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_basic_formset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_blank_form_unfilled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_delete_prefilled_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_has_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_initial_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_total_error_count()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_validation_count()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_second_form_partially_filled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_html_safe()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **A valid formset should have 0 total errors.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **A formset's ManagementForm is validated once per FormSet.is_valid() call and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **FormSet.has_changed() is True if any data is passed to its forms, even if the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **A FormSet can be prefilled with existing data by providing a list of dicts to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **A form that's displayed as blank may be submitted as blank.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **If at least one field is filled out on a blank form, it will be validated.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **Deleting prefilled data is an error. Removing data from form fields isn't the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **Make a ChoiceFormset from the given formset_data. The data should be given as a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **A FormSet constructor takes the same arguments as Form. Create a FormSet for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **DatabaseIntrospection** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **.get_constraints()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **.get_primary_key_column()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **.get_table_description()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **._parse_table_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **get_field_size()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **._get_foreign_key_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **.get_key_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **.get_relations()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **.get_sequences()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **.get_table_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **._parse_column_or_constraint_definition()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **.get_field_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **Return a dictionary of {field_name: (field_name_other_table, other_table)}…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **Return a list of (column_name, referenced_table_name, referenced_column_name)…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **Extract the size number from a "varchar(11)" type name** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **Return the column name of the primary key for the given table.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **Retrieve any constraints or keys (unique, pk, fk, check, index) across one or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **Return a list of table and view names in the current database.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **Return a description of the table with the DB-API cursor.description interface.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
 
 ## Relationships
 
-- [Community 546](Community_546.md) (11 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 166](Community_166.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 366](Community_366.md) (1 shared connections)
+- [Community 683](Community_683.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 30 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

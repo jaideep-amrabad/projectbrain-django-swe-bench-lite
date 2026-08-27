@@ -1,34 +1,32 @@
 # Community 890
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **.names_to_path()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **MultiJoin** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **.add_ordering()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **get_field_names_from_opts()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **Exception** (1 connections)
-- **Used by join construction code to indicate the point at which a multi-valued…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- **Walk the list of names and turns them into PathInfo tuples. A single name in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **Add items from the 'ordering' sequence to the query's "order by" clause. These…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **NamedEndblockTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
+- **setup** (7 connections)
+- **.test_namedendblocks06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
+- **.test_namedendblocks01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
+- **.test_namedendblocks02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
+- **.test_namedendblocks03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
+- **.test_namedendblocks04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
+- **.test_namedendblocks05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
+- **.test_namedendblocks07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
+- **Mixed named and unnamed endblocks** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
 
 ## Relationships
 
-- [Community 76](Community_76.md) (6 shared connections)
-- [Community 97](Community_97.md) (3 shared connections)
-- [Community 431](Community_431.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_named_endblock.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 17 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

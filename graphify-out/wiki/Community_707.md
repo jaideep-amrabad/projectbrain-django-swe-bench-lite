@@ -1,40 +1,36 @@
 # Community 707
 
-> 14 nodes · cohesion 0.21
+> 15 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **.get_dated_items()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **WeekMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_next_week()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **._get_weekday()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_previous_week()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_week()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_week_format()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **._get_current_week()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Mixin for views manipulating week-based data.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Get a week format string in strptime syntax to be used to parse the week from…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Return the week for which this view should display data.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Get the next valid week.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Get the previous valid week.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **Return the weekday for a given date. The first day according to the week format…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **ListIndexTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **setup** (7 connections)
+- **.test_list_index01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **.test_list_index02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **.test_list_index03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **.test_list_index04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **.test_list_index05()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **.test_list_index06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **.test_list_index07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **Fail silently when the list index is out of range.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **List-index syntax allows a template to access a certain item of a subscriptable…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **Fail silently when variable is a dict without the specified key.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **Dictionary lookup wins out when dict's key is a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **But list-index lookup wins out when dict's key is an int, which behind the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **Dictionary lookup wins out when there is a string and int version of the key.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
 
 ## Relationships
 
-- [Community 646](Community_646.md) (4 shared connections)
-- [Community 521](Community_521.md) (3 shared connections)
-- [Community 596](Community_596.md) (3 shared connections)
-- [Community 407](Community_407.md) (3 shared connections)
 - [Community 1](Community_1.md) (2 shared connections)
-- [Community 672](Community_672.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 23 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

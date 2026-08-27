@@ -1,27 +1,29 @@
 # Community 1077
 
-> 5 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **ActionAdmin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
-- **.get_urls()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
-- **.remove_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
-- **A ModelAdmin for the Action model that changes the URL of the add_view to '<app…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
-- **Remove all entries named 'name' from the ModelAdmin instance URL patterns list** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
+- **CustomLayoutExtractionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_project_locale_paths()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_no_locale_raises()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_project_locale_paths_pathlib()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- *** translations for an app containing a locale folder are stored in that folder…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 269](Community_269.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (86%)
-- INFERRED: 1 (14%)
+- EXTRACTED: 7 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,61 +1,60 @@
 # Community 326
 
-> 35 nodes · cohesion 0.08
+> 30 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **WhereNode** (31 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **NothingNode** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **WhereNodeTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.c()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.test_empty_full_handling_conjunction()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_empty_full_handling_disjunction()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.count()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.clone()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **DummyNode** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_empty_nodes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **MockCompiler** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.as_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **._contains_aggregate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **._contains_over_clause()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **.relabel_aliases()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **.relabeled_clone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **.resolve_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **._resolve_leaf()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **._resolve_node()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **.split_having()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **Return the total number of objects, across all pages.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **Relabel the alias values of any children. 'change_map' is a dictionary mapping…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **Create a clone of the tree. Must only be called on root nodes (nodes with empty…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **An SQL WHERE clause. The class is tied to the Query class that created it (in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- *... and 10 more nodes in this community*
+- **.setUpClass()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._setup_and_call()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._databases_names()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._databases_support_transactions()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._fixture_teardown()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._rollback_atomics()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.tearDownClass()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._pre_setup()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._enter_atomics()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._fixture_setup()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._post_teardown()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.setUpTestData()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **LiveServerPort** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_port_bind()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_specified_port_bind()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.__call__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.debug()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._should_reload_connections()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._fixture_teardown()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._should_check_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Perform post-test things: * Flush the contents of the database to leave a clean…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Open atomic blocks for multiple databases.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Rollback atomic blocks opened by the previous method.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Load initial data for the TestCase.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Wrapper around default __call__ method to perform common Django test set up.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 76](Community_76.md) (7 shared connections)
-- [Community 90](Community_90.md) (5 shared connections)
-- [Community 97](Community_97.md) (3 shared connections)
-- [Community 15](Community_15.md) (3 shared connections)
-- [Community 130](Community_130.md) (3 shared connections)
-- [Community 126](Community_126.md) (1 shared connections)
-- [Community 120](Community_120.md) (1 shared connections)
-- [Community 335](Community_335.md) (1 shared connections)
-- [Community 148](Community_148.md) (1 shared connections)
-- [Community 514](Community_514.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 38](Community_38.md) (10 shared connections)
+- [Community 843](Community_843.md) (5 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 10](Community_10.md) (2 shared connections)
+- [Community 606](Community_606.md) (1 shared connections)
+- [Community 441](Community_441.md) (1 shared connections)
+- [Community 386](Community_386.md) (1 shared connections)
+- [Community 907](Community_907.md) (1 shared connections)
+- [Community 270](Community_270.md) (1 shared connections)
+- [Community 465](Community_465.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 527](Community_527.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 58 (79%)
-- INFERRED: 15 (21%)
+- EXTRACTED: 71 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

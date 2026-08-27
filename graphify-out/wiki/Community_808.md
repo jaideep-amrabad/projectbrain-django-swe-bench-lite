@@ -1,35 +1,38 @@
 # Community 808
 
-> 11 nodes · cohesion 0.20
+> 12 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **SessionStore** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
-- **.flush()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
-- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
-- **DBStore** (1 connections)
-- **Implement cached, database backed sessions.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
-- **Remove the current session data from the database and regenerate the key.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
-- **.cache_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
-- **.exists()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
-- **.load()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
-- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
+- **TestSaveLoad** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
+- **DurationModel** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **TestQuerying** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
+- **TestSerialization** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
+- **.test_dumping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
+- **.test_exact()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
+- **.test_gt()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
+- **.test_create_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
+- **.test_fractional_seconds()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
+- **.test_simple_roundtrip()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
+- **.test_loading()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
 
 ## Relationships
 
-- [Community 53](Community_53.md) (2 shared connections)
-- [Community 637](Community_637.md) (1 shared connections)
-- [Community 104](Community_104.md) (1 shared connections)
+- [Community 5](Community_5.md) (4 shared connections)
+- [Community 187](Community_187.md) (2 shared connections)
+- [Community 38](Community_38.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (87%)
-- INFERRED: 2 (13%)
+- EXTRACTED: 17 (81%)
+- INFERRED: 4 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

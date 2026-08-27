@@ -1,60 +1,48 @@
 # Community 402
 
-> 33 nodes · cohesion 0.12
+> 22 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **sqlite3/base.py** (60 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.get_new_connection()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **none_guard()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **_sqlite_datetime_parse()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **_sqlite_format_dtdelta()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **_sqlite_timestamp_diff()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **SQLiteCursorWrapper** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **typecast_timestamp()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
-- **_sqlite_time_diff()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **typecast_time()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
-- **list_aggregate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **_sqlite_date_trunc()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **_sqlite_datetime_cast_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **_sqlite_datetime_cast_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **_sqlite_datetime_extract()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **_sqlite_datetime_trunc()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **_sqlite_lpad()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **_sqlite_regexp()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **_sqlite_rpad()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **_sqlite_time_extract()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **_sqlite_time_trunc()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.convert_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **decoder()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.execute()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.executemany()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- *... and 8 more nodes in this community*
+- **SimpleTemplateResponseTest** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **._response()** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **TemplateResponseTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_template_resolving()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **._response()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_content_access_rendered()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_content_access_unrendered()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_dict_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_explicit_baking()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_iteration_rendered()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_iteration_unrendered()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_kwargs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_render()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_repickling()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_set_content()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_context_processor_priority()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_kwargs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_pickling()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_render()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_render_with_requestcontext()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_repickling()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
 
 ## Relationships
 
-- [Community 11](Community_11.md) (8 shared connections)
-- [Community 76](Community_76.md) (8 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 72](Community_72.md) (3 shared connections)
-- [Community 234](Community_234.md) (3 shared connections)
-- [Community 665](Community_665.md) (3 shared connections)
-- [Community 169](Community_169.md) (2 shared connections)
-- [Community 428](Community_428.md) (2 shared connections)
-- [Community 302](Community_302.md) (2 shared connections)
-- [Community 199](Community_199.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 143](Community_143.md) (1 shared connections)
+- [Community 425](Community_425.md) (8 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 17](Community_17.md) (3 shared connections)
+- [Community 862](Community_862.md) (2 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
 
 ## Audit Trail
 
-- EXTRACTED: 97 (88%)
-- INFERRED: 13 (12%)
+- EXTRACTED: 52 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

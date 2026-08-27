@@ -1,65 +1,56 @@
 # Community 261
 
-> 41 nodes · cohesion 0.06
+> 40 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **Driver** (23 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/driver.py`
-- **inspectapp/tests.py** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **ogrinspect()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
-- **OGRInspectTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/driver.py`
-- **DriverTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_driver.py`
-- **inspectapp/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/models.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/datasource.py`
-- **get_ogr_db_string()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **.ensure_registered()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/driver.py`
-- **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/driver.py`
-- **.driver()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
-- **.test01_valid_driver()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_driver.py`
-- **.test02_invalid_driver()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_driver.py`
-- **.test03_aliases()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_driver.py`
-- **.test_registered()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_driver.py`
-- **AllOGRFields** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/models.py`
-- **.test_time_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **.driver_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/driver.py`
-- **.test_date_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **.test_management_command()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **.test_mapping_option()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **.test_poly()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **.test_poly_multi()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/driver.py`
-- *... and 16 more nodes in this community*
+- **BoundField** (28 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **BoundWidget** (10 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.as_widget()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.value()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.subwidgets()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.as_hidden()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.as_text()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.as_textarea()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.__str__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.build_widget_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.auto_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.css_classes()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.data()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.id_for_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.is_hidden()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.tag()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **Return a string of HTML for representing this as an <input type="text">.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.widget_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [Community 45](Community_45.md) (12 shared connections)
-- [Community 23](Community_23.md) (6 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 10](Community_10.md) (4 shared connections)
-- [Community 147](Community_147.md) (3 shared connections)
-- [Community 65](Community_65.md) (3 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 155](Community_155.md) (1 shared connections)
-- [Community 67](Community_67.md) (1 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
+- [Community 5](Community_5.md) (4 shared connections)
+- [Community 267](Community_267.md) (4 shared connections)
+- [Community 104](Community_104.md) (2 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 244](Community_244.md) (1 shared connections)
+- [Community 324](Community_324.md) (1 shared connections)
+- [Community 180](Community_180.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/datasource.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/driver.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_driver.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 90 (96%)
-- INFERRED: 4 (4%)
+- EXTRACTED: 62 (94%)
+- INFERRED: 4 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

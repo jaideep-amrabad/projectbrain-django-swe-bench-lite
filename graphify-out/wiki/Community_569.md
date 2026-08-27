@@ -1,55 +1,45 @@
 # Community 569
 
-> 21 nodes · cohesion 0.10
+> 19 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **DatabaseWrapper** (25 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **DatabaseClient** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/client.py`
-- **CursorDebugWrapper** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **.check_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **.create_cursor()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **.ensure_timezone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **.get_connection_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **.get_new_connection()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **.init_connection_state()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **.make_debug_cursor()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **.runshell()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/client.py`
-- **.runshell_db()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/client.py`
-- **BaseCursorDebugWrapper** (1 connections)
-- **.copy_expert()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **.copy_to()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **.is_usable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **._nodb_cursor()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **.pg_version()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **._set_autocommit()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **.tzinfo_factory()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **Check constraints by setting them to immediate. Return them to deferred…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **UpdateQuery** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.add_update_values()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **InsertQuery** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.add_related_update()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.add_update_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **._setup_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.update_batch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.test_sql_insert_compiler_return_id_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.get_related_updates()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.insert_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **Append a sequence of (field, model, value) triples to the internal list that…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **Add (name, value) to an update query for an ancestor model. Update are…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **Return a list of query objects: one for each update required to an ancestor…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **Run on initialization and at the end of chaining. Any attributes that would…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **Convert a dictionary of field name to value mappings into an update query. This…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.clone()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **Regression test for #14019: SQLInsertCompiler.as_sql() failure** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
 
 ## Relationships
 
-- [Community 76](Community_76.md) (5 shared connections)
-- [Community 72](Community_72.md) (4 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 321](Community_321.md) (1 shared connections)
-- [Community 288](Community_288.md) (1 shared connections)
-- [Community 128](Community_128.md) (1 shared connections)
-- [Community 540](Community_540.md) (1 shared connections)
-- [Community 162](Community_162.md) (1 shared connections)
-- [Community 278](Community_278.md) (1 shared connections)
-- [Community 280](Community_280.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 169](Community_169.md) (1 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 97](Community_97.md) (2 shared connections)
+- [Community 16](Community_16.md) (2 shared connections)
+- [Community 289](Community_289.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/client.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (83%)
-- INFERRED: 7 (17%)
+- EXTRACTED: 28 (93%)
+- INFERRED: 2 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

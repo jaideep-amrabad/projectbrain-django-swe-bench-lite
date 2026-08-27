@@ -1,46 +1,49 @@
 # Community 478
 
-> 24 nodes · cohesion 0.14
+> 24 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **DebugInvocationTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **ErrorTestCase** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.get_runner()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.isolate_debug_test()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **test_simpletestcase.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.test_debug_bubbles_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.test_debug_bubbles_post_teardown_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.test_debug_bubbles_pre_setup_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.test_run_cleanup()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.test_debug_cleanup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.test_debug_skipped_test_no_cleanup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.test_run_post_teardown_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.test_run_pre_setup_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.test_run_skipped_test_no_cleanup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.skipped_test()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.raising_test()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **.simple_test()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **object** (1 connections)
-- **skip** (1 connections)
-- **debug() bubbles up exceptions during _pre_setup.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **debug() bubbles up exceptions during _post_teardown.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **Simple test run: catches errors and runs cleanup.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **Simple debug run without errors.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
-- **debug() bubbles up exceptions before cleanup.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- **UpdateOnlyFieldsTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **update_only_fields/tests.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **update_only_fields/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
+- **Employee** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
+- **ProxyEmployee** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
+- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
+- **Account** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
+- **Profile** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
+- **.test_empty_update_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_num_queries_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_select_related_only_interaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_basic()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_deferred()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_fk_defer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_incorrect_params()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_inheritance_defer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_inheritance_with_proxy_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_only_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_only_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_only_repeated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_signals()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (4 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 38](Community_38.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/test_simpletestcase.py`
+- `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 36 (88%)
+- INFERRED: 5 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

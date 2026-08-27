@@ -1,60 +1,53 @@
 # Community 179
 
-> 64 nodes · cohesion 0.03
+> 51 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **SpatialRefSysMixin** (24 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **oracle/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **PostGISSpatialRefSys** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
-- **spatialite/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
-- **backends/base/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **OracleGeometryColumns** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **OracleSpatialRefSys** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **SpatialiteGeometryColumns** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
-- **SpatialiteSpatialRefSys** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
-- **.angular_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.angular_units()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.datum()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.ellipsoid()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.geographic()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.get_spheroid()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.get_units()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.linear_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.linear_units()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.local()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.projected()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.spheroid()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.units()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- *... and 39 more nodes in this community*
+- **BaseModelAdminChecks** (33 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **must_be()** (33 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **.check()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **refer_to_missing_field()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_fields()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_fieldsets_item()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_filter_item()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_prepopulated_fields()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_radio_fields()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_autocomplete_fields()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_autocomplete_fields_item()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_exclude()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_field_spec()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_fieldsets()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_filter_horizontal()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_filter_vertical()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_ordering()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_prepopulated_fields_value()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_raw_id_fields()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_raw_id_fields_item()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_readonly_fields()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_ordering_item()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_prepopulated_fields_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_prepopulated_fields_value_item()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_radio_fields_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (6 shared connections)
-- [Community 58](Community_58.md) (5 shared connections)
-- [Community 31](Community_31.md) (4 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
-- [Community 45](Community_45.md) (1 shared connections)
-- [Community 243](Community_243.md) (1 shared connections)
-- [Community 155](Community_155.md) (1 shared connections)
-- [Community 67](Community_67.md) (1 shared connections)
-- [Community 162](Community_162.md) (1 shared connections)
-- [Community 288](Community_288.md) (1 shared connections)
+- [Community 305](Community_305.md) (17 shared connections)
+- [Community 593](Community_593.md) (5 shared connections)
+- [Community 267](Community_267.md) (3 shared connections)
+- [Community 54](Community_54.md) (3 shared connections)
+- [Community 384](Community_384.md) (1 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
 
 ## Audit Trail
 
-- EXTRACTED: 91 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 126 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

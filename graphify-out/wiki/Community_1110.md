@@ -1,25 +1,23 @@
 # Community 1110
 
-> 4 nodes · cohesion 0.50
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **.index()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.remove()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **Standard list index method** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **Standard list remove method** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **.test_sitemap_last_modified_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **The Last-Modified header should be support dates (without time).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
 
 ## Relationships
 
-- [Community 386](Community_386.md) (2 shared connections)
+- [Community 192](Community_192.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

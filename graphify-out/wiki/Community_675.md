@@ -1,40 +1,44 @@
 # Community 675
 
-> 15 nodes · cohesion 0.13
+> 16 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **LoginRedirectAuthenticatedUser** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_redirect_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_redirect_loop()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_redirect_param()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_guest()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_permission_required_logged_in()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_permission_required_not_logged_in()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **Stay on the login page by default.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **If not logged in, stay on the same page.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **If logged in, go to default redirected URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **If logged in, go to custom redirected URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **If next is specified as a GET parameter, go there.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **Detect a redirect loop if LOGIN_REDIRECT_URL is not correctly set, with and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **CreateDefaultSiteTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_basic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_custom_site_id()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_multi_db_with_router()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_no_site_id()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_unavailable_site_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_multi_db()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_signal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **#15346, #15573 - create_default_site() creates an example site only if none…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **#16353, #16828 - The default site creation should respect db routing.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **#23641 - Sending the ``post_migrate`` signal triggers creation of the default…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **#23945 - The configured ``SITE_ID`` should be respected.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **#24488 - The pk should default to 1 if no ``SITE_ID`` is configured.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **#24075 - A Site shouldn't be created if the model isn't available.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
 
 ## Relationships
 
-- [Community 359](Community_359.md) (6 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 620](Community_620.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 41](Community_41.md) (7 shared connections)
+- [Community 9](Community_9.md) (3 shared connections)
+- [Community 48](Community_48.md) (2 shared connections)
+- [Community 126](Community_126.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 503](Community_503.md) (1 shared connections)
+- [Community 494](Community_494.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 30 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

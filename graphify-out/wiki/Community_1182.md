@@ -1,23 +1,25 @@
 # Community 1182
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.test_forever_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **Passing in None into timeout results in a value that is cached forever** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **UseMultipleObjectMixinTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_overwrite_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_use_queryset_from_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
 
 ## Relationships
 
-- [Community 274](Community_274.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,49 +1,60 @@
 # Community 312
 
-> 20 nodes · cohesion 0.10
+> 37 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **AssertTemplateUsedTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **TestDataMixin** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **ExceptionTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **LoginTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **SessionEngineTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_no_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_login_different_client()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_multiple_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_single_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_template_rendered_multiple_times()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_exception_cleared()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Template usage assertions work then templates aren't in use** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Template assertions work when there is a single context** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Template assertions work when there are multiple contexts** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Template assertions work when a template is rendered multiple times.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Using a different test client doesn't violate authentication** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **A session engine that modifies the session key can be used to log in** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **#5836 - A stale user exception isn't re-raised by the test client.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **InclusionAdminNode** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/base.py`
+- **admin_modify.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_modify.py`
+- **TagHelperNode** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **submit_row()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_modify.py`
+- **templatetags/base.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/base.py`
+- **InclusionNode** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **admin_actions_tag()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
+- **change_list_object_tools_tag()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
+- **search_form_tag()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
+- **change_form_object_tools_tag()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_modify.py`
+- **prepopulated_fields_js_tag()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_modify.py`
+- **submit_row_tag()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_modify.py`
+- **.render()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **SimpleNode** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **admin_actions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
+- **search_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
+- **cell_count()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_modify.py`
+- **prepopulated_fields_js()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_modify.py`
+- **.render()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **.get_resolved_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/base.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **Display a search form for searching the list.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
+- **Track the number of times the action field has been rendered on the page, so we…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 8](Community_8.md) (4 shared connections)
-- [Community 38](Community_38.md) (4 shared connections)
-- [Community 243](Community_243.md) (1 shared connections)
-- [Community 269](Community_269.md) (1 shared connections)
-- [Community 35](Community_35.md) (1 shared connections)
-- [Community 571](Community_571.md) (1 shared connections)
-- [Community 658](Community_658.md) (1 shared connections)
+- [Community 13](Community_13.md) (13 shared connections)
+- [Community 267](Community_267.md) (10 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 65](Community_65.md) (2 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
+- [Community 668](Community_668.md) (2 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 109](Community_109.md) (1 shared connections)
+- [Community 37](Community_37.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_modify.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/base.py`
+- `raw/code/hyd-evaluation/django-django/django/template/library.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (95%)
-- INFERRED: 2 (5%)
+- EXTRACTED: 67 (82%)
+- INFERRED: 15 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

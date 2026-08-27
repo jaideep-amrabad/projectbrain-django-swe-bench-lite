@@ -4,19 +4,18 @@
 
 ## Key Concepts
 
-- **KeepPotFileExtractorTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_keep_pot_disabled_by_default()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_keep_pot_enabled()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_keep_pot_explicitly_disabled()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **PersonManager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **SpyManager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **.get_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 526](Community_526.md) (1 shared connections)
+- [Community 389](Community_389.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
 
 ## Audit Trail
 

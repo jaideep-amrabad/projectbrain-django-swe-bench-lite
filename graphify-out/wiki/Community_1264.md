@@ -4,20 +4,21 @@
 
 ## Key Concepts
 
-- **.test_follow_307_and_308_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **A 307 or 308 redirect preserves the request method after the redirect.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_min_num_displaying_more_than_one_blank_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **More than 1 empty form can also be displayed using formset_factory's min_num…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
 
 ## Relationships
 
-- [Community 555](Community_555.md) (1 shared connections)
+- [Community 492](Community_492.md) (1 shared connections)
+- [Community 580](Community_580.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

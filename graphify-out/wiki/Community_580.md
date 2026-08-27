@@ -1,49 +1,52 @@
 # Community 580
 
-> 25 nodes · cohesion 0.11
+> 19 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **HandlerLoggingTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.assertLogsRequest()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **DefaultLoggingTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **SecurityLoggerTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **SetupDefaultLoggingMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **LoggingAssertionMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_django_logger()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_django_logger_debug()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_django_logger_info()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_django_logger_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_internal_server_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_internal_server_error_599()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_multi_part_parser_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_page_not_found_raised()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_page_not_found_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_permission_denied()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_uncaught_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_suspicious_email_admins()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_suspicious_operation_creates_log_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_suspicious_operation_uses_sublogger()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_page_found_no_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_redirect_no_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **The 'django' base logger only output anything when DEBUG=True.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.tearDownClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **FormsFormsetTestCase** (63 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_formset_splitdatetimefield()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_limiting_max_forms()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_more_initial_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_absolute_max_invalid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_clean_hook()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_formset_error_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_formset_validate_min_excludes_empty_forms()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_management_form_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_max_num_with_initial_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_max_num_zero_with_initial()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_default_absolute_max()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_non_form_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **Formset works with SplitDateTimeField(initial=datetime.datetime.now).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **Formset's forms use the formset's error_class.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **The extra argument works when the formset is pre-filled with initial data.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **FormSets have a clean() hook for doing extra validation that isn't tied to any…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **Limiting the maximum number of forms with max_num.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **The management form has the correct prefix.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
 
 ## Relationships
 
-- [Community 53](Community_53.md) (9 shared connections)
-- [Community 8](Community_8.md) (6 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
+- [Community 492](Community_492.md) (22 shared connections)
+- [Community 551](Community_551.md) (11 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 1254](Community_1254.md) (1 shared connections)
+- [Community 1260](Community_1260.md) (1 shared connections)
+- [Community 1261](Community_1261.md) (1 shared connections)
+- [Community 1251](Community_1251.md) (1 shared connections)
+- [Community 1267](Community_1267.md) (1 shared connections)
+- [Community 1252](Community_1252.md) (1 shared connections)
+- [Community 1249](Community_1249.md) (1 shared connections)
+- [Community 1264](Community_1264.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 75 (97%)
+- INFERRED: 2 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

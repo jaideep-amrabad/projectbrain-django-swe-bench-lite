@@ -1,47 +1,57 @@
 # Community 495
 
-> 23 nodes · cohesion 0.11
+> 23 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **.get_template()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **MultipleLocaleActivationBlockTranslateTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **TranslationBlockTranslateTagTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **MiscTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **.test_percent_formatting_in_blocktranslate()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **.test_bad_placeholder_1()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **.test_bad_placeholder_2()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **.test_template_tags_pgettext()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **.test_percent_in_translatable_block()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **.test_single_locale_activation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **.test_multiple_locale_btrans()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **.test_multiple_locale_deactivate_btrans()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **.test_multiple_locale_direct_switch_btrans()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **MiscBlockTranslationTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **.get_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **MultipleLocaleActivationBlockTransTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **.get_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **TranslationBlockTransnTagTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **{% blocktranslate %} takes message contexts into account (#14806).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **Error in translation file should not crash template rendering (#16516).…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **Error in translation file should not crash template rendering (#18393).…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **Simple baseline behavior with one locale for all the supported i18n constructs.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **Python's %-formatting is properly escaped in blocktranslate, singular, or…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
+- **gis_tests/test_data.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **test_geom.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
+- **TestDataMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **TestDS** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **TestGeom** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **TestObj** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **get_ds_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **strconvert()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **.geometries()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **TestGeomSet** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **tuplize()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **This module has the mock object definitions used to hold reference geometry for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **Turn all nested sequences to tuples in given sequence.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **Converts all keys in dictionary to str type.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **Base testing object, turns keyword args into attributes.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **Object for testing GDAL data sources.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **Testing object used for wrapping reference geometry data in GEOS/GDAL tests.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **Each attribute of this object is a list of `TestGeom` instances.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **Mixin used for GEOS/GDAL test cases that defines a `geometries` property, which…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
 
 ## Relationships
 
-- [Community 42](Community_42.md) (14 shared connections)
-- [Community 0](Community_0.md) (9 shared connections)
-- [Community 8](Community_8.md) (5 shared connections)
+- [Community 32](Community_32.md) (3 shared connections)
+- [Community 65](Community_65.md) (3 shared connections)
+- [Community 31](Community_31.md) (3 shared connections)
+- [Community 117](Community_117.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 66](Community_66.md) (2 shared connections)
+- [Community 166](Community_166.md) (1 shared connections)
+- [Community 543](Community_543.md) (1 shared connections)
+- [Community 72](Community_72.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 56 (97%)
+- INFERRED: 2 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

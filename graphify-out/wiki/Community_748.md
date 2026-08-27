@@ -1,38 +1,33 @@
 # Community 748
 
-> 13 nodes · cohesion 0.15
+> 8 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **ModelRefreshTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_refresh_clears_reverse_related()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_prefetched_cache_cleared()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_refresh_clears_one_to_one_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_refresh_fk_on_delete_set_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_refresh_unsaved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_lookup_in_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_refresh()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_refresh_fk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_refresh_no_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_refresh_null_fk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_unknown_kwarg()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **refresh_from_db() clear cached reverse relations.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **EmailBackend** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
+- **._get_filename()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
+- **.open()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
+- **ConsoleEmailBackend** (1 connections)
+- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
+- **.write_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
+- **Return a unique file name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
 
 ## Relationships
 
-- [Community 11](Community_11.md) (4 shared connections)
-- [Community 711](Community_711.md) (3 shared connections)
-- [Community 622](Community_622.md) (2 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 447](Community_447.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 92](Community_92.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (68%)
-- INFERRED: 7 (32%)
+- EXTRACTED: 10 (83%)
+- INFERRED: 2 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

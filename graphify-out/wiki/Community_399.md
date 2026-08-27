@@ -1,61 +1,60 @@
 # Community 399
 
-> 44 nodes · cohesion 0.06
+> 30 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **message.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **sanitize_address()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **smtp.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- **SafeMIMEText** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **forbid_multi_line_headers()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **SafeMIMEMultipart** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **BadHeaderError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **._create_mime_attachment()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **mail/utils.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/utils.py`
-- **MIMEMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **._create_attachments()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **SafeMIMEMessage** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **._create_attachment()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.message()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **._create_alternatives()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **._create_message()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **CachedDnsName** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/utils.py`
-- **._set_list_header_if_not_empty()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.as_bytes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.get_fqdn()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/utils.py`
-- **.test_sanitize_address()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **._create_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.as_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **ValueError** (2 connections)
-- **Return the entire formatted message as a string. Optional `unixfrom' when True,…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- *... and 19 more nodes in this community*
+- **BaseUserManager** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
+- **UserManager** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **CustomUserManager** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/custom_user.py`
+- **._create_user()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **UserManager** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/no_password.py`
+- **IntegerUsernameUserManager** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/with_integer_username.py`
+- **.make_random_password()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
+- **CustomPermissionsUserManager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/custom_permissions.py`
+- **.create_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/custom_user.py`
+- **CustomEmailFieldUserManager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/with_custom_email_field.py`
+- **CustomUserWithFKManager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/with_foreign_key.py`
+- **CustomUserWithM2MManager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/with_many_to_many.py`
+- **.normalize_email()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
+- **.create_superuser()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.create_superuser()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/custom_user.py`
+- **.create_superuser()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/no_password.py`
+- **._create_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/no_password.py`
+- **.test_make_random_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
+- **Normalize the email address by lowercasing the domain part of it.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
+- **Generate a random password with the given length and given allowed_chars. The…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
+- **Create and save a user with the given username, email, and password.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.with_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.create_superuser()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/custom_permissions.py`
+- **Creates and saves a User with the given email and password.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/custom_user.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 109](Community_109.md) (11 shared connections)
-- [Community 1](Community_1.md) (9 shared connections)
-- [Community 612](Community_612.md) (9 shared connections)
-- [Community 143](Community_143.md) (4 shared connections)
-- [Community 147](Community_147.md) (3 shared connections)
-- [Community 563](Community_563.md) (2 shared connections)
-- [Community 76](Community_76.md) (2 shared connections)
-- [Community 1067](Community_1067.md) (1 shared connections)
-- [Community 53](Community_53.md) (1 shared connections)
-- [Community 298](Community_298.md) (1 shared connections)
-- [Community 967](Community_967.md) (1 shared connections)
+- [Community 0](Community_0.md) (15 shared connections)
+- [Community 380](Community_380.md) (1 shared connections)
+- [Community 206](Community_206.md) (1 shared connections)
+- [Community 33](Community_33.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/custom_permissions.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/custom_user.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/no_password.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/with_custom_email_field.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/with_foreign_key.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/with_integer_username.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/with_many_to_many.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 102 (97%)
-- INFERRED: 3 (3%)
+- EXTRACTED: 50 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

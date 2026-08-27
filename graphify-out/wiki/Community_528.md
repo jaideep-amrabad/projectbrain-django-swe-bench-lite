@@ -1,64 +1,60 @@
 # Community 528
 
-> 26 nodes · cohesion 0.10
+> 25 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **CustomUser** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/custom_user.py`
-- **auth_tests/test_handlers.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
-- **modwsgi.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/handlers/modwsgi.py`
-- **reset_queries()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/__init__.py`
-- **check_password()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/handlers/modwsgi.py`
-- **groups_for_user()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/handlers/modwsgi.py`
-- **ModWsgiHandlerTestCase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
-- **.test_check_password_custom_user()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
-- **.test_queries()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_check_password()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
-- **.test_groups_for_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
-- **.__enter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **check_password() returns the correct values as per…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
-- **Authorize a user based on groups** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/handlers/modwsgi.py`
-- **Authenticate against Django's auth database. mod_wsgi docs specify None, True,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/handlers/modwsgi.py`
-- **.get_all_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/custom_user.py`
-- **.get_group_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/custom_user.py`
-- **.has_module_perms()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/custom_user.py`
-- **.has_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/custom_user.py`
-- **.has_perms()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/custom_user.py`
-- **.is_staff()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/custom_user.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/custom_user.py`
-- **Tests for the mod_wsgi authentication handler** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
-- **groups_for_user() returns correct values as per…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
-- *... and 1 more nodes in this community*
+- **.apps()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **ProxyModelWithSameAppLabelTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
+- **ProxyModelWithDifferentAppLabelTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
+- **MultiDBProxyModelAppLabelTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
+- **.test_migrate_with_existing_target_permission()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
+- **ManyToManyFieldTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_manytomanyfield.py`
+- **.test_abstract_model_pending_operations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_foreignkey.py`
+- **.test_abstract_model_pending_operations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_manytomanyfield.py`
+- **.test_migrate_other_database()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
+- **.test_migrate_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
+- **.test_proxy_model_permissions_contenttype()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
+- **.test_user_has_now_proxy_model_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
+- **.test_user_keeps_same_permissions_after_migrating_backward()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
+- **.test_migrate_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
+- **.test_proxy_model_permissions_contenttype()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
+- **.test_user_keeps_same_permissions_after_migrating_backward()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
+- **.test_user_still_has_proxy_model_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
+- **Create proxy permissions with content_type to the concrete model rather than…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
+- **.test_abstract_model_app_relative_foreign_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_manytomanyfield.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
+- **Permissions may already exist: - Old workaround was to manually create…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
+- **Foreign key fields declared on abstract models should not add lazy relations to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_foreignkey.py`
+- **Many-to-many fields declared on abstract models should not add lazy relations…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_manytomanyfield.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 48](Community_48.md) (3 shared connections)
-- [Community 44](Community_44.md) (3 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 238](Community_238.md) (2 shared connections)
-- [Community 339](Community_339.md) (2 shared connections)
-- [Community 542](Community_542.md) (2 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 843](Community_843.md) (3 shared connections)
+- [Community 42](Community_42.md) (2 shared connections)
+- [Community 509](Community_509.md) (1 shared connections)
+- [Community 33](Community_33.md) (1 shared connections)
 - [Community 41](Community_41.md) (1 shared connections)
+- [Community 298](Community_298.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 228](Community_228.md) (1 shared connections)
+- [Community 494](Community_494.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/handlers/modwsgi.py`
-- `raw/code/hyd-evaluation/django-django/django/db/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/custom_user.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_foreignkey.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_manytomanyfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 61 (97%)
-- INFERRED: 2 (3%)
+- EXTRACTED: 33 (67%)
+- INFERRED: 16 (33%)
 - AMBIGUOUS: 0 (0%)
 
 ---

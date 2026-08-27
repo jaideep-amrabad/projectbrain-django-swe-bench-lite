@@ -1,45 +1,44 @@
 # Community 506
 
-> 22 nodes · cohesion 0.11
+> 20 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **TestOperation** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **custom_migration_operations/operations.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **ArgsKwargsOperation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **ArgsOperation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **ExpandArgsOperation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **KwargsOperation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **CreateModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.reversible()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.state_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
+- **FileBasedCache** (16 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **._key_to_file()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **.set()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **._cull()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **.has_key()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **._is_expired()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **.touch()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **.clear()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **.get()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **._list_cache_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **._createdir()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **._write_content()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **.add()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **Convert a key into a cache file path. Basically this is the root cache path…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **Remove all the cache files.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **Take an open cache file `f` and delete it if it's expired.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **Get a list of paths to all the cache files. These are all the files in the root…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **Remove random cache entries if max_entries is reached at a ratio of num_entries…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
 
 ## Relationships
 
-- [Community 137](Community_137.md) (3 shared connections)
-- [Community 143](Community_143.md) (1 shared connections)
+- [Community 422](Community_422.md) (4 shared connections)
+- [Community 578](Community_578.md) (2 shared connections)
+- [Community 251](Community_251.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 39 (91%)
+- INFERRED: 4 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

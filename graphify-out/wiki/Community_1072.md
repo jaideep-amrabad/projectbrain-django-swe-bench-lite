@@ -1,30 +1,30 @@
 # Community 1072
 
-> 6 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **.test_add_failing_subtests()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **SampleFailingSubtest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **.dummy_test()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **skipUnless** (1 connections)
-- **A dummy test for testing subTest failures.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **Failing subtests are added correctly using addSubTest().** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **NKChild** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Parent** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
 
 ## Relationships
 
-- [Community 266](Community_266.md) (2 shared connections)
-- [Community 564](Community_564.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 338](Community_338.md) (6 shared connections)
+- [Community 165](Community_165.md) (2 shared connections)
+- [Community 376](Community_376.md) (1 shared connections)
+- [Community 641](Community_641.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 11 (79%)
+- INFERRED: 3 (21%)
 - AMBIGUOUS: 0 (0%)
 
 ---

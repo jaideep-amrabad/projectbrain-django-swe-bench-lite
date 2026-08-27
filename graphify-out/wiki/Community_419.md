@@ -1,62 +1,52 @@
 # Community 419
 
-> 27 nodes · cohesion 0.08
+> 27 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **test_autocomplete_view.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- **AutocompleteJsonViewTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- **Book** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Answer** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **QuestionAdmin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **Answer2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.test_get_paginator()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- **Authorship** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **AnswerAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **Author** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **AuthorshipInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- **.test_has_view_or_change_permission_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- **.test_search_use_distinct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_multidb.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **A simple book that has chapters.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **AuthorAdmin** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- **.test_missing_search_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- **.test_must_be_logged_in()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- **.test_success()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- **BookAdmin** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- **AdminViewBasicTestCase** (1 connections)
-- **Search results are paginated.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **MultiDBOperationTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **._test_create_model()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **.test_create_model4()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **MigrateEverythingRouter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **._test_run_python()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **._test_run_sql()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **AgnosticRouter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **MigrateNothingRouter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **.test_create_model2()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **.test_create_model3()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **.test_run_python_migrate_foo_router_with_hints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **.test_run_python_migrate_foo_router_without_hints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **.test_run_python_migrate_nothing_router()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **.test_run_sql_migrate_foo_router_with_hints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **.test_run_sql_migrate_foo_router_without_hints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **.test_run_sql_migrate_nothing_router()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **A router that doesn't allow migrating.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **A router that always allows migrating.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **CreateModel honors multi-db settings.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **Test when router doesn't have an opinion (i.e. CreateModel should run).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **Test when router returns False (i.e. CreateModel shouldn't run).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- **Test when router returns True (i.e. CreateModel should run).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
 - *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (12 shared connections)
-- [Community 64](Community_64.md) (6 shared connections)
-- [Community 78](Community_78.md) (6 shared connections)
-- [Community 150](Community_150.md) (5 shared connections)
-- [Community 13](Community_13.md) (3 shared connections)
-- [Community 316](Community_316.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 834](Community_834.md) (2 shared connections)
-- [Community 699](Community_699.md) (2 shared connections)
-- [Community 522](Community_522.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 339](Community_339.md) (1 shared connections)
+- [Community 9](Community_9.md) (12 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 33](Community_33.md) (2 shared connections)
+- [Community 252](Community_252.md) (1 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_multidb.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
 
 ## Audit Trail
 
-- EXTRACTED: 66 (90%)
-- INFERRED: 7 (10%)
+- EXTRACTED: 55 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

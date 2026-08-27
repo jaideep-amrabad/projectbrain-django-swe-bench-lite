@@ -1,50 +1,62 @@
 # Community 213
 
-> 47 nodes · cohesion 0.08
+> 80 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **setup** (44 connections)
-- **IfEqualTagTests** (40 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **IfNotEqualTagTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifnotequal_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal_filter01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal_filter02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal_filter03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal_filter04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal_filter05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal_numeric01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal_numeric02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal_numeric03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal_numeric04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal_numeric05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- *... and 22 more nodes in this community*
+- **test_debug.py** (66 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **view_tests/views.py** (57 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **technical_500_response()** (21 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **sensitive_variables()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/debug.py`
+- **.verify_unsafe_response()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **sensitive_post_parameters()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/debug.py`
+- **.verify_unsafe_email()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **NonHTMLResponseExceptionReporterFilter** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **decorators/debug.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/debug.py`
+- **ExceptionReportTestMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.verify_safe_response()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **custom_exception_reporter_filter_view()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **send_log()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **.verify_safe_email()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **paranoid_view()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **sensitive_view()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **.test_multivalue_dict_key_error()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_paranoid_request()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_sensitive_function_arguments()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_sensitive_function_keyword_arguments()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_sensitive_method()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_sensitive_request()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **multivalue_dict_key_error()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **non_sensitive_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **sensitive_args_function_caller()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- *... and 55 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 76](Community_76.md) (2 shared connections)
+- [Community 255](Community_255.md) (20 shared connections)
+- [Community 6](Community_6.md) (18 shared connections)
+- [Community 17](Community_17.md) (11 shared connections)
+- [Community 2](Community_2.md) (9 shared connections)
+- [Community 147](Community_147.md) (7 shared connections)
+- [Community 336](Community_336.md) (7 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 123](Community_123.md) (6 shared connections)
+- [Community 40](Community_40.md) (4 shared connections)
+- [Community 65](Community_65.md) (4 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 9](Community_9.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
+- `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/debug.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 94 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 272 (92%)
+- INFERRED: 24 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,26 +1,23 @@
 # Community 1112
 
-> 4 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **check_session_cookie_httponly()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
-- **check_session_cookie_secure()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
-- **_session_app()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
-- **_session_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
+- **.test_sitemap_not_callable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **A sitemap may not be callable.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
 
 ## Relationships
 
-- [Community 12](Community_12.md) (4 shared connections)
-- [Community 444](Community_444.md) (2 shared connections)
+- [Community 192](Community_192.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

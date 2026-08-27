@@ -1,32 +1,30 @@
 # Community 894
 
-> 9 nodes · cohesion 0.36
+> 9 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **urlizetrunc()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **FunctionTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlizetrunc.py`
-- **.test_autoescape()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlizetrunc.py`
-- **.test_autoescape_off()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlizetrunc.py`
-- **.test_non_string_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlizetrunc.py`
-- **.test_overtruncate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlizetrunc.py`
-- **.test_query_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlizetrunc.py`
-- **.test_truncate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlizetrunc.py`
-- **Convert URLs into clickable links, truncating URLs to the given character…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **.strftime()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
+- **.getFullMonthName()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
+- **.getTwoDigitMonth()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
+- **.getTwoDigitTwelveHour()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
+- **.getTwelveHours()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
+- **.getTwoDigitDate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
+- **.getTwoDigitHour()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
+- **.getTwoDigitMinute()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
+- **.getTwoDigitSecond()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 171](Community_171.md) (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlizetrunc.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

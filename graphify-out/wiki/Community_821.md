@@ -1,32 +1,33 @@
 # Community 821
 
-> 11 nodes · cohesion 0.29
+> 11 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **PostgreSqlDbshellCommandTestCase** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
-- **._run_it()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
-- **.test_accent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
-- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
-- **.test_column()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
-- **.test_nopass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
-- **.test_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
-- **.test_sigint_handler()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
-- **.test_ssl_certificate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
-- **SIGINT is ignored in Python and passed to psql to abort queries.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
-- **That function invokes the runshell command, while mocking subprocess.run(). It…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **RelatedFieldWidgetWrapper** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.get_related_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.get_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **This class is a wrapper to a given widget to add the add icon for the admin…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.__deepcopy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.id_for_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.is_hidden()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.media()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.value_from_datadict()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

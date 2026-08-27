@@ -1,31 +1,32 @@
 # Community 985
 
-> 7 nodes · cohesion 0.43
+> 7 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **cut()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **FunctionTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_cut.py`
-- **.test_character()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_cut.py`
-- **.test_characters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_cut.py`
-- **.test_non_matching_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_cut.py`
-- **.test_non_string_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_cut.py`
-- **Remove all values of arg from the given string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **FileSaveRaceConditionTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **SlowFile** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.save_file()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_race_condition()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.chunks()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 171](Community_171.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 188](Community_188.md) (1 shared connections)
+- [Community 211](Community_211.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_cut.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 12 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

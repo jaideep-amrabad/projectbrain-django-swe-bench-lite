@@ -1,39 +1,38 @@
 # Community 795
 
-> 12 nodes · cohesion 0.35
+> 12 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **null_queries/tests.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/tests.py`
-- **NullQueriesTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/tests.py`
-- **null_queries/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/models.py`
-- **Choice** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/models.py`
-- **Poll** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/models.py`
-- **.test_none_as_null()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/tests.py`
-- **Inner** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/models.py`
-- **OuterA** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/models.py`
-- **OuterB** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/models.py`
-- **.test_reverse_relations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/tests.py`
-- **Regression test for the use of None as a query value. None is interpreted as an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/tests.py`
-- **Querying across reverse relations and then another relation should insert outer…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/tests.py`
+- **SeleniumTestCaseBase** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.create_webdriver()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.import_webdriver()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **ActionSelenium** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **.create_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.import_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.__new__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.get_capability()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **Dynamically create new classes and add them to the test module when multiple…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **Validate the comma-separated list of requested browsers.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 76](Community_76.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 590](Community_590.md) (2 shared connections)
+- [Community 465](Community_465.md) (1 shared connections)
+- [Community 267](Community_267.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/null_queries/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/null_queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- `raw/code/hyd-evaluation/django-django/tests/runtests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (83%)
-- INFERRED: 5 (17%)
+- EXTRACTED: 22 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,41 +1,37 @@
 # Community 799
 
-> 12 nodes · cohesion 0.18
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **template_tests/views.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
-- **template_tests/urls.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/urls.py`
-- **alternate_urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/alternate_urls.py`
-- **template_response_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
-- **.test_full_dec_templateresponse()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
-- **template_tests/__init__.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/__init__.py`
-- **snark()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
-- **client()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
-- **client2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
-- **client_action()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
-- **index()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
-- **All methods of middleware are called for TemplateResponses in the right…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **TestReadOnlyChangeViewInlinePermissions** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.setUpTestData()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_add_url_not_allowed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_extra_inlines_are_not_shown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_get_to_change_url_is_allowed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_inline_delete_buttons_are_not_shown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_inlines_are_rendered_as_read_only()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_main_model_is_rendered_as_read_only()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_post_to_change_url_not_allowed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_submit_line_shows_only_close_button()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (6 shared connections)
-- [Community 57](Community_57.md) (2 shared connections)
+- [Community 43](Community_43.md) (4 shared connections)
 - [Community 9](Community_9.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/alternate_urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 16 (89%)
+- INFERRED: 2 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

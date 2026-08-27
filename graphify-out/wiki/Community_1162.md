@@ -4,21 +4,21 @@
 
 ## Key Concepts
 
-- **.test_view_with_force_login_and_custom_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_view_with_login_and_custom_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **Request a page that is protected with…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **nav_sidebar.js** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/nav_sidebar.js`
+- **disableNavLinkTabbing()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/nav_sidebar.js`
+- **enableNavLinkTabbing()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/nav_sidebar.js`
 
 ## Relationships
 
-- [Community 555](Community_555.md) (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/nav_sidebar.js`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

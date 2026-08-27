@@ -4,29 +4,27 @@
 
 ## Key Concepts
 
-- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **FileLikeObjectTestCase** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_urllib_request_urlopen()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **Test file-like objects (#15644).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **Test the File storage API with a file-like object coming from…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 
 ## Relationships
 
-- [Community 76](Community_76.md) (1 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 465](Community_465.md) (1 shared connections)
+- [Community 188](Community_188.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

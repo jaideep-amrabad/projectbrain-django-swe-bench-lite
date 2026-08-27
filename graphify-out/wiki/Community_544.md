@@ -1,50 +1,42 @@
 # Community 544
 
-> 20 nodes · cohesion 0.17
+> 20 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **Truncator** (19 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **truncatewords()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **FunctionTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatewords.py`
-- **.add_truncation_text()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **.chars()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **._truncate_html()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **._text_chars()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **._text_words()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **.words()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **Truncate a string after a certain number of chars.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **.test_invalid_number()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatewords.py`
-- **.test_non_string_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatewords.py`
-- **.test_overtruncate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatewords.py`
-- **.test_truncate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatewords.py`
-- **.test_truncate2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatewords.py`
-- **Truncate a string after `arg` number of words. Remove newlines within the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **Truncate HTML to a certain number of chars (not counting tags and comments),…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **An object used to truncate text, either by characters or words.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **Return the text truncated to be no longer than the specified number of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **Serializer** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.serialize()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.end_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.end_serialization()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.getvalue()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.handle_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.handle_fk_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.handle_m2m_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.start_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.start_serialization()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Called when serializing of the queryset starts.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Called when serializing of the queryset ends.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Called when serializing of an object starts.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Called when serializing of an object ends.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Called to handle each individual (non-relational) field on an object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Called to handle a ForeignKey field.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Called to handle a ManyToManyField.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Return the fully serialized queryset (or None if the output stream is not…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Abstract serializer base class.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Serialize a queryset.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 171](Community_171.md) (3 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 242](Community_242.md) (1 shared connections)
-- [Community 850](Community_850.md) (1 shared connections)
-- [Community 816](Community_816.md) (1 shared connections)
-- [Community 76](Community_76.md) (1 shared connections)
+- [Community 439](Community_439.md) (1 shared connections)
+- [Community 86](Community_86.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatewords.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (100%)
+- EXTRACTED: 29 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,35 +1,35 @@
 # Community 743
 
-> 12 nodes · cohesion 0.17
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **RedirectTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
-- **.test_redirect_not_found_with_append_slash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
-- **.test_redirect_shortcircuits_non_404_response()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
-- **.test_redirect_with_append_slash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
-- **.test_redirect_with_append_slash_and_query_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
-- **.test_response_gone()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
-- **Exercise the second Redirect.DoesNotExist branch in RedirectFallbackMiddleware.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
-- **RedirectFallbackMiddleware short-circuits on non-404 requests.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
-- **When the redirect target is '', return a 410** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
-- **.test_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
-- **.test_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
+- **RegroupTagTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- **setup** (9 connections)
+- **.test_regroup02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- **.test_regroup03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- **.test_regroup04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- **.test_regroup01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- **.test_regroup05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- **.test_regroup06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- **.test_regroup07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- **.test_regroup08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- **.test_regroup_unpack()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- **Test for silent failure when target variable isn't found** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- **Regression tests for #17675 The date template filter has expects_localtime =…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- **The join template filter has needs_autoescape = True** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (4 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
+- EXTRACTED: 23 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

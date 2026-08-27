@@ -1,47 +1,45 @@
 # Community 632
 
-> 16 nodes · cohesion 0.13
+> 17 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **ReadOnlyPasswordHashField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **ReadOnlyPasswordHashWidget** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **ReadOnlyPasswordHashTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.test_render()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.test_bug_19349_render_with_none_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_readonly_field_has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **The 'request' parameter is set for custom auth use by subclasses. The form data…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.bound_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.has_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **ManagementUtility** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **get_commands()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **.execute()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **.fetch_command()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **find_commands()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **load_command_class()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **.autocomplete()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **.main_help_text()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **Encapsulate the logic of the django-admin and manage.py utilities.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **Return the script's main help text, as a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **Try to fetch the given subcommand, printing a message with the appropriate…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **Given a path to a management directory, return a list of all the command names…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **Output completion suggestions for BASH. The output of this function is passed…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **Given a command name and an application name, return the Command class…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **Given the command-line arguments, figure out which subcommand is being run,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **Return a dictionary mapping command names to their callback applications. Look…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (7 shared connections)
-- [Community 732](Community_732.md) (1 shared connections)
-- [Community 447](Community_447.md) (1 shared connections)
-- [Community 259](Community_259.md) (1 shared connections)
-- [Community 773](Community_773.md) (1 shared connections)
-- [Community 633](Community_633.md) (1 shared connections)
-- [Community 498](Community_498.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 3](Community_3.md) (9 shared connections)
+- [Community 10](Community_10.md) (2 shared connections)
+- [Community 271](Community_271.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 296](Community_296.md) (1 shared connections)
+- [Community 532](Community_532.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 37 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

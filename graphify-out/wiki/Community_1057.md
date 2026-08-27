@@ -1,27 +1,26 @@
 # Community 1057
 
-> 6 nodes · cohesion 0.53
+> 5 nodes · cohesion 0.60
 
 ## Key Concepts
 
-- **I18nGetLanguageInfoTagTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info.py`
-- **setup** (4 connections)
-- **.test_i18n28_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info.py`
-- **.test_i18n29()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info.py`
-- **.test_i18n38()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info.py`
-- **.test_no_for_as()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info.py`
+- **SQLiteCursorWrapper** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **.convert_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **.execute()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **.executemany()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **Django uses "format" style placeholders, but pysqlite2 uses "qmark" style. This…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

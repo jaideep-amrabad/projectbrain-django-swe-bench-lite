@@ -1,32 +1,29 @@
 # Community 1032
 
-> 6 nodes · cohesion 0.47
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **timeuntil_filter()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
-- **.test_explicit_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
-- **.test_no_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
-- **.test_until_now()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
-- **Format a date as the time until that date (i.e. "4 days, 6 hours").** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **UUIDFieldTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
+- **.test_clean_value_with_dashes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
+- **.test_uuidfield_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
+- **.test_uuidfield_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
+- **.test_uuidfield_3()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
+- **.test_uuidfield_4()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 390](Community_390.md) (1 shared connections)
-- [Community 171](Community_171.md) (1 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (93%)
-- INFERRED: 1 (7%)
+- EXTRACTED: 7 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

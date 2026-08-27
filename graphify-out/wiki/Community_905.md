@@ -1,36 +1,36 @@
 # Community 905
 
-> 9 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **model_fields/test_genericipaddressfield.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
-- **GenericIPAddressFieldTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
-- **GenericIPAddress** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.test_genericipaddressfield_formfield_protocol()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
-- **.test_null_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
-- **.test_blank_string_saved_as_null()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
-- **.test_save_load()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
-- **GenericIPAddressField with a specified protocol does not generate a formfield…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
-- **Null values should be resolved to None.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
+- **redirect()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
+- **ReverseShortcutTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_redirect_view_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_reverse_by_path_nested()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_no_illegal_imports()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_redirect_to_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_redirect_to_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_redirect_to_view_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **Return an HttpResponseRedirect to the appropriate URL for the arguments passed.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
 
 ## Relationships
 
-- [Community 368](Community_368.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
+- [Community 17](Community_17.md) (4 shared connections)
 - [Community 2](Community_2.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
+- `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 19 (90%)
+- INFERRED: 2 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

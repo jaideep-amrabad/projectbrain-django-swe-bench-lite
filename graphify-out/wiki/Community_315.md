@@ -1,57 +1,54 @@
 # Community 315
 
-> 36 nodes · cohesion 0.10
+> 34 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **Prefetch** (41 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **CustomPrefetchTests** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.traverse_qs()** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_custom_qs()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_filter_deferred()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_nested_prefetch_related_with_duplicate_prefetcher()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_ambiguous()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_generic_rel()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_m2m_through_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_m2m_through_gfk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_o2m_through_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_reverse_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_traverse_multiple_items_property()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_traverse_single_item_property()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_filter_deferred()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_retrieves_results_from_prefetched_objects_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.get_current_prefetch_to()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.get_current_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.test_nested_prefetch_related_are_not_overwritten()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_raw_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_to_attr_cached_property()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_to_attr_doesnt_cache_through_attr_as_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_traverse_qs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_values_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- *... and 11 more nodes in this community*
+- **DateFormat** (21 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.d()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.E()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.l()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.m()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.n()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.U()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.y()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.b()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.F()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.I()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.j()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.o()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.S()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.z()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Month, textual, 3 letters, lowercase; e.g. 'jan** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Day of the month, 2 digits with leading zeros; i.e. '01' to '31** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Day of the week, textual, 3 letters; e.g. 'Fri** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Alternative month names as required by some locales. Proprietary extension.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Month, textual, long; e.g. 'January** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **1' if Daylight Savings Time, '0' otherwise.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Day of the month without leading zeros; i.e. '1' to '31** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Day of the week, textual, long; e.g. 'Friday** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Boolean for whether it is a leap year; i.e. True or False** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Month; i.e. '01' to '12** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 93](Community_93.md) (10 shared connections)
-- [Community 388](Community_388.md) (6 shared connections)
-- [Community 383](Community_383.md) (4 shared connections)
-- [Community 376](Community_376.md) (3 shared connections)
-- [Community 504](Community_504.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 105](Community_105.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 699](Community_699.md) (1 shared connections)
+- [Community 11](Community_11.md) (4 shared connections)
+- [Community 422](Community_422.md) (1 shared connections)
+- [Community 212](Community_212.md) (1 shared connections)
+- [Community 156](Community_156.md) (1 shared connections)
+- [Community 417](Community_417.md) (1 shared connections)
+- [Community 633](Community_633.md) (1 shared connections)
+- [Community 48](Community_48.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
 
 ## Audit Trail
 
-- EXTRACTED: 83 (89%)
-- INFERRED: 10 (11%)
+- EXTRACTED: 41 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

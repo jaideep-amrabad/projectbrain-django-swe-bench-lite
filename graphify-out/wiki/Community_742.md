@@ -1,34 +1,36 @@
 # Community 742
 
-> 13 nodes · cohesion 0.15
+> 14 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **GetCurrentTimezoneNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **LocalTimeNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **TimezoneNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **Node** (3 connections)
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **.render()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **.render()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **Template node class used by ``timezone_tag``.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **Template node class used by ``get_current_timezone_tag``.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **Template node class used by ``localtime_tag``.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **.render()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **natural.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **NaturalKeyThing** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **Manager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **NaturalPKWithDefault** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **NaturalKeyAnchor** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **NaturalKeyAnchorManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **FKDataNaturalKey** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **Models for test_natural.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
 
 ## Relationships
 
-- [Community 7](Community_7.md) (6 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 86](Community_86.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 17 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

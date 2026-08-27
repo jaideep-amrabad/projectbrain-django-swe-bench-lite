@@ -1,38 +1,41 @@
 # Community 729
 
-> 14 nodes · cohesion 0.14
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **DefaultsTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
-- **.test_csrf_token_in_404()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
-- **.test_custom_templates()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
-- **.test_bad_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
-- **.test_get_absolute_url_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
-- **.test_page_not_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
-- **.test_server_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
-- **A model can set attributes on the get_absolute_url method** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
-- **Test django views in django/views/defaults.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
-- **A 404 status is returned by the page_not_found view** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
-- **The 404 page should have the csrf_token available in the context** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
-- **The server_error view raises a 500 status** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
-- **404.html and 500.html templates are picked by their respective handler.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
+- **datetimes/tests.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- **DateTimesTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- **datetimes/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
+- **Article** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
+- **Comment** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
+- **Category** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
+- **.test_21432()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- **.test_datetimes_ambiguous_and_invalid_times()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- **.test_datetimes_has_lazy_iterator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- **.test_datetimes_returns_available_dates_for_given_scope_and_given_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
+- **.test_datetimes_disallows_date_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- **.test_related_model_traverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
+- [Community 11](Community_11.md) (3 shared connections)
+- [Community 9](Community_9.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 38](Community_38.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
+- `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 29 (91%)
+- INFERRED: 3 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,53 +1,49 @@
 # Community 325
 
-> 21 nodes · cohesion 0.13
+> 35 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **messages/api.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **default_storage()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/__init__.py`
-- **add_message()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **info()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **MessageFailure** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **get_messages()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **messages/context_processors.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/context_processors.py`
-- **debug()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **success()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **warning()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/context_processors.py`
-- **.test_file_field_storage_none_uses_default_storage()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **Exception** (1 connections)
-- **Attempt to add a message to the request using the 'messages' app.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **Return the message storage on the request if it exists, otherwise return an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **Add a message with the ``DEBUG`` level.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **Add a message with the ``INFO`` level.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **Add a message with the ``SUCCESS`` level.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **Add a message with the ``WARNING`` level.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **Return a lazy 'messages' context variable as well as 'DEFAULT_MESSAGE_LEVELS'.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/context_processors.py`
-- **Callable with the same interface as the storage classes. This isn't just…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/__init__.py`
+- **LazyStream** (12 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **BoundaryIter** (7 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **InterBoundaryIter** (6 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **InputStreamExhausted** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **._update_unget_history()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **Parser** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **._find_boundary()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.__next__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.unget()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **parse_boundary_stream()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.__iter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.__next__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.__next__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **Exception** (2 connections)
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.read()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.tell()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **The LazyStream wrapper allows one to get and "unget" bytes from a stream. Given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Community 635](Community_635.md) (6 shared connections)
-- [Community 248](Community_248.md) (4 shared connections)
-- [Community 53](Community_53.md) (3 shared connections)
-- [Community 229](Community_229.md) (3 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 303](Community_303.md) (2 shared connections)
-- [Community 841](Community_841.md) (1 shared connections)
-- [Community 416](Community_416.md) (1 shared connections)
+- [Community 6](Community_6.md) (8 shared connections)
+- [Community 18](Community_18.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/context_processors.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
 
 ## Audit Trail
 
-- EXTRACTED: 47 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 46 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,34 +1,46 @@
 # Community 856
 
-> 10 nodes · cohesion 0.20
+> 10 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **StartsWithRelation** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **BrokenContainsRelation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **.get_extra_restriction()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **.get_extra_restriction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **A ForeignObject that uses StartsWith operator in its joins instead of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **This model is designed to yield no join conditions and raise an exception in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **.get_joining_columns()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **.get_path_info()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **.get_reverse_path_info()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **make_hashable()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/utils/hashable.py`
+- **test_hashable.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_hashable.py`
+- **TestHashable** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_hashable.py`
+- **._get_FIELD_display()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **.test_equal()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_hashable.py`
+- **.__hash__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- **.identity()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__hash__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **.test_count_equal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_hashable.py`
+- **.test_unhashable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_hashable.py`
 
 ## Relationships
 
-- [Community 90](Community_90.md) (3 shared connections)
-- [Community 1086](Community_1086.md) (1 shared connections)
-- [Community 105](Community_105.md) (1 shared connections)
+- [Community 7](Community_7.md) (6 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 287](Community_287.md) (2 shared connections)
+- [Community 118](Community_118.md) (1 shared connections)
+- [Community 82](Community_82.md) (1 shared connections)
+- [Community 67](Community_67.md) (1 shared connections)
+- [Community 151](Community_151.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 650](Community_650.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/hashable.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_hashable.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 30 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

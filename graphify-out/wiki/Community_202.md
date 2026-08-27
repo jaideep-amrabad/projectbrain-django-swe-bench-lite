@@ -1,61 +1,42 @@
 # Community 202
 
-> 127 nodes · cohesion 0.02
+> 14 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **.formfield()** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **DecimalField** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_prep_value()** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **CharField** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **DateField** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.deconstruct()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.__init__()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **TimeField** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **DateTimeField** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **AutoFieldMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.to_python()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.has_default()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **FloatField** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **UUIDField** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.check()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **FilePathField** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **BooleanField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **IPAddressField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **DateTimeCheckMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.formfield()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **SlugField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.check()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **EmailField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **NullBooleanField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **URLField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- *... and 102 more nodes in this community*
+- **JavaScriptCatalog** (15 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **.get()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **.get_context_data()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **JSONCatalog** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **.render_to_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **.get_catalog()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **.get_paths()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **.get_plural()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **._num_plurals()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **._plural_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **Return the selected language catalog as a JavaScript library. Receive the list…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **Return the number of plurals for this catalog language, or 2 if no plural…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **Return the plural string (including nplurals) for this catalog language, or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **Return the selected language catalog as a JSON object. Receive the same…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
 
 ## Relationships
 
-- [Community 76](Community_76.md) (20 shared connections)
-- [Community 116](Community_116.md) (18 shared connections)
-- [Community 188](Community_188.md) (10 shared connections)
-- [Community 488](Community_488.md) (10 shared connections)
-- [Community 489](Community_489.md) (6 shared connections)
-- [Community 11](Community_11.md) (5 shared connections)
-- [Community 90](Community_90.md) (4 shared connections)
-- [Community 89](Community_89.md) (3 shared connections)
-- [Community 331](Community_331.md) (2 shared connections)
-- [Community 60](Community_60.md) (2 shared connections)
-- [Community 39](Community_39.md) (2 shared connections)
-- [Community 77](Community_77.md) (2 shared connections)
+- [Community 17](Community_17.md) (3 shared connections)
+- [Community 755](Community_755.md) (2 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 65](Community_65.md) (1 shared connections)
+- [Community 142](Community_142.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
+- `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
 
 ## Audit Trail
 
-- EXTRACTED: 282 (98%)
-- INFERRED: 5 (2%)
+- EXTRACTED: 28 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

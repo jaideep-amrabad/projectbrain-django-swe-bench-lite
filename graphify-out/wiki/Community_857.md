@@ -1,37 +1,36 @@
 # Community 857
 
-> 10 nodes · cohesion 0.24
+> 10 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **person.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- **Group** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- **Membership** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- **Friendship** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- **.test_batch_create_foreign_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
+- **ImageFile** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **images.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **._get_image_dimensions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **get_image_dimensions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **.height()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **.width()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **File** (1 connections)
+- **Utility functions for handling images. Requires Pillow as you might imagine.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **A mixin for use alongside django.core.files.base.File, which provides…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **Return the (width, height) of an image, given an open file or a path. Set…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
 
 ## Relationships
 
-- [Community 654](Community_654.md) (10 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
-- [Community 475](Community_475.md) (1 shared connections)
+- [Community 168](Community_168.md) (5 shared connections)
+- [Community 14](Community_14.md) (3 shared connections)
+- [Community 507](Community_507.md) (1 shared connections)
+- [Community 578](Community_578.md) (1 shared connections)
+- [Community 592](Community_592.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 19 (83%)
+- INFERRED: 4 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

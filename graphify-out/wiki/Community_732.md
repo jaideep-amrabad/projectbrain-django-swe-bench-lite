@@ -1,42 +1,37 @@
 # Community 732
 
-> 13 nodes · cohesion 0.21
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **AdminPasswordChangeForm** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **AdminPasswordChangeFormTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.save()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.clean_password2()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.save()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.test_html_autocomplete_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_missing_passwords()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_non_matching_passwords()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_one_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_password_whitespace_not_stripped()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.changed_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **A form used to change the password of a user in the admin interface.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **Save the new password.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **SelectMultipleTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **.test_multiple_options_same_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **.test_multiple_values_invalid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **.test_render_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **.test_render_value_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **If the value is None, none of the options are selected, even if the choices…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **If the value corresponds to a label (but not to an option value), none of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **Multiple options with the same value can be selected (#8103).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **If multiple values are given, but some of them are not valid, the valid ones…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **.test_compare_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **.test_format_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **.test_render_multiple_selected()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **.test_render_selected()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **.test_value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 661](Community_661.md) (2 shared connections)
-- [Community 632](Community_632.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 498](Community_498.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 773](Community_773.md) (1 shared connections)
+- [Community 190](Community_190.md) (2 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 16 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

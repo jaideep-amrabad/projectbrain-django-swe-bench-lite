@@ -1,45 +1,63 @@
 # Community 701
 
-> 16 nodes · cohesion 0.15
+> 50 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **CookieTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **MessageEncoder** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **.test_json_encoder_decoder()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **.stored_messages_count()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **.test_cookie_setings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **.test_max_cookie_length()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **.test_safedata()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **.test_get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **.test_get_bad_cookie()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **.test_legacy_hash_decode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **.default()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **Compactly serialize instances of the ``Message`` class as JSON.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- **If the data exceeds what is allowed in a cookie, older messages are removed…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **A complex nested data structure containing Message instances is properly…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **A message containing SafeData is keeping its safe status when retrieved from…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **CookieStorage honors SESSION_COOKIE_DOMAIN, SESSION_COOKIE_SECURE, and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- **BaseTests** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.get_storage()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **default_storage()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/__init__.py`
+- **add_level_messages()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **get_level()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **.get_existing_storage()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.get_request()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.get_response()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.stored_messages_count()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **override_settings_tags** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.test_default_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.test_full_request_response_cycle()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.test_high_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.test_low_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.test_middleware_disabled()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.test_middleware_disabled_fail_silently()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.test_multiple_posts()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.test_settings_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **set_level()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **.test_add_lazy_translation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.test_add_update()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.test_custom_tags()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.test_existing_add_read_update()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.test_existing_read_add_update()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.test_no_update()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [Community 635](Community_635.md) (6 shared connections)
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 636](Community_636.md) (2 shared connections)
-- [Community 671](Community_671.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 461](Community_461.md) (2 shared connections)
-- [Community 248](Community_248.md) (1 shared connections)
+- [Community 364](Community_364.md) (10 shared connections)
+- [Community 9](Community_9.md) (7 shared connections)
+- [Community 12](Community_12.md) (6 shared connections)
+- [Community 523](Community_523.md) (4 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 283](Community_283.md) (3 shared connections)
+- [Community 126](Community_126.md) (2 shared connections)
+- [Community 898](Community_898.md) (1 shared connections)
+- [Community 626](Community_626.md) (1 shared connections)
+- [Community 456](Community_456.md) (1 shared connections)
+- [Community 993](Community_993.md) (1 shared connections)
+- [Community 73](Community_73.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (84%)
-- INFERRED: 6 (16%)
+- EXTRACTED: 126 (98%)
+- INFERRED: 3 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

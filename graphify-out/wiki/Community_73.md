@@ -1,66 +1,67 @@
 # Community 73
 
-> 98 nodes · cohesion 0.04
+> 93 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **TestGeneralAggregate** (43 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **Aggregate** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
-- **Concat** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **test_aggregates.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **ArrayAgg** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
-- **StringAgg** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
-- **general.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
-- **OrderableAggMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/mixins.py`
-- **ConcatPair** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **JSONBAgg** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
-- **ConcatTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_concat.py`
-- **TestAggregateDistinct** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **.test_string_agg_array_agg_filter_in_subquery()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **StatTestModel** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- **.test_string_agg_array_agg_ordering_in_subquery()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **BitAnd** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
-- **BitOr** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
-- **AggregateTestModel** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- **.test_array_agg_charfield_ordering()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **BoolAnd** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
-- **BoolOr** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
-- **aggregates/mixins.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/mixins.py`
-- **.test_json_agg_charfield_ordering()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **.test_string_agg_charfield_ordering()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **._get_ordering_expressions_index()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/mixins.py`
-- *... and 73 more nodes in this community*
+- **HttpRequest** (148 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **HostValidationTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **SignedCookieTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/signed_cookies_tests/tests.py`
+- **.get_host()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **UnreadablePostError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **XFrameOptionsDecoratorsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **AcceptHeaderTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_accept_header.py`
+- **.body()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **._get_raw_host()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **ImproperlyConfiguredUserModelTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **BuildAbsoluteURITests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.get_raw_uri()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **ImportedBackendTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_does_not_shadow_exception()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **TestGetUser** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **.test_exempt_decorator()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **.test_get_host_suggestion_of_allowed_host()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_host_validation_in_debug_mode()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_max_age_argument()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/signed_cookies_tests/tests.py`
+- **.test_signed_cookies_with_binary_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/signed_cookies_tests/tests.py`
+- **.encoding()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.get_port()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **._get_scheme()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.read()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.scheme()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- *... and 68 more nodes in this community*
 
 ## Relationships
 
-- [Community 34](Community_34.md) (12 shared connections)
-- [Community 36](Community_36.md) (11 shared connections)
-- [Community 11](Community_11.md) (8 shared connections)
-- [Community 26](Community_26.md) (7 shared connections)
-- [Community 14](Community_14.md) (7 shared connections)
-- [Community 199](Community_199.md) (6 shared connections)
-- [Community 56](Community_56.md) (6 shared connections)
-- [Community 541](Community_541.md) (5 shared connections)
-- [Community 39](Community_39.md) (4 shared connections)
-- [Community 21](Community_21.md) (4 shared connections)
-- [Community 77](Community_77.md) (4 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
+- [Community 6](Community_6.md) (25 shared connections)
+- [Community 9](Community_9.md) (14 shared connections)
+- [Community 2](Community_2.md) (13 shared connections)
+- [Community 101](Community_101.md) (8 shared connections)
+- [Community 95](Community_95.md) (7 shared connections)
+- [Community 321](Community_321.md) (7 shared connections)
+- [Community 38](Community_38.md) (7 shared connections)
+- [Community 40](Community_40.md) (6 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 678](Community_678.md) (4 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 661](Community_661.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/mixins.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_concat.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/requests/test_accept_header.py`
+- `raw/code/hyd-evaluation/django-django/tests/requests/test_is_ajax_deprecations.py`
+- `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/signed_cookies_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 216 (79%)
-- INFERRED: 56 (21%)
+- EXTRACTED: 268 (98%)
+- INFERRED: 6 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,62 +1,53 @@
 # Community 401
 
-> 28 nodes · cohesion 0.08
+> 28 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **LimitedStream** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **get_script_name()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **ServerHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **get_bytes_from_wsgi()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **get_str_from_wsgi()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **.readline()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **._read_limited()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **.__call__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **.COOKIES()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **.GET()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **is_broken_pipe_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.handle_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.handle_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.test_get_script_name_double_slashes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_limited_stream()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.read()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **Get a value from the WSGI environ dictionary as bytes. key and default should…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.test_get_script_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **Wrap another stream to disallow reading it past a number of bytes.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **Return the equivalent of the HTTP request's SCRIPT_NAME environment variable.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **Use a LimitedStream so that unread request data will be ignored at the end of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **AddIndex** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **RemoveIndex** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **AddConstraint** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **IndexOperation** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.migration_name_fragment()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.migration_name_fragment()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.model_name_lower()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **Add an index on a model.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **Remove an index from a model.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
 - *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 76](Community_76.md) (6 shared connections)
-- [Community 100](Community_100.md) (5 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 48](Community_48.md) (3 shared connections)
-- [Community 53](Community_53.md) (2 shared connections)
-- [Community 298](Community_298.md) (2 shared connections)
-- [Community 330](Community_330.md) (2 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 301](Community_301.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 190](Community_190.md) (1 shared connections)
-- [Community 589](Community_589.md) (1 shared connections)
+- [Community 323](Community_323.md) (4 shared connections)
+- [Community 367](Community_367.md) (3 shared connections)
+- [Community 394](Community_394.md) (2 shared connections)
+- [Community 242](Community_242.md) (1 shared connections)
+- [Community 567](Community_567.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (92%)
-- INFERRED: 5 (8%)
+- EXTRACTED: 38 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

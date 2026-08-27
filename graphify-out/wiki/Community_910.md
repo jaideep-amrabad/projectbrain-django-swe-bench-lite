@@ -1,34 +1,32 @@
 # Community 910
 
-> 9 nodes · cohesion 0.22
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **FullyDecoratedTranTestCase** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_method_list_override()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_method_list_override_nested_order()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_method_list_override_no_ops()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_method_list_override_strings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_method_override()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_decorated_testcase_module()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_decorated_testcase_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_override()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/models.py`
+- **MethodsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/tests.py`
+- **.articles_from_same_day_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/models.py`
+- **.articles_from_same_day_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/models.py`
+- **.was_published_today()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/models.py`
+- **Verbose version of get_articles_from_same_day_1, which does a custom database…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/models.py`
+- **.test_custom_methods()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/tests.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
-- [Community 542](Community_542.md) (1 shared connections)
+- [Community 11](Community_11.md) (3 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_methods/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_methods/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 10 (91%)
+- INFERRED: 1 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

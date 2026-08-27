@@ -1,52 +1,56 @@
 # Community 424
 
-> 27 nodes · cohesion 0.10
+> 26 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **SetLanguageTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **._get_inactive_language_code()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_decodes_http_referer_url()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_default_redirect()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_doesnt_perform_a_default_redirect_for_ajax()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_doesnt_perform_a_redirect_to_referer_for_ajax()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_http_next()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_performs_redirect_for_ajax_if_explicitly_requested()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_redirect_to_referer()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_unsafe_next()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_unsafe_next_for_ajax()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_setlang_reversal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **The set_language view redirects to '/' when there isn't a referer or "next"…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **The set_language view redirects to the "next" parameter for requests not…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **The set_language view doesn't redirect to the HTTP referer header if the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **The set_language view returns 204 by default for requests not accepting HTML…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **The fallback to root URL for the set_language view works for requests not…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **The set_language view decodes the HTTP_REFERER URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **Test the django.views.i18n.set_language view.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **Return language code for a language which is not activated.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **The set_language view can be used to change the session language. The user is…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **The set_language view only redirects to the 'next' argument if it is "safe".** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **The set_language view only redirects to the 'next' argument if it is "safe" and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **The set_language view redirects to the URL in the referer header when there…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- *... and 2 more nodes in this community*
+- **TimeField** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.has_default()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **DateTimeCheckMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.formfield()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.formfield()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.check()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_choices()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **._check_fix_default_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **._check_fix_default_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **._check_mutually_exclusive_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **._check_fix_default_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_pk_value_on_save()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **Warn that using an actual date or datetime value is probably wrong; it's only…** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **return_None()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_db_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **._check_fix_default_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **Hook to generate new PK values on save. This method is called when saving…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **Return a boolean of whether this field has a default value.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **Return the default value for this field.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **Return choices with a default blank choices included, for use as <select>…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **Return a django.forms.Field instance for this field.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 76](Community_76.md) (10 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 218](Community_218.md) (1 shared connections)
+- [Community 345](Community_345.md) (6 shared connections)
+- [Community 162](Community_162.md) (6 shared connections)
+- [Community 224](Community_224.md) (5 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 792](Community_792.md) (2 shared connections)
+- [Community 815](Community_815.md) (1 shared connections)
+- [Community 267](Community_267.md) (1 shared connections)
+- [Community 83](Community_83.md) (1 shared connections)
+- [Community 508](Community_508.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (98%)
+- EXTRACTED: 58 (98%)
 - INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 

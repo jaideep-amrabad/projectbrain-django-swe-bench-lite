@@ -1,52 +1,60 @@
 # Community 225
 
-> 29 nodes · cohesion 0.10
+> 62 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **FormatStylePlaceholderCursor** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **VariableWrapper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.executemany()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.execute()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **OracleParam** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **wrap_oracle_errors()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._fix_for_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._format_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._guess_input_sizes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._output_type_handler()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._param_generator()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._commit()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.arrayvar()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._get_decimal_converter()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.var()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._output_number_converter()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **Wrapper object for formatting parameters for Oracle. If the string…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **An adapter class for cursor variables that prevents the wrapped object from…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **Django uses "format" (e.g. '%s') style placeholders, but Oracle uses ":var"…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **Called for each db column fetched from cursors. Return numbers as the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- *... and 4 more nodes in this community*
+- **Options** (47 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **make_immutable_fields_list()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.get_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.get_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.db_returning()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.add_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.concrete_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.db_returning_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **._expire_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **._format_names_with_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.get_base_chain()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.get_path_to_parent()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.local_concrete_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.many_to_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **._populate_directed_relation_graph()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **._property_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.related_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.setup_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.swapped()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.verbose_name_raw()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.add_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.base_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.can_migrate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.get_ancestor_link()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- *... and 37 more nodes in this community*
 
 ## Relationships
 
-- [Community 76](Community_76.md) (4 shared connections)
-- [Community 641](Community_641.md) (3 shared connections)
-- [Community 147](Community_147.md) (1 shared connections)
-- [Community 120](Community_120.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 7](Community_7.md) (10 shared connections)
+- [Community 162](Community_162.md) (1 shared connections)
+- [Community 700](Community_700.md) (1 shared connections)
+- [Community 275](Community_275.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 176](Community_176.md) (1 shared connections)
+- [Community 657](Community_657.md) (1 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 650](Community_650.md) (1 shared connections)
+- [Community 92](Community_92.md) (1 shared connections)
+- [Community 267](Community_267.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 88 (95%)
+- INFERRED: 5 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,34 +1,36 @@
 # Community 908
 
-> 9 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **MyPerson** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **Person** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **StatusPerson** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **.test_eq()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **.has_special_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **A simple concrete base class.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **A proxy subclass, this should not get a new table. Overrides the default…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **A non-proxy subclass of a proxy, it should get a new table.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **get_default_exception_reporter_filter()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **CustomExceptionReporterFilterTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **get_exception_reporter_filter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.test_cleansed_substitute_override()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_hidden_settings_override()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_setting_allows_custom_subclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 
 ## Relationships
 
-- [Community 583](Community_583.md) (7 shared connections)
-- [Community 311](Community_311.md) (4 shared connections)
-- [Community 626](Community_626.md) (2 shared connections)
+- [Community 6](Community_6.md) (4 shared connections)
+- [Community 213](Community_213.md) (2 shared connections)
+- [Community 147](Community_147.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (86%)
-- INFERRED: 3 (14%)
+- EXTRACTED: 19 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

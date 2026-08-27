@@ -1,41 +1,36 @@
 # Community 746
 
-> 13 nodes · cohesion 0.17
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **DecoratorsTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **Admin2** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
-- **.my_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
-- **.test_cache_page()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.test_require_safe_accepts_only_safe_methods()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.test_user_passes_test_composition()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.test_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.get_urls()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
-- **.index()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
-- **.password_change()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
-- **Test for the require_safe decorator. A view returns either a response or an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **Built-in decorators set certain attributes of the wrapped function.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **The user_passes_test decorator can be applied multiple times (#9474).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- **TestInspectMethods** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- **.test_method_has_no_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- **.all_kinds()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- **.just_args()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- **.no_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- **.one_argument()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- **.test_func_accepts_kwargs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- **.test_func_accepts_var_args_has_var_args()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- **.test_func_accepts_var_args_no_var_args()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- **.test_func_supports_parameter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- **.test_get_func_full_args_all_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- **.test_get_func_full_args_no_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- **.test_get_func_full_args_one_argument()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
 
 ## Relationships
 
-- [Community 35](Community_35.md) (2 shared connections)
-- [Community 94](Community_94.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 57](Community_57.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 109](Community_109.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/customadmin.py`
-- `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (90%)
-- INFERRED: 2 (10%)
+- EXTRACTED: 15 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---
