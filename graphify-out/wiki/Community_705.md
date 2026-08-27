@@ -19,11 +19,11 @@
 
 ## Relationships
 
-- [Community 320](Community_320.md) (5 shared connections)
-- [Community 371](Community_371.md) (2 shared connections)
+- [Community 316](Community_316.md) (5 shared connections)
+- [Community 367](Community_367.md) (2 shared connections)
 - [Community 38](Community_38.md) (1 shared connections)
-- [Community 420](Community_420.md) (1 shared connections)
-- [Community 375](Community_375.md) (1 shared connections)
+- [Community 419](Community_419.md) (1 shared connections)
+- [Community 371](Community_371.md) (1 shared connections)
 
 ## Source Files
 

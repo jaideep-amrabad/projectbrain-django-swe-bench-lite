@@ -1,6 +1,6 @@
 # Community 286
 
-> 47 nodes · cohesion 0.06
+> 49 nodes · cohesion 0.06
 
 ## Key Concepts
 
@@ -29,21 +29,22 @@
 - **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
 - **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
 - **.update_dimension_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- *... and 22 more nodes in this community*
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (7 shared connections)
-- [Community 197](Community_197.md) (4 shared connections)
-- [Community 454](Community_454.md) (4 shared connections)
+- [Community 7](Community_7.md) (5 shared connections)
+- [Community 199](Community_199.md) (4 shared connections)
+- [Community 117](Community_117.md) (4 shared connections)
 - [Community 0](Community_0.md) (3 shared connections)
-- [Community 27](Community_27.md) (3 shared connections)
-- [Community 261](Community_261.md) (3 shared connections)
-- [Community 554](Community_554.md) (1 shared connections)
-- [Community 237](Community_237.md) (1 shared connections)
-- [Community 792](Community_792.md) (1 shared connections)
-- [Community 294](Community_294.md) (1 shared connections)
-- [Community 533](Community_533.md) (1 shared connections)
+- [Community 262](Community_262.md) (3 shared connections)
+- [Community 25](Community_25.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 556](Community_556.md) (1 shared connections)
+- [Community 238](Community_238.md) (1 shared connections)
+- [Community 110](Community_110.md) (1 shared connections)
+- [Community 788](Community_788.md) (1 shared connections)
+- [Community 260](Community_260.md) (1 shared connections)
 
 ## Source Files
 
@@ -54,7 +55,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 88 (94%)
+- EXTRACTED: 90 (94%)
 - INFERRED: 6 (6%)
 - AMBIGUOUS: 0 (0%)
 

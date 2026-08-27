@@ -1,6 +1,6 @@
 # Community 44
 
-> 164 nodes · cohesion 0.03
+> 171 nodes · cohesion 0.03
 
 ## Key Concepts
 
@@ -9,7 +9,6 @@
 - **Case** (131 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
 - **CaseExpressionTests** (84 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_case/tests.py`
 - **distapp/tests.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- **aggregation/tests.py** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation/tests.py`
 - **expressions_case/tests.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_case/tests.py`
 - **ValueTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
 - **.test_expressions()** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
@@ -29,22 +28,23 @@
 - **.test_annotate_with_in_clause()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_case/tests.py`
 - **.test_filter_with_aggregation_in_condition()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_case/tests.py`
 - **.test_distance_annotation_group_by()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/tests.py`
-- *... and 139 more nodes in this community*
+- **.as_oracle()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- *... and 146 more nodes in this community*
 
 ## Relationships
 
-- [Community 26](Community_26.md) (87 shared connections)
-- [Community 0](Community_0.md) (34 shared connections)
-- [Community 19](Community_19.md) (33 shared connections)
-- [Community 38](Community_38.md) (27 shared connections)
-- [Community 45](Community_45.md) (25 shared connections)
-- [Community 14](Community_14.md) (22 shared connections)
-- [Community 35](Community_35.md) (21 shared connections)
-- [Community 24](Community_24.md) (19 shared connections)
-- [Community 116](Community_116.md) (18 shared connections)
-- [Community 92](Community_92.md) (17 shared connections)
-- [Community 72](Community_72.md) (12 shared connections)
-- [Community 97](Community_97.md) (8 shared connections)
+- [Community 27](Community_27.md) (83 shared connections)
+- [Community 19](Community_19.md) (31 shared connections)
+- [Community 38](Community_38.md) (26 shared connections)
+- [Community 45](Community_45.md) (24 shared connections)
+- [Community 13](Community_13.md) (22 shared connections)
+- [Community 72](Community_72.md) (21 shared connections)
+- [Community 25](Community_25.md) (18 shared connections)
+- [Community 92](Community_92.md) (16 shared connections)
+- [Community 74](Community_74.md) (12 shared connections)
+- [Community 116](Community_116.md) (12 shared connections)
+- [Community 18](Community_18.md) (11 shared connections)
+- [Community 411](Community_411.md) (11 shared connections)
 
 ## Source Files
 
@@ -67,7 +67,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 797 (95%)
+- EXTRACTED: 782 (95%)
 - INFERRED: 42 (5%)
 - AMBIGUOUS: 0 (0%)
 

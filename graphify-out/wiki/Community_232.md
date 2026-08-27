@@ -1,6 +1,6 @@
 # Community 232
 
-> 54 nodes · cohesion 0.05
+> 53 nodes · cohesion 0.05
 
 ## Key Concepts
 
@@ -8,7 +8,6 @@
 - **ordering/tests.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
 - **ordering/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
 - **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- **.test_orders_nulls_first_on_filtered_subquery()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
 - **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
 - **OrderedByFArticle** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
 - **Author** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
@@ -29,19 +28,20 @@
 - **.test_order_by_constant_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
 - **.test_order_by_f_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
 - **.test_order_by_fk_attname()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- *... and 29 more nodes in this community*
+- **.test_order_by_nulls_first_and_last()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- *... and 28 more nodes in this community*
 
 ## Relationships
 
-- [Community 26](Community_26.md) (8 shared connections)
-- [Community 35](Community_35.md) (4 shared connections)
-- [Community 30](Community_30.md) (4 shared connections)
+- [Community 27](Community_27.md) (7 shared connections)
+- [Community 72](Community_72.md) (4 shared connections)
+- [Community 32](Community_32.md) (4 shared connections)
 - [Community 0](Community_0.md) (3 shared connections)
-- [Community 140](Community_140.md) (3 shared connections)
+- [Community 137](Community_137.md) (3 shared connections)
 - [Community 38](Community_38.md) (3 shared connections)
 - [Community 44](Community_44.md) (2 shared connections)
-- [Community 19](Community_19.md) (2 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
 
 ## Source Files
 
@@ -50,8 +50,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 93 (90%)
-- INFERRED: 10 (10%)
+- EXTRACTED: 90 (91%)
+- INFERRED: 9 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

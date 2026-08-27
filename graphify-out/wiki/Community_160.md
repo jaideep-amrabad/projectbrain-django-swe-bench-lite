@@ -1,6 +1,6 @@
 # Community 160
 
-> 69 nodes · cohesion 0.06
+> 67 nodes · cohesion 0.06
 
 ## Key Concepts
 
@@ -29,20 +29,21 @@
 - **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
 - **PlayedWith** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
 - **Researcher** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- *... and 44 more nodes in this community*
+- *... and 42 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (7 shared connections)
-- [Community 24](Community_24.md) (5 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 18](Community_18.md) (5 shared connections)
 - [Community 38](Community_38.md) (5 shared connections)
-- [Community 199](Community_199.md) (4 shared connections)
-- [Community 35](Community_35.md) (3 shared connections)
+- [Community 202](Community_202.md) (4 shared connections)
+- [Community 72](Community_72.md) (3 shared connections)
 - [Community 1](Community_1.md) (3 shared connections)
-- [Community 908](Community_908.md) (3 shared connections)
-- [Community 30](Community_30.md) (1 shared connections)
-- [Community 216](Community_216.md) (1 shared connections)
-- [Community 518](Community_518.md) (1 shared connections)
+- [Community 904](Community_904.md) (3 shared connections)
+- [Community 25](Community_25.md) (1 shared connections)
+- [Community 32](Community_32.md) (1 shared connections)
+- [Community 203](Community_203.md) (1 shared connections)
+- [Community 950](Community_950.md) (1 shared connections)
 
 ## Source Files
 
@@ -51,8 +52,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 138 (78%)
-- INFERRED: 38 (22%)
+- EXTRACTED: 137 (79%)
+- INFERRED: 37 (21%)
 - AMBIGUOUS: 0 (0%)
 
 ---

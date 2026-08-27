@@ -1,6 +1,6 @@
 # Community 48
 
-> 146 nodes · cohesion 0.02
+> 148 nodes · cohesion 0.02
 
 ## Key Concepts
 
@@ -18,6 +18,7 @@
 - **.get_urls()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
 - **.has_permission()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
 - **.index()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- **.path()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
 - **MyAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
 - **.password_change()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
 - **.register()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
@@ -28,35 +29,36 @@
 - **.logout()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
 - **.password_change_done()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
 - **.unregister()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **AlreadyRegistered** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- *... and 121 more nodes in this community*
+- *... and 123 more nodes in this community*
 
 ## Relationships
 
-- [Community 33](Community_33.md) (10 shared connections)
-- [Community 71](Community_71.md) (10 shared connections)
-- [Community 7](Community_7.md) (10 shared connections)
-- [Community 131](Community_131.md) (9 shared connections)
-- [Community 0](Community_0.md) (7 shared connections)
+- [Community 95](Community_95.md) (11 shared connections)
+- [Community 31](Community_31.md) (10 shared connections)
+- [Community 8](Community_8.md) (10 shared connections)
+- [Community 126](Community_126.md) (9 shared connections)
+- [Community 22](Community_22.md) (6 shared connections)
 - [Community 61](Community_61.md) (6 shared connections)
-- [Community 21](Community_21.md) (5 shared connections)
-- [Community 165](Community_165.md) (4 shared connections)
-- [Community 16](Community_16.md) (3 shared connections)
+- [Community 166](Community_166.md) (4 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 14](Community_14.md) (3 shared connections)
+- [Community 110](Community_110.md) (3 shared connections)
+- [Community 25](Community_25.md) (3 shared connections)
 - [Community 1](Community_1.md) (3 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/admin.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 296 (93%)
-- INFERRED: 23 (7%)
+- EXTRACTED: 299 (92%)
+- INFERRED: 25 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

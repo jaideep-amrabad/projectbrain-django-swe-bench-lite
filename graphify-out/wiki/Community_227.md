@@ -1,6 +1,6 @@
 # Community 227
 
-> 56 nodes · cohesion 0.08
+> 54 nodes · cohesion 0.09
 
 ## Key Concepts
 
@@ -21,7 +21,6 @@
 - **._execute_test_db_destruction()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
 - **._handle_objects_preventing_db_destruction()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
 - **._test_database_passwd()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **DataError** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
 - **.test_create_test_db()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
 - **.test_create_test_user()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
 - **._execute_test_db_creation()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
@@ -29,22 +28,23 @@
 - **._test_database_tblspace()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
 - **._test_database_tblspace_datafile()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
 - **._test_database_tblspace_tmp_datafile()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- *... and 31 more nodes in this community*
+- **._test_database_user()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- *... and 29 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (12 shared connections)
-- [Community 59](Community_59.md) (9 shared connections)
-- [Community 119](Community_119.md) (7 shared connections)
-- [Community 207](Community_207.md) (5 shared connections)
-- [Community 139](Community_139.md) (5 shared connections)
-- [Community 194](Community_194.md) (3 shared connections)
-- [Community 39](Community_39.md) (3 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 111](Community_111.md) (3 shared connections)
-- [Community 89](Community_89.md) (2 shared connections)
-- [Community 187](Community_187.md) (2 shared connections)
-- [Community 118](Community_118.md) (2 shared connections)
+- [Community 58](Community_58.md) (8 shared connections)
+- [Community 143](Community_143.md) (7 shared connections)
+- [Community 25](Community_25.md) (6 shared connections)
+- [Community 90](Community_90.md) (5 shared connections)
+- [Community 193](Community_193.md) (5 shared connections)
+- [Community 98](Community_98.md) (4 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 115](Community_115.md) (3 shared connections)
+- [Community 592](Community_592.md) (2 shared connections)
+- [Community 110](Community_110.md) (2 shared connections)
+- [Community 209](Community_209.md) (2 shared connections)
+- [Community 153](Community_153.md) (2 shared connections)
 
 ## Source Files
 
@@ -55,7 +55,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 203 (97%)
+- EXTRACTED: 197 (97%)
 - INFERRED: 6 (3%)
 - AMBIGUOUS: 0 (0%)
 

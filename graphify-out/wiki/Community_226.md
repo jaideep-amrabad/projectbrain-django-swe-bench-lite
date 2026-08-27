@@ -1,9 +1,10 @@
 # Community 226
 
-> 51 nodes · cohesion 0.05
+> 54 nodes · cohesion 0.05
 
 ## Key Concepts
 
+- **postgres_tests/test_operations.py** (40 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
 - **OperationTestBase** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
 - **AddIndexConcurrently** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
 - **ValidateConstraint** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
@@ -28,23 +29,22 @@
 - **.test_requires_atomic_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
 - **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
 - **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.database_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- *... and 26 more nodes in this community*
+- *... and 29 more nodes in this community*
 
 ## Relationships
 
-- [Community 101](Community_101.md) (13 shared connections)
-- [Community 34](Community_34.md) (9 shared connections)
-- [Community 111](Community_111.md) (4 shared connections)
-- [Community 230](Community_230.md) (4 shared connections)
-- [Community 81](Community_81.md) (3 shared connections)
+- [Community 664](Community_664.md) (9 shared connections)
+- [Community 115](Community_115.md) (9 shared connections)
+- [Community 11](Community_11.md) (7 shared connections)
+- [Community 105](Community_105.md) (7 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 230](Community_230.md) (5 shared connections)
+- [Community 26](Community_26.md) (4 shared connections)
 - [Community 25](Community_25.md) (3 shared connections)
-- [Community 573](Community_573.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 68](Community_68.md) (2 shared connections)
-- [Community 568](Community_568.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 169](Community_169.md) (2 shared connections)
+- [Community 640](Community_640.md) (3 shared connections)
+- [Community 13](Community_13.md) (3 shared connections)
+- [Community 833](Community_833.md) (3 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
 
 ## Source Files
 
@@ -54,8 +54,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 107 (89%)
-- INFERRED: 13 (11%)
+- EXTRACTED: 139 (91%)
+- INFERRED: 13 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

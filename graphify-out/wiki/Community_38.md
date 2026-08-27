@@ -1,57 +1,59 @@
 # Community 38
 
-> 178 nodes · cohesion 0.03
+> 149 nodes · cohesion 0.04
 
 ## Key Concepts
 
 - **TestCase** (999 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 - **functions/__init__.py** (186 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/__init__.py`
+- **timezone.py** (118 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
 - **math.py** (64 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
 - **db_functions/models.py** (64 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/models.py`
-- **functions/text.py** (40 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **datetime.py** (47 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **test_extract_trunc.py** (44 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
 - **Author** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/models.py`
 - **FloatModel** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/models.py`
 - **DecimalModel** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/models.py`
-- **Left** (22 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **Length** (22 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
 - **IntegerModel** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/models.py`
 - **test_json_object.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_json_object.py`
 - **test_greatest.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_greatest.py`
 - **test_least.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
+- **TruncBase** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
 - **test_cast.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- **Transform** (15 connections)
+- **test_concat.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_concat.py`
 - **test_round.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
+- **db_functions/tests.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/tests.py`
 - **test_acos.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_acos.py`
 - **test_asin.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_asin.py`
 - **test_atan.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan.py`
 - **test_ceil.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ceil.py`
 - **test_cos.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cos.py`
-- **test_cot.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cot.py`
-- **test_degrees.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_degrees.py`
-- **test_exp.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_exp.py`
-- **test_floor.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_floor.py`
-- *... and 153 more nodes in this community*
+- *... and 124 more nodes in this community*
 
 ## Relationships
 
-- [Community 62](Community_62.md) (86 shared connections)
-- [Community 0](Community_0.md) (83 shared connections)
-- [Community 1](Community_1.md) (67 shared connections)
-- [Community 42](Community_42.md) (58 shared connections)
-- [Community 36](Community_36.md) (47 shared connections)
-- [Community 140](Community_140.md) (39 shared connections)
-- [Community 30](Community_30.md) (38 shared connections)
-- [Community 81](Community_81.md) (37 shared connections)
-- [Community 44](Community_44.md) (27 shared connections)
-- [Community 328](Community_328.md) (24 shared connections)
-- [Community 45](Community_45.md) (23 shared connections)
-- [Community 382](Community_382.md) (21 shared connections)
+- [Community 0](Community_0.md) (90 shared connections)
+- [Community 32](Community_32.md) (82 shared connections)
+- [Community 63](Community_63.md) (82 shared connections)
+- [Community 1](Community_1.md) (78 shared connections)
+- [Community 116](Community_116.md) (78 shared connections)
+- [Community 34](Community_34.md) (41 shared connections)
+- [Community 4](Community_4.md) (34 shared connections)
+- [Community 45](Community_45.md) (26 shared connections)
+- [Community 44](Community_44.md) (26 shared connections)
+- [Community 12](Community_12.md) (23 shared connections)
+- [Community 137](Community_137.md) (22 shared connections)
+- [Community 377](Community_377.md) (21 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/db/models/functions/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
 - `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
 - `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
 - `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
 - `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
 - `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_introspection.py`
 - `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_schema.py`
@@ -61,18 +63,16 @@
 - `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_greatest.py`
 - `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_json_object.py`
 - `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_nullif.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
 - `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_now.py`
 - `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_abs.py`
 - `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_acos.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_asin.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan2.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ceil.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1967 (100%)
-- INFERRED: 4 (0%)
+- EXTRACTED: 2125 (100%)
+- INFERRED: 5 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

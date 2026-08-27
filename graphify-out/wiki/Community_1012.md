@@ -9,7 +9,7 @@
 
 ## Relationships
 
-- [Community 506](Community_506.md) (1 shared connections)
+- [Community 507](Community_507.md) (1 shared connections)
 
 ## Source Files
 

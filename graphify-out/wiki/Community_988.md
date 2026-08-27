@@ -4,24 +4,22 @@
 
 ## Key Concepts
 
-- **.select_for_update()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.update_or_create()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Return a new QuerySet instance that will select objects with a FOR UPDATE lock.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Look up an object with the given kwargs, updating one with defaults if it…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **0005_fifth.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0005_fifth.py`
+- **feed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0005_fifth.py`
+- **grow_tail()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0005_fifth.py`
+- **Migration** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0005_fifth.py`
 
 ## Relationships
 
-- [Community 94](Community_94.md) (2 shared connections)
-- [Community 272](Community_272.md) (1 shared connections)
-- [Community 55](Community_55.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_plan/0005_fifth.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
