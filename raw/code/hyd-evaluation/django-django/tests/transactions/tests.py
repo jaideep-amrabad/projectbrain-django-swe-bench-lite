@@ -8,7 +8,7 @@ from django.db import (
     transaction,
 )
 from django.test import (
-    TransactionTestCase, skipIfDBFeature, skipUnlessDBFeature,
+    TestCase, TransactionTestCase, skipIfDBFeature, skipUnlessDBFeature,
 )
 
 from .models import Reporter
@@ -477,12 +477,18 @@ class NonAutocommitTests(TransactionTestCase):
 
     available_apps = []
 
+    def setUp(self):
+        transaction.set_autocommit(False)
+
+    def tearDown(self):
+        transaction.rollback()
+        transaction.set_autocommit(True)
+
     def test_orm_query_after_error_and_rollback(self):
         """
         ORM queries are allowed after an error and a rollback in non-autocommit
         mode (#27504).
         """
-        transaction.set_autocommit(False)
         r1 = Reporter.objects.create(first_name='Archibald', last_name='Haddock')
         r2 = Reporter(first_name='Cuthbert', last_name='Calculus', id=r1.id)
         with self.assertRaises(IntegrityError):
@@ -492,9 +498,77 @@ class NonAutocommitTests(TransactionTestCase):
 
     def test_orm_query_without_autocommit(self):
         """#24921 -- ORM queries must be possible after set_autocommit(False)."""
-        transaction.set_autocommit(False)
-        try:
-            Reporter.objects.create(first_name="Tintin")
-        finally:
-            transaction.rollback()
-            transaction.set_autocommit(True)
+        Reporter.objects.create(first_name="Tintin")
+
+
+class DurableTests(TransactionTestCase):
+    available_apps = ['transactions']
+
+    def test_commit(self):
+        with transaction.atomic(durable=True):
+            reporter = Reporter.objects.create(first_name='Tintin')
+        self.assertEqual(Reporter.objects.get(), reporter)
+
+    def test_nested_outer_durable(self):
+        with transaction.atomic(durable=True):
+            reporter1 = Reporter.objects.create(first_name='Tintin')
+            with transaction.atomic():
+                reporter2 = Reporter.objects.create(
+                    first_name='Archibald',
+                    last_name='Haddock',
+                )
+        self.assertSequenceEqual(Reporter.objects.all(), [reporter2, reporter1])
+
+    def test_nested_both_durable(self):
+        msg = 'A durable atomic block cannot be nested within another atomic block.'
+        with transaction.atomic(durable=True):
+            with self.assertRaisesMessage(RuntimeError, msg):
+                with transaction.atomic(durable=True):
+                    pass
+
+    def test_nested_inner_durable(self):
+        msg = 'A durable atomic block cannot be nested within another atomic block.'
+        with transaction.atomic():
+            with self.assertRaisesMessage(RuntimeError, msg):
+                with transaction.atomic(durable=True):
+                    pass
+
+
+class DisableDurabiltityCheckTests(TestCase):
+    """
+    TestCase runs all tests in a transaction by default. Code using
+    durable=True would always fail when run from TestCase. This would mean
+    these tests would be forced to use the slower TransactionTestCase even when
+    not testing durability. For this reason, TestCase disables the durability
+    check.
+    """
+    available_apps = ['transactions']
+
+    def test_commit(self):
+        with transaction.atomic(durable=True):
+            reporter = Reporter.objects.create(first_name='Tintin')
+        self.assertEqual(Reporter.objects.get(), reporter)
+
+    def test_nested_outer_durable(self):
+        with transaction.atomic(durable=True):
+            reporter1 = Reporter.objects.create(first_name='Tintin')
+            with transaction.atomic():
+                reporter2 = Reporter.objects.create(
+                    first_name='Archibald',
+                    last_name='Haddock',
+                )
+        self.assertSequenceEqual(Reporter.objects.all(), [reporter2, reporter1])
+
+    def test_nested_both_durable(self):
+        with transaction.atomic(durable=True):
+            # Error is not raised.
+            with transaction.atomic(durable=True):
+                reporter = Reporter.objects.create(first_name='Tintin')
+        self.assertEqual(Reporter.objects.get(), reporter)
+
+    def test_nested_inner_durable(self):
+        with transaction.atomic():
+            # Error is not raised.
+            with transaction.atomic(durable=True):
+                reporter = Reporter.objects.create(first_name='Tintin')
+        self.assertEqual(Reporter.objects.get(), reporter)

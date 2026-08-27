@@ -87,9 +87,14 @@ class DistinctOnTests(TestCase):
             self.assertSequenceEqual(qset, expected)
             self.assertEqual(qset.count(), len(expected))
 
-        # Combining queries with different distinct_fields is not allowed.
+        # Combining queries with non-unique query is not allowed.
         base_qs = Celebrity.objects.all()
-        with self.assertRaisesMessage(AssertionError, "Cannot combine queries with different distinct fields."):
+        msg = 'Cannot combine a unique query with a non-unique query.'
+        with self.assertRaisesMessage(TypeError, msg):
+            base_qs.distinct('id') & base_qs
+        # Combining queries with different distinct_fields is not allowed.
+        msg = 'Cannot combine queries with different distinct fields.'
+        with self.assertRaisesMessage(TypeError, msg):
             base_qs.distinct('id') & base_qs.distinct('name')
 
         # Test join unreffing
@@ -97,6 +102,11 @@ class DistinctOnTests(TestCase):
         self.assertIn('OUTER JOIN', str(c1.query))
         c2 = c1.distinct('pk')
         self.assertNotIn('OUTER JOIN', str(c2.query))
+
+    def test_sliced_queryset(self):
+        msg = 'Cannot create distinct fields once a slice has been taken.'
+        with self.assertRaisesMessage(TypeError, msg):
+            Staff.objects.all()[0:5].distinct('name')
 
     def test_transform(self):
         new_name = self.t1.name.upper()
