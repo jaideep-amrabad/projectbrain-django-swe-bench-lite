@@ -1,6 +1,6 @@
 # Community 257
 
-> 42 nodes · cohesion 0.07
+> 40 nodes · cohesion 0.07
 
 ## Key Concepts
 
@@ -11,7 +11,6 @@
 - **D** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
 - **DataPoint** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
 - **RelatedPoint** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **.test_update_annotated_queryset()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
 - **A** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
 - **B** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
 - **Bar** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
@@ -29,15 +28,16 @@
 - **.test_empty_update_with_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
 - **.test_foreign_key_update_with_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
 - **.test_nonempty_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- *... and 17 more nodes in this community*
+- **.test_nonempty_update_with_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
 - [Community 2](Community_2.md) (5 shared connections)
 - [Community 5](Community_5.md) (2 shared connections)
-- [Community 44](Community_44.md) (2 shared connections)
-- [Community 47](Community_47.md) (2 shared connections)
+- [Community 104](Community_104.md) (2 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
+- [Community 43](Community_43.md) (1 shared connections)
 - [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
@@ -47,8 +47,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 63 (89%)
-- INFERRED: 8 (11%)
+- EXTRACTED: 61 (90%)
+- INFERRED: 7 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

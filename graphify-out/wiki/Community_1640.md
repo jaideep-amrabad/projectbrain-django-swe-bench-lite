@@ -4,19 +4,19 @@
 
 ## Key Concepts
 
-- **Restaurant** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **RestaurantInlineAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.get_absolute_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **MultiDbDeprecationTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_deprecated_features.py`
+- **.test_test_case()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_deprecated_features.py`
+- **.test_transaction_test_case()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_deprecated_features.py`
 
 ## Relationships
 
-- [Community 65](Community_65.md) (2 shared connections)
-- [Community 94](Community_94.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 58](Community_58.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/test_deprecated_features.py`
 
 ## Audit Trail
 

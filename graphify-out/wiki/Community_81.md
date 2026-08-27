@@ -9,7 +9,6 @@
 - **gis/utils/__init__.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/__init__.py`
 - **.attr_value()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
 - **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- **mapping()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
 - **add_srs_entry()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/srs.py`
 - **utils/srs.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/srs.py`
 - **.import_user_input()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
@@ -22,6 +21,7 @@
 - **.import_epsg()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
 - **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
 - **.srid()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **.units()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
 - **.test01_wkt()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
 - **.test02_bad_wkt()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
 - **.test03_get_wkt()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
@@ -33,17 +33,17 @@
 
 ## Relationships
 
-- [Community 104](Community_104.md) (16 shared connections)
-- [Community 150](Community_150.md) (7 shared connections)
-- [Community 34](Community_34.md) (6 shared connections)
-- [Community 74](Community_74.md) (4 shared connections)
-- [Community 139](Community_139.md) (4 shared connections)
+- [Community 144](Community_144.md) (14 shared connections)
+- [Community 36](Community_36.md) (6 shared connections)
+- [Community 150](Community_150.md) (6 shared connections)
+- [Community 73](Community_73.md) (4 shared connections)
 - [Community 42](Community_42.md) (3 shared connections)
-- [Community 133](Community_133.md) (2 shared connections)
-- [Community 717](Community_717.md) (2 shared connections)
-- [Community 796](Community_796.md) (2 shared connections)
-- [Community 229](Community_229.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
+- [Community 275](Community_275.md) (3 shared connections)
+- [Community 135](Community_135.md) (3 shared connections)
+- [Community 132](Community_132.md) (2 shared connections)
+- [Community 231](Community_231.md) (2 shared connections)
+- [Community 795](Community_795.md) (2 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
 - [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
@@ -51,14 +51,13 @@
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/srs.py`
 - `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
 - `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_spatialrefsys.py`
 
 ## Audit Trail
 
-- EXTRACTED: 167 (98%)
+- EXTRACTED: 164 (98%)
 - INFERRED: 4 (2%)
 - AMBIGUOUS: 0 (0%)
 

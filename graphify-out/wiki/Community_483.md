@@ -28,10 +28,10 @@
 
 ## Relationships
 
-- [Community 736](Community_736.md) (5 shared connections)
+- [Community 738](Community_738.md) (5 shared connections)
 - [Community 2](Community_2.md) (2 shared connections)
-- [Community 831](Community_831.md) (2 shared connections)
-- [Community 506](Community_506.md) (1 shared connections)
+- [Community 829](Community_829.md) (2 shared connections)
+- [Community 505](Community_505.md) (1 shared connections)
 
 ## Source Files
 

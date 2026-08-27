@@ -1,6 +1,6 @@
 # Community 79
 
-> 100 nodes · cohesion 0.04
+> 112 nodes · cohesion 0.03
 
 ## Key Concepts
 
@@ -12,6 +12,7 @@
 - **test_detail.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
 - **generic_views/models.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
 - **Artist** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
+- **UpdateViewTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
 - **test_list.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
 - **AuthorForm** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/forms.py`
 - **TestDataMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
@@ -28,23 +29,22 @@
 - **SpecializedAuthorCreate** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
 - **SpecializedAuthorUpdate** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
 - **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
-- **AuthorCreate** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- *... and 75 more nodes in this community*
+- *... and 87 more nodes in this community*
 
 ## Relationships
 
-- [Community 67](Community_67.md) (13 shared connections)
-- [Community 312](Community_312.md) (10 shared connections)
-- [Community 12](Community_12.md) (8 shared connections)
+- [Community 70](Community_70.md) (13 shared connections)
+- [Community 313](Community_313.md) (10 shared connections)
+- [Community 2](Community_2.md) (8 shared connections)
 - [Community 420](Community_420.md) (8 shared connections)
-- [Community 3](Community_3.md) (7 shared connections)
-- [Community 20](Community_20.md) (6 shared connections)
-- [Community 2](Community_2.md) (6 shared connections)
-- [Community 232](Community_232.md) (6 shared connections)
-- [Community 5](Community_5.md) (5 shared connections)
-- [Community 406](Community_406.md) (5 shared connections)
-- [Community 379](Community_379.md) (5 shared connections)
-- [Community 669](Community_669.md) (4 shared connections)
+- [Community 19](Community_19.md) (6 shared connections)
+- [Community 5](Community_5.md) (6 shared connections)
+- [Community 234](Community_234.md) (6 shared connections)
+- [Community 34](Community_34.md) (6 shared connections)
+- [Community 407](Community_407.md) (5 shared connections)
+- [Community 382](Community_382.md) (5 shared connections)
+- [Community 14](Community_14.md) (5 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
 
 ## Source Files
 
@@ -59,8 +59,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 255 (79%)
-- INFERRED: 68 (21%)
+- EXTRACTED: 268 (80%)
+- INFERRED: 68 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

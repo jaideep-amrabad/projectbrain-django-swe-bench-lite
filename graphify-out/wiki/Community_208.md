@@ -12,9 +12,9 @@
 - **.handle_merge()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
 - **NonInteractiveMigrationQuestioner** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
 - **._ask_default()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.test_trim_apps()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 - **QuestionerTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
 - **.write_migration_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- **.timezone()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
 - **.ask_auto_now_add_addition()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
 - **.ask_not_null_addition()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
 - **.ask_not_null_alteration()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
@@ -33,31 +33,31 @@
 
 ## Relationships
 
-- [Community 25](Community_25.md) (14 shared connections)
-- [Community 16](Community_16.md) (11 shared connections)
-- [Community 130](Community_130.md) (6 shared connections)
-- [Community 19](Community_19.md) (4 shared connections)
-- [Community 542](Community_542.md) (3 shared connections)
+- [Community 23](Community_23.md) (16 shared connections)
+- [Community 0](Community_0.md) (10 shared connections)
+- [Community 129](Community_129.md) (6 shared connections)
+- [Community 33](Community_33.md) (4 shared connections)
+- [Community 136](Community_136.md) (3 shared connections)
 - [Community 3](Community_3.md) (3 shared connections)
 - [Community 107](Community_107.md) (2 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 69](Community_69.md) (1 shared connections)
-- [Community 40](Community_40.md) (1 shared connections)
-- [Community 92](Community_92.md) (1 shared connections)
-- [Community 221](Community_221.md) (1 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 68](Community_68.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 94](Community_94.md) (1 shared connections)
+- [Community 223](Community_223.md) (1 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
 - `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
 - `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 - `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
 
 ## Audit Trail
 
-- EXTRACTED: 114 (88%)
-- INFERRED: 15 (12%)
+- EXTRACTED: 117 (89%)
+- INFERRED: 14 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -27,7 +27,7 @@
 
 ## Relationships
 
-- [Community 56](Community_56.md) (6 shared connections)
+- [Community 55](Community_55.md) (6 shared connections)
 - [Community 18](Community_18.md) (5 shared connections)
 - [Community 2](Community_2.md) (2 shared connections)
 

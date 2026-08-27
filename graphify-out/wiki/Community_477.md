@@ -1,6 +1,6 @@
 # Community 477
 
-> 21 nodes · cohesion 0.10
+> 24 nodes · cohesion 0.09
 
 ## Key Concepts
 
@@ -13,10 +13,13 @@
 - **Color2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 - **Pizza** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 - **PlotProxy** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Podcast** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 - **ReadablePizza** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 - **ReadOnlyPizza** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 - **FoodDelivery** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 - **Language** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Media** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Vodcast** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 - **CategoryInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 - **ChapterInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 - **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
@@ -28,11 +31,11 @@
 
 ## Relationships
 
-- [Community 65](Community_65.md) (14 shared connections)
-- [Community 94](Community_94.md) (13 shared connections)
+- [Community 65](Community_65.md) (16 shared connections)
+- [Community 95](Community_95.md) (15 shared connections)
 - [Community 281](Community_281.md) (1 shared connections)
-- [Community 615](Community_615.md) (1 shared connections)
-- [Community 127](Community_127.md) (1 shared connections)
+- [Community 616](Community_616.md) (1 shared connections)
+- [Community 126](Community_126.md) (1 shared connections)
 
 ## Source Files
 
@@ -41,8 +44,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 48 (94%)
-- INFERRED: 3 (6%)
+- EXTRACTED: 55 (95%)
+- INFERRED: 3 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

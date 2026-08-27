@@ -1,6 +1,6 @@
 # Community 439
 
-> 23 nodes · cohesion 0.09
+> 24 nodes · cohesion 0.08
 
 ## Key Concepts
 
@@ -11,6 +11,7 @@
 - **.disable_constraint_checking()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
 - **.enable_constraint_checking()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
 - **.get_connection_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **._rollback()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
 - **.execute()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
 - **.executemany()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
 - **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
@@ -31,16 +32,17 @@
 ## Relationships
 
 - [Community 0](Community_0.md) (2 shared connections)
-- [Community 85](Community_85.md) (2 shared connections)
-- [Community 346](Community_346.md) (2 shared connections)
-- [Community 534](Community_534.md) (1 shared connections)
-- [Community 686](Community_686.md) (1 shared connections)
+- [Community 86](Community_86.md) (2 shared connections)
+- [Community 537](Community_537.md) (1 shared connections)
+- [Community 687](Community_687.md) (1 shared connections)
 - [Community 246](Community_246.md) (1 shared connections)
-- [Community 631](Community_631.md) (1 shared connections)
-- [Community 606](Community_606.md) (1 shared connections)
-- [Community 315](Community_315.md) (1 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 633](Community_633.md) (1 shared connections)
+- [Community 514](Community_514.md) (1 shared connections)
+- [Community 607](Community_607.md) (1 shared connections)
+- [Community 317](Community_317.md) (1 shared connections)
+- [Community 64](Community_64.md) (1 shared connections)
+- [Community 348](Community_348.md) (1 shared connections)
+- [Community 34](Community_34.md) (1 shared connections)
 
 ## Source Files
 
@@ -48,7 +50,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 28 (78%)
+- EXTRACTED: 29 (78%)
 - INFERRED: 8 (22%)
 - AMBIGUOUS: 0 (0%)
 

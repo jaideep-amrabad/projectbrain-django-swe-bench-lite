@@ -1,50 +1,50 @@
 # Community 0
 
-> 479 nodes · cohesion 0.01
+> 486 nodes · cohesion 0.01
 
 ## Key Concepts
 
 - **django/db/__init__.py** (645 connections) — `raw/code/hyd-evaluation/django-django/django/db/__init__.py`
 - **db/migrations/__init__.py** (158 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/__init__.py`
+- **skipIfDBFeature()** (74 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 - **db/utils.py** (72 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
 - **db/transaction.py** (65 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
 - **DatabaseError** (56 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
 - **NotSupportedError** (53 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
 - **postgis/operations.py** (43 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
 - **IntegrityError** (36 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **migrations/test_operations.py** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- **sqlite/tests.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
 - **migrations/test_commands.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
 - **django/db/backends/utils.py** (31 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
 - **base/base.py** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
 - **django/db/backends/mysql/base.py** (28 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **gis_tests/utils.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/utils.py`
-- **SpatialRefSysMixin** (24 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
+- **bulk_create/tests.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **makemigrations.py** (25 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
+- **migrate.py** (25 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/migrate.py`
 - **base/schema.py** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
 - **loaddata.py** (23 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **migrations/exceptions.py** (23 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
+- **test_executor.py** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **autodetector.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **migrations/loader.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/loader.py`
 - **gis_migrations/test_operations.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **select_for_update/tests.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
-- **transactions/tests.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **django/db/backends/base/operations.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **TransactionManagementError** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
-- **base/creation.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
-- **truncate_name()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
-- **test_explain.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_explain.py`
-- **test_qs_combinators.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
-- *... and 454 more nodes in this community*
+- *... and 461 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (183 shared connections)
-- [Community 5](Community_5.md) (62 shared connections)
-- [Community 16](Community_16.md) (60 shared connections)
-- [Community 346](Community_346.md) (38 shared connections)
-- [Community 1](Community_1.md) (35 shared connections)
-- [Community 30](Community_30.md) (33 shared connections)
-- [Community 58](Community_58.md) (28 shared connections)
-- [Community 3](Community_3.md) (28 shared connections)
-- [Community 11](Community_11.md) (23 shared connections)
-- [Community 290](Community_290.md) (20 shared connections)
-- [Community 61](Community_61.md) (19 shared connections)
-- [Community 111](Community_111.md) (18 shared connections)
+- [Community 2](Community_2.md) (211 shared connections)
+- [Community 5](Community_5.md) (95 shared connections)
+- [Community 3](Community_3.md) (46 shared connections)
+- [Community 13](Community_13.md) (39 shared connections)
+- [Community 38](Community_38.md) (39 shared connections)
+- [Community 53](Community_53.md) (36 shared connections)
+- [Community 33](Community_33.md) (35 shared connections)
+- [Community 348](Community_348.md) (34 shared connections)
+- [Community 26](Community_26.md) (30 shared connections)
+- [Community 28](Community_28.md) (30 shared connections)
+- [Community 68](Community_68.md) (29 shared connections)
+- [Community 242](Community_242.md) (27 shared connections)
 
 ## Source Files
 
@@ -60,19 +60,19 @@
 - `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0009_alter_user_last_name_max_length.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0010_alter_group_name_max_length.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0011_update_proxy_permissions.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/migrations/0001_initial.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/migrations/0002_remove_content_type_name.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/migrations/0001_initial.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2055 (99%)
-- INFERRED: 12 (1%)
+- EXTRACTED: 2464 (99%)
+- INFERRED: 22 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

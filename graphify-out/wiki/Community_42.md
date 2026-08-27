@@ -1,6 +1,6 @@
 # Community 42
 
-> 98 nodes · cohesion 0.04
+> 93 nodes · cohesion 0.04
 
 ## Key Concepts
 
@@ -29,21 +29,21 @@
 - **ICity2** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
 - **Interstate** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
 - **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
-- *... and 73 more nodes in this community*
+- *... and 68 more nodes in this community*
 
 ## Relationships
 
-- [Community 139](Community_139.md) (14 shared connections)
-- [Community 104](Community_104.md) (7 shared connections)
+- [Community 275](Community_275.md) (14 shared connections)
+- [Community 135](Community_135.md) (4 shared connections)
 - [Community 81](Community_81.md) (3 shared connections)
-- [Community 301](Community_301.md) (3 shared connections)
+- [Community 57](Community_57.md) (3 shared connections)
+- [Community 144](Community_144.md) (3 shared connections)
 - [Community 2](Community_2.md) (3 shared connections)
-- [Community 290](Community_290.md) (2 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
+- [Community 795](Community_795.md) (2 shared connections)
 - [Community 1](Community_1.md) (2 shared connections)
-- [Community 276](Community_276.md) (1 shared connections)
-- [Community 34](Community_34.md) (1 shared connections)
-- [Community 150](Community_150.md) (1 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 214](Community_214.md) (1 shared connections)
+- [Community 36](Community_36.md) (1 shared connections)
 - [Community 414](Community_414.md) (1 shared connections)
 
 ## Source Files
@@ -55,7 +55,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 204 (89%)
+- EXTRACTED: 199 (89%)
 - INFERRED: 25 (11%)
 - AMBIGUOUS: 0 (0%)
 
