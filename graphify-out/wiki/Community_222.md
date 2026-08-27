@@ -1,6 +1,6 @@
 # Community 222
 
-> 47 nodes · cohesion 0.04
+> 50 nodes · cohesion 0.04
 
 ## Key Concepts
 
@@ -29,16 +29,15 @@
 - **.test_raw()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
 - **.test_related_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
 - **.test_select_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- *... and 22 more nodes in this community*
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [Community 400](Community_400.md) (7 shared connections)
-- [Community 615](Community_615.md) (4 shared connections)
-- [Community 518](Community_518.md) (2 shared connections)
-- [Community 393](Community_393.md) (1 shared connections)
-- [Community 471](Community_471.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 397](Community_397.md) (7 shared connections)
+- [Community 685](Community_685.md) (4 shared connections)
+- [Community 508](Community_508.md) (3 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 - [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
@@ -47,7 +46,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 58 (91%)
+- EXTRACTED: 61 (91%)
 - INFERRED: 6 (9%)
 - AMBIGUOUS: 0 (0%)
 

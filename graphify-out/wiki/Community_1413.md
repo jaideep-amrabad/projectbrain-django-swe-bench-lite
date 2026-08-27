@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **distapp/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/__init__.py`
+- **SelectBox.test.js** (0 connections) — `raw/code/hyd-evaluation/django-django/js_tests/admin/SelectBox.test.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/__init__.py`
+- `raw/code/hyd-evaluation/django-django/js_tests/admin/SelectBox.test.js`
 
 ## Audit Trail
 

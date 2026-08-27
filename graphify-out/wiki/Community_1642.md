@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **filter_tests/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/__init__.py`
+- **conflicting_app_with_dependencies/migrations/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/conflicting_app_with_dependencies/migrations/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/conflicting_app_with_dependencies/migrations/__init__.py`
 
 ## Audit Trail
 

@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **geo3d/views.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/views.py`
+- **mapwidget.test.js** (0 connections) — `raw/code/hyd-evaluation/django-django/js_tests/gis/mapwidget.test.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/views.py`
+- `raw/code/hyd-evaluation/django-django/js_tests/gis/mapwidget.test.js`
 
 ## Audit Trail
 

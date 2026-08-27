@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **m2m_multiple/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/__init__.py`
+- **explicit_default_config_empty_apps/apps.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/explicit_default_config_empty_apps/apps.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/apps/explicit_default_config_empty_apps/apps.py`
 
 ## Audit Trail
 

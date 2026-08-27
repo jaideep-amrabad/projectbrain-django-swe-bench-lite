@@ -1,22 +1,26 @@
 # Community 1221
 
-> 1 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **gis/db/backends/mysql/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/__init__.py`
+- **BaseTestFormSet** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- **No two email addresses are the same.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 153](Community_153.md) (1 shared connections)
+- [Community 188](Community_188.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

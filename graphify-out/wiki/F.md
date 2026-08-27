@@ -2,7 +2,7 @@
 
 > God node · 381 connections · `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
 
-**Community:** [Community 41](Community_41.md)
+**Community:** [Community 32](Community_32.md)
 
 ## Connections by Relation
 
@@ -36,8 +36,8 @@
 - queries/tests.py `EXTRACTED`
 - admin_changelist/tests.py `EXTRACTED`
 - expressions/tests.py `EXTRACTED`
-- models/query.py `EXTRACTED`
 - sql/query.py `EXTRACTED`
+- models/query.py `EXTRACTED`
 - modeladmin/test_checks.py `EXTRACTED`
 - timezones/tests.py `EXTRACTED`
 - model_fields/test_jsonfield.py `EXTRACTED`

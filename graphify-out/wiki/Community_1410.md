@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **get_or_create/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/__init__.py`
+- **DateTimeShortcuts.test.js** (0 connections) — `raw/code/hyd-evaluation/django-django/js_tests/admin/DateTimeShortcuts.test.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/get_or_create/__init__.py`
+- `raw/code/hyd-evaluation/django-django/js_tests/admin/DateTimeShortcuts.test.js`
 
 ## Audit Trail
 

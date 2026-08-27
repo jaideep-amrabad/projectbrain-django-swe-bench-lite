@@ -1,15 +1,15 @@
 # HttpResponse
 
-> God node · 310 connections · `raw/code/hyd-evaluation/django-django/django/http/response.py`
+> God node · 312 connections · `raw/code/hyd-evaluation/django-django/django/http/response.py`
 
-**Community:** [Community 10](Community_10.md)
+**Community:** [Community 25](Community_25.md)
 
 ## Connections by Relation
 
 ### calls
 - render() `EXTRACTED`
-- post_form_view() `EXTRACTED`
 - technical_500_response() `EXTRACTED`
+- post_form_view() `EXTRACTED`
 - token_view() `EXTRACTED`
 - empty_view() `EXTRACTED`
 - get_response_empty() `EXTRACTED`
