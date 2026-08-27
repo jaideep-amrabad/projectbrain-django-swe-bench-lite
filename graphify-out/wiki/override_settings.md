@@ -1,15 +1,15 @@
 # override_settings
 
-> God node · 1322 connections · `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+> God node · 1370 connections · `raw/code/hyd-evaluation/django-django/django/test/utils.py`
 
-**Community:** [Community 6](Community_6.md)
+**Community:** [Community 7](Community_7.md)
 
 ## Connections by Relation
 
 ### calls
 - setup() `EXTRACTED`
-- .settings() `EXTRACTED`
 - .override_router() `EXTRACTED`
+- .settings() `EXTRACTED`
 - require_jinja2() `EXTRACTED`
 - .test_swappable_changed() `EXTRACTED`
 - .test_create_model4() `EXTRACTED`
@@ -34,20 +34,20 @@
 ### imports
 - django/test/__init__.py `EXTRACTED`
 - template_tests/utils.py `EXTRACTED`
-- i18n/tests.py `EXTRACTED`
-- admin_changelist/tests.py `EXTRACTED`
-- testcases.py `EXTRACTED`
 - cache/tests.py `EXTRACTED`
+- testcases.py `EXTRACTED`
+- admin_changelist/tests.py `EXTRACTED`
+- i18n/tests.py `EXTRACTED`
 - test_utils/tests.py `EXTRACTED`
-- auth_tests/test_views.py `EXTRACTED`
 - test_auth_backends.py `EXTRACTED`
+- auth_tests/test_views.py `EXTRACTED`
 - test_debug.py `EXTRACTED`
-- admin_filters/tests.py `EXTRACTED`
-- admin_widgets/tests.py `EXTRACTED`
 - admin_scripts/tests.py `EXTRACTED`
+- admin_widgets/tests.py `EXTRACTED`
+- test_array.py `EXTRACTED`
+- admin_filters/tests.py `EXTRACTED`
 - urlpatterns_reverse/tests.py `EXTRACTED`
 - admin_inlines/tests.py `EXTRACTED`
-- test_array.py `EXTRACTED`
 - prefetch_related/tests.py `EXTRACTED`
 - fixtures_regress/tests.py `EXTRACTED`
 - test_client_regress/tests.py `EXTRACTED`
@@ -79,16 +79,16 @@
 - CreatesuperuserManagementCommandTestCase `EXTRACTED`
 - NewDatabaseTests `EXTRACTED`
 - CommandTests `EXTRACTED`
-- CommonMiddlewareTest `EXTRACTED`
-- ListViewTests `EXTRACTED`
-- FileUploadTests `EXTRACTED`
-- DetailViewTest `EXTRACTED`
-- SyndicationFeedTest `EXTRACTED`
 - TestUtilsHashPass `EXTRACTED`
+- FileUploadTests `EXTRACTED`
+- CommonMiddlewareTest `EXTRACTED`
+- SyndicationFeedTest `EXTRACTED`
+- ListViewTests `EXTRACTED`
 - CollectionTestCase `EXTRACTED`
+- DetailViewTest `EXTRACTED`
 - ConditionalGet `EXTRACTED`
-- ConditionalGetMiddlewareTest `EXTRACTED`
-- ExceptionReporterFilterTests `EXTRACTED`
+- DateFormatTests `EXTRACTED`
+- FormattingTests `EXTRACTED`
 
 ---
 

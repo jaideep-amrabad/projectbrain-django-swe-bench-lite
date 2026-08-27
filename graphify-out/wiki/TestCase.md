@@ -1,8 +1,8 @@
 # TestCase
 
-> God node · 992 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+> God node · 999 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
-**Community:** [Community 17](Community_17.md)
+**Community:** [Community 38](Community_38.md)
 
 ## Connections by Relation
 
@@ -13,16 +13,16 @@
 - django/test/__init__.py `EXTRACTED`
 - queries/tests.py `EXTRACTED`
 - model_forms/tests.py `EXTRACTED`
-- i18n/tests.py `EXTRACTED`
-- admin_changelist/tests.py `EXTRACTED`
 - cache/tests.py `EXTRACTED`
+- admin_changelist/tests.py `EXTRACTED`
+- i18n/tests.py `EXTRACTED`
 - expressions/tests.py `EXTRACTED`
 - test_utils/tests.py `EXTRACTED`
-- auth_tests/test_views.py `EXTRACTED`
 - test_auth_backends.py `EXTRACTED`
-- admin_filters/tests.py `EXTRACTED`
-- admin_widgets/tests.py `EXTRACTED`
+- auth_tests/test_views.py `EXTRACTED`
 - admin_scripts/tests.py `EXTRACTED`
+- admin_widgets/tests.py `EXTRACTED`
+- admin_filters/tests.py `EXTRACTED`
 - urlpatterns_reverse/tests.py `EXTRACTED`
 - admin_inlines/tests.py `EXTRACTED`
 - prefetch_related/tests.py `EXTRACTED`
@@ -34,21 +34,21 @@
 ### inherits
 - AutodetectorTests `EXTRACTED`
 - TransactionTestCase `EXTRACTED`
-- Queries1Tests `EXTRACTED`
 - ChangeListTests `EXTRACTED`
+- Queries1Tests `EXTRACTED`
 - ClientTest `EXTRACTED`
 - CaseExpressionTests `EXTRACTED`
 - AggregateTestCase `EXTRACTED`
 - BasicExpressionsTests `EXTRACTED`
 - AggregationTests `EXTRACTED`
-- ModelFormsetTest `EXTRACTED`
 - TestQuerying `EXTRACTED`
+- ModelFormsetTest `EXTRACTED`
 - LookupTests `EXTRACTED`
-- ModelInheritanceTest `EXTRACTED`
-- ListFiltersTests `EXTRACTED`
-- GenericRelationsTests `EXTRACTED`
-- ModelFormBaseTest `EXTRACTED`
 - NonAggregateAnnotationTestCase `EXTRACTED`
+- GenericRelationsTests `EXTRACTED`
+- ModelInheritanceTest `EXTRACTED`
+- ModelFormBaseTest `EXTRACTED`
+- ListFiltersTests `EXTRACTED`
 - ManyToOneTests `EXTRACTED`
 - TestInline `EXTRACTED`
 - PostgreSQLTestCase `EXTRACTED`
