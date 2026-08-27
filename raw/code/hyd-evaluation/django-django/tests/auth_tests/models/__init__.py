@@ -8,7 +8,6 @@ from .minimal import MinimalUser
 from .no_password import NoPasswordUser
 from .proxy import Proxy, UserProxy
 from .uuid_pk import UUIDUser
-from .with_custom_email_field import CustomEmailField
 from .with_foreign_key import CustomUserWithFK, Email
 from .with_integer_username import IntegerUsernameUser
 from .with_last_login_attr import UserWithDisabledLastLoginField
@@ -17,10 +16,10 @@ from .with_many_to_many import (
 )
 
 __all__ = (
-    'CustomEmailField', 'CustomPermissionsUser', 'CustomUser',
-    'CustomUserNonUniqueUsername', 'CustomUserWithFK', 'CustomUserWithM2M',
-    'CustomUserWithM2MThrough', 'CustomUserWithoutIsActiveField', 'Email',
-    'ExtensionUser', 'IntegerUsernameUser', 'IsActiveTestUser1', 'MinimalUser',
+    'CustomPermissionsUser', 'CustomUser', 'CustomUserNonUniqueUsername',
+    'CustomUserWithFK', 'CustomUserWithM2M', 'CustomUserWithM2MThrough',
+    'CustomUserWithoutIsActiveField', 'Email', 'ExtensionUser',
+    'IntegerUsernameUser', 'IsActiveTestUser1', 'MinimalUser',
     'NoPasswordUser', 'Organization', 'Proxy', 'UUIDUser', 'UserProxy',
     'UserWithDisabledLastLoginField',
 )

@@ -365,9 +365,6 @@ class Language(models.Model):
     english_name = models.CharField(max_length=50)
     shortlist = models.BooleanField(default=False)
 
-    def __str__(self):
-        return self.iso
-
     class Meta:
         ordering = ('iso',)
 
@@ -1002,9 +999,3 @@ class UserProxy(User):
     """Proxy a model with a different app_label."""
     class Meta:
         proxy = True
-
-
-class ReadOnlyRelatedField(models.Model):
-    chapter = models.ForeignKey(Chapter, models.CASCADE)
-    language = models.ForeignKey(Language, models.CASCADE)
-    user = models.ForeignKey(User, models.CASCADE)

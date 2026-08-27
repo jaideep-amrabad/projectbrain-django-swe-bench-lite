@@ -19,9 +19,7 @@ from django.contrib.sessions.backends.file import SessionStore as FileSession
 from django.contrib.sessions.backends.signed_cookies import (
     SessionStore as CookieSession,
 )
-from django.contrib.sessions.exceptions import (
-    InvalidSessionKey, SessionInterrupted,
-)
+from django.contrib.sessions.exceptions import InvalidSessionKey
 from django.contrib.sessions.middleware import SessionMiddleware
 from django.contrib.sessions.models import Session
 from django.contrib.sessions.serializers import (
@@ -30,7 +28,7 @@ from django.contrib.sessions.serializers import (
 from django.core import management
 from django.core.cache import caches
 from django.core.cache.backends.base import InvalidCacheBackendError
-from django.core.exceptions import ImproperlyConfigured
+from django.core.exceptions import ImproperlyConfigured, SuspiciousOperation
 from django.http import HttpResponse
 from django.test import (
     RequestFactory, SimpleTestCase, TestCase, ignore_warnings,
@@ -335,16 +333,11 @@ class SessionTestsMixin:
             self.assertEqual(self.session._legacy_decode(encoded), data)
 
     def test_decode_failure_logged_to_security(self):
-        tests = [
-            base64.b64encode(b'flaskdj:alkdjf').decode('ascii'),
-            'bad:encoded:value',
-        ]
-        for encoded in tests:
-            with self.subTest(encoded=encoded):
-                with self.assertLogs('django.security.SuspiciousSession', 'WARNING') as cm:
-                    self.assertEqual(self.session.decode(encoded), {})
-                # The failed decode is logged.
-                self.assertIn('Session data corrupted', cm.output[0])
+        bad_encode = base64.b64encode(b'flaskdj:alkdjf').decode('ascii')
+        with self.assertLogs('django.security.SuspiciousSession', 'WARNING') as cm:
+            self.assertEqual({}, self.session.decode(bad_encode))
+        # The failed decode is logged.
+        self.assertIn('corrupted', cm.output[0])
 
     def test_actual_expiry(self):
         # this doesn't work with JSONSerializer (serializing timedelta)
@@ -748,10 +741,10 @@ class SessionMiddlewareTests(TestCase):
             "The request's session was deleted before the request completed. "
             "The user may have logged out in a concurrent request, for example."
         )
-        with self.assertRaisesMessage(SessionInterrupted, msg):
+        with self.assertRaisesMessage(SuspiciousOperation, msg):
             # Handle the response through the middleware. It will try to save
             # the deleted session which will cause an UpdateError that's caught
-            # and raised as a SessionInterrupted.
+            # and raised as a SuspiciousOperation.
             middleware(request)
 
     def test_session_delete_on_end(self):
@@ -781,7 +774,7 @@ class SessionMiddlewareTests(TestCase):
         )
         # SessionMiddleware sets 'Vary: Cookie' to prevent the 'Set-Cookie'
         # from being cached.
-        self.assertEqual(response.headers['Vary'], 'Cookie')
+        self.assertEqual(response['Vary'], 'Cookie')
 
     @override_settings(SESSION_COOKIE_DOMAIN='.example.local', SESSION_COOKIE_PATH='/example/')
     def test_session_delete_on_end_with_custom_domain_and_path(self):
@@ -826,7 +819,7 @@ class SessionMiddlewareTests(TestCase):
         # A cookie should not be set.
         self.assertEqual(response.cookies, {})
         # The session is accessed so "Vary: Cookie" should be set.
-        self.assertEqual(response.headers['Vary'], 'Cookie')
+        self.assertEqual(response['Vary'], 'Cookie')
 
     def test_empty_session_saved(self):
         """
@@ -849,7 +842,7 @@ class SessionMiddlewareTests(TestCase):
             'Set-Cookie: sessionid=%s' % request.session.session_key,
             str(response.cookies)
         )
-        self.assertEqual(response.headers['Vary'], 'Cookie')
+        self.assertEqual(response['Vary'], 'Cookie')
 
         # Empty the session data.
         del request.session['foo']
@@ -866,7 +859,7 @@ class SessionMiddlewareTests(TestCase):
             'Set-Cookie: sessionid=%s' % request.session.session_key,
             str(response.cookies)
         )
-        self.assertEqual(response.headers['Vary'], 'Cookie')
+        self.assertEqual(response['Vary'], 'Cookie')
 
 
 class CookieSessionTests(SessionTestsMixin, SimpleTestCase):

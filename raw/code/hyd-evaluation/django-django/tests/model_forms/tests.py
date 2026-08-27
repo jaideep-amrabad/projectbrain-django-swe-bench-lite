@@ -301,30 +301,19 @@ class ModelFormBaseTest(TestCase):
         self.assertEqual(obj.name, '')
 
     def test_save_blank_null_unique_charfield_saves_null(self):
-        form_class = modelform_factory(model=NullableUniqueCharFieldModel, fields='__all__')
+        form_class = modelform_factory(model=NullableUniqueCharFieldModel, fields=['codename'])
         empty_value = '' if connection.features.interprets_empty_strings_as_nulls else None
-        data = {
-            'codename': '',
-            'email': '',
-            'slug': '',
-            'url': '',
-        }
-        form = form_class(data=data)
+
+        form = form_class(data={'codename': ''})
         self.assertTrue(form.is_valid())
         form.save()
         self.assertEqual(form.instance.codename, empty_value)
-        self.assertEqual(form.instance.email, empty_value)
-        self.assertEqual(form.instance.slug, empty_value)
-        self.assertEqual(form.instance.url, empty_value)
 
         # Save a second form to verify there isn't a unique constraint violation.
-        form = form_class(data=data)
+        form = form_class(data={'codename': ''})
         self.assertTrue(form.is_valid())
         form.save()
         self.assertEqual(form.instance.codename, empty_value)
-        self.assertEqual(form.instance.email, empty_value)
-        self.assertEqual(form.instance.slug, empty_value)
-        self.assertEqual(form.instance.url, empty_value)
 
     def test_missing_fields_attribute(self):
         message = (

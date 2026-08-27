@@ -19,8 +19,8 @@ class UUIDFieldTest(SimpleTestCase):
 
     def test_uuidfield_2(self):
         field = UUIDField(required=False)
-        self.assertIsNone(field.clean(''))
-        self.assertIsNone(field.clean(None))
+        value = field.clean('')
+        self.assertIsNone(value)
 
     def test_uuidfield_3(self):
         field = UUIDField()

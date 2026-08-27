@@ -184,11 +184,11 @@ class ShortcutViewTests(TestCase):
             response = shortcut(self.request, user_ct.id, obj.id)
             self.assertEqual(
                 'http://%s/users/john/' % get_current_site(self.request).domain,
-                response.headers.get('location')
+                response._headers.get('location')[1]
             )
         with self.modify_settings(INSTALLED_APPS={'remove': 'django.contrib.sites'}):
             response = shortcut(self.request, user_ct.id, obj.id)
-            self.assertEqual('http://Example.com/users/john/', response.headers.get('location'))
+            self.assertEqual('http://Example.com/users/john/', response._headers.get('location')[1])
 
     def test_model_without_get_absolute_url(self):
         """The view returns 404 when Model.get_absolute_url() isn't defined."""

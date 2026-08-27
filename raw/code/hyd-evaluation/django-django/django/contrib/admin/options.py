@@ -296,7 +296,7 @@ class BaseModelAdmin(metaclass=forms.MediaDefiningClass):
 
         if callable(self.view_on_site):
             return self.view_on_site(obj)
-        elif hasattr(obj, 'get_absolute_url'):
+        elif self.view_on_site and hasattr(obj, 'get_absolute_url'):
             # use the ContentType lookup if view_on_site is True
             return reverse('admin:view_on_site', kwargs={
                 'content_type_id': get_content_type_for_model(obj).pk,
@@ -1627,7 +1627,6 @@ class ModelAdmin(BaseModelAdmin):
         context = {
             **self.admin_site.each_context(request),
             'title': title % opts.verbose_name,
-            'subtitle': str(obj) if obj else None,
             'adminform': adminForm,
             'object_id': object_id,
             'original': obj,
@@ -1816,7 +1815,6 @@ class ModelAdmin(BaseModelAdmin):
             'selection_note': _('0 of %(cnt)s selected') % {'cnt': len(cl.result_list)},
             'selection_note_all': selection_note_all % {'total_count': cl.result_count},
             'title': cl.title,
-            'subtitle': None,
             'is_popup': cl.is_popup,
             'to_field': cl.to_field,
             'cl': cl,

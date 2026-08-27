@@ -141,7 +141,7 @@ class Base(models.Model):
 
 
 class RelToBase(models.Model):
-    base = models.ForeignKey(Base, models.DO_NOTHING, related_name='rels')
+    base = models.ForeignKey(Base, models.DO_NOTHING)
 
 
 class Origin(models.Model):

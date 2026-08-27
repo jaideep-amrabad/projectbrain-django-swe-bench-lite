@@ -1,4 +1,4 @@
-from django.db import models
+from django.db import connection, models
 
 
 class CurrentTranslation(models.ForeignObject):
@@ -47,13 +47,12 @@ class IndexTogetherSingleList(models.Model):
         index_together = ["headline", "pub_date"]
 
 
-class IndexedArticle(models.Model):
-    headline = models.CharField(max_length=100, db_index=True)
-    body = models.TextField(db_index=True)
-    slug = models.CharField(max_length=40, unique=True)
-
-    class Meta:
-        required_db_features = {'supports_index_on_text_field'}
+# Indexing a TextField on Oracle or MySQL results in index creation error.
+if connection.vendor == 'postgresql':
+    class IndexedArticle(models.Model):
+        headline = models.CharField(max_length=100, db_index=True)
+        body = models.TextField(db_index=True)
+        slug = models.CharField(max_length=40, unique=True)
 
 
 class IndexedArticle2(models.Model):

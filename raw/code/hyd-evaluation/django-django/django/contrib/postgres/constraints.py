@@ -66,21 +66,20 @@ class ExclusionConstraint(BaseConstraint):
         self.opclasses = opclasses
         super().__init__(name=name)
 
-    def _get_expression_sql(self, compiler, schema_editor, query):
+    def _get_expression_sql(self, compiler, connection, query):
         expressions = []
         for idx, (expression, operator) in enumerate(self.expressions):
             if isinstance(expression, str):
                 expression = F(expression)
             expression = expression.resolve_expression(query=query)
-            sql, params = compiler.compile(expression)
+            sql, params = expression.as_sql(compiler, connection)
             try:
                 opclass = self.opclasses[idx]
                 if opclass:
                     sql = '%s %s' % (sql, opclass)
             except IndexError:
                 pass
-            sql = sql % tuple(schema_editor.quote_value(p) for p in params)
-            expressions.append('%s WITH %s' % (sql, operator))
+            expressions.append('%s WITH %s' % (sql % params, operator))
         return expressions
 
     def _get_condition_sql(self, compiler, schema_editor, query):
@@ -93,7 +92,7 @@ class ExclusionConstraint(BaseConstraint):
     def constraint_sql(self, model, schema_editor):
         query = Query(model, alias_cols=False)
         compiler = query.get_compiler(connection=schema_editor.connection)
-        expressions = self._get_expression_sql(compiler, schema_editor, query)
+        expressions = self._get_expression_sql(compiler, schema_editor.connection, query)
         condition = self._get_condition_sql(compiler, schema_editor, query)
         include = [model._meta.get_field(field_name).column for field_name in self.include]
         return self.template % {

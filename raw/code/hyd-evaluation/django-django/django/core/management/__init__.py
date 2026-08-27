@@ -2,9 +2,7 @@ import functools
 import os
 import pkgutil
 import sys
-from argparse import (
-    _AppendConstAction, _CountAction, _StoreConstAction, _SubParsersAction,
-)
+from argparse import _SubParsersAction
 from collections import defaultdict
 from difflib import get_close_matches
 from importlib import import_module
@@ -140,9 +138,7 @@ def call_command(command_name, *args, **options):
     # Any required arguments which are passed in via **options must be passed
     # to parse_args().
     parse_args += [
-        min(opt.option_strings)
-        if isinstance(opt, (_AppendConstAction, _CountAction, _StoreConstAction))
-        else '{}={}'.format(min(opt.option_strings), arg_options[opt.dest])
+        '{}={}'.format(min(opt.option_strings), arg_options[opt.dest])
         for opt in parser_actions if (
             opt.dest in options and
             (opt.required or opt in mutually_exclusive_required_options)

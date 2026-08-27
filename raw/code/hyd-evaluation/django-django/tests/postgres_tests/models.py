@@ -154,17 +154,16 @@ class ArrayFieldSubclass(ArrayField):
         super().__init__(models.IntegerField())
 
 
-class AggregateTestModel(PostgreSQLModel):
+class AggregateTestModel(models.Model):
     """
     To test postgres-specific general aggregation functions
     """
     char_field = models.CharField(max_length=30, blank=True)
     integer_field = models.IntegerField(null=True)
     boolean_field = models.BooleanField(null=True)
-    json_field = models.JSONField(null=True)
 
 
-class StatTestModel(PostgreSQLModel):
+class StatTestModel(models.Model):
     """
     To test postgres-specific aggregation functions for statistics
     """
@@ -191,4 +190,3 @@ class HotelReservation(PostgreSQLModel):
     start = models.DateTimeField()
     end = models.DateTimeField()
     cancelled = models.BooleanField(default=False)
-    requirements = models.JSONField(blank=True, null=True)

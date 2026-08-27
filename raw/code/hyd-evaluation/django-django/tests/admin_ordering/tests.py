@@ -15,7 +15,7 @@ class MockRequest:
 
 
 class MockSuperUser:
-    def has_perm(self, perm, obj=None):
+    def has_perm(self, perm):
         return True
 
     def has_module_perms(self, module):

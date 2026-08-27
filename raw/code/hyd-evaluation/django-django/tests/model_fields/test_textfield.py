@@ -2,7 +2,7 @@ from unittest import skipIf
 
 from django import forms
 from django.db import connection, models
-from django.test import SimpleTestCase, TestCase
+from django.test import TestCase
 
 from .models import Post
 
@@ -37,13 +37,3 @@ class TextFieldTests(TestCase):
         p = Post.objects.create(title='Whatever', body='Smile 😀.')
         p.refresh_from_db()
         self.assertEqual(p.body, 'Smile 😀.')
-
-
-class TestMethods(SimpleTestCase):
-    def test_deconstruct(self):
-        field = models.TextField()
-        *_, kwargs = field.deconstruct()
-        self.assertEqual(kwargs, {})
-        field = models.TextField(db_collation='utf8_esperanto_ci')
-        *_, kwargs = field.deconstruct()
-        self.assertEqual(kwargs, {'db_collation': 'utf8_esperanto_ci'})

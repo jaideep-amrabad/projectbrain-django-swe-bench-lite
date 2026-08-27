@@ -25,7 +25,7 @@ class MockRequest:
 
 
 class MockSuperUser:
-    def has_perm(self, perm, obj=None):
+    def has_perm(self, perm):
         return True
 
 
@@ -730,19 +730,19 @@ class ModelAdminPermissionTests(SimpleTestCase):
             return app_label == 'modeladmin'
 
     class MockViewUser(MockUser):
-        def has_perm(self, perm, obj=None):
+        def has_perm(self, perm):
             return perm == 'modeladmin.view_band'
 
     class MockAddUser(MockUser):
-        def has_perm(self, perm, obj=None):
+        def has_perm(self, perm):
             return perm == 'modeladmin.add_band'
 
     class MockChangeUser(MockUser):
-        def has_perm(self, perm, obj=None):
+        def has_perm(self, perm):
             return perm == 'modeladmin.change_band'
 
     class MockDeleteUser(MockUser):
-        def has_perm(self, perm, obj=None):
+        def has_perm(self, perm):
             return perm == 'modeladmin.delete_band'
 
     def test_has_view_permission(self):

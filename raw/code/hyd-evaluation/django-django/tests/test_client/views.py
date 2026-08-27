@@ -102,7 +102,7 @@ def json_view(request):
 def view_with_header(request):
     "A view that has a custom header"
     response = HttpResponse()
-    response.headers['X-DJANGO-TEST'] = 'Slartibartfast'
+    response['X-DJANGO-TEST'] = 'Slartibartfast'
     return response
 
 
@@ -237,7 +237,8 @@ class BaseTestFormSet(BaseFormSet):
             return
 
         emails = []
-        for form in self.forms:
+        for i in range(0, self.total_form_count()):
+            form = self.forms[i]
             email = form.cleaned_data['email']
             if email in emails:
                 raise ValidationError(

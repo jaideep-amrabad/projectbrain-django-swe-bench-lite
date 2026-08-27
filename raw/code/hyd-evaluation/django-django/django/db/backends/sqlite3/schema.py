@@ -429,6 +429,3 @@ class DatabaseSchemaEditor(BaseDatabaseSchemaEditor):
             super().remove_constraint(model, constraint)
         else:
             self._remake_table(model)
-
-    def _collate_sql(self, collation):
-        return ' COLLATE ' + collation

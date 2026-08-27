@@ -21,12 +21,12 @@ class ConditionalGet(SimpleTestCase):
         self.assertEqual(response.content, FULL_RESPONSE.encode())
         if response.request['REQUEST_METHOD'] in ('GET', 'HEAD'):
             if check_last_modified:
-                self.assertEqual(response.headers['Last-Modified'], LAST_MODIFIED_STR)
+                self.assertEqual(response['Last-Modified'], LAST_MODIFIED_STR)
             if check_etag:
-                self.assertEqual(response.headers['ETag'], ETAG)
+                self.assertEqual(response['ETag'], ETAG)
         else:
-            self.assertNotIn('Last-Modified', response.headers)
-            self.assertNotIn('ETag', response.headers)
+            self.assertNotIn('Last-Modified', response)
+            self.assertNotIn('ETag', response)
 
     def assertNotModified(self, response):
         self.assertEqual(response.status_code, 304)

@@ -2,9 +2,7 @@
 Upload handlers to test the upload API.
 """
 
-from django.core.files.uploadhandler import (
-    FileUploadHandler, StopUpload, TemporaryFileUploadHandler,
-)
+from django.core.files.uploadhandler import FileUploadHandler, StopUpload
 
 
 class QuotaUploadHandler(FileUploadHandler):
@@ -27,12 +25,6 @@ class QuotaUploadHandler(FileUploadHandler):
 
     def file_complete(self, file_size):
         return None
-
-
-class StopUploadTemporaryFileHandler(TemporaryFileUploadHandler):
-    """A handler that raises a StopUpload exception."""
-    def receive_data_chunk(self, raw_data, start):
-        raise StopUpload()
 
 
 class CustomUploadError(Exception):

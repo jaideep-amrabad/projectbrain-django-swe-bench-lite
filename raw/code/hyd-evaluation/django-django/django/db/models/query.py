@@ -5,6 +5,8 @@ The main QuerySet implementation. This provides the public API for the ORM.
 import copy
 import operator
 import warnings
+from collections import namedtuple
+from functools import lru_cache
 from itertools import chain
 
 import django
@@ -17,11 +19,11 @@ from django.db import (
 from django.db.models import AutoField, DateField, DateTimeField, sql
 from django.db.models.constants import LOOKUP_SEP
 from django.db.models.deletion import Collector
-from django.db.models.expressions import Case, Expression, F, Ref, Value, When
+from django.db.models.expressions import Case, Expression, F, Value, When
 from django.db.models.functions import Cast, Trunc
 from django.db.models.query_utils import FilteredRelation, Q
 from django.db.models.sql.constants import CURSOR, GET_ITERATOR_CHUNK_SIZE
-from django.db.models.utils import create_namedtuple_class, resolve_callables
+from django.db.models.utils import resolve_callables
 from django.utils import timezone
 from django.utils.functional import cached_property, partition
 
@@ -146,6 +148,13 @@ class NamedValuesListIterable(ValuesListIterable):
     namedtuple for each row.
     """
 
+    @staticmethod
+    @lru_cache()
+    def create_namedtuple_class(*names):
+        # Cache namedtuple() with @lru_cache() since it's too slow to be
+        # called for every QuerySet evaluation.
+        return namedtuple('Row', names)
+
     def __iter__(self):
         queryset = self.queryset
         if queryset._fields:
@@ -153,7 +162,7 @@ class NamedValuesListIterable(ValuesListIterable):
         else:
             query = queryset.query
             names = [*query.extra_select, *query.values_select, *query.annotation_select]
-        tuple_class = create_namedtuple_class(*names)
+        tuple_class = self.create_namedtuple_class(*names)
         new = tuple.__new__
         for row in super().__iter__():
             yield new(tuple_class, row)
@@ -201,8 +210,6 @@ class QuerySet:
 
     @query.setter
     def query(self, value):
-        if value.values_select:
-            self._iterable_class = ValuesIterable
         self._query = value
 
     def as_manager(cls):
@@ -386,16 +393,8 @@ class QuerySet:
         query = self.query.chain()
         for (alias, aggregate_expr) in kwargs.items():
             query.add_annotation(aggregate_expr, alias, is_summary=True)
-            annotation = query.annotations[alias]
-            if not annotation.contains_aggregate:
+            if not query.annotations[alias].contains_aggregate:
                 raise TypeError("%s is not an aggregate expression" % alias)
-            for expr in annotation.get_source_expressions():
-                if expr.contains_aggregate and isinstance(expr, Ref) and expr.refs in kwargs:
-                    name = expr.refs
-                    raise exceptions.FieldError(
-                        "Cannot compute %s('%s'): '%s' is an aggregate"
-                        % (annotation.name, name, name)
-                    )
         return query.get_aggregation(self.db, kwargs)
 
     def count(self):
@@ -416,11 +415,6 @@ class QuerySet:
         Perform the query and return a single object matching the given
         keyword arguments.
         """
-        if self.query.combinator and (args or kwargs):
-            raise NotSupportedError(
-                'Calling QuerySet.get(...) with filters after %s() is not '
-                'supported.' % self.query.combinator
-            )
         clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
         if self.query.can_filter() and not self.query.distinct_fields:
             clone = clone.order_by()
@@ -453,12 +447,10 @@ class QuerySet:
         obj.save(force_insert=True, using=self.db)
         return obj
 
-    def _prepare_for_bulk_create(self, objs):
+    def _populate_pk_values(self, objs):
         for obj in objs:
             if obj.pk is None:
-                # Populate new PK values.
                 obj.pk = obj._meta.pk.get_pk_value_on_save(obj)
-            obj._prepare_related_fields_for_save(operation_name='bulk_create')
 
     def bulk_create(self, objs, batch_size=None, ignore_conflicts=False):
         """
@@ -495,7 +487,7 @@ class QuerySet:
         opts = self.model._meta
         fields = opts.concrete_fields
         objs = list(objs)
-        self._prepare_for_bulk_create(objs)
+        self._populate_pk_values(objs)
         with transaction.atomic(using=self.db, savepoint=False):
             objs_with_pk, objs_without_pk = partition(lambda o: o.pk is None, objs)
             if objs_with_pk:
@@ -581,17 +573,7 @@ class QuerySet:
             return self.get(**kwargs), False
         except self.model.DoesNotExist:
             params = self._extract_model_params(defaults, **kwargs)
-            # Try to create an object using passed params.
-            try:
-                with transaction.atomic(using=self.db):
-                    params = dict(resolve_callables(params))
-                    return self.create(**params), True
-            except IntegrityError:
-                try:
-                    return self.get(**kwargs), False
-                except self.model.DoesNotExist:
-                    pass
-                raise
+            return self._create_object_from_params(kwargs, params)
 
     def update_or_create(self, defaults=None, **kwargs):
         """
@@ -603,20 +585,42 @@ class QuerySet:
         defaults = defaults or {}
         self._for_write = True
         with transaction.atomic(using=self.db):
-            # Lock the row so that a concurrent update is blocked until
-            # update_or_create() has performed its save.
-            obj, created = self.select_for_update().get_or_create(defaults, **kwargs)
-            if created:
-                return obj, created
+            try:
+                obj = self.select_for_update().get(**kwargs)
+            except self.model.DoesNotExist:
+                params = self._extract_model_params(defaults, **kwargs)
+                # Lock the row so that a concurrent update is blocked until
+                # after update_or_create() has performed its save.
+                obj, created = self._create_object_from_params(kwargs, params, lock=True)
+                if created:
+                    return obj, created
             for k, v in resolve_callables(defaults):
                 setattr(obj, k, v)
             obj.save(using=self.db)
         return obj, False
 
+    def _create_object_from_params(self, lookup, params, lock=False):
+        """
+        Try to create an object using passed params. Used by get_or_create()
+        and update_or_create().
+        """
+        try:
+            with transaction.atomic(using=self.db):
+                params = dict(resolve_callables(params))
+                obj = self.create(**params)
+            return obj, True
+        except IntegrityError:
+            try:
+                qs = self.select_for_update() if lock else self
+                return qs.get(**lookup), False
+            except self.model.DoesNotExist:
+                pass
+            raise
+
     def _extract_model_params(self, defaults, **kwargs):
         """
         Prepare `params` for creating a model instance based on the given
-        kwargs; for use by get_or_create().
+        kwargs; for use by get_or_create() and update_or_create().
         """
         defaults = defaults or {}
         params = {k: v for k, v in kwargs.items() if LOOKUP_SEP not in k}
@@ -695,8 +699,7 @@ class QuerySet:
         if (
             field_name != 'pk' and
             not opts.get_field(field_name).unique and
-            field_name not in unique_fields and
-            not self.query.distinct_fields == (field_name,)
+            field_name not in unique_fields
         ):
             raise ValueError("in_bulk()'s field_name must be a unique field but %r isn't." % field_name)
         if id_list is not None:
@@ -997,11 +1000,7 @@ class QuerySet:
         # If the query is an EmptyQuerySet, combine all nonempty querysets.
         if isinstance(self, EmptyQuerySet):
             qs = [q for q in other_qs if not isinstance(q, EmptyQuerySet)]
-            if not qs:
-                return self
-            if len(qs) == 1:
-                return qs[0]
-            return qs[0]._combinator_query('union', *qs[1:], all=all)
+            return qs[0]._combinator_query('union', *qs[1:], all=all) if qs else self
         return self._combinator_query('union', *other_qs, all=all)
 
     def intersection(self, *other_qs):
@@ -1234,12 +1233,7 @@ class QuerySet:
             return True
         if self.query.extra_order_by or self.query.order_by:
             return True
-        elif (
-            self.query.default_ordering and
-            self.query.get_meta().ordering and
-            # A default ordering doesn't affect GROUP BY queries.
-            not self.query.group_by
-        ):
+        elif self.query.default_ordering and self.query.get_meta().ordering:
             return True
         else:
             return False

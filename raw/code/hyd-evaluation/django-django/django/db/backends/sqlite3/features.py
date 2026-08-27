@@ -47,7 +47,6 @@ class DatabaseFeatures(BaseDatabaseFeatures):
     test_collations = {
         'ci': 'nocase',
         'cs': 'binary',
-        'non_default': 'nocase',
     }
 
     @cached_property

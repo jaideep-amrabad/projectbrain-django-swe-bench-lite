@@ -19,6 +19,3 @@ class Fields3D(models.Model):
     pointg = models.PointField(dim=3, geography=True)
     line = models.LineStringField(dim=3)
     poly = models.PolygonField(dim=3)
-
-    class Meta:
-        required_db_features = {'supports_3d_storage'}
