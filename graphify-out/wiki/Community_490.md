@@ -31,8 +31,8 @@
 ## Relationships
 
 - [Community 3](Community_3.md) (9 shared connections)
-- [Community 221](Community_221.md) (1 shared connections)
-- [Community 723](Community_723.md) (1 shared connections)
+- [Community 218](Community_218.md) (1 shared connections)
+- [Community 721](Community_721.md) (1 shared connections)
 - [Community 758](Community_758.md) (1 shared connections)
 
 ## Source Files

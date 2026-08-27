@@ -31,11 +31,11 @@
 
 ## Relationships
 
-- [Community 14](Community_14.md) (11 shared connections)
-- [Community 414](Community_414.md) (2 shared connections)
-- [Community 905](Community_905.md) (1 shared connections)
-- [Community 237](Community_237.md) (1 shared connections)
-- [Community 791](Community_791.md) (1 shared connections)
+- [Community 11](Community_11.md) (11 shared connections)
+- [Community 350](Community_350.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 236](Community_236.md) (1 shared connections)
+- [Community 679](Community_679.md) (1 shared connections)
 
 ## Source Files
 

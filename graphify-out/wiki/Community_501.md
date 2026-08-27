@@ -26,8 +26,8 @@
 
 ## Relationships
 
-- [Community 101](Community_101.md) (11 shared connections)
-- [Community 31](Community_31.md) (3 shared connections)
+- [Community 99](Community_99.md) (11 shared connections)
+- [Community 34](Community_34.md) (3 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
 - [Community 331](Community_331.md) (1 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)

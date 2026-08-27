@@ -33,10 +33,10 @@
 
 - [Community 4](Community_4.md) (3 shared connections)
 - [Community 580](Community_580.md) (2 shared connections)
-- [Community 1090](Community_1090.md) (1 shared connections)
-- [Community 740](Community_740.md) (1 shared connections)
-- [Community 605](Community_605.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 1109](Community_1109.md) (1 shared connections)
+- [Community 741](Community_741.md) (1 shared connections)
+- [Community 603](Community_603.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 

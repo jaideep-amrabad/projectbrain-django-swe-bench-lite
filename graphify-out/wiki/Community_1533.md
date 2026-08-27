@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **app_with_locale/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/project_dir/app_with_locale/__init__.py`
+- **layermap/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/project_dir/app_with_locale/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/__init__.py`
 
 ## Audit Trail
 

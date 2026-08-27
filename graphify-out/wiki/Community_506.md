@@ -29,11 +29,11 @@
 
 ## Relationships
 
-- [Community 159](Community_159.md) (6 shared connections)
+- [Community 155](Community_155.md) (6 shared connections)
 - [Community 3](Community_3.md) (2 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
-- [Community 823](Community_823.md) (1 shared connections)
-- [Community 865](Community_865.md) (1 shared connections)
+- [Community 829](Community_829.md) (1 shared connections)
+- [Community 872](Community_872.md) (1 shared connections)
 - [Community 497](Community_497.md) (1 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
 

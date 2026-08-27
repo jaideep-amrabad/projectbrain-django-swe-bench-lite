@@ -30,7 +30,7 @@
 
 ## Relationships
 
-- [Community 905](Community_905.md) (12 shared connections)
+- [Community 3](Community_3.md) (12 shared connections)
 
 ## Source Files
 

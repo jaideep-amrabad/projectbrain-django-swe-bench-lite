@@ -27,7 +27,7 @@
 
 ## Relationships
 
-- [Community 726](Community_726.md) (3 shared connections)
+- [Community 724](Community_724.md) (3 shared connections)
 
 ## Source Files
 

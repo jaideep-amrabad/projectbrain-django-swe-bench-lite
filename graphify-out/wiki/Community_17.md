@@ -1,6 +1,6 @@
 # Community 17
 
-> 143 nodes · cohesion 0.02
+> 150 nodes · cohesion 0.02
 
 ## Key Concepts
 
@@ -29,21 +29,21 @@
 - **.test_remove_field_check_does_not_remove_meta_constraints()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 - **.test_rename_keep_null_status()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 - **.get_column_collation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- *... and 118 more nodes in this community*
+- *... and 125 more nodes in this community*
 
 ## Relationships
 
-- [Community 98](Community_98.md) (48 shared connections)
-- [Community 432](Community_432.md) (31 shared connections)
-- [Community 33](Community_33.md) (18 shared connections)
-- [Community 184](Community_184.md) (14 shared connections)
-- [Community 544](Community_544.md) (6 shared connections)
-- [Community 68](Community_68.md) (6 shared connections)
-- [Community 157](Community_157.md) (5 shared connections)
-- [Community 855](Community_855.md) (5 shared connections)
-- [Community 131](Community_131.md) (5 shared connections)
-- [Community 123](Community_123.md) (4 shared connections)
-- [Community 182](Community_182.md) (3 shared connections)
+- [Community 86](Community_86.md) (48 shared connections)
+- [Community 361](Community_361.md) (31 shared connections)
+- [Community 291](Community_291.md) (18 shared connections)
+- [Community 182](Community_182.md) (10 shared connections)
+- [Community 496](Community_496.md) (6 shared connections)
+- [Community 74](Community_74.md) (6 shared connections)
+- [Community 153](Community_153.md) (5 shared connections)
+- [Community 704](Community_704.md) (5 shared connections)
+- [Community 126](Community_126.md) (5 shared connections)
+- [Community 452](Community_452.md) (4 shared connections)
+- [Community 179](Community_179.md) (3 shared connections)
 - [Community 95](Community_95.md) (3 shared connections)
 
 ## Source Files
@@ -53,8 +53,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 339 (85%)
-- INFERRED: 61 (15%)
+- EXTRACTED: 345 (85%)
+- INFERRED: 63 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

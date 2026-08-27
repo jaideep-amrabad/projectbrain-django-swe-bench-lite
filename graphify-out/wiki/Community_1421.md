@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **bash_completion/management/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/bash_completion/management/__init__.py`
+- **two_configs_app/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/two_configs_app/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/bash_completion/management/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/apps/two_configs_app/__init__.py`
 
 ## Audit Trail
 

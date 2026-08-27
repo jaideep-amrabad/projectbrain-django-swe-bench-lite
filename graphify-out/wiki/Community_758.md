@@ -19,7 +19,7 @@
 
 ## Relationships
 
-- [Community 221](Community_221.md) (2 shared connections)
+- [Community 218](Community_218.md) (2 shared connections)
 - [Community 490](Community_490.md) (1 shared connections)
 
 ## Source Files
