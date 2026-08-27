@@ -4,23 +4,26 @@
 
 ## Key Concepts
 
-- **.test_disallowed_host()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_disallowed_host()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **An exception report can be generated even for a disallowed host.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **or_lookups/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/or_lookups/tests.py`
+- **or_lookups/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/or_lookups/models.py`
+- **OR lookups To perform an OR lookup, or a lookup that combines ANDs and ORs,…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/or_lookups/models.py`
 
 ## Relationships
 
-- [Community 172](Community_172.md) (3 shared connections)
-- [Community 10](Community_10.md) (2 shared connections)
-- [Community 394](Community_394.md) (1 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 85](Community_85.md) (3 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- `raw/code/hyd-evaluation/django-django/tests/or_lookups/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/or_lookups/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,6 +1,6 @@
 # Community 89
 
-> 143 nodes · cohesion 0.02
+> 137 nodes · cohesion 0.02
 
 ## Key Concepts
 
@@ -17,41 +17,39 @@
 - **AdminPasswordChangeForm** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
 - **UserChangeForm** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
 - **UserChangeFormTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **AdminAuthenticationForm** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/forms.py`
 - **AdminPasswordChangeFormTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
 - **PasswordChangeFormTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
 - **SetPasswordFormTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
 - **TestDataMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
 - **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
 - **ReadOnlyPasswordHashField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **AdminAuthenticationFormTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_forms.py`
 - **ReadOnlyPasswordHashWidget** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
 - **ReadOnlyPasswordHashTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
 - **.clean()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
 - **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- *... and 118 more nodes in this community*
+- **auth_tests/settings.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/settings.py`
+- **.test_inactive_user_incorrect_password()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- *... and 112 more nodes in this community*
 
 ## Relationships
 
-- [Community 9](Community_9.md) (25 shared connections)
-- [Community 2](Community_2.md) (16 shared connections)
-- [Community 10](Community_10.md) (16 shared connections)
-- [Community 169](Community_169.md) (10 shared connections)
-- [Community 356](Community_356.md) (9 shared connections)
-- [Community 94](Community_94.md) (9 shared connections)
-- [Community 46](Community_46.md) (9 shared connections)
-- [Community 6](Community_6.md) (8 shared connections)
-- [Community 88](Community_88.md) (7 shared connections)
-- [Community 5](Community_5.md) (6 shared connections)
-- [Community 181](Community_181.md) (5 shared connections)
-- [Community 477](Community_477.md) (5 shared connections)
+- [Community 8](Community_8.md) (20 shared connections)
+- [Community 9](Community_9.md) (15 shared connections)
+- [Community 1](Community_1.md) (11 shared connections)
+- [Community 167](Community_167.md) (10 shared connections)
+- [Community 10](Community_10.md) (8 shared connections)
+- [Community 38](Community_38.md) (8 shared connections)
+- [Community 562](Community_562.md) (7 shared connections)
+- [Community 385](Community_385.md) (7 shared connections)
+- [Community 86](Community_86.md) (7 shared connections)
+- [Community 32](Community_32.md) (6 shared connections)
+- [Community 6](Community_6.md) (6 shared connections)
+- [Community 187](Community_187.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/forms.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_views/custom_has_permission_admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_forms.py`
 - `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/custom_user.py`
 - `raw/code/hyd-evaluation/django-django/tests/auth_tests/settings.py`
 - `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
@@ -60,8 +58,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 413 (99%)
-- INFERRED: 4 (1%)
+- EXTRACTED: 400 (100%)
+- INFERRED: 2 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

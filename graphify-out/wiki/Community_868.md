@@ -12,9 +12,9 @@
 
 ## Relationships
 
-- [Community 580](Community_580.md) (2 shared connections)
-- [Community 353](Community_353.md) (2 shared connections)
-- [Community 533](Community_533.md) (1 shared connections)
+- [Community 623](Community_623.md) (2 shared connections)
+- [Community 356](Community_356.md) (2 shared connections)
+- [Community 572](Community_572.md) (1 shared connections)
 
 ## Source Files
 

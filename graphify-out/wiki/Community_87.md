@@ -1,64 +1,62 @@
 # Community 87
 
-> 158 nodes · cohesion 0.02
+> 62 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **Q** (224 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **Queries1Tests** (93 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **NullJoinPromotionOrTest** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **QTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_q.py`
-- **OrLookupsTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/or_lookups/tests.py`
-- **DisjunctionPromotionTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **UnionTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.check_union()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **DeleteQuery** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
-- **Article** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/or_lookups/models.py`
-- **.delete_batch()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
-- **.delete_qs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
-- **.test_ticket_23622()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **._combine()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **.test_other_arg_queries()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/or_lookups/tests.py`
-- **.test_q_repr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/or_lookups/tests.py`
-- **.test_deconstruct()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_q.py`
-- **.test_deconstruct_and()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_q.py`
-- **.test_deconstruct_multiple_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_q.py`
-- **.test_deconstruct_negated()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_q.py`
-- **.test_deconstruct_nested()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_q.py`
-- **.test_deconstruct_or()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_q.py`
-- **.test_reconstruct()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_q.py`
-- **.test_reconstruct_and()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_q.py`
-- **.test_reconstruct_negated()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_q.py`
-- *... and 133 more nodes in this community*
+- **expressions/tests.py** (73 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **expressions/models.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
+- **IterableLookupInnerExpressionsTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **Employee** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
+- **ValuesExpressionsTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/test_queryset_values.py`
+- **Company** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
+- **test_deprecation.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/test_deprecation.py`
+- **test_queryset_values.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/test_queryset_values.py`
+- **ExpressionsNumericTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **ExpressionsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **Experiment** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
+- **Number** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
+- **Time** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
+- **FieldTransformTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **Result** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
+- **UUID** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
+- **GetGroupByColsTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/test_deprecation.py`
+- **RemoteEmployee** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
+- **MissingAliasFunc** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/test_deprecation.py`
+- **.test_complex_expressions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **.test_insensitive_patterns_escape()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **.test_patterns_escape()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **.test_complex_expressions_do_not_introduce_sql_injection_via_untrusted_string_inclusion()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **UUIDPK** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
+- **.test_missing_alias()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/test_deprecation.py`
+- *... and 37 more nodes in this community*
 
 ## Relationships
 
-- [Community 16](Community_16.md) (39 shared connections)
-- [Community 177](Community_177.md) (28 shared connections)
-- [Community 51](Community_51.md) (15 shared connections)
-- [Community 35](Community_35.md) (15 shared connections)
-- [Community 209](Community_209.md) (13 shared connections)
-- [Community 28](Community_28.md) (12 shared connections)
-- [Community 43](Community_43.md) (10 shared connections)
-- [Community 201](Community_201.md) (8 shared connections)
-- [Community 110](Community_110.md) (8 shared connections)
-- [Community 7](Community_7.md) (7 shared connections)
-- [Community 49](Community_49.md) (6 shared connections)
-- [Community 532](Community_532.md) (6 shared connections)
+- [Community 27](Community_27.md) (28 shared connections)
+- [Community 304](Community_304.md) (18 shared connections)
+- [Community 38](Community_38.md) (9 shared connections)
+- [Community 7](Community_7.md) (9 shared connections)
+- [Community 162](Community_162.md) (9 shared connections)
+- [Community 44](Community_44.md) (6 shared connections)
+- [Community 6](Community_6.md) (6 shared connections)
+- [Community 46](Community_46.md) (6 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 102](Community_102.md) (4 shared connections)
+- [Community 589](Community_589.md) (4 shared connections)
+- [Community 276](Community_276.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
-- `raw/code/hyd-evaluation/django-django/tests/or_lookups/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/or_lookups/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/test_q.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/expressions/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/expressions/test_deprecation.py`
+- `raw/code/hyd-evaluation/django-django/tests/expressions/test_queryset_values.py`
+- `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 227 (50%)
-- INFERRED: 223 (50%)
+- EXTRACTED: 180 (84%)
+- INFERRED: 34 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

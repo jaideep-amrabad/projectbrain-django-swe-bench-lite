@@ -21,10 +21,10 @@
 
 ## Relationships
 
-- [Community 715](Community_715.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 487](Community_487.md) (1 shared connections)
-- [Community 557](Community_557.md) (1 shared connections)
+- [Community 713](Community_713.md) (2 shared connections)
+- [Community 10](Community_10.md) (2 shared connections)
+- [Community 492](Community_492.md) (1 shared connections)
+- [Community 561](Community_561.md) (1 shared connections)
 
 ## Source Files
 

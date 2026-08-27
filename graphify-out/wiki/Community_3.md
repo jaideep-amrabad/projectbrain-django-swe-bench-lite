@@ -1,10 +1,9 @@
 # Community 3
 
-> 234 nodes · cohesion 0.02
+> 227 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **ImproperlyConfigured** (184 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
 - **db/utils.py** (72 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
 - **db/transaction.py** (65 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
 - **sqlite3/base.py** (56 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
@@ -29,22 +28,23 @@
 - **truncate_name()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
 - **get_connection()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
 - **cache/backends/db.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
-- *... and 209 more nodes in this community*
+- **sqlite3/schema.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
+- *... and 202 more nodes in this community*
 
 ## Relationships
 
-- [Community 7](Community_7.md) (59 shared connections)
-- [Community 108](Community_108.md) (54 shared connections)
-- [Community 0](Community_0.md) (46 shared connections)
-- [Community 6](Community_6.md) (40 shared connections)
-- [Community 11](Community_11.md) (26 shared connections)
-- [Community 82](Community_82.md) (26 shared connections)
-- [Community 5](Community_5.md) (21 shared connections)
-- [Community 8](Community_8.md) (19 shared connections)
-- [Community 170](Community_170.md) (15 shared connections)
-- [Community 72](Community_72.md) (14 shared connections)
-- [Community 357](Community_357.md) (14 shared connections)
-- [Community 83](Community_83.md) (12 shared connections)
+- [Community 7](Community_7.md) (49 shared connections)
+- [Community 0](Community_0.md) (44 shared connections)
+- [Community 107](Community_107.md) (42 shared connections)
+- [Community 80](Community_80.md) (25 shared connections)
+- [Community 4](Community_4.md) (23 shared connections)
+- [Community 10](Community_10.md) (21 shared connections)
+- [Community 6](Community_6.md) (18 shared connections)
+- [Community 168](Community_168.md) (15 shared connections)
+- [Community 359](Community_359.md) (14 shared connections)
+- [Community 58](Community_58.md) (13 shared connections)
+- [Community 13](Community_13.md) (12 shared connections)
+- [Community 11](Community_11.md) (11 shared connections)
 
 ## Source Files
 
@@ -71,7 +71,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 1227 (97%)
+- EXTRACTED: 1038 (97%)
 - INFERRED: 34 (3%)
 - AMBIGUOUS: 0 (0%)
 

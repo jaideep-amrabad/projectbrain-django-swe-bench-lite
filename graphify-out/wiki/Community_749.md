@@ -18,9 +18,9 @@
 
 ## Relationships
 
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 46](Community_46.md) (1 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
 - [Community 13](Community_13.md) (1 shared connections)
 
 ## Source Files
