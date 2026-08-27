@@ -1,78 +1,50 @@
 # Community 180
 
-> 123 nodes · cohesion 0.03
+> 55 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **import_string()** (55 connections) — `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
-- **sessions_tests/tests.py** (52 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **views/debug.py** (38 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **module_loading.py** (36 connections) — `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
-- **core/cache/__init__.py** (28 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
-- **SuspiciousOperation** (28 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- **sessions/backends/base.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **utils/log.py** (25 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **sessions/backends/db.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- **handlers/base.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- **files/uploadhandler.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **cache/backends/base.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **backends/file.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- **ConnectionRouter** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **SessionStore** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
-- **backends/cache.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
-- **AbstractBaseSession** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- **UpdateError** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **sessions/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/models.py`
-- **Session** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/models.py`
-- **InvalidCacheBackendError** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **technical_404_response()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **SessionStore** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
-- **storage/__init__.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/__init__.py`
-- **cached_db.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
-- *... and 98 more nodes in this community*
+- **ArchiveTester** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
+- **Archive** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **archive.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **BaseArchive** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.extract()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **test_archive.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
+- **TarArchive** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **ZipArchive** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.check_files()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
+- **.has_leading_dir()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **ArchiveException** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **._copy_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.split_leading_dir()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.extract()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **UnrecognizedArchiveFormat** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.test_extract_file_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
+- **._archive_cls()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **extract()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.test_extract_function()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
+- **.test_extract_function_no_to_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
+- **.test_extract_function_with_leadpath()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
+- **.test_extract_method()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
+- **.test_extract_method_no_to_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
+- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- *... and 30 more nodes in this community*
 
 ## Relationships
 
-- [Community 66](Community_66.md) (33 shared connections)
-- [Community 0](Community_0.md) (22 shared connections)
-- [Community 8](Community_8.md) (14 shared connections)
-- [Community 1](Community_1.md) (14 shared connections)
-- [Community 2](Community_2.md) (13 shared connections)
-- [Community 85](Community_85.md) (10 shared connections)
-- [Community 132](Community_132.md) (8 shared connections)
-- [Community 37](Community_37.md) (8 shared connections)
-- [Community 6](Community_6.md) (8 shared connections)
-- [Community 18](Community_18.md) (8 shared connections)
-- [Community 645](Community_645.md) (7 shared connections)
-- [Community 10](Community_10.md) (7 shared connections)
+- [Community 51](Community_51.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/models.py`
-- `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
-- `raw/code/hyd-evaluation/django-django/django/template/engine.py`
-- `raw/code/hyd-evaluation/django-django/django/template/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
 
 ## Audit Trail
 
-- EXTRACTED: 505 (98%)
-- INFERRED: 12 (2%)
+- EXTRACTED: 88 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,48 +1,55 @@
 # Community 438
 
-> 21 nodes · cohesion 0.12
+> 24 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **SafeExceptionReporterFilter** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.is_active()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **UnsafeExceptionReporterFilter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
-- **ExceptionReporterFilter** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.get_cleansed_multivaluedict()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.get_traceback_frame_variables()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.cleanse_special_types()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.get_post_parameters()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.user_can_authenticate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
-- **Reject users with is_active=False. Custom user models that don't have that…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
-- **.get_post_parameters()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.get_traceback_frame_variables()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **Base for all exception reporter filter classes. All overridable hooks contain…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **Use annotations made by the sensitive_post_parameters and sensitive_variables…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **This filter is to add safety in production environments (i.e. DEBUG is False).…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **Replace the keys in a MultiValueDict marked as sensitive with stars. This…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **Replace the values of POST parameters marked as sensitive with stars…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **Replace the values of variables marked as sensitive with stars (*********).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **Ignores all the filtering done by its parent class.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
-- **.get_post_parameters()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
-- **.get_traceback_frame_variables()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **Category** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **FieldOverridesByFormMetaForm** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **TestFieldOverridesByFormMeta** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **CustomCleanTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **CustomWriterForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **IncompleteCategoryFormWithExclude** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **IncompleteCategoryFormWithFields** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **ValidationTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_save_blank_false_with_required_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_model_form_clean_applies_to_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_override_clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **A form that replaces the model's url field with a custom one. This should…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_error_messages_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_field_type_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_help_text_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_label_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_widget_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_notrequired_overrides_notblank()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_validates_with_replaced_field_excluded()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_validates_with_replaced_field_not_specified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **Regression for #12596: Calling super from ModelForm.clean() should be optional.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Regression test for #12960. Make sure the cleaned_data returned from…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **A ModelForm with a model with a field set to blank=False and the form field set…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Relationships
 
-- [Community 77](Community_77.md) (6 shared connections)
-- [Community 180](Community_180.md) (2 shared connections)
-- [Community 89](Community_89.md) (1 shared connections)
-- [Community 209](Community_209.md) (1 shared connections)
+- [Community 142](Community_142.md) (12 shared connections)
+- [Community 278](Community_278.md) (4 shared connections)
+- [Community 352](Community_352.md) (2 shared connections)
+- [Community 385](Community_385.md) (2 shared connections)
+- [Community 256](Community_256.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 350](Community_350.md) (1 shared connections)
+- [Community 664](Community_664.md) (1 shared connections)
+- [Community 32](Community_32.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
-- `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (86%)
-- INFERRED: 5 (14%)
+- EXTRACTED: 44 (77%)
+- INFERRED: 13 (23%)
 - AMBIGUOUS: 0 (0%)
 
 ---

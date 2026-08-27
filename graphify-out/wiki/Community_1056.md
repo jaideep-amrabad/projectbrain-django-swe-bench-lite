@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **.test_formset_validate_min_flag()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **If validate_min is set and min_num is more than TOTAL_FORMS in the data, a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_ordering_blank_fieldsets()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **Ordering works with blank fieldsets.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
 
 ## Relationships
 
-- [Community 219](Community_219.md) (1 shared connections)
-- [Community 316](Community_316.md) (1 shared connections)
+- [Community 203](Community_203.md) (1 shared connections)
+- [Community 1087](Community_1087.md) (1 shared connections)
 
 ## Source Files
 

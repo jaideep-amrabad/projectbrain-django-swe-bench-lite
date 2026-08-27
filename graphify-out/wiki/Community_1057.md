@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **.test_formset_with_deletion_remove_deletion_flag()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **If a form is filled with something and can_delete is also checked, that form's…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_second_form_partially_filled_2()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **A partially completed form is invalid.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
 
 ## Relationships
 
-- [Community 219](Community_219.md) (1 shared connections)
-- [Community 316](Community_316.md) (1 shared connections)
+- [Community 203](Community_203.md) (1 shared connections)
+- [Community 1087](Community_1087.md) (1 shared connections)
 
 ## Source Files
 

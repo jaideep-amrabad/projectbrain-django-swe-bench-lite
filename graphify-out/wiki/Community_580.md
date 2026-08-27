@@ -1,40 +1,63 @@
 # Community 580
 
-> 17 nodes · cohesion 0.12
+> 31 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **SquashMigrationsTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_squashed_name_with_start_migration_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_squashed_name_without_start_migration_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_squashmigrations_invalid_start()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_squashmigrations_optimizes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_squashmigrations_squashes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_squashmigrations_valid_start()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_ticket_23799_squashmigrations_no_optimize()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_squashmigrations_initial_attribute()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **Tests running the squashmigrations command.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **squashmigrations squashes migrations.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **squashmigrations optimizes operations.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **squashmigrations --no-optimize doesn't optimize operations.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **squashmigrations accepts a starting migration.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **squashmigrations doesn't accept a starting migration after the ending migration.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **--squashed-name specifies the new migration's name.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **--squashed-name also works if a start migration is omitted.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
+- **filtered_relation/tests.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
+- **filtered_relation/models.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
+- **swappable_models/tests.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/tests.py`
+- **FilteredRelationAggregationTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
+- **Author** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
+- **Book** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
+- **Editor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
+- **swappable_models/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/models.py`
+- **SwappableModelTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/tests.py`
+- **OperationsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_operations.py`
+- **Borrower** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
+- **RentalSession** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
+- **Reservation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
+- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/models.py`
+- **.test_case_insensitive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/tests.py`
+- **.test_generated_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/tests.py`
+- **oracle/test_operations.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_operations.py`
+- **.test_bulk_batch_size()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_operations.py`
+- **.test_sequence_name_truncation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_operations.py`
+- **skipUnless** (1 connections)
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [Community 111](Community_111.md) (8 shared connections)
-- [Community 21](Community_21.md) (2 shared connections)
+- [Community 2](Community_2.md) (12 shared connections)
+- [Community 15](Community_15.md) (5 shared connections)
+- [Community 113](Community_113.md) (4 shared connections)
+- [Community 32](Community_32.md) (4 shared connections)
+- [Community 41](Community_41.md) (3 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 74](Community_74.md) (2 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 16](Community_16.md) (1 shared connections)
+- [Community 39](Community_39.md) (1 shared connections)
+- [Community 132](Community_132.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/swappable_models/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/swappable_models/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 71 (86%)
+- INFERRED: 12 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

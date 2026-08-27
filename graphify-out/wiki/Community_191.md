@@ -1,59 +1,64 @@
 # Community 191
 
-> 52 nodes · cohesion 0.04
+> 37 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **ToFieldTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Author** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **ExtraInfo** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Queries5Tests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Item** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **QuerySetExceptionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **ComparisonTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **DisjunctiveFilterTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **CloneTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **EmptyQuerySetTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Queries3Tests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_evaluated_queryset_as_argument()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Ticket18785Tests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_no_fields_cloning()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_no_model_options_cloning()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket7872()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_tickets_1878_2939()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket5261()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Cloning a queryset does not get out of hand. While complete testing is…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket8597()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- *... and 27 more nodes in this community*
+- **i18n/tests.py** (87 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **RemovedInDjango40Warning** (25 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- **i18n/forms.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/forms.py`
+- **i18n/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/models.py`
+- **.test_legacy_aliases()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **CompanyForm** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/forms.py`
+- **Company** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/models.py`
+- **TestModels** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **ugettext()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **ugettext_noop()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **ungettext()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **ungettext_lazy()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **sanitize_separators()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
+- **A legacy compatibility wrapper for Unicode handling on Python 2. Alias of…** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **ugettext_lazy()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **.test_localized_as_text_as_hidden_input()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_sanitize_separators()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **LocaleMiddlewareTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **TranslationThreadSafetyTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **TestModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/models.py`
+- **gettext_noop()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **.test_language_not_saved_to_session()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **patch_formats()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_safestr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_lazy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 22](Community_22.md) (27 shared connections)
-- [Community 34](Community_34.md) (8 shared connections)
-- [Community 86](Community_86.md) (6 shared connections)
-- [Community 317](Community_317.md) (5 shared connections)
-- [Community 133](Community_133.md) (3 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 53](Community_53.md) (2 shared connections)
-- [Community 27](Community_27.md) (2 shared connections)
-- [Community 63](Community_63.md) (2 shared connections)
-- [Community 741](Community_741.md) (1 shared connections)
-- [Community 280](Community_280.md) (1 shared connections)
+- [Community 5](Community_5.md) (17 shared connections)
+- [Community 21](Community_21.md) (16 shared connections)
+- [Community 0](Community_0.md) (9 shared connections)
+- [Community 9](Community_9.md) (8 shared connections)
+- [Community 418](Community_418.md) (8 shared connections)
+- [Community 39](Community_39.md) (7 shared connections)
+- [Community 586](Community_586.md) (5 shared connections)
+- [Community 683](Community_683.md) (4 shared connections)
+- [Community 130](Community_130.md) (3 shared connections)
+- [Community 59](Community_59.md) (3 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 32](Community_32.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 75 (65%)
-- INFERRED: 41 (35%)
+- EXTRACTED: 168 (89%)
+- INFERRED: 20 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

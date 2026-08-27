@@ -1,30 +1,31 @@
 # Community 793
 
-> 8 nodes · cohesion 0.32
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **JSONField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
-- **InvalidJSONInput** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
-- **.to_python()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
-- **JSONString** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
-- **.bound_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
-- **.has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
-- **str** (2 connections)
-- **.prepare_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
+- **BookDetailGetObjectCustomQueryset** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **.get_object()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **BookDetail** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **.get_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **.get_context_object_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **NonModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **NonModelDetail** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
 
 ## Relationships
 
-- [Community 12](Community_12.md) (3 shared connections)
+- [Community 111](Community_111.md) (6 shared connections)
+- [Community 373](Community_373.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 14 (93%)
+- INFERRED: 1 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

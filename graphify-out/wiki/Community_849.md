@@ -1,33 +1,32 @@
 # Community 849
 
-> 7 nodes · cohesion 0.43
+> 7 nodes · cohesion 0.38
 
 ## Key Concepts
 
-- **Tan** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **TanTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_tan.py`
-- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_tan.py`
-- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_tan.py`
-- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_tan.py`
-- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_tan.py`
-- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_tan.py`
+- **choices/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/choices/models.py`
+- **choices/tests.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/choices/tests.py`
+- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/choices/models.py`
+- **ChoicesTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/choices/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/choices/models.py`
+- **Specifying 'choices' for a field Most fields take a ``choices`` parameter,…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/choices/models.py`
+- **.test_display()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/choices/tests.py`
 
 ## Relationships
 
-- [Community 86](Community_86.md) (5 shared connections)
-- [Community 820](Community_820.md) (1 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
-- [Community 78](Community_78.md) (1 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 32](Community_32.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_tan.py`
+- `raw/code/hyd-evaluation/django-django/tests/choices/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/choices/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 12 (92%)
+- INFERRED: 1 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,25 +4,26 @@
 
 ## Key Concepts
 
-- **.non_form_errors()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
-- **.total_error_count()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
-- **Return an ErrorList of errors that aren't associated with a particular form --…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
-- **Return the number of errors across all forms in the formset.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **Parent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **ParentAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.save_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Relationships
 
-- [Community 271](Community_271.md) (2 shared connections)
-- [Community 451](Community_451.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
+- [Community 72](Community_72.md) (2 shared connections)
+- [Community 101](Community_101.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 6 (86%)
+- INFERRED: 1 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

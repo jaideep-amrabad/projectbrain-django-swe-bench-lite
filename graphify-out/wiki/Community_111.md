@@ -1,67 +1,62 @@
 # Community 111
 
-> 121 nodes · cohesion 0.02
+> 58 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **call_command()** (263 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **MakeMigrationsTests** (50 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **AppLabelErrorTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **ContentTypeOperationsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_operations.py`
-- **.test_makemigrations_auto_now_add_interactive()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_makemigrations_consistency_checks_respect_routers()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_makemigrations_disabled_migrations_for_app()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_makemigrations_merge_dont_output_dependency_operations()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_makemigrations_unspecified_app_with_conflict_merge()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_makemigrations_unspecified_app_with_conflict_no_merge()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_no_color_force_color_mutually_exclusive_command_init()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_no_color_force_color_mutually_exclusive_execute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Discovery** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_precedence()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_dumpdata_loaddata_cycle()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
-- **update_catalogs.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/sampleproject/update_catalogs.py`
-- **update_translation_catalogs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/sampleproject/update_catalogs.py`
-- **.test_makemigration_merge_dry_run()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_makemigration_merge_dry_run_verbosity_3()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_makemigrations_check()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_makemigrations_conflict_exit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_makemigrations_default_merge_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_makemigrations_dry_run()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_makemigrations_dry_run_verbosity_3()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_makemigrations_empty_migration()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- *... and 96 more nodes in this community*
+- **generic_views/views.py** (76 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **Author** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
+- **AuthorForm** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/forms.py`
+- **BookSigningConfig** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **BookConfig** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **generic_views/forms.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/forms.py`
+- **ContactForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/forms.py`
+- **AuthorList** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **SpecializedAuthorCreate** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **SpecializedAuthorUpdate** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **AuthorCreate** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **AuthorCustomDetail** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **AuthorGetQuerySetFormView** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **AuthorListCustomPaginator** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **AuthorListGetQuerysetReturnsNone** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **AuthorUpdate** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **LateValidationView** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **OneAuthorUpdate** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **.test_recleaning_model_form_instance()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **AuthorCreateRestricted** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **AuthorDelete** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **AuthorDetail** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **BookArchive** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **BookDayArchive** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **BookMonthArchive** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- *... and 33 more nodes in this community*
 
 ## Relationships
 
-- [Community 81](Community_81.md) (26 shared connections)
-- [Community 366](Community_366.md) (17 shared connections)
-- [Community 308](Community_308.md) (16 shared connections)
-- [Community 306](Community_306.md) (13 shared connections)
-- [Community 21](Community_21.md) (13 shared connections)
-- [Community 430](Community_430.md) (11 shared connections)
-- [Community 187](Community_187.md) (11 shared connections)
-- [Community 43](Community_43.md) (10 shared connections)
-- [Community 3](Community_3.md) (9 shared connections)
-- [Community 119](Community_119.md) (8 shared connections)
-- [Community 580](Community_580.md) (8 shared connections)
-- [Community 554](Community_554.md) (7 shared connections)
+- [Community 373](Community_373.md) (22 shared connections)
+- [Community 1](Community_1.md) (7 shared connections)
+- [Community 793](Community_793.md) (6 shared connections)
+- [Community 30](Community_30.md) (5 shared connections)
+- [Community 23](Community_23.md) (3 shared connections)
+- [Community 659](Community_659.md) (2 shared connections)
+- [Community 745](Community_745.md) (2 shared connections)
+- [Community 131](Community_131.md) (2 shared connections)
+- [Community 916](Community_916.md) (2 shared connections)
+- [Community 950](Community_950.md) (2 shared connections)
+- [Community 142](Community_142.md) (2 shared connections)
+- [Community 587](Community_587.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_operations.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/sampleproject/update_catalogs.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 399 (99%)
-- INFERRED: 4 (1%)
+- EXTRACTED: 127 (79%)
+- INFERRED: 33 (21%)
 - AMBIGUOUS: 0 (0%)
 
 ---

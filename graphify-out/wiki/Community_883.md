@@ -1,32 +1,29 @@
 # Community 883
 
-> 7 nodes · cohesion 0.38
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **choices/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/choices/models.py`
-- **choices/tests.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/choices/tests.py`
-- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/choices/models.py`
-- **ChoicesTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/choices/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/choices/models.py`
-- **Specifying 'choices' for a field Most fields take a ``choices`` parameter,…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/choices/models.py`
-- **.test_display()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/choices/tests.py`
+- **CopyPluralFormsExtractorTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_trans_and_plural_blocktrans_collision()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.assertMsgIdPlural()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_copy_plural_forms()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_override_plural_forms()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **Ensures a correct workaround for the gettext bug when handling a literal found…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 86](Community_86.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 481](Community_481.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/choices/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/choices/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (92%)
-- INFERRED: 1 (8%)
+- EXTRACTED: 8 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

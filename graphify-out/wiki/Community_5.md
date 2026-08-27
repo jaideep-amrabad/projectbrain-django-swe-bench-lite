@@ -1,78 +1,78 @@
 # Community 5
 
-> 383 nodes · cohesion 0.01
+> 282 nodes · cohesion 0.01
 
 ## Key Concepts
 
-- **override_settings** (1204 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **translation/__init__.py** (220 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
 - **modify_settings** (125 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **Site** (42 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- **sites/models.py** (39 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- **admin_docs/test_views.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
 - **settings_tests/tests.py** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **SecurityMiddlewareTest** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.process_response()** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **DecimalFieldTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
+- **activate()** (22 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **sitemaps_tests/test_http.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **syndication_tests/tests.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **flatpages/models.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/models.py`
+- **test_input_formats.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **FlatpageForm** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/forms.py`
+- **FlatPage** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/models.py`
+- **deactivate()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **ngettext_lazy()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **flatpages_tests/test_middleware.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
 - **flatpages_tests/test_views.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **MiddlewareTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/tests.py`
-- **middleware_exceptions/tests.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/tests.py`
+- **flatpages_tests/test_forms.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
 - **admin_docs/tests.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/tests.py`
-- **tests_custom_error_handlers.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests_custom_error_handlers.py`
-- **RedirectTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
-- **_get_sitemap_full_url()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **AdminEmailHandlerTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **flatpages_tests/test_csrf.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **FlatpageAdminFormTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
+- **flatpages_tests/test_templatetags.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_templatetags.py`
+- **FlatpageMiddlewareTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
 - **FullyDecoratedTranTestCase** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **sitemaps_tests/test_utils.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
-- **test_liveserver.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
-- **FlatpageViewTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **RequestURLconfTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.get_default()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/template/engine.py`
-- **require_jinja2()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **test_remote_user_deprecation.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user_deprecation.py`
-- **FlatpageViewAppendSlashTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **TestMiscFinder** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_finders.py`
-- **AdminDocsTestCase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/tests.py`
-- *... and 358 more nodes in this community*
+- **FlatpageMiddlewareAppendSlashTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
+- *... and 257 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (116 shared connections)
-- [Community 21](Community_21.md) (55 shared connections)
-- [Community 44](Community_44.md) (37 shared connections)
-- [Community 7](Community_7.md) (32 shared connections)
-- [Community 11](Community_11.md) (28 shared connections)
-- [Community 399](Community_399.md) (28 shared connections)
-- [Community 43](Community_43.md) (27 shared connections)
-- [Community 81](Community_81.md) (26 shared connections)
-- [Community 2](Community_2.md) (25 shared connections)
-- [Community 182](Community_182.md) (25 shared connections)
-- [Community 70](Community_70.md) (24 shared connections)
-- [Community 37](Community_37.md) (24 shared connections)
+- [Community 0](Community_0.md) (78 shared connections)
+- [Community 3](Community_3.md) (54 shared connections)
+- [Community 39](Community_39.md) (30 shared connections)
+- [Community 4](Community_4.md) (24 shared connections)
+- [Community 9](Community_9.md) (22 shared connections)
+- [Community 32](Community_32.md) (22 shared connections)
+- [Community 10](Community_10.md) (20 shared connections)
+- [Community 59](Community_59.md) (20 shared connections)
+- [Community 74](Community_74.md) (19 shared connections)
+- [Community 38](Community_38.md) (18 shared connections)
+- [Community 1](Community_1.md) (18 shared connections)
+- [Community 191](Community_191.md) (17 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/caches.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
-- `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/template/engine.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/admin.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/forms.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/templatetags/flatpages.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- `raw/code/hyd-evaluation/django-django/django/template/base.py`
 - `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_default_site/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/template.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_middleware.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_docs/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
 - `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user_deprecation.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
-- `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/settings.py`
+- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
+- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
 - `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_sitemaps.py`
-- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1960 (100%)
-- INFERRED: 9 (0%)
+- EXTRACTED: 1080 (99%)
+- INFERRED: 11 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

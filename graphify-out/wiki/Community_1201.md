@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **URLify.test.js** (0 connections) — `raw/code/hyd-evaluation/django-django/js_tests/admin/URLify.test.js`
+- **openlayers.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/templates/gis/admin/openlayers.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/js_tests/admin/URLify.test.js`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/templates/gis/admin/openlayers.js`
 
 ## Audit Trail
 

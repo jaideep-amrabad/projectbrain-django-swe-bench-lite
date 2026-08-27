@@ -1,64 +1,63 @@
 # Community 371
 
-> 29 nodes · cohesion 0.11
+> 29 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **CaptureQueriesContext** (50 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **ExplainTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_explain.py`
-- **.captured_queries()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **CaptureQueriesContextManagerTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_basic()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_explain.py`
-- **.test_mysql_extended()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_explain.py`
-- **.test_mysql_text_to_traditional()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_explain.py`
-- **.test_postgres_options()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_explain.py`
-- **.test_count_join_optimization()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_exists_join_optimization()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_update_parent_filtering()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **.test_get_clears_ordering()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_nested()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_simple()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_with_client()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_within()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_count_join_optimization_disabled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_exists_join_optimization_disabled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **skipUnless** (3 connections)
-- **.test_failure()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_unknown_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_explain.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **Context manager that captures queries executed by the specified connection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **HumanizeTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **utc()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **.humanize_tester()** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_naturaltime()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_migration_file_header_comments()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_naturalday_uses_localtime()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_sorted_imports()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_epoch()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateformat.py`
+- **.test_i18n_html_ordinal()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_inflection_for_timedelta()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_apnumber()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_i18n_intcomma()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_i18n_intword()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_intcomma()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_intcomma_without_number_grouping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_intword()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_l10n_intcomma()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_naturalday()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_naturaltime_as_documented()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_ordinal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **MockDateTime** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.now()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_latest_post_date_returns_utc_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
+- **Convert a datetime to UTC.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- **#23340 -- Verify the documented behavior of humanize.naturaltime.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
 - *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 21](Community_21.md) (15 shared connections)
-- [Community 26](Community_26.md) (8 shared connections)
-- [Community 125](Community_125.md) (5 shared connections)
-- [Community 49](Community_49.md) (4 shared connections)
-- [Community 350](Community_350.md) (3 shared connections)
+- [Community 155](Community_155.md) (4 shared connections)
+- [Community 210](Community_210.md) (3 shared connections)
 - [Community 0](Community_0.md) (3 shared connections)
-- [Community 128](Community_128.md) (3 shared connections)
-- [Community 280](Community_280.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 22](Community_22.md) (2 shared connections)
-- [Community 506](Community_506.md) (2 shared connections)
-- [Community 86](Community_86.md) (2 shared connections)
+- [Community 221](Community_221.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 295](Community_295.md) (2 shared connections)
+- [Community 650](Community_650.md) (1 shared connections)
+- [Community 177](Community_177.md) (1 shared connections)
+- [Community 392](Community_392.md) (1 shared connections)
+- [Community 43](Community_43.md) (1 shared connections)
+- [Community 517](Community_517.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/test_explain.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
+- `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateformat.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
 
 ## Audit Trail
 
-- EXTRACTED: 83 (75%)
-- INFERRED: 28 (25%)
+- EXTRACTED: 54 (76%)
+- INFERRED: 17 (24%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,21 +4,20 @@
 
 ## Key Concepts
 
-- **.test_more_initial_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **The extra argument works when the formset is pre-filled with initial data.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **timeparse.test.js** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/admin/timeparse.test.js`
+- **time()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/admin/timeparse.test.js`
 
 ## Relationships
 
-- [Community 219](Community_219.md) (1 shared connections)
-- [Community 316](Community_316.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- `raw/code/hyd-evaluation/django-django/js_tests/admin/timeparse.test.js`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 1 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

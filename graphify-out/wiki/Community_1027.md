@@ -4,21 +4,20 @@
 
 ## Key Concepts
 
-- **ChapterXtra1** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **timeparse.js** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/timeparse.js`
+- **parseTimeString()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/timeparse.js`
 
 ## Relationships
 
-- [Community 67](Community_67.md) (1 shared connections)
-- [Community 107](Community_107.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/timeparse.js`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 1 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
