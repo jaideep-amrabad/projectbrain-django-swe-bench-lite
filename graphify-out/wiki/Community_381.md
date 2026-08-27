@@ -1,45 +1,51 @@
 # Community 381
 
-> 18 nodes · cohesion 0.16
+> 30 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **DefaultRelatedNameTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
-- **default_related_name.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
-- **test_default_related_name.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
-- **Store** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
-- **Book** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
-- **EditorStore** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
-- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
-- **Author** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
-- **BookStore** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
-- **Editor** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
-- **.test_default_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
-- **.test_default_related_name_in_queryset_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
-- **.test_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
-- **.test_inheritance_with_overridden_default_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
-- **.test_model_name_not_available_in_queryset_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
-- **.test_no_default_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
-- **.test_related_name_overrides_default_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
+- **OptionsBaseTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **GetFieldByNameTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **RelatedObjectsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **._details()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **._model()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **DataTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **LabelTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **M2MTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **._map_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **._map_related_query_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **PrivateFieldsTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **.test_related_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **.test_related_objects_include_hidden()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **.test_related_objects_include_hidden_local_only()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **.test_related_objects_local()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **.test_get_data_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **.test_get_generic_relation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **.test_get_m2m_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **.test_get_related_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **.test_get_related_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **.test_many_to_many_with_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **.test_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **.test_local_concrete_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **.test_local_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **.test_get_fields_only_searches_forward_on_apps_not_ready()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 15](Community_15.md) (2 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 161](Community_161.md) (10 shared connections)
+- [Community 122](Community_122.md) (1 shared connections)
 - [Community 5](Community_5.md) (1 shared connections)
+- [Community 154](Community_154.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 52 (93%)
+- INFERRED: 4 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,6 +1,6 @@
 # Community 11
 
-> 277 nodes · cohesion 0.01
+> 284 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **URLTagTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
 - **TranslationBlockTranslateTagTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
 - **.get_template()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- *... and 252 more nodes in this community*
+- *... and 259 more nodes in this community*
 
 ## Relationships
 
-- [Community 29](Community_29.md) (55 shared connections)
-- [Community 5](Community_5.md) (54 shared connections)
-- [Community 8](Community_8.md) (39 shared connections)
-- [Community 21](Community_21.md) (29 shared connections)
-- [Community 47](Community_47.md) (15 shared connections)
+- [Community 27](Community_27.md) (57 shared connections)
+- [Community 5](Community_5.md) (55 shared connections)
+- [Community 4](Community_4.md) (40 shared connections)
+- [Community 43](Community_43.md) (29 shared connections)
+- [Community 49](Community_49.md) (15 shared connections)
+- [Community 8](Community_8.md) (10 shared connections)
 - [Community 40](Community_40.md) (9 shared connections)
 - [Community 1](Community_1.md) (9 shared connections)
-- [Community 178](Community_178.md) (9 shared connections)
-- [Community 6](Community_6.md) (9 shared connections)
-- [Community 115](Community_115.md) (7 shared connections)
-- [Community 7](Community_7.md) (7 shared connections)
-- [Community 38](Community_38.md) (5 shared connections)
+- [Community 184](Community_184.md) (9 shared connections)
+- [Community 113](Community_113.md) (7 shared connections)
+- [Community 444](Community_444.md) (5 shared connections)
+- [Community 445](Community_445.md) (5 shared connections)
 
 ## Source Files
 
@@ -66,12 +66,12 @@
 - `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
 - `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
 - `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_underscore_syntax.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
 - `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
 
 ## Audit Trail
 
-- EXTRACTED: 828 (97%)
+- EXTRACTED: 838 (97%)
 - INFERRED: 27 (3%)
 - AMBIGUOUS: 0 (0%)
 

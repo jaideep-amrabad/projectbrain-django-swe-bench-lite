@@ -1,6 +1,6 @@
 # Community 0
 
-> 442 nodes · cohesion 0.01
+> 439 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **sessions_tests/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
 - **operations/base.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
 - **base_session.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- *... and 417 more nodes in this community*
+- *... and 414 more nodes in this community*
 
 ## Relationships
 
-- [Community 15](Community_15.md) (64 shared connections)
-- [Community 98](Community_98.md) (60 shared connections)
-- [Community 2](Community_2.md) (58 shared connections)
-- [Community 3](Community_3.md) (52 shared connections)
-- [Community 111](Community_111.md) (51 shared connections)
-- [Community 1](Community_1.md) (44 shared connections)
+- [Community 95](Community_95.md) (60 shared connections)
+- [Community 2](Community_2.md) (59 shared connections)
+- [Community 128](Community_128.md) (51 shared connections)
+- [Community 3](Community_3.md) (46 shared connections)
+- [Community 1](Community_1.md) (41 shared connections)
+- [Community 179](Community_179.md) (37 shared connections)
 - [Community 154](Community_154.md) (32 shared connections)
-- [Community 18](Community_18.md) (26 shared connections)
-- [Community 30](Community_30.md) (24 shared connections)
-- [Community 602](Community_602.md) (22 shared connections)
+- [Community 14](Community_14.md) (31 shared connections)
+- [Community 17](Community_17.md) (26 shared connections)
+- [Community 28](Community_28.md) (25 shared connections)
 - [Community 5](Community_5.md) (22 shared connections)
-- [Community 221](Community_221.md) (22 shared connections)
+- [Community 223](Community_223.md) (22 shared connections)
 
 ## Source Files
 
@@ -71,7 +71,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 2182 (100%)
+- EXTRACTED: 2178 (100%)
 - INFERRED: 8 (0%)
 - AMBIGUOUS: 0 (0%)
 

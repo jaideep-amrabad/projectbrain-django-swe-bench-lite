@@ -1,6 +1,6 @@
 # Community 40
 
-> 108 nodes · cohesion 0.03
+> 105 nodes · cohesion 0.03
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **.get_template()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
 - **Template** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
 - **.test_render_requires_dict()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
-- *... and 83 more nodes in this community*
+- *... and 80 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (32 shared connections)
-- [Community 5](Community_5.md) (28 shared connections)
-- [Community 115](Community_115.md) (9 shared connections)
+- [Community 2](Community_2.md) (31 shared connections)
+- [Community 5](Community_5.md) (27 shared connections)
+- [Community 113](Community_113.md) (9 shared connections)
 - [Community 11](Community_11.md) (9 shared connections)
-- [Community 29](Community_29.md) (8 shared connections)
-- [Community 116](Community_116.md) (7 shared connections)
+- [Community 27](Community_27.md) (8 shared connections)
+- [Community 158](Community_158.md) (7 shared connections)
 - [Community 1](Community_1.md) (7 shared connections)
-- [Community 28](Community_28.md) (6 shared connections)
-- [Community 6](Community_6.md) (5 shared connections)
-- [Community 63](Community_63.md) (3 shared connections)
-- [Community 56](Community_56.md) (3 shared connections)
-- [Community 38](Community_38.md) (3 shared connections)
+- [Community 26](Community_26.md) (6 shared connections)
+- [Community 444](Community_444.md) (5 shared connections)
+- [Community 8](Community_8.md) (5 shared connections)
+- [Community 62](Community_62.md) (3 shared connections)
+- [Community 57](Community_57.md) (3 shared connections)
 
 ## Source Files
 
@@ -62,7 +62,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 273 (93%)
+- EXTRACTED: 267 (93%)
 - INFERRED: 20 (7%)
 - AMBIGUOUS: 0 (0%)
 

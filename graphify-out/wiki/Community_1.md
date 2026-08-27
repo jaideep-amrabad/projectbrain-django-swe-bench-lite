@@ -1,6 +1,6 @@
 # Community 1
 
-> 544 nodes · cohesion 0.01
+> 554 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -9,7 +9,6 @@
 - **ValidationError** (207 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
 - **django/utils/__init__.py** (130 connections) — `raw/code/hyd-evaluation/django-django/django/utils/__init__.py`
 - **django/forms/__init__.py** (124 connections) — `raw/code/hyd-evaluation/django-django/django/forms/__init__.py`
-- **timezone.py** (113 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
 - **contrib/admin/options.py** (105 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
 - **django/__init__.py** (94 connections) — `raw/code/hyd-evaluation/django-django/django/__init__.py`
 - **models/fields/__init__.py** (91 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
@@ -29,22 +28,23 @@
 - **generic/__init__.py** (40 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/__init__.py`
 - **format_html()** (39 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
 - **modeladmin/tests.py** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- *... and 519 more nodes in this community*
+- **generic/base.py** (34 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- *... and 529 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (153 shared connections)
-- [Community 5](Community_5.md) (146 shared connections)
-- [Community 7](Community_7.md) (109 shared connections)
-- [Community 24](Community_24.md) (99 shared connections)
-- [Community 69](Community_69.md) (83 shared connections)
-- [Community 98](Community_98.md) (67 shared connections)
-- [Community 21](Community_21.md) (64 shared connections)
-- [Community 36](Community_36.md) (61 shared connections)
-- [Community 25](Community_25.md) (58 shared connections)
-- [Community 116](Community_116.md) (57 shared connections)
-- [Community 3](Community_3.md) (51 shared connections)
-- [Community 95](Community_95.md) (48 shared connections)
+- [Community 2](Community_2.md) (163 shared connections)
+- [Community 5](Community_5.md) (136 shared connections)
+- [Community 7](Community_7.md) (104 shared connections)
+- [Community 47](Community_47.md) (88 shared connections)
+- [Community 68](Community_68.md) (77 shared connections)
+- [Community 43](Community_43.md) (65 shared connections)
+- [Community 95](Community_95.md) (64 shared connections)
+- [Community 33](Community_33.md) (59 shared connections)
+- [Community 158](Community_158.md) (55 shared connections)
+- [Community 41](Community_41.md) (55 shared connections)
+- [Community 3](Community_3.md) (47 shared connections)
+- [Community 37](Community_37.md) (46 shared connections)
 
 ## Source Files
 
@@ -59,20 +59,20 @@
 - `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/log.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/views.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/forms.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/templatetags/flatpages.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3929 (99%)
-- INFERRED: 45 (1%)
+- EXTRACTED: 3761 (99%)
+- INFERRED: 48 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,6 +1,6 @@
 # Community 2
 
-> 384 nodes · cohesion 0.01
+> 411 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -12,39 +12,39 @@
 - **test/client.py** (71 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
 - **test_utils/tests.py** (71 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 - **import_string()** (62 connections) — `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
-- **SimpleLazyObject** (52 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **sqlite3/base.py** (60 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **sessions_tests/tests.py** (56 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
 - **force_str()** (51 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- **regex_helper.py** (51 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
 - **file_storage/tests.py** (49 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 - **files/storage.py** (46 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
 - **postgis/operations.py** (43 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **test_writer.py** (42 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
 - **django/db/backends/oracle/base.py** (41 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **_lazy_re_compile()** (41 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **http/response.py** (39 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
 - **module_loading.py** (37 connections) — `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
 - **postgresql/base.py** (35 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
 - **handlers/wsgi.py** (34 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
 - **django/db/backends/oracle/operations.py** (34 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **settings_tests/tests.py** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
 - **finders.py** (33 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
 - **base/base.py** (32 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **django/db/backends/mysql/base.py** (32 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **async_unsafe()** (30 connections) — `raw/code/hyd-evaluation/django-django/django/utils/asyncio.py`
-- **core/cache/__init__.py** (29 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
-- **handlers/asgi.py** (28 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- *... and 359 more nodes in this community*
+- *... and 386 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (153 shared connections)
-- [Community 3](Community_3.md) (87 shared connections)
-- [Community 5](Community_5.md) (67 shared connections)
-- [Community 0](Community_0.md) (58 shared connections)
-- [Community 95](Community_95.md) (55 shared connections)
-- [Community 7](Community_7.md) (50 shared connections)
-- [Community 337](Community_337.md) (46 shared connections)
-- [Community 25](Community_25.md) (44 shared connections)
-- [Community 540](Community_540.md) (36 shared connections)
-- [Community 98](Community_98.md) (35 shared connections)
-- [Community 40](Community_40.md) (32 shared connections)
-- [Community 30](Community_30.md) (29 shared connections)
+- [Community 1](Community_1.md) (163 shared connections)
+- [Community 3](Community_3.md) (86 shared connections)
+- [Community 5](Community_5.md) (61 shared connections)
+- [Community 82](Community_82.md) (60 shared connections)
+- [Community 0](Community_0.md) (59 shared connections)
+- [Community 41](Community_41.md) (58 shared connections)
+- [Community 7](Community_7.md) (51 shared connections)
+- [Community 94](Community_94.md) (46 shared connections)
+- [Community 536](Community_536.md) (39 shared connections)
+- [Community 37](Community_37.md) (33 shared connections)
+- [Community 4](Community_4.md) (32 shared connections)
+- [Community 40](Community_40.md) (31 shared connections)
 
 ## Source Files
 
@@ -52,8 +52,6 @@
 - `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/auth/admin.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/features.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/base.py`
@@ -64,15 +62,17 @@
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/base.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/features.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geometry.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2437 (94%)
-- INFERRED: 144 (6%)
+- EXTRACTED: 2659 (95%)
+- INFERRED: 130 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,6 +1,6 @@
 # Community 5
 
-> 373 nodes · cohesion 0.01
+> 368 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -24,27 +24,27 @@
 - **syntax_tests/test_autoescape.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
 - **syntax_tests/test_extends.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 - **test_if_equal.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **test_engine.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_engine.py`
 - **test_loaders.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
 - **test_parser.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_parser.py`
 - **test_underscore_syntax.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_underscore_syntax.py`
 - **test_include.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- *... and 348 more nodes in this community*
+- **test_url.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
+- *... and 343 more nodes in this community*
 
 ## Relationships
 
-- [Community 24](Community_24.md) (148 shared connections)
-- [Community 1](Community_1.md) (146 shared connections)
-- [Community 6](Community_6.md) (105 shared connections)
-- [Community 3](Community_3.md) (72 shared connections)
-- [Community 2](Community_2.md) (67 shared connections)
-- [Community 28](Community_28.md) (61 shared connections)
-- [Community 15](Community_15.md) (56 shared connections)
-- [Community 11](Community_11.md) (54 shared connections)
-- [Community 29](Community_29.md) (54 shared connections)
-- [Community 7](Community_7.md) (40 shared connections)
-- [Community 95](Community_95.md) (33 shared connections)
+- [Community 47](Community_47.md) (140 shared connections)
+- [Community 1](Community_1.md) (136 shared connections)
+- [Community 8](Community_8.md) (105 shared connections)
+- [Community 3](Community_3.md) (71 shared connections)
+- [Community 26](Community_26.md) (61 shared connections)
+- [Community 2](Community_2.md) (61 shared connections)
+- [Community 11](Community_11.md) (55 shared connections)
+- [Community 27](Community_27.md) (54 shared connections)
+- [Community 7](Community_7.md) (36 shared connections)
+- [Community 14](Community_14.md) (35 shared connections)
 - [Community 10](Community_10.md) (33 shared connections)
+- [Community 41](Community_41.md) (32 shared connections)
 
 ## Source Files
 
@@ -71,7 +71,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 3511 (99%)
+- EXTRACTED: 3497 (99%)
 - INFERRED: 37 (1%)
 - AMBIGUOUS: 0 (0%)
 

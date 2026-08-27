@@ -30,12 +30,12 @@
 
 - [Community 0](Community_0.md) (7 shared connections)
 - [Community 96](Community_96.md) (4 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
 - [Community 18](Community_18.md) (2 shared connections)
-- [Community 19](Community_19.md) (2 shared connections)
-- [Community 111](Community_111.md) (2 shared connections)
-- [Community 136](Community_136.md) (2 shared connections)
-- [Community 385](Community_385.md) (1 shared connections)
-- [Community 141](Community_141.md) (1 shared connections)
+- [Community 128](Community_128.md) (2 shared connections)
+- [Community 134](Community_134.md) (2 shared connections)
+- [Community 382](Community_382.md) (1 shared connections)
+- [Community 140](Community_140.md) (1 shared connections)
 
 ## Source Files
 
