@@ -1,6 +1,6 @@
 # Community 0
 
-> 384 nodes · cohesion 0.01
+> 379 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **test_linebreaks.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
 - **test_slugify.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slugify.py`
 - **test_striptags.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_striptags.py`
-- *... and 359 more nodes in this community*
+- *... and 354 more nodes in this community*
 
 ## Relationships
 
-- [Community 44](Community_44.md) (153 shared connections)
-- [Community 22](Community_22.md) (136 shared connections)
-- [Community 23](Community_23.md) (79 shared connections)
-- [Community 13](Community_13.md) (68 shared connections)
-- [Community 16](Community_16.md) (56 shared connections)
-- [Community 29](Community_29.md) (49 shared connections)
-- [Community 33](Community_33.md) (49 shared connections)
-- [Community 51](Community_51.md) (44 shared connections)
-- [Community 14](Community_14.md) (42 shared connections)
-- [Community 72](Community_72.md) (41 shared connections)
-- [Community 3](Community_3.md) (37 shared connections)
-- [Community 596](Community_596.md) (34 shared connections)
+- [Community 45](Community_45.md) (153 shared connections)
+- [Community 16](Community_16.md) (136 shared connections)
+- [Community 1](Community_1.md) (102 shared connections)
+- [Community 22](Community_22.md) (67 shared connections)
+- [Community 13](Community_13.md) (65 shared connections)
+- [Community 17](Community_17.md) (56 shared connections)
+- [Community 25](Community_25.md) (53 shared connections)
+- [Community 5](Community_5.md) (49 shared connections)
+- [Community 52](Community_52.md) (44 shared connections)
+- [Community 6](Community_6.md) (41 shared connections)
+- [Community 71](Community_71.md) (41 shared connections)
+- [Community 594](Community_594.md) (34 shared connections)
 
 ## Source Files
 
@@ -71,7 +71,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 3783 (100%)
+- EXTRACTED: 3777 (100%)
 - INFERRED: 4 (0%)
 - AMBIGUOUS: 0 (0%)
 
