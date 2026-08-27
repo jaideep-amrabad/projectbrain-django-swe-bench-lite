@@ -4,12 +4,14 @@ from django.template import Context, Engine
 
 
 class CallableVariablesTests(TestCase):
+
     @classmethod
     def setUpClass(cls):
         cls.engine = Engine()
         super().setUpClass()
 
     def test_callable(self):
+
         class Doodad:
             def __init__(self, value):
                 self.num_calls = 0
@@ -25,19 +27,20 @@ class CallableVariablesTests(TestCase):
         # We can't access ``my_doodad.value`` in the template, because
         # ``my_doodad.__call__`` will be invoked first, yielding a dictionary
         # without a key ``value``.
-        t = self.engine.from_string("{{ my_doodad.value }}")
-        self.assertEqual(t.render(c), "")
+        t = self.engine.from_string('{{ my_doodad.value }}')
+        self.assertEqual(t.render(c), '')
 
         # We can confirm that the doodad has been called
         self.assertEqual(my_doodad.num_calls, 1)
 
         # But we can access keys on the dict that's returned
         # by ``__call__``, instead.
-        t = self.engine.from_string("{{ my_doodad.the_value }}")
-        self.assertEqual(t.render(c), "42")
+        t = self.engine.from_string('{{ my_doodad.the_value }}')
+        self.assertEqual(t.render(c), '42')
         self.assertEqual(my_doodad.num_calls, 2)
 
     def test_alters_data(self):
+
         class Doodad:
             alters_data = True
 
@@ -54,16 +57,17 @@ class CallableVariablesTests(TestCase):
 
         # Since ``my_doodad.alters_data`` is True, the template system will not
         # try to call our doodad but will use string_if_invalid
-        t = self.engine.from_string("{{ my_doodad.value }}")
-        self.assertEqual(t.render(c), "")
-        t = self.engine.from_string("{{ my_doodad.the_value }}")
-        self.assertEqual(t.render(c), "")
+        t = self.engine.from_string('{{ my_doodad.value }}')
+        self.assertEqual(t.render(c), '')
+        t = self.engine.from_string('{{ my_doodad.the_value }}')
+        self.assertEqual(t.render(c), '')
 
         # Double-check that the object was really never called during the
         # template rendering.
         self.assertEqual(my_doodad.num_calls, 0)
 
     def test_do_not_call(self):
+
         class Doodad:
             do_not_call_in_templates = True
 
@@ -82,10 +86,10 @@ class CallableVariablesTests(TestCase):
         # system will not try to call our doodad.  We can access its attributes
         # as normal, and we don't have access to the dict that it returns when
         # called.
-        t = self.engine.from_string("{{ my_doodad.value }}")
-        self.assertEqual(t.render(c), "42")
-        t = self.engine.from_string("{{ my_doodad.the_value }}")
-        self.assertEqual(t.render(c), "")
+        t = self.engine.from_string('{{ my_doodad.value }}')
+        self.assertEqual(t.render(c), '42')
+        t = self.engine.from_string('{{ my_doodad.the_value }}')
+        self.assertEqual(t.render(c), '')
 
         # Double-check that the object was really never called during the
         # template rendering.
@@ -111,10 +115,10 @@ class CallableVariablesTests(TestCase):
         my_doodad = Doodad(42)
         c = Context({"my_doodad": my_doodad})
 
-        t = self.engine.from_string("{{ my_doodad.value }}")
-        self.assertEqual(t.render(c), "42")
-        t = self.engine.from_string("{{ my_doodad.the_value }}")
-        self.assertEqual(t.render(c), "")
+        t = self.engine.from_string('{{ my_doodad.value }}')
+        self.assertEqual(t.render(c), '42')
+        t = self.engine.from_string('{{ my_doodad.the_value }}')
+        self.assertEqual(t.render(c), '')
 
         # Double-check that the object was really never called during the
         # template rendering.
