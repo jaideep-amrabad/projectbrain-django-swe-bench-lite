@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **Gruntfile.js** (0 connections) — `raw/code/hyd-evaluation/django-django/Gruntfile.js`
+- **DateTimeShortcuts.test.js** (0 connections) — `raw/code/hyd-evaluation/django-django/js_tests/admin/DateTimeShortcuts.test.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/Gruntfile.js`
+- `raw/code/hyd-evaluation/django-django/js_tests/admin/DateTimeShortcuts.test.js`
 
 ## Audit Trail
 
