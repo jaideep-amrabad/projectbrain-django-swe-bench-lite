@@ -48,8 +48,8 @@
 - sites_tests/tests.py `EXTRACTED`
 - urlpatterns_reverse/views.py `EXTRACTED`
 - django/shortcuts.py `EXTRACTED`
-- generic_views/test_base.py `EXTRACTED`
 - views/i18n.py `EXTRACTED`
+- generic_views/test_base.py `EXTRACTED`
 - middleware/tests.py `EXTRACTED`
 - syndication/views.py `EXTRACTED`
 

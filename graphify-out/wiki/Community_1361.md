@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **contains_tuple.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/contains_tuple.py`
+- **test_migrations_empty/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_empty/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/contains_tuple.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_empty/__init__.py`
 
 ## Audit Trail
 

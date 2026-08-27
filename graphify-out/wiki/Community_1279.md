@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **redirects/migrations/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/redirects/migrations/__init__.py`
+- **sampleproject/settings.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/sampleproject/sampleproject/settings.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/redirects/migrations/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/sampleproject/sampleproject/settings.py`
 
 ## Audit Trail
 

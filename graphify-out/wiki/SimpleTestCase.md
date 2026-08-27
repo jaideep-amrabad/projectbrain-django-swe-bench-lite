@@ -1,8 +1,8 @@
 # SimpleTestCase
 
-> God node · 1179 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+> God node · 1180 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
-**Community:** [Community 8](Community_8.md)
+**Community:** [Community 1](Community_1.md)
 
 ## Connections by Relation
 
@@ -22,11 +22,11 @@
 - test_auth_backends.py `EXTRACTED`
 - urlpatterns_reverse/tests.py `EXTRACTED`
 - admin_scripts/tests.py `EXTRACTED`
-- test_debug.py `EXTRACTED`
 - test_client_regress/tests.py `EXTRACTED`
+- test_debug.py `EXTRACTED`
 - modeladmin/test_checks.py `EXTRACTED`
-- auth_tests/test_forms.py `EXTRACTED`
 - timezones/tests.py `EXTRACTED`
+- auth_tests/test_forms.py `EXTRACTED`
 - multiple_database/tests.py `EXTRACTED`
 - decorators/tests.py `EXTRACTED`
 - file_storage/tests.py `EXTRACTED`

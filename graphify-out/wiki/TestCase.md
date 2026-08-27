@@ -1,8 +1,8 @@
 # TestCase
 
-> God node · 954 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+> God node · 956 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
-**Community:** [Community 3](Community_3.md)
+**Community:** [Community 51](Community_51.md)
 
 ## Connections by Relation
 
@@ -26,10 +26,10 @@
 - admin_inlines/tests.py `EXTRACTED`
 - fixtures_regress/tests.py `EXTRACTED`
 - admin_scripts/tests.py `EXTRACTED`
-- prefetch_related/tests.py `EXTRACTED`
 - test_client_regress/tests.py `EXTRACTED`
+- prefetch_related/tests.py `EXTRACTED`
+- timezones/tests.py `EXTRACTED`
 - auth_tests/test_forms.py `EXTRACTED`
-- sessions_tests/tests.py `EXTRACTED`
 
 ### inherits
 - AutodetectorTests `EXTRACTED`

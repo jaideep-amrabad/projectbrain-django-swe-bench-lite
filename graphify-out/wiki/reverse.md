@@ -2,7 +2,7 @@
 
 > God node · 363 connections · `raw/code/hyd-evaluation/django-django/django/urls/base.py`
 
-**Community:** [Community 15](Community_15.md)
+**Community:** [Community 28](Community_28.md)
 
 ## Connections by Relation
 
@@ -12,9 +12,9 @@
 - NoReverseMatch `EXTRACTED`
 - resolve_url() `EXTRACTED`
 - .response_add() `EXTRACTED`
+- get_script_prefix() `EXTRACTED`
 - .response_change() `EXTRACTED`
 - _get_sitemap_full_url() `EXTRACTED`
-- get_script_prefix() `EXTRACTED`
 - translate_url() `EXTRACTED`
 - get_urlconf() `EXTRACTED`
 - .response_delete() `EXTRACTED`
@@ -43,15 +43,15 @@
 - admin/utils.py `EXTRACTED`
 - urlpatterns_reverse/tests.py `EXTRACTED`
 - admin_inlines/tests.py `EXTRACTED`
-- test_debug.py `EXTRACTED`
 - test_client_regress/tests.py `EXTRACTED`
+- test_debug.py `EXTRACTED`
 - timezones/tests.py `EXTRACTED`
 - admin/sites.py `EXTRACTED`
 - contrib/admin/widgets.py `EXTRACTED`
 - proxy_models/tests.py `EXTRACTED`
 - auth/admin.py `EXTRACTED`
 - main.py `EXTRACTED`
-- generic_inline_admin/tests.py `EXTRACTED`
+- patterns/tests.py `EXTRACTED`
 
 ---
 
