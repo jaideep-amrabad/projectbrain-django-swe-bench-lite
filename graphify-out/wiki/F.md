@@ -1,8 +1,8 @@
 # F
 
-> God node · 336 connections · `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+> God node · 340 connections · `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
 
-**Community:** [Community 29](Community_29.md)
+**Community:** [Community 6](Community_6.md)
 
 ## Connections by Relation
 
@@ -15,6 +15,7 @@
 - .dates() `EXTRACTED`
 - .test_custom_functions_can_ref_other_functions() `EXTRACTED`
 - .test_annotate_with_aggregation_in_condition() `EXTRACTED`
+- .test_conditional_annotation() `EXTRACTED`
 - ._test_range_overlaps() `EXTRACTED`
 - .datetimes() `EXTRACTED`
 - .test_case_aggregate() `EXTRACTED`
@@ -26,7 +27,6 @@
 - .test_multiple_partitioning() `EXTRACTED`
 - .test_postgresql_illegal_range_frame_end() `EXTRACTED`
 - .test_postgresql_illegal_range_frame_start() `EXTRACTED`
-- .test_range_n_preceding_and_following() `EXTRACTED`
 
 ### contains
 - expressions.py `EXTRACTED`
@@ -40,12 +40,12 @@
 - sql/query.py `EXTRACTED`
 - modeladmin/test_checks.py `EXTRACTED`
 - timezones/tests.py `EXTRACTED`
+- expressions_window/tests.py `EXTRACTED`
 - geoapp/tests.py `EXTRACTED`
+- admin/checks.py `EXTRACTED`
 - main.py `EXTRACTED`
 - test_extract_trunc.py `EXTRACTED`
 - test_ranges.py `EXTRACTED`
-- admin/checks.py `EXTRACTED`
-- expressions_window/tests.py `EXTRACTED`
 - postgres_tests/test_json.py `EXTRACTED`
 - aggregation_regress/tests.py `EXTRACTED`
 - distapp/tests.py `EXTRACTED`
@@ -80,8 +80,8 @@
 - TestGeneralAggregate `INFERRED`
 - BaseModelAdminChecks `INFERRED`
 - TestStatisticsAggregate `INFERRED`
-- ChangeList `INFERRED`
 - FTimeDeltaTests `INFERRED`
+- ChangeList `INFERRED`
 - ExpressionOperatorTests `INFERRED`
 - ReprTests `INFERRED`
 - IterableLookupInnerExpressionsTests `INFERRED`

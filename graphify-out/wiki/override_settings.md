@@ -1,8 +1,8 @@
 # override_settings
 
-> God node · 1245 connections · `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+> God node · 1251 connections · `raw/code/hyd-evaluation/django-django/django/test/utils.py`
 
-**Community:** [Community 9](Community_9.md)
+**Community:** [Community 10](Community_10.md)
 
 ## Connections by Relation
 
@@ -40,17 +40,17 @@
 - cache/tests.py `EXTRACTED`
 - auth_tests/test_views.py `EXTRACTED`
 - test_utils/tests.py `EXTRACTED`
-- admin_widgets/tests.py `EXTRACTED`
 - test_auth_backends.py `EXTRACTED`
+- test_debug.py `EXTRACTED`
 - admin_filters/tests.py `EXTRACTED`
+- admin_widgets/tests.py `EXTRACTED`
 - test_array.py `EXTRACTED`
-- admin_inlines/tests.py `EXTRACTED`
 - urlpatterns_reverse/tests.py `EXTRACTED`
+- admin_inlines/tests.py `EXTRACTED`
 - admin_scripts/tests.py `EXTRACTED`
 - fixtures_regress/tests.py `EXTRACTED`
 - prefetch_related/tests.py `EXTRACTED`
 - test_client_regress/tests.py `EXTRACTED`
-- test_debug.py `EXTRACTED`
 - sessions_tests/tests.py `EXTRACTED`
 
 ### inherits

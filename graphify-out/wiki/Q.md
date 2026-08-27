@@ -1,8 +1,8 @@
 # Q
 
-> God node · 232 connections · `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+> God node · 239 connections · `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
 
-**Community:** [Community 58](Community_58.md)
+**Community:** [Community 45](Community_45.md)
 
 ## Connections by Relation
 
@@ -11,14 +11,14 @@
 - .test_filtered_aggregates() `INFERRED`
 - .test_invalid_filter() `INFERRED`
 - .test_aggregate() `INFERRED`
+- .test_string_agg_array_agg_filter_in_subquery() `INFERRED`
 - ._test_range_overlaps() `INFERRED`
-- ._filter_or_exclude() `EXTRACTED`
+- ._as_sql() `EXTRACTED`
 - .with_perm() `INFERRED`
 - .test_case_aggregate() `INFERRED`
 - .test_geodetic_distance_lookups() `INFERRED`
 - .test_remove_field_check_does_not_remove_meta_constraints() `INFERRED`
 - .__init__() `EXTRACTED`
-- .delete_batch() `EXTRACTED`
 - .test_partial_gin_index() `EXTRACTED`
 - .test_partial_gin_index_with_tablespace() `EXTRACTED`
 - update_proxy_model_permissions() `INFERRED`
@@ -35,12 +35,12 @@
 - expressions.py `EXTRACTED`
 - models/query.py `EXTRACTED`
 - sql/query.py `EXTRACTED`
+- sql/compiler.py `EXTRACTED`
 - test_indexes.py `EXTRACTED`
-- django/db/backends/oracle/operations.py `EXTRACTED`
 - indexes/tests.py `EXTRACTED`
 - model_indexes/tests.py `EXTRACTED`
-- subqueries.py `EXTRACTED`
 - models/constraints.py `EXTRACTED`
+- subqueries.py `EXTRACTED`
 - models/indexes.py `EXTRACTED`
 
 ### method
@@ -48,28 +48,28 @@
 - .__init__() `EXTRACTED`
 - .__or__() `EXTRACTED`
 - .__and__() `EXTRACTED`
-- .__invert__() `EXTRACTED`
 - .resolve_expression() `EXTRACTED`
 - .deconstruct() `EXTRACTED`
+- .__invert__() `EXTRACTED`
 
 ### rationale_for
 - Encapsulate filters as objects that can then be combined logically (using `&`… `EXTRACTED`
 
 ### uses
-- When `INFERRED`
 - Query `INFERRED`
+- When `INFERRED`
 - QuerySet `INFERRED`
-- DatabaseOperations `INFERRED`
 - Combinable `INFERRED`
 - Index `INFERRED`
 - SchemaTests `INFERRED`
 - SimpleIndexesTests `INFERRED`
-- UniqueConstraint `INFERRED`
 - SchemaIndexesPostgreSQLTests `INFERRED`
+- UniqueConstraint `INFERRED`
 - UpdateQuery `INFERRED`
 - PartialIndexTests `INFERRED`
-- DeleteQuery `INFERRED`
+- SQLDeleteCompiler `INFERRED`
 - PartialIndexConditionIgnoredTests `INFERRED`
+- DeleteQuery `INFERRED`
 
 ---
 

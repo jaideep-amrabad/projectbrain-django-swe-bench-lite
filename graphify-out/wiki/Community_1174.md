@@ -1,28 +1,23 @@
 # Community 1174
 
-> 3 nodes · cohesion 0.67
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **ParkingLot4A** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **ParkingLot4B** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **ParkingLot4** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **sessions/backends/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/__init__.py`
 
 ## Relationships
 
-- [Community 500](Community_500.md) (4 shared connections)
-- [Community 708](Community_708.md) (2 shared connections)
-- [Community 709](Community_709.md) (2 shared connections)
-- [Community 338](Community_338.md) (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (83%)
-- INFERRED: 2 (17%)
+- EXTRACTED: 0 (0%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

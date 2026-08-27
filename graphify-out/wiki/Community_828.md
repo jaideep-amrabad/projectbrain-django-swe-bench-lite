@@ -1,43 +1,35 @@
 # Community 828
 
-> 11 nodes · cohesion 0.18
+> 7 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **setup** (45 connections)
-- **.test_inheritance05()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance24()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance25()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_duplicate_block()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance31()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance39()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Two-level with double quotes instead of single quotes** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Inheritance from local context without use of template loader** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Inheritance from local context with variable parent template** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **localize()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
+- **localize()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
+- **unlocalize()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
+- **filter** (2 connections)
+- **Force a value to be rendered as a non-localized value, regardless of the value…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
+- **Force a value to be rendered as a localized value, regardless of the value of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
+- **Check if value is a localizable type (date, number...) and return it formatted…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
 
 ## Relationships
 
-- [Community 869](Community_869.md) (15 shared connections)
-- [Community 1178](Community_1178.md) (2 shared connections)
-- [Community 1179](Community_1179.md) (2 shared connections)
-- [Community 1238](Community_1238.md) (1 shared connections)
-- [Community 1239](Community_1239.md) (1 shared connections)
-- [Community 1240](Community_1240.md) (1 shared connections)
-- [Community 1241](Community_1241.md) (1 shared connections)
-- [Community 1242](Community_1242.md) (1 shared connections)
-- [Community 1243](Community_1243.md) (1 shared connections)
-- [Community 1244](Community_1244.md) (1 shared connections)
-- [Community 1245](Community_1245.md) (1 shared connections)
-- [Community 1246](Community_1246.md) (1 shared connections)
+- [Community 8](Community_8.md) (4 shared connections)
+- [Community 26](Community_26.md) (4 shared connections)
+- [Community 46](Community_46.md) (4 shared connections)
+- [Community 437](Community_437.md) (2 shared connections)
+- [Community 581](Community_581.md) (1 shared connections)
+- [Community 80](Community_80.md) (1 shared connections)
+- [Community 195](Community_195.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (100%)
+- EXTRACTED: 24 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
