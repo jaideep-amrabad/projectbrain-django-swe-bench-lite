@@ -522,7 +522,7 @@ class Query(BaseExpression):
     def has_filters(self):
         return self.where
 
-    def has_results(self, using):
+    def exists(self):
         q = self.clone()
         if not q.distinct:
             if q.group_by is True:
@@ -533,6 +533,12 @@ class Query(BaseExpression):
             q.clear_select_clause()
         q.clear_ordering(True)
         q.set_limits(high=1)
+        q.add_extra({'a': 1}, None, None, None, None, None)
+        q.set_extra_mask(['a'])
+        return q
+
+    def has_results(self, using):
+        q = self.exists()
         compiler = q.get_compiler(using=using)
         return compiler.has_results()
 
@@ -1071,10 +1077,14 @@ class Query(BaseExpression):
         elif isinstance(value, (list, tuple)):
             # The items of the iterable may be expressions and therefore need
             # to be resolved independently.
-            return type(value)(
+            values = (
                 self.resolve_lookup_value(sub_value, can_reuse, allow_joins)
                 for sub_value in value
             )
+            type_ = type(value)
+            if hasattr(type_, '_make'):  # namedtuple
+                return type_(*values)
+            return type_(values)
         return value
 
     def solve_lookup_type(self, lookup):

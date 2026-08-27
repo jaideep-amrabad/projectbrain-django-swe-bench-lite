@@ -1,6 +1,5 @@
 import datetime
 from decimal import Decimal
-from unittest import skipIf
 
 from django.core.exceptions import FieldDoesNotExist, FieldError
 from django.db import connection
@@ -182,6 +181,18 @@ class NonAggregateAnnotationTestCase(TestCase):
             rating_count=Count('rating'),
         ).first()
         self.assertEqual(book.combined, 13410.0)
+        self.assertEqual(book.rating_count, 1)
+
+    @skipUnlessDBFeature('supports_boolean_expr_in_select_clause')
+    def test_q_expression_annotation_with_aggregation(self):
+        book = Book.objects.filter(isbn='159059725').annotate(
+            isnull_pubdate=ExpressionWrapper(
+                Q(pubdate__isnull=True),
+                output_field=BooleanField(),
+            ),
+            rating_count=Count('rating'),
+        ).first()
+        self.assertEqual(book.isnull_pubdate, False)
         self.assertEqual(book.rating_count, 1)
 
     def test_aggregate_over_annotation(self):
@@ -647,12 +658,12 @@ class NonAggregateAnnotationTestCase(TestCase):
             datetime.date(2008, 11, 3),
         ])
 
-    @skipIf(
-        connection.vendor == 'mysql' and 'ONLY_FULL_GROUP_BY' in connection.sql_mode,
-        'GROUP BY optimization does not work properly when ONLY_FULL_GROUP_BY '
-        'mode is enabled on MySQL, see #31331.',
-    )
     def test_annotation_aggregate_with_m2o(self):
+        if connection.vendor == 'mysql' and 'ONLY_FULL_GROUP_BY' in connection.sql_mode:
+            self.skipTest(
+                'GROUP BY optimization does not work properly when '
+                'ONLY_FULL_GROUP_BY mode is enabled on MySQL, see #31331.'
+            )
         qs = Author.objects.filter(age__lt=30).annotate(
             max_pages=Case(
                 When(book_contact_set__isnull=True, then=Value(0)),
