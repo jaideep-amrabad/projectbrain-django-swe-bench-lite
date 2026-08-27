@@ -1,32 +1,32 @@
 # HttpResponse
 
-> God node · 337 connections · `raw/code/hyd-evaluation/django-django/django/http/response.py`
+> God node · 308 connections · `raw/code/hyd-evaluation/django-django/django/http/response.py`
 
-**Community:** [Community 11](Community_11.md)
+**Community:** [Community 3](Community_3.md)
 
 ## Connections by Relation
 
 ### calls
-- post_form_view() `EXTRACTED`
 - render() `EXTRACTED`
+- post_form_view() `EXTRACTED`
 - technical_500_response() `EXTRACTED`
 - token_view() `EXTRACTED`
 - empty_view() `EXTRACTED`
-- get_response_empty() `EXTRACTED`
-- empty_response() `EXTRACTED`
+- set_language() `EXTRACTED`
 - ensure_csrf_cookie_view() `EXTRACTED`
 - render_flatpage() `EXTRACTED`
 - render_to_kmz() `EXTRACTED`
-- default_urlconf() `EXTRACTED`
-- set_language() `EXTRACTED`
 - trace_view() `EXTRACTED`
+- default_urlconf() `EXTRACTED`
 - non_token_view_using_request_processor() `EXTRACTED`
-- hello_world_view() `EXTRACTED`
 - .get_response() `EXTRACTED`
 - get_view() `EXTRACTED`
 - render_to_kml() `EXTRACTED`
 - .__call__() `EXTRACTED`
 - directory_index() `EXTRACTED`
+- remote_user_auth_view() `EXTRACTED`
+- hello_world_view() `EXTRACTED`
+- csrf_token_error_handler() `EXTRACTED`
 
 ### contains
 - http/response.py `EXTRACTED`
@@ -36,34 +36,33 @@
 - http/__init__.py `EXTRACTED`
 - cache/tests.py `EXTRACTED`
 - test_utils/tests.py `EXTRACTED`
-- auth_tests/test_views.py `EXTRACTED`
-- tests/test_debug.py `EXTRACTED`
 - test_client/views.py `EXTRACTED`
+- test_client_regress/tests.py `EXTRACTED`
 - view_tests/views.py `EXTRACTED`
 - sessions_tests/tests.py `EXTRACTED`
-- test_client_regress/tests.py `EXTRACTED`
 - utils/cache.py `EXTRACTED`
 - decorators/tests.py `EXTRACTED`
-- csrf_tests/tests.py `EXTRACTED`
-- test_middleware_mixin.py `EXTRACTED`
-- views/debug.py `EXTRACTED`
-- patterns/tests.py `EXTRACTED`
 - test_client_regress/views.py `EXTRACTED`
+- views/debug.py `EXTRACTED`
 - auth_tests/urls.py `EXTRACTED`
 - sites_tests/tests.py `EXTRACTED`
-- test_client/tests.py `EXTRACTED`
+- urlpatterns_reverse/views.py `EXTRACTED`
+- django/shortcuts.py `EXTRACTED`
+- views/i18n.py `EXTRACTED`
+- generic_views/test_base.py `EXTRACTED`
+- middleware/tests.py `EXTRACTED`
+- syndication/views.py `EXTRACTED`
 
 ### inherits
 - HttpResponseBase `EXTRACTED`
-- JsonResponse `EXTRACTED`
 - SimpleTemplateResponse `EXTRACTED`
+- JsonResponse `EXTRACTED`
+- HttpResponseNotFound `EXTRACTED`
 - HttpResponseNotAllowed `EXTRACTED`
 - HttpResponseNotModified `EXTRACTED`
-- HttpResponseNotFound `EXTRACTED`
 - HttpResponseServerError `EXTRACTED`
 - HttpResponseBadRequest `EXTRACTED`
 - HttpResponseForbidden `EXTRACTED`
-- TestingHttpResponse `EXTRACTED`
 - HttpResponseGone `EXTRACTED`
 - HttpResponseRedirectBase `EXTRACTED`
 
@@ -73,7 +72,6 @@
 - .write() `EXTRACTED`
 - .__init__() `EXTRACTED`
 - .writelines() `EXTRACTED`
-- .__getstate__() `EXTRACTED`
 - .__repr__() `EXTRACTED`
 - .__iter__() `EXTRACTED`
 - .tell() `EXTRACTED`
@@ -81,10 +79,7 @@
 - .writable() `EXTRACTED`
 
 ### rationale_for
-- An HTTP response class with a string as content. This content can be read,… `EXTRACTED`
-
-### uses
-- MiddlewareMixinTests `INFERRED`
+- An HTTP response class with a string as content. This content that can be read,… `EXTRACTED`
 
 ---
 

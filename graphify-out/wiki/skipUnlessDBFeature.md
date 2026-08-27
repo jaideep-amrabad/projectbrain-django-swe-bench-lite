@@ -1,8 +1,8 @@
 # skipUnlessDBFeature()
 
-> God node · 564 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+> God node · 390 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
-**Community:** [Community 16](Community_16.md)
+**Community:** [Community 20](Community_20.md)
 
 ## Connections by Relation
 
@@ -22,44 +22,44 @@
 - expressions/tests.py `EXTRACTED`
 - schema/tests.py `EXTRACTED`
 - fixtures_regress/tests.py `EXTRACTED`
-- test_runner/tests.py `EXTRACTED`
 - timezones/tests.py `EXTRACTED`
-- test_extract_trunc.py `EXTRACTED`
-- model_formsets/tests.py `EXTRACTED`
-- model_fields/test_jsonfield.py `EXTRACTED`
-- delete_regress/tests.py `EXTRACTED`
 - delete/tests.py `EXTRACTED`
+- model_formsets/tests.py `EXTRACTED`
 - backends/tests.py `EXTRACTED`
-- expressions_window/tests.py `EXTRACTED`
 - geoapp/tests.py `EXTRACTED`
-- lookup/tests.py `EXTRACTED`
-- postgres_tests/test_indexes.py `EXTRACTED`
-- test_query.py `EXTRACTED`
+- test_extract_trunc.py `EXTRACTED`
+- delete_regress/tests.py `EXTRACTED`
+- expressions_window/tests.py `EXTRACTED`
+- test_runner/tests.py `EXTRACTED`
+- distapp/tests.py `EXTRACTED`
+- aggregation_regress/tests.py `EXTRACTED`
+- geo3d/tests.py `EXTRACTED`
+- fixtures/tests.py `EXTRACTED`
 
 ### rationale_for
 - Skip a test unless a database has all the named features. `EXTRACTED`
 
 ### references
-- TestQuerying `EXTRACTED`
-- QuerySetSetOperationTests `EXTRACTED`
 - WindowFunctionTests `EXTRACTED`
-- TestConnectionOnCommit `EXTRACTED`
+- QuerySetSetOperationTests `EXTRACTED`
 - AtomicTests `EXTRACTED`
 - RasterFieldTest `EXTRACTED`
 - Geo3DFunctionsTests `EXTRACTED`
 - Geo3DTest `EXTRACTED`
 - DistinctOnTests `EXTRACTED`
 - SubqueryTests `EXTRACTED`
-- TestDataTests `EXTRACTED`
-- ExplainTests `EXTRACTED`
-- CaptureOnCommitCallbacksTests `EXTRACTED`
 - ConstraintNameTests `EXTRACTED`
+- ExplainTests `EXTRACTED`
 - PartialIndexTests `EXTRACTED`
-- TestSaveLoad `EXTRACTED`
-- JSONObjectTests `EXTRACTED`
-- SpatialRefSysTest `EXTRACTED`
 - ReturningValuesTests `EXTRACTED`
+- QuerySetBitwiseOperationTests `EXTRACTED`
 - AutoIncrementResetTest `EXTRACTED`
+- AtomicErrorsTests `EXTRACTED`
+- SpatialRefSysTest `EXTRACTED`
+- DeleteLockingTest `EXTRACTED`
+- .test_migrations_applied_and_recorded_atomically() `EXTRACTED`
+- .test_add_inline_fk_index_update_data() `EXTRACTED`
+- .test_alter_fk() `EXTRACTED`
 
 ---
 

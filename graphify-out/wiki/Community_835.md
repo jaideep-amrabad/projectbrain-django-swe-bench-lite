@@ -1,35 +1,36 @@
 # Community 835
 
-> 10 nodes · cohesion 0.29
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **.handle_word()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **Urlizer** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **.__call__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **.is_email_simple()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **.trim_punctuation()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **.trim_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **Convert any URLs in text into clickable links. Work on http://, https://, www.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **If trim_url_limit is not None, truncate the URLs in the link text longer than…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **Trim trailing and wrapping punctuation from `word`. Return the items of the new…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **Return True if value looks like an email address.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **AdminTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_change_editable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_change_readonly()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_changelist()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_change_editable_in_other_timezone()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_change_readonly_in_other_timezone()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_changelist_in_other_timezone()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
 
 ## Relationships
 
-- [Community 9](Community_9.md) (3 shared connections)
-- [Community 304](Community_304.md) (1 shared connections)
-- [Community 39](Community_39.md) (1 shared connections)
-- [Community 49](Community_49.md) (1 shared connections)
+- [Community 6](Community_6.md) (6 shared connections)
+- [Community 418](Community_418.md) (3 shared connections)
+- [Community 977](Community_977.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 737](Community_737.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 20 (91%)
+- INFERRED: 2 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

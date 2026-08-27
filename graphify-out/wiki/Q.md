@@ -1,8 +1,8 @@
 # Q
 
-> God node · 351 connections · `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+> God node · 260 connections · `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
 
-**Community:** [Community 19](Community_19.md)
+**Community:** [Community 16](Community_16.md)
 
 ## Connections by Relation
 
@@ -11,22 +11,22 @@
 - .test_filtered_aggregates() `EXTRACTED`
 - .test_invalid_filter() `EXTRACTED`
 - .test_aggregate() `EXTRACTED`
-- .test_exact_booleanfield_annotation() `EXTRACTED`
 - .test_string_agg_array_agg_filter_in_subquery() `EXTRACTED`
 - ._test_range_overlaps() `EXTRACTED`
-- apply_limit_choices_to_to_formfield() `EXTRACTED`
-- .test_date_case_subtraction() `EXTRACTED`
-- .test_flatten() `EXTRACTED`
-- .test_q_annotation() `EXTRACTED`
-- .get_for_models() `EXTRACTED`
+- .with_perm() `EXTRACTED`
 - create_forward_many_to_many_manager() `EXTRACTED`
+- ._as_sql() `EXTRACTED`
 - .test_case_aggregate() `EXTRACTED`
 - .test_conditional_aggregation_example() `EXTRACTED`
-- .test_annotate_filter_decimal() `EXTRACTED`
 - .test_geodetic_distance_lookups() `EXTRACTED`
-- .test_range_overlaps_custom() `EXTRACTED`
-- .test_range_overlaps_custom_opclasses() `EXTRACTED`
-- .test_op_class_descending_partial() `EXTRACTED`
+- update_proxy_model_permissions() `EXTRACTED`
+- .__init__() `EXTRACTED`
+- .test_annotation_disjunction() `EXTRACTED`
+- .test_conditional_aggregate_on_complex_condition() `EXTRACTED`
+- .test_filtered_aggregate_ref_subquery_annotation() `EXTRACTED`
+- .test_combined_q_object() `EXTRACTED`
+- .test_m2m_exclude() `EXTRACTED`
+- .test_m2m_reuse() `EXTRACTED`
 
 ### contains
 - query_utils.py `EXTRACTED`
@@ -34,36 +34,33 @@
 ### imports
 - django/db/models/__init__.py `EXTRACTED`
 - queries/tests.py `EXTRACTED`
-- models/expressions.py `EXTRACTED`
+- expressions.py `EXTRACTED`
 - expressions/tests.py `EXTRACTED`
-- schema/tests.py `EXTRACTED`
-- forms/models.py `EXTRACTED`
 - related.py `EXTRACTED`
-- contenttypes/models.py `EXTRACTED`
 - models/query.py `EXTRACTED`
 - sql/query.py `EXTRACTED`
-- model_fields/test_jsonfield.py `EXTRACTED`
+- schema/tests.py `EXTRACTED`
+- postgres_tests/test_json.py `EXTRACTED`
 - expressions_window/tests.py `EXTRACTED`
-- lookup/tests.py `EXTRACTED`
-- postgres_tests/test_indexes.py `EXTRACTED`
-- test_query.py `EXTRACTED`
-- aggregation/tests.py `EXTRACTED`
-- postgres_tests/test_constraints.py `EXTRACTED`
-- annotations/tests.py `EXTRACTED`
+- generic_relations_regress/tests.py `EXTRACTED`
+- sql/compiler.py `EXTRACTED`
 - distapp/tests.py `EXTRACTED`
-- postgres_tests/test_operations.py `EXTRACTED`
+- aggregation_regress/tests.py `EXTRACTED`
+- postgres_tests/test_indexes.py `EXTRACTED`
+- annotations/tests.py `EXTRACTED`
+- generic_relations/tests.py `EXTRACTED`
+- test_query.py `EXTRACTED`
+- test_rasterfield.py `EXTRACTED`
+- related_descriptors.py `EXTRACTED`
 
 ### method
-- .check() `EXTRACTED`
 - ._combine() `EXTRACTED`
-- .flatten() `EXTRACTED`
-- .deconstruct() `EXTRACTED`
 - .__init__() `EXTRACTED`
 - .__or__() `EXTRACTED`
 - .__and__() `EXTRACTED`
-- .__xor__() `EXTRACTED`
-- .__invert__() `EXTRACTED`
 - .resolve_expression() `EXTRACTED`
+- .deconstruct() `EXTRACTED`
+- .__invert__() `EXTRACTED`
 
 ### rationale_for
 - Encapsulate filters as objects that can then be combined logically (using `&`… `EXTRACTED`
@@ -72,10 +69,12 @@
 - Query `INFERRED`
 - When `INFERRED`
 - QuerySet `INFERRED`
-- Index `INFERRED`
 - Combinable `INFERRED`
+- Index `INFERRED`
 - UniqueConstraint `INFERRED`
-- CheckConstraint `INFERRED`
+- UpdateQuery `INFERRED`
+- SQLDeleteCompiler `INFERRED`
+- DeleteQuery `INFERRED`
 
 ---
 

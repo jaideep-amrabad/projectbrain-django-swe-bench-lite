@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **flatpages/migrations/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/migrations/__init__.py`
+- **SelectFilter2.test.js** (0 connections) — `raw/code/hyd-evaluation/django-django/js_tests/admin/SelectFilter2.test.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/migrations/__init__.py`
+- `raw/code/hyd-evaluation/django-django/js_tests/admin/SelectFilter2.test.js`
 
 ## Audit Trail
 

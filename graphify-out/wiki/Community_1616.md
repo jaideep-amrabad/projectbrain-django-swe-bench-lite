@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **test_add_many_to_many_field_initial/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_add_many_to_many_field_initial/__init__.py`
+- **reserved_names/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_add_many_to_many_field_initial/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/reserved_names/__init__.py`
 
 ## Audit Trail
 

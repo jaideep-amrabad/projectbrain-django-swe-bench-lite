@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **prepopulate_init.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/prepopulate_init.js`
+- **views/decorators/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/prepopulate_init.js`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/__init__.py`
 
 ## Audit Trail
 

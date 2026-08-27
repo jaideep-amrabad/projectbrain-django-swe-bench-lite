@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **test_migrations_no_ancestor/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_no_ancestor/__init__.py`
+- **signed_cookies_tests/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/signed_cookies_tests/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_no_ancestor/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/signed_cookies_tests/__init__.py`
 
 ## Audit Trail
 
