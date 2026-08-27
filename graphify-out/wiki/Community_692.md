@@ -21,7 +21,7 @@
 ## Relationships
 
 - [Community 367](Community_367.md) (3 shared connections)
-- [Community 502](Community_502.md) (3 shared connections)
+- [Community 505](Community_505.md) (3 shared connections)
 - [Community 15](Community_15.md) (1 shared connections)
 
 ## Source Files

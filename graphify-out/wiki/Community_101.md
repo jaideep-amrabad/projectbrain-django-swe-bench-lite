@@ -1,6 +1,6 @@
 # Community 101
 
-> 90 nodes · cohesion 0.04
+> 86 nodes · cohesion 0.04
 
 ## Key Concepts
 
@@ -23,28 +23,28 @@
 - **Product** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
 - **StumpJoke** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
 - **TextFile** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **CustomErrorMessageForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 - **ModelFormWithMedia** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 - **ModelToDictTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 - **BetterWriter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
 - **BigInt** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
 - **ColourfulItem** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- *... and 65 more nodes in this community*
+- **CustomErrorMessage** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- *... and 61 more nodes in this community*
 
 ## Relationships
 
-- [Community 315](Community_315.md) (38 shared connections)
-- [Community 431](Community_431.md) (20 shared connections)
+- [Community 432](Community_432.md) (25 shared connections)
+- [Community 433](Community_433.md) (22 shared connections)
+- [Community 314](Community_314.md) (22 shared connections)
 - [Community 0](Community_0.md) (10 shared connections)
-- [Community 610](Community_610.md) (9 shared connections)
-- [Community 461](Community_461.md) (9 shared connections)
-- [Community 249](Community_249.md) (9 shared connections)
+- [Community 611](Community_611.md) (9 shared connections)
+- [Community 465](Community_465.md) (9 shared connections)
+- [Community 247](Community_247.md) (9 shared connections)
 - [Community 5](Community_5.md) (7 shared connections)
-- [Community 233](Community_233.md) (7 shared connections)
-- [Community 20](Community_20.md) (5 shared connections)
-- [Community 430](Community_430.md) (5 shared connections)
-- [Community 597](Community_597.md) (4 shared connections)
-- [Community 376](Community_376.md) (4 shared connections)
+- [Community 231](Community_231.md) (7 shared connections)
+- [Community 599](Community_599.md) (4 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 375](Community_375.md) (4 shared connections)
 
 ## Source Files
 
@@ -54,7 +54,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 261 (80%)
+- EXTRACTED: 255 (80%)
 - INFERRED: 65 (20%)
 - AMBIGUOUS: 0 (0%)
 

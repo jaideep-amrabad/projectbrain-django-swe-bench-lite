@@ -34,17 +34,17 @@
 ## Relationships
 
 - [Community 305](Community_305.md) (24 shared connections)
-- [Community 70](Community_70.md) (18 shared connections)
-- [Community 150](Community_150.md) (12 shared connections)
-- [Community 258](Community_258.md) (12 shared connections)
-- [Community 601](Community_601.md) (9 shared connections)
-- [Community 521](Community_521.md) (9 shared connections)
-- [Community 602](Community_602.md) (9 shared connections)
-- [Community 603](Community_603.md) (8 shared connections)
+- [Community 69](Community_69.md) (17 shared connections)
+- [Community 149](Community_149.md) (13 shared connections)
+- [Community 257](Community_257.md) (13 shared connections)
+- [Community 524](Community_524.md) (9 shared connections)
+- [Community 603](Community_603.md) (9 shared connections)
+- [Community 602](Community_602.md) (8 shared connections)
+- [Community 604](Community_604.md) (8 shared connections)
 - [Community 570](Community_570.md) (8 shared connections)
 - [Community 14](Community_14.md) (8 shared connections)
 - [Community 6](Community_6.md) (6 shared connections)
-- [Community 780](Community_780.md) (1 shared connections)
+- [Community 803](Community_803.md) (1 shared connections)
 
 ## Source Files
 

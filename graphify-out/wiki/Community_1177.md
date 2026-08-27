@@ -4,12 +4,12 @@
 
 ## Key Concepts
 
-- **.test_foreign_key_delete_nullifies_correct_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **With a model (Researcher) that has two foreign keys pointing to the same model…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- **.test_fk_to_m2m_through()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- **If an M2M relationship has an explicitly-specified through model, and some…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
 
 ## Relationships
 
-- [Community 122](Community_122.md) (1 shared connections)
+- [Community 121](Community_121.md) (1 shared connections)
 
 ## Source Files
 

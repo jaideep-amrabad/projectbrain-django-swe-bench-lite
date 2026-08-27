@@ -20,10 +20,10 @@
 ## Relationships
 
 - [Community 750](Community_750.md) (3 shared connections)
-- [Community 617](Community_617.md) (2 shared connections)
+- [Community 618](Community_618.md) (2 shared connections)
 - [Community 5](Community_5.md) (1 shared connections)
-- [Community 821](Community_821.md) (1 shared connections)
-- [Community 154](Community_154.md) (1 shared connections)
+- [Community 822](Community_822.md) (1 shared connections)
+- [Community 151](Community_151.md) (1 shared connections)
 
 ## Source Files
 

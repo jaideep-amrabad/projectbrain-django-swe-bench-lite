@@ -33,9 +33,10 @@
 
 ## Relationships
 
-- [Community 20](Community_20.md) (7 shared connections)
 - [Community 3](Community_3.md) (4 shared connections)
-- [Community 155](Community_155.md) (1 shared connections)
+- [Community 26](Community_26.md) (4 shared connections)
+- [Community 170](Community_170.md) (3 shared connections)
+- [Community 152](Community_152.md) (1 shared connections)
 
 ## Source Files
 

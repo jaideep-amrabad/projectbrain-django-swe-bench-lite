@@ -20,8 +20,8 @@
 
 - [Community 5](Community_5.md) (3 shared connections)
 - [Community 3](Community_3.md) (1 shared connections)
-- [Community 497](Community_497.md) (1 shared connections)
-- [Community 398](Community_398.md) (1 shared connections)
+- [Community 501](Community_501.md) (1 shared connections)
+- [Community 400](Community_400.md) (1 shared connections)
 - [Community 75](Community_75.md) (1 shared connections)
 
 ## Source Files

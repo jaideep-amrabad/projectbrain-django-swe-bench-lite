@@ -23,8 +23,8 @@
 ## Relationships
 
 - [Community 361](Community_361.md) (9 shared connections)
-- [Community 530](Community_530.md) (4 shared connections)
-- [Community 1049](Community_1049.md) (1 shared connections)
+- [Community 533](Community_533.md) (4 shared connections)
+- [Community 1061](Community_1061.md) (1 shared connections)
 
 ## Source Files
 

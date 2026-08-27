@@ -1,6 +1,6 @@
 # Community 0
 
-> 593 nodes · cohesion 0.01
+> 603 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **get_language()** (40 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
 - **formats.py** (39 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
 - **format_html()** (39 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- *... and 568 more nodes in this community*
+- *... and 578 more nodes in this community*
 
 ## Relationships
 
-- [Community 3](Community_3.md) (176 shared connections)
-- [Community 12](Community_12.md) (146 shared connections)
-- [Community 9](Community_9.md) (123 shared connections)
+- [Community 3](Community_3.md) (229 shared connections)
+- [Community 7](Community_7.md) (127 shared connections)
 - [Community 5](Community_5.md) (121 shared connections)
-- [Community 2](Community_2.md) (71 shared connections)
-- [Community 4](Community_4.md) (64 shared connections)
-- [Community 25](Community_25.md) (63 shared connections)
-- [Community 11](Community_11.md) (61 shared connections)
-- [Community 20](Community_20.md) (47 shared connections)
-- [Community 18](Community_18.md) (45 shared connections)
-- [Community 1](Community_1.md) (43 shared connections)
-- [Community 6](Community_6.md) (41 shared connections)
+- [Community 13](Community_13.md) (112 shared connections)
+- [Community 16](Community_16.md) (91 shared connections)
+- [Community 4](Community_4.md) (78 shared connections)
+- [Community 2](Community_2.md) (73 shared connections)
+- [Community 1](Community_1.md) (57 shared connections)
+- [Community 18](Community_18.md) (41 shared connections)
+- [Community 35](Community_35.md) (40 shared connections)
+- [Community 6](Community_6.md) (40 shared connections)
+- [Community 8](Community_8.md) (40 shared connections)
 
 ## Source Files
 
@@ -71,7 +71,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 3845 (98%)
+- EXTRACTED: 3842 (98%)
 - INFERRED: 81 (2%)
 - AMBIGUOUS: 0 (0%)
 

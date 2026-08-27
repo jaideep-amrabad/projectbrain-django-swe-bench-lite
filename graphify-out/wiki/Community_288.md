@@ -22,7 +22,7 @@
 - **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
 - **Parent** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
 - **.get_queryset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
-- **.test_explicit_swappable_manager()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
+- **.test_swappable_manager()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
 - **OnlyBarney** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
 - **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
 - **OnlyFred** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
@@ -34,14 +34,14 @@
 ## Relationships
 
 - [Community 5](Community_5.md) (6 shared connections)
-- [Community 95](Community_95.md) (4 shared connections)
-- [Community 8](Community_8.md) (4 shared connections)
-- [Community 27](Community_27.md) (4 shared connections)
+- [Community 126](Community_126.md) (4 shared connections)
+- [Community 9](Community_9.md) (4 shared connections)
+- [Community 28](Community_28.md) (4 shared connections)
 - [Community 2](Community_2.md) (3 shared connections)
 - [Community 1](Community_1.md) (2 shared connections)
-- [Community 739](Community_739.md) (2 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
+- [Community 738](Community_738.md) (2 shared connections)
 - [Community 7](Community_7.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
 - [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files

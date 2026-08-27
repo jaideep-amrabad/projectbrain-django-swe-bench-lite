@@ -22,11 +22,11 @@
 
 ## Relationships
 
-- [Community 7](Community_7.md) (7 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 867](Community_867.md) (1 shared connections)
-- [Community 142](Community_142.md) (1 shared connections)
+- [Community 8](Community_8.md) (7 shared connections)
+- [Community 170](Community_170.md) (2 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 869](Community_869.md) (1 shared connections)
+- [Community 141](Community_141.md) (1 shared connections)
 
 ## Source Files
 

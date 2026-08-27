@@ -1,6 +1,6 @@
 # Community 31
 
-> 184 nodes · cohesion 0.02
+> 185 nodes · cohesion 0.02
 
 ## Key Concepts
 
@@ -22,34 +22,35 @@
 - **postgres/fields/__init__.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/__init__.py`
 - **test_json_deprecation.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json_deprecation.py`
 - **HStoreModel** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **postgres/constraints.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
 - **fields/jsonb.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
 - **postgres/forms/__init__.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/__init__.py`
 - **postgres_tests/test_bulk_update.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_bulk_update.py`
 - **CITextTestCase** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
 - **postgres_tests/test_functions.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_functions.py`
 - **postgres_tests/fields.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
-- **NullableIntegerArrayModel** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- *... and 159 more nodes in this community*
+- *... and 160 more nodes in this community*
 
 ## Relationships
 
-- [Community 5](Community_5.md) (31 shared connections)
-- [Community 54](Community_54.md) (27 shared connections)
+- [Community 5](Community_5.md) (32 shared connections)
+- [Community 53](Community_53.md) (27 shared connections)
 - [Community 1](Community_1.md) (21 shared connections)
-- [Community 92](Community_92.md) (15 shared connections)
+- [Community 25](Community_25.md) (15 shared connections)
 - [Community 0](Community_0.md) (15 shared connections)
-- [Community 47](Community_47.md) (14 shared connections)
-- [Community 335](Community_335.md) (13 shared connections)
+- [Community 46](Community_46.md) (14 shared connections)
+- [Community 336](Community_336.md) (13 shared connections)
 - [Community 2](Community_2.md) (12 shared connections)
-- [Community 67](Community_67.md) (10 shared connections)
-- [Community 654](Community_654.md) (10 shared connections)
-- [Community 27](Community_27.md) (10 shared connections)
-- [Community 3](Community_3.md) (9 shared connections)
+- [Community 272](Community_272.md) (11 shared connections)
+- [Community 106](Community_106.md) (10 shared connections)
+- [Community 656](Community_656.md) (10 shared connections)
+- [Community 28](Community_28.md) (10 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/contrib/postgres/__init__.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/__init__.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
@@ -67,11 +68,10 @@
 - `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
 - `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_functions.py`
 - `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_integration.py`
 
 ## Audit Trail
 
-- EXTRACTED: 651 (92%)
+- EXTRACTED: 662 (92%)
 - INFERRED: 56 (8%)
 - AMBIGUOUS: 0 (0%)
 

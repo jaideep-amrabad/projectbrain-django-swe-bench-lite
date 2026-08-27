@@ -22,10 +22,10 @@
 - [Community 2](Community_2.md) (2 shared connections)
 - [Community 0](Community_0.md) (2 shared connections)
 - [Community 688](Community_688.md) (2 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 588](Community_588.md) (1 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 590](Community_590.md) (1 shared connections)
 - [Community 5](Community_5.md) (1 shared connections)
-- [Community 587](Community_587.md) (1 shared connections)
+- [Community 589](Community_589.md) (1 shared connections)
 
 ## Source Files
 

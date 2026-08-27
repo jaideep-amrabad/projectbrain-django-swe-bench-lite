@@ -22,7 +22,7 @@
 
 - [Community 36](Community_36.md) (6 shared connections)
 - [Community 0](Community_0.md) (2 shared connections)
-- [Community 394](Community_394.md) (1 shared connections)
+- [Community 396](Community_396.md) (1 shared connections)
 
 ## Source Files
 

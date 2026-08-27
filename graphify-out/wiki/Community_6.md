@@ -1,6 +1,6 @@
 # Community 6
 
-> 324 nodes · cohesion 0.01
+> 336 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -27,24 +27,24 @@
 - **CommandParser** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
 - **compilemessages.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/compilemessages.py`
 - **dumpdata.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/dumpdata.py`
+- **Command** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
 - **is_ignored_path()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
-- **BaseDatabaseValidation** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/validation.py`
-- *... and 299 more nodes in this community*
+- *... and 311 more nodes in this community*
 
 ## Relationships
 
-- [Community 3](Community_3.md) (42 shared connections)
-- [Community 0](Community_0.md) (41 shared connections)
-- [Community 20](Community_20.md) (35 shared connections)
-- [Community 10](Community_10.md) (33 shared connections)
-- [Community 1](Community_1.md) (25 shared connections)
-- [Community 23](Community_23.md) (16 shared connections)
+- [Community 3](Community_3.md) (81 shared connections)
+- [Community 0](Community_0.md) (40 shared connections)
+- [Community 1](Community_1.md) (30 shared connections)
+- [Community 116](Community_116.md) (18 shared connections)
+- [Community 413](Community_413.md) (16 shared connections)
 - [Community 5](Community_5.md) (16 shared connections)
-- [Community 150](Community_150.md) (15 shared connections)
-- [Community 27](Community_27.md) (14 shared connections)
+- [Community 149](Community_149.md) (15 shared connections)
+- [Community 28](Community_28.md) (14 shared connections)
 - [Community 14](Community_14.md) (12 shared connections)
-- [Community 51](Community_51.md) (12 shared connections)
-- [Community 226](Community_226.md) (11 shared connections)
+- [Community 50](Community_50.md) (12 shared connections)
+- [Community 2](Community_2.md) (11 shared connections)
+- [Community 224](Community_224.md) (11 shared connections)
 
 ## Source Files
 
@@ -53,6 +53,7 @@
 - `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/ogrinspect.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/sessions/management/commands/clearsessions.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/findstatic.py`
 - `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
 - `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
 - `raw/code/hyd-evaluation/django-django/django/core/management/color.py`
@@ -64,15 +65,14 @@
 - `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
 - `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
 - `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
 - `raw/code/hyd-evaluation/django-django/django/core/management/commands/sendtestemail.py`
 - `raw/code/hyd-evaluation/django-django/django/core/management/commands/shell.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/sqlmigrate.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/startapp.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1062 (98%)
-- INFERRED: 27 (2%)
+- EXTRACTED: 1080 (97%)
+- INFERRED: 29 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---
