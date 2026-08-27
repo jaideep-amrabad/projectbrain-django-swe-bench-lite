@@ -1,6 +1,6 @@
 # Community 186
 
-> 48 nodes · cohesion 0.07
+> 62 nodes · cohesion 0.05
 
 ## Key Concepts
 
@@ -24,27 +24,27 @@
 - **.test_filefield_pickling()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 - **.test_pathlib_upload_to()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 - **.test_random_upload_to()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_content_file_custom_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_content_file_input_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_size_changing_after_writing()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_file_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_filefield_read()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- *... and 23 more nodes in this community*
+- **.test_file_chunks_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_file_get_accessed_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_file_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_file_save_without_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_listdir()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- *... and 37 more nodes in this community*
 
 ## Relationships
 
-- [Community 163](Community_163.md) (14 shared connections)
-- [Community 0](Community_0.md) (10 shared connections)
-- [Community 205](Community_205.md) (5 shared connections)
-- [Community 118](Community_118.md) (4 shared connections)
-- [Community 5](Community_5.md) (4 shared connections)
-- [Community 308](Community_308.md) (2 shared connections)
-- [Community 1108](Community_1108.md) (2 shared connections)
+- [Community 161](Community_161.md) (14 shared connections)
+- [Community 39](Community_39.md) (10 shared connections)
+- [Community 206](Community_206.md) (5 shared connections)
+- [Community 119](Community_119.md) (4 shared connections)
+- [Community 7](Community_7.md) (4 shared connections)
+- [Community 304](Community_304.md) (2 shared connections)
+- [Community 1148](Community_1148.md) (2 shared connections)
 - [Community 192](Community_192.md) (2 shared connections)
-- [Community 310](Community_310.md) (2 shared connections)
-- [Community 239](Community_239.md) (1 shared connections)
-- [Community 1050](Community_1050.md) (1 shared connections)
-- [Community 564](Community_564.md) (1 shared connections)
+- [Community 306](Community_306.md) (2 shared connections)
+- [Community 153](Community_153.md) (1 shared connections)
+- [Community 1043](Community_1043.md) (1 shared connections)
+- [Community 561](Community_561.md) (1 shared connections)
 
 ## Source Files
 
@@ -55,7 +55,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 126 (98%)
+- EXTRACTED: 140 (98%)
 - INFERRED: 3 (2%)
 - AMBIGUOUS: 0 (0%)
 

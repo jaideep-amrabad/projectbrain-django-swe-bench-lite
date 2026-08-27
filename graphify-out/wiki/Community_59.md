@@ -1,6 +1,6 @@
 # Community 59
 
-> 127 nodes · cohesion 0.02
+> 125 nodes · cohesion 0.02
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **BuildAbsoluteURITests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
 - **.test_get_current_site_host_with_trailing_dot()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
 - **.build_absolute_uri()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- *... and 102 more nodes in this community*
+- *... and 100 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (33 shared connections)
-- [Community 5](Community_5.md) (23 shared connections)
-- [Community 2](Community_2.md) (18 shared connections)
-- [Community 1](Community_1.md) (15 shared connections)
-- [Community 23](Community_23.md) (14 shared connections)
-- [Community 109](Community_109.md) (7 shared connections)
-- [Community 3](Community_3.md) (7 shared connections)
-- [Community 79](Community_79.md) (6 shared connections)
-- [Community 131](Community_131.md) (3 shared connections)
+- [Community 6](Community_6.md) (32 shared connections)
+- [Community 7](Community_7.md) (23 shared connections)
+- [Community 3](Community_3.md) (17 shared connections)
+- [Community 0](Community_0.md) (15 shared connections)
+- [Community 14](Community_14.md) (14 shared connections)
+- [Community 96](Community_96.md) (7 shared connections)
+- [Community 110](Community_110.md) (7 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 359](Community_359.md) (3 shared connections)
 - [Community 174](Community_174.md) (3 shared connections)
-- [Community 158](Community_158.md) (3 shared connections)
-- [Community 258](Community_258.md) (2 shared connections)
+- [Community 155](Community_155.md) (3 shared connections)
 
 ## Source Files
 
@@ -65,7 +65,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 329 (97%)
+- EXTRACTED: 326 (97%)
 - INFERRED: 9 (3%)
 - AMBIGUOUS: 0 (0%)
 
