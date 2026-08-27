@@ -1,6 +1,6 @@
 # Community 1
 
-> 424 nodes · cohesion 0.01
+> 437 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **admin/sites.py** (48 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
 - **quote()** (48 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
 - **resolvers.py** (48 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
-- *... and 399 more nodes in this community*
+- *... and 412 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (157 shared connections)
-- [Community 222](Community_222.md) (137 shared connections)
-- [Community 6](Community_6.md) (114 shared connections)
-- [Community 10](Community_10.md) (113 shared connections)
-- [Community 8](Community_8.md) (99 shared connections)
-- [Community 13](Community_13.md) (93 shared connections)
-- [Community 24](Community_24.md) (91 shared connections)
-- [Community 595](Community_595.md) (85 shared connections)
-- [Community 17](Community_17.md) (79 shared connections)
-- [Community 135](Community_135.md) (78 shared connections)
-- [Community 4](Community_4.md) (75 shared connections)
-- [Community 9](Community_9.md) (68 shared connections)
+- [Community 2](Community_2.md) (159 shared connections)
+- [Community 93](Community_93.md) (143 shared connections)
+- [Community 12](Community_12.md) (113 shared connections)
+- [Community 23](Community_23.md) (98 shared connections)
+- [Community 4](Community_4.md) (98 shared connections)
+- [Community 3](Community_3.md) (98 shared connections)
+- [Community 9](Community_9.md) (95 shared connections)
+- [Community 10](Community_10.md) (88 shared connections)
+- [Community 14](Community_14.md) (81 shared connections)
+- [Community 8](Community_8.md) (80 shared connections)
+- [Community 597](Community_597.md) (74 shared connections)
+- [Community 18](Community_18.md) (74 shared connections)
 
 ## Source Files
 
@@ -55,6 +55,7 @@
 - `raw/code/hyd-evaluation/django-django/django/contrib/admin/actions.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/admin/forms.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
@@ -67,12 +68,11 @@
 - `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/middleware.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/admin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4072 (97%)
-- INFERRED: 134 (3%)
+- EXTRACTED: 4103 (97%)
+- INFERRED: 138 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -29,12 +29,12 @@
 
 ## Relationships
 
-- [Community 354](Community_354.md) (9 shared connections)
+- [Community 353](Community_353.md) (9 shared connections)
 - [Community 472](Community_472.md) (7 shared connections)
-- [Community 19](Community_19.md) (2 shared connections)
+- [Community 22](Community_22.md) (2 shared connections)
 - [Community 26](Community_26.md) (1 shared connections)
-- [Community 830](Community_830.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
+- [Community 826](Community_826.md) (1 shared connections)
+- [Community 39](Community_39.md) (1 shared connections)
 
 ## Source Files
 

@@ -1,6 +1,6 @@
 # Community 30
 
-> 155 nodes · cohesion 0.02
+> 158 nodes · cohesion 0.02
 
 ## Key Concepts
 
@@ -14,6 +14,7 @@
 - **LayerMapError** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
 - **utils/ogrinspect.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
 - **layermap/models.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
+- **gis/utils/__init__.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/__init__.py`
 - **OFTInteger** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
 - **.__init__()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
 - **NamedModel** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
@@ -27,30 +28,31 @@
 - **OFTString** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
 - **.check_layer()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
 - **.feature_kwargs()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **City** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
-- **ICity1** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
-- *... and 130 more nodes in this community*
+- **mapping()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
+- *... and 133 more nodes in this community*
 
 ## Relationships
 
-- [Community 32](Community_32.md) (27 shared connections)
-- [Community 790](Community_790.md) (15 shared connections)
-- [Community 817](Community_817.md) (6 shared connections)
-- [Community 29](Community_29.md) (4 shared connections)
-- [Community 122](Community_122.md) (3 shared connections)
-- [Community 85](Community_85.md) (3 shared connections)
-- [Community 40](Community_40.md) (3 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 222](Community_222.md) (3 shared connections)
-- [Community 58](Community_58.md) (3 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 275](Community_275.md) (3 shared connections)
+- [Community 33](Community_33.md) (26 shared connections)
+- [Community 788](Community_788.md) (16 shared connections)
+- [Community 815](Community_815.md) (6 shared connections)
+- [Community 10](Community_10.md) (4 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 72](Community_72.md) (4 shared connections)
+- [Community 93](Community_93.md) (4 shared connections)
+- [Community 58](Community_58.md) (4 shared connections)
+- [Community 123](Community_123.md) (3 shared connections)
+- [Community 86](Community_86.md) (3 shared connections)
+- [Community 42](Community_42.md) (3 shared connections)
+- [Community 59](Community_59.md) (3 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/__init__.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/srs.py`
 - `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
 - `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
@@ -59,7 +61,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 354 (92%)
+- EXTRACTED: 371 (92%)
 - INFERRED: 31 (8%)
 - AMBIGUOUS: 0 (0%)
 

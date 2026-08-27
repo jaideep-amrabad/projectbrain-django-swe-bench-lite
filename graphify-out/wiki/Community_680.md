@@ -22,9 +22,9 @@
 ## Relationships
 
 - [Community 339](Community_339.md) (5 shared connections)
-- [Community 504](Community_504.md) (3 shared connections)
-- [Community 293](Community_293.md) (1 shared connections)
-- [Community 960](Community_960.md) (1 shared connections)
+- [Community 505](Community_505.md) (3 shared connections)
+- [Community 294](Community_294.md) (1 shared connections)
+- [Community 956](Community_956.md) (1 shared connections)
 
 ## Source Files
 

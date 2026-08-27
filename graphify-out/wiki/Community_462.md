@@ -30,9 +30,9 @@
 
 ## Relationships
 
-- [Community 277](Community_277.md) (13 shared connections)
-- [Community 19](Community_19.md) (4 shared connections)
-- [Community 222](Community_222.md) (1 shared connections)
+- [Community 278](Community_278.md) (13 shared connections)
+- [Community 22](Community_22.md) (4 shared connections)
+- [Community 93](Community_93.md) (1 shared connections)
 - [Community 323](Community_323.md) (1 shared connections)
 - [Community 2](Community_2.md) (1 shared connections)
 

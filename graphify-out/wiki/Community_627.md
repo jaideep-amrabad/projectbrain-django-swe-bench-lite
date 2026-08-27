@@ -22,11 +22,11 @@
 
 ## Relationships
 
-- [Community 507](Community_507.md) (4 shared connections)
 - [Community 508](Community_508.md) (4 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 236](Community_236.md) (1 shared connections)
-- [Community 522](Community_522.md) (1 shared connections)
+- [Community 509](Community_509.md) (4 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 237](Community_237.md) (1 shared connections)
+- [Community 523](Community_523.md) (1 shared connections)
 
 ## Source Files
 

@@ -29,13 +29,13 @@
 
 ## Relationships
 
-- [Community 188](Community_188.md) (3 shared connections)
+- [Community 189](Community_189.md) (3 shared connections)
 - [Community 628](Community_628.md) (2 shared connections)
-- [Community 761](Community_761.md) (2 shared connections)
+- [Community 759](Community_759.md) (2 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
-- [Community 59](Community_59.md) (1 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
-- [Community 385](Community_385.md) (1 shared connections)
+- [Community 61](Community_61.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 384](Community_384.md) (1 shared connections)
 
 ## Source Files
 

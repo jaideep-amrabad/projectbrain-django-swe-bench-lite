@@ -22,7 +22,7 @@
 
 ## Relationships
 
-- [Community 717](Community_717.md) (4 shared connections)
+- [Community 713](Community_713.md) (4 shared connections)
 - [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files

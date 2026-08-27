@@ -29,10 +29,10 @@
 
 ## Relationships
 
-- [Community 278](Community_278.md) (5 shared connections)
+- [Community 279](Community_279.md) (5 shared connections)
 - [Community 1](Community_1.md) (2 shared connections)
-- [Community 802](Community_802.md) (1 shared connections)
-- [Community 898](Community_898.md) (1 shared connections)
+- [Community 810](Community_810.md) (1 shared connections)
+- [Community 918](Community_918.md) (1 shared connections)
 - [Community 604](Community_604.md) (1 shared connections)
 - [Community 2](Community_2.md) (1 shared connections)
 

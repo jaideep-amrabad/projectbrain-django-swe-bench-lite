@@ -26,8 +26,8 @@
 - [Community 430](Community_430.md) (2 shared connections)
 - [Community 26](Community_26.md) (2 shared connections)
 - [Community 2](Community_2.md) (2 shared connections)
-- [Community 380](Community_380.md) (1 shared connections)
-- [Community 317](Community_317.md) (1 shared connections)
+- [Community 379](Community_379.md) (1 shared connections)
+- [Community 316](Community_316.md) (1 shared connections)
 
 ## Source Files
 

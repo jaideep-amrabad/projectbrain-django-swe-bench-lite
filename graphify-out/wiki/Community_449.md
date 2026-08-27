@@ -31,8 +31,8 @@
 
 ## Relationships
 
-- [Community 50](Community_50.md) (2 shared connections)
-- [Community 365](Community_365.md) (2 shared connections)
+- [Community 51](Community_51.md) (2 shared connections)
+- [Community 389](Community_389.md) (2 shared connections)
 - [Community 2](Community_2.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
 

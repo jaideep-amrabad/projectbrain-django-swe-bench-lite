@@ -21,10 +21,10 @@
 
 ## Relationships
 
-- [Community 75](Community_75.md) (1 shared connections)
-- [Community 44](Community_44.md) (1 shared connections)
+- [Community 77](Community_77.md) (1 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
 - [Community 2](Community_2.md) (1 shared connections)
-- [Community 55](Community_55.md) (1 shared connections)
+- [Community 56](Community_56.md) (1 shared connections)
 
 ## Source Files
 
