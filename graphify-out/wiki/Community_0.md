@@ -1,6 +1,6 @@
 # Community 0
 
-> 926 nodes · cohesion 0.00
+> 917 nodes · cohesion 0.00
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **postgres_tests/test_operations.py** (40 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
 - **operations/models.py** (39 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
 - **query_utils.py** (38 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- *... and 901 more nodes in this community*
+- *... and 892 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (411 shared connections)
-- [Community 60](Community_60.md) (156 shared connections)
-- [Community 5](Community_5.md) (113 shared connections)
-- [Community 9](Community_9.md) (110 shared connections)
-- [Community 15](Community_15.md) (104 shared connections)
-- [Community 18](Community_18.md) (72 shared connections)
-- [Community 2](Community_2.md) (72 shared connections)
-- [Community 20](Community_20.md) (53 shared connections)
-- [Community 8](Community_8.md) (44 shared connections)
-- [Community 51](Community_51.md) (44 shared connections)
-- [Community 146](Community_146.md) (37 shared connections)
-- [Community 171](Community_171.md) (37 shared connections)
+- [Community 1](Community_1.md) (407 shared connections)
+- [Community 56](Community_56.md) (157 shared connections)
+- [Community 6](Community_6.md) (109 shared connections)
+- [Community 19](Community_19.md) (103 shared connections)
+- [Community 17](Community_17.md) (74 shared connections)
+- [Community 10](Community_10.md) (74 shared connections)
+- [Community 50](Community_50.md) (60 shared connections)
+- [Community 2](Community_2.md) (56 shared connections)
+- [Community 8](Community_8.md) (53 shared connections)
+- [Community 11](Community_11.md) (43 shared connections)
+- [Community 33](Community_33.md) (41 shared connections)
+- [Community 18](Community_18.md) (39 shared connections)
 
 ## Source Files
 
@@ -71,7 +71,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 5224 (98%)
+- EXTRACTED: 5168 (98%)
 - INFERRED: 94 (2%)
 - AMBIGUOUS: 0 (0%)
 

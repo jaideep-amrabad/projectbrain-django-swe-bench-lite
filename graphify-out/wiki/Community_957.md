@@ -16,8 +16,8 @@
 
 - [Community 1](Community_1.md) (4 shared connections)
 - [Community 330](Community_330.md) (3 shared connections)
-- [Community 428](Community_428.md) (2 shared connections)
-- [Community 685](Community_685.md) (2 shared connections)
+- [Community 427](Community_427.md) (2 shared connections)
+- [Community 682](Community_682.md) (2 shared connections)
 
 ## Source Files
 

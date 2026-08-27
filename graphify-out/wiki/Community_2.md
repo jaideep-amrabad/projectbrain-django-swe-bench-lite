@@ -1,6 +1,6 @@
 # Community 2
 
-> 706 nodes · cohesion 0.01
+> 586 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **urlpatterns_reverse/views.py** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/views.py`
 - **django/shortcuts.py** (34 connections) — `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
 - **middleware/tests.py** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- *... and 681 more nodes in this community*
+- *... and 561 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (215 shared connections)
-- [Community 60](Community_60.md) (147 shared connections)
-- [Community 5](Community_5.md) (106 shared connections)
-- [Community 48](Community_48.md) (95 shared connections)
-- [Community 0](Community_0.md) (72 shared connections)
-- [Community 8](Community_8.md) (68 shared connections)
-- [Community 52](Community_52.md) (67 shared connections)
-- [Community 146](Community_146.md) (62 shared connections)
-- [Community 17](Community_17.md) (48 shared connections)
-- [Community 3](Community_3.md) (39 shared connections)
-- [Community 7](Community_7.md) (37 shared connections)
-- [Community 57](Community_57.md) (36 shared connections)
+- [Community 1](Community_1.md) (192 shared connections)
+- [Community 56](Community_56.md) (142 shared connections)
+- [Community 6](Community_6.md) (99 shared connections)
+- [Community 47](Community_47.md) (92 shared connections)
+- [Community 51](Community_51.md) (67 shared connections)
+- [Community 145](Community_145.md) (60 shared connections)
+- [Community 0](Community_0.md) (56 shared connections)
+- [Community 11](Community_11.md) (50 shared connections)
+- [Community 16](Community_16.md) (44 shared connections)
+- [Community 94](Community_94.md) (36 shared connections)
+- [Community 17](Community_17.md) (36 shared connections)
+- [Community 9](Community_9.md) (31 shared connections)
 
 ## Source Files
 
@@ -71,8 +71,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 3402 (98%)
-- INFERRED: 61 (2%)
+- EXTRACTED: 3077 (98%)
+- INFERRED: 50 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

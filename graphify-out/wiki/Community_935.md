@@ -19,10 +19,10 @@
 
 ## Relationships
 
-- [Community 934](Community_934.md) (3 shared connections)
-- [Community 1185](Community_1185.md) (2 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
+- [Community 933](Community_933.md) (3 shared connections)
+- [Community 1147](Community_1147.md) (2 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
 
 ## Source Files
 

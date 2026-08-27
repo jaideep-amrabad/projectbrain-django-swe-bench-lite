@@ -19,10 +19,10 @@
 ## Relationships
 
 - [Community 0](Community_0.md) (8 shared connections)
-- [Community 488](Community_488.md) (7 shared connections)
-- [Community 773](Community_773.md) (2 shared connections)
-- [Community 1084](Community_1084.md) (1 shared connections)
-- [Community 505](Community_505.md) (1 shared connections)
+- [Community 485](Community_485.md) (7 shared connections)
+- [Community 769](Community_769.md) (2 shared connections)
+- [Community 1082](Community_1082.md) (1 shared connections)
+- [Community 501](Community_501.md) (1 shared connections)
 
 ## Source Files
 

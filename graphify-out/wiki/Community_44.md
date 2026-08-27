@@ -1,6 +1,6 @@
 # Community 44
 
-> 95 nodes · cohesion 0.04
+> 99 nodes · cohesion 0.04
 
 ## Key Concepts
 
@@ -26,28 +26,29 @@
 - **check_predicate()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/errcheck.py`
 - **check_sized_string()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/errcheck.py`
 - **geos_char_p** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/geom.py`
+- **_WKTReader** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
 - **GEOSContextHandle** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/threadsafe.py`
 - **Structure** (4 connections)
-- **CsOperation** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/coordseq.py`
-- *... and 70 more nodes in this community*
+- *... and 74 more nodes in this community*
 
 ## Relationships
 
-- [Community 33](Community_33.md) (39 shared connections)
+- [Community 31](Community_31.md) (34 shared connections)
+- [Community 112](Community_112.md) (6 shared connections)
 - [Community 0](Community_0.md) (4 shared connections)
 - [Community 1](Community_1.md) (4 shared connections)
-- [Community 29](Community_29.md) (4 shared connections)
-- [Community 47](Community_47.md) (2 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 60](Community_60.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
+- [Community 27](Community_27.md) (4 shared connections)
+- [Community 876](Community_876.md) (3 shared connections)
+- [Community 46](Community_46.md) (3 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 56](Community_56.md) (1 shared connections)
+- [Community 68](Community_68.md) (1 shared connections)
 - [Community 53](Community_53.md) (1 shared connections)
-- [Community 725](Community_725.md) (1 shared connections)
-- [Community 37](Community_37.md) (1 shared connections)
-- [Community 304](Community_304.md) (1 shared connections)
+- [Community 722](Community_722.md) (1 shared connections)
 
 ## Source Files
 
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/libgeos.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/coordseq.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/errcheck.py`
@@ -61,8 +62,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 215 (93%)
-- INFERRED: 15 (7%)
+- EXTRACTED: 224 (94%)
+- INFERRED: 15 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---
