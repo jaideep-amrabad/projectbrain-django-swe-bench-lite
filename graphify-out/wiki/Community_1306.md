@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **tests/decorators/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/__init__.py`
+- **fixtures_regress/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/decorators/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/__init__.py`
 
 ## Audit Trail
 

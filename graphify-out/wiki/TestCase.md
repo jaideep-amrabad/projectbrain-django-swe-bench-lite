@@ -1,8 +1,8 @@
 # TestCase
 
-> God node · 956 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+> God node · 957 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
-**Community:** [Community 27](Community_27.md)
+**Community:** [Community 29](Community_29.md)
 
 ## Connections by Relation
 
@@ -24,10 +24,10 @@
 - admin_filters/tests.py `EXTRACTED`
 - urlpatterns_reverse/tests.py `EXTRACTED`
 - admin_inlines/tests.py `EXTRACTED`
-- fixtures_regress/tests.py `EXTRACTED`
 - admin_scripts/tests.py `EXTRACTED`
-- test_client_regress/tests.py `EXTRACTED`
+- fixtures_regress/tests.py `EXTRACTED`
 - prefetch_related/tests.py `EXTRACTED`
+- test_client_regress/tests.py `EXTRACTED`
 - timezones/tests.py `EXTRACTED`
 - auth_tests/test_forms.py `EXTRACTED`
 
@@ -47,11 +47,11 @@
 - ModelInheritanceTest `EXTRACTED`
 - TestInline `EXTRACTED`
 - GenericRelationTests `EXTRACTED`
+- LookupTests `EXTRACTED`
 - ManyToOneTests `EXTRACTED`
 - OneToOneTests `EXTRACTED`
 - NonAggregateAnnotationTestCase `EXTRACTED`
 - PostgreSQLTestCase `EXTRACTED`
-- ProxyModelTests `EXTRACTED`
 
 ### method
 - .setUpClass() `EXTRACTED`
