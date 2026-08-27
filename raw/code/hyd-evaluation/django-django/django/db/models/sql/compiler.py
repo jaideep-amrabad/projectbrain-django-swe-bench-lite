@@ -1,6 +1,5 @@
 import collections
 import re
-import warnings
 from itertools import chain
 
 from django.core.exceptions import EmptyResultSet, FieldError
@@ -14,7 +13,6 @@ from django.db.models.sql.constants import (
 from django.db.models.sql.query import Query, get_order_dir
 from django.db.transaction import TransactionManagementError
 from django.db.utils import DatabaseError, NotSupportedError
-from django.utils.deprecation import RemovedInDjango31Warning
 from django.utils.hashable import make_hashable
 
 
@@ -171,7 +169,11 @@ class SQLCompiler:
             # database views on which the optimization might not be allowed.
             pks = {
                 expr for expr in expressions
-                if hasattr(expr, 'target') and expr.target.primary_key and expr.target.model._meta.managed
+                if (
+                    hasattr(expr, 'target') and
+                    expr.target.primary_key and
+                    self.connection.features.allows_group_by_selected_pks_on_model(expr.target.model)
+                )
             }
             aliases = {expr.alias for expr in pks}
             expressions = [
@@ -561,17 +563,7 @@ class SQLCompiler:
                     order_by = order_by or self.connection.ops.force_no_ordering()
                     result.append('GROUP BY %s' % ', '.join(grouping))
                     if self._meta_ordering:
-                        # When the deprecation ends, replace with:
-                        # order_by = None
-                        warnings.warn(
-                            "%s QuerySet won't use Meta.ordering in Django 3.1. "
-                            "Add .order_by(%s) to retain the current query." % (
-                                self.query.model.__name__,
-                                ', '.join(repr(f) for f in self._meta_ordering),
-                            ),
-                            RemovedInDjango31Warning,
-                            stacklevel=4,
-                        )
+                        order_by = None
                 if having:
                     result.append('HAVING %s' % having)
                     params.extend(h_params)
@@ -1159,7 +1151,7 @@ class SQLCompiler:
 
 
 class SQLInsertCompiler(SQLCompiler):
-    return_id = False
+    returning_fields = None
 
     def field_as_sql(self, field, val):
         """
@@ -1290,14 +1282,14 @@ class SQLInsertCompiler(SQLCompiler):
         # queries and generate their own placeholders. Doing that isn't
         # necessary and it should be possible to use placeholders and
         # expressions in bulk inserts too.
-        can_bulk = (not self.return_id and self.connection.features.has_bulk_insert)
+        can_bulk = (not self.returning_fields and self.connection.features.has_bulk_insert)
 
         placeholder_rows, param_rows = self.assemble_as_sql(fields, value_rows)
 
         ignore_conflicts_suffix_sql = self.connection.ops.ignore_conflicts_suffix_sql(
             ignore_conflicts=self.query.ignore_conflicts
         )
-        if self.return_id and self.connection.features.can_return_columns_from_insert:
+        if self.returning_fields and self.connection.features.can_return_columns_from_insert:
             if self.connection.features.can_return_rows_from_bulk_insert:
                 result.append(self.connection.ops.bulk_insert_sql(fields, placeholder_rows))
                 params = param_rows
@@ -1306,12 +1298,11 @@ class SQLInsertCompiler(SQLCompiler):
                 params = [param_rows[0]]
             if ignore_conflicts_suffix_sql:
                 result.append(ignore_conflicts_suffix_sql)
-            col = "%s.%s" % (qn(opts.db_table), qn(opts.pk.column))
-            r_fmt, r_params = self.connection.ops.return_insert_id(opts.pk)
-            # Skip empty r_fmt to allow subclasses to customize behavior for
+            # Skip empty r_sql to allow subclasses to customize behavior for
             # 3rd party backends. Refs #19096.
-            if r_fmt:
-                result.append(r_fmt % col)
+            r_sql, r_params = self.connection.ops.return_insert_columns(self.returning_fields)
+            if r_sql:
+                result.append(r_sql)
                 params += [r_params]
             return [(" ".join(result), tuple(chain.from_iterable(params)))]
 
@@ -1328,25 +1319,33 @@ class SQLInsertCompiler(SQLCompiler):
                 for p, vals in zip(placeholder_rows, param_rows)
             ]
 
-    def execute_sql(self, return_id=False):
+    def execute_sql(self, returning_fields=None):
         assert not (
-            return_id and len(self.query.objs) != 1 and
+            returning_fields and len(self.query.objs) != 1 and
             not self.connection.features.can_return_rows_from_bulk_insert
         )
-        self.return_id = return_id
+        self.returning_fields = returning_fields
         with self.connection.cursor() as cursor:
             for sql, params in self.as_sql():
                 cursor.execute(sql, params)
-            if not return_id:
-                return
+            if not self.returning_fields:
+                return []
             if self.connection.features.can_return_rows_from_bulk_insert and len(self.query.objs) > 1:
-                return self.connection.ops.fetch_returned_insert_ids(cursor)
+                return self.connection.ops.fetch_returned_insert_rows(cursor)
             if self.connection.features.can_return_columns_from_insert:
+                if (
+                    len(self.returning_fields) > 1 and
+                    not self.connection.features.can_return_multiple_columns_from_insert
+                ):
+                    raise NotSupportedError(
+                        'Returning multiple columns from INSERT statements is '
+                        'not supported on this database backend.'
+                    )
                 assert len(self.query.objs) == 1
-                return self.connection.ops.fetch_returned_insert_id(cursor)
-            return self.connection.ops.last_insert_id(
+                return self.connection.ops.fetch_returned_insert_columns(cursor)
+            return [self.connection.ops.last_insert_id(
                 cursor, self.query.get_meta().db_table, self.query.get_meta().pk.column
-            )
+            )]
 
 
 class SQLDeleteCompiler(SQLCompiler):

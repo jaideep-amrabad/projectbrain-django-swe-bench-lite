@@ -23,6 +23,7 @@ class BaseDatabaseFeatures:
 
     can_use_chunked_reads = True
     can_return_columns_from_insert = False
+    can_return_multiple_columns_from_insert = False
     can_return_rows_from_bulk_insert = False
     has_bulk_insert = True
     uses_savepoints = True
@@ -312,3 +313,8 @@ class BaseDatabaseFeatures:
             count, = cursor.fetchone()
             cursor.execute('DROP TABLE ROLLBACK_TEST')
         return count == 0
+
+    def allows_group_by_selected_pks_on_model(self, model):
+        if not self.allows_group_by_selected_pks:
+            return False
+        return model._meta.managed
