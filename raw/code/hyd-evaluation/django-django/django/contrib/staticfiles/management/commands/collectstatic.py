@@ -3,6 +3,7 @@ import os
 from django.apps import apps
 from django.contrib.staticfiles.finders import get_finders
 from django.contrib.staticfiles.storage import staticfiles_storage
+from django.core.checks import Tags
 from django.core.files.storage import FileSystemStorage
 from django.core.management.base import BaseCommand, CommandError
 from django.core.management.color import no_style
@@ -35,6 +36,10 @@ class Command(BaseCommand):
         return True
 
     def add_arguments(self, parser):
+        parser.add_argument(
+            '--skip-checks', action='store_true',
+            help='Skip system checks.',
+        )
         parser.add_argument(
             '--noinput', '--no-input', action='store_false', dest='interactive',
             help="Do NOT prompt the user for input of any kind.",
@@ -146,6 +151,8 @@ class Command(BaseCommand):
 
     def handle(self, **options):
         self.set_options(**options)
+        if not options['skip_checks']:
+            self.check(tags=[Tags.staticfiles])
 
         message = ['\n']
         if self.dry_run:
@@ -185,14 +192,15 @@ class Command(BaseCommand):
                 raise CommandError("Collecting static files cancelled.")
 
         collected = self.collect()
-        modified_count = len(collected['modified'])
-        unmodified_count = len(collected['unmodified'])
-        post_processed_count = len(collected['post_processed'])
 
         if self.verbosity >= 1:
-            template = ("\n%(modified_count)s %(identifier)s %(action)s"
-                        "%(destination)s%(unmodified)s%(post_processed)s.\n")
-            summary = template % {
+            modified_count = len(collected['modified'])
+            unmodified_count = len(collected['unmodified'])
+            post_processed_count = len(collected['post_processed'])
+            return (
+                "\n%(modified_count)s %(identifier)s %(action)s"
+                "%(destination)s%(unmodified)s%(post_processed)s."
+            ) % {
                 'modified_count': modified_count,
                 'identifier': 'static file' + ('' if modified_count == 1 else 's'),
                 'action': 'symlinked' if self.symlink else 'copied',
@@ -202,7 +210,6 @@ class Command(BaseCommand):
                                    ', %s post-processed'
                                    % post_processed_count or ''),
             }
-            return summary
 
     def log(self, msg, level=2):
         """
