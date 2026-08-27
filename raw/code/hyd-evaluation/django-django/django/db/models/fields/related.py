@@ -797,6 +797,8 @@ class ForeignKey(ForeignObject):
             # the to_field during FK construction. It won't be guaranteed to
             # be correct until contribute_to_class is called. Refs #12190.
             to_field = to_field or (to._meta.pk and to._meta.pk.name)
+        if not callable(on_delete):
+            raise TypeError('on_delete must be callable.')
 
         kwargs['rel'] = self.rel_class(
             self, to, to_field,
@@ -1029,6 +1031,10 @@ class OneToOneField(ForeignKey):
             setattr(instance, self.name, data)
         else:
             setattr(instance, self.attname, data)
+            # Remote field object must be cleared otherwise Model.save()
+            # will reassign attname using the related object pk.
+            if data is None:
+                setattr(instance, self.name, data)
 
     def _check_unique(self, **kwargs):
         # Override ForeignKey since check isn't applicable here.

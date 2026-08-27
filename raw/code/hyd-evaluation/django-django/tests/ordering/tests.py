@@ -211,6 +211,15 @@ class OrderingTests(TestCase):
         qs1 = Article.objects.order_by(F('headline').asc())
         qs2 = qs1.reverse()
         self.assertQuerysetEqual(
+            qs2, [
+                'Article 4',
+                'Article 3',
+                'Article 2',
+                'Article 1',
+            ],
+            attrgetter('headline'),
+        )
+        self.assertQuerysetEqual(
             qs1, [
                 "Article 1",
                 "Article 2",
@@ -219,14 +228,29 @@ class OrderingTests(TestCase):
             ],
             attrgetter("headline")
         )
+
+    def test_reverse_meta_ordering_pure(self):
+        Article.objects.create(
+            headline='Article 5',
+            pub_date=datetime(2005, 7, 30),
+            author=self.author_1,
+            second_author=self.author_2,
+        )
+        Article.objects.create(
+            headline='Article 5',
+            pub_date=datetime(2005, 7, 30),
+            author=self.author_2,
+            second_author=self.author_1,
+        )
         self.assertQuerysetEqual(
-            qs2, [
-                "Article 4",
-                "Article 3",
-                "Article 2",
-                "Article 1",
-            ],
-            attrgetter("headline")
+            Article.objects.filter(headline='Article 5').reverse(),
+            ['Name 2', 'Name 1'],
+            attrgetter('author.name'),
+        )
+        self.assertQuerysetEqual(
+            Article.objects.filter(headline='Article 5'),
+            ['Name 1', 'Name 2'],
+            attrgetter('author.name'),
         )
 
     def test_no_reordering_after_slicing(self):
@@ -408,7 +432,9 @@ class OrderingTests(TestCase):
     def test_deprecated_values_annotate(self):
         msg = (
             "Article QuerySet won't use Meta.ordering in Django 3.1. Add "
-            ".order_by('-pub_date', 'headline') to retain the current query."
+            ".order_by('-pub_date', 'headline', OrderBy(F(author__name), "
+            "descending=False), OrderBy(F(second_author__name), "
+            "descending=False)) to retain the current query."
         )
         with self.assertRaisesMessage(RemovedInDjango31Warning, msg):
             list(Article.objects.values('author').annotate(Count('headline')))

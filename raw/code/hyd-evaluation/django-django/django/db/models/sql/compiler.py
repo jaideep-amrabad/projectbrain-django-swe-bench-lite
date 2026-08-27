@@ -32,7 +32,8 @@ class SQLCompiler:
         self.select = None
         self.annotation_col_map = None
         self.klass_info = None
-        self.ordering_parts = re.compile(r'(.*)\s(ASC|DESC)(.*)')
+        # Multiline ordering SQL clause may appear from RawSQL.
+        self.ordering_parts = re.compile(r'^(.*)\s(ASC|DESC)(.*)', re.MULTILINE | re.DOTALL)
         self._meta_ordering = None
 
     def setup_query(self):
@@ -280,6 +281,7 @@ class SQLCompiler:
                 if not isinstance(field, OrderBy):
                     field = field.asc()
                 if not self.query.standard_ordering:
+                    field = field.copy()
                     field.reverse_ordering()
                 order_by.append((field, False))
                 continue
@@ -552,9 +554,9 @@ class SQLCompiler:
                         # order_by = None
                         warnings.warn(
                             "%s QuerySet won't use Meta.ordering in Django 3.1. "
-                            "Add .order_by('%s') to retain the current query." % (
+                            "Add .order_by(%s) to retain the current query." % (
                                 self.query.model.__name__,
-                                "', '".join(self._meta_ordering)
+                                ', '.join(repr(f) for f in self._meta_ordering),
                             ),
                             RemovedInDjango31Warning,
                             stacklevel=4,

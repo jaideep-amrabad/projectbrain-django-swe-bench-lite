@@ -7,8 +7,8 @@ from django.test import TestCase, skipIfDBFeature, skipUnlessDBFeature
 
 from .models import (
     MR, A, Avatar, Base, Child, HiddenUser, HiddenUserProfile, M, M2MFrom,
-    M2MTo, MRNull, Origin, Parent, R, RChild, Referrer, S, T, User, create_a,
-    get_default_r,
+    M2MTo, MRNull, Origin, Parent, R, RChild, RChildChild, Referrer, S, T,
+    User, create_a, get_default_r,
 )
 
 
@@ -20,6 +20,13 @@ class OnDeleteTests(TestCase):
         a = create_a('auto')
         a.auto.delete()
         self.assertFalse(A.objects.filter(name='auto').exists())
+
+    def test_non_callable(self):
+        msg = 'on_delete must be callable.'
+        with self.assertRaisesMessage(TypeError, msg):
+            models.ForeignKey('self', on_delete=None)
+        with self.assertRaisesMessage(TypeError, msg):
+            models.OneToOneField('self', on_delete=None)
 
     def test_auto_nullable(self):
         a = create_a('auto_nullable')
@@ -368,6 +375,16 @@ class DeletionTests(TestCase):
         parent_referent_id = S.objects.create(r=child.r_ptr).pk
         child.delete(keep_parents=True)
         self.assertFalse(RChild.objects.filter(id=child.id).exists())
+        self.assertTrue(R.objects.filter(id=parent_id).exists())
+        self.assertTrue(S.objects.filter(pk=parent_referent_id).exists())
+
+        childchild = RChildChild.objects.create()
+        parent_id = childchild.rchild_ptr.r_ptr_id
+        child_id = childchild.rchild_ptr_id
+        parent_referent_id = S.objects.create(r=childchild.rchild_ptr.r_ptr).pk
+        childchild.delete(keep_parents=True)
+        self.assertFalse(RChildChild.objects.filter(id=childchild.id).exists())
+        self.assertTrue(RChild.objects.filter(id=child_id).exists())
         self.assertTrue(R.objects.filter(id=parent_id).exists())
         self.assertTrue(S.objects.filter(pk=parent_referent_id).exists())
 
