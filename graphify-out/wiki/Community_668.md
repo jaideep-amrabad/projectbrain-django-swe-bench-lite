@@ -1,37 +1,39 @@
 # Community 668
 
-> 14 nodes · cohesion 0.15
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **natural.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **NaturalKeyThing** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **Manager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **NaturalPKWithDefault** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **NaturalKeyAnchor** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **NaturalKeyAnchorManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **FKDataNaturalKey** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **Models for test_natural.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **CheckboxSelectMultipleTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_label()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_doesnt_localize_input_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_render_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_separate_ids()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_nested_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_nested_choices_without_id()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_render_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_render_value_multiple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_use_required_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **Each input gets a separate ID.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **CheckboxSelectMultiple doesn't contain 'for="field_0"' in the <label> because…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **If the value is None, none of the options are selected, even if the choices…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 99](Community_99.md) (1 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
+- [Community 119](Community_119.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 48](Community_48.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 17 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

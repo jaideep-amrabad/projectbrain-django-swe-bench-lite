@@ -1,53 +1,51 @@
 # Community 167
 
-> 31 nodes · cohesion 0.06
+> 49 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **OverrideSettingsTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **DoNothingDecorator** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_exception_in_setup()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_override_database_routers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_override_staticfiles_dirs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_override_staticfiles_finders()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_urlconf_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_urlconf_first()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_urlconf_second()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **TestContextDecoratorTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_override_file_upload_directory_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_override_file_upload_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_override_media_root()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_override_media_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_override_static_root()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_override_static_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_override_staticfiles_storage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **object** (2 connections)
-- **.disable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.enable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **Overriding the MEDIA_ROOT setting should be reflected in the base_location…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **Overriding the MEDIA_URL setting should be reflected in the base_url attribute…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **Overriding the FILE_UPLOAD_PERMISSIONS setting should be reflected in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **Overriding the FILE_UPLOAD_DIRECTORY_PERMISSIONS setting should be reflected in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **Overriding DATABASE_ROUTERS should update the master router.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- *... and 6 more nodes in this community*
+- **RawQueryTests** (43 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.assertSuccessfulRawQuery()** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.assertNoAnnotations()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.assertProcessed()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_pyformat_params()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.assertAnnotations()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_db_column_handler()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_extra_conversions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_FK_raw_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_many_to_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_order_handler()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_pk_with_mixed_case_db_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_simple_raw_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_translations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **Test passing optional query parameters** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_annotations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_db_column_name_is_used_in_raw_query()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_query_representation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_raw_query_lazy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **.test_white_space_query()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **Basic test of raw query with a simple database query** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **Raw queries are lazy: they aren't actually executed until they're iterated over.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **Test of a simple raw query against a model containing a foreign key** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **Test of a simple raw query against a model containing a field with db_column…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 15](Community_15.md) (3 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 216](Community_216.md) (1 shared connections)
-- [Community 538](Community_538.md) (1 shared connections)
+- [Community 820](Community_820.md) (8 shared connections)
+- [Community 292](Community_292.md) (2 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 70 (90%)
+- INFERRED: 8 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

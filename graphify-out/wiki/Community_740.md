@@ -1,40 +1,46 @@
 # Community 740
 
-> 11 nodes · cohesion 0.27
+> 17 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **SetPasswordForm** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **SetPasswordFormTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_help_text_translation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_validates_password()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.clean_new_password2()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.test_html_autocomplete_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_password_verification()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_password_whitespace_not_stripped()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **A form that lets a user change set their password without entering the old…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **proxy_models/models.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **Meta** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **OtherPerson** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **UserProxy** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **MultiUserProxy** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **MyPersonProxy** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **User** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **Abstract** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **UserProxyProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **AnotherUserProxy** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **LowerStatusPerson** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **Country** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **ManagerMixin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **By specifying the 'proxy' Meta attribute, model subclasses can specify that…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **A simple abstract base class, to be used for error checking.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **A class with the default manager from Person, plus a secondary manager.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 95](Community_95.md) (3 shared connections)
-- [Community 677](Community_677.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 595](Community_595.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 594](Community_594.md) (1 shared connections)
+- [Community 463](Community_463.md) (20 shared connections)
+- [Community 298](Community_298.md) (9 shared connections)
+- [Community 840](Community_840.md) (6 shared connections)
+- [Community 1028](Community_1028.md) (4 shared connections)
+- [Community 1023](Community_1023.md) (3 shared connections)
+- [Community 1027](Community_1027.md) (2 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 67 (88%)
+- INFERRED: 9 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

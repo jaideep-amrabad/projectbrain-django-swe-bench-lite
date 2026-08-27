@@ -4,23 +4,22 @@
 
 ## Key Concepts
 
-- **DummyBackendTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_setup_databases()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **setup_databases() doesn't fail with dummy database backend.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **TestRouter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
+- **Routes to the 'other' database if the model name starts with 'Other'.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
+- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
 
 ## Relationships
 
-- [Community 234](Community_234.md) (2 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (80%)
-- INFERRED: 1 (20%)
+- EXTRACTED: 3 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

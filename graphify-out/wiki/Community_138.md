@@ -1,64 +1,55 @@
 # Community 138
 
-> 59 nodes · cohesion 0.05
+> 66 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **MultiWidget** (25 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **TextInput** (25 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **MultiWidgetTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **TextInputTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
-- **MyMultiWidget** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **DeepCopyWidget** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **.w()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.test_queries_limit()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_needs_multipart_true()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **.test_needs_multipart_false()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_boundfield_id_for_label_override_by_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_constructor_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **.test_constructor_attrs_with_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **.test_deepcopy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **.test_nested_multiwidget()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **.test_no_whitespace_between_widgets()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **.test_subwidgets_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **.test_text_inputs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **.test_value_from_datadict_subwidgets_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **.test_value_omitted_from_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **.test_value_omitted_from_data_subwidgets_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **.test_attrs_precedence()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
-- **.test_attrs_safestring()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
-- **.decompress()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- *... and 34 more nodes in this community*
+- **DatabaseOperations** (65 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **._get_no_autofield_sequence_name()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.quote_name()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **InsertVar** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/utils.py`
+- **._convert_field_to_tz()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.sequence_reset_by_name_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.sequence_reset_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.adapt_datetimefield_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.datetime_extract_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **._get_sequence_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.last_insert_id()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.max_name_length()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.return_insert_columns()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.sql_flush()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.from_datetime()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/utils.py`
+- **.adapt_datefield_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.adapt_timefield_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.bulk_batch_size()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.combine_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.conditional_expression_supported_in_where_clause()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.convert_binaryfield_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.date_extract_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.datetime_cast_date_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.datetime_cast_time_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.datetime_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- *... and 41 more nodes in this community*
 
 ## Relationships
 
-- [Community 33](Community_33.md) (12 shared connections)
-- [Community 62](Community_62.md) (8 shared connections)
-- [Community 623](Community_623.md) (2 shared connections)
-- [Community 39](Community_39.md) (2 shared connections)
-- [Community 189](Community_189.md) (1 shared connections)
-- [Community 259](Community_259.md) (1 shared connections)
-- [Community 534](Community_534.md) (1 shared connections)
-- [Community 300](Community_300.md) (1 shared connections)
-- [Community 726](Community_726.md) (1 shared connections)
-- [Community 320](Community_320.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 1002](Community_1002.md) (1 shared connections)
+- [Community 222](Community_222.md) (17 shared connections)
+- [Community 817](Community_817.md) (3 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 95](Community_95.md) (1 shared connections)
+- [Community 473](Community_473.md) (1 shared connections)
+- [Community 313](Community_313.md) (1 shared connections)
+- [Community 47](Community_47.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 93 (79%)
-- INFERRED: 25 (21%)
+- EXTRACTED: 102 (94%)
+- INFERRED: 7 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

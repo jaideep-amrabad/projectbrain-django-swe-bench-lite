@@ -1,78 +1,66 @@
 # Community 62
 
-> 99 nodes · cohesion 0.03
+> 167 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **WidgetTest** (55 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/base.py`
-- **widget_tests/base.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/base.py`
-- **DjangoTemplates** (13 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **MultipleHiddenInputTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiplehiddeninput.py`
-- **test_dateinput.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_dateinput.py`
-- **test_datetimeinput.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_datetimeinput.py`
-- **test_multiwidget.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **test_select.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
-- **test_splithiddendatetimewidget.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splithiddendatetimewidget.py`
-- **test_timeinput.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_timeinput.py`
-- **Jinja2()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **test_checkboxselectmultiple.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
-- **test_nullbooleanselect.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
-- **TextareaTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textarea.py`
-- **test_clearablefileinput.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **DateInputTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_dateinput.py`
-- **DateTimeInputTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_datetimeinput.py`
-- **test_numberinput.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_numberinput.py`
-- **test_radioselect.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
-- **TimeInputTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_timeinput.py`
-- **EngineMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **ComplexMultiWidget** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **SplitHiddenDateTimeWidgetTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splithiddendatetimewidget.py`
-- **test_textarea.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textarea.py`
-- **test_textinput.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_textinput.py`
-- *... and 74 more nodes in this community*
+- **register_lookup()** (175 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **gis/db/models/lookups.py** (49 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **custom_lookups/tests.py** (43 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **GISLookup** (36 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **test_rasterfield.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/test_rasterfield.py`
+- **LookupTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **YearLteTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **Author** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
+- **BilateralTransformTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **DistanceLookupBase** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **DistanceLookupFromFunction** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **DWithinLookup** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **ArrayCastRHSMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **custom_lookups/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
+- **CustomisedMethodsTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **TrackCallsYearTransform** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.process_rhs()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **DateTimeLookupTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **SQLFuncFactory** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **SQLFuncMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **rasterapp/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/models.py`
+- **RasterModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/models.py`
+- **RasterRelatedModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/models.py`
+- **BBContainsLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **BBOverlapsLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- *... and 142 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (34 shared connections)
-- [Community 115](Community_115.md) (17 shared connections)
-- [Community 33](Community_33.md) (16 shared connections)
-- [Community 5](Community_5.md) (15 shared connections)
-- [Community 8](Community_8.md) (15 shared connections)
-- [Community 138](Community_138.md) (8 shared connections)
-- [Community 505](Community_505.md) (5 shared connections)
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 47](Community_47.md) (4 shared connections)
-- [Community 40](Community_40.md) (3 shared connections)
-- [Community 75](Community_75.md) (3 shared connections)
-- [Community 300](Community_300.md) (3 shared connections)
+- [Community 19](Community_19.md) (57 shared connections)
+- [Community 64](Community_64.md) (31 shared connections)
+- [Community 143](Community_143.md) (12 shared connections)
+- [Community 105](Community_105.md) (11 shared connections)
+- [Community 222](Community_222.md) (9 shared connections)
+- [Community 85](Community_85.md) (7 shared connections)
+- [Community 67](Community_67.md) (7 shared connections)
+- [Community 14](Community_14.md) (6 shared connections)
+- [Community 2](Community_2.md) (6 shared connections)
+- [Community 41](Community_41.md) (5 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_dateinput.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_datetimeinput.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_fileinput.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_hiddeninput.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_input.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiplehiddeninput.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_numberinput.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_passwordinput.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splithiddendatetimewidget.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_trim.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/test_rasterfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 266 (93%)
-- INFERRED: 20 (7%)
+- EXTRACTED: 475 (97%)
+- INFERRED: 13 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

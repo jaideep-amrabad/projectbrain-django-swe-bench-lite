@@ -1,18 +1,15 @@
 # Community 1122
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **TestTicket11101** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_ticket_11101()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **Fixtures can be rolled back (ticket #11101).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_dependency_sorting_m2m_complex_circular_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **Circular M2M relations with explicit through models should be serializable** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
 
 ## Relationships
 
-- [Community 354](Community_354.md) (2 shared connections)
-- [Community 168](Community_168.md) (1 shared connections)
-- [Community 30](Community_30.md) (1 shared connections)
+- [Community 345](Community_345.md) (1 shared connections)
 
 ## Source Files
 
@@ -20,8 +17,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 5 (83%)
-- INFERRED: 1 (17%)
+- EXTRACTED: 2 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

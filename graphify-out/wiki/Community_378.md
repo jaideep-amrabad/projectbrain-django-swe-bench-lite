@@ -1,45 +1,60 @@
 # Community 378
 
-> 18 nodes · cohesion 0.16
+> 29 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **DefaultRelatedNameTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
-- **default_related_name.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
-- **test_default_related_name.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
-- **Store** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
-- **Book** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
-- **EditorStore** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
-- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
-- **Author** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
-- **BookStore** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
-- **Editor** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
-- **.test_default_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
-- **.test_default_related_name_in_queryset_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
-- **.test_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
-- **.test_inheritance_with_overridden_default_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
-- **.test_model_name_not_available_in_queryset_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
-- **.test_no_default_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
-- **.test_related_name_overrides_default_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
+- **postgres/validators.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- **SplitArrayWidget** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **forms/array.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **TestSplitFormWidget** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **ArrayMaxLengthValidator** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- **RangeMaxValueValidator** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- **RangeMinValueValidator** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **ArrayMinLengthValidator** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- **TestValidators** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.test_checkbox_get_context_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_get_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_render()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_render_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_value_omitted_from_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_max()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_min()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.__deepcopy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.get_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.id_for_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.is_hidden()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.media()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.needs_multipart_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 14](Community_14.md) (12 shared connections)
+- [Community 88](Community_88.md) (10 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 350](Community_350.md) (3 shared connections)
+- [Community 45](Community_45.md) (3 shared connections)
+- [Community 528](Community_528.md) (2 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 81](Community_81.md) (1 shared connections)
+- [Community 719](Community_719.md) (1 shared connections)
+- [Community 187](Community_187.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 72 (94%)
+- INFERRED: 5 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

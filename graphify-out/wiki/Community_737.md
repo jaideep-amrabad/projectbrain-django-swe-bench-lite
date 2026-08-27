@@ -1,58 +1,36 @@
 # Community 737
 
-> 25 nodes · cohesion 0.12
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **ExceptionReporter** (48 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **PlainTextReportTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_disallowed_host()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_request_with_items_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_disallowed_host()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_request_with_items_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_template_exception()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **CustomExceptionReporter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/logconfig.py`
-- **.test_no_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_no_request()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_request_and_message()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_no_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_no_request()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_request_and_message()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **CustomExceptionReporter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.test_message_only()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **An exception report can be generated without request** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **An exception report can be generated for just a request** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **A message can be provided in addition to a request** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **An exception report can be generated even for a disallowed host.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **An exception report can be generated for requests with 'items' in request GET,…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **Organize and coordinate reporting on exceptions.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.get_traceback_text()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/logconfig.py`
-- **.get_traceback_html()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **NullBooleanSelectTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
+- **.test_l10n()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
+- **.test_render_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
+- **.test_render_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
+- **.test_render_true()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
+- **.test_render_value_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
+- **.test_render_value_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
+- **.test_render_value_3()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
+- **.test_render_value_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
+- **.test_render_value_true()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
+- **.test_render_value_unknown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
+- **The NullBooleanSelect widget's options are lazily localized (#17190).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
 
 ## Relationships
 
-- [Community 496](Community_496.md) (20 shared connections)
-- [Community 82](Community_82.md) (10 shared connections)
-- [Community 902](Community_902.md) (6 shared connections)
-- [Community 1031](Community_1031.md) (3 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 674](Community_674.md) (2 shared connections)
-- [Community 53](Community_53.md) (2 shared connections)
-- [Community 642](Community_642.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 106](Community_106.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- `raw/code/hyd-evaluation/django-django/tests/logging_tests/logconfig.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
 
 ## Audit Trail
 
-- EXTRACTED: 81 (96%)
-- INFERRED: 3 (4%)
+- EXTRACTED: 14 (93%)
+- INFERRED: 1 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

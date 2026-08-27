@@ -1,27 +1,27 @@
 # Community 975
 
-> 6 nodes · cohesion 0.53
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **NoDatabaseTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
-- **databases/tests.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
-- **AllDatabasesTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
-- **DefaultDatabaseTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
-- **OtherDatabaseTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
-- **.test_nothing()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
+- **CacheHandlerTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_per_thread()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_same_instance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **Attempting to retrieve the same alias should yield the same instance.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **Requesting the same alias from separate threads should yield separate instances.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 135](Community_135.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/databases/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,27 +1,28 @@
 # Community 1049
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **._perform_cull_test()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_cull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_zero_cull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_zero_cull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **ChildInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- [Community 277](Community_277.md) (3 shared connections)
-- [Community 635](Community_635.md) (1 shared connections)
+- [Community 69](Community_69.md) (2 shared connections)
+- [Community 93](Community_93.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 5 (83%)
+- INFERRED: 1 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

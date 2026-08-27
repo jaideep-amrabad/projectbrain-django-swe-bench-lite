@@ -1,57 +1,48 @@
 # Community 485
 
-> 25 nodes · cohesion 0.11
+> 22 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **.setUpClass()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **._databases_support_transactions()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **connections_support_transactions()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **._fixture_teardown()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **._rollback_atomics()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.tearDownClass()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **._enter_atomics()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **._fixture_setup()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **._post_teardown()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.setUpTestData()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **LiveServerPort** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **.test_port_bind()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **.test_specified_port_bind()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **._should_reload_connections()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.test_empty_default_database()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **._should_check_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **EmptyDefaultDatabaseTest** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **Return whether or not all (or specified) connections support transactions.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Open atomic blocks for multiple databases.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Rollback atomic blocks opened by the previous method.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Load initial data for the TestCase.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Perform post-test things: * Flush the contents of the database to leave a clean…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Each LiveServerTestCase binds to a unique port or fails to start a server…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **LiveServerTestCase.port customizes the server's port.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **An empty default database in settings does not raise an ImproperlyConfigured…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **OverrideSettingsTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_staticfiles_dirs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_staticfiles_finders()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_urlconf_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_urlconf_first()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_urlconf_second()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_file_upload_directory_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_file_upload_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_media_root()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_media_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_static_root()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_static_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_staticfiles_storage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding the MEDIA_ROOT setting should be reflected in the base_location…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding the MEDIA_URL setting should be reflected in the base_url attribute…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding the FILE_UPLOAD_PERMISSIONS setting should be reflected in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding the FILE_UPLOAD_DIRECTORY_PERMISSIONS setting should be reflected in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding the STATIC_URL setting should be reflected in the base_url attribute…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding the STATIC_ROOT setting should be reflected in the location…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding the STATICFILES_STORAGE setting should be reflected in the value of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding the STATICFILES_FINDERS setting should be reflected in the return…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding the STATICFILES_DIRS setting should be reflected in the locations…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Relationships
 
-- [Community 14](Community_14.md) (10 shared connections)
-- [Community 168](Community_168.md) (6 shared connections)
-- [Community 312](Community_312.md) (3 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 327](Community_327.md) (2 shared connections)
-- [Community 1064](Community_1064.md) (1 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 12](Community_12.md) (3 shared connections)
+- [Community 146](Community_146.md) (2 shared connections)
+- [Community 290](Community_290.md) (1 shared connections)
 - [Community 2](Community_2.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 164](Community_164.md) (1 shared connections)
-- [Community 910](Community_910.md) (1 shared connections)
+- [Community 809](Community_809.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 60 (100%)
+- EXTRACTED: 32 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

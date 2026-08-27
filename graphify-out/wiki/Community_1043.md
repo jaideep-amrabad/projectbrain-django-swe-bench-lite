@@ -4,24 +4,24 @@
 
 ## Key Concepts
 
-- **.test_parameter_ends_with__in__or__isnull()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **DecadeFilterBookAdminParameterEndsWith__In** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **DecadeFilterBookAdminParameterEndsWith__Isnull** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **A SimpleListFilter's parameter name is not mistaken for a model field if it…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **test_module/__init__.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/__init__.py`
+- **another_bad_module.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/another_bad_module.py`
+- **another_good_module.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/another_good_module.py`
+- **SiteMock** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/__init__.py`
 
 ## Relationships
 
-- [Community 384](Community_384.md) (2 shared connections)
-- [Community 958](Community_958.md) (2 shared connections)
-- [Community 428](Community_428.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/another_bad_module.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/another_good_module.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

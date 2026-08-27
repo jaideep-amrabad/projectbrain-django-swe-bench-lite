@@ -1,41 +1,41 @@
 # Community 658
 
-> 14 nodes · cohesion 0.16
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **BaseStorageFinder** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.list()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **find()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **DefaultStorageFinder** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.find()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.check()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **A base static files finder to be used to extended with an own storage class.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **Look for files in the default file storage, if it's local.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **List all files of the storage.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **A static files finder that uses the default storage backend.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **Find a static file with the given path using all enabled finders. If ``all`` is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **RegexField** (14 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **RegexFieldTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **._set_regex()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.test_change_regex_after_init()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- **.test_get_regex()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- **.test_regexfield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- **.test_regexfield_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- **.test_regexfield_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- **.test_regexfield_4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- **.test_regexfield_strip()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- **.test_regexfield_unicode_characters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- **regex can be either a string or a compiled regular expression object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **._get_regex()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (6 shared connections)
-- [Community 538](Community_538.md) (2 shared connections)
-- [Community 159](Community_159.md) (2 shared connections)
-- [Community 712](Community_712.md) (2 shared connections)
-- [Community 853](Community_853.md) (1 shared connections)
-- [Community 48](Community_48.md) (1 shared connections)
+- [Community 74](Community_74.md) (2 shared connections)
+- [Community 106](Community_106.md) (1 shared connections)
+- [Community 157](Community_157.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (83%)
-- INFERRED: 5 (17%)
+- EXTRACTED: 18 (67%)
+- INFERRED: 9 (33%)
 - AMBIGUOUS: 0 (0%)
 
 ---

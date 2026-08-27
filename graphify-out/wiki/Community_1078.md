@@ -1,26 +1,24 @@
 # Community 1078
 
-> 4 nodes · cohesion 0.67
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **FloatformatTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_floatformat.py`
-- **.test_floatformat01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_floatformat.py`
-- **.test_floatformat02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_floatformat.py`
-- **setup** (2 connections)
+- **.test_view_with_method_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_view_with_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **Request a page that is protected with @permission_required** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 47](Community_47.md) (2 shared connections)
+- [Community 518](Community_518.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_floatformat.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

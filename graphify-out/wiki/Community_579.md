@@ -1,59 +1,42 @@
 # Community 579
 
-> 24 nodes · cohesion 0.15
+> 17 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **force_insert_update/tests.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
-- **Counter** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
-- **force_insert_update/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
-- **InheritanceTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
-- **JoinPromoter** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **ProxyCounter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
-- **InheritedCounter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
-- **SubCounter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
-- **ForceTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
-- **WithCustomPK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
-- **.test_force_update()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
-- **.test_force_update_on_inherited_model_without_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
-- **.add_votes()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.update_join_types()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **.assertQuerysetEqual()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.test_force_update_on_inherited_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
-- **.test_force_update_on_proxy_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
-- **A class to abstract away join promotion problems for complex filter conditions.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **Add single vote per item to self.votes. Parameter can be any iterable.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **Change join types so that the generated query is as efficient as possible, but…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
-- **Tests for forcing insert and update queries (instead of Django's normal…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
-- **Issue 13864: force_update fails on subclassed models, if they don't specify…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- **Meta** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Person** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Article** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Book** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Store** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Widget** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **CommonFeature** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **WidgetProxy** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Feature** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Plant** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **SpecialArticle** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 21](Community_21.md) (3 shared connections)
-- [Community 14](Community_14.md) (3 shared connections)
-- [Community 168](Community_168.md) (1 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 452](Community_452.md) (1 shared connections)
-- [Community 40](Community_40.md) (1 shared connections)
-- [Community 628](Community_628.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 342](Community_342.md) (1 shared connections)
+- [Community 345](Community_345.md) (16 shared connections)
+- [Community 179](Community_179.md) (4 shared connections)
+- [Community 371](Community_371.md) (3 shared connections)
+- [Community 979](Community_979.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- `raw/code/hyd-evaluation/django-django/tests/force_insert_update/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/force_insert_update/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (81%)
-- INFERRED: 11 (19%)
+- EXTRACTED: 35 (83%)
+- INFERRED: 7 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

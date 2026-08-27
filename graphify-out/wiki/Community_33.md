@@ -1,69 +1,78 @@
 # Community 33
 
-> 157 nodes · cohesion 0.02
+> 207 nodes · cohesion 0.01
 
 ## Key Concepts
 
-- **django/forms/fields.py** (84 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **django/forms/widgets.py** (75 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **Select** (22 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **Input** (18 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.to_python()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **ChoiceWidget** (15 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **SplitDateTimeWidget** (13 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **HiddenInput** (12 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.get_context()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **CheckboxInput** (11 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.__init__()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **Textarea** (11 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **SelectMultiple** (10 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **FileField** (9 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **get_default_renderer()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **MultipleHiddenInput** (9 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **BaseTemporalField** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **BooleanField** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **to_current_timezone()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- **CheckboxSelectMultiple** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **NullBooleanSelect** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **NumberInput** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **NullBooleanFieldTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_nullbooleanfield.py`
-- **JSONField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **DateTimeBaseInput** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- *... and 132 more nodes in this community*
+- **filter** (57 connections)
+- **stringfilter()** (35 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **linenumbers()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **truncatechars_html()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **yesno()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **escapejs_filter()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **slice_filter()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **urlizetrunc()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **cut()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **join()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **truncatewords()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **wordwrap()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **urlencode()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **FunctionTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
+- **FunctionTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
+- **slugify()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **striptags()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **wordcount()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **FunctionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatechars_html.py`
+- **addslashes()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **force_escape()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **iriencode()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **ljust()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **lower()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **rjust()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- *... and 182 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (59 shared connections)
-- [Community 73](Community_73.md) (19 shared connections)
-- [Community 189](Community_189.md) (17 shared connections)
-- [Community 62](Community_62.md) (16 shared connections)
-- [Community 138](Community_138.md) (12 shared connections)
-- [Community 2](Community_2.md) (10 shared connections)
-- [Community 69](Community_69.md) (10 shared connections)
-- [Community 115](Community_115.md) (6 shared connections)
-- [Community 37](Community_37.md) (5 shared connections)
-- [Community 43](Community_43.md) (5 shared connections)
-- [Community 534](Community_534.md) (5 shared connections)
-- [Community 300](Community_300.md) (4 shared connections)
+- [Community 2](Community_2.md) (125 shared connections)
+- [Community 13](Community_13.md) (13 shared connections)
+- [Community 520](Community_520.md) (8 shared connections)
+- [Community 188](Community_188.md) (6 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 17](Community_17.md) (4 shared connections)
+- [Community 734](Community_734.md) (3 shared connections)
+- [Community 475](Community_475.md) (2 shared connections)
+- [Community 314](Community_314.md) (2 shared connections)
+- [Community 246](Community_246.md) (2 shared connections)
+- [Community 251](Community_251.md) (2 shared connections)
+- [Community 169](Community_169.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_nullbooleanfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiplehiddeninput.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splithiddendatetimewidget.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_addslashes.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_center.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_cut.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapejs.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_first.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_force_escape.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_iriencode.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linenumbers.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_ljust.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_lower.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_make_list.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_rjust.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slugify.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_striptags.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_title.py`
 
 ## Audit Trail
 
-- EXTRACTED: 433 (90%)
-- INFERRED: 50 (10%)
+- EXTRACTED: 486 (99%)
+- INFERRED: 6 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

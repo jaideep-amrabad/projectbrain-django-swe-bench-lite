@@ -1,26 +1,23 @@
 # Community 1108
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **DecadeFilterBookAdminWithFailingQueryset** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_filter_with_failing_queryset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **When a filter's queryset method fails, it fails loudly and the corresponding…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **._perform_invalid_key_test()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **All the builtin backends should warn (except memcached that should error) on…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Relationships
 
-- [Community 384](Community_384.md) (1 shared connections)
-- [Community 958](Community_958.md) (1 shared connections)
-- [Community 428](Community_428.md) (1 shared connections)
+- [Community 271](Community_271.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

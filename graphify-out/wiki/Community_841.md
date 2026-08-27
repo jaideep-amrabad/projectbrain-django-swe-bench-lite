@@ -1,30 +1,33 @@
 # Community 841
 
-> 8 nodes · cohesion 0.29
+> 9 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **._set_slice()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.__setitem__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **._assign_extended_slice()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **._check_allowed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **._set_single_rebuild()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **Set the item(s) at the specified index/slice.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **Assign values to a slice of the object** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **Assign an extended slice by re-assigning individual items** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **AutoescapeStringfilterTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_autoescape.py`
+- **SafeClass** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
+- **setup** (4 connections)
+- **.test_autoescape_stringfilter01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_autoescape.py`
+- **.test_autoescape_stringfilter02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_autoescape.py`
+- **.test_autoescape_stringfilter03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_autoescape.py`
+- **.test_autoescape_stringfilter04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_autoescape.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
+- **Filters decorated with stringfilter still respect is_safe.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_autoescape.py`
 
 ## Relationships
 
-- [Community 394](Community_394.md) (5 shared connections)
-- [Community 772](Community_772.md) (2 shared connections)
+- [Community 2](Community_2.md) (7 shared connections)
+- [Community 406](Community_406.md) (1 shared connections)
+- [Community 520](Community_520.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_autoescape.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (100%)
+- EXTRACTED: 21 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

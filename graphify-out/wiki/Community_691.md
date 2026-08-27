@@ -1,40 +1,39 @@
 # Community 691
 
-> 13 nodes · cohesion 0.26
+> 13 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **field_subclassing/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
-- **field_subclassing/fields.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
-- **CustomDeferredAttribute** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
-- **CustomTypedField** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
-- **CustomDescriptorField** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
-- **DescriptorClassTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
-- **TestDbType** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
-- **._count_call()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
-- **.test_db_parameters_respects_db_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
-- **.__get__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
-- **.__set__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
-- **.test_descriptor_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
-- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
+- **._get_postgis_func()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.spatial_version()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.postgis_version_tuple()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.postgis_lib_version()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.postgis_full_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.postgis_geos_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.postgis_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **Return PostGIS version number and compile-time options.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **Determine the version of the PostGIS library.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **Helper routine for calling PostGIS functions and returning their result.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **Return the version of the GEOS library used with PostGIS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **Return the version number of the PostGIS library used with PostgreSQL.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **Return the PostGIS version as a tuple (version string, major, minor, subminor).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 5](Community_5.md) (4 shared connections)
-- [Community 28](Community_28.md) (2 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
+- [Community 110](Community_110.md) (7 shared connections)
+- [Community 976](Community_976.md) (1 shared connections)
+- [Community 81](Community_81.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 99](Community_99.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (91%)
-- INFERRED: 3 (9%)
+- EXTRACTED: 24 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

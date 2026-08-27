@@ -1,59 +1,61 @@
 # Community 116
 
-> 58 nodes · cohesion 0.07
+> 41 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **CommonMiddleware** (42 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
-- **CommonMiddlewareTest** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **get_response_404()** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **get_response_empty()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **MiddlewareMixinTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_middleware_mixin.py`
-- **.test_append_slash_quoted()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_quoted_custom_urlconf()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.get_full_path_with_slash()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
-- **.process_request()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
-- **.should_redirect_with_slash()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
-- **.test_append_slash_disabled()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_disabled_custom_urlconf()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_have_slash()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_have_slash_custom_urlconf()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_leading_slashes()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_no_redirect_on_POST_in_DEBUG()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_no_redirect_on_POST_in_DEBUG_custom_urlconf()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_redirect()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_redirect_custom_urlconf()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_redirect_querystring()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_redirect_querystring_have_slash()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_slashless_resource()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_slashless_resource_custom_urlconf()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_slashless_unknown()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_append_slash_slashless_unknown_custom_urlconf()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- *... and 33 more nodes in this community*
+- **ModelFormsetTest** (66 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **modelformset_factory()** (54 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **Poet** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **DeletionTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_inline_formsets_with_custom_save_method_related_instance()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_add_form_deletion_when_invalid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_change_form_deletion_when_invalid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_custom_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_custom_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_custom_queryset_init()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_model_formset_with_initial_model_instance()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_modelformset_factory_without_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_prevent_duplicates_from_with_the_same_formset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_deletion()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_outdated_deletion()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_commit_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_custom_save_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_initial_form_count_empty_data_raises_validation_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_max_num()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_min_num()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_min_num_with_existing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_model_formset_with_custom_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_model_formset_with_initial_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_model_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_modelformset_validate_max_flag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [Community 8](Community_8.md) (25 shared connections)
-- [Community 41](Community_41.md) (10 shared connections)
-- [Community 153](Community_153.md) (5 shared connections)
-- [Community 439](Community_439.md) (4 shared connections)
-- [Community 82](Community_82.md) (2 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 137](Community_137.md) (2 shared connections)
-- [Community 536](Community_536.md) (2 shared connections)
-- [Community 94](Community_94.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 145](Community_145.md) (32 shared connections)
+- [Community 295](Community_295.md) (25 shared connections)
+- [Community 152](Community_152.md) (5 shared connections)
+- [Community 797](Community_797.md) (2 shared connections)
+- [Community 19](Community_19.md) (2 shared connections)
+- [Community 49](Community_49.md) (1 shared connections)
+- [Community 130](Community_130.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 389](Community_389.md) (1 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 106](Community_106.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/middleware/common.py`
-- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_middleware_mixin.py`
-- `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 136 (77%)
-- INFERRED: 40 (23%)
+- EXTRACTED: 114 (79%)
+- INFERRED: 30 (21%)
 - AMBIGUOUS: 0 (0%)
 
 ---

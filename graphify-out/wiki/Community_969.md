@@ -1,23 +1,23 @@
 # Community 969
 
-> 6 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **MyCustomAtom1Feed** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.add_item_elements()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.add_root_elements()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.item_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.root_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **Test of a custom feed generator class.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **RouterUsed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **WriteCheckRouter** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.db_for_write()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **Exception** (1 connections)
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
 
 ## Relationships
 
-- [Community 162](Community_162.md) (1 shared connections)
+- [Community 177](Community_177.md) (1 shared connections)
+- [Community 410](Community_410.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
 
 ## Audit Trail
 

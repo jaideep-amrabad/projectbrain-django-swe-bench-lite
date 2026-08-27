@@ -1,25 +1,24 @@
 # Community 1132
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **.test_inheritance30()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance33()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Base template, putting block in a conditional {% if %} tag** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_create_model_reordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **AddField optimizes into CreateModel if it's a FK to a model that's between them…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
 
 ## Relationships
 
-- [Community 766](Community_766.md) (2 shared connections)
-- [Community 802](Community_802.md) (2 shared connections)
+- [Community 613](Community_613.md) (1 shared connections)
+- [Community 672](Community_672.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

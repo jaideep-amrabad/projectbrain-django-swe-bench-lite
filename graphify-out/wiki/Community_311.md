@@ -1,60 +1,51 @@
 # Community 311
 
-> 34 nodes · cohesion 0.09
+> 25 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **search.py** (29 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **test_trigram.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
-- **TrigramTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
-- **SearchQueryCombinable** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **CombinedSearchQuery** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **._combine()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **SearchVectorExact** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **SearchVectorField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **CombinedSearchVector** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **TrigramBase** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **TrigramDistance** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **TrigramSimilarity** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **SearchVectorCombinable** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **TrigramTextFieldTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
-- **SearchQueryField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **.process_rhs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **Field** (2 connections)
-- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **.__and__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **.__or__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **.__rand__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **.__ror__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- *... and 9 more nodes in this community*
+- **LabelCommand** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.create_parser()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **findstatic.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/findstatic.py`
+- **DjangoHelpFormatter** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **Command** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/findstatic.py`
+- **.get_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.print_help()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.add_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **._reordered_actions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.add_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.handle_label()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **label_command.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/label_command.py`
+- **Command** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/label_command.py`
+- **.add_usage()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **HelpFormatter** (1 connections)
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/findstatic.py`
+- **.handle_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/findstatic.py`
+- **Return the Django version, which should be correct for all built-in Django…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **Create and return the ``ArgumentParser`` which will be used to parse the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **Print the help message for this command, derived from ``self.usage()``.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **A management command which takes one or more arbitrary arguments (labels) on…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **Perform the command's actions for ``label``, which will be the string as given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **Customized formatter so that command-specific arguments appear in the --help…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.handle_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/label_command.py`
 
 ## Relationships
 
-- [Community 78](Community_78.md) (13 shared connections)
-- [Community 75](Community_75.md) (8 shared connections)
-- [Community 178](Community_178.md) (3 shared connections)
-- [Community 124](Community_124.md) (3 shared connections)
-- [Community 131](Community_131.md) (2 shared connections)
-- [Community 21](Community_21.md) (2 shared connections)
-- [Community 54](Community_54.md) (2 shared connections)
-- [Community 440](Community_440.md) (2 shared connections)
-- [Community 18](Community_18.md) (2 shared connections)
-- [Community 96](Community_96.md) (2 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 285](Community_285.md) (1 shared connections)
+- [Community 57](Community_57.md) (12 shared connections)
+- [Community 80](Community_80.md) (1 shared connections)
+- [Community 146](Community_146.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/findstatic.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/label_command.py`
 
 ## Audit Trail
 
-- EXTRACTED: 92 (95%)
-- INFERRED: 5 (5%)
+- EXTRACTED: 43 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

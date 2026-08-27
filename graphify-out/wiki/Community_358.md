@@ -1,53 +1,55 @@
 # Community 358
 
-> 32 nodes · cohesion 0.16
+> 34 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **TestConnectionOnCommit** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.assertDone()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.do()** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **ForcedError** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **transaction_hooks/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.notify()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_no_hooks_run_from_failed_transaction()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **transaction_hooks/models.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/models.py`
-- **.assertNotified()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_delays_execution_until_after_transaction_commit()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_discards_hooks_from_rolled_back_savepoint()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_does_not_execute_if_transaction_rolled_back()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_error_in_hook_doesnt_prevent_clearing_hooks()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_executes_only_after_final_transaction_committed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_hooks_cleared_after_rollback()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_hooks_cleared_on_reconnect()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_inner_savepoint_does_not_affect_outer()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_inner_savepoint_rolled_back_with_outer()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_no_savepoints_atomic_merged_with_outer()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **Thing** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/models.py`
-- **.test_db_query_in_hook()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_executes_immediately_if_no_transaction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_hook_in_hook()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_hooks_cleared_after_successful_commit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- **.test_runs_hooks_in_order_registered()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
-- *... and 7 more nodes in this community*
+- **Author** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- **Book** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- **MultiTableInheritanceTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **MultiDbTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **ForeignKeyToFieldTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **BookWithYear** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- **RawQuerySetTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **ReadPrefetchedObjectsCacheTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **TestDataMixin** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **AuthorWithAge** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- **Ticket21410Tests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_retrieves_results_from_prefetched_objects_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_using_is_honored_custom_qs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_child_link_prefetch()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_foreignkey()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_using_is_honored_fkey()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_using_is_honored_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_using_is_honored_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_foreignkey()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_foreignkey_to_inherited()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_m2m_to_inheriting_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 342](Community_342.md) (3 shared connections)
-- [Community 30](Community_30.md) (2 shared connections)
-- [Community 168](Community_168.md) (2 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 277](Community_277.md) (23 shared connections)
+- [Community 412](Community_412.md) (8 shared connections)
+- [Community 19](Community_19.md) (6 shared connections)
+- [Community 373](Community_373.md) (4 shared connections)
+- [Community 739](Community_739.md) (2 shared connections)
+- [Community 323](Community_323.md) (2 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 87 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 55 (62%)
+- INFERRED: 34 (38%)
 - AMBIGUOUS: 0 (0%)
 
 ---

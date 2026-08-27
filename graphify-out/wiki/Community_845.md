@@ -1,31 +1,33 @@
 # Community 845
 
-> 9 nodes · cohesion 0.33
+> 8 nodes · cohesion 0.32
 
 ## Key Concepts
 
-- **.tuple()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
-- **.z()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
-- **.x()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
-- **.y()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
-- **setter** (4 connections)
-- **Return the X component of the Point.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
-- **Set the X component of the Point.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
-- **Return a tuple of the point.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
-- **Set the coordinates of the point with the given tuple.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
+- **MinimumLengthValidator** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **MinimumLengthValidatorTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.validate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **.get_help_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **.test_help_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.test_validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **Validate whether the password is of a minimum length.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
 
 ## Relationships
 
-- [Community 22](Community_22.md) (5 shared connections)
-- [Community 46](Community_46.md) (1 shared connections)
+- [Community 160](Community_160.md) (3 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (94%)
+- EXTRACTED: 15 (94%)
 - INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 

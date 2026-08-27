@@ -1,36 +1,38 @@
 # Community 725
 
-> 12 nodes · cohesion 0.17
+> 12 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **NullBooleanSelectTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
-- **.test_l10n()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
-- **.test_render_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
-- **.test_render_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
-- **.test_render_true()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
-- **.test_render_value_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
-- **.test_render_value_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
-- **.test_render_value_3()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
-- **.test_render_value_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
-- **.test_render_value_true()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
-- **.test_render_value_unknown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
-- **The NullBooleanSelect widget's options are lazily localized (#17190).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
+- **TagHelperNode** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **InclusionNode** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **.render()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **SimpleNode** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **.render()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **.get_resolved_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **Node** (1 connections)
+- **Base class for tag helper nodes such as SimpleNode and InclusionNode. Manages…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **Render the specified template and context. Cache the template object in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
 
 ## Relationships
 
-- [Community 62](Community_62.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 291](Community_291.md) (1 shared connections)
+- [Community 42](Community_42.md) (1 shared connections)
+- [Community 44](Community_44.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_nullbooleanselect.py`
+- `raw/code/hyd-evaluation/django-django/django/template/library.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (93%)
-- INFERRED: 1 (7%)
+- EXTRACTED: 21 (91%)
+- INFERRED: 2 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

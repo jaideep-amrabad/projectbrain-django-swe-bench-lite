@@ -1,51 +1,62 @@
 # Community 207
 
-> 32 nodes · cohesion 0.06
+> 43 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **ManyToManyTests** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_fast_add_ignore_conflicts()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_add_existing_different_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_inherited_models_selects()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_slow_add_ignore_conflicts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_add_after_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_add_remove_invalid_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_add_remove_set_by_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_add_remove_set_by_to_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_add_then_remove_after_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_assign()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_assign_forward()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_assign_ids()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_assign_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_bulk_delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_clear_after_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_custom_default_manager_exists_count()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_forward_assign_with_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_related_sets()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_remove()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_remove_after_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_reverse_assign_with_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- *... and 7 more nodes in this community*
+- **admin_scripts/tests.py** (62 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **AdminScriptTestCase** (51 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **SettingsCustomLoggingTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **CommandRunTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.run_test()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **DjangoAdminSuggestions** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **Dumpdata** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_pks_parsing()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_non_existent_command_output()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **SettingsConfigTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_no_suggestions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_suggestions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **MainModule** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **ManageManuallyConfiguredSettings** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **ManageRunserverEmptyAllowedHosts** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_empty_allowed_hosts_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **._ext_backend_paths()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **Discovery** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_precedence()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_program_name_in_help()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **TestCollectionHelpSubcommand** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **.test_missing_settings_dont_prevent_help()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_disallowed_abbreviated_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [Community 546](Community_546.md) (8 shared connections)
-- [Community 30](Community_30.md) (2 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 206](Community_206.md) (1 shared connections)
+- [Community 89](Community_89.md) (22 shared connections)
+- [Community 57](Community_57.md) (11 shared connections)
+- [Community 112](Community_112.md) (10 shared connections)
+- [Community 175](Community_175.md) (10 shared connections)
+- [Community 254](Community_254.md) (8 shared connections)
+- [Community 224](Community_224.md) (5 shared connections)
+- [Community 606](Community_606.md) (5 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 595](Community_595.md) (4 shared connections)
+- [Community 15](Community_15.md) (3 shared connections)
+- [Community 552](Community_552.md) (3 shared connections)
+- [Community 80](Community_80.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (88%)
-- INFERRED: 5 (12%)
+- EXTRACTED: 171 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

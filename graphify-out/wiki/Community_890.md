@@ -1,29 +1,32 @@
 # Community 890
 
-> 8 nodes · cohesion 0.25
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **.quote_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.savepoint_commit_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.savepoint_create_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.savepoint_rollback_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **Return a quoted version of the given table, index, or column name. Do not quote…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **Return the SQL for starting a new savepoint. Only required if the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **Return the SQL for committing the given savepoint.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **Return the SQL for rolling back the given savepoint.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **get_current_timezone_name()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **get_default_timezone_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **_get_timezone_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **tz()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
+- **Return the name of the default time zone.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **Return the name of the currently active time zone.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **Return the name of ``timezone``.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
 
 ## Relationships
 
-- [Community 52](Community_52.md) (4 shared connections)
+- [Community 222](Community_222.md) (3 shared connections)
+- [Community 135](Community_135.md) (2 shared connections)
+- [Community 154](Community_154.md) (2 shared connections)
+- [Community 286](Community_286.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,35 +1,38 @@
 # Community 773
 
-> 12 nodes · cohesion 0.17
+> 11 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **.get_queryset()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **PublishedBookManager** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **AnnotatedBookManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **BoringPeopleManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **FastCarManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **FunPeopleManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **RestrictedManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **DatabaseWrapper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/base.py`
+- **PostGISIntrospection** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/introspection.py`
+- **DatabaseFeatures** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/features.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/base.py`
+- **.get_geometry_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/introspection.py`
+- **Psycopg2DatabaseFeatures** (1 connections)
+- **Psycopg2DatabaseWrapper** (1 connections)
+- **.prepare_database()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/base.py`
+- **.get_field_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/introspection.py`
+- **DatabaseIntrospection** (1 connections)
+- **The geometry type OID used by PostGIS does not indicate the particular type of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/introspection.py`
 
 ## Relationships
 
-- [Community 441](Community_441.md) (7 shared connections)
-- [Community 83](Community_83.md) (1 shared connections)
+- [Community 222](Community_222.md) (5 shared connections)
+- [Community 110](Community_110.md) (2 shared connections)
+- [Community 32](Community_32.md) (2 shared connections)
+- [Community 244](Community_244.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/features.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/introspection.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 18 (82%)
+- INFERRED: 4 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

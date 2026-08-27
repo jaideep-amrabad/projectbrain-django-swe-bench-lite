@@ -1,43 +1,53 @@
 # Community 505
 
-> 16 nodes · cohesion 0.19
+> 20 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **test_renderers.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **BaseRenderer** (9 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **TemplatesSetting** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **SharedTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **BaseTemplateRendererTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **DjangoTemplatesTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **Jinja2Tests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **TemplatesSettingTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **.get_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **.test_get_renderer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **.test_installed_apps_template_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **.get_template()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **Load templates using template.loader.get_template() which is configured based…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **skipIf** (1 connections)
-- **Can find a custom template in INSTALLED_APPS.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
+- **SimpleTemplateResponse** (28 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.resolve_template()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.rendered_content()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.test_post_callbacks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.add_post_render_callback()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.is_rendered()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.resolve_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **._response()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_pickling()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_pickling_cookie()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_repickling()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **Accept a template object, path-to-template, or list of paths.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **Return the freshly rendered content for the template and context described by…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **Add a new post-rendering callback. If the response has already been rendered,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **Render (thereby finalizing) the content of the response. If the content has…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **Rendering a template response triggers the post-render callbacks** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (6 shared connections)
-- [Community 62](Community_62.md) (5 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 40](Community_40.md) (1 shared connections)
+- [Community 517](Community_517.md) (8 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 856](Community_856.md) (3 shared connections)
+- [Community 585](Community_585.md) (2 shared connections)
+- [Community 233](Community_233.md) (2 shared connections)
+- [Community 49](Community_49.md) (1 shared connections)
+- [Community 728](Community_728.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 201](Community_201.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 595](Community_595.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
+- `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (92%)
-- INFERRED: 3 (8%)
+- EXTRACTED: 45 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

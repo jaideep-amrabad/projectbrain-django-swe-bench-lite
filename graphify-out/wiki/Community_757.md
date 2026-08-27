@@ -1,37 +1,34 @@
 # Community 757
 
-> 11 nodes · cohesion 0.24
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **migration_test_data_persistence/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/tests.py`
-- **migration_test_data_persistence/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/models.py`
-- **MigrationDataNormalPersistenceTestCase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/tests.py`
-- **MigrationDataPersistenceTestCase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/tests.py`
-- **Book** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/models.py`
-- **Unmanaged** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/models.py`
-- **.test_persistence()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/tests.py`
-- **.test_persistence()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/tests.py`
-- **Data loaded in migrations is available on TestCase** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/tests.py`
-- **Data loaded in migrations is available if…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/tests.py`
+- **.order_by()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.reverse()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._earliest()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.last()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.first()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.latest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Return a new QuerySet instance with the ordering changed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Reverse the ordering of the QuerySet.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Return the earliest object according to fields (if given) or by the model's…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Return the first object of a query or None if no match is found.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Return the last object of a query or None if no match is found.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 168](Community_168.md) (2 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 178](Community_178.md) (6 shared connections)
+- [Community 268](Community_268.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/migration_test_data_persistence/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (90%)
-- INFERRED: 2 (10%)
+- EXTRACTED: 18 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

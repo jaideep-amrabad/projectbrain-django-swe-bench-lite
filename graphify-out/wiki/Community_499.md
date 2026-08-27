@@ -1,45 +1,53 @@
 # Community 499
 
-> 22 nodes · cohesion 0.09
+> 29 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **TimezoneTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_get_default_timezone_utc()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_now()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_activate_invalid_timezone()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_fixedoffset_negative_timedelta()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_fixedoffset_timedelta()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_get_default_timezone()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_is_aware()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_is_naive()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_localdate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_make_aware()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_make_aware2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_make_aware_no_tz()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_make_aware_pytz()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_make_aware_pytz_ambiguous()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_make_aware_pytz_non_existent()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_make_naive()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_make_naive_no_tz()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_override()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_override_decorator()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_override_fixed_offset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
-- **.test_override_string_tz()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **BaseStorage** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **FallbackStorage** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
+- **.update()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.add()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **._get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **._get_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **._loaded_messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **._prepare_messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **._store()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **._set_level()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **._get()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
+- **._store()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
+- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Prepare a list of messages for storage.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Store all unread messages. If the backend has yet to be iterated, store…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Queue a message to be stored. The message is only queued if it contained…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Return the minimum recorded level. The default level is the ``MESSAGE_LEVEL``…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Set a custom minimum recorded level. If set to ``None``, the default level will…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **This is the base backend for temporary message storage. This is not a complete…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Return a list of loaded messages, retrieving them first if they have not been…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Retrieve a list of stored messages. Return a tuple of the messages and a flag…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Store a list of messages and return a list of any messages which could not be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
+- [Community 498](Community_498.md) (7 shared connections)
+- [Community 592](Community_592.md) (2 shared connections)
+- [Community 593](Community_593.md) (2 shared connections)
+- [Community 99](Community_99.md) (1 shared connections)
+- [Community 460](Community_460.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 40 (91%)
+- INFERRED: 4 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,60 +1,60 @@
 # Community 90
 
-> 93 nodes · cohesion 0.06
+> 72 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **datetime.py** (47 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **test_extract_trunc.py** (44 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
-- **DateFunctionTests** (42 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
-- **.create_model()** (40 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
-- **Extract** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **TruncBase** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **ExtractYear** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **Trunc** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **truncate_to()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
-- **.test_extract_func_with_timezone()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
-- **ExtractIsoYear** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **ExtractWeekDay** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **DateFunctionWithTimeZoneTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
-- **ExtractIsoWeekDay** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **ExtractQuarter** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **ExtractWeek** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **TruncDate** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **TruncTime** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **TruncYear** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **ExtractHour** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **ExtractMinute** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **TruncDay** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **TruncHour** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **TruncWeek** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **.test_extract_year_exact_lookup()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
-- *... and 68 more nodes in this community*
+- **MigrationExecutor** (46 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/executor.py`
+- **ExecutorTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **.migrate()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/executor.py`
+- **ExecutorUnitTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **.test_migrations_applied_and_recorded_atomically()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **FakeMigration** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **.apply_migration()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/executor.py`
+- **._create_project_state()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/executor.py`
+- **.test_apply_all_replaced_marks_replacement_as_applied()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **.test_custom_user()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **.test_migrate_marks_replacement_applied_even_if_it_did_nothing()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **.test_backwards_nothing_to_do()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **.test_minimize_rollbacks()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **.test_minimize_rollbacks_branchy()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **.schema_editor()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **._migrate_all_backwards()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/executor.py`
+- **.test_atomic_operation_in_non_atomic_migration()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **.test_detect_soft_applied_add_field_manytomanyfield()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **.test_empty_plan()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **.test_mixed_plan_not_supported()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **.test_non_atomic_migration()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **.test_process_callback()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **.test_run()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **.test_run_with_squashed()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- **.test_soft_apply()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- *... and 47 more nodes in this community*
 
 ## Relationships
 
-- [Community 115](Community_115.md) (38 shared connections)
-- [Community 179](Community_179.md) (26 shared connections)
-- [Community 54](Community_54.md) (7 shared connections)
-- [Community 14](Community_14.md) (7 shared connections)
-- [Community 45](Community_45.md) (6 shared connections)
-- [Community 131](Community_131.md) (5 shared connections)
-- [Community 13](Community_13.md) (4 shared connections)
-- [Community 341](Community_341.md) (3 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 37](Community_37.md) (3 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
+- [Community 7](Community_7.md) (20 shared connections)
+- [Community 12](Community_12.md) (17 shared connections)
+- [Community 78](Community_78.md) (17 shared connections)
+- [Community 126](Community_126.md) (4 shared connections)
+- [Community 57](Community_57.md) (3 shared connections)
+- [Community 36](Community_36.md) (2 shared connections)
+- [Community 134](Community_134.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 313](Community_313.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/executor.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
 
 ## Audit Trail
 
-- EXTRACTED: 327 (90%)
-- INFERRED: 37 (10%)
+- EXTRACTED: 144 (82%)
+- INFERRED: 31 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

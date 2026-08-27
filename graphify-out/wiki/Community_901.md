@@ -4,29 +4,31 @@
 
 ## Key Concepts
 
-- **CallableSettingWrapper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **CallableSettingWrapperTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **Object to wrap callable appearing in settings. * Not to call in the debug page…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **Unittests for CallableSettingWrapper** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **setup_test_environment()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **SetupTestEnvironmentTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **instrumented_test_render()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.test_allowed_hosts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_setup_test_environment_calling_more_than_once()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Perform global pre-test setup, such as installing the instrumented template…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **An instrumented Template render method, providing a signal that can be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
 
 ## Relationships
 
-- [Community 82](Community_82.md) (3 shared connections)
-- [Community 258](Community_258.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 19](Community_19.md) (2 shared connections)
+- [Community 290](Community_290.md) (2 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 224](Community_224.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (92%)
-- INFERRED: 1 (8%)
+- EXTRACTED: 13 (93%)
+- INFERRED: 1 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

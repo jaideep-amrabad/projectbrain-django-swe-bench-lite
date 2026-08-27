@@ -1,26 +1,25 @@
 # Community 1082
 
-> 4 nodes · cohesion 0.67
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **RjustTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_rjust.py`
-- **.test_rjust01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_rjust.py`
-- **.test_rjust02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_rjust.py`
-- **setup** (2 connections)
+- **DecoratorsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_sensitive_post_parameters_not_called()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_sensitive_variables_not_called()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 47](Community_47.md) (2 shared connections)
+- [Community 92](Community_92.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_rjust.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **geogapp/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/__init__.py`
+- **lookuperror_b/migrations/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_b/migrations/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_b/migrations/__init__.py`
 
 ## Audit Trail
 

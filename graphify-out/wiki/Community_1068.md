@@ -1,25 +1,25 @@
 # Community 1068
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **PersonManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **SubManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **UseMultipleObjectMixinTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_overwrite_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_use_queryset_from_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
 
 ## Relationships
 
-- [Community 478](Community_478.md) (2 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

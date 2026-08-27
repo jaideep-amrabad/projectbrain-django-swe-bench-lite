@@ -1,44 +1,39 @@
 # Community 766
 
-> 11 nodes · cohesion 0.18
+> 12 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **setup** (45 connections)
-- **.test_inheritance05()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance24()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance25()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_duplicate_block()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance31()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance39()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Two-level with double quotes instead of single quotes** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Inheritance from local context without use of template loader** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Inheritance from local context with variable parent template** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **FileSessionTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_clearsessions_command()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **FileSessionPathLibTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_clearsessions_command()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.mkdtemp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_configuration_check()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **Test clearsessions command for clearing expired sessions.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.mkdtemp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_invalid_key_backslash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_invalid_key_forwardslash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
 
 ## Relationships
 
-- [Community 802](Community_802.md) (15 shared connections)
-- [Community 1131](Community_1131.md) (2 shared connections)
-- [Community 1132](Community_1132.md) (2 shared connections)
-- [Community 1216](Community_1216.md) (1 shared connections)
-- [Community 1217](Community_1217.md) (1 shared connections)
-- [Community 1218](Community_1218.md) (1 shared connections)
-- [Community 1219](Community_1219.md) (1 shared connections)
-- [Community 1220](Community_1220.md) (1 shared connections)
-- [Community 1221](Community_1221.md) (1 shared connections)
-- [Community 1222](Community_1222.md) (1 shared connections)
-- [Community 1223](Community_1223.md) (1 shared connections)
-- [Community 1224](Community_1224.md) (1 shared connections)
+- [Community 12](Community_12.md) (3 shared connections)
+- [Community 595](Community_595.md) (2 shared connections)
+- [Community 564](Community_564.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 109](Community_109.md) (1 shared connections)
+- [Community 570](Community_570.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 20 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

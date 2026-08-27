@@ -1,58 +1,62 @@
 # Community 176
 
-> 71 nodes · cohesion 0.04
+> 55 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **custom_lookups/tests.py** (43 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **YearLteTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **custom_lookups/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
-- **CustomisedMethodsTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **TrackCallsYearTransform** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **DateTimeLookupTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **SQLFuncFactory** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **SQLFuncMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **CustomField** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.test_datetime_output_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **Div3Transform** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **skipUnless** (4 connections)
-- **SQLFuncLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **SQLFuncTransform** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **YearLte** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **YearTransform** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **Article** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
-- **MySQLUnixTimestamp** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
-- **.get_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.get_transform()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **DateTimeTransform** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **Div3Lookup** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **Exactly** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **InMonth** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.test_birthdate_month()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- *... and 46 more nodes in this community*
+- **staticfiles/storage.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **staticfiles_tests/storage.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **HashedFilesMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **staticfiles/utils.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/utils.py`
+- **ManifestFilesMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.post_process()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **ManifestStaticFilesStorage** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **staticfiles_tests/test_utils.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_utils.py`
+- **.hashed_name()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **check_settings()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/utils.py`
+- **PathNotImplementedStorage** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **StaticFilesStorage** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.clean_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **._url()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.stored_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **matches_patterns()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/utils.py`
+- **.hash_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **._stored_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **NeverCopyRemoteStorage** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **._path()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **.file_hash()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.url_converter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.load_manifest()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **.save_manifest()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- *... and 30 more nodes in this community*
 
 ## Relationships
 
-- [Community 70](Community_70.md) (14 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 5](Community_5.md) (3 shared connections)
-- [Community 14](Community_14.md) (3 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
+- [Community 1](Community_1.md) (9 shared connections)
+- [Community 24](Community_24.md) (5 shared connections)
+- [Community 621](Community_621.md) (5 shared connections)
+- [Community 80](Community_80.md) (5 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 200](Community_200.md) (3 shared connections)
+- [Community 57](Community_57.md) (3 shared connections)
+- [Community 97](Community_97.md) (2 shared connections)
+- [Community 146](Community_146.md) (2 shared connections)
 - [Community 115](Community_115.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 37](Community_37.md) (1 shared connections)
+- [Community 222](Community_222.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 117 (97%)
-- INFERRED: 4 (3%)
+- EXTRACTED: 133 (96%)
+- INFERRED: 5 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

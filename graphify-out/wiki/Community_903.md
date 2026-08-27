@@ -1,30 +1,38 @@
 # Community 903
 
-> 7 nodes · cohesion 0.29
+> 10 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **.assertDoesNotOptimize()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_optimize_through_create()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_create_model_add_field_not_through_m2m_through()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_create_model_no_reordering_for_unrelated_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **We should be able to optimize away create/delete through a create or delete of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **CreateModel order remains unchanged if the later AddField operation isn't a FK…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **AddField should NOT optimize into CreateModel if it's an M2M using a through…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **DateHierarchyTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
+- **EventAdmin** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
+- **.assertDateParams()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
+- **.test_bounded_params_with_dst_time_zone()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
+- **.test_bounded_params_with_time_zone()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
+- **.test_bounded_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
+- **.test_invalid_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
+- **.event_date_func()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
+- **.has_add_permission()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
 
 ## Relationships
 
-- [Community 680](Community_680.md) (4 shared connections)
-- [Community 145](Community_145.md) (2 shared connections)
+- [Community 51](Community_51.md) (6 shared connections)
+- [Community 29](Community_29.md) (3 shared connections)
+- [Community 154](Community_154.md) (2 shared connections)
+- [Community 377](Community_377.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 595](Community_595.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 21 (75%)
+- INFERRED: 7 (25%)
 - AMBIGUOUS: 0 (0%)
 
 ---

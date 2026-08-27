@@ -1,38 +1,41 @@
 # Community 698
 
-> 13 nodes · cohesion 0.32
+> 13 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **null_fk_ordering/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
-- **null_fk_ordering/tests.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/tests.py`
-- **NullFkOrderingTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/tests.py`
-- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
-- **Comment** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
-- **Author** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
-- **Forum** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
-- **Post** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
-- **SystemInfo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
-- **.test_ordering_across_null_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/tests.py`
-- **Regression tests for proper working of ForeignKey(null=True). Tests these bugs:…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
-- **Regression test for #7512 ordering across nullable Foreign Keys shouldn't…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/tests.py`
+- **CsrfViewMiddlewareUseSessionsTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_session_modify()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_https_good_referer_behind_proxy()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_https_good_referer_matches_cookie_domain()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_https_good_referer_matches_cookie_domain_with_different_port()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_https_good_referer_behind_proxy()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_https_good_referer_matches_cookie_domain()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_https_good_referer_matches_cookie_domain_with_different_port()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_no_session_on_request()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **A POST HTTPS request with a good referer should be accepted from a subdomain…** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **A POST HTTPS request is accepted when USE_X_FORWARDED_PORT=True.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **CSRF tests with CSRF_USE_SESSIONS=True.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **The session isn't saved if the CSRF cookie is unchanged.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 206](Community_206.md) (11 shared connections)
+- [Community 243](Community_243.md) (10 shared connections)
+- [Community 12](Community_12.md) (7 shared connections)
+- [Community 286](Community_286.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (80%)
-- INFERRED: 6 (20%)
+- EXTRACTED: 43 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

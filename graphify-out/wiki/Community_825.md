@@ -1,32 +1,36 @@
 # Community 825
 
-> 10 nodes · cohesion 0.20
+> 9 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **RunPython** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **Run Python code in a context suitable for doing versioned ORM operations.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **.noop()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **.reversible()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **bar.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/bar.py`
+- **models/foo.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/foo.py`
+- **admin/foo.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/admin/foo.py`
+- **Bar** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/bar.py`
+- **Foo** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/foo.py`
+- **complex_app/models/__init__.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/__init__.py`
+- **simple_app/models.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/simple_app/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/bar.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/foo.py`
 
 ## Relationships
 
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 222](Community_222.md) (2 shared connections)
 - [Community 0](Community_0.md) (2 shared connections)
-- [Community 60](Community_60.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/admin/foo.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/bar.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/foo.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/simple_app/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

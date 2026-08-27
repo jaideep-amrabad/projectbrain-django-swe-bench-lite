@@ -1,29 +1,26 @@
 # Community 1067
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **Restaurant** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **.test_related_object_cache()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **Regression test for #6886 (the related-object cache)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- **SingleObjectTemplateResponseMixinTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_template_mixin_without_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **We want to makes sure that if you use a template mixin, but forget the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
 
 ## Relationships
 
-- [Community 549](Community_549.md) (2 shared connections)
-- [Community 388](Community_388.md) (2 shared connections)
-- [Community 643](Community_643.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (88%)
-- INFERRED: 1 (12%)
+- EXTRACTED: 4 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

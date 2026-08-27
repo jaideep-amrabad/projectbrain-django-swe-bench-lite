@@ -1,34 +1,36 @@
 # Community 722
 
-> 8 nodes · cohesion 0.29
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **BaseMemcachedTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **caches_setting_for_tests()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_close()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_default_far_future_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_default_never_expiring_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_location_multiple_servers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_memcached_deletes_key_on_failed_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_set_many_returns_failing_keys()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **Reference** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.references_column()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.references_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.rename_column_references()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.rename_table_references()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **Return whether or not this instance references the specified table.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **Return whether or not this instance references the specified column.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **Rename all references to the old_name to the new_table.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **Rename all references to the old_column to the new_column.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **Base class that defines the reference interface.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
 
 ## Relationships
 
-- [Community 41](Community_41.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 277](Community_277.md) (1 shared connections)
-- [Community 996](Community_996.md) (1 shared connections)
-- [Community 438](Community_438.md) (1 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
+- [Community 244](Community_244.md) (1 shared connections)
+- [Community 723](Community_723.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (93%)
-- INFERRED: 1 (7%)
+- EXTRACTED: 14 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

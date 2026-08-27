@@ -1,49 +1,32 @@
 # Community 489
 
-> 22 nodes · cohesion 0.12
+> 9 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **._dumpdata_assert()** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **ForwardReferenceTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **CircularReferenceTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **DumpDataAssertMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **FixtureTransactionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_dumpdata_proxy_with_concrete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_dumpdata_proxy_without_concrete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_format_discovery()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_circular_reference()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_circular_reference_natural_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_dumpdata_with_excludes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_dumpdata_with_file_output()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_dumpdata_with_filtering_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_dumpdata_with_pks()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_loading_and_dumping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_output_formats()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_forward_reference_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_forward_reference_fk_natural_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_forward_reference_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_forward_reference_m2m_natural_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **A warning is displayed if a proxy model is dumped without its concrete parent.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **A warning isn't displayed if a proxy model is dumped with its concrete parent.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **ServerHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **is_broken_pipe_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.handle_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.handle_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **Use a LimitedStream so that unread request data will be ignored at the end of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.cleanup_headers()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
 
 ## Relationships
 
-- [Community 361](Community_361.md) (9 shared connections)
-- [Community 385](Community_385.md) (7 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 168](Community_168.md) (1 shared connections)
-- [Community 824](Community_824.md) (1 shared connections)
-- [Community 30](Community_30.md) (1 shared connections)
+- [Community 24](Community_24.md) (5 shared connections)
+- [Community 307](Community_307.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (92%)
-- INFERRED: 4 (8%)
+- EXTRACTED: 15 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

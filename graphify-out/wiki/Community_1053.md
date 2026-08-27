@@ -1,29 +1,29 @@
 # Community 1053
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **TestLoadFixtureFromOtherAppDirectory** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **Absolute** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **#23612 -- fixtures path should be normalized to allow referencing relative…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_fixtures_loaded()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **SubscriberAdmin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.mail_admin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.delete_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Relationships
 
-- [Community 354](Community_354.md) (3 shared connections)
-- [Community 194](Community_194.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 69](Community_69.md) (1 shared connections)
+- [Community 686](Community_686.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 102](Community_102.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (75%)
-- INFERRED: 2 (25%)
+- EXTRACTED: 5 (71%)
+- INFERRED: 2 (29%)
 - AMBIGUOUS: 0 (0%)
 
 ---

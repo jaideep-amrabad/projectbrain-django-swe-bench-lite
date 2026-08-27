@@ -1,28 +1,30 @@
 # Community 925
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **localize()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
-- **unlocalize()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
-- **filter** (2 connections)
-- **Force a value to be rendered as a non-localized value, regardless of the value…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
-- **Force a value to be rendered as a localized value, regardless of the value of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
+- **.srid()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.s()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **setter** (1 connections)
+- **Get the SRID for the geometry. Return None if no SRID is set.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **Set the SRID for the geometry.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **Seconds; i.e. '00' to '59** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
 
 ## Relationships
 
-- [Community 43](Community_43.md) (2 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
+- [Community 43](Community_43.md) (1 shared connections)
+- [Community 245](Community_245.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 6 (86%)
+- INFERRED: 1 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

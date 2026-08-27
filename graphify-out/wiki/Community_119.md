@@ -1,58 +1,62 @@
 # Community 119
 
-> 71 nodes · cohesion 0.03
+> 74 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **Layer** (35 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **Feature** (24 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- **.__getitem__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/datasource.py`
-- **.__getitem__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- **.index()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- **.name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **._make_feature()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **.test_capability()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **.fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- **.geom()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- **.geom_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- **.layer_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- **.fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **.geom_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **.get_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **.__iter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **.srs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **.__eq__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- **.fid()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- **.__len__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- *... and 46 more nodes in this community*
+- **Widget** (21 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **SelectDateWidgetTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **ChoiceWidget** (15 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **SelectDateWidget** (15 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.get_context()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **CheckboxSelectMultiple** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.render()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **WidgetTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_widget.py`
+- **.optgroups()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.format_value()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.create_option()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.options()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.subwidgets()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.id_for_label()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **._parse_date_fmt()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.build_attrs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.id_for_label()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.value_from_datadict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.decompress()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.test_separate_ids_constructor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_custom_input_format()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **.test_l10n()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- *... and 49 more nodes in this community*
 
 ## Relationships
 
-- [Community 81](Community_81.md) (15 shared connections)
-- [Community 586](Community_586.md) (5 shared connections)
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 29](Community_29.md) (4 shared connections)
-- [Community 536](Community_536.md) (3 shared connections)
-- [Community 214](Community_214.md) (3 shared connections)
-- [Community 72](Community_72.md) (2 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
+- [Community 106](Community_106.md) (15 shared connections)
+- [Community 45](Community_45.md) (4 shared connections)
+- [Community 259](Community_259.md) (3 shared connections)
+- [Community 17](Community_17.md) (3 shared connections)
+- [Community 212](Community_212.md) (3 shared connections)
+- [Community 12](Community_12.md) (3 shared connections)
+- [Community 107](Community_107.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 108](Community_108.md) (1 shared connections)
+- [Community 200](Community_200.md) (1 shared connections)
+- [Community 530](Community_530.md) (1 shared connections)
+- [Community 441](Community_441.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/datasource.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_widget.py`
 
 ## Audit Trail
 
-- EXTRACTED: 99 (88%)
-- INFERRED: 14 (12%)
+- EXTRACTED: 130 (95%)
+- INFERRED: 7 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

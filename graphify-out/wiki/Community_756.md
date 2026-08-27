@@ -1,35 +1,34 @@
 # Community 756
 
-> 11 nodes · cohesion 0.29
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **AccessorClashTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **._test_accessor_clash()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_clash_between_accessors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_fk_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_fk_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_fk_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_m2m_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_m2m_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_m2m_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_m2m_to_m2m_with_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_no_clash_for_hidden_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **_get_locale_dirs()** (5 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **update_catalogs()** (5 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **fetch()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **_check_diff()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **lang_stats()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **_tx_resource_for_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **Output language statistics of committed translation files for each Django…** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **Fetch translations from Transifex, wrap long lines, generate mo files.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **Return a tuple (contrib name, absolute path) for all locale directories,…** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **Return the Transifex resource name** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **Output the approximate number of changed/added strings in the en catalog.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
+- **Update the en/LC_MESSAGES/django.po (main and contrib) files with new/updated…** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
 
 ## Relationships
 
-- [Community 152](Community_152.md) (3 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 598](Community_598.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 57](Community_57.md) (6 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- `raw/code/hyd-evaluation/django-django/scripts/manage_translations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

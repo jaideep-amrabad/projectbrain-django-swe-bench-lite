@@ -4,23 +4,22 @@
 
 ## Key Concepts
 
-- **Employee** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
+- **.test_inheritance10()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Three-level with space NOT in a block -- should be ignored** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 384](Community_384.md) (1 shared connections)
-- [Community 154](Community_154.md) (1 shared connections)
-- [Community 428](Community_428.md) (1 shared connections)
+- [Community 774](Community_774.md) (1 shared connections)
+- [Community 804](Community_804.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (75%)
-- INFERRED: 1 (25%)
+- EXTRACTED: 3 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

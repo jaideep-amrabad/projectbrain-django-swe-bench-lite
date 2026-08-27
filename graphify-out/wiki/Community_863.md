@@ -1,33 +1,32 @@
 # Community 863
 
-> 9 nodes · cohesion 0.22
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **DeconstructibleCustomManager** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **BaseCustomManager** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **CustomInitQuerySet** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **.test_deconstruct_from_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **.filter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **.manager_only()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
+- **SimpleDatabaseIntrospectionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
+- **.test_get_constraints()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
+- **.test_get_key_columns()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
+- **.test_get_relations()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
+- **.test_get_sequences()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
+- **.test_get_table_description()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
+- **.test_get_table_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
 
 ## Relationships
 
-- [Community 441](Community_441.md) (4 shared connections)
-- [Community 83](Community_83.md) (2 shared connections)
+- [Community 183](Community_183.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 78](Community_78.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (93%)
-- INFERRED: 1 (7%)
+- EXTRACTED: 10 (91%)
+- INFERRED: 1 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

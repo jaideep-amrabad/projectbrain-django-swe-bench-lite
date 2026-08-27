@@ -1,36 +1,37 @@
 # Community 733
 
-> 12 nodes · cohesion 0.17
+> 12 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **ReadLimitedStreamTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_body_from_empty_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_read_from_empty_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_read_from_nonempty_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_read_numbytes_from_empty_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_read_numbytes_from_nonempty_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **HttpRequest.body, HttpRequest.read(), and HttpRequest.read(BUFFER) have proper…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **HttpRequest.body on a test client GET request should return the empty string.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **HttpRequest.read() on a test client GET request should return the empty string.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **HttpRequest.read(LARGE_BUFFER) on a test client GET request should return the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **HttpRequest.read() on a test client PUT request with some payload should return…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **HttpRequest.read(LARGE_BUFFER) on a test client PUT request with some payload…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **BaseMemcachedTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **._perform_invalid_key_test()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **caches_setting_for_tests()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_invalid_key_characters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_invalid_key_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_close()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_default_far_future_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_default_never_expiring_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_location_multiple_servers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_memcached_deletes_key_on_failed_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_set_many_returns_failing_keys()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **While other backends merely warn, memcached should raise for an invalid key.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 95](Community_95.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 271](Community_271.md) (3 shared connections)
+- [Community 135](Community_135.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 19 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

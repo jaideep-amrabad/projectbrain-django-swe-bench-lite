@@ -1,62 +1,61 @@
 # Community 39
 
-> 108 nodes · cohesion 0.02
+> 172 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **FormsTestCase** (116 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **Person** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **TestForm** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
-- **FileForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- **.test_boundfield_bool()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **PersonNew** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_baseform_repr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_baseform_repr_dont_trigger_validation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_boundfield_invalid_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_empty_querydict_args()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_error_escaping()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_forms_with_file_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_hidden_widget()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_subclassing_forms()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_subclassing_errorlist()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
-- **.test_auto_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_auto_id_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_auto_id_on_form_and_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_auto_id_true()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_boundfield_css_classes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_boundfield_initial_called_once()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_boundfield_label_tag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_boundfield_label_tag_no_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_changed_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_class_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- *... and 83 more nodes in this community*
+- **.assertIsInvalid()** (78 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **modeladmin/test_checks.py** (55 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **.assertIsValid()** (41 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **CheckTestCase** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **ValidationTestModel** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/models.py`
+- **TabularInline** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **FieldsetsCheckTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **ListFilterTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **Band** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/models.py`
+- **AutocompleteFieldsTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **InlinesCheckTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **modeladmin/models.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/models.py`
+- **ListDisplayLinksCheckTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **OrderingCheckTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **PrepopulatedFieldsCheckTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **ListDisplayEditableTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **ValidationTestInlineModel** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/models.py`
+- **.assertIsInvalidRegexp()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **DateHierarchyCheckTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **FormsetCheckTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **ListDisplayTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **RadioFieldsCheckTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **ExtraCheckTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **FieldsCheckTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- **FilterHorizontalCheckTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- *... and 147 more nodes in this community*
 
 ## Relationships
 
-- [Community 423](Community_423.md) (11 shared connections)
-- [Community 429](Community_429.md) (10 shared connections)
-- [Community 1](Community_1.md) (7 shared connections)
-- [Community 11](Community_11.md) (5 shared connections)
-- [Community 366](Community_366.md) (4 shared connections)
-- [Community 138](Community_138.md) (2 shared connections)
-- [Community 163](Community_163.md) (2 shared connections)
+- [Community 49](Community_49.md) (30 shared connections)
+- [Community 1](Community_1.md) (10 shared connections)
+- [Community 60](Community_60.md) (9 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
+- [Community 117](Community_117.md) (5 shared connections)
+- [Community 408](Community_408.md) (4 shared connections)
+- [Community 19](Community_19.md) (3 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 44](Community_44.md) (2 shared connections)
 - [Community 47](Community_47.md) (2 shared connections)
-- [Community 33](Community_33.md) (2 shared connections)
-- [Community 196](Community_196.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 233](Community_233.md) (1 shared connections)
+- [Community 624](Community_624.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- `raw/code/hyd-evaluation/django-django/tests/modeladmin/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
 
 ## Audit Trail
 
-- EXTRACTED: 176 (90%)
-- INFERRED: 20 (10%)
+- EXTRACTED: 370 (81%)
+- INFERRED: 84 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

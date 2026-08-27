@@ -1,37 +1,31 @@
 # Community 813
 
-> 11 nodes · cohesion 0.18
+> 9 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **EmptyManager** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
-- **.test_create_model_add_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_create_model_alter_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_create_model_remove_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_create_model_rename_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_create_rename_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **AddField should optimize into CreateModel.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **AlterField should optimize into CreateModel.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **RenameField should optimize into CreateModel.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **RemoveField should optimize into CreateModel.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **CreateModel should absorb RenameModels.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **RelatedObjectLookups.js** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
+- **showAdminPopup()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
+- **showRelatedObjectLookupPopup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
+- **showRelatedObjectPopup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
+- **dismissAddRelatedObjectPopup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
+- **dismissChangeRelatedObjectPopup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
+- **dismissDeleteRelatedObjectPopup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
+- **dismissRelatedLookupPopup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
+- **updateRelatedObjectLinks()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
 
 ## Relationships
 
-- [Community 680](Community_680.md) (6 shared connections)
-- [Community 145](Community_145.md) (5 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 128](Community_128.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 10 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

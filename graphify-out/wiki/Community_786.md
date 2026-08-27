@@ -1,43 +1,39 @@
 # Community 786
 
-> 11 nodes · cohesion 0.24
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **Command** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- **.handle()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- **.handle_merge()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- **NonInteractiveMigrationQuestioner** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.write_migration_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- **Take a changes dict and write them out as migration files.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- **Handles merging together conflicted migrations interactively, if it's safe;…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- **.ask_auto_now_add_addition()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_not_null_addition()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_not_null_alteration()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **LoginTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_login_session_without_hash_session_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_legacy_session_key_flushed_on_login()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_session_key_flushed_on_login()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_session_key_flushed_on_login_after_password_change()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_current_site_in_context_after_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_login_form_contains_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **To avoid reusing another user's session, ensure a new, empty session is created…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **As above, but same user logging in after a password change.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **Session without django.contrib.auth.HASH_SESSION_KEY should login without an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Relationships
 
-- [Community 334](Community_334.md) (6 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 3](Community_3.md) (4 shared connections)
-- [Community 139](Community_139.md) (3 shared connections)
-- [Community 440](Community_440.md) (3 shared connections)
-- [Community 71](Community_71.md) (2 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
-- [Community 128](Community_128.md) (1 shared connections)
-- [Community 369](Community_369.md) (1 shared connections)
+- [Community 381](Community_381.md) (4 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 380](Community_380.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 662](Community_662.md) (1 shared connections)
+- [Community 286](Community_286.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 206](Community_206.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (77%)
-- INFERRED: 9 (23%)
+- EXTRACTED: 19 (83%)
+- INFERRED: 4 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

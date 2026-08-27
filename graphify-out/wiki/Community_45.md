@@ -1,63 +1,78 @@
 # Community 45
 
-> 117 nodes · cohesion 0.03
+> 219 nodes · cohesion 0.01
 
 ## Key Concepts
 
-- **Window** (58 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **WindowFunctionTests** (44 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
-- **expressions_window/tests.py** (41 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
-- **window.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
-- **WindowFrame** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **ValueRange** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **NonQueryWindowTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
-- **Lead** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
-- **NthValue** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
-- **RowRange** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **ValidationTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/window/test_validation.py`
-- **DenseRank** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
-- **Lag** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
-- **Ntile** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
-- **test_validation.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/window/test_validation.py`
-- **.test_invalid_filter()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
-- **.test_subquery_row_range_rank()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
-- **FirstValue** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
-- **LagLeadFunction** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
-- **RowNumber** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
-- **Employee** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/models.py`
-- **.test_distinct_window_function()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
-- **.test_fail_insert()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
-- **.test_multiple_partitioning()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
-- **.test_range_n_preceding_and_following()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
-- *... and 92 more nodes in this community*
+- **ValidationError** (207 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- **django/forms/__init__.py** (124 connections) — `raw/code/hyd-evaluation/django-django/django/forms/__init__.py`
+- **WidgetTest** (55 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/base.py`
+- **tests/test_forms.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
+- **widget_tests/base.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/base.py`
+- **FormFieldAssertionsMixin** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/__init__.py`
+- **test_input_formats.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **model_fields/test_booleanfield.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **MultiValueFieldTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **URLFieldTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
+- **field_tests/__init__.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/__init__.py`
+- **field_tests/test_durationfield.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
+- **field_tests/test_floatfield.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_floatfield.py`
+- **field_tests/test_imagefield.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
+- **IntegerFieldTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
+- **field_tests/test_decimalfield.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
+- **FloatFieldTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_floatfield.py`
+- **DurationFieldTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
+- **test_multivaluefield.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **tests/test_validators.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_validators.py`
+- **test_selectdatewidget.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **field_tests/test_datetimefield.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datetimefield.py`
+- **EmailFieldTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_emailfield.py`
+- **test_splitdatetimefield.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_splitdatetimefield.py`
+- **field_tests/test_timefield.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_timefield.py`
+- *... and 194 more nodes in this community*
 
 ## Relationships
 
-- [Community 13](Community_13.md) (36 shared connections)
-- [Community 19](Community_19.md) (27 shared connections)
-- [Community 179](Community_179.md) (16 shared connections)
-- [Community 21](Community_21.md) (13 shared connections)
-- [Community 131](Community_131.md) (11 shared connections)
-- [Community 0](Community_0.md) (8 shared connections)
-- [Community 38](Community_38.md) (8 shared connections)
-- [Community 30](Community_30.md) (7 shared connections)
-- [Community 178](Community_178.md) (6 shared connections)
-- [Community 5](Community_5.md) (6 shared connections)
-- [Community 90](Community_90.md) (6 shared connections)
-- [Community 14](Community_14.md) (3 shared connections)
+- [Community 2](Community_2.md) (105 shared connections)
+- [Community 1](Community_1.md) (65 shared connections)
+- [Community 29](Community_29.md) (31 shared connections)
+- [Community 106](Community_106.md) (29 shared connections)
+- [Community 88](Community_88.md) (16 shared connections)
+- [Community 12](Community_12.md) (16 shared connections)
+- [Community 74](Community_74.md) (14 shared connections)
+- [Community 13](Community_13.md) (14 shared connections)
+- [Community 48](Community_48.md) (12 shared connections)
+- [Community 310](Community_310.md) (12 shared connections)
+- [Community 107](Community_107.md) (11 shared connections)
+- [Community 364](Community_364.md) (10 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/window/test_validation.py`
-- `raw/code/hyd-evaluation/django-django/tests/expressions_window/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/dates.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_base.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_booleanfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_choicefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_combofield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datetimefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_emailfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_floatfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_genericipaddressfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 355 (92%)
-- INFERRED: 30 (8%)
+- EXTRACTED: 909 (99%)
+- INFERRED: 10 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,34 +1,30 @@
 # Community 687
 
-> 13 nodes · cohesion 0.22
+> 13 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **ArgumentOrder** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **._test()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_option_then_setting()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_option_then_setting_then_option()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_setting_then_option()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_setting_then_short_option()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_short_option_then_setting()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Tests for 2-stage argument parsing scheme. django-admin command arguments are…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Options passed after settings are correctly handled.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Short options passed after settings are correctly handled.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Options passed before settings are correctly handled.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Short options passed before settings are correctly handled.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Options are correctly handled when they are passed before and after a setting.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **DatabaseCache** (14 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
+- **._base_set()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
+- **._base_delete_many()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
+- **._cull()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
+- **.get_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
+- **.add()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
+- **.clear()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
+- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
+- **.delete_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
+- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
+- **.set()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
+- **.touch()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
+- **.has_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
 
 ## Relationships
 
-- [Community 236](Community_236.md) (2 shared connections)
-- [Community 262](Community_262.md) (1 shared connections)
-- [Community 117](Community_117.md) (1 shared connections)
-- [Community 92](Community_92.md) (1 shared connections)
-- [Community 286](Community_286.md) (1 shared connections)
+- [Community 222](Community_222.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
 
 ## Audit Trail
 

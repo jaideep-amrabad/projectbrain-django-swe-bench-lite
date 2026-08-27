@@ -1,32 +1,27 @@
 # Community 1005
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **TestMethods** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_key_transform_text_lookup_mixin_non_key_transform()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_deconstruct_custom_encoder_decoder()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_get_transforms()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.serialize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.serialize_headers()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **Full HTTP message, including headers, as a bytestring.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **HTTP headers as a bytestring.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
 - [Community 4](Community_4.md) (1 shared connections)
-- [Community 419](Community_419.md) (1 shared connections)
-- [Community 54](Community_54.md) (1 shared connections)
-- [Community 504](Community_504.md) (1 shared connections)
+- [Community 385](Community_385.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- `raw/code/hyd-evaluation/django-django/django/http/response.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (80%)
-- INFERRED: 2 (20%)
+- EXTRACTED: 5 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

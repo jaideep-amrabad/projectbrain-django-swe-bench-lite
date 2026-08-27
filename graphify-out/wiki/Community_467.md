@@ -1,52 +1,46 @@
 # Community 467
 
-> 24 nodes · cohesion 0.14
+> 20 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **GZipMiddleware** (20 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/gzip.py`
-- **GZipMiddlewareTest** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.decompress()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_compress_file_response()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_compress_deterministic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_compress_non_200_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_compress_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_compress_streaming_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_compress_streaming_response_unicode()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.get_mtime()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_no_compress_compressed_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_no_compress_incompressible_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_no_compress_short_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **Compression is performed on responses with streaming content.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **Compress content if the browser allows gzip compression. Set the Vary header…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/gzip.py`
-- **Tests the GZipMiddleware.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **Compression is performed on responses with compressible content.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **Compression is performed on FileResponse.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **Compression is performed on responses with a status other than 200 (#10762).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **Compression isn't performed on responses with short content.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **Compression isn't performed on responses that are already compressed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **Compression isn't performed on responses with incompressible content.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **Compression results are the same for the same content and don't include a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **LocalizedDateTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **CustomDateInputFormatsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **SimpleDateFormatTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **DateFields can parse dates in the default format** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **DateFields with manually specified input formats can accept those formats** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **Localized DateFields with manually specified input formats can accept those…** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_dateField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_dateField_with_inputformat()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_localized_dateField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_localized_dateField_with_inputformat()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_dateField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_dateField_with_inputformat()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_localized_dateField_with_inputformat()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_dateField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_dateField_with_inputformat()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_localized_dateField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_localized_dateField_with_inputformat()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **Localized DateFields in a non-localized environment act as unlocalized widgets** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
 
 ## Relationships
 
-- [Community 153](Community_153.md) (6 shared connections)
-- [Community 41](Community_41.md) (5 shared connections)
-- [Community 191](Community_191.md) (2 shared connections)
-- [Community 151](Community_151.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 45](Community_45.md) (3 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 29](Community_29.md) (2 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/middleware/gzip.py`
-- `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (91%)
-- INFERRED: 5 (9%)
+- EXTRACTED: 35 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

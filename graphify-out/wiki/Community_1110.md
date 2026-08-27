@@ -1,26 +1,23 @@
 # Community 1110
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **DecadeFilterBookAdminWithoutTitle** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_listfilter_without_title()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **Any filter must define a title.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **.test_forever_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **Passing in None into timeout results in a value that is cached forever** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Relationships
 
-- [Community 384](Community_384.md) (1 shared connections)
-- [Community 958](Community_958.md) (1 shared connections)
-- [Community 428](Community_428.md) (1 shared connections)
+- [Community 271](Community_271.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,32 +4,32 @@
 
 ## Key Concepts
 
-- **EmployeeAdmin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **DepartmentFilterDynamicValueBookAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **DepartmentFilterEmployeeAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **DepartmentFilterUnderscoredEmployeeAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_fk_with_to_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_lookup_with_dynamic_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_lookup_with_non_string_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_lookup_with_non_string_value_underscored()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **Ensure choices are set the selected class when using non-string values for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **Ensure SimpleListFilter lookups pass lookup_allowed checks when parameter_name…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **A filter on a FK respects the FK's to_field attribute (#17972).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **Ensure SimpleListFilter can access self.value() inside the lookup.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **.has_perm()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **_user_has_module_perms()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **_user_has_perm()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.has_module_perms()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.has_perm()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.has_perms()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.has_module_perms()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.has_perms()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **A backend can raise `PermissionDenied` to short-circuit permission checking.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **Return True if the user has the specified permission. Query all available auth…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **Return True if the user has each of the specified permissions. If object is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **Return True if the user has any permissions in the given app label. Use similar…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
 
 ## Relationships
 
-- [Community 384](Community_384.md) (4 shared connections)
-- [Community 428](Community_428.md) (4 shared connections)
-- [Community 958](Community_958.md) (1 shared connections)
+- [Community 302](Community_302.md) (3 shared connections)
+- [Community 973](Community_973.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
+- EXTRACTED: 19 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

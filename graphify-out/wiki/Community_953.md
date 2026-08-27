@@ -1,27 +1,27 @@
 # Community 953
 
-> 5 nodes · cohesion 0.60
+> 6 nodes · cohesion 0.53
 
 ## Key Concepts
 
-- **not_installed/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/not_installed/models.py`
-- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/not_installed/models.py`
-- **M2MRelatedModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/not_installed/models.py`
-- **NotInstalledModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/not_installed/models.py`
-- **RelatedModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/not_installed/models.py`
+- **GetLanguageInfoListTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info_list.py`
+- **setup** (4 connections)
+- **.test_i18n30()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info_list.py`
+- **.test_i18n31()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info_list.py`
+- **.test_i18n38_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info_list.py`
+- **.test_no_for_as()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info_list.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/app_loading/not_installed/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info_list.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

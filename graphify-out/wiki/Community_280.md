@@ -1,60 +1,53 @@
 # Community 280
 
-> 39 nodes · cohesion 0.09
+> 41 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **auth_tests/test_mixins.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **auth/mixins.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **.handle_no_permission()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **PermissionRequiredMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **AccessMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **UserPassesTestMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **LoginRequiredMixin** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **EmptyResponseView** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.dispatch()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **LoginRequiredMixinTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.get_login_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **.dispatch()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **.get_permission_required()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **.has_permission()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **AlwaysFalseMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **AlwaysTrueMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **StackedMixinsView1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **StackedMixinsView2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.get_permission_denied_message()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **.get_redirect_field_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **.dispatch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **.get_test_func()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **AlwaysFalseView** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **AlwaysTrueView** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- *... and 14 more nodes in this community*
+- **FieldDeconstructionTests** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **isolate_lru_cache()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.test_foreign_key_swapped()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_many_to_many_field_swapped()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_decimal_field_0_decimal_places()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **Clear the cache of an LRU cache object on entering and exiting.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.test_auto_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_big_integer_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_binary_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_boolean_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_char_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_char_field_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_csi_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_date_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_datetime_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_db_tablespace()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_decimal_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_email_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_file_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_file_path_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_float_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_foreign_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_generic_ip_address_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- **.test_image_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (6 shared connections)
-- [Community 42](Community_42.md) (4 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 82](Community_82.md) (4 shared connections)
-- [Community 95](Community_95.md) (3 shared connections)
-- [Community 508](Community_508.md) (3 shared connections)
-- [Community 954](Community_954.md) (2 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 68](Community_68.md) (1 shared connections)
-- [Community 53](Community_53.md) (1 shared connections)
+- [Community 25](Community_25.md) (7 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 101 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 55 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

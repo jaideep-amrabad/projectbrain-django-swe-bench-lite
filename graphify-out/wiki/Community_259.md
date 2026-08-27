@@ -1,51 +1,62 @@
 # Community 259
 
-> 22 nodes · cohesion 0.11
+> 45 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **MultiValueFieldTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **ComplexField** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **ComplexFieldForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **ComplexMultiWidget** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_clean_disabled_multivalue()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_form_as_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_form_as_table_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_form_cleaned_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_has_changed_first_widget()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_has_changed_last_widget()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_no_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.compress()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.decompress()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_bad_choice()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_clean()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_has_changed_no_initial()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **.test_has_changed_same()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **Test when the first widget's data has changed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **Test when the last widget's data has changed. This ensures that it is not short…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
-- **If insufficient data is provided, None is substituted.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- **SelectTest** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **Select** (22 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **FormsI18nTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
+- **.use_required_attribute()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.use_required_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **._choice_has_empty_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.test_forms_with_choices()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
+- **.test_choices_constructor_generator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **.test_constructor_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **.test_deepcopy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **.use_required_attribute()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.test_non_ascii_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
+- **.test_select_translated_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
+- **.test_choices_constructor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **.test_choices_escaping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **.test_choices_optgroup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **.test_compare_to_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **.test_doesnt_localize_option_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **.test_optgroups_integer_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **.test_render_label_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **.test_render_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **.test_render_selected()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **Return True if the choice's value is empty string or None.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **Don't render 'required' if the first <option> has a value, as that's invalid…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.test_lazy_labels()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
+- *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 69](Community_69.md) (2 shared connections)
-- [Community 33](Community_33.md) (2 shared connections)
-- [Community 429](Community_429.md) (2 shared connections)
-- [Community 913](Community_913.md) (1 shared connections)
-- [Community 366](Community_366.md) (1 shared connections)
-- [Community 138](Community_138.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 106](Community_106.md) (6 shared connections)
+- [Community 119](Community_119.md) (3 shared connections)
+- [Community 45](Community_45.md) (3 shared connections)
+- [Community 360](Community_360.md) (2 shared connections)
+- [Community 858](Community_858.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 48](Community_48.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 107](Community_107.md) (1 shared connections)
+- [Community 520](Community_520.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multivaluefield.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (92%)
-- INFERRED: 3 (8%)
+- EXTRACTED: 59 (80%)
+- INFERRED: 15 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

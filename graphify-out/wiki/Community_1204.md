@@ -4,21 +4,20 @@
 
 ## Key Concepts
 
-- **.test_send_messages_zero_sent()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **A message isn't sent if it doesn't have any recipients.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_secure()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **GET a URL through https** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 126](Community_126.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 518](Community_518.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

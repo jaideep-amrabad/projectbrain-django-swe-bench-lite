@@ -1,34 +1,32 @@
 # Community 811
 
-> 11 nodes · cohesion 0.18
+> 9 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **M2mThroughFieldsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_explicit_field_names()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_invalid_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_invalid_order()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_m2m_field_argument_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_intersection_foreign_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_superset_foreign_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **ManyToManyField accepts the ``through_fields`` kwarg only if an intermediary…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **Mixing up the order of link fields to ManyToManyField.through_fields triggers…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **Providing invalid field names to ManyToManyField.through_fields triggers…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **If ``through_fields`` kwarg is given, it must specify both link fields of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **citext.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **CIText** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **CICharField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **CIEmailField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **CITextField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **CharField** (1 connections)
+- **EmailField** (1 connections)
+- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
 
 ## Relationships
 
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 598](Community_598.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 37](Community_37.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

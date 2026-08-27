@@ -1,30 +1,29 @@
 # Community 974
 
-> 6 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **CSRFEnabledClientTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_csrf_enabled_client()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **Client** (3 connections)
-- **.test_exc_info()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **CustomTestClient** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **A client can be instantiated with CSRF checks enabled** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **IsActiveTestCase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_is_active_field_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_builtin_user_isactive()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **Tests the behavior of the guaranteed is_active attribute** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **tests that the default value for is_active is provided** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 526](Community_526.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 973](Community_973.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

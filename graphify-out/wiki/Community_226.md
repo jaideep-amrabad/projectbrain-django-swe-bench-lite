@@ -1,54 +1,64 @@
 # Community 226
 
-> 48 nodes · cohesion 0.05
+> 50 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **BaseModelBackendTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.authenticate()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **AllowAllUsersModelBackendTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **ModelBackendTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **AuthenticateTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **CustomPermissionsUserModelBackendTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **ExtensionUserModelBackendTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **CustomUserModelBackendAuthenticateTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_skips_backends_without_arguments()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_type_error_raised()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_authentication_timing()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_authenticate_user_without_is_active_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_get_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_skips_backends_with_decorated_method()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_anonymous_has_no_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_authentication_without_credentials()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_inactive_has_no_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_authenticate_inactive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_authenticates()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_authenticate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_custom_perms()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_get_all_superuser_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_has_no_object_perm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.create_users()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- *... and 23 more nodes in this community*
+- **ArrayField** (54 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **MyModel** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/base/models.py`
+- **TestChecks** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **TestMigrations** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **TestValidation** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **ArrayFieldSubclass** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **KeysTransform** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **ValuesTransform** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **.test_nested_field_checks()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **Transform** (3 connections)
+- **.test_get_field_display()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_get_field_display_nested_array()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_field_checks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_invalid_base_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_invalid_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_valid_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_valid_default_none()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_subclass_deconstruct()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_valid_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.db_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **.get_placeholder()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **.model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- **.test_choices_tuple_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_deconstruct_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [Community 95](Community_95.md) (12 shared connections)
-- [Community 8](Community_8.md) (10 shared connections)
-- [Community 14](Community_14.md) (6 shared connections)
-- [Community 18](Community_18.md) (4 shared connections)
-- [Community 98](Community_98.md) (1 shared connections)
-- [Community 288](Community_288.md) (1 shared connections)
-- [Community 82](Community_82.md) (1 shared connections)
+- [Community 14](Community_14.md) (16 shared connections)
+- [Community 350](Community_350.md) (5 shared connections)
+- [Community 187](Community_187.md) (4 shared connections)
+- [Community 37](Community_37.md) (3 shared connections)
+- [Community 143](Community_143.md) (2 shared connections)
+- [Community 62](Community_62.md) (2 shared connections)
+- [Community 437](Community_437.md) (2 shared connections)
+- [Community 15](Community_15.md) (2 shared connections)
+- [Community 114](Community_114.md) (1 shared connections)
+- [Community 388](Community_388.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 75](Community_75.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- `raw/code/hyd-evaluation/django-django/tests/base/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
 
 ## Audit Trail
 
-- EXTRACTED: 87 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 96 (83%)
+- INFERRED: 19 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

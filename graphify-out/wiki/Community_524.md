@@ -1,47 +1,54 @@
 # Community 524
 
-> 20 nodes · cohesion 0.10
+> 19 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **RouterTestCase** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_generic_key_cross_database_protection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_subquery()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **Make sure as_sql works with subqueries and primary/replica.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_db_selection()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_foreign_key_managers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_generic_key_managers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_m2m_cross_database_protection()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_m2m_managers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_o2o_cross_database_protection()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_subquery()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **Querysets obey the router for db suggestions** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **M2M relations can cross databases if the database share a source** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **Generic Key operations can span databases if they share a source** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **M2M relations are represented by managers, and can be controlled like managers** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **FK reverse relations are represented by managers, and can be controlled like…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **Generic key relations are represented by managers, and can be controlled like…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_database_routing()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_deferred_models()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_invalid_set_foreign_key_assignment()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **test_autocomplete_widget.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **AutocompleteMixinTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **AutocompleteSelect** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **Album** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **AlbumForm** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **NotRequiredBandForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **RequiredBandForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **.test_render_options_not_required_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **.test_render_options_required_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **.test_build_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **.test_build_attrs_no_custom_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **.test_build_attrs_not_required_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **.test_build_attrs_required_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **.test_get_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **.test_media()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **.test_render_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **Empty option is present if the field isn't required.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
 
 ## Relationships
 
-- [Community 403](Community_403.md) (5 shared connections)
-- [Community 476](Community_476.md) (5 shared connections)
-- [Community 239](Community_239.md) (2 shared connections)
-- [Community 619](Community_619.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
+- [Community 193](Community_193.md) (7 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 19](Community_19.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 681](Community_681.md) (1 shared connections)
+- [Community 839](Community_839.md) (1 shared connections)
+- [Community 49](Community_49.md) (1 shared connections)
+- [Community 117](Community_117.md) (1 shared connections)
+- [Community 368](Community_368.md) (1 shared connections)
+- [Community 860](Community_860.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (80%)
-- INFERRED: 7 (20%)
+- EXTRACTED: 50 (78%)
+- INFERRED: 14 (22%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,41 +1,41 @@
 # Community 652
 
-> 14 nodes · cohesion 0.16
+> 14 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **DatabaseIntrospection** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
-- **postgis/introspection.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/introspection.py`
-- **postgresql/introspection.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
-- **.get_relations()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
-- **.get_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
-- **.get_key_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
-- **.get_table_description()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
-- **.get_table_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
-- **.get_field_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
-- **.get_sequences()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
-- **Return a dictionary of {field_name: (field_name_other_table, other_table)}…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
-- **Retrieve any constraints or keys (unique, pk, fk, check, index) across one or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
-- **Return a list of table and view names in the current database.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
-- **Return a description of the table with the DB-API cursor.description interface.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- **check_framework/test_templates.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **check_string_if_invalid_is_string()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/templates.py`
+- **CheckTemplateStringIfInvalidTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **check_setting_app_dirs_loaders()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/templates.py`
+- **CheckTemplateSettingsAppDirsTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_app_dirs_and_loaders()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_string_if_invalid_not_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_app_dirs_removed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_loaders_removed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_string_if_invalid_both_are_strings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_string_if_invalid_first_is_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_string_if_invalid_not_specified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **Error if template loaders are specified and APP_DIRS is True.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
 
 ## Relationships
 
 - [Community 2](Community_2.md) (4 shared connections)
-- [Community 156](Community_156.md) (3 shared connections)
-- [Community 81](Community_81.md) (2 shared connections)
-- [Community 738](Community_738.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 44](Community_44.md) (3 shared connections)
+- [Community 12](Community_12.md) (3 shared connections)
+- [Community 359](Community_359.md) (2 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/introspection.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/templates.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 33 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

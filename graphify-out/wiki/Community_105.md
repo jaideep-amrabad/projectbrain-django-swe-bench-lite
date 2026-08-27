@@ -1,59 +1,67 @@
 # Community 105
 
-> 85 nodes · cohesion 0.03
+> 81 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **get_or_create/tests.py** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **UpdateOrCreateTests** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **GetOrCreateTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **get_or_create/models.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
-- **GetOrCreateTestsWithManualPKs** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **InvalidCreateArgumentsTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **Thing** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
-- **Person** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
-- **GetOrCreateThroughManyToMany** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **ManualPrimaryKeyTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
-- **GetOrCreateTransactionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **UpdateOrCreateTransactionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **Author** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
-- **Publisher** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
-- **Tag** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
-- **UpdateOrCreateTestsWithManualPKs** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **Book** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
-- **DefaultPerson** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
-- **Profile** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
-- **.test_get_or_create_integrityerror()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_creation_in_transaction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_updates_in_transaction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.capitalized_name_property()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
-- **.test_callable_defaults()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_defaults_exact()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- *... and 60 more nodes in this community*
+- **Transform** (17 connections)
+- **Degrees** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Radians** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **ACos** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **ASin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **ATan** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Ceil** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Exp** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Ln** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Sin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Abs** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **Sign** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **AbsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_abs.py`
+- **ACosTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_acos.py`
+- **ASinTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_asin.py`
+- **ATanTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan.py`
+- **CeilTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ceil.py`
+- **DegreesTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_degrees.py`
+- **ExpTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_exp.py`
+- **LnTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ln.py`
+- **RadiansTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_radians.py`
+- **SignTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sign.py`
+- **SinTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sin.py`
+- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_abs.py`
+- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_abs.py`
+- *... and 56 more nodes in this community*
 
 ## Relationships
 
-- [Community 14](Community_14.md) (6 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 168](Community_168.md) (4 shared connections)
-- [Community 30](Community_30.md) (3 shared connections)
-- [Community 142](Community_142.md) (3 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
-- [Community 628](Community_628.md) (1 shared connections)
-- [Community 115](Community_115.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 19](Community_19.md) (55 shared connections)
+- [Community 62](Community_62.md) (11 shared connections)
+- [Community 16](Community_16.md) (8 shared connections)
+- [Community 896](Community_896.md) (1 shared connections)
+- [Community 853](Community_853.md) (1 shared connections)
+- [Community 874](Community_874.md) (1 shared connections)
+- [Community 897](Community_897.md) (1 shared connections)
+- [Community 878](Community_878.md) (1 shared connections)
+- [Community 899](Community_899.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_abs.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_acos.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_asin.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ceil.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_degrees.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_exp.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ln.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_radians.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sign.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 126 (86%)
-- INFERRED: 20 (14%)
+- EXTRACTED: 193 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

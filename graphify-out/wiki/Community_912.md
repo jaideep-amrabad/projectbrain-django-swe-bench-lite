@@ -1,28 +1,30 @@
 # Community 912
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **BooleanFieldTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_booleanfield.py`
-- **.test_boolean_picklable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_booleanfield.py`
-- **.test_booleanfield_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_booleanfield.py`
-- **.test_booleanfield_clean_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_booleanfield.py`
-- **.test_booleanfield_clean_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_booleanfield.py`
-- **.test_disabled_has_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_booleanfield.py`
+- **SignalsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.register_finished()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.register_started()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_request_signals()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_request_signals_streaming_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_booleanfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

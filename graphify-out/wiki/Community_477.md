@@ -1,50 +1,48 @@
 # Community 477
 
-> 24 nodes · cohesion 0.08
+> 22 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **ModelChoiceFieldTests** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_disabled_multiplemodelchoicefield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_overridable_choice_iterator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_basics()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_choice_iterator_passes_model_to_widget()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_choices_bool()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_choices_bool_empty_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_choices_freshness()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_choices_not_fetched_when_not_rendering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_choices_radio_blank()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_clean_model_instance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_clean_to_field_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_custom_choice_iterator_passes_model_to_widget()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_deepcopies_widget()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_disabled_modelchoicefield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_disabled_modelchoicefield_has_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_disabled_modelchoicefield_initial_model_instance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_disabled_modelmultiplechoicefield_has_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_queryset_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_queryset_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_result_cache_not_shared()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **Iterator defaults to ModelChoiceIterator and can be overridden with the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **AdminForeignKeyRawIdWidget** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **AdminFileWidgetTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **TestDataMixin** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **AdminForeignKeyWidgetChangeList** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **AdminFormfieldForDBFieldWithRequestTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_readonly_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_filter_choices_by_request_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_render()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_invalid_target_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_nonexistent_target_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_changelist_ForeignKey()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_render_disabled()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_render_required()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_label_and_url_for_value_invalid_uuid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_url_params_from_lookup_dict_any_iterable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_url_params_from_lookup_dict_callable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **Ensure the user can only see their own cars in the foreign key dropdown.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **File widgets should render as a link when they're marked "read only."** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
 
 ## Relationships
 
-- [Community 74](Community_74.md) (4 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
-- [Community 185](Community_185.md) (2 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 458](Community_458.md) (1 shared connections)
+- [Community 193](Community_193.md) (9 shared connections)
+- [Community 6](Community_6.md) (5 shared connections)
+- [Community 12](Community_12.md) (4 shared connections)
+- [Community 19](Community_19.md) (4 shared connections)
+- [Community 265](Community_265.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (82%)
-- INFERRED: 6 (18%)
+- EXTRACTED: 40 (89%)
+- INFERRED: 5 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

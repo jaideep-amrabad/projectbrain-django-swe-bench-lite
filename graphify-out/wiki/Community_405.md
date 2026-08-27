@@ -1,52 +1,50 @@
 # Community 405
 
-> 28 nodes · cohesion 0.10
+> 25 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **UpdateOnlyFieldsTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **update_only_fields/tests.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **update_only_fields/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- **Employee** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- **ProxyEmployee** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- **Account** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- **NonConcreteField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- **Profile** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- **.get_attname_column()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- **.test_empty_update_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_num_queries_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_select_related_only_interaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_basic()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_deferred()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_fk_defer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_incorrect_params()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_inheritance_defer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_inheritance_with_proxy_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_only_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_only_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- *... and 3 more nodes in this community*
+- **.__init__()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.get_context()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **FilteredSelectMultiple** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **AdminSplitDateTime** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **Media** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **AdminTimeWidget** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **AdminURLFieldWidget** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **AdminEmailInputWidget** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.get_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **AdminTextareaWidget** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **AdminTextInputWidget** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **AdminUUIDInputWidget** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.get_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.get_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **A SelectMultiple with a JavaScript filter interface. Note that the resulting…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **A SplitDateTime Widget that has some admin-specific styling.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 598](Community_598.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 1](Community_1.md) (12 shared connections)
+- [Community 623](Community_623.md) (3 shared connections)
+- [Community 839](Community_839.md) (1 shared connections)
+- [Community 205](Community_205.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (89%)
-- INFERRED: 5 (11%)
+- EXTRACTED: 42 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

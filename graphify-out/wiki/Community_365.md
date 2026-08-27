@@ -1,55 +1,64 @@
 # Community 365
 
-> 30 nodes · cohesion 0.07
+> 27 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **ForeignObjectRel** (31 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.__repr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_cache_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.is_hidden()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.target_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.get_accessor_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.get_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.get_path_info()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.hidden()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.set_field_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **Display the module, class, and name of the field.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.get_extra_restriction()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.get_joining_columns()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.get_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.many_to_many()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.many_to_one()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.one_to_many()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.one_to_one()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.related_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **Return choices with a default blank choices included, for use as <select>…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- *... and 5 more nodes in this community*
+- **ignore_warnings** (73 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **DeprecationTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **DefaultHashingAlgorithmDeprecationTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_default_hashing_algorithm.py`
+- **CacheSessionTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_explicit_default_app_config_empty_apps()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_explicit_default_app_config_mismatch()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_explicit_default_app_config_warning()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_explicit_default_app_config_without_apps()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_explicit_default_app_config()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_settings_init_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_default_hashing_algorithm.py`
+- **.test_system_check_invalid_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_default_hashing_algorithm.py`
+- **.test_system_check_valid_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_default_hashing_algorithm.py`
+- **.test_ticket7098()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_load_overlong_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_non_default_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_default_hashing_algorith_legacy_decode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_undeepcopyable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **.disable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.enable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **Load an app that specifies a default AppConfig class matching the autodetected…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **Load an app that specifies a default AppConfig class not matching the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **Load an app that specifies a default AppConfig class in __init__ and have an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **Load an app that specifies a default AppConfig class in __init__ and do not…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- **.test_access()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_default_hashing_algorithm.py`
+- **.test_override_settings_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_default_hashing_algorithm.py`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Community 28](Community_28.md) (5 shared connections)
-- [Community 121](Community_121.md) (1 shared connections)
-- [Community 154](Community_154.md) (1 shared connections)
-- [Community 97](Community_97.md) (1 shared connections)
-- [Community 299](Community_299.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 85](Community_85.md) (1 shared connections)
+- [Community 1](Community_1.md) (11 shared connections)
+- [Community 397](Community_397.md) (10 shared connections)
+- [Community 2](Community_2.md) (7 shared connections)
+- [Community 88](Community_88.md) (4 shared connections)
+- [Community 181](Community_181.md) (3 shared connections)
+- [Community 50](Community_50.md) (3 shared connections)
+- [Community 19](Community_19.md) (3 shared connections)
+- [Community 27](Community_27.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 449](Community_449.md) (2 shared connections)
+- [Community 216](Community_216.md) (2 shared connections)
+- [Community 299](Community_299.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_default_hashing_algorithm.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (91%)
-- INFERRED: 4 (9%)
+- EXTRACTED: 103 (97%)
+- INFERRED: 3 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

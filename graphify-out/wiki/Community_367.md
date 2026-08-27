@@ -1,53 +1,61 @@
 # Community 367
 
-> 30 nodes · cohesion 0.08
+> 33 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **StaticTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **static()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/conf/urls/static.py`
-- **StaticHelperTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_debug_off()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_special_prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_serve()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_empty_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_chunked()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_index_custom_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_invalid_if_modified_since()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_invalid_if_modified_since2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **Return a URL pattern for serving files in debug mode. from django.conf import…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/urls/static.py`
-- **Test case to make sure the static URL pattern helper works as expected** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **No URLs are served if DEBUG=False.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **No URLs are served if prefix contains a netloc part.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **Tests django views in django/views/static.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **The static view can serve static media** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **The static view should stream files in chunks to avoid large memory usage** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **Handle bogus If-Modified-Since values gracefully Assume that a file is modified…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **Handle even more bogus If-Modified-Since values gracefully Assume that a file…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_404()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_copes_with_empty_path_component()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- *... and 5 more nodes in this community*
+- **.setUpClass()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._databases_names()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._databases_support_transactions()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **connections_support_transactions()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._fixture_teardown()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._rollback_atomics()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.tearDownClass()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._pre_setup()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._enter_atomics()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._fixture_setup()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._post_teardown()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.tearDownClass()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.setUpTestData()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._fixture_setup()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.test_port_bind()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_specified_port_bind()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **._remove_databases_failures()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.tearDownClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._should_reload_connections()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._fixture_teardown()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._reset_sequences()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.test_empty_default_database()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **._should_check_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **EmptyDefaultDatabaseTest** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **Return whether or not all (or specified) connections support transactions.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Community 48](Community_48.md) (6 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 536](Community_536.md) (1 shared connections)
+- [Community 19](Community_19.md) (10 shared connections)
+- [Community 26](Community_26.md) (6 shared connections)
+- [Community 15](Community_15.md) (3 shared connections)
+- [Community 224](Community_224.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 930](Community_930.md) (2 shared connections)
+- [Community 307](Community_307.md) (2 shared connections)
+- [Community 170](Community_170.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 443](Community_443.md) (1 shared connections)
+- [Community 129](Community_129.md) (1 shared connections)
+- [Community 824](Community_824.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/conf/urls/static.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 79 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

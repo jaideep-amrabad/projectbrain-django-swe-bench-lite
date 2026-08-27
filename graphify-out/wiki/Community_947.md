@@ -1,32 +1,28 @@
 # Community 947
 
-> 6 nodes · cohesion 0.47
+> 6 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **timeuntil_filter()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
-- **.test_explicit_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
-- **.test_no_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
-- **.test_until_now()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
-- **Format a date as the time until that date (i.e. "4 days, 6 hours").** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **ModelPickleTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
+- **.test_missing_django_version_unpickling()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
+- **.test_unsupported_unpickle()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
+- **.test_with_getstate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
+- **#21430 -- Verifies a warning is raised for models that are unpickled without a…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
+- **A model may override __getstate__() to choose the attributes to pickle.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (3 shared connections)
-- [Community 47](Community_47.md) (2 shared connections)
-- [Community 322](Community_322.md) (1 shared connections)
-- [Community 115](Community_115.md) (1 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_regress/test_pickle.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (93%)
-- INFERRED: 1 (7%)
+- EXTRACTED: 8 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

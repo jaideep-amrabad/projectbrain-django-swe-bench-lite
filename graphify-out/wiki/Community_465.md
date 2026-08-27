@@ -1,61 +1,42 @@
 # Community 465
 
-> 23 nodes · cohesion 0.17
+> 20 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **register()** (49 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
-- **security/base.py** (25 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **_security_middleware()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **GroupAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/admin.py`
-- **check_content_type_nosniff()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_referrer_policy()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_security_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_ssl_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_sts()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_sts_include_subdomains()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_sts_preload()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_xframe_deny()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_xframe_options_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **_xframe_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **FlatPageAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/admin.py`
-- **SiteAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/admin.py`
-- **check_all_models()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/model_checks.py`
-- **check_allowed_hosts()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_debug()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_default_hashing_algorithm()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **check_secret_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- **Register the given model(s) classes and wrapped ModelAdmin class with admin…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
-- **.formfield_for_manytomany()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/admin.py`
+- **.make_choiceformset()** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_basic_formset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_blank_form_unfilled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_delete_prefilled_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_formset_has_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_formset_initial_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_formset_total_error_count()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_formset_validation_count()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_second_form_partially_filled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_formset_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_html_safe()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **A valid formset should have 0 total errors.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **A formset's ManagementForm is validated once per FormSet.is_valid() call and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **FormSet.has_changed() is True if any data is passed to its forms, even if the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **A FormSet can be prefilled with existing data by providing a list of dicts to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **A form that's displayed as blank may be submitted as blank.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **If at least one field is filled out on a blank form, it will be validated.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **Deleting prefilled data is an error. Removing data from form fields isn't the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **Make a ChoiceFormset from the given formset_data. The data should be given as a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **A FormSet constructor takes the same arguments as Form. Create a FormSet for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
 
 ## Relationships
 
-- [Community 598](Community_598.md) (15 shared connections)
-- [Community 539](Community_539.md) (7 shared connections)
-- [Community 7](Community_7.md) (4 shared connections)
-- [Community 5](Community_5.md) (3 shared connections)
-- [Community 885](Community_885.md) (2 shared connections)
-- [Community 654](Community_654.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 456](Community_456.md) (1 shared connections)
-- [Community 102](Community_102.md) (1 shared connections)
-- [Community 331](Community_331.md) (1 shared connections)
-- [Community 958](Community_958.md) (1 shared connections)
+- [Community 544](Community_544.md) (11 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/admin.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/admin.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sites/admin.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/model_checks.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
 
 ## Audit Trail
 
-- EXTRACTED: 89 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 30 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

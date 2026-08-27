@@ -1,51 +1,54 @@
 # Community 373
 
-> 34 nodes · cohesion 0.09
+> 30 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **AdminFormfieldForDBFieldTests** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.assertFormfield()** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_formfield_overrides_for_custom_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_formfield_overrides_m2m_filter_widget()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_formfield_overrides_widget_instances()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_m2m_widgets()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_CharField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_choices_with_radio_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_DateField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_DateTimeField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_EmailField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_field_with_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_FileField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_filtered_many_to_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_ForeignKey()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_formfield_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_formfield_overrides_for_datetime_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_IntegerField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_many_to_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_radio_fields_ForeignKey()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_raw_id_ForeignKey()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_raw_id_many_to_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_TextField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_TimeField()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- *... and 9 more nodes in this community*
+- **PrefetchRelatedTests** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_onetoone_reverse_with_to_field_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_foreign_key_then_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_forward_m2m_to_attr_conflict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_in_and_prefetch_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_m2m_then_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_prefetch_eq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_reverse_m2m_to_attr_conflict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_reverse_one_to_one_then_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_attribute_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_bool()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_count()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_exists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_foreignkey_forward()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_foreignkey_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_invalid_final_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_len()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_m2m_forward()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_m2m_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_onetoone_reverse_no_match()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_overriding_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_survives_clone()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **Regression test for #20242 - QuerySet "in" didn't work the first time when…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 55](Community_55.md) (8 shared connections)
-- [Community 235](Community_235.md) (2 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 358](Community_358.md) (4 shared connections)
+- [Community 78](Community_78.md) (4 shared connections)
+- [Community 277](Community_277.md) (3 shared connections)
+- [Community 323](Community_323.md) (3 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
+- [Community 412](Community_412.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/widgetadmin.py`
+- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 56 (88%)
-- INFERRED: 8 (12%)
+- EXTRACTED: 41 (89%)
+- INFERRED: 5 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

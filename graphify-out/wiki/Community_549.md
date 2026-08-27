@@ -1,50 +1,63 @@
 # Community 549
 
-> 19 nodes · cohesion 0.19
+> 38 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **one_to_one/models.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **one_to_one/tests.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **MultiModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **Director** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **ManualPrimaryKey** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **RelatedModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **School** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **Waiter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **.test_multiple_o2o()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **Bar** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **HiddenPointer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **Pointer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **Target** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **ToFieldPointer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **.test_hasattr_related_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **Pointer2** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **One-to-one relationships To define a one-to-one relationship, use…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **runtests.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **NullTimeKeeper** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **TimeKeeper** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **SeleniumTestCaseBase** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **setup()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **django_tests()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **default_test_processes()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **get_runner()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **Command** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
+- **.handle()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.create_webdriver()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **bisect_tests()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **get_installed()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **paired_tests()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **teardown()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **.import_webdriver()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **ActionSelenium** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **.add_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
+- **.run_from_argv()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
+- **.create_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.import_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.__new__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **actual_test_processes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **get_subprocess_args()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Community 388](Community_388.md) (14 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 643](Community_643.md) (4 shared connections)
-- [Community 1066](Community_1066.md) (2 shared connections)
-- [Community 1067](Community_1067.md) (2 shared connections)
-- [Community 1128](Community_1128.md) (2 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 342](Community_342.md) (1 shared connections)
+- [Community 57](Community_57.md) (7 shared connections)
+- [Community 1](Community_1.md) (7 shared connections)
+- [Community 224](Community_224.md) (6 shared connections)
+- [Community 99](Community_99.md) (5 shared connections)
+- [Community 170](Community_170.md) (5 shared connections)
+- [Community 19](Community_19.md) (5 shared connections)
+- [Community 380](Community_380.md) (2 shared connections)
+- [Community 324](Community_324.md) (1 shared connections)
+- [Community 443](Community_443.md) (1 shared connections)
+- [Community 287](Community_287.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 88](Community_88.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/test.py`
+- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/runtests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (83%)
-- INFERRED: 11 (17%)
+- EXTRACTED: 104 (94%)
+- INFERRED: 7 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

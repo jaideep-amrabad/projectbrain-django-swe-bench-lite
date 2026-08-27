@@ -4,39 +4,39 @@
 
 ## Key Concepts
 
-- **RequestSite** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
-- **RequestSiteTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **A class that shares the primary interface of Site (i.e., it has ``domain`` and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
-- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
-- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
-- **.test_delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.test_init_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.test_save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.test_str()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **Table** (23 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **TableTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **Hold a reference to a table.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.references_table()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.rename_table_references()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.test_references_table()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.test_rename_table_references()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.test_repr()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.test_str()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
 
 ## Relationships
 
-- [Community 598](Community_598.md) (3 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 95](Community_95.md) (1 shared connections)
-- [Community 745](Community_745.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 98](Community_98.md) (1 shared connections)
+- [Community 161](Community_161.md) (5 shared connections)
+- [Community 455](Community_455.md) (4 shared connections)
+- [Community 222](Community_222.md) (3 shared connections)
+- [Community 100](Community_100.md) (2 shared connections)
+- [Community 244](Community_244.md) (2 shared connections)
+- [Community 596](Community_596.md) (1 shared connections)
+- [Community 722](Community_722.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
-- `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (87%)
-- INFERRED: 3 (13%)
+- EXTRACTED: 28 (90%)
+- INFERRED: 3 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

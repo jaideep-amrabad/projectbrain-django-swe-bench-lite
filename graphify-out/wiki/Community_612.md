@@ -1,41 +1,41 @@
 # Community 612
 
-> 16 nodes · cohesion 0.14
+> 16 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **ManageDefaultSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **A series of tests for manage.py when using a settings.py file that contains the…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **default: manage.py builtin commands succeed if settings are provided as argument** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **default: manage.py can execute user commands when settings are provided as…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **default: manage.py builtin commands succeed when default settings are…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **default: manage.py builtin commands succeed if settings file (from argument)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **default: manage.py builtin commands fail if settings file (from environment)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **default: manage.py can execute user commands when default settings are…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **test_api.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **ApiTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **DummyStorage** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **CustomRequest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **CustomRequestApiTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **.test_middleware_missing()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **.test_middleware_missing_silently()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **.test_ok()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **.test_request_is_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **.add()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **dummy message-store to test the api methods** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **add_message() should use ducktyping to allow request wrappers such as the one…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
 
 ## Relationships
 
-- [Community 117](Community_117.md) (9 shared connections)
-- [Community 92](Community_92.md) (8 shared connections)
-- [Community 286](Community_286.md) (8 shared connections)
-- [Community 236](Community_236.md) (2 shared connections)
-- [Community 262](Community_262.md) (1 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 498](Community_498.md) (1 shared connections)
+- [Community 330](Community_330.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (100%)
+- EXTRACTED: 25 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

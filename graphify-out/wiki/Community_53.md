@@ -1,65 +1,52 @@
 # Community 53
 
-> 92 nodes · cohesion 0.03
+> 38 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **RequestFactory** (87 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **urlencode()** (30 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- **URLEncodeTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **ASGIRequest** (16 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- **parse_cookie()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/http/cookie.py`
-- **.generic()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **AsyncRequestFactory** (12 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **CookieTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.request()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.request()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **._encode_json()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.generic()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.request()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **._base_environ()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.post()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **store_rendered_templates()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **._base_scope()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.check_exception()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.delete()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **._encode_data()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.get()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.head()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.patch()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.put()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.request()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- *... and 67 more nodes in this community*
+- **URLTestCaseBase** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **URLRedirectTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **URLResponseTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **PathUnusedTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **URLRedirectWithoutTrailingSlashSettingTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **URLRedirectWithoutTrailingSlashTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **URLVaryAcceptLanguageTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **Tests the redirect when the requested URL doesn't end with a slash…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.test_custom_redirect_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.test_en_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.test_not_prefixed_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.test_no_lang_activate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **If no i18n_patterns is used in root URLconfs, then no language activation…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **Tests if the user gets redirected to the right URL when there is no language-…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **'Accept-Language' is not added to the Vary header when using prefixed URLs.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **Tests if the response has the correct language code.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **TestCase base-class for the URL tests.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.test_en_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.test_en_redirect_wrong_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.test_nl_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.test_nl_redirect_wrong_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.test_no_prefix_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **.test_pl_pl_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (18 shared connections)
-- [Community 41](Community_41.md) (8 shared connections)
-- [Community 82](Community_82.md) (7 shared connections)
-- [Community 5](Community_5.md) (7 shared connections)
-- [Community 84](Community_84.md) (7 shared connections)
-- [Community 536](Community_536.md) (6 shared connections)
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 113](Community_113.md) (5 shared connections)
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 191](Community_191.md) (4 shared connections)
-- [Community 7](Community_7.md) (4 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
+- [Community 1](Community_1.md) (9 shared connections)
+- [Community 12](Community_12.md) (6 shared connections)
+- [Community 6](Community_6.md) (4 shared connections)
+- [Community 42](Community_42.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
-- `raw/code/hyd-evaluation/django-django/django/http/cookie.py`
-- `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 253 (97%)
-- INFERRED: 8 (3%)
+- EXTRACTED: 59 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,29 +1,28 @@
 # Community 936
 
-> 6 nodes · cohesion 0.47
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **InvalidQueryType** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **.__warn()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **.__instancecheck__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **.__subclasscheck__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **._subclasses()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **type** (1 connections)
+- **GetFormsetsArgumentCheckingAdmin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.change_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **UndeletableObjectAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.change_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.add_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.get_formsets_with_inlines()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Relationships
 
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 94](Community_94.md) (1 shared connections)
+- [Community 69](Community_69.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (89%)
-- INFERRED: 1 (11%)
+- EXTRACTED: 7 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

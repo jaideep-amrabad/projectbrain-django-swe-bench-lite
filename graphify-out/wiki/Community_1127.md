@@ -1,26 +1,23 @@
 # Community 1127
 
-> 5 nodes · cohesion 0.30
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **.test_deconstruct_field_kwarg()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_proxy_custom_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_unmanaged_custom_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **#23415 - The autodetector must correctly deal with custom FK on proxy models.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **Field instances are handled correctly by nested deconstruction.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_through_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- **Relations with intermediary tables with multiple FKs to the M2M's ``to`` model…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
 
 ## Relationships
 
-- [Community 32](Community_32.md) (6 shared connections)
+- [Community 257](Community_257.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

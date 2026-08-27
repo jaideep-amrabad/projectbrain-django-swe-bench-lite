@@ -1,32 +1,33 @@
 # Community 853
 
-> 9 nodes · cohesion 0.25
+> 8 nodes · cohesion 0.36
 
 ## Key Concepts
 
-- **AppDirectoriesFinder** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.find()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.find_in_app()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **A static files finder that looks in the directory of each app as specified in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **List all files in all app storages.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **Look for files in the app directories.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **Find a requested static file in an app's static locations.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **Cot** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **CotTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cot.py`
+- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cot.py`
+- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cot.py`
+- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cot.py`
+- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cot.py`
+- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cot.py`
+- **.as_oracle()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 538](Community_538.md) (1 shared connections)
-- [Community 658](Community_658.md) (1 shared connections)
+- [Community 19](Community_19.md) (5 shared connections)
+- [Community 105](Community_105.md) (1 shared connections)
+- [Community 16](Community_16.md) (1 shared connections)
+- [Community 62](Community_62.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cot.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,54 +1,53 @@
 # Community 339
 
-> 33 nodes · cohesion 0.07
+> 33 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **Serializer** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **Serializer** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
-- **Serializer** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/jsonl.py`
-- **Serializer** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
-- **._value_from_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **.get_dump_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **._init_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
-- **.start_serialization()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
-- **._init_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/jsonl.py`
-- **.start_serialization()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/jsonl.py`
-- **.end_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **.handle_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **.handle_fk_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **PythonSerializer** (1 connections)
-- **Convert a queryset to JSON.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
-- **.end_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
-- **.end_serialization()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
-- **.getvalue()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
-- **PythonSerializer** (1 connections)
-- **Convert a queryset to JSON Lines.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/jsonl.py`
-- **.end_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/jsonl.py`
-- **.getvalue()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/jsonl.py`
-- **Serialize a QuerySet to basic Python objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **.end_serialization()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **.getvalue()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **patch** (24 connections)
+- **ReloaderTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.increment_mtime()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **IntegrationTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.ensure_file()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **StatReloaderTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.tick_twice()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **StartDjangoTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **TestChildArguments** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_glob()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_glob_recursive()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_multiple_globs()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_multiple_recursive_globs()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_nested_glob_recursive()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_overlapping_glob_recursive()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_overlapping_globs()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.set_mtime()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_tick_does_not_trigger_twice()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_check_errors_called()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_echo_on_called()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_starts_thread_with_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_watchman_becomes_unavailable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_snapshot_files_updates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_entrypoint_fallback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 - *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Community 99](Community_99.md) (8 shared connections)
-- [Community 711](Community_711.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 536](Community_536.md) (1 shared connections)
+- [Community 504](Community_504.md) (7 shared connections)
+- [Community 680](Community_680.md) (5 shared connections)
+- [Community 960](Community_960.md) (3 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 885](Community_885.md) (2 shared connections)
+- [Community 714](Community_714.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/jsonl.py`
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (90%)
-- INFERRED: 5 (10%)
+- EXTRACTED: 91 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

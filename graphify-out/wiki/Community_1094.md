@@ -1,26 +1,23 @@
 # Community 1094
 
-> 4 nodes · cohesion 0.50
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **.test_logout()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_logout_cookie_sessions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_logout_with_force_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **Request a logout after logging in** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **ColorAdmin6** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.get_sortable_by()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Relationships
 
-- [Community 526](Community_526.md) (3 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 69](Community_69.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

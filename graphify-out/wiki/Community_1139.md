@@ -1,25 +1,23 @@
 # Community 1139
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **AssertFieldOutputTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_assert_field_output()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_custom_required_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_pickle_prefetch_related_with_m2m_and_objects_deletion()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **#24831 -- Cached properties on ManyToOneRel created in QuerySet.delete() caused…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 383](Community_383.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

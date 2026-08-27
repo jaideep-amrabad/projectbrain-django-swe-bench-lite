@@ -1,38 +1,42 @@
 # Community 746
 
-> 11 nodes · cohesion 0.31
+> 12 nodes · cohesion 0.62
 
 ## Key Concepts
 
-- **linebreaks_filter()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **FunctionTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
-- **.test_lazy_string_input()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
-- **.test_autoescape()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
-- **.test_autoescape_off()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
-- **.test_carriage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
-- **.test_carriage_newline()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
-- **.test_line()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
-- **.test_newline()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
-- **.test_non_string_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
-- **Replace line breaks in plain text with appropriate HTML; a single newline…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **Event** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
+- **SerializationTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.assert_json_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.assert_python_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.assert_xml_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.assert_yaml_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_aware_datetime_in_local_timezone()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_aware_datetime_in_other_timezone()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_aware_datetime_in_utc()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_aware_datetime_with_microsecond()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_naive_datetime()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_naive_datetime_with_microsecond()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
 
 ## Relationships
 
-- [Community 47](Community_47.md) (4 shared connections)
-- [Community 5](Community_5.md) (3 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 422](Community_422.md) (1 shared connections)
-- [Community 142](Community_142.md) (1 shared connections)
+- [Community 510](Community_510.md) (5 shared connections)
+- [Community 679](Community_679.md) (5 shared connections)
+- [Community 846](Community_846.md) (1 shared connections)
+- [Community 884](Community_884.md) (1 shared connections)
+- [Community 589](Community_589.md) (1 shared connections)
+- [Community 423](Community_423.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 48 (84%)
+- INFERRED: 9 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

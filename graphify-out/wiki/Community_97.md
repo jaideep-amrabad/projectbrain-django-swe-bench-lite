@@ -1,55 +1,61 @@
 # Community 97
 
-> 18 nodes · cohesion 0.13
+> 89 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **BaseDatabaseValidation** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/validation.py`
-- **DatabaseValidation** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/validation.py`
-- **oracle/validation.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/validation.py`
-- **DatabaseValidation** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/validation.py`
-- **.test_too_long_char_field_under_mysql()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **base/validation.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/validation.py`
-- **.remote_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.check_field_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/validation.py`
-- **._check_sql_mode()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/validation.py`
-- **.check_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/validation.py`
-- **.check()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/validation.py`
-- **.check_field_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/validation.py`
-- **.check()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/validation.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/validation.py`
-- **Encapsulate backend-specific validation.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/validation.py`
-- **MySQL has the following field length restriction: No character (varchar) fields…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/validation.py`
-- **Oracle doesn't support a database index on some data types.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/validation.py`
-- **skipUnless** (1 connections)
+- **FileSystemStorage** (53 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **Storage** (22 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.path()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **file_storage/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
+- **FileStoragePermissions** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.get_available_name()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **FileLikeObjectTestCase** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **._save()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **._datetime_from_timestamp()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **._value_or_setting()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.get_alternative_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.get_valid_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.save()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.test_deconstruction()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_file_upload_default_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_file_upload_directory_default_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_file_upload_directory_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_file_upload_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **OverwritingStorage** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.exists()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.get_accessed_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.get_created_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.get_modified_time()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **._open()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.generate_filename()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- *... and 64 more nodes in this community*
 
 ## Relationships
 
-- [Community 3](Community_3.md) (6 shared connections)
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 28](Community_28.md) (2 shared connections)
-- [Community 85](Community_85.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 408](Community_408.md) (1 shared connections)
-- [Community 598](Community_598.md) (1 shared connections)
-- [Community 252](Community_252.md) (1 shared connections)
-- [Community 365](Community_365.md) (1 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
-- [Community 514](Community_514.md) (1 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
+- [Community 200](Community_200.md) (20 shared connections)
+- [Community 146](Community_146.md) (6 shared connections)
+- [Community 621](Community_621.md) (5 shared connections)
+- [Community 12](Community_12.md) (5 shared connections)
+- [Community 269](Community_269.md) (2 shared connections)
+- [Community 176](Community_176.md) (2 shared connections)
+- [Community 222](Community_222.md) (2 shared connections)
+- [Community 88](Community_88.md) (1 shared connections)
+- [Community 69](Community_69.md) (1 shared connections)
+- [Community 93](Community_93.md) (1 shared connections)
+- [Community 151](Community_151.md) (1 shared connections)
+- [Community 203](Community_203.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/validation.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/validation.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/validation.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (83%)
-- INFERRED: 7 (17%)
+- EXTRACTED: 169 (98%)
+- INFERRED: 4 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

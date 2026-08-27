@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **Circle5** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.test_exception_following_nested_client_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **A nested test client request shouldn't clobber exception signals from the outer…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 354](Community_354.md) (1 shared connections)
+- [Community 518](Community_518.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 

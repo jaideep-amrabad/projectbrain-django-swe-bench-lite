@@ -1,28 +1,29 @@
 # Community 914
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **UUIDFieldTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
-- **.test_clean_value_with_dashes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
-- **.test_uuidfield_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
-- **.test_uuidfield_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
-- **.test_uuidfield_3()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
-- **.test_uuidfield_4()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
+- **.assertDoesNotOptimize()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_optimize_through_create()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_model_add_field_not_through_m2m_through()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_model_no_reordering_for_unrelated_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **We should be able to optimize away create/delete through a create or delete of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **CreateModel order remains unchanged if the later AddField operation isn't a FK…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **AddField should NOT optimize into CreateModel if it's an M2M using a through…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 672](Community_672.md) (4 shared connections)
+- [Community 613](Community_613.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

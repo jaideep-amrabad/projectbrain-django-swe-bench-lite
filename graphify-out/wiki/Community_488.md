@@ -1,45 +1,43 @@
 # Community 488
 
-> 22 nodes · cohesion 0.11
+> 19 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **TestOperation** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **custom_migration_operations/operations.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **ArgsKwargsOperation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **ArgsOperation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **ExpandArgsOperation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **KwargsOperation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **CreateModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.reversible()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.state_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
-- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
+- **FlatpageCSRFTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **.test_fallback_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **.test_fallback_non_existent_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **.test_post_fallback_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **.test_post_unknown_page()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **.test_post_view_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **.test_view_authenticated_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **.test_view_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **.test_view_non_existent_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **POSTing to an unknown page isn't caught as a 403 CSRF error** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **A flatpage can be served through a view, even when the middleware is in use** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **A nonexistent flatpage raises 404 when served through a view, even when the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **A flatpage served through a view can require authentication** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **A flatpage can be served by the fallback middleware** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **A nonexistent flatpage raises a 404 when served by the fallback middleware.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **POSTing to a flatpage served through a view will raise a CSRF error if no token…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
+- **POSTing to a flatpage served by the middleware will raise a CSRF error if no…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
 
 ## Relationships
 
-- [Community 60](Community_60.md) (2 shared connections)
-- [Community 37](Community_37.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_csrf.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
+- EXTRACTED: 24 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

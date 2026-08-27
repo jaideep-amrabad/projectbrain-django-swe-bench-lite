@@ -1,31 +1,31 @@
 # Community 857
 
-> 8 nodes · cohesion 0.25
+> 8 nodes · cohesion 0.36
 
 ## Key Concepts
 
-- **DeferDeletionSignalsTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
-- **.post_delete_receiver()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
-- **.pre_delete_receiver()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
-- **.test_delete_defered_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
-- **.test_delete_defered_proxy_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- **AbsoluteUrlOverrideTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
+- **._create_model_class()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
+- **.test_get_absolute_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
+- **.test_insert_get_absolute_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
+- **.test_override_get_absolute_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
+- **get_absolute_url() functions as a normal method.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
+- **ABSOLUTE_URL_OVERRIDES should override get_absolute_url().** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
+- **ABSOLUTE_URL_OVERRIDES should work even if the model doesn't have a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
 
 ## Relationships
 
-- [Community 345](Community_345.md) (3 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 75](Community_75.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (82%)
-- INFERRED: 2 (18%)
+- EXTRACTED: 13 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

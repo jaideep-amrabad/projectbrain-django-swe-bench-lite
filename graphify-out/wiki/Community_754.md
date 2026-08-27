@@ -1,37 +1,33 @@
 # Community 754
 
-> 11 nodes · cohesion 0.22
+> 11 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/models.py`
-- **custom_methods/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/models.py`
-- **custom_methods/tests.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/tests.py`
-- **MethodsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/tests.py`
-- **.articles_from_same_day_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/models.py`
-- **.articles_from_same_day_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/models.py`
-- **.was_published_today()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/models.py`
-- **Giving models custom methods Any method you add to a model will be available to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/models.py`
-- **Verbose version of get_articles_from_same_day_1, which does a custom database…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/models.py`
-- **.test_custom_methods()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_methods/tests.py`
+- **MapWidget()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
+- **OLMapWidget.js** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
+- **.clearFeatures()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
+- **.enableDrawing()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
+- **GeometryTypeControl()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
+- **.createInteractions()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
+- **.createMap()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
+- **.defaultCenter()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
+- **.disableDrawing()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
+- **.serializeFeatures()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
+- **TODO: allow deleting individual features (#8972)** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
 
 ## Relationships
 
-- [Community 115](Community_115.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/custom_methods/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/custom_methods/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/static/gis/js/OLMapWidget.js`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 10 (91%)
+- INFERRED: 1 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

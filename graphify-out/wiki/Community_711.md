@@ -1,40 +1,35 @@
 # Community 711
 
-> 12 nodes · cohesion 0.18
+> 13 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **Serializer** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **JSONSerializer** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.get_dump_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **._init_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **.start_serialization()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **Convert a queryset to GeoJSON, http://geojson.org/** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **.end_serialization()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **.handle_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **.start_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **.dumps()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **.loads()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **Simple wrapper around json to be used in signing.dumps and signing.loads.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **LoadTagTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_load.py`
+- **setup** (11 connections)
+- **.test_load01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_load.py`
+- **.test_load02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_load.py`
+- **.test_load03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_load.py`
+- **.test_load04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_load.py`
+- **.test_load05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_load.py`
+- **.test_load06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_load.py`
+- **.test_load07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_load.py`
+- **.test_load08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_load.py`
+- **.test_load09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_load.py`
+- **.test_load10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_load.py`
+- **.test_load12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_load.py`
 
 ## Relationships
 
-- [Community 99](Community_99.md) (1 shared connections)
-- [Community 339](Community_339.md) (1 shared connections)
-- [Community 72](Community_72.md) (1 shared connections)
-- [Community 81](Community_81.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 94](Community_94.md) (1 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_load.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 24 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

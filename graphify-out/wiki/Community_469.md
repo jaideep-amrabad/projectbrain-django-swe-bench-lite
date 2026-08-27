@@ -1,55 +1,54 @@
 # Community 469
 
-> 113 nodes · cohesion 0.03
+> 22 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **FormsFormsetTestCase** (63 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **formset_factory()** (55 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
-- **.make_choiceformset()** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **TestEmptyFormSet** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_splitdatetimefield()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_basic_formset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_blank_form_unfilled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_delete_prefilled_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_displaying_more_than_one_blank_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_empty_ordered_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_form_kwargs_formset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_form_kwargs_formset_dynamic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_calls_forms_is_valid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_has_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_initial_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_iteration()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_nonzero()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_total_error_count()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_validate_max_flag()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_validate_min_flag()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_validate_min_unchanged_forms()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_validation_count()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_with_deletion()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_with_deletion_invalid_deleted_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_with_deletion_remove_deletion_flag()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- *... and 88 more nodes in this community*
+- **UserCreationForm** (22 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **UserCreationFormTest** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_duplicate_normalized_unicode()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_password_help_text()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_user_create_form_validates_password_with_all_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_validates_password()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.clean_password2()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.test_both_passwords()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_html_autocomplete_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_invalid_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_normalize_username()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_password_verification()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_password_whitespace_not_stripped()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_unicode_username()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_user_already_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_username_field_autocapitalize_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **A form that creates a user, with no privileges, from the given username and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **To prevent almost identical usernames, visually identical but differing by…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **UserCreationForm password validation uses all of the form's data.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_custom_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_custom_form_hidden_username_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_custom_form_with_different_username_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
 
 ## Relationships
 
-- [Community 366](Community_366.md) (5 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 135](Community_135.md) (2 shared connections)
-- [Community 126](Community_126.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 429](Community_429.md) (1 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 12](Community_12.md) (3 shared connections)
+- [Community 650](Community_650.md) (2 shared connections)
+- [Community 590](Community_590.md) (1 shared connections)
+- [Community 923](Community_923.md) (1 shared connections)
+- [Community 350](Community_350.md) (1 shared connections)
+- [Community 682](Community_682.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 683](Community_683.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 178 (98%)
-- INFERRED: 3 (2%)
+- EXTRACTED: 48 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

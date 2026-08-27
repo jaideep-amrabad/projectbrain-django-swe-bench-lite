@@ -1,53 +1,51 @@
 # Community 153
 
-> 41 nodes · cohesion 0.09
+> 62 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **ConditionalGetMiddleware** (32 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/http.py`
-- **ConditionalGetMiddlewareTest** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.get_response()** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **ETagGZipMiddlewareTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_etag_match()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_not_modified_headers()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_strong_etag_modified()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_weak_etag_not_modified()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.needs_etag()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/http.py`
-- **.test_if_modified_since_and_client_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_if_modified_since_and_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_if_none_match_and_client_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_if_none_match_and_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_no_etag_response_empty_content()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_no_etag_streaming_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_no_head()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_no_unsafe()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_etag_extended_cache_control()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_if_modified_since_and_last_modified_in_the_future()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_if_modified_since_and_last_modified_in_the_past()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_if_modified_since_and_no_last_modified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_if_modified_since_and_same_last_modified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_if_none_match_and_different_etag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_if_none_match_and_no_etag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_if_none_match_and_same_etag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- *... and 16 more nodes in this community*
+- **GEOSCoordSeq** (44 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **.getOrdinate()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **.setOrdinate()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **._checkindex()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **._checkdim()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
+- **._get_point_3d()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **.__getitem__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **.is_counterclockwise()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **._set_point_3d()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **.__setitem__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **Set X with the value at the given index.** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **._get_point_2d()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **._get_x()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **._get_y()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **.getX()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **.getY()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **.getZ()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **._set_point_2d()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **._set_x()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **._set_y()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **.setX()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **.setY()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **.setZ()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- **.tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- *... and 37 more nodes in this community*
 
 ## Relationships
 
-- [Community 41](Community_41.md) (8 shared connections)
-- [Community 467](Community_467.md) (6 shared connections)
-- [Community 116](Community_116.md) (5 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 18](Community_18.md) (12 shared connections)
+- [Community 43](Community_43.md) (2 shared connections)
+- [Community 68](Community_68.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/middleware/http.py`
-- `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/linestring.py`
 
 ## Audit Trail
 
-- EXTRACTED: 75 (80%)
-- INFERRED: 19 (20%)
+- EXTRACTED: 99 (96%)
+- INFERRED: 4 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

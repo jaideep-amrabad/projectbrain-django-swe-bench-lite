@@ -1,33 +1,27 @@
 # Community 989
 
-> 5 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.60
 
 ## Key Concepts
 
-- **LoggingCaptureMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.decorate_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **Capture the output from the 'django' logger and store it on the class's…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **BuiltinsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_builtins.py`
+- **setup** (3 connections)
+- **.test_builtins01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_builtins.py`
+- **.test_builtins02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_builtins.py`
+- **.test_builtins03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_builtins.py`
 
 ## Relationships
 
-- [Community 82](Community_82.md) (2 shared connections)
-- [Community 493](Community_493.md) (2 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 258](Community_258.md) (1 shared connections)
-- [Community 309](Community_309.md) (1 shared connections)
-- [Community 216](Community_216.md) (1 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_builtins.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (86%)
-- INFERRED: 2 (14%)
+- EXTRACTED: 8 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

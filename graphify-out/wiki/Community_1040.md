@@ -4,19 +4,19 @@
 
 ## Key Concepts
 
-- **.serialize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.serialize_headers()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **Full HTTP message, including headers, as a bytestring.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **HTTP headers as a bytestring.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **UnittestCase2** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
+- **.test_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
+- **.test_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
+- **.test_3_test()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 420](Community_420.md) (1 shared connections)
+- [Community 678](Community_678.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
 
 ## Audit Trail
 

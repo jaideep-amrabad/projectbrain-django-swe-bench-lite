@@ -4,26 +4,23 @@
 
 ## Key Concepts
 
-- **AssertNumQueriesContextManagerTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_failure()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_simple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_with_client()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **ReadOnlyPizzaAdmin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.has_add_permission()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.has_change_permission()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.has_delete_permission()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 164](Community_164.md) (1 shared connections)
+- [Community 69](Community_69.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (86%)
-- INFERRED: 1 (14%)
+- EXTRACTED: 4 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,66 +1,52 @@
 # Community 248
 
-> 42 nodes · cohesion 0.08
+> 37 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **django/db/backends/utils.py** (31 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
-- **base/schema.py** (25 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **truncate_name()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
-- **sqlite3/schema.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **strip_quotes()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
-- **backends/test_utils.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
-- **OracleGISSchemaEditor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
-- **split_identifier()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
-- **gis/db/backends/oracle/schema.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
-- **models/indexes.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- **django/db/backends/oracle/schema.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **names_digest()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
-- **._create_spatial_index_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
-- **TestUtils** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
-- **.geo_quote_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
-- **_is_relevant_relation()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **_related_non_m2m_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.set_name_with_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- **db_typecasts/tests.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_typecasts/tests.py`
-- **.column_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
-- **.remove_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
-- **.run_geometry_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
-- **format_number()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
-- **.add_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
-- **.create_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
-- *... and 17 more nodes in this community*
+- **must_be()** (33 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **ModelAdminChecks** (26 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **.check()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_filter_item()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_date_hierarchy()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_inlines()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_inlines_item()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_display()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_display_links()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_editable()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_filter()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_max_show_all()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_per_page()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_select_related()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_save_as()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_save_on_top()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_search_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_action_permission_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_actions_uniqueness()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_editable_item()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_display_item()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_display_links_item()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **Check that every action has a unique __name__.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **Check save_as is a boolean.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **Check save_on_top is a boolean.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (17 shared connections)
-- [Community 89](Community_89.md) (10 shared connections)
-- [Community 0](Community_0.md) (7 shared connections)
-- [Community 348](Community_348.md) (6 shared connections)
-- [Community 157](Community_157.md) (6 shared connections)
-- [Community 110](Community_110.md) (5 shared connections)
-- [Community 382](Community_382.md) (5 shared connections)
-- [Community 115](Community_115.md) (4 shared connections)
-- [Community 5](Community_5.md) (4 shared connections)
-- [Community 128](Community_128.md) (3 shared connections)
-- [Community 229](Community_229.md) (3 shared connections)
-- [Community 867](Community_867.md) (3 shared connections)
+- [Community 195](Community_195.md) (17 shared connections)
+- [Community 551](Community_551.md) (6 shared connections)
+- [Community 550](Community_550.md) (5 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 49](Community_49.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_typecasts/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
 
 ## Audit Trail
 
-- EXTRACTED: 172 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 97 (97%)
+- INFERRED: 3 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

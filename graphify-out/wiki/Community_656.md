@@ -1,38 +1,42 @@
 # Community 656
 
-> 14 nodes · cohesion 0.22
+> 14 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **.process_rhs()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.process_lhs()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **KeyTransformExact** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.as_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.as_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **JSONExact** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.as_oracle()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **ContainedBy** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **DataContains** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.process_lhs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.process_lhs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.process_rhs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.process_rhs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.process_rhs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **Feed** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- **.get_feed()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- **.feed_extra_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- **.get_context_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- **._get_dynamic_attr()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- **.item_extra_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- **.get_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- **.item_enclosures()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- **.item_link()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- **.item_title()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- **Return an extra keyword arguments dictionary that is used when initializing the…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- **.item_description()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- **Return a dictionary to use as extra context if either…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
+- **Return a feedgenerator.DefaultFeed object, fully populated, for this feed.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
 
 ## Relationships
 
-- [Community 504](Community_504.md) (7 shared connections)
-- [Community 814](Community_814.md) (3 shared connections)
-- [Community 124](Community_124.md) (2 shared connections)
-- [Community 382](Community_382.md) (2 shared connections)
+- [Community 159](Community_159.md) (3 shared connections)
+- [Community 154](Community_154.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 376](Community_376.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/syndication/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
+- EXTRACTED: 32 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

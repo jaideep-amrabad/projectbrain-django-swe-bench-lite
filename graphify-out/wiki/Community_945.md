@@ -1,29 +1,30 @@
 # Community 945
 
-> 6 nodes · cohesion 0.47
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **title()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_title.py`
-- **.test_non_string_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_title.py`
-- **.test_title()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_title.py`
-- **.test_unicode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_title.py`
-- **Convert a string into titlecase.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **MailTimeZoneTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_date_header_localtime()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_date_header_utc()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **requires_tz_support** (1 connections)
+- **EMAIL_USE_LOCALTIME=False creates a datetime in UTC.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **EMAIL_USE_LOCALTIME=True creates a datetime in the local time zone.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Relationships
 
-- [Community 47](Community_47.md) (3 shared connections)
-- [Community 5](Community_5.md) (3 shared connections)
+- [Community 102](Community_102.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 137](Community_137.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_title.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

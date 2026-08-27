@@ -1,67 +1,63 @@
 # Community 265
 
-> 45 nodes · cohesion 0.06
+> 41 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **dummy/base.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
-- **BaseDatabaseClient** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/client.py`
-- **DatabaseClient** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/client.py`
-- **DatabaseClient** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/client.py`
-- **postgresql/client.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/client.py`
-- **DatabaseClient** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/client.py`
-- **sqlite3/client.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/client.py`
-- **OracleDbshellTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
-- **._run_dbshell()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
-- **test_postgresql.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
-- **base/client.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/client.py`
-- **test_oracle.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
-- **dbshell/test_sqlite.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
-- **SqliteDbshellCommandTestCase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
-- **._run_dbshell()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
-- **oracle/client.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/client.py`
-- **spatialite/client.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/client.py`
-- **SpatiaLiteClient** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/client.py`
-- **DatabaseWrapper** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
-- **complain()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
-- **DatabaseClient** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
-- **DatabaseCreation** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
-- **DatabaseIntrospection** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
-- **DatabaseOperations** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
-- **ignore()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
-- *... and 20 more nodes in this community*
+- **SimpleUploadedFile** (60 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- **FileAndImageFieldTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **FileFieldTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filefield.py`
+- **ValidatorCustomMessageTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_validators.py`
+- **.test_readonly_root()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_clear_and_file_contradiction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_file_field_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_file_field_multiple_save()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_filefield_required_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_full_clear()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.from_dict()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- **.test_not_a_directory()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_filefield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filefield.py`
+- **.test_filefield_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filefield.py`
+- **.test_filefield_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filefield.py`
+- **.test_filefield_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filefield.py`
+- **.test_value_placeholder_with_file_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_validators.py`
+- **.test_clean_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_clean_false_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_custom_file_field_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_file_path_field_blank()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_default_filefield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **A simple representation of a file, which just has content, size, and a name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- **Create a SimpleUploadedFile object from a dictionary with keys: - filename -…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- **skipIf** (1 connections)
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (15 shared connections)
-- [Community 5](Community_5.md) (8 shared connections)
-- [Community 628](Community_628.md) (3 shared connections)
-- [Community 229](Community_229.md) (3 shared connections)
-- [Community 156](Community_156.md) (3 shared connections)
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 85](Community_85.md) (2 shared connections)
-- [Community 52](Community_52.md) (2 shared connections)
-- [Community 396](Community_396.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 71](Community_71.md) (2 shared connections)
-- [Community 102](Community_102.md) (1 shared connections)
+- [Community 108](Community_108.md) (10 shared connections)
+- [Community 200](Community_200.md) (7 shared connections)
+- [Community 212](Community_212.md) (7 shared connections)
+- [Community 45](Community_45.md) (7 shared connections)
+- [Community 192](Community_192.md) (4 shared connections)
+- [Community 478](Community_478.md) (3 shared connections)
+- [Community 151](Community_151.md) (3 shared connections)
+- [Community 477](Community_477.md) (2 shared connections)
+- [Community 157](Community_157.md) (2 shared connections)
+- [Community 48](Community_48.md) (2 shared connections)
+- [Community 433](Community_433.md) (2 shared connections)
+- [Community 115](Community_115.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/client.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/client.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/client.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/client.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/client.py`
-- `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
-- `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
-- `raw/code/hyd-evaluation/django-django/tests/dbshell/test_sqlite.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_validators.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 107 (94%)
-- INFERRED: 7 (6%)
+- EXTRACTED: 90 (83%)
+- INFERRED: 18 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,41 +1,37 @@
 # Community 709
 
-> 13 nodes · cohesion 0.18
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **DummyStorage** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
-- **TestCollectionNonLocalStorage** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **TestConfiguration** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **.test_collectstatis_check()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **.test_location_empty()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **.get_modified_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
-- **.test_storage_properties()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **.test_local_storage_detection_helper()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
-- **.exists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
-- **._save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
-- **A storage class that implements get_modified_time() but raises…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
-- **Tests for a Storage that implements get_modified_time() but not path() (#15035).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **SerializerRegistrationTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_builtin_serializers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_get_unknown_serializer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_register()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_unregister()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **Registering a new serializer populates the full registry. Refs #14823** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **Unregistering a serializer doesn't cause the registry to be repopulated. Refs…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **Requesting a list of serializer formats populates the registry** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **#15889: get_serializer('nonsense') raises a SerializerDoesNotExist** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_get_unknown_deserializer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_unregister_unknown_serializer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (4 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 31](Community_31.md) (2 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
 - [Community 2](Community_2.md) (1 shared connections)
-- [Community 115](Community_115.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (89%)
-- INFERRED: 3 (11%)
+- EXTRACTED: 15 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

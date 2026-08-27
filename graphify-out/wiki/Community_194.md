@@ -1,56 +1,54 @@
 # Community 194
 
-> 55 nodes · cohesion 0.04
+> 51 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **TestFixtures** (44 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_loaddata_forward_refs_split_fixtures()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_fixture_dirs_with_default_fixture_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_fixture_dirs_with_duplicates()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_loaddata_works_when_fixture_has_forward_refs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_pretty_print_xml()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_pretty_print_xml_empty_strings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_relative_path_in_fixture_dirs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_unimportable_serializer()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **Regression test for ticket #4558 -- pretty printing of XML fixtures doesn't…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **Test for ticket #4371 -- Loading a fixture file with invalid data using…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_absolute_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_close_connection_after_loaddata()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_field_value_coerce()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_fixtures_dir_pathlib()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_invalid_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_invalid_data_no_ext()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_loaddata_no_fixture_specified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_loaddata_not_found_fields_ignore()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_loaddata_not_found_fields_ignore_xml()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_loaddata_not_found_fields_not_ignore()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_loaddata_raises_error_when_fixture_has_invalid_foreign_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_loaddata_with_m2m_to_self()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- *... and 30 more nodes in this community*
+- **ManyToManyTests** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
+- **many_to_many/models.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **many_to_many/tests.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
+- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **Publication** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **AbstractArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **InheritedArticleA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **InheritedArticleB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **User** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **.test_fast_add_ignore_conflicts()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
+- **NoDeletedArticleManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **Tag** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **.test_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
+- **.test_inherited_models_selects()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
+- **.test_reverse_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
+- **.test_slow_add_ignore_conflicts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **.get_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **Many-to-many relationships To define a many-to-many relationship, use…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **UserArticle** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [Community 8](Community_8.md) (7 shared connections)
-- [Community 585](Community_585.md) (4 shared connections)
-- [Community 956](Community_956.md) (3 shared connections)
-- [Community 30](Community_30.md) (3 shared connections)
-- [Community 354](Community_354.md) (2 shared connections)
-- [Community 999](Community_999.md) (2 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 1053](Community_1053.md) (1 shared connections)
-- [Community 206](Community_206.md) (1 shared connections)
+- [Community 222](Community_222.md) (3 shared connections)
+- [Community 38](Community_38.md) (3 shared connections)
+- [Community 87](Community_87.md) (2 shared connections)
+- [Community 19](Community_19.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 72 (89%)
-- INFERRED: 9 (11%)
+- EXTRACTED: 73 (94%)
+- INFERRED: 5 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

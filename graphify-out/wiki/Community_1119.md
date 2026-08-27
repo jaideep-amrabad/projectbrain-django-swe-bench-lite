@@ -1,25 +1,23 @@
 # Community 1119
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **UsernameValidatorsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **.test_ascii_validator()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **.test_unicode_validator()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **Circle6** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
 
 ## Relationships
 
-- [Community 95](Community_95.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 345](Community_345.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

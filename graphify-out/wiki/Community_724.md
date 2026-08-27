@@ -1,40 +1,37 @@
 # Community 724
 
-> 12 nodes · cohesion 0.21
+> 12 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **TestManagerInheritance** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
-- **CustomManager** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.test_deconstruct_from_queryset_failing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **.test_base_manager_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
-- **.test_default_manager_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
-- **.test_implicit_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
-- **.test_manager_class_getitem()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
-- **.test_manager_no_duplicates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **MemberManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **skipUnless** (1 connections)
+- **DatabaseIntrospection** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- **.get_relations()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- **.get_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- **.get_key_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- **.get_table_description()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- **.get_table_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- **.get_field_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- **.get_sequences()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- **Return a dictionary of {field_name: (field_name_other_table, other_table)}…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- **Retrieve any constraints or keys (unique, pk, fk, check, index) across one or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- **Return a list of table and view names in the current database.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- **Return a description of the table with the DB-API cursor.description interface.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
 
 ## Relationships
 
-- [Community 271](Community_271.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 83](Community_83.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 183](Community_183.md) (2 shared connections)
+- [Community 32](Community_32.md) (1 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
+- [Community 568](Community_568.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (71%)
-- INFERRED: 6 (29%)
+- EXTRACTED: 16 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

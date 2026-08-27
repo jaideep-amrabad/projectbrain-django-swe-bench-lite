@@ -1,26 +1,25 @@
 # Community 1050
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **Unpicklable** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_add_fail_on_pickleerror()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_set_fail_on_pickleerror()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.__getstate__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **DependentChildAdminForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **Issue #20522 Form to test child dependency on parent object's validation** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Relationships
 
-- [Community 277](Community_277.md) (2 shared connections)
-- [Community 41](Community_41.md) (1 shared connections)
+- [Community 69](Community_69.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

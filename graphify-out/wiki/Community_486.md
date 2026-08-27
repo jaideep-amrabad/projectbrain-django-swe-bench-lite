@@ -1,49 +1,45 @@
 # Community 486
 
-> 22 nodes · cohesion 0.15
+> 22 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **DjangoTranslation** (17 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **.__init__()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **.merge()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **._add_installed_apps_translations()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **._new_gnu_trans()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **._add_local_translations()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **._init_translation_catalog()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **._add_fallback()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **.to_language()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **.language()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **.ngettext()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **Set up the GNUTranslations context with regard to output charset. This…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **Create a GNUTranslations() using many locale directories** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **Return a mergeable gettext.GNUTranslations instance. A convenience wrapper. By…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **Create a base catalog using global django translations.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **Merge translations from each installed app.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **Merge translations defined in LOCALE_PATHS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **Set the GNUTranslations() fallback with the default language.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **Merge another translation into this catalog.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **Return the translation language.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **Return the translation language name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **TimezoneTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_get_default_timezone_utc()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_now()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_activate_invalid_timezone()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_fixedoffset_negative_timedelta()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_fixedoffset_timedelta()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_get_default_timezone()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_is_aware()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_is_naive()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_localdate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_make_aware()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_make_aware2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_make_aware_no_tz()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_make_aware_pytz()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_make_aware_pytz_ambiguous()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_make_aware_pytz_non_existent()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_make_naive()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_make_naive_no_tz()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_override()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_override_decorator()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_override_fixed_offset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
+- **.test_override_string_tz()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
 
 ## Relationships
 
-- [Community 422](Community_422.md) (3 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 749](Community_749.md) (2 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
-- [Community 43](Community_43.md) (1 shared connections)
-- [Community 420](Community_420.md) (1 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_timezone.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 25 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

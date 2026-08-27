@@ -1,52 +1,56 @@
 # Community 430
 
-> 26 nodes · cohesion 0.08
+> 25 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **DetailViewTest** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
-- **.test_custom_detail()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
-- **.test_deferred_queryset_context_object_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
-- **.test_deferred_queryset_template_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
-- **.test_context_object_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
-- **.test_detail_by_custom_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
-- **.test_detail_by_custom_slug()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
-- **.test_detail_by_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
-- **.test_detail_by_pk_and_slug()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
-- **.test_detail_by_pk_and_slug_mismatch_404()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
-- **.test_detail_by_pk_ignore_slug()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
-- **.test_detail_by_pk_ignore_slug_mismatch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
-- **.test_detail_by_slug()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
-- **.test_detail_missing_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
-- **.test_detail_object_does_not_exist()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
-- **.test_duplicated_context_object_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
-- **.test_invalid_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
-- **.test_invalid_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
-- **.test_non_model_object_with_meta()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
-- **.test_simple_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
-- **.test_template_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
-- **.test_template_name_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
-- **.test_template_name_suffix()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
-- **.test_verbose_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
-- *... and 1 more nodes in this community*
+- **serializers/models/base.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **Meta** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **Actor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **Movie** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **Category** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **CategoryMetaData** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **ProxyBaseModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.test_serialize_superfluous_queries()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_serialize_unicode_roundtrip()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **ProxyProxyBaseModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.setUpTestData()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **AuthorProfile** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **CategoryMetaDataManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **Serialization ``django.core.serializers`` provides interfaces to converting…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **Unicode makes the roundtrip intact** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **Ensure no superfluous queries are made when serializing ForeignKeys #17602** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
 
 ## Relationships
 
-- [Community 93](Community_93.md) (4 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 53](Community_53.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
+- [Community 317](Community_317.md) (5 shared connections)
+- [Community 148](Community_148.md) (3 shared connections)
+- [Community 573](Community_573.md) (3 shared connections)
+- [Community 615](Community_615.md) (2 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 916](Community_916.md) (1 shared connections)
+- [Community 29](Community_29.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (83%)
-- INFERRED: 6 (17%)
+- EXTRACTED: 44 (86%)
+- INFERRED: 7 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

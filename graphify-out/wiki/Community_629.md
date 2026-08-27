@@ -1,53 +1,38 @@
 # Community 629
 
-> 23 nodes · cohesion 0.12
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **clean_ipv6_address()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
-- **GenericIPAddressField** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **is_valid_ipv6_address()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
-- **TestUtilsIPv6** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **test_ipv6.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_prep_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **._check_blank_and_null_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_db_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.test_cleans_plain_address()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **.test_cleans_with_v4_mapping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **.test_unpacks_ipv4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **.test_validates_correct_plain_address()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **.test_validates_correct_with_v4mapping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **.test_validates_incorrect_plain_address()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **.test_validates_incorrect_with_v4mapping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Return whether or not the `ip_str` string is a valid IPv6 address.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
-- **Clean an IPv6 address string. Raise ValidationError if the address is invalid.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
+- **TestRegistration** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_abstract_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_is_registered_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_is_registered_not_registered_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **Exception is raised when trying to register an abstract model. Refs #12004.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **Checks for registered models should return true.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **Checks for unregistered models should return false.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_bare_registration()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_iterable_registration()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_prevent_double_registration()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_prevent_double_registration_for_custom_admin()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_registration_with_model_admin()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_registration_with_star_star_options()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **.test_star_star_overrides()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (6 shared connections)
-- [Community 59](Community_59.md) (4 shared connections)
-- [Community 204](Community_204.md) (2 shared connections)
-- [Community 88](Community_88.md) (2 shared connections)
-- [Community 121](Community_121.md) (1 shared connections)
-- [Community 73](Community_73.md) (1 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
+- [Community 717](Community_717.md) (4 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 16 (84%)
+- INFERRED: 3 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

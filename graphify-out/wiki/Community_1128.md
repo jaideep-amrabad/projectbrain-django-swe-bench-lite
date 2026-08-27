@@ -1,27 +1,25 @@
 # Community 1128
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **Favorites** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **.test_create_models_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **Models are created via the m2m relation if the remote model has a OneToOneField…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- **.test_add_field_delete_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **RemoveField should cancel AddField** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
 
 ## Relationships
 
-- [Community 549](Community_549.md) (2 shared connections)
-- [Community 388](Community_388.md) (2 shared connections)
+- [Community 613](Community_613.md) (1 shared connections)
+- [Community 672](Community_672.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (83%)
-- INFERRED: 1 (17%)
+- EXTRACTED: 3 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

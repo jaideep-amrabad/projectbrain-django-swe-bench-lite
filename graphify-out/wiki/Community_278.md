@@ -1,53 +1,61 @@
 # Community 278
 
-> 39 nodes · cohesion 0.08
+> 50 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **post_form_view()** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
-- **._get_POST_request_with_token()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **._get_POST_csrf_cookie_request()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_csrf_token_in_header_with_customized_name()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_https_bad_referer()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_https_csrf_trusted_origin_allowed()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_https_csrf_wildcard_trusted_origin_allowed()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_https_good_referer()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_https_good_referer_2()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **._test_https_good_referer_behind_proxy()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **._test_https_good_referer_matches_cookie_domain()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **._test_https_good_referer_matches_cookie_domain_with_different_port()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_https_malformed_referer()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_process_request_csrf_cookie_no_token_exempt_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_https_reject_insecure_referer()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_https_reject_insecure_referer()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_csrf_token_in_header()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_process_request_csrf_cookie_and_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_process_request_csrf_cookie_no_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_https_good_referer_behind_proxy()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_https_good_referer_matches_cookie_domain()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_https_good_referer_matches_cookie_domain_with_different_port()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_https_good_referer_behind_proxy()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_https_good_referer_matches_cookie_domain()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **.test_https_good_referer_matches_cookie_domain_with_different_port()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- *... and 14 more nodes in this community*
+- **MultiValueDict** (49 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **test_datastructures.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **MultiValueDictTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **DictWrapper** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **._getlist()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.setlistdefault()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__getitem__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__getitem__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.setlist()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **MultiValueDictKeyError** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.appendlist()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.update()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.values()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **DictWrapperTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_dictwrapper()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **_destruct_iterable_mapping_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.dict()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__getstate__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__setitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [Community 338](Community_338.md) (45 shared connections)
-- [Community 8](Community_8.md) (15 shared connections)
-- [Community 445](Community_445.md) (3 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 573](Community_573.md) (1 shared connections)
+- [Community 1](Community_1.md) (10 shared connections)
+- [Community 468](Community_468.md) (5 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 27](Community_27.md) (3 shared connections)
+- [Community 898](Community_898.md) (3 shared connections)
+- [Community 218](Community_218.md) (2 shared connections)
+- [Community 595](Community_595.md) (2 shared connections)
+- [Community 48](Community_48.md) (2 shared connections)
+- [Community 415](Community_415.md) (2 shared connections)
+- [Community 625](Community_625.md) (2 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
 
 ## Audit Trail
 
-- EXTRACTED: 104 (84%)
-- INFERRED: 20 (16%)
+- EXTRACTED: 112 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

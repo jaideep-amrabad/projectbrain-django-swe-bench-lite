@@ -1,60 +1,40 @@
 # Community 534
 
-> 29 nodes · cohesion 0.10
+> 15 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **Media** (18 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **stable_topological_sort()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
-- **CyclicDependencyError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
-- **topological_sort_as_sets()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
-- **test_topological_sort.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
-- **.merge()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **topological_sort.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
-- **.absolute_path()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **TopologicalSortTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
-- **.media()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.render_css()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.render_js()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **._get_media()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_basic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
-- **._css()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **._js()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_cyclic_dependency()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
-- **Return all media required to render the widgets on this form.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- **.__add__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **Return a Media object that only contains media of the given type.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **Merge lists while trying to keep the relative order of the elements. Warn if…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- *... and 4 more nodes in this community*
+- **DjangoAdminSettingsDirectory** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_setup_environ()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_setup_environ_custom_template()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_startapp_unicode_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **directory: django-admin builtin commands succeed if settings are provided as…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **A series of tests for django-admin.py when the settings file is in a directory.…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **directory: startapp creates the correct directory** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **directory: startapp creates the correct directory with a custom template** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **startapp creates the correct directory with Unicode characters.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **directory: django-admin builtin commands fail with an error when no settings…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **directory: django-admin can't execute user commands unless settings are provided** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Relationships
 
-- [Community 33](Community_33.md) (5 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 5](Community_5.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 409](Community_409.md) (1 shared connections)
-- [Community 536](Community_536.md) (1 shared connections)
-- [Community 349](Community_349.md) (1 shared connections)
-- [Community 47](Community_47.md) (1 shared connections)
-- [Community 138](Community_138.md) (1 shared connections)
-- [Community 139](Community_139.md) (1 shared connections)
+- [Community 89](Community_89.md) (13 shared connections)
+- [Community 175](Community_175.md) (7 shared connections)
+- [Community 207](Community_207.md) (2 shared connections)
+- [Community 254](Community_254.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/topological_sort.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_topological_sort.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 60 (97%)
-- INFERRED: 2 (3%)
+- EXTRACTED: 38 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

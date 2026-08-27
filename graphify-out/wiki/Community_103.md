@@ -1,53 +1,63 @@
 # Community 103
 
-> 86 nodes · cohesion 0.05
+> 80 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **ModelInheritanceTest** (60 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
-- **model_inheritance_regress/models.py** (43 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **model_inheritance_regress/tests.py** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
-- **Place** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **Meta** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **Restaurant** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **Congressman** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **ItalianRestaurant** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **ArticleWithAuthor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **BachelorParty** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **ParkingLot** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **ParkingLot4A** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **ParkingLot4B** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **Person** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **Station** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **.test_model_inheritance()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
-- **AbstractEvent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **BirthdayParty** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **BusStation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **CertificationAudit** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **DerivedM** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **Evaluation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **InternalCertificationAudit** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- *... and 61 more nodes in this community*
+- **.e()** (77 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **AssertRedirectsTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **AssertFormsetErrorTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **AssertFormErrorTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Command** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/createcachetable.py`
+- **.create_table()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/createcachetable.py`
+- **An assertion is raised if the form's non field errors doesn't contain the…** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.srs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
+- **.run_select_for_update()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- **.test_noerror_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_unknown_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_unknown_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_unknown_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_unknown_nonfield_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_incorrect_target()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_lost_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_redirect_chain_on_non_redirect_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_redirect_on_non_redirect_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_redirect_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_redirect_to_different_host()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_target_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_no_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **An assertion is raised if the original page couldn't be retrieved as expected** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.handle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/createcachetable.py`
+- *... and 55 more nodes in this community*
 
 ## Relationships
 
-- [Community 115](Community_115.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 57](Community_57.md) (9 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 201](Community_201.md) (4 shared connections)
+- [Community 320](Community_320.md) (3 shared connections)
+- [Community 26](Community_26.md) (3 shared connections)
+- [Community 12](Community_12.md) (3 shared connections)
+- [Community 222](Community_222.md) (2 shared connections)
+- [Community 595](Community_595.md) (2 shared connections)
+- [Community 349](Community_349.md) (2 shared connections)
+- [Community 205](Community_205.md) (2 shared connections)
+- [Community 601](Community_601.md) (2 shared connections)
+- [Community 402](Community_402.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/createcachetable.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- `raw/code/hyd-evaluation/django-django/tests/select_for_update/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 168 (86%)
-- INFERRED: 28 (14%)
+- EXTRACTED: 102 (58%)
+- INFERRED: 75 (42%)
 - AMBIGUOUS: 0 (0%)
 
 ---

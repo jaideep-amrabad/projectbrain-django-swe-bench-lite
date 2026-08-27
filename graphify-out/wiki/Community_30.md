@@ -1,68 +1,66 @@
 # Community 30
 
-> 159 nodes · cohesion 0.02
+> 155 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **skipUnlessDBFeature()** (445 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **GISFunctionsTests** (47 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_functions.py`
-- **QuerySetSetOperationTests** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
-- **UniqueConstraintTests** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **constraints/tests.py** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **CheckConstraintTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **Ticket19102Tests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **constraints/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **.assertNumbersEqual()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
-- **SpatialRefSysTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_spatialrefsys.py`
-- **CursorWrapperTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
-- **Meta** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **UniqueConstraintProduct** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **.test_union()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_functions.py`
-- **test_spatialrefsys.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_spatialrefsys.py`
-- **UniqueConstraintConditionProduct** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **.test_make_valid_output_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_functions.py`
-- **.test_unionagg()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
-- **._test_procedure()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
-- **ChildModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **Product** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **UniqueConstraintDeferrable** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **UniqueConstraintInclude** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- **get_constraints()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **.test_model_validation_with_condition()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- *... and 134 more nodes in this community*
+- **LayerMapping** (49 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
+- **layermapping.py** (35 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
+- **LayerMapTest** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
+- **Field** (33 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **field.py** (30 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **layermap/tests.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
+- **test_ds.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
+- **LayerMapError** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
+- **utils/ogrinspect.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
+- **layermap/models.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
+- **OFTInteger** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **.__init__()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
+- **NamedModel** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
+- **OFTDateTime** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **.verify_ogr_field()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
+- **OFTDate** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **OFTReal** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **OFTTime** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **State** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
+- **.as_datetime()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **OFTString** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **.check_layer()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
+- **.feature_kwargs()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
+- **City** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
+- **ICity1** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
+- *... and 130 more nodes in this community*
 
 ## Relationships
 
-- [Community 22](Community_22.md) (31 shared connections)
-- [Community 51](Community_51.md) (26 shared connections)
-- [Community 61](Community_61.md) (22 shared connections)
-- [Community 79](Community_79.md) (21 shared connections)
-- [Community 205](Community_205.md) (19 shared connections)
-- [Community 13](Community_13.md) (16 shared connections)
-- [Community 227](Community_227.md) (16 shared connections)
-- [Community 152](Community_152.md) (16 shared connections)
-- [Community 206](Community_206.md) (14 shared connections)
-- [Community 140](Community_140.md) (14 shared connections)
-- [Community 24](Community_24.md) (11 shared connections)
-- [Community 14](Community_14.md) (11 shared connections)
+- [Community 32](Community_32.md) (27 shared connections)
+- [Community 790](Community_790.md) (15 shared connections)
+- [Community 817](Community_817.md) (6 shared connections)
+- [Community 29](Community_29.md) (4 shared connections)
+- [Community 122](Community_122.md) (3 shared connections)
+- [Community 85](Community_85.md) (3 shared connections)
+- [Community 40](Community_40.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 222](Community_222.md) (3 shared connections)
+- [Community 58](Community_58.md) (3 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 275](Community_275.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/constraints/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_functions.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_spatialrefsys.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/test_qs_combinators.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 700 (98%)
-- INFERRED: 17 (2%)
+- EXTRACTED: 354 (92%)
+- INFERRED: 31 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

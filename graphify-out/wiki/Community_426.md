@@ -1,62 +1,58 @@
 # Community 426
 
-> 32 nodes · cohesion 0.08
+> 25 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **tz.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **utc()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **do_timezone()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **GetCurrentTimezoneNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **LocalTimeNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **TimezoneNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **localtime()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **.test_migration_file_header_comments()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **DatetimeDatetimeSerializer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **.test_sorted_imports()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **datetimeobject** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **filter** (3 connections)
-- **Node** (3 connections)
-- **.serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **.test_latest_post_date_returns_utc_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **For datetime.datetime.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **.render()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **.render()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **Template node class used by ``timezone_tag``.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **# HACK: datetime instances cannot be assigned new attributes. Define a subclass** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **Template node class used by ``get_current_timezone_tag``.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **Convert a datetime to local time in the active time zone. This only makes sense…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- **Convert a datetime to UTC.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- *... and 7 more nodes in this community*
+- **ConnectionHandler** (22 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **ConnectionHandlerTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- **ConnectionDoesNotExist** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.ensure_defaults()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.__getitem__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.prepare_test_settings()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.databases()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.test_no_database()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.assertImproperlyConfigured()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- **.test_connection_handler_no_databases()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- **.test_makemigrations_empty_connections()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **Exception** (2 connections)
+- **._get_databases()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.test_no_default_database()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- **.all()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.close_all()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.__delitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.__setitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **databases is an optional dictionary of database definitions (structured like…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **Put the defaults into the settings dictionary for a given connection where no…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **Make sure the test settings are available in the 'TEST' sub-dictionary.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **Ensure runserver.check_migrations doesn't choke on empty DATABASES.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **Empty DATABASES and empty 'default' settings default to the dummy backend.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
 
 ## Relationships
 
-- [Community 26](Community_26.md) (7 shared connections)
-- [Community 37](Community_37.md) (7 shared connections)
-- [Community 115](Community_115.md) (4 shared connections)
-- [Community 230](Community_230.md) (3 shared connections)
-- [Community 169](Community_169.md) (2 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 492](Community_492.md) (2 shared connections)
-- [Community 440](Community_440.md) (2 shared connections)
-- [Community 107](Community_107.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 303](Community_303.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
+- [Community 222](Community_222.md) (5 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 15](Community_15.md) (3 shared connections)
+- [Community 35](Community_35.md) (2 shared connections)
+- [Community 207](Community_207.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 170](Community_170.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- `raw/code/hyd-evaluation/django-django/django/templatetags/tz.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
+- `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
 
 ## Audit Trail
 
-- EXTRACTED: 61 (81%)
-- INFERRED: 14 (19%)
+- EXTRACTED: 45 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

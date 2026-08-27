@@ -1,46 +1,67 @@
 # Community 621
 
-> 20 nodes · cohesion 0.12
+> 46 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **ExcludeTest17600** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **NullInExcludeTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_only_orders_with_all_items_having_status_1()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **This should exclude Orders which have some items with status 1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_exclude_with_q_is_equal_to_plain_exclude()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_exclude_with_q_is_equal_to_plain_exclude_variation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_exclude_with_q_object_distinct()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_exclude_with_q_object_no_distinct()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_col_not_in_list_containing_null()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_exclude_plain()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_exclude_plain_distinct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_double_exclude()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **expectedFailure** (2 connections)
-- **Using exclude(condition) and exclude(Q(condition)) should yield the same…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_null_in_exclude_qs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Some regressiontests for ticket #17600. Some of these likely duplicate other…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **This should only return orders having ALL items set to status 1, or those items…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **The following case is not handled properly because SQL's COL NOT IN (list…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **files/storage.py** (46 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **LazyObject** (24 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **safe_join()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
+- **SuspiciousFileOperation** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- **get_storage_class()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **to_path()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
+- **test_os_utils.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
+- **GetStorageClassTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **._setup()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **SafeJoinTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
+- **DefaultAdminSite** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- **ConfiguredStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **DefaultStorage** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.iter_template_filenames()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
+- **.__reduce__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **unpickle_lazyobject()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **.test_get_filesystem_storage()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_get_invalid_storage_module()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_get_nonexistent_storage_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_get_nonexistent_storage_module()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **ToPathTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
+- **._setup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- **._setup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- **._setup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.__delattr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- *... and 21 more nodes in this community*
 
 ## Relationships
 
-- [Community 12](Community_12.md) (6 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 314](Community_314.md) (2 shared connections)
-- [Community 328](Community_328.md) (1 shared connections)
+- [Community 1](Community_1.md) (8 shared connections)
+- [Community 380](Community_380.md) (7 shared connections)
+- [Community 146](Community_146.md) (6 shared connections)
+- [Community 176](Community_176.md) (5 shared connections)
+- [Community 97](Community_97.md) (5 shared connections)
+- [Community 57](Community_57.md) (5 shared connections)
+- [Community 222](Community_222.md) (5 shared connections)
+- [Community 200](Community_200.md) (4 shared connections)
+- [Community 115](Community_115.md) (4 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 81](Community_81.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
+- `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (92%)
-- INFERRED: 3 (8%)
+- EXTRACTED: 141 (97%)
+- INFERRED: 4 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,52 +1,53 @@
 # Community 379
 
-> 32 nodes · cohesion 0.06
+> 29 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **PrefetchRelatedTests** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_filter_deferred()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_onetoone_reverse_with_to_field_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_foreign_key_then_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_forward_m2m_to_attr_conflict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_in_and_prefetch_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_m2m_then_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_prefetch_eq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_reverse_m2m_to_attr_conflict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_reverse_one_to_one_then_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **Related filtering of prefetched querysets is deferred until necessary.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_attribute_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_bool()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_count()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_exists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_foreignkey_forward()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_foreignkey_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_invalid_final_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_len()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_m2m_forward()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_m2m_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_onetoone_reverse_no_match()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.test_overriding_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- *... and 7 more nodes in this community*
+- **BaseManager** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **ManagerDescriptor** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **ManagerTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.deconstruct()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **._get_queryset_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **._set_creation_counter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.test_manager_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.all()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.contribute_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.from_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.check()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__class_getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.db()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.db_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__new__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__get__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **Set the creation counter value for this instance and increment the class-level…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 109](Community_109.md) (8 shared connections)
-- [Community 140](Community_140.md) (4 shared connections)
-- [Community 313](Community_313.md) (4 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 21](Community_21.md) (1 shared connections)
+- [Community 222](Community_222.md) (4 shared connections)
+- [Community 610](Community_610.md) (2 shared connections)
+- [Community 296](Community_296.md) (1 shared connections)
+- [Community 380](Community_380.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (88%)
-- INFERRED: 6 (12%)
+- EXTRACTED: 38 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

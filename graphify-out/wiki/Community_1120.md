@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **.fetch_returned_insert_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **Given a cursor object that has just performed an INSERT...RETURNING statement…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **NKManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
 
 ## Relationships
 
-- [Community 52](Community_52.md) (1 shared connections)
+- [Community 345](Community_345.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
 
 ## Audit Trail
 

@@ -1,59 +1,51 @@
 # Community 428
 
-> 26 nodes · cohesion 0.09
+> 25 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **ListFiltersTests** (52 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **BookAdminRelatedOnlyFilter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **BookAdminWithEmptyFieldListFilter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **BookmarkAdminGenericRelation** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **DecadeFilterBookAdminWithoutParameter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **DecadeFilterBookAdminWithQuerysetBasedLookups** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **DepartmentAdminWithEmptyFieldListFilter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_emptylistfieldfilter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_list_filter_queryset_filtered_by_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_simplelistfilter_without_parameter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **NotNinetiesListFilterAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_choicesfieldlistfilter_has_none_choice()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_emptylistfieldfilter_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_emptylistfieldfilter_invalid_lookup_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_listfilter_genericrelation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_relatedonlyfieldlistfilter_foreignkey()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_relatedonlyfieldlistfilter_manytomany()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_relatedonlyfieldlistfilter_underscorelookup_foreignkey()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_simplelistfilter_with_queryset_based_lookups()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_emptylistfieldfilter_non_empty_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_relatedonlyfieldlistfilter_foreignkey_reverse_relationships()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_relatedonlyfieldlistfilter_manytomany_reverse_relationships()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **Any SimpleListFilter must define a parameter_name.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **A list filter that filters the queryset by default gives the correct…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- *... and 1 more nodes in this community*
+- **DateDetailViewTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **DayArchiveViewTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_aware_datetime_archive_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_aware_datetime_date_detail()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_aware_datetime_day_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **requires_tz_support** (3 connections)
+- **.test_get_object_custom_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_date_detail_allow_future()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_date_detail_by_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_date_detail_by_slug()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_date_detail_custom_month_format()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_datetime_date_detail()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_get_object_custom_queryset_numqueries()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_invalid_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_year_out_of_range()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_custom_month_format()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_datetime_day_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_day_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_day_view_allow_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_day_view_allow_future()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_day_view_invalid_pattern()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_day_view_paginated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_next_prev_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_today_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **Custom querysets are used when provided to BaseDateDetailView.get_object().** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
 
 ## Relationships
 
-- [Community 384](Community_384.md) (12 shared connections)
-- [Community 487](Community_487.md) (12 shared connections)
-- [Community 686](Community_686.md) (8 shared connections)
-- [Community 958](Community_958.md) (7 shared connections)
-- [Community 718](Community_718.md) (4 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 1110](Community_1110.md) (1 shared connections)
-- [Community 1109](Community_1109.md) (1 shared connections)
-- [Community 1108](Community_1108.md) (1 shared connections)
-- [Community 1043](Community_1043.md) (1 shared connections)
-- [Community 1042](Community_1042.md) (1 shared connections)
-- [Community 34](Community_34.md) (1 shared connections)
+- [Community 296](Community_296.md) (8 shared connections)
+- [Community 12](Community_12.md) (5 shared connections)
+- [Community 19](Community_19.md) (2 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 539](Community_539.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
 
 ## Audit Trail
 
-- EXTRACTED: 74 (92%)
-- INFERRED: 6 (8%)
+- EXTRACTED: 37 (90%)
+- INFERRED: 4 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,30 +1,28 @@
 # Community 895
 
-> 7 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **BoundWidget** (10 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.tag()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.choice_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.id_for_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **A container class used for iterating over widgets. This is useful for widgets…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **Deserializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.__next__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Abstract base deserializer class.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Init this serializer given a stream or a string** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Iteration interface -- return the next item in the stream** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 320](Community_320.md) (1 shared connections)
-- [Community 187](Community_187.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

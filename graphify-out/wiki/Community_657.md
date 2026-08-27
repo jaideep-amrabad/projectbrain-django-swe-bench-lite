@@ -1,40 +1,35 @@
 # Community 657
 
-> 12 nodes · cohesion 0.24
+> 9 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **BaseModelForm** (12 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **._post_clean()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.validate_unique()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **._get_validation_exclusions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.save()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **._save_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **._update_errors()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.clean()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **For backwards-compatibility, exclude several types of fields from model…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **Call the instance's validate_unique() method and update the form's validation…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **Save the many-to-many fields and generic relations for this form.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **Save this form's self.instance object if commit=True. Otherwise, add a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **QuerySetIteratorTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
+- **cursor_iter()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.test_default_iterator_chunk_size()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
+- **.test_iterator_chunk_size()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
+- **.test_no_chunked_reads()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
+- **Yield blocks of rows from a cursor and ensure the cursor is closed when done.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
+- **.test_iterator_invalid_chunk_size()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
+- **If the database backend doesn't support chunked reads, then the result of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 132](Community_132.md) (2 shared connections)
-- [Community 409](Community_409.md) (1 shared connections)
-- [Community 196](Community_196.md) (1 shared connections)
-- [Community 410](Community_410.md) (1 shared connections)
-- [Community 397](Community_397.md) (1 shared connections)
-- [Community 210](Community_210.md) (1 shared connections)
+- [Community 72](Community_72.md) (3 shared connections)
+- [Community 83](Community_83.md) (1 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (92%)
-- INFERRED: 2 (8%)
+- EXTRACTED: 12 (80%)
+- INFERRED: 3 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

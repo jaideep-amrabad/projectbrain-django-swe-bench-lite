@@ -1,29 +1,27 @@
 # Community 943
 
-> 6 nodes · cohesion 0.47
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **length()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length.py`
-- **.test_safestring()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length.py`
-- **.test_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length.py`
-- **.test_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length.py`
-- **Return the length of the value - useful for lists.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **AutoFieldMeta** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.__instancecheck__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.__subclasscheck__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **._subclasses()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **type** (1 connections)
+- **Metaclass to maintain backward inheritance compatibility for AutoField. It is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 
 ## Relationships
 
-- [Community 47](Community_47.md) (3 shared connections)
-- [Community 5](Community_5.md) (3 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

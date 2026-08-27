@@ -4,26 +4,26 @@
 
 ## Key Concepts
 
-- **DeleteLockingTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **.test_concurrent_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **Concurrent deletes don't collide and lock the database (#9479).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- **TransactionsPerRequestTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_auto_transaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_auto_transaction_async_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_no_auto_transaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_no_transaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
 
 ## Relationships
 
-- [Community 143](Community_143.md) (2 shared connections)
-- [Community 30](Community_30.md) (1 shared connections)
-- [Community 168](Community_168.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (88%)
-- INFERRED: 1 (12%)
+- EXTRACTED: 7 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

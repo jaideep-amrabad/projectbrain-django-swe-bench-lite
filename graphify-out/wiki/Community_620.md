@@ -1,42 +1,45 @@
 # Community 620
 
-> 16 nodes · cohesion 0.24
+> 15 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **null_fk/tests.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/tests.py`
-- **null_fk/models.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
-- **NullFkTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/tests.py`
-- **Comment** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
-- **Post** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
-- **Forum** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
-- **Item** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
-- **PropertyValue** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
-- **SystemDetails** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
-- **SystemInfo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
-- **.test_combine_isnull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/tests.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
-- **Property** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
-- **Regression tests for proper working of ForeignKey(null=True).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
-- **.test_null_fk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/tests.py`
+- **SessionStore** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
+- **.create_model_instance()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
+- **.save()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
+- **.get_model_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
+- **._get_session_from_db()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
+- **.model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
+- **.clear_expired()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
+- **.create()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
+- **.load()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
+- **Implement database session store.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
+- **Return a new instance of the session model object, which represents the current…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
+- **Save the current session data to the database. If 'must_create' is True, raise…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
+- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
+- **.exists()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 12](Community_12.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 329](Community_329.md) (3 shared connections)
+- [Community 222](Community_222.md) (3 shared connections)
+- [Community 595](Community_595.md) (2 shared connections)
+- [Community 500](Community_500.md) (2 shared connections)
+- [Community 564](Community_564.md) (2 shared connections)
+- [Community 232](Community_232.md) (1 shared connections)
+- [Community 755](Community_755.md) (1 shared connections)
+- [Community 165](Community_165.md) (1 shared connections)
+- [Community 103](Community_103.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/null_fk/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (81%)
-- INFERRED: 7 (19%)
+- EXTRACTED: 28 (78%)
+- INFERRED: 8 (22%)
 - AMBIGUOUS: 0 (0%)
 
 ---

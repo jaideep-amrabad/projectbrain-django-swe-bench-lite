@@ -1,61 +1,65 @@
 # Community 59
 
-> 82 nodes · cohesion 0.03
+> 111 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **DecimalField** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_prep_value()** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **CharField** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.deconstruct()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.__init__()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.to_python()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **FloatField** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **UUIDField** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **FilePathField** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **IPAddressField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **SlugField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.check()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **EmailField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **NullBooleanField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **URLField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_prep_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_prep_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_prep_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_prep_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_prep_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.clone()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_db_prep_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_prep_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- *... and 57 more nodes in this community*
+- **Apps** (86 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
+- **StateTests** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.from_model()** (28 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **ModelStateTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.from_apps()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **AppRegistryNotReady** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- **.populate()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
+- **.check_apps_ready()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
+- **.clear_cache()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
+- **.test_custom_manager_swappable()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_remove_relations()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **LookupError** (6 connections)
+- **.get_app_config()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
+- **.get_app_configs()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
+- **NoMigrationFoodManager** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
+- **.test_add_relations()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_create()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_render_project_dependencies()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.check_models_ready()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
+- **.get_model()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
+- **.set_installed_apps()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
+- **.test_create_swappable()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_create_swappable_from_abstract()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_ignore_order_wrt()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_real_apps()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- *... and 86 more nodes in this community*
 
 ## Relationships
 
-- [Community 204](Community_204.md) (15 shared connections)
-- [Community 341](Community_341.md) (14 shared connections)
-- [Community 1](Community_1.md) (11 shared connections)
-- [Community 121](Community_121.md) (9 shared connections)
-- [Community 629](Community_629.md) (4 shared connections)
-- [Community 54](Community_54.md) (3 shared connections)
-- [Community 14](Community_14.md) (3 shared connections)
-- [Community 19](Community_19.md) (3 shared connections)
-- [Community 179](Community_179.md) (1 shared connections)
-- [Community 604](Community_604.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 45](Community_45.md) (1 shared connections)
+- [Community 7](Community_7.md) (26 shared connections)
+- [Community 36](Community_36.md) (18 shared connections)
+- [Community 25](Community_25.md) (13 shared connections)
+- [Community 28](Community_28.md) (6 shared connections)
+- [Community 76](Community_76.md) (5 shared connections)
+- [Community 229](Community_229.md) (5 shared connections)
+- [Community 75](Community_75.md) (5 shared connections)
+- [Community 347](Community_347.md) (3 shared connections)
+- [Community 885](Community_885.md) (3 shared connections)
+- [Community 548](Community_548.md) (3 shared connections)
+- [Community 236](Community_236.md) (3 shared connections)
+- [Community 12](Community_12.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
+- `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
+- `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
 
 ## Audit Trail
 
-- EXTRACTED: 177 (98%)
-- INFERRED: 3 (2%)
+- EXTRACTED: 272 (87%)
+- INFERRED: 39 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,62 +1,63 @@
 # Community 181
 
-> 44 nodes · cohesion 0.05
+> 71 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **LogEntry** (30 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
-- **LogEntryTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **.__str__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
-- **AdminLogNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/log.py`
-- **.get_change_message()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
-- **.test_logentry_change_message_formsets()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **.test_logentry_change_message_localized_datetime_input()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **UUIDUserTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.get_admin_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
-- **get_admin_log()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/log.py`
-- **.test_logentry_change_message()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **.test_logentry_get_admin_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **.test_logentry_change_message_not_json()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **.test_proxy_model_content_type_is_used_for_log_entries()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **.get_edited_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
-- **.is_addition()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
-- **.is_change()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
-- **.is_deletion()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **.test_action_flag_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **.test_logentry_get_edited_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **.test_logentry_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **.test_logentry_unicode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **.test_admin_password_change()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
-- *... and 19 more nodes in this community*
+- **settings_tests/tests.py** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **LazySettings** (20 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **Settings** (17 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **set_script_prefix()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- **UserSettingsHolder** (13 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **DeprecationTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
+- **IsOverriddenTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **clear_script_prefix()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- **._add_script_prefix()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__getattr__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **._setup()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **ChildDecoratedTestCase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **MediaURLStaticURLPrefixTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.set_script_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **ParentDecoratedTestCase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_timeout()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
+- **.test_add_script_name_prefix()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_not_prefixed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.configure()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__delattr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__setattr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.disable()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.enable()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.enable()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- *... and 46 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (11 shared connections)
-- [Community 15](Community_15.md) (7 shared connections)
-- [Community 536](Community_536.md) (6 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 158](Community_158.md) (3 shared connections)
-- [Community 783](Community_783.md) (2 shared connections)
-- [Community 95](Community_95.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 115](Community_115.md) (2 shared connections)
-- [Community 49](Community_49.md) (1 shared connections)
-- [Community 64](Community_64.md) (1 shared connections)
-- [Community 958](Community_958.md) (1 shared connections)
+- [Community 1](Community_1.md) (18 shared connections)
+- [Community 24](Community_24.md) (8 shared connections)
+- [Community 99](Community_99.md) (7 shared connections)
+- [Community 19](Community_19.md) (6 shared connections)
+- [Community 12](Community_12.md) (6 shared connections)
+- [Community 8](Community_8.md) (5 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 365](Community_365.md) (3 shared connections)
+- [Community 10](Community_10.md) (3 shared connections)
+- [Community 57](Community_57.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 283](Community_283.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/log.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
+- `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 82 (85%)
-- INFERRED: 14 (15%)
+- EXTRACTED: 163 (96%)
+- INFERRED: 7 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

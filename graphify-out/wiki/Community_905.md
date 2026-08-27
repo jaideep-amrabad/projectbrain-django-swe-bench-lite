@@ -1,32 +1,31 @@
 # Community 905
 
-> 7 nodes · cohesion 0.29
+> 7 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **SiteEachContextTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_adminsite.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_adminsite.py`
-- **.test_each_context_site_url_with_script_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_adminsite.py`
-- **Check each_context contains the documented variables and that available_apps…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_adminsite.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_adminsite.py`
-- **.test_available_apps()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_adminsite.py`
-- **.test_each_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_adminsite.py`
+- **OracleDbshellTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
+- **._run_dbshell()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
+- **.test_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
+- **.test_with_rlwrap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
+- **.test_without_rlwrap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
+- **skipUnless** (1 connections)
+- **Run runshell command and capture its arguments.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
 
 ## Relationships
 
-- [Community 15](Community_15.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
+- [Community 309](Community_309.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 78](Community_78.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_adminsite.py`
+- `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 12 (92%)
+- INFERRED: 1 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

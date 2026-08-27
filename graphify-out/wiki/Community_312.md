@@ -1,62 +1,49 @@
 # Community 312
 
-> 28 nodes · cohesion 0.10
+> 30 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **LiveServerTestCase** (23 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **classproperty** (19 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **SeleniumTestCase** (13 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **SerializeMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.setUpClass()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **test_liveserverthread.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
-- **.setUpClass()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.tearDownClass()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **LiveServerThreadTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
-- **._create_server_thread()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.tearDownClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **._tearDownClassInternal()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **._remove_databases_failures()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.tearDownClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.run_live_server_thread()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
-- **.allowed_host()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **.disable_implicit_wait()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **.live_server_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **.allowed_host()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.live_server_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.test_closes_connections()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
-- **Disable the default implicit wait.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **._tearDownClassInternal()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **Do basically the same as TransactionTestCase but also launch a live HTTP server…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Enforce serialization of TestCases that share a common resource. Define a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- *... and 3 more nodes in this community*
+- **BaseMemcachedCache** (22 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.validate_key()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.get_backend_timeout()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **PyLibMCCache** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **MemcachedCache** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.add()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.set()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.set_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.touch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.touch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **._cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.decr()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.delete_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.get_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.incr()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **An implementation of a cache binding using python-memcached** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **.client_servers()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (8 shared connections)
-- [Community 5](Community_5.md) (5 shared connections)
-- [Community 327](Community_327.md) (3 shared connections)
-- [Community 485](Community_485.md) (3 shared connections)
-- [Community 502](Community_502.md) (2 shared connections)
-- [Community 851](Community_851.md) (2 shared connections)
-- [Community 155](Community_155.md) (2 shared connections)
-- [Community 142](Community_142.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 26](Community_26.md) (1 shared connections)
-- [Community 41](Community_41.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
+- [Community 204](Community_204.md) (6 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
 
 ## Audit Trail
 
-- EXTRACTED: 78 (95%)
-- INFERRED: 4 (5%)
+- EXTRACTED: 56 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

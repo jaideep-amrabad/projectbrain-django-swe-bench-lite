@@ -1,60 +1,51 @@
 # Community 156
 
-> 40 nodes · cohesion 0.06
+> 61 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **BaseDatabaseIntrospection** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **base/introspection.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **SimpleDatabaseIntrospectionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
-- **base/test_introspection.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
-- **.django_table_names()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.get_migratable_models()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.identifier_converter()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.installed_models()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.sequence_list()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.table_names()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.get_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.get_primary_key_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.get_sequences()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
-- **.get_field_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.get_key_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.get_relations()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.get_table_description()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.get_table_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **Return a set of all models represented by the provided list of table names.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **Encapsulate backend-specific introspection utilities.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **Return a list of information about all DB sequences for all models in all apps.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **Return a list of introspected sequences for table_name. Each sequence is a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- **Return a dictionary of {field_name: (field_name_other_table, other_table)}…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- *... and 15 more nodes in this community*
+- **TestConnectionOnCommit** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.assertDone()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.do()** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **get_connection()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **ForcedError** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **Atomic** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **on_commit()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **.notify()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_no_hooks_run_from_failed_transaction()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.assertNotified()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_delays_execution_until_after_transaction_commit()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_discards_hooks_from_rolled_back_savepoint()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_does_not_execute_if_transaction_rolled_back()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_error_in_hook_doesnt_prevent_clearing_hooks()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_executes_only_after_final_transaction_committed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_hooks_cleared_after_rollback()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_hooks_cleared_on_reconnect()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_inner_savepoint_does_not_affect_outer()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_inner_savepoint_rolled_back_with_outer()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_no_savepoints_atomic_merged_with_outer()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **clean_savepoints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **commit()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **get_autocommit()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **get_rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **mark_for_rollback_on_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- *... and 36 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 265](Community_265.md) (3 shared connections)
-- [Community 349](Community_349.md) (3 shared connections)
-- [Community 652](Community_652.md) (3 shared connections)
-- [Community 5](Community_5.md) (3 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
-- [Community 729](Community_729.md) (1 shared connections)
-- [Community 605](Community_605.md) (1 shared connections)
-- [Community 519](Community_519.md) (1 shared connections)
-- [Community 61](Community_61.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
+- [Community 222](Community_222.md) (17 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
+- `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 70 (97%)
-- INFERRED: 2 (3%)
+- EXTRACTED: 123 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

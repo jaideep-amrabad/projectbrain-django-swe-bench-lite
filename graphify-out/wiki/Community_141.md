@@ -1,58 +1,57 @@
 # Community 141
 
-> 68 nodes · cohesion 0.06
+> 51 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **GenericRelationTests** (53 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/tests.py`
-- **generic_relations_regress/models.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **generic_relations_regress/tests.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/tests.py`
-- **Note** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **B** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Link** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Place** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Restaurant** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Tag** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **A** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Address** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **C** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Cafe** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **CharLink** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Company** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Contact** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Content** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **D** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Developer** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Guild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **HasLinkThing** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **Node** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **OddRelation1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- **OddRelation2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- *... and 43 more nodes in this community*
+- **Library** (31 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **FilterRegistrationTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- **TagRegistrationTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- **SimpleTagRegistrationTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- **testtags.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/testtags.py`
+- **InclusionTagRegistrationTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- **EchoNode** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/testtags.py`
+- **.filter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **echo()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/testtags.py`
+- **.filter_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **.inclusion_tag()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **.simple_tag()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **.tag()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **.tag_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **good_tags.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/good/templatetags/good_tags.py`
+- **override.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/good/templatetags/override.py`
+- **tags.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/good/templatetags/subpackage/tags.py`
+- **upper()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/testtags.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **Register a callable as a compiled template tag. Example: @register.simple_tag…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- **Register a callable as an inclusion tag:…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [Community 154](Community_154.md) (12 shared connections)
-- [Community 122](Community_122.md) (10 shared connections)
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 12](Community_12.md) (2 shared connections)
-- [Community 397](Community_397.md) (2 shared connections)
-- [Community 206](Community_206.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
+- [Community 2](Community_2.md) (22 shared connections)
+- [Community 23](Community_23.md) (4 shared connections)
+- [Community 402](Community_402.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
+- [Community 291](Community_291.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/template/library.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/good/templatetags/good_tags.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/good/templatetags/override.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/good/templatetags/subpackage/tags.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/testtags.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_library.py`
 
 ## Audit Trail
 
-- EXTRACTED: 130 (75%)
-- INFERRED: 44 (25%)
+- EXTRACTED: 82 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

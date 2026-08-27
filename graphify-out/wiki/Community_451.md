@@ -1,53 +1,50 @@
 # Community 451
 
-> 24 nodes · cohesion 0.14
+> 24 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **LocMemCache** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **cache/backends/locmem.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **._has_expired()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **._delete()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **closeable_cache.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
-- **liberal_backend.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
-- **.add()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **.has_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **.incr()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **._set()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **CacheClass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
-- **CloseHookMixin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
-- **.close()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
-- **CacheClass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
-- **LiberalKeyValidationMixin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
-- **.test_use_as_contextmanager()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **._cull()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **.touch()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **.clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **Thread-safe in-memory cache backend.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- **.validate_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
-- **The connection can be used as a contextmanager.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **unmanaged_models/models.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **unmanaged_models/tests.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
+- **Meta** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **SimpleTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
+- **ManyToManyUnmanagedTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
+- **A01** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **A02** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **B01** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **B02** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **C01** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **C02** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **Unmanaged2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **Managed1** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **Intermediate** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **Proxy1** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **Proxy2** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **Unmanaged1** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **.test_many_to_many_between_unmanaged()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
+- **.test_many_to_many_between_unmanaged_and_managed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
+- **.test_simple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
+- **Models can have a ``managed`` attribute, which specifies whether the SQL code…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- **The main test here is that the all the models can be created without any…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
+- **The intermediary table between two unmanaged models should not be created.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
+- **An intermediary table between a managed and an unmanaged model should be…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
 
 ## Relationships
 
-- [Community 268](Community_268.md) (2 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
-- [Community 774](Community_774.md) (1 shared connections)
-- [Community 438](Community_438.md) (1 shared connections)
-- [Community 316](Community_316.md) (1 shared connections)
+- [Community 19](Community_19.md) (3 shared connections)
+- [Community 222](Community_222.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
-- `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
-- `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/unmanaged_models/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 48 (86%)
+- INFERRED: 8 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

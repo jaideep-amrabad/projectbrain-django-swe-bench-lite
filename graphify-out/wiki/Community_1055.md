@@ -4,18 +4,19 @@
 
 ## Key Concepts
 
-- **AliasedDefaultTestSetupTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_setup_aliased_default_database()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **setup_databases() doesn't fail when 'default' is aliased** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **FunkyTag** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Because we all know there's only one real use case for GFKs.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- [Community 234](Community_234.md) (2 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 69](Community_69.md) (1 shared connections)
+- [Community 93](Community_93.md) (1 shared connections)
+- [Community 113](Community_113.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 

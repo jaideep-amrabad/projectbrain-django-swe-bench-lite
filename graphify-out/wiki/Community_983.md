@@ -1,27 +1,28 @@
 # Community 983
 
-> 5 nodes · cohesion 0.60
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **SQLiteCursorWrapper** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.convert_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.execute()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.executemany()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **Django uses "format" style placeholders, but pysqlite2 uses "qmark" style. This…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **DisallowedDatabaseQueriesTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_disallowed_database_chunked_cursor_queries()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_disallowed_database_connections()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_disallowed_database_queries()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Relationships
 
+- [Community 290](Community_290.md) (1 shared connections)
 - [Community 2](Community_2.md) (1 shared connections)
+- [Community 338](Community_338.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 5 (83%)
+- INFERRED: 1 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

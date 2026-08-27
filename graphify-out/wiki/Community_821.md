@@ -1,33 +1,34 @@
 # Community 821
 
-> 9 nodes · cohesion 0.22
+> 9 nodes · cohesion 0.39
 
 ## Key Concepts
 
-- **Account** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **BarAccount** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **FooAccount** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **BarAccountAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **FooAccountAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **A simple, generic account encapsulating the information shared by all types of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **A service-specific account of type Foo.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **A service-specific account of type Bar.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **HasKeyLookup** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.as_sql()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **HasKey** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **KeyTransformIsNull** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.as_oracle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.as_sqlite()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.as_mysql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.as_oracle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.as_sqlite()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
 
 ## Relationships
 
-- [Community 66](Community_66.md) (4 shared connections)
-- [Community 91](Community_91.md) (3 shared connections)
+- [Community 490](Community_490.md) (4 shared connections)
+- [Community 655](Community_655.md) (3 shared connections)
+- [Community 600](Community_600.md) (2 shared connections)
+- [Community 143](Community_143.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (87%)
-- INFERRED: 2 (13%)
+- EXTRACTED: 24 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

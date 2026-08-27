@@ -1,49 +1,40 @@
 # Community 448
 
-> 25 nodes · cohesion 0.08
+> 16 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **FeedgeneratorTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **.test_rfc2822_date_with_timezone()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **.test_rfc3339_date_with_timezone()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **.test_atom1_mime_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **.test_get_tag_uri()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **.test_get_tag_uri_with_port()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **.test_rfc2822_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **.test_rfc2822_date_without_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **.test_rfc3339_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **.test_rfc3339_date_without_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **.test_rss_mime_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **rfc2822_date() correctly formats datetime objects with tzinfo.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **.test_atom_add_item()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **.test_deterministic_attribute_order()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **.test_feed_with_feed_url_gets_rendered_with_atom_link()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **.test_feed_without_feed_url_gets_rendered_without_atom_link()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **get_tag_uri() correctly generates TagURIs.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **get_tag_uri() correctly generates TagURIs from URLs with port numbers.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **rfc2822_date() correctly formats datetime objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **rfc3339_date() correctly formats datetime objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **rfc3339_date() correctly formats datetime objects with tzinfo.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **rfc3339_date() correctly formats date objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **Atom MIME type has UTF8 Charset parameter set** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **Tests for the low-level syndication feed framework.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **RSS MIME type has UTF8 Charset parameter set** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
+- **ExcludeTest17600** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_only_orders_with_all_items_having_status_1()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **This should exclude Orders which have some items with status 1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_exclude_with_q_is_equal_to_plain_exclude()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_exclude_with_q_is_equal_to_plain_exclude_variation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_exclude_with_q_object_distinct()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_exclude_with_q_object_no_distinct()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_col_not_in_list_containing_null()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_exclude_plain()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_exclude_plain_distinct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **expectedFailure** (2 connections)
+- **Using exclude(condition) and exclude(Q(condition)) should yield the same…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **Some regressiontests for ticket #17600. Some of these likely duplicate other…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **This should only return orders having ALL items set to status 1, or those items…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **The following case is not handled properly because SQL's COL NOT IN (list…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Relationships
 
-- [Community 37](Community_37.md) (3 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 426](Community_426.md) (1 shared connections)
+- [Community 22](Community_22.md) (5 shared connections)
+- [Community 72](Community_72.md) (4 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 27 (93%)
+- INFERRED: 2 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

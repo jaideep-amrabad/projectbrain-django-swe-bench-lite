@@ -1,33 +1,35 @@
 # Community 765
 
-> 11 nodes · cohesion 0.33
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **UrlizeTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **setup** (9 connections)
-- **.test_urlize01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **.test_urlize02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **.test_urlize03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **.test_urlize04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **.test_urlize05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **.test_urlize06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **.test_urlize07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **.test_urlize08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
-- **.test_urlize09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
+- **AnonymousUserTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_eq()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_check_password()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_hash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_int()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_properties()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_set_password()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_str()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
 
 ## Relationships
 
-- [Community 47](Community_47.md) (4 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
+- [Community 302](Community_302.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_urlize.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (100%)
+- EXTRACTED: 15 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

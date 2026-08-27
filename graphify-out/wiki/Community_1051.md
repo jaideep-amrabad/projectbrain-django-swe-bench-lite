@@ -1,29 +1,25 @@
 # Community 1051
 
-> 4 nodes · cohesion 0.83
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **TestMultiDBChecks** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
-- **._patch_check_field_on()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
-- **.test_checks_called_on_the_default_database()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
-- **.test_checks_called_on_the_other_database()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
+- **PrePopulatedPostAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.get_prepopulated_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.get_readonly_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Relationships
 
-- [Community 10](Community_10.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 104](Community_104.md) (1 shared connections)
+- [Community 69](Community_69.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (90%)
-- INFERRED: 1 (10%)
+- EXTRACTED: 3 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

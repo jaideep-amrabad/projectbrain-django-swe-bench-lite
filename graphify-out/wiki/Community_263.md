@@ -1,51 +1,56 @@
 # Community 263
 
-> 42 nodes · cohesion 0.05
+> 37 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **DummyCacheTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_data_types()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_clear()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_decr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_decr_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_delete_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_expiration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_get_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_has_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_in()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_incr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_incr_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_non_existent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_set_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_simple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_touch()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_unicode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_delete_many_invalid_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_get_many_invalid_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_get_or_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_get_or_set_callable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_set_many_invalid_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **Cache deletion is transparently ignored on the dummy cache backend** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- *... and 17 more nodes in this community*
+- **.deconstruct()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.__init__()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **FilePathField** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **IPAddressField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **SlugField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **NullBooleanField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **URLField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.clone()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **._check_allowing_files_or_folders()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 41](Community_41.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
+- [Community 274](Community_274.md) (9 shared connections)
+- [Community 454](Community_454.md) (5 shared connections)
+- [Community 854](Community_854.md) (5 shared connections)
+- [Community 222](Community_222.md) (5 shared connections)
+- [Community 343](Community_343.md) (3 shared connections)
+- [Community 11](Community_11.md) (3 shared connections)
+- [Community 832](Community_832.md) (2 shared connections)
+- [Community 527](Community_527.md) (2 shared connections)
+- [Community 169](Community_169.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 75 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

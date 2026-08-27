@@ -1,26 +1,24 @@
 # Community 1003
 
-> 5 nodes · cohesion 0.50
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **OtherRouter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
-- **.db_for_read()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
-- **.db_for_write()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
-- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
-- **.allow_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
+- **LayerOptionAction** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/ogrinspect.py`
+- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/ogrinspect.py`
+- **Custom argparse action for the `ogrinspect` `layer_key` keyword option which…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/ogrinspect.py`
 
 ## Relationships
 
-- [Community 25](Community_25.md) (1 shared connections)
+- [Community 57](Community_57.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/ogrinspect.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,36 +4,31 @@
 
 ## Key Concepts
 
-- **AdminActionsPermissionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **Subscriber** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ExternalSubscriber** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **OldSubscriber** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.test_model_admin_no_delete_permission()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_model_admin_no_delete_permission_externalsubscriber()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **Permission is denied if the user doesn't have delete permission for the model…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **Permission is denied if the user doesn't have delete permission for a related…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- **RelatedFieldWidgetWrapper** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.get_related_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.get_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **This class is a wrapper to a given widget to add the add icon for the admin…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.__deepcopy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.id_for_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.is_hidden()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.media()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.value_from_datadict()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
 
 ## Relationships
 
-- [Community 15](Community_15.md) (4 shared connections)
-- [Community 66](Community_66.md) (3 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 91](Community_91.md) (3 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (85%)
-- INFERRED: 4 (15%)
+- EXTRACTED: 13 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

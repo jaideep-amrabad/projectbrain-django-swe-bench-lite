@@ -1,44 +1,42 @@
 # Community 575
 
-> 18 nodes · cohesion 0.14
+> 17 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **HTMLEqualTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **parse_html()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.test_contains_html()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_html_contain()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_html_parser()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_parse_html_in_script()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_parsing_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_self_closing_tags()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_unicode_handling()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **Take a string that contains *valid* HTML and turn it into a Python object…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.test_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_class_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_complex_examples()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_ignore_comments()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_normalize_refs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_simple_equal_html()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_unequal_html()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **DatabaseSchemaEditor** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **._alter_field_type_workaround()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **.alter_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **._drop_identity()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **._generate_temp_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **._is_identity_column()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **.normalize_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **.remove_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **._alter_column_type_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **.prepare_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **.quote_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **.delete_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **._field_should_be_indexed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **._unique_should_be_added()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **Get the properly shortened and uppercased identifier as returned by…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **Generate temporary names for workarounds that need temp columns.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **Oracle refuses to change from some type to other type. What we need to do…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (6 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 250](Community_250.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 222](Community_222.md) (3 shared connections)
+- [Community 161](Community_161.md) (1 shared connections)
+- [Community 473](Community_473.md) (1 shared connections)
+- [Community 103](Community_103.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 31 (94%)
+- INFERRED: 2 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

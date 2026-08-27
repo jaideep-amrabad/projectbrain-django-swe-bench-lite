@@ -1,49 +1,46 @@
 # Community 539
 
-> 19 nodes · cohesion 0.16
+> 19 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **admin_registration/tests.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **TestRegistrationDecorator** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **admin_registration/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
-- **Location** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
-- **Person** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
-- **Place** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
-- **Traveler** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
-- **CustomSite** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.test_basic_registration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.test_custom_site_not_an_admin_site()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.test_custom_site_registration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.test_empty_models_list_registration_fails()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.test_multiple_registration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **.test_wrapped_class_not_a_model_admin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
-- **Tests for various ways of registering models with the admin site.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
-- **NameAdmin** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **Tests the register decorator in admin.decorators For clarity: @register(Person)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **ArchiveIndexViewTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **_make_books()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_date_list_order()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_paginated_archive_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_paginated_archive_view_does_not_load_entire_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_allow_empty_archive_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_archive_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_archive_view_by_month()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_archive_view_context_object_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_archive_view_custom_sorting()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_archive_view_custom_sorting_dec()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_archive_view_invalid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_archive_view_template()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_archive_view_template_suffix()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_archive_view_without_date_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_datetime_archive_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_empty_archive_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_no_duplicate_query()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **date_list should be sorted descending in index** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
 
 ## Relationships
 
-- [Community 465](Community_465.md) (7 shared connections)
-- [Community 633](Community_633.md) (4 shared connections)
-- [Community 5](Community_5.md) (3 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 958](Community_958.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 296](Community_296.md) (6 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 428](Community_428.md) (1 shared connections)
+- [Community 637](Community_637.md) (1 shared connections)
+- [Community 560](Community_560.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (88%)
-- INFERRED: 6 (12%)
+- EXTRACTED: 28 (90%)
+- INFERRED: 3 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

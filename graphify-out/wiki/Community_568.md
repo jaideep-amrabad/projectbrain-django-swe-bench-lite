@@ -1,45 +1,60 @@
 # Community 568
 
-> 18 nodes · cohesion 0.11
+> 24 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **ValuesQuerysetTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_named_values_list_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_named_values_list_expression_with_default_alias()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_named_values_list_with_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_named_values_list_without_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_extra_multiple_select_params_values_order_by()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_extra_select_params_values_order_in_extra()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_extra_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_extra_values_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_extra_values_order_in_extra()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_extra_values_order_multiple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_extra_values_order_twice()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_field_error_values_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_flat_extra_values_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_flat_values_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_named_values_list_bad_field_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_named_values_list_flat()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **async_unsafe()** (30 connections) — `raw/code/hyd-evaluation/django-django/django/utils/asyncio.py`
+- **DatabaseWrapper** (25 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **CursorDebugWrapper** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.clean_savepoints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.get_new_connection()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.check_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.chunked_cursor()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.create_cursor()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.ensure_timezone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.get_connection_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.get_new_connection()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.init_connection_state()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.make_debug_cursor()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **BaseCursorDebugWrapper** (1 connections)
+- **Reset the counter used to generate unique savepoint ids in this thread.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.copy_expert()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.copy_to()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.is_usable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **._nodb_cursor()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.pg_version()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **._set_autocommit()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **.tzinfo_factory()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **Check constraints by setting them to immediate. Return them to deferred…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **Decorator to mark functions as async-unsafe. Someone trying to access the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/asyncio.py`
 
 ## Relationships
 
-- [Community 19](Community_19.md) (3 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 1010](Community_1010.md) (1 shared connections)
-- [Community 314](Community_314.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
+- [Community 222](Community_222.md) (11 shared connections)
+- [Community 134](Community_134.md) (10 shared connections)
+- [Community 572](Community_572.md) (3 shared connections)
+- [Community 363](Community_363.md) (3 shared connections)
+- [Community 24](Community_24.md) (2 shared connections)
+- [Community 473](Community_473.md) (2 shared connections)
+- [Community 553](Community_553.md) (1 shared connections)
+- [Community 578](Community_578.md) (1 shared connections)
+- [Community 574](Community_574.md) (1 shared connections)
+- [Community 309](Community_309.md) (1 shared connections)
+- [Community 183](Community_183.md) (1 shared connections)
+- [Community 724](Community_724.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/asyncio.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (80%)
-- INFERRED: 5 (20%)
+- EXTRACTED: 58 (88%)
+- INFERRED: 8 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

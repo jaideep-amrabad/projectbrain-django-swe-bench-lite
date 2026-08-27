@@ -1,41 +1,42 @@
 # Community 588
 
-> 17 nodes · cohesion 0.16
+> 17 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **QuerySetSupportsPythonIdioms** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.get_ordered_articles()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_can_get_items_using_index_and_slice_notation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_can_slice_again_after_slicing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_negative_indexing_not_supported_for_range()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_negative_indexing_not_supported_for_single_element()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_with_steps_can_be_used()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_with_tests_is_not_lazy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_without_step_is_lazy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **hint: inverting your ordering might do what you need** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_can_combine_queries_using_and_and_or_operators()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_can_get_number_of_items_in_queryset_using_standard_len()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_invalid_index()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_cannot_combine_queries_once_sliced()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_cannot_filter_queryset_once_sliced()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slicing_cannot_reorder_queryset_once_sliced()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **test_parallel.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **ExceptionThatFailsUnpickling** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **RemoteTestResultTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **.test_add_failing_subtests()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **ParallelTestRunnerTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **SampleFailingSubtest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **.test_pickle_errors_detection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **.test_subtest()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **.dummy_test()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **Exception** (1 connections)
+- **skipUnless** (1 connections)
+- **After pickling, this class fails unpickling with an error about incorrect…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **End-to-end tests of the parallel test runner. These tests are only meaningful…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **Passing subtests work.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **A dummy test for testing subTest failures.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **Failing subtests are added correctly using addSubTest().** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 815](Community_815.md) (1 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 324](Community_324.md) (4 shared connections)
+- [Community 224](Community_224.md) (1 shared connections)
+- [Community 81](Community_81.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 28 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

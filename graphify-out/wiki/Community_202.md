@@ -1,57 +1,50 @@
 # Community 202
 
-> 53 nodes · cohesion 0.05
+> 51 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **OrderingTests** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **ordering/tests.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **ordering/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- **.test_orders_nulls_first_on_filtered_subquery()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- **OrderedByFArticle** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- **Author** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- **ChildArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- **Reference** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- **.assertQuerysetEqualReversible()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_order_by_nulls_first()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_order_by_nulls_last()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **OrderedByAuthorArticle** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- **.test_order_by_f_expression_duplicates()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_default_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_default_ordering_by_f_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_default_ordering_override()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_extra_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_extra_ordering_quoting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_order_by_constant_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_order_by_f_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_order_by_fk_attname()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- **.test_order_by_nulls_first_and_last()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
-- *... and 28 more nodes in this community*
+- **BasicSyntaxTests** (44 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **setup** (41 connections)
+- **.test_basic_syntax01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax12()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax18()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax19()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax23()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax24()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax28()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax29()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax37()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax38()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax13()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax14()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax15()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax16()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax17()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax21()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax22()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [Community 13](Community_13.md) (8 shared connections)
-- [Community 131](Community_131.md) (4 shared connections)
-- [Community 179](Community_179.md) (4 shared connections)
-- [Community 115](Community_115.md) (4 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
+- [Community 407](Community_407.md) (10 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 42](Community_42.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
 
 ## Audit Trail
 
-- EXTRACTED: 92 (91%)
-- INFERRED: 9 (9%)
+- EXTRACTED: 100 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

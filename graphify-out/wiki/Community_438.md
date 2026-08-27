@@ -1,67 +1,57 @@
 # Community 438
 
-> 54 nodes · cohesion 0.05
+> 24 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **close_old_connections()** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/__init__.py`
-- **BaseHandler** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- **.get_response()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- **set_urlconf()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
-- **.get_response_async()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- **.load_middleware()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- **AsyncClientHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **ClientHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **WSGITest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
-- **.resolve_request()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.__call__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **conditional_content_removal()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **FileCloseTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- **.test_conditional_content_removal()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/test_conditional_content_removal.py`
-- **.__call__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **closing_iterator_wrapper()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **async_to_sync** (4 connections)
-- **.adapt_method_mode()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- **.check_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- **.make_view_atomic()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- **convert_exception_to_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/exception.py`
-- **.process_exception_by_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- **reset_urlconf()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- *... and 29 more nodes in this community*
+- **Collector** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.collect()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.can_fast_delete()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.delete()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.add()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.clear_restricted_objects_from_queryset()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.clear_restricted_objects_from_set()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.get_del_batches()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **._has_signal_listeners()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.related_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **get_candidate_relations_to_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **.add_dependency()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.add_field_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.instances_with_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.sort()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.test_fast_delete_instance_set_pk_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.add_restricted_objects()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **Add 'objs' to the collection of objects to be deleted. If the call is the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **Schedule a field update. 'objs' must be a homogeneous iterable collection of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **Determine if the objects in the given queryset-like or single object can be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **Return the objs in suitably sized batches for the used connection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **Add 'objs' to the collection of objects to be deleted as well as all parent…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **Get a QuerySet of the related model to objs via related fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (18 shared connections)
-- [Community 41](Community_41.md) (6 shared connections)
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 5](Community_5.md) (4 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 95](Community_95.md) (3 shared connections)
-- [Community 84](Community_84.md) (3 shared connections)
-- [Community 132](Community_132.md) (2 shared connections)
-- [Community 290](Community_290.md) (2 shared connections)
-- [Community 53](Community_53.md) (2 shared connections)
-- [Community 422](Community_422.md) (2 shared connections)
-- [Community 502](Community_502.md) (2 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 219](Community_219.md) (3 shared connections)
+- [Community 82](Community_82.md) (2 shared connections)
+- [Community 222](Community_222.md) (2 shared connections)
+- [Community 268](Community_268.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 424](Community_424.md) (1 shared connections)
+- [Community 891](Community_891.md) (1 shared connections)
+- [Community 178](Community_178.md) (1 shared connections)
+- [Community 439](Community_439.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
-- `raw/code/hyd-evaluation/django-django/django/core/handlers/exception.py`
-- `raw/code/hyd-evaluation/django-django/django/db/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- `raw/code/hyd-evaluation/django-django/django/urls/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_client/test_conditional_content_removal.py`
-- `raw/code/hyd-evaluation/django-django/tests/wsgi/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 112 (82%)
-- INFERRED: 24 (18%)
+- EXTRACTED: 50 (89%)
+- INFERRED: 6 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

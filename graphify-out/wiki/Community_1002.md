@@ -1,30 +1,28 @@
 # Community 1002
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **FormsI18nTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
-- **.test_non_ascii_choices()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
-- **.test_non_ascii_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
-- **.test_select_translated_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
-- **.test_lazy_labels()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
+- **.construct_managers()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **.render()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **Deep-clone the managers using deconstruction.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **Create a Model object from our current state into the given apps.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 33](Community_33.md) (2 shared connections)
-- [Community 423](Community_423.md) (1 shared connections)
-- [Community 138](Community_138.md) (1 shared connections)
+- [Community 25](Community_25.md) (2 shared connections)
+- [Community 380](Community_380.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (60%)
-- INFERRED: 4 (40%)
+- EXTRACTED: 7 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

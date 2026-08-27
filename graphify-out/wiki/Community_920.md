@@ -1,32 +1,28 @@
 # Community 920
 
-> 5 nodes · cohesion 0.40
+> 7 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **BooleanFieldListFilter** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **CustomTemplateBooleanFieldListFilter** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **.expected_parameters()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **I18nStringLiteralTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_underscore_syntax.py`
+- **setup** (4 connections)
+- **.test_i18n13()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_underscore_syntax.py`
+- **.test_i18n14()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_underscore_syntax.py`
+- **.test_i18n15()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_underscore_syntax.py`
+- **.test_i18n16()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_underscore_syntax.py`
+- **translation of constant strings** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_underscore_syntax.py`
 
 ## Relationships
 
-- [Community 66](Community_66.md) (2 shared connections)
-- [Community 34](Community_34.md) (2 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 384](Community_384.md) (1 shared connections)
-- [Community 123](Community_123.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_underscore_syntax.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

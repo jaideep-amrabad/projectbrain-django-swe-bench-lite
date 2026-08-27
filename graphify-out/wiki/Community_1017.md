@@ -1,27 +1,26 @@
 # Community 1017
 
-> 5 nodes · cohesion 0.60
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **Phone2numericTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_phone2numeric.py`
-- **.test_phone2numeric01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_phone2numeric.py`
-- **.test_phone2numeric02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_phone2numeric.py`
-- **setup** (3 connections)
-- **.test_phone2numeric03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_phone2numeric.py`
+- **FormsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_forms.py`
+- **ArticleForm** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_forms.py`
+- **.test_foreign_object_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_forms.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_forms.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 47](Community_47.md) (2 shared connections)
+- [Community 29](Community_29.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_phone2numeric.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

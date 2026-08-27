@@ -1,27 +1,26 @@
 # Community 970
 
-> 6 nodes · cohesion 0.67
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **PluralizeTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
-- **.check_values()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
-- **.test_no_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
-- **.test_singular_and_plural_suffix()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
-- **.test_suffix()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
-- **setup** (3 connections)
+- **RowLevelChangePermissionModelAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.has_change_permission()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.has_view_permission()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **Only allow changing objects with even id number** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **Only allow viewing objects if id is a multiple of 3.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (2 shared connections)
+- [Community 69](Community_69.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

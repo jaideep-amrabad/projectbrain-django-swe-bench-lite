@@ -1,25 +1,24 @@
 # Community 1133
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **echo.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/subpackage/echo.py`
-- **echo2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/subpackage/echo.py`
-- **simple_tag** (1 connections)
+- **.test_create_model_reordering_circular_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **CreateModel reordering behavior doesn't result in an infinite loop if there are…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 613](Community_613.md) (1 shared connections)
+- [Community 672](Community_672.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/subpackage/echo.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

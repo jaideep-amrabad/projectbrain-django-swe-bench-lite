@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **UnorderedObject** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Model without any defined `Meta.ordering`. Refs #16819.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.test_inheritance14()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **A block defined only in a child template shouldn't be displayed** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 66](Community_66.md) (1 shared connections)
-- [Community 91](Community_91.md) (1 shared connections)
+- [Community 774](Community_774.md) (1 shared connections)
+- [Community 804](Community_804.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 

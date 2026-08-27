@@ -1,44 +1,46 @@
 # Community 497
 
-> 22 nodes · cohesion 0.17
+> 19 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **TimesinceTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **setup** (18 connections)
-- **.test_timesince12()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince13()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **requires_tz_support** (2 connections)
-- **.test_timesince01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince14()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince15()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince16()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince17()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **.test_timesince18()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
-- **#20246 - \xa0 in output avoids line-breaks between value and unit** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- **InlineFormsetTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- **model_formsets/test_uuid.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- **#24958 - Variant of test_inlineformset_factory_nulls_default_pks for the case…** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- **AutoPKChildOfUUIDPKParent** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **AutoPKParent** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **ChildRelatedViaAK** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **ChildWithEditablePK** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **ParentWithUUIDAlternateKey** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **UUIDPKChild** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **UUIDPKChildOfAutoPKParent** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **UUIDPKParent** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **.test_inlineformset_factory_ignores_default_pks_on_submit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- **.test_inlineformset_factory_nulls_default_pks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- **.test_inlineformset_factory_nulls_default_pks_alternate_key_relation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- **.test_inlineformset_factory_nulls_default_pks_auto_parent_uuid_child()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- **.test_inlineformset_factory_nulls_default_pks_child_editable_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- **.test_inlineformset_factory_nulls_default_pks_uuid_parent_auto_child()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- **#24377 - If we're adding a new object, a parent's auto-generated pk from the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
+- **#24377 - Inlines with a model field default should ignore that default value to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (2 shared connections)
+- [Community 145](Community_145.md) (9 shared connections)
+- [Community 295](Community_295.md) (7 shared connections)
+- [Community 19](Community_19.md) (2 shared connections)
+- [Community 106](Community_106.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timesince.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 41 (84%)
+- INFERRED: 8 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

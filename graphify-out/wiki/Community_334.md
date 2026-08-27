@@ -1,62 +1,49 @@
 # Community 334
 
-> 34 nodes · cohesion 0.08
+> 33 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **MigrationQuestioner** (41 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **InteractiveMigrationQuestioner** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **._ask_default()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.timezone()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **.ask_auto_now_add_addition()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_not_null_addition()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_not_null_alteration()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **._boolean_input()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **._choice_input()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.test_timedelta_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
-- **.ask_rename()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_rename_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_initial()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.test_ask_initial_with_disabled_migrations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.ask_merge()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_auto_now_add_addition()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_merge()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_not_null_addition()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_not_null_alteration()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_rename()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **.ask_rename_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **Adding a NOT NULL field to a model.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **Changing a NULL field to NOT NULL.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- **Was this field really renamed?** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- *... and 9 more nodes in this community*
+- **TermColorTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **parse_color_setting()** (24 connections) — `raw/code/hyd-evaluation/django-django/django/utils/termcolors.py`
+- **colorize()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/termcolors.py`
+- **termcolors.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/termcolors.py`
+- **make_style()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/termcolors.py`
+- **test_termcolors.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_bad_color()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_bad_option()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_bad_palette()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_bad_role()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_color_case()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_colorize_empty_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_colorize_fg_bg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_colorize_opts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_colorize_reset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_empty_definition()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_empty_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_empty_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_fg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_fg_bg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_fg_bg_opts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_fg_opts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_multiple_roles()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_opts_case()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_override_nocolor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Community 32](Community_32.md) (16 shared connections)
-- [Community 786](Community_786.md) (6 shared connections)
-- [Community 5](Community_5.md) (6 shared connections)
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 139](Community_139.md) (2 shared connections)
-- [Community 50](Community_50.md) (2 shared connections)
-- [Community 85](Community_85.md) (1 shared connections)
-- [Community 37](Community_37.md) (1 shared connections)
-- [Community 128](Community_128.md) (1 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
-- [Community 57](Community_57.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 96](Community_96.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/termcolors.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
 
 ## Audit Trail
 
-- EXTRACTED: 82 (90%)
-- INFERRED: 9 (10%)
+- EXTRACTED: 62 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

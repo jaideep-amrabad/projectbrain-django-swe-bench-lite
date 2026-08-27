@@ -1,26 +1,25 @@
 # Community 1074
 
-> 4 nodes · cohesion 0.67
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **CapfirstTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_capfirst.py`
-- **.test_capfirst01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_capfirst.py`
-- **.test_capfirst02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_capfirst.py`
-- **setup** (2 connections)
+- **.test_inheritance30()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance33()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Base template, putting block in a conditional {% if %} tag** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 47](Community_47.md) (2 shared connections)
+- [Community 774](Community_774.md) (2 shared connections)
+- [Community 804](Community_804.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_capfirst.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

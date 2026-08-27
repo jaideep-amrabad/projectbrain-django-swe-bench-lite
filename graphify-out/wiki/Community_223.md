@@ -1,68 +1,36 @@
 # Community 223
 
-> 150 nodes · cohesion 0.02
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **model_fields/models.py** (91 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **model_fields/tests.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **model_fields/test_integerfield.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- **IntegerFieldTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- **test_autofield.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
-- **DecimalFieldTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **BasicFieldTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **model_fields/test_datetimefield.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
-- **model_fields/test_decimalfield.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- **test_manytomanyfield.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_manytomanyfield.py`
-- **GetFieldDisplayTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **GetChoicesOrderingTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **Foo** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **test_binaryfield.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
-- **BinaryFieldTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
-- **model_fields/test_genericipaddressfield.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
-- **ChoicesTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **GetChoicesLimitChoicesToTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **model_fields/test_floatfield.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_floatfield.py`
-- **GenericIPAddressFieldTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
-- **.assertChoicesEqual()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
-- **DataModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **Whiz** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **TestFloatField** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_floatfield.py`
-- **BigIntegerFieldTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- *... and 125 more nodes in this community*
+- **Polygon** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.centroid()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.__len__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.point_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.shell()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Return the number of interior rings in this Polygon.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Get the ring at the specified index.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Return the shell of this Polygon.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Return a tuple of LinearRing coordinate tuples.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Return the number of Points in this Polygon.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Return the centroid (a Point) of this Polygon.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (22 shared connections)
-- [Community 5](Community_5.md) (20 shared connections)
-- [Community 14](Community_14.md) (16 shared connections)
-- [Community 1](Community_1.md) (14 shared connections)
-- [Community 10](Community_10.md) (11 shared connections)
-- [Community 155](Community_155.md) (8 shared connections)
-- [Community 211](Community_211.md) (7 shared connections)
-- [Community 154](Community_154.md) (6 shared connections)
-- [Community 823](Community_823.md) (4 shared connections)
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 28](Community_28.md) (3 shared connections)
-- [Community 566](Community_566.md) (3 shared connections)
+- [Community 32](Community_32.md) (3 shared connections)
+- [Community 40](Community_40.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_floatfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_genericipaddressfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_manytomanyfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
 
 ## Audit Trail
 
-- EXTRACTED: 348 (92%)
-- INFERRED: 30 (8%)
+- EXTRACTED: 17 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

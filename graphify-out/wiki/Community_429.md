@@ -1,64 +1,51 @@
 # Community 429
 
-> 29 nodes · cohesion 0.10
+> 25 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **MultipleChoiceField** (22 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **SplitDateTimeField** (14 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **SongForm** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
-- **MultipleChoiceFieldTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
-- **.test_multiple_choice_list_data()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **SplitDateTimeFieldTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_splitdatetimefield.py`
-- **.test_multiple_hidden()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **MultiValueDictLike** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_hidden_data()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
-- **.test_checkbox_auto_id()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_empty_permitted()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_forms_with_multiple_choice()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_label_split_datetime_not_displayed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.test_disabled_has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
-- **.test_multiplechoicefield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
-- **.test_multiplechoicefield_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
-- **.test_multiplechoicefield_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
-- **.test_multiplechoicefield_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
-- **.test_splitdatetimefield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_splitdatetimefield.py`
-- **.test_splitdatetimefield_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_splitdatetimefield.py`
-- **.test_splitdatetimefield_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_splitdatetimefield.py`
-- **.test_boundfield_widget_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_callable_initial_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- *... and 4 more nodes in this community*
+- **BooleanFieldTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **NullBooleanModel** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **ValidationTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **BooleanModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **FksToBooleans** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **._test_get_prep_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_null_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **._test_to_python()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_nullbooleanfield_blank()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_booleanfield_choices_blank()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_booleanfield_get_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_booleanfield_to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_nullbooleanfield_get_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_nullbooleanfield_old_get_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_nullbooleanfield_old_to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_nullbooleanfield_to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_select_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **Model with FKs to models with {Null,}BooleanField's, #15040** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.test_nullbooleanfield_formfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_return_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **A BooleanField defaults to None, which isn't a valid value (#15124).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **NullBooleanField shouldn't throw a validation error when given a value of None.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **BooleanField with choices and defaults doesn't generate a formfield with the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **Boolean fields retrieved via select_related() should return booleans.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- **.test_boolean_field_doesnt_accept_empty_input()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
 
 ## Relationships
 
-- [Community 39](Community_39.md) (10 shared connections)
-- [Community 33](Community_33.md) (4 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 69](Community_69.md) (3 shared connections)
-- [Community 11](Community_11.md) (3 shared connections)
-- [Community 423](Community_423.md) (2 shared connections)
-- [Community 259](Community_259.md) (2 shared connections)
-- [Community 233](Community_233.md) (2 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 114](Community_114.md) (2 shared connections)
-- [Community 469](Community_469.md) (1 shared connections)
-- [Community 329](Community_329.md) (1 shared connections)
+- [Community 45](Community_45.md) (5 shared connections)
+- [Community 203](Community_203.md) (3 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_splitdatetimefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (55%)
-- INFERRED: 36 (45%)
+- EXTRACTED: 39 (91%)
+- INFERRED: 4 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

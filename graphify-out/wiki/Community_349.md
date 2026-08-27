@@ -1,64 +1,62 @@
 # Community 349
 
-> 34 nodes · cohesion 0.07
+> 26 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **OrderedSet** (26 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **DatabaseIntrospection** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **django/db/backends/mysql/introspection.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **gis/db/backends/mysql/introspection.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/introspection.py`
-- **.get_constraints()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **.get_table_description()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **._parse_constraint_columns()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **OrderedSetTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.get_key_columns()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **.get_relations()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **.get_parent_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.get_sequences()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **.get_storage_engine()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **.get_table_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **.discard()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.remove()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.test_parse_constraint_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_introspection.py`
-- **.test_bool()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.test_len()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
-- **.get_field_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **Return a dictionary of {field_name: (field_name_other_table, other_table)}…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **Return a list of (column_name, referenced_table_name, referenced_column_name)…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **Retrieve the storage engine for a given table. Return the default storage…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **Retrieve any constraints or keys (unique, pk, fk, check, index) across one or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- **Return a list of table and view names in the current database.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- *... and 9 more nodes in this community*
+- **BaseHandler** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **.get_response()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **set_urlconf()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- **.get_response_async()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **.load_middleware()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **.resolve_request()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **async_to_sync** (5 connections)
+- **.adapt_method_mode()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **.check_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **.make_view_atomic()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **convert_exception_to_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/exception.py`
+- **.test_sync_to_async_uses_base_thread_and_connection()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_middleware_mixin.py`
+- **.process_exception_by_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **reset_urlconf()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **Resolve and call the view, then apply view, exception, and template_response…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **Adapt a method to be in the correct "mode": - If is_async is False: -…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **Return an HttpResponse object for the given HttpRequest.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **Asynchronous version of get_response. Funneling everything, including WSGI,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **Populate middleware lists from settings.MIDDLEWARE. Must be called after the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **Retrieve/set the urlconf for the request. Return the view resolved, with its…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **Raise an error if the view returned None or an uncalled coroutine.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **Pass the exception to the exception middleware. If no middleware return a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **Reset the URLconf after each request is finished.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- **Wrap the given get_response callable in exception-to-response conversion. All…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/exception.py`
+- **Set the URLconf for the current thread (overriding the default one in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 3](Community_3.md) (4 shared connections)
-- [Community 156](Community_156.md) (3 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 81](Community_81.md) (2 shared connections)
-- [Community 520](Community_520.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 54](Community_54.md) (2 shared connections)
-- [Community 114](Community_114.md) (2 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 408](Community_408.md) (1 shared connections)
-- [Community 180](Community_180.md) (1 shared connections)
+- [Community 24](Community_24.md) (8 shared connections)
+- [Community 595](Community_595.md) (3 shared connections)
+- [Community 103](Community_103.md) (2 shared connections)
+- [Community 10](Community_10.md) (2 shared connections)
+- [Community 387](Community_387.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 572](Community_572.md) (1 shared connections)
+- [Community 930](Community_930.md) (1 shared connections)
+- [Community 380](Community_380.md) (1 shared connections)
+- [Community 165](Community_165.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/introspection.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_introspection.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- `raw/code/hyd-evaluation/django-django/django/core/handlers/base.py`
+- `raw/code/hyd-evaluation/django-django/django/core/handlers/exception.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_middleware_mixin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 68 (97%)
-- INFERRED: 2 (3%)
+- EXTRACTED: 53 (85%)
+- INFERRED: 9 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,46 +1,46 @@
 # Community 514
 
-> 21 nodes · cohesion 0.10
+> 20 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **CharFieldTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_lazy_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_non_iterable_choices_two_letters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_bad_db_index_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_bad_max_length_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_bad_validators()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_choices_containing_lazy()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_choices_containing_non_pairs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_choices_in_max_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_choices_named_group()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_choices_named_group_bad_structure()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_choices_named_group_lazy()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_choices_named_group_non_pairs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_iterable_of_iterable_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_missing_max_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_negative_max_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_non_iterable_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_str_max_length_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_str_max_length_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_valid_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **Two letters isn't a valid choice pair.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **NestedForeignKeysTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **nested_foreign_keys/tests.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **nested_foreign_keys/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
+- **DeeplyNestedForeignKeysTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **Event** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
+- **Screening** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
+- **Movie** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
+- **Package** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
+- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
+- **ScreeningNullFK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
+- **PackageNullFK** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **.test_explicit_ForeignKey()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **.test_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **.test_explicit_ForeignKey()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **.test_explicit_ForeignKey_NullFK()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **.test_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **.test_inheritance_null_FK()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
+- **.test_null_exclude()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
 
 ## Relationships
 
-- [Community 10](Community_10.md) (2 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 97](Community_97.md) (1 shared connections)
-- [Community 142](Community_142.md) (1 shared connections)
+- [Community 19](Community_19.md) (3 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 34 (74%)
+- INFERRED: 12 (26%)
 - AMBIGUOUS: 0 (0%)
 
 ---

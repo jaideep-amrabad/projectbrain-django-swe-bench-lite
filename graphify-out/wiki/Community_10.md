@@ -1,78 +1,78 @@
 # Community 10
 
-> 153 nodes · cohesion 0.02
+> 234 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **isolate_apps** (180 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **test_ordinary_fields.py** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **test_foreignkey.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_foreignkey.py`
-- **now()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **ForeignKeyTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_foreignkey.py`
-- **ConstraintNameTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
-- **UserAttributeSimilarityValidator** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **DuplicateDBTableTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
-- **IndexNameTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
-- **str/tests.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/str/tests.py`
-- **test_multi_db.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
-- **invalid_models_tests/test_deprecated_fields.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_deprecated_fields.py`
-- **DecimalFieldTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **FileFieldTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **JSONFieldTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **IsolatedAppsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **absolute_url_overrides/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
-- **AbsoluteUrlOverrideTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
-- **test_custom_fields.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_custom_fields.py`
-- **UserAttributeSimilarityValidatorTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **DeprecatedFieldsTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_deprecated_fields.py`
-- **AutoFieldTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **DateFieldTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **Bar** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.Migration()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/recorder.py`
-- *... and 128 more nodes in this community*
+- **django/urls/__init__.py** (219 connections) — `raw/code/hyd-evaluation/django-django/django/urls/__init__.py`
+- **urlpatterns_reverse/tests.py** (61 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **include()** (46 connections) — `raw/code/hyd-evaluation/django-django/django/urls/conf.py`
+- **urlpatterns_reverse/views.py** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/views.py`
+- **URLResolver** (32 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **get_resolver()** (30 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **RegexPattern** (26 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **urls/i18n.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/conf/urls/i18n.py`
+- **get_callable()** (21 connections) — `raw/code/hyd-evaluation/django-django/django/urls/utils.py`
+- **empty_view()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/views.py`
+- **i18n_patterns()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/conf/urls/i18n.py`
+- **urlpatterns_reverse/middleware.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/middleware.py`
+- **view_tests/urls.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/urls.py`
+- **LocalePrefixPattern** (13 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **conf.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/urls/conf.py`
+- **URLPattern** (12 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **LocaleRegexDescriptorTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/test_localeregexdescriptor.py`
+- **IncludeTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **ResolverTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **urlpatterns/views.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/views.py`
+- **ViewLoadingTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **redirect()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
+- **._populate()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **ReverseShortcutTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **urlconf_inner.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/urlconf_inner.py`
+- *... and 209 more nodes in this community*
 
 ## Relationships
 
-- [Community 5](Community_5.md) (33 shared connections)
-- [Community 598](Community_598.md) (20 shared connections)
-- [Community 0](Community_0.md) (18 shared connections)
-- [Community 51](Community_51.md) (12 shared connections)
-- [Community 223](Community_223.md) (11 shared connections)
-- [Community 3](Community_3.md) (10 shared connections)
-- [Community 14](Community_14.md) (10 shared connections)
-- [Community 8](Community_8.md) (10 shared connections)
-- [Community 216](Community_216.md) (9 shared connections)
-- [Community 16](Community_16.md) (7 shared connections)
-- [Community 154](Community_154.md) (7 shared connections)
-- [Community 152](Community_152.md) (7 shared connections)
+- [Community 1](Community_1.md) (113 shared connections)
+- [Community 6](Community_6.md) (28 shared connections)
+- [Community 4](Community_4.md) (28 shared connections)
+- [Community 9](Community_9.md) (23 shared connections)
+- [Community 3](Community_3.md) (15 shared connections)
+- [Community 12](Community_12.md) (14 shared connections)
+- [Community 2](Community_2.md) (13 shared connections)
+- [Community 24](Community_24.md) (12 shared connections)
+- [Community 92](Community_92.md) (12 shared connections)
+- [Community 8](Community_8.md) (11 shared connections)
+- [Community 159](Community_159.md) (11 shared connections)
+- [Community 171](Community_171.md) (8 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/recorder.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_backend_specific.py`
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_custom_fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_deprecated_fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_foreignkey.py`
+- `raw/code/hyd-evaluation/django-django/django/conf/urls/i18n.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/urls.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/locale.py`
+- `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/conf.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/beginning_with_slash.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/include_contains_tuple.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/include_with_dollar.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/name_with_colon.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/no_warnings.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/no_warnings_i18n.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/non_unique_namespaces.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/path_compatibility/beginning_with_caret.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/path_compatibility/contains_re_named_group.py`
 
 ## Audit Trail
 
-- EXTRACTED: 472 (97%)
-- INFERRED: 17 (3%)
+- EXTRACTED: 796 (97%)
+- INFERRED: 26 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

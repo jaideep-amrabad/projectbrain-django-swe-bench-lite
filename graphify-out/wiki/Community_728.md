@@ -4,33 +4,42 @@
 
 ## Key Concepts
 
-- **Reference** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.references_column()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.references_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.rename_column_references()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.rename_table_references()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **Return whether or not this instance references the specified table.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **Return whether or not this instance references the specified column.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **Rename all references to the old_name to the new_table.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **Rename all references to the old_column to the new_column.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **Base class that defines the reference interface.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **require_jinja2()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **RenderTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
+- **.test_template_engine()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_using()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_using()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **.test_render_with_using()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
+- **Decorator to enable a Jinja2 template engine in addition to the regular Django…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **A template view may provide a template engine.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_render()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
+- **.test_render_with_content_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
+- **.test_render_with_multiple_templates()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
+- **.test_render_with_status()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
 
 ## Relationships
 
-- [Community 348](Community_348.md) (1 shared connections)
-- [Community 110](Community_110.md) (1 shared connections)
-- [Community 89](Community_89.md) (1 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 517](Community_517.md) (2 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 481](Community_481.md) (1 shared connections)
+- [Community 302](Community_302.md) (1 shared connections)
+- [Community 505](Community_505.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 24 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

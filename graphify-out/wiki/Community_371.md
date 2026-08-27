@@ -1,48 +1,52 @@
 # Community 371
 
-> 35 nodes · cohesion 0.07
+> 30 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **Archive** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **BaseArchive** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **TarArchive** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **ZipArchive** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.has_leading_dir()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **ArchiveException** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **._copy_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.split_leading_dir()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.extract()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **UnrecognizedArchiveFormat** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.extract()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **._archive_cls()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **extract()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.__enter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.extract()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.list()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.extract()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **.list()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **Exception** (1 connections)
-- **If the file in the archive has some permissions (this assumes a file won't be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- **Return True if all the paths have the same leading path name (i.e., everything…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
-- *... and 10 more nodes in this community*
+- **NaturalKeyFixtureTests** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **Circle1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Circle2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **ExternalDependency** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **RefToNKChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.test_dependency_sorting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_nk_deserialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_nk_deserialize_xml()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_nk_on_serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_normal_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.test_dependency_self_referential()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_dependency_sorting_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_dependency_sorting_3()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_dependency_sorting_4()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_dependency_sorting_5()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_dependency_sorting_6()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_dependency_sorting_dangling()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_dependency_sorting_long()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_dependency_sorting_normal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_dependency_sorting_tight_circular()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_dependency_sorting_tight_circular_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 3](Community_3.md) (7 shared connections)
+- [Community 345](Community_345.md) (10 shared connections)
+- [Community 579](Community_579.md) (3 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 979](Community_979.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/archive.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 35 (80%)
+- INFERRED: 9 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

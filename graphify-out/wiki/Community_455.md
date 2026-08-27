@@ -1,51 +1,55 @@
 # Community 455
 
-> 24 nodes · cohesion 0.10
+> 34 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **CustomColumnsTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
-- **custom_columns/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
-- **custom_columns/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
-- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
-- **Author** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
-- **Custom column/table names If your database column name is different than your…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
-- **.test_attribute_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
-- **.test_author_filtering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
-- **.test_author_get()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
-- **.test_author_get_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
-- **.test_author_querying()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
-- **.test_field_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
-- **.test_filter_first_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
-- **.test_filter_on_nonexistent_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
-- **.test_get_all_articles_for_an_author()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
-- **.test_get_all_authors_for_an_article()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
-- **.test_get_author_m2m_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
-- **.test_get_first_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
-- **.test_m2m_table()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
-- **.test_query_all_available_authors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **Columns** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **._create_index_sql()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._create_unique_sql()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **IndexName** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **TableColumns** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **ColumnsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **IndexNameTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **._index_include_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **._index_columns()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._unique_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._deferrable_constraint_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._index_condition_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **._get_index_tablespace_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
+- **Return the SQL statement to create the index for one or several fields. `sql`…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **Base class for references to multiple columns of a table.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **Hold a reference to one or many columns.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **Hold a reference to an index name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 161](Community_161.md) (17 shared connections)
+- [Community 244](Community_244.md) (11 shared connections)
+- [Community 222](Community_222.md) (5 shared connections)
+- [Community 723](Community_723.md) (4 shared connections)
+- [Community 596](Community_596.md) (4 shared connections)
+- [Community 574](Community_574.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/test_ddl_references.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (94%)
-- INFERRED: 2 (6%)
+- EXTRACTED: 83 (95%)
+- INFERRED: 4 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

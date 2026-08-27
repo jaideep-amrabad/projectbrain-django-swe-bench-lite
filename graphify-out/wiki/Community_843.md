@@ -1,35 +1,31 @@
 # Community 843
 
-> 8 nodes · cohesion 0.29
+> 9 nodes · cohesion 0.39
 
 ## Key Concepts
 
-- **Oracle_datetime** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/utils.py`
-- **oracle/utils.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/utils.py`
-- **OracleParam** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **BulkInsertMapper** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/utils.py`
-- **.from_datetime()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/utils.py`
-- **Wrapper object for formatting parameters for Oracle. If the string…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **A datetime object, with an additional class attribute to tell cx_Oracle to save…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/utils.py`
+- **WithTagTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_with.py`
+- **setup** (7 connections)
+- **.test_legacywith01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_with.py`
+- **.test_legacywith02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_with.py`
+- **.test_with01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_with.py`
+- **.test_with02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_with.py`
+- **.test_with03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_with.py`
+- **.test_with_error01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_with.py`
+- **.test_with_error02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_with.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (7 shared connections)
-- [Community 157](Community_157.md) (5 shared connections)
-- [Community 252](Community_252.md) (1 shared connections)
-- [Community 536](Community_536.md) (1 shared connections)
-- [Community 115](Community_115.md) (1 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_with.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (87%)
-- INFERRED: 3 (13%)
+- EXTRACTED: 16 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

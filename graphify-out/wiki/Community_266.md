@@ -1,52 +1,51 @@
 # Community 266
 
-> 41 nodes · cohesion 0.07
+> 23 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **ModelAdminChecks** (26 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **.check()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **_issubclass()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_list_filter_item()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_form()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_date_hierarchy()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_inlines()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_inlines_item()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_list_display()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_list_display_links()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_list_editable()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_list_filter()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_list_max_show_all()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_list_per_page()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_list_select_related()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_save_as()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_save_on_top()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_search_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **must_inherit_from()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_action_permission_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_actions_uniqueness()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_list_editable_item()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_list_display_item()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **._check_list_display_links_item()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- **Check that every action has a unique __name__.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- *... and 16 more nodes in this community*
+- **FileFieldTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **Document** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.test_move_temporary_file()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **.test_abstract_filefield_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **.test_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **.test_clearable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **.test_delete_when_file_unset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **.test_media_root_pathlib()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **.test_open_returns_self()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **.test_pickle()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **.test_unchanged()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **.test_unique_when_same_filename()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **.test_defer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **.test_refresh_from_db()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **skipIf** (1 connections)
+- **FileField.model returns the concrete model for fields defined in an abstract…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **FileField.save_form_data() will clear its instance attribute value if passed…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **FileField.save_form_data() considers None to mean "no change" rather than…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **FileField.save_form_data(), if passed a truthy value, updates its instance…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **Calling delete on an unset FileField should not call the file deletion process,…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **A FileField with unique=True shouldn't allow two instances with the same name…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **The temporary uploaded file is moved rather than copied to the destination.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **FieldField.open() returns self so it can be used as a context manager.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
 
 ## Relationships
 
-- [Community 209](Community_209.md) (17 shared connections)
-- [Community 1](Community_1.md) (7 shared connections)
-- [Community 555](Community_555.md) (3 shared connections)
-- [Community 958](Community_958.md) (2 shared connections)
-- [Community 64](Community_64.md) (1 shared connections)
+- [Community 115](Community_115.md) (5 shared connections)
+- [Community 12](Community_12.md) (3 shared connections)
+- [Community 203](Community_203.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 75](Community_75.md) (1 shared connections)
+- [Community 200](Community_200.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 88 (97%)
-- INFERRED: 3 (3%)
+- EXTRACTED: 37 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

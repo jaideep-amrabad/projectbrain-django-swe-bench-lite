@@ -1,41 +1,38 @@
 # Community 631
 
-> 13 nodes · cohesion 0.24
+> 15 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **TypedChoiceField** (13 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **TypedChoiceFieldTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
-- **._coerce()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.test_typedchoicefield_special_coerce()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
-- **.test_typedchoicefield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
-- **.test_typedchoicefield_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
-- **.test_typedchoicefield_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
-- **.test_typedchoicefield_4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
-- **.test_typedchoicefield_5()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
-- **.test_typedchoicefield_6()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
-- **.test_typedchoicefield_has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
-- **Validate that the value can be coerced to the right type (if not empty).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **A coerce function which results in a value not present in choices should raise…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- **ServerSideCursorsPostgres** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
+- **.assertUsesCursor()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
+- **.test_server_side_cursors_setting()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
+- **.asserNotUsesCursor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
+- **.inspect_cursors()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
+- **.override_db_setting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
+- **.test_closed_server_side_cursor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
+- **.test_server_side_cursor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
+- **.test_server_side_cursor_many_cursors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
+- **.test_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
+- **.test_values_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
+- **.test_values_list_fields_not_equal_to_names()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
+- **.test_values_list_flat()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
+- **skipUnless** (1 connections)
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
-- [Community 423](Community_423.md) (1 shared connections)
-- [Community 73](Community_73.md) (1 shared connections)
-- [Community 69](Community_69.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_typedchoicefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (69%)
-- INFERRED: 8 (31%)
+- EXTRACTED: 28 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

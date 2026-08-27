@@ -1,62 +1,53 @@
 # Community 267
 
-> 27 nodes · cohesion 0.11
+> 38 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **geoapp/feeds.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **kml.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
-- **KMLSitemap** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
-- **TestGeoRSS1** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **geoapp/urls.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/urls.py`
-- **geoapp/sitemaps.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/sitemaps.py`
-- **TestGeoRSS2** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **gis/sitemaps/__init__.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/__init__.py`
-- **KMZSitemap** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
-- **._build_kml_sources()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
-- **TestGeoAtom2** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **TestW3CGeo3** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
-- **.location()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
-- **TestGeoAtom1** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **TestW3CGeo1** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **TestW3CGeo2** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **.item_geometry()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
-- **Go through the given sources and return a 3-tuple of the application label,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
-- **A minimal hook to produce KML sitemaps.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
-- **.geometry()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **.item_geometry()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **.item_link()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- *... and 2 more nodes in this community*
+- **DatabaseCreation** (41 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_settings_get()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._get_test_db_params()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._create_test_db()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._destroy_test_db()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_user_create()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._create_test_user()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._destroy_test_user()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._execute_allow_fail_statements()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._execute_statements()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._execute_test_db_destruction()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._handle_objects_preventing_db_destruction()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_passwd()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._execute_test_db_creation()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_create()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_tblspace()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_tblspace_datafile()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_tblspace_tmp_datafile()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_user()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._switch_to_test_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_oracle_managed_files()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_tblspace_extsize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_tblspace_maxsize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_tblspace_size()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Community 79](Community_79.md) (6 shared connections)
-- [Community 56](Community_56.md) (5 shared connections)
-- [Community 22](Community_22.md) (4 shared connections)
-- [Community 86](Community_86.md) (2 shared connections)
-- [Community 15](Community_15.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 68](Community_68.md) (2 shared connections)
-- [Community 64](Community_64.md) (1 shared connections)
-- [Community 392](Community_392.md) (1 shared connections)
-- [Community 61](Community_61.md) (1 shared connections)
+- [Community 222](Community_222.md) (4 shared connections)
+- [Community 732](Community_732.md) (3 shared connections)
+- [Community 473](Community_473.md) (2 shared connections)
+- [Community 183](Community_183.md) (1 shared connections)
+- [Community 103](Community_103.md) (1 shared connections)
+- [Community 50](Community_50.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/sitemaps.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/urls.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
 
 ## Audit Trail
 
-- EXTRACTED: 66 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 103 (97%)
+- INFERRED: 3 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

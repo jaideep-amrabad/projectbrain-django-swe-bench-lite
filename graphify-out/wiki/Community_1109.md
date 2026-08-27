@@ -1,26 +1,23 @@
 # Community 1109
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **DecadeFilterBookAdminWithNoneReturningLookups** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_simplelistfilter_with_none_returning_lookups()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **A SimpleListFilter lookups method can return None but disables the filter…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **.test_default_used_when_none_is_set()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **If None is cached, get() returns it instead of the default.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Relationships
 
-- [Community 384](Community_384.md) (1 shared connections)
-- [Community 958](Community_958.md) (1 shared connections)
-- [Community 428](Community_428.md) (1 shared connections)
+- [Community 271](Community_271.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

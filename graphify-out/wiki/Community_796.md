@@ -1,34 +1,35 @@
 # Community 796
 
-> 10 nodes · cohesion 0.27
+> 10 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **FormfieldCallbackTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **Callback** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_inlineformset_custom_callback()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_modelformset_custom_callback()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.assertCallbackCalled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_inlineformset_factory_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_modelformset_factory_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **Regression for #13095 and #17683: Using base forms with widgets defined in Meta…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **CommonPasswordValidator** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **CommonPasswordValidatorTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **.test_help_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.test_validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.test_validate_custom_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.test_validate_django_supplied_file()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.get_help_text()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **Validate whether the password is a common password. The password is rejected if…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
 
 ## Relationships
 
-- [Community 174](Community_174.md) (4 shared connections)
-- [Community 126](Community_126.md) (4 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
+- [Community 160](Community_160.md) (3 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (90%)
-- INFERRED: 2 (10%)
+- EXTRACTED: 17 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

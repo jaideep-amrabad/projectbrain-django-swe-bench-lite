@@ -1,64 +1,50 @@
 # Community 215
 
-> 46 nodes · cohesion 0.06
+> 49 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **VariableDoesNotExist** (17 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **make_template_fragment_key()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/utils.py`
-- **dictsort()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **templatetags/cache.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/cache.py`
-- **template_tests/test_base.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
-- **dictsortreversed()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **TestMakeTemplateFragmentKey** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **FunctionTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
-- **FunctionTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsortreversed.py`
-- **_property_resolver()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **CacheNode** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/cache.py`
-- **do_cache()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/cache.py`
-- **test_dictsort.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
-- **test_dictsortreversed.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsortreversed.py`
-- **cache/utils.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/utils.py`
-- **.render()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/cache.py`
-- **.test_dictsort_complex_sorting_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
-- **.test_invalid_values()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
-- **.test_invalid_values()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsortreversed.py`
-- **VariableDoesNotExistTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
-- **.test_long_vary_on()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_proper_escaping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_with_ints_vary_on()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_with_many_vary_on()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_with_one_vary_on()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- *... and 21 more nodes in this community*
+- **HTTPSitemapTests** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_localized_priority()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_alternate_i18n_sitemap_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_alternate_i18n_sitemap_limited()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_alternate_i18n_sitemap_xdefault()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_simple_custom_sitemap()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_simple_i18n_sitemap_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_simple_sitemap_custom_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_cached_sitemap_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_paged_sitemap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_requestsite_sitemap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_simple_sitemap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_simple_sitemap_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_simple_sitemap_section()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_sitemap_last_modified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_sitemap_last_modified_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_sitemap_last_modified_missing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_sitemap_last_modified_mixed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_sitemap_last_modified_tz()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_sitemap_not_callable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_sitemaps_lastmod_ascending()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_sitemaps_lastmod_descending()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_sitemaps_lastmod_mixed_ascending_last_modified_missing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **.test_sitemaps_lastmod_mixed_descending_last_modified_missing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **The Last-Modified header is omitted when lastmod isn't found in all sitemaps.…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [Community 5](Community_5.md) (17 shared connections)
-- [Community 47](Community_47.md) (8 shared connections)
-- [Community 26](Community_26.md) (5 shared connections)
-- [Community 187](Community_187.md) (4 shared connections)
-- [Community 11](Community_11.md) (4 shared connections)
-- [Community 41](Community_41.md) (3 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 444](Community_444.md) (1 shared connections)
-- [Community 107](Community_107.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 8](Community_8.md) (7 shared connections)
+- [Community 12](Community_12.md) (7 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/cache/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/django/templatetags/cache.py`
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsortreversed.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
 
 ## Audit Trail
 
-- EXTRACTED: 107 (96%)
-- INFERRED: 4 (4%)
+- EXTRACTED: 65 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

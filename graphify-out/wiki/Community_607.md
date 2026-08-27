@@ -1,45 +1,42 @@
 # Community 607
 
-> 16 nodes · cohesion 0.19
+> 16 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **date()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **AddTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
-- **setup** (7 connections)
-- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_add07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
-- **.test_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_escape_characters()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_add01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
-- **.test_add02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
-- **.test_add03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
-- **.test_add04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
-- **.test_add05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
-- **.test_add06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
-- **.test_no_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **Format a date according to the given format.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **Tests for #11687 and #16676** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
+- **ManageDefaultSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **A series of tests for manage.py when using a settings.py file that contains the…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **default: manage.py builtin commands succeed if settings are provided as argument** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **default: manage.py can execute user commands when settings are provided as…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **default: manage.py builtin commands succeed when default settings are…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **default: manage.py builtin commands succeed if settings file (from argument)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **default: manage.py builtin commands fail if settings file (from environment)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **default: manage.py can execute user commands when default settings are…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (5 shared connections)
-- [Community 115](Community_115.md) (3 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 26](Community_26.md) (2 shared connections)
-- [Community 47](Community_47.md) (2 shared connections)
-- [Community 43](Community_43.md) (1 shared connections)
+- [Community 112](Community_112.md) (9 shared connections)
+- [Community 175](Community_175.md) (8 shared connections)
+- [Community 89](Community_89.md) (8 shared connections)
+- [Community 207](Community_207.md) (2 shared connections)
+- [Community 254](Community_254.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_add.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (92%)
-- INFERRED: 3 (8%)
+- EXTRACTED: 45 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

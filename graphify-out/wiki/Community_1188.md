@@ -4,21 +4,20 @@
 
 ## Key Concepts
 
-- **.test_optimize_through_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **field-level through checking is working. This should manage to collapse model…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_mass_mail_sending()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **Mass mail is redirected to a dummy outbox during test setup** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 145](Community_145.md) (1 shared connections)
-- [Community 680](Community_680.md) (1 shared connections)
+- [Community 518](Community_518.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

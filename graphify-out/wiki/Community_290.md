@@ -1,57 +1,63 @@
 # Community 290
 
-> 28 nodes · cohesion 0.10
+> 26 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **WSGIHandler** (22 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **HandlerTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **HandlerRequestTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **test_exception.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/test_exception.py`
-- **ExceptionHandlerTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/test_exception.py`
-- **.get_suspicious_environ()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/test_exception.py`
-- **.test_data_upload_max_memory_size_exceeded()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/test_exception.py`
-- **.test_data_upload_max_number_fields_exceeded()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/test_exception.py`
-- **.test_invalid_multipart_boundary()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_bad_path_info()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_invalid_unicode_cookie()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_non_ascii_cookie()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_non_ascii_query_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_handle_accepts_httpstatus_enum_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_middleware_returns_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_middleware_initialized()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **.test_environ_path_info_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_invalid_urls()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_no_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_suspiciousop_in_view_returns_400()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **A non-UTF-8 path populates PATH_INFO with an URL-encoded path and produces a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **Non-ASCII query strings are properly decoded (#20530, #22996).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- *... and 3 more nodes in this community*
+- **test_utils/tests.py** (71 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **test_utils/views.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/views.py`
+- **Person** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/models.py`
+- **AssertNumQueriesContextManagerTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **AssertNumQueriesTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **AllowedDatabaseQueriesTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **AssertNumQueriesUponConnectionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **AssertFieldOutputTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **get_person()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/views.py`
+- **test_utils/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/urls.py`
+- **empty_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/views.py`
+- **test_utils/__init__.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/__init__.py`
+- **.test_allowed_database_chunked_cursor_queries()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_allowed_database_queries()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_assert_field_output()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_custom_required_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_failure()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_with_client()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_assert_num_queries()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_assert_num_queries_with_client()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_ignores_connection_configuration_queries()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **FirstUrls** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **skipUnless** (1 connections)
+- **# HACK: This depends on internals of our TestCase subclasses** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (11 shared connections)
-- [Community 8](Community_8.md) (6 shared connections)
-- [Community 84](Community_84.md) (6 shared connections)
-- [Community 5](Community_5.md) (5 shared connections)
-- [Community 537](Community_537.md) (3 shared connections)
-- [Community 438](Community_438.md) (2 shared connections)
-- [Community 502](Community_502.md) (1 shared connections)
-- [Community 829](Community_829.md) (1 shared connections)
+- [Community 338](Community_338.md) (10 shared connections)
+- [Community 1](Community_1.md) (10 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 4](Community_4.md) (4 shared connections)
+- [Community 19](Community_19.md) (4 shared connections)
+- [Community 78](Community_78.md) (3 shared connections)
+- [Community 222](Community_222.md) (3 shared connections)
+- [Community 87](Community_87.md) (3 shared connections)
+- [Community 12](Community_12.md) (3 shared connections)
+- [Community 146](Community_146.md) (3 shared connections)
+- [Community 42](Community_42.md) (3 shared connections)
+- [Community 24](Community_24.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- `raw/code/hyd-evaluation/django-django/tests/handlers/test_exception.py`
-- `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 64 (90%)
-- INFERRED: 7 (10%)
+- EXTRACTED: 109 (93%)
+- INFERRED: 8 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

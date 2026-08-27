@@ -1,36 +1,73 @@
 # Community 77
 
-> 12 nodes · cohesion 0.20
+> 99 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **Loader** (10 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **.get_template()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **.cache_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **.generate_hash()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **.reset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **.get_contents()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **.get_template_sources()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **BaseLoader** (1 connections)
-- **Perform the caching that gives this loader its name. Often many of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **Generate a cache key for the template name and skip. If skip is provided, only…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
-- **Empty the template cache.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
+- **MigrationWriter** (32 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **postgres/operations.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **writer.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **postgres_tests/test_operations.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- **CreateExtension** (24 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **postgres/apps.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
+- **postgres_tests/migrations/0001_setup_extensions.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/migrations/0001_setup_extensions.py`
+- **AddIndexConcurrently** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **register_type_handlers()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
+- **RemoveIndexConcurrently** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **test_apps.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_apps.py`
+- **AddIndexConcurrentlyTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- **uninstall_if_needed()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
+- **PostgresConfig** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
+- **SearchLookup** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **postgres/signals.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
+- **postgres_tests/test_signals.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
+- **OIDTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
+- **get_citext_oids()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
+- **get_hstore_oids()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
+- **BloomExtension** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **._ensure_not_in_transaction()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **backends/signals.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/signals.py`
+- **RemoveIndexConcurrentlyTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- **TrigramSimilar** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- *... and 74 more nodes in this community*
 
 ## Relationships
 
-- [Community 113](Community_113.md) (2 shared connections)
-- [Community 40](Community_40.md) (1 shared connections)
-- [Community 132](Community_132.md) (1 shared connections)
+- [Community 222](Community_222.md) (16 shared connections)
+- [Community 0](Community_0.md) (14 shared connections)
+- [Community 7](Community_7.md) (12 shared connections)
+- [Community 81](Community_81.md) (12 shared connections)
+- [Community 149](Community_149.md) (11 shared connections)
+- [Community 14](Community_14.md) (9 shared connections)
+- [Community 78](Community_78.md) (7 shared connections)
+- [Community 104](Community_104.md) (7 shared connections)
+- [Community 143](Community_143.md) (5 shared connections)
+- [Community 28](Community_28.md) (5 shared connections)
+- [Community 8](Community_8.md) (5 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/serializers.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/signals.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/migrations/0001_setup_extensions.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/migrations/0001_setup_extensions.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/migrations/0001_setup_extensions.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/migrations/0001_setup_extensions.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_apps.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (88%)
-- INFERRED: 2 (12%)
+- EXTRACTED: 282 (92%)
+- INFERRED: 25 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

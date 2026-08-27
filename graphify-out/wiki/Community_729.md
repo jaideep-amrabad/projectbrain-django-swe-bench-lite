@@ -1,42 +1,36 @@
 # Community 729
 
-> 12 nodes · cohesion 0.21
+> 12 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **inspectdb/tests.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
-- **inspectdb/models.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
-- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
-- **PeopleMoreData** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
-- **JSONFieldColumnType** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
-- **SpecialName** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
-- **UniqueTogether** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
-- **ColumnTypes** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
-- **DigitsInColumnName** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
-- **Message** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
-- **People** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
-- **PeopleData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **trans_null.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **gettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **ngettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **npgettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **pgettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **activate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **check_for_language()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **deactivate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **get_language()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **get_language_bidi()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **get_language_from_path()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
+- **get_language_from_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
 
 ## Relationships
 
-- [Community 9](Community_9.md) (6 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 30](Community_30.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 168](Community_168.md) (1 shared connections)
-- [Community 156](Community_156.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 59](Community_59.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/inspectdb/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_null.py`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 14 (82%)
+- INFERRED: 3 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

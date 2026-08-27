@@ -1,42 +1,42 @@
 # Community 606
 
-> 16 nodes · cohesion 0.20
+> 16 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **DatabaseSchemaEditor** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._alter_field_type_workaround()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **.alter_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._generate_temp_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **.normalize_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **.remove_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._drop_identity()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._is_identity_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **.prepare_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **.quote_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **.delete_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._field_should_be_indexed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._unique_should_be_added()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **Get the properly shortened and uppercased identifier as returned by…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **Generate temporary names for workarounds that need temp columns.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **Oracle refuses to change from some type to other type. What we need to do…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **DiffSettings** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.assertNotInOutput()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_basic()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_default()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_unified()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_all()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_unified_all()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_settings_configured()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_dynamic_settings_configured()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **Utility assertion: assert that the given message exists in the output** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **Tests for diffsettings management command.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **Runs without error and emits settings diff.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **The all option also shows settings with the default value.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **The --default option specifies an alternate settings module for comparison.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **--output=unified emits settings diff in unified mode.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **--output=unified --all emits settings diff in unified mode and includes…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Relationships
 
-- [Community 248](Community_248.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 89](Community_89.md) (1 shared connections)
-- [Community 252](Community_252.md) (1 shared connections)
-- [Community 132](Community_132.md) (1 shared connections)
+- [Community 112](Community_112.md) (8 shared connections)
+- [Community 89](Community_89.md) (8 shared connections)
+- [Community 175](Community_175.md) (7 shared connections)
+- [Community 207](Community_207.md) (5 shared connections)
+- [Community 254](Community_254.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (93%)
-- INFERRED: 2 (7%)
+- EXTRACTED: 51 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

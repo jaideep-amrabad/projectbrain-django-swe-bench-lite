@@ -1,31 +1,27 @@
 # Community 819
 
-> 9 nodes · cohesion 0.33
+> 9 nodes · cohesion 0.39
 
 ## Key Concepts
 
-- **bar.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/bar.py`
-- **models/foo.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/foo.py`
-- **admin/foo.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/admin/foo.py`
-- **Bar** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/bar.py`
-- **Foo** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/foo.py`
-- **complex_app/models/__init__.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/__init__.py`
-- **simple_app/models.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/simple_app/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/bar.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/foo.py`
+- **mysql/compiler.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
+- **SQLCompiler** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
+- **SQLDeleteCompiler** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
+- **SQLUpdateCompiler** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
+- **.as_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
+- **SQLAggregateCompiler** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
+- **.as_subquery_condition()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
+- **.as_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
+- **SQLInsertCompiler** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
+- [Community 222](Community_222.md) (3 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/admin/foo.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/bar.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/complex_app/models/foo.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/simple_app/models.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
 
 ## Audit Trail
 

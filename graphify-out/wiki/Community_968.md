@@ -1,30 +1,30 @@
 # Community 968
 
-> 6 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **RenderTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
-- **.test_render_with_using()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
-- **.test_render()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
-- **.test_render_with_content_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
-- **.test_render_with_multiple_templates()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
-- **.test_render_with_status()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
+- **FixtureTestCase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.test_fixture_loading()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.test_pseudo_empty_fixtures()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **Multi-db fixtures are loaded correctly** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **A fixture can contain entries, but lead to nothing in the database; this…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 370](Community_370.md) (1 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 177](Community_177.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 31](Community_31.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 8 (89%)
+- INFERRED: 1 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,50 +1,50 @@
 # Community 492
 
-> 22 nodes · cohesion 0.15
+> 37 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **HumanizeTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.humanize_tester()** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_naturaltime()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_naturalday_uses_localtime()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_i18n_html_ordinal()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_inflection_for_timedelta()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_apnumber()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_i18n_intcomma()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_i18n_intword()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_intcomma()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_intcomma_without_number_grouping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_intword()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_l10n_intcomma()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_naturalday()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_naturalday_tz()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_naturaltime_as_documented()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.test_ordinal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **MockDateTime** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **.now()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **#23340 -- Verify the documented behavior of humanize.naturaltime.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **Translation of '%d day'/'%d month'/… may differ depending on the context of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
-- **Allow html in output on i18n strings** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **IfParser** (15 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **Literal** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **smartif.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **TokenBase** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **SmartIfTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
+- **.assertCalcEqual()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
+- **EndToken** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.create_var()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.next_token()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.translate_token()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **test_smartif.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
+- **.test_precedence()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
+- **.parse()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **infix()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.display()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.test_in()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
+- **.test_not()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
+- **.test_not_in()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
+- **.test_or()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
+- **.nud()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.display()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.eval()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 426](Community_426.md) (2 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 37](Community_37.md) (1 shared connections)
+- [Community 23](Community_23.md) (5 shared connections)
+- [Community 470](Community_470.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (93%)
-- INFERRED: 3 (7%)
+- EXTRACTED: 57 (97%)
+- INFERRED: 2 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,27 +1,27 @@
 # Community 1023
 
-> 5 nodes · cohesion 0.60
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **BuiltinsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_builtins.py`
-- **setup** (3 connections)
-- **.test_builtins01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_builtins.py`
-- **.test_builtins02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_builtins.py`
-- **.test_builtins03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_builtins.py`
+- **State** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **StateProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (2 shared connections)
+- [Community 740](Community_740.md) (3 shared connections)
+- [Community 463](Community_463.md) (2 shared connections)
+- [Community 298](Community_298.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_builtins.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 7 (78%)
+- INFERRED: 2 (22%)
 - AMBIGUOUS: 0 (0%)
 
 ---

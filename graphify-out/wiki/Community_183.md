@@ -1,50 +1,71 @@
 # Community 183
 
-> 35 nodes · cohesion 0.09
+> 130 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **IfParser** (15 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **Literal** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **smartif.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **TokenBase** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **SmartIfTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **.assertCalcEqual()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **EndToken** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.create_var()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.next_token()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.translate_token()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **test_smartif.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **.test_precedence()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **.parse()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **infix()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.display()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.test_in()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **.test_not()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **.test_not_in()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **.test_or()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
-- **.nud()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.display()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.eval()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- *... and 10 more nodes in this community*
+- **BaseDatabaseCreation** (37 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **BaseDatabaseIntrospection** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **dummy/base.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
+- **base/creation.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **DatabaseCreation** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
+- **DatabaseCreationTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **DatabaseCreation** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
+- **.create_test_db()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **DatabaseCreation** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
+- **DatabaseCreationTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
+- **base/introspection.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- **django/db/backends/mysql/introspection.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **mysql/test_creation.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
+- **.check_sql_table_creation_suffix()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **.destroy_test_db()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **mysql/creation.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
+- **postgresql/introspection.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- **.is_in_memory_db()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
+- **get_connection_copy()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- **TestDbCreationTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- **TestDbSignatureTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- **base/test_introspection.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
+- **.clone_test_db()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **._get_database_display_str()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- **.django_table_names()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- *... and 105 more nodes in this community*
 
 ## Relationships
 
-- [Community 26](Community_26.md) (5 shared connections)
-- [Community 518](Community_518.md) (1 shared connections)
+- [Community 222](Community_222.md) (31 shared connections)
+- [Community 2](Community_2.md) (8 shared connections)
+- [Community 78](Community_78.md) (6 shared connections)
+- [Community 35](Community_35.md) (5 shared connections)
+- [Community 57](Community_57.md) (3 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 361](Community_361.md) (3 shared connections)
+- [Community 309](Community_309.md) (3 shared connections)
+- [Community 653](Community_653.md) (3 shared connections)
+- [Community 363](Community_363.md) (3 shared connections)
+- [Community 15](Community_15.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/creation.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/features.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/introspection.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/creation.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_creation.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
 
 ## Audit Trail
 
-- EXTRACTED: 56 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 291 (95%)
+- INFERRED: 15 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

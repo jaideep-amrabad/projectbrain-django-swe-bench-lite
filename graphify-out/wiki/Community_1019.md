@@ -1,27 +1,27 @@
 # Community 1019
 
-> 5 nodes · cohesion 0.50
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **StringformatTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_stringformat.py`
-- **.test_stringformat01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_stringformat.py`
-- **.test_stringformat02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_stringformat.py`
-- **setup** (2 connections)
-- **Notice that escaping is applied *after* any filters, so the string formatting…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_stringformat.py`
+- **BasicFormTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **.test_late_form_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **.test_post_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **A form can be marked invalid in the form_valid() method (#25548).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 47](Community_47.md) (2 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_stringformat.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

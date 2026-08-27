@@ -1,43 +1,49 @@
 # Community 580
 
-> 17 nodes · cohesion 0.12
+> 17 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **ManageMultipleSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **multiple: manage.py can execute user commands if settings are provided as…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **A series of tests for manage.py when multiple settings files (including the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **multiple: manage.py builtin commands fail with an error when no settings…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **multiple: manage.py builtin commands succeed if settings are provided as…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **multiple: manage.py can execute builtin commands if settings are provided in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **multiple: manage.py builtin commands fail if settings file (from argument)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **multiple: manage.py builtin commands fail if settings file (from environment)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **multiple: manage.py can't execute user commands using default settings** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **model_fields/test_durationfield.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
+- **TestSaveLoad** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
+- **DurationModel** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **TestQuerying** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
+- **TestSerialization** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
+- **TestFormField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
+- **TestValidation** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
+- **.test_dumping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
+- **.test_formfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
+- **.test_exact()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
+- **.test_gt()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
+- **.test_create_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
+- **.test_fractional_seconds()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
+- **.test_simple_roundtrip()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
+- **.test_loading()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
+- **.test_invalid_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
 
 ## Relationships
 
-- [Community 117](Community_117.md) (8 shared connections)
-- [Community 92](Community_92.md) (8 shared connections)
-- [Community 286](Community_286.md) (8 shared connections)
-- [Community 236](Community_236.md) (2 shared connections)
-- [Community 262](Community_262.md) (1 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 203](Community_203.md) (4 shared connections)
+- [Community 19](Community_19.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 29](Community_29.md) (1 shared connections)
+- [Community 44](Community_44.md) (1 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 36 (90%)
+- INFERRED: 4 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

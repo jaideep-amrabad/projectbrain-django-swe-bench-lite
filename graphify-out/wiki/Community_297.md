@@ -1,60 +1,60 @@
 # Community 297
 
-> 46 nodes · cohesion 0.06
+> 37 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **test_autocomplete_widget.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **AutocompleteMixinTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **AutocompleteSelect** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.__init__()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **AutocompleteMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **AlbumForm** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **FilteredSelectMultiple** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **NotRequiredBandForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **RequiredBandForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **Media** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **AdminIntegerFieldWidget** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **AdminTimeWidget** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.build_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.get_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.test_render_options_not_required_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **.test_render_options_required_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
-- **AdminBigIntegerFieldWidget** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **AdminEmailInputWidget** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **AdminTextareaWidget** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **AdminTextInputWidget** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- *... and 21 more nodes in this community*
+- **model_fields/test_uuid.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **TestAsPrimaryKey** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **TestSaveLoad** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **PrimaryKeyUUIDModel** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **TestMethods** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **TestSerialization** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **UUIDGrandchild** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **UUIDModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **TestAsPrimaryKeyTransactionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **NullableUUIDModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **RelatedToUUIDModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **TestValidation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **UUIDChild** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.test_unsaved_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_two_level_foreign_keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_uuid_pk_on_bulk_create()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_dumping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_creation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_underlying_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_update_with_related_model_id()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_update_with_related_model_instance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_uuid_pk_on_save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_to_python_int_too_large()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (20 shared connections)
-- [Community 55](Community_55.md) (8 shared connections)
-- [Community 221](Community_221.md) (3 shared connections)
-- [Community 958](Community_958.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 43](Community_43.md) (1 shared connections)
-- [Community 235](Community_235.md) (1 shared connections)
-- [Community 409](Community_409.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 203](Community_203.md) (7 shared connections)
+- [Community 19](Community_19.md) (5 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 26](Community_26.md) (3 shared connections)
+- [Community 673](Community_673.md) (2 shared connections)
+- [Community 222](Community_222.md) (2 shared connections)
+- [Community 38](Community_38.md) (2 shared connections)
+- [Community 47](Community_47.md) (1 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
+- [Community 131](Community_131.md) (1 shared connections)
+- [Community 44](Community_44.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/test_autocomplete_widget.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
 
 ## Audit Trail
 
-- EXTRACTED: 93 (89%)
-- INFERRED: 12 (11%)
+- EXTRACTED: 72 (88%)
+- INFERRED: 10 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

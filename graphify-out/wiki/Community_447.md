@@ -1,49 +1,48 @@
 # Community 447
 
-> 25 nodes · cohesion 0.14
+> 24 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **setup()** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **I18nTransTagTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_i18n01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_i18n02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_i18n06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_i18n09()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_i18n22()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_i18n23()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_i18n20()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_i18n24()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_i18n25()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_i18n35()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_i18n36()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_syntax_error_bad_option()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_syntax_error_context_as()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_syntax_error_context_noop()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_syntax_error_duplicate_option()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_syntax_error_missing_assignment()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_syntax_error_missing_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_syntax_error_no_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **.test_trans_tag_using_a_string_that_looks_like_str_fmt()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **simple translation of a string delimited by '.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **simple translation of a string to German** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **simple non-translation (only marking) of a string to German** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
-- **Using filters with the {% translate %} tag (#5972).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- **MultiColumnFKTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_double_nested_query()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_foreign_key_related_query_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_forward_in_lookup_filters_correctly()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_get_fails_on_multicolumn_mismatch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_get_succeeds_on_multicolumn_match()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_isnull_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_m2m_through_forward_ignores_invalid_members()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_m2m_through_forward_returns_valid_members()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_m2m_through_on_self_ignores_mismatch_columns()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_m2m_through_on_self_works()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_m2m_through_reverse_ignores_invalid_members()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_m2m_through_reverse_returns_valid_members()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_many_to_many_related_query_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_prefetch_foreignkey_forward_works()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_prefetch_foreignkey_reverse_works()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_prefetch_related_m2m_forward_works()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_prefetch_related_m2m_reverse_works()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_query_filters_correctly()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_reverse_query_filters_correctly()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_reverse_query_returns_correct_result()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_select_related_foreignkey_forward_works()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (4 shared connections)
-- [Community 47](Community_47.md) (1 shared connections)
-- [Community 94](Community_94.md) (1 shared connections)
+- [Community 701](Community_701.md) (3 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 538](Community_538.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 28 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

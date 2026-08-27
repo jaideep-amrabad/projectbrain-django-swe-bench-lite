@@ -1,48 +1,47 @@
 # Community 566
 
-> 18 nodes · cohesion 0.14
+> 18 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **model_fields/test_durationfield.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
-- **TestSaveLoad** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
-- **DurationModel** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **TestQuerying** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
-- **TestSerialization** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
-- **NullDurationModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **TestFormField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
-- **TestValidation** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
-- **.test_dumping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
-- **.test_formfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
-- **.test_exact()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
-- **.test_gt()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
-- **.test_create_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
-- **.test_fractional_seconds()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
-- **.test_simple_roundtrip()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
-- **.test_loading()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
-- **.test_invalid_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
+- **ModelToValidate** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **BaseModelValidationTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **TestModelsWithValidators** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_validators.py`
+- **.test_custom_validator_passes_for_correct_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_validators.py`
+- **.test_custom_validator_raises_error_for_incorrect_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_validators.py`
+- **.test_field_validators_can_be_any_iterable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_validators.py`
+- **.test_correct_email_value_passes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **.test_correct_FK_value_validates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **.test_custom_validate_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **.test_full_clean_does_not_mutate_exclude()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **.test_limited_FK_raises_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **.test_malformed_slug_raises_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **.test_missing_required_field_raises_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **.test_text_greater_that_charfields_max_length_raises_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **.test_with_correct_value_model_validates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **.test_wrong_email_value_raises_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **.test_wrong_FK_value_raises_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **.test_wrong_url_value_raises_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (5 shared connections)
-- [Community 223](Community_223.md) (3 shared connections)
-- [Community 14](Community_14.md) (3 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 115](Community_115.md) (1 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
-- [Community 99](Community_99.md) (1 shared connections)
+- [Community 716](Community_716.md) (6 shared connections)
+- [Community 776](Community_776.md) (4 shared connections)
+- [Community 810](Community_810.md) (4 shared connections)
+- [Community 548](Community_548.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/test_validators.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 37 (90%)
-- INFERRED: 4 (10%)
+- EXTRACTED: 45 (90%)
+- INFERRED: 5 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

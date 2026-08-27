@@ -1,44 +1,68 @@
 # Community 475
 
-> 18 nodes · cohesion 0.16
+> 71 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **MigrationTestBase** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **._get_column_allows_null()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.get_table_description()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertColumnExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertColumnNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertColumnNotNull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertColumnNull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertConstraintExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertConstraintNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertFKExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertFKNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertIndexExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertIndexNotExists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertTableExists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertTableNotExists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **.assertUniqueConstraintExists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
-- **Contains an extended set of asserts for testing migrations and schema…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- **Variable** (29 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **ExtendsNode** (15 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
+- **dictsort()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **BoundWidget** (10 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **dictsortreversed()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **BlockNode** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
+- **._resolve_lookup()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **BlockContext** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
+- **unescape_string_literal()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **FunctionTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
+- **IncludeNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
+- **FunctionTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsortreversed.py`
+- **_property_resolver()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **test_dictsort.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
+- **test_dictsortreversed.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsortreversed.py`
+- **VariableResolveLoggingTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_logging.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.resolve()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.super()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
+- **.get_parent()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
+- **.find_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
+- **.render()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
+- **.render()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
+- **Node** (3 connections)
+- **.test_dictsort_complex_sorting_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
+- *... and 46 more nodes in this community*
 
 ## Relationships
 
-- [Community 128](Community_128.md) (5 shared connections)
-- [Community 9](Community_9.md) (5 shared connections)
-- [Community 71](Community_71.md) (4 shared connections)
-- [Community 168](Community_168.md) (1 shared connections)
-- [Community 57](Community_57.md) (1 shared connections)
+- [Community 2](Community_2.md) (44 shared connections)
+- [Community 13](Community_13.md) (3 shared connections)
+- [Community 42](Community_42.md) (3 shared connections)
+- [Community 520](Community_520.md) (3 shared connections)
+- [Community 402](Community_402.md) (2 shared connections)
+- [Community 23](Community_23.md) (2 shared connections)
+- [Community 336](Community_336.md) (2 shared connections)
+- [Community 33](Community_33.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 333](Community_333.md) (1 shared connections)
+- [Community 188](Community_188.md) (1 shared connections)
+- [Community 252](Community_252.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
+- `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsortreversed.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_logging.py`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 137 (89%)
+- INFERRED: 17 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

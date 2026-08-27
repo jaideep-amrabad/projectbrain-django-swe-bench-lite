@@ -1,49 +1,47 @@
 # Community 427
 
-> 26 nodes · cohesion 0.09
+> 19 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **RenameMethodsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **deprecation/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **RenameMethodsBase** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **DeprecationInstanceCheck** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **warn_about_renamed_method** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **DeprecationInstanceCheckTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **type** (2 connections)
-- **.__new__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **Ensure the correct warnings are raised when a class that didn't rename `old`…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **RenameManagerMethods** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **.test_class_definition_warnings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **.test_deprecated_subclass_renamed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **.test_deprecated_subclass_renamed_and_mixins()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **.test_get_new_defined()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **.test_get_old_defined()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **.test_renamed_subclass_deprecated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **.__instancecheck__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **Handles the deprecation paths when renaming a method. It does the following: 1)…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **.test_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **Ensure the correct warnings are raised when a subclass inherit from a class…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **Tests the `RenameMethodsBase` type introduced to rename `get_query_set` to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **Ensure a warning is raised upon class definition to suggest renaming the faulty…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **Ensure `old` complains and not `new` when only `new` is defined.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- *... and 1 more nodes in this community*
+- **FakeSMTPServer** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.get_traceback_data()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **._get_lines_from_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.get_traceback_html()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.get_traceback_text()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.get_traceback_frames()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **._get_source()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.start()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **Return a dictionary containing traceback information.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **Return HTML version of debug 500 HTTP error page.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **Return plain text version of debug 500 HTTP error page.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **Return context_lines before and after lineno from file. Return…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.flush_sink()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.get_sink()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.process_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.run()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.stop()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **Asyncore SMTP server wrapped into a thread. Based on DummyFTPServer from:…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Relationships
 
-- [Community 41](Community_41.md) (4 shared connections)
-- [Community 5](Community_5.md) (4 shared connections)
+- [Community 158](Community_158.md) (6 shared connections)
+- [Community 42](Community_42.md) (2 shared connections)
+- [Community 33](Community_33.md) (1 shared connections)
+- [Community 817](Community_817.md) (1 shared connections)
+- [Community 81](Community_81.md) (1 shared connections)
+- [Community 815](Community_815.md) (1 shared connections)
+- [Community 137](Community_137.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (97%)
+- EXTRACTED: 30 (97%)
 - INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 

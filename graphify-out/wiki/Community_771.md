@@ -1,42 +1,34 @@
 # Community 771
 
-> 16 nodes · cohesion 0.13
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **PostGISAdapter** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
-- **to_pgraster()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/pgraster.py`
-- **.getquoted()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
-- **pack()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/pgraster.py`
-- **.__conform__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
-- **.prepare()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
-- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
-- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
-- **Initialize on the spatial object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
-- **Does the given protocol conform to what Psycopg2 expects?** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
-- **This method allows escaping the binary in the style required by the server's…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
-- **Return a properly quoted string for use in PostgreSQL/PostGIS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
-- **Pack data into hex string with little endian format.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/pgraster.py`
-- **Convert a GDALRaster into PostGIS Raster format.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/pgraster.py`
+- **ValidationTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **Choices** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_choices_validation_supports_named_groups()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_enum_choices_cleans_valid_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_enum_choices_invalid_input()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_integerfield_cleans_valid_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_integerfield_raises_error_on_empty_input()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_integerfield_raises_error_on_invalid_intput()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_integerfield_validates_zero_against_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_nullable_integerfield_cleans_none_on_null_and_blank_true()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_nullable_integerfield_raises_error_with_blank_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
 
 ## Relationships
 
-- [Community 22](Community_22.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
+- [Community 203](Community_203.md) (1 shared connections)
 - [Community 2](Community_2.md) (1 shared connections)
-- [Community 289](Community_289.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/pgraster.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 12 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

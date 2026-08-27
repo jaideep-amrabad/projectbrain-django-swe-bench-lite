@@ -1,36 +1,42 @@
 # Community 569
 
-> 10 nodes · cohesion 0.20
+> 17 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **SessionStore** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
-- **CustomDatabaseSessionTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **DBStore** (1 connections)
-- **A database session store, that handles updating the account ID column inside…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
-- **.create_model_instance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
-- **.get_model_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
-- **.get_session_cookie_age()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
-- **.test_custom_expiry_reset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_default_expiry()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_extra_session_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **ChoicesMeta** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **enums.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **Choices** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **TextChoices** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **IntegerChoices** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **Class for creating enumerated choices.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **int** (1 connections)
+- **.choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **.names()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **.__new__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **.values()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **str** (1 connections)
+- **Use value when cast to str, so that Choices set as model instance attributes…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **A metaclass for creating a enum choices.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **._generate_next_value_()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (2 shared connections)
+- [Community 817](Community_817.md) (2 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
-- [Community 602](Community_602.md) (1 shared connections)
-- [Community 146](Community_146.md) (1 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
+- [Community 268](Community_268.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (86%)
-- INFERRED: 2 (14%)
+- EXTRACTED: 24 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

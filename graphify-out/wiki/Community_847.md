@@ -4,28 +4,28 @@
 
 ## Key Concepts
 
-- **setter** (5 connections)
-- **.make_bytes()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.content()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.charset()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.reason_phrase()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.content()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **Turn a value into a bytestring encoded in the output charset.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **_user_get_permissions()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.get_group_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.get_user_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.get_all_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.get_user_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **.get_all_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **Return a list of permission strings that this user has directly. Query all…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **Return a list of permission strings that this user has through their groups.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
 
 ## Relationships
 
-- [Community 420](Community_420.md) (4 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 48](Community_48.md) (2 shared connections)
+- [Community 973](Community_973.md) (3 shared connections)
+- [Community 302](Community_302.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

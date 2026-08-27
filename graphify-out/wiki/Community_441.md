@@ -1,60 +1,51 @@
 # Community 441
 
-> 26 nodes · cohesion 0.15
+> 25 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **custom_managers/models.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **custom_managers/tests.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **CustomManagersRegressTestCase** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **Book** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **TestCars** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **Car** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **FastCarAsBase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **FastCarAsDefault** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **FunPerson** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **PersonFromAbstract** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **PersonManager** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **AbstractPerson** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **OneToOneRestrictedModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **RelatedModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **RestrictedModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **.test_filtered_default_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **.test_refresh_from_db_when_default_manager_filters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **.get_fun_people()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **Giving models a custom manager You can use a custom ``Manager`` in a particular…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- **.test_delete_one_to_one_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **Even though the default manager filters out some records, we must still be able…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **Model.refresh_from_db() works for instances hidden by the default manager.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- *... and 1 more nodes in this community*
+- **CheckboxInputTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **CheckboxInput** (11 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.test_render_check_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **.test_render_check_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **.format_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.get_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.test_render_int()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **.test_render_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **.test_value_from_datadict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **.value_from_datadict()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **Only return the 'value' attribute if value isn't empty.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.test_get_context_does_not_mutate_attrs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **.test_render_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **.test_render_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **.test_render_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **.test_render_true()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **.test_value_from_datadict_string_int()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **.test_value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **Using any value that's not in ('', None, False, True) will check the checkbox…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **Integers are handled by value, not as booleans (#17114).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **You can pass 'check_test' to the constructor. This is a callable that takes the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **Calling check_test() shouldn't swallow exceptions (#17888).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **The CheckboxInput widget will return False if the key is not found in the data…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
 
 ## Relationships
 
-- [Community 773](Community_773.md) (7 shared connections)
-- [Community 83](Community_83.md) (6 shared connections)
-- [Community 154](Community_154.md) (4 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 863](Community_863.md) (4 shared connections)
-- [Community 14](Community_14.md) (3 shared connections)
-- [Community 122](Community_122.md) (2 shared connections)
-- [Community 911](Community_911.md) (2 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 1181](Community_1181.md) (1 shared connections)
-- [Community 1179](Community_1179.md) (1 shared connections)
-- [Community 1180](Community_1180.md) (1 shared connections)
+- [Community 106](Community_106.md) (4 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
+- [Community 212](Community_212.md) (1 shared connections)
+- [Community 119](Community_119.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/custom_managers/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
 
 ## Audit Trail
 
-- EXTRACTED: 70 (81%)
-- INFERRED: 16 (19%)
+- EXTRACTED: 31 (94%)
+- INFERRED: 2 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

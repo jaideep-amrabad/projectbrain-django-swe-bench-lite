@@ -1,26 +1,30 @@
 # Community 919
 
-> 4 nodes · cohesion 0.50
+> 7 nodes · cohesion 0.48
 
 ## Key Concepts
 
-- **MarkupField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.formfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **FieldOverridesByFormMetaForm** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **TestFieldOverridesByFormMeta** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_error_messages_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_field_type_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_help_text_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_label_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_widget_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Relationships
 
-- [Community 74](Community_74.md) (2 shared connections)
+- [Community 108](Community_108.md) (5 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 14 (88%)
+- INFERRED: 2 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,46 +1,55 @@
 # Community 298
 
-> 18 nodes · cohesion 0.13
+> 37 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **WhereNode** (31 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **.clone()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **.as_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **.relabel_aliases()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **.relabeled_clone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **.resolve_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **._resolve_leaf()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **._resolve_node()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **.split_having()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **Relabel the alias values of any children. 'change_map' is a dictionary mapping…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **Create a clone of the tree. Must only be called on root nodes (nodes with empty…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **An SQL WHERE clause. The class is tied to the Query class that created it (in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **Return two possibly None nodes: one for those parts of self that should be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **Return the SQL version of the where clause and the value to be substituted in.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **.get_group_by_cols()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **.get_source_expressions()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **.is_summary()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **.set_source_expressions()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- **ProxyModelTests** (52 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_swappable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_basic_proxy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_basic_proxy_reverse()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_correct_type_proxy_of_proxy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_inheritance_new_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_new_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_no_proxy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_proxy_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_proxy_included_in_ancestors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_proxy_model_signals()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_same_manager_queries()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_select_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_abstract_base_with_model_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_concrete_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_content_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_filter_proxy_relation_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_myperson_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_no_base_classes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_otherperson_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_permissions_created()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_proxy_bug()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_proxy_for_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_proxy_load_from_fixture()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_proxy_update()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 54](Community_54.md) (5 shared connections)
-- [Community 674](Community_674.md) (4 shared connections)
-- [Community 21](Community_21.md) (3 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 889](Community_889.md) (2 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 157](Community_157.md) (1 shared connections)
+- [Community 740](Community_740.md) (9 shared connections)
+- [Community 463](Community_463.md) (8 shared connections)
+- [Community 840](Community_840.md) (4 shared connections)
+- [Community 1023](Community_1023.md) (2 shared connections)
+- [Community 1028](Community_1028.md) (2 shared connections)
+- [Community 75](Community_75.md) (2 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (84%)
-- INFERRED: 6 (16%)
+- EXTRACTED: 42 (65%)
+- INFERRED: 23 (35%)
 - AMBIGUOUS: 0 (0%)
 
 ---

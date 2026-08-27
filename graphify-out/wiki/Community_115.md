@@ -1,69 +1,68 @@
 # Community 115
 
-> 88 nodes · cohesion 0.04
+> 96 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **datetime** (397 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **DateFormatTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateformat.py`
-- **format()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **LocalizedDateTimeTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **SplitDateTimeWidgetTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
-- **DatetimeTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
-- **DateTimeFieldTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datetimefield.py`
-- **CustomDateTimeInputFormatsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_datetime_with_tzinfo()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateformat.py`
-- **test_datetime_safe.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
-- **.date()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **time** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **field_defaults/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
-- **field_defaults/tests.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
-- **SimpleDateTimeFormatTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_datetime_with_local_tzinfo()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateformat.py`
-- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
-- **AdminSplitDateTimeWidgetTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **DefaultTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
-- **.test_datetimefield_clean()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datetimefield.py`
-- **Localized DateFields act as unlocalized widgets** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- **.test_formatting()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
-- **.test_unicode_date()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_regress.py`
-- **.test_epoch()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateformat.py`
-- **.test_compare_datetimes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
-- *... and 63 more nodes in this community*
+- **uploadedfile.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- **File** (26 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **files/tests.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **TemporaryUploadedFile** (23 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- **files/base.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **model_fields/test_filefield.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **files/uploadhandler.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **core/files/__init__.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/__init__.py`
+- **temp.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- **file_move_safe()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/move.py`
+- **FileProxyMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
+- **move.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/move.py`
+- **images.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **TemporaryFile** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- **MemoryFileUploadHandler** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **TemporaryFileUploadHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **StopFutureHandlers** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **UploadFileException** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **.__iter__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **SkipFile** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **.new_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **.new_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **.test_file_move_copystat_cifs()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **NoNameFileTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **TemporaryUploadedFileTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- *... and 71 more nodes in this community*
 
 ## Relationships
 
-- [Community 90](Community_90.md) (38 shared connections)
-- [Community 1](Community_1.md) (29 shared connections)
-- [Community 165](Community_165.md) (29 shared connections)
-- [Community 5](Community_5.md) (23 shared connections)
-- [Community 37](Community_37.md) (22 shared connections)
-- [Community 62](Community_62.md) (17 shared connections)
-- [Community 2](Community_2.md) (15 shared connections)
-- [Community 43](Community_43.md) (12 shared connections)
-- [Community 41](Community_41.md) (7 shared connections)
-- [Community 512](Community_512.md) (7 shared connections)
-- [Community 411](Community_411.md) (7 shared connections)
-- [Community 33](Community_33.md) (6 shared connections)
+- [Community 200](Community_200.md) (18 shared connections)
+- [Community 192](Community_192.md) (10 shared connections)
+- [Community 57](Community_57.md) (7 shared connections)
+- [Community 595](Community_595.md) (6 shared connections)
+- [Community 45](Community_45.md) (6 shared connections)
+- [Community 222](Community_222.md) (5 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 478](Community_478.md) (5 shared connections)
+- [Community 266](Community_266.md) (5 shared connections)
+- [Community 621](Community_621.md) (4 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 24](Community_24.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datetimefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_regress.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_dateformat.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/move.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 365 (67%)
-- INFERRED: 183 (33%)
+- EXTRACTED: 243 (95%)
+- INFERRED: 14 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

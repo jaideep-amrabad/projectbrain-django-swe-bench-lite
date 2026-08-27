@@ -4,30 +4,30 @@
 
 ## Key Concepts
 
-- **UniqueTogetherTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_list_containing_non_iterable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_non_iterable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_non_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_pointing_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_pointing_to_missing_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_valid_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_pointing_to_fk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **RelatedFieldWidgetWrapperTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_custom_widget_render()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_no_can_add_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_on_delete_cascade_rel_cant_delete_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_select_multiple_widget_cant_change_delete_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_widget_delegates_value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_widget_is_hidden()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_widget_is_not_hidden()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
 
 ## Relationships
 
-- [Community 152](Community_152.md) (6 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 598](Community_598.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 193](Community_193.md) (2 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 524](Community_524.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 10 (83%)
+- INFERRED: 2 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

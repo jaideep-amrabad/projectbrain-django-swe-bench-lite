@@ -1,43 +1,47 @@
 # Community 662
 
-> 14 nodes · cohesion 0.23
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **datetimes/tests.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **DateTimesTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **datetimes/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- **Article** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- **Comment** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- **Category** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- **.test_21432()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **.test_datetimes_ambiguous_and_invalid_times()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **.test_datetimes_has_lazy_iterator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **.test_datetimes_returns_available_dates_for_given_scope_and_given_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- **.test_datetimes_disallows_date_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **.test_related_model_traverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- **AuthViewsTestCase** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **LogoutThenLoginTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **LoginSuccessURLAllowedHostsTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **SessionAuthenticationTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_user_password_change_updates_session()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.logout()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_success_url_allowed_hosts_safe_host()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_success_url_allowed_hosts_same_host()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_success_url_allowed_hosts_unsafe_host()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.confirm_logged_out()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **Helper base class for all the follow test cases.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **#21649 - Ensure contrib.auth.views.password_change updates the user's session…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **Tests for the logout_then_login view** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 115](Community_115.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 37](Community_37.md) (1 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 381](Community_381.md) (5 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 663](Community_663.md) (2 shared connections)
+- [Community 906](Community_906.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 558](Community_558.md) (1 shared connections)
+- [Community 630](Community_630.md) (1 shared connections)
+- [Community 908](Community_908.md) (1 shared connections)
+- [Community 786](Community_786.md) (1 shared connections)
+- [Community 812](Community_812.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (91%)
-- INFERRED: 3 (9%)
+- EXTRACTED: 37 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

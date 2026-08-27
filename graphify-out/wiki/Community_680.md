@@ -1,47 +1,39 @@
 # Community 680
 
-> 14 nodes · cohesion 0.22
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **OptimizerTests** (46 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **._test_alter_alter_model()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **._test_create_alter_foo_delete_model()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_alter_alter_index_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_alter_alter_owrt_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_alter_alter_table_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_alter_alter_unique_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_create_alter_index_delete_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_create_alter_owrt_delete_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_create_alter_unique_delete_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_none_app_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **Tests the migration autodetector.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **CreateModel, AlterModelTable, AlterUniqueTogether/AlterIndexTogether/…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **Two AlterUniqueTogether/AlterIndexTogether/AlterOrderWithRespectTo should…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **WatchmanReloaderTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_check_availability()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_check_availability_lower_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_check_server_status()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_check_server_status_raises_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_pywatchman_not_available()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_update_watches_raises_exceptions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_watch_glob_ignores_non_existing_directories_two_levels()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_watch_glob_multiple_patterns()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_watch_glob_uses_existing_parent_directories()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_watched_roots_contains_directory_globs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_watched_roots_contains_files()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Relationships
 
-- [Community 145](Community_145.md) (12 shared connections)
-- [Community 813](Community_813.md) (6 shared connections)
-- [Community 903](Community_903.md) (4 shared connections)
-- [Community 982](Community_982.md) (4 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 1186](Community_1186.md) (1 shared connections)
-- [Community 1187](Community_1187.md) (1 shared connections)
-- [Community 1183](Community_1183.md) (1 shared connections)
-- [Community 1185](Community_1185.md) (1 shared connections)
-- [Community 1182](Community_1182.md) (1 shared connections)
-- [Community 1184](Community_1184.md) (1 shared connections)
+- [Community 339](Community_339.md) (5 shared connections)
+- [Community 504](Community_504.md) (3 shared connections)
+- [Community 293](Community_293.md) (1 shared connections)
+- [Community 960](Community_960.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (95%)
-- INFERRED: 3 (5%)
+- EXTRACTED: 22 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

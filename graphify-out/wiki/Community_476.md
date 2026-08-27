@@ -1,52 +1,50 @@
 # Community 476
 
-> 23 nodes · cohesion 0.10
+> 22 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **TestRouter** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
-- **AuthRouter** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
-- **WriteRouter** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
-- **multiple_database/routers.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
-- **.test_partial_router()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_migrate_selection()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.allow_migrate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
-- **.allow_relation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
-- **.db_for_read()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
-- **.db_for_write()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
-- **Control all database operations on models in the contrib.auth application.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
-- **Point all read operations on auth models to 'default** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
-- **Point all operations on auth models to 'other** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
-- **Allow any relation if a model in Auth is involved** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
-- **Make sure the auth app only appears on the 'other' db** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
-- **Vaguely behave like primary/replica, but the databases aren't assumed to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
-- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
-- **.allow_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
-- **.db_for_read()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
-- **.db_for_write()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
-- **.db_for_write()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
-- **Synchronization behavior is predictable** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **A router can choose to implement a subset of methods** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **DjangoTranslation** (17 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.__init__()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.merge()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **._add_installed_apps_translations()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **._new_gnu_trans()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **._add_local_translations()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **._init_translation_catalog()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **._add_fallback()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.to_language()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.language()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.ngettext()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Set up the GNUTranslations context with regard to output charset. This…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Create a GNUTranslations() using many locale directories** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Return a mergeable gettext.GNUTranslations instance. A convenience wrapper. By…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Create a base catalog using global django translations.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Merge translations from each installed app.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Merge translations defined in LOCALE_PATHS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Set the GNUTranslations() fallback with the default language.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Merge another translation into this catalog.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Return the translation language.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **Return the translation language name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
 
 ## Relationships
 
-- [Community 524](Community_524.md) (5 shared connections)
-- [Community 403](Community_403.md) (4 shared connections)
-- [Community 685](Community_685.md) (4 shared connections)
-- [Community 205](Community_205.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 239](Community_239.md) (1 shared connections)
+- [Community 188](Community_188.md) (3 shared connections)
+- [Community 628](Community_628.md) (2 shared connections)
+- [Community 761](Community_761.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 59](Community_59.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 385](Community_385.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
-- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (86%)
-- INFERRED: 6 (14%)
+- EXTRACTED: 43 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

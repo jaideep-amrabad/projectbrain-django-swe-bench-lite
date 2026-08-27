@@ -1,28 +1,26 @@
 # Community 1004
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **CustomLayoutExtractionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_project_locale_paths()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_no_locale_raises()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_project_locale_paths_pathlib()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- *** translations for an app containing a locale folder are stored in that folder…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.encoding()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **setter** (3 connections)
+- **.encoding()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **Set the encoding used for GET/POST accesses. If the GET or POST dictionary has…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 513](Community_513.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 27](Community_27.md) (2 shared connections)
+- [Community 218](Community_218.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- `raw/code/hyd-evaluation/django-django/django/http/request.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

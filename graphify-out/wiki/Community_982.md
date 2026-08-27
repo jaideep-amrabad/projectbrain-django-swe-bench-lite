@@ -4,24 +4,25 @@
 
 ## Key Concepts
 
-- **._test_create_alter_foo_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_create_alter_index_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_create_alter_owrt_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_create_alter_unique_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **CreateModel, AlterFooTogether/AlterOrderWithRespectTo followed by an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **GetChoicesTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_lazy_strings_not_evaluated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_blank_in_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_blank_in_grouped_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_empty_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
 
 ## Relationships
 
-- [Community 680](Community_680.md) (4 shared connections)
-- [Community 145](Community_145.md) (1 shared connections)
+- [Community 306](Community_306.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 169](Community_169.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

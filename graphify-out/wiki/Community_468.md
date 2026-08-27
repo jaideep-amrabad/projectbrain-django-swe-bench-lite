@@ -1,50 +1,50 @@
 # Community 468
 
-> 39 nodes · cohesion 0.06
+> 22 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **DatabaseOperations** (43 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **._convert_field_to_tz()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.quote_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.datetime_extract_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.date_extract_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.datetime_cast_date_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.datetime_cast_time_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.datetime_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.fetch_returned_insert_rows()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.max_name_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **._prepare_tzname_delta()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.return_insert_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.sequence_reset_by_name_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.sql_flush()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.tablespace_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.adapt_datefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.adapt_datetimefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.adapt_decimalfield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.adapt_ipaddressfield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.adapt_timefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.bulk_insert_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.date_trunc_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.deferrable_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.distinct_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- **.explain_query_prefix()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
-- *... and 14 more nodes in this community*
+- **CaseInsensitiveMapping** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **CaseInsensitiveMappingTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.__repr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__repr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_create_with_invalid_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_create_with_invalid_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **Mapping** (1 connections)
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **Mapping allowing case-insensitive key lookups. Original case of keys is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.test_copy()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_del()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_dict()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_equal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_getitem()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_in()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 562](Community_562.md) (1 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
+- [Community 278](Community_278.md) (5 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 802](Community_802.md) (1 shared connections)
+- [Community 898](Community_898.md) (1 shared connections)
+- [Community 604](Community_604.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
 
 ## Audit Trail
 
-- EXTRACTED: 54 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 36 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

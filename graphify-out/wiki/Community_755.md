@@ -1,34 +1,35 @@
 # Community 755
 
-> 11 nodes · cohesion 0.29
+> 11 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **PostgreSqlDbshellCommandTestCase** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
-- **._run_it()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
-- **.test_accent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
-- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
-- **.test_column()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
-- **.test_nopass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
-- **.test_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
-- **.test_sigint_handler()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
-- **.test_ssl_certificate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
-- **SIGINT is ignored in Python and passed to psql to abort queries.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
-- **That function invokes the runshell command, while mocking subprocess.run(). It…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **SessionStore** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
+- **.flush()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
+- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
+- **DBStore** (1 connections)
+- **Implement cached, database backed sessions.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
+- **Remove the current session data from the database and regenerate the key.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
+- **.cache_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
+- **.exists()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
+- **.load()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
+- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
 
 ## Relationships
 
-- [Community 265](Community_265.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 595](Community_595.md) (2 shared connections)
+- [Community 620](Community_620.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 13 (87%)
+- INFERRED: 2 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

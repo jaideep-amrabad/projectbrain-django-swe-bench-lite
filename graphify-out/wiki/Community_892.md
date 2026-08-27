@@ -1,30 +1,28 @@
 # Community 892
 
-> 8 nodes · cohesion 0.25
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **SeparateDatabaseAndState** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **Take two lists of operations - ones that will be used for the database, and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **DefaultCacheProxy** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
+- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
+- **.__delattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
+- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
+- **.__setattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
+- **Proxy access to the default Cache object's attributes. This allows the legacy…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 60](Community_60.md) (1 shared connections)
+- [Community 135](Community_135.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

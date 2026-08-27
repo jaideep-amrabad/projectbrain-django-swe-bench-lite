@@ -1,62 +1,53 @@
 # Community 396
 
-> 26 nodes · cohesion 0.11
+> 28 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **Signal** (26 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **._live_receivers()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **backends/signals.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/signals.py`
-- **ModelSignal** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
-- **.connect()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **SignalDeprecationTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/test_deprecation.py`
-- **._lazy_method()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
-- **_make_id()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **._clear_dead_receivers()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **.disconnect()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **.send()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **.send_robust()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **.connect()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
-- **.disconnect()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
-- **.has_listeners()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **.test_providing_args_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/test_deprecation.py`
-- **.test_without_providing_args_does_not_warn()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/test_deprecation.py`
-- **Signal subclass that allows the sender to be lazily specified as a string of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
-- **Disconnect receiver from sender for signal. If weak references are used,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **Send signal from sender to all connected receivers. If any receiver raises an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **Send signal from sender to all connected receivers catching errors. Arguments:…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **Base class for all signals Internal attributes: receivers { receiverkey (id) :…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **Filter sequence of receivers to get resolved, live receivers. This checks for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **Connect receiver to sender for signal. Arguments: receiver A function or an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- *... and 1 more nodes in this community*
+- **UpdateOnlyFieldsTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **update_only_fields/tests.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **update_only_fields/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
+- **Employee** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
+- **ProxyEmployee** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
+- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
+- **Account** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
+- **NonConcreteField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
+- **Profile** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
+- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
+- **.get_attname_column()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
+- **.test_empty_update_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_num_queries_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_select_related_only_interaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_basic()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_deferred()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_fk_defer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_incorrect_params()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_inheritance_defer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_inheritance_with_proxy_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_only_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- **.test_update_fields_only_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 422](Community_422.md) (8 shared connections)
-- [Community 5](Community_5.md) (3 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 598](Community_598.md) (2 shared connections)
-- [Community 265](Community_265.md) (2 shared connections)
-- [Community 94](Community_94.md) (2 shared connections)
-- [Community 440](Community_440.md) (1 shared connections)
-- [Community 65](Community_65.md) (1 shared connections)
-- [Community 75](Community_75.md) (1 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
-- [Community 95](Community_95.md) (1 shared connections)
-- [Community 472](Community_472.md) (1 shared connections)
+- [Community 19](Community_19.md) (2 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 182](Community_182.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/signals.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
-- `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
-- `raw/code/hyd-evaluation/django-django/tests/signals/test_deprecation.py`
+- `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 61 (97%)
-- INFERRED: 2 (3%)
+- EXTRACTED: 40 (89%)
+- INFERRED: 5 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

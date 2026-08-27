@@ -1,26 +1,24 @@
 # Community 1075
 
-> 4 nodes · cohesion 0.67
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **CenterTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_center.py`
-- **.test_center01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_center.py`
-- **.test_center02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_center.py`
-- **setup** (2 connections)
+- **.test_response_resolver_match_redirect_follow()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_response_resolver_match_regular_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **The response ResolverMatch instance contains the correct information when…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 47](Community_47.md) (2 shared connections)
+- [Community 518](Community_518.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_center.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

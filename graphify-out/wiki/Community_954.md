@@ -1,30 +1,31 @@
 # Community 954
 
-> 6 nodes · cohesion 0.33
+> 6 nodes · cohesion 0.53
 
 ## Key Concepts
 
-- **PermissionsRequiredMixinTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.test_permissioned_denied_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.test_many_permissions_pass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.test_permissioned_denied_exception_raised()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.test_single_permission_pass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **RequestFactoryStateTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.common_test_that_should_always_pass()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_request_after_client()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_request_after_client_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Regression tests for #15929.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Relationships
 
-- [Community 280](Community_280.md) (2 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 288](Community_288.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 201](Community_201.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (89%)
-- INFERRED: 1 (11%)
+- EXTRACTED: 12 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

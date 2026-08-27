@@ -1,46 +1,44 @@
 # Community 577
 
-> 14 nodes · cohesion 0.19
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **.process_view()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **_mask_cipher_secret()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **_get_new_csrf_string()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **._get_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **_get_new_csrf_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **_sanitize_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **.test_csrf_validation_passes_after_process_request_login()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
-- **._reject()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **_get_failure_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **._accept()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **.process_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **Return the view to be used for CSRF rejections.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **Given a secret (assumed to be a string of CSRF_ALLOWED_CHARS), generate a token…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- **CSRF check must access the CSRF token from the session or cookie, rather than…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **SignalTestCase** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.test_login_with_custom_user_without_last_login_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.test_update_last_login()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.test_failed_login_without_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **Set up the listeners and reset the logged in/logged out counters** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **Disconnect the listeners** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **Only `last_login` is updated in `update_last_login`** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **The user_logged_in signal is only registered if the user model has a last_login…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.listener_login()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.listener_login_failed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.listener_logout()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.test_login()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.test_logout()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.test_logout_anonymous()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
 
 ## Relationships
 
-- [Community 41](Community_41.md) (7 shared connections)
-- [Community 338](Community_338.md) (5 shared connections)
-- [Community 445](Community_445.md) (3 shared connections)
-- [Community 95](Community_95.md) (3 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 94](Community_94.md) (1 shared connections)
-- [Community 506](Community_506.md) (1 shared connections)
-- [Community 344](Community_344.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 973](Community_973.md) (1 shared connections)
+- [Community 56](Community_56.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 22 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

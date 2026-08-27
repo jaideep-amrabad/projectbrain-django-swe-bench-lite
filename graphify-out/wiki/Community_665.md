@@ -4,41 +4,34 @@
 
 ## Key Concepts
 
-- **test_percents.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
-- **ExtractingStringsWithPercentSigns** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
-- **FrenchTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
-- **POFileAssertionMixin** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
-- **.assertMsgId()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
-- **._assertPoKeyword()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
-- **.test_adds_python_format_to_all_percent_signs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
-- **.test_trans_tag_with_percent_symbol_at_the_end()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
-- **.test_trans_tag_with_percent_symbol_in_the_middle()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
-- **.test_trans_tag_with_string_that_look_like_fmt_spec()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
-- **Tests using the French translations of the sampleproject.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
-- **Tests the extracted string found in the gettext catalog. Percent signs are…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
+- **MessageTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **DummyObj** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.test_not_equal_to_non_check()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.test_printing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.test_printing_no_hint()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.test_printing_with_given_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.test_equal_to_same_constructed_check()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.test_equal_to_self()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.test_not_equal_to_different_constructed_check()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.test_printing_field_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.test_printing_manager_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.test_printing_model_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **.test_printing_no_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (4 shared connections)
-- [Community 11](Community_11.md) (4 shared connections)
-- [Community 5](Community_5.md) (4 shared connections)
-- [Community 43](Community_43.md) (4 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 422](Community_422.md) (1 shared connections)
-- [Community 513](Community_513.md) (1 shared connections)
+- [Community 44](Community_44.md) (3 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 37 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 19 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

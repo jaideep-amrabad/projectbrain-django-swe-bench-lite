@@ -1,27 +1,27 @@
 # Community 951
 
-> 6 nodes · cohesion 0.33
+> 6 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **GetFormsetsArgumentCheckingAdmin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.change_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **UndeletableObjectAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.change_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.add_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.get_formsets_with_inlines()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **PluralizeTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.check_values()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.test_no_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.test_singular_and_plural_suffix()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.test_suffix()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **setup** (3 connections)
 
 ## Relationships
 
-- [Community 66](Community_66.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,60 +1,59 @@
 # Community 288
 
-> 38 nodes · cohesion 0.06
+> 38 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **AnonymousUser** (46 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **AnonymousUserTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **_user_get_permissions()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.has_perm()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.get_group_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.get_user_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.has_perms()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.test_eq()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.get_all_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.get_user_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.has_perms()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.get_all_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- **.check_password()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.get_group_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.get_username()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.groups()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.__int__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.is_anonymous()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.is_authenticated()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.set_password()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- **admin_ordering/tests.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **TestRelatedFieldsAdminOrdering** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **TestAdminOrdering** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **admin_ordering/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/models.py`
+- **TestInlineModelAdminOrdering** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **Band** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/models.py`
+- **Song** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/models.py`
+- **DynOrderingBandAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/models.py`
+- **.check_ordering_of_field_choices()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **SongInlineDefaultOrdering** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/models.py`
+- **SongInlineNewOrdering** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/models.py`
+- **MockSuperUser** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.test_default_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.test_dynamic_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.test_specified_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.test_specified_ordering_by_f_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.test_default_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.test_specified_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.test_custom_queryset_still_wins()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/models.py`
+- **Let's make sure that ModelAdmin.get_queryset uses the ordering we define in…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **The default ordering should be by name, as specified in the inner Meta class.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
+- **.test_admin_ordering_beats_model_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
 - *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Community 95](Community_95.md) (15 shared connections)
-- [Community 508](Community_508.md) (8 shared connections)
-- [Community 380](Community_380.md) (2 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 49](Community_49.md) (4 shared connections)
+- [Community 19](Community_19.md) (4 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 47](Community_47.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 117](Community_117.md) (2 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
 - [Community 2](Community_2.md) (1 shared connections)
-- [Community 374](Community_374.md) (1 shared connections)
-- [Community 226](Community_226.md) (1 shared connections)
-- [Community 954](Community_954.md) (1 shared connections)
-- [Community 280](Community_280.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_ordering/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_ordering/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 74 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 74 (86%)
+- INFERRED: 12 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

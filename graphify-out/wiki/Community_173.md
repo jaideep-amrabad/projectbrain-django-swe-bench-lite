@@ -1,55 +1,53 @@
 # Community 173
 
-> 60 nodes · cohesion 0.05
+> 46 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **ToFieldThroughTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
-- **m2m_through_regress/models.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **m2m_through_regress/tests.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
-- **MultiTableTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/test_multitable.py`
-- **M2MThroughTestCase** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
-- **test_multitable.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/test_multitable.py`
-- **Group** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **Person** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **M2MThroughSerializationTestCase** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
-- **Car** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **Membership** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **Driver** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **IndividualCompetitor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **CarDriver** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **CompetingTeam** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **Competitor** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **Event** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **ProxiedIndividualCompetitor** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **UserMembership** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **ThroughLoadDataTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- **.test_serialization()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
-- **.test_join_trimming_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
-- **.test_sequence_creation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
-- **.test_m2m_relations_unusable_on_null_pk_obj()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
-- *... and 35 more nodes in this community*
+- **middleware_exceptions/middleware.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **BaseMiddleware** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **async_only_middleware()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **sync_and_async_middleware()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **sync_only_middleware()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **AsyncNoTemplateResponseMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **AsyncProcessExceptionMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **AsyncProcessViewMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **AsyncTemplateResponseMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **NotSyncOrAsyncMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **PaymentMiddleware** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **async_payment_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **DecoratedPaymentMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **LogMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **NoTemplateResponseMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **NotFoundMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **ProcessExceptionExcMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **ProcessExceptionLogMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **ProcessExceptionMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **ProcessViewMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **ProcessViewNoneMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **ProcessViewTemplateResponseMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **SyncAndAsyncMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **TemplateResponseMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **.process_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- *... and 21 more nodes in this community*
 
 ## Relationships
 
-- [Community 14](Community_14.md) (7 shared connections)
-- [Community 95](Community_95.md) (4 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 1](Community_1.md) (7 shared connections)
+- [Community 4](Community_4.md) (5 shared connections)
+- [Community 135](Community_135.md) (4 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 165](Community_165.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/test_multitable.py`
-- `raw/code/hyd-evaluation/django-django/tests/m2m_through_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
 
 ## Audit Trail
 
-- EXTRACTED: 95 (86%)
-- INFERRED: 16 (14%)
+- EXTRACTED: 87 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,41 +1,50 @@
 # Community 550
 
-> 19 nodes · cohesion 0.20
+> 17 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **TimeuntilTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
-- **setup** (16 connections)
-- **.test_timeuntil10()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
-- **.test_timeuntil11()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
-- **requires_tz_support** (2 connections)
-- **.test_aware_naive_type_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
-- **.test_naive_aware_type_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
-- **.test_timeuntil01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
-- **.test_timeuntil02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
-- **.test_timeuntil03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
-- **.test_timeuntil04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
-- **.test_timeuntil05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
-- **.test_timeuntil06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
-- **.test_timeuntil07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
-- **.test_timeuntil08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
-- **.test_timeuntil09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
-- **.test_timeuntil12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
-- **.test_timeuntil13()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
-- **.test_timeuntil14()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- **InlineModelAdminChecks** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **.check()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **_get_foreign_key()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **._check_exclude()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_exclude_of_parent_model()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_formset()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_extra()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_max_num()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_min_num()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_relation()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **.test_foreign_keys_in_parents()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **Check that extra is an integer.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **Check that max_num is an integer.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **Check that min_num is an integer.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **Check formset is a subclass of BaseModelFormSet.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **Check that exclude is a sequence without duplicates.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **Find and return the ForeignKey from model to parent if there is one (return…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (2 shared connections)
+- [Community 248](Community_248.md) (5 shared connections)
+- [Community 551](Community_551.md) (4 shared connections)
+- [Community 195](Community_195.md) (3 shared connections)
+- [Community 196](Community_196.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 49](Community_49.md) (1 shared connections)
+- [Community 295](Community_295.md) (1 shared connections)
+- [Community 145](Community_145.md) (1 shared connections)
+- [Community 106](Community_106.md) (1 shared connections)
+- [Community 116](Community_116.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_timeuntil.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 43 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

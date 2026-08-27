@@ -1,57 +1,37 @@
 # Community 471
 
-> 34 nodes · cohesion 0.08
+> 11 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **Parser** (19 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.parse()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.error()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **Token** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **VariableNode** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **ParserTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_parser.py`
-- **.render_annotated()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.compile_filter()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.invalid_block_tag()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.unclosed_block_tag()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.test_filter_args_count()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_parser.py`
-- **.extend_nodelist()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.next_token()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.skip_past()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.render()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.test_filter_parsing()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_parser.py`
-- **.test_token_smart_split()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_parser.py`
-- **.add_library()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.find_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.prepend_token()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.split_contents()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.test_variable_parsing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_parser.py`
-- **.delete_first_token()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- *... and 9 more nodes in this community*
+- **locks.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- **_fd()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- **OVERLAPPED** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- **lock()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- **unlock()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- **_OFFSET** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- **_OFFSET_UNION** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- **Structure** (2 connections)
+- **Portable file locking utilities. Based partially on an example by Jonathan…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- **Get a filedescriptor from something which could be a file or an fd.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- **Union** (1 connections)
 
 ## Relationships
 
-- [Community 444](Community_444.md) (8 shared connections)
-- [Community 5](Community_5.md) (7 shared connections)
-- [Community 26](Community_26.md) (4 shared connections)
-- [Community 132](Community_132.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
-- [Community 27](Community_27.md) (1 shared connections)
-- [Community 107](Community_107.md) (1 shared connections)
-- [Community 187](Community_187.md) (1 shared connections)
+- [Community 57](Community_57.md) (1 shared connections)
+- [Community 204](Community_204.md) (1 shared connections)
+- [Community 115](Community_115.md) (1 shared connections)
+- [Community 621](Community_621.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_parser.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
 
 ## Audit Trail
 
-- EXTRACTED: 71 (96%)
-- INFERRED: 3 (4%)
+- EXTRACTED: 20 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

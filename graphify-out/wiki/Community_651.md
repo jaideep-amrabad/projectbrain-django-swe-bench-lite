@@ -1,37 +1,38 @@
 # Community 651
 
-> 14 nodes · cohesion 0.19
+> 14 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **Command** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
-- **.handle_inspection()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
-- **gis/management/commands/inspectdb.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/inspectdb.py`
-- **Command** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/inspectdb.py`
-- **.get_field_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
-- **.get_meta()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
-- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
-- **.normalize_col_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
-- **InspectDBCommand** (1 connections)
-- **.get_field_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/inspectdb.py`
-- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
-- **Modify the column name to make it Python-compatible as a field name** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
-- **Given the database connection, the table name, and the cursor row description,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
-- **Return a sequence comprising the lines of code necessary to construct the inner…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **LineString** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **._listarr()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.x()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.y()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.z()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Return the X coordinates in a list.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **LinearRing** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.__len__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Return the Point at the given index.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Return the number of points in the LineString.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Return the tuple representation of this LineString.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Internal routine that returns a sequence (list) corresponding with the given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (4 shared connections)
+- [Community 32](Community_32.md) (2 shared connections)
+- [Community 40](Community_40.md) (1 shared connections)
+- [Community 68](Community_68.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/inspectdb.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 21 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

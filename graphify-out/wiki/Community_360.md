@@ -1,50 +1,59 @@
 # Community 360
 
-> 31 nodes · cohesion 0.11
+> 30 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **OnDeleteTests** (44 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **create_a()** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **A** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **.test_auto()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_auto_nullable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_cascade()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_cascade_from_child()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_cascade_from_parent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_cascade_nullable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_do_nothing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_do_nothing_qscount()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_o2o_setnull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_protect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_protect_multiple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_protect_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_restrict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_restrict_multiple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_restrict_path_cascade_direct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_restrict_path_cascade_indirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_setdefault()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_setdefault_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_setnull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_setnull_from_child()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_setnull_from_parent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_setvalue()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- *... and 6 more nodes in this community*
+- **AdminSeleniumTestCase** (32 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_until()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_page_loaded()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_page_ready()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **._assertOptionsValues()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_for_and_switch_to_popup()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.assertSelectedOptions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.assertSelectOptions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.deselect_option()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.select_option()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_for()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_for_text()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_for_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_until_invisible()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.wait_until_visible()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.admin_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **.has_css_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **Assert that the <SELECT> widget identified by `selector` has the options with…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **Block until the page is ready.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **Block until a new page has loaded and is ready.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **Select the <OPTION> with the value `value` inside the <SELECT> widget…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **Deselect the <OPTION> with the value `value` inside the <SELECT> widget…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **Return True if the element identified by `selector` has the CSS class `klass`.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **Block the execution of the tests until the specified callback returns a value…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- **Block until `num_windows` are present and are ready (usually 2, but can be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 326](Community_326.md) (21 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
+- [Community 6](Community_6.md) (6 shared connections)
+- [Community 259](Community_259.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 51](Community_51.md) (1 shared connections)
+- [Community 328](Community_328.md) (1 shared connections)
+- [Community 193](Community_193.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 571](Community_571.md) (1 shared connections)
+- [Community 443](Community_443.md) (1 shared connections)
+- [Community 858](Community_858.md) (1 shared connections)
+- [Community 493](Community_493.md) (1 shared connections)
+- [Community 764](Community_764.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 58 (79%)
-- INFERRED: 15 (21%)
+- EXTRACTED: 60 (97%)
+- INFERRED: 2 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

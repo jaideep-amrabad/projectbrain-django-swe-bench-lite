@@ -4,27 +4,29 @@
 
 ## Key Concepts
 
-- **default_if_none()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **test_default_if_none.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default_if_none.py`
-- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default_if_none.py`
-- **.test_empty_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default_if_none.py`
-- **.test_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default_if_none.py`
-- **.test_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default_if_none.py`
-- **If value is None, use given default.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **Cos** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **CosTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cos.py`
+- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cos.py`
+- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cos.py`
+- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cos.py`
+- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cos.py`
+- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cos.py`
 
 ## Relationships
 
-- [Community 47](Community_47.md) (3 shared connections)
-- [Community 5](Community_5.md) (3 shared connections)
+- [Community 19](Community_19.md) (5 shared connections)
+- [Community 105](Community_105.md) (1 shared connections)
+- [Community 16](Community_16.md) (1 shared connections)
+- [Community 62](Community_62.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default_if_none.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cos.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (100%)
+- EXTRACTED: 17 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

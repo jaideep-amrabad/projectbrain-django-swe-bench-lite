@@ -4,23 +4,25 @@
 
 ## Key Concepts
 
-- **SecretHideout** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **SuperSecretHideout** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Secret! Not registered with the admin!** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **RequestHeadersTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_client_headers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_client_headers_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **A test client can receive custom headers** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Test client headers are preserved through redirects** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Relationships
 
-- [Community 91](Community_91.md) (2 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 201](Community_201.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

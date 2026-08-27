@@ -1,54 +1,56 @@
 # Community 331
 
-> 18 nodes · cohesion 0.16
+> 34 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **gis/admin/__init__.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/__init__.py`
-- **gis/admin/options.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
-- **gis/admin/widgets.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/widgets.py`
-- **GeoModelAdmin** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
-- **OpenLayersWidget** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/widgets.py`
-- **.get_map_widget()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
-- **.formfield_for_dbfield()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
-- **.media()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
-- **OSMGeoAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
-- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/widgets.py`
-- **.map_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/widgets.py`
-- **Media** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
-- **The administration options class for Geographic models. Map settings may be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
-- **Injects OpenLayers JavaScript into the admin.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
-- **Overloaded from ModelAdmin so that an OpenLayersWidget is used for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
-- **Return a subclass of the OpenLayersWidget (or whatever was specified in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
-- **Render an OpenLayers map using the WKT of the geometry.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/widgets.py`
-- **Build the map options hash for the OpenLayers template.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/widgets.py`
+- **InlineFormsetFactoryTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
+- **inline_formsets/tests.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
+- **DeletionTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
+- **inline_formsets/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
+- **Poem** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
+- **Poet** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
+- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
+- **Parent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
+- **School** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
+- **.test_add_form_deletion_when_invalid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
+- **.test_change_form_deletion_when_invalid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
+- **.test_save_new()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
+- **.test_exception_on_unspecified_foreign_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
+- **.test_fk_in_all_formset_forms()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
+- **.test_fk_name_not_foreign_key_field_from_child()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
+- **.test_fk_not_duplicated_in_form_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
+- **.test_inline_formset_factory()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
+- **.test_non_foreign_key_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
+- **.test_unsaved_fk_validate_unique()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
+- **.test_zero_primary_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
+- **.test_deletion()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
+- **.test_any_iterable_allowed_as_argument_to_exclude()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 22](Community_22.md) (6 shared connections)
-- [Community 81](Community_81.md) (5 shared connections)
-- [Community 958](Community_958.md) (4 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 33](Community_33.md) (3 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 465](Community_465.md) (1 shared connections)
-- [Community 627](Community_627.md) (1 shared connections)
-- [Community 123](Community_123.md) (1 shared connections)
-- [Community 80](Community_80.md) (1 shared connections)
-- [Community 203](Community_203.md) (1 shared connections)
-- [Community 86](Community_86.md) (1 shared connections)
+- [Community 295](Community_295.md) (14 shared connections)
+- [Community 19](Community_19.md) (3 shared connections)
+- [Community 38](Community_38.md) (2 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 151](Community_151.md) (1 shared connections)
+- [Community 106](Community_106.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/widgets.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 63 (88%)
+- INFERRED: 9 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,26 +1,24 @@
 # Community 1098
 
-> 4 nodes · cohesion 0.50
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **AssertRaisesMsgTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_special_re_chars()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_assert_raises_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **assertRaisesMessage shouldn't interpret RE special chars.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **EmptyModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 69](Community_69.md) (1 shared connections)
+- [Community 93](Community_93.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

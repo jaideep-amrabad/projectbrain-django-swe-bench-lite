@@ -4,27 +4,27 @@
 
 ## Key Concepts
 
-- **MailTimeZoneTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_date_header_localtime()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_date_header_utc()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **requires_tz_support** (1 connections)
-- **EMAIL_USE_LOCALTIME=False creates a datetime in UTC.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **EMAIL_USE_LOCALTIME=True creates a datetime in the local time zone.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **NonDjangoTemplatesDebugViewTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_template_not_found_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_400()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_400_bad_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_403()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_404()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 
 ## Relationships
 
-- [Community 120](Community_120.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 177](Community_177.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 92](Community_92.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

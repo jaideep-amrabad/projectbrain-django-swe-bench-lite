@@ -1,39 +1,33 @@
 # Community 902
 
-> 11 nodes · cohesion 0.18
+> 7 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **.get_traceback_data()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **._get_lines_from_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.get_traceback_html()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.get_traceback_text()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.get_traceback_frames()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **._get_source()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **.start()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **Return a dictionary containing traceback information.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **Return HTML version of debug 500 HTTP error page.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **Return plain text version of debug 500 HTTP error page.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **Return context_lines before and after lineno from file. Return…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **CallableSettingWrapper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **CallableSettingWrapperTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **Object to wrap callable appearing in settings. * Not to call in the debug page…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **Unittests for CallableSettingWrapper** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 
 ## Relationships
 
-- [Community 737](Community_737.md) (6 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
-- [Community 47](Community_47.md) (1 shared connections)
+- [Community 92](Community_92.md) (2 shared connections)
+- [Community 249](Community_249.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 - [Community 2](Community_2.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 794](Community_794.md) (1 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 11 (92%)
+- INFERRED: 1 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

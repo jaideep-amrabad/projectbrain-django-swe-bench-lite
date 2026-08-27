@@ -1,29 +1,25 @@
 # Community 1044
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **Parent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ParentAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.save_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **cancel.js** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/cancel.js`
+- **handleClick()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/cancel.js`
+- **ready()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/cancel.js`
 
 ## Relationships
 
-- [Community 66](Community_66.md) (2 shared connections)
-- [Community 91](Community_91.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/cancel.js`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (86%)
-- INFERRED: 1 (14%)
+- EXTRACTED: 2 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

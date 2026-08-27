@@ -1,41 +1,61 @@
 # Community 443
 
-> 18 nodes · cohesion 0.11
+> 24 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **CheckboxInputTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_render_check_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_render_check_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_render_int()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_render_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_value_from_datadict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_get_context_does_not_mutate_attrs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_render_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_render_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_render_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_render_true()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_value_from_datadict_string_int()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **Using any value that's not in ('', None, False, True) will check the checkbox…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **Integers are handled by value, not as booleans (#17114).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **You can pass 'check_test' to the constructor. This is a callable that takes the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **Calling check_test() shouldn't swallow exceptions (#17888).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **The CheckboxInput widget will return False if the key is not found in the data…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **LiveServerTestCase** (23 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **classproperty** (19 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **SeleniumTestCase** (13 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **test_functional.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
+- **.setUpClass()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **test_liveserverthread.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
+- **LiveServerThreadTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
+- **._create_server_thread()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.tearDownClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._tearDownClassInternal()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.run_live_server_thread()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
+- **.test_classproperty_getter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
+- **.allowed_host()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.disable_implicit_wait()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.live_server_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.allowed_host()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.live_server_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.test_closes_connections()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
+- **Disable the default implicit wait.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **._tearDownClassInternal()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **Do basically the same as TransactionTestCase but also launch a live HTTP server…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__get__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **Decorator that converts a method with a single cls argument into a property…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
 
 ## Relationships
 
-- [Community 62](Community_62.md) (2 shared connections)
-- [Community 33](Community_33.md) (2 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 222](Community_222.md) (4 shared connections)
+- [Community 169](Community_169.md) (4 shared connections)
+- [Community 307](Community_307.md) (3 shared connections)
+- [Community 571](Community_571.md) (2 shared connections)
+- [Community 200](Community_200.md) (2 shared connections)
+- [Community 24](Community_24.md) (2 shared connections)
+- [Community 824](Community_824.md) (2 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 19](Community_19.md) (2 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (90%)
-- INFERRED: 2 (10%)
+- EXTRACTED: 71 (93%)
+- INFERRED: 5 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

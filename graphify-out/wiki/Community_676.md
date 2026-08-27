@@ -1,39 +1,36 @@
 # Community 676
 
-> 13 nodes · cohesion 0.18
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **EmailBackend** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
-- **EmailBackend** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
-- **.send_messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
-- **._get_filename()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
-- **.write_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
-- **.open()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
-- **ConsoleEmailBackend** (1 connections)
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
-- **Write all messages to the stream in a thread-safe way.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
-- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
-- **.write_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
-- **Return a unique file name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
+- **RegroupTagTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- **setup** (9 connections)
+- **.test_regroup02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- **.test_regroup03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- **.test_regroup04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- **.test_regroup01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- **.test_regroup05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- **.test_regroup06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- **.test_regroup07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- **.test_regroup08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- **.test_regroup_unpack()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- **Test for silent failure when target variable isn't found** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- **Regression tests for #17675 The date template filter has expects_localtime =…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
+- **The join template filter has needs_autoescape = True** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 177](Community_177.md) (1 shared connections)
-- [Community 466](Community_466.md) (1 shared connections)
-- [Community 102](Community_102.md) (1 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_regroup.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (90%)
-- INFERRED: 2 (10%)
+- EXTRACTED: 23 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

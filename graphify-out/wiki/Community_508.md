@@ -1,55 +1,46 @@
 # Community 508
 
-> 21 nodes · cohesion 0.15
+> 20 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **view()** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/nonimported_module.py`
-- **UserPassesTestTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **AccessMixinTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **._test_redirect()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.test_login_required()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.test_access_mixin_permission_denied_remote_login_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.test_access_mixin_permission_denied_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.test_stacked_mixins_not_logged_in()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.test_raise_exception_custom_message()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.test_raise_exception_custom_message_function()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.test_user_passes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.test_stacked_mixins_missing_permission()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.test_stacked_mixins_success()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.test_custom_redirect_parameter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.test_custom_redirect_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.test_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.test_no_redirect_parameter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.test_raise_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **object** (1 connections)
-- **login_required works on a simple view wrapped in a login_required decorator.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **nonimported_module.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/nonimported_module.py`
+- **WatchmanReloader** (19 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **._update_watches()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.check_server_status()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **._subscribe()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.tick()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **._watch_glob()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.watched_roots()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **common_roots()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **sys_path_directories()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **._check_subscription()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **._subscribe_dir()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **._watch_root()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **._get_clock()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **Return a tuple of common roots that are shared between the given paths. File…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **Yield absolute directories from sys.path, ignoring entries that don't exist.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **Watch a directory with a specific glob. If the directory doesn't yet exist,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **Return True if the server is available.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.client()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.request_processed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
 
 ## Relationships
 
-- [Community 288](Community_288.md) (8 shared connections)
-- [Community 309](Community_309.md) (6 shared connections)
-- [Community 270](Community_270.md) (5 shared connections)
-- [Community 280](Community_280.md) (3 shared connections)
-- [Community 41](Community_41.md) (2 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 151](Community_151.md) (1 shared connections)
-- [Community 564](Community_564.md) (1 shared connections)
-- [Community 874](Community_874.md) (1 shared connections)
-- [Community 317](Community_317.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 507](Community_507.md) (6 shared connections)
+- [Community 627](Community_627.md) (4 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
+- [Community 504](Community_504.md) (1 shared connections)
+- [Community 522](Community_522.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/nonimported_module.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (55%)
-- INFERRED: 28 (45%)
+- EXTRACTED: 41 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,26 +1,26 @@
 # Community 1020
 
-> 5 nodes · cohesion 0.60
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **TruncatecharsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatechars.py`
-- **setup** (3 connections)
-- **.test_fail_silently_incorrect_arg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatechars.py`
-- **.test_truncatechars01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatechars.py`
-- **.test_truncatechars02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatechars.py`
+- **CustomPaginator** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **TemplateResponseWithoutTemplate** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (2 shared connections)
+- [Community 123](Community_123.md) (2 shared connections)
+- [Community 124](Community_124.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatechars.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,27 +1,25 @@
 # Community 997
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **CacheHandlerTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_per_thread()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_same_instance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **Attempting to retrieve the same alias should yield the same instance.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **Requesting the same alias from separate threads should yield separate instances.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.metadata()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/base.py`
+- **setter** (1 connections)
+- **Return the metadata for this raster or band. The return value is a nested…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/base.py`
+- **Set the metadata. Update only the domains that are contained in the value…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/base.py`
 
 ## Relationships
 
-- [Community 41](Community_41.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 32](Community_32.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

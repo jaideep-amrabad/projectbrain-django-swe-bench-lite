@@ -1,65 +1,62 @@
 # Community 108
 
-> 79 nodes · cohesion 0.04
+> 197 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **file_uploads/views.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **file_uploads/tests.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **files/uploadhandler.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **FileUploadHandler** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **StopUpload** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **QuotaUploadHandler** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
-- **FileModel** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/models.py`
-- **file_uploads/uploadhandler.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
-- **MemoryFileUploadHandler** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **TemporaryFileUploadHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **StopFutureHandlers** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **UploadFileException** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **ErroringUploadHandler** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
-- **file_upload_echo()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **file_upload_view_verify()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **SkipFile** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **file_uploads/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/models.py`
-- **.new_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **.new_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **file_upload_filename_case_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **file_upload_quota()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **file_upload_quota_broken()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **file_upload_unicode_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
-- **load_handler()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **CustomUploadError** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
-- *... and 54 more nodes in this community*
+- **model_forms/tests.py** (122 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **model_forms/models.py** (67 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **UniqueTest** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Meta** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **test_modelchoicefield.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **Category** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **Writer** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **ModelOneToOneFieldTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **OtherModelFormTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Article** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **LimitChoicesToTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Book** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **Inventory** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **ModelOtherFieldTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **model_to_dict()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **Meta** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **Person** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **Price** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **BookForm** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **DerivedBookForm** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Author** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **Colour** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **DerivedBook** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **Post** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- **Triple** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- *... and 172 more nodes in this community*
 
 ## Relationships
 
-- [Community 82](Community_82.md) (13 shared connections)
-- [Community 222](Community_222.md) (10 shared connections)
-- [Community 4](Community_4.md) (10 shared connections)
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 321](Community_321.md) (5 shared connections)
-- [Community 163](Community_163.md) (4 shared connections)
-- [Community 193](Community_193.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 269](Community_269.md) (2 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 191](Community_191.md) (1 shared connections)
+- [Community 262](Community_262.md) (15 shared connections)
+- [Community 372](Community_372.md) (14 shared connections)
+- [Community 265](Community_265.md) (10 shared connections)
+- [Community 389](Community_389.md) (9 shared connections)
+- [Community 19](Community_19.md) (9 shared connections)
+- [Community 2](Community_2.md) (9 shared connections)
+- [Community 45](Community_45.md) (6 shared connections)
+- [Community 461](Community_461.md) (6 shared connections)
+- [Community 601](Community_601.md) (5 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 421](Community_421.md) (5 shared connections)
+- [Community 919](Community_919.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/uploadhandler.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/views.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 159 (94%)
-- INFERRED: 11 (6%)
+- EXTRACTED: 416 (82%)
+- INFERRED: 91 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

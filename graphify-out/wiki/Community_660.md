@@ -1,37 +1,44 @@
 # Community 660
 
-> 14 nodes · cohesion 0.18
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **MessageTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **DummyObj** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_not_equal_to_non_check()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_printing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_printing_no_hint()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_printing_with_given_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_equal_to_same_constructed_check()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_equal_to_self()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_not_equal_to_different_constructed_check()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_printing_field_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_printing_manager_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_printing_model_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **.test_printing_no_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- **TestInlineProtectedOnDelete** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **FootNote** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **Chapter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **TestDataMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **ChapterInline** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/admin.py`
+- **FootNoteNonEditableInlineCustomForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/admin.py`
+- **ReadOnlyChapterInline** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/admin.py`
+- **.test_deleting_inline_with_protected_delete_does_not_validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.call_me()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/admin.py`
+- **.has_change_permission()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/admin.py`
+- **.has_change_permission()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/admin.py`
+- **Model added for ticket 19838** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
 
 ## Relationships
 
-- [Community 598](Community_598.md) (3 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 328](Community_328.md) (7 shared connections)
+- [Community 184](Community_184.md) (6 shared connections)
+- [Community 213](Community_213.md) (1 shared connections)
+- [Community 661](Community_661.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 24 (77%)
+- INFERRED: 7 (23%)
 - AMBIGUOUS: 0 (0%)
 
 ---

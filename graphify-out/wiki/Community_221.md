@@ -1,60 +1,51 @@
 # Community 221
 
-> 57 nodes · cohesion 0.05
+> 48 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **Truncator** (19 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **truncatewords_html()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **truncatechars_html()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **FunctionTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatewords_html.py`
-- **FunctionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatechars_html.py`
-- **ForeignKeyRawIdWidget** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **ManyToManyRawIdWidget** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.get_context()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.get_context()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.add_truncation_text()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **.chars()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **._truncate_html()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **test_truncatechars_html.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatechars_html.py`
-- **test_truncatewords_html.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatewords_html.py`
-- **AdminSplitDateTime** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.base_url_parameters()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **._text_chars()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **._text_words()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **.words()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **AdminURLFieldWidget** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.label_and_url_for_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **.url_parameters()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **url_params_from_lookup_dict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- **Truncate a string after a certain number of chars.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **.get_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- *... and 32 more nodes in this community*
+- **SyndicationFeedTest** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_rss2_feed()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.assertChildNodeContent()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.assertChildNodes()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_rss091_feed()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.assertCategories()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_atom_feed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_feed_last_modified_time_naive_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_latest_post_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_naive_datetime_conversion()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_template_context_feed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_template_feed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **Test if the 'isPermaLink' attribute of <guid> element of an item in the RSS…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_add_domain()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_atom_feed_published_and_updated_elements()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_aware_datetime_conversion()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_custom_feed_generator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_feed_last_modified_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_feed_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_item_link_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_rss2_feed_guid_permalink_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_rss2_feed_guid_permalink_true()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_secure_urls()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_title_escaping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **requires_tz_support** (1 connections)
+- *... and 23 more nodes in this community*
 
 ## Relationships
 
-- [Community 47](Community_47.md) (11 shared connections)
-- [Community 1](Community_1.md) (8 shared connections)
-- [Community 5](Community_5.md) (6 shared connections)
-- [Community 297](Community_297.md) (3 shared connections)
-- [Community 15](Community_15.md) (2 shared connections)
-- [Community 57](Community_57.md) (2 shared connections)
-- [Community 53](Community_53.md) (1 shared connections)
-- [Community 849](Community_849.md) (1 shared connections)
-- [Community 536](Community_536.md) (1 shared connections)
+- [Community 720](Community_720.md) (6 shared connections)
+- [Community 294](Community_294.md) (2 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 376](Community_376.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatechars_html.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatewords_html.py`
+- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 121 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 64 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

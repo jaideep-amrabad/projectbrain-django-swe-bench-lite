@@ -1,65 +1,57 @@
 # Community 213
 
-> 50 nodes · cohesion 0.07
+> 49 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **SimpleArrayField** (23 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **TestSimpleFormField** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **SplitArrayField** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **TestSplitFormField** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **prefix_validation_error()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/utils.py`
-- **error()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **.clean()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.run_validators()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.to_python()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.validate()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.has_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.test_splitarrayfield_has_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_splitarrayfield_remove_trailing_nulls_has_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.run_validators()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **.validate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **.has_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **._remove_trailing_nulls()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.to_python()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.test_inlineformset_with_arrayfield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_rendering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_splitarraywidget_value_omitted_from_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **._post_clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.test_already_converted_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_delimiter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- *... and 25 more nodes in this community*
+- **TestInline** (54 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_localize_pk_shortcut()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_callable_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_can_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_create_inlines_on_inherited_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_custom_form_tabular_inline_label()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_custom_form_tabular_inline_overridden_label()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_custom_pk_shortcut()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_help_text()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_inline_hidden_field_no_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_inlines_show_change_link_registered()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_inlines_show_change_link_unregistered()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_many_to_many_inlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_no_parent_callable_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_non_related_name_inline()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_noneditable_inline_has_field_inputs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_tabular_inline_column_css_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_tabular_inline_show_change_link_false_registered()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_tabular_model_form_meta_readonly_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_tabular_non_field_errors()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_custom_form_tabular_inline_extra_field_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_custom_get_extra_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_inline_editable_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_inline_nonauto_noneditable_inherited_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_inline_nonauto_noneditable_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [Community 75](Community_75.md) (7 shared connections)
-- [Community 1](Community_1.md) (6 shared connections)
-- [Community 228](Community_228.md) (5 shared connections)
-- [Community 88](Community_88.md) (4 shared connections)
-- [Community 366](Community_366.md) (3 shared connections)
-- [Community 501](Community_501.md) (2 shared connections)
-- [Community 126](Community_126.md) (2 shared connections)
-- [Community 481](Community_481.md) (1 shared connections)
-- [Community 769](Community_769.md) (1 shared connections)
-- [Community 572](Community_572.md) (1 shared connections)
-- [Community 536](Community_536.md) (1 shared connections)
-- [Community 118](Community_118.md) (1 shared connections)
+- [Community 6](Community_6.md) (30 shared connections)
+- [Community 328](Community_328.md) (9 shared connections)
+- [Community 605](Community_605.md) (3 shared connections)
+- [Community 661](Community_661.md) (3 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 184](Community_184.md) (2 shared connections)
+- [Community 493](Community_493.md) (2 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 660](Community_660.md) (1 shared connections)
+- [Community 1007](Community_1007.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 82 (68%)
-- INFERRED: 38 (32%)
+- EXTRACTED: 84 (82%)
+- INFERRED: 18 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,53 +1,51 @@
 # Community 446
 
-> 23 nodes · cohesion 0.21
+> 24 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **FallbackTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **set_cookie_data()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **.get_session_storage()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **set_session_data()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
-- **.stored_session_messages_count()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_flush_used_backends()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.get_cookie_storage()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.get_request()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.stored_cookie_messages_count()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_get_fallback()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_get_fallback_only()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_get()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_no_fallback()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.stored_messages_count()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_session_fallback()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_session_fallback_only()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_get_empty()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **Set ``request.COOKIES`` with the encoded data and remove the storage backend's…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **(1) A short number of messages whose data size doesn't exceed what is allowed…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **If the data exceeds what is allowed in a cookie, messages which did not fit are…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **Large messages, none of which fit in a cookie, are stored in the SessionBackend…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **Return the storage totals from both cookie and session backends.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **Sets the messages into the backend request's session and remove the backend's…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **CustomColumnsTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **custom_columns/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **custom_columns/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
+- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
+- **Author** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
+- **Custom column/table names If your database column name is different than your…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_attribute_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_author_filtering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_author_get()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_author_get_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_author_querying()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_field_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_filter_first_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_filter_on_nonexistent_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_get_all_articles_for_an_author()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_get_all_authors_for_an_article()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_get_author_m2m_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_get_first_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_m2m_table()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
+- **.test_query_all_available_authors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
 
 ## Relationships
 
-- [Community 501](Community_501.md) (5 shared connections)
-- [Community 625](Community_625.md) (2 shared connections)
-- [Community 917](Community_917.md) (2 shared connections)
-- [Community 600](Community_600.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 282](Community_282.md) (1 shared connections)
-- [Community 601](Community_601.md) (1 shared connections)
+- [Community 222](Community_222.md) (2 shared connections)
+- [Community 19](Community_19.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_columns/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_columns/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 64 (97%)
-- INFERRED: 2 (3%)
+- EXTRACTED: 33 (94%)
+- INFERRED: 2 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

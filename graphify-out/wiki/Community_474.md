@@ -1,48 +1,46 @@
 # Community 474
 
-> 23 nodes · cohesion 0.13
+> 18 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **ManyToOneNullTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **many_to_one_null/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
-- **many_to_one_null/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **Article** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
-- **Reporter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
-- **Car** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
-- **Driver** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
-- **.setUpTestData()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
-- **Many-to-one relationships that can be null To define a many-to-one relationship…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
-- **.test_add_efficiency()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **.test_assign_clear_related_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **.test_assign_with_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **.test_clear_efficiency()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **.test_created_via_related_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **.test_created_without_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **.test_get_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **.test_related_null_to_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **.test_related_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **.test_remove_from_wrong_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **.test_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
-- **.test_set_clear_non_bulk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **get_object_or_404/tests.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
+- **get_list_or_404()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
+- **get_object_or_404/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
+- **GetObjectOr404Tests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
+- **Article** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
+- **Author** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
+- **.test_bad_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
+- **.test_get_list_or_404_queryset_attribute_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
+- **.test_get_object_or_404()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
+- **.test_get_object_or_404_queryset_attribute_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
+- **ArticleManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
+- **AttributeErrorManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
+- **Use filter() to return a list of objects, or raise a Http404 exception if the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
+- **DB-API Shortcuts ``get_object_or_404()`` is a shortcut function to be used in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
+- **AttributeError raised by QuerySet.filter() isn't hidden.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
+- **AttributeError raised by QuerySet.get() isn't hidden.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 1](Community_1.md) (10 shared connections)
+- [Community 19](Community_19.md) (2 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
+- `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/get_object_or_404/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (89%)
-- INFERRED: 4 (11%)
+- EXTRACTED: 38 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

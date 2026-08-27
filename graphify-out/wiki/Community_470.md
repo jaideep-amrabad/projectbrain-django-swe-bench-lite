@@ -1,57 +1,49 @@
 # Community 470
 
-> 30 nodes · cohesion 0.07
+> 20 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **OtherModelFormTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Inventory** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **model_to_dict()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **Colour** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **Character** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **ModelFormWithMedia** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **ModelToDictTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **ArticleStatusForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **CustomFieldForExclusionForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **InventoryForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_foreignkeys_which_use_to_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.__str__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.test_many_to_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_choices_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **SelectInventoryForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.__repr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.__repr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.test_modelform_subclassed_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_media_on_modelform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_model_field_that_returns_none_to_exclude_itself_with_explicit_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_prefetch_related_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Return a dict containing the data in ``instance`` suitable for passing as a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- *... and 5 more nodes in this community*
+- **Command** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.collect()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.link_file()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.log()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.delete_file()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.handle()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.clear_dir()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.copy_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.set_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.is_local_storage()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.local()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **Copies or symlinks static files from different locations to the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **Delete the given relative path using the destination storage backend.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **Check if the target file should be deleted if it already exists.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **Attempt to link ``path``** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **Attempt to copy ``path`` with storage** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **Set instance variables based on an options dict** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **Perform the bulk of the work of collectstatic. Split off from handle() to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
 
 ## Relationships
 
-- [Community 74](Community_74.md) (22 shared connections)
-- [Community 377](Community_377.md) (4 shared connections)
-- [Community 410](Community_410.md) (2 shared connections)
-- [Community 458](Community_458.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 272](Community_272.md) (1 shared connections)
-- [Community 185](Community_185.md) (1 shared connections)
+- [Community 57](Community_57.md) (4 shared connections)
+- [Community 146](Community_146.md) (2 shared connections)
+- [Community 80](Community_80.md) (1 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
+- [Community 180](Community_180.md) (1 shared connections)
+- [Community 492](Community_492.md) (1 shared connections)
+- [Community 96](Community_96.md) (1 shared connections)
+- [Community 103](Community_103.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
 
 ## Audit Trail
 
-- EXTRACTED: 53 (79%)
-- INFERRED: 14 (21%)
+- EXTRACTED: 38 (90%)
+- INFERRED: 4 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

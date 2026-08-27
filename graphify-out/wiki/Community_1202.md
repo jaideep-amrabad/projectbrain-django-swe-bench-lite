@@ -4,22 +4,20 @@
 
 ## Key Concepts
 
-- **.test_date_header_localtime()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **EMAIL_USE_LOCALTIME=True creates a datetime in the local time zone.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_response_resolver_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **The response contains a ResolverMatch instance.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 126](Community_126.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 518](Community_518.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

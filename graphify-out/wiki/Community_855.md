@@ -4,29 +4,28 @@
 
 ## Key Concepts
 
-- **ManageNoSettings** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **A series of tests for manage.py when there is no settings.py file.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **no settings: manage.py builtin commands fail with an error when no settings…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **no settings: manage.py builtin commands fail if settings file (from argument)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **no settings: manage.py builtin commands fail if settings file (from…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.get_or_create()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.get()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.create()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._extract_model_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Perform the query and return a single object matching the given keyword…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Create a new object with the given kwargs, saving it to the database and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Look up an object with the given kwargs, creating one if necessary. Return a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Prepare `params` for creating a model instance based on the given kwargs; for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Relationships
 
-- [Community 117](Community_117.md) (3 shared connections)
-- [Community 92](Community_92.md) (3 shared connections)
-- [Community 286](Community_286.md) (3 shared connections)
-- [Community 236](Community_236.md) (2 shared connections)
+- [Community 178](Community_178.md) (4 shared connections)
+- [Community 268](Community_268.md) (1 shared connections)
+- [Community 182](Community_182.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

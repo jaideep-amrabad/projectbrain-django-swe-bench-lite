@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **AdminOrderedModelMethod** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.some_order()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.test_inheritance12()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Three-level with this level providing one and second level providing the other** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 66](Community_66.md) (1 shared connections)
-- [Community 91](Community_91.md) (1 shared connections)
+- [Community 774](Community_774.md) (1 shared connections)
+- [Community 804](Community_804.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 

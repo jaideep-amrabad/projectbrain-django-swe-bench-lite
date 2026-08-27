@@ -1,41 +1,40 @@
 # Community 630
 
-> 14 nodes · cohesion 0.23
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **RegexField** (14 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **RegexFieldTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **._set_regex()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.test_change_regex_after_init()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
-- **.test_get_regex()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
-- **.test_regexfield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
-- **.test_regexfield_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
-- **.test_regexfield_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
-- **.test_regexfield_4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
-- **.test_regexfield_strip()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
-- **.test_regexfield_unicode_characters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
-- **regex can be either a string or a compiled regular expression object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **._get_regex()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **LoginRedirectAuthenticatedUser** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_redirect_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_redirect_loop()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_redirect_param()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_guest()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_permission_required_logged_in()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_permission_required_not_logged_in()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **Stay on the login page by default.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **If not logged in, stay on the same page.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **If logged in, go to default redirected URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **If logged in, go to custom redirected URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **If next is specified as a GET parameter, go there.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **Detect a redirect loop if LOGIN_REDIRECT_URL is not correctly set, with and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Relationships
 
-- [Community 73](Community_73.md) (2 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
-- [Community 233](Community_233.md) (1 shared connections)
+- [Community 381](Community_381.md) (6 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 662](Community_662.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (67%)
-- INFERRED: 9 (33%)
+- EXTRACTED: 23 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

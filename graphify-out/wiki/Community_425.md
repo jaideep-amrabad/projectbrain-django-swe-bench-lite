@@ -1,42 +1,46 @@
 # Community 425
 
-> 16 nodes · cohesion 0.18
+> 23 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **MediaType** (15 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **MediaTypeTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_accept_header.py`
-- **test_accept_header.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_accept_header.py`
-- **.accepted_types()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **parse_accept_header()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.test_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_accept_header.py`
-- **.test_is_all_types()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_accept_header.py`
-- **.test_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_accept_header.py`
-- **.test_no_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_accept_header.py`
-- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_accept_header.py`
-- **.test_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_accept_header.py`
-- **.is_all_types()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.match()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **Return a list of MediaType instances.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **FormatStylePlaceholderCursor** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **VariableWrapper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.executemany()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.execute()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._fix_for_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._format_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._guess_input_sizes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._output_type_handler()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._param_generator()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.arrayvar()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._get_decimal_converter()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.var()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._output_number_converter()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **An adapter class for cursor variables that prevents the wrapped object from…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **Django uses "format" (e.g. '%s') style placeholders, but Oracle uses ":var"…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **Called for each db column fetched from cursors. Return numbers as the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.bind_parameter()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.__setattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
 
 ## Relationships
 
-- [Community 82](Community_82.md) (4 shared connections)
-- [Community 98](Community_98.md) (3 shared connections)
-- [Community 828](Community_828.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
+- [Community 222](Community_222.md) (5 shared connections)
+- [Community 473](Community_473.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- `raw/code/hyd-evaluation/django-django/tests/requests/test_accept_header.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 39 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

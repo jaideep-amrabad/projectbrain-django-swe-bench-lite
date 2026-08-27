@@ -1,61 +1,59 @@
 # Community 234
 
-> 47 nodes · cohesion 0.08
+> 46 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **DiscoverRunner** (70 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **DiscoverRunnerTests** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **captured_stderr()** (21 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.test_name_patterns()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **change_cwd()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_buffer_mode_test_fail()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_buffer_mode_test_pass()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_empty_label()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_faulthandler_enabled_fileno()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **patch** (4 connections)
-- **.test_duplicates_ignored()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_excluded_tags_displayed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_faulthandler_already_enabled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_faulthandler_disabled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_faulthandler_enabled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_file_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_ignore_adjacent()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_included_tags_displayed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_reverse()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_testcase_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_timings_captured()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_timings_not_captured()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.get_test_methods_names()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_buffer_with_parallel()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_discovery_on_package()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- *... and 22 more nodes in this community*
+- **TestQuerying** (63 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_obj_subquery_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_ordering_grouping_by_count()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **skipIf** (2 connections)
+- **.test_array_key_contains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_contained_by()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_contains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_contains_primitives()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_deep_distinct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_isnull_key_or_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_key_contains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_lookup_exclude()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_lookup_exclude_nonexistent_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_order_grouping_custom_decoder()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_usage_in_subquery()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_deep_lookup_array()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_deep_lookup_mixed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_deep_lookup_objs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_deep_lookup_transform()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_deep_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_exact()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_exact_complex()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_has_any_keys()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- **.test_has_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
+- *... and 21 more nodes in this community*
 
 ## Relationships
 
-- [Community 3](Community_3.md) (20 shared connections)
-- [Community 599](Community_599.md) (11 shared connections)
-- [Community 929](Community_929.md) (4 shared connections)
-- [Community 591](Community_591.md) (2 shared connections)
-- [Community 1055](Community_1055.md) (2 shared connections)
-- [Community 1063](Community_1063.md) (2 shared connections)
-- [Community 480](Community_480.md) (2 shared connections)
-- [Community 1064](Community_1064.md) (2 shared connections)
-- [Community 1027](Community_1027.md) (2 shared connections)
-- [Community 1104](Community_1104.md) (2 shared connections)
-- [Community 530](Community_530.md) (2 shared connections)
-- [Community 147](Community_147.md) (2 shared connections)
+- [Community 38](Community_38.md) (7 shared connections)
+- [Community 600](Community_600.md) (7 shared connections)
+- [Community 87](Community_87.md) (3 shared connections)
+- [Community 22](Community_22.md) (3 shared connections)
+- [Community 491](Community_491.md) (2 shared connections)
+- [Community 513](Community_513.md) (2 shared connections)
+- [Community 34](Community_34.md) (2 shared connections)
+- [Community 16](Community_16.md) (2 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 78](Community_78.md) (1 shared connections)
+- [Community 47](Community_47.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 139 (94%)
-- INFERRED: 9 (6%)
+- EXTRACTED: 73 (94%)
+- INFERRED: 5 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

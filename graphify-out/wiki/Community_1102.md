@@ -1,29 +1,24 @@
 # Community 1102
 
-> 4 nodes · cohesion 0.50
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **DecoratorFromMiddlewareTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
-- **.test_callable_process_view_middleware()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
-- **Tests for view decorators created using…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
-- **Test a middleware that implements process_view, operating on a callable class.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **UndeletableObject** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Model whose show_delete in admin change_view has been disabled Refs #10057.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- [Community 151](Community_151.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 878](Community_878.md) (1 shared connections)
-- [Community 42](Community_42.md) (1 shared connections)
-- [Community 958](Community_958.md) (1 shared connections)
+- [Community 69](Community_69.md) (1 shared connections)
+- [Community 93](Community_93.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

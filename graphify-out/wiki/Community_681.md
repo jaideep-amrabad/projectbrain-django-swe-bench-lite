@@ -1,50 +1,36 @@
 # Community 681
 
-> 20 nodes · cohesion 0.16
+> 13 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **cache/backends/db.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
-- **DatabaseCache** (14 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
-- **BaseDatabaseCache** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
-- **._base_set()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
-- **._base_delete_many()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
-- **Options** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
-- **._cull()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
-- **.get_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
-- **.add()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
-- **.clear()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
-- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
-- **.delete_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
-- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
-- **.set()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
-- **.touch()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
-- **.has_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
-- **Database cache backend.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
-- **A class that will quack like a Django model _meta class. This allows cache…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
+- **.formfield_for_foreignkey()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.formfield_for_manytomany()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.formfield_for_dbfield()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.formfield_for_choice_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_autocomplete_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_field_queryset()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **get_ul_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **Hook for specifying the form Field instance for a given database Field…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **Get a form Field for a database Field that has declared choices.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **If the ModelAdmin specifies ordering, the queryset should respect that…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **Get a form Field for a ForeignKey.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **Get a form Field for a ManyToManyField.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **Return a list of ForeignKey and/or ManyToMany fields which should use an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 268](Community_268.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 628](Community_628.md) (1 shared connections)
-- [Community 115](Community_115.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 774](Community_774.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 342](Community_342.md) (1 shared connections)
-- [Community 37](Community_37.md) (1 shared connections)
+- [Community 49](Community_49.md) (6 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 524](Community_524.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (100%)
+- EXTRACTED: 24 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

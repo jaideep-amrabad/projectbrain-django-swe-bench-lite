@@ -1,32 +1,30 @@
 # Community 882
 
-> 8 nodes · cohesion 0.25
+> 8 nodes · cohesion 0.46
 
 ## Key Concepts
 
-- **UnsaltedMD5PasswordHasher** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.safe_summary()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.verify()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Incredibly insecure algorithm that you should *never* use; stores unsalted MD5…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.decode()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.encode()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.harden_runtime()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.salt()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **CaptureOnCommitCallbacksTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.enqueue_callback()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_different_using()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_execute()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_no_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_pre_callback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_using()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_with_rolled_back_savepoint()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Relationships
 
-- [Community 186](Community_186.md) (3 shared connections)
-- [Community 597](Community_597.md) (1 shared connections)
-- [Community 421](Community_421.md) (1 shared connections)
-- [Community 94](Community_94.md) (1 shared connections)
+- [Community 290](Community_290.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 15 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

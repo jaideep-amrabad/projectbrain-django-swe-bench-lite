@@ -1,63 +1,62 @@
 # Community 25
 
-> 95 nodes · cohesion 0.04
+> 218 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **LayerMapping** (49 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **LayerMapTest** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
-- **layermap/tests.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
-- **LayerMapError** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **layermap/models.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
-- **.__init__()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **NamedModel** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
-- **.verify_ogr_field()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **State** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
-- **.check_layer()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **.feature_kwargs()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **City** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
-- **ICity1** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
-- **LayerMapRouterTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
-- **InvalidDecimal** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **InvalidString** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **.check_srs()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **.coord_transform()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **.save()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **.verify_fk()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **.verify_geom()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **MissingForeignKey** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- **ICity2** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
-- **Interstate** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
-- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
-- *... and 70 more nodes in this community*
+- **AutodetectorTests** (140 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.get_changes()** (116 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.assertOperationTypes()** (106 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.assertNumberMigrations()** (105 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.assertOperationAttributes()** (88 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **ModelState** (72 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **MigrationQuestioner** (41 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.assertMigrationDependencies()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_last_dependency()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_first_dependency()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.assertOperationFieldAttributes()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_circular_dependency_swappable()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_circular_dependency_swappable2()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_circular_dependency_swappable_self()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_rename_model_reverse_relation_dependencies()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **patch** (9 connections)
+- **.test_alter_field_to_not_null_oneoff_default()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_alter_field_to_not_null_with_default()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_alter_field_to_not_null_without_default()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_rename_field_preserved_db_column()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_rename_model_with_fks_in_different_position()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_swappable()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_swappable_changed()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_swappable_first_setting()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_add_blank_textfield_and_charfield()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- *... and 193 more nodes in this community*
 
 ## Relationships
 
-- [Community 586](Community_586.md) (20 shared connections)
-- [Community 281](Community_281.md) (3 shared connections)
-- [Community 203](Community_203.md) (3 shared connections)
-- [Community 81](Community_81.md) (3 shared connections)
-- [Community 14](Community_14.md) (3 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 72](Community_72.md) (1 shared connections)
-- [Community 159](Community_159.md) (1 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
-- [Community 86](Community_86.md) (1 shared connections)
-- [Community 115](Community_115.md) (1 shared connections)
+- [Community 132](Community_132.md) (18 shared connections)
+- [Community 7](Community_7.md) (17 shared connections)
+- [Community 59](Community_59.md) (13 shared connections)
+- [Community 12](Community_12.md) (9 shared connections)
+- [Community 236](Community_236.md) (7 shared connections)
+- [Community 280](Community_280.md) (7 shared connections)
+- [Community 36](Community_36.md) (6 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 28](Community_28.md) (3 shared connections)
+- [Community 1002](Community_1002.md) (2 shared connections)
+- [Community 88](Community_88.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
 
 ## Audit Trail
 
-- EXTRACTED: 201 (89%)
-- INFERRED: 25 (11%)
+- EXTRACTED: 794 (97%)
+- INFERRED: 22 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

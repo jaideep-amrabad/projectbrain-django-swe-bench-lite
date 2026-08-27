@@ -1,29 +1,35 @@
 # Community 884
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **DefaultCacheProxy** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
-- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
-- **.__delattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
-- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
-- **.__setattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
-- **Proxy access to the default Cache object's attributes. This allows the legacy…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
+- **ForcedTimeZoneDatabaseTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **override_database_connection_timezone()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_cursor_explicit_time_zone()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_read_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_write_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_query_convert_timezones()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **Test the TIME_ZONE database configuration parameter. Since this involves…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 679](Community_679.md) (2 shared connections)
+- [Community 423](Community_423.md) (2 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 746](Community_746.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 15 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

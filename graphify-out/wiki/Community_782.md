@@ -1,40 +1,33 @@
 # Community 782
 
-> 12 nodes · cohesion 0.17
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Queries6Tests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **X** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **SelectRelatedTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_distinct_ordered_sliced_subquery_aggregation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_multiple_columns_with_the_same_name_slice()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_nested_queries_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_parallel_iterators()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket3739()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket_11320()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_tickets_8921_9188()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_tickets_3045_3288()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **ModelChoiceIterator** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **ModelChoiceIteratorValue** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.choice()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (5 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 965](Community_965.md) (1 shared connections)
-- [Community 314](Community_314.md) (1 shared connections)
-- [Community 1071](Community_1071.md) (1 shared connections)
-- [Community 868](Community_868.md) (1 shared connections)
+- [Community 106](Community_106.md) (2 shared connections)
+- [Community 108](Community_108.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (68%)
-- INFERRED: 7 (32%)
+- EXTRACTED: 13 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

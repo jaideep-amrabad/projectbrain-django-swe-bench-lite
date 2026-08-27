@@ -1,35 +1,38 @@
 # Community 670
 
-> 14 nodes · cohesion 0.26
+> 14 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **TemplateTagTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
-- **setup** (12 connections)
-- **.test_templatetag01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
-- **.test_templatetag02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
-- **.test_templatetag03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
-- **.test_templatetag04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
-- **.test_templatetag05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
-- **.test_templatetag06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
-- **.test_templatetag07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
-- **.test_templatetag08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
-- **.test_templatetag09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
-- **.test_templatetag10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
-- **.test_templatetag11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
-- **.test_templatetag12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
+- **ExplicitRelatedQueryNameClashTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **._test_explicit_related_query_name_clash()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_fk_to_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_fk_to_integer()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_fk_to_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_m2m_to_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_m2m_to_integer()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_m2m_to_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_hidden_fk_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_hidden_fk_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_hidden_fk_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_hidden_m2m_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_hidden_m2m_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_hidden_m2m_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (2 shared connections)
+- [Community 75](Community_75.md) (1 shared connections)
+- [Community 44](Community_44.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 55](Community_55.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 29 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

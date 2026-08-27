@@ -1,26 +1,25 @@
 # Community 1059
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.test_add_location_gettext_version_check()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_makemessages_gettext_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **patch** (2 connections)
-- **CommandError is raised when using makemessages --add-location with gettext <…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **FilteredSelectMultipleWidgetTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_render()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_stacked_render()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
 
 ## Relationships
 
-- [Community 457](Community_457.md) (1 shared connections)
-- [Community 513](Community_513.md) (1 shared connections)
+- [Community 193](Community_193.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

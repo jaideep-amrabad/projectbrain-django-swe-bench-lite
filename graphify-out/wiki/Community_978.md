@@ -1,28 +1,25 @@
 # Community 978
 
-> 6 nodes · cohesion 0.33
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **URLHandling** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
-- **.test_nonascii_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
-- **.test_permanent_nonascii_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
-- **A non-ASCII argument to HttpRedirect is handled properly.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
-- **A non-ASCII argument to HttpPermanentRedirect is handled properly.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
-- **Tests for URL handling in views and responses.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
+- **FakeAUTHSMTPConnection** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.ehlo()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **A SMTP connection pretending support for the AUTH command. It does not, but at…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **SMTP** (1 connections)
 
 ## Relationships
 
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 137](Community_137.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_specials.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

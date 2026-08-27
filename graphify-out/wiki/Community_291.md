@@ -1,53 +1,59 @@
 # Community 291
 
-> 38 nodes · cohesion 0.13
+> 53 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **DatabaseCreation** (41 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_settings_get()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._get_test_db_params()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._create_test_db()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._destroy_test_db()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_user_create()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._create_test_user()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._destroy_test_user()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._execute_allow_fail_statements()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._execute_statements()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._execute_test_db_destruction()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._handle_objects_preventing_db_destruction()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_database_passwd()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._execute_test_db_creation()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_database_create()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_database_tblspace()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_database_tblspace_datafile()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_database_tblspace_tmp_datafile()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_database_user()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._switch_to_test_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_database_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_database_oracle_managed_files()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_database_tblspace_extsize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_database_tblspace_maxsize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **._test_database_tblspace_size()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- *... and 13 more nodes in this community*
+- **inclusion.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_tag** (24 connections)
+- **InclusionAdminNode** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/base.py`
+- **admin_modify.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_modify.py`
+- **Expected inclusion_no_params __doc__** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **Expected inclusion_unlimited_args __doc__** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **change_list_object_tools_tag()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
+- **change_form_object_tools_tag()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_modify.py`
+- **prepopulated_fields_js_tag()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_modify.py`
+- **submit_row_tag()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_modify.py`
+- **cell_count()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_modify.py`
+- **prepopulated_fields_js()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_modify.py`
+- **inclusion_explicit_no_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_explicit_no_context_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_no_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_no_params_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_no_params_with_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_no_params_with_context_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_one_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_one_default_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_one_param()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_one_param_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_only_unlimited_args()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_only_unlimited_args_from_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- **inclusion_params_and_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
+- *... and 28 more nodes in this community*
 
 ## Relationships
 
-- [Community 628](Community_628.md) (4 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 252](Community_252.md) (2 shared connections)
-- [Community 229](Community_229.md) (1 shared connections)
-- [Community 132](Community_132.md) (1 shared connections)
-- [Community 94](Community_94.md) (1 shared connections)
+- [Community 2](Community_2.md) (7 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 23](Community_23.md) (4 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 42](Community_42.md) (2 shared connections)
+- [Community 725](Community_725.md) (1 shared connections)
+- [Community 51](Community_51.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 141](Community_141.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_modify.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/inclusion.py`
 
 ## Audit Trail
 
-- EXTRACTED: 103 (97%)
-- INFERRED: 3 (3%)
+- EXTRACTED: 103 (90%)
+- INFERRED: 11 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

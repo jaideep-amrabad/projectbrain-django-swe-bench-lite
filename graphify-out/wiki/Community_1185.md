@@ -4,21 +4,20 @@
 
 ## Key Concepts
 
-- **.test_alter_field_rename_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **RenameField should optimize to the other side of AlterField, and into itself.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_json_encoder_argument()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **The test Client accepts a json_encoder.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 145](Community_145.md) (1 shared connections)
-- [Community 680](Community_680.md) (1 shared connections)
+- [Community 518](Community_518.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

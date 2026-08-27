@@ -1,51 +1,57 @@
 # Community 190
 
-> 56 nodes · cohesion 0.06
+> 53 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **TestHashedFiles** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **hashed_file_path()** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.assertPostCondition()** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **TestCollectionManifestStorage** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **TestStaticFilePermissions** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **TestCollectionHashedFilesCache** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.setUp()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **TestCollectionSimpleStorage** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_post_processing_failure()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_file_change_after_collectstatic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_import_loop()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_template_tag_absolute_root()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_css_import_case_insensitive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_import_replacement()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_path_ignored_completely()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_path_with_fragment()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_path_with_querystring()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_path_with_querystring_and_fragment()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_post_processing()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_template_tag_absolute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_template_tag_deep_relative()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_template_tag_relative()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_template_tag_simple_content()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_template_tag_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- **.test_collect_static_files_default_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
-- *... and 31 more nodes in this community*
+- **syndication_tests/feeds.py** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **TestRss2Feed** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **TestAtomFeed** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **TestSingleEnclosureAtomFeed** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **TestSingleEnclosureRSSFeed** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **ArticlesFeed** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **TestLatestFeed** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **NaiveDatesFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **TemplateContextFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **TemplateFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **TestMultipleEnclosureAtomFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **TestMultipleEnclosureRSSFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **TestRss2FeedWithGuidIsPermaLinkFalse** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **TZAwareDatesFeed** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **TestRss2FeedWithGuidIsPermaLinkTrue** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **syndication_tests/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/urls.py`
+- **TestCustomFeed** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **TestFeedUrlFeed** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **TestLanguageFeed** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **TestRss091Feed** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.item_pubdate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.item_pubdate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **A feed to test that RSS feeds raise an exception with multiple enclosures.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **A feed to test defining item titles and descriptions with templates.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- *... and 28 more nodes in this community*
 
 ## Relationships
 
-- [Community 31](Community_31.md) (12 shared connections)
-- [Community 8](Community_8.md) (8 shared connections)
-- [Community 9](Community_9.md) (6 shared connections)
-- [Community 518](Community_518.md) (1 shared connections)
+- [Community 720](Community_720.md) (8 shared connections)
+- [Community 29](Community_29.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 376](Community_376.md) (1 shared connections)
+- [Community 950](Community_950.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 115 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 82 (96%)
+- INFERRED: 3 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

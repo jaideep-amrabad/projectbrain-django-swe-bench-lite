@@ -1,40 +1,47 @@
 # Community 604
 
-> 9 nodes · cohesion 0.22
+> 16 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **DurationField** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/functions.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/functions.py`
-- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_db_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_db_converters()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Store timedelta objects. Use interval on PostgreSQL, INTERVAL DAY TO SECOND on…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **AdminEmailHandler** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- **ServerFormatter** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- **.emit()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- **LogFormattersTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.format_subject()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- **.send_mail()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- **.format()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- **.test_custom_exception_reporter_is_used()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.copy()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.uses_server_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- **.test_server_formatter_styles()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **Escape CR and LF characters.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- **An exception log handler that emails log entries to site admins. If the request…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- **.test_server_formatter_default_format()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
 
 ## Relationships
 
-- [Community 21](Community_21.md) (2 shared connections)
-- [Community 59](Community_59.md) (1 shared connections)
-- [Community 90](Community_90.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 121](Community_121.md) (1 shared connections)
-- [Community 341](Community_341.md) (1 shared connections)
-- [Community 204](Community_204.md) (1 shared connections)
+- [Community 595](Community_595.md) (5 shared connections)
+- [Community 78](Community_78.md) (2 shared connections)
+- [Community 468](Community_468.md) (1 shared connections)
+- [Community 380](Community_380.md) (1 shared connections)
+- [Community 96](Community_96.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 640](Community_640.md) (1 shared connections)
 - [Community 2](Community_2.md) (1 shared connections)
-- [Community 260](Community_260.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/functions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/log.py`
+- `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (89%)
-- INFERRED: 2 (11%)
+- EXTRACTED: 31 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

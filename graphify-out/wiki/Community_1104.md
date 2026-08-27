@@ -1,27 +1,25 @@
 # Community 1104
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **.add_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.test_add_arguments_debug_mode()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **ArgumentParser** (2 connections)
+- **Report** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 234](Community_234.md) (2 shared connections)
+- [Community 69](Community_69.md) (1 shared connections)
+- [Community 93](Community_93.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (83%)
-- INFERRED: 1 (17%)
+- EXTRACTED: 3 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

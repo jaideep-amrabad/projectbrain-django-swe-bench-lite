@@ -1,44 +1,49 @@
 # Community 449
 
-> 18 nodes · cohesion 0.14
+> 24 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **AbstractBaseSession** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- **sessions/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/models.py`
-- **Session** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/models.py`
-- **BaseSessionManager** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- **CustomSession** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
-- **.encode()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- **.get_decoded()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- **.get_session_store_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- **.save()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- **SessionManager** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- **Return the given session dictionary serialized and encoded as a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/models.py`
-- **Django provides full support for anonymous sessions. The session framework lets…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/models.py`
-- **.get_session_store_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/models.py`
-- **.get_session_store_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
-- **A session model with a column for an account ID.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
+- **TestSigner** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_decode_detects_tampering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_default_hashing_algorithm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_dumps_loads()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_dumps_loads_default_hashing_algorithm_sha1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_invalid_sep()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_sign_unsign()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_signature_with_salt()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_unsign_detects_tampering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **unsign should raise an exception if the value has been tampered with** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **dumps and loads be reversible for any JSON serializable object** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **signature() method should generate a signature** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **loads should raise exception for tampered objects** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **should warn on invalid separator** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **signature(value, salt=...) should work** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **sign/unsign should be reversible** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_custom_algorithm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_dumps_loads_legacy_signature()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_invalid_algorithm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_legacy_signature()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_sign_unsign_non_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_valid_sep()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_works_with_non_ascii_keys()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 602](Community_602.md) (2 shared connections)
+- [Community 50](Community_50.md) (2 shared connections)
+- [Community 365](Community_365.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 27 (93%)
+- INFERRED: 2 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

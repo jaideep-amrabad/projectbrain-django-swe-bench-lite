@@ -4,22 +4,22 @@
 
 ## Key Concepts
 
-- **._get_session()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.load()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **Lazily load session from storage (unless "no_load" is True, when only an empty…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **Load the session data and return a dictionary.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **calendar.js** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/calendar.js`
+- **calendarMonth()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/calendar.js`
+- **Calendar()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/calendar.js`
+- **onClick()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/calendar.js`
 
 ## Relationships
 
-- [Community 166](Community_166.md) (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/calendar.js`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

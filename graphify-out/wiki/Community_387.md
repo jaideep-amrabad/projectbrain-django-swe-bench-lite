@@ -1,56 +1,66 @@
 # Community 387
 
-> 28 nodes · cohesion 0.15
+> 30 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **ModelAdminPermissionTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **Band** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/models.py`
-- **MockRequest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **MockAddUser** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_has_add_permission()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_has_change_permission()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_has_delete_permission()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_has_module_permission()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_has_view_permission()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **MockChangeUser** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **MockDeleteUser** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **MockViewUser** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **MockUser** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_inline_has_add_permission_uses_obj()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_get_deleted_objects_with_custom_has_delete_permission()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/models.py`
-- **.has_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.has_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.has_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.has_module_perms()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.has_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **ModelAdmin.get_deleted_objects() uses ModelAdmin.has_delete_permission() for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **has_view_permission() returns True for users who can view objects and False for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **has_add_permission returns True for users who can add objects and False for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- *... and 3 more nodes in this community*
+- **test/signals.py** (54 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- **receiver()** (30 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **django/dispatch/__init__.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/__init__.py`
+- **dispatcher.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- **reset_format_cache()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
+- **root_urlconf_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- **ReceiverTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **close_caches()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
+- **clear_cache_handlers()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- **clear_routers_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- **localize_settings_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- **reset_template_engines()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- **user_model_swapped()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- **reset_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **reset_hashers()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **auth_password_validators_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- **clear_serializers_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- **complex_setting_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- **file_storage_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- **language_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- **static_finders_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- **static_storage_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- **update_connections_time_zone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- **update_installed_apps()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- **.test_receiver_signal_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 235](Community_235.md) (7 shared connections)
-- [Community 958](Community_958.md) (7 shared connections)
-- [Community 80](Community_80.md) (7 shared connections)
-- [Community 123](Community_123.md) (5 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 125](Community_125.md) (2 shared connections)
-- [Community 95](Community_95.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 1](Community_1.md) (7 shared connections)
+- [Community 413](Community_413.md) (7 shared connections)
+- [Community 24](Community_24.md) (5 shared connections)
+- [Community 188](Community_188.md) (4 shared connections)
+- [Community 973](Community_973.md) (4 shared connections)
+- [Community 222](Community_222.md) (4 shared connections)
+- [Community 17](Community_17.md) (4 shared connections)
+- [Community 211](Community_211.md) (3 shared connections)
+- [Community 353](Community_353.md) (3 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 57](Community_57.md) (3 shared connections)
+- [Community 135](Community_135.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/modeladmin/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/dispatch/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/dispatch/dispatcher.py`
+- `raw/code/hyd-evaluation/django-django/django/test/signals.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 78 (86%)
-- INFERRED: 13 (14%)
+- EXTRACTED: 120 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

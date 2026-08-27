@@ -1,49 +1,46 @@
 # Community 584
 
-> 16 nodes · cohesion 0.17
+> 17 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **safe_join()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
-- **to_path()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
-- **test_os_utils.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **SafeJoinTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
-- **.iter_template_filenames()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
-- **ToPathTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
-- **.test_base_path_ends_with_sep()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
-- **.test_parent_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
-- **.test_root_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
-- **.test_to_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
-- **.test_to_path_invalid_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
-- **Initialize the GeoIP object. No parameters are required to use default…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **Iterate over candidate files for template_name. Ignore files that don't lie…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
-- **Join one or more path components to the base path component intelligently.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
-- **Convert value to a pathlib.Path instance, if not already a Path.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
+- **pgraster.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/pgraster.py`
+- **from_pgraster()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/pgraster.py`
+- **to_pgraster()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/pgraster.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- **.parse_raster()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **chunk()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/pgraster.py`
+- **pack()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/pgraster.py`
+- **unpack()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/pgraster.py`
+- **postgis/const.py** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/const.py`
+- **Initialize on the spatial object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- **PostGIS to GDAL conversion constant definitions** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/const.py`
+- **Convert a PostGIS HEX String into a dict readable by GDALRaster.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **Pack data into hex string with little endian format.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/pgraster.py`
+- **Unpack little endian hexlified binary string into a list.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/pgraster.py`
+- **Split a string into two parts at the input index.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/pgraster.py`
+- **Convert a PostGIS HEX String into a dictionary.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/pgraster.py`
+- **Convert a GDALRaster into PostGIS Raster format.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/pgraster.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 844](Community_844.md) (2 shared connections)
-- [Community 113](Community_113.md) (2 shared connections)
-- [Community 48](Community_48.md) (2 shared connections)
-- [Community 182](Community_182.md) (1 shared connections)
-- [Community 40](Community_40.md) (1 shared connections)
-- [Community 712](Community_712.md) (1 shared connections)
-- [Community 159](Community_159.md) (1 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
+- [Community 18](Community_18.md) (2 shared connections)
+- [Community 222](Community_222.md) (2 shared connections)
+- [Community 800](Community_800.md) (1 shared connections)
+- [Community 110](Community_110.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_os_utils.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/adapter.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/const.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/pgraster.py`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (100%)
+- EXTRACTED: 28 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

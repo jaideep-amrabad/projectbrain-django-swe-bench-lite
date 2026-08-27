@@ -1,30 +1,30 @@
 # Community 960
 
-> 6 nodes · cohesion 0.33
+> 6 nodes · cohesion 0.47
 
 ## Key Concepts
 
-- **ShadowingFieldsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_id_clash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_field_name_clash_with_child_accessor()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_inheritance_clash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_multigeneration_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **.test_multiinheritance_clash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **RunWithReloaderTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **dict** (4 connections)
+- **.test_calls_start_django()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_calls_sys_exit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_swallows_keyboard_interrupt()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_setting_timeout_from_environment_variable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Relationships
 
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 598](Community_598.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 152](Community_152.md) (1 shared connections)
+- [Community 339](Community_339.md) (3 shared connections)
+- [Community 504](Community_504.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 680](Community_680.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

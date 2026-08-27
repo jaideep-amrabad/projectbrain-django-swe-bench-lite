@@ -1,57 +1,60 @@
 # Community 345
 
-> 33 nodes · cohesion 0.13
+> 32 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **defer_regress/tests.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
-- **DeferRegressionTest** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
-- **defer_regress/models.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **Item** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **Proxy** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **ProxyRelated** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **DeferAnnotateSelectRelatedTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
-- **Base** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **Derived** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **RelatedItem** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **Child** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **Feature** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **ItemAndSimpleItem** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **Leaf** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **Location** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **OneToOneItem** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **Request** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **ResolveThis** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **SimpleItem** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **SpecialFeature** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- **.test_defer_annotate_select_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
-- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
-- **.test_ticket_16409()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
-- **Profile** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- *... and 8 more nodes in this community*
+- **fixtures_regress/tests.py** (58 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **fixtures_regress/models.py** (51 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MNaturalKeyFixtureTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **BaseNKModel** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MComplexCircular2B** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Circle3** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MCircular1ThroughAB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MCircular1ThroughBC** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MCircular1ThroughCA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MCircular2ThroughAB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MComplexA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MComplexB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MComplexCircular1A** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MComplexCircular1B** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MComplexCircular1C** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MComplexCircular2A** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MSimpleA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MSimpleB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MSimpleCircularA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MSimpleCircularB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **M2MThroughAB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Stuff** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Thingy** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 602](Community_602.md) (4 shared connections)
-- [Community 857](Community_857.md) (3 shared connections)
-- [Community 14](Community_14.md) (3 shared connections)
-- [Community 19](Community_19.md) (3 shared connections)
-- [Community 154](Community_154.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 579](Community_579.md) (16 shared connections)
+- [Community 371](Community_371.md) (10 shared connections)
+- [Community 979](Community_979.md) (6 shared connections)
+- [Community 222](Community_222.md) (4 shared connections)
+- [Community 26](Community_26.md) (4 shared connections)
+- [Community 1015](Community_1015.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 941](Community_941.md) (2 shared connections)
+- [Community 179](Community_179.md) (2 shared connections)
+- [Community 1066](Community_1066.md) (2 shared connections)
+- [Community 19](Community_19.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 68 (76%)
-- INFERRED: 22 (24%)
+- EXTRACTED: 139 (88%)
+- INFERRED: 19 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

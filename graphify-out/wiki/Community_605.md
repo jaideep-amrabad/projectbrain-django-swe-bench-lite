@@ -1,40 +1,46 @@
 # Community 605
 
-> 16 nodes · cohesion 0.18
+> 16 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **DatabaseIntrospection** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **.identifier_converter()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **.get_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **.get_relations()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **.get_table_description()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **.get_table_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **.get_key_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **.get_primary_key_column()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **.get_sequences()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **.data_types_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **.get_field_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **Identifier comparison is case insensitive under Oracle.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **Return a dictionary of {field_name: (field_name_other_table, other_table)}…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **Retrieve any constraints or keys (unique, pk, fk, check, index) across one or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **Return a list of table and view names in the current database.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **Return a description of the table with the DB-API cursor.description interface.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **TestReadOnlyChangeViewInlinePermissions** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **Question** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **Poll** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **QuestionInline** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/admin.py`
+- **.setUpTestData()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.call_me()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/admin.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_add_url_not_allowed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_extra_inlines_are_not_shown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_get_to_change_url_is_allowed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_inline_delete_buttons_are_not_shown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_inlines_are_rendered_as_read_only()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_main_model_is_rendered_as_read_only()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_post_to_change_url_not_allowed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_submit_line_shows_only_close_button()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 156](Community_156.md) (1 shared connections)
-- [Community 252](Community_252.md) (1 shared connections)
+- [Community 328](Community_328.md) (5 shared connections)
+- [Community 184](Community_184.md) (3 shared connections)
+- [Community 213](Community_213.md) (3 shared connections)
+- [Community 493](Community_493.md) (2 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (93%)
-- INFERRED: 2 (7%)
+- EXTRACTED: 24 (77%)
+- INFERRED: 7 (23%)
 - AMBIGUOUS: 0 (0%)
 
 ---

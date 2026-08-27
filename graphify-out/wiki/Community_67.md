@@ -1,62 +1,63 @@
 # Community 67
 
-> 113 nodes · cohesion 0.02
+> 110 nodes · cohesion 0.03
 
 ## Key Concepts
 
 - **GDALRaster** (70 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
 - **GDALRasterTests** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_raster.py`
 - **RasterFieldTest** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/test_rasterfield.py`
+- **test_raster.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_raster.py`
 - **GDALBandTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_raster.py`
 - **TransformPoint** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
 - **.srs()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
 - **._flush()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
 - **.geotransform()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
 - **setter** (5 connections)
 - **.test_all_gis_lookups_with_rasters()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/test_rasterfield.py`
 - **.test_db_function_errors()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/test_rasterfield.py`
 - **.test_dwithin_gis_lookup_output_with_rasters()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/test_rasterfield.py`
 - **.srid()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
 - **.transform()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
-- **.test_deserialize_with_pixeltype_flags()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/test_rasterfield.py`
 - **.hex()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.driver()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
-- **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
 - **.origin()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
 - **.__repr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
 - **.scale()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
 - **.skew()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
 - **.warp()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
 - **.wkt()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **textrasters.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/data/rasters/textrasters.py`
 - **.test_raster_transform()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_raster.py`
-- *... and 88 more nodes in this community*
+- *... and 85 more nodes in this community*
 
 ## Relationships
 
-- [Community 81](Community_81.md) (15 shared connections)
-- [Community 70](Community_70.md) (6 shared connections)
-- [Community 72](Community_72.md) (5 shared connections)
-- [Community 22](Community_22.md) (4 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 276](Community_276.md) (3 shared connections)
-- [Community 536](Community_536.md) (2 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 61](Community_61.md) (2 shared connections)
-- [Community 12](Community_12.md) (2 shared connections)
-- [Community 29](Community_29.md) (1 shared connections)
-- [Community 30](Community_30.md) (1 shared connections)
+- [Community 32](Community_32.md) (13 shared connections)
+- [Community 62](Community_62.md) (7 shared connections)
+- [Community 71](Community_71.md) (6 shared connections)
+- [Community 817](Community_817.md) (4 shared connections)
+- [Community 264](Community_264.md) (4 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 18](Community_18.md) (4 shared connections)
+- [Community 790](Community_790.md) (3 shared connections)
+- [Community 52](Community_52.md) (2 shared connections)
+- [Community 222](Community_222.md) (2 shared connections)
+- [Community 58](Community_58.md) (2 shared connections)
+- [Community 22](Community_22.md) (2 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/data/rasters/textrasters.py`
 - `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_raster.py`
 - `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/test_rasterfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 189 (93%)
+- EXTRACTED: 197 (93%)
 - INFERRED: 15 (7%)
 - AMBIGUOUS: 0 (0%)
 

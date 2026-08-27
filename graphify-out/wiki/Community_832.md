@@ -4,31 +4,33 @@
 
 ## Key Concepts
 
-- **MyPerson** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **Person** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **StatusPerson** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **.test_eq()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **.has_special_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **A simple concrete base class.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **A proxy subclass, this should not get a new table. Overrides the default…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **A non-proxy subclass of a proxy, it should get a new table.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **GenericIPAddressField** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **._check_blank_and_null_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_db_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 
 ## Relationships
 
-- [Community 478](Community_478.md) (7 shared connections)
-- [Community 306](Community_306.md) (4 shared connections)
-- [Community 730](Community_730.md) (2 shared connections)
+- [Community 633](Community_633.md) (2 shared connections)
+- [Community 263](Community_263.md) (2 shared connections)
+- [Community 274](Community_274.md) (2 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 454](Community_454.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (86%)
-- INFERRED: 3 (14%)
+- EXTRACTED: 18 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

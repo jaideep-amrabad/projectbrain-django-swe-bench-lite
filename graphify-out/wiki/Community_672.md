@@ -1,38 +1,47 @@
 # Community 672
 
-> 14 nodes · cohesion 0.15
+> 14 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **simple/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **DjangoCase1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **DjangoCase2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **SimpleCase1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **SimpleCase2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **DjangoTestCase** (2 connections)
-- **.test_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **.test_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **.test_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **.test_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **.test_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **.test_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **.test_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **.test_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
+- **OptimizerTests** (46 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **._test_alter_alter_model()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **._test_create_alter_foo_delete_model()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_alter_alter_index_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_alter_alter_owrt_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_alter_alter_table_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_alter_alter_unique_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_alter_index_delete_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_alter_owrt_delete_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_alter_unique_delete_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_none_app_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **Tests the migration autodetector.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **CreateModel, AlterModelTable, AlterUniqueTogether/AlterIndexTogether/…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **Two AlterUniqueTogether/AlterIndexTogether/AlterOrderWithRespectTo should…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (4 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 1097](Community_1097.md) (1 shared connections)
+- [Community 613](Community_613.md) (12 shared connections)
+- [Community 770](Community_770.md) (6 shared connections)
+- [Community 914](Community_914.md) (4 shared connections)
+- [Community 981](Community_981.md) (4 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 1132](Community_1132.md) (1 shared connections)
+- [Community 1133](Community_1133.md) (1 shared connections)
+- [Community 1129](Community_1129.md) (1 shared connections)
+- [Community 1131](Community_1131.md) (1 shared connections)
+- [Community 1128](Community_1128.md) (1 shared connections)
+- [Community 1130](Community_1130.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 55 (95%)
+- INFERRED: 3 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

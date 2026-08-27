@@ -1,28 +1,24 @@
 # Community 1048
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **MultiDatabaseTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_admin_multidb.py`
-- **.test_add_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_admin_multidb.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_admin_multidb.py`
-- **patch** (1 connections)
+- **NrOfMembersFilter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
+- **.lookups()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
+- **.queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
+- [Community 51](Community_51.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_admin_multidb.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

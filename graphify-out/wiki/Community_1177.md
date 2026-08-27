@@ -4,20 +4,21 @@
 
 ## Key Concepts
 
-- **.test_dump_and_load_m2m_simple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **Test serializing and deserializing back models with simple M2M relations** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_force_login_with_backend_missing_get_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **force_login() skips auth backends without a get_user() method.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 354](Community_354.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 518](Community_518.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

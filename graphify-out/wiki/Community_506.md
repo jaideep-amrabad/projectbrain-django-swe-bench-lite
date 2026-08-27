@@ -1,58 +1,50 @@
 # Community 506
 
-> 23 nodes · cohesion 0.12
+> 20 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **Client** (36 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **._handle_redirects()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **nested_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
-- **.delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.head()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.patch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.post()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.put()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.trace()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
-- **A class that can act as a client for testing purposes. It allows the user to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **Request a response from the server using GET.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **Request a response from the server using POST.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **Request a response from the server using HEAD.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **Request a response from the server using OPTIONS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **Send a resource to the server using PUT.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **Send a resource to the server using PATCH.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **Send a DELETE request to the server.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **Send a TRACE request to the server.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **Follow any redirects by requesting responses from the server using GET.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **A view that uses test client to call another view.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
+- **TestDataTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **TestData** (11 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **assert_no_queries()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **NonDeepCopyAble** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **.test_class_attribute_equality()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **.test_class_attribute_identity()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **.test_identity_preservation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **.test_known_related_objects_identity_preservation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **.__get__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.get_memo()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **Descriptor to provide TestCase instance isolation for attributes assigned…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Class level test data is equal to instance level test data.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **Class level test data is not identical to instance level test data.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **Identity of test data is preserved between accesses.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **Known related objects identity is preserved.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **.test_undeepcopyable_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 95](Community_95.md) (4 shared connections)
-- [Community 217](Community_217.md) (3 shared connections)
-- [Community 18](Community_18.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 113](Community_113.md) (2 shared connections)
-- [Community 53](Community_53.md) (2 shared connections)
-- [Community 577](Community_577.md) (1 shared connections)
-- [Community 307](Community_307.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 561](Community_561.md) (1 shared connections)
-- [Community 57](Community_57.md) (1 shared connections)
+- [Community 338](Community_338.md) (5 shared connections)
+- [Community 88](Community_88.md) (2 shared connections)
+- [Community 367](Community_367.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 47](Community_47.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 365](Community_365.md) (1 shared connections)
+- [Community 290](Community_290.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_csrf.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
 
 ## Audit Trail
 
-- EXTRACTED: 58 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 32 (86%)
+- INFERRED: 5 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

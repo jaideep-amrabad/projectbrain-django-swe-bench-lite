@@ -1,62 +1,63 @@
 # Community 193
 
-> 33 nodes · cohesion 0.08
+> 50 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **TemporaryUploadedFile** (23 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- **FileFieldTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **Document** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.test_move_temporary_file()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **TemporaryUploadedFileTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_save_doesnt_close()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_extension_kept()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_file_upload_temp_dir_pathlib()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_abstract_filefield_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **.test_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **.test_clearable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **.test_delete_when_file_unset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **.test_media_root_pathlib()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **.test_open_returns_self()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **.test_pickle()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **.test_unchanged()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **.temporary_file_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- **.test_unique_when_same_filename()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **A file uploaded to a temporary location (i.e. stream-to-disk).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- **Return the full path of this file.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- **The temporary file name has the same suffix as the original file.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_defer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **.test_refresh_from_db()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **skipIf** (1 connections)
-- *... and 8 more nodes in this community*
+- **admin_widgets/tests.py** (65 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **admin_widgets/models.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **widgetadmin.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/widgetadmin.py`
+- **ForeignKeyRawIdWidgetTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **Band** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **ManyToManyRawIdWidgetTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **Advisor** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **Bee** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **Car** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **Individual** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **Inventory** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **Profile** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **School** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **Event** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **RelatedFieldWidgetSeleniumTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **CarTire** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **Company** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **Honeycomb** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **MyFileField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **UnsafeLimitChoicesTo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **AdminUUIDWidgetTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **admin_widgets/urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/urls.py`
+- **CarTireAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/widgetadmin.py`
+- **HiddenInventoryManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **.test_ForeignKey_using_to_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [Community 222](Community_222.md) (6 shared connections)
-- [Community 8](Community_8.md) (4 shared connections)
-- [Community 108](Community_108.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 76](Community_76.md) (3 shared connections)
-- [Community 163](Community_163.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 223](Community_223.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
+- [Community 764](Community_764.md) (9 shared connections)
+- [Community 477](Community_477.md) (9 shared connections)
+- [Community 1](Community_1.md) (7 shared connections)
+- [Community 524](Community_524.md) (7 shared connections)
+- [Community 445](Community_445.md) (6 shared connections)
+- [Community 368](Community_368.md) (6 shared connections)
+- [Community 6](Community_6.md) (4 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 29](Community_29.md) (4 shared connections)
+- [Community 19](Community_19.md) (3 shared connections)
+- [Community 12](Community_12.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/widgetadmin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 61 (91%)
-- INFERRED: 6 (9%)
+- EXTRACTED: 140 (85%)
+- INFERRED: 25 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

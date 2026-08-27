@@ -1,28 +1,24 @@
 # Community 1064
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **SQLiteInMemoryTestDbs** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_transaction_support()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **skipUnless** (1 connections)
+- **.ask_merge()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **Do you really want to merge these migrations?** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
 
 ## Relationships
 
-- [Community 234](Community_234.md) (2 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 168](Community_168.md) (1 shared connections)
-- [Community 485](Community_485.md) (1 shared connections)
+- [Community 25](Community_25.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (86%)
-- INFERRED: 1 (14%)
+- EXTRACTED: 2 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

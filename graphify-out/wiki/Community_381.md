@@ -1,51 +1,58 @@
 # Community 381
 
-> 30 nodes · cohesion 0.10
+> 29 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **OptionsBaseTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **GetFieldByNameTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **RelatedObjectsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **._details()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **._model()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **DataTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **LabelTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **M2MTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **._map_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **._map_related_query_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **PrivateFieldsTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **.test_related_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **.test_related_objects_include_hidden()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **.test_related_objects_include_hidden_local_only()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **.test_related_objects_local()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **.test_get_data_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **.test_get_generic_relation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **.test_get_m2m_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **.test_get_related_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **.test_get_related_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **.test_many_to_many_with_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **.test_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **.test_local_concrete_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **.test_local_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- **.test_get_fields_only_searches_forward_on_apps_not_ready()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
-- *... and 5 more nodes in this community*
+- **.login()** (41 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **LogoutTest** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.confirm_logged_out()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_default_logout_then_login()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_security_check()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_security_check_https()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_logout_then_login_with_custom_login()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_logout_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_logout_with_custom_redirect_argument()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_logout_with_named_redirect()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_logout_with_next_page_specified()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_logout_with_redirect_argument()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_logout_preserve_language()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_logout_redirect_url_named_setting()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_logout_redirect_url_setting()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_logout_with_overridden_redirect_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_logout_with_post()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_success_url_allowed_hosts_safe_host()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_success_url_allowed_hosts_same_host()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_success_url_allowed_hosts_unsafe_host()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_14377()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_logout_doesnt_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **Logout with next_page option given redirects to specified resource** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **Logout with query string redirects to specified resource** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **Logout with custom query string redirects to specified resource** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 161](Community_161.md) (10 shared connections)
-- [Community 122](Community_122.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 154](Community_154.md) (1 shared connections)
+- [Community 663](Community_663.md) (8 shared connections)
+- [Community 630](Community_630.md) (6 shared connections)
+- [Community 662](Community_662.md) (5 shared connections)
+- [Community 786](Community_786.md) (4 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 12](Community_12.md) (3 shared connections)
+- [Community 27](Community_27.md) (2 shared connections)
+- [Community 20](Community_20.md) (2 shared connections)
+- [Community 908](Community_908.md) (1 shared connections)
+- [Community 270](Community_270.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (93%)
-- INFERRED: 4 (7%)
+- EXTRACTED: 93 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

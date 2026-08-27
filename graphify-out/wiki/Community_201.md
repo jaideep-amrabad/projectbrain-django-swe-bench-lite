@@ -1,56 +1,63 @@
 # Community 201
 
-> 53 nodes · cohesion 0.04
+> 42 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **TestQuerying** (46 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **IndexTransform** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **SliceTransform** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **ArrayLenTransform** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **IndexTransformFactory** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **SliceTransformFactory** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **expectedFailure** (4 connections)
-- **.test_index_transform_expression()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.get_transform()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **Transform** (3 connections)
-- **.test_slice_transform_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_contained_by_including_F_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_in_including_F_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_index_used_on_nested_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_slice_nested()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **.output_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- *... and 28 more nodes in this community*
+- **test_client_regress/tests.py** (58 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **AssertTemplateUsedTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **TestDataMixin** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **CustomUser** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/models.py`
+- **encode_file()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **test_client_regress/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/models.py`
+- **ExceptionTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **test_client_regress/auth_backends.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/auth_backends.py`
+- **CustomUserBackend** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/auth_backends.py`
+- **DummyFile** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **LoginTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **SessionEngineTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **CustomTestException** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
+- **UploadedFileEncodingTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **UrlconfSubstitutionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_login_different_client()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_file_encoding()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_guesses_content_type_on_file_encoding()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_urlconf_was_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **zzUrlconfSubstitutionTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_urlconf_was_reverted()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_multiple_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_single_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_template_rendered_multiple_times()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_exception_cleared()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [Community 75](Community_75.md) (10 shared connections)
-- [Community 118](Community_118.md) (5 shared connections)
-- [Community 228](Community_228.md) (4 shared connections)
-- [Community 131](Community_131.md) (3 shared connections)
-- [Community 88](Community_88.md) (1 shared connections)
-- [Community 70](Community_70.md) (1 shared connections)
-- [Community 111](Community_111.md) (1 shared connections)
-- [Community 285](Community_285.md) (1 shared connections)
+- [Community 24](Community_24.md) (8 shared connections)
+- [Community 12](Community_12.md) (8 shared connections)
+- [Community 1](Community_1.md) (7 shared connections)
+- [Community 2](Community_2.md) (7 shared connections)
+- [Community 19](Community_19.md) (6 shared connections)
+- [Community 6](Community_6.md) (5 shared connections)
+- [Community 4](Community_4.md) (4 shared connections)
+- [Community 103](Community_103.md) (4 shared connections)
+- [Community 973](Community_973.md) (3 shared connections)
+- [Community 586](Community_586.md) (3 shared connections)
+- [Community 533](Community_533.md) (3 shared connections)
+- [Community 817](Community_817.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/auth_backends.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 79 (91%)
-- INFERRED: 8 (9%)
+- EXTRACTED: 125 (98%)
+- INFERRED: 3 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

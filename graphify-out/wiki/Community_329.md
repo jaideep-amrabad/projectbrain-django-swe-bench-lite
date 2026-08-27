@@ -1,61 +1,56 @@
 # Community 329
 
-> 27 nodes · cohesion 0.10
+> 34 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **admin_checks/tests.py** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
-- **admin_checks/models.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
-- **MessageMiddleware** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
-- **Song** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
-- **Influence** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
-- **.test_custom_modelforms_with_fields_fieldsets()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
-- **Album** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
-- **Author** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
-- **Book** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
-- **City** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
-- **State** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
-- **TwoAlbumFKAndAnE** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
-- **ValidFormFieldsets** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
-- **.process_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
-- **.process_response()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
-- **MessageMiddlewareSubclass** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
-- **SessionMiddlewareSubclass** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
-- **ValidFields** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
-- **Update the storage backend (i.e., save the messages). Raise ValueError if not…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
-- **Middleware that handles temporary messages.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
-- **AuthorsBooks** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
-- **Tests of ModelAdmin system checks logic.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
-- **.readonly_method_on_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
-- *... and 2 more nodes in this community*
+- **defer_regress/tests.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- **DeferRegressionTest** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- **defer_regress/models.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **Item** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **Proxy** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **ProxyRelated** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **DeferAnnotateSelectRelatedTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- **Base** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **Derived** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **RelatedItem** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **.test_ticket_12163()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- **Child** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **Feature** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **ItemAndSimpleItem** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **Leaf** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **Location** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **OneToOneItem** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **Request** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **ResolveThis** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **SimpleItem** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **SpecialFeature** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **.test_defer_annotate_select_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- **.test_ticket_16409()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 80](Community_80.md) (14 shared connections)
-- [Community 154](Community_154.md) (5 shared connections)
-- [Community 95](Community_95.md) (4 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 41](Community_41.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 907](Community_907.md) (2 shared connections)
-- [Community 137](Community_137.md) (2 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 98](Community_98.md) (1 shared connections)
-- [Community 82](Community_82.md) (1 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 222](Community_222.md) (3 shared connections)
+- [Community 866](Community_866.md) (3 shared connections)
+- [Community 620](Community_620.md) (3 shared connections)
+- [Community 19](Community_19.md) (3 shared connections)
+- [Community 16](Community_16.md) (3 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_checks/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 74 (89%)
-- INFERRED: 9 (11%)
+- EXTRACTED: 70 (76%)
+- INFERRED: 22 (24%)
 - AMBIGUOUS: 0 (0%)
 
 ---

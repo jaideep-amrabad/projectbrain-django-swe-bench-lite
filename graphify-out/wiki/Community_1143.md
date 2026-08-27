@@ -4,20 +4,21 @@
 
 ## Key Concepts
 
-- **.pk_default_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **Return the value to use during an INSERT statement to specify that the field…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.test_inheritance04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Two-level with no redefinitions on second level** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 52](Community_52.md) (1 shared connections)
+- [Community 774](Community_774.md) (1 shared connections)
+- [Community 804](Community_804.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,25 +1,23 @@
 # Community 1093
 
-> 4 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **GetAvailableLanguagesTagTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_available_languages.py`
-- **.test_i18n12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_available_languages.py`
-- **.test_no_as_var()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_available_languages.py`
-- **setup** (2 connections)
+- **rpm-install.sh** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/rpm-install.sh`
+- **rpm-install.sh script** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/rpm-install.sh`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_available_languages.py`
+- `raw/code/hyd-evaluation/django-django/scripts/rpm-install.sh`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 1 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

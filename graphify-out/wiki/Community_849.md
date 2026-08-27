@@ -1,33 +1,45 @@
 # Community 849
 
-> 8 nodes · cohesion 0.39
+> 16 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **truncatewords()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **FunctionTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatewords.py`
-- **.test_invalid_number()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatewords.py`
-- **.test_non_string_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatewords.py`
-- **.test_overtruncate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatewords.py`
-- **.test_truncate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatewords.py`
-- **.test_truncate2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatewords.py`
-- **Truncate a string after `arg` number of words. Remove newlines within the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **ImageFile** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **ImageFieldFile** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **TestImageFieldFile** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **._get_image_dimensions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **get_image_dimensions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **.height()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **.width()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **ImageFile** (1 connections)
+- **File** (1 connections)
+- **A mixin for use alongside django.core.files.base.File, which provides…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **Return the (width, height) of an image, given an open file or a path. Set…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **Custom Field File class that records whether or not the underlying file was…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.open()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
 
 ## Relationships
 
-- [Community 47](Community_47.md) (3 shared connections)
-- [Community 5](Community_5.md) (3 shared connections)
-- [Community 221](Community_221.md) (1 shared connections)
+- [Community 129](Community_129.md) (6 shared connections)
+- [Community 115](Community_115.md) (2 shared connections)
+- [Community 351](Community_351.md) (2 shared connections)
+- [Community 203](Community_203.md) (2 shared connections)
+- [Community 487](Community_487.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatewords.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 26 (84%)
+- INFERRED: 5 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

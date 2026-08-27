@@ -1,46 +1,49 @@
 # Community 436
 
-> 19 nodes · cohesion 0.13
+> 22 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **ChoicesMeta** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **enums.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **Choices** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **TextChoices** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **IntegerChoices** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **Class for creating enumerated choices.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **.labels()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **int** (1 connections)
-- **.choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **.names()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **.__new__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **.values()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **str** (1 connections)
-- **Use value when cast to str, so that Choices set as model instance attributes…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **A metaclass for creating a enum choices.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **._generate_next_value_()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **LocMemCache** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **._has_expired()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **._delete()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **closeable_cache.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
+- **liberal_backend.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
+- **.add()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **.has_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **.incr()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **._set()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **CacheClass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
+- **CloseHookMixin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
+- **.close()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
+- **CacheClass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
+- **LiberalKeyValidationMixin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
+- **.test_use_as_contextmanager()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **._cull()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **.touch()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **.clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- **.validate_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
+- **The connection can be used as a contextmanager.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Relationships
 
-- [Community 536](Community_536.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 410](Community_410.md) (1 shared connections)
-- [Community 58](Community_58.md) (1 shared connections)
+- [Community 204](Community_204.md) (4 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 305](Community_305.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/locmem.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/liberal_backend.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (89%)
-- INFERRED: 3 (11%)
+- EXTRACTED: 39 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

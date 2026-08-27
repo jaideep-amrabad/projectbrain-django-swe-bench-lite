@@ -4,24 +4,23 @@
 
 ## Key Concepts
 
-- **._effective_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **.test_effective_default_callable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_schema.py`
-- **Return a field's effective database default value.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- **SchemaEditor.effective_default() shouldn't call callable defaults.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_schema.py`
+- **.test_logout()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_logout_cookie_sessions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_logout_with_force_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **Request a logout after logging in** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 89](Community_89.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 518](Community_518.md) (3 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_schema.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

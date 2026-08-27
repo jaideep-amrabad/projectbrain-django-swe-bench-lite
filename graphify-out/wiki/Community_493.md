@@ -1,47 +1,51 @@
 # Community 493
 
-> 22 nodes · cohesion 0.13
+> 21 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **HandlerLoggingTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.assertLogsRequest()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **I18nLoggingTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **SecurityLoggerTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **SetupDefaultLoggingMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **LoggingAssertionMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_internal_server_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_internal_server_error_599()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_multi_part_parser_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_page_not_found_raised()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_page_not_found_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_permission_denied()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_uncaught_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_suspicious_email_admins()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_suspicious_operation_creates_log_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_suspicious_operation_uses_sublogger()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_page_found_no_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_redirect_no_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_i18n_page_found_no_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.test_i18n_page_not_found_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.tearDownClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **SeleniumTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **Inner4Stacked** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **Inner4Tabular** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **.test_add_inlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_add_stackeds()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_inline_formset_error_input_border()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **Inner4StackedInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/admin.py`
+- **Inner4TabularInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/admin.py`
+- **.assertBorder()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_add_inline_link_absent_for_view_only_parent_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_added_stacked_inline_with_collapsed_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_collapsed_inlines()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_delete_inlines()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_delete_invalid_stacked_inlines()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_delete_invalid_tabular_inlines()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_delete_stackeds()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_inline_formset_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **The "Add another XXX" link correctly adds items to the inline form.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **The "Add another XXX" link correctly adds items to the stacked formset.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
 
 ## Relationships
 
-- [Community 82](Community_82.md) (6 shared connections)
-- [Community 8](Community_8.md) (5 shared connections)
-- [Community 5](Community_5.md) (3 shared connections)
-- [Community 989](Community_989.md) (2 shared connections)
+- [Community 6](Community_6.md) (11 shared connections)
+- [Community 328](Community_328.md) (7 shared connections)
+- [Community 184](Community_184.md) (5 shared connections)
+- [Community 213](Community_213.md) (2 shared connections)
+- [Community 605](Community_605.md) (2 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 360](Community_360.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 41 (80%)
+- INFERRED: 10 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

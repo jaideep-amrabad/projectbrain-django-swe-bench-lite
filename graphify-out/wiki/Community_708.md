@@ -1,36 +1,37 @@
 # Community 708
 
-> 12 nodes · cohesion 0.18
+> 12 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **.each_context()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **.login()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **.has_permission()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **.logout()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **.password_change()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **.password_change_done()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **Return True if the given HttpRequest has permission to view *at least one* page…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **Return a dictionary of variables to put in the template context for *every*…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **Handle the "change password" task -- both form display and validation.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **Display the "success" page after a password change.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **Log out the user for the given HttpRequest. This should *not* assume the user…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
-- **Display the login form for the given HttpRequest.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- **MediaType** (15 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **MediaTypeTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_accept_header.py`
+- **.test_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_accept_header.py`
+- **.test_is_all_types()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_accept_header.py`
+- **.test_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_accept_header.py`
+- **.test_no_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_accept_header.py`
+- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_accept_header.py`
+- **.test_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_accept_header.py`
+- **.is_all_types()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.match()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
 
 ## Relationships
 
-- [Community 80](Community_80.md) (6 shared connections)
-- [Community 958](Community_958.md) (4 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 15](Community_15.md) (2 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
+- [Community 802](Community_802.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- `raw/code/hyd-evaluation/django-django/tests/requests/test_accept_header.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (96%)
+- EXTRACTED: 22 (96%)
 - INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 

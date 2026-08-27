@@ -1,39 +1,43 @@
 # Community 666
 
-> 14 nodes · cohesion 0.27
+> 14 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **ExplicitRelatedQueryNameClashTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **._test_explicit_related_query_name_clash()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_fk_to_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_fk_to_integer()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_fk_to_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_m2m_to_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_m2m_to_integer()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_m2m_to_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_hidden_fk_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_hidden_fk_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_hidden_fk_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_hidden_m2m_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_hidden_m2m_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_hidden_m2m_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **dates/tests.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
+- **DatesTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
+- **dates/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/models.py`
+- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/models.py`
+- **Category** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/models.py`
+- **Comment** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/models.py`
+- **.test_dates_trunc_datetime_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
+- **.test_dates_avoid_datetime_cast()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
+- **.test_dates_fails_when_given_invalid_field_argument()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
+- **.test_dates_fails_when_given_invalid_kind_argument()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
+- **.test_dates_fails_when_given_invalid_order_argument()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
+- **.test_dates_fails_when_no_arguments_are_provided()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
+- **.test_related_model_traverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
+- **skipUnless** (1 connections)
 
 ## Relationships
 
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 598](Community_598.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 152](Community_152.md) (1 shared connections)
+- [Community 222](Community_222.md) (4 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 19](Community_19.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 29](Community_29.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/dates/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 30 (91%)
+- INFERRED: 3 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

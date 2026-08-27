@@ -1,57 +1,57 @@
 # Community 189
 
-> 46 nodes · cohesion 0.05
+> 53 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **Widget** (21 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **SelectDateWidgetTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- **SelectDateWidget** (15 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **WidgetTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_widget.py`
-- **.create_option()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.id_for_label()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **._parse_date_fmt()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.build_attrs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.id_for_label()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.value_from_datadict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_custom_input_format()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- **.test_l10n()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- **.test_years_rendered_without_separator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- **.value_omitted_from_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.format_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.id_for_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.value_from_datadict()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_custom_months()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- **.test_render_invalid_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- **.test_render_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- **.test_selectdate_empty_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- **.test_attr_false_not_rendered()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_widget.py`
-- **.test_format_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_widget.py`
-- **.test_no_trailing_newline_in_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_widget.py`
-- *... and 21 more nodes in this community*
+- **OrderingTests** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **ordering/tests.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **ordering/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **.test_orders_nulls_first_on_filtered_subquery()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **OrderedByFArticle** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **Author** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **ChildArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **Reference** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **.assertQuerysetEqualReversible()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_order_by_nulls_first()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_order_by_nulls_last()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **OrderedByAuthorArticle** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- **.test_order_by_f_expression_duplicates()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_default_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_default_ordering_by_f_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_default_ordering_override()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_extra_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_extra_ordering_quoting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_order_by_constant_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_order_by_f_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_order_by_fk_attname()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- **.test_order_by_nulls_first_and_last()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
+- *... and 28 more nodes in this community*
 
 ## Relationships
 
-- [Community 33](Community_33.md) (17 shared connections)
-- [Community 62](Community_62.md) (3 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 43](Community_43.md) (2 shared connections)
-- [Community 300](Community_300.md) (2 shared connections)
+- [Community 47](Community_47.md) (8 shared connections)
+- [Community 19](Community_19.md) (6 shared connections)
+- [Community 34](Community_34.md) (4 shared connections)
+- [Community 29](Community_29.md) (4 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 46](Community_46.md) (2 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
 - [Community 2](Community_2.md) (1 shared connections)
-- [Community 138](Community_138.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 16](Community_16.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_widget.py`
+- `raw/code/hyd-evaluation/django-django/tests/ordering/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/ordering/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 78 (94%)
-- INFERRED: 5 (6%)
+- EXTRACTED: 92 (91%)
+- INFERRED: 9 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

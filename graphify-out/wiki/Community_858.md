@@ -4,29 +4,31 @@
 
 ## Key Concepts
 
-- **DeleteViewTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_delete_by_delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_delete_by_post()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_delete_with_interpolated_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_delete_with_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_delete_with_special_properties()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_delete_without_redirect()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **SeleniumTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- **.test_add_row_selection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- **.test_save_with_changes_warns_on_pending_action()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- **.test_save_without_changes_warns_on_pending_action()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- **.test_select_all_across_pages()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- **.test_actions_warn_on_pending_edits()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- **The status line for selected rows gets updated correctly (#22038).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
 
 ## Relationships
 
-- [Community 93](Community_93.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
+- [Community 6](Community_6.md) (5 shared connections)
+- [Community 51](Community_51.md) (3 shared connections)
+- [Community 259](Community_259.md) (2 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 360](Community_360.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (91%)
-- INFERRED: 1 (9%)
+- EXTRACTED: 16 (84%)
+- INFERRED: 3 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

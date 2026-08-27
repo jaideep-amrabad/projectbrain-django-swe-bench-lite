@@ -1,6 +1,6 @@
 # Community 225
 
-> 48 nodes · cohesion 0.08
+> 47 nodes · cohesion 0.08
 
 ## Key Concepts
 
@@ -10,7 +10,6 @@
 - **CovarPop** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
 - **RegrAvgX** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
 - **RegrCount** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **aggregates/__init__.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/__init__.py`
 - **Corr** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
 - **RegrAvgY** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
 - **RegrIntercept** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
@@ -29,26 +28,26 @@
 - **.test_covar_pop_empty_result()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
 - **.test_covar_pop_sample()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
 - **.test_covar_pop_sample_empty_result()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- *... and 23 more nodes in this community*
+- **.test_missing_arguments_raises_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- *... and 22 more nodes in this community*
 
 ## Relationships
 
-- [Community 111](Community_111.md) (6 shared connections)
-- [Community 75](Community_75.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 114](Community_114.md) (5 shared connections)
+- [Community 363](Community_363.md) (1 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 16](Community_16.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/__init__.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
 - `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
 
 ## Audit Trail
 
-- EXTRACTED: 67 (70%)
-- INFERRED: 29 (30%)
+- EXTRACTED: 64 (69%)
+- INFERRED: 29 (31%)
 - AMBIGUOUS: 0 (0%)
 
 ---

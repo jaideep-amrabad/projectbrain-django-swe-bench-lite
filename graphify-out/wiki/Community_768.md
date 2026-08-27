@@ -1,27 +1,34 @@
 # Community 768
 
-> 10 nodes · cohesion 0.44
+> 11 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **actions.js** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
-- **reset()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
-- **showQuestion()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
-- **hide()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
-- **show()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
-- **checker()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
-- **clearAcross()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
-- **showClear()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
-- **updateCounter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
-- **ready()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
+- **fixtures_model_package/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/tests.py`
+- **fixtures_model_package/models/__init__.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/models/__init__.py`
+- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/models/__init__.py`
+- **FixtureTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/tests.py`
+- **SampleTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/tests.py`
+- **.test_loaddata()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/tests.py`
+- **.test_class_fixtures()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/models/__init__.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/models/__init__.py`
+- **Test cases can load fixture objects into models defined in packages** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/tests.py`
+- **Fixtures can load data into models defined in packages** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/tests.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 19](Community_19.md) (3 shared connections)
+- [Community 57](Community_57.md) (2 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 44](Community_44.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/actions.js`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/models/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/tests.py`
 
 ## Audit Trail
 

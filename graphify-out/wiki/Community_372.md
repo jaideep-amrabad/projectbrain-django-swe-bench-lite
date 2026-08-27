@@ -1,63 +1,50 @@
 # Community 372
 
-> 30 nodes · cohesion 0.08
+> 22 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **test_autocomplete_view.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- **Question** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **AutocompleteJsonViewTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- **Book** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **DateHierarchyTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
-- **QuestionAdmin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.test_get_paginator()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- **.test_choice_links()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
-- **.test_choice_links_datetime()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
-- **Authorship** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **AnswerAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **Author** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **AuthorshipInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- **.test_has_view_or_change_permission_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- **.test_search_use_distinct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_multidb.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **A simple book that has chapters.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **AuthorAdmin** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- **.test_missing_search_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- **.test_must_be_logged_in()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- **.test_success()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- **BookAdmin** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- *... and 5 more nodes in this community*
+- **ModelFormBasicTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **ArticleForm** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **BaseCategoryForm** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.create_basic_data()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_m2m_initial_callable()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_initial_values()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_m2m_editing()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_multi_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_runtime_choicefield_populated()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_modelform_non_editable_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_disabled_multiplemodelchoicefield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_auto_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_base_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_basic_creation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_save_commit_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_save_with_data_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_custom_form_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_subset_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_validate_foreign_key_to_model_with_overridden_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_validate_foreign_key_uses_default_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Regression for #10349: A callable can be provided as the initial value for an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **When explicitly including a non-editable field in a ModelForm, the error…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Relationships
 
-- [Community 15](Community_15.md) (9 shared connections)
-- [Community 7](Community_7.md) (7 shared connections)
-- [Community 66](Community_66.md) (5 shared connections)
-- [Community 91](Community_91.md) (5 shared connections)
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 95](Community_95.md) (3 shared connections)
-- [Community 154](Community_154.md) (2 shared connections)
-- [Community 158](Community_158.md) (2 shared connections)
-- [Community 958](Community_958.md) (2 shared connections)
-- [Community 53](Community_53.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 454](Community_454.md) (1 shared connections)
+- [Community 108](Community_108.md) (14 shared connections)
+- [Community 461](Community_461.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 123](Community_123.md) (1 shared connections)
+- [Community 389](Community_389.md) (1 shared connections)
+- [Community 151](Community_151.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_multidb.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 76 (89%)
-- INFERRED: 9 (11%)
+- EXTRACTED: 45 (87%)
+- INFERRED: 7 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

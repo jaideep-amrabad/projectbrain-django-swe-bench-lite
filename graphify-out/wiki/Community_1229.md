@@ -1,24 +1,22 @@
 # Community 1229
 
-> 2 nodes · cohesion 1.00
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **.test_inheritance15()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **A block within another block** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **admin/templatetags/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/__init__.py`
 
 ## Relationships
 
-- [Community 766](Community_766.md) (1 shared connections)
-- [Community 802](Community_802.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

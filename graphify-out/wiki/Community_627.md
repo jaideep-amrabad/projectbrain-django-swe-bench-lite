@@ -1,44 +1,41 @@
 # Community 627
 
-> 14 nodes · cohesion 0.23
+> 15 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **autodiscover_modules()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
-- **AutodiscoverModulesTestCase** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **autodiscover()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/__init__.py`
-- **.test_autodiscover_modules_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_autodiscover_modules_found_but_bad_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_autodiscover_modules_not_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_autodiscover_modules_several_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_autodiscover_modules_several_found_with_registry()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_autodiscover_modules_several_one_bad_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_validate_registry_keeps_intact()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_validate_registry_resets_after_erroneous_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_validate_registry_resets_after_missing_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **Auto-discover INSTALLED_APPS modules and fail silently when not present. This…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **BaseReloader** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.run()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.watched_files()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.run_loop()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.wait_for_apps_ready()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.tick()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.stop()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.check_availability()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.should_stop()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.stop()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **.watch_dir()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **Yield all files that need to be watched, including module files and files…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **Wait until Django reports that the apps have been loaded. If the given thread…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **This generator is called in a loop from run_loop. It's important that the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
 
 ## Relationships
 
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 57](Community_57.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 331](Community_331.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 507](Community_507.md) (4 shared connections)
+- [Community 508](Community_508.md) (4 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 236](Community_236.md) (1 shared connections)
+- [Community 522](Community_522.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 26 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

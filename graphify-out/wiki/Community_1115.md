@@ -1,28 +1,24 @@
 # Community 1115
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **SubscriberAdmin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.mail_admin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.delete_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **bad_error_handlers.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/bad_error_handlers.py`
+- **bad_handler()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/bad_error_handlers.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 66](Community_66.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 120](Community_120.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/bad_error_handlers.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (71%)
-- INFERRED: 2 (29%)
+- EXTRACTED: 1 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,30 +1,34 @@
 # Community 809
 
-> 9 nodes · cohesion 0.28
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **OutputWrapper** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.style_func()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.isatty()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.write()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **setter** (1 connections)
-- **Wrapper around stdout/stderr** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
-- **TextIOBase** (1 connections)
+- **DoNothingDecorator** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **TestContextDecoratorTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_exception_in_setup()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_override_database_routers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **object** (2 connections)
+- **.disable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.enable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Overriding DATABASE_ROUTERS should update the master router.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **An exception is setUp() is reraised after disable() is called.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_cleanups_run_after_tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (3 shared connections)
+- [Community 290](Community_290.md) (2 shared connections)
+- [Community 237](Community_237.md) (1 shared connections)
+- [Community 485](Community_485.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

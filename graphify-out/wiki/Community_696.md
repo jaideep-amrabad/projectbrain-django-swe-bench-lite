@@ -1,38 +1,38 @@
 # Community 696
 
-> 13 nodes · cohesion 0.21
+> 13 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **m2o_recursive/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
-- **m2o_recursive/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
-- **ManyToOneRecursiveTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
-- **MultipleManyToOneRecursiveTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
-- **Category** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
-- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
-- **Relating an object to itself, many-to-one To define a many-to-one relationship…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
-- **.test_m2o_recursive()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
-- **.test_m2o_recursive2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
+- **AutocompleteJsonViewTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **QuestionAdmin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.test_get_paginator()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **.test_has_view_or_change_permission_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **.test_search_use_distinct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **.test_missing_search_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **.test_must_be_logged_in()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **.test_success()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **AdminViewBasicTestCase** (1 connections)
+- **Search results are paginated.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **Users require the change permission for the related model to the autocomplete…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
+- **Searching across model relations use QuerySet.distinct() to avoid duplicates.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
 
 ## Relationships
 
-- [Community 14](Community_14.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 6](Community_6.md) (4 shared connections)
+- [Community 69](Community_69.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_autocomplete_view.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (91%)
-- INFERRED: 2 (9%)
+- EXTRACTED: 16 (84%)
+- INFERRED: 3 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

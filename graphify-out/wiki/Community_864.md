@@ -1,32 +1,33 @@
 # Community 864
 
-> 8 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **MigrateSignalTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
-- **Receiver** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
-- **.test_migrations_only()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
-- **.test_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
-- **.test_call_time()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
-- **If all apps have migrations, migration signals should be sent.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
-- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
+- **ModelLookupTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.setUpTestData()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_too_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_all_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_does_not_exist()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_equal_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_lookup_by_primary_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_rich_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
 
 ## Relationships
 
-- [Community 598](Community_598.md) (2 shared connections)
-- [Community 168](Community_168.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 417](Community_417.md) (3 shared connections)
+- [Community 29](Community_29.md) (2 shared connections)
+- [Community 610](Community_610.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 11 (79%)
+- INFERRED: 3 (21%)
 - AMBIGUOUS: 0 (0%)
 
 ---

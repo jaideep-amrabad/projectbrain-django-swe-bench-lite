@@ -1,55 +1,62 @@
 # Community 411
 
-> 27 nodes · cohesion 0.13
+> 37 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **time()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **DateTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **TimeTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
-- **setup** (10 connections)
-- **setup** (8 connections)
-- **.test_date02_l10n()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_time00_l10n()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
-- **.test_date01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_date02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_date03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_date04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_date05()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_date06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_date07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_date08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_date09()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_time00()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
-- **.test_time03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
-- **.test_time04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
-- **.test_time01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
-- **.test_time02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
-- **.test_time05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
-- **.test_time06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
-- **Format a time according to the given format.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **Without arg and when USE_L10N is True, the active language's DATE_FORMAT is…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- *... and 2 more nodes in this community*
+- **search.py** (29 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **test_trigram.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
+- **TrigramTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
+- **test_unaccent.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
+- **UnaccentTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
+- **CharFieldModel** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **SearchVectorExact** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **SearchVectorField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **CombinedSearchVector** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **TrigramBase** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **TrigramDistance** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **TrigramSimilarity** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **TextFieldModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **SearchVectorCombinable** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **TrigramTextFieldTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
+- **UnaccentTextFieldTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
+- **SearchQueryField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.process_rhs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **Field** (2 connections)
+- **._combine()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.as_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.test_trigram_similarity()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
+- **.test_trigram_similarity_alternate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
+- **.test_unaccent_chained()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 115](Community_115.md) (7 shared connections)
-- [Community 5](Community_5.md) (6 shared connections)
-- [Community 47](Community_47.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 43](Community_43.md) (1 shared connections)
-- [Community 37](Community_37.md) (1 shared connections)
+- [Community 14](Community_14.md) (12 shared connections)
+- [Community 198](Community_198.md) (6 shared connections)
+- [Community 685](Community_685.md) (4 shared connections)
+- [Community 8](Community_8.md) (4 shared connections)
+- [Community 143](Community_143.md) (3 shared connections)
+- [Community 52](Community_52.md) (2 shared connections)
+- [Community 64](Community_64.md) (2 shared connections)
+- [Community 199](Community_199.md) (2 shared connections)
+- [Community 19](Community_19.md) (2 shared connections)
+- [Community 222](Community_222.md) (2 shared connections)
+- [Community 801](Community_801.md) (2 shared connections)
+- [Community 77](Community_77.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_trigram.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
 
 ## Audit Trail
 
-- EXTRACTED: 58 (89%)
-- INFERRED: 7 (11%)
+- EXTRACTED: 98 (92%)
+- INFERRED: 9 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

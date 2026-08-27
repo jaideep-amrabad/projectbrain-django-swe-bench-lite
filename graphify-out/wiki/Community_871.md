@@ -1,29 +1,32 @@
 # Community 871
 
-> 8 nodes · cohesion 0.43
+> 8 nodes · cohesion 0.46
 
 ## Key Concepts
 
-- **LoremTagTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_lorem.py`
-- **setup** (6 connections)
-- **.test_lorem1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_lorem.py`
-- **.test_lorem_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_lorem.py`
-- **.test_lorem_incorrect_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_lorem.py`
-- **.test_lorem_multiple_paragraphs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_lorem.py`
-- **.test_lorem_random()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_lorem.py`
-- **.test_lorem_syntax()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_lorem.py`
+- **ReverseQueryNameClashTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **._test_reverse_query_name_clash()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_fk_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_fk_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_fk_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_m2m_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_m2m_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_m2m_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (2 shared connections)
+- [Community 75](Community_75.md) (1 shared connections)
+- [Community 44](Community_44.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 55](Community_55.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_lorem.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 17 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

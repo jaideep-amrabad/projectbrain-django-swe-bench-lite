@@ -4,24 +4,27 @@
 
 ## Key Concepts
 
-- **core.js** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
-- **findPosX()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
-- **findPosY()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
-- **quickElement()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
-- **removeChildren()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
+- **NKChild** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Parent** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 345](Community_345.md) (6 shared connections)
+- [Community 179](Community_179.md) (2 shared connections)
+- [Community 371](Community_371.md) (1 shared connections)
+- [Community 579](Community_579.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 11 (79%)
+- INFERRED: 3 (21%)
 - AMBIGUOUS: 0 (0%)
 
 ---

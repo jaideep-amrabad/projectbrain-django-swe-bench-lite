@@ -1,49 +1,44 @@
 # Community 515
 
-> 21 nodes · cohesion 0.10
+> 18 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **serializers/test_data.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **SerializerDataTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **data_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **data_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **fk_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **fk_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **generic_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **generic_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **im2m_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **im2m_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **im_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **im_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **inherited_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **inherited_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **m2m_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **m2m_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **o2o_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **o2o_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **pk_compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **pk_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
-- **A test spanning all the capabilities of all the serializers. This class defines…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **WKTAdapter** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/adapter.py`
+- **OracleSpatialAdapter** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/adapter.py`
+- **spatialite/adapter.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/adapter.py`
+- **SpatiaLiteAdapter** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/adapter.py`
+- **base/adapter.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/adapter.py`
+- **._fix_geometry_collection()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/adapter.py`
+- **._fix_polygon()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/adapter.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/adapter.py`
+- **An adaptor for Geometries sent to the MySQL and Oracle database backends.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/adapter.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/adapter.py`
+- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/adapter.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/adapter.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/adapter.py`
+- **Oracle requires that polygon rings are in proper orientation. This affects…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/adapter.py`
+- **Fix single polygon orientation as described in __init__().** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/adapter.py`
+- **Fix polygon orientations in geometry collections as described in __init__().** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/adapter.py`
+- **SQLite adapter for geometry objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/adapter.py`
+- **.__conform__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/adapter.py`
 
 ## Relationships
 
-- [Community 99](Community_99.md) (4 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 115](Community_115.md) (1 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 517](Community_517.md) (1 shared connections)
+- [Community 41](Community_41.md) (6 shared connections)
+- [Community 18](Community_18.md) (3 shared connections)
+- [Community 363](Community_363.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/adapter.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/adapter.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/adapter.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (44%)
-- INFERRED: 18 (56%)
+- EXTRACTED: 31 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

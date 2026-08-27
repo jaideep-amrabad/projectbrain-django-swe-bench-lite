@@ -1,49 +1,60 @@
 # Community 145
 
-> 16 nodes · cohesion 0.12
+> 47 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **.assertOptimizesTo()** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.optimize()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.serialize()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_add_field_alter_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_create_delete_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_create_model_no_reordering_of_inherited_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_rename_model_self()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_single()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_create_alter_model_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **.test_optimize_elidable_operation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **Handy shortcut for getting results + number of loops** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **A CreateModel that inherits from another isn't reordered to avoid moving it…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **The optimizer does nothing on a single operation, and that it does it in just…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **AlterField should optimize into AddField.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **CreateModel and DeleteModel should collapse into nothing.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
-- **RenameModels should absorb themselves.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **model_formsets/tests.py** (48 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **model_formsets/models.py** (40 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Author** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Book** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **AlternateBook** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **BookWithOptionalAltEditor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **MexicanRestaurant** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Place** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Player** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Poem** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Price** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Restaurant** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Revision** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **AuthorMeeting** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **BetterAuthor** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **BookWithCustomPK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **ClassyMexicanRestaurant** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Owner** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **OwnerProfile** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Post** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Product** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Repository** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **CustomPrimaryKey** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- **Location** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- *... and 22 more nodes in this community*
 
 ## Relationships
 
-- [Community 680](Community_680.md) (12 shared connections)
-- [Community 813](Community_813.md) (5 shared connections)
-- [Community 903](Community_903.md) (2 shared connections)
-- [Community 1182](Community_1182.md) (1 shared connections)
-- [Community 1183](Community_1183.md) (1 shared connections)
-- [Community 1184](Community_1184.md) (1 shared connections)
-- [Community 1185](Community_1185.md) (1 shared connections)
-- [Community 982](Community_982.md) (1 shared connections)
-- [Community 1186](Community_1186.md) (1 shared connections)
-- [Community 1187](Community_1187.md) (1 shared connections)
-- [Community 1188](Community_1188.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 116](Community_116.md) (32 shared connections)
+- [Community 497](Community_497.md) (9 shared connections)
+- [Community 295](Community_295.md) (6 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 29](Community_29.md) (2 shared connections)
+- [Community 222](Community_222.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
+- [Community 218](Community_218.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 118 (81%)
+- INFERRED: 28 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

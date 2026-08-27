@@ -4,40 +4,36 @@
 
 ## Key Concepts
 
-- **InheritanceTests** (47 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Inherit from a template with block wrapped in an {% if %} tag (in parent),…** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance34()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance35()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance37()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance38()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_extends_duplicate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance32()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance40()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance41()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **HttpHeaders** (9 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **HttpHeadersTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.parse_header_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.headers()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_parse_header_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **Allow header lookup using underscores in place of hyphens.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
 
 ## Relationships
 
-- [Community 766](Community_766.md) (15 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 1131](Community_1131.md) (2 shared connections)
-- [Community 1132](Community_1132.md) (2 shared connections)
-- [Community 1220](Community_1220.md) (1 shared connections)
-- [Community 1221](Community_1221.md) (1 shared connections)
-- [Community 1222](Community_1222.md) (1 shared connections)
-- [Community 1223](Community_1223.md) (1 shared connections)
-- [Community 1224](Community_1224.md) (1 shared connections)
-- [Community 1225](Community_1225.md) (1 shared connections)
-- [Community 1226](Community_1226.md) (1 shared connections)
-- [Community 1227](Community_1227.md) (1 shared connections)
+- [Community 24](Community_24.md) (2 shared connections)
+- [Community 595](Community_595.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 468](Community_468.md) (1 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
+- [Community 708](Community_708.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 59 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 20 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,57 +1,62 @@
 # Community 127
 
-> 73 nodes · cohesion 0.05
+> 70 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **model_inheritance/tests.py** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **ModelInheritanceTests** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **model_inheritance/models.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **ModelInheritanceDataTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **Restaurant** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **GrandChild** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Place** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **CommonInfo** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Meta** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **InheritanceUniqueTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **GrandParent** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **ItalianRestaurant** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **MixinModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Parent** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Student** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Supplier** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Attachment** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Base** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **ParkingLot** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **SubBase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Worker** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **InheritanceSameModelNameTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
-- **Chef** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Child** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- **Mixin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- *... and 48 more nodes in this community*
+- **Index** (43 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
+- **indexes/tests.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **SchemaIndexesPostgreSQLTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **SchemaIndexesTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **Article** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
+- **PartialIndexTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **indexes/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
+- **SchemaIndexesTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_indexes.py`
+- **CoveringIndexTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **SchemaIndexesMySQLTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **CoveringIndexIgnoredTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **PartialIndexConditionIgnoredTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **SchemaIndexesNotPostgreSQLTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **.test_index_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_indexes.py`
+- **IndexedArticle2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
+- **IndexTogetherSingleList** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
+- **.test_multiple_conditions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- **.clone()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
+- **.deconstruct()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
+- **._get_condition_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
+- **.test_using_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_indexes.py`
+- **ArticleTranslation** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
+- **CurrentTranslation** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
+- **IndexedArticle** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
+- **.test_covering_partial_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
+- *... and 45 more nodes in this community*
 
 ## Relationships
 
-- [Community 10](Community_10.md) (5 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 14](Community_14.md) (4 shared connections)
-- [Community 5](Community_5.md) (3 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 140](Community_140.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
-- [Community 400](Community_400.md) (1 shared connections)
+- [Community 22](Community_22.md) (12 shared connections)
+- [Community 26](Community_26.md) (9 shared connections)
+- [Community 37](Community_37.md) (8 shared connections)
+- [Community 38](Community_38.md) (6 shared connections)
+- [Community 222](Community_222.md) (5 shared connections)
+- [Community 87](Community_87.md) (3 shared connections)
+- [Community 19](Community_19.md) (3 shared connections)
+- [Community 77](Community_77.md) (2 shared connections)
+- [Community 61](Community_61.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_indexes.py`
+- `raw/code/hyd-evaluation/django-django/tests/indexes/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/indexes/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 138 (85%)
-- INFERRED: 24 (15%)
+- EXTRACTED: 129 (74%)
+- INFERRED: 45 (26%)
 - AMBIGUOUS: 0 (0%)
 
 ---

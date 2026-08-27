@@ -1,55 +1,62 @@
 # Community 144
 
-> 67 nodes · cohesion 0.05
+> 82 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **ManyToOneTests** (55 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **many_to_one/tests.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **many_to_one/models.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **Article** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **Parent** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **Reporter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **Category** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **ChildNullableParent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **District** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **First** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **Relation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **Third** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **ToFieldChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **.test_fk_assignment_and_related_object_cache()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **City** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **Country** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **Record** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **School** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **Student** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **.setUpTestData()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_save_nullable_fk_after_parent()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **.test_save_nullable_fk_after_parent_with_to_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- **SchoolManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- **.test_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
-- *... and 42 more nodes in this community*
+- **ManyToManyField** (33 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **RelatedField** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **OneToOneField** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.check()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **CustomManyToManyField** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
+- **.deconstruct()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.check()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.get_constraints_count()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.formfield()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.test_unique_and_reverse_m2m()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.check()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.contribute_to_related_class()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **._check_clashes()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.related_query_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.test_alter_field_fk_keeps_index()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_alter_field_fk_to_o2o()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_alter_field_o2o_keeps_unique()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_alter_field_o2o_to_fk()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_m2m_rename_field_in_target_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.db_parameters()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **.deconstruct()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **._check_relationship_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **._check_unique()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **._get_path_info()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- *... and 57 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 115](Community_115.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 342](Community_342.md) (1 shared connections)
+- [Community 37](Community_37.md) (25 shared connections)
+- [Community 182](Community_182.md) (18 shared connections)
+- [Community 322](Community_322.md) (6 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 340](Community_340.md) (3 shared connections)
+- [Community 81](Community_81.md) (2 shared connections)
+- [Community 435](Community_435.md) (2 shared connections)
+- [Community 132](Community_132.md) (2 shared connections)
+- [Community 222](Community_222.md) (2 shared connections)
+- [Community 75](Community_75.md) (2 shared connections)
+- [Community 193](Community_193.md) (1 shared connections)
+- [Community 147](Community_147.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/many_to_one/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/many_to_one/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 109 (87%)
-- INFERRED: 16 (13%)
+- EXTRACTED: 157 (91%)
+- INFERRED: 15 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

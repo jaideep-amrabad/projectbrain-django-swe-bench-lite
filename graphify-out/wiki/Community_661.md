@@ -1,44 +1,45 @@
 # Community 661
 
-> 14 nodes · cohesion 0.22
+> 14 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **dates/tests.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
-- **DatesTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
-- **dates/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/models.py`
-- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/models.py`
-- **Category** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/models.py`
-- **Comment** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/models.py`
-- **.test_dates_trunc_datetime_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
-- **.test_dates_avoid_datetime_cast()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
-- **.test_dates_fails_when_given_invalid_field_argument()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
-- **.test_dates_fails_when_given_invalid_kind_argument()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
-- **.test_dates_fails_when_given_invalid_order_argument()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
-- **.test_dates_fails_when_no_arguments_are_provided()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
-- **.test_related_model_traverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
-- **skipUnless** (1 connections)
+- **TestInlineMedia** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **Inner** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **Inner2** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **Holder** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **Holder2** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **Inner3** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **Holder3** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **InnerInline** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/admin.py`
+- **.test_all_inline_media()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_inline_media_only_base()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_inline_media_only_inline()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **InnerInline2Tabular** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/admin.py`
+- **.get_absolute_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 37](Community_37.md) (1 shared connections)
-- [Community 115](Community_115.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 328](Community_328.md) (14 shared connections)
+- [Community 184](Community_184.md) (10 shared connections)
+- [Community 213](Community_213.md) (3 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 556](Community_556.md) (2 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 660](Community_660.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/dates/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (91%)
-- INFERRED: 3 (9%)
+- EXTRACTED: 39 (72%)
+- INFERRED: 15 (28%)
 - AMBIGUOUS: 0 (0%)
 
 ---

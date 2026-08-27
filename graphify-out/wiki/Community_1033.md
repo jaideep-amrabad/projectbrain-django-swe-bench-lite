@@ -1,23 +1,21 @@
 # Community 1033
 
-> 4 nodes · cohesion 0.50
+> 4 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.get_users()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **_unicode_ci_compare()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **Perform case-insensitive comparison of two identifiers, using the recommended…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **Given an email, return matching user(s) who should receive a reset. This allows…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **SafeseqTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_safeseq.py`
+- **setup** (2 connections)
+- **.test_safeseq01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_safeseq.py`
+- **.test_safeseq02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_safeseq.py`
 
 ## Relationships
 
-- [Community 536](Community_536.md) (1 shared connections)
-- [Community 406](Community_406.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_safeseq.py`
 
 ## Audit Trail
 

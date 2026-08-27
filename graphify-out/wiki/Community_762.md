@@ -1,41 +1,35 @@
 # Community 762
 
-> 13 nodes · cohesion 0.15
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **SubqueryTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **ManagedModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.test_distinct_ordered_sliced_subquery()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ordered_subselect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_related_sliced_subquery()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_slice_subquery_and_query()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_sliced_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Subselects honor any manual ordering** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Slice a query that has a sliced subquery** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Related objects constraints can safely contain sliced subqueries. refs #22434** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **Delete queries can safely contain sliced subqueries** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **ArticleAdmin** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **CustomArticleAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.changelist_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.delete_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.save_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.changelist_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.modeladmin_year()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.order_by_expression()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.order_by_f_expression()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.order_by_orderby_expression()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **Tests various hooks for using custom templates and contexts.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Relationships
 
 - [Community 6](Community_6.md) (4 shared connections)
-- [Community 965](Community_965.md) (2 shared connections)
-- [Community 30](Community_30.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 314](Community_314.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
+- [Community 69](Community_69.md) (2 shared connections)
+- [Community 102](Community_102.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (77%)
-- INFERRED: 5 (23%)
+- EXTRACTED: 17 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

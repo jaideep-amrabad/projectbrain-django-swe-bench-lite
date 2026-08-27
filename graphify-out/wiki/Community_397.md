@@ -1,63 +1,54 @@
 # Community 397
 
-> 34 nodes · cohesion 0.07
+> 28 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **modelform_factory()** (29 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **FormFieldCallbackTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **StrictAssignmentTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **construct_instance()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.test_empty_fields_to_construct_instance()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_formset_with_none_instance()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **StrictAssignmentAll** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **StrictAssignmentFieldSpecific** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.__setattr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.__setattr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.test_baseform_with_widgets_in_meta()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_custom_callback()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_factory_with_widget_argument()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_modelform_factory_with_all_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_modelform_factory_without_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_setattr_raises_validation_error_field_specific()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_setattr_raises_validation_error_non_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_editable_generic_rel()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/tests.py`
-- **.test_modelform_factory_metaclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_bad_callback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_inherit_after_custom_callback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_extra_field_modelform_factory()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_save_blank_null_unique_charfield_saves_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Regression for #19733** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Construct and return a model instance from the bound ``form``'s…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- *... and 9 more nodes in this community*
+- **SetLanguageTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **._get_inactive_language_code()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_setlang_decodes_http_referer_url()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_setlang()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_setlang_default_redirect()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_setlang_doesnt_perform_a_default_redirect_for_ajax()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_setlang_doesnt_perform_a_redirect_to_referer_for_ajax()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_setlang_http_next()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_setlang_performs_redirect_for_ajax_if_explicitly_requested()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_setlang_redirect_to_referer()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_setlang_unsafe_next()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_lang_from_translated_i18n_pattern()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_setlang_unsafe_next_for_ajax()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_setlang_reversal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **The set_language view redirects to '/' when there isn't a referer or "next"…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **The set_language view redirects to the "next" parameter for requests not…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **The set_language view doesn't redirect to the HTTP referer header if the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **The set_language view returns 204 by default for requests not accepting HTML…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **The fallback to root URL for the set_language view works for requests not…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **The set_language view decodes the HTTP_REFERER URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **Test the django.views.i18n.set_language view.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **Return language code for a language which is not activated.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **The set_language view can be used to change the session language. The user is…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **The set_language view only redirects to the 'next' argument if it is "safe".** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **The set_language view only redirects to the 'next' argument if it is "safe" and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 74](Community_74.md) (11 shared connections)
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 174](Community_174.md) (4 shared connections)
-- [Community 272](Community_272.md) (3 shared connections)
-- [Community 958](Community_958.md) (2 shared connections)
-- [Community 126](Community_126.md) (2 shared connections)
-- [Community 141](Community_141.md) (2 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 657](Community_657.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 185](Community_185.md) (1 shared connections)
-- [Community 58](Community_58.md) (1 shared connections)
+- [Community 365](Community_365.md) (10 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_relations_regress/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
 
 ## Audit Trail
 
-- EXTRACTED: 73 (94%)
-- INFERRED: 5 (6%)
+- EXTRACTED: 54 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

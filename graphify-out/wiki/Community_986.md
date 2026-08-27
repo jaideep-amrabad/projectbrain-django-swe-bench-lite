@@ -1,28 +1,28 @@
 # Community 986
 
-> 5 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **length_is()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **FunctionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
-- **.test_empty_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
-- **.test_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
-- **Return a boolean of whether the value's length is the argument.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **TestComplexSettingOverride** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_complex_override_warning()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **Regression test for #19031** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (3 shared connections)
-- [Community 47](Community_47.md) (2 shared connections)
+- [Community 181](Community_181.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

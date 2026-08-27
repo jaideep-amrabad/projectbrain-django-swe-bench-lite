@@ -1,29 +1,28 @@
 # Community 924
 
-> 7 nodes · cohesion 0.43
+> 6 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **IriencodeTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_iriencode.py`
-- **setup** (4 connections)
-- **.test_iriencode03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_iriencode.py`
-- **.test_iriencode04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_iriencode.py`
-- **.test_iriencode01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_iriencode.py`
-- **.test_iriencode02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_iriencode.py`
-- **Ensure iriencode keeps safe strings.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_iriencode.py`
+- **HStoreField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
+- **.has_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
+- **.to_python()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
+- **.prepare_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
+- **A field for HStore data which accepts dictionary JSON input.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
+- **Return True if data differs from initial.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 47](Community_47.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_iriencode.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

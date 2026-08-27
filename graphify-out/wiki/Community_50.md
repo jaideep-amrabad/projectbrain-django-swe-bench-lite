@@ -1,60 +1,68 @@
 # Community 50
 
-> 94 nodes · cohesion 0.03
+> 78 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **MigrationGraph** (57 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **NodeNotFoundError** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- **GraphTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
-- **Node** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.make_project_state()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **DummyNode** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.test_trim_apps()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **NodeTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
-- **.forwards_plan()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.make_state()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.test_arrange_for_graph()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_arrange_for_graph_with_multiple_initial()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_custom_migration_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.add_dependency()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.backwards_plan()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.iterative_dfs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.add_dummy_node()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **._generate_plan()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.leaf_nodes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **._nodes_and_edges()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.remove_replaced_nodes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.remove_replacement_node()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.validate_consistency()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.test_circular_graph()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
-- **.test_complex_graph()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
-- *... and 69 more nodes in this community*
+- **middleware/csrf.py** (40 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **signing.py** (33 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **constant_time_compare()** (26 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
+- **crypto.py** (24 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
+- **get_random_string()** (22 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
+- **salted_hmac()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
+- **signing/tests.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **test_crypto.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
+- **test_context_processor.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/test_context_processor.py`
+- **login()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
+- **Signer** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.process_view()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **_mask_cipher_secret()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **freeze_time()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **InvalidAlgorithm** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
+- **TimestampSigner** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **_compare_masked_tokens()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **_get_new_csrf_string()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **TestUtilsCryptoMisc** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
+- **BadSignature** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **base64_hmac()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.unsign()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **._get_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **_get_new_csrf_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **rotate_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- *... and 53 more nodes in this community*
 
 ## Relationships
 
-- [Community 128](Community_128.md) (22 shared connections)
-- [Community 32](Community_32.md) (9 shared connections)
-- [Community 71](Community_71.md) (4 shared connections)
-- [Community 5](Community_5.md) (4 shared connections)
-- [Community 139](Community_139.md) (4 shared connections)
-- [Community 24](Community_24.md) (3 shared connections)
-- [Community 334](Community_334.md) (2 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
-- [Community 304](Community_304.md) (1 shared connections)
+- [Community 1](Community_1.md) (34 shared connections)
+- [Community 2](Community_2.md) (13 shared connections)
+- [Community 595](Community_595.md) (11 shared connections)
+- [Community 286](Community_286.md) (11 shared connections)
+- [Community 172](Community_172.md) (9 shared connections)
+- [Community 27](Community_27.md) (7 shared connections)
+- [Community 817](Community_817.md) (7 shared connections)
+- [Community 211](Community_211.md) (7 shared connections)
+- [Community 56](Community_56.md) (6 shared connections)
+- [Community 206](Community_206.md) (6 shared connections)
+- [Community 973](Community_973.md) (5 shared connections)
+- [Community 24](Community_24.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_exceptions.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/base_user.py`
+- `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/test_context_processor.py`
+- `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
 
 ## Audit Trail
 
-- EXTRACTED: 172 (94%)
-- INFERRED: 11 (6%)
+- EXTRACTED: 290 (98%)
+- INFERRED: 5 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,42 +1,45 @@
 # Community 516
 
-> 20 nodes · cohesion 0.14
+> 20 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **Serializer** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.serialize()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.end_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.end_serialization()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.getvalue()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.handle_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.handle_fk_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.handle_m2m_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.start_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **.start_serialization()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Called when serializing of the queryset starts.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Called when serializing of the queryset ends.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Called when serializing of an object starts.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Called when serializing of an object ends.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Called to handle each individual (non-relational) field on an object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Called to handle a ForeignKey field.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Called to handle a ManyToManyField.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Return the fully serialized queryset (or None if the output stream is not…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Abstract serializer base class.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
-- **Serialize a queryset.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **JsonlSerializerTestCase** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **.test_custom_encoder()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **.test_helpful_error_message_for_foreign_keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **.test_helpful_error_message_for_many2many_natural1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **.test_helpful_error_message_for_many2many_natural2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **.test_helpful_error_message_for_many2many_non_natural()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **.test_helpful_error_message_for_many2many_not_iterable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **.test_helpful_error_message_invalid_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **.test_helpful_error_message_invalid_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **._get_field_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **._get_pk_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **.test_json_deserializer_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **._validate_output()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **Invalid foreign keys with a natural key throws a helpful error message, such as…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **Invalid many-to-many keys throws a helpful error message.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **Invalid many-to-many keys throws a helpful error message where one of a list of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **Invalid many-to-many keys throws a helpful error message where a natural many-…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **Not iterable many-to-many field value throws a helpful error message.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **If there is an invalid primary key, the error message contains the model…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **If there is an invalid field value, the error message contains the model…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
 
 ## Relationships
 
-- [Community 240](Community_240.md) (1 shared connections)
-- [Community 99](Community_99.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 317](Community_317.md) (1 shared connections)
+- [Community 916](Community_916.md) (1 shared connections)
+- [Community 75](Community_75.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (100%)
+- EXTRACTED: 24 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

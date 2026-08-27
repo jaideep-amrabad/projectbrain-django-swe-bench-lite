@@ -4,23 +4,23 @@
 
 ## Key Concepts
 
-- **CustomAdminSiteTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_default_site/tests.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_default_site/tests.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_default_site/tests.py`
-- **.test_use_custom_admin_site()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_default_site/tests.py`
+- **AssertRaisesMsgTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_special_re_chars()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_assert_raises_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **assertRaisesMessage shouldn't interpret RE special chars.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 290](Community_290.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_default_site/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

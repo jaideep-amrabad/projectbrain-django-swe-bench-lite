@@ -1,52 +1,59 @@
 # Community 245
 
-> 45 nodes · cohesion 0.10
+> 39 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **SelectRelatedRegressTests** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
-- **select_related_regress/models.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **select_related_regress/tests.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
-- **Base** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Class** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **A** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **B** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **C** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Chick** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Client** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Hen** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Item** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Port** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **SpecialClient** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Building** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **ClientStatus** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Connection** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Country** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Device** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Enrollment** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Fowl** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Organizer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **Person** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- **State** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- *... and 20 more nodes in this community*
+- **TimeFormat** (17 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **FileBasedCache** (16 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **.f()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **._key_to_file()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **.set()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **._cull()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **.has_key()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **._is_expired()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **.touch()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **.clear()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **.get()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **._list_cache_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **time_format()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.i()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.P()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **._createdir()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **._write_content()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **Formatter** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.O()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.T()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.Z()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.add()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **.a()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 142](Community_142.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 154](Community_154.md) (5 shared connections)
+- [Community 326](Community_326.md) (3 shared connections)
+- [Community 204](Community_204.md) (2 shared connections)
+- [Community 115](Community_115.md) (1 shared connections)
+- [Community 602](Community_602.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 325](Community_325.md) (1 shared connections)
+- [Community 925](Community_925.md) (1 shared connections)
+- [Community 103](Community_103.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 442](Community_442.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/select_related_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
 
 ## Audit Trail
 
-- EXTRACTED: 78 (76%)
-- INFERRED: 24 (24%)
+- EXTRACTED: 74 (92%)
+- INFERRED: 6 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,30 +4,27 @@
 
 ## Key Concepts
 
-- **URLEscapingTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_argument_with_space_get()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_argument_with_space_post()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_simple_argument_get()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_simple_argument_post()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Get a view that has a simple string argument** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Get a view that has a string argument that requires escaping** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Post for a view that has a simple string argument** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Post for a view that has a string argument that requires escaping** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **ValidationTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
+- **Choices** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
+- **.test_charfield_cleans_empty_string_when_blank_true()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
+- **.test_charfield_raises_error_on_empty_input()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
+- **.test_charfield_raises_error_on_empty_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
+- **.test_charfield_with_choices_cleans_valid_choice()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
+- **.test_charfield_with_choices_raises_error_on_invalid_choice()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
+- **.test_enum_choices_cleans_valid_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
+- **.test_enum_choices_invalid_input()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
 
 ## Relationships
 
-- [Community 15](Community_15.md) (4 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 95](Community_95.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

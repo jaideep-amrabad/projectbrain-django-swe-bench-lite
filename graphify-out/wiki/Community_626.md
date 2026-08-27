@@ -1,41 +1,41 @@
 # Community 626
 
-> 15 nodes · cohesion 0.25
+> 15 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **register_type_handlers()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
-- **postgres/signals.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
-- **postgres_tests/test_signals.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
-- **OIDTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
-- **get_citext_oids()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
-- **get_hstore_oids()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
-- **.assertOIDs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
-- **.test_citext_values()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
-- **.test_hstore_values()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
-- **.test_register_type_handlers_no_db()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
-- **.test_citext_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
-- **.test_hstore_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
-- **Return hstore and hstore array OIDs.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
-- **Return citext array OIDs.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
-- **Registering type handlers for the nodb connection does nothing.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
+- **unordered_list()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **FunctionTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_autoescape()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_autoescape_off()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_list_gettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_nested()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_nested2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_nested3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_nested_generators()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_nested_multiple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_nested_multiple2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_ulitem()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_ulitem_autoescape_off()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **Recursively take a self-nested list and return an HTML unordered list --…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (7 shared connections)
-- [Community 75](Community_75.md) (5 shared connections)
-- [Community 440](Community_440.md) (4 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 520](Community_520.md) (1 shared connections)
+- [Community 33](Community_33.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/signals.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_signals.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (93%)
-- INFERRED: 3 (7%)
+- EXTRACTED: 31 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

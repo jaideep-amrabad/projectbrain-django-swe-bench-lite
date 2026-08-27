@@ -1,56 +1,48 @@
 # Community 279
 
-> 39 nodes · cohesion 0.08
+> 20 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **xml_serializer.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **DefusedExpatParser** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **Deserializer** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **DTDForbidden** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **._handle_object()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **EntitiesForbidden** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **DefusedXmlException** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **ExternalReferenceForbidden** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **._handle_fk_field_node()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **._handle_m2m_field_node()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **._make_parser()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **getInnerText()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **._get_model_from_node()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.entity_decl()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.external_entity_ref_handler()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.start_doctype_decl()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.unparsed_entity_decl()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.__next__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **_ExpatParser** (1 connections)
-- **.reset()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- *... and 14 more nodes in this community*
+- **test_lazyobject.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **SimpleLazyObjectPickleTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **BaseBaz** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **Baz** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_pickle_with_reduce()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **utils_tests/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/models.py`
+- **BazProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **Category** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/models.py`
+- **CategoryInfo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/models.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.__reduce__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.__reduce_ex__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **A base class with a funky __reduce__ method, meant to simulate the __reduce__…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **A class that inherits from BaseBaz and has its own __reduce_ex__ method.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **A class that acts as a proxy for Baz. It does some scary mucking about with…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **Regression test for pickling a SimpleLazyObject wrapping a model (#25389). Also…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **Test in a fairly synthetic setting.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
 
 ## Relationships
 
-- [Community 99](Community_99.md) (4 shared connections)
-- [Community 714](Community_714.md) (3 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 556](Community_556.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 64](Community_64.md) (1 shared connections)
-- [Community 132](Community_132.md) (1 shared connections)
-- [Community 869](Community_869.md) (1 shared connections)
+- [Community 484](Community_484.md) (5 shared connections)
+- [Community 222](Community_222.md) (2 shared connections)
+- [Community 318](Community_318.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 621](Community_621.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
 
 ## Audit Trail
 
-- EXTRACTED: 72 (97%)
-- INFERRED: 2 (3%)
+- EXTRACTED: 38 (93%)
+- INFERRED: 3 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

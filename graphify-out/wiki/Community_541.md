@@ -1,43 +1,44 @@
 # Community 541
 
-> 19 nodes · cohesion 0.12
+> 19 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **.get_queryset()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **FilteredManager** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **CoverLetterAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **CustomManagerAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **PaperAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **PersonAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **ShortMessageAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **TelegramAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **EmptyModelAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **A ModelAdmin with a custom get_queryset() method that uses defer(), to test…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **A ModelAdmin with a custom get_queryset() method that uses only(), to test…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.get_changelist_formset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **DecimalFieldTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **BigD** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.test_save_without_float_conversion()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_fetch_from_db_without_float_rounding()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_filter_with_strings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_lookup_really_big_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_roundtrip_with_trailing_zeros()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_default()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_get_prep_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_invalid_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_max_decimal_places_validation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_max_digits_validation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_max_whole_digits_validation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **skipIf** (1 connections)
+- **Trailing zeros in the fractional part aren't truncated.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **Should be able to filter decimal fields using strings (#8023).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **Ensure decimals don't go through a corrupting float conversion during save…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **Really big values can be used in a filter statement.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
 
 ## Relationships
 
-- [Community 66](Community_66.md) (8 shared connections)
-- [Community 91](Community_91.md) (1 shared connections)
+- [Community 222](Community_222.md) (3 shared connections)
+- [Community 203](Community_203.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 22 (92%)
+- INFERRED: 2 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

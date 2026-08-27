@@ -1,42 +1,49 @@
 # Community 572
 
-> 17 nodes · cohesion 0.15
+> 17 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **SplitArrayWidget** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **TestSplitFormWidget** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.test_checkbox_get_context_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_get_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_render()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_render_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_value_omitted_from_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.__deepcopy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.get_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.id_for_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.is_hidden()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.media()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.needs_multipart_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.value_from_datadict()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **async/tests.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **AsyncUnsafeTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **SynchronousOnlyOperation** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- **DatabaseConnectionTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **async/models.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/async/models.py`
+- **.dangerous_method()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **.test_async_unsafe_suppressed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **CacheTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **SimpleModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/async/models.py`
+- **skipIf** (3 connections)
+- **.test_async_unsafe()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **The user tried to call a sync-only function from an async context.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- **.test_caches_local()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **.test_get_async_connection()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **dict** (1 connections)
+- **A database connection cannot be used in an async context.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **async_unsafe decorator should work correctly and returns the correct message.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
 
 ## Relationships
 
-- [Community 88](Community_88.md) (2 shared connections)
-- [Community 75](Community_75.md) (2 shared connections)
-- [Community 213](Community_213.md) (1 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 568](Community_568.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 24](Community_24.md) (2 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 57](Community_57.md) (1 shared connections)
+- [Community 135](Community_135.md) (1 shared connections)
+- [Community 349](Community_349.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/tests/async/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (81%)
-- INFERRED: 5 (19%)
+- EXTRACTED: 39 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

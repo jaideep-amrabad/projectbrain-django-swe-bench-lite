@@ -1,54 +1,53 @@
 # Community 300
 
-> 37 nodes · cohesion 0.07
+> 37 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **ClearableFileInputTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **ClearableFileInput** (15 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **FakeFieldFile** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.clear_checkbox_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.get_context()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.is_initial()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.value_from_datadict()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_clear_input_checked_returns_false_only_if_not_required()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.test_clear_input_renders_only_if_not_required()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.test_render_as_subwidget()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.clear_checkbox_id()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.format_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.value_omitted_from_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_clear_input_renders()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.test_html_escaped()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.test_clear_input_checked_returns_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.test_clear_input_renders_only_if_initial()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.test_html_does_not_mask_exceptions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.test_render_disabled()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **.test_value_omitted_from_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- **Given the name of the file input, return the name of the clear checkbox input.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **Given the name of the clear checkbox input, return the HTML id for it.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **Return whether value is considered to be initial value.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **Return the file object if it has a defined url attribute.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_return_false_if_url_does_not_exists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- **.verify_unsafe_response()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.verify_unsafe_email()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **NonHTMLResponseExceptionReporterFilter** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **ExceptionReportTestMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.verify_safe_response()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.verify_safe_email()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_multivalue_dict_key_error()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_paranoid_request()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_sensitive_function_arguments()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_sensitive_function_keyword_arguments()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_sensitive_method()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_sensitive_request()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_custom_exception_reporter_filter()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_non_sensitive_request()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.verify_paranoid_response()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_paranoid_request()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_sensitive_request()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.verify_paranoid_email()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_custom_exception_reporter_filter()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_non_sensitive_request()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_non_html_response_encoding()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **Asserts that no variables or POST parameters are displayed in the response.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **It's possible to assign an exception reporter filter to the request to bypass…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **Sensitive variables don't leak in the sensitive_variables decorator's frame,…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **Asserts that potentially sensitive info are displayed in the email report.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 - *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 33](Community_33.md) (4 shared connections)
-- [Community 163](Community_163.md) (4 shared connections)
-- [Community 62](Community_62.md) (3 shared connections)
-- [Community 189](Community_189.md) (2 shared connections)
-- [Community 536](Community_536.md) (1 shared connections)
-- [Community 138](Community_138.md) (1 shared connections)
+- [Community 92](Community_92.md) (14 shared connections)
+- [Community 249](Community_249.md) (9 shared connections)
+- [Community 302](Community_302.md) (6 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 237](Community_237.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (87%)
-- INFERRED: 8 (13%)
+- EXTRACTED: 79 (81%)
+- INFERRED: 18 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

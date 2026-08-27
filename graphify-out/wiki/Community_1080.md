@@ -1,26 +1,24 @@
 # Community 1080
 
-> 4 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **LowerTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_lower.py`
-- **.test_lower01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_lower.py`
-- **.test_lower02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_lower.py`
-- **setup** (2 connections)
+- **.ask_rename()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **Was this field really renamed?** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 47](Community_47.md) (2 shared connections)
+- [Community 25](Community_25.md) (1 shared connections)
+- [Community 236](Community_236.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_lower.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

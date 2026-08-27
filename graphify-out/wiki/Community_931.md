@@ -1,24 +1,24 @@
 # Community 931
 
-> 7 nodes · cohesion 0.29
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **TestNumberFormat** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
-- **.test_decimal_numbers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
-- **.test_decimal_subclass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
-- **.test_float_numbers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
-- **.test_format_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
-- **.test_format_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
-- **.test_large_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **to_list()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.assertFormError()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.assertFormsetError()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Assert that a form used to render the response has a specific field error.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Put value into a list if it's not already one. Return an empty list if value is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Assert that a formset used to render the response has a specific error. For…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Audit Trail
 

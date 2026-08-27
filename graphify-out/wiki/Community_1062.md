@@ -1,27 +1,25 @@
 # Community 1062
 
-> 4 nodes · cohesion 0.50
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **M2mThroughToFieldsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_retrieval()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- **.ask_initial()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **Should we create an initial migration for the app?** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
 
 ## Relationships
 
-- [Community 522](Community_522.md) (4 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 25](Community_25.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (62%)
-- INFERRED: 3 (38%)
+- EXTRACTED: 3 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

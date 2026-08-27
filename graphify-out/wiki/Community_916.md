@@ -4,28 +4,36 @@
 
 ## Key Concepts
 
-- **SignalsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.register_finished()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.register_started()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_request_signals()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_request_signals_streaming_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **Score** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.test_float_serialization()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **SerializerAPITests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_stream_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_indentation_whitespace()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **.test_no_indentation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- **Float values serialize and deserialize intact** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 430](Community_430.md) (1 shared connections)
+- [Community 545](Community_545.md) (1 shared connections)
+- [Community 516](Community_516.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
 - [Community 2](Community_2.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 502](Community_502.md) (1 shared connections)
+- [Community 16](Community_16.md) (1 shared connections)
+- [Community 317](Community_317.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_jsonl.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 10 (71%)
+- INFERRED: 4 (29%)
 - AMBIGUOUS: 0 (0%)
 
 ---

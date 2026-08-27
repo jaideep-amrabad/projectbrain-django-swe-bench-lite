@@ -1,26 +1,24 @@
 # Community 1101
 
-> 4 nodes · cohesion 0.83
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **RestartWithReloaderTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.patch_autoreload()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_manage_py()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_python_m_django()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **UnorderedObject** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Model without any defined `Meta.ordering`. Refs #16819.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 69](Community_69.md) (1 shared connections)
+- [Community 93](Community_93.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

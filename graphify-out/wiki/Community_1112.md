@@ -1,25 +1,23 @@
 # Community 1112
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **DependentChildAdminForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **Issue #20522 Form to test child dependency on parent object's validation** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.test_non_existent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **Nonexistent cache keys return as None/default.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Relationships
 
-- [Community 66](Community_66.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 271](Community_271.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

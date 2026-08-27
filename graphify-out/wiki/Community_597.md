@@ -1,57 +1,44 @@
 # Community 597
 
-> 21 nodes · cohesion 0.13
+> 16 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **hashers.py** (40 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **test_hashers.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **PBKDF2PasswordHasher** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **pbkdf2()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- **PBKDF2SHA1PasswordHasher** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **get_hashers()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **TestUtilsCryptoPBKDF2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- **BCryptPasswordHasher** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **get_hashers_by_algorithm()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **PBKDF2SingleIterationHasher** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_low_level_pbkdf2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_low_level_pbkdf2_sha1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_default_hmac_alg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- **.test_public_vectors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- **.test_regression_vectors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- **.decode()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Secure password hashing using the PBKDF2 algorithm (recommended) Configured to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Alternate PBKDF2 hasher which uses SHA1, the default PRF recommended by PKCS…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Secure password hashing using the bcrypt algorithm This is considered by many…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Return the hash of password using pbkdf2.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
+- **SimpleListFilter** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **DepartmentListFilterLookupWithNonStringValue** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **NotNinetiesListFilter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **.lookups()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **DepartmentListFilterLookupWithUnderscoredParameter** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **Return the value (in string format) provided in the request's query string for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **Must be overridden to return a list of tuples (value, verbose value)** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.expected_parameters()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.has_output()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- **.lookups()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **.queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **.lookups()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **.queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
 
 ## Relationships
 
-- [Community 224](Community_224.md) (18 shared connections)
-- [Community 186](Community_186.md) (11 shared connections)
-- [Community 2](Community_2.md) (7 shared connections)
-- [Community 94](Community_94.md) (6 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 95](Community_95.md) (4 shared connections)
-- [Community 421](Community_421.md) (4 shared connections)
-- [Community 422](Community_422.md) (3 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 710](Community_710.md) (1 shared connections)
-- [Community 882](Community_882.md) (1 shared connections)
+- [Community 54](Community_54.md) (5 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 39](Community_39.md) (1 shared connections)
+- [Community 49](Community_49.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 91 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 29 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,55 +1,51 @@
 # Community 553
 
-> 20 nodes · cohesion 0.12
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **TextField** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **citext.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- **CIText** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- **.test_rename_keep_null_status()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_alter()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **CICharField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- **CIEmailField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- **CITextField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- **.test_rename()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Tests simple altering of fields** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_add_textfield_unhashable_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_alter_text_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **CharField** (1 connections)
-- **EmailField** (1 connections)
-- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Renaming a field shouldn't affect the not null status.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **DatabaseWrapper** (28 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.check_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.disable_constraint_checking()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.enable_constraint_checking()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.get_connection_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.data_type_check_constraints()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.display_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.init_connection_state()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.is_usable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.mysql_is_mariadb()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.mysql_server_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.mysql_server_info()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.mysql_version()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **._set_autocommit()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **.sql_mode()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **Disable foreign key checks, primarily for use in adding rows with forward…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **Re-enable foreign key checks after they have been disabled.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **Check each table name in `table_names` for rows with invalid foreign key…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
 
 ## Relationships
 
-- [Community 51](Community_51.md) (9 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 118](Community_118.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 121](Community_121.md) (1 shared connections)
-- [Community 59](Community_59.md) (1 shared connections)
-- [Community 78](Community_78.md) (1 shared connections)
-- [Community 232](Community_232.md) (1 shared connections)
-- [Community 179](Community_179.md) (1 shared connections)
-- [Community 142](Community_142.md) (1 shared connections)
-- [Community 204](Community_204.md) (1 shared connections)
-- [Community 206](Community_206.md) (1 shared connections)
+- [Community 222](Community_222.md) (4 shared connections)
+- [Community 134](Community_134.md) (2 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 568](Community_568.md) (1 shared connections)
+- [Community 599](Community_599.md) (1 shared connections)
+- [Community 653](Community_653.md) (1 shared connections)
+- [Community 183](Community_183.md) (1 shared connections)
+- [Community 341](Community_341.md) (1 shared connections)
+- [Community 598](Community_598.md) (1 shared connections)
+- [Community 276](Community_276.md) (1 shared connections)
+- [Community 81](Community_81.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (79%)
-- INFERRED: 9 (21%)
+- EXTRACTED: 25 (76%)
+- INFERRED: 8 (24%)
 - AMBIGUOUS: 0 (0%)
 
 ---

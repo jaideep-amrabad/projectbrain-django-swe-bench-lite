@@ -1,55 +1,48 @@
 # Community 452
 
-> 23 nodes · cohesion 0.14
+> 23 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **Collector** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.collect()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.can_fast_delete()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.delete()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.add()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.clear_restricted_objects_from_queryset()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.clear_restricted_objects_from_set()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.get_del_batches()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **._has_signal_listeners()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.related_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **get_candidate_relations_to_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **.add_dependency()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.add_field_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.instances_with_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.sort()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.add_restricted_objects()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **Add 'objs' to the collection of objects to be deleted. If the call is the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **Schedule a field update. 'objs' must be a homogeneous iterable collection of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **Determine if the objects in the given queryset-like or single object can be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **Return the objs in suitably sized batches for the used connection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **Add 'objs' to the collection of objects to be deleted as well as all parent…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **Get a QuerySet of the related model to objs via related fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **DefusedExpatParser** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **DTDForbidden** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **EntitiesForbidden** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **DefusedXmlException** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **ExternalReferenceForbidden** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **.entity_decl()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **.external_entity_ref_handler()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **.start_doctype_decl()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **.unparsed_entity_decl()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **_ExpatParser** (1 connections)
+- **.reset()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **An expat parser hardened against XML bomb attacks. Forbid DTDs, external entity…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **Document type definition is forbidden.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **Entity definition is forbidden.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **Resolving an external reference is forbidden.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 326](Community_326.md) (3 shared connections)
-- [Community 104](Community_104.md) (2 shared connections)
-- [Community 58](Community_58.md) (2 shared connections)
-- [Community 154](Community_154.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
-- [Community 319](Community_319.md) (1 shared connections)
-- [Community 437](Community_437.md) (1 shared connections)
-- [Community 579](Community_579.md) (1 shared connections)
+- [Community 26](Community_26.md) (6 shared connections)
+- [Community 622](Community_622.md) (2 shared connections)
+- [Community 362](Community_362.md) (1 shared connections)
+- [Community 876](Community_876.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (89%)
-- INFERRED: 6 (11%)
+- EXTRACTED: 37 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,61 +1,51 @@
 # Community 285
 
-> 39 nodes · cohesion 0.08
+> 38 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **Cast** (48 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **CastTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- **comparison.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **NullIf** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **.as_sql()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **NullIfTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_nullif.py`
-- **.test_expression_wrapped_with_parentheses_on_postgresql()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- **.test_cast_to_char_field_with_max_length()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- **.test_null_literal()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_nullif.py`
-- **.as_oracle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **.test_cast_to_decimal_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- **.test_null_argument()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_nullif.py`
-- **.as_mysql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **.as_oracle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **.as_postgresql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **.as_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **.as_sqlite()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **.as_oracle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **.test_cast_from_db_date_to_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- **.test_cast_from_db_datetime_to_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- **.test_cast_from_db_datetime_to_date_group_by()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- **.test_cast_from_db_datetime_to_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- **.test_cast_from_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- **.test_cast_from_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- **.test_cast_from_python_to_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- *... and 14 more nodes in this community*
+- **DatabaseOperations** (42 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **._convert_field_to_tz()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.quote_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.datetime_extract_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.date_extract_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.datetime_cast_date_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.datetime_cast_time_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.datetime_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.fetch_returned_insert_rows()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.max_name_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **._prepare_tzname_delta()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.return_insert_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.sequence_reset_by_name_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.sql_flush()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.tablespace_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.adapt_datefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.adapt_datetimefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.adapt_decimalfield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.adapt_ipaddressfield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.adapt_timefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.bulk_insert_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.date_trunc_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.deferrable_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.distinct_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- **.explain_query_prefix()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Community 232](Community_232.md) (7 shared connections)
-- [Community 14](Community_14.md) (6 shared connections)
-- [Community 179](Community_179.md) (5 shared connections)
-- [Community 38](Community_38.md) (5 shared connections)
-- [Community 21](Community_21.md) (4 shared connections)
-- [Community 111](Community_111.md) (3 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 61](Community_61.md) (2 shared connections)
-- [Community 23](Community_23.md) (2 shared connections)
-- [Community 203](Community_203.md) (2 shared connections)
-- [Community 532](Community_532.md) (2 shared connections)
-- [Community 30](Community_30.md) (2 shared connections)
+- [Community 222](Community_222.md) (4 shared connections)
+- [Community 578](Community_578.md) (1 shared connections)
+- [Community 95](Community_95.md) (1 shared connections)
+- [Community 568](Community_568.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_nullif.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 112 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 53 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

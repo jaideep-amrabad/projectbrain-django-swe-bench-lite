@@ -1,38 +1,36 @@
 # Community 715
 
-> 12 nodes · cohesion 0.24
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **SeleniumTestCaseBase** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **.create_webdriver()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **.import_webdriver()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **ActionSelenium** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **.create_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **.import_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **.__new__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **.get_capability()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
-- **Dynamically create new classes and add them to the test module when multiple…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- **Validate the comma-separated list of requested browsers.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **XMLEqualTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_comment_root()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_doctype_root()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_parsing_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_processing_instruction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_equal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_equal_raise()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_equal_raises_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_equal_unordered()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_equal_with_leading_or_trailing_whitespace()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_not_equal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_not_equal_raise()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple_not_equal_with_whitespace_in_the_middle()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 312](Community_312.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 290](Community_290.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
-- `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 14 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

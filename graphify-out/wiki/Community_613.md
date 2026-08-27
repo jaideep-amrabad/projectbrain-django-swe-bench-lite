@@ -1,37 +1,44 @@
 # Community 613
 
-> 16 nodes · cohesion 0.14
+> 16 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **ManageMinimalSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **minimal: manage.py builtin commands fail if settings are provided as argument** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **minimal: manage.py can't execute user commands, even if settings are provided…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **A series of tests for manage.py when using a settings.py file that doesn't…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **minimal: manage.py builtin commands fail with an error when no settings provided** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **minimal: manage.py builtin commands fail if settings file (from argument)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **minimal: manage.py builtin commands fail if settings file (from environment)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **minimal: manage.py can't execute user commands without appropriate settings** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.assertOptimizesTo()** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.optimize()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.serialize()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_add_field_alter_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_delete_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_model_no_reordering_of_inherited_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_rename_model_self()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_single()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_alter_model_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_optimize_elidable_operation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **Handy shortcut for getting results + number of loops** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **A CreateModel that inherits from another isn't reordered to avoid moving it…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **The optimizer does nothing on a single operation, and that it does it in just…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **AlterField should optimize into AddField.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **CreateModel and DeleteModel should collapse into nothing.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **RenameModels should absorb themselves.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
 
 ## Relationships
 
-- [Community 117](Community_117.md) (8 shared connections)
-- [Community 92](Community_92.md) (8 shared connections)
-- [Community 286](Community_286.md) (8 shared connections)
-- [Community 236](Community_236.md) (2 shared connections)
-- [Community 262](Community_262.md) (1 shared connections)
+- [Community 672](Community_672.md) (12 shared connections)
+- [Community 770](Community_770.md) (5 shared connections)
+- [Community 914](Community_914.md) (2 shared connections)
+- [Community 1128](Community_1128.md) (1 shared connections)
+- [Community 1129](Community_1129.md) (1 shared connections)
+- [Community 1130](Community_1130.md) (1 shared connections)
+- [Community 1131](Community_1131.md) (1 shared connections)
+- [Community 981](Community_981.md) (1 shared connections)
+- [Community 1132](Community_1132.md) (1 shared connections)
+- [Community 1133](Community_1133.md) (1 shared connections)
+- [Community 1134](Community_1134.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
 
 ## Audit Trail
 

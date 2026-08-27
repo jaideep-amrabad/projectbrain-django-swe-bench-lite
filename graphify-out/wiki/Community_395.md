@@ -1,46 +1,49 @@
 # Community 395
 
-> 16 nodes · cohesion 0.16
+> 28 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **LimitedStream** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **ServerHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.readline()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **._read_limited()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **is_broken_pipe_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.handle_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.handle_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.test_limited_stream()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.read()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **Wrap another stream to disallow reading it past a number of bytes.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- **Use a LimitedStream so that unread request data will be ignored at the end of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.cleanup_headers()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **IncludeTagTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **setup** (26 connections)
+- **.test_include04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **.test_include_error07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **.test_include_error08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **.test_include_error09()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **.test_include_error10()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **.test_include01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **.test_include02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **.test_include03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **.test_include06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **.test_include07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **.test_include08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **.test_include09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **.test_include10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **.test_include11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **.test_include12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **.test_include13()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **.test_include14()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **.test_include_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **.test_include_error01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **.test_include_error02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **.test_include_error03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **.test_include_error04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- **.test_include_error05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 84](Community_84.md) (2 shared connections)
-- [Community 191](Community_191.md) (2 shared connections)
-- [Community 327](Community_327.md) (2 shared connections)
-- [Community 82](Community_82.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 557](Community_557.md) (1 shared connections)
+- [Community 42](Community_42.md) (5 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
-- `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (85%)
-- INFERRED: 5 (15%)
+- EXTRACTED: 59 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

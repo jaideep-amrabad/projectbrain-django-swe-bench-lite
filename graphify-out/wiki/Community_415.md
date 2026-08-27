@@ -1,51 +1,36 @@
 # Community 415
 
-> 27 nodes · cohesion 0.11
+> 8 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **MultiDBOperationTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **._test_create_model()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **.test_create_model4()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **MigrateEverythingRouter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **._test_run_python()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **._test_run_sql()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **AgnosticRouter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **MigrateNothingRouter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **.test_create_model2()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **.test_create_model3()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **.test_run_python_migrate_foo_router_with_hints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **.test_run_python_migrate_foo_router_without_hints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **.test_run_python_migrate_nothing_router()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **.test_run_sql_migrate_foo_router_with_hints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **.test_run_sql_migrate_foo_router_without_hints()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **.test_run_sql_migrate_nothing_router()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **A router that doesn't allow migrating.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **A router that always allows migrating.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **CreateModel honors multi-db settings.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **Test when router doesn't have an opinion (i.e. CreateModel should run).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **Test when router returns False (i.e. CreateModel shouldn't run).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- **Test when router returns True (i.e. CreateModel should run).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
-- *... and 2 more nodes in this community*
+- **ImmutableList** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **ImmutableListTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_custom_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_sort()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.complain()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__new__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **tuple** (1 connections)
+- **A tuple-like object that raises useful errors when it is asked to mutate.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (12 shared connections)
-- [Community 128](Community_128.md) (5 shared connections)
-- [Community 24](Community_24.md) (2 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 278](Community_278.md) (2 shared connections)
+- [Community 150](Community_150.md) (1 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_multidb.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 16 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

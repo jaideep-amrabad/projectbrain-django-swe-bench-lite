@@ -1,42 +1,41 @@
 # Community 734
 
-> 12 nodes · cohesion 0.62
+> 12 nodes · cohesion 0.32
 
 ## Key Concepts
 
-- **Event** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- **SerializationTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.assert_json_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.assert_python_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.assert_xml_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.assert_yaml_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_in_local_timezone()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_in_other_timezone()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_in_utc()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_with_microsecond()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_naive_datetime()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_naive_datetime_with_microsecond()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **Truncator** (19 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **.add_truncation_text()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **.chars()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **._truncate_html()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **._text_chars()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **._text_words()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **.words()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **Truncate a string after a certain number of chars.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **Truncate HTML to a certain number of chars (not counting tags and comments),…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **An object used to truncate text, either by characters or words.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **Return the text truncated to be no longer than the specified number of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
 
 ## Relationships
 
-- [Community 552](Community_552.md) (5 shared connections)
-- [Community 673](Community_673.md) (5 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 877](Community_877.md) (1 shared connections)
-- [Community 593](Community_593.md) (1 shared connections)
-- [Community 435](Community_435.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 33](Community_33.md) (3 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 623](Community_623.md) (1 shared connections)
+- [Community 314](Community_314.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 484](Community_484.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/text.py`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (84%)
-- INFERRED: 9 (16%)
+- EXTRACTED: 33 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,32 +1,34 @@
 # Community 712
 
-> 8 nodes · cohesion 0.29
+> 13 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **FileSystemFinder** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.find_location()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.find()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **.list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **Find a requested static file in a location and return the found absolute path…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **List all files in all locations.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **A static files finder that uses the ``STATICFILES_DIRS`` setting to locate…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- **Look for files in the extra locations as defined in STATICFILES_DIRS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **ResetCycleTagTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
+- **setup** (11 connections)
+- **.test_resetcycle01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
+- **.test_resetcycle02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
+- **.test_resetcycle03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
+- **.test_resetcycle04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
+- **.test_resetcycle05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
+- **.test_resetcycle06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
+- **.test_resetcycle07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
+- **.test_resetcycle08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
+- **.test_resetcycle09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
+- **.test_resetcycle10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
+- **.test_resetcycle11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
 
 ## Relationships
 
-- [Community 658](Community_658.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 538](Community_538.md) (1 shared connections)
-- [Community 584](Community_584.md) (1 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 24 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

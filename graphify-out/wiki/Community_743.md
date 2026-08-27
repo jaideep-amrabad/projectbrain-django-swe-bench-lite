@@ -1,41 +1,37 @@
 # Community 743
 
-> 13 nodes · cohesion 0.22
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **locks.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
-- **cache/backends/filebased.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **_fd()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
-- **OVERLAPPED** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
-- **lock()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
-- **unlock()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
-- **_OFFSET** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
-- **_OFFSET_UNION** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
-- **Structure** (2 connections)
-- **File-based cache backend** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **Portable file locking utilities. Based partially on an example by Jonathan…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
-- **Get a filedescriptor from something which could be a file or an fd.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
-- **Union** (1 connections)
+- **Jinja2Tests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
+- **.test_context_processors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
+- **.test_dirs_pathlib()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
+- **.test_self_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
+- **.test_exception_debug_info_max_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
+- **.test_exception_debug_info_min_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
+- **.test_origin()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
+- **.test_origin_from_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
+- **.test_template_render_error_nonexistent_source()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
+- **.test_template_render_nested_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
+- **skipIf** (1 connections)
+- **Using 'self' in the context should not throw errors (#24538).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
 
 ## Relationships
 
-- [Community 222](Community_222.md) (4 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 268](Community_268.md) (1 shared connections)
-- [Community 774](Community_774.md) (1 shared connections)
-- [Community 483](Community_483.md) (1 shared connections)
+- [Community 380](Community_380.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/locks.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_backends/test_jinja2.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 15 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

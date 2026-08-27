@@ -1,61 +1,61 @@
 # Community 317
 
-> 35 nodes · cohesion 0.08
+> 35 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **override** (33 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **I18NViewTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_i18n_different_non_english_languages()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_i18n_language_english_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_non_BMP_char()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_non_english_default_english_userpref()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_i18n_fallback_language_plural()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_i18n_language_non_english_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_i18n_language_non_english_fallback()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_i18n_unknown_package_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_jsi18n()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_jsi18n_fallback_language()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_jsi18n_with_missing_en_files()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_jsoni18n()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_jsoni18n_with_missing_en_files()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_get_text_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
-- **.test_i18n_english_variant()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_i18n_with_locale_paths()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_jsi18n_USE_I18N_False()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **ContextDecorator** (1 connections)
-- **.test_escaping()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **Test django.views.i18n views other than set_language.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **The javascript_catalog can be deployed with language settings** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **The json_catalog returns the language catalog and settings as JSON.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **SerializersTestBase** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **YamlSerializerTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **ComplexModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- **.test_one_to_one_as_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_pre_1000ad_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_serialize_to_stream()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_serialize_with_null_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **skipUnless** (2 connections)
+- **.test_altering_serialized_output()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_deserialize_force_insert()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_deterministic_mapping_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_pkless_serialized_strings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_serialize_field_subset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_serialize_proxy_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_serialize_specific_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **.test_serializer_roundtrip()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **._get_field_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **._get_pk_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **.test_yaml_deserializer_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **._validate_output()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **Basic serialization works.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **Serialized content can be deserialized.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **The ability to create new objects by modifying serialized content.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **If you use your own primary key field (such as a OneToOneField), it doesn't…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
 - *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Community 7](Community_7.md) (5 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 18](Community_18.md) (4 shared connections)
-- [Community 47](Community_47.md) (3 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 99](Community_99.md) (2 shared connections)
-- [Community 43](Community_43.md) (2 shared connections)
-- [Community 180](Community_180.md) (1 shared connections)
-- [Community 113](Community_113.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 53](Community_53.md) (1 shared connections)
-- [Community 508](Community_508.md) (1 shared connections)
+- [Community 26](Community_26.md) (7 shared connections)
+- [Community 430](Community_430.md) (5 shared connections)
+- [Community 29](Community_29.md) (2 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 545](Community_545.md) (1 shared connections)
+- [Community 516](Community_516.md) (1 shared connections)
+- [Community 876](Community_876.md) (1 shared connections)
+- [Community 615](Community_615.md) (1 shared connections)
+- [Community 916](Community_916.md) (1 shared connections)
+- [Community 573](Community_573.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 74 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 53 (91%)
+- INFERRED: 5 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **.test_queryset_with_custom_init()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **BaseManager.get_queryset() should use kwargs rather than args to allow custom…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **.test_form_error_with_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **POST erroneous data to a form using multiple templates** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 441](Community_441.md) (1 shared connections)
+- [Community 518](Community_518.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 

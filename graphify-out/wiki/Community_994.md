@@ -4,22 +4,22 @@
 
 ## Key Concepts
 
-- **NonDjangoTemplatesDebugViewTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_template_not_found_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_400()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_403()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_404()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **ReverseLazyTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_build_absolute_uri()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_inserting_reverse_lazy_into_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_redirect_with_lazy_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **.test_user_permission_with_lazy_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 82](Community_82.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
 
 ## Audit Trail
 

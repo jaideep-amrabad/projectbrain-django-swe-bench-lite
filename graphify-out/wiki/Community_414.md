@@ -1,55 +1,49 @@
 # Community 414
 
-> 27 nodes · cohesion 0.08
+> 21 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **DateDetailViewTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **DayArchiveViewTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **TestDataMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_aware_datetime_archive_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_aware_datetime_date_detail()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_aware_datetime_day_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **requires_tz_support** (3 connections)
-- **.test_get_object_custom_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_date_detail_allow_future()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_date_detail_by_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_date_detail_by_slug()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_date_detail_custom_month_format()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_datetime_date_detail()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_get_object_custom_queryset_numqueries()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_invalid_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_year_out_of_range()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_custom_month_format()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_datetime_day_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_day_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_day_view_allow_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_day_view_allow_future()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_day_view_invalid_pattern()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_day_view_paginated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_next_prev_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_today_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- *... and 2 more nodes in this community*
+- **HumanizeTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.humanize_tester()** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_naturaltime()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_naturalday_uses_localtime()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_i18n_html_ordinal()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_inflection_for_timedelta()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_apnumber()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_i18n_intcomma()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_i18n_intword()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_intcomma()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_intcomma_without_number_grouping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_intword()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_l10n_intcomma()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_naturalday()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_naturaltime_as_documented()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.test_ordinal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **MockDateTime** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **.now()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **#23340 -- Verify the documented behavior of humanize.naturaltime.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **Translation of '%d day'/'%d month'/… may differ depending on the context of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
+- **Allow html in output on i18n strings** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
 
 ## Relationships
 
-- [Community 93](Community_93.md) (11 shared connections)
-- [Community 8](Community_8.md) (5 shared connections)
-- [Community 545](Community_545.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 30](Community_30.md) (1 shared connections)
-- [Community 640](Community_640.md) (1 shared connections)
-- [Community 727](Community_727.md) (1 shared connections)
-- [Community 565](Community_565.md) (1 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 42](Community_42.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 154](Community_154.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 29](Community_29.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- `raw/code/hyd-evaluation/django-django/tests/humanize_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (84%)
-- INFERRED: 8 (16%)
+- EXTRACTED: 41 (93%)
+- INFERRED: 3 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

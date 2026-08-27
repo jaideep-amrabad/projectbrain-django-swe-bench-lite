@@ -1,31 +1,31 @@
 # Community 886
 
-> 8 nodes · cohesion 0.39
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **Command** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
-- **.show_list()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
-- **.show_plan()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
-- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
-- **._validate_app_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
-- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
-- **Show all known migrations (or only those of the specified app_names) in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
-- **Show a list of all migrations on the system, or only those of some named apps.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
+- **FullMiddleware** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.test_process_view_middleware()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.process_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.process_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.process_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.process_template_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **Test a middleware that implements process_view.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
 
 ## Relationships
 
-- [Community 71](Community_71.md) (3 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 135](Community_135.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/showmigrations.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 9 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

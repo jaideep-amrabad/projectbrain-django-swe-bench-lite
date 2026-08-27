@@ -1,28 +1,26 @@
 # Community 976
 
-> 6 nodes · cohesion 0.33
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **TestSerializedRollbackInhibitsPostMigrate** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
-- **.test()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
-- **patch** (1 connections)
-- **TransactionTestCase._fixture_teardown() inhibits the post_migrate signal for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
+- **.postgis_proj_version()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.proj_version_tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **Return the version of the PROJ library used with PostGIS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **Return the version of PROJ used by PostGIS as a tuple of the major, minor, and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
 
 ## Relationships
 
-- [Community 164](Community_164.md) (1 shared connections)
-- [Community 168](Community_168.md) (1 shared connections)
+- [Community 110](Community_110.md) (2 shared connections)
+- [Community 691](Community_691.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,65 +1,59 @@
 # Community 232
 
-> 55 nodes · cohesion 0.06
+> 46 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **Coalesce** (31 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **Greatest** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **Least** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **GreatestTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_greatest.py`
-- **LeastTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
-- **Collate** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **CollateTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_collate.py`
-- **CoalesceTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_coalesce.py`
-- **.test_coalesce_workaround_mysql()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_greatest.py`
-- **.test_coalesce_workaround_mysql()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
-- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **.test_coalesce_workaround()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_greatest.py`
-- **.test_coalesce_workaround()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
-- **.test_expression_on_aggregation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation/tests.py`
-- **.test_mixed_values()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_coalesce.py`
-- **.as_sqlite()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **.as_sqlite()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **.test_alias_annotation_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
-- **.test_collate_filter_ci()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_collate.py`
-- **.test_invalid_collation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_collate.py`
-- **.test_language_collation_order_by()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_collate.py`
-- **.test_ignores_null()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_greatest.py`
-- **.test_propagates_null()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_greatest.py`
-- **.test_ignores_null()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
-- **.test_propagates_null()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
-- *... and 30 more nodes in this community*
+- **SessionBase** (56 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **._legacy_decode()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.get()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **._get_new_session_key()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.get_expiry_age()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.get_expiry_date()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **._hash()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.encode()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.exists()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.get_expire_at_browser_close()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.get_session_cookie_age()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **._legacy_encode()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.clear_expired()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.decode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **._get_or_create_session_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.is_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.save()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.set_expiry()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.test_cookie_worked()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **Return the given session dictionary serialized and encoded as a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **Return True when there is no session_key and the session is empty.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **Return session key that isn't being used.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **Get the number of seconds until the session expires. Optionally, this function…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **Get session the expiry date (as a datetime object). Optionally, this function…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- *... and 21 more nodes in this community*
 
 ## Relationships
 
-- [Community 179](Community_179.md) (12 shared connections)
-- [Community 14](Community_14.md) (12 shared connections)
-- [Community 285](Community_285.md) (7 shared connections)
-- [Community 131](Community_131.md) (6 shared connections)
-- [Community 13](Community_13.md) (5 shared connections)
-- [Community 21](Community_21.md) (4 shared connections)
-- [Community 115](Community_115.md) (4 shared connections)
-- [Community 19](Community_19.md) (3 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 30](Community_30.md) (2 shared connections)
-- [Community 206](Community_206.md) (2 shared connections)
-- [Community 78](Community_78.md) (1 shared connections)
+- [Community 595](Community_595.md) (6 shared connections)
+- [Community 816](Community_816.md) (5 shared connections)
+- [Community 50](Community_50.md) (3 shared connections)
+- [Community 844](Community_844.md) (2 shared connections)
+- [Community 999](Community_999.md) (2 shared connections)
+- [Community 1000](Community_1000.md) (2 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
+- [Community 619](Community_619.md) (1 shared connections)
+- [Community 620](Community_620.md) (1 shared connections)
+- [Community 570](Community_570.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 380](Community_380.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- `raw/code/hyd-evaluation/django-django/tests/aggregation/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/annotations/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_coalesce.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_collate.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_greatest.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 138 (94%)
-- INFERRED: 9 (6%)
+- EXTRACTED: 82 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

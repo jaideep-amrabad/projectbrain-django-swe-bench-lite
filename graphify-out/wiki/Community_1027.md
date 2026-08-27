@@ -1,27 +1,25 @@
 # Community 1027
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **CustomOptionsTestRunner** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/runner.py`
-- **test_runner/runner.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/runner.py`
-- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/runner.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/runner.py`
-- **.run_tests()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/runner.py`
+- **PersonManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **SubManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
 
 ## Relationships
 
-- [Community 234](Community_234.md) (2 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
+- [Community 740](Community_740.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/runner.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

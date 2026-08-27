@@ -1,25 +1,25 @@
 # Community 1052
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **PersonManager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **SpyManager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.get_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **ReportAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.extra()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.get_urls()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Relationships
 
-- [Community 385](Community_385.md) (2 shared connections)
+- [Community 69](Community_69.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,47 +1,59 @@
 # Community 460
 
-> 24 nodes · cohesion 0.08
+> 30 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **TestSigner** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_decode_detects_tampering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_default_hashing_algorithm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_dumps_loads()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_dumps_loads_default_hashing_algorithm_sha1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_invalid_sep()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_sign_unsign()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_signature_with_salt()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_unsign_detects_tampering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **unsign should raise an exception if the value has been tampered with** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **dumps and loads be reversible for any JSON serializable object** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **signature() method should generate a signature** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **loads should raise exception for tampered objects** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **should warn on invalid separator** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **signature(value, salt=...) should work** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **sign/unsign should be reversible** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_custom_algorithm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_dumps_loads_legacy_signature()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_invalid_algorithm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_legacy_signature()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_sign_unsign_non_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_valid_sep()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
-- **.test_works_with_non_ascii_keys()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **FallbackTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **set_cookie_data()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- **SessionTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **.get_session_storage()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **set_session_data()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **.stored_session_messages_count()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **.test_flush_used_backends()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **.get_cookie_storage()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **.get_request()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **.stored_cookie_messages_count()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **.test_get_fallback()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **.test_get_fallback_only()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **.test_get()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **.test_no_fallback()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **.test_safedata()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **.stored_messages_count()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **.test_session_fallback()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **.test_session_fallback_only()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **.test_get_empty()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **.test_get()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **.get_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **.stored_messages_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **.test_no_session()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **Set ``request.COOKIES`` with the encoded data and remove the storage backend's…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- **(1) A short number of messages whose data size doesn't exceed what is allowed…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 94](Community_94.md) (5 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 498](Community_498.md) (8 shared connections)
+- [Community 593](Community_593.md) (3 shared connections)
+- [Community 284](Community_284.md) (2 shared connections)
+- [Community 592](Community_592.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 499](Community_499.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 188](Community_188.md) (1 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
+- [Community 520](Community_520.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (93%)
-- INFERRED: 2 (7%)
+- EXTRACTED: 78 (95%)
+- INFERRED: 4 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

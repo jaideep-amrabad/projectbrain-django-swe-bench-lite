@@ -1,55 +1,63 @@
 # Community 351
 
-> 26 nodes · cohesion 0.10
+> 30 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **BackendTestCase** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.create_squares()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.create_squares_with_executemany()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_cursor_executemany_with_pyformat_iterator()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_queries()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_cursor_execute_with_pyformat()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_cursor_executemany_with_iterator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_cursor_executemany_with_pyformat()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_database_operations_init()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_is_usable_after_database_disconnects()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_cursor_contextmanager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_cursor_contextmanager_closing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_cursor_executemany()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_cursor_executemany_with_empty_params_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_database_operations_helper_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_duplicate_table_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_unicode_fetches()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_cached_db_features()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_timezone_none_use_tz_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_unicode_password()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **skipUnless** (1 connections)
-- **DatabaseOperations initialization doesn't query the database. See #17656.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **Creating an existing table returns a DatabaseError** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **Cursors can be used as a context manager** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **is_usable() doesn't crash when the database disconnects (#21553).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- *... and 1 more nodes in this community*
+- **files.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **DeferredAttribute** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **field_subclassing/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
+- **FileDescriptor** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **field_subclassing/fields.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
+- **db/models/proxy.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/proxy.py`
+- **CustomDeferredAttribute** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
+- **CustomTypedField** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
+- **ImageFileDescriptor** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **CustomDescriptorField** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
+- **DescriptorClassTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
+- **TestDbType** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
+- **._check_parent_chain()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **.__get__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **._count_call()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
+- **.test_db_parameters_respects_db_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
+- **.__get__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
+- **.__set__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
+- **.test_descriptor_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
+- **The SpatialProxy object allows for lazy-geometries and lazy-rasters. The proxy…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/proxy.py`
+- **.__get__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__set__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__set__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **The descriptor for the file attribute on the model instance. Return a FieldFile…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **Just like the FileDescriptor, but for ImageFields. The only difference is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 30](Community_30.md) (4 shared connections)
-- [Community 65](Community_65.md) (3 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 87](Community_87.md) (2 shared connections)
-- [Community 71](Community_71.md) (2 shared connections)
-- [Community 168](Community_168.md) (1 shared connections)
-- [Community 138](Community_138.md) (1 shared connections)
-- [Community 95](Community_95.md) (1 shared connections)
+- [Community 222](Community_222.md) (8 shared connections)
+- [Community 44](Community_44.md) (4 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 85](Community_85.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 115](Community_115.md) (3 shared connections)
+- [Community 200](Community_200.md) (3 shared connections)
+- [Community 182](Community_182.md) (3 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 849](Community_849.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 269](Community_269.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/proxy.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (90%)
-- INFERRED: 5 (10%)
+- EXTRACTED: 81 (93%)
+- INFERRED: 6 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,26 +1,25 @@
 # Community 1079
 
-> 4 nodes · cohesion 0.67
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **LjustTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_ljust.py`
-- **.test_ljust01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_ljust.py`
-- **.test_ljust02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_ljust.py`
-- **setup** (2 connections)
+- **CustomTestClientTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_custom_test_client()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **A test case can specify a custom class for self.client.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 47](Community_47.md) (2 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_ljust.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

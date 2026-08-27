@@ -1,55 +1,63 @@
 # Community 330
 
-> 26 nodes · cohesion 0.12
+> 38 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **PasswordResetTokenGenerator** (23 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **TokenGeneratorTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **.check_token()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **._make_token_with_timestamp()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **MockedPasswordResetTokenGenerator** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **.make_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **._num_seconds()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **._make_hash_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **._now()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **.test_10265()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **.test_timeout()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **.test_token_default_hashing_algorithm()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **.test_token_with_different_secret()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **.test_check_token_with_nonexistent_token_and_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **.test_legacy_token_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **.test_make_token()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **Return a token that can be used once to do a password reset for the given user.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **Check that a password reset token is correct for a given user.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **Hash the user's primary key and some user state that's sure to change after a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **Strategy object used to generate and check tokens for the password reset…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **._now()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **The token generated for a user created in the same request will work correctly.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- **The token is valid after n seconds, but no greater.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
-- *... and 1 more nodes in this community*
+- **geogapp/tests.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **FuncTestMixin** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/utils.py`
+- **GeographyFunctionTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **GeographyTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **test_gis_tests_utils.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
+- **FuncTestMixinTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
+- **geogapp/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- **City** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- **County** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- **NamedModel** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- **test_mutation()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
+- **Zipcode** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- **.test_cast_aggregate()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **.test_distance_function()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **.test_geography_area()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **.test02_distance_lookup()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- **.test04_invalid_operators_functions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **.test01_fixture_load()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **Testing distance lookup support on non-point geography fields.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- **.test_mutated_attribute()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
+- **.test_mutated_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
+- **.test_mutated_expression_deep()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
+- **.test_mutated_expressions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
+- **.test_not_mutated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Community 94](Community_94.md) (9 shared connections)
-- [Community 561](Community_561.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 716](Community_716.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 115](Community_115.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
+- [Community 58](Community_58.md) (12 shared connections)
+- [Community 38](Community_38.md) (6 shared connections)
+- [Community 19](Community_19.md) (4 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 61](Community_61.md) (4 shared connections)
+- [Community 41](Community_41.md) (3 shared connections)
+- [Community 222](Community_222.md) (3 shared connections)
+- [Community 85](Community_85.md) (2 shared connections)
+- [Community 227](Community_227.md) (2 shared connections)
+- [Community 30](Community_30.md) (2 shared connections)
+- [Community 87](Community_87.md) (1 shared connections)
+- [Community 57](Community_57.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_tokens.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_gis_tests_utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (91%)
-- INFERRED: 5 (9%)
+- EXTRACTED: 96 (92%)
+- INFERRED: 8 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

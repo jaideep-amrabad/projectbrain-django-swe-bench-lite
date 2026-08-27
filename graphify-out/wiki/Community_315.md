@@ -1,54 +1,56 @@
 # Community 315
 
-> 35 nodes · cohesion 0.09
+> 33 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **IntrospectionTests** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
-- **introspection/tests.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
-- **introspection/models.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
-- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
-- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
-- **ArticleReporter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
-- **CheckConstraintModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
-- **Comment** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
-- **Reporter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
-- **City** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
-- **Country** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
-- **District** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
-- **.test_get_constraints_indexes_orders()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
-- **.test_get_relations_alt_format()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
-- **.test_get_key_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
-- **.test_get_relations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
-- **.test_postgresql_real_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
-- **.test_bigautofield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
-- **.test_django_table_names()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
-- **.test_django_table_names_retval_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
-- **.test_get_constraints()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
-- **.test_get_constraints_index_types()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
-- **.test_get_primary_key_column()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
-- **.test_get_table_description_col_lengths()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
-- **.test_get_table_description_names()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
-- *... and 10 more nodes in this community*
+- **SchemaTests** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **.get_constraints()** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **GinIndex** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- **GistIndex** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- **GinIndexTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **GistIndexTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **.test_partial_gin_index()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **.test_partial_gin_index_with_tablespace()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **.test_brin_parameters()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **.test_gist_include()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **.test_bloom_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **.test_bloom_parameters()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **.test_brin_autosummarize_not_supported()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **.test_brin_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **.test_btree_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **.test_btree_parameters()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **.test_gin_fastupdate()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **.test_gin_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **.test_gin_parameters()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **.test_gist_include_not_supported()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **.test_gist_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **.test_gist_parameters()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **.test_hash_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **.test_hash_parameters()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- **.test_spgist_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Community 30](Community_30.md) (5 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 168](Community_168.md) (2 shared connections)
-- [Community 628](Community_628.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 132](Community_132.md) (1 shared connections)
+- [Community 104](Community_104.md) (32 shared connections)
+- [Community 14](Community_14.md) (4 shared connections)
+- [Community 38](Community_38.md) (2 shared connections)
+- [Community 62](Community_62.md) (2 shared connections)
+- [Community 22](Community_22.md) (2 shared connections)
+- [Community 58](Community_58.md) (1 shared connections)
+- [Community 411](Community_411.md) (1 shared connections)
+- [Community 198](Community_198.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
 
 ## Audit Trail
 
-- EXTRACTED: 60 (88%)
-- INFERRED: 8 (12%)
+- EXTRACTED: 95 (88%)
+- INFERRED: 13 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,50 +1,45 @@
 # Community 578
 
-> 17 nodes · cohesion 0.12
+> 18 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **AuthViewsTestCase** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **LogoutThenLoginTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **LoginSuccessURLAllowedHostsTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **AuthViewNamedURLTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_named_urls()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **SessionAuthenticationTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_user_password_change_updates_session()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.logout()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_success_url_allowed_hosts_safe_host()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_success_url_allowed_hosts_same_host()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_success_url_allowed_hosts_unsafe_host()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.confirm_logged_out()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **Helper base class for all the follow test cases.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **#21649 - Ensure contrib.auth.views.password_change updates the user's session…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **Named URLs should be reversible** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **Tests for the logout_then_login view** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **Tests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **._select()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_nodb_cursor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_connect_and_rollback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_connect_isolation_level()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_connect_non_autocommit()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_copy_cursors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_correct_extraction_psycopg2_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_database_name_too_long()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_lookup_cast()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_select_ascii_array()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_select_unicode_array()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **skipUnless** (1 connections)
+- **The connection wrapper shouldn't believe that autocommit is enabled after…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **The transaction level can be configured with DATABASES…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **The _nodb_cursor() fallbacks to the default connection database when access to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **PostgreSQL shouldn't roll back SET TIME ZONE, even if the first transaction is…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_connect_no_is_usable_checks()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
 
 ## Relationships
 
-- [Community 95](Community_95.md) (5 shared connections)
-- [Community 101](Community_101.md) (5 shared connections)
-- [Community 8](Community_8.md) (4 shared connections)
-- [Community 675](Community_675.md) (2 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 42](Community_42.md) (1 shared connections)
-- [Community 906](Community_906.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 690](Community_690.md) (1 shared connections)
-- [Community 561](Community_561.md) (1 shared connections)
-- [Community 624](Community_624.md) (1 shared connections)
-- [Community 909](Community_909.md) (1 shared connections)
+- [Community 222](Community_222.md) (2 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 568](Community_568.md) (1 shared connections)
+- [Community 285](Community_285.md) (1 shared connections)
+- [Community 78](Community_78.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 25 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,26 +4,25 @@
 
 ## Key Concepts
 
-- **DatabaseReceiver** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_database_arg_m2m()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_database_arg_save_and_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **Used in the tests for the database argument in signals (#13552)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **The pre/post_save signal contains the correct database.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **The m2m_changed signal has a correct database arg.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **TestArchive** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
+- **.test_extract_file_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
+- **skipIf** (1 connections)
+- **archive.extract() preserves file permissions.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
+- **.test_extract_function()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
 
 ## Relationships
 
-- [Community 403](Community_403.md) (3 shared connections)
-- [Community 459](Community_459.md) (1 shared connections)
+- [Community 57](Community_57.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_archive.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,35 +1,38 @@
 # Community 824
 
-> 9 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Article** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **SubclassTestCaseFixtureLoadingTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **TestCaseFixtureLoadingTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_class_fixtures()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_class_fixtures()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Test case has installed 3 fixture objects** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **Make sure that subclasses can remove fixtures from parent class (#21089).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **There were no fixture objects installed** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.setUpClass()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **_DatabaseFailure** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.setUpClass()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._add_databases_failures()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.modify_settings()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._validate_databases()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **A context manager that temporarily sets a setting and reverts to the original…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Relationships
 
-- [Community 385](Community_385.md) (5 shared connections)
-- [Community 361](Community_361.md) (1 shared connections)
-- [Community 489](Community_489.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 24](Community_24.md) (2 shared connections)
+- [Community 443](Community_443.md) (2 shared connections)
+- [Community 99](Community_99.md) (1 shared connections)
+- [Community 367](Community_367.md) (1 shared connections)
+- [Community 129](Community_129.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 522](Community_522.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (76%)
-- INFERRED: 4 (24%)
+- EXTRACTED: 20 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

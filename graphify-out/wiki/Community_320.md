@@ -1,55 +1,61 @@
 # Community 320
 
-> 33 nodes · cohesion 0.08
+> 32 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **BoundField** (28 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.as_widget()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.value()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.subwidgets()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.as_hidden()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.as_text()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.as_textarea()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.__str__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.build_widget_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.auto_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.css_classes()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.data()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.id_for_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.is_hidden()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **Return a string of HTML for representing this as an <input type="text">.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.widget_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **Return a string of HTML for representing this as an <input type="hidden">.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **Return the data for this BoundField, or None if it wasn't given.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **Return the value for this BoundField, using the initial value if the form is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- *... and 8 more nodes in this community*
+- **StaticFilesHandler** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **StaticFilesHandlerMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **Command** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **Command** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/runserver.py`
+- **staticfiles/management/commands/runserver.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/runserver.py`
+- **.run()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.__call__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **.get_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **.serve()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **._should_handle()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **.get_handler()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.inner_run()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.__call__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **.file_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **.get_base_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **.get_response_async()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **.get_handler()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/runserver.py`
+- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **Common methods used by WSGI and ASGI handlers.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **Check if the path should be handled. Ignore the path if: * the host is provided…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **Return the relative path to the media file on disk for the given URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **Serve the request path.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- **WSGI middleware that intercepts calls to the static files directory, as defined…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 33](Community_33.md) (3 shared connections)
-- [Community 69](Community_69.md) (2 shared connections)
-- [Community 129](Community_129.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 138](Community_138.md) (1 shared connections)
-- [Community 895](Community_895.md) (1 shared connections)
-- [Community 409](Community_409.md) (1 shared connections)
+- [Community 24](Community_24.md) (9 shared connections)
+- [Community 57](Community_57.md) (5 shared connections)
+- [Community 103](Community_103.md) (3 shared connections)
+- [Community 571](Community_571.md) (2 shared connections)
+- [Community 595](Community_595.md) (2 shared connections)
+- [Community 934](Community_934.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 80](Community_80.md) (1 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 552](Community_552.md) (1 shared connections)
+- [Community 207](Community_207.md) (1 shared connections)
+- [Community 307](Community_307.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/handlers.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/runserver.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (93%)
-- INFERRED: 4 (7%)
+- EXTRACTED: 60 (85%)
+- INFERRED: 11 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

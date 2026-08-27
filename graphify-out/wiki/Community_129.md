@@ -1,62 +1,60 @@
 # Community 129
 
-> 68 nodes · cohesion 0.04
+> 67 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **ManyToManyField** (33 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **RelatedField** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **SettingsReference** (12 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.check()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.deconstruct()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.check()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.formfield()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.check()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.contribute_to_related_class()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **._check_clashes()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.related_query_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.test_m2m_rename_field_in_target_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.db_parameters()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.deconstruct()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **._check_relationship_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **._check_table_uniqueness()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **._check_unique()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **._get_path_info()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **._check_related_query_name_is_valid()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.do_related_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.formfield()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.get_limit_choices_to()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.swappable_setting()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **._check_on_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.contribute_to_related_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- *... and 43 more nodes in this community*
+- **model_fields/test_imagefield.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **ImageFieldTwoDimensionsTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.check_dimensions()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **ImageFieldTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **ImageFieldTestMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **TwoImageFieldTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **skipIf** (7 connections)
+- **SerializeMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **PersonDimensionsFirst** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **PersonWithHeight** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **ImageFieldDimensionsFirstTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **ImageFieldNoDimensionsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **ImageFieldOneDimensionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **ImageFieldUsingFileTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **PersonTwoImages** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **PersonWithHeightAndWidth** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.test_pickle()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_assignment_to_None()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_constructor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_create()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_dimensions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_field_save_and_delete_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_image_after_constructor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **Person** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- *... and 42 more nodes in this community*
 
 ## Relationships
 
-- [Community 28](Community_28.md) (12 shared connections)
-- [Community 51](Community_51.md) (11 shared connections)
-- [Community 299](Community_299.md) (6 shared connections)
-- [Community 294](Community_294.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 139](Community_139.md) (2 shared connections)
-- [Community 230](Community_230.md) (1 shared connections)
-- [Community 169](Community_169.md) (1 shared connections)
-- [Community 37](Community_37.md) (1 shared connections)
-- [Community 55](Community_55.md) (1 shared connections)
-- [Community 161](Community_161.md) (1 shared connections)
+- [Community 203](Community_203.md) (6 shared connections)
+- [Community 849](Community_849.md) (6 shared connections)
+- [Community 19](Community_19.md) (4 shared connections)
+- [Community 24](Community_24.md) (3 shared connections)
+- [Community 115](Community_115.md) (3 shared connections)
+- [Community 824](Community_824.md) (1 shared connections)
+- [Community 367](Community_367.md) (1 shared connections)
+- [Community 513](Community_513.md) (1 shared connections)
+- [Community 57](Community_57.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 126 (95%)
-- INFERRED: 7 (5%)
+- EXTRACTED: 117 (91%)
+- INFERRED: 12 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

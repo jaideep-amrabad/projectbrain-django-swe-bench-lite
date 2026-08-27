@@ -1,40 +1,43 @@
 # Community 614
 
-> 16 nodes · cohesion 0.25
+> 16 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **ParsingTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
-- **.parse_definition()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
-- **.assertConstraint()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
-- **sqlite/test_introspection.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
-- **IntrospectionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
-- **.test_check_and_unique_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
-- **.test_check_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
-- **.test_check_column_with_operators_and_functions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
-- **.test_check_constraint()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
-- **.test_unique_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
-- **.test_unique_constraint()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
-- **.test_unique_constraint_multicolumn()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
-- **.test_get_primary_key_column()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
-- **skipUnless** (2 connections)
-- **Get the primary key column regardless of whether or not it has quotation.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
-- **Parse a column or constraint definition.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- **null_fk/tests.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/tests.py`
+- **null_fk/models.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
+- **NullFkTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/tests.py`
+- **Comment** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
+- **Post** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
+- **Forum** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
+- **Item** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
+- **PropertyValue** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
+- **SystemDetails** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
+- **SystemInfo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
+- **.test_combine_isnull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/tests.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
+- **Property** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
+- **Regression tests for proper working of ForeignKey(null=True).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
+- **.test_null_fk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk/tests.py`
 
 ## Relationships
 
-- [Community 14](Community_14.md) (3 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 22](Community_22.md) (2 shared connections)
+- [Community 19](Community_19.md) (2 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_introspection.py`
+- `raw/code/hyd-evaluation/django-django/tests/null_fk/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/null_fk/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 30 (81%)
+- INFERRED: 7 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

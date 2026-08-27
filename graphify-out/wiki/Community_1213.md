@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **.test_model_pickle()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **A model not defined on module level is picklable.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_view_with_permissions_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **Request a page that is protected with @permission_required but raises an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 390](Community_390.md) (1 shared connections)
+- [Community 518](Community_518.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 

@@ -1,35 +1,33 @@
 # Community 784
 
-> 11 nodes · cohesion 0.22
+> 11 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **Point** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.geos()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **Return the X coordinate for this Point.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **._create_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **._geos_ptr()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.x()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.y()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.z()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **Return a GEOSGeometry object from this OGRGeometry.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **Return the tuple of this point.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.tuple()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
+- **.z()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
+- **.x()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
+- **.y()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
+- **setter** (4 connections)
+- **Return the X component of the Point.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
+- **Set the X component of the Point.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
+- **The Point object may be initialized with either a tuple, or individual…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
+- **Return a tuple of the point.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
+- **Set the coordinates of the point with the given tuple.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
 
 ## Relationships
 
-- [Community 81](Community_81.md) (3 shared connections)
-- [Community 29](Community_29.md) (2 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
+- [Community 18](Community_18.md) (7 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 20 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

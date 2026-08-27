@@ -1,24 +1,22 @@
 # Community 1253
 
-> 2 nodes · cohesion 1.00
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **.test_force_login_with_backend_missing_get_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **force_login() skips auth backends without a get_user() method.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **sessions/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/__init__.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 526](Community_526.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

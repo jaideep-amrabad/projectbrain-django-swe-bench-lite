@@ -1,54 +1,38 @@
 # Community 421
 
-> 26 nodes · cohesion 0.08
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **BasePasswordHasher** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **BasePasswordHasherTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.salt()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.decode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.harden_runtime()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.safe_summary()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.verify()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.must_update()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Abstract base class for password hashers When creating your own hasher, you…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Generate a cryptographically secure nonce salt in ASCII.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Check if the given password is correct.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Create an encoded database value. The result is normally formatted as…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Return a decoded database value. The result is a dictionary and should contain…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Return a summary of safe values. The result is a dictionary and will be used…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Bridge the runtime gap between the work factor supplied in `encoded` and the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.test_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_decode()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_encode()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_harden_runtime()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_load_library_importerror()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_load_library_no_algorithm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_must_update()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **.test_safe_summary()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- *... and 1 more nodes in this community*
+- **ModelMultipleChoiceFieldTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_model_multiple_choice_number_of_queries()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_model_multiple_choice_run_validators()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_model_multiple_choice_show_hidden_initial()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_clean_does_deduplicate_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_model_multiple_choice_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_model_multiple_choice_required_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_show_hidden_initial_changed_queries_efficiently()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_to_field_name_with_initial_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **ModelMultipleChoiceField does O(1) queries instead of O(n) (#10156).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **ModelMultipleChoiceField run given validators (#14144).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Test support of show_hidden_initial by ModelMultipleChoiceField.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Relationships
 
-- [Community 186](Community_186.md) (5 shared connections)
-- [Community 597](Community_597.md) (4 shared connections)
-- [Community 710](Community_710.md) (2 shared connections)
-- [Community 882](Community_882.md) (1 shared connections)
-- [Community 94](Community_94.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 108](Community_108.md) (5 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 42](Community_42.md) (1 shared connections)
+- [Community 456](Community_456.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 15 (75%)
+- INFERRED: 5 (25%)
 - AMBIGUOUS: 0 (0%)
 
 ---

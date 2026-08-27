@@ -1,60 +1,52 @@
 # Community 101
 
-> 31 nodes · cohesion 0.13
+> 28 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **.login()** (41 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **LogoutTest** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.confirm_logged_out()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **logout_then_login()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.test_default_logout_then_login()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_security_check()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_security_check_https()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_logout_then_login_with_custom_login()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_logout_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_logout_with_custom_redirect_argument()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_logout_with_named_redirect()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_logout_with_next_page_specified()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_logout_with_redirect_argument()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_logout_preserve_language()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_logout_redirect_url_named_setting()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_logout_redirect_url_setting()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_logout_with_overridden_redirect_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_logout_with_post()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_success_url_allowed_hosts_safe_host()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_success_url_allowed_hosts_same_host()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_success_url_allowed_hosts_unsafe_host()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_14377()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_logout_doesnt_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **Log out the user if they are logged in. Then redirect to the login page.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **Logout with next_page option given redirects to specified resource** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- *... and 6 more nodes in this community*
+- **MessageCompilationTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **IgnoreDirectoryCompilationTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **RunInTmpDirMixin** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
+- **copytree()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
+- **CompilationErrorHandling** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **FuzzyTranslationTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **MultipleLocaleCompilationTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.setUp()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.assertAllExist()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.assertNoneExist()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.test_ignores_based_on_pattern()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.test_multiple_locale_dirs_ignored()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.test_one_locale_dir_ignored()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **ProjectAndAppTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **AppCompilationTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **PathLibLocaleCompilationTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **PoFileContentsTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.test_app_locale_compiled()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.test_error_reported_by_msgfmt()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.test_msgfmt_error_including_non_ascii()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.test_percent_symbol_in_po_file()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 675](Community_675.md) (8 shared connections)
-- [Community 624](Community_624.md) (6 shared connections)
-- [Community 578](Community_578.md) (5 shared connections)
-- [Community 745](Community_745.md) (4 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 95](Community_95.md) (2 shared connections)
-- [Community 15](Community_15.md) (2 shared connections)
-- [Community 536](Community_536.md) (2 shared connections)
-- [Community 98](Community_98.md) (2 shared connections)
-- [Community 42](Community_42.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 690](Community_690.md) (1 shared connections)
+- [Community 57](Community_57.md) (16 shared connections)
+- [Community 15](Community_15.md) (15 shared connections)
+- [Community 73](Community_73.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 97 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 70 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

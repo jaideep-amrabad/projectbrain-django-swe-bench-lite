@@ -1,20 +1,20 @@
 # Community 1107
 
-> 3 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **urlify.js** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/urlify.js`
-- **downcode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/urlify.js`
-- **URLify()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/urlify.js`
+- **Thing** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 69](Community_69.md) (1 shared connections)
+- [Community 93](Community_93.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/urlify.js`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 

@@ -4,28 +4,29 @@
 
 ## Key Concepts
 
-- **UnprefixedDefaultLanguageTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_default_lang_without_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_no_redirect_on_404()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **With i18n_patterns(..., prefix_default_language=False), the default language…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **A request for a nonexistent URL shouldn't cause a redirect to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_other_lang_with_prefix()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_page_with_dash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **.test_unprefixed_language_other_than_accept_language()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **ManageNoSettings** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **A series of tests for manage.py when there is no settings.py file.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **no settings: manage.py builtin commands fail with an error when no settings…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **no settings: manage.py builtin commands fail if settings file (from argument)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **no settings: manage.py builtin commands fail if settings file (from…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 43](Community_43.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 112](Community_112.md) (3 shared connections)
+- [Community 175](Community_175.md) (3 shared connections)
+- [Community 89](Community_89.md) (3 shared connections)
+- [Community 207](Community_207.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

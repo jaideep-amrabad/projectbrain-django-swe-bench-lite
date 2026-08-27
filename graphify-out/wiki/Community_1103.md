@@ -1,23 +1,20 @@
 # Community 1103
 
-> 4 nodes · cohesion 0.50
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **test_module/__init__.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/__init__.py`
-- **another_bad_module.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/another_bad_module.py`
-- **another_good_module.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/another_good_module.py`
-- **SiteMock** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/__init__.py`
+- **Simple** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Simple model with nothing on it for use in testing** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 69](Community_69.md) (1 shared connections)
+- [Community 93](Community_93.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/another_bad_module.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/another_good_module.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 

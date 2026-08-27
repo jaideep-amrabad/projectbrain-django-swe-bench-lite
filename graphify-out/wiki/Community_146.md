@@ -1,59 +1,63 @@
 # Community 146
 
-> 76 nodes · cohesion 0.03
+> 57 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **SessionTestsMixin** (47 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **FileSessionTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **DatabaseSessionTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **CacheDBSessionTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **CacheSessionTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **CacheDBSessionWithTimeZoneTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_clearsessions_command()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **DatabaseSessionWithTimeZoneTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **FileSessionPathLibTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_clearsessions_command()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_load_overlong_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_non_default_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_load_overlong_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_non_default_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_session_get_decoded()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_session_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_sessionmanager_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.mkdtemp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_configuration_check()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **Test clearsessions command for clearing expired sessions.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_actual_expiry()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_decode_legacy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_default_hashing_algorith_legacy_decode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **.test_get_expire_at_browser_close()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- *... and 51 more nodes in this community*
+- **finders.py** (33 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **collectstatic.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **check_finders()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/checks.py`
+- **BaseFinder** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **staticfiles_tests/test_checks.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
+- **get_finders()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **FindersCheckTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
+- **BaseStorageFinder** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **FileSystemFinder** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **get_finder()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **AppDirectoriesFinder** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **staticfiles/checks.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/checks.py`
+- **.list()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **find()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **DefaultStorageFinder** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.find_location()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.test_check_finders()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
+- **.find()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.find_in_app()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.find()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.base_location()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.test_dirs_contains_static_root()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
+- *... and 32 more nodes in this community*
 
 ## Relationships
 
-- [Community 8](Community_8.md) (10 shared connections)
-- [Community 2](Community_2.md) (8 shared connections)
-- [Community 94](Community_94.md) (4 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 742](Community_742.md) (1 shared connections)
-- [Community 573](Community_573.md) (1 shared connections)
-- [Community 569](Community_569.md) (1 shared connections)
-- [Community 219](Community_219.md) (1 shared connections)
-- [Community 602](Community_602.md) (1 shared connections)
-- [Community 574](Community_574.md) (1 shared connections)
-- [Community 763](Community_763.md) (1 shared connections)
+- [Community 621](Community_621.md) (6 shared connections)
+- [Community 44](Community_44.md) (6 shared connections)
+- [Community 97](Community_97.md) (6 shared connections)
+- [Community 57](Community_57.md) (5 shared connections)
+- [Community 80](Community_80.md) (5 shared connections)
+- [Community 12](Community_12.md) (5 shared connections)
+- [Community 24](Community_24.md) (4 shared connections)
+- [Community 76](Community_76.md) (3 shared connections)
+- [Community 380](Community_380.md) (3 shared connections)
+- [Community 222](Community_222.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 290](Community_290.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/checks.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_checks.py`
 
 ## Audit Trail
 
-- EXTRACTED: 105 (95%)
-- INFERRED: 5 (5%)
+- EXTRACTED: 146 (95%)
+- INFERRED: 8 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

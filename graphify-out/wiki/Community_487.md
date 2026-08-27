@@ -1,46 +1,41 @@
 # Community 487
 
-> 22 nodes · cohesion 0.10
+> 18 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **BookAdmin** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.verify_booleanfieldlistfilter()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **BookAdminWithTupleBooleanFilter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **BookAdminWithUnderscoreLookupAndTuple** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_booleanfieldlistfilter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_booleanfieldlistfilter_tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_fieldlistfilter_invalid_lookup_parameters()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_fieldlistfilter_underscorelookup_tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_relatedfieldlistfilter_foreignkey_default_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_relatedfieldlistfilter_foreignkey_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_relatedonlyfieldlistfilter_foreignkey_default_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_relatedonlyfieldlistfilter_foreignkey_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_two_characters_long_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_allvaluesfieldlistfilter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_relatedfieldlistfilter_foreignkey_ordering_reverse()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **Ensure ('fieldpath', ClassName ) lookups pass lookup_allowed checks when…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **Filtering by an invalid value.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **list_filter works with two-characters long field names (#16080).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **RelatedFieldListFilter ordering respects ModelAdmin.ordering.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **RelatedFieldListFilter ordering respects Model.ordering.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **RelatedOnlyFieldListFilter ordering respects ModelAdmin.ordering.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **RelatedOnlyFieldListFilter ordering respects Meta.ordering.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **FieldFile** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._require_file()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._get_file()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.open()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.path()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.size()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.closed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._del_file()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__getstate__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **._set_file()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__setstate__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **File** (1 connections)
 
 ## Relationships
 
-- [Community 428](Community_428.md) (12 shared connections)
-- [Community 686](Community_686.md) (4 shared connections)
-- [Community 384](Community_384.md) (3 shared connections)
-- [Community 958](Community_958.md) (1 shared connections)
+- [Community 351](Community_351.md) (1 shared connections)
+- [Community 849](Community_849.md) (1 shared connections)
+- [Community 269](Community_269.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (100%)
+- EXTRACTED: 26 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

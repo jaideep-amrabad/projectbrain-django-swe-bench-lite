@@ -4,22 +4,20 @@
 
 ## Key Concepts
 
-- **ChangedBackendSettingsTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_changed_backend_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **Tests for changes in the settings.AUTHENTICATION_BACKENDS** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **Removing a backend configured in AUTHENTICATION_BACKENDS makes already logged-…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_view_with_login()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_view_with_login_when_sessions_app_is_not_installed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **Request a page that is protected with @login_required** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_view_with_bad_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_view_with_force_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 95](Community_95.md) (2 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 98](Community_98.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 518](Community_518.md) (4 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 

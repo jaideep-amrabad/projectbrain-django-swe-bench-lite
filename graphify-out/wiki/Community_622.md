@@ -1,40 +1,39 @@
 # Community 622
 
-> 16 nodes · cohesion 0.14
+> 15 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **GeoIPTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
-- **.test03_country()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
-- **.test04_city()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
-- **.test01_init()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
-- **.test02_bad_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
-- **.test06_ipv6_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
-- **.test_check_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
-- **patch** (3 connections)
-- **.test_no_database_file()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
-- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
-- **skipUnless** (1 connections)
-- **GeoIP city querying methods.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
-- **GeoIP can lookup IPv6 addresses.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
-- **GeoIP initialization.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
-- **GeoIP query parameter checking.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
-- **GeoIP country querying methods.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
+- **Deserializer** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **._handle_object()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **._handle_fk_field_node()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **._handle_m2m_field_node()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **._make_parser()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **getInnerText()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **._get_model_from_node()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **.__next__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **Create a hardened XML parser (no custom/external entities).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **Convert an <object> node to a DeserializedObject.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **Handle a <field> node for a ForeignKey** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **Handle a <field> node for a ManyToManyField.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **Look up a model from a <object model=...> or a <field rel=... to=...> node.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **Get all the inner text of a DOM node (recursively).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
 
 ## Relationships
 
-- [Community 182](Community_182.md) (8 shared connections)
-- [Community 844](Community_844.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 26](Community_26.md) (2 shared connections)
+- [Community 452](Community_452.md) (2 shared connections)
+- [Community 103](Community_103.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoip2.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 24 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

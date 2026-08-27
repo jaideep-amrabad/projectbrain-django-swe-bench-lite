@@ -1,32 +1,32 @@
 # Community 862
 
-> 8 nodes · cohesion 0.46
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **ReverseQueryNameClashTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **._test_reverse_query_name_clash()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_fk_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_fk_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_fk_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_m2m_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_m2m_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **.test_m2m_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **FlatpageModelTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
+- **.test_get_absolute_url_with_hardcoded_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
+- **.test_get_absolute_url_honors_script_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
+- **.test_get_absolute_url_include()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
+- **.test_get_absolute_url_include_no_slash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
+- **.test_get_absolute_url_urlencodes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
+- **.test_str()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
 
 ## Relationships
 
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 598](Community_598.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 152](Community_152.md) (1 shared connections)
+- [Community 12](Community_12.md) (3 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
+- EXTRACTED: 15 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

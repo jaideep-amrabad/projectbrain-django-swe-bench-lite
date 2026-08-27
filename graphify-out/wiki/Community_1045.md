@@ -1,25 +1,24 @@
 # Community 1045
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **ReadOnlyPizzaAdmin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.has_add_permission()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.has_change_permission()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.has_delete_permission()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **nav_sidebar.js** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/nav_sidebar.js`
+- **disableNavLinkTabbing()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/nav_sidebar.js`
+- **enableNavLinkTabbing()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/nav_sidebar.js`
 
 ## Relationships
 
-- [Community 66](Community_66.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/nav_sidebar.js`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

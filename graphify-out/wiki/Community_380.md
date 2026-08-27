@@ -1,51 +1,70 @@
 # Community 380
 
-> 29 nodes · cohesion 0.09
+> 91 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **PermLookupDict** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **PermWrapper** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **PermWrapperTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- **MockUser** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- **auth/context_processors.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **EQLimiterObject** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- **.test_permlookupdict_in()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- **auth()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **.test_permwrapper_in()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- **.test_iter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- **.__contains__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **Lookup by "someapp" or "someapp.someperm" in perms.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **Return context variables required by apps that use Django's authentication…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- **.has_module_perms()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- **.has_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- *... and 4 more nodes in this community*
+- **import_string()** (62 connections) — `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
+- **.import_module()** (42 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **module_loading.py** (37 connections) — `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
+- **renderers.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- **jinja2.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
+- **test_module_loading.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **autodiscover_modules()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
+- **template/utils.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/template/utils.py`
+- **module_has_submodule()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
+- **BaseEngine** (14 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
+- **template/backends/base.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
+- **AutodiscoverModulesTestCase** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **config.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- **Jinja2** (12 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
+- **.create()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- **storage/__init__.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/__init__.py`
+- **get_app_template_dirs()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/utils.py`
+- **app_directories.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/app_directories.py`
+- **EggLoader** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.get_template()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
+- **Template** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
+- **YamlImportModuleMock** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **CustomLoader** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_deep_loader()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_shallow_loader()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- *... and 66 more nodes in this community*
 
 ## Relationships
 
-- [Community 95](Community_95.md) (5 shared connections)
-- [Community 288](Community_288.md) (2 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 2](Community_2.md) (21 shared connections)
+- [Community 1](Community_1.md) (20 shared connections)
+- [Community 7](Community_7.md) (15 shared connections)
+- [Community 24](Community_24.md) (13 shared connections)
+- [Community 222](Community_222.md) (12 shared connections)
+- [Community 310](Community_310.md) (8 shared connections)
+- [Community 57](Community_57.md) (7 shared connections)
+- [Community 5](Community_5.md) (7 shared connections)
+- [Community 621](Community_621.md) (7 shared connections)
+- [Community 595](Community_595.md) (5 shared connections)
+- [Community 498](Community_498.md) (4 shared connections)
+- [Community 10](Community_10.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
+- `raw/code/hyd-evaluation/django-django/django/template/backends/base.py`
+- `raw/code/hyd-evaluation/django-django/django/template/backends/jinja2.py`
+- `raw/code/hyd-evaluation/django-django/django/template/loaders/app_directories.py`
+- `raw/code/hyd-evaluation/django-django/django/template/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 310 (87%)
+- INFERRED: 47 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

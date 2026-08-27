@@ -1,37 +1,41 @@
 # Community 727
 
-> 12 nodes · cohesion 0.17
+> 12 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **WeekArchiveViewTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_aware_datetime_week_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_datetime_week_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_incompatible_iso_week_format_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_unknown_week_format()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_week_iso_format()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_week_start_Monday()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_week_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_week_view_allow_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_week_view_allow_future()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_week_view_invalid_pattern()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_week_view_paginated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **test_resolvers.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/test_resolvers.py`
+- **RoutePattern** (11 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **_route_to_regex()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **RegexPatternTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/test_resolvers.py`
+- **RoutePatternTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/test_resolvers.py`
+- **ResolverCacheTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/test_resolvers.py`
+- **._compile()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.test_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/test_resolvers.py`
+- **Convert a path pattern into a regular expression. Return the regular expression…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.match()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
 
 ## Relationships
 
-- [Community 93](Community_93.md) (3 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 414](Community_414.md) (1 shared connections)
+- [Community 10](Community_10.md) (7 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 92](Community_92.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/test_resolvers.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (89%)
-- INFERRED: 2 (11%)
+- EXTRACTED: 33 (94%)
+- INFERRED: 2 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

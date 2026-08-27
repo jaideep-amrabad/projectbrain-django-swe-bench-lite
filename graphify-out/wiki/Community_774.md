@@ -1,55 +1,44 @@
 # Community 774
 
-> 24 nodes · cohesion 0.09
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **cache/backends/base.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **DummyCache** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
-- **memcached.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- **InvalidCacheKey** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **get_key_func()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **CacheKeyWarning** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **memcache_key_warnings()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.validate_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **default_key_func()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **cache/backends/dummy.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **RuntimeWarning** (1 connections)
-- **Warn about keys that would not be portable to the memcached backend. This…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **Default function to generate keys. Construct the key used by all other methods.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **Function to decide which key function to use. Default to ``default_key_func``.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- **.add()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
-- **.clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
-- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
-- **.get()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
-- **.has_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
-- **.set()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
-- **.touch()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
-- **Memcached cache backend** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- **setup** (45 connections)
+- **.test_inheritance05()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance24()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance25()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_duplicate_block()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance31()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance39()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Two-level with double quotes instead of single quotes** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Inheritance from local context without use of template loader** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Inheritance from local context with variable parent template** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (11 shared connections)
-- [Community 268](Community_268.md) (7 shared connections)
-- [Community 576](Community_576.md) (5 shared connections)
-- [Community 41](Community_41.md) (3 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 681](Community_681.md) (1 shared connections)
-- [Community 743](Community_743.md) (1 shared connections)
-- [Community 451](Community_451.md) (1 shared connections)
+- [Community 804](Community_804.md) (15 shared connections)
+- [Community 1073](Community_1073.md) (2 shared connections)
+- [Community 1074](Community_1074.md) (2 shared connections)
+- [Community 1140](Community_1140.md) (1 shared connections)
+- [Community 1141](Community_1141.md) (1 shared connections)
+- [Community 1142](Community_1142.md) (1 shared connections)
+- [Community 1143](Community_1143.md) (1 shared connections)
+- [Community 1144](Community_1144.md) (1 shared connections)
+- [Community 1145](Community_1145.md) (1 shared connections)
+- [Community 1146](Community_1146.md) (1 shared connections)
+- [Community 1147](Community_1147.md) (1 shared connections)
+- [Community 1148](Community_1148.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
-- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/dummy.py`
-- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 55 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

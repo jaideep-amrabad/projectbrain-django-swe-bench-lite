@@ -1,31 +1,33 @@
 # Community 875
 
-> 8 nodes · cohesion 0.46
+> 8 nodes · cohesion 0.32
 
 ## Key Concepts
 
-- **CaptureOnCommitCallbacksTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.enqueue_callback()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_different_using()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_execute()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_no_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_pre_callback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_using()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_with_rolled_back_savepoint()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **Person** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
+- **save_delete_hooks/tests.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/tests.py`
+- **SaveDeleteHookTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/tests.py`
+- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/tests.py`
+- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
+- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
 
 ## Relationships
 
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 19](Community_19.md) (2 shared connections)
 - [Community 2](Community_2.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/save_delete_hooks/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 13 (93%)
+- INFERRED: 1 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

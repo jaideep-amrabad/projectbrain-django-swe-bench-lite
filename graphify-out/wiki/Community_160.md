@@ -1,57 +1,60 @@
 # Community 160
 
-> 45 nodes · cohesion 0.06
+> 32 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **update/tests.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **AdvancedTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **update/models.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **SimpleTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **MySQLUpdateOrderByTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **D** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **A** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **B** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **Bar** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **DataPoint** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **Foo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **RelatedPoint** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **UniqueNumber** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **Update changes the right number of rows for a nonempty queryset** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **C** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **.test_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **.test_update_all()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **.test_update_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **.test_update_multiple_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **.test_update_multiple_objects()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **.test_update_respects_to_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **.test_update_slice_fail()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **.test_order_by_update_on_unique_constraint()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **.test_order_by_update_on_unique_constraint_annotation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **.test_empty_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- *... and 20 more nodes in this community*
+- **auth_tests/test_validators.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **password_validation.py** (30 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **PasswordValidationTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **validate_password()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **get_default_password_validators()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **NumericPasswordValidator** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **get_password_validators()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **password_changed()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **password_validators_help_texts()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **_password_validators_help_text_html()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **NumericPasswordValidatorTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **UsernameValidatorsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **.test_help_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.test_validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.test_empty_password_validator_help_text_html()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.test_get_default_password_validators()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.test_get_password_validators_custom()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.test_password_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.test_password_changed_with_custom_validator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.test_password_validators_help_text_html_escaping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.test_password_validators_help_texts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.test_validate_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **.get_help_text()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **Validate whether the password is alphanumeric.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 13](Community_13.md) (4 shared connections)
-- [Community 179](Community_179.md) (4 shared connections)
-- [Community 14](Community_14.md) (4 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 342](Community_342.md) (1 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
+- [Community 1](Community_1.md) (9 shared connections)
+- [Community 13](Community_13.md) (8 shared connections)
+- [Community 57](Community_57.md) (6 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 45](Community_45.md) (4 shared connections)
+- [Community 380](Community_380.md) (3 shared connections)
+- [Community 828](Community_828.md) (3 shared connections)
+- [Community 796](Community_796.md) (3 shared connections)
+- [Community 845](Community_845.md) (3 shared connections)
+- [Community 12](Community_12.md) (3 shared connections)
+- [Community 24](Community_24.md) (2 shared connections)
+- [Community 222](Community_222.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
 
 ## Audit Trail
 
-- EXTRACTED: 77 (91%)
-- INFERRED: 8 (9%)
+- EXTRACTED: 112 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,29 +1,29 @@
 # Community 1007
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **AuthTestCase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_auth_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_dumpdata()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **The methods on the auth manager obey database hints** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **dumpdata honors allow_migrate restrictions on the router** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **BinaryTree** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
+- **BinaryTreeAdmin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/admin.py`
+- **.get_extra()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/admin.py`
+- **.get_max_num()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/admin.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 403](Community_403.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
+- [Community 184](Community_184.md) (2 shared connections)
+- [Community 328](Community_328.md) (2 shared connections)
+- [Community 213](Community_213.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 6 (75%)
+- INFERRED: 2 (25%)
 - AMBIGUOUS: 0 (0%)
 
 ---

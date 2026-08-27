@@ -1,34 +1,30 @@
 # Community 816
 
-> 9 nodes · cohesion 0.36
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **escapejs_filter()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **FunctionTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapejs.py`
-- **.test_lazy_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapejs.py`
-- **.test_backslashes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapejs.py`
-- **.test_paragraph_separator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapejs.py`
-- **.test_quotes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapejs.py`
-- **.test_script()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapejs.py`
-- **.test_whitespace()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapejs.py`
-- **Hex encode characters for use in JavaScript strings.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **.cycle_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.delete()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.flush()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.create()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.clear()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **Remove the current session data from the database and regenerate the key.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **Create a new session key, while retaining the current session data.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **Create a new session instance. Guaranteed to create a new object with a unique…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **Delete the session data under this key. If the key is None, use the current…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
 
 ## Relationships
 
-- [Community 47](Community_47.md) (3 shared connections)
-- [Community 5](Community_5.md) (3 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 142](Community_142.md) (1 shared connections)
+- [Community 232](Community_232.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapejs.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

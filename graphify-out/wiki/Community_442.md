@@ -1,58 +1,51 @@
 # Community 442
 
-> 25 nodes · cohesion 0.10
+> 24 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **ConnectionHandler** (22 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **ConnectionHandlerTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
-- **ConnectionDoesNotExist** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **.ensure_defaults()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **.__getitem__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **.prepare_test_settings()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **.databases()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **.test_no_database()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.assertImproperlyConfigured()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
-- **.test_connection_handler_no_databases()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
-- **.test_makemigrations_empty_connections()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **Exception** (2 connections)
-- **._get_databases()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.test_no_default_database()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
-- **.all()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **.close_all()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **.__delitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **.__setitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **databases is an optional dictionary of database definitions (structured like…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **Put the defaults into the settings dictionary for a given connection where no…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **Make sure the test settings are available in the 'TEST' sub-dictionary.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **Ensure runserver.check_migrations doesn't choke on empty DATABASES.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Empty DATABASES and empty 'default' settings default to the dummy backend.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- **Element** (13 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **Parser** (12 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **RootElement** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.handle_endtag()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **._count()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.handle_startendtag()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.handle_starttag()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.append()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.__contains__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **normalize_whitespace()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.format_position()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.finalize()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.handle_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **HTMLParser** (1 connections)
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (8 shared connections)
-- [Community 9](Community_9.md) (3 shared connections)
-- [Community 399](Community_399.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 236](Community_236.md) (1 shared connections)
-- [Community 128](Community_128.md) (1 shared connections)
-- [Community 234](Community_234.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 245](Community_245.md) (1 shared connections)
+- [Community 554](Community_554.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 475](Community_475.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
+- `raw/code/hyd-evaluation/django-django/django/test/html.py`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 38 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

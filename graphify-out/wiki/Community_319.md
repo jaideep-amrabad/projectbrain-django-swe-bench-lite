@@ -1,62 +1,58 @@
 # Community 319
 
-> 57 nodes · cohesion 0.05
+> 36 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **models/query.py** (61 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **prefetch_related_objects()** (22 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **PrefetchRelatedObjectsTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- **DirectPrefetchedObjectCacheReuseTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **test_prefetch_related_objects.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- **BaseIterable** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **get_prefetcher()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **RelatedPopulator** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **ValuesListIterable** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **FlatValuesListIterable** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **get_related_populators()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **normalize_prefetch_lookups()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **ValuesIterable** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **partition()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **InstanceCheckMeta** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **prefetch_one_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.test_m2m_then_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- **.test_prefetch_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- **.test_prefetch_object_to_attr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- **.test_prefetch_queryset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- **.test_detect_is_fetched()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._prefetch_related_objects()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.test_foreignkey_forward()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- *... and 32 more nodes in this community*
+- **gis/forms/fields.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **gis/forms/__init__.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/__init__.py`
+- **GeometryField** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **BaseGeometryWidget** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
+- **OpenLayersWidget** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
+- **.to_python()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **OSMWidget** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
+- **.media()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
+- **GeometryCollectionField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **.has_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **LineStringField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **MultiLineStringField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **MultiPointField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **MultiPolygonField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **PointField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **PolygonField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
+- **.test_get_context_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
+- **.deserialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
+- **Media** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
+- **.deserialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
+- **.serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
+- **Injects OpenLayers JavaScript into the admin.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [Community 109](Community_109.md) (21 shared connections)
-- [Community 313](Community_313.md) (8 shared connections)
-- [Community 28](Community_28.md) (7 shared connections)
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 350](Community_350.md) (4 shared connections)
+- [Community 18](Community_18.md) (10 shared connections)
+- [Community 45](Community_45.md) (5 shared connections)
+- [Community 13](Community_13.md) (4 shared connections)
 - [Community 1](Community_1.md) (3 shared connections)
-- [Community 38](Community_38.md) (3 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 21](Community_21.md) (3 shared connections)
-- [Community 58](Community_58.md) (3 shared connections)
-- [Community 14](Community_14.md) (3 shared connections)
+- [Community 32](Community_32.md) (2 shared connections)
+- [Community 624](Community_624.md) (1 shared connections)
+- [Community 85](Community_85.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/admin/options.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/fields.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 151 (94%)
-- INFERRED: 9 (6%)
+- EXTRACTED: 81 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

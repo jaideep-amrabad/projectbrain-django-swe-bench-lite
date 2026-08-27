@@ -1,29 +1,27 @@
 # Community 926
 
-> 7 nodes · cohesion 0.48
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **UnorderedListTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
-- **setup** (5 connections)
-- **.test_unordered_list03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
-- **.test_unordered_list04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
-- **.test_unordered_list01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
-- **.test_unordered_list02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
-- **.test_unordered_list05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **DefaultConnectionProxy** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/__init__.py`
+- **.__delattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/__init__.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/__init__.py`
+- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/__init__.py`
+- **.__setattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/__init__.py`
+- **Proxy for accessing the default DatabaseWrapper object's attributes. If you…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/__init__.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 47](Community_47.md) (2 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- `raw/code/hyd-evaluation/django-django/django/db/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

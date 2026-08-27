@@ -1,44 +1,41 @@
 # Community 671
 
-> 17 nodes · cohesion 0.13
+> 14 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **AssertContainsTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_assert_contains_renders_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_assert_contains_using_non_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_assert_not_contains_renders_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_assert_not_contains_using_non_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_contains()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_unicode_contains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_unicode_not_contains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **An unrendered SimpleTemplateResponse may be used in assertContains().** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **auto-rendering does not affect responses that aren't instances (or subclasses)…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_binary_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_binary_not_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_nontext_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_nontext_not_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Unicode characters can be found in template context** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Unicode characters can be searched for, and not found in template context** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Responses can be inspected for content, including counting repeated substrings** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **m2m_and_m2o/tests.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
+- **m2m_and_m2o/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
+- **Issue** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
+- **RelatedObjectTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
+- **RelatedObjectUnicodeTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
+- **StringReferenceModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
+- **User** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
+- **.test_m2m_and_m2o()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
+- **.test_m2m_with_unicode_reference()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
+- **Many-to-many and many-to-one relationships to the same table Make sure to set…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
+- **Regression test for #6045: references to other models can be strings, providing…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
+- **.test_related_objects_have_name_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
 
 ## Relationships
 
-- [Community 370](Community_370.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 95](Community_95.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 132](Community_132.md) (1 shared connections)
+- [Community 19](Community_19.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 22](Community_22.md) (2 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_and_m2o/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 26 (90%)
+- INFERRED: 3 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

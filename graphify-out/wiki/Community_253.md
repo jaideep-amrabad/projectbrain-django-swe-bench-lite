@@ -1,64 +1,44 @@
 # Community 253
 
-> 76 nodes · cohesion 0.04
+> 19 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **MultiColumnFKTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **foreign_object/tests.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **foreign_object/models/__init__.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/__init__.py`
-- **foreign_object/models/article.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **person.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- **foreign_object/test_forms.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_forms.py`
-- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **test_agnostic_order_trimjoin.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_agnostic_order_trimjoin.py`
-- **ActiveTranslationField** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **ArticleTranslation** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **customers.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/customers.py`
-- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- **ArticleTranslationDescriptor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **Group** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- **Membership** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- **TestLookupQuery** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_agnostic_order_trimjoin.py`
-- **ColConstraint** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **NewsArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **Address** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/customers.py`
-- **Customer** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/customers.py`
-- **Country** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- **FormsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_forms.py`
-- **.get_extra_restriction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **ActiveTranslationFieldWithQ** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **ArticleIdea** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- *... and 51 more nodes in this community*
+- **ManageAlternateSettings** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_output_color()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **alternate: manage.py can execute user commands if settings are provided as…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **A series of tests for manage.py when using a settings file with a name other…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **alternate: manage.py builtin commands fail with an error when no default…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **alternate: manage.py builtin commands work with settings provided as argument** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **alternate: manage.py builtin commands work if settings are provided in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **alternate: manage.py builtin commands fail if settings file (from argument)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **alternate: manage.py builtin commands fail if settings file (from environment)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **alternate: manage.py can't execute user commands without settings** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **alternate: manage.py output syntax color can be deactivated with the `--no-…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (8 shared connections)
-- [Community 14](Community_14.md) (7 shared connections)
-- [Community 1](Community_1.md) (6 shared connections)
-- [Community 43](Community_43.md) (4 shared connections)
-- [Community 115](Community_115.md) (3 shared connections)
-- [Community 5](Community_5.md) (3 shared connections)
-- [Community 28](Community_28.md) (2 shared connections)
-- [Community 473](Community_473.md) (2 shared connections)
-- [Community 30](Community_30.md) (2 shared connections)
-- [Community 10](Community_10.md) (2 shared connections)
-- [Community 54](Community_54.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 112](Community_112.md) (9 shared connections)
+- [Community 175](Community_175.md) (9 shared connections)
+- [Community 89](Community_89.md) (9 shared connections)
+- [Community 207](Community_207.md) (2 shared connections)
+- [Community 254](Community_254.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/customers.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_agnostic_order_trimjoin.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 156 (100%)
+- EXTRACTED: 49 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

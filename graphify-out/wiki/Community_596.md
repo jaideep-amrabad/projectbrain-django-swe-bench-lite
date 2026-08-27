@@ -1,44 +1,46 @@
 # Community 596
 
-> 16 nodes · cohesion 0.18
+> 21 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **UserChangeForm** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **UserChangeFormTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_bug_19133()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.test_bug_17944_empty_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_bug_17944_unknown_password_algorithm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_bug_17944_unmanageable_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_bug_19349_bound_password_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_unusable_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_username_field_autocapitalize_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_username_validity()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.clean_password()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **The change form does not return the password value** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_bug_14242()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_custom_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_password_excluded()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.add_field()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._create_fk_sql()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.column_sql()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.table_sql()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.create_model()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._field_indexes_sql()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._fk_constraint_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._model_indexes_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.skip_default()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._column_default_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **.prepare_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._field_should_be_indexed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Return a list of all index SQL statements (field indexes, index_together,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Return a list of all index SQL statements for the specified field.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Take a model and return its table definition.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Take a field and return its column definition. The field must already have had…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Some backends don't accept default values for certain columns types (i.e. MySQL…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Only used for backends which have requires_literal_defaults feature** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Return the SQL to use in a DEFAULT clause. The resulting string should contain…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Create a table and any accompanying indexes or unique constraints for the given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Create a field on a model. Usually involves adding a column, but may involve…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
 
 ## Relationships
 
-- [Community 95](Community_95.md) (2 shared connections)
-- [Community 481](Community_481.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 595](Community_595.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 677](Community_677.md) (1 shared connections)
+- [Community 161](Community_161.md) (21 shared connections)
+- [Community 455](Community_455.md) (4 shared connections)
+- [Community 222](Community_222.md) (2 shared connections)
+- [Community 244](Community_244.md) (2 shared connections)
+- [Community 723](Community_723.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
+- EXTRACTED: 55 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

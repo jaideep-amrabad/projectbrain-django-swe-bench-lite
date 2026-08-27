@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **.test_queryset_with_custom_init()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **BaseManager.get_queryset() should use kwargs rather than args to allow custom…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **.test_notfound_response()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **GET a URL that responds as '404:Not Found** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 443](Community_443.md) (1 shared connections)
+- [Community 518](Community_518.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 

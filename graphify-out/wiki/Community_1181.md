@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **.test_save_clears_annotations_from_base_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **Model.save() clears annotations from the base manager.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **.test_get_post_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **GET a view that normally expects POSTs** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 441](Community_441.md) (1 shared connections)
+- [Community 518](Community_518.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 

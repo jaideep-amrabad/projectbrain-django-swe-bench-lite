@@ -4,20 +4,21 @@
 
 ## Key Concepts
 
-- **.has_header()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **Case-insensitive check for a header.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.test_inheritance08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Three-level with one block defined on this level, two blocks defined next level** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 420](Community_420.md) (1 shared connections)
+- [Community 774](Community_774.md) (1 shared connections)
+- [Community 804](Community_804.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

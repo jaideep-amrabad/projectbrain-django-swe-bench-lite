@@ -1,38 +1,40 @@
 # Community 714
 
-> 12 nodes · cohesion 0.21
+> 13 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **SimplerXMLGenerator** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/xmlutils.py`
-- **xmlutils.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/xmlutils.py`
-- **UnserializableContentError** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/xmlutils.py`
-- **.addQuickElement()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/xmlutils.py`
-- **.start_serialization()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.characters()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/xmlutils.py`
-- **.startElement()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/xmlutils.py`
-- **Start serialization -- open the XML document and the root element.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **ValueError** (1 connections)
-- **Utilities for XML generation/parsing.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/xmlutils.py`
-- **Convenience method for adding an element with no children** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/xmlutils.py`
-- **XMLGenerator** (1 connections)
+- **TestBadSetUpTestData** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **TestRaiseLastException** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **MyException** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_no_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_raises_custom_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_raises_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **Exception** (1 connections)
+- **An exception in setUpTestData() shouldn't leak a transaction which would…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.tearDownClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_failure_in_setUpTestData_should_rollback_transaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_raises_exception_with_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Relationships
 
-- [Community 303](Community_303.md) (4 shared connections)
-- [Community 556](Community_556.md) (3 shared connections)
-- [Community 279](Community_279.md) (3 shared connections)
-- [Community 37](Community_37.md) (2 shared connections)
+- [Community 290](Community_290.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 504](Community_504.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 339](Community_339.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/xmlutils.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (85%)
-- INFERRED: 4 (15%)
+- EXTRACTED: 17 (89%)
+- INFERRED: 2 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

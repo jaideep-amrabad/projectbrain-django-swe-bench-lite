@@ -1,27 +1,27 @@
 # Community 933
 
-> 6 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.53
 
 ## Key Concepts
 
-- **HStoreField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
-- **.has_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
-- **.to_python()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
-- **.prepare_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
-- **A field for HStore data which accepts dictionary JSON input.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
-- **Return True if data differs from initial.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
+- **DeprecationTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/test_django_admin_py.py`
+- **._run_test()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/test_django_admin_py.py`
+- **.test_django_admin_py_deprecated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/test_django_admin_py.py`
+- **.test_django_admin_py_equivalent_main()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/test_django_admin_py.py`
+- **.test_main_not_deprecated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/test_django_admin_py.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/test_django_admin_py.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/test_django_admin_py.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,40 +4,46 @@
 
 ## Key Concepts
 
-- **BasicTestCase** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_swappable_user()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_swappable_user_bad_setting()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_swappable_user_nonexistent_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_get_user_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_superuser()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_user_no_email()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_user_verbose_names_translatable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_superuser_no_email_or_password()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **.test_unicode_username()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **The alternate user setting must point to something in the format app.model** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **The current user model must point to an installed model** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **Default User model verbose names are translatable (#19945)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **Users can be created and can set their password** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **Users can be created without an email** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **Check the creation and properties of a superuser** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **The current user model can be retrieved** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
-- **The current user model can be swapped out for another** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- **test_textfield.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
+- **TextFieldTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
+- **TestCharField** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
+- **Post** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.test_emoji()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
+- **.test_max_length_passed_to_formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
+- **.test_choices_generates_select_widget()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
+- **.test_emoji()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
+- **.test_max_length_passed_to_formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
+- **.test_to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
+- **skipIf** (1 connections)
+- **CharField passes its max_length attribute to form fields created using the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
+- **.test_assignment_from_choice_enum()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
+- **.test_lookup_integer_in_charfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
+- **skipIf** (1 connections)
+- **TextField passes its max_length attribute to form fields created using their…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
+- **A TextField with choices uses a Select widget.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
+- **TextField.to_python() should return a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
+- **.test_lookup_integer_in_textfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
 
 ## Relationships
 
-- [Community 95](Community_95.md) (5 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 19](Community_19.md) (3 shared connections)
+- [Community 203](Community_203.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_basic.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_textfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 29 (94%)
+- INFERRED: 2 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

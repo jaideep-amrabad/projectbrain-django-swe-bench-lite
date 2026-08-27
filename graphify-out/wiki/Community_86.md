@@ -1,66 +1,60 @@
 # Community 86
 
-> 75 nodes · cohesion 0.04
+> 91 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **gis/db/models/__init__.py** (47 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/__init__.py`
-- **models/fields.py** (42 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **GeometryField** (40 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **BaseSpatialField** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **RasterField** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **GeoExpressionsTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_expressions.py`
-- **SpatialProxy** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/proxy.py`
-- **get_srid_info()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **PostGISOperator** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **PolygonField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **RasterBandTransform** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
-- **db/models/proxy.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/proxy.py`
-- **.test_geography_value()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_expressions.py`
-- **.test_geometry_value_annotation_different_srid()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_expressions.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- **.get_prep_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **GeometryCollectionField** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **LineStringField** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **.test_geometry_value_annotation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_expressions.py`
-- **GeometryFieldTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_fields.py`
-- **.geodetic()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **.get_raster_prep_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **.get_srid()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- **.contribute_to_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- *... and 50 more nodes in this community*
+- **datetime.py** (47 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **test_extract_trunc.py** (44 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **DateFunctionTests** (42 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **.create_model()** (40 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **Extract** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **TruncBase** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **ExtractYear** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **Trunc** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **truncate_to()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **.test_extract_func_with_timezone()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **ExtractIsoYear** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **ExtractWeekDay** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **TruncDate** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **TruncTime** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **DateFunctionWithTimeZoneTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **ExtractIsoWeekDay** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **ExtractQuarter** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **ExtractWeek** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **TruncYear** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **.test_trunc_timezone_applied_before_truncation()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- **ExtractHour** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **ExtractMinute** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **TruncDay** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **TruncHour** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- **TruncWeek** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- *... and 66 more nodes in this community*
 
 ## Relationships
 
-- [Community 22](Community_22.md) (20 shared connections)
-- [Community 79](Community_79.md) (12 shared connections)
-- [Community 61](Community_61.md) (11 shared connections)
-- [Community 2](Community_2.md) (9 shared connections)
-- [Community 20](Community_20.md) (9 shared connections)
-- [Community 198](Community_198.md) (9 shared connections)
-- [Community 70](Community_70.md) (7 shared connections)
-- [Community 38](Community_38.md) (4 shared connections)
-- [Community 81](Community_81.md) (4 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 30](Community_30.md) (3 shared connections)
-- [Community 203](Community_203.md) (3 shared connections)
+- [Community 29](Community_29.md) (37 shared connections)
+- [Community 19](Community_19.md) (33 shared connections)
+- [Community 52](Community_52.md) (7 shared connections)
+- [Community 222](Community_222.md) (6 shared connections)
+- [Community 64](Community_64.md) (6 shared connections)
+- [Community 47](Community_47.md) (4 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 87](Community_87.md) (3 shared connections)
+- [Community 12](Community_12.md) (3 shared connections)
+- [Community 274](Community_274.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 178](Community_178.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/fields.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/functions.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/proxy.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_expressions.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_fields.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
 
 ## Audit Trail
 
-- EXTRACTED: 222 (96%)
-- INFERRED: 10 (4%)
+- EXTRACTED: 328 (90%)
+- INFERRED: 35 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

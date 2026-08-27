@@ -1,51 +1,53 @@
 # Community 386
 
-> 29 nodes · cohesion 0.19
+> 28 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **RelatedModelsTests** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.assertRelated()** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.create_model()** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_generic_fk()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_abstract_base()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_base()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_base_to_base_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_base_to_subclass_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_circle()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_direct_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_direct_hidden_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_direct_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_direct_m2m_self()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_fk_through_proxy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_intermediate_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_intermediate_m2m_base()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_intermediate_m2m_extern_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_intermediate_m2m_self()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_multiple_bases()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_multiple_mixed_bases()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_multiple_nested_bases()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_nested_abstract_base()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_nested_base()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_nested_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- **.test_nested_proxy_base()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- *... and 4 more nodes in this community*
+- **ListMixin** (35 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **.extend()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **.append()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **.__iadd__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **.__add__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **.count()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **.__imul__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **.insert()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **.pop()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **.__radd__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **.reverse()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **.sort()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **.__lt__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **.__mul__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **.__rmul__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **add another list-like object** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **add to another list-like object** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **add another list-like object to self** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **A base class which provides complete list interface. Derived classes must call…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **Standard list count method** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **Standard list append method** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **Standard list extend method** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **Standard list insert method** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 128](Community_128.md) (2 shared connections)
-- [Community 16](Community_16.md) (2 shared connections)
-- [Community 154](Community_154.md) (2 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 779](Community_779.md) (6 shared connections)
+- [Community 848](Community_848.md) (5 shared connections)
+- [Community 684](Community_684.md) (3 shared connections)
+- [Community 18](Community_18.md) (2 shared connections)
+- [Community 998](Community_998.md) (2 shared connections)
+- [Community 817](Community_817.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
 
 ## Audit Trail
 
-- EXTRACTED: 83 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 47 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

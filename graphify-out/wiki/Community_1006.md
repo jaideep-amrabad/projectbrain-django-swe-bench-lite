@@ -1,28 +1,24 @@
 # Community 1006
 
-> 5 nodes · cohesion 0.40
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **AttributeErrorRouter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.override_router()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.db_for_read()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.db_for_write()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **A router to test the exception handling of ConnectionRouter** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **ListOptionAction** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/ogrinspect.py`
+- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/ogrinspect.py`
+- **Custom argparse action for `ogrinspect` keywords that require a string list. If…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/ogrinspect.py`
 
 ## Relationships
 
-- [Community 403](Community_403.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 459](Community_459.md) (1 shared connections)
+- [Community 57](Community_57.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/ogrinspect.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

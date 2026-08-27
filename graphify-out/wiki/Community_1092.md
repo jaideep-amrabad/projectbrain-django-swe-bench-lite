@@ -1,26 +1,23 @@
 # Community 1092
 
-> 4 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **WordwrapTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_wordwrap.py`
-- **.test_wordwrap01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_wordwrap.py`
-- **.test_wordwrap02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_wordwrap.py`
-- **setup** (2 connections)
+- **.clone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **Return an exact copy of this ModelState.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 47](Community_47.md) (2 shared connections)
+- [Community 25](Community_25.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_wordwrap.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

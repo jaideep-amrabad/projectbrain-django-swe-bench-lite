@@ -4,24 +4,23 @@
 
 ## Key Concepts
 
-- **BookAdminWithCustomQueryset** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.test_allvaluesfieldlistfilter_custom_qs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.get_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- **ParameterRestrictionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- **.test_allows_non_ascii_but_valid_identifiers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- **.test_integer_parameter_name_causes_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- **.test_non_identifier_parameter_name_causes_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
 
 ## Relationships
 
-- [Community 384](Community_384.md) (1 shared connections)
-- [Community 958](Community_958.md) (1 shared connections)
-- [Community 428](Community_428.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_filters/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

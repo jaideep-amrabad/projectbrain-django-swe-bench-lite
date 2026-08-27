@@ -1,45 +1,55 @@
 # Community 484
 
-> 19 nodes · cohesion 0.12
+> 19 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **JSONField** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **KeyTransformFactory** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.check()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **._check_supported()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.get_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.formfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.from_db_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.get_prep_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.select_format()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.validate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.value_to_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **Field** (1 connections)
+- **SimpleLazyObject** (52 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **SimpleLazyObjectTestCase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **test_simplelazyobject.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_simplelazyobject.py`
+- **.test_subquery_filter_by_lazy()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **TestUtilsSimpleLazyObjectDjangoTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_simplelazyobject.py`
+- **.test_pickle_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_none()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **.test_dict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_list_set()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_trace()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- **.test_pickle()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_simplelazyobject.py`
+- **A lazy object initialized from any function. Designed for compound objects of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **Pass in a callable that returns the object to be wrapped. If copies are made of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **.__copy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **.__deepcopy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **Test on an actual model, based on the report in #25426.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
 
 ## Relationships
 
-- [Community 504](Community_504.md) (3 shared connections)
-- [Community 532](Community_532.md) (3 shared connections)
-- [Community 118](Community_118.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 111](Community_111.md) (1 shared connections)
+- [Community 817](Community_817.md) (6 shared connections)
+- [Community 24](Community_24.md) (5 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 279](Community_279.md) (5 shared connections)
+- [Community 318](Community_318.md) (5 shared connections)
+- [Community 34](Community_34.md) (4 shared connections)
+- [Community 286](Community_286.md) (2 shared connections)
+- [Community 149](Community_149.md) (2 shared connections)
+- [Community 158](Community_158.md) (2 shared connections)
+- [Community 222](Community_222.md) (2 shared connections)
+- [Community 621](Community_621.md) (2 shared connections)
+- [Community 19](Community_19.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lazyobject.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_simplelazyobject.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 65 (84%)
+- INFERRED: 12 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

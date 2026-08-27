@@ -1,45 +1,46 @@
 # Community 519
 
-> 20 nodes · cohesion 0.13
+> 20 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **DatabaseIntrospection** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **.get_constraints()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **.get_primary_key_column()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **.get_table_description()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **._parse_table_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **get_field_size()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **._get_foreign_key_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **.get_key_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **.get_relations()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **.get_sequences()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **.get_table_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **._parse_column_or_constraint_definition()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **.get_field_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **Return a dictionary of {field_name: (field_name_other_table, other_table)}…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **Return a list of (column_name, referenced_table_name, referenced_column_name)…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **Extract the size number from a "varchar(11)" type name** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **Return the column name of the primary key for the given table.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **Retrieve any constraints or keys (unique, pk, fk, check, index) across one or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **Return a list of table and view names in the current database.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **Return a description of the table with the DB-API cursor.description interface.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **TestIterModulesAndFiles** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.assertFileFound()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.temporary_file()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_bytecode_conversion_to_source()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_check_errors()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_check_errors_catches_all_exceptions()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_file_added()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_zip_reload()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.import_and_cleanup()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.clear_autoreload_caches()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.assertFileNotFound()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_main_module_is_resolved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_weakref_in_sys_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **Modules imported from zipped files have their archive location included in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.pyc and .pyo files are included in the files list.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **iter_all_python_module_file() ignores weakref modules.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **When a file is added, it's returned by iter_all_python_module_files().** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **When a file containing an error is imported in a function wrapped by…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **Since Python may raise arbitrary exceptions when importing code, check_errors()…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_paths_are_pathlib_instances()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 839](Community_839.md) (1 shared connections)
-- [Community 156](Community_156.md) (1 shared connections)
-- [Community 424](Community_424.md) (1 shared connections)
+- [Community 293](Community_293.md) (5 shared connections)
+- [Community 522](Community_522.md) (3 shared connections)
+- [Community 380](Community_380.md) (3 shared connections)
+- [Community 504](Community_504.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 45 (94%)
+- INFERRED: 3 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,59 +1,62 @@
 # Community 91
 
-> 92 nodes · cohesion 0.02
+> 87 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **admin_views/models.py** (157 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Bookmark** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Podcast** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Villain** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ChapterXtra1** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ChildOfReferer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **CoverLetter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **CyclicTwo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **EmptyModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Gadget** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **GenRelReference** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Media** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ParentWithDependentChildren** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ParentWithUUIDPK** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **PlotDetails** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **PrePopulatedPostLargeSlug** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Promo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Recommendation** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Recommender** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ReferencedByGenRel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Song** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **StumpJoke** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **SuperVillain** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Telegram** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- *... and 67 more nodes in this community*
+- **LookupTests** (60 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
+- **lookup/tests.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
+- **lookup/models.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **DecimalFieldLookupTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_decimalfield.py`
+- **Article** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **lookup/test_decimalfield.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_decimalfield.py`
+- **TimeFieldLookupTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_timefield.py`
+- **Author** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **IsNullWithNoneAsRHS** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **Season** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **lookup/test_timefield.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_timefield.py`
+- **Alarm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **Tag** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **Freebie** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **Game** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **Player** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **Product** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **Stock** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **.test_exclude()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
+- **.test_regex_backreferencing()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
+- **NulledTextField** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **NulledTransform** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
+- **.test_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
+- *... and 62 more nodes in this community*
 
 ## Relationships
 
-- [Community 66](Community_66.md) (71 shared connections)
-- [Community 454](Community_454.md) (15 shared connections)
-- [Community 154](Community_154.md) (5 shared connections)
-- [Community 7](Community_7.md) (5 shared connections)
-- [Community 372](Community_372.md) (5 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 122](Community_122.md) (3 shared connections)
-- [Community 783](Community_783.md) (3 shared connections)
-- [Community 821](Community_821.md) (3 shared connections)
-- [Community 750](Community_750.md) (3 shared connections)
-- [Community 581](Community_581.md) (3 shared connections)
-- [Community 95](Community_95.md) (2 shared connections)
+- [Community 19](Community_19.md) (9 shared connections)
+- [Community 29](Community_29.md) (6 shared connections)
+- [Community 38](Community_38.md) (5 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 34](Community_34.md) (4 shared connections)
+- [Community 64](Community_64.md) (3 shared connections)
+- [Community 222](Community_222.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 62](Community_62.md) (2 shared connections)
+- [Community 16](Community_16.md) (2 shared connections)
+- [Community 75](Community_75.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/lookup/test_decimalfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/lookup/test_timefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 244 (99%)
-- INFERRED: 3 (1%)
+- EXTRACTED: 147 (89%)
+- INFERRED: 18 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

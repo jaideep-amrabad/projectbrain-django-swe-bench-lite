@@ -1,78 +1,43 @@
 # Community 598
 
-> 149 nodes · cohesion 0.02
+> 16 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **checks/__init__.py** (75 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/__init__.py`
-- **sites_tests/tests.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **Warning** (36 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- **check_framework/tests.py** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/tests.py`
-- **Error** (33 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- **invalid_models_tests/test_models.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
-- **models/signals.py** (25 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
-- **test_model_checks.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_checks.py`
-- **test_relative_fields.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
-- **test_urls.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **checks/urls.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
-- **Tags** (16 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/registry.py`
-- **create_default_site()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/management.py`
-- **.register()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/registry.py`
-- **CreateDefaultSiteTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **contenttypes/apps.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/apps.py`
-- **CheckMessage** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- **model_checks.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/model_checks.py`
-- **translation.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
-- **migrate_signals/tests.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
-- **test_translation.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
-- **sites/apps.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/apps.py`
-- **TranslationCheckTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
-- **test_backend_specific.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_backend_specific.py`
-- **management.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/management.py`
-- *... and 124 more nodes in this community*
+- **DatabaseIntrospection** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **.get_constraints()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **.get_table_description()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **._parse_constraint_columns()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **.get_key_columns()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **.get_relations()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **.get_sequences()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **.get_storage_engine()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **.get_table_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **.get_field_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **Return a dictionary of {field_name: (field_name_other_table, other_table)}…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **Return a list of (column_name, referenced_table_name, referenced_column_name)…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **Retrieve the storage engine for a given table. Return the default storage…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **Retrieve any constraints or keys (unique, pk, fk, check, index) across one or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **Return a list of table and view names in the current database.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **Return a description of the table with the DB-API cursor.description interface."** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (31 shared connections)
-- [Community 8](Community_8.md) (28 shared connections)
-- [Community 5](Community_5.md) (26 shared connections)
-- [Community 0](Community_0.md) (21 shared connections)
-- [Community 10](Community_10.md) (20 shared connections)
-- [Community 28](Community_28.md) (19 shared connections)
-- [Community 2](Community_2.md) (17 shared connections)
-- [Community 64](Community_64.md) (16 shared connections)
-- [Community 465](Community_465.md) (15 shared connections)
-- [Community 1](Community_1.md) (12 shared connections)
-- [Community 18](Community_18.md) (12 shared connections)
-- [Community 152](Community_152.md) (12 shared connections)
+- [Community 183](Community_183.md) (2 shared connections)
+- [Community 625](Community_625.md) (2 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
+- [Community 553](Community_553.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/apps.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/checks.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sites/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sites/apps.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sites/checks.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sites/management.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/async_checks.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/caches.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/database.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/messages.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/model_checks.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/registry.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/templates.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/check.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/dumpdata.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
 
 ## Audit Trail
 
-- EXTRACTED: 614 (97%)
-- INFERRED: 20 (3%)
+- EXTRACTED: 25 (93%)
+- INFERRED: 2 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

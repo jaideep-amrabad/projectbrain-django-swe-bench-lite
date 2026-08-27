@@ -1,47 +1,53 @@
 # Community 552
 
-> 19 nodes · cohesion 0.19
+> 21 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **NewFormsTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **EventForm** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
-- **LegacyFormsTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **EventModelForm** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
-- **EventLocalizedModelForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
-- **EventSplitForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
-- **.test_localized_model_form()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_model_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_split_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
-- **.test_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_form_with_ambiguous_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_form_with_non_existent_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_model_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_split_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_form_with_ambiguous_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_form_with_non_existent_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_form_with_other_timezone()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **Command** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **.find_fixtures()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **.load_label()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **ManageTestserver** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **Command** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/testserver.py`
+- **.loaddata()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **.parse_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **.test_params_to_runserver()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.fixture_dirs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **humanize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **.test_testserver_handle_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.handle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/testserver.py`
+- **object** (2 connections)
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **Load fixtures files for a given label.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **Find fixture files for a given label.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **Return a list of fixture directories. The list contains the 'fixtures'…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **Split fixture name in name, serialization format, compression format.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/testserver.py`
+- **patch** (1 connections)
 
 ## Relationships
 
-- [Community 673](Community_673.md) (11 shared connections)
-- [Community 734](Community_734.md) (5 shared connections)
-- [Community 435](Community_435.md) (5 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 429](Community_429.md) (1 shared connections)
+- [Community 57](Community_57.md) (6 shared connections)
+- [Community 207](Community_207.md) (3 shared connections)
+- [Community 222](Community_222.md) (3 shared connections)
+- [Community 15](Community_15.md) (3 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 103](Community_103.md) (1 shared connections)
+- [Community 96](Community_96.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 320](Community_320.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/testserver.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (78%)
-- INFERRED: 13 (22%)
+- EXTRACTED: 43 (90%)
+- INFERRED: 5 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

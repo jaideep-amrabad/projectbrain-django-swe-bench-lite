@@ -1,59 +1,64 @@
 # Community 143
 
-> 60 nodes · cohesion 0.07
+> 64 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **delete_regress/tests.py** (44 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **delete_regress/models.py** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **DeleteCascadeTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **ProxyDeleteTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **DeleteCascadeTransactionTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **DeleteTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **.create_image()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **Image** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **FooFile** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **FooFileProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **Photo** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **Award** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **Book** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **Contact** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **Email** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **File** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **FooImage** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **FooPhoto** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **OrderedPerson** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **Researcher** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **LargeDeleteTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **.test_delete_proxy_of_proxy()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **AwardNote** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- *... and 35 more nodes in this community*
+- **fields/ranges.py** (33 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **PostgresOperatorLookup** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **postgres/lookups.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **RangeField** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **AttributeSetter** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/utils.py`
+- **DateTimeRangeContains** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **RangeBoundary** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **RangeContainedBy** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **HasKeys** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **AdjacentToLookup** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **BigIntegerRangeField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **DateRangeField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **DateTimeRangeField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **DecimalRangeField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **FullGreaterThan** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **FullyLessThan** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **IntegerRangeField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **NotGreaterThan** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **NotLessThan** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **RangeEndsWith** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **RangeStartsWith** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- **fields/utils.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/utils.py`
+- **ContainedBy** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **DataContains** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.value_to_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- *... and 39 more nodes in this community*
 
 ## Relationships
 
-- [Community 154](Community_154.md) (5 shared connections)
-- [Community 14](Community_14.md) (5 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 30](Community_30.md) (4 shared connections)
-- [Community 122](Community_122.md) (2 shared connections)
-- [Community 980](Community_980.md) (2 shared connections)
-- [Community 168](Community_168.md) (2 shared connections)
-- [Community 115](Community_115.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 342](Community_342.md) (1 shared connections)
-- [Community 256](Community_256.md) (1 shared connections)
+- [Community 62](Community_62.md) (12 shared connections)
+- [Community 14](Community_14.md) (8 shared connections)
+- [Community 64](Community_64.md) (6 shared connections)
+- [Community 77](Community_77.md) (5 shared connections)
+- [Community 411](Community_411.md) (3 shared connections)
+- [Community 490](Community_490.md) (3 shared connections)
+- [Community 226](Community_226.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 655](Community_655.md) (2 shared connections)
+- [Community 29](Community_29.md) (1 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
+- [Community 100](Community_100.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
 
 ## Audit Trail
 
-- EXTRACTED: 124 (79%)
-- INFERRED: 32 (21%)
+- EXTRACTED: 132 (98%)
+- INFERRED: 3 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

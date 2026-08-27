@@ -1,28 +1,26 @@
 # Community 1000
 
-> 4 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **CustomErrorMessageForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **ModelFormCustomErrorTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_custom_error_messages()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_model_clean_error_messages()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **._get_session()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **.load()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **Lazily load session from storage (unless "no_load" is True, when only an empty…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **Load the session data and return a dictionary.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
 
 ## Relationships
 
-- [Community 74](Community_74.md) (3 shared connections)
-- [Community 377](Community_377.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 232](Community_232.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (89%)
-- INFERRED: 1 (11%)
+- EXTRACTED: 5 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

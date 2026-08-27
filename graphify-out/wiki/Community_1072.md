@@ -1,25 +1,24 @@
 # Community 1072
 
-> 4 nodes · cohesion 0.50
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **MissingDjangoVersionQuerySet** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **.__getstate__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **PreviousDjangoVersionQuerySet** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **.__getstate__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **.ask_not_null_addition()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **Adding a NOT NULL field to a model.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
 
 ## Relationships
 
-- [Community 644](Community_644.md) (2 shared connections)
+- [Community 25](Community_25.md) (1 shared connections)
+- [Community 236](Community_236.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

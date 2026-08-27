@@ -1,30 +1,31 @@
 # Community 939
 
-> 6 nodes · cohesion 0.47
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **default()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default.py`
-- **.test_empty_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default.py`
-- **.test_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default.py`
-- **.test_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default.py`
-- **If value is unavailable, use given default.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **PermissionsRequiredMixinTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **.test_permissioned_denied_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **.test_many_permissions_pass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **.test_permissioned_denied_exception_raised()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **.test_single_permission_pass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (3 shared connections)
-- [Community 47](Community_47.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 282](Community_282.md) (1 shared connections)
+- [Community 302](Community_302.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 8 (89%)
+- INFERRED: 1 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

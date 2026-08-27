@@ -1,64 +1,46 @@
 # Community 440
 
-> 27 nodes · cohesion 0.11
+> 21 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **MigrationWriter** (32 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **postgres/apps.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
-- **uninstall_if_needed()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
-- **PostgresConfig** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
-- **SearchLookup** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
-- **TrigramSimilar** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
-- **Unaccent** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
-- **RangeSerializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/serializers.py`
-- **Serializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **.ready()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
-- **postgres/serializers.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/serializers.py`
-- **.register_serializer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **.unregister_serializer()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **.test_models_import_omitted()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.process_lhs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
-- **.test_migration_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.test_register_non_serializer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **Undo the effects of PostgresConfig.ready() when django.contrib.postgres is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
-- **Transform** (1 connections)
-- **.serialize()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/serializers.py`
-- **.register()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **.unregister()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- **.filename()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- **.path()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- *... and 2 more nodes in this community*
+- **parse_cookie()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/http/cookie.py`
+- **CookieTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_decode()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_invalid_cookies()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_nonstandard_keys()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_python_cookies()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_repeated_nonstandard_keys()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.COOKIES()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **.test_cookie_edgecases()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **Return a dictionary parsed from a `Cookie:` header string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/cookie.py`
+- **.test_httponly_after_load()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_load_dict()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_pickle()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_samesite()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **Semicolons and commas are encoded.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **Semicolons and commas are decoded.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **A single non-standard cookie name doesn't affect all cookies (#13007).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **A repeated non-standard name doesn't affect all cookies (#15852).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **Test cases copied from Python's Lib/test/test_http_cookies.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **Cookie strings that go against RFC6265 but browsers will send if set via…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
 
 ## Relationships
 
-- [Community 230](Community_230.md) (9 shared connections)
-- [Community 0](Community_0.md) (7 shared connections)
-- [Community 124](Community_124.md) (5 shared connections)
-- [Community 626](Community_626.md) (4 shared connections)
-- [Community 169](Community_169.md) (4 shared connections)
-- [Community 64](Community_64.md) (3 shared connections)
-- [Community 786](Community_786.md) (3 shared connections)
-- [Community 311](Community_311.md) (2 shared connections)
-- [Community 78](Community_78.md) (2 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 426](Community_426.md) (2 shared connections)
-- [Community 75](Community_75.md) (2 shared connections)
+- [Community 24](Community_24.md) (4 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/serializers.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/serializer.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- `raw/code/hyd-evaluation/django-django/django/http/cookie.py`
+- `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 71 (78%)
-- INFERRED: 20 (22%)
+- EXTRACTED: 33 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

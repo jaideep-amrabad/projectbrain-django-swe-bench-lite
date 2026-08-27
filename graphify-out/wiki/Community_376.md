@@ -1,52 +1,60 @@
 # Community 376
 
-> 30 nodes · cohesion 0.07
+> 29 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **NaturalKeyFixtureTests** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **Circle1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Circle2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **ExternalDependency** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **RefToNKChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.test_dependency_sorting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_nk_deserialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_nk_deserialize_xml()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_nk_on_serialize()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_normal_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.test_dependency_self_referential()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_3()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_4()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_5()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_6()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_dangling()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_long()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_normal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_tight_circular()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_tight_circular_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- *... and 5 more nodes in this community*
+- **feedgenerator.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **gis/feeds.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_georss_element()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **GeoFeedMixin** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **GeoAtom1Feed** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **GeoRSSFeed** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **W3CGeoFeed** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **Rss201rev2Feed** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **rfc2822_date()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.add_georss_point()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.georss_coords()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_item_elements()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_root_elements()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_item_elements()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_root_elements()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_item_elements()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.add_root_elements()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.rss_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.rss_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **Enclosure** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.add_item_elements()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.root_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **In GeoRSS coordinate pairs are ordered by lat/lon and separated by a single…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **Adds a GeoRSS point with the given coords using the given handler. Handles the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 354](Community_354.md) (10 shared connections)
-- [Community 585](Community_585.md) (3 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 999](Community_999.md) (1 shared connections)
+- [Community 294](Community_294.md) (10 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 362](Community_362.md) (2 shared connections)
+- [Community 720](Community_720.md) (2 shared connections)
+- [Community 656](Community_656.md) (1 shared connections)
+- [Community 638](Community_638.md) (1 shared connections)
+- [Community 963](Community_963.md) (1 shared connections)
+- [Community 29](Community_29.md) (1 shared connections)
+- [Community 817](Community_817.md) (1 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
+- [Community 190](Community_190.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (80%)
-- INFERRED: 9 (20%)
+- EXTRACTED: 76 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

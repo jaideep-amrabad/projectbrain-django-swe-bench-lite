@@ -1,58 +1,53 @@
 # Community 369
 
-> 23 nodes · cohesion 0.12
+> 30 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **.apps()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **ProxyModelWithSameAppLabelTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **ProxyModelWithDifferentAppLabelTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **MultiDBProxyModelAppLabelTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_migrate_with_existing_target_permission()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_abstract_model_pending_operations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_foreignkey.py`
-- **.test_abstract_model_pending_operations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_manytomanyfield.py`
-- **.test_migrate_other_database()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_migrate_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_proxy_model_permissions_contenttype()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_user_has_now_proxy_model_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_user_keeps_same_permissions_after_migrating_backward()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_migrate_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_proxy_model_permissions_contenttype()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_user_keeps_same_permissions_after_migrating_backward()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.test_user_still_has_proxy_model_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **Create proxy permissions with content_type to the concrete model rather than…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **Permissions may already exist: - Old workaround was to manually create…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- **Foreign key fields declared on abstract models should not add lazy relations to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_foreignkey.py`
-- **Many-to-many fields declared on abstract models should not add lazy relations…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_manytomanyfield.py`
+- **TestObj** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **AnonymousUserBackendTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **RowlevelBackendTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **BaseBackendTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **InActiveUserBackendTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **NoBackendsTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_get_all_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_has_perm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_has_perms()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_has_perm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_has_perm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_raises_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_get_all_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_get_group_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_has_perm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_has_module_perms()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_get_all_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_get_group_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_get_user_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_has_module_perms()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **Tests for auth backend that supports object level permissions** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 95](Community_95.md) (3 shared connections)
-- [Community 168](Community_168.md) (3 shared connections)
-- [Community 128](Community_128.md) (1 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
-- [Community 598](Community_598.md) (1 shared connections)
-- [Community 786](Community_786.md) (1 shared connections)
-- [Community 57](Community_57.md) (1 shared connections)
-- [Community 684](Community_684.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 223](Community_223.md) (1 shared connections)
+- [Community 973](Community_973.md) (6 shared connections)
+- [Community 12](Community_12.md) (4 shared connections)
+- [Community 19](Community_19.md) (4 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 302](Community_302.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_migrations.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_foreignkey.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_manytomanyfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (64%)
-- INFERRED: 16 (36%)
+- EXTRACTED: 50 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,33 +1,29 @@
 # Community 894
 
-> 7 nodes · cohesion 0.43
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **ACos** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **ACosTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_acos.py`
-- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_acos.py`
-- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_acos.py`
-- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_acos.py`
-- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_acos.py`
-- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_acos.py`
+- **.attach()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.attach_file()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **Initialize a single email message (which can be sent to multiple recipients).** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **Attach a file with the given filename and content. The filename can be omitted…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **Attach a file from the filesystem. Set the mimetype to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
 
 ## Relationships
 
-- [Community 14](Community_14.md) (4 shared connections)
-- [Community 179](Community_179.md) (1 shared connections)
-- [Community 100](Community_100.md) (1 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
-- [Community 70](Community_70.md) (1 shared connections)
+- [Community 102](Community_102.md) (3 shared connections)
+- [Community 137](Community_137.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_acos.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

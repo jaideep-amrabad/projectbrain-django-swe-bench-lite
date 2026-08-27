@@ -1,61 +1,62 @@
 # Community 74
 
-> 77 nodes · cohesion 0.05
+> 103 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **model_forms/tests.py** (122 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **model_forms/models.py** (67 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **test_modelchoicefield.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **FileAndImageFieldTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Writer** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **ModelOneToOneFieldTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Book** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **Meta** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **Person** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **Price** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **Author** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **DerivedBook** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **Post** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **Triple** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **ExplicitPK** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **Photo** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **Product** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **StumpJoke** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **TextFile** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **TextFileForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **BetterWriter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **BigInt** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **ColourfulItem** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **CustomErrorMessage** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **DateTimePost** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- *... and 52 more nodes in this community*
+- **Field** (25 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.__init__()** (19 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **CharField** (17 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.to_python()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **SplitDateTimeField** (14 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **IntegerField** (12 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **FileField** (9 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **BaseTemporalField** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **BooleanField** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **JSONField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.to_python()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.widget_attrs()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **DateField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **DateTimeField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **DecimalField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.clean()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.run_validators()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **FloatField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.to_python()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **TimeField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **SplitDateTimeFieldTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_splitdatetimefield.py`
+- **.has_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.to_python()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **GenericIPAddressField** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **ImageField** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- *... and 78 more nodes in this community*
 
 ## Relationships
 
-- [Community 377](Community_377.md) (37 shared connections)
-- [Community 470](Community_470.md) (22 shared connections)
-- [Community 1](Community_1.md) (13 shared connections)
-- [Community 185](Community_185.md) (13 shared connections)
-- [Community 458](Community_458.md) (12 shared connections)
-- [Community 397](Community_397.md) (11 shared connections)
-- [Community 272](Community_272.md) (9 shared connections)
-- [Community 410](Community_410.md) (7 shared connections)
-- [Community 163](Community_163.md) (7 shared connections)
-- [Community 5](Community_5.md) (6 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 477](Community_477.md) (4 shared connections)
+- [Community 106](Community_106.md) (29 shared connections)
+- [Community 45](Community_45.md) (14 shared connections)
+- [Community 364](Community_364.md) (12 shared connections)
+- [Community 48](Community_48.md) (5 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 398](Community_398.md) (4 shared connections)
+- [Community 128](Community_128.md) (3 shared connections)
+- [Community 24](Community_24.md) (2 shared connections)
+- [Community 658](Community_658.md) (2 shared connections)
+- [Community 154](Community_154.md) (2 shared connections)
+- [Community 333](Community_333.md) (2 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_splitdatetimefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 264 (80%)
-- INFERRED: 64 (20%)
+- EXTRACTED: 213 (94%)
+- INFERRED: 13 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,47 +1,48 @@
 # Community 564
 
-> 20 nodes · cohesion 0.12
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **TemplateViewTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **._assert_about()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_template_engine()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_get()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_get_generic_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_get_template_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_cached_views()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_head()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_resolve_login_required_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_resolve_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_template_name_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **Test a view that simply renders a template on GET** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **Test a TemplateView responds correctly to HEAD** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **Test a view that renders a template on GET with the template name as an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **Test a completely generic view that renders a template on GET with the template…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **A template view must provide a template name.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **A template view may provide a template engine.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **A template view can be cached** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_content_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_extra_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **DatabaseSessionTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **SessionStore** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
+- **CustomDatabaseSessionTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **DatabaseSessionWithTimeZoneTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_session_get_decoded()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_session_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_sessionmanager_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **DBStore** (1 connections)
+- **A database session store, that handles updating the account ID column inside…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
+- **.create_model_instance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
+- **.get_model_class()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
+- **.get_session_cookie_age()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
+- **.test_custom_expiry_reset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_default_expiry()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **.test_extra_session_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **Session repr should be the session key.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **Test we can use Session.get_decoded to retrieve data stored in normal way** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- **Test SessionManager.save method** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
 
 ## Relationships
 
-- [Community 302](Community_302.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 94](Community_94.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 370](Community_370.md) (1 shared connections)
-- [Community 508](Community_508.md) (1 shared connections)
+- [Community 595](Community_595.md) (4 shared connections)
+- [Community 620](Community_620.md) (2 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 109](Community_109.md) (1 shared connections)
+- [Community 210](Community_210.md) (1 shared connections)
+- [Community 766](Community_766.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 26 (90%)
+- INFERRED: 3 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

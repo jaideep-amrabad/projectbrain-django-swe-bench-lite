@@ -1,53 +1,40 @@
 # Community 125
 
-> 74 nodes · cohesion 0.04
+> 16 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **.assertIsInvalid()** (78 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **FieldsetsCheckTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **ListFilterTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **AutocompleteFieldsTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **PrepopulatedFieldsCheckTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **RadioFieldsCheckTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **FilterHorizontalCheckTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **FilterVerticalCheckTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.test_autocomplete_e040()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.test_autocomplete_is_onetoone()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.test_autocomplete_is_valid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.test_missing_fields_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.test_list_display_first_item_in_list_editable_no_list_display_links()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.test_list_display_first_item_same_as_list_editable_no_list_display_links()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.test_autocomplete_e036()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.test_autocomplete_e037()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.test_autocomplete_e039()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.test_autocomplete_e38()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.test_not_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.test_duplicate_fields_in_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.test_inline()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.test_duplicate_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.test_duplicate_fields_in_fieldsets()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.test_fieldsets_with_custom_form_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.test_item_not_a_pair()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- *... and 49 more nodes in this community*
+- **DatabaseIntrospection** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **.identifier_converter()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **.get_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **.get_relations()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **.get_table_description()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **.get_table_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **.get_key_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **.get_primary_key_column()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **.get_sequences()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **.data_types_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **.get_field_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **Identifier comparison is case insensitive under Oracle.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **Return a dictionary of {field_name: (field_name_other_table, other_table)}…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **Retrieve any constraints or keys (unique, pk, fk, check, index) across one or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **Return a list of table and view names in the current database.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **Return a description of the table with the DB-API cursor.description interface.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
 
 ## Relationships
 
-- [Community 123](Community_123.md) (65 shared connections)
-- [Community 958](Community_958.md) (7 shared connections)
-- [Community 80](Community_80.md) (5 shared connections)
-- [Community 797](Community_797.md) (4 shared connections)
-- [Community 387](Community_387.md) (2 shared connections)
-- [Community 760](Community_760.md) (1 shared connections)
+- [Community 222](Community_222.md) (4 shared connections)
+- [Community 183](Community_183.md) (1 shared connections)
+- [Community 473](Community_473.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
 
 ## Audit Trail
 
-- EXTRACTED: 171 (90%)
-- INFERRED: 18 (10%)
+- EXTRACTED: 26 (93%)
+- INFERRED: 2 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

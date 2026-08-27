@@ -1,60 +1,56 @@
 # Community 139
 
-> 68 nodes · cohesion 0.06
+> 65 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **MigrationAutodetector** (63 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **._detect_changes()** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.add_operation()** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_altered_fields()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **._get_dependencies_for_foreign_key()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.through()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.deep_deconstruct()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_created_models()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_renamed_models()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **._sort_migrations()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **._build_migration_list()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.changes()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **._generate_added_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **._generate_altered_foo_together()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_deleted_models()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_renamed_fields()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **._resolve_dependency()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.arrange_for_graph()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.check_dependency()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_added_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_altered_options()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_created_proxies()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_deleted_proxies()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **._generate_removed_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_removed_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- *... and 43 more nodes in this community*
+- **ConditionalGetMiddleware** (34 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/http.py`
+- **ConditionalGetMiddlewareTest** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **GZipMiddleware** (22 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/gzip.py`
+- **GZipMiddlewareTest** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.get_response()** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **ETagGZipMiddlewareTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.decompress()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_etag_match()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_compress_file_response()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_not_modified_headers()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_strong_etag_modified()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_weak_etag_not_modified()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_compress_deterministic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_compress_non_200_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_compress_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_compress_streaming_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_compress_streaming_response_unicode()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.needs_etag()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/http.py`
+- **.test_if_modified_since_and_client_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_if_modified_since_and_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_if_none_match_and_client_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_if_none_match_and_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_no_etag_response_empty_content()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_no_etag_streaming_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- **.test_no_head()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- *... and 40 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 32](Community_32.md) (4 shared connections)
-- [Community 50](Community_50.md) (4 shared connections)
-- [Community 786](Community_786.md) (3 shared connections)
-- [Community 57](Community_57.md) (3 shared connections)
-- [Community 128](Community_128.md) (2 shared connections)
-- [Community 334](Community_334.md) (2 shared connections)
-- [Community 129](Community_129.md) (2 shared connections)
-- [Community 304](Community_304.md) (1 shared connections)
-- [Community 102](Community_102.md) (1 shared connections)
-- [Community 534](Community_534.md) (1 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
+- [Community 1](Community_1.md) (13 shared connections)
+- [Community 121](Community_121.md) (5 shared connections)
+- [Community 135](Community_135.md) (4 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 24](Community_24.md) (2 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/gzip.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/http.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 153 (91%)
-- INFERRED: 15 (9%)
+- EXTRACTED: 123 (84%)
+- INFERRED: 24 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

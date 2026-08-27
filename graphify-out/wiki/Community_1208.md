@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **.test_model_pickle()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **A model not defined on module level is picklable.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_valid_form_with_hints()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **GET a form, providing hints in the GET data** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 395](Community_395.md) (1 shared connections)
+- [Community 518](Community_518.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 

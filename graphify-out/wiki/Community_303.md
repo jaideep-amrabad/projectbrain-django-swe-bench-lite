@@ -1,53 +1,53 @@
 # Community 303
 
-> 37 nodes · cohesion 0.08
+> 36 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **SyndicationFeed** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **Atom1Feed** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **RssFeed** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.write()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.write()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **rfc3339_date()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.add_item_elements()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.add_root_elements()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.write_items()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.latest_post_date()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.item_attributes()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.root_attributes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **get_tag_uri()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.add_root_elements()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.write_items()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **RssUserland091Feed** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.add_item()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.writeString()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.endChannelElement()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.rss_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.add_item_elements()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.add_root_elements()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.root_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.write()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- *... and 12 more nodes in this community*
+- **DatabaseOperations** (42 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **._convert_tznames_to_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.quote_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **._quote_params_for_last_executed_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.sequence_reset_by_name_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.sql_flush()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.bulk_batch_size()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.check_expression_support()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.combine_duration_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.date_extract_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.datetime_cast_date_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.datetime_cast_time_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.datetime_extract_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.datetime_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.format_for_duration_arithmetic()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.get_db_converters()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.get_decimalfield_converter()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.last_executed_query()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.adapt_datetimefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.adapt_timefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.bulk_insert_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.combine_expression()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.convert_booleanfield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.convert_uuidfield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- **.date_trunc_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [Community 37](Community_37.md) (8 shared connections)
-- [Community 714](Community_714.md) (4 shared connections)
-- [Community 392](Community_392.md) (3 shared connections)
-- [Community 220](Community_220.md) (2 shared connections)
-- [Community 536](Community_536.md) (2 shared connections)
-- [Community 426](Community_426.md) (1 shared connections)
+- [Community 222](Community_222.md) (7 shared connections)
+- [Community 363](Community_363.md) (2 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 95](Community_95.md) (1 shared connections)
+- [Community 178](Community_178.md) (1 shared connections)
+- [Community 84](Community_84.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 69 (96%)
-- INFERRED: 3 (4%)
+- EXTRACTED: 54 (95%)
+- INFERRED: 3 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

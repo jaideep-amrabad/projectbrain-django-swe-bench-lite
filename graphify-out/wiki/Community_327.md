@@ -1,59 +1,51 @@
 # Community 327
 
-> 42 nodes · cohesion 0.07
+> 36 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **servers/tests.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **.urlopen()** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **LiveServerViews** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **WSGIServer** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- **LiveServerBase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **QuietWSGIRequestHandler** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **LiverServerThreadedTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **LiveServerDatabase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **LiveServerSingleThread** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **LiveServerAddress** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **SingleTreadLiveServerViews** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **.test_database_writes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **.test_fixtures_loaded()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **.test_no_collectstatic_emulation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **.test_protocol()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **SingleThreadLiveServerTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **.test_check_model_instance_from_subview()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **.test_view_calls_subview()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **._create_server()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **.test_404()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **.test_closes_connection_without_content_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **.test_environ()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **.test_keep_alive_on_connection_with_content_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **.test_media_files()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- **.test_static_files()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
-- *... and 17 more nodes in this community*
+- **Node** (25 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **NodeTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
+- **.add()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **.negate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **._new_instance()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **test_tree.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
+- **.__bool__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **.__contains__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **.__hash__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **.__len__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
+- **.test_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
+- **.test_eq_children()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
+- **.test_eq_connector()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
+- **.test_eq_negated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
+- **.test_hash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
+- **.__deepcopy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **A single internal node in the tree graph. A Node should be viewed as a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **Negate the sense of the root connector.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **Construct a new Node. If no connector is given, use the default.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **Create a new instance of this class when new Nodes (or subclasses) are needed…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 537](Community_537.md) (3 shared connections)
-- [Community 312](Community_312.md) (3 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 395](Community_395.md) (2 shared connections)
-- [Community 485](Community_485.md) (2 shared connections)
-- [Community 557](Community_557.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 222](Community_222.md) (4 shared connections)
+- [Community 21](Community_21.md) (2 shared connections)
+- [Community 178](Community_178.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_tree.py`
 
 ## Audit Trail
 
-- EXTRACTED: 81 (93%)
-- INFERRED: 6 (7%)
+- EXTRACTED: 46 (92%)
+- INFERRED: 4 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

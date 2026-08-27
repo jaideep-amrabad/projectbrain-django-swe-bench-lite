@@ -1,38 +1,35 @@
 # Community 710
 
-> 11 nodes · cohesion 0.29
+> 13 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **._load_library()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Argon2PasswordHasher** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.params()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.encode()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.must_update()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.decode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.verify()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.salt()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.harden_runtime()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Secure password hashing using the argon2 algorithm. This is the winner of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **LengthIsTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **setup** (11 connections)
+- **.test_length_is01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **.test_length_is02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **.test_length_is03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **.test_length_is04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **.test_length_is05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **.test_length_is06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **.test_length_is07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **.test_length_is08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **.test_length_is09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **.test_length_is10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **.test_length_is11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
 
 ## Relationships
 
-- [Community 186](Community_186.md) (5 shared connections)
-- [Community 421](Community_421.md) (2 shared connections)
-- [Community 597](Community_597.md) (1 shared connections)
-- [Community 58](Community_58.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
-- [Community 132](Community_132.md) (1 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (89%)
-- INFERRED: 3 (11%)
+- EXTRACTED: 24 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,60 +1,53 @@
 # Community 208
 
-> 54 nodes · cohesion 0.05
+> 50 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **test_ranges.py** (43 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **RangesModel** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- **TestQuerying** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **TestQueryingWithRanges** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **TestSaveLoad** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **TestRangeContainsLookup** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **TestSerialization** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **RangeLookupsModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- **BigAutoFieldModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- **SmallAutoFieldModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- **TestWidget** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_bound_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_auto_field_contained_by()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_big_auto_field_contained_by()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_f_ranges()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_small_auto_field_contained_by()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_all_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_model_set_on_base_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_range_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_range_object_boundaries()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_unbounded()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- *... and 29 more nodes in this community*
+- **DeferTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.assert_delayed()** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **defer/tests.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **TestDefer2** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **BigChildDeferTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **defer/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
+- **Primary** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
+- **RefreshPrimaryProxy** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
+- **BigChild** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
+- **Child** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
+- **ChildProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
+- **Secondary** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
+- **AssertionMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_defer_proxy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
+- **.test_defer_baseclass_when_subclass_has_added_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_defer_subclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_defer_subclass_both()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_only_baseclass_when_subclass_has_added_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_only_subclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_defer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_defer_baseclass_when_subclass_has_no_added_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_defer_extra()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_defer_foreign_keys_are_deferred_and_not_traversed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_defer_none_to_clear_deferred_set()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [Community 75](Community_75.md) (21 shared connections)
-- [Community 88](Community_88.md) (4 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 21](Community_21.md) (3 shared connections)
-- [Community 118](Community_118.md) (3 shared connections)
-- [Community 242](Community_242.md) (2 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 284](Community_284.md) (1 shared connections)
-- [Community 115](Community_115.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 197](Community_197.md) (1 shared connections)
+- [Community 19](Community_19.md) (4 shared connections)
+- [Community 222](Community_222.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 118 (91%)
-- INFERRED: 11 (9%)
+- EXTRACTED: 90 (90%)
+- INFERRED: 10 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

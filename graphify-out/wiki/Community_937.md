@@ -4,26 +4,25 @@
 
 ## Key Concepts
 
-- **.set_cookie()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **ValueError** (3 connections)
-- **.delete_cookie()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.set_signed_cookie()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **Set a cookie. ``expires`` can be: - a string in the correct format, - a naive…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **AdminURLWidgetTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_render_quoting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_get_context_validates_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_render()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.test_render_idn()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **WARNING: This test doesn't use assertHTMLEqual since it will get rid of some…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
 
 ## Relationships
 
-- [Community 420](Community_420.md) (4 shared connections)
-- [Community 41](Community_41.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 193](Community_193.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,30 +4,28 @@
 
 ## Key Concepts
 
-- **InvalidQueryTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_deprecation.py`
-- **InvalidQuery** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **.assert_warns()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_deprecation.py`
-- **.test_isinstance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_deprecation.py`
-- **.test_issubclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_deprecation.py`
-- **.test_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_deprecation.py`
-- **Exception** (1 connections)
+- **default_if_none()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **test_default_if_none.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default_if_none.py`
+- **FunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default_if_none.py`
+- **.test_empty_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default_if_none.py`
+- **.test_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default_if_none.py`
+- **.test_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default_if_none.py`
+- **If value is None, use given default.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 94](Community_94.md) (1 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 33](Community_33.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/test_deprecation.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_default_if_none.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (86%)
-- INFERRED: 2 (14%)
+- EXTRACTED: 15 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

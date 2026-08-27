@@ -1,51 +1,70 @@
 # Community 182
 
-> 25 nodes · cohesion 0.12
+> 151 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **GeoIP2** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **._check_query()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **.country()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **.city()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **.coords()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **.country_code()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **.country_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **.geos()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **.lon_lat()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **.lat_lon()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **._country_or_city()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **.info()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **.__del__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **.open()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **._reader()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **Check the query and database availability.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **Return a dictionary of city information for the given IP address or Fully…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **Return the country code for the given IP Address or FQDN.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **Return the country name for the given IP Address or FQDN.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **Return a dictionary with the country code and name when given an IP address or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **Return a tuple of the (longitude, latitude) for the given query.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **Return a tuple of the (latitude, longitude) for the given query.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **Return a GEOS Point object for the given query.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
-- **Return information about the GeoIP library and databases in use.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
+- **related.py** (65 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **ForeignObjectRel** (31 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **related_descriptors.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **models/signals.py** (25 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
+- **ForwardManyToOneDescriptor** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **ModelBase** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **FieldCacheMixin** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- **ManyToManyDescriptor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **ReverseManyToOneDescriptor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **ReverseOneToOneDescriptor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **migrate_signals/tests.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
+- **lazy_related_operation()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **make_model_tuple()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/utils.py`
+- **ManyToOneRel** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **.__new__()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **schema/fields.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
+- **create_many_to_many_intermediary_model()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **models/utils.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/utils.py`
+- **ForwardOneToOneDescriptor** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **resolve_relation()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **ManyToManyRel** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- **resolve_callables()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/utils.py`
+- **ReverseGenericManyToOneDescriptor** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- **._prepare()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **create_forward_many_to_many_manager()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- *... and 126 more nodes in this community*
 
 ## Relationships
 
-- [Community 622](Community_622.md) (8 shared connections)
-- [Community 844](Community_844.md) (6 shared connections)
-- [Community 584](Community_584.md) (1 shared connections)
-- [Community 88](Community_88.md) (1 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
+- [Community 222](Community_222.md) (45 shared connections)
+- [Community 0](Community_0.md) (19 shared connections)
+- [Community 144](Community_144.md) (18 shared connections)
+- [Community 64](Community_64.md) (8 shared connections)
+- [Community 37](Community_37.md) (7 shared connections)
+- [Community 44](Community_44.md) (7 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 7](Community_7.md) (5 shared connections)
+- [Community 322](Community_322.md) (5 shared connections)
+- [Community 113](Community_113.md) (3 shared connections)
+- [Community 22](Community_22.md) (3 shared connections)
+- [Community 178](Community_178.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geoip2/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/validation.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrate_signals/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 355 (93%)
+- INFERRED: 28 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

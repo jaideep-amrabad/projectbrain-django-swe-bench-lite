@@ -1,70 +1,35 @@
 # Community 769
 
-> 70 nodes · cohesion 0.04
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **createsuperuser.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
-- **auth/management/__init__.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
-- **auth/apps.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/apps.py`
-- **auth_tests/test_checks.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- **get_permission_codename()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
-- **contenttypes/management/__init__.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
-- **validate_password()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **auth/checks.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/checks.py`
-- **create_permissions()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
-- **Command** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
-- **get_default_username()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
-- **.handle()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
-- **create_contenttypes()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
-- **UserModelChecksTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- **CreatePermissionsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.ready()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/apps.py`
-- **_get_builtin_permissions()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
-- **RenameContentType** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
-- **check_models_permissions()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/checks.py`
-- **Command** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/changepassword.py`
-- **update_last_login()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **inject_rename_contenttypes_operations()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
-- **AuthConfig** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/apps.py`
-- **check_user_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/checks.py`
-- **.handle()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/changepassword.py`
-- *... and 45 more nodes in this community*
+- **M2mThroughFieldsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_explicit_field_names()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_invalid_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_invalid_order()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_m2m_field_argument_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_intersection_foreign_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_superset_foreign_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **ManyToManyField accepts the ``through_fields`` kwarg only if an intermediary…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **Mixing up the order of link fields to ManyToManyField.through_fields triggers…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **Providing invalid field names to ManyToManyField.through_fields triggers…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **If ``through_fields`` kwarg is given, it must specify both link fields of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
 
 ## Relationships
 
-- [Community 95](Community_95.md) (24 shared connections)
-- [Community 1](Community_1.md) (12 shared connections)
-- [Community 3](Community_3.md) (11 shared connections)
-- [Community 598](Community_598.md) (9 shared connections)
-- [Community 28](Community_28.md) (7 shared connections)
-- [Community 0](Community_0.md) (7 shared connections)
-- [Community 64](Community_64.md) (6 shared connections)
-- [Community 958](Community_958.md) (5 shared connections)
-- [Community 8](Community_8.md) (5 shared connections)
-- [Community 171](Community_171.md) (3 shared connections)
-- [Community 10](Community_10.md) (3 shared connections)
-- [Community 154](Community_154.md) (3 shared connections)
+- [Community 75](Community_75.md) (1 shared connections)
+- [Community 44](Community_44.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/apps.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/checks.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/changepassword.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
 
 ## Audit Trail
 
-- EXTRACTED: 201 (95%)
-- INFERRED: 11 (5%)
+- EXTRACTED: 13 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

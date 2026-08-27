@@ -1,40 +1,40 @@
 # Community 623
 
-> 15 nodes · cohesion 0.21
+> 15 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **forms/ranges.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
-- **BaseRangeField** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
-- **RangeWidget** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
-- **HiddenRangeWidget** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
-- **DateRangeField** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
-- **DateTimeRangeField** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
-- **DecimalRangeField** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
-- **IntegerRangeField** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
-- **.compress()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
-- **.prepare_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
-- **.decompress()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
-- **A widget that splits input into two <input type="hidden"> inputs.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- **ForeignKeyRawIdWidget** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **ManyToManyRawIdWidget** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.get_context()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.base_url_parameters()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.label_and_url_for_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.url_parameters()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **url_params_from_lookup_dict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.url_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.label_and_url_for_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.format_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **.value_from_datadict()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **Convert the type of lookups specified in a ForeignKey limit_choices_to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **A Widget for displaying ForeignKeys in the "raw_id" interface rather than in a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **A Widget for displaying ManyToMany ids in the "raw_id" interface rather than in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 33](Community_33.md) (2 shared connections)
-- [Community 138](Community_138.md) (2 shared connections)
-- [Community 118](Community_118.md) (1 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 405](Community_405.md) (3 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 529](Community_529.md) (1 shared connections)
+- [Community 734](Community_734.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/ranges.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
+- EXTRACTED: 28 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

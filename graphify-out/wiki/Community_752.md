@@ -1,35 +1,34 @@
 # Community 752
 
-> 11 nodes · cohesion 0.42
+> 11 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **ExecuteWrapperTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.mock_wrapper()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.test_nested_wrapper_invoked()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.call_execute()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.call_executemany()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.test_database_queried()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.test_wrapper_connection_specific()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.test_wrapper_invoked()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.test_wrapper_invoked_many()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.test_outer_wrapper_blocks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.test_wrapper_gets_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- **SpatialiteSchemaEditor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
+- **.column_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
+- **.geo_quote_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
+- **.add_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
+- **.alter_db_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
+- **.delete_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
+- **.remove_geometry_metadata()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
+- **DatabaseSchemaEditor** (1 connections)
+- **.create_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
+- **.remove_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
 
 ## Relationships
 
-- [Community 71](Community_71.md) (6 shared connections)
-- [Community 65](Community_65.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
+- [Community 222](Community_222.md) (2 shared connections)
+- [Community 99](Community_99.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (81%)
-- INFERRED: 6 (19%)
+- EXTRACTED: 16 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

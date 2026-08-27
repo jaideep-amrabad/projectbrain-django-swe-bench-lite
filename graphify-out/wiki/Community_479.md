@@ -1,45 +1,49 @@
 # Community 479
 
-> 23 nodes · cohesion 0.14
+> 22 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **CacheTagTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **setup** (15 connections)
-- **.test_cache08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache16()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache17()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache18()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_none_timeout()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache13()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache14()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.test_cache15()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **Regression test for #11270.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **Test whitespace in filter arguments** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **A timeout of None means "cache forever".** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **Allow first argument to be a variable.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
-- **Regression test for #7460.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **._dumpdata_assert()** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **ForwardReferenceTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **CircularReferenceTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **DumpDataAssertMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **FixtureTransactionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_dumpdata_proxy_with_concrete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_dumpdata_proxy_without_concrete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_format_discovery()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_circular_reference()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_circular_reference_natural_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_dumpdata_with_excludes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_dumpdata_with_file_output()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_dumpdata_with_filtering_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_dumpdata_with_pks()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_loading_and_dumping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_output_formats()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_forward_reference_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_forward_reference_fk_natural_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_forward_reference_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_forward_reference_m2m_natural_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **A warning is displayed if a proxy model is dumped without its concrete parent.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **A warning isn't displayed if a proxy model is dumped with its concrete parent.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (2 shared connections)
+- [Community 354](Community_354.md) (9 shared connections)
+- [Community 472](Community_472.md) (7 shared connections)
+- [Community 19](Community_19.md) (2 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 830](Community_830.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 45 (92%)
+- INFERRED: 4 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

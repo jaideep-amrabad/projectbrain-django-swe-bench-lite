@@ -1,32 +1,32 @@
 # Community 909
 
-> 7 nodes · cohesion 0.48
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **LoginRedirectUrlTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.assertLoginRedirectURLEqual()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_custom()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_named()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_remote()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **Tests for settings.LOGIN_REDIRECT_URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **TestEmptyFormSet** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_empty_formset_is_multipart()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_empty_formset_is_valid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_empty_formset_media()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **An empty formset still calls clean()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **Media is available on empty formset.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **is_multipart() works with an empty formset.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 95](Community_95.md) (1 shared connections)
-- [Community 578](Community_578.md) (1 shared connections)
-- [Community 101](Community_101.md) (1 shared connections)
+- [Community 66](Community_66.md) (3 shared connections)
+- [Community 310](Community_310.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 128](Community_128.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 11 (92%)
+- INFERRED: 1 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

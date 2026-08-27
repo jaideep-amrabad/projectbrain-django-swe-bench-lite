@@ -1,22 +1,21 @@
 # Community 1058
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **CustomPaginator** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **TemplateResponseWithoutTemplate** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- **Villain** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **SuperVillain** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
+- [Community 69](Community_69.md) (2 shared connections)
 - [Community 93](Community_93.md) (2 shared connections)
-- [Community 133](Community_133.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 

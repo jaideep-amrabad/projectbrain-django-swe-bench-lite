@@ -1,50 +1,43 @@
 # Community 576
 
-> 30 nodes · cohesion 0.10
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **BaseMemcachedCache** (19 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- **.validate_key()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- **MemcachedCache** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- **PyLibMCCache** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- **.get_backend_timeout()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- **.add()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- **.set()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- **.set_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- **._cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- **.decr()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- **.get_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- **.incr()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- **.touch()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- **.touch()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- **An implementation of a cache binding using python-memcached** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- **.clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- **.delete_many()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- **._cache()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
-- *... and 5 more nodes in this community*
+- **ManageMultipleSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **multiple: manage.py can execute user commands if settings are provided as…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **A series of tests for manage.py when multiple settings files (including the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **multiple: manage.py builtin commands fail with an error when no settings…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **multiple: manage.py builtin commands succeed if settings are provided as…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **multiple: manage.py can execute builtin commands if settings are provided in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **multiple: manage.py builtin commands fail if settings file (from argument)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **multiple: manage.py builtin commands fail if settings file (from environment)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **multiple: manage.py can't execute user commands using default settings** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Relationships
 
-- [Community 774](Community_774.md) (5 shared connections)
-- [Community 268](Community_268.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 112](Community_112.md) (8 shared connections)
+- [Community 175](Community_175.md) (8 shared connections)
+- [Community 89](Community_89.md) (8 shared connections)
+- [Community 207](Community_207.md) (2 shared connections)
+- [Community 254](Community_254.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/memcached.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 51 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 44 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

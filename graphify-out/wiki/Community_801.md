@@ -1,28 +1,30 @@
 # Community 801
 
-> 10 nodes · cohesion 0.36
+> 10 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **JoinTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **setup** (8 connections)
-- **.test_join06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **.test_join08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **.test_join01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **.test_join02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **.test_join03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **.test_join04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **.test_join05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
-- **.test_join07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
+- **SearchQueryCombinable** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **CombinedSearchQuery** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **._combine()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__and__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__or__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__rand__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.__ror__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 47](Community_47.md) (2 shared connections)
+- [Community 411](Community_411.md) (2 shared connections)
+- [Community 198](Community_198.md) (2 shared connections)
+- [Community 199](Community_199.md) (1 shared connections)
+- [Community 685](Community_685.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_join.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
 
 ## Audit Trail
 

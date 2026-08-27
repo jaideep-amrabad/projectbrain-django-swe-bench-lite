@@ -1,76 +1,66 @@
 # Community 28
 
-> 150 nodes · cohesion 0.02
+> 264 nodes · cohesion 0.01
 
 ## Key Concepts
 
-- **core/__init__.py** (106 connections) — `raw/code/hyd-evaluation/django-django/django/core/__init__.py`
-- **related.py** (65 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **db/models/base.py** (62 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **related_descriptors.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **files.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **OneToOneField** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **DeferredAttribute** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **ForwardManyToOneDescriptor** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **ModelBase** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **FieldCacheMixin** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
-- **ManyToManyDescriptor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **ReverseManyToOneDescriptor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **ReverseOneToOneDescriptor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **reverse_related.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **manager.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
-- **lazy_related_operation()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **make_model_tuple()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/utils.py`
-- **fields/mixins.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
-- **ManyToOneRel** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **Manager** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
-- **test_model_field_deprecation.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_field_deprecation.py`
-- **.__new__()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **fixtures_model_package/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/tests.py`
-- **FileDescriptor** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **create_many_to_many_intermediary_model()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- *... and 125 more nodes in this community*
+- **operations/models.py** (40 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **Operation** (30 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **FieldOperation** (25 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **operations/fields.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **CreateModel** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **RenameField** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **AlterField** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **RemoveField** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **AddField** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- **DeleteModel** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **RenameModel** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **AlterTogetherOptionOperation** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **AddIndex** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **AlterModelOptions** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **AlterOrderWithRespectTo** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **RemoveIndex** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **RunPython** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **RunSQL** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **AlterModelManagers** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **AlterModelTable** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **ModelOperation** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **AddConstraint** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **RemoveConstraint** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.__init__()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **SeparateDatabaseAndState** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- *... and 239 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (31 shared connections)
-- [Community 2](Community_2.md) (27 shared connections)
-- [Community 0](Community_0.md) (25 shared connections)
-- [Community 598](Community_598.md) (19 shared connections)
-- [Community 3](Community_3.md) (13 shared connections)
-- [Community 154](Community_154.md) (13 shared connections)
-- [Community 129](Community_129.md) (12 shared connections)
-- [Community 51](Community_51.md) (11 shared connections)
-- [Community 54](Community_54.md) (10 shared connections)
-- [Community 12](Community_12.md) (8 shared connections)
-- [Community 769](Community_769.md) (7 shared connections)
-- [Community 319](Community_319.md) (7 shared connections)
+- [Community 0](Community_0.md) (27 shared connections)
+- [Community 222](Community_222.md) (15 shared connections)
+- [Community 7](Community_7.md) (10 shared connections)
+- [Community 59](Community_59.md) (6 shared connections)
+- [Community 77](Community_77.md) (5 shared connections)
+- [Community 81](Community_81.md) (3 shared connections)
+- [Community 98](Community_98.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 25](Community_25.md) (3 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 182](Community_182.md) (1 shared connections)
+- [Community 132](Community_132.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/bin/django-admin.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
-- `raw/code/hyd-evaluation/django-django/django/core/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_raising_messages/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_raising_warning/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_model_field_deprecation.py`
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/models/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/more_operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 551 (95%)
-- INFERRED: 30 (5%)
+- EXTRACTED: 431 (97%)
+- INFERRED: 14 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

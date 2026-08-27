@@ -1,41 +1,53 @@
 # Community 551
 
-> 19 nodes · cohesion 0.20
+> 17 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **CommentSyntaxTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_comment.py`
-- **setup** (17 connections)
-- **.test_comment_syntax01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_comment.py`
-- **.test_comment_syntax02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_comment.py`
-- **.test_comment_syntax03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_comment.py`
-- **.test_comment_syntax04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_comment.py`
-- **.test_comment_syntax05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_comment.py`
-- **.test_comment_syntax06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_comment.py`
-- **.test_comment_syntax07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_comment.py`
-- **.test_comment_syntax08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_comment.py`
-- **.test_comment_syntax09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_comment.py`
-- **.test_comment_syntax10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_comment.py`
-- **.test_comment_syntax11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_comment.py`
-- **.test_comment_syntax12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_comment.py`
-- **.test_comment_tag01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_comment.py`
-- **.test_comment_tag02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_comment.py`
-- **.test_comment_tag03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_comment.py`
-- **.test_comment_tag04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_comment.py`
-- **.test_comment_tag05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_comment.py`
+- **admin/checks.py** (42 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **flatten()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **_issubclass()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **check_dependencies()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_form()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **_contains_subclass()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **must_inherit_from()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **NotRelationField** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **.ready()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
+- **check_admin_app()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **Exception** (2 connections)
+- **.test_flatten()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **issubclass() variant that doesn't raise an exception if cls isn't a class.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **Return whether or not a dotted class path (or a subclass of that class) is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **Check that form subclasses BaseModelForm.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **Check that the admin's dependencies are correctly installed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **Return a list which is a single level of flattening of the original list.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
 
 ## Relationships
 
+- [Community 1](Community_1.md) (8 shared connections)
+- [Community 248](Community_248.md) (6 shared connections)
+- [Community 195](Community_195.md) (6 shared connections)
+- [Community 76](Community_76.md) (4 shared connections)
+- [Community 550](Community_550.md) (4 shared connections)
+- [Community 380](Community_380.md) (3 shared connections)
+- [Community 49](Community_49.md) (3 shared connections)
+- [Community 222](Community_222.md) (3 shared connections)
 - [Community 5](Community_5.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 44](Community_44.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_comment.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/apps.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 72 (95%)
+- INFERRED: 4 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

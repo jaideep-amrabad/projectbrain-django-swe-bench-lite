@@ -1,35 +1,36 @@
 # Community 846
 
-> 8 nodes · cohesion 0.36
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Radians** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **RadiansTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_radians.py`
-- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_radians.py`
-- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_radians.py`
-- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_radians.py`
-- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_radians.py`
-- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_radians.py`
-- **.as_oracle()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **AdminTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_change_editable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_change_readonly()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_changelist()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_change_editable_in_other_timezone()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_change_readonly_in_other_timezone()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.test_changelist_in_other_timezone()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
 
 ## Relationships
 
-- [Community 14](Community_14.md) (4 shared connections)
-- [Community 179](Community_179.md) (1 shared connections)
-- [Community 100](Community_100.md) (1 shared connections)
+- [Community 6](Community_6.md) (6 shared connections)
+- [Community 423](Community_423.md) (3 shared connections)
+- [Community 679](Community_679.md) (2 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 - [Community 19](Community_19.md) (1 shared connections)
-- [Community 70](Community_70.md) (1 shared connections)
+- [Community 746](Community_746.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_radians.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 20 (91%)
+- INFERRED: 2 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

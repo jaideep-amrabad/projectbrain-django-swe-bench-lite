@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **good_error_handlers.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/good_error_handlers.py`
-- **good_handler()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/good_error_handlers.py`
+- **test_client_regress/context_processors.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/context_processors.py`
+- **special()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/context_processors.py`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/good_error_handlers.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/context_processors.py`
 
 ## Audit Trail
 
