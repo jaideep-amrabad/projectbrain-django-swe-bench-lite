@@ -33,9 +33,9 @@
 
 ## Relationships
 
-- [Community 397](Community_397.md) (10 shared connections)
+- [Community 399](Community_399.md) (10 shared connections)
 - [Community 2](Community_2.md) (4 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 
 ## Source Files
 

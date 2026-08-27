@@ -33,18 +33,18 @@
 
 ## Relationships
 
-- [Community 3](Community_3.md) (65 shared connections)
-- [Community 28](Community_28.md) (51 shared connections)
+- [Community 3](Community_3.md) (64 shared connections)
+- [Community 29](Community_29.md) (51 shared connections)
 - [Community 2](Community_2.md) (37 shared connections)
-- [Community 12](Community_12.md) (32 shared connections)
-- [Community 78](Community_78.md) (30 shared connections)
-- [Community 53](Community_53.md) (30 shared connections)
-- [Community 10](Community_10.md) (27 shared connections)
-- [Community 300](Community_300.md) (22 shared connections)
-- [Community 41](Community_41.md) (21 shared connections)
-- [Community 132](Community_132.md) (18 shared connections)
-- [Community 271](Community_271.md) (18 shared connections)
-- [Community 328](Community_328.md) (15 shared connections)
+- [Community 1](Community_1.md) (35 shared connections)
+- [Community 13](Community_13.md) (33 shared connections)
+- [Community 51](Community_51.md) (30 shared connections)
+- [Community 39](Community_39.md) (27 shared connections)
+- [Community 138](Community_138.md) (22 shared connections)
+- [Community 304](Community_304.md) (22 shared connections)
+- [Community 52](Community_52.md) (19 shared connections)
+- [Community 8](Community_8.md) (18 shared connections)
+- [Community 273](Community_273.md) (18 shared connections)
 
 ## Source Files
 
@@ -62,17 +62,17 @@
 - `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/fields.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
 - `raw/code/hyd-evaluation/django-django/django/db/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
 - `raw/code/hyd-evaluation/django-django/django/test/utils.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_filters/models.py`
 - `raw/code/hyd-evaluation/django-django/tests/auth_tests/backend_alias.py`
 - `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/models/custom_permissions.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1599 (98%)
-- INFERRED: 39 (2%)
+- EXTRACTED: 1596 (98%)
+- INFERRED: 38 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---
