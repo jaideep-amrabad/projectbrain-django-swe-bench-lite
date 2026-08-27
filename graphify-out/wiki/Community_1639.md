@@ -1,27 +1,24 @@
 # Community 1639
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **AllowDatabaseQueriesDeprecationTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_deprecated_features.py`
-- **.test_enabled()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_deprecated_features.py`
-- **.test_explicitly_disabled()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_deprecated_features.py`
+- **.test_view_with_permissions_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **Request a page that is protected with @permission_required but raises an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 58](Community_58.md) (1 shared connections)
+- [Community 47](Community_47.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/test_deprecated_features.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (80%)
-- INFERRED: 1 (20%)
+- EXTRACTED: 2 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

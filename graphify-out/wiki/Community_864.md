@@ -15,12 +15,12 @@
 
 ## Relationships
 
-- [Community 49](Community_49.md) (2 shared connections)
-- [Community 19](Community_19.md) (2 shared connections)
-- [Community 54](Community_54.md) (2 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
+- [Community 46](Community_46.md) (2 shared connections)
+- [Community 15](Community_15.md) (2 shared connections)
+- [Community 51](Community_51.md) (2 shared connections)
 - [Community 8](Community_8.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 

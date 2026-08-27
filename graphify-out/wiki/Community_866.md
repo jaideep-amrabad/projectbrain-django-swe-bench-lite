@@ -15,10 +15,10 @@
 
 ## Relationships
 
-- [Community 34](Community_34.md) (1 shared connections)
-- [Community 54](Community_54.md) (1 shared connections)
-- [Community 411](Community_411.md) (1 shared connections)
-- [Community 268](Community_268.md) (1 shared connections)
+- [Community 36](Community_36.md) (1 shared connections)
+- [Community 51](Community_51.md) (1 shared connections)
+- [Community 413](Community_413.md) (1 shared connections)
+- [Community 275](Community_275.md) (1 shared connections)
 
 ## Source Files
 

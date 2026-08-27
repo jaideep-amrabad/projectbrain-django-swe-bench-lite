@@ -1,27 +1,26 @@
 # Community 1640
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **MultiDbDeprecationTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_deprecated_features.py`
-- **.test_test_case()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_deprecated_features.py`
-- **.test_transaction_test_case()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_deprecated_features.py`
+- **.test_transaction_support()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **skipUnless** (1 connections)
 
 ## Relationships
 
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 58](Community_58.md) (1 shared connections)
+- [Community 216](Community_216.md) (1 shared connections)
+- [Community 446](Community_446.md) (1 shared connections)
+- [Community 36](Community_36.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/test_deprecated_features.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (80%)
-- INFERRED: 1 (20%)
+- EXTRACTED: 4 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---
