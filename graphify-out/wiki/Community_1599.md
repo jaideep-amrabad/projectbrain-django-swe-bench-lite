@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **test_migrations_squashed_ref_squashed/app1/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_squashed_ref_squashed/app1/__init__.py`
+- **model_forms/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_squashed_ref_squashed/app1/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/__init__.py`
 
 ## Audit Trail
 

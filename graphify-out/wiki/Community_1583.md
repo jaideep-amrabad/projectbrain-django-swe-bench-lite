@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **test_migrations_no_operations/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_no_operations/__init__.py`
+- **.util.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_private/.util.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_no_operations/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_private/.util.py`
 
 ## Audit Trail
 
