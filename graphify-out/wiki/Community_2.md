@@ -1,6 +1,6 @@
 # Community 2
 
-> 367 nodes · cohesion 0.01
+> 365 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **Article** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
 - **NamedCategory** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
 - **ManyToManyExcludeTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- *... and 342 more nodes in this community*
+- *... and 340 more nodes in this community*
 
 ## Relationships
 
-- [Community 46](Community_46.md) (53 shared connections)
-- [Community 12](Community_12.md) (45 shared connections)
-- [Community 14](Community_14.md) (13 shared connections)
-- [Community 31](Community_31.md) (12 shared connections)
-- [Community 0](Community_0.md) (11 shared connections)
-- [Community 35](Community_35.md) (8 shared connections)
+- [Community 36](Community_36.md) (54 shared connections)
+- [Community 13](Community_13.md) (45 shared connections)
+- [Community 24](Community_24.md) (13 shared connections)
+- [Community 44](Community_44.md) (12 shared connections)
+- [Community 1](Community_1.md) (11 shared connections)
+- [Community 37](Community_37.md) (8 shared connections)
 - [Community 63](Community_63.md) (5 shared connections)
-- [Community 26](Community_26.md) (5 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 27](Community_27.md) (4 shared connections)
-- [Community 536](Community_536.md) (4 shared connections)
-- [Community 811](Community_811.md) (3 shared connections)
+- [Community 61](Community_61.md) (5 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 26](Community_26.md) (4 shared connections)
+- [Community 528](Community_528.md) (4 shared connections)
+- [Community 712](Community_712.md) (3 shared connections)
 
 ## Source Files
 
@@ -55,8 +55,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 659 (73%)
-- INFERRED: 239 (27%)
+- EXTRACTED: 658 (73%)
+- INFERRED: 238 (27%)
 - AMBIGUOUS: 0 (0%)
 
 ---

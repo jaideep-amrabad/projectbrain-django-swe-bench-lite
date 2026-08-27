@@ -24,10 +24,10 @@
 ## Relationships
 
 - [Community 167](Community_167.md) (2 shared connections)
-- [Community 108](Community_108.md) (2 shared connections)
-- [Community 490](Community_490.md) (2 shared connections)
-- [Community 555](Community_555.md) (1 shared connections)
-- [Community 46](Community_46.md) (1 shared connections)
+- [Community 33](Community_33.md) (2 shared connections)
+- [Community 471](Community_471.md) (2 shared connections)
+- [Community 548](Community_548.md) (1 shared connections)
+- [Community 36](Community_36.md) (1 shared connections)
 
 ## Source Files
 

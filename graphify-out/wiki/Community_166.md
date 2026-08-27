@@ -33,9 +33,9 @@
 
 ## Relationships
 
-- [Community 804](Community_804.md) (5 shared connections)
-- [Community 827](Community_827.md) (3 shared connections)
-- [Community 40](Community_40.md) (2 shared connections)
+- [Community 807](Community_807.md) (5 shared connections)
+- [Community 830](Community_830.md) (3 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
 
 ## Source Files
 

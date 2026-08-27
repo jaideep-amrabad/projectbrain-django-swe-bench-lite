@@ -1,13 +1,12 @@
 # Community 76
 
-> 104 nodes · cohesion 0.03
+> 97 nodes · cohesion 0.03
 
 ## Key Concepts
 
 - **BaseDatabaseWrapper** (68 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
 - **.validate_thread_sharing()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
 - **.connect()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **DatabaseErrorWrapper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
 - **._cursor()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
 - **.ensure_connection()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
 - **.validate_no_atomic_block()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
@@ -29,35 +28,36 @@
 - **.check_settings()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
 - **.clean_savepoints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
 - **.create_cursor()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- *... and 79 more nodes in this community*
+- **.disable_constraint_checking()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- *... and 72 more nodes in this community*
 
 ## Relationships
 
-- [Community 167](Community_167.md) (18 shared connections)
-- [Community 14](Community_14.md) (8 shared connections)
-- [Community 145](Community_145.md) (3 shared connections)
-- [Community 133](Community_133.md) (3 shared connections)
+- [Community 167](Community_167.md) (16 shared connections)
+- [Community 24](Community_24.md) (7 shared connections)
+- [Community 133](Community_133.md) (5 shared connections)
+- [Community 147](Community_147.md) (3 shared connections)
 - [Community 350](Community_350.md) (2 shared connections)
-- [Community 222](Community_222.md) (2 shared connections)
-- [Community 24](Community_24.md) (2 shared connections)
-- [Community 315](Community_315.md) (1 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
+- [Community 219](Community_219.md) (2 shared connections)
+- [Community 69](Community_69.md) (2 shared connections)
+- [Community 313](Community_313.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
 - [Community 28](Community_28.md) (1 shared connections)
-- [Community 110](Community_110.md) (1 shared connections)
-- [Community 176](Community_176.md) (1 shared connections)
+- [Community 103](Community_103.md) (1 shared connections)
+- [Community 175](Community_175.md) (1 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
 - `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
 - `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
 - `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- `raw/code/hyd-evaluation/django-django/django/db/utils.py`
 - `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
 
 ## Audit Trail
 
-- EXTRACTED: 175 (97%)
+- EXTRACTED: 167 (97%)
 - INFERRED: 6 (3%)
 - AMBIGUOUS: 0 (0%)
 

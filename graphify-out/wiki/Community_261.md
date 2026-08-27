@@ -1,6 +1,6 @@
 # Community 261
 
-> 39 nodes · cohesion 0.07
+> 41 nodes · cohesion 0.06
 
 ## Key Concepts
 
@@ -14,6 +14,7 @@
 - **.as_textarea()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
 - **.__str__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
 - **.build_widget_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.get_bound_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
 - **.auto_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
 - **.css_classes()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
 - **.data()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
@@ -28,29 +29,28 @@
 - **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
 - **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
 - **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.choice_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- *... and 14 more nodes in this community*
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [Community 71](Community_71.md) (8 shared connections)
-- [Community 86](Community_86.md) (2 shared connections)
-- [Community 218](Community_218.md) (1 shared connections)
-- [Community 125](Community_125.md) (1 shared connections)
+- [Community 68](Community_68.md) (9 shared connections)
+- [Community 55](Community_55.md) (2 shared connections)
+- [Community 215](Community_215.md) (1 shared connections)
+- [Community 129](Community_129.md) (1 shared connections)
 - [Community 133](Community_133.md) (1 shared connections)
-- [Community 188](Community_188.md) (1 shared connections)
-- [Community 219](Community_219.md) (1 shared connections)
-- [Community 131](Community_131.md) (1 shared connections)
-- [Community 61](Community_61.md) (1 shared connections)
+- [Community 119](Community_119.md) (1 shared connections)
+- [Community 216](Community_216.md) (1 shared connections)
+- [Community 117](Community_117.md) (1 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
 
 ## Audit Trail
 
-- EXTRACTED: 63 (95%)
-- INFERRED: 3 (5%)
+- EXTRACTED: 65 (96%)
+- INFERRED: 3 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

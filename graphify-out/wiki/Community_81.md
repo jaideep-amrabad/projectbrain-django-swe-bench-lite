@@ -1,6 +1,6 @@
 # Community 81
 
-> 178 nodes · cohesion 0.02
+> 173 nodes · cohesion 0.02
 
 ## Key Concepts
 
@@ -11,6 +11,7 @@
 - **admin_registration/tests.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
 - **TestRegistration** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
 - **TestRegistrationDecorator** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **sessions.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
 - **security/csrf.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
 - **CheckSecretKeyTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
 - **admin_registration/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
@@ -28,23 +29,22 @@
 - **CheckXFrameOptionsDenyTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
 - **admin/decorators.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
 - **GroupAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/admin.py`
-- **check_content_type_nosniff()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
-- *... and 153 more nodes in this community*
+- *... and 148 more nodes in this community*
 
 ## Relationships
 
-- [Community 7](Community_7.md) (52 shared connections)
-- [Community 0](Community_0.md) (25 shared connections)
-- [Community 122](Community_122.md) (24 shared connections)
-- [Community 42](Community_42.md) (9 shared connections)
-- [Community 51](Community_51.md) (3 shared connections)
-- [Community 55](Community_55.md) (2 shared connections)
-- [Community 630](Community_630.md) (2 shared connections)
-- [Community 53](Community_53.md) (1 shared connections)
+- [Community 8](Community_8.md) (49 shared connections)
+- [Community 125](Community_125.md) (26 shared connections)
+- [Community 1](Community_1.md) (22 shared connections)
+- [Community 4](Community_4.md) (9 shared connections)
+- [Community 51](Community_51.md) (4 shared connections)
+- [Community 59](Community_59.md) (2 shared connections)
+- [Community 54](Community_54.md) (1 shared connections)
 - [Community 25](Community_25.md) (1 shared connections)
 - [Community 349](Community_349.md) (1 shared connections)
 - [Community 66](Community_66.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 997](Community_997.md) (1 shared connections)
+- [Community 88](Community_88.md) (1 shared connections)
 
 ## Source Files
 
@@ -52,21 +52,18 @@
 - `raw/code/hyd-evaluation/django-django/django/contrib/auth/admin.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/redirects/admin.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/sites/admin.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/caches.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/model_checks.py`
 - `raw/code/hyd-evaluation/django-django/django/core/checks/security/__init__.py`
 - `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
 - `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
 - `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
 - `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
 
 ## Audit Trail
 
-- EXTRACTED: 406 (94%)
-- INFERRED: 24 (6%)
+- EXTRACTED: 399 (95%)
+- INFERRED: 23 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---
