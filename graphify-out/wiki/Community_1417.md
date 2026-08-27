@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **m2m_recursive/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/__init__.py`
+- **foreign_object/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/__init__.py`
 
 ## Audit Trail
 

@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **model_options/models/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/__init__.py`
+- **lookuperror_c/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_c/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_options/models/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/lookuperror_c/__init__.py`
 
 ## Audit Trail
 
