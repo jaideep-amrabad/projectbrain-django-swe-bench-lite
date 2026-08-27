@@ -1,33 +1,35 @@
 # Community 889
 
-> 7 nodes · cohesion 0.33
+> 8 nodes · cohesion 0.39
 
 ## Key Concepts
 
-- **setup_test_environment()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **SetupTestEnvironmentTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **instrumented_test_render()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.test_allowed_hosts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_setup_test_environment_calling_more_than_once()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **Perform global pre-test setup, such as installing the instrumented template…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **An instrumented Template render method, providing a signal that can be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **floatformat()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **FunctionTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_floatformat.py`
+- **.test_float_dunder_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_floatformat.py`
+- **.test_infinity()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_floatformat.py`
+- **.test_inputs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_floatformat.py`
+- **.test_low_decimal_precision()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_floatformat.py`
+- **.test_zero_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_floatformat.py`
+- **Display a float to a specified number of decimal places. If called without an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 
 ## Relationships
 
 - [Community 8](Community_8.md) (3 shared connections)
-- [Community 717](Community_717.md) (2 shared connections)
+- [Community 29](Community_29.md) (2 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 - [Community 18](Community_18.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_floatformat.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (93%)
-- INFERRED: 1 (7%)
+- EXTRACTED: 18 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

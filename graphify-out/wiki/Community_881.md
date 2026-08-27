@@ -1,30 +1,34 @@
 # Community 881
 
-> 6 nodes · cohesion 0.33
+> 8 nodes · cohesion 0.32
 
 ## Key Concepts
 
-- **TestCollection** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **.test_common_ignore_patterns()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **.test_ignore()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **Test ``collectstatic`` management command.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **-i patterns are ignored.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **Common ignore patterns (*~, .*, CVS) are ignored.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- **ImageFile** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **._get_image_dimensions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **get_image_dimensions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **.height()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **.width()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **File** (1 connections)
+- **A mixin for use alongside django.core.files.base.File, which provides…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
+- **Return the (width, height) of an image, given an open file or a path. Set…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
 
 ## Relationships
 
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 226](Community_226.md) (1 shared connections)
-- [Community 164](Community_164.md) (1 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 512](Community_512.md) (2 shared connections)
+- [Community 593](Community_593.md) (1 shared connections)
+- [Community 915](Community_915.md) (1 shared connections)
+- [Community 814](Community_814.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 13 (76%)
+- INFERRED: 4 (24%)
 - AMBIGUOUS: 0 (0%)
 
 ---

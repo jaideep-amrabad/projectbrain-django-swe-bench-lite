@@ -1,24 +1,30 @@
 # Community 1171
 
-> 2 nodes · cohesion 1.00
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **.test_inheritance36()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Base template, putting block in a {% for %} tag** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **FileLikeObjectTestCase** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.test_urllib_request_urlopen()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **Test file-like objects (#15644).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **Test the File storage API with a file-like object coming from…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 
 ## Relationships
 
-- [Community 769](Community_769.md) (1 shared connections)
-- [Community 803](Community_803.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 332](Community_332.md) (1 shared connections)
+- [Community 220](Community_220.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,23 +1,32 @@
 # Community 1113
 
-> 2 nodes · cohesion 1.00
+> 7 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **bad_error_handlers.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/bad_error_handlers.py`
-- **bad_handler()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/bad_error_handlers.py`
+- **Floor** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **FloorTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_floor.py`
+- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_floor.py`
+- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_floor.py`
+- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_floor.py`
+- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_floor.py`
+- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_floor.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 277](Community_277.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 63](Community_63.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/bad_error_handlers.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_floor.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

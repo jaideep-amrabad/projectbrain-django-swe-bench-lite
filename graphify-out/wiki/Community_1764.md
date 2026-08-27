@@ -1,23 +1,28 @@
 # Community 1764
 
-> 1 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **no_urls.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/no_urls.py`
+- **.close()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
+- **.test_use_as_contextmanager()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **The connection can be used as a contextmanager.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 543](Community_543.md) (1 shared connections)
+- [Community 288](Community_288.md) (1 shared connections)
+- [Community 293](Community_293.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/no_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 3 (60%)
+- INFERRED: 2 (40%)
 - AMBIGUOUS: 0 (0%)
 
 ---

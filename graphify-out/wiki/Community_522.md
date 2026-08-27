@@ -1,44 +1,55 @@
 # Community 522
 
-> 20 nodes · cohesion 0.16
+> 47 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **toolbarModuleFilter()** (9 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **toggleClass()** (6 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **toolbarUrlConfigContainer()** (6 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **addClass()** (5 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **addEvent()** (5 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **appendToolbar()** (5 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **toolbarLooseFilter()** (5 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **applyUrlParams()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **interceptNavigation()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **setUrl()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **toolbarChanged()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **selectionChange()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **addEvents()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **getUrlConfigHtml()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **hasClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **removeClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **searchFocus()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **hideHandler()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **removeEvent()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **searchInput()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **InMemoryUploadedFile** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- **UploadedFile** (15 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- **FileUploadHandler** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **MemoryFileUploadHandler** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **TemporaryFileUploadHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- **.new_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **.new_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **.file_complete()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **.test_save_doesnt_close()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- **InMemoryUploadedFileTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- **.file_complete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **.handle_raw_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **.new_file()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **.receive_data_chunk()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **.upload_complete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **.handle_raw_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **.receive_data_chunk()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- **.test_unicode_uploadedfile_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_open_resets_file_to_start_and_returns_context_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.chunks()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- **.multiple_chunks()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- *... and 22 more nodes in this community*
 
 ## Relationships
 
-- [Community 313](Community_313.md) (16 shared connections)
-- [Community 731](Community_731.md) (4 shared connections)
-- [Community 757](Community_757.md) (1 shared connections)
+- [Community 2](Community_2.md) (16 shared connections)
+- [Community 102](Community_102.md) (6 shared connections)
+- [Community 347](Community_347.md) (4 shared connections)
+- [Community 179](Community_179.md) (2 shared connections)
+- [Community 207](Community_207.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (85%)
-- INFERRED: 8 (15%)
+- EXTRACTED: 71 (89%)
+- INFERRED: 9 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

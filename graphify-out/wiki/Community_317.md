@@ -1,64 +1,69 @@
 # Community 317
 
-> 35 nodes · cohesion 0.09
+> 42 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **AuthenticationForm** (29 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **AuthenticationFormTest** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **AdminAuthenticationForm** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/forms.py`
-- **admin/forms.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/forms.py`
-- **admin_views/test_forms.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_forms.py`
-- **AdminAuthenticationFormTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_forms.py`
-- **.clean()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.test_inactive_user_incorrect_password()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.confirm_login_allowed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **PermissionAdminAuthenticationForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/custom_has_permission_admin.py`
-- **.test_username_field_max_length_defaults_to_254()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_username_field_max_length_matches_user_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **CustomRequestAuthenticationForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
-- **.get_invalid_login_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.test_inactive_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_forms.py`
-- **.test_custom_login_allowed_policy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_get_invalid_login_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_html_autocomplete_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_inactive_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_inactive_user_i18n()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_invalid_username()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_login_failed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_password_whitespace_not_stripped()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_success()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_unicode_username()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- *... and 10 more nodes in this community*
+- **dummy/base.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
+- **BaseDatabaseClient** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/client.py`
+- **DatabaseClient** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/client.py`
+- **mysql/creation.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
+- **DatabaseClient** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/client.py`
+- **postgresql/client.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/client.py`
+- **DatabaseClient** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/client.py`
+- **test_postgresql.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **base/client.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/client.py`
+- **mysql/client.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/client.py`
+- **DatabaseClient** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/client.py`
+- **test_oracle.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
+- **OracleDbshellTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
+- **._run_dbshell()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
+- **oracle/client.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/client.py`
+- **sqlite3/client.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/client.py`
+- **test_mysql.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
+- **spatialite/client.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/client.py`
+- **SpatiaLiteClient** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/client.py`
+- **DatabaseWrapper** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
+- **complain()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
+- **DatabaseClient** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
+- **DatabaseCreation** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
+- **DatabaseIntrospection** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
+- **DatabaseOperations** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [Community 5](Community_5.md) (10 shared connections)
-- [Community 12](Community_12.md) (7 shared connections)
-- [Community 7](Community_7.md) (4 shared connections)
-- [Community 606](Community_606.md) (3 shared connections)
-- [Community 344](Community_344.md) (3 shared connections)
-- [Community 51](Community_51.md) (3 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 53](Community_53.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 101](Community_101.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 54](Community_54.md) (1 shared connections)
+- [Community 0](Community_0.md) (13 shared connections)
+- [Community 45](Community_45.md) (6 shared connections)
+- [Community 8](Community_8.md) (4 shared connections)
+- [Community 273](Community_273.md) (3 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 60](Community_60.md) (2 shared connections)
+- [Community 195](Community_195.md) (2 shared connections)
+- [Community 99](Community_99.md) (2 shared connections)
+- [Community 77](Community_77.md) (2 shared connections)
+- [Community 654](Community_654.md) (2 shared connections)
+- [Community 320](Community_320.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/forms.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/custom_has_permission_admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/client.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/client.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/client.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/client.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/client.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/client.py`
+- `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
+- `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
+- `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
 
 ## Audit Trail
 
-- EXTRACTED: 90 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 105 (93%)
+- INFERRED: 8 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

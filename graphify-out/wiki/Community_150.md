@@ -1,65 +1,58 @@
 # Community 150
 
-> 60 nodes · cohesion 0.04
+> 57 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **OGRGeomType** (35 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geomtype.py`
-- **Point** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **Polygon** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **spatialite/introspection.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/introspection.py`
-- **gis/db/backends/mysql/introspection.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/introspection.py`
-- **MySQLIntrospection** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/introspection.py`
-- **SpatiaLiteIntrospection** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/introspection.py`
-- **.geos()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.centroid()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **FlexibleFieldLookupDict** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **GeoFlexibleFieldLookupDict** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/introspection.py`
-- **.geom_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **Return the X coordinate for this Point.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geomtype.py`
-- **.geom_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **.test_geomtype()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
-- **.test_geomtype_25d()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
-- **.get_geometry_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/introspection.py`
-- **.get_geometry_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/introspection.py`
-- **._create_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **._geos_ptr()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.x()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.y()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- *... and 35 more nodes in this community*
+- **templatetags/i18n.py** (35 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **get_language_info()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **Node** (8 connections)
+- **TestLanguageInfo** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **BlockTranslateNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **do_block_translate()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **GetLanguageInfoListNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **TranslateNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **do_get_available_languages()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **do_get_current_language()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **do_get_current_language_bidi()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **do_get_language_info()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **do_get_language_info_list()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **do_translate()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **GetAvailableLanguagesNode** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **GetCurrentLanguageBidiNode** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **GetCurrentLanguageNode** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **GetLanguageInfoNode** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **language()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **LanguageNode** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **.render()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **language_name_translated()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **filter** (4 connections)
+- **language_bidi()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- **language_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- *... and 32 more nodes in this community*
 
 ## Relationships
 
-- [Community 56](Community_56.md) (13 shared connections)
-- [Community 31](Community_31.md) (10 shared connections)
-- [Community 6](Community_6.md) (5 shared connections)
-- [Community 520](Community_520.md) (3 shared connections)
-- [Community 20](Community_20.md) (2 shared connections)
-- [Community 605](Community_605.md) (2 shared connections)
-- [Community 417](Community_417.md) (2 shared connections)
-- [Community 613](Community_613.md) (1 shared connections)
-- [Community 298](Community_298.md) (1 shared connections)
-- [Community 90](Community_90.md) (1 shared connections)
-- [Community 151](Community_151.md) (1 shared connections)
-- [Community 335](Community_335.md) (1 shared connections)
+- [Community 5](Community_5.md) (13 shared connections)
+- [Community 8](Community_8.md) (13 shared connections)
+- [Community 9](Community_9.md) (6 shared connections)
+- [Community 466](Community_466.md) (4 shared connections)
+- [Community 18](Community_18.md) (2 shared connections)
+- [Community 29](Community_29.md) (2 shared connections)
+- [Community 82](Community_82.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/introspection.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/introspection.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geomtype.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
+- `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 100 (93%)
-- INFERRED: 8 (7%)
+- EXTRACTED: 126 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

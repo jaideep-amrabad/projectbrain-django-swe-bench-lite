@@ -1,52 +1,57 @@
 # Community 439
 
-> 26 nodes · cohesion 0.11
+> 30 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **UpdateOnlyFieldsTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **update_only_fields/tests.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **update_only_fields/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- **Employee** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- **Person** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- **ProxyEmployee** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- **Profile** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- **Account** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- **.test_empty_update_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_num_queries_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_select_related_only_interaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_basic()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_deferred()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_fk_defer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_incorrect_params()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_inheritance_defer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_inheritance_with_proxy_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_only_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_only_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- **.test_update_fields_only_repeated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
-- *... and 1 more nodes in this community*
+- **ModelAdminPermissionTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **Band** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/models.py`
+- **MockRequest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **MockAddUser** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_has_add_permission()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_has_change_permission()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_has_delete_permission()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_has_module_permission()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_has_view_permission()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **MockChangeUser** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **MockDeleteUser** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **MockViewUser** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **AdminActionsTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_actions.py`
+- **MockUser** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_inline_has_add_permission_uses_obj()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_get_actions_respects_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_actions.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_actions.py`
+- **.test_actions_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_actions.py`
+- **.has_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.has_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.has_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.has_module_perms()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.has_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 36](Community_36.md) (8 shared connections)
+- [Community 47](Community_47.md) (7 shared connections)
+- [Community 258](Community_258.md) (6 shared connections)
+- [Community 31](Community_31.md) (6 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/update_only_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/update_only_fields/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/modeladmin/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_actions.py`
+- `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (88%)
-- INFERRED: 5 (12%)
+- EXTRACTED: 81 (85%)
+- INFERRED: 14 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

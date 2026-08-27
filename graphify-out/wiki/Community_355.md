@@ -1,60 +1,52 @@
 # Community 355
 
-> 31 nodes · cohesion 0.13
+> 31 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **.login()** (40 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **LogoutTest** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.confirm_logged_out()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **logout_then_login()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **.test_default_logout_then_login()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_security_check()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_security_check_https()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_logout_then_login_with_custom_login()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_logout_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_logout_with_custom_redirect_argument()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_logout_with_named_redirect()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_logout_with_next_page_specified()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_logout_with_redirect_argument()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_logout_preserve_language()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_logout_redirect_url_named_setting()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_logout_redirect_url_setting()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_logout_with_overridden_redirect_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_logout_with_post()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_success_url_allowed_hosts_safe_host()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_success_url_allowed_hosts_same_host()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_success_url_allowed_hosts_unsafe_host()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_14377()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_logout_doesnt_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **Log out the user if they are logged in. Then redirect to the login page.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- **Logout with custom query string redirects to specified resource** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **ExtraRegressTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **TestObject** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/models.py`
+- **RevisionableModel** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/models.py`
+- **.test_regression_10847()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_regression_17877()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_values_with_extra()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_log_on_variable_does_not_exist_silent()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_logging.py`
+- **.test_dates_query()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_regression_7314_7372()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_regression_7957()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_regression_7961()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_regression_8039()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_regression_8063()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_regression_8819()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.new_revision()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/models.py`
+- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_extra_stay_tied()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **.test_extra_values_distinct_ordering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **Regression test for #7961: When not using a portion of an extra(...) in a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **Regression test for #8063: limiting a query shouldn't discard any extra() bits.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **Regression test for #8039: Ordering sometimes removed relevant tables from…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- **Regression test for #8819: Fields in the extra(select=...) list should be…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
 - *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [Community 669](Community_669.md) (8 shared connections)
-- [Community 644](Community_644.md) (6 shared connections)
-- [Community 589](Community_589.md) (5 shared connections)
-- [Community 12](Community_12.md) (4 shared connections)
-- [Community 758](Community_758.md) (3 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 16](Community_16.md) (2 shared connections)
-- [Community 219](Community_219.md) (2 shared connections)
-- [Community 65](Community_65.md) (2 shared connections)
-- [Community 53](Community_53.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 695](Community_695.md) (1 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 466](Community_466.md) (2 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- `raw/code/hyd-evaluation/django-django/tests/extra_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/extra_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_logging.py`
 
 ## Audit Trail
 
-- EXTRACTED: 96 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 38 (90%)
+- INFERRED: 4 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

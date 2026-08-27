@@ -1,63 +1,60 @@
 # Community 221
 
-> 46 nodes · cohesion 0.07
+> 44 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **Coalesce** (27 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **Greatest** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **Least** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **GreatestTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_greatest.py`
-- **LeastTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
-- **CoalesceTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_coalesce.py`
-- **.test_coalesce_workaround_mysql()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_greatest.py`
-- **.test_coalesce_workaround_mysql()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
-- **.test_coalesce_workaround()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_greatest.py`
-- **.test_coalesce_workaround()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **.test_expression_on_aggregation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation/tests.py`
-- **.test_mixed_values()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_coalesce.py`
-- **.as_sqlite()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **.as_sqlite()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **.test_ignores_null()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_greatest.py`
-- **.test_propagates_null()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_greatest.py`
-- **.test_ignores_null()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
-- **.test_propagates_null()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_coalesce.py`
-- **.test_gt_two_expressions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_coalesce.py`
-- **.test_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_coalesce.py`
-- *... and 21 more nodes in this community*
+- **Migration** (25 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- **OperationTestCase** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **OperationTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.alter_gis_model()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **IrreversibleError** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
+- **.assertColumnExists()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.assertSpatialIndexExists()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.set_up_test_model()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.test_add_blank_geom_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.test_add_blank_raster_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.test_add_geom_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.test_add_raster_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **NoRasterSupportTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.test_remove_geom_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.test_remove_raster_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.apply_operations()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.assertColumnNotExists()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.assertGeometryColumnsCount()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.unapply()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- **.test_add_raster_field_on_db_without_raster_support()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.get_table_description()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- **.apply()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- **.mutate_state()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- **Take a project_state representing all migrations prior to this one and a…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- **.test_create_raster_model_on_db_without_raster_support()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- *... and 19 more nodes in this community*
 
 ## Relationships
 
-- [Community 51](Community_51.md) (16 shared connections)
-- [Community 25](Community_25.md) (6 shared connections)
-- [Community 72](Community_72.md) (4 shared connections)
-- [Community 38](Community_38.md) (4 shared connections)
-- [Community 739](Community_739.md) (3 shared connections)
-- [Community 50](Community_50.md) (3 shared connections)
-- [Community 300](Community_300.md) (2 shared connections)
-- [Community 229](Community_229.md) (2 shared connections)
-- [Community 92](Community_92.md) (1 shared connections)
-- [Community 21](Community_21.md) (1 shared connections)
-- [Community 337](Community_337.md) (1 shared connections)
-- [Community 222](Community_222.md) (1 shared connections)
+- [Community 0](Community_0.md) (8 shared connections)
+- [Community 37](Community_37.md) (4 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 28](Community_28.md) (3 shared connections)
+- [Community 351](Community_351.md) (2 shared connections)
+- [Community 24](Community_24.md) (2 shared connections)
+- [Community 145](Community_145.md) (1 shared connections)
+- [Community 106](Community_106.md) (1 shared connections)
+- [Community 536](Community_536.md) (1 shared connections)
+- [Community 61](Community_61.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- `raw/code/hyd-evaluation/django-django/tests/aggregation/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_coalesce.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_greatest.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 111 (92%)
-- INFERRED: 9 (8%)
+- EXTRACTED: 95 (94%)
+- INFERRED: 6 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

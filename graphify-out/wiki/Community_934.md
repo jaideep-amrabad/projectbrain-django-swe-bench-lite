@@ -1,29 +1,40 @@
 # Community 934
 
-> 6 nodes · cohesion 0.33
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **NonexistentFixtureTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_nonexistent_fixture_no_constraint_checking()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_loaddata_not_existent_fixture_file()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **patch** (1 connections)
-- **Custom class to limit fixture dirs.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **If no fixtures match the loaddata command, constraints checks on the database…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **DeepCopyWidget** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **.test_deepcopy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **._get_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **._set_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **MultiWidget should define __deepcopy__() (#12048).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **Used to test MultiWidget.__deepcopy__().** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **When choices are set for this widget, we want to pass those along to the Select…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
+- **The choices for this widget are the Select widget's choices.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
+- [Community 240](Community_240.md) (3 shared connections)
+- [Community 208](Community_208.md) (2 shared connections)
+- [Community 393](Community_393.md) (1 shared connections)
+- [Community 576](Community_576.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 434](Community_434.md) (1 shared connections)
+- [Community 681](Community_681.md) (1 shared connections)
+- [Community 546](Community_546.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiwidget.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 15 (71%)
+- INFERRED: 6 (29%)
 - AMBIGUOUS: 0 (0%)
 
 ---

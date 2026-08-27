@@ -1,34 +1,61 @@
 # Community 830
 
-> 8 nodes · cohesion 0.36
+> 38 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **Cot** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **CotTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cot.py`
-- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cot.py`
-- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cot.py`
-- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cot.py`
-- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cot.py`
-- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cot.py`
-- **.as_oracle()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **inlineformset_factory()** (62 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **TestModelFormsetOverridesTroughFormMeta** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_formset_with_none_instance()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_inline_formsets_save_as_new()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_inline_model_with_primary_to_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_inline_model_with_to_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_inline_model_with_to_field_to_rel()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_save_as_new_with_new_inlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_inline_formsets_with_nullable_unique_together()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_inline_formsets_with_wrong_fk_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_inlineformset_factory_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_initial_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_delete_already_deleted()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_resubmit()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_callable_defaults()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_inline_formsets()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_inline_formsets_with_custom_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_inline_formsets_with_custom_save_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_inline_formsets_with_multi_table_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_unique_together_with_inlineformset_factory()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_unique_true_enforces_max_num_one()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_inlineformset_factory_error_messages_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_inlineformset_factory_field_class_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_inlineformset_factory_help_text_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- **.test_inlineformset_factory_labels_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Community 51](Community_51.md) (5 shared connections)
-- [Community 162](Community_162.md) (1 shared connections)
-- [Community 93](Community_93.md) (1 shared connections)
-- [Community 70](Community_70.md) (1 shared connections)
+- [Community 156](Community_156.md) (22 shared connections)
+- [Community 146](Community_146.md) (14 shared connections)
+- [Community 140](Community_140.md) (13 shared connections)
+- [Community 645](Community_645.md) (7 shared connections)
+- [Community 158](Community_158.md) (5 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
+- [Community 31](Community_31.md) (1 shared connections)
+- [Community 566](Community_566.md) (1 shared connections)
+- [Community 319](Community_319.md) (1 shared connections)
+- [Community 416](Community_416.md) (1 shared connections)
+- [Community 300](Community_300.md) (1 shared connections)
+- [Community 189](Community_189.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cot.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 108 (96%)
+- INFERRED: 4 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

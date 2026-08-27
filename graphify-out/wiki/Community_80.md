@@ -1,68 +1,65 @@
 # Community 80
 
-> 81 nodes · cohesion 0.03
+> 114 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **Variable** (29 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **Parser** (19 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.parse()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **FilterExpression** (12 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **dictsort()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **BoundWidget** (10 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **dictsortreversed()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **.error()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **Token** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **._resolve_lookup()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **FunctionTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
-- **FunctionTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsortreversed.py`
-- **ParserTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_parser.py`
-- **_property_resolver()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **VariableResolveLoggingTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_logging.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.compile_filter()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.invalid_block_tag()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.unclosed_block_tag()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.resolve()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **smart_split()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **.test_filter_args_count()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_parser.py`
-- **.args_check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.resolve()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- *... and 56 more nodes in this community*
+- **edit.py** (32 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **test_edit.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **detail.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **FormMixin** (17 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **ModelFormMixin** (15 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **SingleObjectTemplateResponseMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **FormView** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **TemplateResponseMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **SingleObjectMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **ContextMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **BaseDetailView** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **ProcessFormView** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **forms_tests/views.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/views.py`
+- **BaseCreateView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **BaseUpdateView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **CreateView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **UpdateView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **FormMixinTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **.get_object()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **DeletionMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **.get_form()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **ModelFormMixinTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **DetailView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **BaseDeleteView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- **BaseFormView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- *... and 89 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (40 shared connections)
-- [Community 13](Community_13.md) (5 shared connections)
-- [Community 11](Community_11.md) (4 shared connections)
-- [Community 78](Community_78.md) (3 shared connections)
-- [Community 178](Community_178.md) (2 shared connections)
-- [Community 101](Community_101.md) (2 shared connections)
-- [Community 190](Community_190.md) (2 shared connections)
-- [Community 171](Community_171.md) (2 shared connections)
-- [Community 17](Community_17.md) (2 shared connections)
-- [Community 346](Community_346.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 126](Community_126.md) (1 shared connections)
+- [Community 11](Community_11.md) (15 shared connections)
+- [Community 318](Community_318.md) (14 shared connections)
+- [Community 45](Community_45.md) (13 shared connections)
+- [Community 54](Community_54.md) (11 shared connections)
+- [Community 327](Community_327.md) (9 shared connections)
+- [Community 1](Community_1.md) (7 shared connections)
+- [Community 26](Community_26.md) (3 shared connections)
+- [Community 540](Community_540.md) (3 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 423](Community_423.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsort.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_dictsortreversed.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_base.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_logging.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_parser.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/edit.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
 
 ## Audit Trail
 
-- EXTRACTED: 165 (92%)
-- INFERRED: 14 (8%)
+- EXTRACTED: 274 (97%)
+- INFERRED: 8 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

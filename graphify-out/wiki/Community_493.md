@@ -1,57 +1,47 @@
 # Community 493
 
-> 21 nodes · cohesion 0.11
+> 15 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **TextField** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **citext.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- **CIText** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- **.test_rename_keep_null_status()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_alter()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_rename()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **CICharField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- **CIEmailField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- **CITextField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- **.test_TextField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
-- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Tests simple altering of fields** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_add_textfield_unhashable_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_alter_text_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **CharField** (1 connections)
-- **EmailField** (1 connections)
-- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Renaming a field shouldn't affect the not null status.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **Person** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- **Pet** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- **RelationAssignmentTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **UserProfile** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- **RouterModelArgumentTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- **.test_foreign_key_cross_database_protection()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.test_foreign_key_relation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.test_reverse_one_to_one_relation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- **Foreign keys can cross databases if they two databases have a common source** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **allow_relation() is called with unsaved model instances.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.test_foreignkey_collection()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.test_m2m_collection()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
 
 ## Relationships
 
-- [Community 75](Community_75.md) (6 shared connections)
-- [Community 98](Community_98.md) (3 shared connections)
-- [Community 268](Community_268.md) (2 shared connections)
-- [Community 262](Community_262.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 110](Community_110.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 124](Community_124.md) (1 shared connections)
-- [Community 200](Community_200.md) (1 shared connections)
-- [Community 92](Community_92.md) (1 shared connections)
-- [Community 221](Community_221.md) (1 shared connections)
-- [Community 229](Community_229.md) (1 shared connections)
+- [Community 74](Community_74.md) (9 shared connections)
+- [Community 1036](Community_1036.md) (4 shared connections)
+- [Community 203](Community_203.md) (4 shared connections)
+- [Community 344](Community_344.md) (3 shared connections)
+- [Community 458](Community_458.md) (2 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 763](Community_763.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (94%)
-- INFERRED: 3 (6%)
+- EXTRACTED: 33 (69%)
+- INFERRED: 15 (31%)
 - AMBIGUOUS: 0 (0%)
 
 ---

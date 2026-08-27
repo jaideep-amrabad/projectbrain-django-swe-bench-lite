@@ -1,34 +1,38 @@
 # Community 754
 
-> 11 nodes · cohesion 0.31
+> 12 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **slice_filter()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **FunctionTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
-- **.test_fail_silently()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
-- **.test_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
-- **.test_index_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
-- **.test_negative_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
-- **.test_range()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
-- **.test_range_multiple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
-- **.test_range_step()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
-- **.test_zero_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
-- **Return a slice of the list using the same syntax as Python's list slicing.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **DBCacheTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.drop_table()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.tearDown()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_createcachetable_with_table_argument()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **DBCacheWithTimeZoneTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.create_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_createcachetable_dry_run_mode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_delete_many_num_queries()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_get_many_num_queries()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_second_call_doesnt_crash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **Delete and recreate cache table with legacy behavior (explicitly specifying the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 689](Community_689.md) (2 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 266](Community_266.md) (1 shared connections)
+- [Community 1069](Community_1069.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_slice.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 24 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

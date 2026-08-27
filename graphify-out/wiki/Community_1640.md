@@ -1,25 +1,22 @@
 # Community 1640
 
-> 2 nodes · cohesion 1.00
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **.test_transaction_support()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **skipUnless** (1 connections)
+- **model_inheritance/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/__init__.py`
 
 ## Relationships
 
-- [Community 216](Community_216.md) (1 shared connections)
-- [Community 446](Community_446.md) (1 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

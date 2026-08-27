@@ -1,53 +1,52 @@
 # Community 282
 
-> 39 nodes · cohesion 0.05
+> 37 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **AppsTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_dynamic_load()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_get_app_config()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_get_app_configs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_get_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_is_installed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_lazy_model_operation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_model_clash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_ready()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_singleton_master()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_bad_app_config()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_get_containing_app_config_apps_not_ready()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_import_exception_is_not_masked()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_models_not_loaded()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_models_py()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_no_such_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_not_an_app_config()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_relabeling()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_default_app_config()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_duplicate_labels()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_duplicate_names()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_no_such_app_config()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **.test_no_such_app_config_with_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **Tests apps.get_app_configs().** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- **Tests apps.get_app_config().** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
-- *... and 14 more nodes in this community*
+- **RemoteTestResult** (25 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **DebugSQLTextTestResult** (8 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.check_picklable()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.stop_if_failfast()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.addSubTest()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **RemoteTestResultTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **.test_add_failing_subtests()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **.addError()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.addFailure()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.check_subtest_picklable()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **._confirm_picklable()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **SampleFailingSubtest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **.test_pickle_errors_detection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- **.addError()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.addFailure()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.addSubTest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.startTest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.stopTest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.addExpectedFailure()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.addUnexpectedSuccess()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **._print_unpicklable_subtest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.startTest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.stop()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.stopTest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.dummy_test()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 59](Community_59.md) (5 shared connections)
-- [Community 12](Community_12.md) (5 shared connections)
-- [Community 107](Community_107.md) (3 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 219](Community_219.md) (1 shared connections)
-- [Community 86](Community_86.md) (1 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 813](Community_813.md) (1 shared connections)
+- [Community 1101](Community_1101.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (93%)
-- INFERRED: 4 (7%)
+- EXTRACTED: 63 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

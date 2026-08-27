@@ -1,53 +1,57 @@
 # Community 523
 
-> 20 nodes · cohesion 0.10
+> 28 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **FormsFormsetTestCase** (57 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_with_deletion_remove_deletion_flag()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_invalid_deleted_form_with_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_min_num_displaying_more_than_one_blank_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_min_num_displaying_more_than_one_blank_form_with_zero_extra()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_non_form_errors_run_full_clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_clean_hook()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_error_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_formset_validate_min_excludes_empty_forms()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_management_form_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_max_num_with_initial_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_non_form_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **If non_form_errors() is called without calling is_valid() first, it should…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **More than 1 empty form can also be displayed using formset_factory's min_num…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **More than 1 empty form can be displayed using min_num.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **If a form is filled with something and can_delete is also checked, that form's…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **Can get ordered_forms from a valid formset even if a deleted form would have…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **FormSets have a clean() hook for doing extra validation that isn't tied to any…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **The management form has the correct prefix.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **Formset's forms use the formset's error_class.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **TemplateCommand** (16 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **.handle()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **.handle_template()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **get_random_secret_key()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
+- **.download()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **startproject.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/startproject.py`
+- **Command** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/startproject.py`
+- **.extract()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **.validate_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **Command** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/custom_startproject.py`
+- **startapp.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/startapp.py`
+- **Command** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/startapp.py`
+- **.is_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **.make_writeable()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **.splitext()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **.handle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/startproject.py`
+- **custom_startproject.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/custom_startproject.py`
+- **.handle()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/startapp.py`
+- **Determine where the app or project templates are. Use django.__path__[0] as the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **Copy either a Django application layout template or a Django project layout…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **Download the given URL and return the file name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **Like os.path.splitext, but takes off .tar, too** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **Extract the given file to a temporarily and return the path of the directory…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **Return True if the name looks like a URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **Make sure that the file is writeable. Useful if our source is read-only.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 420](Community_420.md) (18 shared connections)
-- [Community 524](Community_524.md) (11 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 1137](Community_1137.md) (1 shared connections)
-- [Community 1126](Community_1126.md) (1 shared connections)
-- [Community 1124](Community_1124.md) (1 shared connections)
-- [Community 1130](Community_1130.md) (1 shared connections)
-- [Community 1131](Community_1131.md) (1 shared connections)
-- [Community 1132](Community_1132.md) (1 shared connections)
-- [Community 1144](Community_1144.md) (1 shared connections)
-- [Community 1141](Community_1141.md) (1 shared connections)
+- [Community 4](Community_4.md) (16 shared connections)
+- [Community 210](Community_210.md) (3 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
+- [Community 296](Community_296.md) (1 shared connections)
+- [Community 406](Community_406.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/startapp.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/startproject.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/custom_startproject.py`
 
 ## Audit Trail
 
-- EXTRACTED: 71 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 55 (90%)
+- INFERRED: 6 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

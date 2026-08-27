@@ -1,28 +1,33 @@
 # Community 926
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **PostAdmin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **FieldOverridePostAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.multiline_html()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.coolness()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.multiline()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **ATan** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **ATanTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan.py`
+- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan.py`
+- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan.py`
+- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan.py`
+- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan.py`
+- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan.py`
 
 ## Relationships
 
-- [Community 66](Community_66.md) (2 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 277](Community_277.md) (1 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 63](Community_63.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 17 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

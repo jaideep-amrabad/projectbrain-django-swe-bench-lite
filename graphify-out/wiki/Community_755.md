@@ -1,35 +1,34 @@
 # Community 755
 
-> 10 nodes · cohesion 0.22
+> 12 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **SMTPBackendStoppedServerTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **SMTPBackendTestsBase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.setUpClass()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_fail_silently_on_connection_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_server_stopped()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **These tests require a separate class, because the FakeSMTPServer is shut down…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **Closing the backend while the SMTP server is stopped doesn't raise an exception.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **A socket connection error is silenced with fail_silently=True.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.tearDownClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **MyAutoField** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
+- **MyWrapper** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
+- **.from_db_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
+- **.pre_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
+- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
+- **.get_db_prep_save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
+- **.get_db_prep_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
 
 ## Relationships
 
-- [Community 181](Community_181.md) (2 shared connections)
-- [Community 12](Community_12.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 448](Community_448.md) (1 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_pk/fields.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 16 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

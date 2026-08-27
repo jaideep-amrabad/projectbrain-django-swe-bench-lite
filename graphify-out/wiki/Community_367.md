@@ -1,52 +1,55 @@
 # Community 367
 
-> 31 nodes · cohesion 0.06
+> 30 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **OverrideSettingsTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **DoNothingDecorator** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_exception_in_setup()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_override_database_routers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_override_staticfiles_dirs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_override_staticfiles_finders()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_urlconf_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_urlconf_first()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_urlconf_second()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **TestContextDecoratorTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_override_file_upload_directory_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_override_file_upload_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_override_media_root()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_override_media_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_override_static_root()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_override_static_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_override_staticfiles_storage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **object** (2 connections)
-- **.disable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.enable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **Overriding the MEDIA_ROOT setting should be reflected in the base_location…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **Overriding the MEDIA_URL setting should be reflected in the base_url attribute…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **Overriding the FILE_UPLOAD_PERMISSIONS setting should be reflected in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **Overriding the FILE_UPLOAD_DIRECTORY_PERMISSIONS setting should be reflected in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **Overriding DATABASE_ROUTERS should update the master router.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- *... and 6 more nodes in this community*
+- **time()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **DateTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **TimeTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **setup** (10 connections)
+- **setup** (8 connections)
+- **.test_date02_l10n()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **FunctionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **.test_time00_l10n()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **.test_date01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date05()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_date09()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **.test_time00()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **.test_time03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **.test_time04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **.test_inputs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **.test_time01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **.test_time02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **.test_time05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- **.test_time06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 717](Community_717.md) (5 shared connections)
-- [Community 16](Community_16.md) (3 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 642](Community_642.md) (1 shared connections)
+- [Community 8](Community_8.md) (7 shared connections)
+- [Community 17](Community_17.md) (7 shared connections)
+- [Community 29](Community_29.md) (2 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 395](Community_395.md) (1 shared connections)
+- [Community 431](Community_431.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 62 (90%)
+- INFERRED: 7 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

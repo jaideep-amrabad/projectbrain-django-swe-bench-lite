@@ -1,61 +1,60 @@
 # Community 19
 
-> 185 nodes · cohesion 0.02
+> 70 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **multiple_database/tests.py** (47 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **QueryTestCase** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **RouterTestCase** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **RouteForWriteTestCase** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.override_router()** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **Book** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
-- **multiple_database/models.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
-- **Person** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
-- **TestRouter** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
-- **AuthRouter** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
-- **Pet** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
-- **Review** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
-- **RelationAssignmentTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **RouterAttributeErrorTestCase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **UserProfile** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
-- **RouterModelArgumentTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **WriteRouter** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
-- **SignalTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **multiple_database/routers.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
-- **ConnectionRouterTestCase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **.test_partial_router()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
-- **AttributeErrorRouter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **DatabaseReceiver** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- **FixtureTestCase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
-- *... and 160 more nodes in this community*
+- **Query** (127 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **TestQuery** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_query.py`
+- **.set_values()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.set_annotation_mask()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.set_extra_mask()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.append_annotation_mask()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.clear_select_clause()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.sql_with_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.test_foreign_key_f()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_query.py`
+- **.test_multiple_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_query.py`
+- **.test_negated_nullable()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_query.py`
+- **.test_simplecol_query()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_query.py`
+- **.test_transform()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_query.py`
+- **.add_annotation()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.add_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.bump_prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.change_aliases()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.clear_deferred_loading()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.clear_select_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.get_compiler()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.rewrite_cols()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.set_empty()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.set_group_by()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.set_limits()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.__str__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- *... and 45 more nodes in this community*
 
 ## Relationships
 
-- [Community 12](Community_12.md) (14 shared connections)
-- [Community 51](Community_51.md) (10 shared connections)
-- [Community 40](Community_40.md) (7 shared connections)
-- [Community 5](Community_5.md) (6 shared connections)
-- [Community 4](Community_4.md) (6 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 144](Community_144.md) (3 shared connections)
-- [Community 307](Community_307.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 72](Community_72.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 583](Community_583.md) (1 shared connections)
+- [Community 302](Community_302.md) (21 shared connections)
+- [Community 779](Community_779.md) (11 shared connections)
+- [Community 12](Community_12.md) (11 shared connections)
+- [Community 552](Community_552.md) (10 shared connections)
+- [Community 45](Community_45.md) (7 shared connections)
+- [Community 96](Community_96.md) (5 shared connections)
+- [Community 20](Community_20.md) (5 shared connections)
+- [Community 10](Community_10.md) (4 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 205](Community_205.md) (3 shared connections)
+- [Community 138](Community_138.md) (3 shared connections)
+- [Community 883](Community_883.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/multiple_database/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
-- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/test_query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 307 (91%)
-- INFERRED: 32 (9%)
+- EXTRACTED: 168 (84%)
+- INFERRED: 32 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

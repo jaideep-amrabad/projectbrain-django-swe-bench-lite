@@ -1,59 +1,56 @@
 # Community 455
 
-> 24 nodes · cohesion 0.11
+> 44 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **create_default_site()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/management.py`
-- **CreateDefaultSiteTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **management.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/management.py`
-- **sites/apps.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/apps.py`
-- **.test_basic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.test_custom_site_id()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.test_multi_db_with_router()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.test_no_site_id()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.test_save_another()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.test_unavailable_site_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **SitesConfig** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/apps.py`
-- **.ready()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/apps.py`
-- **.test_multi_db()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.test_signal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **Creates the default Site object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/management.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **#15346, #15573 - create_default_site() creates an example site only if none…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **#16353, #16828 - The default site creation should respect db routing.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **#17415 - Another site can be created right after the default one. On some…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **#23641 - Sending the ``post_migrate`` signal triggers creation of the default…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **#23945 - The configured ``SITE_ID`` should be respected.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **#24488 - The pk should default to 1 if no ``SITE_ID`` is configured.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
-- **#24075 - A Site shouldn't be created if the model isn't available.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **test_input_formats.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **LocalizedDateTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **LocalizedDateTimeTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **CustomDateInputFormatsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **CustomDateTimeInputFormatsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **SimpleDateFormatTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **SimpleDateTimeFormatTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **Localized DateFields act as unlocalized widgets** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_dateTimeField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_dateTimeField_with_inputformat()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_localized_dateTimeField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_localized_dateTimeField_with_inputformat()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_dateTimeField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_dateTimeField_with_inputformat()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_localized_dateTimeField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_localized_dateTimeField_with_inputformat()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **DateFields can parse dates in the default format** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **DateFields with manually specified input formats can accept those formats** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **Localized DateFields with manually specified input formats can accept those…** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **DateTimeFields can parse dates in the default format** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **DateTimeFields with manually specified input formats can accept those formats** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **Localized DateTimeFields with manually specified input formats can accept those…** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_dateTimeField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_dateTimeField_with_inputformat()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- **.test_localized_dateTimeField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
+- *... and 19 more nodes in this community*
 
 ## Relationships
 
-- [Community 8](Community_8.md) (6 shared connections)
-- [Community 20](Community_20.md) (4 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 107](Community_107.md) (2 shared connections)
-- [Community 81](Community_81.md) (2 shared connections)
-- [Community 59](Community_59.md) (2 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
-- [Community 101](Community_101.md) (1 shared connections)
+- [Community 17](Community_17.md) (13 shared connections)
+- [Community 8](Community_8.md) (7 shared connections)
+- [Community 506](Community_506.md) (6 shared connections)
+- [Community 7](Community_7.md) (5 shared connections)
+- [Community 471](Community_471.md) (3 shared connections)
 - [Community 4](Community_4.md) (1 shared connections)
-- [Community 111](Community_111.md) (1 shared connections)
-- [Community 136](Community_136.md) (1 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sites/apps.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sites/management.py`
-- `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (93%)
-- INFERRED: 4 (7%)
+- EXTRACTED: 84 (88%)
+- INFERRED: 12 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

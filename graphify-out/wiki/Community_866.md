@@ -1,28 +1,27 @@
 # Community 866
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **XmlSerializerTestCase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
-- **.test_control_char_failure()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
-- **.test_no_dtd()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
-- **Serializing control characters with XML should fail as those characters are not…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
-- **The XML deserializer shouldn't allow a DTD. This is the most straightforward…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
-- **._get_field_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
-- **._get_pk_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
-- **._validate_output()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
+- **RecursiveM2MTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_add_in_both_directions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_add_via_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_all()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_related_to_self()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_remove()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
+- **.test_recursive_m2m_reverse_add()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
 
 ## Relationships
 
-- [Community 36](Community_36.md) (1 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
-- [Community 413](Community_413.md) (1 shared connections)
-- [Community 275](Community_275.md) (1 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_recursive/tests.py`
 
 ## Audit Trail
 

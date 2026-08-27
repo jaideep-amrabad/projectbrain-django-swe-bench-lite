@@ -1,74 +1,61 @@
 # Community 33
 
-> 186 nodes · cohesion 0.02
+> 171 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **related.py** (74 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **db/models/base.py** (61 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **ManyToManyField** (39 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **RelatedField** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **deletion.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **models/signals.py** (25 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
-- **OneToOneField** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **FieldFlagsTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **test_field_flags.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- **ModelBase** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **FieldCacheMixin** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
-- **ManyToManyDescriptor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **ReverseManyToOneDescriptor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **SettingsReference** (12 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **lazy_related_operation()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **make_model_tuple()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/utils.py`
-- **ManyToOneRel** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **schema/fields.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
-- **.__new__()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **AllFieldsModel** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **CustomManyToManyField** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
-- **create_many_to_many_intermediary_model()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.check()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **ManyToManyRel** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.deconstruct()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- *... and 161 more nodes in this community*
+- **OGRGeometry** (128 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **OGRGeomTest** (46 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
+- **._topology()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **._geomgen()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.difference()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.equals()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.from_bbox()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.intersection()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.sym_difference()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.transform()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.union()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.test_polygons()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
+- **.test_polygons_templates()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
+- **.test_srs()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
+- **.test_srs_transform()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
+- **.geom()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
+- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.__and__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.boundary()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.clone()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.contains()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.convex_hull()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.crosses()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.disjoint()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- *... and 146 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (21 shared connections)
-- [Community 98](Community_98.md) (20 shared connections)
-- [Community 40](Community_40.md) (19 shared connections)
-- [Community 121](Community_121.md) (17 shared connections)
-- [Community 6](Community_6.md) (16 shared connections)
-- [Community 75](Community_75.md) (15 shared connections)
-- [Community 8](Community_8.md) (10 shared connections)
-- [Community 20](Community_20.md) (9 shared connections)
-- [Community 67](Community_67.md) (8 shared connections)
-- [Community 738](Community_738.md) (7 shared connections)
-- [Community 27](Community_27.md) (7 shared connections)
-- [Community 392](Community_392.md) (6 shared connections)
+- [Community 44](Community_44.md) (23 shared connections)
+- [Community 72](Community_72.md) (6 shared connections)
+- [Community 112](Community_112.md) (4 shared connections)
+- [Community 117](Community_117.md) (3 shared connections)
+- [Community 154](Community_154.md) (3 shared connections)
+- [Community 108](Community_108.md) (2 shared connections)
+- [Community 931](Community_931.md) (2 shared connections)
+- [Community 257](Community_257.md) (2 shared connections)
+- [Community 46](Community_46.md) (2 shared connections)
+- [Community 69](Community_69.md) (1 shared connections)
+- [Community 679](Community_679.md) (1 shared connections)
+- [Community 64](Community_64.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/signals.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_manytomanyfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
 
 ## Audit Trail
 
-- EXTRACTED: 497 (93%)
-- INFERRED: 38 (7%)
+- EXTRACTED: 276 (96%)
+- INFERRED: 12 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,24 +1,32 @@
 # Community 1168
 
-> 2 nodes · cohesion 1.00
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **.test_inheritance26()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Set up a base template to extend** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
 
 ## Relationships
 
-- [Community 769](Community_769.md) (1 shared connections)
-- [Community 803](Community_803.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

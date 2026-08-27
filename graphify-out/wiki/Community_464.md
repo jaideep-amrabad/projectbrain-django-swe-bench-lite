@@ -1,47 +1,54 @@
 # Community 464
 
-> 19 nodes · cohesion 0.12
+> 23 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **OtherModelFormTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Inventory** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **ModelFormWithMedia** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **ArticleStatusForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **InventoryForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_foreignkeys_which_use_to_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.__str__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.test_choices_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **SelectInventoryForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.__repr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.__repr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.test_media_on_modelform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_model_field_that_returns_none_to_exclude_itself_with_explicit_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_prefetch_related_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **Media** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_callable_field_default()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_iterable_model_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **ModelChoiceField should respect a prefetch_related() on its queryset.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **ConnectionRouter** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **TestRouter** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
+- **WriteRouter** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
+- **ConnectionRouterTestCase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.test_partial_router()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.test_router_init_arg()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.allow_migrate_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.get_migratable_models()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.test_router_init_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.allow_migrate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.routers()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.allow_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **._router_func()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **If routers is not specified, default to settings.DATABASE_ROUTERS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **Return app models allowed to be migrated on provided db.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **Vaguely behave like primary/replica, but the databases aren't assumed to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
+- **.allow_migrate()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
+- **.allow_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
+- **.db_for_read()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
+- **.db_for_write()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
+- **.db_for_write()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
+- **A router can choose to implement a subset of methods** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
 
 ## Relationships
 
-- [Community 46](Community_46.md) (14 shared connections)
-- [Community 550](Community_550.md) (3 shared connections)
-- [Community 343](Community_343.md) (3 shared connections)
-- [Community 383](Community_383.md) (1 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
-- [Community 651](Community_651.md) (1 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 74](Community_74.md) (4 shared connections)
+- [Community 344](Community_344.md) (3 shared connections)
+- [Community 320](Community_320.md) (2 shared connections)
+- [Community 919](Community_919.md) (2 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 406](Community_406.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
+- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (79%)
-- INFERRED: 9 (21%)
+- EXTRACTED: 44 (90%)
+- INFERRED: 5 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

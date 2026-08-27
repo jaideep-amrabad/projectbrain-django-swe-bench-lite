@@ -1,39 +1,43 @@
 # Community 574
 
-> 15 nodes · cohesion 0.19
+> 16 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **Deserializer** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **._handle_object()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **._handle_fk_field_node()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **._handle_m2m_field_node()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **._make_parser()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **getInnerText()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **._get_model_from_node()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **.__next__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **Create a hardened XML parser (no custom/external entities).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **Convert an <object> node to a DeserializedObject.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **Handle a <field> node for a ForeignKey** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **Handle a <field> node for a ManyToManyField.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **Look up a model from a <object model=...> or a <field rel=... to=...> node.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
-- **Get all the inner text of a DOM node (recursively).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **OperationWriter** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **OperationWriterTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.serialize()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **.feed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **.indent()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **.unindent()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **.test_args_kwargs_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_empty_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_expand_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_kwargs_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_multiline_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_nested_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_nested_operation_expand_args_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
 
 ## Relationships
 
-- [Community 36](Community_36.md) (2 shared connections)
-- [Community 275](Community_275.md) (2 shared connections)
-- [Community 190](Community_190.md) (1 shared connections)
+- [Community 4](Community_4.md) (4 shared connections)
+- [Community 188](Community_188.md) (3 shared connections)
+- [Community 61](Community_61.md) (1 shared connections)
+- [Community 436](Community_436.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 34 (92%)
+- INFERRED: 3 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

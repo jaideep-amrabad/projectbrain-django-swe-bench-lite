@@ -1,54 +1,49 @@
 # Community 457
 
-> 24 nodes · cohesion 0.08
+> 24 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **DatabaseWrapper** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **CursorWrapper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.create_cursor()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.check_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.disable_constraint_checking()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.enable_constraint_checking()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.get_connection_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.execute()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.executemany()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.data_type_check_constraints()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.display_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.init_connection_state()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.is_usable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.mysql_is_mariadb()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.mysql_server_info()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **.mysql_version()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **._set_autocommit()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **Disable foreign key checks, primarily for use in adding rows with forward…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **Re-enable foreign key checks after they have been disabled.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **Check each table name in `table_names` for rows with invalid foreign key…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
-- **A thin wrapper around MySQLdb's normal cursor class that catches particular…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **middleware_exceptions/middleware.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **BaseMiddleware** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **LogMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **NoTemplateResponseMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **NotFoundMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **ProcessExceptionExcMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **ProcessExceptionLogMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **ProcessExceptionMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **ProcessViewMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **ProcessViewNoneMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **ProcessViewTemplateResponseMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **TemplateResponseMiddleware** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **.process_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **.process_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **.process_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **.process_template_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **.process_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **.process_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **.process_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
+- **.process_template_response()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (5 shared connections)
-- [Community 88](Community_88.md) (4 shared connections)
-- [Community 614](Community_614.md) (1 shared connections)
-- [Community 930](Community_930.md) (1 shared connections)
-- [Community 638](Community_638.md) (1 shared connections)
-- [Community 613](Community_613.md) (1 shared connections)
-- [Community 327](Community_327.md) (1 shared connections)
-- [Community 535](Community_535.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
+- [Community 11](Community_11.md) (6 shared connections)
+- [Community 50](Community_50.md) (3 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/middleware.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (79%)
-- INFERRED: 8 (21%)
+- EXTRACTED: 44 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

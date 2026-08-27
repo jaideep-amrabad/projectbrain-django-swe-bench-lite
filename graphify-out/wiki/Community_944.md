@@ -1,27 +1,29 @@
 # Community 944
 
-> 6 nodes · cohesion 0.67
+> 7 nodes · cohesion 0.52
 
 ## Key Concepts
 
-- **PluralizeTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
-- **.check_values()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
-- **.test_no_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
-- **.test_singular_and_plural_suffix()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
-- **.test_suffix()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
-- **setup** (3 connections)
+- **MySqlDbshellCommandTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
+- **.get_command_line_arguments()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
+- **.test_basic_params_specified_in_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
+- **.test_can_connect_using_sockets()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
+- **.test_fails_with_keyerror_on_incomplete_config()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
+- **.test_options_override_settings_proper_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
+- **.test_ssl_certificate_is_added()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
+- [Community 317](Community_317.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

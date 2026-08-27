@@ -1,48 +1,57 @@
 # Community 233
 
-> 45 nodes · cohesion 0.08
+> 35 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **setup** (42 connections)
-- **IfEqualTagTests** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **IfNotEqualTagTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal_filter01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal_filter02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal_filter03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal_filter04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal_filter05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal_numeric01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal_numeric02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal_numeric03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal_numeric04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal_numeric05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal_numeric06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- **.test_ifequal_numeric07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- *... and 20 more nodes in this community*
+- **FileUploadTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **CountingMD5PasswordHasher** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **._test_base64_upload()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_unicode_file_name_rfc2231()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_unicode_name_rfc2231()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_big_base64_newlines_upload()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_big_base64_upload()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_blank_filenames()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_content_type_extra()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_dangerous_file_names()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_empty_multipart_handled_gracefully()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_file_content()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_file_error_blocking()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_filename_case_preservation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_filename_overflow()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_truncated_multipart_handled_gracefully()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **Test receiving file upload when filename is encoded with RFC2231 (#22971).** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **Hasher that counts how many times it computes a hash.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_broken_custom_upload_handler()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_custom_upload_handler()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_fileupload_getlist()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_fileuploads_closed_at_request_end()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_large_upload()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_no_parsing_triggered_by_fd_closing()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (4 shared connections)
+- [Community 179](Community_179.md) (2 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 1141](Community_1141.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 102](Community_102.md) (1 shared connections)
+- [Community 347](Community_347.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 88 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 43 (90%)
+- INFERRED: 5 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

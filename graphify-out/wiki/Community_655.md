@@ -1,37 +1,45 @@
 # Community 655
 
-> 15 nodes · cohesion 0.20
+> 17 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **ListIndexTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
-- **setup** (7 connections)
-- **.test_list_index01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
-- **.test_list_index02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
-- **.test_list_index03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
-- **.test_list_index04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
-- **.test_list_index05()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
-- **.test_list_index06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
-- **.test_list_index07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
-- **Fail silently when the list index is out of range.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
-- **List-index syntax allows a template to access a certain item of a subscriptable…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
-- **Fail silently when variable is a dict without the specified key.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
-- **Dictionary lookup wins out when dict's key is a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
-- **But list-index lookup wins out when dict's key is an int, which behind the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
-- **Dictionary lookup wins out when there is a string and int version of the key.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **Join** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- **BaseTable** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- **.relabeled_clone()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- **.as_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- **.field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.equals()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- **.demote()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- **.__eq__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- **.promote()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- **.equals()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- **.relabeled_clone()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- **The BaseTable class is used for base table references in FROM clause. For…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- **Used by sql.Query and sql.SQLCompiler to generate JOIN clauses into the FROM…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
+- **Generate the full LEFT OUTER JOIN sometable ON sometable.somecol =…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
+- [Community 45](Community_45.md) (4 shared connections)
+- [Community 302](Community_302.md) (2 shared connections)
+- [Community 19](Community_19.md) (2 shared connections)
+- [Community 20](Community_20.md) (2 shared connections)
+- [Community 122](Community_122.md) (1 shared connections)
+- [Community 552](Community_552.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/datastructures.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 26 (87%)
+- INFERRED: 4 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

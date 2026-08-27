@@ -1,59 +1,44 @@
 # Community 513
 
-> 85 nodes · cohesion 0.04
+> 21 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **model_fields/test_imagefield.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **ImageFieldTwoDimensionsTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **.check_dimensions()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **ImageFieldTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **ImageFieldTestMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **TwoImageFieldTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **ImageFile** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
-- **ImageFieldFile** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **TestImageFieldFile** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **skipIf** (7 connections)
-- **SerializeMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **PersonDimensionsFirst** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **PersonWithHeight** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **ImageFieldDimensionsFirstTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **ImageFieldNoDimensionsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **ImageFieldOneDimensionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **ImageFieldUsingFileTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
-- **._get_image_dimensions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
-- **AbstractPersonWithHeight** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **PersonTwoImages** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **PersonWithHeightAndWidth** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **get_image_dimensions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
-- **.height()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
-- **.width()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
-- *... and 60 more nodes in this community*
+- **BasicFieldTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_field_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_choices_form_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_deconstruct_nested_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_field_instance_is_picklable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_field_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_field_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_field_repr_nested()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_formfield_disabled()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_show_hidden_initial()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_field_str()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_field_verbose_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **deconstruct() uses __qualname__ for nested class support.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **Fields with choices respect show_hidden_initial as a kwarg to formfield().** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **__repr__() of a field displays its name.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **__repr__() uses __qualname__ for nested class support.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **A defined field name (name="fieldname") is used instead of the model model's…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **Can supply a custom choices form class to Field.formfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **Field.formfield() sets disabled for fields with choices.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **Fields are ordered based on their creation.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **Field instances can be pickled.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
 
 ## Relationships
 
-- [Community 27](Community_27.md) (11 shared connections)
-- [Community 3](Community_3.md) (5 shared connections)
-- [Community 51](Community_51.md) (4 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 20](Community_20.md) (2 shared connections)
-- [Community 582](Community_582.md) (1 shared connections)
-- [Community 446](Community_446.md) (1 shared connections)
+- [Community 222](Community_222.md) (5 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 142 (92%)
-- INFERRED: 13 (8%)
+- EXTRACTED: 23 (88%)
+- INFERRED: 3 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

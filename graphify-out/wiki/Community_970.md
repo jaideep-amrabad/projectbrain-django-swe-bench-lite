@@ -1,24 +1,28 @@
 # Community 970
 
-> 2 nodes · cohesion 1.00
+> 6 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **UserMessenger** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Dummy class for testing message_user functions on ModelAdmin** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **ModelChoiceIterator** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.choice()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 
 ## Relationships
 
-- [Community 66](Community_66.md) (1 shared connections)
-- [Community 89](Community_89.md) (1 shared connections)
+- [Community 83](Community_83.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

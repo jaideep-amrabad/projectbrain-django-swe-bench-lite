@@ -1,31 +1,34 @@
 # Community 773
 
-> 10 nodes · cohesion 0.29
+> 11 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **MySQLGISSchemaEditor** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- **._create_spatial_index_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- **.create_spatial_indexes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- **.add_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- **.column_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- **.create_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- **.remove_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
-- **.skip_default()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
+- **SpatialiteSchemaEditor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
+- **.column_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
+- **.geo_quote_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
+- **.add_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
+- **.alter_db_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
+- **.delete_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
+- **.remove_geometry_metadata()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
 - **DatabaseSchemaEditor** (1 connections)
+- **.create_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
+- **.remove_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (3 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 95](Community_95.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (94%)
+- EXTRACTED: 16 (94%)
 - INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 

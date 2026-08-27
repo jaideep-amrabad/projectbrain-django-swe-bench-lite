@@ -1,58 +1,62 @@
 # Community 120
 
-> 72 nodes · cohesion 0.06
+> 61 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **MigrationAutodetector** (63 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **._detect_changes()** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.add_operation()** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.through()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.generate_altered_fields()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **._get_dependencies_for_foreign_key()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.deep_deconstruct()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_created_models()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_renamed_models()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **._sort_migrations()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.arrange_for_graph()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **._build_migration_list()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.changes()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **._generate_added_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **._generate_altered_foo_together()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_deleted_models()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_renamed_fields()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **._resolve_dependency()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.check_dependency()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_added_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_altered_options()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_created_proxies()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_deleted_proxies()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **._generate_removed_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- **.generate_removed_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- *... and 47 more nodes in this community*
+- **postgres_tests/models.py** (47 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **PostgreSQLModel** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **TestSaveLoad** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **IntegerArrayModel** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **postgres_tests/fields.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
+- **postgres_tests/test_bulk_update.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_bulk_update.py`
+- **Line** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **NullableIntegerArrayModel** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **Tag** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **BulkSaveTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_bulk_update.py`
+- **TestOtherTypesExactQuerying** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **NestedIntegerArrayModel** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **OtherTypesArrayModel** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **CharArrayModel** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **DateTimeArrayModel** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **EnumField** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
+- **ArrayEnumModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **CITestModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **HotelReservation** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **TagField** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **TestSerialization** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **Character** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **RangeLookupsModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **Scene** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **DummyArrayField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
+- *... and 36 more nodes in this community*
 
 ## Relationships
 
-- [Community 76](Community_76.md) (8 shared connections)
-- [Community 829](Community_829.md) (6 shared connections)
-- [Community 208](Community_208.md) (5 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 33](Community_33.md) (3 shared connections)
-- [Community 23](Community_23.md) (3 shared connections)
-- [Community 43](Community_43.md) (2 shared connections)
-- [Community 111](Community_111.md) (1 shared connections)
-- [Community 336](Community_336.md) (1 shared connections)
+- [Community 13](Community_13.md) (41 shared connections)
+- [Community 128](Community_128.md) (9 shared connections)
+- [Community 345](Community_345.md) (6 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 71](Community_71.md) (5 shared connections)
+- [Community 357](Community_357.md) (5 shared connections)
+- [Community 98](Community_98.md) (4 shared connections)
+- [Community 194](Community_194.md) (4 shared connections)
+- [Community 386](Community_386.md) (4 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 168](Community_168.md) (3 shared connections)
+- [Community 173](Community_173.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_bulk_update.py`
 
 ## Audit Trail
 
-- EXTRACTED: 158 (90%)
-- INFERRED: 17 (10%)
+- EXTRACTED: 165 (80%)
+- INFERRED: 42 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

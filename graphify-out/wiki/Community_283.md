@@ -1,50 +1,54 @@
 # Community 283
 
-> 35 nodes · cohesion 0.07
+> 21 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **ViewTest** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **._assert_allows()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **._assert_simple()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_options_for_get_and_post_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_options_for_get_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_options_for_post_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_args_kwargs_request_on_self()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_direct_instantiation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_get_and_head()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_get_and_post()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_get_only()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_no_init_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **A view can't be accidentally instantiated before deployment** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_class_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_dispatch_decoration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_head_no_get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_invalid_keyword_argument()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_no_init_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_pathological_http_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **Test a view which supplies a GET method also responds correctly to HEAD.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **Test a view which supplies no GET method responds to HEAD with HTTP 405.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **Test a view which only allows both GET and POST.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **View arguments must be predefined on the class and can't be named like a HTTP…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **The callable returned from as_view() has proper docstring, name and module.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **Attributes set by decorators on the dispatch method are also present on the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- *... and 10 more nodes in this community*
+- **technical_404_response()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **CallableSettingWrapper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **cleanse_setting()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **default_urlconf()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **get_safe_settings()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **CallableSettingWrapperTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **HelperFunctionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_template_encoding()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_cleanse_setting_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_cleanse_setting_ignore_case()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_cleanse_setting_recurses_in_dictionary()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **The templates are loaded directly, not via a template loader, and should be…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **Object to wrap callable appearing in settings. * Not to call in the debug page…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **Create a technical 404 error response. `exception` is the Http404.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **Cleanse an individual setting key/value of sensitive content. If the value is a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **Create an empty URLconf 404 error response.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **Return a dictionary of the settings module with values of sensitive settings…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **Unittests for CallableSettingWrapper** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 
 ## Relationships
 
-- [Community 502](Community_502.md) (5 shared connections)
-- [Community 10](Community_10.md) (4 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 127](Community_127.md) (6 shared connections)
+- [Community 406](Community_406.md) (6 shared connections)
+- [Community 35](Community_35.md) (2 shared connections)
+- [Community 136](Community_136.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 50](Community_50.md) (1 shared connections)
+- [Community 95](Community_95.md) (1 shared connections)
+- [Community 352](Community_352.md) (1 shared connections)
+- [Community 164](Community_164.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (94%)
-- INFERRED: 3 (6%)
+- EXTRACTED: 44 (92%)
+- INFERRED: 4 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,25 +1,30 @@
 # Community 1140
 
-> 2 nodes · cohesion 1.00
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **.test_max_num_zero()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **If max_num is 0 then no form is rendered at all, regardless of extra, unless…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **WeirdQuerysetSlicingTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_empty_resultset_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_empty_sliced_subquery()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_empty_sliced_subquery_exclude()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_tickets_7698_10202()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_zero_length_values_slicing()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Relationships
 
-- [Community 420](Community_420.md) (1 shared connections)
-- [Community 523](Community_523.md) (1 shared connections)
+- [Community 10](Community_10.md) (5 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 8 (67%)
+- INFERRED: 4 (33%)
 - AMBIGUOUS: 0 (0%)
 
 ---

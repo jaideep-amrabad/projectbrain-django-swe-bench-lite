@@ -1,48 +1,50 @@
 # Community 499
 
-> 21 nodes · cohesion 0.16
+> 21 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **DjangoTranslation** (16 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **.__init__()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **._add_installed_apps_translations()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **.merge()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **._new_gnu_trans()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **._add_local_translations()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **._init_translation_catalog()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **._add_fallback()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **.to_language()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **.language()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **Return a mergeable gettext.GNUTranslations instance. A convenience wrapper. By…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **Create a base catalog using global django translations.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **Merge translations from each installed app.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **Merge translations defined in LOCALE_PATHS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **Set the GNUTranslations() fallback with the default language.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **Merge another translation into this catalog.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **Return the translation language.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **Return the translation language name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **Set up the GNUTranslations context with regard to output charset. This…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **Create a GNUTranslations() using many locale directories** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **TestUtils** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- **parse_rst()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
+- **parse_docstring()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
+- **admin_docs/test_utils.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- **AdminDocsSimpleTestCase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/tests.py`
+- **trim_docstring()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
+- **.test_description_output()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- **.test_parse_rst()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- **.test_title_output()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- **.test_initial_header_level()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- **.test_parse_docstring()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- **.test_publish_parts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- **.test_trim_docstring()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- **Uniformly trim leading/trailing whitespace from docstrings. Based on…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
+- **Parse out the parts of a docstring. Return (title, body, metadata).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
+- **Convert the string from reST to an XHTML fragment.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
+- **skipUnless** (1 connections)
+- **Django shouldn't break the default role for interpreted text when…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- **This __doc__ output is required for testing. I copied this example from…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- **parse_rst() should use `cmsreference` as the default role.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
 
 ## Relationships
 
-- [Community 178](Community_178.md) (3 shared connections)
-- [Community 584](Community_584.md) (2 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 59](Community_59.md) (1 shared connections)
+- [Community 68](Community_68.md) (6 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
 - [Community 18](Community_18.md) (1 shared connections)
-- [Community 416](Community_416.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_docs/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (95%)
-- INFERRED: 2 (5%)
+- EXTRACTED: 41 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

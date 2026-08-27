@@ -1,60 +1,56 @@
 # Community 343
 
-> 29 nodes · cohesion 0.08
+> 24 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **Meta** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_image_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **ImageFile** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **NoExtensionImageFile** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **OptionalImageFile** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **CustomWriterForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **IncompleteCategoryFormWithExclude** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **IncompleteCategoryFormWithFields** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **ValidationTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **DerivedPostForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **ImageFileForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **NoExtensionImageFileForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **OptionalImageFileForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **PostForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_save_blank_false_with_required_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **A form that replaces the model's url field with a custom one. This should…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_inherited_unique_for_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_unique_for_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_notrequired_overrides_notblank()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_validates_with_replaced_field_excluded()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_validates_with_replaced_field_not_specified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.custom_upload_path()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.upload_to()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- *... and 4 more nodes in this community*
+- **model_fields/test_integerfield.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **IntegerFieldTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **PositiveIntegerFieldTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **BigIntegerModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **IntegerModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **PositiveIntegerModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **PositiveSmallIntegerModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **SmallIntegerModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **BigIntegerFieldTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **PositiveSmallIntegerFieldTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **SmallIntegerFieldTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_backend_range_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_backend_range_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_documented_range()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_redundant_backend_range_validators()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_negative_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.backend_range()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_coercing()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **.test_types()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **skipIf** (1 connections)
+- **Values within the documented safe range pass validation, and can be saved and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **Backend specific ranges can be saved without corruption.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **Backend specific ranges are enforced at the model validation level (#12030).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
+- **If there are stricter validators than the ones from the database backend then…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
 
 ## Relationships
 
-- [Community 46](Community_46.md) (19 shared connections)
-- [Community 383](Community_383.md) (7 shared connections)
-- [Community 550](Community_550.md) (5 shared connections)
-- [Community 464](Community_464.md) (3 shared connections)
-- [Community 905](Community_905.md) (2 shared connections)
-- [Community 666](Community_666.md) (2 shared connections)
-- [Community 161](Community_161.md) (1 shared connections)
-- [Community 812](Community_812.md) (1 shared connections)
-- [Community 938](Community_938.md) (1 shared connections)
-- [Community 869](Community_869.md) (1 shared connections)
-- [Community 257](Community_257.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 222](Community_222.md) (6 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 41](Community_41.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 111](Community_111.md) (1 shared connections)
+- [Community 1083](Community_1083.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_integerfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 69 (90%)
-- INFERRED: 8 (10%)
+- EXTRACTED: 45 (90%)
+- INFERRED: 5 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

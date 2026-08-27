@@ -1,39 +1,43 @@
 # Community 619
 
-> 14 nodes · cohesion 0.21
+> 17 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **make_template_fragment_key()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/utils.py`
-- **TestMakeTemplateFragmentKey** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **CacheNode** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/cache.py`
-- **cache/utils.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/utils.py`
-- **.render()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/cache.py`
-- **.test_long_vary_on()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_proper_escaping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_with_ints_vary_on()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_with_many_vary_on()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_with_one_vary_on()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_with_unicode_vary_on()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_without_vary_on()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/cache.py`
-- **Node** (1 connections)
+- **FromDBValueTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
+- **from_db_value/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
+- **from_db_value/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
+- **Cash** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
+- **CashModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
+- **CashField** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
+- **.from_db_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
+- **.test_aggregation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
+- **.test_connection()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
+- **.test_defer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
+- **.test_simple_load()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
+- **.test_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
+- **.test_values_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 14](Community_14.md) (3 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 41](Community_41.md) (2 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/cache/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/templatetags/cache.py`
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/from_db_value/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/from_db_value/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 27 (90%)
+- INFERRED: 3 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,44 +1,45 @@
 # Community 567
 
-> 18 nodes · cohesion 0.16
+> 18 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **DefaultRelatedNameTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
-- **default_related_name.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
-- **test_default_related_name.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
-- **Store** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
-- **Book** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
-- **EditorStore** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
-- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
-- **Author** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
-- **BookStore** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
-- **Editor** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
-- **.test_default_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
-- **.test_default_related_name_in_queryset_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
-- **.test_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
-- **.test_inheritance_with_overridden_default_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
-- **.test_model_name_not_available_in_queryset_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
-- **.test_no_default_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
-- **.test_related_name_overrides_default_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
+- **get_permission_codename()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
+- **CreatePermissionsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.has_add_permission()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.has_change_permission()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.has_delete_permission()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.has_view_permission()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **Return True if the given request has permission to change the given Django…** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.test_create_permissions_checks_contenttypes_created()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_permission_with_proxy_content_type_created()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_unavailable_models()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_default_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **Return True if the given request has permission to add an object. Can be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **Return the codename of the permission for the specified action.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **#24075 - Permissions shouldn't be created or deleted if the ContentType or…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **`post_migrate` handler ordering isn't guaranteed. Simulate a case where…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **A proxy model's permissions use its own content type rather than the content…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 57](Community_57.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 31](Community_31.md) (5 shared connections)
+- [Community 74](Community_74.md) (5 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_options/models/default_related_name.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_options/test_default_related_name.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (100%)
+- EXTRACTED: 35 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

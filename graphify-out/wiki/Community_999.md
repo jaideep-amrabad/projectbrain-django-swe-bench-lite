@@ -1,28 +1,28 @@
 # Community 999
 
-> 4 nodes · cohesion 0.50
+> 6 nodes · cohesion 0.53
 
 ## Key Concepts
 
-- **SubPostInline** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **PrePopulatedSubPost** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.get_prepopulated_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.get_readonly_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **GetLanguageInfoListTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info_list.py`
+- **setup** (4 connections)
+- **.test_i18n30()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info_list.py`
+- **.test_i18n31()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info_list.py`
+- **.test_i18n38_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info_list.py`
+- **.test_no_for_as()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info_list.py`
 
 ## Relationships
 
-- [Community 66](Community_66.md) (2 shared connections)
-- [Community 89](Community_89.md) (1 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_get_language_info_list.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (83%)
-- INFERRED: 1 (17%)
+- EXTRACTED: 10 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

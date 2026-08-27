@@ -1,58 +1,65 @@
 # Community 250
 
-> 42 nodes · cohesion 0.09
+> 41 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **BaseTests** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.get_storage()** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **add_level_messages()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.get_response()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **get_level()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **.get_existing_storage()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.get_request()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.stored_messages_count()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **override_settings_tags** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_default_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_high_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_low_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_middleware_disabled()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_middleware_disabled_fail_silently()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_settings_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **set_level()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **.test_add_lazy_translation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_add_update()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_custom_tags()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_existing_add_read_update()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_existing_read_add_update()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_no_update()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_existing_read()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_level_tag()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_tags()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- *... and 17 more nodes in this community*
+- **SitemapTestsBase** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/base.py`
+- **sitemaps_tests/base.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/base.py`
+- **_get_sitemap_full_url()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- **sitemaps_tests/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
+- **TestModel** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
+- **test_generic.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
+- **PingGoogleTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
+- **GenericViewsSitemapTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
+- **test_https.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
+- **I18nTestModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
+- **HTTPSDetectionSitemapTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
+- **HTTPSSitemapTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
+- **sitemaps_tests/test_management.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_management.py`
+- **PingGoogleTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_management.py`
+- **.test_get_sitemap_full_url_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
+- **.test_get_sitemap_full_url_no_sites()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
+- **.test_get_sitemap_full_url_not_detected()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
+- **.test_something()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
+- **.get_absolute_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
+- **.test_generic_sitemap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
+- **.test_generic_sitemap_lastmod()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
+- **.test_sitemap_index_with_https_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
+- **.test_sitemap_section_with_https_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
+- **.test_secure_sitemap_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
+- **.test_secure_sitemap_section()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [Community 152](Community_152.md) (6 shared connections)
-- [Community 12](Community_12.md) (5 shared connections)
-- [Community 324](Community_324.md) (4 shared connections)
-- [Community 402](Community_402.md) (4 shared connections)
-- [Community 16](Community_16.md) (4 shared connections)
-- [Community 65](Community_65.md) (2 shared connections)
-- [Community 136](Community_136.md) (2 shared connections)
-- [Community 516](Community_516.md) (1 shared connections)
-- [Community 396](Community_396.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
+- [Community 39](Community_39.md) (9 shared connections)
+- [Community 7](Community_7.md) (9 shared connections)
+- [Community 330](Community_330.md) (6 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 9](Community_9.md) (4 shared connections)
+- [Community 15](Community_15.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 13](Community_13.md) (3 shared connections)
+- [Community 17](Community_17.md) (3 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 41](Community_41.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_https.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_management.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 108 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 110 (96%)
+- INFERRED: 5 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

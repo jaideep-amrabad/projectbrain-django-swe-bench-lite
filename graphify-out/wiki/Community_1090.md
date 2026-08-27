@@ -1,24 +1,28 @@
 # Community 1090
 
-> 2 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.test_redirect_to_strange_location()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **GET a URL that redirects to a non-200 page** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **DerivedM** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **BaseM** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
 
 ## Relationships
 
-- [Community 47](Community_47.md) (1 shared connections)
+- [Community 492](Community_492.md) (2 shared connections)
+- [Community 696](Community_696.md) (1 shared connections)
+- [Community 314](Community_314.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 6 (86%)
+- INFERRED: 1 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

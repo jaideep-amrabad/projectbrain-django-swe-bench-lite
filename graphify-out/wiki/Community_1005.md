@@ -1,23 +1,26 @@
 # Community 1005
 
-> 2 nodes · cohesion 1.00
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **.test_external_redirect_with_fetch_error_msg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **assertRedirects without fetch_redirect_response=False raises a relevant…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **Feed** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **BaseFeed** (1 connections)
+- **.feed_extra_kwargs()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **.item_extra_kwargs()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
+- **This is a subclass of the `Feed` from `django.contrib.syndication`. This allows…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
 
 ## Relationships
 
-- [Community 47](Community_47.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/feeds.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

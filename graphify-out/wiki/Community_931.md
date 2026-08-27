@@ -1,31 +1,35 @@
 # Community 931
 
-> 6 nodes · cohesion 0.53
+> 11 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **empty/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/empty/models.py`
-- **empty/tests.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/empty/tests.py`
-- **Empty** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/empty/models.py`
-- **EmptyModelTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/empty/tests.py`
-- **.test_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/empty/tests.py`
-- **Empty model tests These test that things behave sensibly for the rare corner-…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/empty/models.py`
+- **Point** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.geos()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Return the X coordinate for this Point.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **._create_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **._geos_ptr()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.x()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.y()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.z()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Return a GEOSGeometry object from this OGRGeometry.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Return the tuple of this point.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 44](Community_44.md) (3 shared connections)
+- [Community 33](Community_33.md) (2 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/empty/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/empty/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (92%)
-- INFERRED: 1 (8%)
+- EXTRACTED: 17 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,27 +1,32 @@
 # Community 982
 
-> 5 nodes · cohesion 0.60
+> 6 nodes · cohesion 0.53
 
 ## Key Concepts
 
-- **TruncatecharsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatechars.py`
-- **setup** (3 connections)
-- **.test_fail_silently_incorrect_arg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatechars.py`
-- **.test_truncatechars01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatechars.py`
-- **.test_truncatechars02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatechars.py`
+- **field_subclassing/tests.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
+- **CustomTypedField** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
+- **field_subclassing/fields.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
+- **TestDbType** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
+- **.test_db_parameters_respects_db_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
+- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
 
 ## Relationships
 
 - [Community 0](Community_0.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_truncatechars.py`
+- `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 13 (87%)
+- INFERRED: 2 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

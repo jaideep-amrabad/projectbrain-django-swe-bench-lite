@@ -1,55 +1,47 @@
 # Community 497
 
-> 22 nodes · cohesion 0.13
+> 22 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **Collector** (25 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.collect()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.can_fast_delete()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.delete()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.add()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.get_del_batches()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **._has_signal_listeners()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.related_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **get_candidate_relations_to_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- **.add_field_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.instances_with_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.sort()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **.test_fast_delete_instance_set_pk_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **Schedule a field update. 'objs' must be a homogeneous iterable collection of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **Determine if the objects in the given queryset-like or single object can be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **Return the objs in suitably sized batches for the used connection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **Add 'objs' to the collection of objects to be deleted as well as all parent…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **Get a QuerySet of objects related to `objs` via the relation `related`.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- **Add 'objs' to the collection of objects to be deleted. If the call is the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **TestIterModulesAndFiles** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.assertFileFound()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.temporary_file()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_bytecode_conversion_to_source()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_check_errors()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_check_errors_catches_all_exceptions()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_file_added()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_zip_reload()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.import_and_cleanup()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.clear_autoreload_caches()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.assertFileNotFound()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_main_module_is_resolved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_weakref_in_sys_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **Modules imported from zipped files have their archive location included in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.pyc and .pyo files are included in the files list.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **iter_all_python_module_file() ignores weakref modules.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **When a file is added, it's returned by iter_all_python_module_files().** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **When a file containing an error is imported in a function wrapped by…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **Since Python may raise arbitrary exceptions when importing code, check_errors()…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_main_module_without_file_is_not_resolved()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_module_without_spec()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_paths_are_pathlib_instances()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Relationships
 
-- [Community 33](Community_33.md) (3 shared connections)
-- [Community 155](Community_155.md) (3 shared connections)
-- [Community 21](Community_21.md) (2 shared connections)
-- [Community 62](Community_62.md) (2 shared connections)
-- [Community 125](Community_125.md) (2 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
-- [Community 392](Community_392.md) (1 shared connections)
-- [Community 108](Community_108.md) (1 shared connections)
-- [Community 583](Community_583.md) (1 shared connections)
-- [Community 40](Community_40.md) (1 shared connections)
+- [Community 303](Community_303.md) (5 shared connections)
+- [Community 296](Community_296.md) (3 shared connections)
+- [Community 326](Community_326.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
-- `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (88%)
-- INFERRED: 6 (12%)
+- EXTRACTED: 44 (94%)
+- INFERRED: 3 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

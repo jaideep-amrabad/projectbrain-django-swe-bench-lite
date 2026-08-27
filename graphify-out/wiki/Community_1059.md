@@ -1,25 +1,27 @@
 # Community 1059
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **UseMultipleObjectMixinTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_overwrite_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_use_queryset_from_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.construct_managers()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **.render()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **Deep-clone the managers using deconstruction.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **Create a Model object from our current state into the given apps.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
 
 ## Relationships
 
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 25](Community_25.md) (2 shared connections)
+- [Community 406](Community_406.md) (1 shared connections)
+- [Community 572](Community_572.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

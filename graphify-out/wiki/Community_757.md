@@ -1,37 +1,38 @@
 # Community 757
 
-> 11 nodes · cohesion 0.25
+> 12 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **join()** (10 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **internalStart()** (5 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **sourceFromStacktrace()** (5 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **createModule()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **generateHash()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **internalStop()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **Test()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **extend()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **extractStacktrace()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **internalRecover()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **array()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **ProxyRelatedModelTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **ForProxyModelModel** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- **.test_default_behavior()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_proxy_is_returned()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_works_normally()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_generic_relation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_generic_relation_set()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_query()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_query_proxy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **The default for for_concrete_model should be True** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **When for_concrete_model is False, we should still be able to get an instance of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **Instances of the proxy should be returned when for_concrete_model is False.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
 
 ## Relationships
 
-- [Community 313](Community_313.md) (13 shared connections)
-- [Community 821](Community_821.md) (2 shared connections)
-- [Community 731](Community_731.md) (2 shared connections)
-- [Community 643](Community_643.md) (1 shared connections)
-- [Community 522](Community_522.md) (1 shared connections)
+- [Community 74](Community_74.md) (8 shared connections)
+- [Community 84](Community_84.md) (1 shared connections)
+- [Community 541](Community_541.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- `raw/code/hyd-evaluation/django-django/tests/generic_relations/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 22 (79%)
+- INFERRED: 6 (21%)
 - AMBIGUOUS: 0 (0%)
 
 ---

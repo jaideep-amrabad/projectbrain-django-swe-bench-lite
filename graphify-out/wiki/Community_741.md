@@ -1,37 +1,35 @@
 # Community 741
 
-> 12 nodes · cohesion 0.24
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **Meta** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **OtherPerson** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **UserProxy** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **MultiUserProxy** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **User** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **Abstract** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **UserProxyProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **AnotherUserProxy** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **ManagerMixin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **A simple abstract base class, to be used for error checking.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **A class with the default manager from Person, plus a secondary manager.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **Reference** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.references_column()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.references_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.rename_column_references()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.rename_table_references()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **Return whether or not this instance references the specified table.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **Return whether or not this instance references the specified column.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **Rename all references to the old_name to the new_table.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **Rename all references to the old_column to the new_column.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **Base class that defines the reference interface.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
 
 ## Relationships
 
-- [Community 473](Community_473.md) (18 shared connections)
-- [Community 303](Community_303.md) (6 shared connections)
-- [Community 834](Community_834.md) (2 shared connections)
-- [Community 1025](Community_1025.md) (2 shared connections)
+- [Community 349](Community_349.md) (2 shared connections)
+- [Community 279](Community_279.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/ddl_references.py`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (86%)
-- INFERRED: 6 (14%)
+- EXTRACTED: 14 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

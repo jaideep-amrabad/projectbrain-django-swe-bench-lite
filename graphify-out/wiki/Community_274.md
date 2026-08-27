@@ -1,56 +1,53 @@
 # Community 274
 
-> 40 nodes · cohesion 0.07
+> 38 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **update/tests.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **AdvancedTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **update/models.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **SimpleTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **D** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **DataPoint** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **RelatedPoint** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **A** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **B** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **Bar** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **Foo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **Update changes the right number of rows for a nonempty queryset** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **C** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- **.test_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **.test_update_all()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **.test_update_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **.test_update_multiple_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **.test_update_multiple_objects()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **.test_update_respects_to_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **.test_update_slice_fail()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **.test_empty_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **.test_empty_update_with_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **.test_foreign_key_update_with_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **.test_nonempty_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- **.test_nonempty_update_with_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
-- *... and 15 more nodes in this community*
+- **DatabaseCreation** (41 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_settings_get()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._get_test_db_params()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._create_test_db()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._destroy_test_db()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_user_create()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._create_test_user()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._destroy_test_user()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._execute_allow_fail_statements()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._execute_statements()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._execute_test_db_destruction()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._handle_objects_preventing_db_destruction()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_passwd()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._execute_test_db_creation()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_create()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_tblspace()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_tblspace_datafile()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_tblspace_tmp_datafile()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_user()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._switch_to_test_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_oracle_managed_files()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_tblspace_extsize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_tblspace_maxsize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **._test_database_tblspace_size()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Community 51](Community_51.md) (5 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 229](Community_229.md) (2 shared connections)
-- [Community 42](Community_42.md) (2 shared connections)
-- [Community 57](Community_57.md) (1 shared connections)
-- [Community 25](Community_25.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 753](Community_753.md) (3 shared connections)
+- [Community 407](Community_407.md) (2 shared connections)
+- [Community 273](Community_273.md) (1 shared connections)
+- [Community 210](Community_210.md) (1 shared connections)
+- [Community 406](Community_406.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/update/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/update/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
 
 ## Audit Trail
 
-- EXTRACTED: 65 (90%)
-- INFERRED: 7 (10%)
+- EXTRACTED: 103 (97%)
+- INFERRED: 3 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

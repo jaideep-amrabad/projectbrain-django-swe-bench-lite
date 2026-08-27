@@ -1,60 +1,63 @@
 # Community 43
 
-> 153 nodes · cohesion 0.04
+> 114 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **AutodetectorTests** (132 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.get_changes()** (109 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.assertOperationTypes()** (100 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.assertNumberMigrations()** (98 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.assertOperationAttributes()** (83 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **ModelState** (61 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.assertOperationFieldAttributes()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_circular_dependency_swappable()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_circular_dependency_swappable2()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_circular_dependency_swappable_self()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **patch** (9 connections)
-- **.test_alter_field_to_not_null_oneoff_default()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_alter_field_to_not_null_with_default()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_alter_field_to_not_null_without_default()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_rename_field_preserved_db_column()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_rename_model_with_fks_in_different_position()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_swappable_first_setting()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_add_blank_textfield_and_charfield()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_add_many_to_many()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_add_non_blank_textfield_and_charfield()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_many_to_many_changed_to_concrete_field()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_multiple_bases()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_rename_field_and_foo_together()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_rename_field_foreign_key_to_field()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_rename_foreign_object_fields()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- *... and 128 more nodes in this community*
+- **admin_widgets/tests.py** (63 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **admin_widgets/models.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **widgetadmin.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/widgetadmin.py`
+- **ForeignKeyRawIdWidgetTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **Band** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **AdminForeignKeyRawIdWidget** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **HorizontalVerticalFilterSeleniumTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **AdminFileWidgetTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **AdminWidgetSeleniumTestCase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **ManyToManyRawIdWidgetTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **Member** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **DateTimePickerSeleniumTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **TestDataMixin** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **Advisor** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **Bee** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **Car** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **AdminForeignKeyWidgetChangeList** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **AdminRawIdWidgetSeleniumTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **DateTimePickerShortcutsSeleniumTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **Individual** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **Inventory** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **Profile** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **School** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **Student** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- **AdminFormfieldForDBFieldWithRequestTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- *... and 89 more nodes in this community*
 
 ## Relationships
 
-- [Community 453](Community_453.md) (57 shared connections)
-- [Community 208](Community_208.md) (37 shared connections)
-- [Community 141](Community_141.md) (17 shared connections)
-- [Community 829](Community_829.md) (17 shared connections)
-- [Community 59](Community_59.md) (13 shared connections)
-- [Community 248](Community_248.md) (10 shared connections)
-- [Community 76](Community_76.md) (8 shared connections)
-- [Community 29](Community_29.md) (5 shared connections)
-- [Community 12](Community_12.md) (5 shared connections)
-- [Community 23](Community_23.md) (3 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 910](Community_910.md) (2 shared connections)
+- [Community 15](Community_15.md) (18 shared connections)
+- [Community 1](Community_1.md) (10 shared connections)
+- [Community 7](Community_7.md) (10 shared connections)
+- [Community 517](Community_517.md) (9 shared connections)
+- [Community 339](Community_339.md) (7 shared connections)
+- [Community 41](Community_41.md) (7 shared connections)
+- [Community 8](Community_8.md) (6 shared connections)
+- [Community 17](Community_17.md) (5 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 179](Community_179.md) (3 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 297](Community_297.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/widgetadmin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 666 (98%)
-- INFERRED: 15 (2%)
+- EXTRACTED: 231 (88%)
+- INFERRED: 33 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

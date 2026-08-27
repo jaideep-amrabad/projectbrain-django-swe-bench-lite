@@ -1,55 +1,57 @@
 # Community 116
 
-> 73 nodes · cohesion 0.04
+> 67 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **FixtureLoadingTests** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **fixtures/models.py** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **._dumpdata_assert()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **Article** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Category** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Person** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **ProxySpy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Spy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **Tag** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **FixtureTransactionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **SubclassTestCaseFixtureLoadingTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **TestCaseFixtureLoadingTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **Visa** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **DumpDataAssertMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **Book** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **PersonManager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **PrimaryKeyUUIDModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **SpyManager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.test_dumpdata_proxy_with_concrete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_dumpdata_proxy_without_concrete()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_format_discovery()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **Blog** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- **.test_dumpdata_progressbar()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_dumpdata_with_excludes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- *... and 48 more nodes in this community*
+- **delete_regress/tests.py** (44 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- **delete_regress/models.py** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **DeleteCascadeTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- **ProxyDeleteTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- **DeleteCascadeTransactionTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- **DeleteTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- **.create_image()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- **Image** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **DeleteLockingTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- **FooFile** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **FooFileProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **Photo** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **Award** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **Book** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **Contact** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **Email** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **File** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **FooImage** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **FooPhoto** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **OrderedPerson** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **Researcher** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **LargeDeleteTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- **.test_delete_proxy_of_proxy()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- *... and 42 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (17 shared connections)
-- [Community 40](Community_40.md) (4 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 307](Community_307.md) (1 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
+- [Community 28](Community_28.md) (5 shared connections)
+- [Community 41](Community_41.md) (5 shared connections)
+- [Community 84](Community_84.md) (4 shared connections)
+- [Community 74](Community_74.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 13](Community_13.md) (3 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 165](Community_165.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 112 (90%)
-- INFERRED: 12 (10%)
+- EXTRACTED: 131 (80%)
+- INFERRED: 33 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

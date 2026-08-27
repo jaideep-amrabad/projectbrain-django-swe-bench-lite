@@ -1,62 +1,59 @@
 # Community 99
 
-> 81 nodes · cohesion 0.03
+> 74 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **LookupTests** (51 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **lookup/tests.py** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **lookup/models.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **lookup/test_decimalfield.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_decimalfield.py`
-- **DecimalFieldLookupTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_decimalfield.py`
-- **Article** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **TimeFieldLookupTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_timefield.py`
-- **Author** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **IsNullWithNoneAsRHS** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **lookup/test_timefield.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_timefield.py`
-- **Alarm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **Game** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **Player** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **Season** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **Tag** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **Product** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **Stock** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **.setUpTestData()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_decimalfield.py`
-- **.test_exact_exists()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **.test_exclude()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **.test_nested_outerref_lhs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **.test_regex_backreferencing()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
-- **NulledTextField** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- **NulledTransform** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- *... and 56 more nodes in this community*
+- **BaseDatabaseOperations** (88 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.window_frame_rows_start_end()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.combine_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.limit_offset_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.adapt_ipaddressfield_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.binary_placeholder_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.cache_key_culling_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.combine_duration_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.date_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.datetime_cast_date_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.datetime_cast_time_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.datetime_extract_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.datetime_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.end_transaction_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.execute_sql_flush()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.explain_query_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.fetch_returned_insert_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.for_update_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.force_no_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.get_db_converters()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **._get_limit_offset_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.last_insert_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.lookup_cast()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.max_name_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.modify_insert_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- *... and 49 more nodes in this community*
 
 ## Relationships
 
-- [Community 25](Community_25.md) (11 shared connections)
-- [Community 51](Community_51.md) (8 shared connections)
-- [Community 72](Community_72.md) (6 shared connections)
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 67](Community_67.md) (3 shared connections)
-- [Community 57](Community_57.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 38](Community_38.md) (3 shared connections)
-- [Community 70](Community_70.md) (2 shared connections)
-- [Community 50](Community_50.md) (2 shared connections)
-- [Community 229](Community_229.md) (2 shared connections)
-- [Community 93](Community_93.md) (1 shared connections)
+- [Community 0](Community_0.md) (7 shared connections)
+- [Community 712](Community_712.md) (7 shared connections)
+- [Community 882](Community_882.md) (4 shared connections)
+- [Community 1008](Community_1008.md) (3 shared connections)
+- [Community 317](Community_317.md) (2 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
+- [Community 1107](Community_1107.md) (2 shared connections)
+- [Community 61](Community_61.md) (1 shared connections)
+- [Community 396](Community_396.md) (1 shared connections)
+- [Community 311](Community_311.md) (1 shared connections)
+- [Community 123](Community_123.md) (1 shared connections)
+- [Community 275](Community_275.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/lookup/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/lookup/test_decimalfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/lookup/test_timefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 139 (89%)
-- INFERRED: 18 (11%)
+- EXTRACTED: 127 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

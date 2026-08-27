@@ -1,61 +1,53 @@
 # Community 169
 
-> 57 nodes · cohesion 0.06
+> 52 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **FilteredRelation** (45 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **FilteredRelationTests** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
-- **filtered_relation/tests.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
-- **filtered_relation/models.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
-- **FilteredRelationAggregationTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
-- **Author** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
-- **Book** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
-- **Editor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
-- **Borrower** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
-- **RentalSession** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
-- **Reservation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
-- **.test_difference()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
-- **.test_intersection()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
-- **.test_union()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
-- **.test_as_subquery()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
-- **.test_defer()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
-- **.test_exclude_relation_with_join()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
-- **.test_extra()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
-- **.test_internal_queryset_alias_mapping()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
-- **.test_multiple_times()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
-- **.test_only_not_supported()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
-- **.test_select_for_update()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
-- **.test_select_related_foreign_key_for_update_of()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
-- **.test_select_related_with_empty_relation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
-- **.test_values()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
-- *... and 32 more nodes in this community*
+- **CreatesuperuserManagementCommandTestCase** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **mock_inputs()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **MockTTY** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_default_username()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_keyboard_interrupt()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_swappable_user()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_swappable_user_missing_required_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_input_not_found()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_basic_usage()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_environment_variable_non_interactive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_existing_username()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_existing_username_non_interactive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_existing_username_provided_via_option_and_interactive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_fields_with_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_fields_with_fk_interactive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_ignore_environment_variable_interactive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_ignore_environment_variable_non_interactive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_invalid_username()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_non_ascii_verbose_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_password_validation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_password_validation_bypass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_skip_if_not_in_TTY()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_swappable_user_username_non_unique()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_usermodel_without_password_interactive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_validate_password_against_required_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- *... and 27 more nodes in this community*
 
 ## Relationships
 
-- [Community 104](Community_104.md) (28 shared connections)
-- [Community 37](Community_37.md) (6 shared connections)
-- [Community 40](Community_40.md) (6 shared connections)
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 38](Community_38.md) (5 shared connections)
-- [Community 51](Community_51.md) (3 shared connections)
-- [Community 189](Community_189.md) (2 shared connections)
-- [Community 392](Community_392.md) (1 shared connections)
-- [Community 57](Community_57.md) (1 shared connections)
-- [Community 62](Community_62.md) (1 shared connections)
-- [Community 307](Community_307.md) (1 shared connections)
-- [Community 25](Community_25.md) (1 shared connections)
+- [Community 6](Community_6.md) (13 shared connections)
+- [Community 7](Community_7.md) (10 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 41](Community_41.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 550](Community_550.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/filtered_relation/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/filtered_relation/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
 
 ## Audit Trail
 
-- EXTRACTED: 125 (76%)
-- INFERRED: 39 (24%)
+- EXTRACTED: 102 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

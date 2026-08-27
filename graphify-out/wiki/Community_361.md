@@ -1,47 +1,56 @@
 # Community 361
 
-> 16 nodes · cohesion 0.16
+> 30 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **AdminEmailHandler** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **ServerFormatter** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **.emit()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **LogFormattersTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.format_subject()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **.send_mail()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **.format()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **.test_custom_exception_reporter_is_used()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **.copy()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.uses_server_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **.test_server_formatter_styles()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
-- **Escape CR and LF characters.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **An exception log handler that emails log entries to site admins. If the request…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- **.test_server_formatter_default_format()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **DatabaseIntrospection** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **sqlite3/introspection.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **spatialite/introspection.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/introspection.py`
+- **SpatiaLiteIntrospection** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/introspection.py`
+- **.get_constraints()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **.get_primary_key_column()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **.get_table_description()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **FlexibleFieldLookupDict** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **GeoFlexibleFieldLookupDict** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/introspection.py`
+- **._parse_table_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **get_field_size()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **.get_geometry_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/introspection.py`
+- **._get_foreign_key_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **.get_key_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **.get_relations()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **.get_sequences()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **.get_table_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **._parse_column_or_constraint_definition()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **DatabaseIntrospection** (1 connections)
+- **Subclass that includes updates the `base_data_types_reverse` dict for geometry…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/introspection.py`
+- **.get_constraints()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/introspection.py`
+- **.get_field_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **Return a list of (column_name, referenced_table_name, referenced_column_name)…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **Extract the size number from a "varchar(11)" type name** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 20](Community_20.md) (5 shared connections)
-- [Community 785](Community_785.md) (2 shared connections)
-- [Community 477](Community_477.md) (1 shared connections)
-- [Community 159](Community_159.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 608](Community_608.md) (1 shared connections)
+- [Community 45](Community_45.md) (4 shared connections)
+- [Community 44](Community_44.md) (3 shared connections)
+- [Community 195](Community_195.md) (2 shared connections)
+- [Community 331](Community_331.md) (2 shared connections)
+- [Community 95](Community_95.md) (1 shared connections)
+- [Community 175](Community_175.md) (1 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
+- [Community 446](Community_446.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/log.py`
-- `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/introspection.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 52 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

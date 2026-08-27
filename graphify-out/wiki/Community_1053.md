@@ -1,25 +1,27 @@
 # Community 1053
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **FixtureTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/tests.py`
-- **.test_loaddata()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/tests.py`
-- **Fixtures can load data into models defined in packages** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/tests.py`
+- **._setup()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__getattr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **Load the settings module pointed to by the environment variable. This is used…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **Return the value of a setting and cache it in self.__dict__.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
+- [Community 704](Community_704.md) (2 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 770](Community_770.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,36 +1,43 @@
 # Community 731
 
-> 12 nodes · cohesion 0.20
+> 19 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **appendInterface()** (8 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **escapeText()** (8 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **appendFilteredTest()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **appendTest()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **appendHeader()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **.diffPrettyHtml()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **getNameHtml()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **moduleListHtml()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **appendBanner()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **appendTestResults()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **appendTestsList()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **appendUserAgent()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **LengthIsTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **setup** (11 connections)
+- **test_length_is.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **length_is()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **FunctionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **.test_empty_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **.test_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **.test_length_is01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **.test_length_is02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **.test_length_is03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **.test_length_is04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **.test_length_is05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **.test_length_is06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **.test_length_is07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **.test_length_is08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **.test_length_is09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **.test_length_is10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **.test_length_is11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
+- **Return a boolean of whether the value's length is the argument.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 
 ## Relationships
 
-- [Community 313](Community_313.md) (11 shared connections)
-- [Community 522](Community_522.md) (4 shared connections)
-- [Community 757](Community_757.md) (2 shared connections)
-- [Community 643](Community_643.md) (1 shared connections)
+- [Community 8](Community_8.md) (5 shared connections)
+- [Community 29](Community_29.md) (3 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_length_is.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (100%)
+- EXTRACTED: 39 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

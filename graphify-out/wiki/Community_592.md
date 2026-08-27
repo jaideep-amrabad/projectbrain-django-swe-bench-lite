@@ -1,41 +1,42 @@
 # Community 592
 
-> 17 nodes · cohesion 0.12
+> 18 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **DataSourceTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
-- **.test01_valid_shp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
-- **.test02_invalid_shp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
-- **.test03a_layers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
-- **.test03b_layer_slice()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
-- **.test04_features()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
-- **.test05_geometries()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
-- **.test07_integer_overflow()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
-- **.test03c_layer_references()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
-- **Testing valid SHP Data Source files.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
-- **Testing invalid SHP files for the Data Source.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
-- **Testing Data Source Layers.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
-- **Test indexing and slicing on Layers.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
-- **Ensure OGR objects keep references to the objects they belong to.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
-- **Testing Data Source Features.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
-- **Testing Geometries from Data Source Features.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
-- **Testing that OFTReal fields, treated as OFTInteger, do not overflow.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
+- **FakeSMTPServer** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **SMTPBackendStoppedServerTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **SMTPBackendTestsBase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.setUpClass()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_fail_silently_on_connection_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_server_stopped()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.flush_sink()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.get_sink()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.process_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.run()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.stop()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **Asyncore SMTP server wrapped into a thread. Based on DummyFTPServer from:…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **These tests require a separate class, because the FakeSMTPServer is shut down…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **Closing the backend while the SMTP server is stopped doesn't raise an exception.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **A socket connection error is silenced with fail_silently=True.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.tearDownClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Relationships
 
-- [Community 56](Community_56.md) (7 shared connections)
-- [Community 151](Community_151.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 31](Community_31.md) (1 shared connections)
+- [Community 256](Community_256.md) (3 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 136](Community_136.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 25 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

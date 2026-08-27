@@ -1,51 +1,61 @@
 # Community 205
 
-> 49 nodes · cohesion 0.06
+> 36 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **SecurityMiddlewareTest** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.process_response()** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.process_request()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_content_type_already_present()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_content_type_off()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_content_type_on()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_no_redirect_ssl()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_redirect_exempt()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_redirect_ssl_host()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_referrer_policy_already_present()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_referrer_policy_off()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_referrer_policy_on()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_ssl_redirect_off()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_ssl_redirect_on()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_sts_already_present()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_sts_include_subdomains()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_sts_no_include_subdomains()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_sts_no_preload()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_sts_off()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_sts_on()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_sts_only_if_secure()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_sts_preload()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_sts_subdomains_and_preload()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_xss_filter_already_present()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- **.test_xss_filter_off()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
-- *... and 24 more nodes in this community*
+- **WhereNode** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- **NothingNode** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- **WhereNodeTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.c()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.test_empty_full_handling_conjunction()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_empty_full_handling_disjunction()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.count()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.clone()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- **DummyNode** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_empty_nodes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **MockCompiler** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.compile()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.as_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- **._contains_aggregate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- **._contains_over_clause()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- **.relabel_aliases()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- **.relabeled_clone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- **.resolve_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- **._resolve_node()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- **._resolve_rhs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- **.split_having()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- **Return the total number of objects, across all pages.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- **Relabel the alias values of any children. 'change_map' is a dictionary mapping…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- **Create a clone of the tree. Must only be called on root nodes (nodes with empty…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [Community 12](Community_12.md) (23 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 20](Community_20.md) (2 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
+- [Community 96](Community_96.md) (5 shared connections)
+- [Community 14](Community_14.md) (5 shared connections)
+- [Community 45](Community_45.md) (4 shared connections)
+- [Community 19](Community_19.md) (3 shared connections)
+- [Community 10](Community_10.md) (3 shared connections)
+- [Community 68](Community_68.md) (1 shared connections)
+- [Community 569](Community_569.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 252](Community_252.md) (1 shared connections)
+- [Community 136](Community_136.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/middleware/test_security.py`
+- `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 101 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 57 (78%)
+- INFERRED: 16 (22%)
 - AMBIGUOUS: 0 (0%)
 
 ---

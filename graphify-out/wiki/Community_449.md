@@ -1,60 +1,54 @@
 # Community 449
 
-> 47 nodes · cohesion 0.07
+> 24 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **ChangeListTests** (92 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **._create_superuser()** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **ConcertAdmin** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **._mocked_authenticated_request()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **SwallowAdmin** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **.test_dynamic_list_display_links()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_no_list_display_links()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **DynamicSearchFieldsChildAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **InvitationAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **.test_dynamic_list_display()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_dynamic_list_filter()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_object_tools_displayed_no_add_permission()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_total_ordering_optimization()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **NoListDisplayLinksParentAdmin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **.test_dynamic_search_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_get_edited_object_ids()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_get_list_editable_queryset()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_multiuser_edit()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_tuple_list_display()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_changelist_search_form_validation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_computed_list_display_localization()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_custom_lookup_in_search_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_deterministic_order_for_model_ordered_by_its_manager()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_deterministic_order_for_unordered_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_distinct_for_many_to_many_at_second_level_in_search_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- *... and 22 more nodes in this community*
+- **SelectDateWidgetTest** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **SelectDateWidget** (16 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.id_for_label()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **._parse_date_fmt()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.value_from_datadict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.test_custom_input_format()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **.test_l10n()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **.test_years_rendered_without_separator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **.value_omitted_from_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.test_custom_months()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **.test_render_invalid_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **.test_render_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **.test_selectdate_empty_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **.test_selectdate_required_placeholder()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **A widget that splits date input into three <select> boxes. This also serves as…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **Invalid dates should still render the failed date.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **Rendering the None or '' values should yield the same output.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **.test_format_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **.test_render_datetime()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **.test_render_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **.test_render_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **.test_selectdate_required()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **.test_value_from_datadict()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **.test_value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
 
 ## Relationships
 
-- [Community 79](Community_79.md) (37 shared connections)
-- [Community 368](Community_368.md) (14 shared connections)
-- [Community 667](Community_667.md) (8 shared connections)
-- [Community 16](Community_16.md) (6 shared connections)
-- [Community 35](Community_35.md) (3 shared connections)
-- [Community 900](Community_900.md) (3 shared connections)
-- [Community 25](Community_25.md) (3 shared connections)
-- [Community 785](Community_785.md) (2 shared connections)
-- [Community 822](Community_822.md) (2 shared connections)
-- [Community 152](Community_152.md) (2 shared connections)
-- [Community 70](Community_70.md) (2 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
+- [Community 324](Community_324.md) (6 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 291](Community_291.md) (2 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 577](Community_577.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 240](Community_240.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
 
 ## Audit Trail
 
-- EXTRACTED: 127 (76%)
-- INFERRED: 41 (24%)
+- EXTRACTED: 40 (87%)
+- INFERRED: 6 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,33 +1,36 @@
 # Community 787
 
-> 10 nodes · cohesion 0.31
+> 11 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **PostgreSqlDbshellCommandTestCase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
-- **._run_it()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
-- **.test_accent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
-- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
-- **.test_column()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
-- **.test_nopass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
-- **.test_sigint_handler()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
-- **.test_ssl_certificate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
-- **SIGINT is ignored in Python and passed to psql to abort queries.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
-- **That function invokes the runshell command, while mocking subprocess.run(). It…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **IsolationLevelTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.get_isolation_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **get_connection()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.test_connect_isolation_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.test_default_isolation_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.test_setting_isolation_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.test_uppercase_isolation_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.test_auto_is_null_auto_config()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **.test_isolation_level_validation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
+- **skipUnless** (1 connections)
 
 ## Relationships
 
-- [Community 930](Community_930.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/mysql/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 20 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

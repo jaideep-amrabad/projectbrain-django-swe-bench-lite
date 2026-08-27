@@ -1,39 +1,42 @@
 # Community 667
 
-> 12 nodes · cohesion 0.17
+> 15 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **pagination()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
-- **GroupAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **ChordsBandAdmin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **QuartetAdmin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **.test_pagination_page_range()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **Regression test for #13902: When using a ManyToMany in list_filter, results…** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_distinct_for_inherited_m2m_in_list_filter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_distinct_for_m2m_in_list_filter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_distinct_for_m2m_to_inherited_in_list_filter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_distinct_for_through_m2m_in_list_filter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **Generate the series of links to the pages in a paginated list.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
-- **Regression tests for ticket #15653: ensure the number of pages generated for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- **DateFieldTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **GetDate** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_l10n_date_changed()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_form_label_association()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_l10n_invalid_date_in()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_datefield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_datefield_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_datefield_strptime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_form_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_datefield_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_datefield_4()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_datefield_5()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **.test_datefield_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **field.strptime() doesn't raise a UnicodeEncodeError (#16123)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **DateField.has_changed() with SelectDateWidget works with a localized date…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
 
 ## Relationships
 
-- [Community 449](Community_449.md) (8 shared connections)
-- [Community 79](Community_79.md) (7 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 35](Community_35.md) (1 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 26](Community_26.md) (2 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 300](Community_300.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (86%)
-- INFERRED: 4 (14%)
+- EXTRACTED: 24 (89%)
+- INFERRED: 3 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

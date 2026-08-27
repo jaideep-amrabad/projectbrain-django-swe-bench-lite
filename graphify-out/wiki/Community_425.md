@@ -1,49 +1,53 @@
 # Community 425
 
-> 27 nodes · cohesion 0.13
+> 26 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **AutoescapeTagTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **setup** (19 connections)
-- **.test_autoescape_filtertag01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_ifequal01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_literals01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_lookup01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_stringiterations01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_tag06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_tag07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_tag08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_tag09()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_tag10()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_filters01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_filters02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_tag01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_tag02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_tag03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_tag04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_autoescape_tag05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_invalid_arg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **.test_no_arg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **Literal strings are safe.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **Iterating over strings outputs safe characters.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **Escape requirement survives lookup.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- **Literal string arguments to filters, if used in the result, are safe.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
-- *... and 2 more nodes in this community*
+- **SignalTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **LazyModelRefTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **Person** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
+- **Book** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
+- **BaseSignalSetup** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.receiver()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.test_disconnect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.test_register_model_class_senders_immediately()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.test_already_loaded_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.test_not_loaded_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.test_decorators()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.test_delete_signals()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.test_disconnect_in_dispatch()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.test_lazy_model_signal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.test_model_pre_init_and_post_init()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.test_save_signals()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **.test_invalid_sender_model_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **patch** (1 connections)
+- **Signals that disconnect when being called don't mess future dispatching.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- **Model signals registered with model classes as senders don't use the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
+- [Community 320](Community_320.md) (9 shared connections)
+- [Community 55](Community_55.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 40 (85%)
+- INFERRED: 7 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

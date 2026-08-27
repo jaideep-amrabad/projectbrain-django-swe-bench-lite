@@ -1,40 +1,41 @@
 # Community 700
 
-> 13 nodes · cohesion 0.26
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **field_subclassing/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
-- **field_subclassing/fields.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
-- **CustomDeferredAttribute** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
-- **CustomTypedField** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
-- **CustomDescriptorField** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
-- **DescriptorClassTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
-- **TestDbType** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
-- **._count_call()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
-- **.test_db_parameters_respects_db_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
-- **.__get__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
-- **.__set__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
-- **.test_descriptor_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
-- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
+- **CreateDefaultSiteTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_custom_site_id()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_multi_db_with_router()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_no_site_id()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_unavailable_site_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_multi_db()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_signal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **#16353, #16828 - The default site creation should respect db routing.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **#23641 - Sending the ``post_migrate`` signal triggers creation of the default…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **#23945 - The configured ``SITE_ID`` should be respected.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **#24488 - The pk should default to 1 if no ``SITE_ID`` is configured.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **#24075 - A Site shouldn't be created if the model isn't available.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 85](Community_85.md) (2 shared connections)
-- [Community 57](Community_57.md) (1 shared connections)
-- [Community 785](Community_785.md) (1 shared connections)
+- [Community 4](Community_4.md) (7 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 55](Community_55.md) (2 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/field_subclassing/fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (91%)
-- INFERRED: 3 (9%)
+- EXTRACTED: 27 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

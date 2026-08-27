@@ -1,62 +1,63 @@
 # Community 485
 
-> 72 nodes · cohesion 0.04
+> 29 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **ContentFile** (59 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
-- **file_storage/tests.py** (45 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **FileFieldStorageTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **Storage** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
-- **file_storage/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
-- **FileStoragePermissions** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **FileSaveRaceConditionTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **FileStoragePathParsing** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **ContentFileTestCase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **.test_extended_length_storage()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **ContentFileStorageTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_custom_valid_name_callable_upload_to()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_file_upload_default_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_file_upload_directory_default_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_file_upload_directory_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_file_upload_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **SlowFile** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_content_saving()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **CustomStorageTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **._storage_max_filename_length()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_duplicate_filename()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_empty_upload_to()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_file_truncation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **.test_filefield_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- *... and 47 more nodes in this community*
+- **admin_utils/tests.py** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **admin_utils/models.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/models.py`
+- **Article** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/models.py`
+- **admin_utils/admin.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/admin.py`
+- **flatten()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **Site** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/models.py`
+- **ArticleProxy** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/models.py`
+- **ArticleAdminForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/admin.py`
+- **Car** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/models.py`
+- **Event** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/models.py`
+- **Vehicle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/models.py`
+- **VehicleMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/models.py`
+- **EventGuide** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/models.py`
+- **Location** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/models.py`
+- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/models.py`
+- **ArticleInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/admin.py`
+- **Guest** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/models.py`
+- **.test_flatten()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- **admin_utils/urls.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/urls.py`
+- **Return a list which is a single level of flattening of the original list.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **.changed_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/admin.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/admin.py`
+- **SiteAdmin** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/admin.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/models.py`
+- **.test_from_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/models.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 264](Community_264.md) (16 shared connections)
-- [Community 237](Community_237.md) (15 shared connections)
-- [Community 3](Community_3.md) (9 shared connections)
-- [Community 20](Community_20.md) (6 shared connections)
-- [Community 161](Community_161.md) (6 shared connections)
-- [Community 12](Community_12.md) (5 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 548](Community_548.md) (3 shared connections)
+- [Community 238](Community_238.md) (13 shared connections)
+- [Community 45](Community_45.md) (8 shared connections)
+- [Community 429](Community_429.md) (6 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
 - [Community 4](Community_4.md) (3 shared connections)
-- [Community 496](Community_496.md) (2 shared connections)
-- [Community 44](Community_44.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 218](Community_218.md) (3 shared connections)
+- [Community 171](Community_171.md) (2 shared connections)
+- [Community 31](Community_31.md) (2 shared connections)
+- [Community 26](Community_26.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_storage/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_utils/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_utils/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_utils/urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 197 (98%)
-- INFERRED: 3 (2%)
+- EXTRACTED: 91 (88%)
+- INFERRED: 13 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

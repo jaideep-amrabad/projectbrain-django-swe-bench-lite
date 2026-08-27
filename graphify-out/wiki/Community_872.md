@@ -1,32 +1,31 @@
 # Community 872
 
-> 8 nodes · cohesion 0.46
+> 9 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **DiscoverRunnerGetDatabasesTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.get_databases()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_all()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_default_and_other()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_default_only()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_mixed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_no_databases_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
-- **.test_other_only()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **PathNotImplementedStorage** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **NeverCopyRemoteStorage** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **._path()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **.exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **.listdir()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **.get_modified_time()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **._save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
+- **Return a future modified time for all files so that nothing is collected.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 216](Community_216.md) (1 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/storage.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 13 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

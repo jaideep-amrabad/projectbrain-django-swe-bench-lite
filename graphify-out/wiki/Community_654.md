@@ -1,37 +1,43 @@
 # Community 654
 
-> 12 nodes · cohesion 0.17
+> 15 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **NoYamlSerializerTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **.test_serializer_pyyaml_error_message()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **.tearDownClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **.test_deserializer_pyyaml_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **.test_dumpdata_pyyaml_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **Not having pyyaml installed provides a misleading error Refs: #12756** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **Removes imported yaml and stubs importlib.import_module** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **Puts yaml back if necessary** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **Using yaml serializer without pyyaml raises ImportError** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **Using yaml deserializer without pyyaml raises ImportError** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
-- **Calling dumpdata produces an error when yaml package missing** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **DatabaseCreation** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
+- **DatabaseCreationTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
+- **.test_create_test_db_database_exists()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
+- **.test_create_test_db_unexpected_error()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
+- **._clone_test_db()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
+- **.patch_test_db_creation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
+- **.test_clone_test_db_database_exists()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
+- **.test_clone_test_db_options_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
+- **._clone_db()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
+- **._execute_create_test_db()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
+- **.sql_table_creation_suffix()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
+- **._execute_raise_access_denied()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
+- **._execute_raise_database_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
+- **patch** (2 connections)
+- **skipUnless** (1 connections)
 
 ## Relationships
 
-- [Community 36](Community_36.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 358](Community_358.md) (1 shared connections)
-- [Community 424](Community_424.md) (1 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 14](Community_14.md) (4 shared connections)
+- [Community 317](Community_317.md) (2 shared connections)
+- [Community 273](Community_273.md) (2 shared connections)
+- [Community 444](Community_444.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/creation.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_creation.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (93%)
-- INFERRED: 1 (7%)
+- EXTRACTED: 32 (82%)
+- INFERRED: 7 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

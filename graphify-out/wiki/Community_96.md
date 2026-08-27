@@ -1,61 +1,65 @@
 # Community 96
 
-> 84 nodes · cohesion 0.04
+> 85 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **Article** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **basic/tests.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **ModelTest** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **ModelInstanceCreationTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **ModelRefreshTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **ModelLookupTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **basic/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **EmptyQuerySet** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **SelectOnSaveTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **ArticleSelectOnSave** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **SelfRef** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **PrimaryKeyWithDefault** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **ConcurrentSaveTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_can_initialize_model_instance_using_positional_arguments()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_can_leave_off_value_for_autofield_and_it_gets_value_on_save()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_for_datetimefields_saves_as_much_precision_as_was_given()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **FeaturedArticle** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- **.test_concurrent_delete_with_save()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_can_create_instance_using_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_can_mix_and_match_position_and_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_cannot_create_instance_with_invalid_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_leaving_off_a_field_with_default_set_the_default_will_be_saved()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_object_is_not_written_to_database_until_save_was_called()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_querysets_checking_for_membership()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- **.test_saving_an_object_again_does_not_create_a_new_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
-- *... and 59 more nodes in this community*
+- **django/db/models/lookups.py** (64 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **test_query.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_query.py`
+- **related_lookups.py** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_lookups.py`
+- **BuiltinLookup** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **Exact** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **YearLookup** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **In** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **FieldGetDbPrepValueMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **RelatedLookupMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_lookups.py`
+- **FieldGetDbPrepValueIterableMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **IsNull** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **LessThan** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.process_rhs()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.as_sql()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **GreaterThan** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **GreaterThanOrEqual** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.rhs_is_direct_value()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **RelatedIn** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_lookups.py`
+- **LessThanOrEqual** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **PatternLookup** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.as_sql()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_lookups.py`
+- **RelatedIsNull** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_lookups.py`
+- **.process_rhs()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **StartsWith** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **YearExact** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- *... and 60 more nodes in this community*
 
 ## Relationships
 
-- [Community 72](Community_72.md) (29 shared connections)
-- [Community 51](Community_51.md) (6 shared connections)
-- [Community 392](Community_392.md) (5 shared connections)
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 20](Community_20.md) (3 shared connections)
-- [Community 62](Community_62.md) (3 shared connections)
-- [Community 38](Community_38.md) (3 shared connections)
+- [Community 45](Community_45.md) (22 shared connections)
+- [Community 63](Community_63.md) (21 shared connections)
+- [Community 3](Community_3.md) (19 shared connections)
+- [Community 174](Community_174.md) (14 shared connections)
+- [Community 205](Community_205.md) (5 shared connections)
+- [Community 19](Community_19.md) (5 shared connections)
+- [Community 353](Community_353.md) (5 shared connections)
+- [Community 10](Community_10.md) (5 shared connections)
+- [Community 48](Community_48.md) (3 shared connections)
+- [Community 89](Community_89.md) (3 shared connections)
 - [Community 0](Community_0.md) (2 shared connections)
-- [Community 36](Community_36.md) (2 shared connections)
-- [Community 46](Community_46.md) (1 shared connections)
-- [Community 382](Community_382.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 38](Community_38.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- `raw/code/hyd-evaluation/django-django/tests/basic/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_lookups.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- `raw/code/hyd-evaluation/django-django/tests/lookup/test_lookups.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/test_query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 146 (77%)
-- INFERRED: 43 (23%)
+- EXTRACTED: 304 (98%)
+- INFERRED: 7 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

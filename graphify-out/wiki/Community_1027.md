@@ -1,26 +1,30 @@
 # Community 1027
 
-> 4 nodes · cohesion 0.67
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **EscapejsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapejs.py`
-- **.test_escapejs01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapejs.py`
-- **.test_escapejs02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapejs.py`
-- **setup** (2 connections)
+- **NKChild** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Parent** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
+- [Community 340](Community_340.md) (6 shared connections)
+- [Community 160](Community_160.md) (2 shared connections)
+- [Community 373](Community_373.md) (1 shared connections)
+- [Community 618](Community_618.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapejs.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 11 (79%)
+- INFERRED: 3 (21%)
 - AMBIGUOUS: 0 (0%)
 
 ---

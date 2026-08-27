@@ -1,57 +1,52 @@
 # Community 139
 
-> 63 nodes · cohesion 0.05
+> 66 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **SelectRelatedTests** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
-- **select_related/models.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- **select_related/tests.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
-- **SelectRelatedValidationTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
-- **Bookmark** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- **Domain** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- **Species** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- **TaggedItem** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- **Family** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- **Genus** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- **HybridSpecies** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- **Kingdom** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- **Klass** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- **Order** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- **Phylum** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- **Pizza** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- **.create_tree()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
-- **Topping** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- **Running select_related() after calling values() raises a TypeError** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
-- **select_related() also of course applies to entire lists, not just items. This…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
-- **.test_access_fks_with_select_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
-- **.test_access_fks_without_select_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
-- **.test_certain_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
-- **.test_list_with_depth()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
-- *... and 38 more nodes in this community*
+- **OptimizerTests** (45 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.assertOptimizesTo()** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **EmptyManager** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
+- **._test_alter_alter_model()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **._test_create_alter_foo_delete_model()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **._test_create_alter_foo_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.assertDoesNotOptimize()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.optimize()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_model_add_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_model_alter_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_model_remove_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_model_rename_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_rename_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_optimize_through_create()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.serialize()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_add_field_alter_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_add_field_delete_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_add_field_rename_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_alter_field_delete_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_alter_field_rename_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_delete_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_model_add_field_not_through_m2m_through()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_model_no_reordering_for_unrelated_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_model_no_reordering_of_inherited_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_model_reordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- *... and 41 more nodes in this community*
 
 ## Relationships
 
-- [Community 40](Community_40.md) (6 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 307](Community_307.md) (1 shared connections)
-- [Community 57](Community_57.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 68](Community_68.md) (1 shared connections)
+- [Community 1060](Community_1060.md) (4 shared connections)
+- [Community 55](Community_55.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 188](Community_188.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 91 (84%)
-- INFERRED: 17 (16%)
+- EXTRACTED: 114 (97%)
+- INFERRED: 3 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

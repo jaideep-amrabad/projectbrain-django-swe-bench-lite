@@ -1,43 +1,43 @@
 # Community 633
 
-> 16 nodes · cohesion 0.12
+> 16 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **LegacyDatabaseTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_in_local_timezone()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_in_local_timezone_with_microsecond()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_in_other_timezone()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_in_utc()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_unsupported()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_auto_now_and_auto_now_add()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_cursor_execute_accepts_naive_datetime()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_cursor_execute_returns_naive_datetime()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_filter_date_field_with_aware_datetime()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_naive_datetime()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_naive_datetime_with_microsecond()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_query_datetime_lookups()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_query_datetimes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_query_filter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_raw_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **check_framework/test_templates.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.func()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **CheckTemplateStringIfInvalidTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **CheckTemplateSettingsAppDirsTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **check_setting_app_dirs_loaders()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/templates.py`
+- **check_string_if_invalid_is_string()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/templates.py`
+- **.test_app_dirs_and_loaders()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_string_if_invalid_not_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.func()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_app_dirs_removed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_loaders_removed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_string_if_invalid_both_are_strings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_string_if_invalid_first_is_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.test_string_if_invalid_not_specified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
+- **Error if template loaders are specified and APP_DIRS is True.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
 
 ## Relationships
 
-- [Community 604](Community_604.md) (5 shared connections)
-- [Community 38](Community_38.md) (5 shared connections)
-- [Community 42](Community_42.md) (2 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
-- [Community 746](Community_746.md) (1 shared connections)
+- [Community 74](Community_74.md) (3 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 23](Community_23.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/templates.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_templates.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (83%)
-- INFERRED: 5 (17%)
+- EXTRACTED: 35 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,55 +1,61 @@
 # Community 231
 
-> 29 nodes · cohesion 0.10
+> 43 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **order_with_respect_to/tests.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
-- **BaseOrderWithRespectToTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **order_with_respect_to/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **OrderWithRespectToBaseTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
-- **Answer** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **Post** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **TestOrderWithRespectToOneToOnePK** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
-- **base_tests.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **Dimension** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **Entity** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **Question** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **OrderWithRespectToTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
-- **.test_set_order_unrelated_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **Component** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **.test_duplicate_order_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **.test_change_ordering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **.test_default_to_insertion_order()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **.test_delete_and_insert()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **.test_item_ordering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **.test_previous_and_next_in_order()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **.test_recursive_ordering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **The tests are shared with contenttypes_tests and so shouldn't import or…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **An answer that's not related isn't updated.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- *... and 4 more nodes in this community*
+- **admin_scripts/tests.py** (58 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **AdminScriptTestCase** (50 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.run_test()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **ManageNoSettings** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **SettingsCustomLoggingTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **CommandRunTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **DjangoAdminSuggestions** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **Dumpdata** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_pks_parsing()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **MainModule** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **SettingsConfigTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_no_suggestions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_suggestions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **ManageRunserverEmptyAllowedHosts** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_empty_allowed_hosts_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **._ext_backend_paths()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_program_name_in_help()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_runs_django_admin()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **.test_disallowed_abbreviated_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- *... and 18 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 307](Community_307.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 51](Community_51.md) (3 shared connections)
-- [Community 86](Community_86.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 192](Community_192.md) (23 shared connections)
+- [Community 4](Community_4.md) (14 shared connections)
+- [Community 86](Community_86.md) (14 shared connections)
+- [Community 100](Community_100.md) (12 shared connections)
+- [Community 259](Community_259.md) (8 shared connections)
+- [Community 6](Community_6.md) (5 shared connections)
+- [Community 45](Community_45.md) (4 shared connections)
+- [Community 640](Community_640.md) (4 shared connections)
+- [Community 30](Community_30.md) (3 shared connections)
+- [Community 478](Community_478.md) (3 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 479](Community_479.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 53 (91%)
-- INFERRED: 5 (9%)
+- EXTRACTED: 171 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

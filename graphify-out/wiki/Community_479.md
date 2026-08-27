@@ -1,44 +1,63 @@
 # Community 479
 
-> 20 nodes · cohesion 0.19
+> 31 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **FileBasedCache** (16 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **._key_to_file()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.set()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **._cull()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.has_key()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **._is_expired()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.touch()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.clear()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.get()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **._list_cache_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **._createdir()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **._write_content()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.add()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **Convert a key into a cache file path. Basically this is the root cache path…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **Remove all the cache files.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **Take an open cache file `f` and delete it if it's expired.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **Get a list of paths to all the cache files. These are all the files in the root…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **Remove random cache entries if max_entries is reached at a ratio of num_entries…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- **test_runner/tests.py** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **dependency_ordered()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **AutoIncrementResetTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **test_runner/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/models.py`
+- **test_debug_sql.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **connections_support_transactions()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **DependencyOrderingTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **Person** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/models.py`
+- **Through** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/models.py`
+- **SQLiteInMemoryTestDbs** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_transaction_support()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **B** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/models.py`
+- **._test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_empty_default_database()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **ThroughBase** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/models.py`
+- **.test_autoincrement_reset1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_autoincrement_reset2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_chained_dependencies()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_circular_dependencies()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_multiple_dependencies()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_own_alias_dependency()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_simple_dependencies()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **EmptyDefaultDatabaseTest** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **MockTestRunner** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **Return whether or not all (or specified) connections support transactions.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [Community 558](Community_558.md) (4 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
-- [Community 261](Community_261.md) (1 shared connections)
+- [Community 3](Community_3.md) (8 shared connections)
+- [Community 45](Community_45.md) (5 shared connections)
+- [Community 226](Community_226.md) (5 shared connections)
+- [Community 4](Community_4.md) (5 shared connections)
+- [Community 478](Community_478.md) (4 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 41](Community_41.md) (3 shared connections)
+- [Community 13](Community_13.md) (3 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 28](Community_28.md) (2 shared connections)
+- [Community 231](Community_231.md) (2 shared connections)
+- [Community 484](Community_484.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (91%)
-- INFERRED: 4 (9%)
+- EXTRACTED: 87 (95%)
+- INFERRED: 5 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,48 +1,42 @@
 # Community 470
 
-> 26 nodes · cohesion 0.10
+> 23 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **BackendTestCase** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.create_squares()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.create_squares_with_executemany()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_cursor_executemany_with_pyformat_iterator()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_queries()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_cursor_execute_with_pyformat()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_cursor_executemany_with_iterator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_cursor_executemany_with_pyformat()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_database_operations_init()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_is_usable_after_database_disconnects()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_cursor_contextmanager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_cursor_contextmanager_closing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_cursor_executemany()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_cursor_executemany_with_empty_params_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_database_operations_helper_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_duplicate_table_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_unicode_fetches()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_cached_db_features()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_timezone_none_use_tz_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.test_unicode_password()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **skipUnless** (1 connections)
-- **DatabaseOperations initialization doesn't query the database. See #17656.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **Creating an existing table returns a DatabaseError** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **Cursors can be used as a context manager** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **is_usable() doesn't crash when the database disconnects (#21553).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- *... and 1 more nodes in this community*
+- **OnDeleteTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **create_a()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **A** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **.test_auto()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_auto_nullable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_cascade()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_cascade_from_child()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_cascade_from_parent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_cascade_nullable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_do_nothing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_do_nothing_qscount()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_o2o_setnull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_protect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_setdefault()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_setdefault_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_setnull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_setnull_from_child()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_setnull_from_parent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_setvalue()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_inheritance_cascade_down()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_inheritance_cascade_up()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_non_callable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **A models.DO_NOTHING relation doesn't trigger a query.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
 
 ## Relationships
 
-- [Community 483](Community_483.md) (6 shared connections)
-- [Community 38](Community_38.md) (4 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 785](Community_785.md) (2 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
-- [Community 852](Community_852.md) (1 shared connections)
+- [Community 165](Community_165.md) (11 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
 
 ## Audit Trail
 

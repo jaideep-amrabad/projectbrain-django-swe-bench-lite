@@ -1,62 +1,50 @@
 # Community 263
 
-> 41 nodes · cohesion 0.06
+> 40 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **inlineformset_factory()** (62 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **TestModelFormsetOverridesTroughFormMeta** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **#24958 - Variant of test_inlineformset_factory_nulls_default_pks for the case…** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- **.test_inline_model_with_primary_to_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_inline_model_with_to_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_inline_model_with_to_field_to_rel()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_inlineformset_factory_ignores_default_pks_on_submit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- **.test_inlineformset_factory_nulls_default_pks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- **.test_inlineformset_factory_nulls_default_pks_alternate_key_relation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- **.test_inlineformset_factory_nulls_default_pks_auto_parent_uuid_child()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- **.test_inlineformset_factory_nulls_default_pks_child_editable_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- **.test_inlineformset_factory_nulls_default_pks_uuid_parent_auto_child()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- **.test_inline_formsets_with_nullable_unique_together()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_inline_formsets_with_wrong_fk_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_initial_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_delete_already_deleted()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_resubmit()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
-- **.test_callable_defaults()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_inline_formsets()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_inline_formsets_with_custom_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_inline_formsets_with_custom_save_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_inline_formsets_with_multi_table_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_unique_together_with_inlineformset_factory()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_unique_true_enforces_max_num_one()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_inlineformset_factory_error_messages_overrides()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- *... and 16 more nodes in this community*
+- **TestFormField** (42 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_datetime_prepare_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_valid_floats()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_date_incorrect_data_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_date_invalid_lower()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_date_invalid_upper()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_date_lower_bound_higher()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_date_open()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_date_required()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_datetime_incorrect_data_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_datetime_invalid_lower()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_datetime_invalid_upper()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_datetime_lower_bound_higher()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_datetime_open()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_datetime_required()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_decimal_incorrect_data_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_decimal_invalid_lower()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_decimal_invalid_upper()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_decimal_lower_bound_higher()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_decimal_open()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_decimal_required()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_float_range_field_deprecation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_integer_incorrect_data_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_integer_invalid_lower()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_integer_invalid_upper()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [Community 239](Community_239.md) (21 shared connections)
-- [Community 330](Community_330.md) (14 shared connections)
-- [Community 179](Community_179.md) (12 shared connections)
-- [Community 187](Community_187.md) (11 shared connections)
-- [Community 797](Community_797.md) (2 shared connections)
-- [Community 39](Community_39.md) (1 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
-- [Community 334](Community_334.md) (1 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
-- [Community 78](Community_78.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
 
 ## Audit Trail
 
-- EXTRACTED: 111 (97%)
-- INFERRED: 3 (3%)
+- EXTRACTED: 43 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

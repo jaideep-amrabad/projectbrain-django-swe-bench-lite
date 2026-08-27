@@ -1,50 +1,54 @@
 # Community 170
 
-> 44 nodes · cohesion 0.09
+> 52 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **UrlTagTests** (50 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **setup** (47 connections)
-- **.test_url01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_url02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_url02a()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_url02b()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_url02c()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_url03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_url04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_url05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_url06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_url08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_url09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_url10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_url11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_url12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_url13()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_url14()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_url15()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_url18()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_url19()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_url20()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_url21()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_url_asvar01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- **.test_url_asvar02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
-- *... and 19 more nodes in this community*
+- **PickleabilityTestCase** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **queryset_pickle/tests.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **queryset_pickle/models.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **.assert_pickles()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **InLookupTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **Container** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **Event** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **Group** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **Happening** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **M2MModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **.test_unsupported_unpickle()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **MissingDjangoVersionQuerySet** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **.__getstate__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **Numbers** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **PreviousDjangoVersionQuerySet** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **.__getstate__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **.test_in_lookup_queryset_evaluation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_annotation_with_callable_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_datetime_callable_default_all()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_datetime_callable_default_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_filter_reverse_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_missing_django_version_unpickling()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_model_pickle()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_model_pickle_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **.test_pickle_prefetch_related_with_m2m_and_objects_deletion()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- *... and 27 more nodes in this community*
 
 ## Relationships
 
-- [Community 466](Community_466.md) (10 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 41](Community_41.md) (3 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
 - [Community 0](Community_0.md) (2 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_url.py`
+- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 97 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 81 (92%)
+- INFERRED: 7 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

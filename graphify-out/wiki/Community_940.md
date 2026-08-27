@@ -1,36 +1,31 @@
 # Community 940
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Score** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.test_float_serialization()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **SerializerAPITests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_stream_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_indentation_whitespace()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **Float values serialize and deserialize intact** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **ModelsPermissionsChecksTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
+- **.test_clashing_custom_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
+- **.test_clashing_default_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
+- **.test_custom_permission_name_max_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
+- **.test_empty_default_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
+- **.test_non_clashing_custom_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
+- **.test_verbose_name_max_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
 
 ## Relationships
 
-- [Community 424](Community_424.md) (1 shared connections)
-- [Community 597](Community_597.md) (1 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 517](Community_517.md) (1 shared connections)
-- [Community 42](Community_42.md) (1 shared connections)
-- [Community 413](Community_413.md) (1 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (75%)
-- INFERRED: 3 (25%)
+- EXTRACTED: 10 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

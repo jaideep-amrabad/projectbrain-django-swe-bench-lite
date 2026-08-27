@@ -1,38 +1,35 @@
 # Community 636
 
-> 14 nodes · cohesion 0.14
+> 11 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **DefaultsTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
-- **.test_csrf_token_in_404()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
-- **.test_custom_templates()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
-- **.test_bad_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
-- **.test_get_absolute_url_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
-- **.test_page_not_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
-- **.test_server_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
-- **A model can set attributes on the get_absolute_url method** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
-- **Test django views in django/views/defaults.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
-- **A 404 status is returned by the page_not_found view** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
-- **The 404 page should have the csrf_token available in the context** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
-- **The server_error view raises a 500 status** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
-- **404.html and 500.html templates are picked by their respective handler.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
+- **RegisterLookupMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **._clear_cached_lookups()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **._get_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **.get_lookups()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **.merge_dicts()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **.get_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **.register_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **._unregister_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **subclasses()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **Merge dicts in reverse to preference the order of the original list. e.g.,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **Remove given lookup from cls lookups. For use in tests only as it's not thread-…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
 
 ## Relationships
 
-- [Community 319](Community_319.md) (4 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
-- [Community 81](Community_81.md) (1 shared connections)
+- [Community 45](Community_45.md) (3 shared connections)
+- [Community 96](Community_96.md) (1 shared connections)
+- [Community 78](Community_78.md) (1 shared connections)
+- [Community 174](Community_174.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_defaults.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

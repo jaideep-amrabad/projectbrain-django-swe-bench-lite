@@ -1,51 +1,55 @@
 # Community 409
 
-> 22 nodes · cohesion 0.14
+> 27 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **Command** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.collect()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.link_file()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.log()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.delete_file()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.handle()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.clear_dir()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.copy_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.set_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.is_local_storage()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **.local()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **Copies or symlinks static files from different locations to the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **Delete the given relative path using the destination storage backend.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **Check if the target file should be deleted if it already exists.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **Attempt to link ``path``** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **Attempt to copy ``path`` with storage** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **Set instance variables based on an options dict** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **Perform the bulk of the work of collectstatic. Split off from handle() to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- **Create a prefix operator, given a binding power and a function that evaluates…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **SimplerXMLGenerator** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/xmlutils.py`
+- **Atom1Feed** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **RssFeed** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.write()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.write()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **rfc3339_date()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.add_item_elements()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.add_root_elements()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.write_items()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.latest_post_date()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.item_attributes()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.addQuickElement()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/xmlutils.py`
+- **.root_attributes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **get_tag_uri()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.add_root_elements()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.write_items()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **RssUserland091Feed** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.characters()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/xmlutils.py`
+- **.endChannelElement()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.rss_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.startElement()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/xmlutils.py`
+- **Return extra attributes to place on each item (i.e. item/entry) element.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **Return the latest item's pubdate or updateddate. If no items have either of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **Create a TagURI. See…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **.add_item_elements()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Community 8](Community_8.md) (6 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 206](Community_206.md) (1 shared connections)
-- [Community 717](Community_717.md) (1 shared connections)
-- [Community 190](Community_190.md) (1 shared connections)
-- [Community 167](Community_167.md) (1 shared connections)
+- [Community 17](Community_17.md) (10 shared connections)
+- [Community 638](Community_638.md) (5 shared connections)
+- [Community 13](Community_13.md) (3 shared connections)
+- [Community 186](Community_186.md) (2 shared connections)
+- [Community 526](Community_526.md) (2 shared connections)
+- [Community 678](Community_678.md) (1 shared connections)
+- [Community 548](Community_548.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
-- `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/xmlutils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (91%)
-- INFERRED: 4 (9%)
+- EXTRACTED: 63 (94%)
+- INFERRED: 4 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

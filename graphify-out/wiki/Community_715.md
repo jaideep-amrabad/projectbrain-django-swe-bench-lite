@@ -1,39 +1,39 @@
 # Community 715
 
-> 12 nodes · cohesion 0.17
+> 13 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **DynamicConverter** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
-- **ConversionExceptionTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
-- **.regex()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
-- **.test_resolve_type_error_propagates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
-- **.test_resolve_value_error_means_no_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
-- **.test_reverse_value_error_propagates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
-- **.register_to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
-- **.register_to_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
-- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
-- **.to_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
-- **setter** (1 connections)
-- **How are errors in Converter.to_python() and to_url() handled?** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- **ArgumentOrder** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **._test()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_option_then_setting()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_option_then_setting_then_option()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_setting_then_option()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_setting_then_short_option()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_short_option_then_setting()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **Tests for 2-stage argument parsing scheme. django-admin command arguments are…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **Options passed after settings are correctly handled.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **Short options passed after settings are correctly handled.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **Options passed before settings are correctly handled.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **Short options passed before settings are correctly handled.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **Options are correctly handled when they are passed before and after a setting.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Relationships
 
-- [Community 10](Community_10.md) (3 shared connections)
-- [Community 217](Community_217.md) (2 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
+- [Community 231](Community_231.md) (2 shared connections)
+- [Community 259](Community_259.md) (1 shared connections)
+- [Community 100](Community_100.md) (1 shared connections)
+- [Community 192](Community_192.md) (1 shared connections)
+- [Community 86](Community_86.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 23 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,53 +1,53 @@
 # Community 313
 
-> 36 nodes · cohesion 0.06
+> 34 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **qunit.js** (84 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **checkPollution()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **getUrlParams()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **decodeQueryParam()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **diff()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **inArray()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **innerEquiv()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **moduleChainIdMatch()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **saveGlobal()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **typeEquiv()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **applyDeprecated()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **Assert()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **callHook()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **compareConstructors()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **errorString()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **getRegExpFlags()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **id()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **is()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **isArray()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **literal()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **moduleChainNameMatch()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **notifyTestsRan()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **numberOfTests()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **objectValues()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **only()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- *... and 11 more nodes in this community*
+- **ArchiveIndexViewTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **MonthArchiveViewTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **_make_books()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_date_list_order()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_aware_datetime_month_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_date_list_order()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_paginated_archive_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_paginated_archive_view_does_not_load_entire_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_previous_month_without_content()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_allow_empty_archive_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_archive_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_archive_view_by_month()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_archive_view_context_object_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_archive_view_custom_sorting()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_archive_view_custom_sorting_dec()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_archive_view_invalid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_archive_view_template()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_archive_view_template_suffix()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_archive_view_without_date_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_datetime_archive_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_empty_archive_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_no_duplicate_query()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_custom_month_format()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_datetime_month_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_month_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 522](Community_522.md) (16 shared connections)
-- [Community 757](Community_757.md) (13 shared connections)
-- [Community 731](Community_731.md) (11 shared connections)
-- [Community 821](Community_821.md) (8 shared connections)
-- [Community 1041](Community_1041.md) (2 shared connections)
-- [Community 643](Community_643.md) (1 shared connections)
+- [Community 54](Community_54.md) (10 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 41](Community_41.md) (2 shared connections)
+- [Community 438](Community_438.md) (1 shared connections)
+- [Community 587](Community_587.md) (1 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
 
 ## Audit Trail
 
-- EXTRACTED: 91 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 48 (91%)
+- INFERRED: 5 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

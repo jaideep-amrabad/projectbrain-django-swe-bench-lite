@@ -1,67 +1,59 @@
 # Community 219
 
-> 59 nodes · cohesion 0.04
+> 42 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **quote()** (46 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **LogEntry** (30 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
-- **LogEntryTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **ContentTypesViewsSiteRelTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
-- **ModelWithNullFKToSite** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- **.__str__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
-- **.get_change_message()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
-- **.test_logentry_change_message_formsets()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **.test_logentry_change_message_localized_datetime_input()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **.test_recentactions_without_content_type()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **.get_admin_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
-- **.test_logentry_change_message()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **.test_logentry_get_admin_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **ModelWithM2MToSite** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- **.url_for_result()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **.test_logentry_change_message_not_json()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **.test_proxy_model_content_type_is_used_for_log_entries()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- **.test_shortcut_view_with_null_site_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
-- **.test_shortcut_view_with_site_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
-- **.test_unicode_file_name_rfc2231()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_unicode_name_rfc2231()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- **.test_serve()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.get_edited_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
-- **.is_addition()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
-- **.is_change()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
-- *... and 34 more nodes in this community*
+- **BaseCache** (35 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.get()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.get_or_set()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.incr_version()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.delete()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.has_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.incr()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.add()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.__contains__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.decr()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.decr_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.delete_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.get_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.test_cache_key_memcache_validation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
+- **.clear()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.get_backend_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.make_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.set()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.set_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.touch()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.validate_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **Return True if the key is in the cache and has not expired.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **Set a value in the cache if the key does not already exist. If timeout is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **Fetch a given key from the cache. If the key does not exist, return default,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [Community 16](Community_16.md) (9 shared connections)
-- [Community 12](Community_12.md) (6 shared connections)
-- [Community 63](Community_63.md) (5 shared connections)
-- [Community 11](Community_11.md) (5 shared connections)
-- [Community 81](Community_81.md) (5 shared connections)
-- [Community 108](Community_108.md) (5 shared connections)
-- [Community 307](Community_307.md) (4 shared connections)
-- [Community 39](Community_39.md) (3 shared connections)
-- [Community 843](Community_843.md) (2 shared connections)
-- [Community 781](Community_781.md) (2 shared connections)
-- [Community 35](Community_35.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
+- [Community 848](Community_848.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 543](Community_543.md) (2 shared connections)
+- [Community 391](Community_391.md) (2 shared connections)
+- [Community 406](Community_406.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 973](Community_973.md) (1 shared connections)
+- [Community 482](Community_482.md) (1 shared connections)
+- [Community 1194](Community_1194.md) (1 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
+- [Community 126](Community_126.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_storage.py`
 
 ## Audit Trail
 
-- EXTRACTED: 114 (72%)
-- INFERRED: 44 (28%)
+- EXTRACTED: 68 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

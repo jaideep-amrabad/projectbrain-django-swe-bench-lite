@@ -1,36 +1,43 @@
 # Community 770
 
-> 10 nodes · cohesion 0.24
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **AutocompleteJsonView** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
-- **.get()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
-- **.get_queryset()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
-- **.has_perm()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
-- **.get_paginator()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
-- **Return a JsonResponse with search results of the form: { results: [{id: "123"…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
-- **Use the ModelAdmin's paginator.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
-- **Return queryset based on ModelAdmin.get_search_results().** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
-- **Check if user has permission to access the related model.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
-- **Handle AutocompleteWidget's AJAX requests for data.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
+- **Settings** (15 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **TestListSettings** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.is_overridden()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.test_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_settings_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_no_secret_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_tuple_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.is_overridden()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **Make sure settings that should be lists or tuples throw ImproperlyConfigured if…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
 
 ## Relationships
 
-- [Community 10](Community_10.md) (3 shared connections)
-- [Community 378](Community_378.md) (2 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
-- [Community 39](Community_39.md) (1 shared connections)
-- [Community 44](Community_44.md) (1 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 704](Community_704.md) (2 shared connections)
+- [Community 1053](Community_1053.md) (1 shared connections)
+- [Community 921](Community_921.md) (1 shared connections)
+- [Community 1042](Community_1042.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 630](Community_630.md) (1 shared connections)
+- [Community 95](Community_95.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
+- `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (89%)
-- INFERRED: 2 (11%)
+- EXTRACTED: 23 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

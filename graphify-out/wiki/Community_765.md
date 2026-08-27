@@ -1,40 +1,34 @@
 # Community 765
 
-> 10 nodes · cohesion 0.24
+> 12 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **swappable_models/tests.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/tests.py`
-- **swappable_models/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/models.py`
-- **SwappableModelTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/tests.py`
-- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/models.py`
-- **.test_case_insensitive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/tests.py`
-- **.test_generated_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/tests.py`
-- **AlternateArticle** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/models.py`
-- **Permissions and content types are not created for a swapped model** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/tests.py`
-- **Model names are case insensitive. Model swapping honors this.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/swappable_models/tests.py`
+- **ExceptionsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
+- **setup** (5 connections)
+- **.test_exception01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
+- **.test_exception02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
+- **.test_exception03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
+- **.test_exception04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
+- **.test_exception05()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
+- **Raise exception for invalid template name** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
+- **Raise exception for invalid variable template name** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
+- **Raise exception for extra {% extends %} tags** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
+- **Raise exception for custom tags used in child with {% load %} tag in parent,…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
+- **Raise exception for block.super used in base template** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 307](Community_307.md) (1 shared connections)
-- [Community 40](Community_40.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/swappable_models/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/swappable_models/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 17 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

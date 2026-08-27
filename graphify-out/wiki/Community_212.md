@@ -1,51 +1,60 @@
 # Community 212
 
-> 25 nodes · cohesion 0.08
+> 49 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **DateDetailViewTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **DayArchiveViewTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_aware_datetime_archive_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_aware_datetime_date_detail()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_aware_datetime_day_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **requires_tz_support** (3 connections)
-- **.test_get_object_custom_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_date_detail_allow_future()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_date_detail_by_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_date_detail_by_slug()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_date_detail_custom_month_format()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_datetime_date_detail()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_get_object_custom_queryset_numqueries()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_invalid_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_year_out_of_range()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_custom_month_format()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_datetime_day_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_day_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_day_view_allow_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_day_view_allow_future()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_day_view_invalid_pattern()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_day_view_paginated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_next_prev_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_today_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **Custom querysets are used when provided to BaseDateDetailView.get_object().** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **Car** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/models.py`
+- **AssertQuerysetEqualTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **test_testcase.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **test_transactiontestcase.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
+- **test_utils/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/models.py`
+- **Person** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/models.py`
+- **PossessedCar** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/models.py`
+- **TestTestCase** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **AssertNumQueriesContextManagerTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **TestSerializedRollbackInhibitsPostMigrate** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
+- **AssertNumQueriesTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **DisallowedDatabaseQueriesTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **AllowedDatabaseQueriesTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **AssertNumQueriesUponConnectionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **DisallowedDatabaseQueriesTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
+- **TransactionTestCaseDatabasesTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
+- **.test_repeated_values()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_fixture_teardown_checks_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **.test()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
+- **.test_queries_cleared()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/models.py`
+- **.test_disallowed_database_connection()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- **.test_disallowed_database_queries()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [Community 118](Community_118.md) (8 shared connections)
-- [Community 12](Community_12.md) (5 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 545](Community_545.md) (1 shared connections)
+- [Community 2](Community_2.md) (10 shared connections)
+- [Community 41](Community_41.md) (7 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 13](Community_13.md) (4 shared connections)
+- [Community 7](Community_7.md) (4 shared connections)
+- [Community 50](Community_50.md) (3 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 28](Community_28.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 37 (90%)
-- INFERRED: 4 (10%)
+- EXTRACTED: 85 (87%)
+- INFERRED: 13 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

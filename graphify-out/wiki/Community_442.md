@@ -1,46 +1,48 @@
 # Community 442
 
-> 25 nodes · cohesion 0.11
+> 25 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **MeasureBase** (23 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **pretty_name()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **.default_units()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **.__truediv__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **.__add__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **.__iadd__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **.__imul__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **.__isub__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **.__itruediv__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **.__mul__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **.__repr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **.__sub__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **.__truediv__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **.unit_attname()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **._get_standard()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **.__lt__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **.__rmul__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **._set_standard()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **Return the unit value and the default units specified from the given keyword…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
-- **Retrieve the unit attribute name for the given unit string. For example, if the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- **FeedgeneratorTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
+- **.test_rfc2822_date_with_timezone()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
+- **.test_rfc3339_date_with_timezone()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
+- **.test_atom1_mime_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
+- **.test_get_tag_uri()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
+- **.test_get_tag_uri_with_port()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
+- **.test_rfc2822_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
+- **.test_rfc2822_date_without_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
+- **.test_rfc3339_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
+- **.test_rfc3339_date_without_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
+- **.test_rss_mime_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
+- **rfc2822_date() correctly formats datetime objects with tzinfo.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
+- **.test_atom_add_item()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
+- **.test_deterministic_attribute_order()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
+- **.test_feed_with_feed_url_gets_rendered_with_atom_link()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
+- **.test_feed_without_feed_url_gets_rendered_without_atom_link()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
+- **get_tag_uri() correctly generates TagURIs.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
+- **get_tag_uri() correctly generates TagURIs from URLs with port numbers.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
+- **rfc2822_date() correctly formats datetime objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
+- **rfc3339_date() correctly formats datetime objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
+- **rfc3339_date() correctly formats datetime objects with tzinfo.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
+- **rfc3339_date() correctly formats date objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
+- **Atom MIME type has UTF8 Charset parameter set** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
+- **Tests for the low-level syndication feed framework.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
+- **RSS MIME type has UTF8 Charset parameter set** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (6 shared connections)
+- [Community 17](Community_17.md) (3 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 548](Community_548.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/measure.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (100%)
+- EXTRACTED: 30 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,43 +1,54 @@
 # Community 534
 
-> 16 nodes · cohesion 0.14
+> 20 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **SessionStorage** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
-- **FallbackStorage** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
-- **._get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
-- **.serialize_messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
-- **._store()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
-- **._get()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
-- **._store()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
-- **.deserialize_messages()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
-- **Get a single list of messages from all storage backends.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
-- **Store the messages and return any unstored messages after trying all backends.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
-- **Try to store all messages in the first backend. Store any unstored messages in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
-- **Store messages in the session (that is, django.contrib.sessions).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
-- **Retrieve a list of messages from the request's session. This storage always…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
-- **Store a list of messages to the request's session.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
+- **get_or_create/tests.py** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **get_or_create/models.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
+- **GetOrCreateTestsWithManualPKs** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **ManualPrimaryKeyTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
+- **Author** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
+- **Publisher** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
+- **Tag** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
+- **UpdateOrCreateTestsWithManualPKs** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **Book** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
+- **DefaultPerson** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
+- **Profile** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
+- **.test_get_or_create_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_get_or_create_raises_IntegrityError_plus_traceback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_savepoint_rollback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_create_with_duplicate_primary_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **get_or_create should raise IntegrityErrors with the full traceback. This is…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **The database connection is still usable after a DatabaseError in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **If all the attributes on a model have defaults, get_or_create() doesn't require…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **If an existing primary key is specified with different values for other fields,…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
 
 ## Relationships
 
-- [Community 152](Community_152.md) (7 shared connections)
-- [Community 432](Community_432.md) (2 shared connections)
-- [Community 516](Community_516.md) (2 shared connections)
-- [Community 396](Community_396.md) (1 shared connections)
-- [Community 402](Community_402.md) (1 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 865](Community_865.md) (5 shared connections)
+- [Community 559](Community_559.md) (5 shared connections)
+- [Community 758](Community_758.md) (3 shared connections)
+- [Community 558](Community_558.md) (3 shared connections)
+- [Community 41](Community_41.md) (3 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 1084](Community_1084.md) (2 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 42](Community_42.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
+- `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (80%)
-- INFERRED: 6 (20%)
+- EXTRACTED: 53 (82%)
+- INFERRED: 12 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

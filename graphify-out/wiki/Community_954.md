@@ -1,29 +1,30 @@
 # Community 954
 
-> 5 nodes · cohesion 0.40
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **._check_object_list_is_ordered()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.ordered()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **Warn if self.object_list is unordered (typically a QuerySet).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **Return True if the QuerySet is ordered -- i.e. has an order_by() clause or a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **ChoicesTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_check()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_flatchoices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_formfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_invalid_choice()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
 
 ## Relationships
 
-- [Community 133](Community_133.md) (2 shared connections)
-- [Community 62](Community_62.md) (1 shared connections)
+- [Community 222](Community_222.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (86%)
-- INFERRED: 1 (14%)
+- EXTRACTED: 8 (89%)
+- INFERRED: 1 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

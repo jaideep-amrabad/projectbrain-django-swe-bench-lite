@@ -1,39 +1,39 @@
 # Community 643
 
-> 15 nodes · cohesion 0.32
+> 16 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **DiffMatchPatch()** (16 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **.DiffMain()** (7 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **.diffCleanupMerge()** (6 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **.diffLineMode()** (6 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **.diffCompute()** (5 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **.diffCleanupSemantic()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **.diffCommonPrefix()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **.diffCommonSuffix()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **.diffHalfMatch()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **.diffBisect()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **.diffBisectSplit()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **.diffCharsToLines()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **.diffCleanupEfficiency()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **.diffCommonOverlap()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **.diffLinesToChars()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **BasicCustomPKTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
+- **.test_get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
+- **.test_in_bulk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
+- **.test_pk_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
+- **.test_querysets()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
+- **.test_querysets_related_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
+- **.test_querysets_relational()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
+- **.test_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
+- **Get can accept pk or the real attribute name** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
+- **pk and attribute name are available on the model No default id attribute is…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
+- **Custom pks work with in_bulk, both for integer and non-integer types** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
+- **custom pks do not affect save** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
+- **Both pk and custom attribute_name can be used in filter and friends** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
+- **Custom pk doesn't affect related_name based lookups** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
+- **Queries across tables, involving primary key** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
 
 ## Relationships
 
-- [Community 313](Community_313.md) (1 shared connections)
-- [Community 731](Community_731.md) (1 shared connections)
-- [Community 757](Community_757.md) (1 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 37 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 17 (89%)
+- INFERRED: 2 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

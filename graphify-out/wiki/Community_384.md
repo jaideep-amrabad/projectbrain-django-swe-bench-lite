@@ -1,53 +1,61 @@
 # Community 384
 
-> 29 nodes · cohesion 0.10
+> 33 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **RelatedLookupTypeTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **UnionTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **ObjectA** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **ObjectC** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **ValuesJoinPromotionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.check_union()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **ChildObjectA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.setUpTestData()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_A_AB()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_A_AB2()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_AB_ACB()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_BA_BCA__BAB_BAC_BCA()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_BAB_BAC()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_BAB_BACB()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **A ValueError is raised when the incorrect object type is passed to a query…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_correct_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_values_queryset_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_wrong_backward_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_wrong_type_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_ticket_21376()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **Tests for the union of two querysets. Bug #12252.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **When passing proxy model objects, child objects, or parent objects, lookups…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- *... and 4 more nodes in this community*
+- **CharField** (52 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **SlugField** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **skipUnless** (12 connections)
+- **.get_constraints_for_column()** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_unique_and_reverse_m2m()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_add_indexed_charfield()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_add_unique_charfield()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_alter_field_add_db_index_to_charfield_with_unique()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_alter_field_add_index_to_charfield()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_alter_field_add_index_to_textfield()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_alter_field_add_unique_to_charfield()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_alter_field_add_unique_to_charfield_with_db_index()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_alter_field_remove_unique_and_db_index_from_charfield()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_alter_field_swap_unique_and_db_index_with_charfield()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_creation_with_db_table_double_quotes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.test_SlugField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
+- **.test_alter_char_field_decrease_length()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_unique()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **.test_unique_together()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **._check_max_length_attribute()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **CommaSeparatedIntegerField** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Community 34](Community_34.md) (18 shared connections)
-- [Community 104](Community_104.md) (7 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 423](Community_423.md) (1 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
+- [Community 22](Community_22.md) (31 shared connections)
+- [Community 42](Community_42.md) (10 shared connections)
+- [Community 200](Community_200.md) (9 shared connections)
+- [Community 392](Community_392.md) (3 shared connections)
+- [Community 109](Community_109.md) (3 shared connections)
+- [Community 883](Community_883.md) (3 shared connections)
+- [Community 45](Community_45.md) (3 shared connections)
+- [Community 504](Community_504.md) (3 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 61](Community_61.md) (1 shared connections)
+- [Community 141](Community_141.md) (1 shared connections)
+- [Community 78](Community_78.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
+- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 47 (68%)
-- INFERRED: 22 (32%)
+- EXTRACTED: 121 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

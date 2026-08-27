@@ -4,66 +4,54 @@
 
 ## Key Concepts
 
-- **auth/management/__init__.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
-- **auth/apps.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/apps.py`
-- **auth_tests/test_checks.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- **contenttypes/management/__init__.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
-- **contenttypes/apps.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/apps.py`
-- **remove_stale_contenttypes.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py`
-- **auth/checks.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/checks.py`
-- **create_permissions()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
-- **Command** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
-- **.handle()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
-- **get_default_username()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
-- **create_contenttypes()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
-- **CreatePermissionsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
-- **.ready()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/apps.py`
-- **_get_builtin_permissions()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
-- **RenameContentType** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
-- **check_models_permissions()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/checks.py`
-- **update_last_login()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.ready()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/apps.py`
-- **NoFastDeleteCollector** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py`
-- **inject_rename_contenttypes_operations()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
-- **AuthConfig** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/apps.py`
-- **check_user_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/checks.py`
-- **._validate_username()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
-- **_get_all_permissions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
+- **SelectRelatedTests** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **select_related/models.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **select_related/tests.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **SelectRelatedValidationTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **Bookmark** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **Domain** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **Species** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **TaggedItem** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **Family** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **Genus** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **HybridSpecies** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **Kingdom** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **Klass** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **Order** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **Phylum** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **Pizza** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **.create_tree()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **Topping** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- **Running select_related() after calling values() raises a TypeError** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **select_related() also of course applies to entire lists, not just items. This…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **.test_access_fks_with_select_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **.test_access_fks_without_select_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **.test_certain_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- **.test_list_with_depth()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
 - *... and 38 more nodes in this community*
 
 ## Relationships
 
-- [Community 8](Community_8.md) (17 shared connections)
-- [Community 5](Community_5.md) (16 shared connections)
-- [Community 4](Community_4.md) (13 shared connections)
-- [Community 86](Community_86.md) (10 shared connections)
-- [Community 107](Community_107.md) (4 shared connections)
-- [Community 33](Community_33.md) (3 shared connections)
-- [Community 78](Community_78.md) (3 shared connections)
-- [Community 194](Community_194.md) (3 shared connections)
-- [Community 85](Community_85.md) (2 shared connections)
-- [Community 101](Community_101.md) (2 shared connections)
-- [Community 20](Community_20.md) (2 shared connections)
-- [Community 175](Community_175.md) (2 shared connections)
+- [Community 84](Community_84.md) (4 shared connections)
+- [Community 74](Community_74.md) (3 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 41](Community_41.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 321](Community_321.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/apps.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/checks.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/apps.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/checks.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_checks.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- `raw/code/hyd-evaluation/django-django/tests/select_related/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/select_related/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 176 (93%)
-- INFERRED: 14 (7%)
+- EXTRACTED: 91 (84%)
+- INFERRED: 17 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

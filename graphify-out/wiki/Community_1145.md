@@ -4,8 +4,8 @@
 
 ## Key Concepts
 
-- **commands/javascript.js** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/commands/javascript.js`
-- **mfunc()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/commands/javascript.js`
+- **SelectFilter2.js** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/SelectFilter2.js`
+- **findForm()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/SelectFilter2.js`
 
 ## Relationships
 
@@ -13,7 +13,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/commands/javascript.js`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/SelectFilter2.js`
 
 ## Audit Trail
 

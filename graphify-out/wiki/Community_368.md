@@ -1,52 +1,51 @@
 # Community 368
 
-> 26 nodes · cohesion 0.09
+> 30 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **ChildAdmin** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **.test_result_list_empty_changelist_value()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_result_list_html()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_result_list_set_empty_value_display_in_model_admin()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_result_list_set_empty_value_display_on_admin_site()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **CustomPaginationAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **EmptyValueChildAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **FilteredChildAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **build_tbody_html()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_result_list_editable_html()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_pagination()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_result_list_editable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_select_related_preserved()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **.test_custom_paginator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_show_all()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.age_display()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **Regression test for #14982: EMPTY_CHANGELIST_VALUE should be honored for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **Empty value display can be set on AdminSite.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **Empty value display can be set in ModelAdmin or individual fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **Inclusion tag result_list generates a table when with default ModelAdmin…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **Regression tests for #11791: Inclusion tag result_list generates a table and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **Regression test for #14312: list_editable with pagination** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **Regression tests for #12893: Pagination in admins changelist doesn't use…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- *... and 1 more nodes in this community*
+- **regex_helper.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **normalize()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **NormalizeTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_regex_helper.py`
+- **Choice** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **Group** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **NonCapture** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **contains()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **flatten_result()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **get_quantifier()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **next_char()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **list** (3 connections)
+- **walk_to_end()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **test_regex_helper.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_regex_helper.py`
+- **Functions for reversing a regular expression (used in reverse URL resolving).…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **r""" An iterator that yields the next character from "pattern_iter", respecting…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **The iterator is currently inside a capturing group. Walk to the close of this…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **Parse a quantifier from the input, where "ch" is the first character in the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **Represent multiple possibilities at this point in a pattern string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **Return True if the "source" contains an instance of "inst". False, otherwise.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **Turn the given source sequence into a list of reg-exp possibilities and their…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **Represent a capturing group in the pattern string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **Represent a non-capturing group in the pattern string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **r""" Given a reg-exp pattern, normalize it to an iterable of forms that suffice…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **# FIXME: One day we'll should do this, but not in 1.0.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- **.test_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_regex_helper.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 449](Community_449.md) (14 shared connections)
-- [Community 2](Community_2.md) (10 shared connections)
-- [Community 79](Community_79.md) (9 shared connections)
-- [Community 16](Community_16.md) (4 shared connections)
+- [Community 39](Community_39.md) (2 shared connections)
+- [Community 445](Community_445.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/regex_helper.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_regex_helper.py`
 
 ## Audit Trail
 
-- EXTRACTED: 61 (94%)
-- INFERRED: 4 (6%)
+- EXTRACTED: 43 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,61 +1,78 @@
 # Community 26
 
-> 165 nodes · cohesion 0.03
+> 85 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **.assertIsInvalid()** (78 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **modeladmin/test_checks.py** (55 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **.assertIsValid()** (41 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **CheckTestCase** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **ValidationTestModel** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/models.py`
-- **TabularInline** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **FieldsetsCheckTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **ListFilterTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **AutocompleteFieldsTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **InlinesCheckTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **ListDisplayLinksCheckTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **OrderingCheckTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **PrepopulatedFieldsCheckTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **ListDisplayEditableTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **ValidationTestInlineModel** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/models.py`
-- **.assertIsInvalidRegexp()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **DateHierarchyCheckTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **FormsetCheckTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **ListDisplayTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **RadioFieldsCheckTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **ExtraCheckTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **FieldsCheckTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **FilterHorizontalCheckTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **FilterVerticalCheckTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- **FkNameCheckTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
-- *... and 140 more nodes in this community*
+- **ValidationError** (170 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- **django/utils/__init__.py** (128 connections) — `raw/code/hyd-evaluation/django-django/django/utils/__init__.py`
+- **django/forms/__init__.py** (127 connections) — `raw/code/hyd-evaluation/django-django/django/forms/__init__.py`
+- **auth_tests/test_validators.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **password_validation.py** (30 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **FormFieldAssertionsMixin** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/__init__.py`
+- **field_tests/__init__.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/__init__.py`
+- **field_tests/test_durationfield.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
+- **field_tests/test_floatfield.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_floatfield.py`
+- **validate_password()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **field_tests/test_decimalfield.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
+- **field_tests/test_imagefield.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
+- **pgraster.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/pgraster.py`
+- **test_datefield.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- **test_selectdatewidget.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- **model_forms/test_uuid.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
+- **MinimumLengthValidator** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **test_dateinput.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_dateinput.py`
+- **test_datetimeinput.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_datetimeinput.py`
+- **test_splithiddendatetimewidget.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splithiddendatetimewidget.py`
+- **test_timeinput.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_timeinput.py`
+- **get_default_password_validators()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **test_splitdatetimefield.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_splitdatetimefield.py`
+- **field_tests/test_timefield.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_timefield.py`
+- **from_pgraster()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/pgraster.py`
+- *... and 60 more nodes in this community*
 
 ## Relationships
 
-- [Community 39](Community_39.md) (30 shared connections)
-- [Community 35](Community_35.md) (13 shared connections)
-- [Community 54](Community_54.md) (9 shared connections)
-- [Community 63](Community_63.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 86](Community_86.md) (2 shared connections)
-- [Community 25](Community_25.md) (2 shared connections)
-- [Community 229](Community_229.md) (2 shared connections)
-- [Community 78](Community_78.md) (2 shared connections)
-- [Community 605](Community_605.md) (1 shared connections)
-- [Community 48](Community_48.md) (1 shared connections)
+- [Community 45](Community_45.md) (49 shared connections)
+- [Community 3](Community_3.md) (49 shared connections)
+- [Community 8](Community_8.md) (41 shared connections)
+- [Community 240](Community_240.md) (26 shared connections)
+- [Community 9](Community_9.md) (23 shared connections)
+- [Community 1](Community_1.md) (21 shared connections)
+- [Community 88](Community_88.md) (20 shared connections)
+- [Community 4](Community_4.md) (20 shared connections)
+- [Community 97](Community_97.md) (18 shared connections)
+- [Community 17](Community_17.md) (18 shared connections)
+- [Community 0](Community_0.md) (16 shared connections)
+- [Community 111](Community_111.md) (11 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- `raw/code/hyd-evaluation/django-django/tests/modeladmin/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/modeladmin/test_checks.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/const.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/pgraster.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/dates.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_booleanfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_choicefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_combofield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datetimefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_emailfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 353 (82%)
-- INFERRED: 78 (18%)
+- EXTRACTED: 735 (99%)
+- INFERRED: 6 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

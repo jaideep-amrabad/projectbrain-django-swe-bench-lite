@@ -1,27 +1,30 @@
 # Community 963
 
-> 5 nodes · cohesion 0.40
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **SecretHideout** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **SuperSecretHideout** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Secret! Not registered with the admin!** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **RunTestsExceptionHandlingTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_run_checks_passes_and_teardown_raises()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_run_checks_raises()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_run_checks_raises_and_teardown_raises()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **Teardown functions are run when run_checks() raises SystemCheckError.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **SystemCheckError is surfaced when run_checks() raises SystemCheckError and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **Exceptions on teardown are surfaced if no exceptions happen during run_checks().** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
 
 ## Relationships
 
-- [Community 89](Community_89.md) (2 shared connections)
+- [Community 226](Community_226.md) (4 shared connections)
+- [Community 479](Community_479.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 10 (91%)
+- INFERRED: 1 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

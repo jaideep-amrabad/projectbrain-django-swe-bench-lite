@@ -1,23 +1,24 @@
 # Community 1111
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **.test_set_many_returns_empty_list_on_success()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **set_many() returns an empty list when all keys are inserted.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **objectType()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **registerLoggingCallbacks()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **registerLoggingCallback()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
 
 ## Relationships
 
-- [Community 295](Community_295.md) (1 shared connections)
+- [Community 292](Community_292.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

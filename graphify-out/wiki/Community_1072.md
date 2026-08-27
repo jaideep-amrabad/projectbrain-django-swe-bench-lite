@@ -1,25 +1,29 @@
 # Community 1072
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.83
 
 ## Key Concepts
 
-- **Test** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests/tests.py`
-- **sample/tests/tests.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests/tests.py`
-- **.test_sample()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests/tests.py`
+- **TestMultiDBChecks** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
+- **._patch_check_field_on()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
+- **.test_checks_called_on_the_default_database()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
+- **.test_checks_called_on_the_other_database()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
 
 ## Relationships
 
-- [Community 51](Community_51.md) (1 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 114](Community_114.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_multi_db.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 9 (90%)
+- INFERRED: 1 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,25 +1,25 @@
 # Community 1054
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **SampleTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/tests.py`
-- **.test_class_fixtures()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/tests.py`
-- **Test cases can load fixture objects into models defined in packages** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/tests.py`
+- **calendar.js** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/calendar.js`
+- **calendarMonth()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/calendar.js`
+- **Calendar()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/calendar.js`
+- **onClick()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/calendar.js`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/calendar.js`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

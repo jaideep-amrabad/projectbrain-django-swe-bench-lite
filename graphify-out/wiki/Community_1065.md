@@ -1,38 +1,28 @@
 # Community 1065
 
-> 10 nodes · cohesion 0.27
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **TestManagerInheritance** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
-- **CustomManager** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.test_deconstruct_from_queryset_failing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- **.test_base_manager_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
-- **.test_default_manager_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
-- **.test_implicit_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
-- **.test_manager_no_duplicates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **MemberManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **SubPostInline** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **PrePopulatedSubPost** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.get_prepopulated_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.get_readonly_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Relationships
 
-- [Community 34](Community_34.md) (2 shared connections)
-- [Community 84](Community_84.md) (1 shared connections)
-- [Community 86](Community_86.md) (1 shared connections)
-- [Community 210](Community_210.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 65](Community_65.md) (2 shared connections)
+- [Community 75](Community_75.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (72%)
-- INFERRED: 5 (28%)
+- EXTRACTED: 5 (83%)
+- INFERRED: 1 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

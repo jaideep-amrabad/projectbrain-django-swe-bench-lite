@@ -1,28 +1,29 @@
 # Community 1011
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **GetOrCreateThroughManyToMany** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_create_get_or_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_get_get_or_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_something()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.make_state()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **._generate_plan()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **.leaf_nodes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **Return all leaf nodes - that is, nodes with no dependents in their app. These…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **Given a migration node or nodes, return a complete ProjectState for it. If…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
 
 ## Relationships
 
-- [Community 525](Community_525.md) (2 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
-- [Community 736](Community_736.md) (1 shared connections)
+- [Community 289](Community_289.md) (3 shared connections)
+- [Community 573](Community_573.md) (1 shared connections)
+- [Community 351](Community_351.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (71%)
-- INFERRED: 2 (29%)
+- EXTRACTED: 9 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

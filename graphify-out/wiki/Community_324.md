@@ -1,47 +1,62 @@
 # Community 324
 
-> 18 nodes · cohesion 0.15
+> 55 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **messages/api.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **add_message()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **default_storage()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/__init__.py`
-- **MessageFailure** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **get_messages()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **messages/context_processors.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/context_processors.py`
-- **debug()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **success()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **warning()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/context_processors.py`
-- **Exception** (1 connections)
-- **Attempt to add a message to the request using the 'messages' app.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **Return the message storage on the request if it exists, otherwise return an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **Add a message with the ``DEBUG`` level.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **Add a message with the ``SUCCESS`` level.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **Add a message with the ``WARNING`` level.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- **Return a lazy 'messages' context variable as well as 'DEFAULT_MESSAGE_LEVELS'.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/context_processors.py`
-- **Callable with the same interface as the storage classes. This isn't just…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/__init__.py`
+- **Widget** (21 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **Input** (18 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **ChoiceWidget** (15 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.get_context()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.__init__()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.render()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **PasswordInput** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **test_widget.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_widget.py`
+- **WidgetTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_widget.py`
+- **.optgroups()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.format_value()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.create_option()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.options()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.subwidgets()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.build_attrs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.test_render_value_true()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_passwordinput.py`
+- **.format_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.id_for_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.get_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- *... and 30 more nodes in this community*
 
 ## Relationships
 
-- [Community 152](Community_152.md) (6 shared connections)
-- [Community 250](Community_250.md) (4 shared connections)
-- [Community 159](Community_159.md) (3 shared connections)
-- [Community 53](Community_53.md) (3 shared connections)
-- [Community 334](Community_334.md) (2 shared connections)
-- [Community 20](Community_20.md) (2 shared connections)
+- [Community 45](Community_45.md) (11 shared connections)
+- [Community 449](Community_449.md) (6 shared connections)
+- [Community 240](Community_240.md) (6 shared connections)
+- [Community 448](Community_448.md) (3 shared connections)
+- [Community 251](Community_251.md) (2 shared connections)
+- [Community 434](Community_434.md) (2 shared connections)
+- [Community 270](Community_270.md) (2 shared connections)
+- [Community 577](Community_577.md) (1 shared connections)
+- [Community 546](Community_546.md) (1 shared connections)
+- [Community 207](Community_207.md) (1 shared connections)
+- [Community 745](Community_745.md) (1 shared connections)
+- [Community 691](Community_691.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/context_processors.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_input.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_passwordinput.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_widget.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 118 (98%)
+- INFERRED: 3 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

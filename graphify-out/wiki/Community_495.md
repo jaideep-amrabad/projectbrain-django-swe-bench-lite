@@ -1,47 +1,50 @@
 # Community 495
 
-> 17 nodes · cohesion 0.15
+> 22 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **LazySettings** (19 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **IsOverriddenTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **._setup()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.__getattr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.configured()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.test_configure()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_evaluated_lazysettings_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_override()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_unevaluated_lazysettings_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_usersettingsholder_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_nonupper_settings_ignored_in_default_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_nonupper_settings_prohibited_in_configure()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **Return True if the settings have already been configured.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **A lazy proxy for either global Django settings or a custom settings object. The…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **Load the settings module pointed to by the environment variable. This is used…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **Return the value of a setting and cache it in self.__dict__.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **Reporter** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/models.py`
+- **AtomicErrorsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **AtomicMergeTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **AtomicMiscTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_atomic_allows_queries_after_fixing_transaction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_atomic_does_not_leak_savepoints_on_failure()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_wrap_callable_instance()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_orm_query_after_error_and_rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_atomic_prevents_queries_in_broken_transaction()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_atomic_prevents_queries_in_broken_transaction_after_client_close()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/models.py`
+- **.test_atomic_prevents_calling_transaction_methods()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_atomic_prevents_setting_autocommit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_merged_inner_savepoint_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_merged_outer_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_mark_for_rollback_on_error_in_autocommit()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **.test_mark_for_rollback_on_error_in_transaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **Test merging transactions with savepoint=False.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **#20028 -- Atomic must support wrapping callable instances.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **#23074 -- Savepoints must be released after rollback.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
+- **ORM queries are allowed after an error and a rollback in non-autocommit mode…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
 
 ## Relationships
 
-- [Community 20](Community_20.md) (4 shared connections)
-- [Community 316](Community_316.md) (4 shared connections)
-- [Community 575](Community_575.md) (3 shared connections)
-- [Community 111](Community_111.md) (2 shared connections)
-- [Community 717](Community_717.md) (1 shared connections)
-- [Community 101](Community_101.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
+- [Community 13](Community_13.md) (6 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 28](Community_28.md) (4 shared connections)
+- [Community 375](Community_375.md) (1 shared connections)
+- [Community 61](Community_61.md) (1 shared connections)
+- [Community 382](Community_382.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/transactions/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 34 (83%)
+- INFERRED: 7 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,50 +1,58 @@
 # Community 410
 
-> 28 nodes · cohesion 0.09
+> 42 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **RedirectViewTest** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **Default is a temporary redirect** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_direct_instantiation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_default_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_include_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_include_urlencoded_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_named_url_pattern()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_no_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_parameter_substitution()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_permanent_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_redirect_DELETE()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_redirect_HEAD()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_redirect_OPTIONS()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_redirect_PATCH()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_redirect_POST()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_redirect_PUT()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_redirect_when_meta_contains_no_query_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_temporary_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **Without any configuration, returns HTTP 410 GONE** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **Permanent redirects are an option** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **Temporary redirects are an option** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **GET arguments can be included in the redirected URL** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **GET arguments can be URL-encoded when included in the redirected URL** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **Redirection URLs can be parameterized** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **Named pattern parameter should reverse to the matching pattern** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- *... and 3 more nodes in this community*
+- **DjangoTranslation** (16 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **JavaScriptCatalog** (15 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **.__init__()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **translation()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **._add_installed_apps_translations()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.merge()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **._new_gnu_trans()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.get()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **._add_local_translations()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **._init_translation_catalog()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.get_context_data()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **._add_fallback()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.render_to_response()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **JSONCatalog** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **activate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **catalog()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.to_language()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.render_to_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **.language()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- **.get_catalog()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **.get_paths()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **.get_plural()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **._num_plurals()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **._plural_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [Community 10](Community_10.md) (2 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 9](Community_9.md) (12 shared connections)
+- [Community 55](Community_55.md) (1 shared connections)
+- [Community 214](Community_214.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 327](Community_327.md) (1 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
+- [Community 50](Community_50.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
+- [Community 102](Community_102.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
+- `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
 
 ## Audit Trail
 
-- EXTRACTED: 37 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 79 (96%)
+- INFERRED: 3 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

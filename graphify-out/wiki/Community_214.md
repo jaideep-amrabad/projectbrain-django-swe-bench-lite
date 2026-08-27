@@ -1,56 +1,57 @@
 # Community 214
 
-> 47 nodes · cohesion 0.08
+> 45 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **TestStatisticsAggregate** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **statistics.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **StatAggregate** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **CovarPop** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **RegrAvgX** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **RegrCount** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **Corr** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **RegrAvgY** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **RegrIntercept** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **RegrR2** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **RegrSlope** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **RegrSXX** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **RegrSXY** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **RegrSYY** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **.test_covar_pop_general()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **.test_regr_avgx_with_related_obj_and_number_as_argument()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- **.test_corr_empty_result()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **.test_corr_general()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **.test_correct_source_expressions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **.test_covar_pop_empty_result()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **.test_covar_pop_sample()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **.test_covar_pop_sample_empty_result()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **.test_missing_arguments_raises_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- *... and 22 more nodes in this community*
+- **HttpResponseBase** (37 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **HttpResponseBaseTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
+- **OSError** (6 connections)
+- **.set_cookie()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **setter** (5 connections)
+- **._convert_to_charset()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.make_bytes()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.content()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.serialize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.charset()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.serialize_headers()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **ValueError** (3 connections)
+- **.test_setdefault()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
+- **.delete_cookie()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.has_header()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.reason_phrase()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.set_signed_cookie()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.setdefault()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.__setitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.tell()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.write()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.writelines()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.content()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [Community 110](Community_110.md) (4 shared connections)
-- [Community 127](Community_127.md) (3 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 93](Community_93.md) (1 shared connections)
-- [Community 37](Community_37.md) (1 shared connections)
-- [Community 25](Community_25.md) (1 shared connections)
-- [Community 42](Community_42.md) (1 shared connections)
+- [Community 11](Community_11.md) (7 shared connections)
+- [Community 50](Community_50.md) (4 shared connections)
+- [Community 241](Community_241.md) (4 shared connections)
+- [Community 73](Community_73.md) (1 shared connections)
+- [Community 410](Community_410.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 31](Community_31.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/statistics.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 66 (68%)
-- INFERRED: 31 (32%)
+- EXTRACTED: 71 (91%)
+- INFERRED: 7 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

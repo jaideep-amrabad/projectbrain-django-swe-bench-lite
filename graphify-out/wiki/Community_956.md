@@ -1,27 +1,33 @@
 # Community 956
 
-> 5 nodes · cohesion 0.60
+> 7 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **SQLiteCursorWrapper** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.convert_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.execute()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **.executemany()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
-- **Django uses "format" style placeholders, but pysqlite2 uses "qmark" style. This…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- **Restaurant** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Meta** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **ItalianRestaurant** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Rating** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **NamedURL** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 762](Community_762.md) (6 shared connections)
+- [Community 796](Community_796.md) (4 shared connections)
+- [Community 514](Community_514.md) (2 shared connections)
+- [Community 695](Community_695.md) (2 shared connections)
+- [Community 957](Community_957.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 19 (83%)
+- INFERRED: 4 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,56 +1,45 @@
 # Community 325
 
-> 34 nodes · cohesion 0.07
+> 18 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **BaseEmailBackend** (20 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- **mail/backends/base.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- **EmailBackend** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
-- **console.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
-- **mail/backends/dummy.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/dummy.py`
-- **EmailBackend** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/locmem.py`
-- **.close()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- **custombackend.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/custombackend.py`
-- **EmailBackend** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/custombackend.py`
-- **.send_messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
-- **EmailBackend** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/dummy.py`
-- **.__enter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- **.open()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- **.send_messages()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- **.write_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
-- **.send_messages()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/locmem.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- **Base email backend class.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- **Open a network connection. This method can be overwritten by backend…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- **Close a network connection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- **Base class for email backend implementations. Subclasses must at least…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- **Send one or more EmailMessage objects and return the number of email messages…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
-- **Email backend that writes messages to console instead of sending them.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
-- *... and 9 more nodes in this community*
+- **FSFilesHandler** (11 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **_MediaFilesHandler** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.serve()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **_StaticFilesHandler** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__call__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._should_handle()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.file_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.get_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.get_base_dir()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.get_base_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **WSGI middleware that intercepts calls to a directory, as defined by one of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Check if the path should be handled. Ignore the path if: * the host is provided…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Return the relative path to the file on disk for the given URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Handler for serving static files. A private class that is meant to be used…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Handler for serving the media files. A private class that is meant to be used…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.get_base_dir()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.get_base_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Relationships
 
-- [Community 181](Community_181.md) (5 shared connections)
-- [Community 20](Community_20.md) (5 shared connections)
-- [Community 276](Community_276.md) (2 shared connections)
-- [Community 718](Community_718.md) (1 shared connections)
-- [Community 842](Community_842.md) (1 shared connections)
+- [Community 45](Community_45.md) (4 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 484](Community_484.md) (1 shared connections)
+- [Community 780](Community_780.md) (1 shared connections)
+- [Community 582](Community_582.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/dummy.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/locmem.py`
-- `raw/code/hyd-evaluation/django-django/tests/mail/custombackend.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 31 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

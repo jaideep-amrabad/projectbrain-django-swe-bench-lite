@@ -1,26 +1,30 @@
 # Community 964
 
-> 3 nodes · cohesion 0.67
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **AliasedDefaultTestSetupTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_setup_aliased_default_database()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **setup_databases() doesn't fail when 'default' is aliased** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **TestNumberFormat** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **.test_decimal_numbers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **.test_decimal_subclass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **.test_float_numbers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **.test_format_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **.test_format_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
+- **.test_large_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
 
 ## Relationships
 
-- [Community 216](Community_216.md) (2 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 - [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_numberformat.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (80%)
-- INFERRED: 1 (20%)
+- EXTRACTED: 8 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

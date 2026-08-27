@@ -1,20 +1,21 @@
 # Community 1055
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.test_dependency_sorting_m2m_complex()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_dependency_sorting_m2m_simple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **M2M relations without explicit through models SHOULD count as dependencies…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.metadata()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/base.py`
+- **setter** (1 connections)
+- **Return the metadata for this raster or band. The return value is a nested…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/base.py`
+- **Set the metadata. Update only the domains that are contained in the value…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/base.py`
 
 ## Relationships
 
-- [Community 349](Community_349.md) (2 shared connections)
+- [Community 44](Community_44.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/base.py`
 
 ## Audit Trail
 

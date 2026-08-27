@@ -1,38 +1,40 @@
 # Community 706
 
-> 13 nodes · cohesion 0.23
+> 13 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **ReservedNameTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
-- **reserved_names/tests.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
-- **reserved_names/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/models.py`
-- **Thing** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/models.py`
-- **.generate()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
-- **.test_dates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
-- **.test_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
-- **.test_month_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
-- **.test_order_by()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/models.py`
-- **Using SQL reserved names Need to use a reserved SQL name as a column name or…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/models.py`
-- **.test_simple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
+- **AdminPasswordChangeForm** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **AdminPasswordChangeFormTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.save()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.save()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.test_html_autocomplete_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_missing_passwords()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_non_matching_passwords()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_one_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_password_whitespace_not_stripped()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.changed_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.clean_password2()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **A form used to change the password of a user in the admin interface.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **Save the new password.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 72](Community_72.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 707](Community_707.md) (2 shared connections)
+- [Community 801](Community_801.md) (1 shared connections)
+- [Community 480](Community_480.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 677](Community_677.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/reserved_names/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (96%)
+- EXTRACTED: 26 (96%)
 - INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 

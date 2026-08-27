@@ -1,32 +1,31 @@
 # Community 885
 
-> 7 nodes · cohesion 0.43
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **Sign** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **SignTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sign.py`
-- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sign.py`
-- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sign.py`
-- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sign.py`
-- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sign.py`
-- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sign.py`
+- **FileDescriptor** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **ImageFileDescriptor** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__get__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__set__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **.__set__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **The descriptor for the file attribute on the model instance. Return a FieldFile…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **Just like the FileDescriptor, but for ImageFields. The only difference is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
 
 ## Relationships
 
-- [Community 51](Community_51.md) (5 shared connections)
-- [Community 162](Community_162.md) (1 shared connections)
-- [Community 70](Community_70.md) (1 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 131](Community_131.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sign.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 10 (91%)
+- INFERRED: 1 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,70 +1,50 @@
 # Community 421
 
-> 101 nodes · cohesion 0.03
+> 26 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **call_command()** (274 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **MigrateTests** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **AppLabelErrorTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **ExcludedLocaleCompilationTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
-- **ShellCommandTestCase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
-- **.test_stdin_read()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
-- **empty_models/test_commands.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/empty_models/test_commands.py`
-- **.test_migrate_syncdb_deferred_sql_executed_with_schemaeditor()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **PingGoogleTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_management.py`
-- **CoreCommandsNoOutputTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/empty_models/test_commands.py`
-- **InspectDbTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **.test_migrate()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_migrate_conflict_exit()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_migrate_fake_initial()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_migrate_fake_split_initial()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_migrate_initial_false()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_migrate_plan()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_migrate_syncdb_app_label()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_regression_22823_unmigrated_fk_to_migrated_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_showmigrations_plan()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_showmigrations_plan_multiple_app_labels()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_showmigrations_plan_no_migrations()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_showmigrations_plan_single_app_label()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_showmigrations_plan_squashed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_sqlmigrate_backwards()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- *... and 76 more nodes in this community*
+- **MultiColumnFKTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_batch_create_foreign_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_foreign_key_raises_informative_does_not_exist()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_double_nested_query()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_foreign_key_related_query_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_forward_in_lookup_filters_correctly()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_get_fails_on_multicolumn_mismatch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_get_succeeds_on_multicolumn_match()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_isnull_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_m2m_through_forward_ignores_invalid_members()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_m2m_through_forward_returns_valid_members()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_m2m_through_on_self_ignores_mismatch_columns()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_m2m_through_on_self_works()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_m2m_through_reverse_ignores_invalid_members()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_m2m_through_reverse_returns_valid_members()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_many_to_many_related_query_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_prefetch_foreignkey_forward_works()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_prefetch_foreignkey_reverse_works()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_prefetch_related_m2m_forward_works()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_prefetch_related_m2m_reverse_works()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_query_filters_correctly()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_reverse_query_filters_correctly()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **.test_reverse_query_returns_correct_result()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 64](Community_64.md) (38 shared connections)
-- [Community 12](Community_12.md) (27 shared connections)
-- [Community 8](Community_8.md) (24 shared connections)
-- [Community 213](Community_213.md) (17 shared connections)
-- [Community 175](Community_175.md) (15 shared connections)
-- [Community 198](Community_198.md) (15 shared connections)
-- [Community 360](Community_360.md) (13 shared connections)
-- [Community 450](Community_450.md) (11 shared connections)
-- [Community 785](Community_785.md) (9 shared connections)
-- [Community 114](Community_114.md) (8 shared connections)
-- [Community 593](Community_593.md) (8 shared connections)
-- [Community 668](Community_668.md) (7 shared connections)
+- [Community 307](Community_307.md) (4 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/testserver.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/empty_models/test_commands.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/sampleproject/update_catalogs.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_management.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 425 (100%)
-- INFERRED: 2 (0%)
+- EXTRACTED: 31 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

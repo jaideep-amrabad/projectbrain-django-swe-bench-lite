@@ -1,34 +1,37 @@
 # Community 794
 
-> 10 nodes · cohesion 0.20
+> 11 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **M2mThroughReferentialTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_add_on_symmetrical_m2m_with_intermediate_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_self_referential_empty_qs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_self_referential_non_symmetrical_both()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_self_referential_non_symmetrical_clear_first_side()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_self_referential_non_symmetrical_first_side()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_self_referential_non_symmetrical_second_side()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_self_referential_symmetrical()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_set_on_symmetrical_m2m_with_intermediate_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_through_fields_self_referential()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- **m2m_intermediary/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/tests.py`
+- **m2m_intermediary/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
+- **M2MIntermediaryTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/tests.py`
+- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
+- **Reporter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
+- **Writer** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
+- **.test_intermeiary()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
+- **Many-to-many relationships via an intermediary table For many-to-many…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
 
 ## Relationships
 
-- [Community 564](Community_564.md) (5 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
-- [Community 764](Community_764.md) (1 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 41](Community_41.md) (2 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (69%)
-- INFERRED: 5 (31%)
+- EXTRACTED: 19 (83%)
+- INFERRED: 4 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

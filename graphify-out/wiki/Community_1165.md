@@ -1,24 +1,30 @@
 # Community 1165
 
-> 2 nodes · cohesion 1.00
+> 6 nodes · cohesion 0.53
 
 ## Key Concepts
 
-- **.test_inheritance19()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **{% load %} tag (within a child template)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Power** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **PowerTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_power.py`
+- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_power.py`
+- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_power.py`
+- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_power.py`
+- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_power.py`
 
 ## Relationships
 
-- [Community 769](Community_769.md) (1 shared connections)
-- [Community 803](Community_803.md) (1 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_power.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 15 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

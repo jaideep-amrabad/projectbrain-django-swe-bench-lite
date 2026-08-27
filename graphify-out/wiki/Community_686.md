@@ -1,39 +1,55 @@
 # Community 686
 
-> 14 nodes · cohesion 0.15
+> 23 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **simple/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **DjangoCase1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **DjangoCase2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **SimpleCase1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **SimpleCase2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **DjangoTestCase** (2 connections)
-- **.test_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **.test_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **.test_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **.test_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **.test_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **.test_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **.test_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
-- **.test_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
+- **RoutePattern** (11 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **urls/converters.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **_route_to_regex()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **StringConverter** (5 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **get_converter()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **RoutePatternTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/test_resolvers.py`
+- **IntConverter** (3 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **UUIDConverter** (3 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **get_converters()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **PathConverter** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **SlugConverter** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **._compile()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.test_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/test_resolvers.py`
+- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **.to_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **.to_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **.to_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **Convert a path pattern into a regular expression. Return the regular expression…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.match()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
-- [Community 1073](Community_1073.md) (1 shared connections)
-- [Community 1034](Community_1034.md) (1 shared connections)
+- [Community 39](Community_39.md) (4 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 451](Community_451.md) (2 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 352](Community_352.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 210](Community_210.md) (1 shared connections)
+- [Community 445](Community_445.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/simple/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/test_resolvers.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 39 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

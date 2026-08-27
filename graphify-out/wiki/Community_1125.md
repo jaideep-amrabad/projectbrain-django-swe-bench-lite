@@ -1,24 +1,24 @@
 # Community 1125
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.test_empty_ordered_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **Ordering fields are allowed to be left blank. If they are left blank, they'll…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **.test_generic_update_or_create_when_created()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_generic_update_or_create_when_updated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **Should be able to use update_or_create from the generic related manager to…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
 
 ## Relationships
 
-- [Community 420](Community_420.md) (1 shared connections)
-- [Community 523](Community_523.md) (1 shared connections)
+- [Community 374](Community_374.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

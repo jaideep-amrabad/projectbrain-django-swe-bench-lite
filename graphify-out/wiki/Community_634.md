@@ -1,39 +1,61 @@
 # Community 634
 
-> 14 nodes · cohesion 0.14
+> 34 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **HandlerTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_invalid_multipart_boundary()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_bad_path_info()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_invalid_unicode_cookie()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_non_ascii_cookie()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_non_ascii_query_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **.test_middleware_initialized()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **A non-UTF-8 path populates PATH_INFO with an URL-encoded path and produces a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **Non-ASCII query strings are properly decoded (#20530, #22996).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **Non-ASCII cookies set in JavaScript are properly decoded (#20557).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **Invalid cookie content should result in an absent cookie, but not in a crash…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
-- **Invalid boundary string should produce a "Bad Request" response, not a server…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **LimitedStream** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **get_script_name()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **Command** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/shell.py`
+- **ServerHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **get_bytes_from_wsgi()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **get_str_from_wsgi()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **.readline()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **ScriptNameTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **._read_limited()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **.COOKIES()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **.GET()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **.python()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/shell.py`
+- **is_broken_pipe_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.handle_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.handle_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.test_get_script_name_double_slashes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.test_limited_stream()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.read()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **Get a value from the WSGI environ dictionary as bytes. key and default should…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **.handle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/shell.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.test_get_script_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 71](Community_71.md) (7 shared connections)
-- [Community 228](Community_228.md) (4 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
+- [Community 71](Community_71.md) (10 shared connections)
+- [Community 91](Community_91.md) (5 shared connections)
+- [Community 11](Community_11.md) (3 shared connections)
+- [Community 347](Community_347.md) (3 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 582](Community_582.md) (2 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 189](Community_189.md) (1 shared connections)
+- [Community 502](Community_502.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
+- `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/shell.py`
+- `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
 - `raw/code/hyd-evaluation/django-django/tests/handlers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (85%)
-- INFERRED: 4 (15%)
+- EXTRACTED: 64 (93%)
+- INFERRED: 5 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

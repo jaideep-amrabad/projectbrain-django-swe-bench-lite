@@ -1,68 +1,33 @@
 # Community 930
 
-> 30 nodes · cohesion 0.10
+> 7 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **BaseDatabaseClient** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/client.py`
-- **DatabaseClient** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/client.py`
-- **DatabaseClient** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/client.py`
-- **postgresql/client.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/client.py`
-- **DatabaseClient** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/client.py`
-- **test_postgresql.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
-- **base/client.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/client.py`
-- **mysql/client.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/client.py`
-- **DatabaseClient** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/client.py`
-- **test_oracle.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
-- **OracleDbshellTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
-- **._run_dbshell()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
-- **oracle/client.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/client.py`
-- **sqlite3/client.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/client.py`
-- **test_mysql.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
-- **spatialite/client.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/client.py`
-- **DatabaseClient** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
-- **.test_with_rlwrap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
-- **.test_without_rlwrap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/client.py`
-- **.runshell()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/client.py`
-- **Encapsulate backend-specific methods for opening a client shell.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/client.py`
-- **.runshell()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/client.py`
-- **.settings_to_cmd_args()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/client.py`
-- **.runshell()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/client.py`
-- *... and 5 more nodes in this community*
+- **Round** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **RoundTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
+- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
+- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
+- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
+- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
+- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (9 shared connections)
-- [Community 0](Community_0.md) (7 shared connections)
-- [Community 246](Community_246.md) (3 shared connections)
-- [Community 238](Community_238.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 144](Community_144.md) (2 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 457](Community_457.md) (1 shared connections)
-- [Community 638](Community_638.md) (1 shared connections)
-- [Community 251](Community_251.md) (1 shared connections)
-- [Community 572](Community_572.md) (1 shared connections)
-- [Community 467](Community_467.md) (1 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 277](Community_277.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 63](Community_63.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/client.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/client.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/client.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/client.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/client.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/client.py`
-- `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
-- `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
-- `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
 
 ## Audit Trail
 
-- EXTRACTED: 73 (92%)
-- INFERRED: 6 (8%)
+- EXTRACTED: 16 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,35 +1,37 @@
 # Community 742
 
-> 10 nodes · cohesion 0.20
+> 12 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **MemcachedCacheTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **PyLibMCCacheTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_default_used_when_none_is_set()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_memcached_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **skipUnless** (2 connections)
-- **.test_invalid_key_characters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_pylibmc_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_memcached_uses_highest_pickle_version()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **skip** (1 connections)
-- **python-memcached doesn't support default in get() so this test overrides the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **DatabaseSchemaEditor** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **._set_field_new_type_null_status()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **._is_limited_data_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **.skip_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **.add_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **._alter_column_type_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **._delete_composed_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **._field_should_be_indexed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **._rename_field_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **.quote_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **MySQL can remove an implicit FK index on a field when that field is covered by…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- **Keep the null property of the old field. If it has changed, it will be handled…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
 
 ## Relationships
 
-- [Community 12](Community_12.md) (4 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 696](Community_696.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 32](Community_32.md) (1 shared connections)
+- [Community 132](Community_132.md) (1 shared connections)
+- [Community 444](Community_444.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 20 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,15 +1,16 @@
 # Community 1122
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.test_dependency_sorting_m2m_simple_circular()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **Resolving circular M2M relations without explicit through models should fail…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_dependency_sorting_m2m_complex()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **.test_dependency_sorting_m2m_simple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **M2M relations without explicit through models SHOULD count as dependencies…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
 
 ## Relationships
 
-- [Community 349](Community_349.md) (1 shared connections)
+- [Community 340](Community_340.md) (2 shared connections)
 
 ## Source Files
 
@@ -17,7 +18,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

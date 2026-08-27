@@ -1,33 +1,35 @@
 # Community 783
 
-> 9 nodes · cohesion 0.25
+> 11 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **ContextDict** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.update()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.__enter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **.__exit__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **dict** (1 connections)
-- **Push other_dict to the stack of dictionaries in the Context** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- **yesno()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **FunctionTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
+- **.test_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
+- **.test_false_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
+- **.test_invalid_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
+- **.test_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
+- **.test_none_three_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
+- **.test_none_two_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
+- **.test_true()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
+- **.test_true_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
+- **Given a string mapping values for true, false, and (optionally) None, return…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 
 ## Relationships
 
-- [Community 253](Community_253.md) (2 shared connections)
-- [Community 2](Community_2.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 466](Community_466.md) (1 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 29](Community_29.md) (2 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/context.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_yesno.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (100%)
+- EXTRACTED: 23 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

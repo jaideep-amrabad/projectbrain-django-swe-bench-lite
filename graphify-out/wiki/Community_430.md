@@ -1,59 +1,58 @@
 # Community 430
 
-> 26 nodes · cohesion 0.14
+> 25 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **sites_framework/tests.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
-- **CurrentSiteManager** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
-- **sites_framework/models.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
-- **managers.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
-- **SitesFrameworkTestCase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
-- **AbstractArticle** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
-- **CurrentSiteManagerChecksTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
-- **._get_field_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
-- **CustomArticle** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
-- **ExclusiveArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
-- **SyndicatedArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
-- **._check_field_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
-- **._check_table_uniqueness()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- **.check()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
-- **.test_invalid_field_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
-- **.test_invalid_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
-- **Return self.__field_name or 'site' or 'sites'.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
-- **Use this to limit objects to those associated with the current site.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
-- **.test_custom_named_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
-- **.test_site_fk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
-- *... and 1 more nodes in this community*
+- **Collector** (25 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.collect()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.can_fast_delete()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **NoFastDeleteCollector** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py`
+- **.delete()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.add()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.get_del_batches()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **._has_signal_listeners()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.related_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **get_candidate_relations_to_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.can_fast_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py`
+- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **.add_field_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.instances_with_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.sort()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **Collector** (1 connections)
+- **Always load related objects to display them when showing confirmation.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py`
+- **Schedule a field update. 'objs' must be a homogeneous iterable collection of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **Determine if the objects in the given queryset-like or single object can be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **Return the objs in suitably sized batches for the used connection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **Add 'objs' to the collection of objects to be deleted as well as all parent…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **Get a QuerySet of objects related to `objs` via the relation `related`.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
+- **Add 'objs' to the collection of objects to be deleted. If the call is the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (8 shared connections)
-- [Community 86](Community_86.md) (4 shared connections)
-- [Community 81](Community_81.md) (4 shared connections)
-- [Community 20](Community_20.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 33](Community_33.md) (2 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 45](Community_45.md) (4 shared connections)
+- [Community 74](Community_74.md) (3 shared connections)
+- [Community 114](Community_114.md) (2 shared connections)
+- [Community 57](Community_57.md) (2 shared connections)
+- [Community 756](Community_756.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 165](Community_165.md) (1 shared connections)
+- [Community 429](Community_429.md) (1 shared connections)
+- [Community 611](Community_611.md) (1 shared connections)
+- [Community 93](Community_93.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sites/managers.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
-- `raw/code/hyd-evaluation/django-django/tests/sites_framework/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/sites_framework/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
 
 ## Audit Trail
 
-- EXTRACTED: 66 (90%)
-- INFERRED: 7 (10%)
+- EXTRACTED: 46 (88%)
+- INFERRED: 6 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

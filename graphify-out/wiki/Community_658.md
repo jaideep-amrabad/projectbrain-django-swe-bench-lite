@@ -1,37 +1,47 @@
 # Community 658
 
-> 14 nodes · cohesion 0.19
+> 15 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **Command** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
-- **.handle_inspection()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
-- **Command** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/inspectdb.py`
-- **.get_field_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
-- **.get_meta()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
-- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
-- **.normalize_col_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
-- **gis/management/commands/inspectdb.py** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/inspectdb.py`
-- **InspectDBCommand** (1 connections)
-- **.get_field_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/inspectdb.py`
-- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
-- **Modify the column name to make it Python-compatible as a field name** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
-- **Given the database connection, the table name, and the cursor row description,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
-- **Return a sequence comprising the lines of code necessary to construct the inner…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **wordwrap()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **wrap()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **FunctionTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_wordwrap.py`
+- **ActionAdmin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
+- **.get_urls()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
+- **.remove_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
+- **.test_wrap_lazy_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_wordwrap.py`
+- **.test_indent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_wordwrap.py`
+- **.test_indent2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_wordwrap.py`
+- **.test_non_string_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_wordwrap.py`
+- **.test_wrap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_wordwrap.py`
+- **Wrap words at `arg` line length.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **A word-wrap function that preserves existing line breaks. Expects that existing…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **A ModelAdmin for the Action model that changes the URL of the add_view to '<app…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
+- **Remove all entries named 'name' from the ModelAdmin instance URL patterns list** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
 
 ## Relationships
 
+- [Community 29](Community_29.md) (4 shared connections)
 - [Community 8](Community_8.md) (3 shared connections)
+- [Community 31](Community_31.md) (1 shared connections)
+- [Community 47](Community_47.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 88](Community_88.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/inspectdb.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_wordwrap.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 31 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

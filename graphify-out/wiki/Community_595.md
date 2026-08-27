@@ -1,41 +1,44 @@
 # Community 595
 
-> 17 nodes · cohesion 0.12
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **TestFormField** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_redisplay_wrong_input()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_custom_widget_attribute()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_custom_widget_kwarg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_widget()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **When displaying a bound form (typically due to invalid input), the form should…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **The default widget of a JSONField is a Textarea.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **The widget can be overridden with a kwarg.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **The widget can be overridden with an attribute.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_already_converted_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_formfield_disabled()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_has_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_invalid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_prepare_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_valid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_valid_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
+- **ModelChoiceFieldTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_overridable_choice_iterator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_basics()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_choice_iterator_passes_model_to_widget()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_choices_bool()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_choices_bool_empty_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_choices_freshness()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_choices_not_fetched_when_not_rendering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_deepcopies_widget()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_disabled_modelchoicefield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_disabled_modelchoicefield_has_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_disabled_modelmultiplechoicefield_has_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_queryset_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_queryset_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **.test_result_cache_not_shared()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
+- **Iterator defaults to ModelChoiceIterator and can be overridden with the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
 
 ## Relationships
 
-- [Community 110](Community_110.md) (2 shared connections)
-- [Community 83](Community_83.md) (1 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
+- [Community 83](Community_83.md) (4 shared connections)
+- [Community 35](Community_35.md) (2 shared connections)
+- [Community 385](Community_385.md) (2 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 1034](Community_1034.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 22 (81%)
+- INFERRED: 5 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,60 +1,58 @@
 # Community 407
 
-> 64 nodes · cohesion 0.05
+> 42 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **generic/dates.py** (47 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **MultipleObjectMixin** (18 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **BaseDateListView** (16 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **YearMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **MultipleObjectTemplateResponseMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **DateMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **MonthMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **BaseDateDetailView** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **BaseDayArchiveView** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **DayMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.paginate_queryset()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **BaseMonthArchiveView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **BaseWeekArchiveView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **BaseYearArchiveView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_context_data()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- **ArchiveIndexView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **BaseArchiveIndexView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **BaseTodayArchiveView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **DateDetailView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **DayArchiveView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **MonthArchiveView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **TodayArchiveView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **WeekArchiveView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **YearArchiveView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- **.get_allow_empty()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
-- *... and 39 more nodes in this community*
+- **DatabaseWrapper** (25 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **FormatStylePlaceholderCursor** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **VariableWrapper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.executemany()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.execute()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.create_cursor()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._fix_for_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._format_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **wrap_oracle_errors()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._dsn()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.get_new_connection()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._guess_input_sizes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._output_type_handler()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._param_generator()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._maindb_connection()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **.check_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._commit()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._connect_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.init_connection_state()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.arrayvar()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **._get_decimal_converter()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.var()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **.get_connection_params()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [Community 500](Community_500.md) (35 shared connections)
-- [Community 10](Community_10.md) (23 shared connections)
-- [Community 347](Community_347.md) (7 shared connections)
-- [Community 20](Community_20.md) (6 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 101](Community_101.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 133](Community_133.md) (2 shared connections)
-- [Community 72](Community_72.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 62](Community_62.md) (1 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 77](Community_77.md) (2 shared connections)
+- [Community 274](Community_274.md) (2 shared connections)
+- [Community 786](Community_786.md) (2 shared connections)
+- [Community 60](Community_60.md) (1 shared connections)
+- [Community 635](Community_635.md) (1 shared connections)
+- [Community 317](Community_317.md) (1 shared connections)
+- [Community 364](Community_364.md) (1 shared connections)
+- [Community 123](Community_123.md) (1 shared connections)
+- [Community 61](Community_61.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
-- `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
 
 ## Audit Trail
 
-- EXTRACTED: 189 (97%)
-- INFERRED: 5 (3%)
+- EXTRACTED: 66 (88%)
+- INFERRED: 9 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

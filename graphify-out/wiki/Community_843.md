@@ -1,33 +1,31 @@
 # Community 843
 
-> 7 nodes · cohesion 0.33
+> 9 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **templatetags/log.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/log.py`
-- **AdminLogNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/log.py`
-- **get_admin_log()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/log.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/log.py`
-- **.render()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/log.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/log.py`
-- **Populate a template variable with the admin log for the given criteria. Usage::…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/log.py`
+- **.strftime()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
+- **.getFullMonthName()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
+- **.getTwoDigitMonth()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
+- **.getTwoDigitTwelveHour()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
+- **.getTwelveHours()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
+- **.getTwoDigitDate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
+- **.getTwoDigitHour()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
+- **.getTwoDigitMinute()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
+- **.getTwoDigitSecond()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
 
 ## Relationships
 
-- [Community 219](Community_219.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/log.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/core.js`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (92%)
-- INFERRED: 1 (8%)
+- EXTRACTED: 9 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

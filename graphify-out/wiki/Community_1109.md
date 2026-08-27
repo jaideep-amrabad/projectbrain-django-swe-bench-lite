@@ -1,24 +1,29 @@
 # Community 1109
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.test_long_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **Followe memcached's convention where a timeout greater than 30 days is treated…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **CircularDependencyError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
+- **.ensure_not_cyclic()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **There's an impossible-to-resolve circular dependency.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
 
 ## Relationships
 
-- [Community 295](Community_295.md) (1 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 289](Community_289.md) (2 shared connections)
+- [Community 529](Community_529.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 7 (88%)
+- INFERRED: 1 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

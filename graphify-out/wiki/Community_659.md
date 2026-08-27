@@ -1,38 +1,41 @@
 # Community 659
 
-> 13 nodes · cohesion 0.18
+> 15 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **BaseReloader** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.run()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.run_loop()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.wait_for_apps_ready()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.tick()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.stop()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.check_availability()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.should_stop()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.stop()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.watch_dir()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **Wait until Django reports that the apps have been loaded. If the given thread…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **This generator is called in a loop from run_loop. It's important that the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- **unordered_list()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **FunctionTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_autoescape()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_autoescape_off()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_list_gettext()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_nested()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_nested2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_nested3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_nested_generators()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_nested_multiple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_nested_multiple2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_ulitem()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **.test_ulitem_autoescape_off()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
+- **Recursively take a self-nested list and return an HTML unordered list --…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 
 ## Relationships
 
-- [Community 183](Community_183.md) (4 shared connections)
-- [Community 536](Community_536.md) (3 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 481](Community_481.md) (1 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 29](Community_29.md) (2 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 88](Community_88.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_unordered_list.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 31 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

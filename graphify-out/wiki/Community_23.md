@@ -1,66 +1,69 @@
 # Community 23
 
-> 247 nodes · cohesion 0.01
+> 180 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **operations/models.py** (39 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **Operation** (30 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **FieldOperation** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **operations/fields.py** (22 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **CreateModel** (22 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **RenameField** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **RemoveField** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **AddField** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **AlterField** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- **RenameModel** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **DeleteModel** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **AlterTogetherOptionOperation** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **RunPython** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **RunSQL** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- **ModelTuple** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/utils.py`
-- **AddIndex** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **AlterModelOptions** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **AlterOrderWithRespectTo** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **ModelOperation** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **RemoveIndex** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **operations/base.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- **AlterModelManagers** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **AlterModelTable** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **.__init__()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- **SeparateDatabaseAndState** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- *... and 222 more nodes in this community*
+- **.func()** (53 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **register()** (47 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
+- **check_framework/test_security.py** (41 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **security/base.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
+- **admin_registration/tests.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **TestRegistration** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **TestRegistrationDecorator** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **sessions.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
+- **security/csrf.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
+- **CheckSecretKeyTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **_security_middleware()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
+- **admin_registration/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
+- **CheckCSRFCookieSecureTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **CheckSessionCookieHttpOnlyTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **CheckSessionCookieSecureTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **CheckStrictTransportSecurityPreloadTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **CheckStrictTransportSecuritySubdomainsTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **check_session_cookie_httponly()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
+- **check_session_cookie_secure()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
+- **CheckContentTypeNosniffTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **CheckSSLRedirectTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **CheckStrictTransportSecurityTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **CheckXFrameOptionsDenyTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **CheckXssFilterTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **admin/decorators.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
+- *... and 155 more nodes in this community*
 
 ## Relationships
 
-- [Community 76](Community_76.md) (37 shared connections)
-- [Community 6](Community_6.md) (13 shared connections)
-- [Community 59](Community_59.md) (6 shared connections)
-- [Community 176](Community_176.md) (5 shared connections)
+- [Community 7](Community_7.md) (52 shared connections)
+- [Community 8](Community_8.md) (20 shared connections)
+- [Community 74](Community_74.md) (14 shared connections)
+- [Community 1](Community_1.md) (9 shared connections)
+- [Community 95](Community_95.md) (7 shared connections)
+- [Community 718](Community_718.md) (4 shared connections)
 - [Community 4](Community_4.md) (4 shared connections)
-- [Community 484](Community_484.md) (3 shared connections)
-- [Community 120](Community_120.md) (3 shared connections)
-- [Community 43](Community_43.md) (3 shared connections)
-- [Community 33](Community_33.md) (2 shared connections)
-- [Community 154](Community_154.md) (2 shared connections)
-- [Community 63](Community_63.md) (2 shared connections)
-- [Community 29](Community_29.md) (2 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 47](Community_47.md) (2 shared connections)
+- [Community 633](Community_633.md) (2 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
+- [Community 31](Community_31.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/fields.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/more_operations.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/admin.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/admin.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/model_checks.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/security/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
 
 ## Audit Trail
 
-- EXTRACTED: 421 (96%)
-- INFERRED: 19 (4%)
+- EXTRACTED: 414 (95%)
+- INFERRED: 24 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

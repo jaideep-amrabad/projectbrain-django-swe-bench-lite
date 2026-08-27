@@ -1,50 +1,61 @@
 # Community 242
 
-> 45 nodes · cohesion 0.04
+> 35 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **TestFormField** (46 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_datetime_form_initial_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_datetime_prepare_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_date_has_changed_first()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_date_has_changed_last()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_date_incorrect_data_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_date_invalid_lower()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_date_invalid_upper()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_date_lower_bound_higher()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_date_open()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_date_required()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_datetime_form_as_table()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_datetime_has_changed_first()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_datetime_has_changed_last()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_datetime_incorrect_data_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_datetime_invalid_lower()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_datetime_invalid_upper()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_datetime_lower_bound_higher()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_datetime_open()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_datetime_required()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_decimal_incorrect_data_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_decimal_invalid_lower()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_decimal_invalid_upper()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_decimal_lower_bound_higher()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- **.test_decimal_open()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- *... and 20 more nodes in this community*
+- **Origin** (13 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **filesystem.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
+- **Loader** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/base.py`
+- **Loader** (9 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
+- **cached.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
+- **loaders/base.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/base.py`
+- **loaders/locmem.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/locmem.py`
+- **Loader** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/locmem.py`
+- **.get_template()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/base.py`
+- **.get_template_sources()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
+- **Loader** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/app_directories.py`
+- **.get_template_sources()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/base.py`
+- **.get_dirs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/app_directories.py`
+- **.reset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/base.py`
+- **.get_contents()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
+- **.get_dirs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
+- **.get_contents()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/locmem.py`
+- **.get_template_sources()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/locmem.py`
+- **FilesystemLoader** (1 connections)
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.loader_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/base.py`
+- **Call self.get_template_sources() and return a Template object for the first…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/base.py`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Community 110](Community_110.md) (2 shared connections)
-- [Community 197](Community_197.md) (1 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
+- [Community 8](Community_8.md) (12 shared connections)
+- [Community 45](Community_45.md) (5 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 88](Community_88.md) (2 shared connections)
+- [Community 466](Community_466.md) (2 shared connections)
+- [Community 35](Community_35.md) (2 shared connections)
+- [Community 744](Community_744.md) (2 shared connections)
+- [Community 52](Community_52.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- `raw/code/hyd-evaluation/django-django/django/template/loaders/app_directories.py`
+- `raw/code/hyd-evaluation/django-django/django/template/loaders/base.py`
+- `raw/code/hyd-evaluation/django-django/django/template/loaders/cached.py`
+- `raw/code/hyd-evaluation/django-django/django/template/loaders/filesystem.py`
+- `raw/code/hyd-evaluation/django-django/django/template/loaders/locmem.py`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 71 (95%)
+- INFERRED: 4 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

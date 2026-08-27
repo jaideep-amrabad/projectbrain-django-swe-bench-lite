@@ -1,25 +1,33 @@
 # Community 932
 
-> 4 nodes · cohesion 0.50
+> 7 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **FakeAUTHSMTPConnection** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.ehlo()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **A SMTP connection pretending support for the AUTH command. It does not, but at…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **SMTP** (1 connections)
+- **Sin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **SinTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sin.py`
+- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sin.py`
+- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sin.py`
+- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sin.py`
+- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sin.py`
+- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sin.py`
 
 ## Relationships
 
-- [Community 181](Community_181.md) (1 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 277](Community_277.md) (1 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 63](Community_63.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 17 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

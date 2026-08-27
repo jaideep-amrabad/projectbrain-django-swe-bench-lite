@@ -1,44 +1,30 @@
 # Community 942
 
-> 12 nodes · cohesion 0.17
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **require_jinja2()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **RenderTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
-- **.test_template_engine()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_using()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
-- **.test_using()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
-- **.test_render_with_using()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
-- **Decorator to enable a Jinja2 template engine in addition to the regular Django…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **A template view may provide a template engine.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_render()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
-- **.test_render_with_content_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
-- **.test_render_with_multiple_templates()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
-- **.test_render_with_status()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
+- **TestCreateSuperUserSignals** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **Simple test case for ticket #20541** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.post_save_listener()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_create_superuser()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
+- **.test_create_user()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 193](Community_193.md) (3 shared connections)
-- [Community 12](Community_12.md) (2 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 461](Community_461.md) (1 shared connections)
-- [Community 502](Community_502.md) (1 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- `raw/code/hyd-evaluation/django-django/tests/shortcuts/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 8 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

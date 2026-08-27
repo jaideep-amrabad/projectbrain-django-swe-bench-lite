@@ -1,27 +1,27 @@
 # Community 969
 
-> 5 nodes · cohesion 0.40
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **CacheHandlerTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_per_thread()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_same_instance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **Attempting to retrieve the same alias should yield the same instance.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **Requesting the same alias from separate threads should yield separate instances.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.get_deferred_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **.save()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **.refresh_from_db()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **Return a set containing names of deferred fields for this instance.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **Reload field values from the database. By default, the reloading happens from…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **Save the current instance. Override this in a subclass if you want to control…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
 
 ## Relationships
 
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 114](Community_114.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

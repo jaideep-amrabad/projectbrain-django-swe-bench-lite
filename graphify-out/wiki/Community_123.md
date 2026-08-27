@@ -1,59 +1,56 @@
 # Community 123
 
-> 71 nodes · cohesion 0.03
+> 64 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **BaseExpression** (40 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **OrderBy** (34 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.copy()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.get_source_expressions()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.as_sql()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.output_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **._resolve_output_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.resolve_expression()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **DurationValue** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.flatten()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.get_source_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.relabeled_clone()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.resolve_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.as_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.asc()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.contains_aggregate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.contains_column_references()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.contains_over_clause()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.convert_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.desc()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.get_group_by_cols()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **._output_field_or_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.select_format()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.copy()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- **.as_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
-- *... and 46 more nodes in this community*
+- **DatabaseOperations** (61 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **strip_quotes()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **._get_no_autofield_sequence_name()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.quote_name()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **InsertVar** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/utils.py`
+- **._convert_field_to_tz()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.sequence_reset_by_name_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.sequence_reset_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.adapt_datetimefield_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.datetime_extract_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **._get_sequence_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.last_insert_id()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.max_name_length()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.sql_flush()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.from_datetime()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/utils.py`
+- **.adapt_datefield_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.adapt_timefield_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.bulk_batch_size()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.convert_binaryfield_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.date_extract_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.datetime_cast_date_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.datetime_cast_time_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.datetime_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.fetch_returned_insert_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.last_executed_query()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- *... and 39 more nodes in this community*
 
 ## Relationships
 
-- [Community 37](Community_37.md) (12 shared connections)
-- [Community 57](Community_57.md) (11 shared connections)
-- [Community 25](Community_25.md) (7 shared connections)
-- [Community 50](Community_50.md) (6 shared connections)
-- [Community 113](Community_113.md) (5 shared connections)
-- [Community 127](Community_127.md) (3 shared connections)
-- [Community 22](Community_22.md) (2 shared connections)
-- [Community 52](Community_52.md) (2 shared connections)
-- [Community 63](Community_63.md) (2 shared connections)
-- [Community 185](Community_185.md) (2 shared connections)
-- [Community 130](Community_130.md) (1 shared connections)
-- [Community 320](Community_320.md) (1 shared connections)
+- [Community 0](Community_0.md) (15 shared connections)
+- [Community 257](Community_257.md) (3 shared connections)
+- [Community 32](Community_32.md) (2 shared connections)
+- [Community 99](Community_99.md) (1 shared connections)
+- [Community 407](Community_407.md) (1 shared connections)
+- [Community 77](Community_77.md) (1 shared connections)
+- [Community 527](Community_527.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 129 (95%)
-- INFERRED: 7 (5%)
+- EXTRACTED: 103 (95%)
+- INFERRED: 5 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

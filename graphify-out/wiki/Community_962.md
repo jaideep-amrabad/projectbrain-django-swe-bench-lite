@@ -1,28 +1,32 @@
 # Community 962
 
-> 5 nodes · cohesion 0.40
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Section** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.name_property()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **A simple section that links to articles, to test linking to related items in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **A property that simply returns the name. Used to test #24461** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **CacheTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **.test_cache_fragment_cache()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **.test_cache_missing_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **.test_cache_regression_20130()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **When a cache called "template_fragments" is present, the cache tag will use it…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
+- **When a cache that doesn't exist is specified, the cache tag will raise a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
 
 ## Relationships
 
-- [Community 66](Community_66.md) (1 shared connections)
-- [Community 89](Community_89.md) (1 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 35](Community_35.md) (2 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cache.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 10 (83%)
+- INFERRED: 2 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

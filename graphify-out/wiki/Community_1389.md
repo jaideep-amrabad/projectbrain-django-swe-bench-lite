@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **static/javascript.js** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/commands/someapp/static/javascript.js`
+- **project_name/settings.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/custom_templates/project_template/project_name/settings.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/commands/someapp/static/javascript.js`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/custom_templates/project_template/project_name/settings.py`
 
 ## Audit Trail
 

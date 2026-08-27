@@ -1,28 +1,40 @@
 # Community 919
 
-> 6 nodes · cohesion 0.33
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **DefaultConnectionProxy** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/__init__.py`
-- **.__delattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/__init__.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/__init__.py`
-- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/__init__.py`
-- **.__setattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/__init__.py`
-- **Proxy for accessing the default DatabaseWrapper object's attributes. If you…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/__init__.py`
+- **AuthRouter** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
+- **.test_migrate_selection()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
+- **.allow_migrate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
+- **.allow_relation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
+- **.db_for_read()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
+- **.db_for_write()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
+- **Control all database operations on models in the contrib.auth application.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
+- **Point all read operations on auth models to 'default** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
+- **Point all operations on auth models to 'other** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
+- **Allow any relation if a model in Auth is involved** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
+- **Make sure the auth app only appears on the 'other' db** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
+- **Synchronization behavior is predictable** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 464](Community_464.md) (2 shared connections)
+- [Community 344](Community_344.md) (2 shared connections)
+- [Community 74](Community_74.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 203](Community_203.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/multiple_database/routers.py`
+- `raw/code/hyd-evaluation/django-django/tests/multiple_database/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 17 (89%)
+- INFERRED: 2 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

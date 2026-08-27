@@ -1,50 +1,63 @@
 # Community 69
 
-> 114 nodes · cohesion 0.03
+> 95 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **IfTagTests** (116 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **setup** (114 connections)
-- **.test_else_if_tag_error01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_is_both_variables_missing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_is_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_is_no_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_is_not_both_variables_missing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_is_not_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_is_not_no_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_is_not_variable_missing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_is_variable_missing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_tag01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_tag02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_tag03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_tag04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_tag05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_tag06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_tag07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_tag08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_tag09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_tag10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_tag11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_tag12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_tag13()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- **.test_if_tag_and01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- *... and 89 more nodes in this community*
+- **LayerMapping** (49 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
+- **LayerMapTest** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
+- **layermap/tests.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
+- **LayerMapError** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
+- **layermap/models.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
+- **.__init__()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
+- **NamedModel** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
+- **.verify_ogr_field()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
+- **State** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
+- **.check_layer()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
+- **.feature_kwargs()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
+- **City** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
+- **ICity1** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
+- **LayerMapRouterTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
+- **InvalidDecimal** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
+- **InvalidString** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
+- **.check_srs()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
+- **.coord_transform()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
+- **.save()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
+- **.verify_fk()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
+- **.verify_geom()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
+- **MissingForeignKey** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
+- **ICity2** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
+- **Interstate** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
+- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
+- *... and 70 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 1174](Community_1174.md) (2 shared connections)
-- [Community 1175](Community_1175.md) (2 shared connections)
+- [Community 112](Community_112.md) (20 shared connections)
+- [Community 290](Community_290.md) (3 shared connections)
+- [Community 276](Community_276.md) (3 shared connections)
+- [Community 44](Community_44.md) (3 shared connections)
+- [Community 41](Community_41.md) (3 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 72](Community_72.md) (1 shared connections)
+- [Community 220](Community_220.md) (1 shared connections)
+- [Community 33](Community_33.md) (1 shared connections)
+- [Community 257](Community_257.md) (1 shared connections)
+- [Community 32](Community_32.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/layermap/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 230 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 201 (89%)
+- INFERRED: 25 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

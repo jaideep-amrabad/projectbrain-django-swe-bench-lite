@@ -1,48 +1,57 @@
 # Community 459
 
-> 23 nodes · cohesion 0.15
+> 24 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **OnDeleteTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **create_a()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **A** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **.test_auto()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_auto_nullable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_cascade()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_cascade_from_child()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_cascade_from_parent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_cascade_nullable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_do_nothing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_do_nothing_qscount()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_o2o_setnull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_protect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_setdefault()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_setdefault_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_setnull()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_setnull_from_child()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_setnull_from_parent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_setvalue()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_inheritance_cascade_down()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_inheritance_cascade_up()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **.test_non_callable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
-- **A models.DO_NOTHING relation doesn't trigger a query.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **test_unique.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **GetUniqueCheckTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **PerformUniqueChecksTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **Post** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **UniqueForDateModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **UniqueTogetherModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **CustomPKModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **FlexibleDatePost** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **UniqueErrorsModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **UniqueFieldsModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **.test_unique_for_date_with_nullable_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **.test_primary_key_is_considered_unique()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **.test_unique_fields_get_collected()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **.test_unique_for_date_exclusion()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **.test_unique_for_date_gets_picked_up()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **.test_unique_together_gets_picked_up_and_converted_to_tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **.test_primary_key_unique_check_not_performed_when_adding_and_pk_not_specified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **.test_primary_key_unique_check_not_performed_when_not_adding()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **.test_primary_key_unique_check_performed_when_adding_and_pk_specified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **.test_unique_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **.test_unique_for_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **unique_for_date/year/month checks shouldn't trigger when the associated…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
 
 ## Relationships
 
-- [Community 155](Community_155.md) (9 shared connections)
-- [Community 788](Community_788.md) (2 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
+- [Community 309](Community_309.md) (8 shared connections)
+- [Community 539](Community_539.md) (5 shared connections)
+- [Community 55](Community_55.md) (2 shared connections)
+- [Community 41](Community_41.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 165](Community_165.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (90%)
-- INFERRED: 5 (10%)
+- EXTRACTED: 54 (86%)
+- INFERRED: 9 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

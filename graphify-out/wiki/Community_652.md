@@ -1,40 +1,39 @@
 # Community 652
 
-> 15 nodes · cohesion 0.14
+> 15 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **Place** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **UndergroundBar** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **.test_get_reverse_on_unsaved_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_reverse_object_cached_when_related_is_set()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_reverse_object_cached_when_related_is_unset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_reverse_object_does_not_exist_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_save_nullable_o2o_after_parent()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_set_reverse_on_unsaved_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.test_unsaved_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **Regression for #13839 and #17439. The target of a one-to-one relation is always…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **#10811 -- Assigning an unsaved object to a OneToOneField should raise an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **Regression for #13839 and #17439. DoesNotExist on a reverse one-to-one relation…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **Regression for #18153 and #19089. Accessing the reverse relation on an unsaved…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **Writing to the reverse relation on an unsaved object is impossible too.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- **Deserializer** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **._handle_object()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **._handle_fk_field_node()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **._handle_m2m_field_node()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **._make_parser()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **getInnerText()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **._get_model_from_node()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **.__next__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **Create a hardened XML parser (no custom/external entities).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **Convert an <object> node to a DeserializedObject.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **Handle a <field> node for a ForeignKey** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **Handle a <field> node for a ManyToManyField.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **Look up a model from a <object model=...> or a <field rel=... to=...> node.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **Get all the inner text of a DOM node (recursively).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
 
 ## Relationships
 
-- [Community 365](Community_365.md) (9 shared connections)
-- [Community 529](Community_529.md) (4 shared connections)
-- [Community 1023](Community_1023.md) (1 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 460](Community_460.md) (2 shared connections)
+- [Community 210](Community_210.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (93%)
-- INFERRED: 2 (7%)
+- EXTRACTED: 24 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

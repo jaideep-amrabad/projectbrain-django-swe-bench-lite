@@ -1,53 +1,35 @@
 # Community 204
 
-> 49 nodes · cohesion 0.05
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **ManyToManyTests** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **many_to_many/models.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
-- **many_to_many/tests.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
-- **Publication** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
-- **AbstractArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
-- **InheritedArticleA** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
-- **InheritedArticleB** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
-- **User** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
-- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
-- **.test_fast_add_ignore_conflicts()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **NoDeletedArticleManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
-- **Tag** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
-- **.test_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_inherited_models_selects()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_reverse_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.test_slow_add_ignore_conflicts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
-- **.get_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
-- **Many-to-many relationships To define a many-to-many relationship, use…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
-- **UserArticle** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
-- *... and 24 more nodes in this community*
+- **RequestFactoryTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_get_request_from_factory()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_request_factory()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_trace_request_from_factory()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **Tests for the request factory.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **The request factory implements all the HTTP/1.1 methods.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **The request factory returns a templated response for a GET request.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **The request factory returns an echo response for a TRACE request.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 38](Community_38.md) (3 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 583](Community_583.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
+- [Community 267](Community_267.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/many_to_many/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/many_to_many/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 69 (93%)
-- INFERRED: 5 (7%)
+- EXTRACTED: 12 (92%)
+- INFERRED: 1 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

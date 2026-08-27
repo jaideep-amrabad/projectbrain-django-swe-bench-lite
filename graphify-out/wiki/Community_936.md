@@ -1,31 +1,38 @@
 # Community 936
 
-> 6 nodes · cohesion 0.33
+> 10 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **MailTimeZoneTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_date_header_localtime()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_date_header_utc()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **requires_tz_support** (1 connections)
-- **EMAIL_USE_LOCALTIME=False creates a datetime in UTC.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **EMAIL_USE_LOCALTIME=True creates a datetime in the local time zone.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **AutocompleteJsonView** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
+- **.get()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
+- **.get_queryset()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
+- **.has_perm()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
+- **.get_paginator()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
+- **Return a JsonResponse with search results of the form: { results: [{id: "123"…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
+- **Use the ModelAdmin's paginator.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
+- **Return queryset based on ModelAdmin.get_search_results().** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
+- **Check if user has permission to access the related model.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
+- **Handle AutocompleteWidget's AJAX requests for data.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
 
 ## Relationships
 
-- [Community 112](Community_112.md) (2 shared connections)
-- [Community 12](Community_12.md) (2 shared connections)
-- [Community 181](Community_181.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 318](Community_318.md) (1 shared connections)
+- [Community 31](Community_31.md) (1 shared connections)
+- [Community 467](Community_467.md) (1 shared connections)
+- [Community 102](Community_102.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 17 (89%)
+- INFERRED: 2 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

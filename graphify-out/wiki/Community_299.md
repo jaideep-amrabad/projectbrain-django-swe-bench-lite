@@ -1,49 +1,58 @@
 # Community 299
 
-> 17 nodes · cohesion 0.12
+> 40 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **BinaryField** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_db_prep_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.test_add_field_binary()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **._check_str_default_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.value_to_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_db_prep_save()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.test_BinaryField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
-- **.deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_db_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_placeholder()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Binary data is serialized as base64** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Return field's value prepared for saving into a database.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Tests binary fields get a sane default (#22851)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **RawQuerySet** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **InvalidQuery** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **._fetch_all()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **NamedValuesListIterable** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._clone()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.iterator()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._prefetch_related_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__iter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__getstate__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__iter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__iter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.prefetch_related()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.resolve_model_init_order()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.create_namedtuple_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__bool__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.db()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **._fetch_all()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__len__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **Return the database used if this query is executed now.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__bool__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.db()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__len__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.model_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.using()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [Community 61](Community_61.md) (4 shared connections)
-- [Community 124](Community_124.md) (3 shared connections)
-- [Community 262](Community_262.md) (2 shared connections)
-- [Community 75](Community_75.md) (2 shared connections)
-- [Community 135](Community_135.md) (2 shared connections)
-- [Community 200](Community_200.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 103](Community_103.md) (1 shared connections)
-- [Community 98](Community_98.md) (1 shared connections)
+- [Community 57](Community_57.md) (7 shared connections)
+- [Community 137](Community_137.md) (5 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
+- [Community 183](Community_183.md) (2 shared connections)
+- [Community 463](Community_463.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
+- [Community 298](Community_298.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 67 (93%)
+- INFERRED: 5 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

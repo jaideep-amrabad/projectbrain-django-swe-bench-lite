@@ -1,25 +1,28 @@
 # Community 1068
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.test_inheritance22()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance23()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Three-level inheritance with {{ block.super }} from grandparent** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **MultiDatabaseTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_admin_multidb.py`
+- **.test_add_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_admin_multidb.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_admin_multidb.py`
+- **patch** (1 connections)
 
 ## Relationships
 
-- [Community 769](Community_769.md) (2 shared connections)
-- [Community 803](Community_803.md) (2 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_admin_multidb.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

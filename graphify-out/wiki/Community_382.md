@@ -1,40 +1,55 @@
 # Community 382
 
-> 13 nodes · cohesion 0.15
+> 32 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **ModelMultipleChoiceFieldTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_model_multiple_choice_number_of_queries()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_model_multiple_choice_run_validators()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_model_multiple_choice_show_hidden_initial()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_clean_does_deduplicate_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_model_multiple_choice_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_model_multiple_choice_required_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_show_hidden_initial_changed_queries_efficiently()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_to_field_name_with_initial_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **ModelMultipleChoiceField does O(1) queries instead of O(n) (#10156).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **ModelMultipleChoiceField run given validators (#14144).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Test support of show_hidden_initial by ModelMultipleChoiceField.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **DispatcherTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.assertTestIsClean()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **dispatch/tests.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **Callable** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **receiver_1_arg()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **garbage_collect()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_cached_garbaged_collected()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_disconnection()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_garbage_collected()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_multiple_registration()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **ReceiverTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.a()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_cannot_connect_no_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_cannot_connect_non_callable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_send()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_send_connected_no_sender()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_send_different_no_sender()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_send_robust_ignored_sender()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_send_robust_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_values_returned_by_disconnection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_cached_property_reuse_different_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
+- **.test_has_listeners()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_send_robust_fail()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_uid_registration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- **.test_receiver_signal_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 46](Community_46.md) (2 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 550](Community_550.md) (1 shared connections)
-- [Community 96](Community_96.md) (1 shared connections)
-- [Community 549](Community_549.md) (1 shared connections)
+- [Community 320](Community_320.md) (5 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 495](Community_495.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 42](Community_42.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/dispatch/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_functional.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (79%)
-- INFERRED: 4 (21%)
+- EXTRACTED: 66 (88%)
+- INFERRED: 9 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,53 +1,62 @@
 # Community 395
 
-> 29 nodes · cohesion 0.14
+> 41 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **OperationTestCase** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **OperationTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.alter_gis_model()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.assertColumnExists()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.assertSpatialIndexExists()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.set_up_test_model()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.test_add_blank_geom_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.test_add_blank_raster_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.test_add_geom_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.test_add_raster_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **NoRasterSupportTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.test_remove_geom_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.test_remove_raster_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.apply_operations()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.assertColumnNotExists()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.assertGeometryColumnsCount()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.test_add_raster_field_on_db_without_raster_support()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.get_table_description()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.test_create_raster_model_on_db_without_raster_support()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.test_create_model_spatial_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **.has_spatial_indexes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **Test the AddField operation with a geometry-enabled column.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- **Test the AddField operation with a raster-enabled column.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
-- *... and 4 more nodes in this community*
+- **FormattingTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **date_format()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
+- **.test_l10n_disabled()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **NowTagTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_now.py`
+- **time_format()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
+- **.test_l10n_enabled()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **setup** (8 connections)
+- **I18nForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/forms.py`
+- **SelectDateForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/forms.py`
+- **.test_all_format_strings()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_iter_format_modules()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_iter_format_modules_stability()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_localized_input()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_sub_locales()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_admin_javascript_supported_input_formats()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_false_like_locale_formats()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_locale_independent()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_now02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_now.py`
+- **.test_now03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_now.py`
+- **.test_now04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_now.py`
+- **.test_format_arbitrary_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_get_custom_format()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_get_format_modules_lang()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_get_format_modules_stability()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_localized_input_func()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [Community 38](Community_38.md) (4 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 76](Community_76.md) (2 shared connections)
-- [Community 29](Community_29.md) (2 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
+- [Community 9](Community_9.md) (23 shared connections)
+- [Community 35](Community_35.md) (6 shared connections)
+- [Community 238](Community_238.md) (4 shared connections)
+- [Community 8](Community_8.md) (4 shared connections)
+- [Community 612](Community_612.md) (4 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 296](Community_296.md) (2 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 505](Community_505.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 367](Community_367.md) (1 shared connections)
+- [Community 381](Community_381.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/test_operations.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/formats.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_now.py`
 
 ## Audit Trail
 
-- EXTRACTED: 68 (97%)
-- INFERRED: 2 (3%)
+- EXTRACTED: 102 (95%)
+- INFERRED: 5 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

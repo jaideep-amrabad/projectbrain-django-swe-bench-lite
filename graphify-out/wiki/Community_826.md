@@ -1,34 +1,35 @@
 # Community 826
 
-> 9 nodes · cohesion 0.25
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **SlugPage** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **test_empty_join.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
-- **RestrictedConditionsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
-- **.test_restrictions_with_no_joining_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **It's possible to create a working related field that doesn't use any joining…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
-- **.test_empty_join_conditions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
+- **ExtractingStringsWithPercentSigns** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
+- **POFileAssertionMixin** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
+- **.assertMsgId()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
+- **._assertPoKeyword()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
+- **.test_adds_python_format_to_all_percent_signs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
+- **.test_trans_tag_with_percent_symbol_at_the_end()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
+- **.test_trans_tag_with_percent_symbol_in_the_middle()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
+- **.test_trans_tag_with_string_that_look_like_fmt_spec()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
+- **Tests the extracted string found in the gettext catalog. Percent signs are…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
 
 ## Relationships
 
-- [Community 628](Community_628.md) (2 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 506](Community_506.md) (1 shared connections)
+- [Community 560](Community_560.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_empty_join.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

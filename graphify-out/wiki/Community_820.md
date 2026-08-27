@@ -1,31 +1,38 @@
 # Community 820
 
-> 8 nodes · cohesion 0.25
+> 10 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **FileDescriptor** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **ImageFileDescriptor** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.__get__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.__set__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **.__set__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **The descriptor for the file attribute on the model instance. Return a FieldFile…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
-- **Just like the FileDescriptor, but for ImageFields. The only difference is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- **TestManagerInheritance** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
+- **CustomManager** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **.test_deconstruct_from_queryset_failing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- **.test_base_manager_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
+- **.test_default_manager_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
+- **.test_implicit_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
+- **.test_manager_no_duplicates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **MemberManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
 
 ## Relationships
 
-- [Community 485](Community_485.md) (2 shared connections)
-- [Community 27](Community_27.md) (2 shared connections)
+- [Community 10](Community_10.md) (2 shared connections)
+- [Community 67](Community_67.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 253](Community_253.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/files.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_managers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (91%)
-- INFERRED: 1 (9%)
+- EXTRACTED: 13 (72%)
+- INFERRED: 5 (28%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,63 +1,60 @@
 # Community 302
 
-> 119 nodes · cohesion 0.03
+> 42 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **prefetch_related/tests.py** (57 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **prefetch_related/models.py** (43 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **GenericRelationTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **Book** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **Meta** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **Author** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **UUIDPrefetchRelatedLookups** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **MultiTableInheritanceTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **Person** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **test_prefetch_related_objects.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- **prefetch_related/test_uuid.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **MultiDbTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **Reader** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **UUIDPrefetchRelated** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- **ForeignKeyToFieldTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **BookWithYear** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **House** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **Room** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **LookupOrderingTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **RawQuerySetTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **ReadPrefetchedObjectsCacheTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **AuthorAddress** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **TaggedItem** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- **DefaultManagerTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- **NullableTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
-- *... and 94 more nodes in this community*
+- **.build_filter()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.add_fields()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.get_initial_alias()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.setup_joins()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.get_meta()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.resolve_ref()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **MultiColSource** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_lookups.py`
+- **.solve_lookup_type()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.join()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.names_to_path()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.trim_joins()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.is_nullable()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.split_exclude()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **_get_col()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.ref_alias()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **get_field_names_from_opts()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.add_immediate_loading()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.build_filtered_relation_q()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.join_parent_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.table_alias()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **._gen_col_aliases()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.resolve_lookup_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.get_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_lookups.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_lookups.py`
+- **.relabeled_clone()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_lookups.py`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [Community 371](Community_371.md) (26 shared connections)
-- [Community 51](Community_51.md) (17 shared connections)
-- [Community 40](Community_40.md) (8 shared connections)
-- [Community 397](Community_397.md) (8 shared connections)
-- [Community 392](Community_392.md) (6 shared connections)
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 6](Community_6.md) (4 shared connections)
-- [Community 62](Community_62.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 307](Community_307.md) (2 shared connections)
-- [Community 20](Community_20.md) (2 shared connections)
-- [Community 12](Community_12.md) (2 shared connections)
+- [Community 19](Community_19.md) (21 shared connections)
+- [Community 45](Community_45.md) (9 shared connections)
+- [Community 552](Community_552.md) (5 shared connections)
+- [Community 655](Community_655.md) (2 shared connections)
+- [Community 96](Community_96.md) (1 shared connections)
+- [Community 1098](Community_1098.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 1206](Community_1206.md) (1 shared connections)
+- [Community 1207](Community_1207.md) (1 shared connections)
+- [Community 1075](Community_1075.md) (1 shared connections)
+- [Community 1205](Community_1205.md) (1 shared connections)
+- [Community 138](Community_138.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_prefetch_related_objects.py`
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/test_uuid.py`
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_lookups.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 233 (76%)
-- INFERRED: 75 (24%)
+- EXTRACTED: 102 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

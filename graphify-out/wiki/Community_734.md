@@ -1,35 +1,36 @@
 # Community 734
 
-> 11 nodes · cohesion 0.42
+> 13 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **ExecuteWrapperTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.mock_wrapper()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.test_nested_wrapper_invoked()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.call_execute()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.call_executemany()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.test_database_queried()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.test_wrapper_connection_specific()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.test_wrapper_invoked()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.test_wrapper_invoked_many()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.test_outer_wrapper_blocks()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
-- **.test_wrapper_gets_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- **StaticTagTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
+- **setup** (11 connections)
+- **.test_static_prefixtag01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
+- **.test_static_prefixtag02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
+- **.test_static_prefixtag03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
+- **.test_static_prefixtag04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
+- **.test_static_prefixtag_without_as()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
+- **.test_static_quotes_urls()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
+- **.test_static_statictag01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
+- **.test_static_statictag02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
+- **.test_static_statictag03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
+- **.test_static_statictag04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
+- **.test_static_statictag_without_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
 
 ## Relationships
 
-- [Community 785](Community_785.md) (6 shared connections)
-- [Community 483](Community_483.md) (1 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_base.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_static.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (81%)
-- INFERRED: 6 (19%)
+- EXTRACTED: 25 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

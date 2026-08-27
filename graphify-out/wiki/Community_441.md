@@ -1,46 +1,49 @@
 # Community 441
 
-> 20 nodes · cohesion 0.10
+> 25 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **TestInlinePermissions** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.setUpTestData()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_add_fk_add_perm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_add_fk_noperm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_add_m2m_add_perm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_add_m2m_noperm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_add_m2m_view_only_perm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **Make sure the admin respects permissions for objects that are edited inline.…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_fk_add_change_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_fk_add_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_fk_all_perms()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_fk_change_del_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_fk_change_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_fk_noperm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_m2m_add_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_m2m_change_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_m2m_noperm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_inline_change_m2m_view_only_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **InclusionTagTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **SimpleTagTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **TagTestCase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **.test_no_render_side_effect()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **.test_render_context_is_cleared()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **.test_15070_use_l10n()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **.verify_tag()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **.test_inclusion_tag_registration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **.test_inclusion_tags()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **.test_inclusion_tags_from_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **.test_simple_tag_escaping_autoescape_off()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **.test_simple_tag_explicit_escaping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **.test_simple_tag_format_html_escaping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **.test_simple_tag_naive_escaping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **.test_simple_tag_registration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **.test_simple_tags()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **.test_include_tag_missing_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **.test_inclusion_tag_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **Inclusion tag passes down `use_l10n` of context to the Context of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **#23441 -- InclusionNode shouldn't modify its nodelist at render time.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **#24555 -- InclusionNode should push and pop the render_context stack when…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **.test_simple_tag_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
+- **.test_simple_tag_missing_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
 
 ## Relationships
 
-- [Community 16](Community_16.md) (8 shared connections)
-- [Community 48](Community_48.md) (5 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
+- [Community 35](Community_35.md) (10 shared connections)
+- [Community 8](Community_8.md) (4 shared connections)
+- [Community 46](Community_46.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_custom.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (89%)
-- INFERRED: 4 (11%)
+- EXTRACTED: 34 (77%)
+- INFERRED: 10 (23%)
 - AMBIGUOUS: 0 (0%)
 
 ---

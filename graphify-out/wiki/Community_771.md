@@ -1,35 +1,32 @@
 # Community 771
 
-> 10 nodes · cohesion 0.27
+> 11 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **pbkdf2()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- **test_crypto.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- **TestUtilsCryptoPBKDF2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- **.encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **TestUtilsCryptoMisc** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- **.test_constant_time_compare()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- **.test_default_hmac_alg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- **.test_public_vectors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- **.test_regression_vectors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
-- **Return the hash of password using pbkdf2.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
+- **RelatedObjectLookups.js** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
+- **windowname_to_id()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
+- **showAdminPopup()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
+- **dismissAddRelatedObjectPopup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
+- **dismissChangeRelatedObjectPopup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
+- **dismissDeleteRelatedObjectPopup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
+- **dismissRelatedLookupPopup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
+- **id_to_windowname()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
+- **showRelatedObjectLookupPopup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
+- **showRelatedObjectPopup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
+- **updateRelatedObjectLinks()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
 
 ## Relationships
 
-- [Community 20](Community_20.md) (4 shared connections)
-- [Community 259](Community_259.md) (2 shared connections)
-- [Community 56](Community_56.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/admin/RelatedObjectLookups.js`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
+- EXTRACTED: 17 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

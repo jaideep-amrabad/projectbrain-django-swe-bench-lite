@@ -1,30 +1,37 @@
 # Community 873
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **JSONEqualTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_equal_parsing_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_not_equal_parsing_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_simple_equal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_simple_equal_raise()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_simple_equal_unordered()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_simple_not_equal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_simple_not_equal_raise()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **template_tests/views.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
+- **template_tests/urls.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/urls.py`
+- **alternate_urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/alternate_urls.py`
+- **template_tests/__init__.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/__init__.py`
+- **snark()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
+- **client()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
+- **client2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
+- **client_action()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
+- **index()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
 
 ## Relationships
 
-- [Community 717](Community_717.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 11](Community_11.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 50](Community_50.md) (2 shared connections)
+- [Community 135](Community_135.md) (1 shared connections)
+- [Community 420](Community_420.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/alternate_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

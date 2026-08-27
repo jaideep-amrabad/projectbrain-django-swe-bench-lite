@@ -1,62 +1,62 @@
 # Community 309
 
-> 35 nodes · cohesion 0.08
+> 35 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **WhereNode** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **NothingNode** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **WhereNodeTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.c()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.test_empty_full_handling_conjunction()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_empty_full_handling_disjunction()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.count()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.clone()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **DummyNode** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_empty_nodes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **MockCompiler** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.as_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **._contains_aggregate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **._contains_over_clause()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **.relabel_aliases()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **.relabeled_clone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **.resolve_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **._resolve_leaf()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **._resolve_node()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **.split_having()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **Return the total number of objects, across all pages.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **Relabel the alias values of any children. 'change_map' is a dictionary mapping…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **Create a clone of the tree. Must only be called on root nodes (nodes with empty…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- **An SQL WHERE clause. The class is tied to the Query class that created it (in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
+- **validation/models.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **validation/tests.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **GenericIPAddressFieldTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **GenericIPAddressTestModel** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **ValidationAssertions** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/__init__.py`
+- **ModelFormsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **test_custom_messages.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
+- **validation/test_validators.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_validators.py`
+- **validation/__init__.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/__init__.py`
+- **CustomMessagesTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
+- **ArticleForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **CustomMessagesModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **GenericIPAddrUnpackUniqueTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **Author** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **.test_invalid_generic_ip_raises_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **.test_v4_unpack_uniqueness_detection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **.test_validation_with_empty_blank_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **.test_validation_with_invalid_blank_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **validate_answer_to_universe()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- **.test_custom_null_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
+- **.test_custom_simple_validator_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
+- **.test_correct_generic_ip_passes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **.test_correct_v4_ip_passes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
+- **.test_correct_v6_ip_passes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
 - *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Community 67](Community_67.md) (5 shared connections)
-- [Community 22](Community_22.md) (3 shared connections)
-- [Community 34](Community_34.md) (3 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 785](Community_785.md) (3 shared connections)
-- [Community 57](Community_57.md) (2 shared connections)
-- [Community 144](Community_144.md) (1 shared connections)
-- [Community 133](Community_133.md) (1 shared connections)
-- [Community 312](Community_312.md) (1 shared connections)
-- [Community 153](Community_153.md) (1 shared connections)
-- [Community 172](Community_172.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 539](Community_539.md) (8 shared connections)
+- [Community 459](Community_459.md) (8 shared connections)
+- [Community 26](Community_26.md) (4 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 45](Community_45.md) (3 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 41](Community_41.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 42](Community_42.md) (2 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/sql/where.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/test_custom_messages.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/test_validators.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 57 (80%)
-- INFERRED: 14 (20%)
+- EXTRACTED: 102 (94%)
+- INFERRED: 6 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,42 +1,38 @@
 # Community 699
 
-> 13 nodes · cohesion 0.26
+> 14 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **datetimes/tests.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **DateTimesTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **datetimes/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- **Article** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- **Comment** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- **Category** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- **.test_21432()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **.test_datetimes_has_lazy_iterator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **.test_datetimes_returns_available_dates_for_given_scope_and_given_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- **.test_datetimes_disallows_date_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
-- **.test_related_model_traverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- **natural.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **NaturalKeyThing** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **Manager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **NaturalPKWithDefault** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **NaturalKeyAnchor** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **NaturalKeyAnchorManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **FKDataNaturalKey** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **Models for test_natural.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 12](Community_12.md) (2 shared connections)
-- [Community 72](Community_72.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/datetimes/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/datetimes/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (90%)
-- INFERRED: 3 (10%)
+- EXTRACTED: 17 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,23 +1,27 @@
 # Community 1211
 
-> 1 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **redirects/migrations/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/redirects/migrations/__init__.py`
+- **LocalizedModelFormTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_model_form_applies_localize_to_all_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_model_form_applies_localize_to_some_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_model_form_refuses_arbitrary_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 83](Community_83.md) (2 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/redirects/migrations/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 5 (83%)
+- INFERRED: 1 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

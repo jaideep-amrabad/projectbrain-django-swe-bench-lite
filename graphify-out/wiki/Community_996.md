@@ -1,27 +1,28 @@
 # Community 996
 
-> 2 nodes · cohesion 1.00
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **ExplainUnsupportedTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_explain.py`
-- **.test_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_explain.py`
+- **MyCustomAtom1Feed** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.add_item_elements()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.add_root_elements()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.item_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **.root_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **Test of a custom feed generator class.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
 
 ## Relationships
 
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 583](Community_583.md) (1 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
-- [Community 34](Community_34.md) (1 shared connections)
+- [Community 144](Community_144.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/test_explain.py`
+- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (80%)
-- INFERRED: 1 (20%)
+- EXTRACTED: 6 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

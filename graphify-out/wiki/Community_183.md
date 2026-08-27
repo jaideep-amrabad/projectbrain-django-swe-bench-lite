@@ -1,59 +1,53 @@
 # Community 183
 
-> 28 nodes · cohesion 0.10
+> 50 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **autoreload.py** (32 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **StatReloader** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **get_reloader()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.watched_files()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **iter_modules_and_files()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **start_django()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.notify_file_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **iter_all_python_module_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **run_with_reloader()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.check_availability()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **common_roots()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **ensure_echo_on()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **get_child_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **restart_with_reloader()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.snapshot_files()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **.tick()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **sys_path_directories()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **check_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **trigger_reload()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **raise_last_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **Iterate through all modules needed to be watched.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **Return a tuple of common roots that are shared between the given paths. File…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **Yield absolute directories from sys.path, ignoring entries that don't exist.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **Return the executable. This contains a workaround for Windows if the executable…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **Yield all files that need to be watched, including module files and files…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- *... and 3 more nodes in this community*
+- **DeferTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.assert_delayed()** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **defer/tests.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **TestDefer2** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **BigChildDeferTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **defer/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
+- **Primary** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
+- **RefreshPrimaryProxy** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
+- **BigChild** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
+- **Child** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
+- **ChildProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
+- **Secondary** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
+- **AssertionMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_defer_proxy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
+- **.test_defer_baseclass_when_subclass_has_added_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_defer_subclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_defer_subclass_both()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_only_baseclass_when_subclass_has_added_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_only_subclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_defer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_defer_baseclass_when_subclass_has_no_added_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_defer_extra()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_defer_foreign_keys_are_deferred_and_not_traversed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- **.test_defer_none_to_clear_deferred_set()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [Community 536](Community_536.md) (7 shared connections)
-- [Community 8](Community_8.md) (5 shared connections)
-- [Community 6](Community_6.md) (4 shared connections)
-- [Community 659](Community_659.md) (4 shared connections)
-- [Community 329](Community_329.md) (3 shared connections)
-- [Community 144](Community_144.md) (2 shared connections)
-- [Community 358](Community_358.md) (2 shared connections)
-- [Community 101](Community_101.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
-- [Community 190](Community_190.md) (1 shared connections)
+- [Community 41](Community_41.md) (4 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 299](Community_299.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
+- `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 68 (96%)
-- INFERRED: 3 (4%)
+- EXTRACTED: 90 (89%)
+- INFERRED: 11 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

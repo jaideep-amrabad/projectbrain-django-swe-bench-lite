@@ -1,48 +1,60 @@
 # Community 584
 
-> 17 nodes · cohesion 0.15
+> 37 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **JavaScriptCatalog** (15 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
-- **get_formats()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
-- **.get()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
-- **.get_context_data()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
-- **JSONCatalog** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
-- **.render_to_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **override** (33 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **I18NViewTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **DjangoJSONEncoderTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **.test_i18n_different_non_english_languages()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_i18n_language_english_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_non_BMP_char()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_non_english_default_english_userpref()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
 - **.test_get_formats()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.get_catalog()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
-- **.get_paths()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
-- **.get_plural()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
-- **._num_plurals()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
-- **._plural_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
-- **Return the selected language catalog as a JavaScript library. Receive the list…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
-- **Return the number of plurals for this catalog language, or 2 if no plural…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
-- **Return the plural string (including nplurals) for this catalog language, or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
-- **Return the selected language catalog as a JSON object. Receive the same…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
-- **Return all formats strings required for i18n to work.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- **.test_i18n_fallback_language_plural()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_i18n_language_non_english_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_i18n_language_non_english_fallback()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_jsi18n()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_jsi18n_fallback_language()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_jsi18n_with_missing_en_files()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_jsoni18n()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_jsoni18n_with_missing_en_files()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_lazy_string_encoding()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **.test_i18n_english_variant()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_i18n_with_locale_paths()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_jsi18n_USE_I18N_False()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **ContextDecorator** (1 connections)
+- **.test_timedelta()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **.test_escaping()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **Test django.views.i18n views other than set_language.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 10](Community_10.md) (4 shared connections)
-- [Community 18](Community_18.md) (2 shared connections)
-- [Community 101](Community_101.md) (2 shared connections)
-- [Community 499](Community_499.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 44](Community_44.md) (1 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 136](Community_136.md) (1 shared connections)
+- [Community 9](Community_9.md) (6 shared connections)
+- [Community 13](Community_13.md) (6 shared connections)
+- [Community 7](Community_7.md) (4 shared connections)
+- [Community 45](Community_45.md) (3 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 88](Community_88.md) (2 shared connections)
+- [Community 506](Community_506.md) (2 shared connections)
+- [Community 152](Community_152.md) (1 shared connections)
+- [Community 39](Community_39.md) (1 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
+- [Community 267](Community_267.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/i18n.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
 - `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 78 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

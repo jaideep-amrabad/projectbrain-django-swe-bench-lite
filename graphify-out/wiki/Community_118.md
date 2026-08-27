@@ -1,66 +1,64 @@
 # Community 118
 
-> 102 nodes · cohesion 0.04
+> 66 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **generic_views/views.py** (76 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **Author** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
-- **test_edit.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **Book** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
-- **test_dates.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **test_detail.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
-- **generic_views/models.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
-- **Artist** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
-- **test_list.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- **AuthorForm** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/forms.py`
-- **TestDataMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **BookSigning** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
-- **BookSigningConfig** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **Page** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
-- **BookConfig** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **generic_views/forms.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/forms.py`
-- **CustomContextView** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **ContactForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/forms.py`
-- **AuthorList** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **BookDetailGetObjectCustomQueryset** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **.get_object()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **SpecializedAuthorCreate** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **SpecializedAuthorUpdate** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
-- **AuthorCreate** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- *... and 77 more nodes in this community*
+- **generic_inline_admin/tests.py** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
+- **generic_inline_admin/admin.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/admin.py`
+- **generic_inline_admin/models.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/models.py`
+- **GenericInlineAdminParametersTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
+- **GenericInlineModelAdminTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
+- **Media** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/models.py`
+- **GenericAdminViewTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
+- **GenericInlineAdminWithUniqueTogetherTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
+- **._create_object()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
+- **GenericTabularInline** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
+- **MediaInline** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/admin.py`
+- **Episode** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/models.py`
+- **PhoneNumber** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/models.py`
+- **MediaPermanentInline** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/admin.py`
+- **NoInlineDeletionTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
+- **EpisodeAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/admin.py`
+- **Contact** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/models.py`
+- **EpisodePermanent** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/models.py`
+- **.test_extra_param()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
+- **.test_max_num_param()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
+- **.test_min_num_param()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
+- **TestDataMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
+- **Category** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/models.py`
+- **.test_get_extra()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
+- **.test_get_max_num()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
+- *... and 41 more nodes in this community*
 
 ## Relationships
 
-- [Community 10](Community_10.md) (13 shared connections)
-- [Community 347](Community_347.md) (10 shared connections)
-- [Community 545](Community_545.md) (10 shared connections)
-- [Community 20](Community_20.md) (10 shared connections)
-- [Community 212](Community_212.md) (8 shared connections)
-- [Community 16](Community_16.md) (6 shared connections)
-- [Community 434](Community_434.md) (5 shared connections)
-- [Community 411](Community_411.md) (5 shared connections)
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 702](Community_702.md) (4 shared connections)
-- [Community 791](Community_791.md) (4 shared connections)
-- [Community 14](Community_14.md) (4 shared connections)
+- [Community 1](Community_1.md) (15 shared connections)
+- [Community 15](Community_15.md) (14 shared connections)
+- [Community 7](Community_7.md) (6 shared connections)
+- [Community 45](Community_45.md) (5 shared connections)
+- [Community 84](Community_84.md) (5 shared connections)
+- [Community 74](Community_74.md) (5 shared connections)
+- [Community 47](Community_47.md) (4 shared connections)
+- [Community 41](Community_41.md) (4 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 31](Community_31.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_detail.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_list.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 257 (79%)
-- INFERRED: 68 (21%)
+- EXTRACTED: 166 (90%)
+- INFERRED: 19 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,23 +1,25 @@
 # Community 1110
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.test_non_existent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **Nonexistent cache keys return as None/default.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **ModelState** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **Store model instance state.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
 
 ## Relationships
 
-- [Community 295](Community_295.md) (1 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
+- [Community 114](Community_114.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 5 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

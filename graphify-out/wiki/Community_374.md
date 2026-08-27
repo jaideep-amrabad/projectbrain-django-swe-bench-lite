@@ -1,52 +1,59 @@
 # Community 374
 
-> 22 nodes · cohesion 0.14
+> 30 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **DjangoTemplates** (21 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- **DjangoTemplatesTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
-- **Template** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- **reraise()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- **.test_render_requires_dict()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
-- **.get_templatetag_libraries()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- **.test_templatetag_discovery_import_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
-- **.get_template()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- **.render()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- **.test_debug_default_template_loaders()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
-- **.test_non_debug_default_template_loaders()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
-- **.test_templatetag_discovery()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
-- **.from_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- **.test_builtins_discovery()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
-- **.test_context_has_priority_over_template_context_processors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
-- **Return a collation of template tag libraries from installed applications and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- **Reraise TemplateDoesNotExist while maintaining template debug information.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- **.origin()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- **django.Template.render() requires a dict.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
-- **Import errors in tag modules should be reraised with a helpful message.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
+- **GenericRelationsTests** (57 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_add_rejects_unsaved_objects()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_generic_get_or_create_when_created()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_generic_get_or_create_when_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_query_content_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **Should be able to use get_or_create from the generic related manager to create…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_add_after_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_add_bulk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_add_bulk_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_add_rejects_wrong_instances()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_add_then_remove_after_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_assign()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_assign_with_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_cache_invalidation_for_content_type_id()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_cache_invalidation_for_object_id()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_clear_after_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_create_after_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_generic_relation_related_name_default()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_generic_relation_to_inherited_child()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_get_or_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_gfk_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_gfk_subclasses()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_multiple_gfk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **.test_prefetch_related_different_content_types()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (10 shared connections)
-- [Community 159](Community_159.md) (4 shared connections)
-- [Community 12](Community_12.md) (4 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 52](Community_52.md) (2 shared connections)
-- [Community 174](Community_174.md) (1 shared connections)
-- [Community 800](Community_800.md) (1 shared connections)
-- [Community 466](Community_466.md) (1 shared connections)
+- [Community 74](Community_74.md) (12 shared connections)
+- [Community 1125](Community_1125.md) (2 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 1214](Community_1214.md) (1 shared connections)
+- [Community 1213](Community_1213.md) (1 shared connections)
+- [Community 1220](Community_1220.md) (1 shared connections)
+- [Community 1218](Community_1218.md) (1 shared connections)
+- [Community 1219](Community_1219.md) (1 shared connections)
+- [Community 1216](Community_1216.md) (1 shared connections)
+- [Community 1217](Community_1217.md) (1 shared connections)
+- [Community 1223](Community_1223.md) (1 shared connections)
+- [Community 1221](Community_1221.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/backends/django.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 53 (91%)
-- INFERRED: 5 (9%)
+- EXTRACTED: 49 (80%)
+- INFERRED: 12 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

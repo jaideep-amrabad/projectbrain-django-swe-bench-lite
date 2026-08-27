@@ -1,43 +1,34 @@
 # Community 769
 
-> 11 nodes · cohesion 0.18
+> 12 nodes · cohesion 0.32
 
 ## Key Concepts
 
-- **setup** (45 connections)
-- **.test_inheritance05()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance24()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance25()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_duplicate_block()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance31()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance39()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Two-level with double quotes instead of single quotes** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Inheritance from local context without use of template loader** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Inheritance from local context with variable parent template** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **ValidationMessagesTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
+- **._test_validation_messages()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
+- **.test_autofield_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
+- **.test_boolean_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
+- **.test_date_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
+- **.test_datetime_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
+- **.test_decimal_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
+- **.test_float_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
+- **.test_integer_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
+- **.test_null_boolean_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
+- **.test_nullable_boolean_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
+- **.test_time_field_raises_error_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
 
 ## Relationships
 
-- [Community 803](Community_803.md) (15 shared connections)
-- [Community 1068](Community_1068.md) (2 shared connections)
-- [Community 1069](Community_1069.md) (2 shared connections)
-- [Community 1148](Community_1148.md) (1 shared connections)
-- [Community 1149](Community_1149.md) (1 shared connections)
-- [Community 1150](Community_1150.md) (1 shared connections)
-- [Community 1151](Community_1151.md) (1 shared connections)
-- [Community 1152](Community_1152.md) (1 shared connections)
-- [Community 1153](Community_1153.md) (1 shared connections)
-- [Community 1154](Community_1154.md) (1 shared connections)
-- [Community 1155](Community_1155.md) (1 shared connections)
-- [Community 1156](Community_1156.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/test_error_messages.py`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (100%)
+- EXTRACTED: 23 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

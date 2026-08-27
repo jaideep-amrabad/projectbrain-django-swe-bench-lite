@@ -1,54 +1,52 @@
 # Community 180
 
-> 55 nodes · cohesion 0.05
+> 29 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **PickleabilityTestCase** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **queryset_pickle/tests.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **queryset_pickle/models.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **.assert_pickles()** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **InLookupTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **Container** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **Event** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **Group** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **Happening** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **M2MModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **.test_unsupported_unpickle()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **MissingDjangoVersionQuerySet** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **.__getstate__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **Numbers** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **PreviousDjangoVersionQuerySet** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **.__getstate__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- **.test_in_lookup_queryset_evaluation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_annotation_with_callable_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_datetime_callable_default_all()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_datetime_callable_default_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_filter_reverse_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_missing_django_version_unpickling()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_model_pickle()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_model_pickle_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_pickle_exists_queryset_not_evaluated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- *... and 30 more nodes in this community*
+- **.urlopen()** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **LiveServerViews** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **LiveServerBase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **LiverServerThreadedTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **LiveServerDatabase** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **LiveServerAddress** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_database_writes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_fixtures_loaded()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_no_collectstatic_emulation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_protocol()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_check_model_instance_from_subview()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_view_calls_subview()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_404()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_closes_connection_without_content_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_environ()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_keep_alive_on_connection_with_content_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_media_files()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_static_files()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_live_server_url_is_class_property()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **.test_keep_alive_connection_clears_previous_request_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **See `test_closes_connection_without_content_length` for details. This is a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **LiveServerTestCase reports a 404 status code when HTTP client tries to access a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- **Fixtures are properly loaded and visible to the live server thread.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 51](Community_51.md) (3 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 72](Community_72.md) (2 shared connections)
-- [Community 101](Community_101.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 582](Community_582.md) (5 shared connections)
+- [Community 50](Community_50.md) (3 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 332](Community_332.md) (1 shared connections)
+- [Community 484](Community_484.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/servers/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 86 (92%)
-- INFERRED: 7 (8%)
+- EXTRACTED: 47 (94%)
+- INFERRED: 3 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

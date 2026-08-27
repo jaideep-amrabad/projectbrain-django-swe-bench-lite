@@ -1,51 +1,43 @@
 # Community 408
 
-> 28 nodes · cohesion 0.07
+> 14 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **SimpleDatabaseOperationTests** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_adapt_timefield_value_unaware()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_adapt_datetimefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_adapt_timefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_adapt_timefield_value_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_adapt_unknown_value_date()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_adapt_unknown_value_decimal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_adapt_unknown_value_time()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_date_extract_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_date_interval_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_date_trunc_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_datetime_cast_date_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_datetime_cast_time_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_datetime_extract_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_datetime_trunc_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_deferrable_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_end_transaction_rollback()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_no_limit_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_pk_default_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_quote_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_regex_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_sequence_reset_by_name_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_set_time_zone_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- **.test_sql_flush()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
-- *... and 3 more nodes in this community*
+- **BaseModelForm** (12 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **._post_clean()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.validate_unique()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **construct_instance()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **._get_validation_exclusions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.save()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **._save_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **._update_errors()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.clean()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **For backwards-compatibility, exclude several types of fields from model…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **Construct and return a model instance from the bound ``form``'s…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **Call the instance's validate_unique() method and update the form's validation…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **Save the many-to-many fields and generic relations for this form.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **Save this form's self.instance object if commit=True. Otherwise, add a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
+- [Community 45](Community_45.md) (3 shared connections)
+- [Community 210](Community_210.md) (2 shared connections)
+- [Community 182](Community_182.md) (1 shared connections)
 - [Community 119](Community_119.md) (1 shared connections)
-- [Community 785](Community_785.md) (1 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
+- [Community 761](Community_761.md) (1 shared connections)
+- [Community 172](Community_172.md) (1 shared connections)
+- [Community 416](Community_416.md) (1 shared connections)
+- [Community 83](Community_83.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 27 (93%)
+- INFERRED: 2 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,48 +1,42 @@
 # Community 642
 
-> 15 nodes · cohesion 0.14
+> 16 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **TestContextDecorator** (17 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.enable()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.disable()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.enable()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.decorate_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.enable()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__call__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.save_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.decorate_callable()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__enter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **A base class that can either be used as a context manager during tests or as a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.disable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.enable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **ManageMinimalSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **minimal: manage.py builtin commands fail if settings are provided as argument** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **minimal: manage.py can't execute user commands, even if settings are provided…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **A series of tests for manage.py when using a settings.py file that doesn't…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **minimal: manage.py builtin commands fail with an error when no settings provided** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **minimal: manage.py builtin commands fail if settings file (from argument)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **minimal: manage.py builtin commands fail if settings file (from environment)…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **minimal: manage.py can't execute user commands without appropriate settings** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Relationships
 
-- [Community 86](Community_86.md) (3 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 136](Community_136.md) (2 shared connections)
-- [Community 59](Community_59.md) (1 shared connections)
-- [Community 111](Community_111.md) (1 shared connections)
-- [Community 316](Community_316.md) (1 shared connections)
-- [Community 717](Community_717.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 359](Community_359.md) (1 shared connections)
-- [Community 447](Community_447.md) (1 shared connections)
-- [Community 360](Community_360.md) (1 shared connections)
-- [Community 367](Community_367.md) (1 shared connections)
+- [Community 100](Community_100.md) (8 shared connections)
+- [Community 192](Community_192.md) (8 shared connections)
+- [Community 86](Community_86.md) (8 shared connections)
+- [Community 231](Community_231.md) (2 shared connections)
+- [Community 259](Community_259.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 44 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

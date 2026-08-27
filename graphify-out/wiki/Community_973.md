@@ -1,30 +1,36 @@
 # Community 973
 
-> 5 nodes · cohesion 0.40
+> 9 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **NKChild** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Parent** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **BaseDatabaseCache** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
+- **Command** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/createcachetable.py`
+- **.create_table()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/createcachetable.py`
+- **Options** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
+- **.handle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/createcachetable.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
+- **A class that will quack like a Django model _meta class. This allows cache…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/createcachetable.py`
 
 ## Relationships
 
-- [Community 349](Community_349.md) (6 shared connections)
-- [Community 184](Community_184.md) (2 shared connections)
-- [Community 381](Community_381.md) (1 shared connections)
-- [Community 590](Community_590.md) (1 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 219](Community_219.md) (1 shared connections)
+- [Community 709](Community_709.md) (1 shared connections)
+- [Community 210](Community_210.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/db.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/createcachetable.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (79%)
-- INFERRED: 3 (21%)
+- EXTRACTED: 17 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,51 +1,41 @@
 # Community 364
 
-> 27 nodes · cohesion 0.07
+> 15 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **FlatpageMiddlewareTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **FlatpageMiddlewareAppendSlashTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **.test_redirect_fallback_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **.test_redirect_fallback_flatpage_root()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **.test_redirect_fallback_flatpage_special_chars()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **.test_redirect_fallback_non_existent_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **.test_redirect_view_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **.test_redirect_view_non_existent_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **.test_fallback_authenticated_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **.test_fallback_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **.test_fallback_flatpage_special_chars()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **.test_fallback_non_existent_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **.test_view_authenticated_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **.test_view_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **.test_view_non_existent_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **A flatpage with special chars in the URL can be served by the fallback…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **A flatpage can be served through a view and should add a slash** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **A nonexistent flatpage raises 404 when served through a view and should not add…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **A flatpage can be served by the fallback middleware and should add a slash** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **A nonexistent flatpage raises a 404 when served by the fallback middleware and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **A flatpage at / should not cause a redirect loop when APPEND_SLASH is set** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **A flatpage can be served through a view, even when the middleware is in use** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **A nonexistent flatpage raises 404 when served through a view, even when the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **A flatpage served through a view can require authentication** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- **A flatpage can be served by the fallback middleware** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
-- *... and 2 more nodes in this community*
+- **DatabaseIntrospection** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **.identifier_converter()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **.get_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **.get_relations()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **.get_table_description()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **.get_table_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **.get_key_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **.get_primary_key_column()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **.get_sequences()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **.get_field_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **Identifier comparison is case insensitive under Oracle.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **Return a dictionary of {field_name: (field_name_other_table, other_table)}…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **Retrieve any constraints or keys (unique, pk, fk, check, index) across one or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **Return a list of table and view names in the current database.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **Return a description of the table with the DB-API cursor.description interface.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
 
 ## Relationships
 
-- [Community 81](Community_81.md) (4 shared connections)
-- [Community 136](Community_136.md) (2 shared connections)
-- [Community 12](Community_12.md) (2 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
+- [Community 77](Community_77.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 195](Community_195.md) (1 shared connections)
+- [Community 407](Community_407.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_middleware.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 25 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

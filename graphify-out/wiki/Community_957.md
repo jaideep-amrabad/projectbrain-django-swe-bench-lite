@@ -1,25 +1,34 @@
 # Community 957
 
-> 3 nodes · cohesion 0.67
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **.test_view_with_force_login_and_custom_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_view_with_login_and_custom_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **Request a page that is protected with…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **Place** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Supplier** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **ParkingLot** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **.test_eq()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
 
 ## Relationships
 
-- [Community 47](Community_47.md) (2 shared connections)
+- [Community 796](Community_796.md) (3 shared connections)
+- [Community 762](Community_762.md) (3 shared connections)
+- [Community 514](Community_514.md) (3 shared connections)
+- [Community 695](Community_695.md) (3 shared connections)
+- [Community 956](Community_956.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 15 (75%)
+- INFERRED: 5 (25%)
 - AMBIGUOUS: 0 (0%)
 
 ---

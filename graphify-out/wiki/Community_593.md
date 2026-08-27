@@ -1,40 +1,55 @@
 # Community 593
 
-> 17 nodes · cohesion 0.12
+> 21 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **SquashMigrationsTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_squashed_name_with_start_migration_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_squashed_name_without_start_migration_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_squashmigrations_invalid_start()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_squashmigrations_optimizes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_squashmigrations_squashes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_squashmigrations_valid_start()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_ticket_23799_squashmigrations_no_optimize()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_squashmigrations_initial_attribute()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **Tests running the squashmigrations command.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **squashmigrations squashes migrations.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **squashmigrations optimizes operations.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **squashmigrations --no-optimize doesn't optimize operations.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **squashmigrations accepts a starting migration.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **squashmigrations doesn't accept a starting migration after the ending migration.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **--squashed-name specifies the new migration's name.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **--squashed-name also works if a start migration is omitted.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
+- **model_fields/test_imagefield.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **ImageFieldTwoDimensionsTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **skipIf** (7 connections)
+- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **PersonDimensionsFirst** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **PersonWithHeight** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **ImageFieldDimensionsFirstTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **ImageFieldNoDimensionsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **ImageFieldOneDimensionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **ImageFieldUsingFileTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **Person** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_default_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **Model that defines an ImageField with no dimension fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **Concrete model that subclass an abstract one with only on dimension field.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **Model that defines height and width fields before the ImageField.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **Tests behavior of an ImageField and its dimensions fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **The default value for an ImageField is an instance of the field's attr_class…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **Tests behavior of an ImageField with no dimension fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **Tests behavior of an ImageField with one dimensions field.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **Tests behavior of an ImageField where the dimensions fields are defined before…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **Tests behavior of an ImageField when assigning it a File instance rather than…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
 
 ## Relationships
 
-- [Community 421](Community_421.md) (8 shared connections)
-- [Community 76](Community_76.md) (2 shared connections)
+- [Community 512](Community_512.md) (9 shared connections)
+- [Community 222](Community_222.md) (4 shared connections)
+- [Community 646](Community_646.md) (4 shared connections)
+- [Community 814](Community_814.md) (4 shared connections)
+- [Community 45](Community_45.md) (3 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 915](Community_915.md) (2 shared connections)
+- [Community 41](Community_41.md) (2 shared connections)
+- [Community 1031](Community_1031.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 881](Community_881.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 61 (90%)
+- INFERRED: 7 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

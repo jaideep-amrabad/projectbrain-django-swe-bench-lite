@@ -1,42 +1,44 @@
 # Community 590
 
-> 17 nodes · cohesion 0.13
+> 18 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **Meta** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Person** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Article** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Book** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Store** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Widget** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **CommonFeature** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **WidgetProxy** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Feature** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Plant** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **SpecialArticle** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.assertLocationCommentPresent()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **LocationCommentsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.assertLocationCommentNotPresent()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_add_location_file()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_add_location_full()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_add_location_never()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_location_comments_for_templatized_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_no_location_disabled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.test_no_location_enabled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **requires_gettext_019** (3 connections)
+- **Check the opposite of assertLocationComment()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **Behavior is correct if --no-location switch is specified. See #16903.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **Behavior is correct if --no-location switch isn't specified.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **Ensure no leaky paths in comments, e.g. #: path\to\file.html.py:123 Refs…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **makemessages --add-location=full** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **makemessages --add-location=file** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **makemessages --add-location=never** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **r""" self.assertLocationCommentPresent('django.po', 42, 'dirA', 'dirB',…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
 
 ## Relationships
 
-- [Community 349](Community_349.md) (16 shared connections)
-- [Community 184](Community_184.md) (4 shared connections)
-- [Community 381](Community_381.md) (3 shared connections)
-- [Community 973](Community_973.md) (1 shared connections)
+- [Community 560](Community_560.md) (5 shared connections)
+- [Community 473](Community_473.md) (1 shared connections)
+- [Community 1013](Community_1013.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 1085](Community_1085.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (83%)
-- INFERRED: 7 (17%)
+- EXTRACTED: 34 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

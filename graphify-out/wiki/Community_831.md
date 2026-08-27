@@ -1,31 +1,33 @@
 # Community 831
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **ValidationTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **Choices** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **.test_charfield_cleans_empty_string_when_blank_true()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **.test_charfield_raises_error_on_empty_input()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **.test_charfield_raises_error_on_empty_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **.test_charfield_with_choices_cleans_valid_choice()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **.test_charfield_with_choices_raises_error_on_invalid_choice()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **.test_enum_choices_cleans_valid_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **.test_enum_choices_invalid_input()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
+- **CITextTestCase** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
+- **.test_equal_lowercase()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
+- **.test_fail_citext_primary_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
+- **.test_array_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
+- **.test_lookups_description_text()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
+- **.test_lookups_email()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
+- **.test_lookups_name_char()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
+- **citext removes the need for iexact as the index is case-insensitive.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
+- **Creating an entry for a citext field used as a primary key which clashes with…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
+- [Community 13](Community_13.md) (3 shared connections)
+- [Community 120](Community_120.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 12 (92%)
+- INFERRED: 1 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

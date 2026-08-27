@@ -1,33 +1,33 @@
 # Community 899
 
-> 7 nodes · cohesion 0.43
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **field_defaults/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
-- **field_defaults/tests.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
-- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
-- **DefaultTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
-- **.test_field_defaults()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
-- **Callable defaults You can pass callable objects as the ``default`` parameter to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
+- **DateInputTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_dateinput.py`
+- **.test_format()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_dateinput.py`
+- **.test_l10n()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_dateinput.py`
+- **.test_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_dateinput.py`
+- **.test_render_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_dateinput.py`
+- **.test_render_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_dateinput.py`
+- **Should be able to initialize from a string value.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_dateinput.py`
+- **Use 'format' to change the way a value is displayed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_dateinput.py`
 
 ## Relationships
 
-- [Community 72](Community_72.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 240](Community_240.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/field_defaults/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/field_defaults/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_dateinput.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 10 (91%)
+- INFERRED: 1 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

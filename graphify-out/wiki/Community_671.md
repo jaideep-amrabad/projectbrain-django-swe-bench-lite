@@ -1,55 +1,37 @@
 # Community 671
 
-> 26 nodes · cohesion 0.08
+> 15 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **CheckboxSelectMultipleTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
-- **CheckboxSelectMultiple** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.use_required_attribute()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.id_for_label()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.use_required_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **._choice_has_empty_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_label()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
-- **.test_separate_ids_constructor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
-- **.use_required_attribute()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_doesnt_localize_input_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
-- **.test_render_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
-- **.test_separate_ids()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
-- **.value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **Return True if the choice's value is empty string or None.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **Don't render 'required' if the first <option> has a value, as that's invalid…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **Don't include for="field_0" in <label> because clicking such a label would…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_nested_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
-- **.test_nested_choices_without_id()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
-- **.test_render_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
-- **.test_render_value_multiple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
-- **.test_use_required_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
-- **.test_value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
-- **Each input gets a separate ID.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
-- **Each input gets a separate ID when the ID is passed to the constructor.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
-- **CheckboxSelectMultiple doesn't contain 'for="field_0"' in the <label> because…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
-- *... and 1 more nodes in this community*
+- **ListIndexTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **setup** (7 connections)
+- **.test_list_index01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **.test_list_index02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **.test_list_index03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **.test_list_index04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **.test_list_index05()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **.test_list_index06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **.test_list_index07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **Fail silently when the list index is out of range.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **List-index syntax allows a template to access a certain item of a subscriptable…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **Fail silently when variable is a dict without the specified key.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **Dictionary lookup wins out when dict's key is a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **But list-index lookup wins out when dict's key is an int, which behind the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
+- **Dictionary lookup wins out when there is a string and int version of the key.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
 
 ## Relationships
 
-- [Community 15](Community_15.md) (5 shared connections)
-- [Community 117](Community_117.md) (2 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
-- [Community 549](Community_549.md) (1 shared connections)
-- [Community 311](Community_311.md) (1 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 743](Community_743.md) (1 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_list_index.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (95%)
-- INFERRED: 2 (5%)
+- EXTRACTED: 23 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

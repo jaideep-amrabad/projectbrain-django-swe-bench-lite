@@ -1,29 +1,32 @@
 # Community 847
 
-> 7 nodes · cohesion 0.29
+> 9 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **.attach()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.attach_file()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **Initialize a single email message (which can be sent to multiple recipients).** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **Attach a file with the given filename and content. The filename can be omitted…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **Attach a file from the filesystem. Set the mimetype to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **AppDirectoriesFinder** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.find()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.find_in_app()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **A static files finder that looks in the directory of each app as specified in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **List all files in all app storages.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **Look for files in the app directories.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **Find a requested static file in an app's static locations.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
 
 ## Relationships
 
-- [Community 112](Community_112.md) (3 shared connections)
-- [Community 181](Community_181.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 481](Community_481.md) (1 shared connections)
+- [Community 501](Community_501.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

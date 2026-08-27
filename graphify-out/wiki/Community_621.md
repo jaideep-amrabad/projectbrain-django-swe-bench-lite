@@ -1,42 +1,40 @@
 # Community 621
 
-> 16 nodes · cohesion 0.15
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **DiffSettings** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.assertNotInOutput()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_basic()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_default()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_unified()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_all()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_unified_all()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_settings_configured()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_dynamic_settings_configured()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Utility assertion: assert that the given message exists in the output** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Tests for diffsettings management command.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **Runs without error and emits settings diff.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **The all option also shows settings with the default value.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **The --default option specifies an alternate settings module for comparison.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **--output=unified emits settings diff in unified mode.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **--output=unified --all emits settings diff in unified mode and includes…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **DecimalFieldTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_save_without_float_conversion()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_fetch_from_db_without_float_rounding()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_filter_with_strings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_lookup_really_big_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_roundtrip_with_trailing_zeros()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_default()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_get_prep_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_max_decimal_places_validation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_max_digits_validation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_max_whole_digits_validation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **.test_to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **skipIf** (1 connections)
+- **Should be able to filter decimal fields using strings (#8023).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **Ensure decimals don't go through a corrupting float conversion during save…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **Really big values can be used in a filter statement.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
+- **Trailing zeros in the fractional part aren't truncated.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
 
 ## Relationships
 
-- [Community 114](Community_114.md) (8 shared connections)
-- [Community 314](Community_314.md) (8 shared connections)
-- [Community 269](Community_269.md) (7 shared connections)
-- [Community 254](Community_254.md) (5 shared connections)
-- [Community 223](Community_223.md) (4 shared connections)
+- [Community 222](Community_222.md) (4 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_decimalfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 19 (90%)
+- INFERRED: 2 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

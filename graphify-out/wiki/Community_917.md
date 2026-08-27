@@ -1,30 +1,31 @@
 # Community 917
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **.srid()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **.s()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **setter** (1 connections)
-- **Get the SRID for the geometry. Return None if no SRID is set.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **Set the SRID for the geometry.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **Seconds; i.e. '00' to '59** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.register()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- **.unregister()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- **AlreadyRegistered** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- **NotRegistered** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- **Exception** (2 connections)
+- **Unregister the given model(s). If a model isn't already registered, raise…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- **Register the given model(s) with the given admin class. The model(s) should be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
 
 ## Relationships
 
-- [Community 41](Community_41.md) (1 shared connections)
-- [Community 558](Community_558.md) (1 shared connections)
+- [Community 47](Community_47.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (86%)
-- INFERRED: 1 (14%)
+- EXTRACTED: 11 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

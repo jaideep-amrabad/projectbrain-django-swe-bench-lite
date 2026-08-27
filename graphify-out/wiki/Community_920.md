@@ -1,27 +1,29 @@
 # Community 920
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **AutoFieldMeta** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.__instancecheck__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.__subclasscheck__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **._subclasses()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **type** (1 connections)
-- **Metaclass to maintain backward inheritance compatibility for AutoField. It is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **.attach()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.attach_file()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **Initialize a single email message (which can be sent to multiple recipients).** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **Attach a file with the given filename and content. The filename can be omitted…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
+- **Attach a file from the filesystem. Set the mimetype to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 92](Community_92.md) (3 shared connections)
+- [Community 256](Community_256.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

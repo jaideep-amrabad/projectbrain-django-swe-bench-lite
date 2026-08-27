@@ -1,56 +1,51 @@
 # Community 424
 
-> 27 nodes · cohesion 0.10
+> 26 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **serializers/models/base.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **Meta** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **Actor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **Author** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **Movie** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **Category** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **CategoryMetaData** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **ProxyBaseModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.test_serialize_superfluous_queries()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_serialize_unicode()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **ProxyProxyBaseModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **AuthorProfile** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **CategoryMetaDataManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- **Serialization ``django.core.serializers`` provides interfaces to converting…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- *... and 2 more nodes in this community*
+- **ExistingRelatedInstancesTests** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **known_related_objects/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/models.py`
+- **known_related_objects/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **Organiser** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/models.py`
+- **Pool** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/models.py`
+- **PoolStyle** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/models.py`
+- **Tournament** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/models.py`
+- **Existing related object instance caching. Queries are not redone when going…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_foreign_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_foreign_key_multiple_prefetch()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_foreign_key_prefetch_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_one_to_one()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_one_to_one_multi_prefetch_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_one_to_one_multi_select_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_one_to_one_prefetch_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_one_to_one_select_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_queryset_and()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_queryset_or()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_queryset_or_different_cached_items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_queryset_or_only_one_with_precache()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_reverse_one_to_one()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_reverse_one_to_one_multi_prefetch_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_reverse_one_to_one_multi_select_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- **.test_reverse_one_to_one_prefetch_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 413](Community_413.md) (5 shared connections)
-- [Community 148](Community_148.md) (3 shared connections)
-- [Community 580](Community_580.md) (3 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 36](Community_36.md) (2 shared connections)
-- [Community 940](Community_940.md) (1 shared connections)
-- [Community 654](Community_654.md) (1 shared connections)
-- [Community 72](Community_72.md) (1 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 41](Community_41.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/models/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/known_related_objects/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/known_related_objects/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 45 (83%)
-- INFERRED: 9 (17%)
+- EXTRACTED: 34 (89%)
+- INFERRED: 4 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,39 +1,40 @@
 # Community 736
 
-> 12 nodes · cohesion 0.17
+> 13 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **InvalidCreateArgumentsTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **Thing** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
-- **.capitalized_name_property()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
-- **setter** (1 connections)
-- **.name_in_all_caps()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
-- **.test_get_or_create_with_invalid_defaults()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_get_or_create_with_invalid_kwargs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_multiple_invalid_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_property_attribute_without_setter_defaults()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_property_attribute_without_setter_kwargs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_update_or_create_with_invalid_defaults()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_update_or_create_with_invalid_kwargs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **TestBadSetUpTestData** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **TestRaiseLastException** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **MyException** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_no_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_raises_custom_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **.test_raises_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
+- **Exception** (1 connections)
+- **An exception in setUpTestData() shouldn't leak a transaction which would…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.tearDownClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_failure_in_setUpTestData_should_rollback_transaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_raises_exception_with_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Relationships
 
-- [Community 525](Community_525.md) (3 shared connections)
-- [Community 546](Community_546.md) (1 shared connections)
-- [Community 1011](Community_1011.md) (1 shared connections)
-- [Community 547](Community_547.md) (1 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 326](Community_326.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 316](Community_316.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (78%)
-- INFERRED: 4 (22%)
+- EXTRACTED: 17 (89%)
+- INFERRED: 2 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

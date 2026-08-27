@@ -1,34 +1,34 @@
 # Community 834
 
-> 9 nodes · cohesion 0.25
+> 10 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **MyPerson** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **Person** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **StatusPerson** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **.test_eq()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
-- **.has_special_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **A simple concrete base class.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **A proxy subclass, this should not get a new table. Overrides the default…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **A non-proxy subclass of a proxy, it should get a new table.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **ReservedNameTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
+- **Thing** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/models.py`
+- **.generate()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
+- **.test_dates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
+- **.test_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
+- **.test_month_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
+- **.test_order_by()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/models.py`
+- **.test_simple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
 
 ## Relationships
 
-- [Community 473](Community_473.md) (7 shared connections)
-- [Community 303](Community_303.md) (4 shared connections)
-- [Community 741](Community_741.md) (2 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/reserved_names/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (86%)
-- INFERRED: 3 (14%)
+- EXTRACTED: 16 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

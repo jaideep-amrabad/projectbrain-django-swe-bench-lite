@@ -1,22 +1,24 @@
 # Community 1237
 
-> 1 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **SelectBox.test.js** (0 connections) — `raw/code/hyd-evaluation/django-django/js_tests/admin/SelectBox.test.js`
+- **.test_inheritance12()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **Three-level with this level providing one and second level providing the other** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 800](Community_800.md) (1 shared connections)
+- [Community 836](Community_836.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/js_tests/admin/SelectBox.test.js`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

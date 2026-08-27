@@ -4,21 +4,20 @@
 
 ## Key Concepts
 
-- **.test_inheritance14()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **A block defined only in a child template shouldn't be displayed** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.root_nodes()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **Return all root nodes - that is, nodes with no dependencies inside their app.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
 
 ## Relationships
 
-- [Community 769](Community_769.md) (1 shared connections)
-- [Community 803](Community_803.md) (1 shared connections)
+- [Community 289](Community_289.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

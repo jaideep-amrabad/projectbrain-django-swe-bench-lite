@@ -1,59 +1,61 @@
 # Community 318
 
-> 35 nodes · cohesion 0.08
+> 75 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **AdminSeleniumTestCase** (29 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.wait_until()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **SeleniumTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **._assertOptionsValues()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.wait_for()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.wait_page_loaded()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **LiveWidgetTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_widgets.py`
-- **.assertSelectedOptions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.assertSelectOptions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.wait_for_popup()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.wait_for_text()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.wait_for_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.wait_until_invisible()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.wait_until_visible()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.test_add_row_selection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- **.test_textarea_trailing_newlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_widgets.py`
-- **.admin_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.get_css_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.get_select_option()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **.has_css_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **Assert that the <SELECT> widget identified by `selector` has the options with…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **Block until page has started to load.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **Return the value for the CSS attribute of a DOM element specified by the given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **Return the <OPTION> with the value `value` inside the <SELECT> widget…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- **Return True if the element identified by `selector` has the CSS class `klass`.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- *... and 10 more nodes in this community*
+- **generic/dates.py** (47 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **generic/__init__.py** (40 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/__init__.py`
+- **MultipleObjectMixin** (18 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **BaseDateListView** (16 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **YearMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **MultipleObjectTemplateResponseMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **DateMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **MonthMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **BaseDateDetailView** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **BaseDayArchiveView** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **DayMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **BaseListView** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **.paginate_queryset()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **BaseMonthArchiveView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **BaseWeekArchiveView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **BaseYearArchiveView** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **.get_context_data()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
+- **ArchiveIndexView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **BaseArchiveIndexView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **BaseTodayArchiveView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **DateDetailView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **DayArchiveView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **MonthArchiveView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **TodayArchiveView** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- *... and 50 more nodes in this community*
 
 ## Relationships
 
-- [Community 101](Community_101.md) (3 shared connections)
-- [Community 16](Community_16.md) (3 shared connections)
-- [Community 79](Community_79.md) (2 shared connections)
-- [Community 378](Community_378.md) (2 shared connections)
-- [Community 55](Community_55.md) (2 shared connections)
-- [Community 12](Community_12.md) (2 shared connections)
-- [Community 136](Community_136.md) (1 shared connections)
-- [Community 48](Community_48.md) (1 shared connections)
-- [Community 579](Community_579.md) (1 shared connections)
-- [Community 419](Community_419.md) (1 shared connections)
+- [Community 51](Community_51.md) (35 shared connections)
+- [Community 80](Community_80.md) (14 shared connections)
+- [Community 11](Community_11.md) (14 shared connections)
+- [Community 327](Community_327.md) (8 shared connections)
+- [Community 9](Community_9.md) (7 shared connections)
+- [Community 45](Community_45.md) (5 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
+- [Community 877](Community_877.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_widgets.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/list.py`
 
 ## Audit Trail
 
-- EXTRACTED: 64 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 236 (98%)
+- INFERRED: 5 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

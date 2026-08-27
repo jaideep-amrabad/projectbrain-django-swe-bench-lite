@@ -1,35 +1,40 @@
 # Community 698
 
-> 12 nodes · cohesion 0.17
+> 14 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **ReadLimitedStreamTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_body_from_empty_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_read_from_empty_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_read_from_nonempty_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_read_numbytes_from_empty_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_read_numbytes_from_nonempty_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **HttpRequest.body, HttpRequest.read(), and HttpRequest.read(BUFFER) have proper…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **HttpRequest.body on a test client GET request should return the empty string.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **HttpRequest.read() on a test client GET request should return the empty string.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **HttpRequest.read(LARGE_BUFFER) on a test client GET request should return the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **HttpRequest.read() on a test client PUT request with some payload should return…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **HttpRequest.read(LARGE_BUFFER) on a test client PUT request with some payload…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **null_queries/tests.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/tests.py`
+- **NullQueriesTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/tests.py`
+- **null_queries/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/models.py`
+- **Choice** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/models.py`
+- **Poll** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/models.py`
+- **.test_none_as_null()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/tests.py`
+- **Inner** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/models.py`
+- **OuterA** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/models.py`
+- **OuterB** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/models.py`
+- **.test_reverse_relations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/models.py`
+- **Regression test for the use of None as a query value. None is interpreted as an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/tests.py`
+- **Querying across reverse relations and then another relation should insert outer…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
+- [Community 41](Community_41.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/null_queries/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/null_queries/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 27 (84%)
+- INFERRED: 5 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

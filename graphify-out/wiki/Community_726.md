@@ -1,38 +1,42 @@
 # Community 726
 
-> 12 nodes · cohesion 0.26
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **duration_iso_string()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/duration.py`
-- **TestISODurationString** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
-- **TestParseISODurationRoundtrip** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
-- **_get_duration_components()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/duration.py`
-- **.test_days()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
-- **.test_microseconds()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
-- **.test_negative()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
-- **.test_simple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
-- **.test_days()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
-- **.test_microseconds()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
-- **.test_negative()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
-- **.test_simple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test_last_dependency()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.make_project_state()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_first_dependency()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_swappable_changed()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_trim_apps()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_arrange_for_graph()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_custom_migration_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **A dependency to an app with no migrations uses __first__.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **A dependency to an app with existing migrations uses the last migration of that…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **Shortcut to make ProjectStates from lists of predefined models** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **Tests auto-naming of migrations for graph matching.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **Trim does not remove dependencies but does remove unwanted apps.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **Tests custom naming of migrations for graph matching.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (6 shared connections)
-- [Community 725](Community_725.md) (4 shared connections)
-- [Community 261](Community_261.md) (1 shared connections)
-- [Community 727](Community_727.md) (1 shared connections)
+- [Community 25](Community_25.md) (19 shared connections)
+- [Community 106](Community_106.md) (6 shared connections)
+- [Community 14](Community_14.md) (4 shared connections)
+- [Community 289](Community_289.md) (3 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 351](Community_351.md) (1 shared connections)
+- [Community 230](Community_230.md) (1 shared connections)
+- [Community 145](Community_145.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/duration.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 47 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

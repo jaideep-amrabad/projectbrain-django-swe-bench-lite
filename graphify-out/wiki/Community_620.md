@@ -1,42 +1,50 @@
 # Community 620
 
-> 16 nodes · cohesion 0.13
+> 19 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **AdminCustomUrlsTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
-- **.test_add_with_GET_args()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
-- **.test_admin_URLs_no_clash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
-- **.test_basic_add_GET()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
-- **.test_basic_add_POST()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
-- **.test_post_save_add_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
-- **.test_post_save_change_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
-- **.test_post_url_continue()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
-- **ModelAdmin.response_post_save_add() controls the redirection after the 'Save'…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
-- **The ModelAdmin.response_add()'s parameter `post_url_continue` controls the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
-- **Remember that: * The Action model has a CharField PK. * The ModelAdmin for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
-- **Ensure GET on the add_view works.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
-- **Ensure GET on the add_view plus specifying a field value in the query string…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
-- **Ensure POST on add_view works.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **postgis/base.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/base.py`
+- **DatabaseWrapper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/base.py`
+- **PostGISSchemaEditor** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/schema.py`
+- **PostGISIntrospection** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/introspection.py`
+- **DatabaseFeatures** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/features.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/base.py`
+- **.get_geometry_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/introspection.py`
+- **._alter_column_type_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/schema.py`
+- **Psycopg2DatabaseFeatures** (1 connections)
+- **Psycopg2DatabaseWrapper** (1 connections)
+- **.prepare_database()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/base.py`
+- **.get_field_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/introspection.py`
+- **DatabaseIntrospection** (1 connections)
+- **The geometry type OID used by PostGIS does not indicate the particular type of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/introspection.py`
+- **._create_index_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/schema.py`
+- **._field_should_be_indexed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/schema.py`
+- **.geo_quote_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/schema.py`
+- **DatabaseSchemaEditor** (1 connections)
+- **Special case when dimension changed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/schema.py`
 
 ## Relationships
 
-- [Community 16](Community_16.md) (7 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
-- [Community 219](Community_219.md) (1 shared connections)
+- [Community 94](Community_94.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 77](Community_77.md) (3 shared connections)
+- [Community 195](Community_195.md) (2 shared connections)
+- [Community 855](Community_855.md) (2 shared connections)
+- [Community 786](Community_786.md) (1 shared connections)
+- [Community 44](Community_44.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/features.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/introspection.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (90%)
-- INFERRED: 3 (10%)
+- EXTRACTED: 34 (89%)
+- INFERRED: 4 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

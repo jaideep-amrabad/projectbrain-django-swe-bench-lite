@@ -1,40 +1,45 @@
 # Community 650
 
-> 15 nodes · cohesion 0.19
+> 18 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **geoapp/feeds.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **TestGeoRSS1** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **TestGeoRSS2** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **TestGeoAtom2** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **TestW3CGeo3** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **TestGeoAtom1** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **TestW3CGeo1** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **TestW3CGeo2** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **.item_geometry()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **.geometry()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **.item_geometry()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **.item_link()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **.geometry()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
-- **.item_geometry()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
+- **HStoreField** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **CheckFieldDefaultMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/mixins.py`
+- **KeyTransform** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **KeyTransformFactory** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **.get_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **.check()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/mixins.py`
+- **._check_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/mixins.py`
+- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **.formfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **.get_prep_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **.validate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **.value_to_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **Field** (1 connections)
 
 ## Relationships
 
-- [Community 45](Community_45.md) (3 shared connections)
-- [Community 9](Community_9.md) (3 shared connections)
-- [Community 235](Community_235.md) (1 shared connections)
-- [Community 465](Community_465.md) (1 shared connections)
+- [Community 13](Community_13.md) (5 shared connections)
+- [Community 264](Community_264.md) (2 shared connections)
+- [Community 63](Community_63.md) (1 shared connections)
+- [Community 353](Community_353.md) (1 shared connections)
+- [Community 173](Community_173.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/feeds.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/mixins.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 29 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

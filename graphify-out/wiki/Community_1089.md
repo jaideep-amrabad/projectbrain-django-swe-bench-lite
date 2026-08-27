@@ -1,23 +1,25 @@
 # Community 1089
 
-> 2 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.test_redirect_https()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **GET a URL that redirects to an https URI** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **DeconstructibleObject** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **A custom deconstructible object.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 
 ## Relationships
 
-- [Community 47](Community_47.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

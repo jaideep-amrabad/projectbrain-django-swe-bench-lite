@@ -1,55 +1,36 @@
 # Community 117
 
-> 55 nodes · cohesion 0.05
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **Widget** (21 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **SelectDateWidgetTest** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- **SelectDateWidget** (16 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **ChoiceWidget** (15 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.optgroups()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.format_value()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.create_option()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.options()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.subwidgets()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.id_for_label()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **._parse_date_fmt()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.build_attrs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.value_from_datadict()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.get_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_custom_input_format()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- **.test_l10n()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- **.test_years_rendered_without_separator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- **.format_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.id_for_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.value_omitted_from_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.format_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.id_for_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.value_from_datadict()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.test_custom_months()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
-- *... and 30 more nodes in this community*
+- **Polygon** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.centroid()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.__len__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.point_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.shell()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.tuple()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Return the number of interior rings in this Polygon.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Get the ring at the specified index.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Return the shell of this Polygon.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Return a tuple of LinearRing coordinate tuples.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Return the number of Points in this Polygon.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **Return the centroid (a Point) of this Polygon.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
 
 ## Relationships
 
-- [Community 15](Community_15.md) (19 shared connections)
-- [Community 18](Community_18.md) (3 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 671](Community_671.md) (2 shared connections)
-- [Community 311](Community_311.md) (2 shared connections)
-- [Community 264](Community_264.md) (1 shared connections)
-- [Community 297](Community_297.md) (1 shared connections)
+- [Community 44](Community_44.md) (3 shared connections)
+- [Community 33](Community_33.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectdatewidget.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
 
 ## Audit Trail
 
-- EXTRACTED: 94 (94%)
-- INFERRED: 6 (6%)
+- EXTRACTED: 17 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

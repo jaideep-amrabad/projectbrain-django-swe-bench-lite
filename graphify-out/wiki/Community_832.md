@@ -1,35 +1,33 @@
 # Community 832
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **DateTimeFieldTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
-- **.test_lookup_date_with_use_tz()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
-- **.test_datetimefield_to_python_microseconds()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
-- **.test_lookup_date_without_use_tz()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
-- **.test_timefield_to_python_microseconds()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
-- **.test_datetimes_save_completely()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
-- **requires_tz_support** (1 connections)
-- **DateTimeField.to_python() supports microseconds.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
-- **TimeField.to_python() supports microseconds.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
+- **UnaccentTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
+- **UnaccentTextFieldTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
+- **.test_unaccent_chained()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
+- **.test_unaccent_with_conforming_strings_off()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
+- **Unaccent can be used chained with a lookup (which should be the case since…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
+- **SQL is valid when standard_conforming_strings is off.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
+- **TextField should have the exact same behavior as CharField regarding unaccent…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
+- **.test_unaccent()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
+- **.test_unaccent_accentuated_needle()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
 
 ## Relationships
 
-- [Community 12](Community_12.md) (2 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
-- [Community 27](Community_27.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
+- [Community 13](Community_13.md) (5 shared connections)
+- [Community 98](Community_98.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_datetimefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_unaccent.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (93%)
-- INFERRED: 1 (7%)
+- EXTRACTED: 13 (87%)
+- INFERRED: 2 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

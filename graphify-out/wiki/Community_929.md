@@ -1,30 +1,34 @@
 # Community 929
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **PermissionsRequiredMixinTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.test_permissioned_denied_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.test_many_permissions_pass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.test_permissioned_denied_exception_raised()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.test_single_permission_pass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **Ln** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **LnTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ln.py`
+- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ln.py`
+- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ln.py`
+- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ln.py`
+- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ln.py`
+- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ln.py`
 
 ## Relationships
 
-- [Community 296](Community_296.md) (2 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
-- [Community 288](Community_288.md) (1 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 277](Community_277.md) (1 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 63](Community_63.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ln.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (89%)
-- INFERRED: 1 (11%)
+- EXTRACTED: 17 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

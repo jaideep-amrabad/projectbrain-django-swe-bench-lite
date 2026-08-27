@@ -1,23 +1,29 @@
 # Community 1009
 
-> 2 nodes · cohesion 1.00
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **.test_follow_307_and_308_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **A 307 or 308 redirect preserves the request method after the redirect.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **._effective_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **SchemaEditorTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_schema.py`
+- **.test_effective_default_callable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_schema.py`
+- **Return a field's effective database default value.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **SchemaEditor.effective_default() shouldn't call callable defaults.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_schema.py`
 
 ## Relationships
 
-- [Community 47](Community_47.md) (1 shared connections)
+- [Community 132](Community_132.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

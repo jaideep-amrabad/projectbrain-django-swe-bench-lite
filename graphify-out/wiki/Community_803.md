@@ -1,43 +1,52 @@
 # Community 803
 
-> 10 nodes · cohesion 0.27
+> 40 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **InheritanceTests** (47 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Inherit from a template with block wrapped in an {% if %} tag (in parent),…** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance34()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance35()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance37()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance38()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_extends_duplicate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance32()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance40()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance41()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **GDALBand** (23 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **BandList** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.statistics()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.nodata_value()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.data()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.datatype()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **._flush()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.description()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.max()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.mean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.min()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.std()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.color_interp()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.height()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.pixel_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.width()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.bands()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- **list** (1 connections)
+- **setter** (1 connections)
+- **Return the minimum pixel value for this band.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [Community 769](Community_769.md) (15 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 1068](Community_1068.md) (2 shared connections)
-- [Community 1069](Community_1069.md) (2 shared connections)
-- [Community 1152](Community_1152.md) (1 shared connections)
-- [Community 1153](Community_1153.md) (1 shared connections)
-- [Community 1154](Community_1154.md) (1 shared connections)
-- [Community 1155](Community_1155.md) (1 shared connections)
-- [Community 1156](Community_1156.md) (1 shared connections)
-- [Community 1157](Community_1157.md) (1 shared connections)
-- [Community 1158](Community_1158.md) (1 shared connections)
-- [Community 1159](Community_1159.md) (1 shared connections)
+- [Community 44](Community_44.md) (8 shared connections)
+- [Community 64](Community_64.md) (3 shared connections)
+- [Community 257](Community_257.md) (1 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
 
 ## Audit Trail
 
-- EXTRACTED: 59 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 56 (92%)
+- INFERRED: 5 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

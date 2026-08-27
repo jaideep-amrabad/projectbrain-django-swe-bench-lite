@@ -1,49 +1,48 @@
 # Community 520
 
-> 21 nodes · cohesion 0.13
+> 20 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **DatabaseIntrospection** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **sqlite3/introspection.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **.get_constraints()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **.get_primary_key_column()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **.get_table_description()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **._parse_table_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **get_field_size()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **._get_foreign_key_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **.get_key_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **.get_relations()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **.get_sequences()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **.get_table_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **._parse_column_or_constraint_definition()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **.get_field_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **Return a list of (column_name, referenced_table_name, referenced_column_name)…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **Extract the size number from a "varchar(11)" type name** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **Return the column name of the primary key for the given table.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **Retrieve any constraints or keys (unique, pk, fk, check, index) across one or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **Return a list of table and view names in the current database.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **Return a description of the table with the DB-API cursor.description interface.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
-- **Return a dictionary of {field_name: (field_name_other_table, other_table)}…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- **Serializer** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
+- **Serializer** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
+- **JSONSerializer** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.get_dump_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
+- **._init_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
+- **.start_serialization()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
+- **._init_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
+- **.start_serialization()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
+- **Convert a queryset to GeoJSON, http://geojson.org/** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
+- **.end_serialization()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
+- **.handle_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
+- **.start_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
+- **PythonSerializer** (1 connections)
+- **Convert a queryset to JSON.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
+- **.end_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
+- **.end_serialization()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
+- **.getvalue()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
+- **.dumps()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.loads()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **Simple wrapper around json to be used in signing.dumps and signing.loads.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
 
 ## Relationships
 
-- [Community 246](Community_246.md) (3 shared connections)
-- [Community 150](Community_150.md) (3 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 196](Community_196.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 207](Community_207.md) (1 shared connections)
-- [Community 467](Community_467.md) (1 shared connections)
+- [Community 44](Community_44.md) (3 shared connections)
+- [Community 406](Community_406.md) (2 shared connections)
+- [Community 72](Community_72.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 570](Community_570.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/introspection.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
+- `raw/code/hyd-evaluation/django-django/django/core/signing.py`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 27 (93%)
+- INFERRED: 2 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

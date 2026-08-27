@@ -1,41 +1,42 @@
 # Community 680
 
-> 14 nodes · cohesion 0.27
+> 14 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **null_queries/tests.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/tests.py`
-- **NullQueriesTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/tests.py`
-- **null_queries/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/models.py`
-- **Choice** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/models.py`
-- **Poll** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/models.py`
-- **.test_none_as_null()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/tests.py`
-- **Inner** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/models.py`
-- **OuterA** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/models.py`
-- **OuterB** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/models.py`
-- **.test_reverse_relations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/models.py`
-- **Regression test for the use of None as a query value. None is interpreted as an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/tests.py`
-- **Querying across reverse relations and then another relation should insert outer…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_queries/tests.py`
+- **SplitArrayField** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **TestSplitFormField** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_splitarrayfield_has_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_rendering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_splitarraywidget_value_omitted_from_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **.test_invalid_char_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_invalid_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_remove_trailing_nulls()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_remove_trailing_nulls_not_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_required_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_valid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 57](Community_57.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 13](Community_13.md) (3 shared connections)
+- [Community 319](Community_319.md) (2 shared connections)
+- [Community 120](Community_120.md) (2 shared connections)
+- [Community 300](Community_300.md) (2 shared connections)
+- [Community 533](Community_533.md) (1 shared connections)
+- [Community 362](Community_362.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/null_queries/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/null_queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (84%)
-- INFERRED: 5 (16%)
+- EXTRACTED: 20 (61%)
+- INFERRED: 13 (39%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,31 +1,36 @@
 # Community 784
 
-> 9 nodes · cohesion 0.25
+> 11 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **AWSS3Storage** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
-- **.generate_filename()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
-- **.get_valid_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
-- **._save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
-- **.get_available_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
-- **Simulate an AWS S3 storage which uses Unix-like paths and allows any characters…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
-- **This method is important to test that Storage.save() doesn't replace '\' with…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
-- **This is the method that's important to override when using S3 so that os.path()…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
-- **Storage** (1 connections)
+- **join()** (10 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **internalStart()** (5 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **sourceFromStacktrace()** (5 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **createModule()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **generateHash()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **internalStop()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **Test()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **extend()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **extractStacktrace()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **internalRecover()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **array()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
 
 ## Relationships
 
-- [Community 262](Community_262.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 292](Community_292.md) (13 shared connections)
+- [Community 859](Community_859.md) (2 shared connections)
+- [Community 750](Community_750.md) (2 shared connections)
+- [Community 662](Community_662.md) (1 shared connections)
+- [Community 532](Community_532.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 33 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

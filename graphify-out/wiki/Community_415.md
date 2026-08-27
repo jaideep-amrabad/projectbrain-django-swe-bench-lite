@@ -1,55 +1,60 @@
 # Community 415
 
-> 28 nodes · cohesion 0.07
+> 45 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **SessionTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **TestDataMixin** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **ExceptionTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **LoginTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **SessionEngineTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_login_different_client()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_logout_with_custom_auth_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_logout_with_custom_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_exception_cleared()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Logout should send user_logged_out signal if user was logged in.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_login_with_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_login_without_signal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_logout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_logout_with_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_logout_without_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_session()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Logout should work whether the user is logged in or not (#9978).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Request a logout after logging in with custom authentication backend** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Logout should send signal even if user not authenticated.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Login should send user_logged_in signal on successful login.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Login shouldn't send signal if user wasn't logged in** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Using a different test client doesn't violate authentication** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **A session engine that modifies the session key can be used to log in** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **#5836 - A stale user exception isn't re-raised by the test client.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- *... and 3 more nodes in this community*
+- **FormsErrorMessagesTestCase** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
+- **.assertFormErrors()** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
+- **ModelChoiceField** (17 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **ModelMultipleChoiceField** (11 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.test_error_messages_escaping()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
+- **._check_values()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.prepare_value()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.clean()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **AssertFormErrorsMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
+- **ModelChoiceFieldErrorMessagesTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
+- **.test_modelchoicefield()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
+- **.to_python()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.test_choicefield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
+- **.test_filefield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
+- **.test_multiplechoicefield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
+- **.test_regexfield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
+- **.test_splitdatetimefield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
+- **.get_limit_choices_to()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.label_from_instance()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.prepare_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.test_booleanfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
+- **.test_charfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
+- *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [Community 12](Community_12.md) (6 shared connections)
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 51](Community_51.md) (4 shared connections)
-- [Community 53](Community_53.md) (1 shared connections)
-- [Community 87](Community_87.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 817](Community_817.md) (1 shared connections)
-- [Community 807](Community_807.md) (1 shared connections)
+- [Community 8](Community_8.md) (4 shared connections)
+- [Community 172](Community_172.md) (3 shared connections)
+- [Community 350](Community_350.md) (3 shared connections)
+- [Community 26](Community_26.md) (3 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
+- [Community 179](Community_179.md) (2 shared connections)
+- [Community 35](Community_35.md) (2 shared connections)
+- [Community 393](Community_393.md) (2 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
+- [Community 743](Community_743.md) (1 shared connections)
+- [Community 576](Community_576.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 83 (88%)
+- INFERRED: 11 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

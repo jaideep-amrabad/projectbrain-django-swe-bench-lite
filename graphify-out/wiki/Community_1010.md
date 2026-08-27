@@ -1,23 +1,27 @@
 # Community 1010
 
-> 2 nodes · cohesion 1.00
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **.test_follow_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **A URL that redirects can be followed to termination.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.add_dependency()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **.add_dummy_node()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **.validate_consistency()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **This may create dummy nodes if they don't yet exist. If `skip_validation=True`,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **Ensure there are no dummy nodes remaining in the graph.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
 
 ## Relationships
 
-- [Community 47](Community_47.md) (1 shared connections)
+- [Community 289](Community_289.md) (3 shared connections)
+- [Community 529](Community_529.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

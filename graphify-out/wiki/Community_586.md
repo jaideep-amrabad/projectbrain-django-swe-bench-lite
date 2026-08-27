@@ -1,45 +1,45 @@
 # Community 586
 
-> 17 nodes · cohesion 0.12
+> 18 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **Article** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **FieldOverridePost** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **StateAdminForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **Post** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ArticleForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **FieldOverridePostForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **ArticleInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **StoryForm** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.changed_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.model_month()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.model_year()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.model_year_reversed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.property_year()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.awesomeness_level()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **A simple article to test admin views. Test backwards compatibility.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **Tests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **._select()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_nodb_connection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_connect_and_rollback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_connect_isolation_level()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_connect_non_autocommit()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_copy_cursors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_correct_extraction_psycopg2_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_database_name_too_long()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_lookup_cast()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_select_ascii_array()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_select_unicode_array()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **skipUnless** (1 connections)
+- **The transaction level can be configured with DATABASES…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **The _nodb_connection property fallbacks to the default connection database when…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **PostgreSQL shouldn't roll back SET TIME ZONE, even if the first transaction is…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **The connection wrapper shouldn't believe that autocommit is enabled after…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **.test_connect_no_is_usable_checks()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
 
 ## Relationships
 
-- [Community 66](Community_66.md) (8 shared connections)
-- [Community 89](Community_89.md) (3 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 781](Community_781.md) (1 shared connections)
-- [Community 561](Community_561.md) (1 shared connections)
-- [Community 501](Community_501.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 786](Community_786.md) (1 shared connections)
+- [Community 275](Community_275.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (84%)
-- INFERRED: 5 (16%)
+- EXTRACTED: 25 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

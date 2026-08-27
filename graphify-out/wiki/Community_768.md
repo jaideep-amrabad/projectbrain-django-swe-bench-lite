@@ -1,32 +1,33 @@
 # Community 768
 
-> 10 nodes · cohesion 0.20
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **PayloadEncodingTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_non_utf_payload()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_simple_payload()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_utf16_payload()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_utf8_payload()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Regression tests for #10571.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **A simple ASCII-only text can be POSTed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Non-ASCII data encoded as UTF-8 can be POSTed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Non-ASCII data encoded as UTF-16 can be POSTed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Non-ASCII data as a non-UTF based encoding can be POSTed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **TestInspectMethods** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- **.test_method_has_no_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- **.all_kinds()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- **.just_args()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- **.no_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- **.one_argument()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- **.test_func_accepts_var_args_has_var_args()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- **.test_func_accepts_var_args_no_var_args()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- **.test_get_func_full_args_all_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- **.test_get_func_full_args_no_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
+- **.test_get_func_full_args_one_argument()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
+- [Community 26](Community_26.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_inspect.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

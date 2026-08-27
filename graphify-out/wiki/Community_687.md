@@ -1,42 +1,41 @@
 # Community 687
 
-> 12 nodes · cohesion 0.18
+> 14 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **BigAutoField** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **BigIntegerField** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.test_alter_autofield_pk_to_bigautofield_pk_sequence_owner()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_alter_textual_field_keep_null_status()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_alter_numeric_field_keep_null_status()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_alter_primary_key_quoted_db_table()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.rel_db_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Changing a field type shouldn't affect the not null status.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Converting an implicit PK to BigAutoField(primary_key=True) should keep a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- **ChangePasswordTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.assertFormError()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_user_change_password()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.fail_login()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_password_change_fails_with_invalid_old_password()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_password_change_fails_with_mismatched_passwords()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_password_change_succeeds()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.logout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_password_change_done_fails()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_password_change_done_succeeds()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_password_change_redirect_custom()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_password_change_redirect_custom_named()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_password_change_redirect_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **Assert that error is found in response.context['form'] errors** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Relationships
 
-- [Community 75](Community_75.md) (7 shared connections)
-- [Community 262](Community_262.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 61](Community_61.md) (2 shared connections)
-- [Community 98](Community_98.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 86](Community_86.md) (1 shared connections)
-- [Community 268](Community_268.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
+- [Community 348](Community_348.md) (8 shared connections)
+- [Community 616](Community_616.md) (2 shared connections)
+- [Community 260](Community_260.md) (1 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 218](Community_218.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (100%)
+- EXTRACTED: 31 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

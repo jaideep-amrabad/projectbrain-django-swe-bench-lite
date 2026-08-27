@@ -1,53 +1,54 @@
 # Community 285
 
-> 43 nodes · cohesion 0.07
+> 37 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **templatetags/custom.py** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **simple_tag** (20 connections)
-- **CounterNode** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **escape_explicit()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **escape_format_html()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **make_data_div()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **counter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **escape_naive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **explicit_no_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **no_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **no_params_with_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **one_param()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **params_and_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **filter** (3 connections)
-- **simple_one_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **simple_only_unlimited_args()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **simple_tag_without_context_parameter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **simple_two_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **simple_unlimited_args()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **simple_unlimited_args_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **trim()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **context_stack_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **current_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **minustwo_overridden_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- **Expected simple_unlimited_args __doc__** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
-- *... and 18 more nodes in this community*
+- **ProxyModelTests** (52 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_swappable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_basic_proxy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_basic_proxy_reverse()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_correct_type_proxy_of_proxy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_inheritance_new_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_new_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_no_proxy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_proxy_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_proxy_included_in_ancestors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_proxy_model_signals()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_same_manager_queries()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_select_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_abstract_base_with_model_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_concrete_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_content_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_filter_proxy_relation_reverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_myperson_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_no_base_classes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_otherperson_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_permissions_created()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_proxy_bug()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_proxy_for_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_proxy_load_from_fixture()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- **.test_proxy_update()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 11](Community_11.md) (7 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 17](Community_17.md) (2 shared connections)
-- [Community 788](Community_788.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 13](Community_13.md) (1 shared connections)
+- [Community 562](Community_562.md) (13 shared connections)
+- [Community 624](Community_624.md) (6 shared connections)
+- [Community 870](Community_870.md) (4 shared connections)
+- [Community 1095](Community_1095.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_models/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 81 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 42 (65%)
+- INFERRED: 23 (35%)
 - AMBIGUOUS: 0 (0%)
 
 ---

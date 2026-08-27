@@ -1,24 +1,28 @@
 # Community 1172
 
-> 2 nodes · cohesion 1.00
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **.test_inheritance42()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Expression starting and ending with a quote** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **BooleanFieldTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_booleanfield.py`
+- **.test_boolean_picklable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_booleanfield.py`
+- **.test_booleanfield_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_booleanfield.py`
+- **.test_booleanfield_clean_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_booleanfield.py`
+- **.test_booleanfield_clean_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_booleanfield.py`
+- **.test_disabled_has_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_booleanfield.py`
 
 ## Relationships
 
-- [Community 769](Community_769.md) (1 shared connections)
-- [Community 803](Community_803.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_booleanfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

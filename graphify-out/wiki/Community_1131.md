@@ -1,24 +1,29 @@
 # Community 1131
 
-> 2 nodes · cohesion 1.00
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **.test_formset_validate_min_flag()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **If validate_min is set and min_num is more than TOTAL_FORMS in the data, a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **EmailFieldTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_emailfield.py`
+- **.test_email_regexp_for_performance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_emailfield.py`
+- **.test_emailfield_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_emailfield.py`
+- **.test_emailfield_min_max_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_emailfield.py`
+- **.test_emailfield_not_required()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_emailfield.py`
+- **.test_emailfield_strip_on_none_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_emailfield.py`
+- **.test_emailfield_unable_to_set_strip_kwarg()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_emailfield.py`
 
 ## Relationships
 
-- [Community 420](Community_420.md) (1 shared connections)
-- [Community 523](Community_523.md) (1 shared connections)
+- [Community 26](Community_26.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_emailfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

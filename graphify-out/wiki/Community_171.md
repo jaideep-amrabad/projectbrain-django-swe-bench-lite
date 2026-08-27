@@ -1,59 +1,55 @@
 # Community 171
 
-> 57 nodes · cohesion 0.05
+> 51 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **templatetags/i18n.py** (35 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **get_language_info()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **Node** (8 connections)
-- **TestLanguageInfo** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
-- **BlockTranslateNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **do_block_translate()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **GetLanguageInfoListNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **TranslateNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **do_get_available_languages()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **do_get_current_language()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **do_get_current_language_bidi()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **do_get_language_info()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **do_get_language_info_list()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **do_translate()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **GetAvailableLanguagesNode** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **GetCurrentLanguageBidiNode** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **GetCurrentLanguageNode** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **GetLanguageInfoNode** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **language()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **LanguageNode** (5 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **.render()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **language_name_translated()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **filter** (4 connections)
-- **language_bidi()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- **language_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- *... and 32 more nodes in this community*
+- **BaseModelAdminChecks** (35 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **must_be()** (33 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **.check()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **refer_to_missing_field()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_fields()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_fieldsets_item()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_filter_item()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_prepopulated_fields()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_radio_fields()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_autocomplete_fields()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_autocomplete_fields_item()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_exclude()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_field_spec()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_fieldsets()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_filter_horizontal()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_filter_vertical()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_ordering()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_prepopulated_fields_value()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_raw_id_fields()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_raw_id_fields_item()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_readonly_fields()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_ordering_item()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_prepopulated_fields_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_prepopulated_fields_value_item()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_radio_fields_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (15 shared connections)
-- [Community 13](Community_13.md) (13 shared connections)
-- [Community 101](Community_101.md) (4 shared connections)
-- [Community 80](Community_80.md) (2 shared connections)
-- [Community 11](Community_11.md) (2 shared connections)
-- [Community 178](Community_178.md) (2 shared connections)
-- [Community 18](Community_18.md) (2 shared connections)
-- [Community 97](Community_97.md) (1 shared connections)
+- [Community 247](Community_247.md) (17 shared connections)
+- [Community 566](Community_566.md) (5 shared connections)
+- [Community 45](Community_45.md) (4 shared connections)
+- [Community 485](Community_485.md) (2 shared connections)
+- [Community 333](Community_333.md) (1 shared connections)
+- [Community 122](Community_122.md) (1 shared connections)
 - [Community 20](Community_20.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
+- [Community 31](Community_31.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/templatetags/i18n.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
 
 ## Audit Trail
 
-- EXTRACTED: 126 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 126 (97%)
+- INFERRED: 4 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

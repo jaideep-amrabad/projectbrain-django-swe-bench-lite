@@ -1,57 +1,49 @@
 # Community 436
 
-> 26 nodes · cohesion 0.12
+> 25 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **BooleanFieldTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **model_fields/test_booleanfield.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **NullBooleanModel** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **FksToBooleans** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **ValidationTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **BooleanModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **._test_get_prep_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **.test_null_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **._test_to_python()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **.test_nullbooleanfield_blank()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **.test_booleanfield_choices_blank()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **.test_booleanfield_get_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **.test_booleanfield_to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **.test_nullbooleanfield_get_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **.test_nullbooleanfield_old_get_prep_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **.test_nullbooleanfield_old_to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **.test_nullbooleanfield_to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **.test_select_related()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **Model with FKs to models with {Null,}BooleanField's, #15040** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- **.test_nullbooleanfield_formfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **.test_return_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **A BooleanField defaults to None, which isn't a valid value (#15124).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **NullBooleanField shouldn't throw a validation error when given a value of None.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **BooleanField with choices and defaults doesn't generate a formfield with the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **Boolean fields retrieved via select_related() should return booleans.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- *... and 1 more nodes in this community*
+- **builtin_server/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **WriteChunkCounterHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **FileWrapperHandler** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **ServerHandler** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.write()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **WSGIFileWrapperTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **DummyHandler** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **ServerHandlerChunksProperly** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.test_chunked_data()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.test_file_wrapper_no_sendfile()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.test_file_wrapper_uses_sendfile()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **._write()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **wsgi_app_file_wrapper()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **send_big_data_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.send_headers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **wsgi_app()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.log_request()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.sendfile()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **The ServerHandler chunks data properly. Tests for #18972: The logic that…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **write()' callable as specified by PEP 3333** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **The wsgi.file_wrapper works for the builting server. Tests for #9659:…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **Server handler that counts the number of chunks written after headers were…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
+- **.error_output()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
 
 ## Relationships
 
-- [Community 27](Community_27.md) (4 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 15](Community_15.md) (2 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 98](Community_98.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 583](Community_583.md) (1 shared connections)
+- [Community 347](Community_347.md) (5 shared connections)
+- [Community 41](Community_41.md) (2 shared connections)
+- [Community 574](Community_574.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/builtin_server/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 51 (91%)
-- INFERRED: 5 (9%)
+- EXTRACTED: 36 (80%)
+- INFERRED: 9 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

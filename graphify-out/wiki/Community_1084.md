@@ -1,24 +1,28 @@
 # Community 1084
 
-> 2 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.test_post()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **POST some data to a view** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **GetOrCreateThroughManyToMany** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_create_get_or_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_get_get_or_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_something()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
 
 ## Relationships
 
-- [Community 47](Community_47.md) (1 shared connections)
+- [Community 534](Community_534.md) (2 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 758](Community_758.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 5 (71%)
+- INFERRED: 2 (29%)
 - AMBIGUOUS: 0 (0%)
 
 ---

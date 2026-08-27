@@ -1,40 +1,47 @@
 # Community 657
 
-> 15 nodes · cohesion 0.13
+> 17 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **tests_sample.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
-- **doctests.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/doctests.py`
-- **TestDjangoTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
-- **TestVanillaUnittest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
-- **TestZimpleTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
-- **factorial()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/doctests.py`
-- **EmptyTestCase** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
-- **Doctest example from the official Python documentation.…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/doctests.py`
-- **Return the factorial of n, an exact integer >= 0. >>> [factorial(n) for n in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/doctests.py`
-- **sample/__init__.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/__init__.py`
-- **load_tests()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
-- **DjangoTestCase** (1 connections)
-- **.test_sample()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
-- **.test_sample()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
-- **.test_sample()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
+- **CsrfViewMiddlewareTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **._test_https_good_referer_matches_cookie_domain()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **._test_https_good_referer_matches_cookie_domain_with_different_port()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_csrf_cookie_age()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_csrf_cookie_age_none()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_https_good_referer_matches_cookie_domain()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_https_good_referer_matches_cookie_domain_with_different_port()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_process_view_token_invalid_chars()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_process_view_token_too_long()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_https_good_referer_matches_cookie_domain()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_https_good_referer_matches_cookie_domain_with_different_port()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **A POST HTTPS request with a good referer should be accepted from a subdomain…** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_csrf_cookie_samesite()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **CSRF cookie age can be set using settings.CSRF_COOKIE_AGE.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **CSRF cookie age does not have max age set and therefore uses session-based…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **If the token is longer than expected, it is ignored and a new token is created.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **If the token contains non-alphanumeric characters, it is ignored and a new…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 51](Community_51.md) (3 shared connections)
+- [Community 649](Community_649.md) (9 shared connections)
+- [Community 199](Community_199.md) (8 shared connections)
+- [Community 153](Community_153.md) (5 shared connections)
+- [Community 7](Community_7.md) (4 shared connections)
+- [Community 1078](Community_1078.md) (3 shared connections)
+- [Community 406](Community_406.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 521](Community_521.md) (1 shared connections)
+- [Community 1209](Community_1209.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/doctests.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/sample/tests_sample.py`
+- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 45 (87%)
+- INFERRED: 7 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,38 +1,35 @@
 # Community 739
 
-> 10 nodes · cohesion 0.27
+> 12 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **comparison.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **NullIf** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **NullIfTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_nullif.py`
-- **.test_null_literal()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_nullif.py`
-- **.test_null_argument()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_nullif.py`
-- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_nullif.py`
-- **.test_too_few_args()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_nullif.py`
-- **Database functions that do comparisons or type conversions.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_nullif.py`
-- **skipUnless** (1 connections)
+- **EmailBackend** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
+- **._send()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
+- **.send_messages()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
+- **.close()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
+- **.open()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
+- **.connection_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
+- **A helper method that does the actual sending.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
+- **A wrapper that manages the SMTP network connection.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
+- **Ensure an open connection to the email server. Return whether or not a new…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
+- **Close the connection to the email server.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
+- **Send one or more EmailMessage objects and return the number of email messages…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
 
 ## Relationships
 
-- [Community 51](Community_51.md) (5 shared connections)
-- [Community 37](Community_37.md) (4 shared connections)
-- [Community 221](Community_221.md) (3 shared connections)
-- [Community 50](Community_50.md) (2 shared connections)
-- [Community 300](Community_300.md) (2 shared connections)
-- [Community 57](Community_57.md) (1 shared connections)
+- [Community 213](Community_213.md) (2 shared connections)
+- [Community 237](Community_237.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_nullif.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 17 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

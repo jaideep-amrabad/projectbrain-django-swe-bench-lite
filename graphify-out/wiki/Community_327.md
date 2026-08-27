@@ -1,51 +1,65 @@
 # Community 327
 
-> 34 nodes · cohesion 0.07
+> 52 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **DatabaseOperations** (37 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **._convert_field_to_tz()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.datetime_extract_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.date_extract_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.date_interval_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.datetime_cast_date_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.datetime_cast_time_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.datetime_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.force_no_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.last_executed_query()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **._prepare_tzname_delta()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.quote_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.sql_flush()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.adapt_datetimefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.adapt_timefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.binary_placeholder_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.bulk_insert_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.combine_expression()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.convert_booleanfield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.convert_datetimefield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.convert_uuidfield_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.date_trunc_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.explain_query_prefix()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.format_for_duration_arithmetic()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- **.get_db_converters()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
-- *... and 9 more nodes in this community*
+- **View** (40 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **generic_views/test_base.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **TemplateView** (24 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **decorator()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **SimpleView** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **nested_urls.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/nested_urls.py`
+- **classonlymethod** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **GetContextDataTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.as_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.options()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **AboutTemplateView** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **InstanceView** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **PostOnlyView** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **UseMultipleObjectMixinTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **._allowed_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.http_method_not_allowed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **generic_views/__init__.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/__init__.py`
+- **AboutTemplateAttributeView** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **DecoratedDispatchView** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **SingleObjectTemplateResponseMixinTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **included.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/urls/included.py`
+- **path_unused.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/urls/path_unused.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.setup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **CustomizableView** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- *... and 27 more nodes in this community*
 
 ## Relationships
 
-- [Community 6](Community_6.md) (4 shared connections)
-- [Community 119](Community_119.md) (1 shared connections)
-- [Community 457](Community_457.md) (1 shared connections)
-- [Community 145](Community_145.md) (1 shared connections)
+- [Community 11](Community_11.md) (12 shared connections)
+- [Community 1](Community_1.md) (10 shared connections)
+- [Community 80](Community_80.md) (9 shared connections)
+- [Community 318](Community_318.md) (8 shared connections)
+- [Community 50](Community_50.md) (6 shared connections)
+- [Community 9](Community_9.md) (5 shared connections)
+- [Community 267](Community_267.md) (5 shared connections)
+- [Community 8](Community_8.md) (5 shared connections)
+- [Community 127](Community_127.md) (4 shared connections)
+- [Community 54](Community_54.md) (3 shared connections)
+- [Community 271](Community_271.md) (2 shared connections)
+- [Community 877](Community_877.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/urls/included.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/urls/path_unused.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/nested_urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 145 (91%)
+- INFERRED: 15 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

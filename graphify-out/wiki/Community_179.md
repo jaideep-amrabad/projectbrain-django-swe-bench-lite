@@ -1,61 +1,63 @@
 # Community 179
 
-> 55 nodes · cohesion 0.07
+> 45 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **model_formsets/tests.py** (48 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **model_formsets/models.py** (40 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **InlineFormsetTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- **model_formsets/test_uuid.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- **Author** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **Book** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **AlternateBook** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **BookWithOptionalAltEditor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **Meta** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **MexicanRestaurant** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **Place** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **Poem** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **Price** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **Restaurant** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **Revision** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **AuthorMeeting** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **BetterAuthor** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **BookWithCustomPK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **ClassyMexicanRestaurant** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **Owner** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **OwnerProfile** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **Post** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **Product** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **Repository** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **.test_inline_formsets_save_as_new()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- *... and 30 more nodes in this community*
+- **SimpleUploadedFile** (56 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- **FileAndImageFieldTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **DirectoryCreationTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **FileFieldTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filefield.py`
+- **field_tests/test_filefield.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filefield.py`
+- **TextFileForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_readonly_root()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_clear_and_file_contradiction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_file_field_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_file_field_multiple_save()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_filefield_required_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_full_clear()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.from_dict()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.tearDownClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_not_a_directory()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.tearDownClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- **.test_file_mode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- **.test_filefield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filefield.py`
+- **.test_filefield_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filefield.py`
+- **.test_filefield_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filefield.py`
+- **.test_filefield_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filefield.py`
+- **.test_clean_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [Community 239](Community_239.md) (33 shared connections)
-- [Community 263](Community_263.md) (12 shared connections)
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 51](Community_51.md) (3 shared connections)
-- [Community 78](Community_78.md) (3 shared connections)
-- [Community 20](Community_20.md) (3 shared connections)
-- [Community 72](Community_72.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 197](Community_197.md) (2 shared connections)
-- [Community 15](Community_15.md) (2 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
+- [Community 83](Community_83.md) (7 shared connections)
+- [Community 2](Community_2.md) (6 shared connections)
+- [Community 131](Community_131.md) (5 shared connections)
+- [Community 745](Community_745.md) (4 shared connections)
+- [Community 119](Community_119.md) (4 shared connections)
+- [Community 8](Community_8.md) (4 shared connections)
+- [Community 43](Community_43.md) (3 shared connections)
+- [Community 198](Community_198.md) (3 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 26](Community_26.md) (3 shared connections)
+- [Community 415](Community_415.md) (2 shared connections)
+- [Community 291](Community_291.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets/test_uuid.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_uploads/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filefield.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 137 (80%)
-- INFERRED: 35 (20%)
+- EXTRACTED: 100 (84%)
+- INFERRED: 19 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,66 +1,58 @@
 # Community 72
 
-> 120 nodes · cohesion 0.04
+> 90 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **datetime** (390 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **datetime.py** (46 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **test_extract_trunc.py** (43 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
-- **DateFunctionTests** (41 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
-- **.create_model()** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
-- **Extract** (25 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **TruncBase** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **Trunc** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **truncate_to()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
-- **.test_extract_func_with_timezone()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
-- **ExtractIsoYear** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **DateFunctionWithTimeZoneTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
-- **ExtractQuarter** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **ExtractWeek** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **ExtractWeekDay** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **TruncDate** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **TruncTime** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **TruncYear** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **DateTimeInputTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_datetimeinput.py`
-- **ExtractHour** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **ExtractMinute** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **TruncDay** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **TruncHour** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **TruncWeek** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- **.test_extract_year_exact_lookup()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
-- *... and 95 more nodes in this community*
+- **SpatialReference** (76 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **SpatialRefTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- **.attr_value()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **.import_user_input()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **.import_wkt()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **.test12_coordtransform()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- **._get_srs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **._set_srs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **.import_epsg()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **.srid()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **.xml()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **.test01_wkt()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- **.test02_bad_wkt()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- **.test03_get_wkt()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- **.test04_proj()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- **.test07_boolean_props()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- **.test08_angular_linear()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- **.test09_authority()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- **.test10_attributes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- **.test11_wellknown()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- **.test13_attr_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
+- **.angular_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- *... and 65 more nodes in this community*
 
 ## Relationships
 
-- [Community 51](Community_51.md) (35 shared connections)
-- [Community 15](Community_15.md) (29 shared connections)
-- [Community 96](Community_96.md) (29 shared connections)
-- [Community 20](Community_20.md) (22 shared connections)
-- [Community 6](Community_6.md) (18 shared connections)
-- [Community 18](Community_18.md) (16 shared connections)
-- [Community 0](Community_0.md) (14 shared connections)
-- [Community 25](Community_25.md) (10 shared connections)
-- [Community 554](Community_554.md) (10 shared connections)
-- [Community 50](Community_50.md) (9 shared connections)
-- [Community 101](Community_101.md) (9 shared connections)
-- [Community 498](Community_498.md) (8 shared connections)
+- [Community 44](Community_44.md) (13 shared connections)
+- [Community 257](Community_257.md) (7 shared connections)
+- [Community 33](Community_33.md) (6 shared connections)
+- [Community 64](Community_64.md) (4 shared connections)
+- [Community 112](Community_112.md) (3 shared connections)
+- [Community 108](Community_108.md) (2 shared connections)
+- [Community 520](Community_520.md) (1 shared connections)
+- [Community 69](Community_69.md) (1 shared connections)
+- [Community 32](Community_32.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_datetimeinput.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splithiddendatetimewidget.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_regress.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_srs.py`
 
 ## Audit Trail
 
-- EXTRACTED: 572 (77%)
-- INFERRED: 170 (23%)
+- EXTRACTED: 142 (97%)
+- INFERRED: 4 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,23 +1,25 @@
 # Community 1121
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.test_dependency_sorting_m2m_complex_circular_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **Circular M2M relations with explicit through models should be serializable This…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **ParameterHandlingTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_bad_parameter_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **An executemany call with too many/not enough parameters will raise an exception…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
 
 ## Relationships
 
-- [Community 349](Community_349.md) (1 shared connections)
+- [Community 306](Community_306.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

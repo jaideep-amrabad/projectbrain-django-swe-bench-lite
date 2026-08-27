@@ -1,35 +1,38 @@
 # Community 610
 
-> 11 nodes · cohesion 0.20
+> 15 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **SessionStore** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
-- **.flush()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
-- **.delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
-- **DBStore** (1 connections)
-- **Implement cached, database backed sessions.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
-- **Remove the current session data from the database and regenerate the key.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
-- **.cache_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
-- **.exists()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
-- **.load()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
-- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
+- **SelectMultipleTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **.test_multiple_options_same_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **.test_multiple_values_invalid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **.test_optgroup_select_multiple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **.test_render_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **.test_render_value_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **If the value is None, none of the options are selected, even if the choices…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **If the value corresponds to a label (but not to an option value), none of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **Multiple options with the same value can be selected (#8103).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **If multiple values are given, but some of them are not valid, the valid ones…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **.test_compare_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **.test_format_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **.test_render_multiple_selected()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **.test_render_selected()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
+- **.test_value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
 
 ## Relationships
 
-- [Community 20](Community_20.md) (2 shared connections)
-- [Community 68](Community_68.md) (1 shared connections)
-- [Community 243](Community_243.md) (1 shared connections)
+- [Community 240](Community_240.md) (2 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_selectmultiple.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (87%)
-- INFERRED: 2 (13%)
+- EXTRACTED: 16 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

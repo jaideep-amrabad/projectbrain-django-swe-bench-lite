@@ -1,24 +1,28 @@
 # Community 1039
 
-> 2 nodes · cohesion 1.00
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **.test_form_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **POST erroneous data to a form** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **TestDateTimeExactQuerying** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_exact_dates()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_exact_datetimes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_exact_times()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
 
 ## Relationships
 
-- [Community 47](Community_47.md) (1 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 120](Community_120.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 6 (86%)
+- INFERRED: 1 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

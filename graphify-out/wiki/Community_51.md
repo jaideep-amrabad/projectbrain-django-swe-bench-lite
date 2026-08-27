@@ -1,78 +1,54 @@
 # Community 51
 
-> 133 nodes · cohesion 0.05
+> 73 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **TestCase** (956 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **functions/__init__.py** (169 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/__init__.py`
-- **db_functions/models.py** (61 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/models.py`
-- **math.py** (60 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **Author** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/models.py`
-- **Lower** (31 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- **DecimalModel** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/models.py`
-- **FloatModel** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/models.py`
-- **IntegerModel** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/models.py`
-- **test_greatest.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_greatest.py`
-- **test_least.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
-- **test_cast.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- **test_concat.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_concat.py`
-- **db_functions/tests.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/tests.py`
-- **test_acos.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_acos.py`
-- **test_asin.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_asin.py`
-- **test_atan.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan.py`
-- **test_ceil.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ceil.py`
-- **test_cos.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cos.py`
-- **test_cot.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cot.py`
-- **test_degrees.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_degrees.py`
-- **test_exp.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_exp.py`
-- **test_floor.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_floor.py`
-- **test_ln.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ln.py`
-- **test_radians.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_radians.py`
-- *... and 108 more nodes in this community*
+- **.get_dated_items()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **_get_next_prev()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_dated_items()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_object()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_dated_items()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_dated_items()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_dated_queryset()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_date_field()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **_date_from_string()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **WeekMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_date_list()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_year()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_next_month()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_next_week()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_year_format()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **._make_date_lookup_arg()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **._make_single_date_lookup()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_month()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **Return (date_list, items, extra_context) for this request.** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_next_year()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_day()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_next_day()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_month_format()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **.get_previous_month()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- **timezone_today()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
+- *... and 48 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (67 shared connections)
-- [Community 131](Community_131.md) (65 shared connections)
-- [Community 0](Community_0.md) (57 shared connections)
-- [Community 162](Community_162.md) (40 shared connections)
-- [Community 8](Community_8.md) (36 shared connections)
-- [Community 72](Community_72.md) (35 shared connections)
-- [Community 70](Community_70.md) (35 shared connections)
-- [Community 34](Community_34.md) (31 shared connections)
-- [Community 229](Community_229.md) (27 shared connections)
-- [Community 5](Community_5.md) (27 shared connections)
-- [Community 50](Community_50.md) (26 shared connections)
-- [Community 337](Community_337.md) (23 shared connections)
+- [Community 318](Community_318.md) (35 shared connections)
+- [Community 11](Community_11.md) (11 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 61](Community_61.md) (1 shared connections)
+- [Community 879](Community_879.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/datetime.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/mixins.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_models.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_introspection.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/mysql/test_schema.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_coalesce.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_greatest.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_least.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_nullif.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_now.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_abs.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_acos.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_asin.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan2.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/dates.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1802 (100%)
-- INFERRED: 2 (0%)
+- EXTRACTED: 175 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

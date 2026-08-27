@@ -1,53 +1,55 @@
 # Community 149
 
-> 51 nodes · cohesion 0.04
+> 57 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **AdminActionsTest** (41 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_non_localized_pk()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_action_column_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_actions_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_custom_function_action_no_perm_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_custom_function_action_streaming_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_custom_function_action_with_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_custom_function_mail_action()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_default_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_delete_selected_uses_get_deleted_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_media_from_actions_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_model_admin_custom_action()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_model_admin_default_delete_action_no_change_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_model_admin_default_delete_action_protected()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_model_without_action()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_model_without_action_still_has_jquery()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_multiple_actions_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_popup_actions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_popup_template_response_on_add()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_selection_counter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_user_message_on_no_action()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_user_message_on_none_selected()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_default_delete_action_nonexistent_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_delete_queryset_hook()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- **.test_model_admin_default_delete_action()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
-- *... and 26 more nodes in this community*
+- **Command** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **IfParser** (15 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **Literal** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **smartif.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.collect()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **TokenBase** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **SmartIfTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
+- **.link_file()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.log()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.delete_file()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.handle()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.assertCalcEqual()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
+- **.clear_dir()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.copy_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **.set_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- **EndToken** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.create_var()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.next_token()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **.translate_token()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- **test_smartif.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
+- **.test_precedence()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- *... and 32 more nodes in this community*
 
 ## Relationships
 
-- [Community 16](Community_16.md) (26 shared connections)
-- [Community 344](Community_344.md) (7 shared connections)
-- [Community 378](Community_378.md) (3 shared connections)
-- [Community 12](Community_12.md) (2 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
-- [Community 319](Community_319.md) (1 shared connections)
+- [Community 4](Community_4.md) (6 shared connections)
+- [Community 5](Community_5.md) (5 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 126](Community_126.md) (1 shared connections)
+- [Community 210](Community_210.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/management/commands/collectstatic.py`
+- `raw/code/hyd-evaluation/django-django/django/template/smartif.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_smartif.py`
 
 ## Audit Trail
 
-- EXTRACTED: 81 (90%)
-- INFERRED: 9 (10%)
+- EXTRACTED: 95 (95%)
+- INFERRED: 5 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

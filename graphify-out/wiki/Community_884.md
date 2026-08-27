@@ -1,32 +1,40 @@
 # Community 884
 
-> 7 nodes · cohesion 0.43
+> 8 nodes · cohesion 0.36
 
 ## Key Concepts
 
-- **Ln** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **LnTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ln.py`
-- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ln.py`
-- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ln.py`
-- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ln.py`
-- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ln.py`
-- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ln.py`
+- **make_hashable()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/hashable.py`
+- **test_hashable.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_hashable.py`
+- **TestHashable** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_hashable.py`
+- **.identity()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__hash__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- **.test_count_equal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_hashable.py`
+- **.test_equal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_hashable.py`
+- **.test_unhashable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_hashable.py`
 
 ## Relationships
 
-- [Community 51](Community_51.md) (5 shared connections)
-- [Community 162](Community_162.md) (1 shared connections)
-- [Community 93](Community_93.md) (1 shared connections)
-- [Community 70](Community_70.md) (1 shared connections)
+- [Community 74](Community_74.md) (3 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 122](Community_122.md) (1 shared connections)
+- [Community 447](Community_447.md) (1 shared connections)
+- [Community 575](Community_575.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 305](Community_305.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ln.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/hashable.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/tree.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_hashable.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
+- EXTRACTED: 23 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

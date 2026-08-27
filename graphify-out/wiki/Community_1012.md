@@ -1,27 +1,29 @@
 # Community 1012
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **.test_add_location_gettext_version_check()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **.test_makemessages_gettext_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
-- **patch** (2 connections)
-- **CommandError is raised when using makemessages --add-location with gettext <…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **.__reduce__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **.__getstate__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **model_unpickle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **Used to unpickle Model subclasses with deferred fields.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **Hook to allow choosing the attributes to pickle.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
 
 ## Relationships
 
-- [Community 472](Community_472.md) (1 shared connections)
-- [Community 510](Community_510.md) (1 shared connections)
+- [Community 114](Community_114.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 7 (88%)
+- INFERRED: 1 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

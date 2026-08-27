@@ -1,25 +1,31 @@
 # Community 1029
 
-> 4 nodes · cohesion 0.67
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **SafeseqTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_safeseq.py`
-- **setup** (2 connections)
-- **.test_safeseq01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_safeseq.py`
-- **.test_safeseq02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_safeseq.py`
+- **SessionStore** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
+- **test_client_regress/session.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
+- **A simple cookie-based session storage implementation. The session key is…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
+- **.create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
+- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
+- **.exists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
+- **.load()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
+- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
+- [Community 113](Community_113.md) (2 shared connections)
+- [Community 406](Community_406.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_safeseq.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/session.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

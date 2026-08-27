@@ -1,35 +1,34 @@
 # Community 812
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **ModelOtherFieldTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **BigIntForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_modelform_non_editable_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_big_integer_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_http_prefixing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_url_on_modelform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Check basic URL field validation on model forms** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **When explicitly including a non-editable field in a ModelForm, the error…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **If the http:// prefix is omitted on form input, the field adds it again. (Refs…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **pluralize()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- **FunctionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.test_decimals()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.test_floats()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.test_integers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.test_lists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.test_no_len_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.test_suffixes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **.test_value_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
+- **Return a plural suffix if the value is not 1, '1', or an object of length 1. By…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 
 ## Relationships
 
-- [Community 46](Community_46.md) (4 shared connections)
-- [Community 343](Community_343.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 549](Community_549.md) (1 shared connections)
-- [Community 550](Community_550.md) (1 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 29](Community_29.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_pluralize.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (81%)
-- INFERRED: 3 (19%)
+- EXTRACTED: 20 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

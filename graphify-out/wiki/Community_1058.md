@@ -1,21 +1,21 @@
 # Community 1058
 
-> 3 nodes · cohesion 0.67
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **SingleObjectTemplateResponseMixinTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_template_mixin_without_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **We want to makes sure that if you use a template mixin, but forget the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **DjangoSafeDumper** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
+- **.represent_decimal()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
+- **.represent_ordered_dict()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
+- **SafeDumper** (1 connections)
 
 ## Relationships
 
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
 
 ## Audit Trail
 

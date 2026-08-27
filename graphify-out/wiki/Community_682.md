@@ -1,37 +1,42 @@
 # Community 682
 
-> 14 nodes · cohesion 0.15
+> 14 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **natural.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **NaturalKeyThing** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **Manager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **NaturalPKWithDefault** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **NaturalKeyAnchor** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **NaturalKeyAnchorManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **FKDataNaturalKey** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
-- **Models for test_natural.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- **StaticLiveServerTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/testing.py`
+- **LiveServerBase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **StaticLiveServerChecks** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **StaticLiveServerView** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **.test_collectstatic_emulation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **.raises_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **.tearDownClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **.tearDownClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **.urlopen()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **Extend django.test.LiveServerTestCase to transparently overlay at test…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/testing.py`
+- **StaticLiveServerTestCase use of staticfiles' serve() allows it to discover…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
+- **.test_test_test()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
+- [Community 11](Community_11.md) (6 shared connections)
+- [Community 297](Community_297.md) (1 shared connections)
+- [Community 332](Community_332.md) (1 shared connections)
+- [Community 363](Community_363.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/models/natural.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/testing.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_liveserver.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 28 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

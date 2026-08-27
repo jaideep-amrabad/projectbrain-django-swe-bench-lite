@@ -1,26 +1,29 @@
 # Community 923
 
-> 4 nodes · cohesion 0.50
+> 7 nodes · cohesion 0.48
 
 ## Key Concepts
 
-- **GetModelsTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **.test_get_model_only_returns_installed_models()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
-- **.test_get_models_only_returns_installed_models()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- **mysql/compiler.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
+- **SQLCompiler** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
+- **SQLAggregateCompiler** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
+- **SQLDeleteCompiler** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
+- **SQLInsertCompiler** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
+- **SQLUpdateCompiler** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
+- **.as_subquery_condition()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/compiler.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
+- EXTRACTED: 12 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

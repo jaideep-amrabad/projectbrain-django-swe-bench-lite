@@ -1,24 +1,25 @@
 # Community 1104
 
-> 2 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **Telegram** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **ViewContainer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/method_view_urls.py`
+- **method_view_urls.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/method_view_urls.py`
+- **.classmethod_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/method_view_urls.py`
+- **.method_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/method_view_urls.py`
 
 ## Relationships
 
-- [Community 66](Community_66.md) (1 shared connections)
-- [Community 89](Community_89.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/method_view_urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

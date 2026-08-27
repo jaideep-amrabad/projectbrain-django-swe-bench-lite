@@ -1,36 +1,42 @@
 # Community 631
 
-> 14 nodes · cohesion 0.14
+> 16 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **URLFieldTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
-- **.test_urlfield_10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
-- **URLField correctly validates IPv6 (#18779).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
-- **.test_url_regex_ticket11198()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
-- **.test_urlfield_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
-- **.test_urlfield_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
-- **.test_urlfield_5()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
-- **.test_urlfield_6()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
-- **.test_urlfield_7()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
-- **.test_urlfield_9()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
-- **.test_urlfield_normalization()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
-- **.test_urlfield_not_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
-- **.test_urlfield_strip_on_none_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
-- **.test_urlfield_unable_to_set_strip_kwarg()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
+- **UserChangeForm** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **UserChangeFormTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_bug_19133()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.test_bug_17944_empty_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_bug_17944_unknown_password_algorithm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_bug_17944_unmanageable_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_bug_19349_bound_password_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_unusable_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_username_field_autocapitalize_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_username_validity()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.clean_password()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **The change form does not return the password value** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_bug_14242()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_custom_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_password_excluded()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
 
 ## Relationships
 
-- [Community 15](Community_15.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 480](Community_480.md) (1 shared connections)
+- [Community 801](Community_801.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 677](Community_677.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_urlfield.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 30 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

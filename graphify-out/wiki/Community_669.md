@@ -1,42 +1,41 @@
 # Community 669
 
-> 14 nodes · cohesion 0.18
+> 15 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **ChangePasswordTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.assertFormError()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_user_change_password()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.fail_login()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_password_change_fails_with_invalid_old_password()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_password_change_fails_with_mismatched_passwords()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_password_change_succeeds()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.logout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_password_change_done_fails()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_password_change_done_succeeds()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_password_change_redirect_custom()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_password_change_redirect_custom_named()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_password_change_redirect_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **Assert that error is found in response.context['form'] errors** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **reverse_lookup/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
+- **ReverseLookupTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
+- **reverse_lookup/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/models.py`
+- **Choice** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/models.py`
+- **Poll** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/models.py`
+- **User** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/models.py`
+- **.test_reverse_field_name_disallowed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/models.py`
+- **Reverse lookups This demonstrates the reverse lookup features of the database…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/models.py`
+- **If a related_name is given you can't use the field name instead** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
+- **.test_reverse_by_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
+- **.test_reverse_by_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
 
 ## Relationships
 
-- [Community 355](Community_355.md) (8 shared connections)
-- [Community 589](Community_589.md) (2 shared connections)
-- [Community 270](Community_270.md) (1 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
-- [Community 695](Community_695.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
+- [Community 41](Community_41.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/reverse_lookup/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 24 (89%)
+- INFERRED: 3 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

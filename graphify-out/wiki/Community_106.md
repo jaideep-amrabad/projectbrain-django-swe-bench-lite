@@ -1,58 +1,61 @@
 # Community 106
 
-> 72 nodes · cohesion 0.03
+> 72 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **custom_lookups/tests.py** (43 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **YearLteTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **custom_lookups/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
-- **CustomisedMethodsTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **TrackCallsYearTransform** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **DateTimeLookupTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **SQLFuncFactory** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **SQLFuncMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **MySQLUnixTimestamp** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
-- **CustomField** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.test_datetime_output_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **Div3Transform** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **skipUnless** (4 connections)
-- **SQLFuncLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **SQLFuncTransform** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **YearLte** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **YearTransform** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **Article** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
-- **.get_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.get_transform()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **DateTimeTransform** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **Div3Lookup** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **Exactly** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **InMonth** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
-- **.test_birthdate_month()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **MigrationAutodetector** (63 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._detect_changes()** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.add_operation()** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.through()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.generate_altered_fields()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._get_dependencies_for_foreign_key()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.deep_deconstruct()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.generate_created_models()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.generate_renamed_models()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._sort_migrations()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.arrange_for_graph()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._build_migration_list()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.changes()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._generate_added_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._generate_altered_foo_together()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.generate_deleted_models()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.generate_renamed_fields()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._resolve_dependency()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.check_dependency()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.generate_added_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.generate_altered_options()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.generate_created_proxies()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.generate_deleted_proxies()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **._generate_removed_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.generate_removed_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
 - *... and 47 more nodes in this community*
 
 ## Relationships
 
-- [Community 70](Community_70.md) (14 shared connections)
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 51](Community_51.md) (3 shared connections)
-- [Community 12](Community_12.md) (2 shared connections)
-- [Community 72](Community_72.md) (2 shared connections)
-- [Community 20](Community_20.md) (2 shared connections)
-- [Community 57](Community_57.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
+- [Community 4](Community_4.md) (7 shared connections)
+- [Community 726](Community_726.md) (6 shared connections)
+- [Community 145](Community_145.md) (5 shared connections)
+- [Community 49](Community_49.md) (3 shared connections)
+- [Community 25](Community_25.md) (2 shared connections)
+- [Community 1060](Community_1060.md) (2 shared connections)
+- [Community 109](Community_109.md) (2 shared connections)
+- [Community 221](Community_221.md) (1 shared connections)
+- [Community 188](Community_188.md) (1 shared connections)
+- [Community 95](Community_95.md) (1 shared connections)
+- [Community 394](Community_394.md) (1 shared connections)
+- [Community 790](Community_790.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
 
 ## Audit Trail
 
-- EXTRACTED: 118 (97%)
-- INFERRED: 4 (3%)
+- EXTRACTED: 157 (90%)
+- INFERRED: 17 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

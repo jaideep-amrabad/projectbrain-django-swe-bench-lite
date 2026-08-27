@@ -1,31 +1,32 @@
 # Community 821
 
-> 9 nodes · cohesion 0.25
+> 10 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **begin()** (5 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **process()** (5 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **synchronize()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **done()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **runLoggingCallbacks()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **unitSamplerGenerator()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **run()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **scheduleBegin()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **next()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **PostgreSqlDbshellCommandTestCase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **._run_it()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **.test_accent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **.test_column()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **.test_nopass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **.test_sigint_handler()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **.test_ssl_certificate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **SIGINT is ignored in Python and passed to psql to abort queries.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
+- **That function invokes the runshell command, while mocking subprocess.run(). It…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
 
 ## Relationships
 
-- [Community 313](Community_313.md) (8 shared connections)
-- [Community 757](Community_757.md) (2 shared connections)
+- [Community 317](Community_317.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- `raw/code/hyd-evaluation/django-django/tests/dbshell/test_postgresql.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

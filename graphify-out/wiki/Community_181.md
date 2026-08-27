@@ -1,66 +1,61 @@
 # Community 181
 
-> 44 nodes · cohesion 0.07
+> 50 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **core/mail/__init__.py** (38 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
-- **mail/tests.py** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **EmailMultiAlternatives** (19 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **send_mail()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
-- **mail_managers()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
-- **mail_admins()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
-- **get_connection()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
-- **sendtestemail.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sendtestemail.py`
-- **mail/backends/locmem.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/locmem.py`
-- **BadHeaderError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.test_manager_and_admin_mail_prefix()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_connection_arg()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **send_mass_mail()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
-- **.test_empty_admins()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **Command** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sendtestemail.py`
-- **.handle()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sendtestemail.py`
-- **.email_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- **.test_wrong_admins_managers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **FakeSMTPChannel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_attachments()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_safe_mime_multipart()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_safe_mime_multipart_with_attachments()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **mass_mail_sending_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
-- **.attach_alternative()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **Send an email to this user.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- *... and 19 more nodes in this community*
+- **.check()** (68 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **OtherModelTests** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **UniqueTogetherTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **SelfReferentialM2MClashTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **SelfReferentialFKClashTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_ordering_allows_registered_lookups()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_swappable_missing_app()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_swappable_missing_app_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_just_ordering_no_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_name_ending_with_underscore()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_non_valid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_ordering_non_iterable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_ordering_pointing_to_missing_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_ordering_pointing_to_missing_foreignkey_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_ordering_pointing_to_missing_related_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_property_and_related_field_accessor_clash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_single_primary_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_unique_primary_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_list_containing_non_iterable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_non_iterable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_non_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_pointing_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_pointing_to_missing_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_valid_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_complex_clash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [Community 276](Community_276.md) (16 shared connections)
-- [Community 234](Community_234.md) (15 shared connections)
-- [Community 112](Community_112.md) (11 shared connections)
-- [Community 5](Community_5.md) (9 shared connections)
-- [Community 20](Community_20.md) (9 shared connections)
-- [Community 8](Community_8.md) (7 shared connections)
-- [Community 512](Community_512.md) (6 shared connections)
-- [Community 325](Community_325.md) (5 shared connections)
-- [Community 12](Community_12.md) (5 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 159](Community_159.md) (3 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
+- [Community 114](Community_114.md) (15 shared connections)
+- [Community 3](Community_3.md) (7 shared connections)
+- [Community 902](Community_902.md) (5 shared connections)
+- [Community 792](Community_792.md) (4 shared connections)
+- [Community 950](Community_950.md) (4 shared connections)
+- [Community 8](Community_8.md) (4 shared connections)
+- [Community 924](Community_924.md) (3 shared connections)
+- [Community 793](Community_793.md) (3 shared connections)
+- [Community 74](Community_74.md) (3 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 95](Community_95.md) (1 shared connections)
+- [Community 985](Community_985.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/locmem.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/sendtestemail.py`
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_client/views.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
 
 ## Audit Trail
 
-- EXTRACTED: 173 (98%)
-- INFERRED: 4 (2%)
+- EXTRACTED: 129 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

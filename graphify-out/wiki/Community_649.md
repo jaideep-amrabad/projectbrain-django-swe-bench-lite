@@ -1,40 +1,51 @@
 # Community 649
 
-> 13 nodes · cohesion 0.24
+> 18 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **Command** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **.find_fixtures()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **.load_label()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **.loaddata()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **.parse_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **.fixture_dirs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **humanize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **Load fixtures files for a given label.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **Find fixture files for a given label.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **Return a list of fixture directories. The list contains the 'fixtures'…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
-- **Split fixture name in name, serialization format, compression format.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **._get_GET_no_csrf_cookie_request()** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **CsrfViewMiddlewareUseSessionsTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **ensure_csrf_cookie_view()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- **.test_ensures_csrf_cookie_no_logging()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_process_response_get_token_not_used()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_ensures_csrf_cookie_no_middleware()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_ensures_csrf_cookie_with_middleware()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_ensures_csrf_cookie_with_middleware()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_process_response_get_token_used()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_session_modify()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_no_session_on_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **The ensure_csrf_cookie() decorator works without middleware.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **The ensure_csrf_cookie() decorator works with the CsrfViewMiddleware enabled.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **ensure_csrf_cookie** (1 connections)
+- **ensure_csrf_cookie() doesn't log warnings (#19436).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **CSRF tests with CSRF_USE_SESSIONS=True.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **The session isn't saved if the CSRF cookie is unchanged.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **If get_token() is not called, the view middleware does not add a cookie.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (7 shared connections)
-- [Community 223](Community_223.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 960](Community_960.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 190](Community_190.md) (1 shared connections)
+- [Community 199](Community_199.md) (11 shared connections)
+- [Community 657](Community_657.md) (9 shared connections)
+- [Community 406](Community_406.md) (4 shared connections)
+- [Community 1078](Community_1078.md) (2 shared connections)
+- [Community 521](Community_521.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 1209](Community_1209.md) (1 shared connections)
+- [Community 153](Community_153.md) (1 shared connections)
+- [Community 73](Community_73.md) (1 shared connections)
+- [Community 50](Community_50.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (90%)
-- INFERRED: 3 (10%)
+- EXTRACTED: 55 (93%)
+- INFERRED: 4 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

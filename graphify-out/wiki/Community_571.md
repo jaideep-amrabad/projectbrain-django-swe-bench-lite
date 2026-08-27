@@ -1,41 +1,39 @@
 # Community 571
 
-> 16 nodes · cohesion 0.12
+> 18 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **StaticTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_chunked()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_index_custom_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_invalid_if_modified_since()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_invalid_if_modified_since2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **Tests django views in django/views/static.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **The static view should stream files in chunks to avoid large memory usage** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **Handle bogus If-Modified-Since values gracefully Assume that a file is modified…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **Handle even more bogus If-Modified-Since values gracefully Assume that a file…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_404()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_copes_with_empty_path_component()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_index()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_index_subdir()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_is_modified_since()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_not_modified_since()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
-- **.test_unknown_mime_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- **Signer** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **TimestampSigner** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **BadSignature** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **loads()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **SignatureExpired** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.signature()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.unsign()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.unsign()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **b64_decode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.sign()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.sign()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.timestamp()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **Exception** (1 connections)
+- **Reverse of dumps(), raise BadSignature if signature fails. The serializer is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **Retrieve original value and check it wasn't signed more than max_age seconds…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **Signature does not match.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **Signature timestamp is older than required max_age.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
 
 ## Relationships
 
-- [Community 12](Community_12.md) (2 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 404](Community_404.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 219](Community_219.md) (1 shared connections)
+- [Community 406](Community_406.md) (10 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_static.py`
+- `raw/code/hyd-evaluation/django-django/django/core/signing.py`
 
 ## Audit Trail
 
-- EXTRACTED: 21 (100%)
+- EXTRACTED: 31 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

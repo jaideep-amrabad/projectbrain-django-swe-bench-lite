@@ -1,42 +1,42 @@
 # Community 615
 
-> 16 nodes · cohesion 0.20
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **DatabaseSchemaEditor** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._alter_field_type_workaround()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **.alter_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._generate_temp_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **.normalize_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **.remove_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._drop_identity()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._is_identity_column()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **.prepare_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **.quote_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **.delete_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._field_should_be_indexed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **._unique_should_be_added()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **Get the properly shortened and uppercased identifier as returned by…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **Generate temporary names for workarounds that need temp columns.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
-- **Oracle refuses to change from some type to other type. What we need to do…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- **SignalTestCase** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.test_login_with_custom_user_without_last_login_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.test_update_last_login()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.test_failed_login_without_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **Set up the listeners and reset the logged in/logged out counters** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **Disconnect the listeners** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **Only `last_login` is updated in `update_last_login`** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **The user_logged_in signal is only registered if the user model has a last_login…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.listener_login()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.listener_login_failed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.listener_logout()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.test_login()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.test_logout()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
+- **.test_logout_anonymous()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 85](Community_85.md) (1 shared connections)
-- [Community 95](Community_95.md) (1 shared connections)
-- [Community 251](Community_251.md) (1 shared connections)
-- [Community 190](Community_190.md) (1 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_signals.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (93%)
-- INFERRED: 2 (7%)
+- EXTRACTED: 22 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

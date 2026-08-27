@@ -1,21 +1,22 @@
 # Community 1021
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **DirectorManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **SchoolManager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **OperationsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_operations.py`
+- **oracle/test_operations.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_operations.py`
+- **.test_bulk_batch_size()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_operations.py`
+- **.test_sequence_name_truncation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_operations.py`
+- **skipUnless** (1 connections)
 
 ## Relationships
 
-- [Community 529](Community_529.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_operations.py`
 
 ## Audit Trail
 

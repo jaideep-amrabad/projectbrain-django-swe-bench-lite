@@ -1,26 +1,29 @@
 # Community 1042
 
-> 3 nodes · cohesion 0.67
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **AdminAutoDiscoverTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_autodiscover/tests.py`
-- **.test_double_call_autodiscover()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_autodiscover/tests.py`
-- **Test for bug #8245 - don't raise an AlreadyRegistered exception when using…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_autodiscover/tests.py`
+- **DeprecationTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/test_file_charset.py`
+- **.test_access()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/test_file_charset.py`
+- **.test_settings_init_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/test_file_charset.py`
+- **.test_access_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/test_file_charset.py`
+- **.test_override_settings_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/test_file_charset.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
+- [Community 11](Community_11.md) (3 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 770](Community_770.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_autodiscover/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/settings_tests/test_file_charset.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 8 (89%)
+- INFERRED: 1 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

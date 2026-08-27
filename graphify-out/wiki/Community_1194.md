@@ -1,23 +1,28 @@
 # Community 1194
 
-> 1 nodes · cohesion 1.00
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **auth/handlers/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/handlers/__init__.py`
+- **get_key_func()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **default_key_func()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **Default function to generate keys. Construct the key used by all other methods.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
+- **Function to decide which key function to use. Default to ``default_key_func``.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 406](Community_406.md) (3 shared connections)
+- [Community 219](Community_219.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/handlers/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 7 (88%)
+- INFERRED: 1 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

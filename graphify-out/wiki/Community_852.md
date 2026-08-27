@@ -1,36 +1,36 @@
 # Community 852
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **.w()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **.test_queries_limit()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- **.z()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Day of the week, numeric, i.e. '0' (Sunday) to '6' (Saturday)** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **ISO-8601 week number of year, weeks starting on Monday** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **Day of the year; i.e. '0' to '365** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- **The backend doesn't store an unlimited number of queries (#12581).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **Command** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.get_handler()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.inner_run()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.run()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **.execute()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **Return the default WSGI handler for the runner.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **Run the server, using the autoreloader if needed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
 
 ## Relationships
 
-- [Community 15](Community_15.md) (2 shared connections)
-- [Community 312](Community_312.md) (2 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 470](Community_470.md) (1 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 363](Community_363.md) (1 shared connections)
+- [Community 231](Community_231.md) (1 shared connections)
+- [Community 582](Community_582.md) (1 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
+- [Community 210](Community_210.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
-- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (86%)
-- INFERRED: 2 (14%)
+- EXTRACTED: 17 (89%)
+- INFERRED: 2 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

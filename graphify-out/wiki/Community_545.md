@@ -1,53 +1,54 @@
 # Community 545
 
-> 34 nodes · cohesion 0.06
+> 26 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **ArchiveIndexViewTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **MonthArchiveViewTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **_make_books()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_date_list_order()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_aware_datetime_month_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_date_list_order()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_paginated_archive_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_paginated_archive_view_does_not_load_entire_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_previous_month_without_content()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_allow_empty_archive_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_archive_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_archive_view_by_month()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_archive_view_context_object_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_archive_view_custom_sorting()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_archive_view_custom_sorting_dec()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_archive_view_invalid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_archive_view_template()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_archive_view_template_suffix()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_archive_view_without_date_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_datetime_archive_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_empty_archive_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_no_duplicate_query()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_custom_month_format()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_datetime_month_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_month_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- *... and 9 more nodes in this community*
+- **BCryptSHA256PasswordHasher** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.encode()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **Argon2PasswordHasher** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **._load_library()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **CryptPasswordHasher** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **._decode()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.must_update()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.safe_summary()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.verify()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.verify()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.verify()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.verify()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.harden_runtime()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.salt()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.safe_summary()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.salt()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.harden_runtime()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.harden_runtime()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.must_update()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.harden_runtime()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **Secure password hashing using the argon2 algorithm. This is the winner of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **Split an encoded hash and return: ( algorithm, variety, version, time_cost,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **Secure password hashing using the bcrypt algorithm (recommended) This is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 118](Community_118.md) (10 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 212](Community_212.md) (1 shared connections)
-- [Community 563](Community_563.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
+- [Community 797](Community_797.md) (6 shared connections)
+- [Community 653](Community_653.md) (5 shared connections)
+- [Community 555](Community_555.md) (4 shared connections)
+- [Community 406](Community_406.md) (4 shared connections)
+- [Community 210](Community_210.md) (1 shared connections)
+- [Community 1141](Community_1141.md) (1 shared connections)
+- [Community 1142](Community_1142.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (91%)
-- INFERRED: 5 (9%)
+- EXTRACTED: 54 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

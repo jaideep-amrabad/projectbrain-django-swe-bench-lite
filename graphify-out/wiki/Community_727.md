@@ -1,39 +1,38 @@
 # Community 727
 
-> 12 nodes · cohesion 0.26
+> 13 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **duration_string()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/duration.py`
-- **TestDurationString** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
-- **TestParseDurationRoundtrip** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
-- **.test_days()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
-- **.test_microseconds()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
-- **.test_negative()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
-- **.test_simple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
-- **.test_days()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
-- **.test_microseconds()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
-- **.test_negative()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
-- **.test_simple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
-- **Version of str(timedelta) which is not English specific.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/duration.py`
+- **TestSaveLoad** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **TestSerialization** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **UUIDModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.test_dumping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_null_handling()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_pk_validated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_str_instance_bad_hyphens()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_str_instance_hyphens()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_str_instance_no_hyphens()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_uuid_instance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_wrong_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_loading()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
+- **.test_nullable_loading()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (5 shared connections)
-- [Community 15](Community_15.md) (4 shared connections)
-- [Community 725](Community_725.md) (4 shared connections)
-- [Community 135](Community_135.md) (1 shared connections)
-- [Community 726](Community_726.md) (1 shared connections)
+- [Community 222](Community_222.md) (6 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/duration.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 17 (81%)
+- INFERRED: 4 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

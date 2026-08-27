@@ -1,35 +1,35 @@
 # Community 846
 
-> 8 nodes · cohesion 0.36
+> 9 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **test_caches.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
-- **CheckCacheSettingsAppDirsTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
-- **check_default_cache_is_configured()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/caches.py`
-- **.func()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
-- **.test_default_cache_included()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
-- **.test_default_cache_not_included()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
-- **Don't error if 'default' is present in CACHES setting.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
-- **Error if 'default' not present in CACHES setting.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
+- **KMLSitemap** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
+- **._build_kml_sources()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
+- **.get_urls()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
+- **.location()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
+- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
+- **Go through the given sources and return a 3-tuple of the application label,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
+- **This method is overridden so the appropriate `geo_format` attribute is placed…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
+- **A minimal hook to produce KML sitemaps.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 86](Community_86.md) (2 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 39](Community_39.md) (3 shared connections)
+- [Community 70](Community_70.md) (1 shared connections)
+- [Community 330](Community_330.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/checks/caches.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
 
 ## Audit Trail
 
-- EXTRACTED: 19 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 16 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

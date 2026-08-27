@@ -1,28 +1,29 @@
 # Community 993
 
-> 4 nodes · cohesion 0.50
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **.db_returning()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.db_returning_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **Private API intended only to be used by Django itself. Currently only the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Private API intended only to be used by Django itself. Fields to be returned…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **EmptyStringsAsNullTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_21001()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_direct_exclude()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_joined_exclude()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **Filtering on non-null character fields works as expected. The reason for these…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Relationships
 
-- [Community 124](Community_124.md) (1 shared connections)
-- [Community 168](Community_168.md) (1 shared connections)
+- [Community 10](Community_10.md) (3 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (80%)
-- INFERRED: 1 (20%)
+- EXTRACTED: 7 (78%)
+- INFERRED: 2 (22%)
 - AMBIGUOUS: 0 (0%)
 
 ---

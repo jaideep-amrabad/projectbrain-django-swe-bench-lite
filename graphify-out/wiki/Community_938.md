@@ -1,28 +1,30 @@
 # Community 938
 
-> 4 nodes · cohesion 0.67
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **CustomErrorMessageForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **ModelFormCustomErrorTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_custom_error_messages()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_model_clean_error_messages()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **FixedOffset** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **.dst()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **.tzname()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **.utcoffset()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **Fixed offset in minutes east from UTC. Taken from Python's docs. Kept as close…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **tzinfo** (1 connections)
 
 ## Relationships
 
-- [Community 46](Community_46.md) (3 shared connections)
-- [Community 343](Community_343.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (89%)
-- INFERRED: 1 (11%)
+- EXTRACTED: 7 (88%)
+- INFERRED: 1 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

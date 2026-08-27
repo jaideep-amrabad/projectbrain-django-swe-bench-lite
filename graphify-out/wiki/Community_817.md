@@ -1,35 +1,37 @@
 # Community 817
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **AssertTemplateUsedTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_multiple_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_no_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_single_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_template_rendered_multiple_times()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Template usage assertions work then templates aren't in use** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Template assertions work when there is a single context** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Template assertions work when there are multiple contexts** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Template assertions work when a template is rendered multiple times.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **CustomUserPasswordResetTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **UUIDUserPasswordResetTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_invalid_uuid()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **._read_signup_email()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **._test_confirm_start()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_valid_custom_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **._test_confirm_start()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **A uidb64 that decodes to a non-UUID doesn't crash.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Relationships
 
-- [Community 190](Community_190.md) (3 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
-- [Community 415](Community_415.md) (1 shared connections)
+- [Community 260](Community_260.md) (4 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 614](Community_614.md) (2 shared connections)
+- [Community 616](Community_616.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (80%)
-- INFERRED: 3 (20%)
+- EXTRACTED: 21 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

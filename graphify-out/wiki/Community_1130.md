@@ -1,24 +1,30 @@
 # Community 1130
 
-> 2 nodes · cohesion 1.00
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **.test_formset_validate_max_flag()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **If validate_max is set and max_num is less than TOTAL_FORMS in the data, a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **DurationFieldTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
+- **.test_durationfield_prepare_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
+- **.test_durationfield_clean()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
+- **.test_durationfield_integer_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
+- **.test_durationfield_render()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
+- **.test_overflow()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
+- **.test_overflow_translation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
 
 ## Relationships
 
-- [Community 420](Community_420.md) (1 shared connections)
-- [Community 523](Community_523.md) (1 shared connections)
+- [Community 26](Community_26.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 229](Community_229.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

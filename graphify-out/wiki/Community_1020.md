@@ -1,28 +1,30 @@
 # Community 1020
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **DerivedM** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **BaseM** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **RemoteUserCustomTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user_deprecation.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user_deprecation.py`
+- **.test_configure_user_deprecation_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user_deprecation.py`
+- **A deprecation warning is shown for RemoteUserBackend that have a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user_deprecation.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user_deprecation.py`
 
 ## Relationships
 
-- [Community 488](Community_488.md) (2 shared connections)
-- [Community 678](Community_678.md) (1 shared connections)
-- [Community 332](Community_332.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user_deprecation.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (86%)
-- INFERRED: 1 (14%)
+- EXTRACTED: 8 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

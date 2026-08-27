@@ -1,41 +1,58 @@
 # Community 141
 
-> 18 nodes · cohesion 0.06
+> 59 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **.test_alter_db_table_no_changes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_custom_deconstructible()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_deconstruct_field_kwarg()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_deconstructible_dict()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_deconstructible_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_deconstructible_tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_foo_together_no_changes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_nested_deconstructible_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.clone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **Return an exact copy of this ModelState.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **Alter_db_table doesn't generate a migration if no changes have been made.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **index/unique_together doesn't generate a migration if no changes have been made.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **Two instances which deconstruct to the same value aren't considered a change.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **Field instances are handled correctly by nested deconstruction.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **Nested deconstruction descends into lists.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **Nested deconstruction descends into tuples.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **Nested deconstruction descends into dict values.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **Nested deconstruction is applied recursively to the args/kwargs of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **model_meta/tests.py** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **model_meta/models.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
+- **OptionsBaseTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **RelationTreeTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **AbstractPerson** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
+- **GetFieldByNameTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **Person** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
+- **BasePerson** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
+- **results.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/results.py`
+- **ProxyPerson** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
+- **ParentListTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **RelatedObjectsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **._details()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **._model()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **Child** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
+- **CommonAncestor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
+- **FirstParent** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
+- **SecondParent** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
+- **DataTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **Relating** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
+- **Relation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
+- **GetFieldsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **LabelTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **M2MTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- **PropertyNamesTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
+- *... and 34 more nodes in this community*
 
 ## Relationships
 
-- [Community 43](Community_43.md) (17 shared connections)
+- [Community 84](Community_84.md) (12 shared connections)
+- [Community 45](Community_45.md) (5 shared connections)
+- [Community 8](Community_8.md) (5 shared connections)
+- [Community 74](Community_74.md) (4 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 384](Community_384.md) (1 shared connections)
+- [Community 78](Community_78.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_meta/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_meta/results.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_meta/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 130 (86%)
+- INFERRED: 22 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

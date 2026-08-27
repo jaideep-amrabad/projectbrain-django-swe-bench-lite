@@ -1,58 +1,60 @@
 # Community 210
 
-> 38 nodes · cohesion 0.11
+> 46 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **managers_regress/tests.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
-- **managers_regress/models.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
-- **ManagersRegressionTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
-- **AbstractBase1** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
-- **AbstractBase3** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
-- **Child2** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
-- **Child3** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
-- **Child4** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
-- **RelationModel** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
-- **AbstractBase2** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
-- **Child1** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
-- **Child5** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
-- **RelatedModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
-- **Child6** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
-- **Child7** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
-- **.test_regress_3871()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
-- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
-- **Parent** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
-- **.get_queryset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
-- **OnlyBarney** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
-- **OnlyFred** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
-- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
-- **Value42** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
-- *... and 13 more nodes in this community*
+- **.e()** (77 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **AssertRedirectsTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **AssertTemplateUsedTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_incorrect_target()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_lost_query()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_redirect_chain_on_non_redirect_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_redirect_on_non_redirect_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_redirect_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_redirect_to_different_host()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_target_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_multiple_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_no_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_single_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **An assertion is raised if the original page couldn't be retrieved as expected** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_circular_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_multiple_redirect_chain()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_redirect_chain()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_redirect_chain_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_redirect_chain_head()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_redirect_chain_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_redirect_chain_post()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_redirect_chain_put()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_redirect_chain_to_non_existent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_redirect_chain_to_self()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_redirect_scheme()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- *... and 21 more nodes in this community*
 
 ## Relationships
 
-- [Community 40](Community_40.md) (6 shared connections)
+- [Community 358](Community_358.md) (5 shared connections)
 - [Community 4](Community_4.md) (4 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 86](Community_86.md) (4 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 307](Community_307.md) (1 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 1065](Community_1065.md) (1 shared connections)
+- [Community 13](Community_13.md) (4 shared connections)
+- [Community 523](Community_523.md) (3 shared connections)
+- [Community 466](Community_466.md) (3 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
+- [Community 406](Community_406.md) (2 shared connections)
+- [Community 182](Community_182.md) (2 shared connections)
+- [Community 408](Community_408.md) (2 shared connections)
+- [Community 177](Community_177.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/managers_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/managers_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 88 (86%)
-- INFERRED: 14 (14%)
+- EXTRACTED: 56 (43%)
+- INFERRED: 75 (57%)
 - AMBIGUOUS: 0 (0%)
 
 ---

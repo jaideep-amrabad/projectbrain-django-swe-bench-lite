@@ -1,26 +1,33 @@
 # Community 1030
 
-> 4 nodes · cohesion 0.67
+> 8 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **TitleTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_title.py`
-- **setup** (2 connections)
-- **.test_title1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_title.py`
-- **.test_title2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_title.py`
+- **EmailBackend** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
+- **._get_filename()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
+- **.open()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
+- **ConsoleEmailBackend** (1 connections)
+- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
+- **.write_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
+- **Return a unique file name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 237](Community_237.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 95](Community_95.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_title.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 10 (83%)
+- INFERRED: 2 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

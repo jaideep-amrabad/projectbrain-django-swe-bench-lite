@@ -1,31 +1,41 @@
 # Community 640
 
-> 8 nodes · cohesion 0.25
+> 16 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **setter** (5 connections)
-- **.make_bytes()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.content()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.charset()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.reason_phrase()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.content()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **Turn a value into a bytestring encoded in the output charset.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **DiffSettings** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.assertNotInOutput()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_basic()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_custom_default()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_unified()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_all()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_unified_all()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_settings_configured()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **.test_dynamic_settings_configured()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **Utility assertion: assert that the given message exists in the output** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **Tests for diffsettings management command.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **Runs without error and emits settings diff.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **The all option also shows settings with the default value.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **The --default option specifies an alternate settings module for comparison.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **--output=unified emits settings diff in unified mode.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- **--output=unified --all emits settings diff in unified mode and includes…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Relationships
 
-- [Community 416](Community_416.md) (4 shared connections)
-- [Community 44](Community_44.md) (3 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
+- [Community 100](Community_100.md) (8 shared connections)
+- [Community 86](Community_86.md) (8 shared connections)
+- [Community 192](Community_192.md) (7 shared connections)
+- [Community 259](Community_259.md) (5 shared connections)
+- [Community 231](Community_231.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 50 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,28 +1,29 @@
 # Community 924
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **to_list()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.assertFormError()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.assertFormsetError()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Assert that a form used to render the response has a specific field error.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Put value into a list if it's not already one. Return an empty list if value is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Assert that a formset used to render the response has a specific error. For…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._check_index_together()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **._check_indexes()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **._check_local_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **._check_unique_together()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **Check the value of "index_together" option.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **Check the value of "unique_together" option.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **Check the fields and names of indexes.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 114](Community_114.md) (4 shared connections)
+- [Community 181](Community_181.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

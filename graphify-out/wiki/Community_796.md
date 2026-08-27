@@ -1,35 +1,45 @@
 # Community 796
 
-> 10 nodes · cohesion 0.36
+> 11 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **max_lengths/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
-- **MaxLengthArgumentsTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
-- **max_lengths/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/models.py`
-- **PersonWithCustomMaxLengths** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/models.py`
-- **MaxLengthORMTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
-- **PersonWithDefaultMaxLengths** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/models.py`
-- **.verify_max_length()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
-- **.test_custom_max_lengths()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
-- **.test_default_max_lengths()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
-- **.test_custom_max_lengths()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
+- **model_inheritance/tests.py** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **CommonInfo** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Student** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Chef** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Worker** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **InheritanceSameModelNameTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **Post** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Title** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **.test_abstract_fk_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 762](Community_762.md) (10 shared connections)
+- [Community 695](Community_695.md) (7 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
+- [Community 956](Community_956.md) (4 shared connections)
+- [Community 957](Community_957.md) (3 shared connections)
+- [Community 514](Community_514.md) (2 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 1035](Community_1035.md) (2 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/max_lengths/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/max_lengths/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (86%)
-- INFERRED: 3 (14%)
+- EXTRACTED: 47 (89%)
+- INFERRED: 6 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,39 +1,38 @@
 # Community 601
 
-> 17 nodes · cohesion 0.21
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **ChainingTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
-- **setup** (14 connections)
-- **.test_chaining01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
-- **.test_chaining02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
-- **.test_chaining03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
-- **.test_chaining04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
-- **.test_chaining05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
-- **.test_chaining06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
-- **.test_chaining07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
-- **.test_chaining08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
-- **.test_chaining09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
-- **.test_chaining10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
-- **.test_chaining11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
-- **.test_chaining12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
-- **.test_chaining13()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
-- **.test_chaining14()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
-- **Chaining safeness-preserving filters should not alter the safe status.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
+- **package.json** (5 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **devDependencies** (5 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **scripts** (3 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **eslint** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **grunt** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **grunt-cli** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **grunt-contrib-qunit** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **engines** (2 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **eslint** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **grunt** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **grunt-cli** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **grunt-contrib-qunit** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **npm** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **name** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **private** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **pretest** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
+- **test** (1 connections) — `raw/code/hyd-evaluation/django-django/package.json`
 
 ## Relationships
 
-- [Community 11](Community_11.md) (4 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_chaining.py`
+- `raw/code/hyd-evaluation/django-django/package.json`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (100%)
+- EXTRACTED: 16 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

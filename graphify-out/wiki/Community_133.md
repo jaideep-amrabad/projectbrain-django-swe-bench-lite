@@ -1,62 +1,51 @@
 # Community 133
 
-> 65 nodes · cohesion 0.05
+> 61 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **Paginator** (42 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **PaginationTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **paginator.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **pagination/tests.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **ModelPaginationTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **InvalidPage** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **EmptyPage** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **PageNotAnInteger** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.get_page()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.validate_number()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **pagination/custom.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
-- **ValidAdjacentNumsPaginator** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
-- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/models.py`
-- **.check_paginator()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.page()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **UnorderedObjectListWarning** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.check_indexes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.setUpTestData()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_page_getitem()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_paginating_unordered_object_list_raises_warning()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.check_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_get_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_get_page_empty_object_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_get_page_empty_object_list_and_allow_empty_first_page_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_get_page_hook()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- *... and 40 more nodes in this community*
+- **TestConnectionOnCommit** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.assertDone()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.do()** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **get_connection()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **ForcedError** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **Atomic** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **on_commit()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **.notify()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_no_hooks_run_from_failed_transaction()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.assertNotified()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_delays_execution_until_after_transaction_commit()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_discards_hooks_from_rolled_back_savepoint()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_does_not_execute_if_transaction_rolled_back()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_error_in_hook_doesnt_prevent_clearing_hooks()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_executes_only_after_final_transaction_committed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_hooks_cleared_after_rollback()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_hooks_cleared_on_reconnect()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_inner_savepoint_does_not_affect_outer()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_inner_savepoint_rolled_back_with_outer()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **.test_no_savepoints_atomic_merged_with_outer()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
+- **clean_savepoints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **commit()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **get_autocommit()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **get_rollback()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **mark_for_rollback_on_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- *... and 36 more nodes in this community*
 
 ## Relationships
 
-- [Community 235](Community_235.md) (6 shared connections)
-- [Community 63](Community_63.md) (5 shared connections)
-- [Community 532](Community_532.md) (5 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 51](Community_51.md) (3 shared connections)
-- [Community 10](Community_10.md) (3 shared connections)
-- [Community 79](Community_79.md) (3 shared connections)
-- [Community 118](Community_118.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 144](Community_144.md) (2 shared connections)
-- [Community 407](Community_407.md) (2 shared connections)
-- [Community 954](Community_954.md) (2 shared connections)
+- [Community 0](Community_0.md) (17 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
-- `raw/code/hyd-evaluation/django-django/tests/pagination/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- `raw/code/hyd-evaluation/django-django/tests/transaction_hooks/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 144 (89%)
-- INFERRED: 17 (11%)
+- EXTRACTED: 123 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

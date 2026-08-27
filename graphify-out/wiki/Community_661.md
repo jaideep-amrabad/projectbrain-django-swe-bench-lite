@@ -1,35 +1,38 @@
 # Community 661
 
-> 13 nodes · cohesion 0.15
+> 17 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **IntegerFieldTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
-- **.test_integerfield_localized()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
-- **.test_integerfield_subclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
-- **.test_integerfield_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
-- **.test_integerfield_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
-- **.test_integerfield_3()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
-- **.test_integerfield_4()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
-- **.test_integerfield_5()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
-- **.test_integerfield_big_num()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
-- **.test_integerfield_float()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
-- **.test_integerfield_unicode_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
-- **Class-defined widget is not overwritten by __init__() (#22245).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
-- **A localized IntegerField's widget renders to a text input without any number…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
+- **.assertOperationFieldAttributes()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **patch** (9 connections)
+- **.test_alter_field_to_not_null_oneoff_default()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_alter_field_to_not_null_with_default()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_alter_field_to_not_null_without_default()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_add_blank_textfield_and_charfield()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_add_many_to_many()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_add_non_blank_textfield_and_charfield()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_many_to_many_changed_to_concrete_field()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_add_date_fields_with_auto_now_add_asking_for_default()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_add_date_fields_with_auto_now_add_not_asking_for_null_addition()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_add_date_fields_with_auto_now_not_asking_for_default()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **#23609 - Tests autodetection of nullable to non-nullable alterations.** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **#22435 - Adding a ManyToManyField should not prompt for a default.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **#23938 - Changing a ManyToManyField into a concrete field first removes the m2m…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **#23405 - Adding a NOT NULL and blank `CharField` or `TextField` without default…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **#23405 - Adding a NOT NULL and non-blank `CharField` or `TextField` without…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 
 ## Relationships
 
-- [Community 15](Community_15.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 25](Community_25.md) (49 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (100%)
+- EXTRACTED: 72 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

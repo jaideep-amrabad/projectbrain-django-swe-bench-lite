@@ -4,59 +4,60 @@
 
 ## Key Concepts
 
-- **OGRGeometry** (128 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **OGRGeomTest** (46 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
-- **._topology()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **._geomgen()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.test06_spatial_filter()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
-- **.difference()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.equals()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.from_bbox()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.intersection()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.sym_difference()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.transform()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.union()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.test_polygons()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
-- **.test_srs()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
-- **.test_srs_transform()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
-- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.__and__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.boundary()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.clone()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.contains()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.convex_hull()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.crosses()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.disjoint()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.__eq__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **ModelAdmin** (149 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **BaseModelAdmin** (35 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.changeform_view()** (32 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **InlineModelAdmin** (24 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.changelist_view()** (24 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_formset()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.delete_view()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.response_add()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **add_preserved_filters()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_urls.py`
+- **.get_form()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **flatten_fieldsets()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **.get_changelist_instance()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_preserved_filters()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.response_change()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.has_change_permission()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.render_change_form()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.history_view()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.response_delete()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **get_content_type_for_model()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_actions()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **._get_obj_does_not_exist_redirect()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.has_view_or_change_permission()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.message_user()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.response_action()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **._response_post_save()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
 - *... and 140 more nodes in this community*
 
 ## Relationships
 
-- [Community 56](Community_56.md) (24 shared connections)
-- [Community 150](Community_150.md) (10 shared connections)
-- [Community 82](Community_82.md) (6 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 335](Community_335.md) (2 shared connections)
-- [Community 151](Community_151.md) (2 shared connections)
-- [Community 90](Community_90.md) (1 shared connections)
-- [Community 660](Community_660.md) (1 shared connections)
-- [Community 73](Community_73.md) (1 shared connections)
-- [Community 74](Community_74.md) (1 shared connections)
-- [Community 277](Community_277.md) (1 shared connections)
-- [Community 592](Community_592.md) (1 shared connections)
+- [Community 45](Community_45.md) (31 shared connections)
+- [Community 36](Community_36.md) (30 shared connections)
+- [Community 58](Community_58.md) (17 shared connections)
+- [Community 11](Community_11.md) (17 shared connections)
+- [Community 258](Community_258.md) (8 shared connections)
+- [Community 705](Community_705.md) (6 shared connections)
+- [Community 15](Community_15.md) (6 shared connections)
+- [Community 439](Community_439.md) (6 shared connections)
+- [Community 567](Community_567.md) (5 shared connections)
+- [Community 270](Community_270.md) (4 shared connections)
+- [Community 278](Community_278.md) (4 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_urls.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 272 (96%)
-- INFERRED: 11 (4%)
+- EXTRACTED: 456 (90%)
+- INFERRED: 51 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

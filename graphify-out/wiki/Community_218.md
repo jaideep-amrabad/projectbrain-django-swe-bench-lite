@@ -1,51 +1,62 @@
 # Community 218
 
-> 47 nodes · cohesion 0.05
+> 57 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **HTTPSitemapTests** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_sitemap_get_urls_no_site_2()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_simple_custom_sitemap()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_simple_i18nsitemap_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_simple_sitemap_custom_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_sitemap_get_urls_no_site_1()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_sitemap_item()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_cached_sitemap_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_paged_sitemap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_requestsite_sitemap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_simple_sitemap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_simple_sitemap_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_simple_sitemap_section()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_sitemap_last_modified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_sitemap_last_modified_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_sitemap_last_modified_missing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_sitemap_last_modified_mixed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_sitemap_last_modified_tz()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_sitemap_not_callable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_sitemaps_lastmod_ascending()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_sitemaps_lastmod_descending()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_sitemaps_lastmod_mixed_ascending_last_modified_missing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_sitemaps_lastmod_mixed_descending_last_modified_missing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **The Last-Modified header is omitted when lastmod isn't found in all sitemaps.…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **The Last-Modified header is set to the most recent sitemap lastmod. Test…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- *... and 22 more nodes in this community*
+- **LogEntry** (30 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
+- **LogEntryTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
+- **ChangelistTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.__str__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
+- **templatetags/log.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/log.py`
+- **AdminLogNode** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/log.py`
+- **.get_change_message()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
+- **.test_logentry_change_message_localized_datetime_input()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
+- **.test_recentactions_without_content_type()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
+- **UUIDUserTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.get_admin_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
+- **get_admin_log()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/log.py`
+- **.test_logentry_change_message()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
+- **.test_logentry_get_admin_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
+- **.get_user_data()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_view_user_password_is_readonly()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_logentry_change_message_not_json()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
+- **.test_proxy_model_content_type_is_used_for_log_entries()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
+- **.test_user_change_email()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_user_change_password_passes_user_to_has_change_permission()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_user_not_change()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.get_edited_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
+- **.is_addition()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
+- **.is_change()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
+- **.is_deletion()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
+- *... and 32 more nodes in this community*
 
 ## Relationships
 
-- [Community 235](Community_235.md) (6 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 136](Community_136.md) (2 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 15](Community_15.md) (14 shared connections)
+- [Community 45](Community_45.md) (11 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 7](Community_7.md) (4 shared connections)
+- [Community 485](Community_485.md) (3 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 41](Community_41.md) (2 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
+- [Community 48](Community_48.md) (1 shared connections)
+- [Community 31](Community_31.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/log.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 60 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 113 (90%)
+- INFERRED: 13 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

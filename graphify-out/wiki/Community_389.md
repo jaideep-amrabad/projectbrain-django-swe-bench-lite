@@ -1,47 +1,47 @@
 # Community 389
 
-> 23 nodes · cohesion 0.09
+> 29 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **FlatpageViewTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **FlatpageViewAppendSlashTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **.test_redirect_fallback_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **.test_redirect_fallback_non_existent_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **.test_redirect_view_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **.test_redirect_view_flatpage_special_chars()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **.test_redirect_view_non_existent_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **.test_fallback_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **.test_fallback_non_existent_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **.test_view_authenticated_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **.test_view_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **.test_view_flatpage_special_chars()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **.test_view_non_existent_flatpage()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **A nonexistent flatpage won't be served if the fallback middleware is disabled.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **A flatpage can be served through a view and should add a slash** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **A nonexistent flatpage raises 404 when served through a view and should not add…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **A fallback flatpage won't be served if the middleware is disabled and should…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **A flatpage with special chars in the URL can be served through a view and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **A flatpage can be served through a view** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **A nonexistent flatpage raises 404 when served through a view.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **A flatpage served through a view can require authentication** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **A fallback flatpage won't be served if the middleware is disabled** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
-- **A flatpage with special chars in the URL can be served through a view** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
+- **CycleTagTests** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **setup** (25 connections)
+- **.test_cycle29()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle30()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle13()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle14()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle15()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle16()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle17()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle18()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle19()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle20()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle21()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle22()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle23()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle24()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle25()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle26()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- **.test_cycle27()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 81](Community_81.md) (4 shared connections)
-- [Community 136](Community_136.md) (2 shared connections)
-- [Community 12](Community_12.md) (2 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_views.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_cycle.py`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (100%)
+- EXTRACTED: 54 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,36 +1,37 @@
 # Community 864
 
-> 8 nodes · cohesion 0.39
+> 13 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **model_forms/test_uuid.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
-- **ModelFormBaseTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
-- **UUIDPKForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
-- **UUIDPK** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.test_create_save_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
-- **.test_update_save_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
-- **.test_model_multiple_choice_field_uuid_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
+- **BaseBackend** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **SimpleBackend** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.get_all_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **.get_all_permissions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **.has_module_perms()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **.get_group_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **.get_user_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **.has_perm()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **.authenticate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **.get_user()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **Return True if user_obj has any permissions in the given app_label.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- **.get_group_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.get_user_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
 
 ## Relationships
 
-- [Community 46](Community_46.md) (2 shared connections)
-- [Community 15](Community_15.md) (2 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 187](Community_187.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/backends.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (90%)
-- INFERRED: 2 (10%)
+- EXTRACTED: 20 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

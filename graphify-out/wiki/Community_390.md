@@ -1,51 +1,57 @@
 # Community 390
 
-> 29 nodes · cohesion 0.09
+> 28 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **PermLookupDict** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **PermWrapper** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **PermWrapperTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- **MockUser** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- **auth/context_processors.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **EQLimiterObject** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- **.test_permlookupdict_in()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- **auth()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **.test_permwrapper_in()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- **.test_iter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- **.__contains__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **Lookup by "someapp" or "someapp.someperm" in perms.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **Return context variables required by apps that use Django's authentication…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- **.has_module_perms()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- **.has_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- *... and 4 more nodes in this community*
+- **SitesFrameworkTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **RequestSite** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
+- **RequestSiteTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **clear_site_cache()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- **.test_clear_site_cache()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_clear_site_cache_domain()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_get_current_site_host_with_trailing_dot()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_get_current_site_no_site_id()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_domain_name_with_whitespaces()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_unique_domain()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **Clear the cache (if primed) each time a site is saved or deleted.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- **A class that shares the primary interface of Site (i.e., it has ``domain`` and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
+- **.delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
+- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
+- **The site is matched if the name in the request has a trailing dot.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_delete()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_init_attributes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_str()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- **.test_delete_all_sites_clears_cache()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
+- *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 5](Community_5.md) (5 shared connections)
-- [Community 288](Community_288.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 11](Community_11.md) (11 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 7](Community_7.md) (5 shared connections)
+- [Community 73](Community_73.md) (5 shared connections)
+- [Community 13](Community_13.md) (3 shared connections)
+- [Community 719](Community_719.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/requests.py`
+- `raw/code/hyd-evaluation/django-django/tests/sites_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 58 (95%)
+- INFERRED: 3 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

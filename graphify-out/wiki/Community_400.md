@@ -4,47 +4,50 @@
 
 ## Key Concepts
 
-- **deprecation/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **RenameMethodsTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **RenameMethodsBase** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **DeprecationInstanceCheck** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **DeprecationInstanceCheckTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **RemovedInNextVersionWarning** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **warn_about_renamed_method** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **type** (2 connections)
-- **.__new__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **Ensure the correct warnings are raised when a class that didn't rename `old`…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **RenameManagerMethods** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **.test_class_definition_warnings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **.test_deprecated_subclass_renamed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **.test_deprecated_subclass_renamed_and_mixins()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **.test_get_new_defined()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **.test_get_old_defined()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **.test_renamed_subclass_deprecated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **DeprecationWarning** (1 connections)
-- **.__instancecheck__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **Handles the deprecation paths when renaming a method. It does the following: 1)…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **.test_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **Ensure the correct warnings are raised when a subclass inherit from a class…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
-- **Tests the `RenameMethodsBase` type introduced to rename `get_query_set` to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
+- **PaginationTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.check_paginator()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.check_indexes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.check_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_get_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_get_page_empty_object_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_get_page_empty_object_list_and_allow_empty_first_page_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_invalid_page_number()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_page_indexes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_page_range_iterator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_page_sequence()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_paginator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_count_does_not_silence_attribute_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_count_does_not_silence_type_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_float_integer_page()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_no_content_allow_empty_first_page()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **.test_paginate_misc_classes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **Helper method that instantiates a Paginator object from the passed params and…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **Invalid page numbers result in the correct exception being raised.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **Tests for the Paginator and Page classes.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **Paginator pages have the correct start and end indexes.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **A paginator page acts like a standard sequence.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **Paginator.page_range should be an iterator.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **Paginator.get_page() returns a valid page even with invalid page arguments.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **Paginator.get_page() with an empty object_list.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
 - *... and 3 more nodes in this community*
 
 ## Relationships
 
-- [Community 20](Community_20.md) (5 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
+- [Community 569](Community_569.md) (14 shared connections)
+- [Community 606](Community_606.md) (4 shared connections)
+- [Community 842](Community_842.md) (2 shared connections)
+- [Community 711](Community_711.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- `raw/code/hyd-evaluation/django-django/tests/deprecation/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (95%)
-- INFERRED: 2 (5%)
+- EXTRACTED: 48 (87%)
+- INFERRED: 7 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

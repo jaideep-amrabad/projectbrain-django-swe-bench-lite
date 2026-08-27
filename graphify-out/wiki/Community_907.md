@@ -1,26 +1,33 @@
 # Community 907
 
-> 4 nodes · cohesion 0.50
+> 8 nodes · cohesion 0.32
 
 ## Key Concepts
 
-- **._set_session_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **._validate_session_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **Key must be truthy and at least 8 characters long. 8 characters is an arbitrary…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **Validate session key on assignment. Invalid values will set to None.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **BinaryFieldTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
+- **DataModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.test_max_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
+- **.test_set_and_retrieve()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
+- **.test_editable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
+- **.test_filter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
+- **.test_filter_bytearray()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
+- **.test_filter_memoryview()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
 
 ## Relationships
 
-- [Community 165](Community_165.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_binaryfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 5 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 12 (92%)
+- INFERRED: 1 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

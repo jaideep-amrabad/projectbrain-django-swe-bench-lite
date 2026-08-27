@@ -1,42 +1,38 @@
 # Community 746
 
-> 12 nodes · cohesion 0.62
+> 12 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **Event** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- **SerializationTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.assert_json_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.assert_python_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.assert_xml_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.assert_yaml_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_in_local_timezone()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_in_other_timezone()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_in_utc()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_with_microsecond()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_naive_datetime()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_naive_datetime_with_microsecond()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **SeleniumTestCaseBase** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.create_webdriver()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.import_webdriver()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **ActionSelenium** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **.create_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.import_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.__new__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.get_capability()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
+- **Dynamically create new classes and add them to the test module when multiple…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **Validate the comma-separated list of requested browsers.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/runtests.py`
 
 ## Relationships
 
-- [Community 604](Community_604.md) (6 shared connections)
-- [Community 570](Community_570.md) (3 shared connections)
-- [Community 428](Community_428.md) (2 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
-- [Community 914](Community_914.md) (1 shared connections)
-- [Community 633](Community_633.md) (1 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 406](Community_406.md) (3 shared connections)
+- [Community 579](Community_579.md) (2 shared connections)
+- [Community 332](Community_332.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- `raw/code/hyd-evaluation/django-django/tests/runtests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (84%)
-- INFERRED: 9 (16%)
+- EXTRACTED: 22 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

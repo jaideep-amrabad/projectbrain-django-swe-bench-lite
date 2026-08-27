@@ -1,31 +1,36 @@
 # Community 740
 
-> 10 nodes · cohesion 0.22
+> 12 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **override** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **deactivate()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **activate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **.__enter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **ContextDecorator** (1 connections)
-- **Temporarily set the time zone for the current thread. This is a context manager…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **Set the time zone for the current thread. The ``timezone`` argument must be an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **Unset the time zone for the current thread. Django will then use the time zone…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **AppCommand** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **Command** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sqlsequencereset.py`
+- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.handle_app_config()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **app_command.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/app_command.py`
+- **Command** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/app_command.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **A management command which takes one or more installed application labels as…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **Perform the command's actions for app_config, an AppConfig instance…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sqlsequencereset.py`
+- **.handle_app_config()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sqlsequencereset.py`
+- **.handle_app_config()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/app_command.py`
 
 ## Relationships
 
-- [Community 20](Community_20.md) (3 shared connections)
+- [Community 4](Community_4.md) (4 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/sqlsequencereset.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/app_command.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 19 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

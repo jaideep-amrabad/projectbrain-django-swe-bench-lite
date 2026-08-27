@@ -1,24 +1,29 @@
 # Community 1093
 
-> 2 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **.test_redirect_with_query_ordering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **assertRedirects() ignores the order of query string parameters.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **Restaurant** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **.test_related_object_cache()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- **Regression test for #6886 (the related-object cache)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
 
 ## Relationships
 
-- [Community 47](Community_47.md) (1 shared connections)
+- [Community 538](Community_538.md) (2 shared connections)
+- [Community 356](Community_356.md) (2 shared connections)
+- [Community 668](Community_668.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 7 (88%)
+- INFERRED: 1 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

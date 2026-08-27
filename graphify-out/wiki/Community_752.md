@@ -1,37 +1,44 @@
 # Community 752
 
-> 11 nodes · cohesion 0.25
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **RegisterLookupMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **._clear_cached_lookups()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **._get_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **.get_lookups()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **.merge_dicts()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **.get_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **.register_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **._unregister_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **subclasses()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **Merge dicts in reverse to preference the order of the original list. e.g.,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **Remove given lookup from cls lookups. For use in tests only as it's not thread-…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **Person** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
+- **oracle/test_introspection.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_introspection.py`
+- **postgresql/test_introspection.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_introspection.py`
+- **DatabaseSequenceTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_introspection.py`
+- **DatabaseSequenceTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_introspection.py`
+- **.test_unicode_fetches()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
+- **.test_get_sequences()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_introspection.py`
+- **.test_get_sequences_manually_created_index()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_introspection.py`
+- **skipUnless** (1 connections)
+- **.test_get_sequences()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_introspection.py`
+- **skipUnless** (1 connections)
 
 ## Relationships
 
-- [Community 57](Community_57.md) (2 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 67](Community_67.md) (1 shared connections)
-- [Community 124](Community_124.md) (1 shared connections)
-- [Community 110](Community_110.md) (1 shared connections)
+- [Community 306](Community_306.md) (4 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 468](Community_468.md) (2 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 41](Community_41.md) (2 shared connections)
+- [Community 894](Community_894.md) (1 shared connections)
+- [Community 819](Community_819.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_introspection.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_introspection.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 25 (89%)
+- INFERRED: 3 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

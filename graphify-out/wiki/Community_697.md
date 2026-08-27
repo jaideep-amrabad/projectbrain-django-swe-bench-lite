@@ -1,37 +1,40 @@
 # Community 697
 
-> 13 nodes · cohesion 0.17
+> 14 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **DefaultNonExpiringCacheKeyTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_caches_set_with_timeout_as_none_has_correct_default_timeout()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_caches_set_with_timeout_as_none_set_non_expiring_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_caches_with_unset_timeout_set_expiring_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_caches_with_unset_timeout_has_correct_default_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_default_expiration_time_for_keys_is_5_minutes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **Memory caches that have the TIMEOUT parameter set to `None` in the default…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **Settings having Cache arguments with a TIMEOUT=None create Caches that will set…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **The default expiration time of a cache key is 5 minutes. This value is defined…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **Caches that have the TIMEOUT parameter undefined in the default settings will…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **Memory caches that have the TIMEOUT parameter unset will set cache keys having…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **Place** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **Restaurant** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **ItalianRestaurant** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **ParkingLot** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **.test_model_inheritance()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **ParkingLot3** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **.test_issue_7276()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **.test_issue_6755()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **.test_issue_7488()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **Regression test for #6755** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
 
 ## Relationships
 
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 314](Community_314.md) (9 shared connections)
+- [Community 492](Community_492.md) (6 shared connections)
+- [Community 696](Community_696.md) (5 shared connections)
+- [Community 1129](Community_1129.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 35 (88%)
+- INFERRED: 5 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

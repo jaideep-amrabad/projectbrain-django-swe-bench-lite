@@ -1,62 +1,78 @@
 # Community 135
 
-> 64 nodes · cohesion 0.04
+> 60 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **DateTimeField** (23 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **DateField** (22 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **TimeField** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **DurationField** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.has_default()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **test_lookups.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_lookups.py`
-- **.value_from_object()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.test_add_datefield_and_datetimefield_use_effective_default()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **DateTimeCheckMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.test_get_bound_params()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_lookups.py`
-- **.check()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **._check_fix_default_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.test_alter_text_field_to_date_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_alter_text_field_to_datetime_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_alter_text_field_to_time_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **._check_fix_default_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **._check_mutually_exclusive_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **._check_fix_default_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.value_to_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.value_to_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **Warn that using an actual date or datetime value is probably wrong; it's only…** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.pre_save()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **YearLookupTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_lookups.py`
-- **.test_DateField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
-- *... and 39 more nodes in this community*
+- **include()** (45 connections) — `raw/code/hyd-evaluation/django-django/django/urls/conf.py`
+- **urlpatterns_reverse/views.py** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/views.py`
+- **empty_view()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/views.py`
+- **IncludeTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **urlconf_inner.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/urlconf_inner.py`
+- **URLObject** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/utils.py`
+- **urlpatterns_reverse/__init__.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/__init__.py`
+- **ErrorHandlerResolutionTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- **urlpatterns_reverse/urls.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/urls.py`
+- **urlpatterns_reverse/utils.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/utils.py`
+- **included_namespace_urls.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/included_namespace_urls.py`
+- **urlpatterns_reverse/namespace_urls.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/namespace_urls.py`
+- **urlpatterns_reverse/extra_urls.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/extra_urls.py`
+- **reverse_lazy_urls.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/reverse_lazy_urls.py`
+- **urlconf_outer.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/urlconf_outer.py`
+- **absolute_kwargs_view()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/views.py`
+- **included_named_urls.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/included_named_urls.py`
+- **included_urls2.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/included_urls2.py`
+- **named_urls.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/named_urls.py`
+- **inner_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/urlconf_inner.py`
+- **urls_without_handlers.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/urls_without_handlers.py`
+- **login_required_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/views.py`
+- **nested_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/views.py`
+- **erroneous_urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/erroneous_urls.py`
+- **included_app_urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/included_app_urls.py`
+- *... and 35 more nodes in this community*
 
 ## Relationships
 
-- [Community 6](Community_6.md) (11 shared connections)
-- [Community 61](Community_61.md) (10 shared connections)
-- [Community 124](Community_124.md) (10 shared connections)
-- [Community 75](Community_75.md) (8 shared connections)
-- [Community 98](Community_98.md) (7 shared connections)
-- [Community 72](Community_72.md) (6 shared connections)
-- [Community 262](Community_262.md) (6 shared connections)
-- [Community 200](Community_200.md) (6 shared connections)
-- [Community 67](Community_67.md) (4 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 103](Community_103.md) (3 shared connections)
-- [Community 62](Community_62.md) (2 shared connections)
+- [Community 1](Community_1.md) (32 shared connections)
+- [Community 39](Community_39.md) (13 shared connections)
+- [Community 50](Community_50.md) (8 shared connections)
+- [Community 11](Community_11.md) (5 shared connections)
+- [Community 9](Community_9.md) (4 shared connections)
+- [Community 857](Community_857.md) (4 shared connections)
+- [Community 877](Community_877.md) (3 shared connections)
+- [Community 352](Community_352.md) (3 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 35](Community_35.md) (3 shared connections)
+- [Community 451](Community_451.md) (2 shared connections)
+- [Community 47](Community_47.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/lookup/test_lookups.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/conf.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/include_contains_tuple.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/include_with_dollar.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/no_warnings.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/non_unique_namespaces.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/unique_namespaces.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/warning_in_include.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/erroneous_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/extra_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/included_app_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/included_named_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/included_named_urls2.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/included_namespace_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/included_no_kwargs_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/included_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/included_urls2.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/named_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/named_urls_conflict.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/namespace_urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 158 (98%)
-- INFERRED: 3 (2%)
+- EXTRACTED: 177 (94%)
+- INFERRED: 11 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

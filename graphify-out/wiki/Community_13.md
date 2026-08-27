@@ -1,75 +1,78 @@
 # Community 13
 
-> 278 nodes · cohesion 0.01
+> 182 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **defaulttags.py** (87 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- **tag()** (72 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **admin_list.py** (55 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
-- **Node** (46 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **Node** (22 connections)
-- **loader_tags.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **InclusionAdminNode** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/base.py`
-- **NodeList** (15 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **ExtendsNode** (15 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **admin_modify.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_modify.py`
-- **IfNode** (14 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- **items_for_result()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
-- **render_value_in_context()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **ForNode** (11 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- **IfEqualNode** (10 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- **WithNode** (10 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- **date_hierarchy()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
-- **TextNode** (9 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **token_kwargs()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **TagHelperNode** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/library.py`
-- **BlockNode** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- **submit_row()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_modify.py`
-- **templatetags/base.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/base.py`
-- **VariableNode** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **AutoEscapeControlNode** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- *... and 253 more nodes in this community*
+- **modify_settings** (129 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **TransactionTestCase** (113 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **core/__init__.py** (101 connections) — `raw/code/hyd-evaluation/django-django/django/core/__init__.py`
+- **PostgreSQLTestCase** (52 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/__init__.py`
+- **test_array.py** (51 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **Json** (50 connections)
+- **core/serializers/__init__.py** (38 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
+- **test_ranges.py** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **PostgreSQLSimpleTestCase** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/__init__.py`
+- **postgres_tests/test_json.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
+- **settings_tests/tests.py** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **serializers/base.py** (28 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **postgres_tests/__init__.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/__init__.py`
+- **serializers/tests.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **test_hstore.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **test_search.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_search.py`
+- **json.py** (25 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
+- **serializers/test_json.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **xml_serializer.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
+- **model_fields/test_durationfield.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
+- **fields/hstore.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- **test_yaml.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **postgres/fields/__init__.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/__init__.py`
+- **python.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **postgres/forms/__init__.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/__init__.py`
+- *... and 157 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (88 shared connections)
-- [Community 11](Community_11.md) (32 shared connections)
-- [Community 171](Community_171.md) (13 shared connections)
-- [Community 97](Community_97.md) (10 shared connections)
-- [Community 2](Community_2.md) (9 shared connections)
-- [Community 108](Community_108.md) (7 shared connections)
-- [Community 101](Community_101.md) (6 shared connections)
-- [Community 80](Community_80.md) (5 shared connections)
-- [Community 167](Community_167.md) (5 shared connections)
-- [Community 20](Community_20.md) (4 shared connections)
-- [Community 10](Community_10.md) (4 shared connections)
-- [Community 5](Community_5.md) (4 shared connections)
+- [Community 3](Community_3.md) (74 shared connections)
+- [Community 120](Community_120.md) (41 shared connections)
+- [Community 4](Community_4.md) (38 shared connections)
+- [Community 45](Community_45.md) (37 shared connections)
+- [Community 0](Community_0.md) (37 shared connections)
+- [Community 11](Community_11.md) (29 shared connections)
+- [Community 128](Community_128.md) (27 shared connections)
+- [Community 1](Community_1.md) (23 shared connections)
+- [Community 7](Community_7.md) (21 shared connections)
+- [Community 8](Community_8.md) (18 shared connections)
+- [Community 74](Community_74.md) (17 shared connections)
+- [Community 9](Community_9.md) (15 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_modify.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/base.py`
-- `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- `raw/code/hyd-evaluation/django-django/django/template/library.py`
-- `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_for.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if_equal.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_with.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/bad_tag.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/tag_27584.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/tagged/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner_apps/tagged/tests_inheritance.py`
+- `raw/code/hyd-evaluation/django-django/django/__main__.py`
+- `raw/code/hyd-evaluation/django-django/django/bin/django-admin.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/apps.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/mixins.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/functions.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- `raw/code/hyd-evaluation/django-django/django/core/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/locmem.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/xml_serializer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 612 (87%)
-- INFERRED: 88 (13%)
+- EXTRACTED: 1191 (98%)
+- INFERRED: 21 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,55 +1,63 @@
 # Community 330
 
-> 34 nodes · cohesion 0.09
+> 32 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **InlineFormsetFactoryTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **inline_formsets/tests.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **DeletionTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **inline_formsets/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
-- **Poem** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
-- **Poet** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
-- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
-- **Parent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
-- **School** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
-- **.test_add_form_deletion_when_invalid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **.test_change_form_deletion_when_invalid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **.test_save_new()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **.test_exception_on_unspecified_foreign_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **.test_fk_in_all_formset_forms()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **.test_fk_name_not_foreign_key_field_from_child()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **.test_fk_not_duplicated_in_form_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **.test_inline_formset_factory()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **.test_non_foreign_key_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **.test_unsaved_fk_validate_unique()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **.test_zero_primary_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **.test_deletion()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **.test_any_iterable_allowed_as_argument_to_exclude()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
-- *... and 9 more nodes in this community*
+- **urls/http.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- **Sitemap** (22 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- **SimpleSitemap** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- **GenericSitemap** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- **https.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/https.py`
+- **.test_sitemap_get_urls_no_site_2()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **._urls()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- **.test_sitemap_get_urls_no_site_1()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **FixedLastmodMixedSitemap** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- **.items()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- **SimpleI18nSitemap** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- **SimplePagedSitemap** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- **.items()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- **.__get()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- **.paginator()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- **.test_generic_sitemap_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
+- **DateSiteMap** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- **EmptySitemap** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- **FixedLastmodSitemap** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- **FixedNewerLastmodSitemap** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- **testmodelview()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- **TimezoneSiteMap** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- **HTTPSSitemap** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/https.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- **.lastmod()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 263](Community_263.md) (14 shared connections)
-- [Community 51](Community_51.md) (3 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 163](Community_163.md) (1 shared connections)
-- [Community 78](Community_78.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 39](Community_39.md) (8 shared connections)
+- [Community 250](Community_250.md) (6 shared connections)
+- [Community 11](Community_11.md) (5 shared connections)
+- [Community 235](Community_235.md) (3 shared connections)
+- [Community 9](Community_9.md) (3 shared connections)
+- [Community 17](Community_17.md) (3 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
+- [Community 50](Community_50.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 846](Community_846.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/inline_formsets/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/inline_formsets/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/https.py`
 
 ## Audit Trail
 
-- EXTRACTED: 63 (88%)
-- INFERRED: 9 (12%)
+- EXTRACTED: 81 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

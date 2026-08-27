@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **views_broken.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/views_broken.py`
+- **reserved_names/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/views_broken.py`
+- `raw/code/hyd-evaluation/django-django/tests/reserved_names/__init__.py`
 
 ## Audit Trail
 

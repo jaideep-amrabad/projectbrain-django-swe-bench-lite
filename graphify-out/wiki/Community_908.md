@@ -1,32 +1,47 @@
 # Community 908
 
-> 7 nodes · cohesion 0.43
+> 12 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **mutually_referential/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mutually_referential/models.py`
-- **mutually_referential/tests.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mutually_referential/tests.py`
-- **Parent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mutually_referential/models.py`
-- **MutuallyReferentialTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mutually_referential/tests.py`
-- **.test_mutually_referential()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mutually_referential/tests.py`
-- **Child** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mutually_referential/models.py`
-- **Mutually referential many-to-one relationships Strings can be used instead of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mutually_referential/models.py`
+- **AdminAuthenticationForm** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/forms.py`
+- **admin_views/forms.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/forms.py`
+- **MediaActionForm** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/forms.py`
+- **AdminAuthenticationFormTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_forms.py`
+- **CustomAdminAuthenticationForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/forms.py`
+- **ActionForm** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
+- **Media** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/forms.py`
+- **.test_inactive_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_forms.py`
+- **.confirm_login_allowed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/forms.py`
+- **A custom authentication form used in the admin app.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/forms.py`
+- **.clean_username()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/forms.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_forms.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 1](Community_1.md) (8 shared connections)
+- [Community 88](Community_88.md) (2 shared connections)
+- [Community 65](Community_65.md) (2 shared connections)
+- [Community 403](Community_403.md) (1 shared connections)
+- [Community 47](Community_47.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 1116](Community_1116.md) (1 shared connections)
+- [Community 15](Community_15.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mutually_referential/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/mutually_referential/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/forms.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (93%)
-- INFERRED: 1 (7%)
+- EXTRACTED: 31 (89%)
+- INFERRED: 4 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

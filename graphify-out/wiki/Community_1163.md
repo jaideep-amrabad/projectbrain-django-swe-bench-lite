@@ -1,24 +1,28 @@
 # Community 1163
 
-> 2 nodes · cohesion 1.00
+> 6 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **.test_inheritance17()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **{% load %} tag (parent -- setup for exception04)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **HStoreField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
+- **.has_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
+- **.to_python()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
+- **.prepare_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
+- **A field for HStore data which accepts dictionary JSON input.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
+- **Return True if data differs from initial.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
 
 ## Relationships
 
-- [Community 769](Community_769.md) (1 shared connections)
-- [Community 803](Community_803.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

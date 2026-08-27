@@ -1,31 +1,32 @@
 # Community 904
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.46
 
 ## Key Concepts
 
-- **TestCharField** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **.test_emoji()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **.test_max_length_passed_to_formfield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **skipIf** (1 connections)
-- **CharField passes its max_length attribute to form fields created using the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **.test_assignment_from_choice_enum()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
-- **.test_lookup_integer_in_charfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
+- **ReverseQueryNameClashTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **._test_reverse_query_name_clash()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_fk_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_fk_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_fk_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_m2m_to_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_m2m_to_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
+- **.test_m2m_to_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
-- [Community 27](Community_27.md) (1 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 181](Community_181.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_relative_fields.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (89%)
-- INFERRED: 1 (11%)
+- EXTRACTED: 17 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

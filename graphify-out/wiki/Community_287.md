@@ -1,60 +1,52 @@
 # Community 287
 
-> 40 nodes · cohesion 0.06
+> 36 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **BaseSpatialFeatures** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
-- **OracleOperations** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/operations.py`
-- **gis/db/backends/oracle/base.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/base.py`
-- **DatabaseWrapper** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/base.py`
-- **gis/db/backends/oracle/features.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/features.py`
-- **DatabaseFeatures** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/features.py`
-- **gis/db/backends/oracle/introspection.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/introspection.py`
-- **OracleIntrospection** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/introspection.py`
-- **.convert_extent()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/operations.py`
-- **.geo_db_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/operations.py`
-- **.get_distance()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/operations.py`
-- **.modify_insert_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/operations.py`
-- **.spatial_aggregate_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/operations.py`
-- **OracleDatabaseFeatures** (1 connections)
-- **OracleDatabaseWrapper** (1 connections)
-- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
-- **.supports_bbcontains_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
-- **.supports_collect_aggr()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
-- **.supports_contained_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
-- **.supports_crosses_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
-- **.supports_distances_lookups()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
-- **.supports_dwithin_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
-- **.supports_extent_aggr()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
-- **.supports_isvalid_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
-- **.supports_make_line_aggr()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
-- *... and 15 more nodes in this community*
+- **ContentTypesTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
+- **ContentTypeManager** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **._add_to_cache()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **.get_for_model()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **.get_for_models()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **.get_for_id()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **._get_from_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **._get_opts()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **.test_get_for_model_create_contenttype()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
+- **.clear_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **.get_by_natural_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **.test_app_labeled_name_unknown_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
+- **.test_cache_not_shared_between_managers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
+- **.test_get_for_concrete_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
+- **.test_get_for_concrete_models()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
+- **.test_lookup_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
+- **.test_missing_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **Lookup a ContentType by ID. Use the same shared cache as get_for_model (though…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **Clear out the content-type cache.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **Insert a ContentType into the cache.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **Return the ContentType object for a given model, creating the ContentType if…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **Given *models, return a dictionary mapping {model: content_type}.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [Community 6](Community_6.md) (12 shared connections)
-- [Community 85](Community_85.md) (3 shared connections)
-- [Community 417](Community_417.md) (2 shared connections)
-- [Community 716](Community_716.md) (2 shared connections)
-- [Community 298](Community_298.md) (2 shared connections)
-- [Community 251](Community_251.md) (1 shared connections)
-- [Community 639](Community_639.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 201](Community_201.md) (3 shared connections)
+- [Community 74](Community_74.md) (2 shared connections)
 - [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/features.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/base.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/features.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/introspection.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 63 (90%)
-- INFERRED: 7 (10%)
+- EXTRACTED: 49 (94%)
+- INFERRED: 3 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

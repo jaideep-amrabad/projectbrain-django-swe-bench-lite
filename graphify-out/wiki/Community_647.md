@@ -1,41 +1,41 @@
 # Community 647
 
-> 14 nodes · cohesion 0.14
+> 16 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **StartsWithRelation** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **BrokenContainsRelation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **AutoFieldInheritanceTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
-- **.field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **.test_isinstance_of_autofield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
-- **.get_extra_restriction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **A ForeignObject that uses StartsWith operator in its joins instead of the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **Makes ReverseManyToOneDescriptor work in both directions.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **This model is designed to yield no join conditions and raise an exception in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **.get_joining_columns()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **.get_path_info()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **.get_reverse_path_info()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **.test_issubclass_of_autofield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
+- **null_fk_ordering/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
+- **null_fk_ordering/tests.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/tests.py`
+- **NullFkOrderingTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/tests.py`
+- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
+- **Comment** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
+- **Post** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
+- **Author** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
+- **Forum** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
+- **SystemInfo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
+- **.test_ordering_across_null_fk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
+- **Regression tests for proper working of ForeignKey(null=True). Tests these bugs:…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
+- **Regression test for #7512 ordering across nullable Foreign Keys shouldn't…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/tests.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 67](Community_67.md) (1 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
-- [Community 27](Community_27.md) (1 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 41](Community_41.md) (2 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_autofield.py`
+- `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/null_fk_ordering/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 27 (82%)
+- INFERRED: 6 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

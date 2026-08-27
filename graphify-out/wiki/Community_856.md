@@ -1,33 +1,37 @@
 # Community 856
 
-> 8 nodes · cohesion 0.29
+> 10 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **AsyncUnsafeTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **DatabaseConnectionTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **.dangerous_method()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **.test_async_unsafe()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **.test_get_async_connection()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **async_to_sync** (2 connections)
-- **A database connection cannot be used in an async context.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
-- **async_unsafe decorator should work correctly and returns the correct message.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- **HttpHeaders** (9 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **HttpHeadersTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.parse_header_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.headers()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.test_basic()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_parse_header_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **Allow header lookup using underscores in place of hyphens.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 88](Community_88.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 45](Community_45.md) (4 shared connections)
+- [Community 189](Community_189.md) (2 shared connections)
+- [Community 163](Community_163.md) (1 shared connections)
+- [Community 73](Community_73.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/async/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (93%)
-- INFERRED: 1 (7%)
+- EXTRACTED: 20 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

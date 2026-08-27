@@ -1,36 +1,32 @@
 # Community 815
 
-> 9 nodes · cohesion 0.31
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Command** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
-- **.run()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
-- **.get_handler()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
-- **.inner_run()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
-- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
-- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
-- **.execute()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
-- **Return the default WSGI handler for the runner.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
-- **Run the server, using the autoreloader if needed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- **override** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **deactivate()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **activate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **.__enter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **ContextDecorator** (1 connections)
+- **Set the time zone for the current thread. The ``timezone`` argument must be an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **Unset the time zone for the current thread. Django will then use the time zone…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **Temporarily set the time zone for the current thread. This is a context manager…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (4 shared connections)
-- [Community 404](Community_404.md) (1 shared connections)
-- [Community 223](Community_223.md) (1 shared connections)
-- [Community 888](Community_888.md) (1 shared connections)
-- [Community 111](Community_111.md) (1 shared connections)
-- [Community 190](Community_190.md) (1 shared connections)
+- [Community 17](Community_17.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/runserver.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (85%)
-- INFERRED: 3 (15%)
+- EXTRACTED: 13 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

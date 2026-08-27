@@ -1,53 +1,63 @@
 # Community 64
 
-> 77 nodes · cohesion 0.03
+> 106 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **MakeMigrationsTests** (50 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_makemigrations_auto_now_add_interactive()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_makemigrations_consistency_checks_respect_routers()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_makemigrations_disabled_migrations_for_app()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_makemigrations_merge_dont_output_dependency_operations()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_makemigrations_unspecified_app_with_conflict_merge()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_makemigrations_unspecified_app_with_conflict_no_merge()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_makemigration_merge_dry_run()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_makemigration_merge_dry_run_verbosity_3()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_makemigrations_check()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_makemigrations_conflict_exit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_makemigrations_default_merge_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_makemigrations_dry_run()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_makemigrations_dry_run_verbosity_3()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_makemigrations_empty_migration()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_makemigrations_empty_no_app_specified()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_makemigrations_handle_merge()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_makemigrations_interactive_accept()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_makemigrations_interactive_by_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_makemigrations_interactive_reject()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_makemigrations_merge_no_conflict()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_makemigrations_migration_path_output()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_makemigrations_migration_path_output_valueerror()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_makemigrations_migrations_announce()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- **.test_makemigrations_migrations_modules_nonexistent_toplevel_package()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
-- *... and 52 more nodes in this community*
+- **GDALRaster** (68 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **GDALRasterTests** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_raster.py`
+- **RasterFieldTest** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/test_rasterfield.py`
+- **GDALBandTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_raster.py`
+- **TransformPoint** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **.srs()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **._flush()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **.geotransform()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **setter** (5 connections)
+- **.test_all_gis_lookups_with_rasters()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/test_rasterfield.py`
+- **.test_dwithin_gis_lookup_output_with_rasters()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/test_rasterfield.py`
+- **.srid()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **.transform()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **.hex()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.driver()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **.origin()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **.__repr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **.scale()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **.skew()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **.warp()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **.wkt()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- **.test_lhs_with_index_rhs_without_index()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/test_rasterfield.py`
+- **.extent()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **.height()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- **.info()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- *... and 81 more nodes in this community*
 
 ## Relationships
 
-- [Community 421](Community_421.md) (38 shared connections)
-- [Community 12](Community_12.md) (6 shared connections)
-- [Community 76](Community_76.md) (5 shared connections)
-- [Community 785](Community_785.md) (1 shared connections)
-- [Community 469](Community_469.md) (1 shared connections)
-- [Community 32](Community_32.md) (1 shared connections)
+- [Community 44](Community_44.md) (15 shared connections)
+- [Community 63](Community_63.md) (6 shared connections)
+- [Community 72](Community_72.md) (4 shared connections)
+- [Community 16](Community_16.md) (3 shared connections)
+- [Community 257](Community_257.md) (3 shared connections)
+- [Community 803](Community_803.md) (3 shared connections)
+- [Community 24](Community_24.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 33](Community_33.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_raster.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/test_rasterfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 126 (97%)
-- INFERRED: 4 (3%)
+- EXTRACTED: 174 (91%)
+- INFERRED: 18 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

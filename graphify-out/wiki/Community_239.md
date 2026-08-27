@@ -1,61 +1,63 @@
 # Community 239
 
-> 44 nodes · cohesion 0.08
+> 42 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **ModelFormsetTest** (66 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **modelformset_factory()** (50 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **Poet** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **DeletionTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **Player** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- **.test_inline_formsets_with_custom_save_method_related_instance()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_add_form_deletion_when_invalid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_change_form_deletion_when_invalid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_custom_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_custom_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_custom_queryset_init()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_inlineformset_factory_with_null_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_model_formset_with_initial_model_instance()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_modelformset_factory_without_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_prevent_duplicates_from_with_the_same_formset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_deletion()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_outdated_deletion()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_commit_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_custom_save_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_initial_form_count_empty_data_raises_validation_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_max_num()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_min_num()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_min_num_with_existing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_model_formset_with_custom_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- **.test_model_formset_with_initial_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
-- *... and 19 more nodes in this community*
+- **Cast** (41 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **CastTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
+- **NullIf** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **ATan2** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **NullIfTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_nullif.py`
+- **.as_sql()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **.test_expression_wrapped_with_parentheses_on_postgresql()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
+- **ATan2Tests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan2.py`
+- **.test_cast_to_char_field_with_max_length()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
+- **.test_null_literal()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_nullif.py`
+- **.as_oracle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **.as_sqlite()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **.test_cast_from_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
+- **.test_cast_to_decimal_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
+- **.test_null_argument()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_nullif.py`
+- **.as_mysql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **.as_postgresql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **.as_sqlite()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **.as_oracle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- **.test_cast_from_db_date_to_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
+- **.test_cast_from_db_datetime_to_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
+- **.test_cast_from_db_datetime_to_date_group_by()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
+- **.test_cast_from_db_datetime_to_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
+- **.test_cast_from_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
+- **.test_cast_from_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [Community 179](Community_179.md) (33 shared connections)
-- [Community 263](Community_263.md) (21 shared connections)
-- [Community 187](Community_187.md) (5 shared connections)
-- [Community 797](Community_797.md) (2 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 39](Community_39.md) (1 shared connections)
-- [Community 30](Community_30.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 433](Community_433.md) (1 shared connections)
-- [Community 420](Community_420.md) (1 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
-- [Community 78](Community_78.md) (1 shared connections)
+- [Community 3](Community_3.md) (19 shared connections)
+- [Community 38](Community_38.md) (6 shared connections)
+- [Community 41](Community_41.md) (3 shared connections)
+- [Community 16](Community_16.md) (2 shared connections)
+- [Community 128](Community_128.md) (2 shared connections)
+- [Community 42](Community_42.md) (2 shared connections)
+- [Community 276](Community_276.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 206](Community_206.md) (2 shared connections)
+- [Community 21](Community_21.md) (2 shared connections)
+- [Community 28](Community_28.md) (2 shared connections)
+- [Community 575](Community_575.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_formsets/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/comparison.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_cast.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/comparison/test_nullif.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_atan2.py`
 
 ## Audit Trail
 
-- EXTRACTED: 115 (79%)
-- INFERRED: 30 (21%)
+- EXTRACTED: 109 (97%)
+- INFERRED: 3 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

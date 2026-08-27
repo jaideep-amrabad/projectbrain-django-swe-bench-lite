@@ -1,52 +1,39 @@
 # Community 379
 
-> 30 nodes · cohesion 0.08
+> 16 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **TestObj** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **AnonymousUserBackendTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **RowlevelBackendTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **BaseBackendTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **InActiveUserBackendTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **NoBackendsTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_get_all_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_has_perm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_has_perms()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_has_perm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_has_perm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_raises_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_get_all_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_get_group_permissions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_has_perm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_has_module_perms()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_get_all_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_get_group_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_get_user_permissions()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.test_has_module_perms()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- **Tests for auth backend that supports object level permissions** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
-- *... and 5 more nodes in this community*
+- **Tests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **TransactionalTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **skipUnless** (2 connections)
+- **.test_client_encoding()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **.test_cursor_var()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **.test_dbms_session()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **.test_order_of_nls_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **.test_quote_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **%' chars are escaped for query execution.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **A stored procedure can be called through a cursor wrapper.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **Cursor variables can be passed as query parameters.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **Client encoding is set correctly.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **An 'almost right' datetime works with configured NLS parameters (#18465).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **.test_hidden_no_data_found_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **.test_non_integer_auto_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
+- **.test_password_with_at_sign()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (6 shared connections)
-- [Community 12](Community_12.md) (4 shared connections)
-- [Community 51](Community_51.md) (4 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 288](Community_288.md) (1 shared connections)
-- [Community 136](Community_136.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 42](Community_42.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/oracle/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (100%)
+- EXTRACTED: 19 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

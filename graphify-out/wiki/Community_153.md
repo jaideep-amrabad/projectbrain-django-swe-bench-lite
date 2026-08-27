@@ -1,60 +1,58 @@
 # Community 153
 
-> 60 nodes · cohesion 0.05
+> 30 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **MigrationExecutor** (50 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/executor.py`
-- **ExecutorTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.migrate()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/executor.py`
-- **.test_migrations_applied_and_recorded_atomically()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.apply_migration()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/executor.py`
-- **._create_project_state()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/executor.py`
-- **.test_apply_all_replaced_marks_replacement_as_applied()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.test_custom_user()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.test_migrate_marks_replacement_applied_even_if_it_did_nothing()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.schema_editor()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- **._migrate_all_backwards()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/executor.py`
-- **.test_atomic_operation_in_non_atomic_migration()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.test_detect_soft_applied_add_field_manytomanyfield()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.test_empty_plan()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.test_mixed_plan_not_supported()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.test_non_atomic_migration()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.test_process_callback()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.test_run()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.test_run_with_squashed()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.test_soft_apply()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.test_unrelated_applied_migrations_mutate_state()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.test_unrelated_model_lookups_backwards()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.test_unrelated_model_lookups_forwards()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **._migrate_all_forwards()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/executor.py`
-- **.migration_plan()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/executor.py`
-- *... and 35 more nodes in this community*
+- **post_form_view()** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
+- **._get_POST_request_with_token()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **._get_POST_csrf_cookie_request()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_csrf_token_in_header_with_customized_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_https_bad_referer()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_https_csrf_trusted_origin_allowed()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_https_csrf_wildcard_trusted_origin_allowed()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_https_good_referer()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_https_good_referer_2()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_https_malformed_referer()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_process_request_csrf_cookie_no_token_exempt_view()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_https_reject_insecure_referer()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_https_reject_insecure_referer()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_csrf_token_in_header()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_process_request_csrf_cookie_and_token()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_process_request_csrf_cookie_no_token()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_post_data_read_failure()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **A POST HTTPS request with a bad referer is rejected** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **A POST HTTPS request from an insecure referer should be rejected.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **If a CSRF cookie is present but no token, the middleware rejects the incoming…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **If both a cookie and a token is present, the middleware lets it through.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **If a CSRF cookie is present and no token, but the csrf_exempt decorator has…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **The token may be passed in a header instead of in the form.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **settings.CSRF_HEADER_NAME can be used to customize the CSRF header name** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **A POST HTTPS request with a good referer is accepted.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 12](Community_12.md) (17 shared connections)
-- [Community 785](Community_785.md) (17 shared connections)
-- [Community 8](Community_8.md) (9 shared connections)
-- [Community 32](Community_32.md) (7 shared connections)
-- [Community 76](Community_76.md) (6 shared connections)
-- [Community 676](Community_676.md) (4 shared connections)
-- [Community 29](Community_29.md) (2 shared connections)
-- [Community 88](Community_88.md) (1 shared connections)
-- [Community 136](Community_136.md) (1 shared connections)
-- [Community 309](Community_309.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
+- [Community 199](Community_199.md) (17 shared connections)
+- [Community 7](Community_7.md) (9 shared connections)
+- [Community 657](Community_657.md) (5 shared connections)
+- [Community 1209](Community_1209.md) (2 shared connections)
+- [Community 406](Community_406.md) (2 shared connections)
+- [Community 651](Community_651.md) (1 shared connections)
+- [Community 649](Community_649.md) (1 shared connections)
+- [Community 50](Community_50.md) (1 shared connections)
+- [Community 1078](Community_1078.md) (1 shared connections)
+- [Community 521](Community_521.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/executor.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
+- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 124 (80%)
-- INFERRED: 31 (20%)
+- EXTRACTED: 63 (76%)
+- INFERRED: 20 (24%)
 - AMBIGUOUS: 0 (0%)
 
 ---

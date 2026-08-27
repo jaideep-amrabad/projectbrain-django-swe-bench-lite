@@ -1,58 +1,54 @@
 # Community 310
 
-> 88 nodes · cohesion 0.03
+> 34 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **MigrationGraph** (56 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **NodeNotFoundError** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- **GraphTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
-- **Node** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **test_graph.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
-- **DummyNode** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **CircularDependencyError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- **NodeTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
-- **.forwards_plan()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.make_state()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.add_dependency()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.backwards_plan()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.iterative_dfs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.add_dummy_node()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **._generate_plan()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.leaf_nodes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **._nodes_and_edges()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.remove_replaced_nodes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.remove_replacement_node()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.validate_consistency()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.test_circular_graph()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
-- **.test_complex_graph()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
-- **.test_infinite_loop()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
-- **.test_iterative_dfs_complexity()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
-- **.test_missing_child_nodes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
-- *... and 63 more nodes in this community*
+- **BuildFile** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **jslex.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **test_jslex.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_jslex.py`
+- **JsLexer** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **prepare_js_for_gettext()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **Lexer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **.preprocess()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **Tok** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **make_function()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_jslex.py`
+- **.cleanup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **.postprocess_messages()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **.work_path()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **.lex()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **literals()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- **JsToCForGettextTest** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_jslex.py`
+- **JsTokensTest** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_jslex.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **.is_templatized()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **.path()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **Postprocess messages generated by xgettext GNU gettext utility. Transform paths…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **Remove a preprocessed copy of a translatable file (if any).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **Represent the state of a translatable file during the build process.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **Path to a file which is being fed into GNU gettext pipeline. This may be either…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **Preprocess (if necessary) a translatable file before passing it to xgettext GNU…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 76](Community_76.md) (13 shared connections)
-- [Community 32](Community_32.md) (6 shared connections)
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 676](Community_676.md) (4 shared connections)
-- [Community 829](Community_829.md) (3 shared connections)
-- [Community 29](Community_29.md) (2 shared connections)
-- [Community 59](Community_59.md) (1 shared connections)
-- [Community 43](Community_43.md) (1 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 466](Community_466.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_exceptions.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/jslex.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_jslex.py`
 
 ## Audit Trail
 
-- EXTRACTED: 156 (93%)
-- INFERRED: 11 (7%)
+- EXTRACTED: 47 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

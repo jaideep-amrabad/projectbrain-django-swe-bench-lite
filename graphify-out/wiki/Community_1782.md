@@ -1,22 +1,23 @@
 # Community 1782
 
-> 1 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **app4/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/app4/__init__.py`
+- **.test_nested_deconstructible_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **Nested deconstruction is applied recursively to the args/kwargs of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 25](Community_25.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/app4/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

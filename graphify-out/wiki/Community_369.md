@@ -1,53 +1,49 @@
 # Community 369
 
-> 30 nodes · cohesion 0.10
+> 30 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **SplitArrayWidget** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **SplitArrayField** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **TestSplitFormField** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **TestSplitFormWidget** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.test_splitarrayfield_has_changed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_rendering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_splitarraywidget_value_omitted_from_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.test_invalid_char_length()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_invalid_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_remove_trailing_nulls()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_remove_trailing_nulls_not_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_required()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_required_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_valid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_get_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_render()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_render_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_value_omitted_from_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.__deepcopy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.get_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **.id_for_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **parse_color_setting()** (24 connections) — `raw/code/hyd-evaluation/django-django/django/utils/termcolors.py`
+- **TermColorTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **termcolors.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/termcolors.py`
+- **colorize()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/termcolors.py`
+- **make_style()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/termcolors.py`
+- **test_termcolors.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_bad_color()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_bad_option()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_bad_palette()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_bad_role()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_color_case()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_colorize_empty_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_empty_definition()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_empty_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_empty_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_fg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_fg_bg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_fg_bg_opts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_fg_opts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_multiple_roles()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_opts_case()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_override_nocolor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_override_palette()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_override_with_multiple_roles()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
+- **.test_reverse_override()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
 - *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 110](Community_110.md) (6 shared connections)
-- [Community 130](Community_130.md) (3 shared connections)
-- [Community 334](Community_334.md) (2 shared connections)
-- [Community 15](Community_15.md) (2 shared connections)
-- [Community 136](Community_136.md) (1 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/termcolors.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_termcolors.py`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (70%)
-- INFERRED: 17 (30%)
+- EXTRACTED: 56 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

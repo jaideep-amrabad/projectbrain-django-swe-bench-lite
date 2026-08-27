@@ -1,52 +1,40 @@
 # Community 628
 
-> 16 nodes · cohesion 0.23
+> 17 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **foreign_object/tests.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **foreign_object/models/__init__.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/__init__.py`
-- **foreign_object/models/article.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **Article** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **ArticleTranslation** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **NewsArticle** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **Country** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- **ArticleIdea** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **ArticleTag** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **.test_translations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **TestExtraJoinFilterQ** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.test_foreign_key_raises_informative_does_not_exist()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- **.test_extra_join_filter_q()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- **FileSystemLoaderTests** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
+- **.source_checker()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
+- **.set_dirs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
+- **.test_case_sensitivity()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
+- **.test_loaders_dirs_empty()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
+- **.test_permissions_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
+- **.test_directory_security()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
+- **.test_loaders_dirs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
+- **.test_unicode_dir_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
+- **.test_unicode_template_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
+- **.test_bytestring()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
+- **.test_file_does_not_exist()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
+- **.test_get_template()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
+- **.test_notafile_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
+- **skipIf** (1 connections)
+- **skipUnless** (1 connections)
+- **An empty dirs list in loaders overrides top level dirs.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
 
 ## Relationships
 
-- [Community 790](Community_790.md) (10 shared connections)
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 789](Community_789.md) (5 shared connections)
-- [Community 701](Community_701.md) (4 shared connections)
-- [Community 460](Community_460.md) (3 shared connections)
-- [Community 33](Community_33.md) (2 shared connections)
-- [Community 101](Community_101.md) (2 shared connections)
-- [Community 974](Community_974.md) (2 shared connections)
-- [Community 826](Community_826.md) (2 shared connections)
-- [Community 121](Community_121.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
+- [Community 46](Community_46.md) (4 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/person.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
 
 ## Audit Trail
 
-- EXTRACTED: 77 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 27 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,40 +1,45 @@
 # Community 617
 
-> 16 nodes · cohesion 0.20
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **BaseConverter** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
-- **TestBaseConv** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
-- **baseconv.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
-- **.convert()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
-- **test_baseconv.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
-- **.decode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
-- **.encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
-- **.test_base11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
-- **.test_base20()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
-- **.test_base7()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
-- **.test_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
-- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
-- **.test_base64()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
-- **.test_baseconv()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
+- **Tests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **LastExecutedQueryTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **EscapingChecks** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **skipUnless** (6 connections)
+- **EscapingChecksDebug** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_aggregation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_memory_db_test_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_check_sqlite_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_parameter_escaping()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_large_number_of_parameters()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_no_interpolation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_parameter_quoting()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **All tests in this test case are also run with settings.DEBUG=True in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **Raise NotImplementedError when aggregating on date/time fields (#19360).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **A named in-memory db should be allowed where supported.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_distinct_aggregation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **.test_regexp_function()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
 
 ## Relationships
 
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
+- [Community 41](Community_41.md) (3 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 57](Community_57.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 446](Community_446.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/baseconv.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_baseconv.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 30 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

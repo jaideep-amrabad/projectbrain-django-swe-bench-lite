@@ -1,57 +1,53 @@
 # Community 280
 
-> 35 nodes · cohesion 0.07
+> 37 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **RawQuerySet** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **InvalidQuery** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- **._fetch_all()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._clone()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.iterator()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._prefetch_related_objects()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__getstate__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__iter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.prefetch_related()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.resolve_model_init_order()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__bool__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.db()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._fetch_all()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__len__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Return the database used if this query is executed now.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__bool__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.db()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.__len__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.model_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.using()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.test_rawqueryset_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **Provide an iterator which converts the results of raw SQL queries into…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Resolve the init field names and value positions.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **Same as QuerySet.prefetch_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- *... and 10 more nodes in this community*
+- **ForwardManyToOneDescriptor** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **ReverseOneToOneDescriptor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **ForwardOneToOneDescriptor** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **ActiveTranslationField** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **.get_queryset()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **ArticleTranslationDescriptor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **.__get__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.__get__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **ColConstraint** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **.RelatedObjectDoesNotExist()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.get_extra_restriction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **.get_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.get_prefetch_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.__reduce__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.__set__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.get_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **Get the related instance through the forward relation. With the example above,…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **Get the related instance through the reverse relation. With the example above,…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **Accessor to the related object on the forward side of a many-to-one or one-to-…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.get_prefetch_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.__set__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.contribute_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **.get_extra_descriptor_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
+- **.get_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 62](Community_62.md) (7 shared connections)
-- [Community 157](Community_157.md) (5 shared connections)
-- [Community 392](Community_392.md) (4 shared connections)
-- [Community 57](Community_57.md) (2 shared connections)
-- [Community 201](Community_201.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 371](Community_371.md) (1 shared connections)
+- [Community 45](Community_45.md) (5 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 307](Community_307.md) (4 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 101](Community_101.md) (1 shared connections)
+- [Community 790](Community_790.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/article.py`
 
 ## Audit Trail
 
-- EXTRACTED: 60 (92%)
+- EXTRACTED: 58 (92%)
 - INFERRED: 5 (8%)
 - AMBIGUOUS: 0 (0%)
 

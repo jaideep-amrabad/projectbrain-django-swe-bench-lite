@@ -4,40 +4,40 @@
 
 ## Key Concepts
 
-- **AssertContainsTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_assert_contains_renders_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_assert_contains_using_non_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_assert_not_contains_renders_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_assert_not_contains_using_non_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_contains()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_unicode_contains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_unicode_not_contains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **An unrendered SimpleTemplateResponse may be used in assertContains().** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **auto-rendering does not affect responses that aren't instances (or subclasses)…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_binary_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_binary_not_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_nontext_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_nontext_not_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Unicode characters can be found in template context** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Unicode characters can be searched for, and not found in template context** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Responses can be inspected for content, including counting repeated substrings** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **LocMemCacheTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **PicklingSideEffect** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **limit_locmem_entries** (3 connections)
+- **.test_locking_on_pickle()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_lru_get()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_lru_incr()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_lru_set()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_multiple_caches()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_incr_decr_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.__getstate__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **Multiple locmem caches are isolated** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **#20613/#18541 -- Ensures pickling is done outside of the lock.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **incr/decr does not modify expiry time (matches memcached behavior)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **get() moves cache keys.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **set() moves cache keys.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **incr() moves cache keys.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 193](Community_193.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 190](Community_190.md) (1 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 11](Community_11.md) (2 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 266](Community_266.md) (1 shared connections)
+- [Community 689](Community_689.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 25 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

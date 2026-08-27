@@ -1,46 +1,40 @@
 # Community 627
 
-> 16 nodes · cohesion 0.18
+> 17 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **dates/tests.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
-- **DatesTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
-- **dates/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/models.py`
-- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/models.py`
-- **Comment** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/models.py`
-- **Category** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/models.py`
-- **.test_dates_trunc_datetime_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
-- **.test_dates_avoid_datetime_cast()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/models.py`
-- **.test_dates_fails_when_given_invalid_field_argument()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
-- **.test_dates_fails_when_given_invalid_kind_argument()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
-- **.test_dates_fails_when_given_invalid_order_argument()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
-- **.test_dates_fails_when_no_arguments_are_provided()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
-- **.test_related_model_traverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
-- **skipUnless** (1 connections)
+- **TestSigner** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_decode_detects_tampering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_dumps_loads()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_invalid_sep()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_sign_unsign()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_signature()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_signature_with_salt()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_unsign_detects_tampering()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **signature() method should generate a signature** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **should warn on invalid separator** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **signature(value, salt=...) should work** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **sign/unsign should be reversible** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **unsign should raise an exception if the value has been tampered with** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **dumps and loads be reversible for any JSON serializable object** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **loads should raise exception for tampered objects** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_valid_sep()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.test_works_with_non_ascii_keys()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 20](Community_20.md) (2 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 12](Community_12.md) (2 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 72](Community_72.md) (1 shared connections)
-- [Community 57](Community_57.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/dates/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 32 (91%)
-- INFERRED: 3 (9%)
+- EXTRACTED: 18 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,61 +1,50 @@
 # Community 345
 
-> 32 nodes · cohesion 0.11
+> 32 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **ExclusionConstraint** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- **test_constraints.py** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **ExclusionConstraintTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.get_constraints()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **._test_range_overlaps()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **SchemaTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.constraint_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- **HotelReservation** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- **.test_range_overlaps_custom()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_check_constraint_daterange_contains()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_check_constraint_datetimerange_contains()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_eq()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_repr()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_check_constraint_range_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **._get_expression_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- **Room** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- **.test_deconstruct_condition()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_invalid_condition()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_invalid_index_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_range_adjacent()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **._get_condition_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- **.test_deconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_deconstruct_index_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_empty_expressions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_invalid_expressions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
+- **TestQuerying** (40 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **expectedFailure** (4 connections)
+- **.test_contained_by_including_F_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_in_including_F_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_index_used_on_nested_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_slice_nested()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_contained_by()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_contained_by_charfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_contains_charfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_enum_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_exact()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_exact_charfield()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_exact_nested()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_gt()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_icontains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_in()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_in_as_F_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_in_subquery()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_index()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_index_chained()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_index_nested()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_isnull()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_len()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- **.test_len_empty_array()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
 - *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 25](Community_25.md) (9 shared connections)
-- [Community 110](Community_110.md) (9 shared connections)
-- [Community 104](Community_104.md) (8 shared connections)
-- [Community 429](Community_429.md) (5 shared connections)
-- [Community 279](Community_279.md) (5 shared connections)
-- [Community 273](Community_273.md) (3 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 122](Community_122.md) (1 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
-- [Community 72](Community_72.md) (1 shared connections)
-- [Community 50](Community_50.md) (1 shared connections)
-- [Community 57](Community_57.md) (1 shared connections)
+- [Community 120](Community_120.md) (6 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 173](Community_173.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
 
 ## Audit Trail
 
-- EXTRACTED: 92 (85%)
-- INFERRED: 16 (15%)
+- EXTRACTED: 39 (89%)
+- INFERRED: 5 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

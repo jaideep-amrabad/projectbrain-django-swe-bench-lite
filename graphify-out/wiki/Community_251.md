@@ -1,57 +1,61 @@
 # Community 251
 
-> 42 nodes · cohesion 0.07
+> 42 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **DatabaseWrapper** (25 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **FormatStylePlaceholderCursor** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **VariableWrapper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.executemany()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.execute()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.create_cursor()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._fix_for_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._format_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **wrap_oracle_errors()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._dsn()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.get_new_connection()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._guess_input_sizes()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._output_type_handler()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._param_generator()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._maindb_connection()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
-- **.check_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._commit()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._connect_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.init_connection_state()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.arrayvar()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **._get_decimal_converter()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.var()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **.get_connection_params()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
+- **SelectTest** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **Select** (18 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.use_required_attribute()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.use_required_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **._choice_has_empty_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.test_forms_with_choices()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
+- **.test_choices_constructor_generator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **.test_constructor_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **.test_deepcopy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **.use_required_attribute()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.get_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.test_choices_constuctor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **.test_choices_escaping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **.test_choices_optgroup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **.test_compare_to_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **.test_doesnt_localize_option_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **.test_optgroups_integer_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **.test_render_label_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **.test_render_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **.test_render_selected()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **Return True if the choice's value is empty string or None.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **Don't render 'required' if the first <option> has a value, as that's invalid…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **If choices is passed to the constructor and is a generator, it can be iterated…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **Choices can be nested one level in order to create HTML optgroups.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
+- **If the value is None, none of the options are selected.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
 - *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [Community 6](Community_6.md) (7 shared connections)
-- [Community 88](Community_88.md) (3 shared connections)
-- [Community 290](Community_290.md) (2 shared connections)
-- [Community 287](Community_287.md) (1 shared connections)
-- [Community 615](Community_615.md) (1 shared connections)
-- [Community 930](Community_930.md) (1 shared connections)
-- [Community 639](Community_639.md) (1 shared connections)
-- [Community 134](Community_134.md) (1 shared connections)
-- [Community 535](Community_535.md) (1 shared connections)
+- [Community 45](Community_45.md) (3 shared connections)
+- [Community 324](Community_324.md) (2 shared connections)
+- [Community 467](Community_467.md) (2 shared connections)
+- [Community 240](Community_240.md) (2 shared connections)
+- [Community 577](Community_577.md) (1 shared connections)
+- [Community 291](Community_291.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 609](Community_609.md) (1 shared connections)
+- [Community 981](Community_981.md) (1 shared connections)
+- [Community 546](Community_546.md) (1 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
+- [Community 350](Community_350.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_select.py`
 
 ## Audit Trail
 
-- EXTRACTED: 66 (88%)
-- INFERRED: 9 (12%)
+- EXTRACTED: 54 (84%)
+- INFERRED: 10 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

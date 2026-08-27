@@ -1,23 +1,32 @@
 # Community 1076
 
-> 2 nodes · cohesion 1.00
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **.test_mail_sending()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **Mail is redirected to a dummy outbox during test setup** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **DeclarativeFieldsMetaclass** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **MediaDefiningClass** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **media_property()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.__new__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.__new__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **Collect Fields declared on the base classes.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- **type** (1 connections)
+- **Metaclass for classes that can have media definitions.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
 
 ## Relationships
 
-- [Community 47](Community_47.md) (1 shared connections)
+- [Community 45](Community_45.md) (3 shared connections)
+- [Community 88](Community_88.md) (2 shared connections)
+- [Community 119](Community_119.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/forms.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

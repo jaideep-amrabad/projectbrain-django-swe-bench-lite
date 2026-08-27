@@ -1,59 +1,54 @@
 # Community 314
 
-> 36 nodes · cohesion 0.10
+> 34 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **.assertOutput()** (141 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **DjangoAdminAlternateSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **DjangoAdminFullPathDefaultSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **DjangoAdminMultipleSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **.test_builtin_with_bad_settings()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **alternate: django-admin can execute user commands if settings are provided as…** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- *... and 11 more nodes in this community*
+- **ModelInheritanceTest** (56 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **.test_abstract_verbose_name_plural_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **.test_all_fields_from_abstract_base_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **.test_concrete_abstract_concrete_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **.test_inheritance_values_joins()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **.test_inherited_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **.test_inherited_unique_field_with_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **.test_issue_11764()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **.test_issue_7853()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **.test_queryset_update_on_parent_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **.test_use_explicit_o2o_to_parent_as_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **.test_abstract_base_class_m2m_relation_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **.test_filter_with_parent_fk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **.test_id_field_update_on_ancestor_change()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **.test_inheritance_joins()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **.test_inheritance_resolve_columns()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **.test_inheritance_select_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **.test_inherited_nullable_exclude()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **.test_issue_21554()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **.test_issue_7105()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **.test_ptr_accessor_assigns_state()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **.test_queries_on_parent_access()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **.test_related_filtering_query_efficiency_ticket_15844()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **.test_use_explicit_o2o_to_parent_from_abstract_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **expectedFailure** (1 connections)
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 269](Community_269.md) (44 shared connections)
-- [Community 173](Community_173.md) (37 shared connections)
-- [Community 114](Community_114.md) (24 shared connections)
-- [Community 223](Community_223.md) (14 shared connections)
-- [Community 622](Community_622.md) (9 shared connections)
-- [Community 254](Community_254.md) (9 shared connections)
-- [Community 621](Community_621.md) (8 shared connections)
-- [Community 623](Community_623.md) (8 shared connections)
-- [Community 624](Community_624.md) (8 shared connections)
-- [Community 585](Community_585.md) (8 shared connections)
-- [Community 824](Community_824.md) (4 shared connections)
-- [Community 694](Community_694.md) (1 shared connections)
+- [Community 696](Community_696.md) (10 shared connections)
+- [Community 697](Community_697.md) (9 shared connections)
+- [Community 492](Community_492.md) (8 shared connections)
+- [Community 1128](Community_1128.md) (2 shared connections)
+- [Community 1129](Community_1129.md) (2 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 1090](Community_1090.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 236 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 40 (61%)
+- INFERRED: 26 (39%)
 - AMBIGUOUS: 0 (0%)
 
 ---

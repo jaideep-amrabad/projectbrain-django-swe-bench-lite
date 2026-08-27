@@ -1,44 +1,44 @@
 # Community 781
 
-> 10 nodes · cohesion 0.24
+> 15 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **test_history_view.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
-- **AdminHistoryViewTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
-- **City** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **State** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.test_changed_message_uses_form_lables()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
-- **CityInlineAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.get_absolute_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
-- **Admin's model history change messages use form labels instead of field names.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
+- **.authenticate()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **AuthenticateTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **CustomUserModelBackendAuthenticateTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_skips_backends_without_arguments()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_type_error_raised()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_authentication_timing()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_authentication_without_credentials()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_authenticates()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.test_authenticate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **SkippedBackend** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **Hasher is run once regardless of whether the user exists. Refs #20760.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **The model backend can accept a credentials kwarg labeled with custom user…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **A TypeError within a backend is propagated properly (#18171).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
+- **A backend (SkippedBackend) is ignored if it doesn't accept the credentials as…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
 
 ## Relationships
 
-- [Community 66](Community_66.md) (3 shared connections)
-- [Community 89](Community_89.md) (3 shared connections)
-- [Community 219](Community_219.md) (2 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 12](Community_12.md) (2 shared connections)
-- [Community 16](Community_16.md) (2 shared connections)
-- [Community 586](Community_586.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
+- [Community 7](Community_7.md) (5 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 41](Community_41.md) (2 shared connections)
+- [Community 151](Community_151.md) (2 shared connections)
+- [Community 951](Community_951.md) (2 shared connections)
+- [Community 1115](Community_1115.md) (2 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 1198](Community_1198.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_history_view.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_auth_backends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (84%)
-- INFERRED: 5 (16%)
+- EXTRACTED: 33 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,49 +1,60 @@
 # Community 372
 
-> 30 nodes · cohesion 0.07
+> 30 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **LazyStream** (12 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **BoundaryIter** (7 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **InterBoundaryIter** (6 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **InputStreamExhausted** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **._update_unget_history()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **._find_boundary()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.__next__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.unget()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.__next__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.__next__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **Exception** (2 connections)
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.read()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **.tell()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **The LazyStream wrapper allows one to get and "unget" bytes from a stream. Given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **No more reads are allowed from this device.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **Every LazyStream must have a producer when instantiated. A producer is an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **Used when the exact number of bytes to read is unimportant. Return whatever…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **Used to invalidate/disable this lazy stream. Replace the producer with an empty…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- **custom_lookups/tests.py** (43 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **custom_lookups/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
+- **DateTimeLookupTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **MySQLUnixTimestamp** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
+- **.test_datetime_output_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **Div3Transform** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **Article** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
+- **DateTimeTransform** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **Div3Lookup** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **Exactly** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **InMonth** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **Div3BilateralTransform** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **LastDigitTransform** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **Mult3BilateralTransform** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **UpperBilateralTransform** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
+- **CustomModel** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.output_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.as_oracle()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.as_oracle()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.get_rhs_op()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
 - *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 20](Community_20.md) (6 shared connections)
-- [Community 292](Community_292.md) (2 shared connections)
+- [Community 63](Community_63.md) (11 shared connections)
+- [Community 508](Community_508.md) (7 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 17](Community_17.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
+- [Community 41](Community_41.md) (2 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 788](Community_788.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 1025](Community_1025.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 68 (96%)
+- INFERRED: 3 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,24 +1,35 @@
 # Community 967
 
-> 2 nodes · cohesion 1.00
+> 10 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **.last_insert_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **Given a cursor object that has just performed an INSERT statement into a table…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **inspectdb/models.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **PeopleMoreData** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **SpecialName** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **UniqueTogether** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **ColumnTypes** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **DigitsInColumnName** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **Message** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **People** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
+- **PeopleData** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
 
 ## Relationships
 
-- [Community 119](Community_119.md) (1 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 202](Community_202.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/inspectdb/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 14 (93%)
+- INFERRED: 1 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

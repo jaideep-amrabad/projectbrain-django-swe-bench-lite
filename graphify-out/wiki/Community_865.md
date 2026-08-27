@@ -1,31 +1,36 @@
 # Community 865
 
-> 7 nodes · cohesion 0.29
+> 9 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **FormMixinTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_initial_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_get_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_get_context_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **.test_get_form()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **Test instance independence of initial data dict (see #16138)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
-- **Test prefix can be set (see #18872)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- **Person** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
+- **GetOrCreateTransactionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **UpdateOrCreateTransactionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_get_or_create_integrityerror()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_creation_in_transaction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_updates_in_transaction()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **Objects are selected and updated in a transaction to avoid race conditions.…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
+- **Regression test for #15117. Requires a TransactionTestCase on databases that…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
 
 ## Relationships
 
-- [Community 347](Community_347.md) (2 shared connections)
-- [Community 118](Community_118.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 534](Community_534.md) (5 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 28](Community_28.md) (2 shared connections)
+- [Community 558](Community_558.md) (1 shared connections)
+- [Community 559](Community_559.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_edit.py`
+- `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (90%)
-- INFERRED: 1 (10%)
+- EXTRACTED: 16 (76%)
+- INFERRED: 5 (24%)
 - AMBIGUOUS: 0 (0%)
 
 ---

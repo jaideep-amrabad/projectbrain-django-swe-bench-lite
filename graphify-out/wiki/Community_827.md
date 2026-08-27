@@ -1,32 +1,36 @@
 # Community 827
 
-> 9 nodes · cohesion 0.22
+> 10 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **SplitDateTimeWidgetTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
-- **.test_formatting()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
-- **.test_constructor_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
-- **.test_constructor_different_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
-- **.test_render_datetime()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
-- **Use 'date_format' and 'time_format' to change the way a value is displayed.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
-- **.test_render_date_and_time()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
-- **.test_render_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
-- **.test_render_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
+- **m2m_multiple/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/tests.py`
+- **m2m_multiple/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
+- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
+- **Category** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
+- **M2MMultipleTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/tests.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
+- **.test_multiple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
+- **Multiple many-to-many relationships between the same two tables In this…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
 
 ## Relationships
 
-- [Community 15](Community_15.md) (5 shared connections)
-- [Community 72](Community_72.md) (4 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 41](Community_41.md) (2 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_splitdatetimewidget.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_multiple/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (59%)
-- INFERRED: 7 (41%)
+- EXTRACTED: 18 (86%)
+- INFERRED: 3 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

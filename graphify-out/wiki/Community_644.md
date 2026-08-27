@@ -1,40 +1,45 @@
 # Community 644
 
-> 15 nodes · cohesion 0.13
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **LoginRedirectAuthenticatedUser** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_redirect_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_redirect_loop()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_redirect_param()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_guest()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_permission_required_logged_in()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_permission_required_not_logged_in()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **Stay on the login page by default.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **If not logged in, stay on the same page.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **If logged in, go to default redirected URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **If logged in, go to custom redirected URL.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **If next is specified as a GET parameter, go there.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **Detect a redirect loop if LOGIN_REDIRECT_URL is not correctly set, with and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **CharFieldTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
+- **.test_charfield_widget_attrs()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
+- **.test_charfield_length_not_int()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
+- **.test_charfield_strip()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
+- **.test_clean_non_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
+- **.test_strip_before_checking_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
+- **.test_charfield_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
+- **.test_charfield_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
+- **.test_charfield_3()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
+- **.test_charfield_4()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
+- **.test_charfield_5()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
+- **.test_charfield_disabled()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
+- **.test_null_characters_prohibited()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
+- **Values have whitespace stripped but not if strip=False.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
+- **A whitespace-only value, ' ', is stripped to an empty string and then converted…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
+- **CharField.clean() calls str(value) before stripping it.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
+- **Setting min_length or max_length to something that is not a number raises an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
+- **CharField.widget_attrs() always returns a dictionary and includes…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
 
 ## Relationships
 
-- [Community 355](Community_355.md) (6 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 589](Community_589.md) (1 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
+- [Community 26](Community_26.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 208](Community_208.md) (1 shared connections)
+- [Community 270](Community_270.md) (1 shared connections)
+- [Community 324](Community_324.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_charfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 20 (83%)
+- INFERRED: 4 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

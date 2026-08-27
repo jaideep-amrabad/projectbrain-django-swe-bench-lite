@@ -1,27 +1,27 @@
 # Community 1046
 
-> 3 nodes · cohesion 0.67
+> 5 nodes · cohesion 0.60
 
 ## Key Concepts
 
-- **FunkyTag** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Because we all know there's only one real use case for GFKs.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **BuiltinsTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_builtins.py`
+- **setup** (3 connections)
+- **.test_builtins01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_builtins.py`
+- **.test_builtins02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_builtins.py`
+- **.test_builtins03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_builtins.py`
 
 ## Relationships
 
-- [Community 66](Community_66.md) (1 shared connections)
-- [Community 89](Community_89.md) (1 shared connections)
-- [Community 40](Community_40.md) (1 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_builtins.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (80%)
-- INFERRED: 1 (20%)
+- EXTRACTED: 8 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

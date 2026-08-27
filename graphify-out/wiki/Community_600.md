@@ -1,26 +1,32 @@
 # Community 600
 
-> 5 nodes · cohesion 0.40
+> 9 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **TestSingleEnclosureAtomFeed** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **A feed to test that Atom feeds work with a single enclosure.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.item_enclosure_size()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.item_enclosure_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
-- **.item_mime_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- **citext.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **CIText** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **CICharField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **CIEmailField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **CITextField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **CharField** (1 connections)
+- **EmailField** (1 connections)
+- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
+- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
 
 ## Relationships
 
-- [Community 236](Community_236.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 22](Community_22.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/feeds.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/citext.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 14 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,8 +1,8 @@
 # reverse()
 
-> God node · 363 connections · `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+> God node · 362 connections · `raw/code/hyd-evaluation/django-django/django/urls/base.py`
 
-**Community:** [Community 16](Community_16.md)
+**Community:** [Community 15](Community_15.md)
 
 ## Connections by Relation
 
@@ -51,7 +51,7 @@
 - proxy_models/tests.py `EXTRACTED`
 - auth/admin.py `EXTRACTED`
 - main.py `EXTRACTED`
-- patterns/tests.py `EXTRACTED`
+- generic_inline_admin/tests.py `EXTRACTED`
 
 ---
 

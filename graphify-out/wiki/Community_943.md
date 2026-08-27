@@ -1,26 +1,35 @@
 # Community 943
 
-> 4 nodes · cohesion 0.50
+> 10 nodes · cohesion 0.27
 
 ## Key Concepts
 
-- **.test_session_modifying_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_session_engine_is_invalid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_sessions_app_is_not_installed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **Request a page that modifies the session** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **pbkdf2()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
+- **test_crypto.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
+- **TestUtilsCryptoPBKDF2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
+- **.encode()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **TestUtilsCryptoMisc** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
+- **.test_constant_time_compare()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
+- **.test_default_hmac_alg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
+- **.test_public_vectors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
+- **.test_regression_vectors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
+- **Return the hash of password using pbkdf2.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
 
 ## Relationships
 
-- [Community 47](Community_47.md) (3 shared connections)
-- [Community 12](Community_12.md) (2 shared connections)
+- [Community 406](Community_406.md) (4 shared connections)
+- [Community 797](Community_797.md) (2 shared connections)
+- [Community 257](Community_257.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 19 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

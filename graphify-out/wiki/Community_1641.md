@@ -1,24 +1,22 @@
 # Community 1641
 
-> 2 nodes · cohesion 1.00
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **UndeletableObject** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Model whose show_delete in admin change_view has been disabled Refs #10057.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **model_inheritance_regress/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/__init__.py`
 
 ## Relationships
 
-- [Community 65](Community_65.md) (1 shared connections)
-- [Community 95](Community_95.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

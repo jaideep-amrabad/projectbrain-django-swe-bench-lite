@@ -1,52 +1,53 @@
 # Community 284
 
-> 39 nodes · cohesion 0.05
+> 37 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **M2mThroughTests** (47 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_query_model_by_intermediate_can_return_non_unique_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_add_on_m2m_with_intermediate_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_add_on_m2m_with_intermediate_model_value_required()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_add_on_m2m_with_intermediate_model_value_required_fails()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_add_on_reverse_m2m_with_intermediate_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_clear_on_reverse_removes_all_the_m2m_relationships()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_clear_removes_all_the_m2m_relationships()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_create_on_m2m_with_intermediate_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_create_on_m2m_with_intermediate_model_value_required()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_create_on_m2m_with_intermediate_model_value_required_fails()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_create_on_reverse_m2m_with_intermediate_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_custom_related_name_doesnt_conflict_with_fky_related_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_custom_related_name_forward_empty_qs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_custom_related_name_forward_non_empty_qs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_custom_related_name_reverse_empty_qs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_custom_related_name_reverse_non_empty_qs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_filter_on_intermediate_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_get_on_intermediate_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_get_or_create_on_m2m_with_intermediate_model_value_required()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_get_or_create_on_m2m_with_intermediate_model_value_required_fails()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_order_by_relational_field_through_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_query_first_model_by_intermediate_model_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **.test_query_model_by_attribute_name_of_related_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- *... and 14 more nodes in this community*
+- **IntrospectionTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **introspection/tests.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **introspection/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **Reporter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **ArticleReporter** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **City** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **Comment** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **District** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **.test_get_constraints_indexes_orders()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_get_relations_alt_format()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_bigautofield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_get_key_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_get_relations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_postgresql_real_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_table_names_with_views()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- **.test_django_table_names()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_django_table_names_retval_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_get_constraints()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- **.test_get_constraints_index_types()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 764](Community_764.md) (4 shared connections)
-- [Community 564](Community_564.md) (3 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
-- [Community 1146](Community_1146.md) (1 shared connections)
-- [Community 72](Community_72.md) (1 shared connections)
+- [Community 28](Community_28.md) (6 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 210](Community_210.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/introspection/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/introspection/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 41 (85%)
-- INFERRED: 7 (15%)
+- EXTRACTED: 60 (90%)
+- INFERRED: 7 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

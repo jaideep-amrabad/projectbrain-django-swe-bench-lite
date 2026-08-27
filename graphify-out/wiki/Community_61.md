@@ -1,61 +1,76 @@
 # Community 61
 
-> 63 nodes · cohesion 0.04
+> 77 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **.formfield()** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **SlugField** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.deconstruct()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.__init__()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **GenericIPAddressField** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **AutoFieldMixin** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **FilePathField** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.check()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **IPAddressField** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **EmailField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **URLField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.test_index_together()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.clone()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.check()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.test_EmailField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
-- **.test_FilePathField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
-- **.test_GenericIPAddressField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
-- **.test_IPAddressField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
-- **.test_SlugField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
-- **.test_URLField()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
-- **.test_unique()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.test_unique_together()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **._check_primary_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- *... and 38 more nodes in this community*
+- **skipIfDBFeature()** (74 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **timezones/tests.py** (51 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **test_ordinary_fields.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **now()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **BaseDatabaseValidation** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/validation.py`
+- **timezones/models.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
+- **timezones/forms.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
+- **DatabaseValidation** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/validation.py`
+- **timezones/admin.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/admin.py`
+- **oracle/validation.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/validation.py`
+- **.as_string()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **DatabaseOperationTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- **DateFieldTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **Timestamp** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
+- **DatabaseValidation** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/validation.py`
+- **_deferredSkip()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **AutoFieldTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **BinaryFieldTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **DateTimeFieldTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **TimeFieldTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **.test_fix_default_value()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **base/validation.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/validation.py`
+- **.test_field_rename_inside_atomic_block()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- **FilePathFieldTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **GenericIPAddressFieldTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- *... and 52 more nodes in this community*
 
 ## Relationships
 
-- [Community 262](Community_262.md) (18 shared connections)
-- [Community 200](Community_200.md) (11 shared connections)
-- [Community 135](Community_135.md) (10 shared connections)
-- [Community 6](Community_6.md) (7 shared connections)
-- [Community 268](Community_268.md) (7 shared connections)
-- [Community 124](Community_124.md) (6 shared connections)
-- [Community 75](Community_75.md) (6 shared connections)
-- [Community 103](Community_103.md) (6 shared connections)
-- [Community 299](Community_299.md) (4 shared connections)
-- [Community 687](Community_687.md) (2 shared connections)
-- [Community 645](Community_645.md) (2 shared connections)
-- [Community 468](Community_468.md) (2 shared connections)
+- [Community 3](Community_3.md) (28 shared connections)
+- [Community 121](Community_121.md) (27 shared connections)
+- [Community 0](Community_0.md) (18 shared connections)
+- [Community 28](Community_28.md) (17 shared connections)
+- [Community 8](Community_8.md) (13 shared connections)
+- [Community 4](Community_4.md) (8 shared connections)
+- [Community 41](Community_41.md) (7 shared connections)
+- [Community 17](Community_17.md) (7 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 7](Community_7.md) (5 shared connections)
+- [Community 13](Community_13.md) (4 shared connections)
+- [Community 74](Community_74.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_promises.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/validation.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/validation.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/validation.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/base/test_operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/datetime/test_extract_trunc.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_foreignkey.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/timezones/urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 161 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 291 (93%)
+- INFERRED: 23 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

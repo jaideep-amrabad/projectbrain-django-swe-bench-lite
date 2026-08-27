@@ -1,54 +1,56 @@
 # Community 335
 
-> 37 nodes · cohesion 0.06
+> 32 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **Feature** (24 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- **.__getitem__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- **.index()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- **.name()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
-- **._make_feature()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **.fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- **.geom()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- **.geom_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- **.layer_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **.__iter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **.__eq__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- **.fid()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- **.__len__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- **.num_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- **.encoding()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- **Return the value of the field, instead of an instance of the Field object. May…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- **Return the index of the given field name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- **This class that wraps an OGR Feature, needs to be instantiated from a Layer…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- **Initialize Feature from a pointer and its Layer object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- **Get the Field object at the specified index, which may be either an integer or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- **Return the count of fields in this feature.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- *... and 12 more nodes in this community*
+- **BoundField** (28 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.as_widget()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.value()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.subwidgets()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.as_hidden()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.as_text()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.as_textarea()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.__str__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.build_widget_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.auto_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.css_classes()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.data()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.id_for_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.is_hidden()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **Return a string of HTML for representing this as an <input type="text">.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **Return a string of HTML for representing this as an <input type="hidden">.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **Return the data for this BoundField, or None if it wasn't given.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **Return the value for this BoundField, using the initial value if the form is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- **Return a string of space-separated CSS classes for this field.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 56](Community_56.md) (10 shared connections)
-- [Community 151](Community_151.md) (3 shared connections)
-- [Community 145](Community_145.md) (3 shared connections)
-- [Community 31](Community_31.md) (2 shared connections)
-- [Community 150](Community_150.md) (1 shared connections)
+- [Community 88](Community_88.md) (6 shared connections)
+- [Community 97](Community_97.md) (2 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 109](Community_109.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 208](Community_208.md) (1 shared connections)
+- [Community 270](Community_270.md) (1 shared connections)
+- [Community 182](Community_182.md) (1 shared connections)
+- [Community 324](Community_324.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 50 (89%)
-- INFERRED: 6 (11%)
+- EXTRACTED: 53 (95%)
+- INFERRED: 3 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,44 +1,53 @@
 # Community 468
 
-> 15 nodes · cohesion 0.20
+> 23 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **clean_ipv6_address()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
-- **is_valid_ipv6_address()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
-- **TestUtilsIPv6** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **test_ipv6.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **.get_prep_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.test_cleans_plain_address()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **.test_cleans_with_v4_mapping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **.test_unpacks_ipv4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **.test_validates_correct_plain_address()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **.test_validates_correct_with_v4mapping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **.test_validates_incorrect_plain_address()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **.test_validates_incorrect_with_v4mapping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
-- **Return whether or not the `ip_str` string is a valid IPv6 address.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
-- **Clean an IPv6 address string. Raise ValidationError if the address is invalid.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
+- **BackendTestCase** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.create_squares()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.create_squares_with_executemany()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_cursor_executemany_with_pyformat_iterator()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_cursor_execute_with_pyformat()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_cursor_executemany_with_iterator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_cursor_executemany_with_pyformat()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_database_operations_init()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_is_usable_after_database_disconnects()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_cursor_contextmanager()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_cursor_contextmanager_closing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_cursor_executemany()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_cursor_executemany_with_empty_params_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_database_operations_helper_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_duplicate_table_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_cached_db_features()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_timezone_none_use_tz_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_unicode_password()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **skipUnless** (1 connections)
+- **DatabaseOperations initialization doesn't query the database. See #17656.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **Creating an existing table returns a DatabaseError** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **Cursors can be used as a context manager** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **is_usable() doesn't crash when the database disconnects (#21553).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
 
 ## Relationships
 
-- [Community 15](Community_15.md) (5 shared connections)
-- [Community 61](Community_61.md) (2 shared connections)
-- [Community 130](Community_130.md) (2 shared connections)
-- [Community 200](Community_200.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
+- [Community 28](Community_28.md) (4 shared connections)
+- [Community 14](Community_14.md) (3 shared connections)
+- [Community 752](Community_752.md) (2 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 306](Community_306.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 252](Community_252.md) (1 shared connections)
+- [Community 818](Community_818.md) (1 shared connections)
+- [Community 688](Community_688.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/ipv6.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_ipv6.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 40 (89%)
+- INFERRED: 5 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

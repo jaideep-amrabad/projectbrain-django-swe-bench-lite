@@ -1,35 +1,35 @@
 # Community 732
 
-> 12 nodes · cohesion 0.20
+> 13 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **HorizontalVerticalFilterSeleniumTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.execute_basic_operations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_back_button_bug()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_basic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_filter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.test_refresh_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.assertActiveButtons()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **Typing in the search box filters out options displayed in the 'from' box.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **Some browsers had a bug where navigating away from the change page and then…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
-- **Horizontal and vertical filter widgets keep selected options on page reload…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **LoadTagTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_load.py`
+- **setup** (11 connections)
+- **.test_load01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_load.py`
+- **.test_load02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_load.py`
+- **.test_load03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_load.py`
+- **.test_load04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_load.py`
+- **.test_load05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_load.py`
+- **.test_load06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_load.py`
+- **.test_load07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_load.py`
+- **.test_load08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_load.py`
+- **.test_load09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_load.py`
+- **.test_load10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_load.py`
+- **.test_load12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_load.py`
 
 ## Relationships
 
-- [Community 55](Community_55.md) (5 shared connections)
-- [Community 16](Community_16.md) (4 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_load.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (91%)
-- INFERRED: 2 (9%)
+- EXTRACTED: 24 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

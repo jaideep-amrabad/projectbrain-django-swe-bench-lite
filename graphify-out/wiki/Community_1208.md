@@ -1,23 +1,30 @@
 # Community 1208
 
-> 1 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **osm.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/templates/gis/admin/osm.js`
+- **InsertQuery** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **.test_sql_insert_compiler_return_id_attribute()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
+- **.insert_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- **Regression test for #14019: SQLInsertCompiler.as_sql() failure** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
+- [Community 544](Community_544.md) (1 shared connections)
+- [Community 262](Community_262.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/templates/gis/admin/osm.js`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/subqueries.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 6 (86%)
+- INFERRED: 1 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

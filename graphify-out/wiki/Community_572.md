@@ -1,48 +1,49 @@
 # Community 572
 
-> 17 nodes · cohesion 0.12
+> 18 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **DatabaseWrapper** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **CursorDebugWrapper** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **.check_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **.chunked_cursor()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **.ensure_timezone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **.get_connection_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **.get_new_connection()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **.init_connection_state()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **.make_debug_cursor()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **BaseCursorDebugWrapper** (1 connections)
-- **.copy_expert()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **.copy_to()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **.is_usable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **._nodb_connection()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **.pg_version()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **._set_autocommit()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- **Check constraints by setting them to immediate. Return them to deferred…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **StateApps** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **InvalidBasesError** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
+- **AppConfigStub** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **.__init__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **.render_multiple()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **ValueError** (2 connections)
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **.concrete_apps()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **.bulk_update()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **.clone()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **.register_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **A model's base classes can't be resolved.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
+- **.import_models()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **Stub of an AppConfig. Only provides a label and a dict of models.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **Subclass of the global Apps registry class to better handle dynamic model…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **Return a clone of this registry.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **.unregister_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (4 shared connections)
-- [Community 88](Community_88.md) (4 shared connections)
-- [Community 20](Community_20.md) (2 shared connections)
-- [Community 562](Community_562.md) (1 shared connections)
-- [Community 417](Community_417.md) (1 shared connections)
-- [Community 681](Community_681.md) (1 shared connections)
-- [Community 930](Community_930.md) (1 shared connections)
-- [Community 519](Community_519.md) (1 shared connections)
-- [Community 246](Community_246.md) (1 shared connections)
-- [Community 291](Community_291.md) (1 shared connections)
+- [Community 4](Community_4.md) (6 shared connections)
+- [Community 55](Community_55.md) (3 shared connections)
+- [Community 25](Community_25.md) (2 shared connections)
+- [Community 1059](Community_1059.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 351](Community_351.md) (1 shared connections)
+- [Community 483](Community_483.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 74](Community_74.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (79%)
-- INFERRED: 7 (21%)
+- EXTRACTED: 37 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

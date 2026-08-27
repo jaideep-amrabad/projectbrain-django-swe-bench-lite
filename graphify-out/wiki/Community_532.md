@@ -1,42 +1,44 @@
 # Community 532
 
-> 19 nodes · cohesion 0.12
+> 20 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **Page** (15 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **ValidAdjacentNumsPage** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
-- **.has_other_pages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.end_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.has_next()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.has_previous()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.start_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **._get_page()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
-- **Page** (1 connections)
-- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.next_page_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.previous_page_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **Return the 1-based index of the first object on this page, relative to total…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **Return the 1-based index of the last object on this page, relative to total…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- **.next_page_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
-- **.previous_page_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
+- **toolbarModuleFilter()** (9 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **toggleClass()** (6 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **toolbarUrlConfigContainer()** (6 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **addClass()** (5 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **addEvent()** (5 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **appendToolbar()** (5 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **toolbarLooseFilter()** (5 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **applyUrlParams()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **interceptNavigation()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **setUrl()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **toolbarChanged()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **selectionChange()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **addEvents()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **getUrlConfigHtml()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **hasClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **removeClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **searchFocus()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **hideHandler()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **removeEvent()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **searchInput()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
 
 ## Relationships
 
-- [Community 133](Community_133.md) (5 shared connections)
+- [Community 292](Community_292.md) (16 shared connections)
+- [Community 750](Community_750.md) (4 shared connections)
+- [Community 784](Community_784.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
-- `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
+- `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 44 (85%)
+- INFERRED: 8 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

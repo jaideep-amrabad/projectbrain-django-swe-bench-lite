@@ -1,35 +1,36 @@
 # Community 764
 
-> 11 nodes · cohesion 0.18
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **Meta** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **CustomMembership** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **Employee** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **Group** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **Membership** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **Person** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- **GenericRelationTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_custom_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_traverse_GFK()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_charfield_GFK()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_generic_relation()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_nullable_GFK()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_prefetch_GFK()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_prefetch_GFK_fk_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_prefetch_GFK_nonint_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **.test_prefetch_GFK_uuid_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
+- **A 'content_object' can be traversed with prefetch_related() and get to related…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
 
 ## Relationships
 
-- [Community 564](Community_564.md) (12 shared connections)
-- [Community 284](Community_284.md) (4 shared connections)
-- [Community 794](Community_794.md) (1 shared connections)
+- [Community 76](Community_76.md) (8 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 334](Community_334.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/m2m_through/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (81%)
-- INFERRED: 5 (19%)
+- EXTRACTED: 14 (67%)
+- INFERRED: 7 (33%)
 - AMBIGUOUS: 0 (0%)
 
 ---

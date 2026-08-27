@@ -1,61 +1,67 @@
 # Community 112
 
-> 76 nodes · cohesion 0.04
+> 97 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **EmailMessage** (75 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **MailTests** (51 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.get_decoded_attachments()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.send()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.test_encoding()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_attach_non_utf8_text_as_bytes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_attach_utf8_text_as_bytes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_custom_utf8_encoding()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_message_header_overrides()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.recipients()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **.test_attach_file()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_attach_text_as_bytes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_attachments_MIMEText()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_attachments_two_tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_cc()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_custom_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_dummy_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_from_header()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_multiple_message_call()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_non_ascii_attachment_filename()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_non_ascii_dns_non_unicode_email()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_recipients_with_empty_strings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_reply_to_header()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_space_continuation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_to_header()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- *... and 51 more nodes in this community*
+- **layermapping.py** (35 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
+- **Field** (33 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **DataSource** (32 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/datasource.py`
+- **field.py** (30 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **test_ds.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
+- **utils/ogrinspect.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
+- **gis/utils/__init__.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/__init__.py`
+- **DataSourceTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
+- **OFTInteger** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **OFTDateTime** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **OFTDate** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **OFTReal** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **OFTTime** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **.as_datetime()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **OFTString** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **mapping()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
+- **add_srs_entry()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/srs.py`
+- **.test06_spatial_filter()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
+- **OFTInteger64** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **utils/srs.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/srs.py`
+- **.as_string()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **.value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- **ogrinfo()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinfo.py`
+- **get_ds_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
+- **.as_double()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- *... and 72 more nodes in this community*
 
 ## Relationships
 
-- [Community 234](Community_234.md) (13 shared connections)
-- [Community 181](Community_181.md) (11 shared connections)
-- [Community 276](Community_276.md) (9 shared connections)
-- [Community 847](Community_847.md) (3 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 561](Community_561.md) (2 shared connections)
-- [Community 512](Community_512.md) (2 shared connections)
-- [Community 936](Community_936.md) (2 shared connections)
-- [Community 66](Community_66.md) (2 shared connections)
-- [Community 344](Community_344.md) (1 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 44](Community_44.md) (33 shared connections)
+- [Community 69](Community_69.md) (20 shared connections)
+- [Community 487](Community_487.md) (8 shared connections)
+- [Community 257](Community_257.md) (6 shared connections)
+- [Community 45](Community_45.md) (5 shared connections)
+- [Community 33](Community_33.md) (4 shared connections)
+- [Community 17](Community_17.md) (3 shared connections)
+- [Community 72](Community_72.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
+- [Community 108](Community_108.md) (2 shared connections)
+- [Community 71](Community_71.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/datasource.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/field.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/layermapping.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinfo.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinspect.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/srs.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
 
 ## Audit Trail
 
-- EXTRACTED: 165 (98%)
-- INFERRED: 3 (2%)
+- EXTRACTED: 237 (94%)
+- INFERRED: 16 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

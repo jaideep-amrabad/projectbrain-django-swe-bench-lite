@@ -1,34 +1,37 @@
 # Community 751
 
-> 10 nodes · cohesion 0.20
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **WeekArchiveViewTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_aware_datetime_week_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_datetime_week_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_unknown_week_format()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_week_start_Monday()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_week_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_week_view_allow_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_week_view_allow_future()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_week_view_invalid_pattern()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
-- **.test_week_view_paginated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **AuthContextProcessorTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.test_user_attrs()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.test_session_is_accessed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.test_session_not_accessed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.test_message_attrs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.test_perm_in_perms_attrs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.test_perms_attrs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **The lazy objects returned behave just like the wrapped objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **Tests for the ``django.contrib.auth.context_processors.auth`` processor** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **The session is not accessed simply by including the auth context processor** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **The session is accessed if the auth context processor is used and relevant…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
 
 ## Relationships
 
-- [Community 118](Community_118.md) (4 shared connections)
-- [Community 12](Community_12.md) (2 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
 
 ## Audit Trail
 
-- EXTRACTED: 14 (88%)
-- INFERRED: 2 (12%)
+- EXTRACTED: 17 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

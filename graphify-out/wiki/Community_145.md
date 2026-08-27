@@ -1,68 +1,64 @@
 # Community 145
 
-> 55 nodes · cohesion 0.05
+> 50 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **force_str()** (51 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **test_encoding.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
-- **TestEncodingUtils** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
-- **repercent_broken_unicode()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **uri_to_iri()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **.__init__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- **DjangoUnicodeDecodeError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **filepath_to_uri()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **smart_str()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **smart_bytes()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **TestRFC3987IEncodingUtils** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- **get_system_encoding()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/datasource.py`
-- **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/driver.py`
-- **.fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
-- **.units()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- **.test_force_bytes_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
-- **.test_force_str_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
-- **.test_force_str_lazy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
-- **.test_complementarity()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
-- **.url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **.test_force_bytes_encoding()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
-- *... and 30 more nodes in this community*
+- **MigrationQuestioner** (38 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **InteractiveMigrationQuestioner** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **Command** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
+- **.handle()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
+- **.handle_merge()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
+- **NonInteractiveMigrationQuestioner** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.test_rename_m2m_through_model()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_rename_model_with_renamed_rel_field()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **._ask_default()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **QuestionerTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
+- **.write_migration_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
+- **.timezone()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.ask_auto_now_add_addition()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.ask_not_null_addition()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.ask_not_null_alteration()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **._boolean_input()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **._choice_input()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.test_timedelta_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
+- **.ask_rename()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.ask_rename_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.ask_initial()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.test_ask_initial_with_disabled_migrations()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- **.ask_merge()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **.ask_auto_now_add_addition()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [Community 56](Community_56.md) (20 shared connections)
-- [Community 20](Community_20.md) (17 shared connections)
-- [Community 6](Community_6.md) (9 shared connections)
-- [Community 335](Community_335.md) (3 shared connections)
-- [Community 151](Community_151.md) (3 shared connections)
-- [Community 276](Community_276.md) (3 shared connections)
-- [Community 292](Community_292.md) (3 shared connections)
-- [Community 101](Community_101.md) (3 shared connections)
-- [Community 490](Community_490.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 74](Community_74.md) (2 shared connections)
-- [Community 134](Community_134.md) (2 shared connections)
+- [Community 25](Community_25.md) (22 shared connections)
+- [Community 4](Community_4.md) (17 shared connections)
+- [Community 106](Community_106.md) (5 shared connections)
+- [Community 14](Community_14.md) (4 shared connections)
+- [Community 548](Community_548.md) (3 shared connections)
+- [Community 351](Community_351.md) (1 shared connections)
+- [Community 55](Community_55.md) (1 shared connections)
+- [Community 221](Community_221.md) (1 shared connections)
+- [Community 483](Community_483.md) (1 shared connections)
+- [Community 60](Community_60.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 726](Community_726.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/datasource.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/driver.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/base.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_encoding.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemigrations.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/autodetector.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
 
 ## Audit Trail
 
-- EXTRACTED: 150 (96%)
-- INFERRED: 7 (4%)
+- EXTRACTED: 119 (89%)
+- INFERRED: 15 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,25 +1,27 @@
 # Community 1050
 
-> 3 nodes · cohesion 0.67
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **UsernameValidatorsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **.test_ascii_validator()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **.test_unicode_validator()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- **CustomOptionsTestRunner** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/runner.py`
+- **test_runner/runner.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/runner.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/runner.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/runner.py`
+- **.run_tests()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/runner.py`
 
 ## Relationships
 
-- [Community 159](Community_159.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 226](Community_226.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/runner.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

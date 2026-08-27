@@ -1,48 +1,48 @@
 # Community 501
 
-> 21 nodes · cohesion 0.10
+> 21 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **Meta** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Category** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Chapter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Plot** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **UserProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Color** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Color2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Pizza** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **PlotProxy** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ReadablePizza** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ReadOnlyPizza** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **FoodDelivery** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Language** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **CategoryInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **ChapterInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **User** (1 connections)
-- **Proxy a model with a different app_label.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **BaseStorageFinder** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **FileSystemFinder** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.list()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **DefaultStorageFinder** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.find_location()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.find()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.base_location()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- **.find()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.check()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **.list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **Find a requested static file in a location and return the found absolute path…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **List all files in all locations.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **A base static files finder to be used to extended with an own storage class.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **Look for files in the default file storage, if it's local.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **List all files of the storage.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **A static files finder that uses the default storage backend.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **A static files finder that uses the ``STATICFILES_DIRS`` setting to locate…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- **Look for files in the extra locations as defined in STATICFILES_DIRS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
 
 ## Relationships
 
-- [Community 66](Community_66.md) (14 shared connections)
-- [Community 89](Community_89.md) (13 shared connections)
-- [Community 378](Community_378.md) (1 shared connections)
-- [Community 586](Community_586.md) (1 shared connections)
-- [Community 40](Community_40.md) (1 shared connections)
+- [Community 2](Community_2.md) (6 shared connections)
+- [Community 220](Community_220.md) (3 shared connections)
+- [Community 481](Community_481.md) (2 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
+- [Community 847](Community_847.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
 
 ## Audit Trail
 
-- EXTRACTED: 48 (94%)
-- INFERRED: 3 (6%)
+- EXTRACTED: 33 (87%)
+- INFERRED: 5 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

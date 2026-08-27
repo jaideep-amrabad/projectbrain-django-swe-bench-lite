@@ -1,39 +1,37 @@
 # Community 683
 
-> 14 nodes · cohesion 0.24
+> 14 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **DateTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **setup** (10 connections)
-- **.test_date02_l10n()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_date01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_date02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_date03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_date04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_date05()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_date06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_date07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_date08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **.test_date09()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **Without arg and when USE_L10N is True, the active language's DATE_FORMAT is…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
-- **#9520: Make sure |date doesn't blow up on non-dates** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- **FileProxyMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
+- **TemporaryFile** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- **.__del__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- **Temporary file object constructor that supports reopening of the temporary file…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- **.__enter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- **.__exit__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- **.closed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
+- **.readable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
+- **.seekable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
+- **.writable()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
+- **A mixin class used to forward file methods to an underlaying file object. The…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
 
 ## Relationships
 
-- [Community 72](Community_72.md) (7 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 616](Community_616.md) (2 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (79%)
-- INFERRED: 7 (21%)
+- EXTRACTED: 19 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

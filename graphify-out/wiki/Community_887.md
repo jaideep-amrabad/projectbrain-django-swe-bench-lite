@@ -1,27 +1,34 @@
 # Community 887
 
-> 5 nodes · cohesion 0.40
+> 8 nodes · cohesion 0.36
 
 ## Key Concepts
 
-- **._get_new_session_key()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.exists()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **._get_or_create_session_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **Return session key that isn't being used.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **Return True if the given session_key already exists.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- **Cot** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **CotTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cot.py`
+- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cot.py`
+- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cot.py`
+- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cot.py`
+- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cot.py`
+- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cot.py`
+- **.as_oracle()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
 
 ## Relationships
 
-- [Community 165](Community_165.md) (3 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 277](Community_277.md) (1 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 63](Community_63.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_cot.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

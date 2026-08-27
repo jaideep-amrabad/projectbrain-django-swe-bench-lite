@@ -1,59 +1,66 @@
 # Community 241
 
-> 44 nodes · cohesion 0.11
+> 44 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **BulkCreateTests** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **bulk_create/tests.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **bulk_create/models.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **TwoFields** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **Country** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **ProxyCountry** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **Restaurant** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **ProxyMultiCountry** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **ProxyMultiProxyCountry** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **ProxyProxyCountry** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **State** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **Pizzeria** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **.test_bulk_insert_expressions()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **.test_large_batch_mixed_efficiency()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **NoFields** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **NullableFields** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **.test_large_batch_efficiency()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **.test_long_non_ascii_text()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **.test_multi_table_inheritance_unsupported()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **.test_proxy_inheritance_supported()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **.test_zero_as_autoval()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **Place** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- **.test_bulk_insert_nullable_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
-- **.test_explicit_batch_size_efficiency()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **StreamingHttpResponse** (32 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **FileResponse** (26 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **FileResponseTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
+- **.__init__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.test_conditional_content_removal()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/test_conditional_content_removal.py`
+- **.set_headers()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **conditional_content_removal()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **._set_streaming_content()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **._wrap_file_to_stream_close()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.streaming_content()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **StreamingHttpResponseTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_compressed_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
+- **.test_file_from_named_pipe_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
+- **.test_unicode_attachment()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
+- **ConditionalContentTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/test_conditional_content_removal.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **download()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.test_streaming_response()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- **.test_file_from_buffer_response()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
+- **.test_file_from_buffer_unnamed_attachment()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
 - *... and 19 more nodes in this community*
 
 ## Relationships
 
-- [Community 38](Community_38.md) (17 shared connections)
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 51](Community_51.md) (5 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 37](Community_37.md) (2 shared connections)
-- [Community 72](Community_72.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 262](Community_262.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 11](Community_11.md) (21 shared connections)
+- [Community 50](Community_50.md) (6 shared connections)
+- [Community 214](Community_214.md) (4 shared connections)
+- [Community 8](Community_8.md) (3 shared connections)
+- [Community 337](Community_337.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 651](Community_651.md) (2 shared connections)
+- [Community 288](Community_288.md) (2 shared connections)
+- [Community 65](Community_65.md) (2 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 102](Community_102.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/responses/test_fileresponse.py`
+- `raw/code/hyd-evaluation/django-django/tests/servers/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/test_conditional_content_removal.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/middleware.py`
 
 ## Audit Trail
 
-- EXTRACTED: 127 (92%)
-- INFERRED: 11 (8%)
+- EXTRACTED: 107 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

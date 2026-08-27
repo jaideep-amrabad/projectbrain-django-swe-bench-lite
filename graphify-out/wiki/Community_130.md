@@ -1,67 +1,55 @@
 # Community 130
 
-> 96 nodes · cohesion 0.04
+> 62 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **core/validators.py** (49 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **deconstructible()** (30 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deconstruct.py`
-- **validators/tests.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **postgres/validators.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
-- **RegexValidator** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **forms/array.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- **auth/validators.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/validators.py`
-- **BaseValidator** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **TestValidatorEquality** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **EmailValidator** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **MaxValueValidator** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **deconstruct.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deconstruct.py`
-- **MaxLengthValidator** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **MinValueValidator** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **DecimalValidator** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **FileExtensionValidator** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **MinLengthValidator** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **ProhibitNullCharactersValidator** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **validate_ipv46_address()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **TestValidators** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
-- **URLValidator** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **.test_serialize_class_based_validators()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **ArrayMaxLengthValidator** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
-- **validate_ipv6_address()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- **RangeMaxValueValidator** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
-- *... and 71 more nodes in this community*
+- **BulkUpdateTests** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
+- **Note** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **Queries6Tests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **BulkUpdateNoteTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
+- **Queries5Tests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **DisjunctiveFilterTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **CloneTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **RawQueriesTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.create_tags()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
+- **.test_evaluated_queryset_as_argument()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **GeneratorExpressionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_no_fields_cloning()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_no_model_options_cloning()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_foreign_keys_do_not_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
+- **.test_functions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
+- **.test_set_field_to_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
+- **.test_set_mixed_fields_to_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
+- **.test_unsaved_models()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
+- **.test_field_references()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
+- **.test_large_batch()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
+- **.test_ticket5261()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **Cloning a queryset does not get out of hand. While complete testing is…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
+- *... and 37 more nodes in this community*
 
 ## Relationships
 
-- [Community 15](Community_15.md) (23 shared connections)
-- [Community 8](Community_8.md) (10 shared connections)
-- [Community 110](Community_110.md) (10 shared connections)
-- [Community 20](Community_20.md) (7 shared connections)
-- [Community 4](Community_4.md) (6 shared connections)
-- [Community 101](Community_101.md) (6 shared connections)
-- [Community 5](Community_5.md) (3 shared connections)
-- [Community 334](Community_334.md) (3 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 369](Community_369.md) (3 shared connections)
-- [Community 276](Community_276.md) (3 shared connections)
-- [Community 166](Community_166.md) (3 shared connections)
+- [Community 10](Community_10.md) (41 shared connections)
+- [Community 41](Community_41.md) (7 shared connections)
+- [Community 12](Community_12.md) (3 shared connections)
+- [Community 20](Community_20.md) (3 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/validators.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
-- `raw/code/hyd-evaluation/django-django/django/core/validators.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/deconstruct.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
-- `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/test_bulk_update.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 284 (97%)
-- INFERRED: 10 (3%)
+- EXTRACTED: 86 (69%)
+- INFERRED: 38 (31%)
 - AMBIGUOUS: 0 (0%)
 
 ---

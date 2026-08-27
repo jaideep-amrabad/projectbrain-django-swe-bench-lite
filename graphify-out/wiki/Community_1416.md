@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **m2m_signals/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/__init__.py`
+- **bad_error_handlers_invalid_path.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/bad_error_handlers_invalid_path.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/m2m_signals/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/bad_error_handlers_invalid_path.py`
 
 ## Audit Trail
 

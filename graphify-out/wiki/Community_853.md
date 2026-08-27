@@ -1,31 +1,32 @@
 # Community 853
 
-> 8 nodes · cohesion 0.39
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **dependency_ordered()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **DependencyOrderingTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_chained_dependencies()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_circular_dependencies()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_multiple_dependencies()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_own_alias_dependency()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **.test_simple_dependencies()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
-- **Reorder test_databases into an order that honors the dependencies described in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **DatabaseErrorWrapper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.wrap_database_errors()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **Context manager and decorator that re-throws backend-specific database…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **.__call__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.__enter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **.__exit__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **Context manager and decorator that reraises backend-specific database…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **wrapper is a database wrapper. It must have a Database attribute defining…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (4 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 60](Community_60.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

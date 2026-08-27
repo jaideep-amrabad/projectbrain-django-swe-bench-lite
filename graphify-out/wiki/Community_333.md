@@ -1,56 +1,57 @@
 # Community 333
 
-> 33 nodes · cohesion 0.09
+> 30 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **check_url_config()** (22 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
-- **CheckUrlConfigTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **check_url_namespaces_unique()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
-- **get_warning_for_invalid_pattern()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
-- **check_resolver()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
-- **CheckCustomErrorHandlersTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **UpdatedToPathTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **_load_all_namespaces()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
-- **.test_no_root_urlconf_in_settings()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_bad_handlers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_bad_handlers_invalid_path()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_good_handlers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_beginning_with_slash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_beginning_with_slash_append_slash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_check_non_unique_namespaces()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_check_resolver_recursive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_check_unique_namespaces()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_contains_included_tuple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_contains_tuple_not_url_instance()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_include_with_dollar()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_name_with_colon()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_no_warnings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_no_warnings_i18n()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_beginning_with_caret()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- **.test_contains_re_named_group()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- *... and 8 more nodes in this community*
+- **Combinable** (37 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **._combine()** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **CombinableTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **.__add__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.bitand()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.bitleftshift()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.bitor()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.bitrightshift()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__mod__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__mul__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__neg__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__pow__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__radd__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__rmod__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__rmul__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__rpow__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__rsub__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__rtruediv__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__sub__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.__truediv__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **.test_and()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **.test_negation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **.test_or()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **.test_reversed_and()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **.test_reversed_or()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- *... and 5 more nodes in this community*
 
 ## Relationships
 
-- [Community 12](Community_12.md) (18 shared connections)
-- [Community 86](Community_86.md) (15 shared connections)
-- [Community 10](Community_10.md) (5 shared connections)
-- [Community 111](Community_111.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 24](Community_24.md) (2 shared connections)
+- [Community 20](Community_20.md) (3 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
+- [Community 138](Community_138.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 171](Community_171.md) (1 shared connections)
+- [Community 498](Community_498.md) (1 shared connections)
+- [Community 122](Community_122.md) (1 shared connections)
+- [Community 38](Community_38.md) (1 shared connections)
 - [Community 8](Community_8.md) (1 shared connections)
-- [Community 583](Community_583.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 89 (92%)
-- INFERRED: 8 (8%)
+- EXTRACTED: 61 (95%)
+- INFERRED: 3 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

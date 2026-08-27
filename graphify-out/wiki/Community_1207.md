@@ -1,22 +1,27 @@
 # Community 1207
 
-> 1 nodes · cohesion 1.00
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **openlayers.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/templates/gis/admin/openlayers.js`
+- **.check_related_objects()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **.check_query_object_type()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Check whether the object passed while querying is of the correct type. If not,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
+- **Check the type of object passed to query relations.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 45](Community_45.md) (2 shared connections)
+- [Community 19](Community_19.md) (2 shared connections)
+- [Community 302](Community_302.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/templates/gis/admin/openlayers.js`
+- `raw/code/hyd-evaluation/django-django/django/db/models/sql/query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

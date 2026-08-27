@@ -1,39 +1,37 @@
 # Community 664
 
-> 15 nodes · cohesion 0.17
+> 15 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **_AssertTemplateUsedContext** (9 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **_AssertTemplateNotUsedContext** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.__exit__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.assertTemplateNotUsed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.assertTemplateUsed()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **._assert_template_used()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.message()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.test()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **Assert that the template with the provided name was used in rendering the…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.__enter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.message()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.on_template_render()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **.test()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **ServerSideCursorsPostgres** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
+- **.assertUsesCursor()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
+- **.test_server_side_cursors_setting()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
+- **.asserNotUsesCursor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
+- **.inspect_cursors()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
+- **.override_db_setting()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
+- **.test_closed_server_side_cursor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
+- **.test_server_side_cursor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
+- **.test_server_side_cursor_many_cursors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
+- **.test_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
+- **.test_values_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
+- **.test_values_list_fields_not_equal_to_names()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
+- **.test_values_list_flat()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
+- **skipUnless** (1 connections)
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
-- [Community 807](Community_807.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_server_side_cursors.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (100%)
+- EXTRACTED: 28 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,46 +1,42 @@
 # Community 570
 
-> 18 nodes · cohesion 0.20
+> 18 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **NewFormsTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **EventForm** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
-- **LegacyFormsTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **EventModelForm** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
-- **EventSplitForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
-- **.test_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_model_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_split_form()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
-- **.test_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_form_with_ambiguous_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_form_with_non_existent_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_model_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_split_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_form_with_ambiguous_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_form_with_explicit_timezone()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_form_with_non_existent_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_form_with_other_timezone()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- **Serializer** (16 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **Serializer** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
+- **._value_from_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **.get_dump_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **.end_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **.handle_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **.handle_fk_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **Serialize a QuerySet to basic Python objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **.end_serialization()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **.getvalue()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **.handle_m2m_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **.start_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **.start_serialization()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- **PythonSerializer** (1 connections)
+- **Convert a queryset to YAML.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
+- **.end_serialization()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
+- **.getvalue()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
+- **.handle_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
 
 ## Relationships
 
-- [Community 604](Community_604.md) (11 shared connections)
-- [Community 428](Community_428.md) (5 shared connections)
-- [Community 746](Community_746.md) (3 shared connections)
-- [Community 12](Community_12.md) (2 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
+- [Community 13](Community_13.md) (5 shared connections)
+- [Community 520](Community_520.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (78%)
-- INFERRED: 12 (22%)
+- EXTRACTED: 25 (93%)
+- INFERRED: 2 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

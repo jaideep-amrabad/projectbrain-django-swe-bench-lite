@@ -1,28 +1,33 @@
 # Community 910
 
-> 4 nodes · cohesion 0.50
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **.construct_managers()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **.render()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **Deep-clone the managers using deconstruction.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **Create a Model object from our current state into the given apps.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- **XmlSerializerTestCase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
+- **.test_control_char_failure()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
+- **.test_no_dtd()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
+- **Serializing control characters with XML should fail as those characters are not…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
+- **The XML deserializer shouldn't allow a DTD. This is the most straightforward…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
+- **._get_field_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
+- **._get_pk_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
+- **._validate_output()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
 
 ## Relationships
 
-- [Community 43](Community_43.md) (2 shared connections)
-- [Community 159](Community_159.md) (1 shared connections)
-- [Community 76](Community_76.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 315](Community_315.md) (1 shared connections)
+- [Community 460](Community_460.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_xml.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 10 (91%)
+- INFERRED: 1 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

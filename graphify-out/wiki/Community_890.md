@@ -1,30 +1,34 @@
 # Community 890
 
-> 7 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.39
 
 ## Key Concepts
 
-- **.items()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.lists()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__copy__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **.__eq__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **Yield (key, value) pairs, where value is the last item in the list associated…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **Yield (key, list) pairs.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
-- **Return a shallow copy of this object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **watch_for_translation_changes()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/reloader.py`
+- **WatchForTranslationChangesTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_i18n_disabled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_i18n_app_dirs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_i18n_enabled()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_i18n_local_locale()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **.test_i18n_locale_paths()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
+- **Register file watchers for .mo files in potential locale paths.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/reloader.py`
 
 ## Relationships
 
-- [Community 192](Community_192.md) (3 shared connections)
-- [Community 477](Community_477.md) (1 shared connections)
+- [Community 9](Community_9.md) (4 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 381](Community_381.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/reloader.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 18 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

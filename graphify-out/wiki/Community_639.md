@@ -1,41 +1,42 @@
 # Community 639
 
-> 15 nodes · cohesion 0.20
+> 16 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **DatabaseIntrospection** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **.identifier_converter()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **.get_constraints()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **.get_relations()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **.get_table_description()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **.get_table_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **.get_key_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **.get_primary_key_column()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **.get_sequences()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **.get_field_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **Identifier comparison is case insensitive under Oracle.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **Return a dictionary of {field_name: (field_name_other_table, other_table)}…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **Retrieve any constraints or keys (unique, pk, fk, check, index) across one or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **Return a list of table and view names in the current database.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
-- **Return a description of the table with the DB-API cursor.description interface.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- **AdminCustomUrlsTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **.test_add_with_GET_args()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **.test_admin_URLs_no_clash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **.test_basic_add_GET()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **.test_basic_add_POST()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **.test_post_save_add_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **.test_post_save_change_redirect()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **.test_post_url_continue()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **ModelAdmin.response_post_save_add() controls the redirection after the 'Save'…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **The ModelAdmin.response_add()'s parameter `post_url_continue` controls the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **Remember that: * The Action model has a CharField PK. * The ModelAdmin for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **Ensure GET on the add_view works.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **Ensure GET on the add_view plus specifying a field value in the query string…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
+- **Ensure POST on add_view works.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
 
 ## Relationships
 
-- [Community 287](Community_287.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 246](Community_246.md) (1 shared connections)
-- [Community 251](Community_251.md) (1 shared connections)
+- [Community 15](Community_15.md) (7 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 27 (90%)
+- INFERRED: 3 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

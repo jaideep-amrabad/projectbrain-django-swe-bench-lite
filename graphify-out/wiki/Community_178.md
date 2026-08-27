@@ -1,62 +1,64 @@
 # Community 178
 
-> 55 nodes · cohesion 0.05
+> 95 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **trans_real.py** (45 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **SafeData** (29 connections) — `raw/code/hyd-evaluation/django-django/django/utils/safestring.py`
-- **linebreaks_filter()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- **FunctionTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
-- **translation()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **get_language_from_request()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **get_supported_language_variant()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **check_for_language()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **gettext()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **get_language_from_path()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **get_languages()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **ngettext()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **pgettext()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **activate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **all_locale_paths()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **catalog()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **do_ntranslate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **get_language()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **get_language_bidi()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **parse_accept_lang_header()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **reset_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **.test_lazy_string_input()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
-- **.__html__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/safestring.py`
-- **deactivate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- **deactivate_all()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- *... and 30 more nodes in this community*
+- **AggregationTests** (73 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **Count** (58 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
+- **aggregation_regress/tests.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **aggregation_regress/models.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
+- **JoinPromotionTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **skipUnlessAnyDBFeature()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Book** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
+- **Star** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **FieldTransformTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
+- **.test_annotation()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **HardbackBook** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
+- **.test_annotation_disjunction()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **.test_conditional_aggreate()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **.test_fobj_group_by()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **.test_more()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **Author** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
+- **ItemTag** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
+- **Publisher** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
+- **Store** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
+- **.test_aggregate_ummanaged_model_columns()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **.test_annotate_joins()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **.test_annotate_with_extra()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **.test_empty()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **.test_more_more_more()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- **.test_name_expressions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- *... and 70 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (11 shared connections)
-- [Community 11](Community_11.md) (9 shared connections)
-- [Community 17](Community_17.md) (7 shared connections)
-- [Community 18](Community_18.md) (5 shared connections)
-- [Community 144](Community_144.md) (4 shared connections)
-- [Community 152](Community_152.md) (3 shared connections)
-- [Community 499](Community_499.md) (3 shared connections)
-- [Community 171](Community_171.md) (2 shared connections)
-- [Community 516](Community_516.md) (2 shared connections)
-- [Community 80](Community_80.md) (2 shared connections)
-- [Community 59](Community_59.md) (2 shared connections)
-- [Community 101](Community_101.md) (2 shared connections)
+- [Community 21](Community_21.md) (37 shared connections)
+- [Community 20](Community_20.md) (13 shared connections)
+- [Community 11](Community_11.md) (11 shared connections)
+- [Community 3](Community_3.md) (9 shared connections)
+- [Community 38](Community_38.md) (9 shared connections)
+- [Community 12](Community_12.md) (6 shared connections)
+- [Community 74](Community_74.md) (5 shared connections)
+- [Community 41](Community_41.md) (5 shared connections)
+- [Community 45](Community_45.md) (4 shared connections)
+- [Community 28](Community_28.md) (4 shared connections)
+- [Community 84](Community_84.md) (4 shared connections)
+- [Community 138](Community_138.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/safestring.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/trans_real.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_linebreaks.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/aggregation_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/expressions/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 125 (88%)
-- INFERRED: 17 (12%)
+- EXTRACTED: 258 (91%)
+- INFERRED: 26 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

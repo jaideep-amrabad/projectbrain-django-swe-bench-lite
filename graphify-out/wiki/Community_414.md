@@ -1,49 +1,53 @@
 # Community 414
 
-> 28 nodes · cohesion 0.14
+> 26 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **IncludeTagTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **setup** (26 connections)
-- **.test_include04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include_error07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include_error08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include_error09()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include_error10()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include13()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include14()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include_error01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include_error02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include_error03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include_error04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- **.test_include_error05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
-- *... and 3 more nodes in this community*
+- **BaseManager** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **ManagerTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **ManagerDescriptor** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **._get_queryset_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **._set_creation_counter()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.test_manager_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.all()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.contribute_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.from_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.get_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.check()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.db()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.db_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__new__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__get__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **Set the creation counter value for this instance and increment the class-level…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **Return a new QuerySet object. Subclasses can override this method to customize…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **Return "app_label.model_label.manager_name".** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (5 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
+- [Community 45](Community_45.md) (6 shared connections)
+- [Community 54](Community_54.md) (1 shared connections)
+- [Community 296](Community_296.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 57](Community_57.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_include.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 59 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 36 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

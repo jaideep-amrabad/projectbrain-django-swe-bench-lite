@@ -1,25 +1,28 @@
 # Community 1033
 
-> 2 nodes · cohesion 1.00
+> 5 nodes · cohesion 0.60
 
 ## Key Concepts
 
-- **.test_force_login_without_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **force_login() without passing a backend and with multiple backends configured…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **GetChoicesOrderingTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.assertChoicesEqual()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_get_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.test_get_choices_reverse_related_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
 
 ## Relationships
 
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 47](Community_47.md) (1 shared connections)
+- [Community 222](Community_222.md) (3 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 8 (80%)
+- INFERRED: 2 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

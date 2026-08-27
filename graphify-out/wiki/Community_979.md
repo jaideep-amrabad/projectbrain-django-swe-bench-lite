@@ -1,27 +1,31 @@
 # Community 979
 
-> 5 nodes · cohesion 0.50
+> 9 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **app2/models.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/app2/models.py`
-- **ProxyModel** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/app1/models.py`
-- **app1/models.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/app1/models.py`
-- **NiceModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/app2/models.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/app1/models.py`
+- **AWSS3Storage** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- **.generate_filename()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- **.get_valid_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- **._save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- **.get_available_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- **Simulate an AWS S3 storage which uses Unix-like paths and allows any characters…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- **This method is important to test that Storage.save() doesn't replace '\' with…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- **This is the method that's important to override when using S3 so that os.path()…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
+- **Storage** (1 connections)
 
 ## Relationships
 
-- [Community 4](Community_4.md) (2 shared connections)
+- [Community 227](Community_227.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/app1/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/app2/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/test_generate_filename.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

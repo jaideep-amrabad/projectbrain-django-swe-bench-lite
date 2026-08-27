@@ -1,64 +1,55 @@
 # Community 108
 
-> 87 nodes · cohesion 0.04
+> 40 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **admin_utils/tests.py** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- **NestedObjectsTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- **UtilsTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- **NestedObjects** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **admin_utils/models.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/models.py`
-- **display_for_field()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **label_for_field()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **Article** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/models.py`
-- **admin_utils/admin.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/admin.py`
-- **display_for_value()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **InlineAdminFormSet** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **lookup_field()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **Site** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/models.py`
-- **.test_values_from_lookup_field()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- **.contents()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **ArticleProxy** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/models.py`
-- **._connect()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- **AdminReadonlyField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **help_text_for_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **._check()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- **._collect()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- **.fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- **ArticleAdminForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/admin.py`
-- **Car** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/models.py`
-- **Event** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/models.py`
-- *... and 62 more nodes in this community*
+- **Layer** (35 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **.__getitem__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/datasource.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **._make_feature()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **.test_capability()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **.fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **.geom_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **.get_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **.__iter__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **.srs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **.field_precisions()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **.field_types()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **.field_widths()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **._get_spatial_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **.__len__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **.num_feat()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **.num_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **Allows use of the index [] operator to get a layer at the index.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/datasource.py`
+- **._set_spatial_filter()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **Return the name of this layer in the Data Source.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **Return the number of features in the Layer.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- **Return the number of fields in the Layer.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [Community 11](Community_11.md) (21 shared connections)
-- [Community 63](Community_63.md) (16 shared connections)
-- [Community 13](Community_13.md) (7 shared connections)
-- [Community 18](Community_18.md) (7 shared connections)
-- [Community 219](Community_219.md) (5 shared connections)
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 5](Community_5.md) (3 shared connections)
-- [Community 42](Community_42.md) (3 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 323](Community_323.md) (2 shared connections)
-- [Community 17](Community_17.md) (2 shared connections)
+- [Community 44](Community_44.md) (12 shared connections)
+- [Community 257](Community_257.md) (4 shared connections)
+- [Community 154](Community_154.md) (3 shared connections)
+- [Community 112](Community_112.md) (2 shared connections)
+- [Community 72](Community_72.md) (2 shared connections)
+- [Community 33](Community_33.md) (2 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_utils/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_utils/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_utils/urls.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/datasource.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 222 (93%)
-- INFERRED: 17 (7%)
+- EXTRACTED: 58 (87%)
+- INFERRED: 9 (13%)
 - AMBIGUOUS: 0 (0%)
 
 ---

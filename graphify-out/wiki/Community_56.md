@@ -1,78 +1,73 @@
 # Community 56
 
-> 149 nodes · cohesion 0.03
+> 182 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **GDALException** (67 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/error.py`
-- **force_bytes()** (57 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **gdal/__init__.py** (52 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/__init__.py`
-- **geometries.py** (36 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **Layer** (35 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **DataSource** (32 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/datasource.py`
-- **Envelope** (30 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- **layer.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- **source.py** (24 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
-- **Driver** (23 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/driver.py`
-- **inspectapp/tests.py** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/inspectapp/tests.py`
-- **gdal/error.py** (21 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/error.py`
-- **GDALBase** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/base.py`
-- **gis_tests/test_data.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_data.py`
-- **datasource.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/datasource.py`
-- **feature.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- **gdal/srs.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- **CoordTransform** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- **test_geom.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
-- **driver.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/driver.py`
-- **band.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **gdal/base.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/base.py`
-- **SRSException** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/error.py`
-- **test_raster.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_raster.py`
-- **OGREnvelope** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- *... and 124 more nodes in this community*
+- **BaseTests** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **messages_tests/base.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **messages_tests/test_cookie.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- **BaseStorage** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **Message** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **storage/cookie.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **FallbackTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **messages/api.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **test_session.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **CookieTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- **CookieStorage** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **test_fallback.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- **messages/__init__.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/__init__.py`
+- **SessionStorage** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
+- **storage/base.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **MessageEncoder** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- **.get_storage()** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **FallbackStorage** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
+- **storage/session.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
+- **set_cookie_data()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- **messages/constants.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/constants.py`
+- **add_level_messages()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **SessionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- **add_message()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **messages/middleware.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
+- *... and 157 more nodes in this community*
 
 ## Relationships
 
-- [Community 109](Community_109.md) (33 shared connections)
-- [Community 151](Community_151.md) (27 shared connections)
-- [Community 31](Community_31.md) (24 shared connections)
-- [Community 82](Community_82.md) (24 shared connections)
-- [Community 145](Community_145.md) (20 shared connections)
-- [Community 73](Community_73.md) (17 shared connections)
-- [Community 20](Community_20.md) (13 shared connections)
-- [Community 150](Community_150.md) (13 shared connections)
-- [Community 335](Community_335.md) (10 shared connections)
-- [Community 267](Community_267.md) (8 shared connections)
-- [Community 9](Community_9.md) (8 shared connections)
-- [Community 6](Community_6.md) (8 shared connections)
+- [Community 7](Community_7.md) (9 shared connections)
+- [Community 406](Community_406.md) (8 shared connections)
+- [Community 8](Community_8.md) (7 shared connections)
+- [Community 15](Community_15.md) (7 shared connections)
+- [Community 4](Community_4.md) (6 shared connections)
+- [Community 18](Community_18.md) (6 shared connections)
+- [Community 29](Community_29.md) (6 shared connections)
+- [Community 11](Community_11.md) (4 shared connections)
+- [Community 13](Community_13.md) (4 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 127](Community_127.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/base.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/datasource.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/driver.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/error.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/feature.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geomtype.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/layer.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/base.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/const.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/srs.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geometry.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/utils/ogrinfo.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/data/rasters/textrasters.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/constants.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/context_processors.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/cookie.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/fallback.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/session.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
+- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
 
 ## Audit Trail
 
-- EXTRACTED: 574 (94%)
-- INFERRED: 38 (6%)
+- EXTRACTED: 438 (96%)
+- INFERRED: 16 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

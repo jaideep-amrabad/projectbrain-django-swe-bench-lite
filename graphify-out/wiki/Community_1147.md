@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **.test_valid_form_with_hints()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **GET a form, providing hints in the GET data** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.bulk_batch_size()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Return the maximum allowed batch size for the backend. The fields are the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Relationships
 
-- [Community 47](Community_47.md) (1 shared connections)
+- [Community 99](Community_99.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Audit Trail
 

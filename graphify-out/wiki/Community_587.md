@@ -1,57 +1,44 @@
 # Community 587
 
-> 27 nodes · cohesion 0.09
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **PasswordResetConfirmClient** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/client.py`
-- **AuthTemplateTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
-- **CustomUserPasswordResetTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_PasswordResetConfirmView_valid_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
-- **UUIDUserPasswordResetTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **._get_password_reset_confirm_redirect_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/client.py`
-- **.test_confirm_invalid_uuid()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_PasswordResetConfirmView_invalid_token()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
-- **._read_signup_email()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **extract_token_from_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/client.py`
-- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/client.py`
-- **.post()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/client.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **._test_confirm_start()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_confirm_valid_custom_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **._test_confirm_start()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **Client** (1 connections)
-- **This client eases testing the password reset flow by emulating the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/client.py`
-- **.test_PasswordChangeDoneView()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
-- **.test_PasswordResetChangeView()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
-- **.test_PasswordResetCompleteView()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
-- **.test_PasswordResetDoneView()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
-- **.test_PasswordResetView()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
-- *... and 2 more nodes in this community*
+- **YearArchiveViewTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_aware_datetime_year_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_date_list_order()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_get_context_data_receives_extra_context()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **patch** (1 connections)
+- **date_list should be sorted ascending in year view** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **MultipleObjectMixin.get_context_data() receives the context set by…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_datetime_year_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_get_dated_items_not_implemented()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_no_duplicate_query()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_year_view()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_year_view_allow_future()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_year_view_custom_sort_order()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_year_view_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_year_view_invalid_pattern()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_year_view_make_object_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_year_view_paginated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
+- **.test_year_view_two_custom_sort_orders()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (6 shared connections)
-- [Community 270](Community_270.md) (6 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 494](Community_494.md) (2 shared connections)
-- [Community 16](Community_16.md) (2 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
-- [Community 589](Community_589.md) (1 shared connections)
+- [Community 54](Community_54.md) (4 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
+- [Community 313](Community_313.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/client.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_templates.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_dates.py`
 
 ## Audit Trail
 
-- EXTRACTED: 53 (93%)
-- INFERRED: 4 (7%)
+- EXTRACTED: 24 (92%)
+- INFERRED: 2 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,59 +1,49 @@
 # Community 176
 
-> 46 nodes · cohesion 0.07
+> 51 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **postgres/operations.py** (23 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **postgres_tests/test_operations.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
-- **CreateExtension** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **AddIndexConcurrently** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **postgres_tests/migrations/0001_setup_extensions.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/migrations/0001_setup_extensions.py`
-- **RemoveIndexConcurrently** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **AddIndexConcurrentlyTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
-- **._ensure_not_in_transaction()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **RemoveIndexConcurrentlyTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
-- **CryptoExtension** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **db_functions/migrations/0001_setup_extensions.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/migrations/0001_setup_extensions.py`
-- **BtreeGinExtension** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **BtreeGistExtension** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **CITextExtension** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **HStoreExtension** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **NotInTransactionMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **TrigramExtension** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **UnaccentExtension** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.test_add()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
-- **.test_add_other_index_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
-- **.test_add_with_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
-- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.database_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.database_backwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- **.database_forwards()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- *... and 21 more nodes in this community*
+- **BasicSyntaxTests** (43 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **setup** (41 connections)
+- **.test_basic_syntax01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax12()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax18()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax19()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax23()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax24()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax28()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax29()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax37()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax38()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax13()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax14()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax15()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax16()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax17()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax21()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- **.test_basic_syntax22()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
+- *... and 26 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (7 shared connections)
-- [Community 115](Community_115.md) (7 shared connections)
-- [Community 191](Community_191.md) (5 shared connections)
-- [Community 23](Community_23.md) (5 shared connections)
-- [Community 6](Community_6.md) (5 shared connections)
-- [Community 76](Community_76.md) (4 shared connections)
-- [Community 136](Community_136.md) (3 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 196](Community_196.md) (1 shared connections)
+- [Community 411](Community_411.md) (10 shared connections)
+- [Community 8](Community_8.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/migrations/0001_setup_extensions.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/migrations/0001_setup_extensions.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_basic.py`
 
 ## Audit Trail
 
-- EXTRACTED: 111 (97%)
-- INFERRED: 3 (3%)
+- EXTRACTED: 100 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,55 +1,47 @@
 # Community 478
 
-> 47 nodes · cohesion 0.06
+> 23 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **UserCreationForm** (22 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **UserCreationFormTest** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **UserChangeForm** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **UserChangeFormTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.save()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.test_bug_19133()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_duplicate_normalized_unicode()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_password_help_text()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_user_create_form_validates_password_with_all_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_validates_password()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.save()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- **.test_bug_17944_empty_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_bug_17944_unknown_password_algorithm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_bug_17944_unmanageable_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_bug_19349_bound_password_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_unusable_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_username_field_autocapitalize_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_username_validity()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- **.test_both_passwords()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
-- *... and 22 more nodes in this community*
+- **CustomTestRunnerOptionsSettingsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **CustomTestRunnerOptionsCmdlineTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **SetupDatabasesTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.setUp()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **Ticket17477RegressionTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_ticket_17477()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_no_testrunner()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_testrunner_equals()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_testrunner_option()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_all_options_given()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_default_and_given_options()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_default_options()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_option_name_and_value_separated()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **Custom runners can add command line arguments. The runner is specified through…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **Custom runners can add command line arguments when the runner is specified…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **manage.py help test' works after r16352.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_destroy_test_db_restores_db_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_serialization()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_serialized_off()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_setup_aliased_databases()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (9 shared connections)
-- [Community 606](Community_606.md) (7 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 78](Community_78.md) (1 shared connections)
-- [Community 317](Community_317.md) (1 shared connections)
-- [Community 334](Community_334.md) (1 shared connections)
+- [Community 479](Community_479.md) (4 shared connections)
+- [Community 231](Community_231.md) (3 shared connections)
+- [Community 226](Community_226.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 89 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 30 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

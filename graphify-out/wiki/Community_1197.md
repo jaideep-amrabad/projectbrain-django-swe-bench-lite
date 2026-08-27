@@ -1,22 +1,27 @@
 # Community 1197
 
-> 1 nodes · cohesion 1.00
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **flatpages/migrations/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/migrations/__init__.py`
+- **NullBooleanField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **.validate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **A field whose valid values are None, True, and False. Clean invalid values to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **Explicitly check for the string 'True' and 'False', which is what a hidden…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 97](Community_97.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/migrations/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

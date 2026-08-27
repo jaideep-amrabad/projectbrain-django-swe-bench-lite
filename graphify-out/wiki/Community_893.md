@@ -1,33 +1,35 @@
 # Community 893
 
-> 7 nodes · cohesion 0.38
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **LoginRequiredTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
-- **.test_callable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
-- **.test_login_required()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
-- **.test_login_required_next_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
-- **login_required works on a simple view wrapped in a login_required decorator.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
-- **Tests the login_required decorators** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
-- **login_required is assignable to callable objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
+- **LastExecutedQueryTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_last_executed_query_dict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_last_executed_query_without_previous_query()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_query_encoding()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_debug_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_last_executed_query()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **last_executed_query should not raise an exception even if no previous query has…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **last_executed_query() returns a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
 
 ## Relationships
 
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 589](Community_589.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 53](Community_53.md) (1 shared connections)
+- [Community 306](Community_306.md) (3 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 688](Community_688.md) (1 shared connections)
+- [Community 818](Community_818.md) (1 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_decorators.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 11 (73%)
+- INFERRED: 4 (27%)
 - AMBIGUOUS: 0 (0%)
 
 ---

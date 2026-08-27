@@ -1,35 +1,40 @@
 # Community 710
 
-> 13 nodes · cohesion 0.28
+> 13 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **ResetCycleTagTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
-- **setup** (11 connections)
-- **.test_resetcycle01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
-- **.test_resetcycle02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
-- **.test_resetcycle03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
-- **.test_resetcycle04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
-- **.test_resetcycle05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
-- **.test_resetcycle06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
-- **.test_resetcycle07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
-- **.test_resetcycle08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
-- **.test_resetcycle09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
-- **.test_resetcycle10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
-- **.test_resetcycle11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
+- **Command** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **.find_fixtures()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **.load_label()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **.loaddata()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **.parse_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **.fixture_dirs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **humanize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **Load fixtures files for a given label.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **Find fixture files for a given label.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **Return a list of fixture directories. The list contains the 'fixtures'…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
+- **Split fixture name in name, serialization format, compression format.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
+- [Community 4](Community_4.md) (7 shared connections)
+- [Community 231](Community_231.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 210](Community_210.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_resetcycle.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/loaddata.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 28 (90%)
+- INFERRED: 3 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,38 +1,36 @@
 # Community 789
 
-> 10 nodes · cohesion 0.27
+> 11 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **customers.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/customers.py`
-- **test_agnostic_order_trimjoin.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_agnostic_order_trimjoin.py`
-- **Customer** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/customers.py`
-- **TestLookupQuery** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_agnostic_order_trimjoin.py`
-- **Address** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/customers.py`
-- **Contact** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/customers.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/customers.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_agnostic_order_trimjoin.py`
-- **.test_deep_mixed_backward()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_agnostic_order_trimjoin.py`
-- **.test_deep_mixed_forward()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_agnostic_order_trimjoin.py`
+- **DatesTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
+- **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/models.py`
+- **.test_dates_trunc_datetime_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
+- **.test_dates_avoid_datetime_cast()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/models.py`
+- **.test_dates_fails_when_given_invalid_field_argument()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
+- **.test_dates_fails_when_given_invalid_kind_argument()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
+- **.test_dates_fails_when_given_invalid_order_argument()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
+- **.test_dates_fails_when_no_arguments_are_provided()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
+- **.test_related_model_traverse()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
+- **skipUnless** (1 connections)
 
 ## Relationships
 
-- [Community 628](Community_628.md) (5 shared connections)
-- [Community 121](Community_121.md) (3 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 17](Community_17.md) (5 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/customers.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/test_agnostic_order_trimjoin.py`
+- `raw/code/hyd-evaluation/django-django/tests/dates/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/dates/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (92%)
-- INFERRED: 2 (8%)
+- EXTRACTED: 15 (83%)
+- INFERRED: 3 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

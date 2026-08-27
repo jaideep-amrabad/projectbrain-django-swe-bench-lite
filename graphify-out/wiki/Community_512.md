@@ -1,49 +1,50 @@
 # Community 512
 
-> 23 nodes · cohesion 0.09
+> 23 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **LocmemBackendTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **ConsoleBackendTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **FileBackendTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_console_stream_kwarg()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.tearDown()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_file_sessions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_locmem_shared_messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.test_validate_multiline_headers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.flush_mailbox()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.get_mailbox_content()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.flush_mailbox()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.get_mailbox_content()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.flush_mailbox()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **.get_mailbox_content()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **Make sure that the locmen backend populates the outbox.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **Make sure opening a connection creates a new file** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **The console backend can be pointed at an arbitrary stream.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.check_dimensions()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **TwoImageFieldTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **PersonTwoImages** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.test_assignment_to_None()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_constructor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_create()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_dimensions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_field_save_and_delete_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_image_after_constructor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_dimensions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **Dimensions are updated correctly in various situations.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_assignment()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_constructor()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_create()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **.test_field_save_and_delete_methods()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **Model that: * Defines two ImageFields * Defines the height/width fields before…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **Tests assigning an image field through the model's constructor.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **Tests behavior when image is not passed in constructor.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **Tests assigning an image in Manager.create().** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **Assigning ImageField to None clears dimensions.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **Tests assignment using the field's save method and deletion using the field's…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **Tests a model with two ImageFields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
+- **Asserts that the given width and height values match both the field's height…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
 
 ## Relationships
 
-- [Community 181](Community_181.md) (6 shared connections)
-- [Community 234](Community_234.md) (4 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 112](Community_112.md) (2 shared connections)
+- [Community 593](Community_593.md) (9 shared connections)
+- [Community 814](Community_814.md) (2 shared connections)
+- [Community 881](Community_881.md) (2 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_imagefield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 39 (93%)
+- INFERRED: 3 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

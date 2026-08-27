@@ -1,63 +1,70 @@
 # Community 127
 
-> 67 nodes · cohesion 0.05
+> 80 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **TestGeneralAggregate** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **Aggregate** (34 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
-- **ArrayAgg** (18 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
-- **general.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
-- **OrderableAggMixin** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/mixins.py`
-- **StringAgg** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
-- **TestAggregateDistinct** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **.test_string_agg_array_agg_ordering_in_subquery()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **BitAnd** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
-- **BitOr** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
-- **StatTestModel** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- **.test_array_agg_charfield_ordering()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **JSONBAgg** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
-- **aggregates/mixins.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/mixins.py`
-- **._get_ordering_expressions_index()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/mixins.py`
-- **.test_string_agg_charfield_ordering()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- **BoolAnd** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
-- **BoolOr** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
-- **.get_source_expressions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
-- **.get_source_expressions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/mixins.py`
-- **.get_source_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/mixins.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/mixins.py`
-- **.default_alias()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
-- **.resolve_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
-- **.test_array_agg_booleanfield_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
-- *... and 42 more nodes in this community*
+- **view_tests/views.py** (54 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **test_debug.py** (53 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **auth_tests/urls.py** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
+- **render()** (35 connections) — `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
+- **technical_500_response()** (20 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- **sensitive_post_parameters()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/debug.py`
+- **sensitive_variables()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/debug.py`
+- **LoggingCaptureMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **AjaxResponseExceptionReporterFilter** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **custom_exception_reporter_filter_view()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **send_log()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **shortcuts/views.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/shortcuts/views.py`
+- **paranoid_view()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **sensitive_view()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **decorators/debug.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/debug.py`
+- **multivalue_dict_key_error()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **remote_user_auth_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
+- **non_sensitive_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **sensitive_args_function_caller()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **sensitive_kwargs_function_caller()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **info()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- **.test_paranoid_request()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_sensitive_request()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_custom_exception_reporter_filter()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **.test_non_sensitive_request()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- *... and 55 more nodes in this community*
 
 ## Relationships
 
-- [Community 25](Community_25.md) (13 shared connections)
-- [Community 110](Community_110.md) (10 shared connections)
-- [Community 93](Community_93.md) (9 shared connections)
-- [Community 37](Community_37.md) (6 shared connections)
-- [Community 123](Community_123.md) (3 shared connections)
-- [Community 214](Community_214.md) (3 shared connections)
-- [Community 229](Community_229.md) (3 shared connections)
-- [Community 57](Community_57.md) (2 shared connections)
-- [Community 85](Community_85.md) (2 shared connections)
-- [Community 50](Community_50.md) (2 shared connections)
-- [Community 42](Community_42.md) (2 shared connections)
-- [Community 220](Community_220.md) (1 shared connections)
+- [Community 104](Community_104.md) (19 shared connections)
+- [Community 1](Community_1.md) (18 shared connections)
+- [Community 11](Community_11.md) (14 shared connections)
+- [Community 8](Community_8.md) (9 shared connections)
+- [Community 50](Community_50.md) (7 shared connections)
+- [Community 136](Community_136.md) (6 shared connections)
+- [Community 406](Community_406.md) (6 shared connections)
+- [Community 549](Community_549.md) (6 shared connections)
+- [Community 283](Community_283.md) (6 shared connections)
+- [Community 308](Community_308.md) (5 shared connections)
+- [Community 531](Community_531.md) (5 shared connections)
+- [Community 7](Community_7.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/general.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/aggregates/mixins.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/aggregates.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_aggregates.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- `raw/code/hyd-evaluation/django-django/django/shortcuts.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/views/debug.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/debug.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/shortcuts/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/shortcuts/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/shortcuts/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 128 (73%)
-- INFERRED: 47 (27%)
+- EXTRACTED: 287 (93%)
+- INFERRED: 20 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

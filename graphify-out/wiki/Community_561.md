@@ -1,43 +1,46 @@
 # Community 561
 
-> 14 nodes · cohesion 0.16
+> 19 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **ArticleAdmin** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **AdminTemplateTagsTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
-- **.test_submit_row()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
-- **.test_override_change_form_template_tags()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
-- **.test_override_change_list_template_tags()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
-- **.test_override_show_save_and_add_another()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
-- **.delete_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.save_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.modeladmin_year()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.order_by_expression()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **AdminViewBasicTestCase** (1 connections)
-- **submit_row template tag should pass whole context.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
-- **admin_modify template tags follow the standard search pattern…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
-- **admin_list template tags follow the standard search pattern…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
+- **FileFieldTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **Document** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **.test_move_temporary_file()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **.test_changed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **.test_clearable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **.test_delete_when_file_unset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **.test_open_returns_self()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **.test_unchanged()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **.test_unique_when_same_filename()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **.test_defer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **.test_refresh_from_db()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **skipIf** (1 connections)
+- **FileField.save_form_data() will clear its instance attribute value if passed…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **FileField.save_form_data() considers None to mean "no change" rather than…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **FileField.save_form_data(), if passed a truthy value, updates its instance…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **Calling delete on an unset FileField should not call the file deletion process,…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **A FileField with unique=True shouldn't allow two instances with the same name…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **The temporary uploaded file is moved rather than copied to the destination.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- **FieldField.open() returns self so it can be used as a context manager.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (5 shared connections)
-- [Community 16](Community_16.md) (4 shared connections)
-- [Community 112](Community_112.md) (2 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 66](Community_66.md) (1 shared connections)
-- [Community 921](Community_921.md) (1 shared connections)
-- [Community 586](Community_586.md) (1 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
+- [Community 222](Community_222.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 131](Community_131.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_templatetags.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (90%)
-- INFERRED: 3 (10%)
+- EXTRACTED: 28 (93%)
+- INFERRED: 2 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

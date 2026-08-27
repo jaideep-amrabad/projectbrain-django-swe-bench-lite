@@ -1,53 +1,63 @@
 # Community 174
 
-> 24 nodes · cohesion 0.13
+> 52 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **test_renderers.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **DjangoTemplates** (13 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **BaseRenderer** (9 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **Jinja2()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **EngineMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **TemplatesSetting** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **SharedTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **BaseTemplateRendererTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **DjangoTemplatesTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **Jinja2Tests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **TemplatesSettingTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **.setUpClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/base.py`
-- **.render()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **.get_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **.test_get_renderer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **.test_installed_apps_template_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- **.get_template()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **.engine()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **.get_template()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **Load Django templates from the built-in widget templates in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **Load Jinja2 templates from the built-in widget templates in django/forms/jinja2…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **Load templates using template.loader.get_template() which is configured based…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- **skipIf** (1 connections)
-- **Can find a custom template in INSTALLED_APPS.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
+- **Lookup** (30 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **postgres/lookups.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **postgres/apps.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
+- **Transform** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **PostgresSimpleLookup** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **uninstall_if_needed()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
+- **PostgresConfig** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
+- **SearchLookup** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **SearchVectorExact** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **SearchVectorField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **TrigramSimilar** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **Unaccent** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **RangeSerializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/serializers.py`
+- **.process_rhs()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.ready()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
+- **HasKeys** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **postgres/serializers.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/serializers.py`
+- **.batch_process_rhs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **JSONExact** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **.as_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **.process_lhs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **.process_rhs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.get_db_prep_lookup()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.apply_bilateral_transforms()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.get_source_expressions()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- *... and 27 more nodes in this community*
 
 ## Relationships
 
-- [Community 159](Community_159.md) (8 shared connections)
-- [Community 15](Community_15.md) (7 shared connections)
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 374](Community_374.md) (1 shared connections)
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 96](Community_96.md) (14 shared connections)
+- [Community 128](Community_128.md) (9 shared connections)
+- [Community 3](Community_3.md) (7 shared connections)
+- [Community 272](Community_272.md) (4 shared connections)
+- [Community 548](Community_548.md) (4 shared connections)
+- [Community 9](Community_9.md) (3 shared connections)
+- [Community 188](Community_188.md) (3 shared connections)
+- [Community 63](Community_63.md) (3 shared connections)
+- [Community 45](Community_45.md) (3 shared connections)
+- [Community 38](Community_38.md) (3 shared connections)
+- [Community 320](Community_320.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/renderers.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_renderers.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/base.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/serializers.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
 
 ## Audit Trail
 
-- EXTRACTED: 51 (85%)
-- INFERRED: 9 (15%)
+- EXTRACTED: 136 (89%)
+- INFERRED: 16 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

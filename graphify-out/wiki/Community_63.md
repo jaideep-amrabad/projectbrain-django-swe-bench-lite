@@ -1,67 +1,69 @@
 # Community 63
 
-> 108 nodes · cohesion 0.03
+> 113 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **contrib/admin/options.py** (105 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **admin/utils.py** (61 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **main.py** (44 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **ChangeList** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **FieldDoesNotExist** (27 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- **filters.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **FieldListFilter** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **IncorrectLookupParameters** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- **flatten_fieldsets()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **models/constants.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constants.py`
-- **RelatedFieldListFilter** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **.get_filters()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **DisallowedModelAdminToField** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/exceptions.py`
-- **BooleanFieldListFilter** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **ListFilter** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **.__init__()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **model_ngettext()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **AllValuesFieldListFilter** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- **get_deleted_objects()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **_get_non_gfk_field()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **.get_queryset()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **all_valid()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
-- **admin/exceptions.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/exceptions.py`
-- **DisallowedModelAdminLookup** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/exceptions.py`
-- **ChoicesFieldListFilter** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- *... and 83 more nodes in this community*
+- **register_lookup()** (164 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **gis/db/models/lookups.py** (44 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **GISLookup** (37 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **test_rasterfield.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/test_rasterfield.py`
+- **LookupTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **Author** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
+- **BilateralTransformTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **DistanceLookupBase** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **FunctionTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/tests.py`
+- **DistanceLookupFromFunction** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **LengthTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_length.py`
+- **.process_rhs()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **RasterBandTransform** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **rasterapp/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/models.py`
+- **RasterModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/models.py`
+- **RasterRelatedModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/models.py`
+- **BBContainsLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **BBOverlapsLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **ContainedLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **DWithinLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **.process_band_indices()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **LeftLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **OverlapsAboveLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **OverlapsBelowLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- **OverlapsLeftLookup** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- *... and 88 more nodes in this community*
 
 ## Relationships
 
-- [Community 20](Community_20.md) (24 shared connections)
-- [Community 5](Community_5.md) (21 shared connections)
-- [Community 39](Community_39.md) (19 shared connections)
-- [Community 52](Community_52.md) (17 shared connections)
-- [Community 108](Community_108.md) (16 shared connections)
-- [Community 15](Community_15.md) (13 shared connections)
-- [Community 11](Community_11.md) (12 shared connections)
-- [Community 78](Community_78.md) (11 shared connections)
-- [Community 101](Community_101.md) (10 shared connections)
-- [Community 60](Community_60.md) (10 shared connections)
-- [Community 4](Community_4.md) (9 shared connections)
-- [Community 10](Community_10.md) (7 shared connections)
+- [Community 3](Community_3.md) (45 shared connections)
+- [Community 96](Community_96.md) (21 shared connections)
+- [Community 372](Community_372.md) (11 shared connections)
+- [Community 888](Community_888.md) (10 shared connections)
+- [Community 32](Community_32.md) (9 shared connections)
+- [Community 90](Community_90.md) (8 shared connections)
+- [Community 64](Community_64.md) (6 shared connections)
+- [Community 277](Community_277.md) (6 shared connections)
+- [Community 353](Community_353.md) (6 shared connections)
+- [Community 41](Community_41.md) (6 shared connections)
+- [Community 16](Community_16.md) (5 shared connections)
+- [Community 13](Community_13.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/constants.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/models/lookups.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_lookups/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_length.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_upper.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/data/rasters/textrasters.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/test_rasterfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 447 (96%)
-- INFERRED: 19 (4%)
+- EXTRACTED: 374 (96%)
+- INFERRED: 17 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

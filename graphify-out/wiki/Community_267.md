@@ -1,52 +1,62 @@
 # Community 267
 
-> 40 nodes · cohesion 0.06
+> 50 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **GDALBand** (23 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **BandList** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.statistics()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.nodata_value()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.data()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.datatype()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **._flush()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.description()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.max()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.mean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.min()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.std()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.color_interp()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.height()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.pixel_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.width()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.bands()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- **list** (1 connections)
-- **setter** (1 connections)
-- **Return the minimum pixel value for this band.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- *... and 15 more nodes in this community*
+- **view()** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/nonimported_module.py`
+- **ViewTest** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **AccessMixinTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **._assert_allows()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_login_required()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **._assert_simple()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_options_for_get_and_post_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_options_for_get_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_options_for_post_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_access_mixin_permission_denied_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **.test_stacked_mixins_not_logged_in()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **.test_args_kwargs_request_on_self()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_calling_more_than_once()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_direct_instantiation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_get_and_head()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_get_and_post()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_get_only()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_no_init_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_i18n_unknown_package_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_stacked_mixins_missing_permission()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **.test_stacked_mixins_success()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **A view can't be accidentally instantiated before deployment** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_class_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_dispatch_decoration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [Community 56](Community_56.md) (8 shared connections)
-- [Community 73](Community_73.md) (3 shared connections)
-- [Community 145](Community_145.md) (1 shared connections)
-- [Community 74](Community_74.md) (1 shared connections)
+- [Community 110](Community_110.md) (6 shared connections)
+- [Community 104](Community_104.md) (6 shared connections)
+- [Community 327](Community_327.md) (5 shared connections)
+- [Community 271](Community_271.md) (2 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 714](Community_714.md) (1 shared connections)
+- [Community 204](Community_204.md) (1 shared connections)
+- [Community 651](Community_651.md) (1 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
+- [Community 584](Community_584.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/band.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/raster/source.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/nonimported_module.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
 
 ## Audit Trail
 
-- EXTRACTED: 56 (92%)
-- INFERRED: 5 (8%)
+- EXTRACTED: 64 (71%)
+- INFERRED: 26 (29%)
 - AMBIGUOUS: 0 (0%)
 
 ---

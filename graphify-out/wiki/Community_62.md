@@ -1,61 +1,50 @@
 # Community 62
 
-> 115 nodes · cohesion 0.03
+> 114 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **QuerySet** (102 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._chain()** (26 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._not_support_combined_queries()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.annotate()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.dates()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.exclude()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._create_object_from_params()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.datetimes()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._filter_or_exclude()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.order_by()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._batched_insert()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.bulk_create()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._combinator_query()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.get_or_create()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.reverse()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.select_for_update()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.update_or_create()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.complex_filter()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.defer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.delete()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._earliest()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.extra()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **._extract_model_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.filter()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- **.get()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- *... and 90 more nodes in this community*
+- **IfTagTests** (116 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **setup** (114 connections)
+- **.test_else_if_tag_error01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_is_both_variables_missing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_is_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_is_no_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_is_not_both_variables_missing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_is_not_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_is_not_no_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_is_not_variable_missing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_is_variable_missing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag13()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- **.test_if_tag_and01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
+- *... and 89 more nodes in this community*
 
 ## Relationships
 
-- [Community 280](Community_280.md) (7 shared connections)
-- [Community 392](Community_392.md) (4 shared connections)
-- [Community 37](Community_37.md) (4 shared connections)
-- [Community 96](Community_96.md) (3 shared connections)
-- [Community 302](Community_302.md) (3 shared connections)
-- [Community 25](Community_25.md) (3 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 738](Community_738.md) (2 shared connections)
-- [Community 118](Community_118.md) (2 shared connections)
-- [Community 42](Community_42.md) (2 shared connections)
-- [Community 497](Community_497.md) (2 shared connections)
-- [Community 104](Community_104.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 1253](Community_1253.md) (2 shared connections)
+- [Community 1254](Community_1254.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/prefetch_related/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_if.py`
 
 ## Audit Trail
 
-- EXTRACTED: 209 (91%)
-- INFERRED: 20 (9%)
+- EXTRACTED: 230 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,33 +1,38 @@
 # Community 760
 
-> 10 nodes · cohesion 0.20
+> 12 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **CITextTestCase** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
-- **.test_equal_lowercase()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
-- **.test_fail_citext_primary_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
-- **.test_array_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
-- **.test_lookups_description_text()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
-- **.test_lookups_email()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
-- **.test_lookups_name_char()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
-- **citext removes the need for iexact as the index is case-insensitive.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
-- **Creating an entry for a citext field used as a primary key which clashes with…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
+- **TestSaveLoad** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
+- **DurationModel** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **TestQuerying** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
+- **TestSerialization** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
+- **.test_dumping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
+- **.test_exact()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
+- **.test_gt()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
+- **.test_create_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
+- **.test_fractional_seconds()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
+- **.test_simple_roundtrip()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
+- **.test_loading()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
 
 ## Relationships
 
-- [Community 110](Community_110.md) (3 shared connections)
-- [Community 136](Community_136.md) (1 shared connections)
+- [Community 13](Community_13.md) (4 shared connections)
+- [Community 222](Community_222.md) (2 shared connections)
+- [Community 41](Community_41.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_citext.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_durationfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (92%)
-- INFERRED: 1 (8%)
+- EXTRACTED: 17 (81%)
+- INFERRED: 4 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

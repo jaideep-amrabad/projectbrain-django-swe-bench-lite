@@ -1,22 +1,23 @@
 # Community 1220
 
-> 1 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **dummy/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/__init__.py`
+- **.test_set_foreign_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
+- **You can set a generic foreign key in the way you'd expect.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 374](Community_374.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_relations/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

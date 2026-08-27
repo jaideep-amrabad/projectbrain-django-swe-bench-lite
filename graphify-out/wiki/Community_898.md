@@ -1,30 +1,32 @@
 # Community 898
 
-> 7 nodes · cohesion 0.52
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **MySqlDbshellCommandTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
-- **.get_command_line_arguments()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
-- **.test_basic_params_specified_in_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
-- **.test_can_connect_using_sockets()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
-- **.test_fails_with_keyerror_on_incomplete_config()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
-- **.test_options_override_settings_proper_values()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
-- **.test_ssl_certificate_is_added()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
+- **NaturalKeyThing** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **ForwardReferenceTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **Manager** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- **.test_forward_reference_fk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **.test_forward_reference_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
 
 ## Relationships
 
-- [Community 930](Community_930.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 462](Community_462.md) (3 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/dbshell/test_mysql.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 10 (91%)
+- INFERRED: 1 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

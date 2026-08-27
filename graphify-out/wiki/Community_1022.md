@@ -1,23 +1,23 @@
 # Community 1022
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **Favorites** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **.test_create_models_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- **Models are created via the m2m relation if the remote model has a OneToOneField…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- **DateQuotingTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_django_date_extract()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_django_date_trunc()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **Test the custom ``django_date_trunc method``, in particular against fields…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **Test the custom ``django_date_extract method``, in particular against fields…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
 
 ## Relationships
 
-- [Community 529](Community_529.md) (2 shared connections)
-- [Community 365](Community_365.md) (2 shared connections)
+- [Community 306](Community_306.md) (2 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/one_to_one/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/one_to_one/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
 
 ## Audit Trail
 

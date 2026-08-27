@@ -1,34 +1,37 @@
 # Community 750
 
-> 11 nodes · cohesion 0.25
+> 12 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **SpatialiteSchemaEditor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
-- **.column_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
-- **.geo_quote_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
-- **.add_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
-- **.alter_db_table()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
-- **.delete_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
-- **.remove_geometry_metadata()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
-- **DatabaseSchemaEditor** (1 connections)
-- **.create_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
-- **.remove_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
+- **appendInterface()** (8 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **escapeText()** (8 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **appendFilteredTest()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **appendTest()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **appendHeader()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **.diffPrettyHtml()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **getNameHtml()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **moduleListHtml()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **appendBanner()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **appendTestResults()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **appendTestsList()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- **appendUserAgent()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
+- [Community 292](Community_292.md) (11 shared connections)
+- [Community 532](Community_532.md) (4 shared connections)
+- [Community 784](Community_784.md) (2 shared connections)
+- [Community 662](Community_662.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
+- `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 31 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

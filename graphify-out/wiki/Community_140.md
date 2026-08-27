@@ -1,55 +1,60 @@
 # Community 140
 
-> 53 nodes · cohesion 0.04
+> 37 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **TestQuerying** (46 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **IndexTransform** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **SliceTransform** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **ArrayLenTransform** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **IndexTransformFactory** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **SliceTransformFactory** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **expectedFailure** (4 connections)
-- **.test_index_transform_expression()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.get_transform()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **Transform** (3 connections)
-- **.test_slice_transform_expression()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **.test_contained_by_including_F_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_in_including_F_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_index_used_on_nested_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_lookups_autofield_array()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.test_slice_nested()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
-- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **.as_sql()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **.output_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- *... and 28 more nodes in this community*
+- **model_formsets_regress/tests.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **InlineFormsetTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **model_formsets_regress/models.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
+- **FormfieldCallbackTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **User** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
+- **FormsetTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_formset_over_inherited_model()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **UserSite** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
+- **.test_formset_over_to_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **RedeleteTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **Restaurant** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
+- **Callback** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **Host** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
+- **Network** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
+- **.test_inlineformset_custom_callback()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_modelformset_custom_callback()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **Manager** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
+- **ProfileNetwork** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
+- **UserPreferences** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
+- **UserProfile** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
+- **.assertCallbackCalled()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_error_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **.test_empty_fields_on_modelformset()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **UserSiteForm** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
+- **Place** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 110](Community_110.md) (15 shared connections)
-- [Community 220](Community_220.md) (4 shared connections)
-- [Community 25](Community_25.md) (3 shared connections)
-- [Community 130](Community_130.md) (1 shared connections)
-- [Community 70](Community_70.md) (1 shared connections)
-- [Community 300](Community_300.md) (1 shared connections)
-- [Community 127](Community_127.md) (1 shared connections)
+- [Community 830](Community_830.md) (13 shared connections)
+- [Community 156](Community_156.md) (7 shared connections)
+- [Community 41](Community_41.md) (5 shared connections)
+- [Community 603](Community_603.md) (4 shared connections)
+- [Community 416](Community_416.md) (3 shared connections)
+- [Community 88](Community_88.md) (3 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
+- [Community 300](Community_300.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 115](Community_115.md) (1 shared connections)
+- [Community 172](Community_172.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_formsets_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 78 (90%)
-- INFERRED: 9 (10%)
+- EXTRACTED: 96 (83%)
+- INFERRED: 19 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

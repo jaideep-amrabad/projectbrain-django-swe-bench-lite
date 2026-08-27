@@ -1,28 +1,28 @@
 # Community 1025
 
-> 4 nodes · cohesion 0.50
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **ProxyBug** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **ProxyProxyBug** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **Proxy of an inherited class** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
-- **A proxy of proxy model with related field** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- **CustomisedMethodsTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.test_overridden_get_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.test_overridden_get_lookup_chain()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.test_overridden_get_transform()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
+- **.test_overridden_get_transform_chain()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
 
 ## Relationships
 
-- [Community 473](Community_473.md) (5 shared connections)
-- [Community 741](Community_741.md) (2 shared connections)
-- [Community 303](Community_303.md) (2 shared connections)
+- [Community 372](Community_372.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/proxy_models/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_lookups/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (83%)
-- INFERRED: 2 (17%)
+- EXTRACTED: 6 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

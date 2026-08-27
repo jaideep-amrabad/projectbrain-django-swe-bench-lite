@@ -1,61 +1,51 @@
 # Community 550
 
-> 26 nodes · cohesion 0.12
+> 25 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **ModelFormBasicTests** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Category** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **ArticleForm** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **BaseCategoryForm** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **CustomCleanTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.create_basic_data()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_m2m_initial_callable()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_initial_values()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **RoykoForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_m2m_editing()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_multi_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_runtime_choicefield_populated()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_disabled_multiplemodelchoicefield()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- **.test_model_form_clean_applies_to_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_override_clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_auto_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_base_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_basic_creation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_save_commit_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_save_with_data_errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- **.test_custom_form_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.test_subset_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Regression for #10349: A callable can be provided as the initial value for an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **Regression for #12596: Calling super from ModelForm.clean() should be optional.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- *... and 1 more nodes in this community*
+- **ChangepasswordManagementCommandTestCase** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **object** (9 connections)
+- **.test_password_validation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_system_username()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_that_changepassword_command_changes_joes_password()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_that_changepassword_command_works_with_nonascii_output()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_that_max_tries_exits_1()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_passing_stdin()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_that_changepassword_command_with_database_option_uses_given_db()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_get_pass()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_get_pass_no_input()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **MultiDBChangepasswordManagementCommandTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **MultiDBCreatesuperuserTestCase** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_createsuperuser_command_with_database_option()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.test_nonexistent_username()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **changepassword --database should operate on the specified DB.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **The system username is used if --username isn't provided.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **Executing the changepassword management command should change joe's password** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **A CommandError should be thrown by handle() if the user enters in mismatched…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **A CommandError should be raised if the user enters in passwords which fail…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **#21627 -- Executing the changepassword management command should allow non-…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
+- **You can pass a stdin object as an option and it should be available on…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
 
 ## Relationships
 
-- [Community 46](Community_46.md) (9 shared connections)
-- [Community 549](Community_549.md) (6 shared connections)
-- [Community 343](Community_343.md) (5 shared connections)
-- [Community 464](Community_464.md) (3 shared connections)
-- [Community 869](Community_869.md) (2 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 257](Community_257.md) (1 shared connections)
-- [Community 382](Community_382.md) (1 shared connections)
-- [Community 812](Community_812.md) (1 shared connections)
-- [Community 383](Community_383.md) (1 shared connections)
-- [Community 118](Community_118.md) (1 shared connections)
-- [Community 433](Community_433.md) (1 shared connections)
+- [Community 6](Community_6.md) (11 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 41](Community_41.md) (3 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 169](Community_169.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/test_modelchoicefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_management.py`
 
 ## Audit Trail
 
-- EXTRACTED: 54 (75%)
-- INFERRED: 18 (25%)
+- EXTRACTED: 49 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

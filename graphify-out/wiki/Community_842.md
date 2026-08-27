@@ -1,32 +1,36 @@
 # Community 842
 
-> 8 nodes · cohesion 0.29
+> 9 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **EmailBackend** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
-- **._get_filename()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
-- **.open()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
-- **ConsoleEmailBackend** (1 connections)
-- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
-- **.write_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
-- **Return a unique file name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
+- **pagination/custom.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
+- **ValidAdjacentNumsPage** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
+- **ValidAdjacentNumsPaginator** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
+- **.test_get_page_hook()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **._get_page()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
+- **Page** (1 connections)
+- **.next_page_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
+- **.previous_page_number()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
+- **A Paginator subclass can use the ``_get_page`` hook to return an alternative to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
 
 ## Relationships
 
-- [Community 20](Community_20.md) (2 shared connections)
-- [Community 325](Community_325.md) (1 shared connections)
-- [Community 111](Community_111.md) (1 shared connections)
+- [Community 711](Community_711.md) (2 shared connections)
+- [Community 569](Community_569.md) (2 shared connections)
+- [Community 606](Community_606.md) (2 shared connections)
+- [Community 400](Community_400.md) (2 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/filebased.py`
+- `raw/code/hyd-evaluation/django-django/tests/pagination/custom.py`
+- `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (83%)
-- INFERRED: 2 (17%)
+- EXTRACTED: 16 (89%)
+- INFERRED: 2 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

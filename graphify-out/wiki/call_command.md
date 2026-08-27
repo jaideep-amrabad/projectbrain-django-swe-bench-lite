@@ -1,8 +1,8 @@
 # call_command()
 
-> God node · 274 connections · `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+> God node · 272 connections · `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
 
-**Community:** [Community 421](Community_421.md)
+**Community:** [Community 6](Community_6.md)
 
 ## Connections by Relation
 
@@ -33,18 +33,18 @@
 
 ### imports
 - testcases.py `EXTRACTED`
-- test_array.py `EXTRACTED`
 - admin_scripts/tests.py `EXTRACTED`
+- test_array.py `EXTRACTED`
 - staticfiles_tests/test_management.py `EXTRACTED`
-- auth_tests/test_management.py `EXTRACTED`
 - geoapp/tests.py `EXTRACTED`
+- auth_tests/test_management.py `EXTRACTED`
 - test_runner/tests.py `EXTRACTED`
 - test/runner.py `EXTRACTED`
 - check_framework/tests.py `EXTRACTED`
 - migrations/test_commands.py `EXTRACTED`
 - test_compilation.py `EXTRACTED`
-- inspectapp/tests.py `EXTRACTED`
 - test_storage.py `EXTRACTED`
+- inspectapp/tests.py `EXTRACTED`
 - cases.py `EXTRACTED`
 - base/creation.py `EXTRACTED`
 - contenttypes_tests/test_management.py `EXTRACTED`

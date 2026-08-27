@@ -1,53 +1,49 @@
 # Community 502
 
-> 17 nodes · cohesion 0.14
+> 15 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **view()** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/nonimported_module.py`
-- **AccessMixinTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.test_login_required()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.test_access_mixin_permission_denied_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.test_stacked_mixins_not_logged_in()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.test_calling_more_than_once()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **.test_request_factory()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **.test_i18n_unknown_package_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
-- **.test_stacked_mixins_missing_permission()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.test_stacked_mixins_success()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **object** (1 connections)
-- **login_required works on a simple view wrapped in a login_required decorator.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **Test a view can only be called once.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **Views respond to HTTP OPTIONS requests with an Allow header appropriate for the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- **The request factory implements all the HTTP/1.1 methods.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **nonimported_module.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/nonimported_module.py`
+- **OrderedSet** (25 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **OrderedSetTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.get_parent_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.discard()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.remove()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.test_bool()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_len()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **Return all the ancestors of this model as a list ordered by MRO. Useful for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.add()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **A set which keeps the ordering of the inserted items.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
 
 ## Relationships
 
-- [Community 288](Community_288.md) (6 shared connections)
-- [Community 258](Community_258.md) (6 shared connections)
-- [Community 283](Community_283.md) (5 shared connections)
-- [Community 296](Community_296.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 942](Community_942.md) (1 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
-- [Community 136](Community_136.md) (1 shared connections)
+- [Community 45](Community_45.md) (4 shared connections)
+- [Community 96](Community_96.md) (2 shared connections)
+- [Community 163](Community_163.md) (2 shared connections)
+- [Community 152](Community_152.md) (1 shared connections)
+- [Community 634](Community_634.md) (1 shared connections)
+- [Community 444](Community_444.md) (1 shared connections)
+- [Community 394](Community_394.md) (1 shared connections)
+- [Community 806](Community_806.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/nonimported_module.py`
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
 
 ## Audit Trail
 
-- EXTRACTED: 20 (43%)
-- INFERRED: 26 (57%)
+- EXTRACTED: 32 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,39 +1,42 @@
 # Community 618
 
-> 16 nodes · cohesion 0.12
+> 17 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **SyndicationFeed** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.add_item()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.writeString()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.add_item_elements()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.add_root_elements()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.root_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.write()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **Return extra attributes to place on the root (i.e. feed/channel) element.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **Add elements in the root (i.e. feed/channel) element. Called from write().** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **Add elements on each item (i.e. item/entry) element.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **Output the feed in the given encoding to outfile, which is a file-like object.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **Return the feed in the given encoding as a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **Base class for all syndication feeds. Subclasses should provide write()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **Add an item to the feed. All args are expected to be strings except pubdate and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
-- **.num_items()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- **Meta** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Person** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Article** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Book** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Store** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Widget** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **CommonFeature** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **WidgetProxy** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Feature** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **Plant** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **SpecialArticle** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
 
 ## Relationships
 
-- [Community 363](Community_363.md) (5 shared connections)
-- [Community 20](Community_20.md) (3 shared connections)
+- [Community 340](Community_340.md) (16 shared connections)
+- [Community 160](Community_160.md) (4 shared connections)
+- [Community 373](Community_373.md) (3 shared connections)
+- [Community 1027](Community_1027.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/feedgenerator.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 35 (83%)
+- INFERRED: 7 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

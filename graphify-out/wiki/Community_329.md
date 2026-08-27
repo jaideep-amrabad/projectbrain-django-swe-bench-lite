@@ -1,54 +1,53 @@
 # Community 329
 
-> 19 nodes · cohesion 0.13
+> 34 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **test_autoreload.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **WatchmanUnavailable** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- **GetReloaderTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **RestartWithReloaderTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.patch_autoreload()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **skip_unless_watchman_available()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **TestCheckErrors** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **TestCommonRoots** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **on_macos_with_hfs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/utils.py`
-- **.test_watchman_available()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_watchman_unavailable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_manage_py()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_python_m_django()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **utils_tests/utils.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/utils.py`
-- **RuntimeError** (1 connections)
-- **object** (1 connections)
-- **.test_mutates_error_files()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **.test_common_roots()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- **MacOS 10.13 (High Sierra) and lower can use HFS+ as a filesystem. HFS+ has a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/utils.py`
+- **UniqueTest** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **DerivedBookForm** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **BookForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **ExplicitPKForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **PriceForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **ProductForm** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **PostForm** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_explicitpk_unique()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_explicitpk_unspecified()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_inherited_unique_together()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_unique_null()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_unique_together()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_unique_together_exclusion()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_renderer_kwarg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_abstract_inherited_unique()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_abstract_inherited_unique_together()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_inherited_unique()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_inherited_unique_for_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_multiple_field_unique_together()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_simple_unique()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_unique_for_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **.test_unique_for_date_in_exclude()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **Ensure keys and blank character strings are tested for uniqueness.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **If the date for unique_for_* constraints is excluded from the ModelForm (in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **unique/unique_together validation.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 342](Community_342.md) (6 shared connections)
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 183](Community_183.md) (3 shared connections)
-- [Community 611](Community_611.md) (3 shared connections)
-- [Community 358](Community_358.md) (3 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 536](Community_536.md) (1 shared connections)
-- [Community 59](Community_59.md) (1 shared connections)
-- [Community 76](Community_76.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 883](Community_883.md) (1 shared connections)
-- [Community 713](Community_713.md) (1 shared connections)
+- [Community 83](Community_83.md) (23 shared connections)
+- [Community 198](Community_198.md) (6 shared connections)
+- [Community 261](Community_261.md) (1 shared connections)
+- [Community 393](Community_393.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/autoreload.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_autoreload.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 49 (92%)
-- INFERRED: 4 (8%)
+- EXTRACTED: 56 (78%)
+- INFERRED: 16 (22%)
 - AMBIGUOUS: 0 (0%)
 
 ---

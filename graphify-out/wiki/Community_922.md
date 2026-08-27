@@ -1,28 +1,28 @@
 # Community 922
 
-> 6 nodes · cohesion 0.33
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **.set_cookie()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **ValueError** (3 connections)
-- **.delete_cookie()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.set_signed_cookie()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **Set a cookie. ``expires`` can be: - a string in the correct format, - a naive…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- **Deserializer** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.__next__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Abstract base deserializer class.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Init this serializer given a stream or a string** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
+- **Iteration interface -- return the next item in the stream** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
 
 ## Relationships
 
-- [Community 416](Community_416.md) (4 shared connections)
-- [Community 20](Community_20.md) (2 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/response.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

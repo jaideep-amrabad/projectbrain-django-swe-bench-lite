@@ -1,59 +1,61 @@
 # Community 252
 
-> 45 nodes · cohesion 0.06
+> 41 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **RequestsTests** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **FakePayload** (35 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.test_alternate_charset_POST()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.urlencode()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.test_body_after_POST_multipart_form_data()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.test_body_after_POST_multipart_related()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.test_non_ascii_POST()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.test_POST_after_body_read()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.test_POST_after_body_read_and_stream_read()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.test_POST_after_body_read_and_stream_read_multipart()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.test_POST_immutable_for_multipart()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.test_POST_multipart_with_content_length_zero()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.test_read_after_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.test_value_after_read()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.write()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.test_limited_stream()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.test_multipart_non_ascii_content_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.test_multipart_without_boundary()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.test_POST_binary_only()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.test_read_by_lines()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.test_set_encoding_clears_POST()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.test_stream()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.test_wsgirequest()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **.test_wsgirequest_path_info()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- *... and 20 more nodes in this community*
+- **DateFormat** (21 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.w()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.test_queries_limit()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.r()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.t()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.E()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.l()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.m()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.n()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.U()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.y()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.z()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.b()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.F()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.I()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.j()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.o()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.S()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Month, textual, 3 letters, lowercase; e.g. 'jan** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Alternative month names as required by some locales. Proprietary extension.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Month, textual, long; e.g. 'January** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **1' if Daylight Savings Time, '0' otherwise.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Day of the month without leading zeros; i.e. '1' to '31** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Day of the week, textual, long; e.g. 'Friday** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [Community 228](Community_228.md) (29 shared connections)
-- [Community 286](Community_286.md) (10 shared connections)
-- [Community 71](Community_71.md) (7 shared connections)
-- [Community 65](Community_65.md) (5 shared connections)
-- [Community 20](Community_20.md) (4 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 197](Community_197.md) (1 shared connections)
-- [Community 916](Community_916.md) (1 shared connections)
-- [Community 56](Community_56.md) (1 shared connections)
+- [Community 17](Community_17.md) (4 shared connections)
+- [Community 324](Community_324.md) (1 shared connections)
+- [Community 681](Community_681.md) (1 shared connections)
+- [Community 431](Community_431.md) (1 shared connections)
+- [Community 205](Community_205.md) (1 shared connections)
+- [Community 525](Community_525.md) (1 shared connections)
+- [Community 55](Community_55.md) (1 shared connections)
+- [Community 190](Community_190.md) (1 shared connections)
+- [Community 35](Community_35.md) (1 shared connections)
+- [Community 42](Community_42.md) (1 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_client/test_fakepayload.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 115 (93%)
-- INFERRED: 9 (7%)
+- EXTRACTED: 51 (89%)
+- INFERRED: 6 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

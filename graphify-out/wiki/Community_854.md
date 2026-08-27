@@ -1,33 +1,33 @@
 # Community 854
 
-> 8 nodes · cohesion 0.36
+> 9 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **parse_http_date()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- **HttpDateProcessingTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_parsing_asctime()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_parsing_rfc1123()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_parsing_rfc850()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_parsing_year_less_than_70()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **.test_http_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
-- **Parse a date format as specified by HTTP RFC7231 section 7.1.1.1. The three…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- **._create_index_sql()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._field_indexes_sql()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._model_indexes_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._index_columns()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._field_should_be_indexed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **._get_index_tablespace_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Return the SQL statement to create the index for one or several fields. `sql`…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Return a list of all index SQL statements (field indexes, index_together,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **Return a list of all index SQL statements for the specified field.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
 
 ## Relationships
 
-- [Community 20](Community_20.md) (5 shared connections)
-- [Community 72](Community_72.md) (4 shared connections)
-- [Community 44](Community_44.md) (2 shared connections)
+- [Community 132](Community_132.md) (10 shared connections)
+- [Community 349](Community_349.md) (3 shared connections)
+- [Community 279](Community_279.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/http.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_http.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (81%)
-- INFERRED: 4 (19%)
+- EXTRACTED: 23 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

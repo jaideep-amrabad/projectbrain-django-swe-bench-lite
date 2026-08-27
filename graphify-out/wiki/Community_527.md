@@ -1,39 +1,48 @@
 # Community 527
 
-> 17 nodes · cohesion 0.12
+> 20 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **CheckboxInputTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_render_check_exception()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_render_check_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_render_int()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_render_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_value_from_datadict()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_render_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_render_false()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_render_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_render_true()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_value_from_datadict_string_int()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **.test_value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **Using any value that's not in ('', None, False, True) will check the checkbox…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **Integers are handled by value, not as booleans (#17114).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **You can pass 'check_test' to the constructor. This is a callable that takes the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **Calling check_test() shouldn't swallow exceptions (#17888).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
-- **The CheckboxInput widget will return False if the key is not found in the data…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- **DatabaseCreationTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **DatabaseCreation** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
+- **.check_sql_table_creation_suffix()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **.test_create_test_db()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **._clone_test_db()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
+- **._get_database_create_suffix()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
+- **._database_exists()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
+- **._execute_create_test_db()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
+- **._quote_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
+- **.sql_table_creation_suffix()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
+- **.changed_test_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **._execute_raise_database_already_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **._execute_raise_permission_denied()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **.patch_test_db_creation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **.test_sql_table_creation_suffix_with_encoding()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **.test_sql_table_creation_suffix_with_encoding_and_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **.test_sql_table_creation_suffix_with_none_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **.test_sql_table_creation_suffix_with_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
+- **patch** (1 connections)
+- **skipUnless** (1 connections)
 
 ## Relationships
 
-- [Community 15](Community_15.md) (4 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 273](Community_273.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 786](Community_786.md) (1 shared connections)
+- [Community 123](Community_123.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxinput.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/creation.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/test_creation.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (90%)
-- INFERRED: 2 (10%)
+- EXTRACTED: 41 (91%)
+- INFERRED: 4 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

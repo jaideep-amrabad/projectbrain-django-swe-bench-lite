@@ -1,24 +1,31 @@
 # Community 1079
 
-> 2 nodes · cohesion 1.00
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **SelectFilter2.js** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/SelectFilter2.js`
-- **findForm()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/SelectFilter2.js`
+- **DeferDeletionSignalsTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- **.post_delete_receiver()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- **.pre_delete_receiver()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- **.test_delete_defered_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- **.test_delete_defered_proxy_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 245](Community_245.md) (3 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/SelectFilter2.js`
+- `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 9 (82%)
+- INFERRED: 2 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,38 +1,47 @@
 # Community 696
 
-> 13 nodes · cohesion 0.17
+> 14 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **BaseMemcachedTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **caches_setting_for_tests()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_close()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_default_far_future_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_default_never_expiring_timeout()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_invalid_key_characters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_cull()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_invalid_key_length()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_location_multiple_servers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_memcached_deletes_key_on_failed_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_set_many_returns_failing_keys()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_zero_cull()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **On memcached, we don't introduce a duplicate key validation step (for speed…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **model_inheritance_regress/tests.py** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **AbstractEvent** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **BachelorParty** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **Supplier** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **BirthdayParty** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **MessyBachelorParty** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **Profile** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **SelfRefChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **SelfRefParent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **User** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **Wholesaler** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **Regression tests for Model inheritance behavior.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
 
 ## Relationships
 
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 742](Community_742.md) (2 shared connections)
-- [Community 295](Community_295.md) (1 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
+- [Community 492](Community_492.md) (20 shared connections)
+- [Community 314](Community_314.md) (10 shared connections)
+- [Community 697](Community_697.md) (5 shared connections)
+- [Community 1129](Community_1129.md) (2 shared connections)
+- [Community 1128](Community_1128.md) (1 shared connections)
+- [Community 1090](Community_1090.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (95%)
-- INFERRED: 1 (5%)
+- EXTRACTED: 53 (85%)
+- INFERRED: 9 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

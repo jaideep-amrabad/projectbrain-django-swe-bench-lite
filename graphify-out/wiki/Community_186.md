@@ -1,57 +1,52 @@
 # Community 186
 
-> 34 nodes · cohesion 0.06
+> 50 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **ForeignObjectRel** (32 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **CustomForeignObjectRel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
-- **.__repr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.get_cache_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.is_hidden()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.target_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.get_accessor_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.get_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.get_path_info()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.hidden()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.set_field_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **Display the module, class, and name of the field.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.get_extra_restriction()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.get_internal_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.get_joining_columns()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.get_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.many_to_many()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.many_to_one()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.one_to_many()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.one_to_one()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.related_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- *... and 9 more nodes in this community*
+- **SyndicationFeedTest** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **FeedTestCase** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_rss2_feed()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.assertChildNodeContent()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.assertChildNodes()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_rss091_feed()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.assertCategories()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_atom_feed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_feed_last_modified_time_naive_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_latest_post_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_naive_datetime_conversion()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_template_context_feed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_template_feed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **Test if the 'isPermaLink' attribute of <guid> element of an item in the RSS…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_add_domain()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_atom_feed_published_and_updated_elements()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_aware_datetime_conversion()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_custom_feed_generator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_feed_last_modified_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_feed_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_item_link_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_rss2_feed_guid_permalink_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_rss2_feed_guid_permalink_true()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_secure_urls()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- **.test_title_escaping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [Community 33](Community_33.md) (4 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 124](Community_124.md) (1 shared connections)
-- [Community 40](Community_40.md) (1 shared connections)
-- [Community 535](Community_535.md) (1 shared connections)
-- [Community 121](Community_121.md) (1 shared connections)
-- [Community 88](Community_88.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 17](Community_17.md) (4 shared connections)
+- [Community 144](Community_144.md) (2 shared connections)
+- [Community 409](Community_409.md) (2 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/reverse_related.py`
-- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- `raw/code/hyd-evaluation/django-django/tests/syndication_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (92%)
-- INFERRED: 4 (8%)
+- EXTRACTED: 67 (96%)
+- INFERRED: 3 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,60 +1,50 @@
 # Community 386
 
-> 25 nodes · cohesion 0.11
+> 29 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **MultipleChoiceField** (22 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **SongForm** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
-- **MultipleChoiceFieldTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
-- **.test_multiple_choice_list_data()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_multiple_hidden()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **MultiValueDictLike** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.valid_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.validate()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.test_hidden_data()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_checkbox_auto_id()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_empty_permitted()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_forms_with_multiple_choice()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.test_disabled_has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
-- **.test_multiplechoicefield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
-- **.test_multiplechoicefield_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
-- **.test_multiplechoicefield_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
-- **.test_multiplechoicefield_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
-- **.test_callable_initial_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.test_extracting_hidden_and_visible()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **.has_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **Check to see if the provided value is a valid choice.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **Validate that the input is a list or tuple.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.getlist()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **dict** (1 connections)
+- **TestQuerying** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **HStoreModel** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- **SimpleTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **TestSerialization** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_save_load_success()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_value_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_dumping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_roundtrip_with_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_array_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_key_val_cast_to_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_contained_by()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_exact()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_field_chaining()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_has_any_keys()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_has_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_has_keys()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_in_generator()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_key_isnull()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_key_transform()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_keys()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_keys_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- **.test_order_by_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 58](Community_58.md) (8 shared connections)
-- [Community 15](Community_15.md) (7 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 406](Community_406.md) (2 shared connections)
-- [Community 192](Community_192.md) (2 shared connections)
-- [Community 544](Community_544.md) (1 shared connections)
-- [Community 54](Community_54.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 383](Community_383.md) (1 shared connections)
-- [Community 197](Community_197.md) (1 shared connections)
+- [Community 13](Community_13.md) (7 shared connections)
+- [Community 120](Community_120.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_checks/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_multiplechoicefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
 
 ## Audit Trail
 
-- EXTRACTED: 37 (59%)
-- INFERRED: 26 (41%)
+- EXTRACTED: 41 (91%)
+- INFERRED: 4 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

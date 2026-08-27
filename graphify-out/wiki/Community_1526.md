@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **nested_foreign_keys/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/__init__.py`
+- **territorial_fallback/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/territorial_fallback/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/nested_foreign_keys/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/territorial_fallback/__init__.py`
 
 ## Audit Trail
 

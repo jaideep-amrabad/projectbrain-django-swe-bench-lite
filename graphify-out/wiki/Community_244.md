@@ -1,58 +1,51 @@
 # Community 244
 
-> 40 nodes · cohesion 0.06
+> 42 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **Car** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/models.py`
-- **AssertQuerysetEqualTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **test_testcase.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **test_transactiontestcase.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
-- **test_utils/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/models.py`
-- **PossessedCar** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/models.py`
-- **TestTestCase** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **TestSerializedRollbackInhibitsPostMigrate** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
-- **DisallowedDatabaseQueriesTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **AllowedDatabaseQueriesTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **AssertNumQueriesUponConnectionTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **DisallowedDatabaseQueriesTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
-- **TransactionTestCaseDatabasesTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
-- **.test_repeated_values()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_fixture_teardown_checks_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **.test()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
-- **.test_queries_cleared()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/models.py`
-- **.test_disallowed_database_connection()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **.test_disallowed_database_queries()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- **.test_disallowed_database_queries()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
-- **patch** (1 connections)
-- **TransactionTestCase._fixture_teardown() inhibits the post_migrate signal for…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
-- **TransactionTestCase._pre_setup() clears the connections' queries_log so that…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
-- *... and 15 more nodes in this community*
+- **DummyCacheTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_data_types()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_clear()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_decr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_decr_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_delete_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_expiration()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_get_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_has_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_in()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_incr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_incr_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_non_existent()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_set_many()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_simple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_touch()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_unicode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_delete_many_invalid_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_get_many_invalid_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_get_or_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_get_or_set_callable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_set_many_invalid_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **Cache deletion is transparently ignored on the dummy cache backend** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [Community 717](Community_717.md) (10 shared connections)
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 51](Community_51.md) (5 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 36](Community_36.md) (4 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 12](Community_12.md) (2 shared connections)
-- [Community 583](Community_583.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/test_testcase.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/test_transactiontestcase.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 71 (89%)
-- INFERRED: 9 (11%)
+- EXTRACTED: 44 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

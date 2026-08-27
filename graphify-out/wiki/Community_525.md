@@ -1,54 +1,51 @@
 # Community 525
 
-> 20 nodes · cohesion 0.16
+> 20 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **get_or_create/tests.py** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **get_or_create/models.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
-- **GetOrCreateTestsWithManualPKs** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **ManualPrimaryKeyTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
-- **Author** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
-- **Publisher** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
-- **Tag** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
-- **UpdateOrCreateTestsWithManualPKs** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **Book** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
-- **DefaultPerson** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
-- **Profile** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
-- **.test_get_or_create_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_get_or_create_raises_IntegrityError_plus_traceback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_savepoint_rollback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_create_with_duplicate_primary_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **get_or_create should raise IntegrityErrors with the full traceback. This is…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **The database connection is still usable after a DatabaseError in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **If all the attributes on a model have defaults, get_or_create() doesn't require…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **If an existing primary key is specified with different values for other fields,…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **test_natural.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
+- **deserialize()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
+- **serialize()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
+- **.d()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **natural_pk_mti_test()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
+- **pk_with_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
+- **serializerTest()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- **forward_ref_fk_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
+- **forward_ref_fk_with_error_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
+- **forward_ref_m2m_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
+- **forward_ref_m2m_with_error_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
+- **natural_key_serializer_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
+- **natural_key_test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
+- **NaturalKeySerializerTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
+- **Serialize a queryset (or any iterator that returns database objects) using a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
+- **Deserialize a stream or a string. Return an iterator that yields ``(obj,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
+- **Day of the month, 2 digits with leading zeros; i.e. '01' to '31** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Day of the week, textual, 3 letters; e.g. 'Fri** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **The deserializer works with natural keys when the primary key has a default…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
+- **If serializing objects in a multi-table inheritance relationship using natural…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
 
 ## Relationships
 
-- [Community 828](Community_828.md) (5 shared connections)
-- [Community 547](Community_547.md) (5 shared connections)
-- [Community 4](Community_4.md) (4 shared connections)
-- [Community 736](Community_736.md) (3 shared connections)
-- [Community 546](Community_546.md) (3 shared connections)
-- [Community 51](Community_51.md) (3 shared connections)
-- [Community 1011](Community_1011.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 57](Community_57.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
-- [Community 103](Community_103.md) (1 shared connections)
+- [Community 13](Community_13.md) (6 shared connections)
+- [Community 500](Community_500.md) (3 shared connections)
+- [Community 41](Community_41.md) (2 shared connections)
+- [Community 252](Community_252.md) (1 shared connections)
+- [Community 515](Community_515.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/get_or_create/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/serializers/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_data.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_natural.py`
 
 ## Audit Trail
 
-- EXTRACTED: 53 (82%)
-- INFERRED: 12 (18%)
+- EXTRACTED: 48 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

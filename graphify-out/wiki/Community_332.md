@@ -1,54 +1,64 @@
 # Community 332
 
-> 34 nodes · cohesion 0.06
+> 26 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **ModelInheritanceTest** (56 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
-- **.test_abstract_verbose_name_plural_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
-- **.test_all_fields_from_abstract_base_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
-- **.test_concrete_abstract_concrete_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
-- **.test_inheritance_values_joins()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
-- **.test_inherited_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
-- **.test_inherited_unique_field_with_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
-- **.test_issue_11764()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
-- **.test_issue_7853()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
-- **.test_queryset_update_on_parent_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
-- **.test_use_explicit_o2o_to_parent_as_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
-- **.test_abstract_base_class_m2m_relation_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
-- **.test_filter_with_parent_fk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
-- **.test_id_field_update_on_ancestor_change()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
-- **.test_inheritance_joins()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
-- **.test_inheritance_resolve_columns()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
-- **.test_inheritance_select_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
-- **.test_inherited_nullable_exclude()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
-- **.test_issue_21554()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
-- **.test_issue_7105()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
-- **.test_ptr_accessor_assigns_state()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
-- **.test_queries_on_parent_access()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
-- **.test_related_filtering_query_efficiency_ticket_15844()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
-- **.test_use_explicit_o2o_to_parent_from_abstract_model()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
-- **expectedFailure** (1 connections)
-- *... and 9 more nodes in this community*
+- **LiveServerTestCase** (23 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **classproperty** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **SeleniumTestCase** (13 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.Migration()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/recorder.py`
+- **.setUpClass()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **ClassPropertyTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **LiveServerThreadTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
+- **._create_server_thread()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.tearDownClass()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **._tearDownClassInternal()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.run_live_server_thread()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
+- **.test_getter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **.allowed_host()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.disable_implicit_wait()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.live_server_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **.allowed_host()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.live_server_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **.__get__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **.__get__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **.test_closes_connections()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
+- **.test_override_getter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
+- **Lazy load to avoid AppRegistryNotReady if installed apps import…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/recorder.py`
+- **Disable the default implicit wait.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **._tearDownClassInternal()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- **Do basically the same as TransactionTestCase but also launch a live HTTP server…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 678](Community_678.md) (10 shared connections)
-- [Community 679](Community_679.md) (9 shared connections)
-- [Community 488](Community_488.md) (8 shared connections)
-- [Community 1063](Community_1063.md) (2 shared connections)
-- [Community 1064](Community_1064.md) (2 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
-- [Community 1020](Community_1020.md) (1 shared connections)
+- [Community 11](Community_11.md) (5 shared connections)
+- [Community 406](Community_406.md) (3 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 582](Community_582.md) (2 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
+- [Community 858](Community_858.md) (2 shared connections)
+- [Community 255](Community_255.md) (2 shared connections)
+- [Community 55](Community_55.md) (1 shared connections)
+- [Community 61](Community_61.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/recorder.py`
+- `raw/code/hyd-evaluation/django-django/django/test/selenium.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- `raw/code/hyd-evaluation/django-django/tests/servers/test_liveserverthread.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (61%)
-- INFERRED: 26 (39%)
+- EXTRACTED: 69 (91%)
+- INFERRED: 7 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

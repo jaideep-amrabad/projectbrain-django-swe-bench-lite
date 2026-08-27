@@ -1,22 +1,28 @@
 # Community 1190
 
-> 1 nodes · cohesion 1.00
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **prepopulate_init.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/prepopulate_init.js`
+- **UUIDFieldTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
+- **.test_clean_value_with_dashes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
+- **.test_uuidfield_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
+- **.test_uuidfield_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
+- **.test_uuidfield_3()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
+- **.test_uuidfield_4()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/prepopulate_init.js`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_uuidfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 7 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

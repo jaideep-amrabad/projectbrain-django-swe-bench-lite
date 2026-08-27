@@ -1,41 +1,44 @@
 # Community 695
 
-> 13 nodes · cohesion 0.19
+> 14 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **ChangelistTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.get_user_data()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_view_user_password_is_readonly()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_user_change_email()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_user_change_password_passes_user_to_has_change_permission()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_user_not_change()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_changelist_disallows_password_lookups()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_password_change_bad_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.test_user_change_different_user_password()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **get_perm()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
-- **patch** (1 connections)
+- **ModelInheritanceTests** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **MixinModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **Mixin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **.test_abstract_parent_link()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_init_subclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_mixin_init()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_set_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- **.test_abstract()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_custompk_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_meta_fields_and_ordering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_model_with_distinct_accessors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_model_with_distinct_related_query_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
+- **.test_reverse_relation_for_different_hierarchy_tree()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
 
 ## Relationships
 
-- [Community 16](Community_16.md) (7 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 589](Community_589.md) (1 shared connections)
-- [Community 669](Community_669.md) (1 shared connections)
-- [Community 219](Community_219.md) (1 shared connections)
-- [Community 355](Community_355.md) (1 shared connections)
+- [Community 796](Community_796.md) (7 shared connections)
+- [Community 762](Community_762.md) (4 shared connections)
+- [Community 957](Community_957.md) (3 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 956](Community_956.md) (2 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
+- [Community 1035](Community_1035.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 24 (65%)
+- INFERRED: 13 (35%)
 - AMBIGUOUS: 0 (0%)
 
 ---

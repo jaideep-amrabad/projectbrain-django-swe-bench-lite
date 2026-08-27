@@ -1,38 +1,38 @@
 # Community 720
 
-> 12 nodes · cohesion 0.26
+> 13 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **RegexField** (12 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **RegexFieldTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
-- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **._set_regex()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **.test_change_regex_after_init()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
-- **.test_regexfield_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
-- **.test_regexfield_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
-- **.test_regexfield_3()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
-- **.test_regexfield_4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
-- **.test_regexfield_unicode_characters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
-- **regex can be either a string or a compiled regular expression object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- **._get_regex()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **ModelRefreshTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_refresh_clears_reverse_related()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_prefetched_cache_cleared()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_refresh_clears_one_to_one_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_refresh_fk_on_delete_set_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_refresh_unsaved()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_lookup_in_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_refresh()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_refresh_fk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_refresh_no_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_refresh_null_fk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **.test_unknown_kwarg()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
+- **refresh_from_db() clear cached reverse relations.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
 
 ## Relationships
 
-- [Community 15](Community_15.md) (2 shared connections)
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 544](Community_544.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 17](Community_17.md) (4 shared connections)
+- [Community 45](Community_45.md) (3 shared connections)
+- [Community 469](Community_469.md) (2 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_regexfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/basic/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (70%)
-- INFERRED: 7 (30%)
+- EXTRACTED: 15 (68%)
+- INFERRED: 7 (32%)
 - AMBIGUOUS: 0 (0%)
 
 ---

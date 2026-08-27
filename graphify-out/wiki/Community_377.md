@@ -1,50 +1,51 @@
 # Community 377
 
-> 26 nodes · cohesion 0.08
+> 29 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **FeedgeneratorTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **.test_rfc2822_date_with_timezone()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **.test_rfc3339_date_with_timezone()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **.test_atom1_mime_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **.test_get_tag_uri()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **.test_get_tag_uri_with_port()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **.test_latest_post_date_returns_utc_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **.test_rfc2822_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **.test_rfc2822_date_without_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **.test_rfc3339_date()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **.test_rfc3339_date_without_time()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **.test_rss_mime_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **rfc2822_date() correctly formats datetime objects with tzinfo.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **.test_atom_add_item()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **.test_deterministic_attribute_order()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **.test_feed_with_feed_url_gets_rendered_with_atom_link()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **.test_feed_without_feed_url_gets_rendered_without_atom_link()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **get_tag_uri() correctly generates TagURIs.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **get_tag_uri() correctly generates TagURIs from URLs with port numbers.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **rfc2822_date() correctly formats datetime objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **rfc3339_date() correctly formats datetime objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **rfc3339_date() correctly formats datetime objects with tzinfo.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **rfc3339_date() correctly formats date objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **Atom MIME type has UTF8 Charset parameter set** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- **Tests for the low-level syndication feed framework.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
-- *... and 1 more nodes in this community*
+- **PermLookupDict** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **PermWrapper** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **PermWrapperTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **MockUser** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **auth/context_processors.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **EQLimiterObject** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.test_permlookupdict_in()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **auth()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.test_permwrapper_in()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.test_iter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.__contains__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **Lookup by "someapp" or "someapp.someperm" in perms.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **Return context variables required by apps that use Django's authentication…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.has_module_perms()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- **.has_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- *... and 4 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 126](Community_126.md) (1 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 110](Community_110.md) (2 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_feedgenerator.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 43 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,35 +1,40 @@
 # Community 772
 
-> 10 nodes · cohesion 0.29
+> 16 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **CommonPasswordValidator** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **CommonPasswordValidatorTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **.validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **.test_help_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **.test_validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **.test_validate_custom_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **.test_validate_django_supplied_file()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **.get_help_text()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **Validate whether the password is a common password. The password is rejected if…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
+- **ExcludeTest17600** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_only_orders_with_all_items_having_status_1()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **This should exclude Orders which have some items with status 1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_exclude_with_q_is_equal_to_plain_exclude()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_exclude_with_q_is_equal_to_plain_exclude_variation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_exclude_with_q_object_distinct()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_exclude_with_q_object_no_distinct()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_col_not_in_list_containing_null()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_exclude_plain()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_exclude_plain_distinct()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **expectedFailure** (2 connections)
+- **Using exclude(condition) and exclude(Q(condition)) should yield the same…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **Some regressiontests for ticket #17600. Some of these likely duplicate other…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **This should only return orders having ALL items set to status 1, or those items…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **The following case is not handled properly because SQL's COL NOT IN (list…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Relationships
 
-- [Community 159](Community_159.md) (3 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 12](Community_12.md) (5 shared connections)
+- [Community 10](Community_10.md) (3 shared connections)
+- [Community 41](Community_41.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 22 (76%)
+- INFERRED: 7 (24%)
 - AMBIGUOUS: 0 (0%)
 
 ---

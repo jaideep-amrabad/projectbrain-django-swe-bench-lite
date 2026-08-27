@@ -1,40 +1,43 @@
 # Community 729
 
-> 12 nodes · cohesion 0.32
+> 14 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Truncator** (19 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **.add_truncation_text()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **.chars()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **._truncate_html()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **._text_chars()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **._text_words()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **.words()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **Truncate a string after a certain number of chars.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **Truncate HTML to a certain number of chars (not counting tags and comments),…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **An object used to truncate text, either by characters or words.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **Return the text truncated to be no longer than the specified number of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **proxy_model_inheritance/tests.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
+- **MultiTableInheritanceProxyTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
+- **proxy_model_inheritance/models.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
+- **ProxyModel** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
+- **ConcreteModelSubclass** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
+- **ConcreteModelSubclassProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
+- **ProxyModelInheritanceTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
+- **ConcreteModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
+- **.test_table_exists()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
+- **.test_model_subclass_proxy()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
+- **.test_deletion_through_intermediate_proxy()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
+- **Proxy model inheritance across apps can result in migrate not creating the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
+- **Deleting an instance of a model proxying a multi-table inherited subclass…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
 
 ## Relationships
 
-- [Community 17](Community_17.md) (4 shared connections)
-- [Community 28](Community_28.md) (2 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 41](Community_41.md) (2 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 303](Community_303.md) (2 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
-- [Community 78](Community_78.md) (1 shared connections)
-- [Community 490](Community_490.md) (1 shared connections)
-- [Community 101](Community_101.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/proxy_model_inheritance/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 35 (88%)
+- INFERRED: 5 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

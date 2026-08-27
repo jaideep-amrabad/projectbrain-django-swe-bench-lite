@@ -1,42 +1,43 @@
 # Community 598
 
-> 17 nodes · cohesion 0.16
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **OverrideSettingsIsolationOnExceptionTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.check_settings()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.check_spy_receiver_exit_calls()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_override_settings_both()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_override_settings_enter()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_override_settings_exit()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_override_settings_reusable_on_enter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.receiver()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **The override_settings context manager restore settings if one of the receivers…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **A receiver that fails while certain settings are being changed. - SETTING_BOTH…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **Assert that settings for these tests aren't present.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **Assert that `self.spy_receiver` was called exactly `call_count` times with the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **Receiver fails on both enter and exit.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **Receiver fails on enter only.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **Receiver fails on exit only.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **Error is raised correctly when reusing the same override_settings instance.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **ValuesQuerysetTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_named_values_list_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_named_values_list_expression_with_default_alias()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_named_values_list_with_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_named_values_list_without_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_extra_multiple_select_params_values_order_by()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_extra_select_params_values_order_in_extra()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_extra_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_extra_values_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_extra_values_order_in_extra()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_extra_values_order_multiple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_extra_values_order_twice()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_field_error_values_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_flat_extra_values_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_flat_values_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_named_values_list_bad_field_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_named_values_list_flat()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Relationships
 
-- [Community 12](Community_12.md) (4 shared connections)
+- [Community 10](Community_10.md) (3 shared connections)
+- [Community 21](Community_21.md) (3 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 - [Community 20](Community_20.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 111](Community_111.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 28 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 20 (80%)
+- INFERRED: 5 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

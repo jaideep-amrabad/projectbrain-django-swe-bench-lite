@@ -1,59 +1,62 @@
 # Community 165
 
-> 27 nodes · cohesion 0.07
+> 53 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **SessionBase** (53 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.encode()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.clear_expired()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.is_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.save()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.set_expiry()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **Return the given session dictionary serialized and encoded as a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **Return True when there is no session_key and the session is empty.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **Set a custom expiration for the session. ``value`` can be an integer, a Python…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **Save the session data. If 'must_create' is True, create a new session object…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **Remove expired sessions from the session store. If this operation isn't…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **Base class for all Session classes.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.delete_test_cookie()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.__delitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **._get_session_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.has_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.items()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.keys()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.pop()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.set_test_cookie()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.setdefault()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- **.__setitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- *... and 2 more nodes in this community*
+- **delete/tests.py** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **DeletionTests** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **delete/models.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **Avatar** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **R** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **RChild** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **noop()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **M** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **Parent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **RChildChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **.test_unique_together_normalization()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
+- **AvatarProxy** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **Base** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **get_default_r()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **HiddenUser** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **HiddenUserProfile** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **M2MFrom** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **M2MTo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **MR** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **MRNull** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **Origin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **Referrer** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **S** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **T** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- *... and 28 more nodes in this community*
 
 ## Relationships
 
-- [Community 20](Community_20.md) (9 shared connections)
-- [Community 777](Community_777.md) (6 shared connections)
-- [Community 780](Community_780.md) (5 shared connections)
-- [Community 887](Community_887.md) (3 shared connections)
-- [Community 841](Community_841.md) (2 shared connections)
-- [Community 907](Community_907.md) (2 shared connections)
-- [Community 909](Community_909.md) (2 shared connections)
-- [Community 265](Community_265.md) (1 shared connections)
-- [Community 68](Community_68.md) (1 shared connections)
-- [Community 578](Community_578.md) (1 shared connections)
-- [Community 101](Community_101.md) (1 shared connections)
-- [Community 159](Community_159.md) (1 shared connections)
+- [Community 470](Community_470.md) (11 shared connections)
+- [Community 756](Community_756.md) (9 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 61](Community_61.md) (2 shared connections)
+- [Community 28](Community_28.md) (2 shared connections)
+- [Community 41](Community_41.md) (2 shared connections)
+- [Community 236](Community_236.md) (2 shared connections)
+- [Community 430](Community_430.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 116](Community_116.md) (1 shared connections)
+- [Community 55](Community_55.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/templatetags/custom.py`
+- `raw/code/hyd-evaluation/django-django/tests/validation/test_unique.py`
 
 ## Audit Trail
 
-- EXTRACTED: 59 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 105 (80%)
+- INFERRED: 27 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

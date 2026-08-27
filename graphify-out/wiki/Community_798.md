@@ -1,35 +1,42 @@
 # Community 798
 
-> 10 nodes · cohesion 0.27
+> 14 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **Person** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
-- **PropertyTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
-- **properties/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
-- **properties/tests.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
-- **.test_setter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
-- **._get_full_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
-- **._set_full_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
-- **Using properties on models Use properties on models just like on any other…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
-- **.test_getter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
+- **duration_iso_string()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/utils/duration.py`
+- **test_duration.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **TestISODurationString** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **TestParseISODurationRoundtrip** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test_days()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test_microseconds()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test_negative()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test_simple()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **TestDurationMicroseconds** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test_days()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test_microseconds()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test_negative()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
+- **.test_simple()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 45](Community_45.md) (5 shared connections)
+- [Community 869](Community_869.md) (5 shared connections)
+- [Community 229](Community_229.md) (4 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/properties/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/properties/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/duration.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_duration.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 38 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

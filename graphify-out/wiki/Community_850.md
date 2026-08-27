@@ -1,32 +1,30 @@
 # Community 850
 
-> 8 nodes · cohesion 0.36
+> 9 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **Ceil** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **CeilTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ceil.py`
-- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ceil.py`
-- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ceil.py`
-- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ceil.py`
-- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ceil.py`
-- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ceil.py`
-- **.as_oracle()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
+- **OutputWrapper** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.style_func()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.isatty()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.write()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.__getattr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **setter** (1 connections)
+- **Wrapper around stdout/stderr** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
+- **TextIOBase** (1 connections)
 
 ## Relationships
 
-- [Community 51](Community_51.md) (5 shared connections)
-- [Community 162](Community_162.md) (1 shared connections)
-- [Community 70](Community_70.md) (1 shared connections)
+- [Community 4](Community_4.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_ceil.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

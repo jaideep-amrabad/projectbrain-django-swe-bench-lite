@@ -1,47 +1,54 @@
 # Community 498
 
-> 21 nodes · cohesion 0.15
+> 21 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **datetime_safe.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **DatetimeTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
-- **test_datetime_safe.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
-- **.date()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **time** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **date** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **new_date()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **new_datetime()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **strftime()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **.test_compare_datetimes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
-- **.test_safe_strftime()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
-- **.test_zero_padding()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
-- **.strftime()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **.strftime()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **_findall()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **Generate a safe date from a datetime.date object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **Generate a safe datetime from a datetime.date or datetime.datetime object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
-- **Regression for #12524 Pre-1000AD dates are padded with zeros if necessary** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
-- **real_date** (1 connections)
-- **real_time** (1 connections)
+- **ChangeList** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **.get_queryset()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **.get_ordering()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **.get_ordering_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **.get_ordering_field_columns()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **.apply_select_related()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **._get_default_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **._get_deterministic_ordering()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **.get_filters_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **.url_for_result()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **CustomChangeList** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **.get_query_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **.get_results()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **.has_related_field_in_list_display()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **Return the proper model field name corresponding to the given field_name to use…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **Return the list of ordering fields for the change list. First check the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **Ensure a deterministic order across all database backends. Search for a single…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **Return a dictionary of ordering field column numbers and asc/desc.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **Return all params except IGNORED_PARAMS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- **.get_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Relationships
 
-- [Community 72](Community_72.md) (8 shared connections)
-- [Community 18](Community_18.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
+- [Community 45](Community_45.md) (11 shared connections)
+- [Community 31](Community_31.md) (2 shared connections)
+- [Community 65](Community_65.md) (2 shared connections)
+- [Community 606](Community_606.md) (1 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
+- [Community 122](Community_122.md) (1 shared connections)
+- [Community 333](Community_333.md) (1 shared connections)
+- [Community 583](Community_583.md) (1 shared connections)
+- [Community 210](Community_210.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 - [Community 15](Community_15.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datetime_safe.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (93%)
-- INFERRED: 3 (7%)
+- EXTRACTED: 44 (83%)
+- INFERRED: 9 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

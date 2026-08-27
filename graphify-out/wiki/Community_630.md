@@ -1,42 +1,43 @@
 # Community 630
 
-> 16 nodes · cohesion 0.15
+> 16 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **test_api.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **ApiTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **DummyStorage** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **CustomRequest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **CustomRequestApiTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **.test_middleware_missing()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **.test_middleware_missing_silently()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **.test_ok()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **.test_request_is_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **.add()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **dummy message-store to test the api methods** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
-- **add_message() should use ducktyping to allow request wrappers such as the one…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- **UserSettingsHolder** (13 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.configure()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__delattr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__setattr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.FILE_CHARSET()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__delattr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__getattr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__setattr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **Holder for user configured settings.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **Requests for configuration variables not in this class are satisfied from the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **Set the value of setting. Clear all cached values if _wrapped changes…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **Delete a setting and clear it from cache if needed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **Called to manually configure the settings. The 'default_settings' parameter…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__dir__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 152](Community_152.md) (1 shared connections)
-- [Community 137](Community_137.md) (1 shared connections)
+- [Community 704](Community_704.md) (4 shared connections)
+- [Community 626](Community_626.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 770](Community_770.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_api.py`
+- `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 23 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

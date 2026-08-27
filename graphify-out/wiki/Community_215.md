@@ -1,57 +1,58 @@
 # Community 215
 
-> 47 nodes · cohesion 0.05
+> 45 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **fields/ranges.py** (28 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **RangeField** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **AttributeSetter** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/utils.py`
-- **RangeBoundary** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **DateTimeRangeContains** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **RangeContainedBy** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **BigIntegerRangeField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **DateRangeField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **DateTimeRangeField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **DecimalRangeField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **IntegerRangeField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **RangeEndsWith** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **RangeStartsWith** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **fields/utils.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/utils.py`
-- **.value_to_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- **AdjacentToLookup** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **.process_rhs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **FullGreaterThan** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **FullyLessThan** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **IsEmpty** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **NotGreaterThan** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **NotLessThan** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **.get_prep_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **.process_rhs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- **.model()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- *... and 22 more nodes in this community*
+- **BulkCreateTests** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **bulk_create/tests.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **bulk_create/models.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **TwoFields** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **Country** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **ProxyCountry** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **Restaurant** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **ProxyMultiCountry** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **ProxyMultiProxyCountry** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **ProxyProxyCountry** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **State** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **Pizzeria** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **.test_bulk_insert_expressions()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **.test_large_batch_mixed_efficiency()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **NoFields** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **NullableFields** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **.test_large_batch_efficiency()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **.test_long_non_ascii_text()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **.test_multi_table_inheritance_unsupported()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **.test_proxy_inheritance_supported()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **.test_zero_as_autoval()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **Place** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- **.test_bulk_insert_nullable_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- **.test_explicit_batch_size_efficiency()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
+- *... and 20 more nodes in this community*
 
 ## Relationships
 
-- [Community 70](Community_70.md) (8 shared connections)
-- [Community 110](Community_110.md) (5 shared connections)
-- [Community 220](Community_220.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 72](Community_72.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 191](Community_191.md) (1 shared connections)
-- [Community 345](Community_345.md) (1 shared connections)
+- [Community 28](Community_28.md) (14 shared connections)
+- [Community 3](Community_3.md) (6 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 61](Community_61.md) (3 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
+- [Community 38](Community_38.md) (2 shared connections)
+- [Community 41](Community_41.md) (2 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 227](Community_227.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/array.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/ranges.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/bulk_create/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/bulk_create/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 74 (96%)
-- INFERRED: 3 (4%)
+- EXTRACTED: 128 (92%)
+- INFERRED: 11 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

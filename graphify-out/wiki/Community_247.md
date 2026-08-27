@@ -1,46 +1,52 @@
 # Community 247
 
-> 18 nodes · cohesion 0.20
+> 41 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **test_tablespaces.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
-- **TablespacesTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
-- **tablespaces.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
-- **sql_for_table()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
-- **.test_tablespace_for_many_to_many_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
-- **.assertNumContains()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
-- **.test_tablespace_for_indexed_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
-- **.test_tablespace_for_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
-- **Article** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
-- **Scientist** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
-- **.test_tablespace_ignored_for_indexed_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
-- **.test_tablespace_ignored_for_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
-- **ArticleRef** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
-- **ScientistRef** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
-- **sql_for_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **ModelAdminChecks** (26 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **.check()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **_issubclass()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_filter_item()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_form()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_date_hierarchy()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_inlines()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_inlines_item()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_display()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_display_links()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_editable()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_filter()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_max_show_all()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_per_page()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_select_related()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_save_as()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_save_on_top()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_search_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **must_inherit_from()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_action_permission_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_actions_uniqueness()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_editable_item()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_display_item()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **._check_list_display_links_item()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- **issubclass() variant that doesn't raise an exception if cls isn't a class.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [Community 38](Community_38.md) (7 shared connections)
-- [Community 4](Community_4.md) (3 shared connections)
-- [Community 36](Community_36.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 171](Community_171.md) (17 shared connections)
+- [Community 45](Community_45.md) (7 shared connections)
+- [Community 566](Community_566.md) (3 shared connections)
+- [Community 31](Community_31.md) (2 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 88 (97%)
+- INFERRED: 3 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,37 +1,32 @@
 # Community 822
 
-> 9 nodes · cohesion 0.33
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **DateHierarchyTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
-- **EventAdmin** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **.assertDateParams()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
-- **.test_bounded_params_with_time_zone()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
-- **.test_bounded_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
-- **.test_invalid_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
-- **.event_date_func()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **.has_add_permission()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
+- **MultipleHiddenInputTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiplehiddeninput.py`
+- **.test_render_increment_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiplehiddeninput.py`
+- **.test_render_attrs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiplehiddeninput.py`
+- **.test_render_attrs_multiple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiplehiddeninput.py`
+- **.test_render_empty()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiplehiddeninput.py`
+- **.test_render_multiple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiplehiddeninput.py`
+- **.test_render_none()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiplehiddeninput.py`
+- **.test_render_single()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiplehiddeninput.py`
+- **Each input should get a separate ID.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiplehiddeninput.py`
 
 ## Relationships
 
-- [Community 79](Community_79.md) (5 shared connections)
-- [Community 449](Community_449.md) (2 shared connections)
-- [Community 72](Community_72.md) (2 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
-- [Community 63](Community_63.md) (1 shared connections)
-- [Community 126](Community_126.md) (1 shared connections)
+- [Community 240](Community_240.md) (2 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_multiplehiddeninput.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (75%)
-- INFERRED: 6 (25%)
+- EXTRACTED: 11 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

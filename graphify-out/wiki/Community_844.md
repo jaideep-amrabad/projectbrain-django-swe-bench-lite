@@ -1,30 +1,35 @@
 # Community 844
 
-> 8 nodes · cohesion 0.29
+> 9 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **._set_slice()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **.__setitem__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **._assign_extended_slice()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **._check_allowed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **._set_single_rebuild()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **Set the item(s) at the specified index/slice.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **Assign values to a slice of the object** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
-- **Assign an extended slice by re-assigning individual items** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- **check_password()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/handlers/modwsgi.py`
+- **ModWsgiHandlerTestCase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
+- **.test_check_password_custom_user()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
+- **.test_check_password()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
+- **.test_groups_for_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
+- **check_password() returns the correct values as per…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
+- **Authenticate against Django's auth database. mod_wsgi docs specify None, True,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/handlers/modwsgi.py`
+- **Tests for the mod_wsgi authentication handler** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
+- **groups_for_user() returns correct values as per…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
 
 ## Relationships
 
-- [Community 401](Community_401.md) (5 shared connections)
-- [Community 774](Community_774.md) (2 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 288](Community_288.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/mutable_list.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/handlers/modwsgi.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_handlers.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (100%)
+- EXTRACTED: 18 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

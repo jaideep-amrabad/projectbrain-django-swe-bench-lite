@@ -1,45 +1,63 @@
 # Community 533
 
-> 19 nodes · cohesion 0.15
+> 27 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **FlatpageForm** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/forms.py`
-- **FlatpageAdminFormTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
-- **.clean_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/forms.py`
-- **._trailing_slash_required()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/forms.py`
-- **.test_flatpage_admin_form_edit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
-- **.test_flatpage_admin_form_url_uniqueness_validation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
-- **.test_flatpage_admin_form_url_validation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
-- **.test_flatpage_doesnt_requires_trailing_slash_without_append_slash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
-- **.test_flatpage_requires_trailing_slash_with_append_slash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/forms.py`
-- **.setUpTestData()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
-- **.test_flatpage_nosites()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
-- **.test_flatpage_requires_leading_slash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
-- **.clean()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/forms.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/forms.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
-- **The flatpage admin form correctly validates urls** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
-- **The flatpage admin form correctly enforces url uniqueness among flatpages of…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
-- **Existing flatpages can be edited in the admin form without triggering the url-…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
+- **postgres/validators.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- **forms/array.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **MaxValueValidator** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **MinValueValidator** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **DecimalValidator** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **MinLengthValidator** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **ArrayMaxLengthValidator** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- **RangeMaxValueValidator** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- **RangeMinValueValidator** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- **ArrayMinLengthValidator** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- **.test_validators_independence()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
+- **.test_basic_equality()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.test_decimal_equality()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
+- **.__call__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **.test_max()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.test_min()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- **.compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- **.compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **.compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **.clean()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **.compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- **.compare()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Community 81](Community_81.md) (5 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 101](Community_101.md) (1 shared connections)
-- [Community 136](Community_136.md) (1 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
+- [Community 111](Community_111.md) (16 shared connections)
+- [Community 13](Community_13.md) (7 shared connections)
+- [Community 965](Community_965.md) (5 shared connections)
+- [Community 26](Community_26.md) (4 shared connections)
+- [Community 319](Community_319.md) (3 shared connections)
+- [Community 9](Community_9.md) (3 shared connections)
+- [Community 353](Community_353.md) (3 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
+- [Community 362](Community_362.md) (2 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
+- [Community 680](Community_680.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/array.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/validators.py`
+- `raw/code/hyd-evaluation/django-django/django/core/validators.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_ranges.py`
+- `raw/code/hyd-evaluation/django-django/tests/validators/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 37 (100%)
+- EXTRACTED: 85 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

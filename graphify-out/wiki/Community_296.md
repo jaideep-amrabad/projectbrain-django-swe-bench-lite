@@ -1,60 +1,68 @@
 # Community 296
 
-> 39 nodes · cohesion 0.09
+> 31 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **auth_tests/test_mixins.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **auth/mixins.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **PermissionRequiredMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **AccessMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **.handle_no_permission()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **UserPassesTestMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **LoginRequiredMixin** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **EmptyResponseView** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.dispatch()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **LoginRequiredMixinTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.get_login_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **.dispatch()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **.get_permission_required()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **.has_permission()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **AlwaysFalseMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **AlwaysTrueMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **StackedMixinsView1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **StackedMixinsView2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.get_permission_denied_message()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **.get_redirect_field_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **.dispatch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **.get_test_func()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- **AlwaysFalseView** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **AlwaysTrueView** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
-- *... and 14 more nodes in this community*
+- **.import_module()** (41 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- **.test_calendar_show_date_from_input()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **EggLoader** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.create()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- **CustomLoader** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_deep_loader()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_shallow_loader()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_has_sumbodule_with_dotted_path()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.test_loader()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.import_models()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- **.compiler()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **.deconstruct()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **.session()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **DefaultLoader** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.handle()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/management/commands/clearsessions.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/middleware.py`
+- **.urlconf_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- **Factory that creates an app config from an entry in INSTALLED_APPS.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- **Return the SQLCompiler class corresponding to the given name, in the namespace…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Return a 5-tuple of the form (as_manager (True), manager_class, queryset_class,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- **Return the current session variables.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **The calendar shows the date from the input field for every locale supported by…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- *... and 6 more nodes in this community*
 
 ## Relationships
 
-- [Community 20](Community_20.md) (7 shared connections)
-- [Community 5](Community_5.md) (6 shared connections)
-- [Community 10](Community_10.md) (3 shared connections)
-- [Community 53](Community_53.md) (2 shared connections)
-- [Community 929](Community_929.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 288](Community_288.md) (2 shared connections)
+- [Community 4](Community_4.md) (9 shared connections)
+- [Community 406](Community_406.md) (4 shared connections)
+- [Community 9](Community_9.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 497](Community_497.md) (3 shared connections)
 - [Community 14](Community_14.md) (2 shared connections)
-- [Community 502](Community_502.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 71](Community_71.md) (1 shared connections)
+- [Community 52](Community_52.md) (2 shared connections)
+- [Community 395](Community_395.md) (2 shared connections)
+- [Community 303](Community_303.md) (2 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 55](Community_55.md) (1 shared connections)
+- [Community 50](Community_50.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/management/commands/clearsessions.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/middleware.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/manager.py`
+- `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_widgets/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/serializers/test_yaml.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
 
 ## Audit Trail
 
-- EXTRACTED: 98 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 43 (51%)
+- INFERRED: 41 (49%)
 - AMBIGUOUS: 0 (0%)
 
 ---

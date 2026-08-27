@@ -1,44 +1,50 @@
 # Community 577
 
-> 15 nodes · cohesion 0.17
+> 20 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **custom_pk/tests.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **CustomPKTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **Business** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
-- **Employee** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
-- **Foo** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
-- **.test_custom_pk_create()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **.test_required_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
-- **.test_custom_field_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **.test_unicode_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **.test_unique_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **.test_zero_non_autoincrement_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
-- **New objects can be created both with pk and the custom name** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
+- **CheckboxSelectMultipleTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **CheckboxSelectMultiple** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.id_for_label()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.test_label()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_separate_ids_constructor()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_doesnt_localize_input_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_render_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_separate_ids()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **Don't include for="field_0" in <label> because clicking such a label would…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **.test_nested_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_nested_choices_without_id()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_render_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_render_value_multiple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_use_required_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **.test_value_omitted_from_data()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **Each input gets a separate ID.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **Each input gets a separate ID when the ID is passed to the constructor.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **CheckboxSelectMultiple doesn't contain 'for="field_0"' in the <label> because…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
+- **If the value is None, none of the options are selected, even if the choices…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
 
 ## Relationships
 
-- [Community 211](Community_211.md) (6 shared connections)
-- [Community 559](Community_559.md) (3 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 51](Community_51.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 583](Community_583.md) (1 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
+- [Community 240](Community_240.md) (2 shared connections)
+- [Community 83](Community_83.md) (1 shared connections)
+- [Community 324](Community_324.md) (1 shared connections)
+- [Community 251](Community_251.md) (1 shared connections)
+- [Community 449](Community_449.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/custom_pk/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/custom_pk/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_checkboxselectmultiple.py`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (83%)
-- INFERRED: 6 (17%)
+- EXTRACTED: 27 (93%)
+- INFERRED: 2 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

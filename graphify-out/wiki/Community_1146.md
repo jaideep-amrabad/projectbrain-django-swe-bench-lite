@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **.test_through_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
-- **Relations with intermediary tables with multiple FKs to the M2M's ``to`` model…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- **.autoinc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Return any SQL needed to support auto-incrementing primary keys, or None if no…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Relationships
 
-- [Community 284](Community_284.md) (1 shared connections)
+- [Community 99](Community_99.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/m2m_through/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Audit Trail
 

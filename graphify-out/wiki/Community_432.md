@@ -1,44 +1,48 @@
 # Community 432
 
-> 20 nodes · cohesion 0.12
+> 25 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **BaseStorage** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **.update()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **._get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **._get_level()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **._loaded_messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **._prepare_messages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **._store()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **._set_level()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **Prepare a list of messages for storage.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **Store all unread messages. If the backend has yet to be iterated, store…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **Return the minimum recorded level. The default level is the ``MESSAGE_LEVEL``…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **Set a custom minimum recorded level. If set to ``None``, the default level will…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **This is the base backend for temporary message storage. This is not a complete…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **Return a list of loaded messages, retrieving them first if they have not been…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **Retrieve a list of stored messages. Return a tuple of the messages and a flag…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
-- **Store a list of messages and return a list of any messages which could not be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- **AddIndex** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **RemoveIndex** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **AddConstraint** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **IndexOperation** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.model_name_lower()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **Add an index on a model.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **Remove an index from a model.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.database_backwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.database_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.describe()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
+- **.state_forwards()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
 
 ## Relationships
 
-- [Community 152](Community_152.md) (5 shared connections)
-- [Community 534](Community_534.md) (2 shared connections)
-- [Community 402](Community_402.md) (1 shared connections)
-- [Community 111](Community_111.md) (1 shared connections)
+- [Community 49](Community_49.md) (8 shared connections)
+- [Community 85](Community_85.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (97%)
+- EXTRACTED: 33 (97%)
 - INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 

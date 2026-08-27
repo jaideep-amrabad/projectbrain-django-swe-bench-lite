@@ -1,36 +1,42 @@
 # Community 707
 
-> 13 nodes · cohesion 0.15
+> 14 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **SerializerRegistrationTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_builtin_serializers()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_get_unknown_serializer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_register()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_unregister()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **Registering a new serializer populates the full registry. Refs #14823** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **Unregistering a serializer doesn't cause the registry to be repopulated. Refs…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **Requesting a list of serializer formats populates the registry** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **#15889: get_serializer('nonsense') raises a SerializerDoesNotExist** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_get_unknown_deserializer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
-- **.test_unregister_unknown_serializer()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- **SetPasswordForm** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **SetPasswordFormTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **patch** (4 connections)
+- **.test_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_help_text_translation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_validates_password()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_html_autocomplete_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_password_verification()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_password_whitespace_not_stripped()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **A form that lets a user change set their password without entering the old…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.clean_new_password2()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.save()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
 
 ## Relationships
 
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
+- [Community 677](Community_677.md) (3 shared connections)
+- [Community 706](Community_706.md) (2 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 480](Community_480.md) (2 shared connections)
+- [Community 801](Community_801.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
 
 ## Audit Trail
 
-- EXTRACTED: 15 (100%)
+- EXTRACTED: 34 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

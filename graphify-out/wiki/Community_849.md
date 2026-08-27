@@ -1,30 +1,35 @@
 # Community 849
 
-> 8 nodes · cohesion 0.25
+> 9 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **.quote_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.savepoint_commit_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.savepoint_create_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.savepoint_rollback_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **Return a quoted version of the given table, index, or column name. Do not quote…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **Return the SQL for starting a new savepoint. Only required if the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **Return the SQL for committing the given savepoint.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **Return the SQL for rolling back the given savepoint.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **ASGIRequest** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **.COOKIES()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **.GET()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **._get_files()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **._get_post()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **._get_scheme()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **._set_post()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
+- **Custom request subclass that decodes from an ASGI-standard request dict and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
 
 ## Relationships
 
-- [Community 119](Community_119.md) (4 shared connections)
+- [Community 71](Community_71.md) (1 shared connections)
+- [Community 73](Community_73.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 189](Community_189.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/core/handlers/asgi.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 12 (92%)
+- INFERRED: 1 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

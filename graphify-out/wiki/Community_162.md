@@ -1,67 +1,62 @@
 # Community 162
 
-> 58 nodes · cohesion 0.05
+> 44 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **Transform** (17 connections)
-- **Radians** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **ACos** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **ASin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **Exp** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **Sin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **Abs** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **Floor** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **Round** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- **AbsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_abs.py`
-- **ACosTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_acos.py`
-- **ASinTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_asin.py`
-- **ExpTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_exp.py`
-- **FloorTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_floor.py`
-- **RadiansTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_radians.py`
-- **RoundTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
-- **SinTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sin.py`
-- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_abs.py`
-- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_abs.py`
-- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_abs.py`
-- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_abs.py`
-- **.test_transform()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_abs.py`
-- **.test_decimal()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_acos.py`
-- **.test_float()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_acos.py`
-- **.test_integer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_acos.py`
-- *... and 33 more nodes in this community*
+- **Substr** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **Left** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **StrIndex** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **Right** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **.__init__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **StrIndexTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_strindex.py`
+- **LeftTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_left.py`
+- **RightTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_right.py`
+- **SubstrTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_substr.py`
+- **.get_substr()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **OrdTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_ord.py`
+- **.test_expressions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_substr.py`
+- **.get_substr()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- **.test_basic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_left.py`
+- **.test_expressions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_left.py`
+- **.test_basic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_ord.py`
+- **.test_transform()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_ord.py`
+- **.test_basic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_right.py`
+- **.test_expressions()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_right.py`
+- **.test_annotate_charfield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_strindex.py`
+- **.test_filtering()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_strindex.py`
+- **.test_order_by()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_strindex.py`
+- **.test_unicode_values()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_strindex.py`
+- **.test_basic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_substr.py`
+- *... and 19 more nodes in this community*
 
 ## Relationships
 
-- [Community 51](Community_51.md) (40 shared connections)
-- [Community 70](Community_70.md) (8 shared connections)
-- [Community 93](Community_93.md) (5 shared connections)
-- [Community 880](Community_880.md) (1 shared connections)
-- [Community 850](Community_850.md) (1 shared connections)
-- [Community 882](Community_882.md) (1 shared connections)
-- [Community 830](Community_830.md) (1 shared connections)
-- [Community 851](Community_851.md) (1 shared connections)
-- [Community 884](Community_884.md) (1 shared connections)
-- [Community 885](Community_885.md) (1 shared connections)
-- [Community 855](Community_855.md) (1 shared connections)
-- [Community 886](Community_886.md) (1 shared connections)
+- [Community 3](Community_3.md) (28 shared connections)
+- [Community 38](Community_38.md) (12 shared connections)
+- [Community 888](Community_888.md) (7 shared connections)
+- [Community 41](Community_41.md) (5 shared connections)
+- [Community 81](Community_81.md) (1 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
+- [Community 246](Community_246.md) (1 shared connections)
+- [Community 63](Community_63.md) (1 shared connections)
+- [Community 89](Community_89.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/math.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_abs.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_acos.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_asin.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_exp.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_floor.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_radians.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_round.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/math/test_sin.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/text.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_left.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_ord.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_right.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_strindex.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_substr.py`
+- `raw/code/hyd-evaluation/django-django/tests/lookup/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 143 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 114 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

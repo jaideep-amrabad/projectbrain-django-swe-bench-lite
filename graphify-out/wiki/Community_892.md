@@ -1,28 +1,36 @@
 # Community 892
 
-> 5 nodes · cohesion 0.60
+> 8 nodes · cohesion 0.36
 
 ## Key Concepts
 
-- **PDBDebugResult** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.addError()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.addFailure()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.debug()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Custom result class that triggers a PDB session when an error or failure occurs.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **CallableVariablesTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
+- **Doodad** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **test_callables.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
+- **.test_alters_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
+- **.test_callable()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
+- **.test_do_not_call()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
+- **.test_do_not_call_and_alters_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
+- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
 
 ## Relationships
 
-- [Community 281](Community_281.md) (2 shared connections)
+- [Community 35](Community_35.md) (4 shared connections)
+- [Community 46](Community_46.md) (2 shared connections)
+- [Community 75](Community_75.md) (1 shared connections)
+- [Community 65](Community_65.md) (1 shared connections)
 - [Community 8](Community_8.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_callables.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 12 (60%)
+- INFERRED: 8 (40%)
 - AMBIGUOUS: 0 (0%)
 
 ---

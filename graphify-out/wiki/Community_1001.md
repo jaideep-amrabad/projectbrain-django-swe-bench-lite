@@ -1,15 +1,22 @@
 # Community 1001
 
-> 2 nodes · cohesion 1.00
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **.test_empty_post()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
-- **POST an empty dictionary to a view** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **CSRFEnabledClientTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_csrf_enabled_client()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **Client** (3 connections)
+- **.test_exc_info()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **CustomTestClient** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **A client can be instantiated with CSRF checks enabled** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 47](Community_47.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 477](Community_477.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
@@ -17,7 +24,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 10 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

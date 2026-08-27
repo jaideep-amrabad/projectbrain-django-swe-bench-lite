@@ -1,60 +1,57 @@
 # Community 249
 
-> 25 nodes · cohesion 0.10
+> 22 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **ChoicesMeta** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **enums.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **ModelFormMetaclass** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **TextChoices** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **.__new__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **Choices** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **IntegerChoices** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **RelatedModelFormTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- **Class for creating enumerated choices.** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **ModelFormOptions** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **CustomMetaclass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
-- **.labels()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **.test_invalid_loading_order()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- **.test_valid_loading_order()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- **int** (1 connections)
-- **.choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **.names()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **.__new__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **.values()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **str** (1 connections)
-- **A metaclass for creating a enum choices.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **._generate_next_value_()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- **.__new__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- **BaseAdminDocsView** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **.get_default()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/template/engine.py`
+- **.get_context_data()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **._get_view_func()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **GetDefaultTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_engine.py`
+- **TemplateDetailView** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **TemplateFilterIndexView** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **TemplateTagIndexView** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **ViewDetailView** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **ModelIndexView** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **.get_context_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **.get_context_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **.get_context_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **.test_multiple_engines_configured()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_engine.py`
+- **.test_no_engines_configured()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_engine.py`
+- **.test_single_engine_configured()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_engine.py`
+- **.dispatch()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **.get_context_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **BookmarkletsView** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **.get_context_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **Base view for admindocs views.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- **Return the first DjangoTemplates backend that's configured, or raise…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/engine.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 163](Community_163.md) (2 shared connections)
-- [Community 46](Community_46.md) (2 shared connections)
-- [Community 78](Community_78.md) (2 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 651](Community_651.md) (1 shared connections)
-- [Community 57](Community_57.md) (1 shared connections)
-- [Community 62](Community_62.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 68](Community_68.md) (11 shared connections)
+- [Community 46](Community_46.md) (5 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 327](Community_327.md) (1 shared connections)
+- [Community 107](Community_107.md) (1 shared connections)
+- [Community 406](Community_406.md) (1 shared connections)
+- [Community 352](Community_352.md) (1 shared connections)
+- [Community 39](Community_39.md) (1 shared connections)
+- [Community 296](Community_296.md) (1 shared connections)
+- [Community 466](Community_466.md) (1 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_forms/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- `raw/code/hyd-evaluation/django-django/django/template/engine.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_engine.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (93%)
-- INFERRED: 3 (7%)
+- EXTRACTED: 55 (92%)
+- INFERRED: 5 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

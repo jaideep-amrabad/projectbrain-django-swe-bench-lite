@@ -1,47 +1,59 @@
 # Community 546
 
-> 19 nodes · cohesion 0.11
+> 24 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **GetOrCreateTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_defaults_not_evaluated_unless_needed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_defaults_not_evaluated_unless_needed()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_callable_defaults()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_defaults_exact()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_get_or_create_redundant_instance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_get_or_create_with_pk_property()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **If you have a field named defaults and want to use it as an exact lookup, you…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **`defaults` aren't evaluated if the instance isn't created.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **Using the pk property of a model is allowed.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_defaults_exact()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_with_pk_property()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_callable_defaults_not_called()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_get_or_create_method_with_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_get_or_create_method_with_get()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **.test_get_or_create_on_related_manager()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **Callables in `defaults` are evaluated if the instance is created.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
-- **If we execute the exact same statement twice, the second time, it won't create…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **RadioSelectTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
+- **NullBooleanFieldTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_nullbooleanfield.py`
+- **RadioSelect** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **FormsI18nTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
+- **.test_non_ascii_choices()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
+- **.test_constructor_attrs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
+- **.test_render_as_subwidget()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
+- **.test_nullbooleanfield_4()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_nullbooleanfield.py`
+- **.test_non_ascii_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
+- **.test_select_translated_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
+- **.test_class_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
+- **.test_doesnt_localize_input_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
+- **.test_render_attrs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
+- **.test_nullbooleanfield_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_nullbooleanfield.py`
+- **.test_nullbooleanfield_3()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_nullbooleanfield.py`
+- **.test_nullbooleanfield_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_nullbooleanfield.py`
+- **.test_nullbooleanfield_clean()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_nullbooleanfield.py`
+- **.test_lazy_labels()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
+- **.test_nested_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
+- **.test_render()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
+- **A RadioSelect as a subwidget of MultiWidget.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
+- **Attributes provided at instantiation are passed to the constituent inputs.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
+- **Attributes provided at render-time are passed to the constituent inputs.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
+- **The <ul> in the multiple_input.html widget template include the class attribute.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
 
 ## Relationships
 
-- [Community 547](Community_547.md) (4 shared connections)
-- [Community 525](Community_525.md) (3 shared connections)
-- [Community 103](Community_103.md) (2 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
-- [Community 951](Community_951.md) (1 shared connections)
-- [Community 828](Community_828.md) (1 shared connections)
-- [Community 736](Community_736.md) (1 shared connections)
+- [Community 26](Community_26.md) (3 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 240](Community_240.md) (2 shared connections)
+- [Community 45](Community_45.md) (1 shared connections)
+- [Community 324](Community_324.md) (1 shared connections)
+- [Community 934](Community_934.md) (1 shared connections)
+- [Community 350](Community_350.md) (1 shared connections)
+- [Community 208](Community_208.md) (1 shared connections)
+- [Community 251](Community_251.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 681](Community_681.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_nullbooleanfield.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_i18n.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_radioselect.py`
 
 ## Audit Trail
 
-- EXTRACTED: 27 (87%)
-- INFERRED: 4 (13%)
+- EXTRACTED: 30 (79%)
+- INFERRED: 8 (21%)
 - AMBIGUOUS: 0 (0%)
 
 ---

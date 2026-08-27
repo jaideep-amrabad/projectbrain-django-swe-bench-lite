@@ -1,33 +1,37 @@
 # Community 756
 
-> 6 nodes · cohesion 0.33
+> 12 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **FastDeleteTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **User** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- **.test_fast_delete_empty_no_update_can_self_select()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_fast_delete_instance_set_pk_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_fast_delete_large_batch()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_fast_delete_fk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_fast_delete_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_fast_delete_joined_qs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_fast_delete_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_fast_delete_qs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **.test_fast_delete_revm2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
+- **#25932 - Fast deleting on backends that don't have the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
 
 ## Relationships
 
-- [Community 359](Community_359.md) (1 shared connections)
-- [Community 86](Community_86.md) (1 shared connections)
-- [Community 136](Community_136.md) (1 shared connections)
-- [Community 447](Community_447.md) (1 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 360](Community_360.md) (1 shared connections)
+- [Community 165](Community_165.md) (9 shared connections)
+- [Community 430](Community_430.md) (2 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 16 (67%)
+- INFERRED: 8 (33%)
 - AMBIGUOUS: 0 (0%)
 
 ---

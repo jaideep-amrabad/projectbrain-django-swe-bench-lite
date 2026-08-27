@@ -1,27 +1,30 @@
 # Community 994
 
-> 4 nodes · cohesion 0.50
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **.encoding()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **setter** (3 connections)
-- **.encoding()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **Set the encoding used for GET/POST accesses. If the GET or POST dictionary has…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **QuerySetBitwiseOperationTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_or_with_both_slice()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_or_with_both_slice_and_ordering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_or_with_lhs_slice()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **.test_or_with_rhs_slice()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Relationships
 
-- [Community 65](Community_65.md) (2 shared connections)
-- [Community 197](Community_197.md) (1 shared connections)
+- [Community 10](Community_10.md) (3 shared connections)
+- [Community 28](Community_28.md) (1 shared connections)
+- [Community 41](Community_41.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 8 (80%)
+- INFERRED: 2 (20%)
 - AMBIGUOUS: 0 (0%)
 
 ---

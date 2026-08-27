@@ -1,58 +1,54 @@
 # Community 260
 
-> 43 nodes · cohesion 0.05
+> 40 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **Serializer** (16 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **Serializer** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
-- **Serializer** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **geojson.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **Serializer** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
-- **JSONSerializer** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- **is_protected_type()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
-- **._value_from_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **.get_dump_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **.get_dump_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **Deserializer** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **._init_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **.start_serialization()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **._init_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
-- **.start_serialization()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
-- **.end_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **.handle_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **.handle_fk_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **Convert a queryset to GeoJSON, http://geojson.org/** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **.end_serialization()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **.handle_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **.start_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- **PythonSerializer** (1 connections)
-- **Convert a queryset to JSON.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
-- *... and 18 more nodes in this community*
+- **PasswordResetTest** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **._test_confirm_start()** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_custom_reset_url_token_link_redirects_to_set_password_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_different_passwords()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_invalid_hash()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_link_redirects_to_set_password_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_login_post_reset_already_logged_in()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_login_post_reset_custom_backend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_invalid_link_if_going_directly_to_the_final_reset_password_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_poisoned_http_host()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_poisoned_http_host_admin_site()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_complete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_custom_reset_url_token()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_display_user_from_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_invalid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_invalid_post()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_login_post_reset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_redirect_custom()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_redirect_custom_named()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_redirect_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_confirm_valid()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_email_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_email_found_custom_from()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_email_not_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_extra_email_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [Community 36](Community_36.md) (7 shared connections)
-- [Community 56](Community_56.md) (4 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 20](Community_20.md) (3 shared connections)
-- [Community 82](Community_82.md) (2 shared connections)
-- [Community 145](Community_145.md) (1 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 817](Community_817.md) (4 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 614](Community_614.md) (2 shared connections)
+- [Community 616](Community_616.md) (1 shared connections)
+- [Community 687](Community_687.md) (1 shared connections)
+- [Community 348](Community_348.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/serializers/geojson.py`
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/json.py`
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
-- `raw/code/hyd-evaluation/django-django/django/core/signing.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/encoding.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 66 (96%)
-- INFERRED: 3 (4%)
+- EXTRACTED: 70 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

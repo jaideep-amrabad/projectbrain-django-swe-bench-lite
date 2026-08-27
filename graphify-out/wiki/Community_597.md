@@ -1,42 +1,45 @@
 # Community 597
 
-> 17 nodes · cohesion 0.12
+> 18 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **JsonSerializerTestCase** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **.test_custom_encoder()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **.test_helpful_error_message_for_foreign_keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **.test_helpful_error_message_for_many2many_natural1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **.test_helpful_error_message_for_many2many_natural2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **.test_helpful_error_message_for_many2many_non_natural()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **.test_helpful_error_message_invalid_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **.test_helpful_error_message_invalid_pk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **Invalid many-to-many keys should throw a helpful error message. This tests the…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **._get_field_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **._get_pk_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **.test_json_deserializer_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **._validate_output()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **If there is an invalid field value, the error message should contain the model…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **Invalid foreign keys with a natural key should throw a helpful error message,…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **Invalid many-to-many keys should throw a helpful error message.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
-- **If there is an invalid primary key, the error message should contain the model…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- **test_tablespaces.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **TablespacesTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **tablespaces.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
+- **sql_for_table()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.test_tablespace_for_many_to_many_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.assertNumContains()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.test_tablespace_for_indexed_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.test_tablespace_for_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **Article** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
+- **Scientist** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
+- **.test_tablespace_ignored_for_indexed_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.test_tablespace_ignored_for_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **ArticleRef** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
+- **ScientistRef** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
+- **sql_for_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
 
 ## Relationships
 
-- [Community 36](Community_36.md) (1 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
-- [Community 413](Community_413.md) (1 shared connections)
-- [Community 940](Community_940.md) (1 shared connections)
-- [Community 86](Community_86.md) (1 shared connections)
+- [Community 28](Community_28.md) (4 shared connections)
+- [Community 61](Community_61.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/serializers/test_json.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
+- EXTRACTED: 46 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

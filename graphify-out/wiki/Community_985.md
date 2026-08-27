@@ -1,26 +1,30 @@
 # Community 985
 
-> 5 nodes · cohesion 0.60
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **SimpleTagTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_simple_tag.py`
-- **setup** (3 connections)
-- **.test_simpletag_renamed01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_simple_tag.py`
-- **.test_simpletag_renamed02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_simple_tag.py`
-- **.test_simpletag_renamed03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_simple_tag.py`
+- **ShadowingFieldsTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_id_clash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_field_name_clash_with_child_accessor()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_inheritance_clash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_multigeneration_inheritance()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
+- **.test_multiinheritance_clash()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 74](Community_74.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 181](Community_181.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_simple_tag.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

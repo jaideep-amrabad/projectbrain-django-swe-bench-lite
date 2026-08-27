@@ -1,52 +1,51 @@
 # Community 281
 
-> 34 nodes · cohesion 0.09
+> 37 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **RemoteTestResult** (25 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **DebugSQLTextTestResult** (8 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.check_picklable()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.stop_if_failfast()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.addError()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.addFailure()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.addSubTest()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **ExceptionThatFailsUnpickling** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **.check_subtest_picklable()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **._confirm_picklable()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.test_pickle_errors_detection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
-- **.addError()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.addFailure()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.addSubTest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.startTest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.stopTest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.addExpectedFailure()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.addUnexpectedSuccess()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **._print_unpicklable_subtest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.startTest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.stop()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.stopTest()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **.printErrorList()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Record information about which tests have succeeded and which have failed. The…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- **Confirm that obj can be pickled and unpickled as multiprocessing will need to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- *... and 9 more nodes in this community*
+- **LoremIpsumTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **words()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
+- **lorem_ipsum.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
+- **paragraphs()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
+- **sentence()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
+- **paragraph()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
+- **test_lorem_ipsum.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **patch** (5 connections)
+- **.test_not_common_words()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_paragraph()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_paragraphs_not_common()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_sentence()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_sentence_ending()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.render()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- **.test_common_large_number_of_words()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_common_words_in_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_more_words_than_common()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_negative_words()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_paragraphs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_sentence_starts_with_capital()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **.test_same_or_less_common_words()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
+- **Utility functions for generating "lorem ipsum" Latin text.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
+- **Return a randomly generated sentence of lorem ipsum text. The first word is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
+- **Return a randomly generated paragraph of lorem ipsum text. The paragraph…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
+- **Return a list of paragraphs as returned by paragraph(). If `common` is True,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 8](Community_8.md) (2 shared connections)
-- [Community 892](Community_892.md) (2 shared connections)
-- [Community 779](Community_779.md) (1 shared connections)
+- [Community 5](Community_5.md) (4 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
-- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_parallel.py`
+- `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/lorem_ipsum.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_lorem_ipsum.py`
 
 ## Audit Trail
 
-- EXTRACTED: 59 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 64 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

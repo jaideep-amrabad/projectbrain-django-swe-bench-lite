@@ -1,53 +1,62 @@
 # Community 201
 
-> 50 nodes · cohesion 0.07
+> 64 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **DeferTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **.assert_delayed()** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **defer/tests.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **TestDefer2** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **BigChildDeferTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **defer/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
-- **Primary** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
-- **RefreshPrimaryProxy** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
-- **BigChild** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
-- **Child** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
-- **ChildProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
-- **Secondary** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
-- **AssertionMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **.test_defer_proxy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
-- **.test_defer_baseclass_when_subclass_has_added_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **.test_defer_subclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **.test_defer_subclass_both()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **.test_only_baseclass_when_subclass_has_added_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **.test_only_subclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **.test_defer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **.test_defer_baseclass_when_subclass_has_no_added_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **.test_defer_extra()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **.test_defer_foreign_keys_are_deferred_and_not_traversed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- **.test_defer_none_to_clear_deferred_set()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
-- *... and 25 more nodes in this community*
+- **contenttypes_tests/models.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- **ContentTypesViewsTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
+- **Post** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- **ContentTypesViewsSiteRelTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
+- **Answer** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- **test_order_with_respect_to.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_order_with_respect_to.py`
+- **ShortcutViewTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
+- **FooWithUrl** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- **Author** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- **FooWithoutUrl** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- **FooWithBrokenAbsoluteUrl** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- **Question** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- **OrderWithRespectToGFKTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_order_with_respect_to.py`
+- **ProxyModel** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- **SchemeIncludedURL** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- **Site** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- **GenericRelationTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_fields.py`
+- **.test_not_dependent_on_sites_app()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
+- **Article** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- **ConcreteModel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- **ModelWithM2MToSite** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- **.test_shortcut_view_with_null_site_fk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
+- **.test_shortcut_view_with_site_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
+- **.test_model_with_broken_get_absolute_url()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
+- *... and 39 more nodes in this community*
 
 ## Relationships
 
-- [Community 51](Community_51.md) (4 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 280](Community_280.md) (2 shared connections)
-- [Community 57](Community_57.md) (1 shared connections)
+- [Community 11](Community_11.md) (16 shared connections)
+- [Community 3](Community_3.md) (11 shared connections)
+- [Community 84](Community_84.md) (7 shared connections)
+- [Community 74](Community_74.md) (7 shared connections)
+- [Community 41](Community_41.md) (7 shared connections)
+- [Community 287](Community_287.md) (3 shared connections)
+- [Community 399](Community_399.md) (3 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
+- [Community 879](Community_879.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/defer/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/defer/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_fields.py`
+- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_order_with_respect_to.py`
+- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 90 (89%)
-- INFERRED: 11 (11%)
+- EXTRACTED: 119 (82%)
+- INFERRED: 27 (18%)
 - AMBIGUOUS: 0 (0%)
 
 ---

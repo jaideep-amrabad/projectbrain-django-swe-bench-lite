@@ -1,45 +1,56 @@
 # Community 431
 
-> 21 nodes · cohesion 0.15
+> 25 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **ProxyDeleteTest** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **.create_image()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **Image** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **FooFile** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **FooFileProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **Photo** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **File** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **FooImage** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **FooPhoto** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- **.test_delete_proxy_of_proxy()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **.test_delete_concrete_parent()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **.test_delete_proxy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **.test_delete_proxy_pair()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **.test_19187_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **Tests on_delete behavior for proxy models. See #16128.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **Return an Image referenced by both a FooImage and a FooFile.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **Deleting the *proxy* instance bubbles through to its non-proxy and *all*…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **Deleting a proxy-of-proxy instance should bubble through to its proxy and non-…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **Deleting an instance of a concrete model should also delete objects referencing…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
-- **If a pair of proxy models are linked by an FK from one concrete parent to the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- **TimeFormat** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.srid()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **time_format()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.h()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.P()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Formatter** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.O()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.s()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.T()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.Z()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.a()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.u()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **setter** (1 connections)
+- **Get the SRID for the geometry. Return None if no SRID is set.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **Set the SRID for the geometry.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- **.format()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Hour, 12-hour format; i.e. '01' to '12** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Hour, 24-hour format; i.e. '00' to '23** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Difference to Greenwich time in hours; e.g. '+0200', '-0430'. If timezone…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Time, in 12-hour hours, minutes and 'a.m.'/'p.m.', with minutes left off if…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Seconds; i.e. '00' to '59** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Time zone of this machine; e.g. 'EST' or 'MDT'. If timezone information is not…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Microseconds; i.e. '000000' to '999999** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **Time zone offset in seconds (i.e. '-43200' to '43200'). The offset for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **.B()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
 
 ## Relationships
 
-- [Community 156](Community_156.md) (16 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
+- [Community 17](Community_17.md) (5 shared connections)
+- [Community 338](Community_338.md) (2 shared connections)
+- [Community 482](Community_482.md) (2 shared connections)
+- [Community 34](Community_34.md) (1 shared connections)
+- [Community 367](Community_367.md) (1 shared connections)
+- [Community 29](Community_29.md) (1 shared connections)
+- [Community 252](Community_252.md) (1 shared connections)
+- [Community 417](Community_417.md) (1 shared connections)
+- [Community 210](Community_210.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/geometry.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (86%)
-- INFERRED: 7 (14%)
+- EXTRACTED: 40 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

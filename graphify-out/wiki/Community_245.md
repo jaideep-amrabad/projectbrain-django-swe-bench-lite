@@ -1,64 +1,57 @@
 # Community 245
 
-> 66 nodes · cohesion 0.06
+> 34 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **generic_inline_admin/tests.py** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **generic_inline_admin/admin.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/admin.py`
-- **generic_inline_admin/models.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/models.py`
-- **GenericInlineAdminParametersTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **GenericInlineModelAdminTest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **Media** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/models.py`
-- **GenericAdminViewTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **GenericInlineAdminWithUniqueTogetherTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **._create_object()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **GenericTabularInline** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
-- **MediaInline** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/admin.py`
-- **Episode** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/models.py`
-- **PhoneNumber** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/models.py`
-- **MediaPermanentInline** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/admin.py`
-- **NoInlineDeletionTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **EpisodeAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/admin.py`
-- **Contact** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/models.py`
-- **EpisodePermanent** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/models.py`
-- **.test_extra_param()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **.test_max_num_param()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **.test_min_num_param()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **TestDataMixin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **Category** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/models.py`
-- **.test_get_extra()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **.test_get_max_num()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- *... and 41 more nodes in this community*
+- **defer_regress/tests.py** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- **DeferRegressionTest** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- **defer_regress/models.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **Item** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **Proxy** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **ProxyRelated** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **DeferAnnotateSelectRelatedTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- **Base** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **Derived** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **Leaf** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **RelatedItem** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **SimpleItem** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **.test_ticket_12163()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
+- **Child** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **Feature** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **ItemAndSimpleItem** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **Location** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **OneToOneItem** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **Request** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **ResolveThis** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **SpecialFeature** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- **Profile** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 16](Community_16.md) (14 shared connections)
-- [Community 5](Community_5.md) (12 shared connections)
-- [Community 40](Community_40.md) (8 shared connections)
-- [Community 12](Community_12.md) (6 shared connections)
-- [Community 78](Community_78.md) (5 shared connections)
-- [Community 54](Community_54.md) (4 shared connections)
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 51](Community_51.md) (4 shared connections)
-- [Community 307](Community_307.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 10](Community_10.md) (2 shared connections)
-- [Community 163](Community_163.md) (1 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 1079](Community_1079.md) (3 shared connections)
+- [Community 777](Community_777.md) (3 shared connections)
+- [Community 41](Community_41.md) (3 shared connections)
+- [Community 21](Community_21.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 74](Community_74.md) (2 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 406](Community_406.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/defer_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/defer_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 166 (90%)
-- INFERRED: 19 (10%)
+- EXTRACTED: 73 (79%)
+- INFERRED: 19 (21%)
 - AMBIGUOUS: 0 (0%)
 
 ---

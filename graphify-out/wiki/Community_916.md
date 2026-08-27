@@ -1,29 +1,32 @@
 # Community 916
 
-> 4 nodes · cohesion 0.50
+> 7 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **._base_environ()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.request()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **The base environment for a request.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **Construct a generic request object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **PythonGlobalState** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **MIMEText** (6 connections)
+- **.test_7bit()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_8bit_latin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_8bit_non_latin()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **.test_utf8()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **Tests for #12422 -- Django smarts (#2472/#11212) with charset of utf-8 text…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Relationships
 
-- [Community 71](Community_71.md) (2 shared connections)
-- [Community 807](Community_807.md) (1 shared connections)
-- [Community 252](Community_252.md) (1 shared connections)
-- [Community 228](Community_228.md) (1 shared connections)
+- [Community 213](Community_213.md) (1 shared connections)
+- [Community 92](Community_92.md) (1 shared connections)
+- [Community 256](Community_256.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 8 (62%)
+- INFERRED: 5 (38%)
 - AMBIGUOUS: 0 (0%)
 
 ---
