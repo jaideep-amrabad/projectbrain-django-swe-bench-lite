@@ -73,12 +73,15 @@ class LoaderTests(TestCase):
 
         author_state = project_state.models["migrations", "author"]
         self.assertEqual(
-            list(author_state.fields),
+            [x for x, y in author_state.fields],
             ["id", "name", "slug", "age", "rating"]
         )
 
         book_state = project_state.models["migrations", "book"]
-        self.assertEqual(list(book_state.fields), ['id', 'author'])
+        self.assertEqual(
+            [x for x, y in book_state.fields],
+            ["id", "author"]
+        )
 
         # Ensure we've included unmigrated apps in there too
         self.assertIn("basic", project_state.real_apps)
@@ -119,7 +122,10 @@ class LoaderTests(TestCase):
         self.assertEqual(len([m for a, m in project_state.models if a == "migrations"]), 1)
 
         book_state = project_state.models["migrations", "book"]
-        self.assertEqual(list(book_state.fields), ['id', 'user'])
+        self.assertEqual(
+            [x for x, y in book_state.fields],
+            ["id", "user"]
+        )
 
     @override_settings(MIGRATION_MODULES={"migrations": "migrations.test_migrations_run_before"})
     def test_run_before(self):

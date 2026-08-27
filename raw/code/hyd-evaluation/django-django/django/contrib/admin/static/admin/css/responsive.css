@@ -226,6 +226,7 @@ input[type="submit"], button {
         padding-top: 6px;
     }
 
+    .aligned .add-another,
     .aligned .related-lookup,
     .aligned .datetimeshortcuts,
     .aligned .related-lookup + strong {
