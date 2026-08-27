@@ -1,43 +1,44 @@
 # Community 550
 
-> 21 nodes · cohesion 0.13
+> 20 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **GitHubLinkTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **last_n_parts()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_get_path_and_line_cached_property()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_get_path_and_line_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_get_path_and_line_forwarded_import()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_get_path_and_line_forwarded_import_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_get_path_and_line_func()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_get_path_and_line_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_get_path_and_line_wildcard_import()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_module_name_to_file_path_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_module_name_to_file_path_package()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_code_locator()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_get_branch_latest()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_get_branch_stable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_github_linkcode_resolve_link_to_class_older_version()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_github_linkcode_resolve_link_to_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_github_linkcode_resolve_not_found()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_github_linkcode_resolve_unspecified_domain()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_github_linkcode_resolve_unspecified_info()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
-- **.test_import_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- **WarnAboutImplementationTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- **.assertWarnsAboutLine()** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- **.test_classmethod()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- **.test_decorated_method()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- **.test_method()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- **.test_property()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- **.test_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- **.test_class_init()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- **.test_decorated_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- **.test_decorated_staticmethod()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- **.test_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- **.test_missing_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- **.test_my_own_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- **.test_no_source_file()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- **.test_non_standard_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- **.test_staticmethod()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- **.test_subclass_method()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- **.test_creates_warning_registry_if_needed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- **.test_rejects_invalid_target()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
+- **.test_respects_warning_registry()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (3 shared connections)
+- [Community 672](Community_672.md) (4 shared connections)
+- [Community 144](Community_144.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/sphinx/test_github_links.py`
+- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_warn_about_implementation.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 36 (90%)
+- INFERRED: 4 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

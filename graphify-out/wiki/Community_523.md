@@ -1,58 +1,48 @@
 # Community 523
 
-> 25 nodes · cohesion 0.09
+> 21 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **override_script_prefix** (16 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **URLPatternReverse** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **FlatpageModelTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
-- **URLRedirectWithScriptAliasTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **.test_non_urlsafe_prefix_with_args()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_prefix_braces()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_prefix_format_char()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_prefix_parenthesis()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_script_name_escaping()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.disable()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
-- **.test_get_absolute_url_honors_script_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
-- **.test_language_prefix_with_script_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- **.test_illegal_args_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_illegal_kwargs_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_mixing_args_and_kwargs()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_no_args_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_patterns_reported()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_reverse_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_urlpattern_reverse()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_view_not_found_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **Decorator or context manager to temporary override the script prefix.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- **.test_get_absolute_url_urlencodes()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
-- **.test_str()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
-- **#21579 - LocaleMiddleware should respect the script prefix.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
+- **DeprecatedEmailSettingsTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **.init_simulated_settings()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **.test_warn_about_no_default_mailer()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **override_deprecated_email_settings** (5 connections)
+- **.test_multiple_deprecated_settings_are_all_reported()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **.test_warn_when_defining_deprecated_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **.mock_settings_module()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **.test_deprecated_settings_not_allowed_with_mailers()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **.test_no_default_mailer_warning_if_any_email_setting_defined()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **.assertHasOnlyDefaultEmailSettings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **.assertNotWarnsMessage()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **.test_deprecated_settings_defaults_unchanged()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **.test_direct_settings_manipulation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **.test_error_when_using_conflicting_setting_via_override_settings()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **.test_error_when_using_deprecated_settings_with_mailers_defined()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **.test_deprecated_settings_do_not_exist_when_mailers_defined()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **.test_deprecated_settings_not_in_dir_when_mailers_defined()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **.test_email_backend_override_during_tests()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **.test_warn_when_using_deprecated_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **.test_deprecated_settings_are_in_dir_without_mailers()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
+- **Deprecations and compatibility errors related to MAILERS.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
 
 ## Relationships
 
-- [Community 24](Community_24.md) (13 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 89](Community_89.md) (3 shared connections)
-- [Community 78](Community_78.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 407](Community_407.md) (1 shared connections)
-- [Community 209](Community_209.md) (1 shared connections)
-- [Community 249](Community_249.md) (1 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
+- [Community 6](Community_6.md) (6 shared connections)
+- [Community 524](Community_524.md) (4 shared connections)
+- [Community 404](Community_404.md) (4 shared connections)
+- [Community 55](Community_55.md) (2 shared connections)
+- [Community 968](Community_968.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/flatpages_tests/test_models.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
 
 ## Audit Trail
 
-- EXTRACTED: 57 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 50 (93%)
+- INFERRED: 4 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

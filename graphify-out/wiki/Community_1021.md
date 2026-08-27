@@ -1,30 +1,29 @@
 # Community 1021
 
-> 6 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **Animal** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **.test_dumpdata_uses_default_manager()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.test_duplicate_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- **Regression for #11286 Dumpdata honors the default manager. Dump the current…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
-- **This is a regression test for ticket #3790.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- **SignedCookieLegacySaltFallbackDeprecationTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_signed_cookie_legacy_salt_fallback.py`
+- **.test_settings_assignment_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_signed_cookie_legacy_salt_fallback.py`
+- **.test_settings_init_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_signed_cookie_legacy_salt_fallback.py`
+- **.test_access()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_signed_cookie_legacy_salt_fallback.py`
+- **.test_override_settings_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_signed_cookie_legacy_salt_fallback.py`
 
 ## Relationships
 
-- [Community 199](Community_199.md) (3 shared connections)
-- [Community 380](Community_380.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 524](Community_524.md) (1 shared connections)
+- [Community 500](Community_500.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_signed_cookie_legacy_salt_fallback.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (90%)
-- INFERRED: 1 (10%)
+- EXTRACTED: 8 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

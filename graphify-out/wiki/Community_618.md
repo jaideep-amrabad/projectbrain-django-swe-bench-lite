@@ -1,42 +1,43 @@
 # Community 618
 
-> 18 nodes · cohesion 0.11
+> 17 nodes · cohesion 0.26
 
 ## Key Concepts
 
-- **DummyBackendTestCase** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_validate_on_aenqueue()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_validate_on_enqueue()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_check()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_clear()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_enqueue_logs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_enqueue_task()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_enqueue_task_async()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_get_missing_result()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_get_result()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_get_result_async()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_refresh_result()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_refresh_result_async()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_takes_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_using_correct_backend()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
-- **.test_validate_disallowed_async_task()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
+- **ASGITest** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **get_asgi_application()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/asgi.py`
+- **._get_scope()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **async_to_sync** (7 connections)
+- **.test_file_response()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **.test_get_asgi_application()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **.test_disconnect()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **.test_get_query_string()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **.test_headers()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **.test_non_unicode_query_string()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **.test_wrong_connection_type()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **The public interface to Django's ASGI support. Return an ASGI 3 callable.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/asgi.py`
+- **skipIf** (1 connections)
+- **get_asgi_application() returns a functioning ASGI callable.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- **Makes sure that FileResponse works over ASGI.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
 
 ## Relationships
 
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 96](Community_96.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 37](Community_37.md) (5 shared connections)
+- [Community 170](Community_170.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/tasks/test_dummy_backend.py`
+- `raw/code/hyd-evaluation/django-django/django/core/asgi.py`
+- `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 22 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 41 (95%)
+- INFERRED: 2 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

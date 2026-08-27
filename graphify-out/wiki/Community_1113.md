@@ -1,28 +1,28 @@
 # Community 1113
 
-> 4 nodes · cohesion 0.50
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **PlaywrightTestCaseMeta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
-- **.__new__()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
-- **.import_browser()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
-- **Dynamically create new classes and add them to the test module when multiple…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
+- **ArticleWithAuthor** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- **.test_get_next_previous_by_date()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **Regression tests for #8076 get_(next/previous)_by_date should work** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
 
 ## Relationships
 
-- [Community 6](Community_6.md) (1 shared connections)
-- [Community 84](Community_84.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
+- [Community 519](Community_519.md) (2 shared connections)
+- [Community 321](Community_321.md) (2 shared connections)
+- [Community 721](Community_721.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/playwright_tests/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 6 (86%)
+- INFERRED: 1 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

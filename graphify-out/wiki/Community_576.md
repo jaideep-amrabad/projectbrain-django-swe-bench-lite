@@ -1,44 +1,48 @@
 # Community 576
 
-> 20 nodes · cohesion 0.10
+> 19 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **ImmediateBackendTestCase** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- **.test_validate_on_aenqueue()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- **.test_validate_on_enqueue()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- **.test_cannot_get_result()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- **.test_cannot_pass_run_after()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- **.test_cannot_refresh_result()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- **.test_catches_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- **.test_complex_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- **.test_complex_return_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- **.test_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- **.test_enqueue_logs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- **.test_enqueue_task()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- **.test_enqueue_task_async()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- **.test_failed_logs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- **.test_result()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- **.test_result_async()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- **.test_successful_task_no_none_in_logs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- **.test_takes_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- **.test_throws_keyboard_interrupt()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
-- **.test_using_correct_backend()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **DataTypesTestCase** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **Donut** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
+- **datatypes/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **datatypes/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
+- **.test_error_on_timezone()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **RumBaba** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
+- **.test_boolean_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **.test_date_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **.test_datefield_auto_now_add()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **.test_textfields_str()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **.test_time_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **.test_year_boundaries()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
+- **This is a basic model to test saving and loading boolean and date-related…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
+- **Year boundary tests (ticket #3689)** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **TextField values returned from the database should be str.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **Regression test for #8354: the MySQL and Oracle backends should raise an error…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
+- **Regression test for #10970, auto_now_add for DateField should store a Python…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
 
 ## Relationships
 
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 96](Community_96.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 29](Community_29.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 112](Community_112.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 87](Community_87.md) (1 shared connections)
+- [Community 385](Community_385.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- `raw/code/hyd-evaluation/django-django/tests/datatypes/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/datatypes/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 33 (92%)
+- INFERRED: 3 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

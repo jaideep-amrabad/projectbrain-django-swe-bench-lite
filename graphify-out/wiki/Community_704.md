@@ -1,41 +1,37 @@
 # Community 704
 
-> 15 nodes · cohesion 0.20
+> 12 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **GenericInlineAdminParametersTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **._create_object()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **.test_extra_param()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **.test_min_num_param()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **.testMaxNumParam()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **.test_get_extra()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **.test_get_max_num()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **.test_get_min_num()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **.test_no_param()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **Create a model with an attached Media object via GFK. We can't load content via…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **With one initial form, extra (default) at 3, there should be 4 forms.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **With extra=0, there should be one form.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **With extra=5 and max_num=2, there should be only 2 forms.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
-- **With extra=3 and min_num=2, there should be five forms.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
+- **internal.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
+- **deprecated_function()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
+- **Class** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
+- **.one_indirection()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
+- **decorated()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
+- **.deprecated_method()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
+- **.two_indirections()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
+- **call_decorated()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
+- **one_indirection()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
+- **three_indirections()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
+- **two_indirections()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
+- **nested()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
 
 ## Relationships
 
-- [Community 24](Community_24.md) (7 shared connections)
-- [Community 6](Community_6.md) (6 shared connections)
-- [Community 261](Community_261.md) (4 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 168](Community_168.md) (1 shared connections)
+- [Community 742](Community_742.md) (2 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 283](Community_283.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/generic_inline_admin/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/deprecation/internal.py`
 
 ## Audit Trail
 
-- EXTRACTED: 38 (95%)
-- INFERRED: 2 (5%)
+- EXTRACTED: 23 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

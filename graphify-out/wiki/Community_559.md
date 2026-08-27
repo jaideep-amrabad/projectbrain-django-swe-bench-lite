@@ -1,63 +1,47 @@
 # Community 559
 
-> 43 nodes · cohesion 0.08
+> 20 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **NotSupportedError** (75 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **DatabaseSchemaEditor** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **UUID7** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/uuid.py`
-- **._remake_table()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.as_sql()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/uuid.py`
-- **TestUUID** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/test_uuid.py`
-- **UUID4** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/uuid.py`
-- **.alter_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.alter_db_table()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **._alter_many_to_many()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.delete_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **._is_referenced_by_fk_constraint()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.remove_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.test_uuid7_shift_unsupported()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/test_uuid.py`
-- **.distinct_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- **.add_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **.as_mysql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/uuid.py`
-- **.as_oracle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/uuid.py`
-- **.as_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/uuid.py`
-- **.as_mysql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/uuid.py`
-- **.as_postgresql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/uuid.py`
-- **.as_sqlite()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/uuid.py`
-- **.test_uuid4()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/test_uuid.py`
-- **.test_uuid4_unsupported()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/test_uuid.py`
-- **.test_uuid7()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/test_uuid.py`
-- *... and 18 more nodes in this community*
+- **task** (21 connections)
+- **tasks.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
+- **hang()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
+- **calculate_meaning_of_life()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
+- **complex_exception()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
+- **complex_return_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
+- **exit_task()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
+- **failing_task_keyboard_interrupt()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
+- **failing_task_system_exit()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
+- **failing_task_value_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
+- **get_task_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
+- **noop_task()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
+- **noop_task_async()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
+- **noop_task_from_bare_decorator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
+- **sleep_for()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
+- **test_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
+- **.test_invalid_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
+- **.test_run_after_in_decorator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
+- **.test_takes_context_without_taking_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
+- **Do nothing for 5 minutes** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (16 shared connections)
-- [Community 35](Community_35.md) (6 shared connections)
-- [Community 19](Community_19.md) (6 shared connections)
-- [Community 107](Community_107.md) (4 shared connections)
-- [Community 53](Community_53.md) (4 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 128](Community_128.md) (3 shared connections)
-- [Community 137](Community_137.md) (3 shared connections)
-- [Community 90](Community_90.md) (3 shared connections)
-- [Community 115](Community_115.md) (3 shared connections)
-- [Community 323](Community_323.md) (2 shared connections)
-- [Community 42](Community_42.md) (2 shared connections)
+- [Community 1038](Community_1038.md) (4 shared connections)
+- [Community 302](Community_302.md) (3 shared connections)
+- [Community 34](Community_34.md) (2 shared connections)
+- [Community 571](Community_571.md) (1 shared connections)
+- [Community 81](Community_81.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/uuid.py`
-- `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/test_uuid.py`
+- `raw/code/hyd-evaluation/django-django/tests/tasks/tasks.py`
+- `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
 
 ## Audit Trail
 
-- EXTRACTED: 152 (94%)
-- INFERRED: 10 (6%)
+- EXTRACTED: 36 (84%)
+- INFERRED: 7 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

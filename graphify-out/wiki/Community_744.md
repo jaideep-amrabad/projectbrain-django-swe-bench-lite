@@ -1,35 +1,34 @@
 # Community 744
 
-> 14 nodes · cohesion 0.26
+> 13 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **TemplateTagTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
-- **setup** (12 connections)
-- **.test_templatetag01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
-- **.test_templatetag02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
-- **.test_templatetag03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
-- **.test_templatetag04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
-- **.test_templatetag05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
-- **.test_templatetag06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
-- **.test_templatetag07()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
-- **.test_templatetag08()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
-- **.test_templatetag09()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
-- **.test_templatetag10()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
-- **.test_templatetag11()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
-- **.test_templatetag12()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
+- **archive_eol_stable_branches.py** (8 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
+- **main()** (7 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
+- **run()** (7 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
+- **create_tag()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
+- **delete_remote_and_local_branch()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
+- **get_branch_info()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
+- **get_remote_branches()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
+- **validate_env()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
+- **Return list of remote branches filtered by include_fn.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
+- **Return (commit_hash, last_update_date) for a given branch.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
+- **Create a tag locally for a given branch at its last update.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
+- **Delete a remote branch from origin and the maching local branch.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
+- **Run a command with optional dry-run behavior.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (2 shared connections)
+- [Community 37](Community_37.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_template_tag.py`
+- `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
 
 ## Audit Trail
 
-- EXTRACTED: 26 (100%)
+- EXTRACTED: 23 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **sitecustomize.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/sitecustomize.py`
+- **source_map_data_uri.js** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/source_map_data_uri.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/sitecustomize.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/source_map_data_uri.js`
 
 ## Audit Trail
 

@@ -1,64 +1,51 @@
 # Community 461
 
-> 94 nodes · cohesion 0.04
+> 25 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **timezones/tests.py** (50 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **NewDatabaseTests** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **LegacyDatabaseTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **Event** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- **NewFormsTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **requires_tz_support** (17 connections)
-- **SerializationTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **EventForm** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
-- **LegacyFormsTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **timezones/models.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- **timezones/forms.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
-- **ForcedTimeZoneDatabaseTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **timezones/admin.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/admin.py`
-- **EventModelForm** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
-- **.assert_json_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.assert_python_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.assert_xml_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.assert_yaml_contains_datetime()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **EventLocalizedModelForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
-- **EventSplitForm** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
-- **Timestamp** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- **.test_aware_datetime_in_local_timezone()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_in_other_timezone()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_in_utc()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- **.test_aware_datetime_with_microsecond()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- *... and 69 more nodes in this community*
+- **GeneratedFieldTestMixin** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **StoredGeneratedFieldTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **VirtualGeneratedFieldTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_db_type_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_full_clean_with_check_constraint()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_full_clean_with_unique_constraint_expression()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_output_field_db_collation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_output_field_lookups()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_bulk_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_bulk_update()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_full_clean()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_generated_fields_can_be_deferred()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_model_with_params()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_non_nullable_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_nullable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_save_model_with_foreign_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_save_model_with_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_unsaved_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_update()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **Lookups from the output_field are available on GeneratedFields.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_create_field_with_db_converters()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_create_with_non_auto_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
+- **.test_save_field_with_db_converters()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
 
 ## Relationships
 
-- [Community 19](Community_19.md) (12 shared connections)
-- [Community 1](Community_1.md) (10 shared connections)
-- [Community 24](Community_24.md) (7 shared connections)
-- [Community 12](Community_12.md) (7 shared connections)
-- [Community 30](Community_30.md) (6 shared connections)
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 168](Community_168.md) (5 shared connections)
-- [Community 6](Community_6.md) (4 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 115](Community_115.md) (4 shared connections)
-- [Community 39](Community_39.md) (4 shared connections)
-- [Community 25](Community_25.md) (2 shared connections)
+- [Community 29](Community_29.md) (4 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 33](Community_33.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 546](Community_546.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/timezones/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/timezones/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/timezones/forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/timezones/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/timezones/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/timezones/urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_generatedfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 240 (90%)
-- INFERRED: 28 (10%)
+- EXTRACTED: 33 (92%)
+- INFERRED: 3 (8%)
 - AMBIGUOUS: 0 (0%)
 
 ---

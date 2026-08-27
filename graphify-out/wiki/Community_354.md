@@ -1,50 +1,49 @@
 # Community 354
 
-> 34 nodes · cohesion 0.06
+> 18 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **CompositePKTests** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.get_primary_key_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_get_primary_key_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_hash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_in_bulk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_in_bulk_batching()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_iterator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_pk_not_set_db_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_totally_ordered()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_composite_pk_in_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_error_on_comment_pk_conflict()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_error_on_user_pk_conflict()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_in_bulk_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_in_bulk_values_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_in_bulk_values_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_in_bulk_values_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_in_bulk_values_list_fields_are_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_in_bulk_values_list_flat()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_in_bulk_values_list_flat_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_in_bulk_values_list_flat_tenant()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_in_bulk_values_list_multiple_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_only()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_pk_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_pk_must_be_list_or_tuple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- *... and 9 more nodes in this community*
+- **LimitedStream** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **ServerHandler** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.readline()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **._read_limited()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **is_broken_pipe_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.handle_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.handle_error()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.test_limited_stream()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- **.test_limited_stream()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/tests.py`
+- **.read()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **Wrap another stream to disallow reading it past a number of bytes.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- **Use a LimitedStream so that unread request data will be ignored at the end of…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.cleanup_headers()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
 
 ## Relationships
 
-- [Community 527](Community_527.md) (4 shared connections)
-- [Community 168](Community_168.md) (1 shared connections)
-- [Community 444](Community_444.md) (1 shared connections)
+- [Community 37](Community_37.md) (8 shared connections)
+- [Community 89](Community_89.md) (5 shared connections)
+- [Community 269](Community_269.md) (3 shared connections)
+- [Community 253](Community_253.md) (2 shared connections)
+- [Community 305](Community_305.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 587](Community_587.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
+- `raw/code/hyd-evaluation/django-django/django/core/servers/basehttp.py`
+- `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/requests_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 40 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 34 (81%)
+- INFERRED: 8 (19%)
 - AMBIGUOUS: 0 (0%)
 
 ---

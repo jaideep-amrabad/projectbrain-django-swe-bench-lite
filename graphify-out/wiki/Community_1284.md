@@ -1,29 +1,24 @@
 # Community 1284
 
-> 4 nodes · cohesion 0.50
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **replace()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/copy.py`
-- **.using()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
-- **Create a new Task with modified defaults.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
-- **Return a new object replacing specified fields with new values. This is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/copy.py`
+- **user_commands/models.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/models.py`
+- **User-registered management commands The ``manage.py`` utility provides a number…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/models.py`
 
 ## Relationships
 
-- [Community 709](Community_709.md) (1 shared connections)
-- [Community 52](Community_52.md) (1 shared connections)
-- [Community 60](Community_60.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/copy.py`
+- `raw/code/hyd-evaluation/django-django/tests/user_commands/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (67%)
-- INFERRED: 2 (33%)
+- EXTRACTED: 1 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

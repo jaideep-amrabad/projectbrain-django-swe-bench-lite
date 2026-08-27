@@ -1,27 +1,23 @@
 # Community 1135
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **flatten()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- **.test_flatten()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
-- **Return a list which is a single level of flattening of the original list.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **backport.sh** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/backport.sh`
+- **backport.sh script** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/backport.sh`
 
 ## Relationships
 
-- [Community 14](Community_14.md) (4 shared connections)
-- [Community 466](Community_466.md) (2 shared connections)
-- [Community 261](Community_261.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/scripts/backport.sh`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (100%)
+- EXTRACTED: 1 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,28 +1,28 @@
 # Community 1022
 
-> 6 nodes · cohesion 0.33
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **NonexistentFixtureTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_nonexistent_fixture_no_constraint_checking()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **.test_loaddata_not_existent_fixture_file()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **patch** (1 connections)
-- **Custom class to limit fixture dirs.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
-- **If no fixtures match the loaddata command, constraints checks on the database…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- **UseBlankChoiceDashDeprecationTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_use_blank_choice_dash.py`
+- **.test_settings_assignment_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_use_blank_choice_dash.py`
+- **.test_settings_init_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_use_blank_choice_dash.py`
+- **.test_access()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_use_blank_choice_dash.py`
+- **.test_override_settings_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_use_blank_choice_dash.py`
 
 ## Relationships
 
-- [Community 541](Community_541.md) (1 shared connections)
-- [Community 168](Community_168.md) (1 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 524](Community_524.md) (1 shared connections)
+- [Community 500](Community_500.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_use_blank_choice_dash.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

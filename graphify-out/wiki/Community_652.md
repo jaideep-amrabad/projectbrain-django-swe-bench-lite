@@ -1,41 +1,63 @@
 # Community 652
 
-> 17 nodes · cohesion 0.22
+> 35 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **FindPartialSourceTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
-- **setup** (15 connections)
-- **.test_find_partial_source_empty_partial()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
-- **.test_find_partial_source_multiple_consecutive_partials()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
-- **.test_find_partial_source_success()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
-- **.test_find_partial_source_supports_named_end_tag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
-- **.test_find_partial_source_supports_nested_partials()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
-- **.test_find_partial_source_supports_nested_partials_and_mixed_end_tags_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
-- **.test_find_partial_source_supports_nested_partials_and_mixed_end_tags_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
-- **.test_find_partial_source_supports_nested_partials_and_named_end_tags()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
-- **.test_find_partial_source_with_inline()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
-- **.test_partial_source_uses_offsets_in_debug()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
-- **.test_partial_template_contains_fake_end_inside_verbatim()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
-- **.test_partial_template_embedded_in_comment_block()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
-- **.test_partial_template_embedded_in_inline_comment()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
-- **.test_partial_template_embedded_in_named_verbatim()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
-- **.test_partial_template_embedded_in_verbatim()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
+- **OrderedSet** (26 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **DatabaseIntrospection** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **.get_constraints()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **reorder_suite()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.get_table_description()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **._parse_constraint_columns()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **OrderedSetTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.get_key_columns()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **.get_relations()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **.get_parent_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **partition_suite_by_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **.get_sequences()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **.get_storage_engine()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **.get_table_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **.discard()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.remove()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- **.test_bool()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.test_len()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
+- **.get_field_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **Return a dictionary of {field_name: (field_name_other_table, other_table)}…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **Return a list of (column_name, referenced_table_name, referenced_column_name)…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **Retrieve the storage engine for a given table. Return the default storage…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **Retrieve any constraints or keys (unique, pk, fk, check, index) across one or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **Return a list of table and view names in the current database.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- **Return a description of the table with the DB-API cursor.description interface."** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- *... and 10 more nodes in this community*
 
 ## Relationships
 
-- [Community 74](Community_74.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 168](Community_168.md) (1 shared connections)
+- [Community 37](Community_37.md) (5 shared connections)
+- [Community 175](Community_175.md) (3 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 65](Community_65.md) (2 shared connections)
+- [Community 312](Community_312.md) (2 shared connections)
+- [Community 522](Community_522.md) (1 shared connections)
+- [Community 151](Community_151.md) (1 shared connections)
+- [Community 455](Community_455.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 396](Community_396.md) (1 shared connections)
+- [Community 132](Community_132.md) (1 shared connections)
+- [Community 209](Community_209.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/introspection.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/datastructures.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
 
 ## Audit Trail
 
-- EXTRACTED: 34 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 62 (97%)
+- INFERRED: 2 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

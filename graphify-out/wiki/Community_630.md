@@ -1,44 +1,52 @@
 # Community 630
 
-> 15 nodes · cohesion 0.28
+> 17 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **TestPostgresAppInstalledCheck** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_app_installed_check.py`
-- **.assert_model_check_errors()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_app_installed_check.py`
-- **._make_error()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_app_installed_check.py`
-- **.test_range_fields()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_app_installed_check.py`
-- **SearchQueryField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **.test_indexes()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_app_installed_check.py`
-- **.test_search_vector_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_app_installed_check.py`
-- **.test_nested_array_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_app_installed_check.py`
-- **.test_array_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_app_installed_check.py`
-- **.test_exclusion_constraint()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_app_installed_check.py`
-- **.test_hstore_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_app_installed_check.py`
-- **Field** (2 connections)
-- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **Helper to create postgres.E005 error for specific objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_app_installed_check.py`
-- **Inner ArrayField does not cause a postgres.E001 error.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_app_installed_check.py`
+- **view()** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/nonimported_module.py`
+- **AccessMixinTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **.test_login_required()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **.test_access_mixin_permission_denied_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **.test_stacked_mixins_not_logged_in()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **.test_calling_more_than_once()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_options()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **.test_stacked_mixins_missing_permission()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **.test_stacked_mixins_success()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **HandlerView** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/bad_class_based_error_handlers.py`
+- **.as_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/bad_class_based_error_handlers.py`
+- **object** (1 connections)
+- **login_required works on a simple view wrapped in a login_required decorator.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **bad_class_based_error_handlers.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/bad_class_based_error_handlers.py`
+- **Test a view can only be called once.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **Views respond to HTTP OPTIONS requests with an Allow header appropriate for the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- **nonimported_module.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/nonimported_module.py`
 
 ## Relationships
 
-- [Community 64](Community_64.md) (5 shared connections)
-- [Community 128](Community_128.md) (5 shared connections)
-- [Community 262](Community_262.md) (5 shared connections)
-- [Community 283](Community_283.md) (2 shared connections)
-- [Community 104](Community_104.md) (2 shared connections)
-- [Community 112](Community_112.md) (1 shared connections)
-- [Community 164](Community_164.md) (1 shared connections)
+- [Community 171](Community_171.md) (6 shared connections)
+- [Community 311](Community_311.md) (6 shared connections)
+- [Community 319](Community_319.md) (5 shared connections)
+- [Community 285](Community_285.md) (2 shared connections)
+- [Community 47](Community_47.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 479](Community_479.md) (1 shared connections)
+- [Community 925](Community_925.md) (1 shared connections)
+- [Community 315](Community_315.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_app_installed_check.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/bad_class_based_error_handlers.py`
+- `raw/code/hyd-evaluation/django-django/tests/generic_views/test_base.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/nonimported_module.py`
 
 ## Audit Trail
 
-- EXTRACTED: 44 (88%)
-- INFERRED: 6 (12%)
+- EXTRACTED: 18 (39%)
+- INFERRED: 28 (61%)
 - AMBIGUOUS: 0 (0%)
 
 ---

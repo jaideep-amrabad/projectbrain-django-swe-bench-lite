@@ -1,56 +1,49 @@
 # Community 480
 
-> 26 nodes · cohesion 0.12
+> 24 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **cache_control()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
-- **CacheControlDecoratorTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **NeverCacheDecoratorTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **HttpRequestProxy** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **.test_cache_control_decorator_http_request_proxy()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **.test_never_cache_decorator_http_request_proxy()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **.test_cache_control_decorator_http_request()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **.test_cache_control_decorator_http_request_async_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **.test_cache_control_empty_decorator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **.test_cache_control_empty_decorator_async_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **.test_cache_control_full_decorator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **.test_cache_control_full_decorator_async_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **.test_never_cache_decorator_headers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **.test_never_cache_decorator_headers_async_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **.test_never_cache_decorator_http_request()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **.test_never_cache_decorator_http_request_async_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **.test_wrapped_async_function_is_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **.test_wrapped_sync_function_is_not_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **.__getattr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **.test_never_cache_decorator_expires_not_overridden()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **.test_never_cache_decorator_expires_not_overridden_async_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **.test_wrapped_async_function_is_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **.test_wrapped_sync_function_is_not_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- **patch** (2 connections)
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
-- *... and 1 more nodes in this community*
+- **ManyToOneNullTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **many_to_one_null/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
+- **many_to_one_null/tests.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **Article** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
+- **Reporter** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
+- **Car** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
+- **Driver** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
+- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
+- **Many-to-one relationships that can be null To define a many-to-one relationship…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
+- **.test_add_efficiency()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **.test_assign_clear_related_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **.test_assign_with_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **.test_clear_efficiency()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **.test_created_via_related_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **.test_created_without_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **.test_get_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **.test_related_null_to_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **.test_related_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **.test_remove_from_wrong_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **.test_set()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
+- **.test_set_clear_non_bulk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
 
 ## Relationships
 
-- [Community 23](Community_23.md) (14 shared connections)
-- [Community 132](Community_132.md) (5 shared connections)
-- [Community 38](Community_38.md) (3 shared connections)
 - [Community 1](Community_1.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 504](Community_504.md) (2 shared connections)
-- [Community 962](Community_962.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/decorators/cache.py`
-- `raw/code/hyd-evaluation/django-django/tests/decorators/test_cache.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/many_to_one_null/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 67 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 34 (89%)
+- INFERRED: 4 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

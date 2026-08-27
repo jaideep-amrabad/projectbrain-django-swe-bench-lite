@@ -1,59 +1,48 @@
 # Community 235
 
-> 47 nodes · cohesion 0.05
+> 17 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **HttpResponseBase** (37 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **OSError** (7 connections)
-- **HttpResponseBaseTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
-- **.set_cookie()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **setter** (5 connections)
-- **._convert_to_charset()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.make_bytes()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.content()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.serialize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.charset()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.serialize_headers()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **ValueError** (3 connections)
-- **.test_setdefault()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
-- **.delete_cookie()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.has_header()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.reason_phrase()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.set_signed_cookie()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.setdefault()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.__setitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.tell()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.write()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.writelines()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- **.content()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- *... and 22 more nodes in this community*
+- **TestPostgresAppInstalledCheck** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_app_installed_check.py`
+- **.assert_model_check_errors()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_app_installed_check.py`
+- **._make_error()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_app_installed_check.py`
+- **.test_range_fields()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_app_installed_check.py`
+- **SearchQueryField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **SearchVectorField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.test_indexes()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_app_installed_check.py`
+- **.test_search_vector_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_app_installed_check.py`
+- **.test_exclusion_constraint()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_app_installed_check.py`
+- **.test_nested_array_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_app_installed_check.py`
+- **.test_array_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_app_installed_check.py`
+- **.test_hstore_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_app_installed_check.py`
+- **Field** (2 connections)
+- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **Helper to create postgres.E005 error for specific objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_app_installed_check.py`
+- **Inner ArrayField does not cause a postgres.E001 error.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_app_installed_check.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (7 shared connections)
-- [Community 33](Community_33.md) (4 shared connections)
-- [Community 121](Community_121.md) (3 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
-- [Community 543](Community_543.md) (1 shared connections)
-- [Community 516](Community_516.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 34](Community_34.md) (1 shared connections)
-- [Community 1007](Community_1007.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 64](Community_64.md) (7 shared connections)
+- [Community 32](Community_32.md) (6 shared connections)
+- [Community 103](Community_103.md) (4 shared connections)
+- [Community 379](Community_379.md) (3 shared connections)
+- [Community 353](Community_353.md) (2 shared connections)
+- [Community 65](Community_65.md) (1 shared connections)
+- [Community 365](Community_365.md) (1 shared connections)
+- [Community 95](Community_95.md) (1 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/http/response.py`
-- `raw/code/hyd-evaluation/django-django/scripts/pr_quality/tests/test_check_pr.py`
-- `raw/code/hyd-evaluation/django-django/tests/responses/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_app_installed_check.py`
 
 ## Audit Trail
 
-- EXTRACTED: 72 (90%)
-- INFERRED: 8 (10%)
+- EXTRACTED: 49 (84%)
+- INFERRED: 9 (16%)
 - AMBIGUOUS: 0 (0%)
 
 ---

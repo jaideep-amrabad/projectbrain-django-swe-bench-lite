@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **choices/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/choices/__init__.py`
+- **dates/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/dates/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/choices/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/dates/__init__.py`
 
 ## Audit Trail
 

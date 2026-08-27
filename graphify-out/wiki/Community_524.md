@@ -1,46 +1,61 @@
 # Community 524
 
-> 22 nodes · cohesion 0.21
+> 40 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **build_policy()** (18 connections) — `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
-- **CSPBuildPolicyTest** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.assertPolicyEqual()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.test_config_value_as_set()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.test_config_value_as_string()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.test_config_value_as_tuple()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.test_config_value_none()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.test_config_with_nonce_arg()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.test_config_basic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.test_config_empty()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.test_config_multiple_directives()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.test_config_value_boolean_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.test_config_value_boolean_true()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.test_config_value_multiple_boolean()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.test_config_with_empty_directive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.test_config_with_multiple_nonces()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **.test_config_with_nonce()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **Test when the `CSP.NONCE` is not in the defined policy, the nonce argument has…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **Test that a single value can be passed as a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **Test that a tuple can be passed as a value.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **Test that a set can be passed as a value. Sets are often used in Django…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
-- **Test that `None` removes the directive from the policy. Useful in cases where…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
+- **LazySettings** (31 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **UserSettingsHolder** (13 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **IsOverriddenTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **._add_script_prefix()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **._setup()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__getattr__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.configure()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__delattr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__getattr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.MEDIA_URL()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__setattr__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.STATIC_URL()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.disable()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.enable()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.configured()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.PASSWORD_RESET_TIMEOUT_DAYS()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__delattr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.is_overridden()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__setattr__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.test_configure()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_evaluated_lazysettings_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **.test_override()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [Community 84](Community_84.md) (5 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 37](Community_37.md) (5 shared connections)
+- [Community 523](Community_523.md) (4 shared connections)
+- [Community 500](Community_500.md) (4 shared connections)
+- [Community 139](Community_139.md) (3 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 24](Community_24.md) (3 shared connections)
+- [Community 151](Community_151.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 1021](Community_1021.md) (1 shared connections)
+- [Community 1022](Community_1022.md) (1 shared connections)
+- [Community 55](Community_55.md) (1 shared connections)
+- [Community 170](Community_170.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/csp.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_csp.py`
+- `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 54 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 80 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

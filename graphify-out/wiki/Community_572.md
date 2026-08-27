@@ -1,50 +1,49 @@
 # Community 572
 
-> 20 nodes · cohesion 0.14
+> 20 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **JSONModel** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- **TestSaveLoad** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **TestSerialization** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **TestSerialization** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **TestModelMetaOrdering** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_dumping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_boolean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_custom_encoding()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_empty_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_empty_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_null()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_number()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_realistic_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_string()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_dumping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_loading()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **.test_xml_serialization()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- **JSONModel.field_custom has a custom DjangoJSONEncoder.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_ordering_by_json_field_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
-- **.test_loading()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
+- **Task** (18 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
+- **.get_backend()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
+- **.get_result()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
+- **replace()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/copy.py`
+- **.aenqueue()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
+- **.aget_result()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
+- **.enqueue()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
+- **.using()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
+- **Queue up the Task to be executed.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
+- **.__post_init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
+- **._reconstruct()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
+- **.force_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- **Retrieve a task result by id. Raise TaskResultDoesNotExist if such result does…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
+- **Create a new Task with modified defaults.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
+- **.acall()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
+- **.call()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
+- **.module_path()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
+- **.name()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
+- **.__reduce__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
+- **Return a new object replacing specified fields with new values. This is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/copy.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (6 shared connections)
-- [Community 64](Community_64.md) (4 shared connections)
-- [Community 128](Community_128.md) (3 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 180](Community_180.md) (1 shared connections)
-- [Community 19](Community_19.md) (1 shared connections)
-- [Community 368](Community_368.md) (1 shared connections)
+- [Community 81](Community_81.md) (6 shared connections)
+- [Community 34](Community_34.md) (1 shared connections)
+- [Community 85](Community_85.md) (1 shared connections)
+- [Community 399](Community_399.md) (1 shared connections)
+- [Community 37](Community_37.md) (1 shared connections)
+- [Community 91](Community_91.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_jsonfield.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json.py`
+- `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
+- `raw/code/hyd-evaluation/django-django/django/test/client.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/copy.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (80%)
-- INFERRED: 9 (20%)
+- EXTRACTED: 32 (89%)
+- INFERRED: 4 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

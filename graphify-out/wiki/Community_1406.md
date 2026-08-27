@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **one_config_app/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/one_config_app/__init__.py`
+- **tests/backends/oracle/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/apps/one_config_app/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/oracle/__init__.py`
 
 ## Audit Trail
 

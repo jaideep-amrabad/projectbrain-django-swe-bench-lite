@@ -1,51 +1,60 @@
 # Community 472
 
-> 25 nodes · cohesion 0.11
+> 24 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **BaseChoiceIterator** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/choices.py`
-- **ChoiceIteratorTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **SimpleChoiceIterator** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **flatten_choices()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/choices.py`
-- **BlankChoiceIterator** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/choices.py`
-- **FlattenChoicesTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_empty()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/choices.py`
-- **.test_eq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_eq_instances()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_getitem()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_getitem_indexerror()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_not_equal_subset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_not_equal_superset()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_nested_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_non_empty()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/choices.py`
-- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/choices.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/choices.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/choices.py`
-- **Base class for lazy iterators for choices.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/choices.py`
-- **Iterator to lazily inject a blank choice.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/choices.py`
-- **Flatten choices by removing nested values.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/choices.py`
-- **.test_not_implemented_error_on_missing_iter()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
+- **test_runner/tests.py** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **dependency_ordered()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **AutoIncrementResetTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **test_runner/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/models.py`
+- **test_debug_sql.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- **DependencyOrderingTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **Person** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/models.py`
+- **Through** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/models.py`
+- **SQLiteInMemoryTestDbs** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **B** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/models.py`
+- **._test()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **ThroughBase** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/models.py`
+- **.test_autoincrement_reset1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_autoincrement_reset2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_chained_dependencies()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_circular_dependencies()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_multiple_dependencies()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_own_alias_dependency()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **.test_simple_dependencies()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **MockTestRunner** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **Reorder test_databases into an order that honors the dependencies described in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **Tests for django test runner** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
+- **Creating the same models in different test methods receive the same PK values…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (7 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 431](Community_431.md) (1 shared connections)
-- [Community 624](Community_624.md) (1 shared connections)
+- [Community 132](Community_132.md) (7 shared connections)
+- [Community 37](Community_37.md) (6 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
+- [Community 499](Community_499.md) (4 shared connections)
+- [Community 151](Community_151.md) (3 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 34](Community_34.md) (3 shared connections)
+- [Community 642](Community_642.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 116](Community_116.md) (2 shared connections)
+- [Community 29](Community_29.md) (2 shared connections)
+- [Community 386](Community_386.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/choices.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/test_debug_sql.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_runner/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (95%)
-- INFERRED: 2 (5%)
+- EXTRACTED: 78 (94%)
+- INFERRED: 5 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

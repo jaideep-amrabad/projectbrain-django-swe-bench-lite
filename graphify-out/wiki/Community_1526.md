@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **geogapp/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/__init__.py`
+- **some_file.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/commands/app_with_locale/some_file.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geogapp/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/commands/app_with_locale/some_file.py`
 
 ## Audit Trail
 

@@ -1,35 +1,46 @@
 # Community 760
 
-> 13 nodes · cohesion 0.28
+> 13 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **archive_eol_stable_branches.py** (8 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
-- **main()** (7 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
-- **run()** (7 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
-- **create_tag()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
-- **delete_remote_and_local_branch()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
-- **get_branch_info()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
-- **get_remote_branches()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
-- **validate_env()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
-- **Return list of remote branches filtered by include_fn.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
-- **Return (commit_hash, last_update_date) for a given branch.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
-- **Create a tag locally for a given branch at its last update.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
-- **Delete a remote branch from origin and the maching local branch.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
-- **Run a command with optional dry-run behavior.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
+- **OptimizerTests** (45 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **._test_alter_alter_model()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **._test_create_alter_foo_field()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_alter_alter_index_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_alter_alter_owrt_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_alter_alter_table_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_alter_alter_unique_model()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_alter_index_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_alter_owrt_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **.test_create_alter_unique_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **Tests the migration autodetector.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **Two AlterUniqueTogether/AlterIndexTogether/AlterOrderWithRespectTo should…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
+- **CreateModel, AlterFooTogether/AlterOrderWithRespectTo followed by an…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 719](Community_719.md) (11 shared connections)
+- [Community 10](Community_10.md) (4 shared connections)
+- [Community 1028](Community_1028.md) (4 shared connections)
+- [Community 954](Community_954.md) (4 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 1191](Community_1191.md) (1 shared connections)
+- [Community 1198](Community_1198.md) (1 shared connections)
+- [Community 1201](Community_1201.md) (1 shared connections)
+- [Community 1199](Community_1199.md) (1 shared connections)
+- [Community 1200](Community_1200.md) (1 shared connections)
+- [Community 1194](Community_1194.md) (1 shared connections)
+- [Community 1196](Community_1196.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/scripts/archive_eol_stable_branches.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_optimizer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 53 (95%)
+- INFERRED: 3 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,47 +1,50 @@
 # Community 510
 
-> 23 nodes · cohesion 0.11
+> 22 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **.get_template()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **MultipleLocaleActivationBlockTranslateTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **TranslationBlockTranslateTagTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **MiscTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **.test_percent_formatting_in_blocktranslate()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **.test_bad_placeholder_1()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **.test_bad_placeholder_2()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **.test_template_tags_pgettext()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **.test_percent_in_translatable_block()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **.test_single_locale_activation()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **.test_multiple_locale_btrans()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **.test_multiple_locale_deactivate_btrans()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **.test_multiple_locale_direct_switch_btrans()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **MiscBlockTranslationTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **.get_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **MultipleLocaleActivationBlockTransTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **.get_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **TranslationBlockTransnTagTests** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **{% blocktranslate %} takes message contexts into account (#14806).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **Error in translation file should not crash template rendering (#16516).…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **Error in translation file should not crash template rendering (#18393).…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **Simple baseline behavior with one locale for all the supported i18n constructs.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
-- **Python's %-formatting is properly escaped in blocktranslate, singular, or…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
+- **query_performing_app/apps.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **BaseAppConfig** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **CursorQueryAppConfig** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **CursorQueryManyAppConfig** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **ModelQueryAppConfig** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **StoredProcedureQueryAppConfig** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **TotallyNormal** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/models.py`
+- **.ready()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **QueryDefaultDatabaseCursorAppConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **QueryDefaultDatabaseCursorManyAppConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **QueryDefaultDatabaseModelAppConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **QueryDefaultDatabaseStoredProcedureAppConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **QueryOtherDatabaseCursorAppConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **QueryOtherDatabaseCursorManyAppConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **QueryOtherDatabaseModelAppConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **QueryOtherDatabaseStoredProcedureAppConfig** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **._perform_query()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **._perform_query()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **._perform_query()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **._perform_query()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
+- **._perform_query()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
 
 ## Relationships
 
-- [Community 30](Community_30.md) (14 shared connections)
-- [Community 0](Community_0.md) (9 shared connections)
-- [Community 12](Community_12.md) (5 shared connections)
+- [Community 19](Community_19.md) (2 shared connections)
+- [Community 37](Community_37.md) (1 shared connections)
+- [Community 10](Community_10.md) (1 shared connections)
+- [Community 290](Community_290.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
+- `raw/code/hyd-evaluation/django-django/tests/apps/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/apps/query_performing_app/apps.py`
 
 ## Audit Trail
 
-- EXTRACTED: 46 (84%)
-- INFERRED: 9 (16%)
+- EXTRACTED: 40 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

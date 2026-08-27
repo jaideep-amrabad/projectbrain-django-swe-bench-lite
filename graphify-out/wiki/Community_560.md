@@ -1,36 +1,45 @@
 # Community 560
 
-> 12 nodes · cohesion 0.17
+> 20 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **Node** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.add_node()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.add_child()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.add_parent()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.__lt__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **A single node in the migration graph. Contains direct links to adjacent nodes…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **ImmediateBackendTestCase** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **.test_validate_on_aenqueue()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **.test_validate_on_enqueue()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **.test_cannot_get_result()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **.test_cannot_pass_run_after()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **.test_cannot_refresh_result()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **.test_catches_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **.test_complex_exception()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **.test_complex_return_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **.test_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **.test_enqueue_logs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **.test_enqueue_task()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **.test_enqueue_task_async()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **.test_failed_logs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **.test_result()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **.test_result_async()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **.test_successful_task_no_none_in_logs()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **.test_takes_context()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **.test_throws_keyboard_interrupt()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
+- **.test_using_correct_backend()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
 
 ## Relationships
 
-- [Community 820](Community_820.md) (4 shared connections)
-- [Community 405](Community_405.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 34](Community_34.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 81](Community_81.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- `raw/code/hyd-evaluation/django-django/tests/tasks/test_immediate_backend.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 24 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

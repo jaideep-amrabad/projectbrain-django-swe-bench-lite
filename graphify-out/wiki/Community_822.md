@@ -1,39 +1,31 @@
 # Community 822
 
-> 11 nodes · cohesion 0.20
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **BoundWidget** (10 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **._resolve_lookup()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.tag()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.template_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.current()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.choice_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.id_for_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **A container class used for iterating over widgets. This is useful for widgets…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **Perform resolution of a real variable (i.e. not a literal) against the given…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **PlaywrightAuthTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_password_form.py`
+- **.test_add_new_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_password_form.py`
+- **.test_change_password_for_existing_user()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_password_form.py`
+- **.test_fieldset_legend_wide_alignment()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_password_form.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_password_form.py`
+- **A user with no password can be added. Enabling/disabling the usable password…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_password_form.py`
+- **A user can have their password changed or unset. Enabling/disabling the usable…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_password_form.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 377](Community_377.md) (1 shared connections)
-- [Community 216](Community_216.md) (1 shared connections)
-- [Community 430](Community_430.md) (1 shared connections)
+- [Community 426](Community_426.md) (3 shared connections)
+- [Community 25](Community_25.md) (3 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_password_form.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (84%)
-- INFERRED: 3 (16%)
+- EXTRACTED: 13 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

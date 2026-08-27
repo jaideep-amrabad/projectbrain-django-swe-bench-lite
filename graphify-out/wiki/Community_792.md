@@ -1,37 +1,35 @@
 # Community 792
 
-> 12 nodes · cohesion 0.24
+> 12 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **DatabaseCreationTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **.test_create_test_db()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **.test_create_test_user()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **.patch_execute_statements()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **.test_oracle_managed_files()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **object** (3 connections)
-- **._execute_raise_insufficient_privileges()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **._execute_raise_tablespace_already_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **._execute_raise_user_already_exists()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **._test_database_passwd()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
-- **patch** (1 connections)
-- **skipUnless** (1 connections)
+- **with_generic_model/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
+- **0002_customgenericmodel.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/migrations/0002_customgenericmodel.py`
+- **Child** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
+- **CustomGenericModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
+- **GenericModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
+- **GenericModelPEP695** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
+- **Migration** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/migrations/0002_customgenericmodel.py`
+- **Parent1** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
+- **Parent2** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
+- **A model inheriting from typing.Generic via the PEP 695 syntax.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
+- **A model inheriting from a custom subclass of typing.Generic.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
+- **A model inheriting from typing.Generic.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 351](Community_351.md) (3 shared connections)
-- [Community 21](Community_21.md) (3 shared connections)
-- [Community 168](Community_168.md) (1 shared connections)
+- [Community 1](Community_1.md) (5 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/migrations/0002_customgenericmodel.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 24 (89%)
-- INFERRED: 3 (11%)
+- EXTRACTED: 17 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

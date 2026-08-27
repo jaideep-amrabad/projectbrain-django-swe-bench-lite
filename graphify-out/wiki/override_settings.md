@@ -1,8 +1,8 @@
 # override_settings
 
-> God node · 1374 connections · `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+> God node · 1414 connections · `raw/code/hyd-evaluation/django-django/django/test/utils.py`
 
-**Community:** [Community 12](Community_12.md)
+**Community:** [Community 6](Community_6.md)
 
 ## Connections by Relation
 
@@ -34,24 +34,24 @@
 ### imports
 - django/test/__init__.py `EXTRACTED`
 - template_tests/utils.py `EXTRACTED`
-- testcases.py `EXTRACTED`
-- admin_changelist/tests.py `EXTRACTED`
 - i18n/tests.py `EXTRACTED`
+- admin_changelist/tests.py `EXTRACTED`
+- testcases.py `EXTRACTED`
 - cache/tests.py `EXTRACTED`
 - test_utils/tests.py `EXTRACTED`
 - auth_tests/test_views.py `EXTRACTED`
-- admin_widgets/tests.py `EXTRACTED`
-- admin_filters/tests.py `EXTRACTED`
-- admin_scripts/tests.py `EXTRACTED`
 - test_auth_backends.py `EXTRACTED`
+- tests/test_debug.py `EXTRACTED`
+- admin_filters/tests.py `EXTRACTED`
+- admin_widgets/tests.py `EXTRACTED`
+- test_array.py `EXTRACTED`
 - urlpatterns_reverse/tests.py `EXTRACTED`
 - admin_inlines/tests.py `EXTRACTED`
+- admin_scripts/tests.py `EXTRACTED`
 - fixtures_regress/tests.py `EXTRACTED`
 - prefetch_related/tests.py `EXTRACTED`
 - test_client_regress/tests.py `EXTRACTED`
-- auth_tests/test_forms.py `EXTRACTED`
 - sessions_tests/tests.py `EXTRACTED`
-- test_array.py `EXTRACTED`
 
 ### inherits
 - modify_settings `EXTRACTED`
@@ -75,20 +75,20 @@
 - TestInline `EXTRACTED`
 - UrlTagTests `EXTRACTED`
 - TaskTestCase `EXTRACTED`
-- AdminActionsTest `EXTRACTED`
 - DateFunctionTests `EXTRACTED`
-- ASGITest `EXTRACTED`
+- AdminActionsTest `EXTRACTED`
+- CreatesuperuserManagementCommandTestCase `EXTRACTED`
+- NewDatabaseTests `EXTRACTED`
 - ListViewTests `EXTRACTED`
 - CommonMiddlewareTest `EXTRACTED`
-- NewDatabaseTests `EXTRACTED`
 - DetailViewTest `EXTRACTED`
-- CreatesuperuserManagementCommandTestCase `EXTRACTED`
 - CollectionTestCase `EXTRACTED`
+- SyndicationFeedTest `EXTRACTED`
+- CommandTests `EXTRACTED`
 - TestUtilsHashPass `EXTRACTED`
 - ConditionalGet `EXTRACTED`
-- SyndicationFeedTest `EXTRACTED`
 - FileUploadTests `EXTRACTED`
-- CommandTests `EXTRACTED`
+- ConditionalGetMiddlewareTest `EXTRACTED`
 
 ---
 

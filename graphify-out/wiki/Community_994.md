@@ -1,30 +1,29 @@
 # Community 994
 
-> 6 nodes · cohesion 0.33
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **MailersCompatibilityTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_handler.py`
-- **.test_default_mailer_with_deprecated_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_handler.py`
-- **.test_default_mailer_with_no_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_handler.py`
-- **ignore_no_default_mailer_warning** (1 connections)
-- **.test_unknown_mailer_with_no_settings()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_handler.py`
-- **mailers.default is usable even when MAILERS is not defined.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_handler.py`
+- **AssertNumQueriesContextManagerTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_failure()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_simple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **.test_with_client()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Relationships
 
-- [Community 62](Community_62.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 539](Community_539.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 170](Community_170.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 47](Community_47.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/test_handler.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 6 (86%)
+- INFERRED: 1 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

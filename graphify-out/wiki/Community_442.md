@@ -1,55 +1,54 @@
 # Community 442
 
-> 28 nodes · cohesion 0.11
+> 26 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **order_with_respect_to/tests.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
-- **BaseOrderWithRespectToTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **order_with_respect_to/models.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **OrderWithRespectToBaseTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
-- **Answer** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **Post** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **TestOrderWithRespectToOneToOnePK** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
-- **base_tests.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **Dimension** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **Entity** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **Meta** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **Question** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **OrderWithRespectToTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
-- **.test_set_order_unrelated_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **Component** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- **.test_duplicate_order_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **.test_change_ordering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **.test_default_to_insertion_order()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **.test_item_ordering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **.test_previous_and_next_in_order()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **.test_recursive_ordering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **The tests are shared with contenttypes_tests and so shouldn't import or…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **An answer that's not related isn't updated.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- *... and 3 more nodes in this community*
+- **scripts/tests.py** (11 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **do_django_release.py** (10 connections) — `raw/code/hyd-evaluation/django-django/scripts/do_django_release.py`
+- **parse_major_version()** (9 connections) — `raw/code/hyd-evaluation/django-django/scripts/do_django_release.py`
+- **ParseMajorVersionTests** (7 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.d()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- **main()** (6 connections) — `raw/code/hyd-evaluation/django-django/scripts/do_django_release.py`
+- **create_checksum_file()** (5 connections) — `raw/code/hyd-evaluation/django-django/scripts/do_django_release.py`
+- **find_release_artifacts()** (5 connections) — `raw/code/hyd-evaluation/django-django/scripts/do_django_release.py`
+- **CreateChecksumFileTests** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.generate_checksum_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **FindReleaseArtifactsTests** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_empty_directory_returns_none()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_finds_wheel_and_tarball()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **build_artifacts()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/do_django_release.py`
+- **do_checksum()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/do_django_release.py`
+- **get_commit_hash()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/do_django_release.py`
+- **.test_artifact_checksums()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_release_metadata()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_alpha()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_beta()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_final_dot_zero_release()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_final_patch_release()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_release_candidate()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_two_digit_minor()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **Day of the month, 2 digits with leading zeros; i.e. '01' to '31** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- *... and 1 more nodes in this community*
 
 ## Relationships
 
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 97](Community_97.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 168](Community_168.md) (3 shared connections)
-- [Community 112](Community_112.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 473](Community_473.md) (3 shared connections)
+- [Community 37](Community_37.md) (2 shared connections)
+- [Community 369](Community_369.md) (1 shared connections)
+- [Community 619](Community_619.md) (1 shared connections)
+- [Community 112](Community_112.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/base_tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/order_with_respect_to/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/dateformat.py`
+- `raw/code/hyd-evaluation/django-django/scripts/do_django_release.py`
+- `raw/code/hyd-evaluation/django-django/scripts/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 52 (91%)
-- INFERRED: 5 (9%)
+- EXTRACTED: 51 (94%)
+- INFERRED: 3 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

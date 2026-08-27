@@ -1,53 +1,48 @@
 # Community 431
 
-> 28 nodes · cohesion 0.13
+> 27 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **normalize_choices()** (28 connections) — `raw/code/hyd-evaluation/django-django/django/utils/choices.py`
-- **NormalizeFieldChoicesTests** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **CallableChoiceIterator** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/choices.py`
-- **.test_empty()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/choices.py`
-- **.test_callable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_callable_non_canonical()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_choices()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_iterable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_iterable_non_canonical()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_iterable_set()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_iterator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_iterator_non_canonical()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_mapping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_nested_callable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_nested_callable_non_canonical()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_nested_iterable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_nested_iterable_non_canonical()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_nested_iterator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_nested_iterator_non_canonical()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_nested_mapping()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_nested_mixed_mapping_and_iterable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_unsupported_values_from_callable_returned_unmodified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_unsupported_values_from_iterator_returned_unmodified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- **.test_unsupported_values_returned_unmodified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
-- *... and 3 more nodes in this community*
+- **AutoescapeTagTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- **setup** (19 connections)
+- **.test_autoescape_filtertag01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- **.test_autoescape_ifequal01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- **.test_autoescape_literals01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- **.test_autoescape_lookup01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- **.test_autoescape_stringiterations01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- **.test_autoescape_tag06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- **.test_autoescape_tag07()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- **.test_autoescape_tag08()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- **.test_autoescape_tag09()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- **.test_autoescape_tag10()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- **.test_autoescape_filters01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- **.test_autoescape_filters02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- **.test_autoescape_tag01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- **.test_autoescape_tag02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- **.test_autoescape_tag03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- **.test_autoescape_tag04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- **.test_autoescape_tag05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- **.test_invalid_arg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- **.test_no_arg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- **Literal strings are safe.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- **Iterating over strings outputs safe characters.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- **Escape requirement survives lookup.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- **Literal string arguments to filters, if used in the result, are safe.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
+- *... and 2 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (4 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 472](Community_472.md) (1 shared connections)
-- [Community 464](Community_464.md) (1 shared connections)
-- [Community 624](Community_624.md) (1 shared connections)
+- [Community 2](Community_2.md) (6 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/choices.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_choices.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_autoescape.py`
 
 ## Audit Trail
 
-- EXTRACTED: 55 (93%)
-- INFERRED: 4 (7%)
+- EXTRACTED: 50 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

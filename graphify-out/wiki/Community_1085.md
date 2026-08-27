@@ -1,28 +1,26 @@
 # Community 1085
 
-> 5 nodes · cohesion 0.40
+> 4 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **AssertURLEqualTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_equal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_msg_prefix()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **.test_not_equal()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- **wildcard_module.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/wildcard_module.py`
+- **wildcard_base.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/wildcard_base.py`
+- **WildcardMixin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/wildcard_base.py`
+- **WildcardClass** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/wildcard_module.py`
 
 ## Relationships
 
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/wildcard_base.py`
+- `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/wildcard_module.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

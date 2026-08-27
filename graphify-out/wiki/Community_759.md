@@ -1,38 +1,38 @@
 # Community 759
 
-> 13 nodes · cohesion 0.29
+> 13 nodes · cohesion 0.21
 
 ## Key Concepts
 
-- **csp_override()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/csp.py`
-- **CSPOverrideDecoratorTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csp.py`
-- **csp_report_only_override()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/csp.py`
-- **.test_csp_override_both()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csp.py`
-- **.test_csp_override_both_async_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csp.py`
-- **.test_decorator_requires_mapping()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csp.py`
-- **.test_csp_override()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csp.py`
-- **.test_csp_override_async_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csp.py`
-- **.test_csp_report_only_override()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csp.py`
-- **.test_csp_report_only_override_async_view()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csp.py`
-- **Override the Content-Security-Policy header for a view.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/csp.py`
-- **.test_wrapped_async_function_is_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csp.py`
-- **.test_wrapped_sync_function_is_not_coroutine_function()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/test_csp.py`
+- **m2o_recursive/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
+- **m2o_recursive/models.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
+- **ManyToOneRecursiveTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
+- **MultipleManyToOneRecursiveTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
+- **Category** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
+- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
+- **Relating an object to itself, many-to-one To define a many-to-one relationship…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
+- **.test_m2o_recursive()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
+- **.test_m2o_recursive2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 23](Community_23.md) (6 shared connections)
-- [Community 962](Community_962.md) (3 shared connections)
+- [Community 3](Community_3.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/views/decorators/csp.py`
-- `raw/code/hyd-evaluation/django-django/tests/decorators/test_csp.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 35 (92%)
-- INFERRED: 3 (8%)
+- EXTRACTED: 20 (91%)
+- INFERRED: 2 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,46 +1,49 @@
 # Community 566
 
-> 21 nodes · cohesion 0.10
+> 19 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **CompositePKChecksTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_cannot_include_generated_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_can_include_fk_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_cannot_be_editable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_cannot_have_a_database_default()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_cannot_have_a_db_column()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_cannot_have_a_default()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_cannot_include_composite_pk_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_cannot_include_db_column()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_cannot_include_non_local_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_cannot_include_nullable_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_cannot_include_same_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_must_be_a_primary_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_must_be_blank()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_must_be_named_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_must_be_unique_strings()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_must_include_at_least_2_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_composite_pk_must_not_have_other_pk_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_foreign_object_can_refer_composite_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_proxy_model_can_subclass_model_with_composite_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
-- **.test_proxy_model_does_not_check_superclass_composite_pk_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **TestUtils** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- **parse_rst()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
+- **admin_docs/test_utils.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- **parse_docstring()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
+- **AdminDocsSimpleTestCase** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/tests.py`
+- **.test_parse_rst_with_docstring_no_leading_line_feed()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- **.test_description_output()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- **.test_parse_rst()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- **.test_title_output()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- **.test_initial_header_level()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- **.test_parse_docstring()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- **.test_publish_parts()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- **Parse out the parts of a docstring. Return (title, body, metadata).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
+- **Convert the string from reST to an XHTML fragment.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
+- **skipUnless** (1 connections)
+- **Django shouldn't break the default role for interpreted text when…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- **This __doc__ output is required for testing. I copied this example from…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- **parse_rst() should use `cmsreference` as the default role.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
 
 ## Relationships
 
-- [Community 112](Community_112.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 168](Community_168.md) (1 shared connections)
+- [Community 144](Community_144.md) (3 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 132](Community_132.md) (2 shared connections)
+- [Community 682](Community_682.md) (2 shared connections)
 - [Community 25](Community_25.md) (1 shared connections)
-- [Community 39](Community_39.md) (1 shared connections)
+- [Community 37](Community_37.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_docs/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (100%)
+- EXTRACTED: 41 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

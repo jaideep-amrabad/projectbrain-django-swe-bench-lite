@@ -1,13 +1,11 @@
 # Community 1130
 
-> 4 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **wildcard_module.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/wildcard_module.py`
-- **wildcard_base.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/wildcard_base.py`
-- **WildcardMixin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/wildcard_base.py`
-- **WildcardClass** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/wildcard_module.py`
+- **compress.py** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/bin/compress.py`
+- **main()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/bin/compress.py`
 
 ## Relationships
 
@@ -15,12 +13,11 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/wildcard_base.py`
-- `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/wildcard_module.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/bin/compress.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (100%)
+- EXTRACTED: 1 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

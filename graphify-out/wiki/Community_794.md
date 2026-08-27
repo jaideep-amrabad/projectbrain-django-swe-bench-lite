@@ -1,34 +1,29 @@
 # Community 794
 
-> 12 nodes · cohesion 0.24
+> 8 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **CompositePKFixturesTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.assert_deserializer()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_serialize_user_yaml()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_serialize_user_json()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_serialize_user_jsonl()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_serialize_user_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_serialize_user_xml()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_invalid_pk_extra_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_objects()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_serialize_datetime()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **.test_serialize_post_uuid()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
-- **skipUnless** (1 connections)
+- **CutTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_cut.py`
+- **setup** (6 connections)
+- **.test_cut01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_cut.py`
+- **.test_cut02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_cut.py`
+- **.test_cut03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_cut.py`
+- **.test_cut04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_cut.py`
+- **.test_cut05()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_cut.py`
+- **.test_cut06()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_cut.py`
 
 ## Relationships
 
-- [Community 527](Community_527.md) (1 shared connections)
-- [Community 168](Community_168.md) (1 shared connections)
+- [Community 2](Community_2.md) (8 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_cut.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,30 +1,30 @@
 # Community 798
 
-> 12 nodes · cohesion 0.18
+> 12 nodes · cohesion 0.23
 
 ## Key Concepts
 
-- **with_generic_model/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
-- **0002_customgenericmodel.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/migrations/0002_customgenericmodel.py`
-- **Child** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
-- **CustomGenericModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
-- **GenericModel** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
-- **GenericModelPEP695** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
-- **Migration** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/migrations/0002_customgenericmodel.py`
-- **Parent1** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
-- **Parent2** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
-- **A model inheriting from typing.Generic via the PEP 695 syntax.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
-- **A model inheriting from a custom subclass of typing.Generic.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
-- **A model inheriting from typing.Generic.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
+- **ExceptionsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
+- **setup** (5 connections)
+- **.test_exception01()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
+- **.test_exception02()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
+- **.test_exception03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
+- **.test_exception04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
+- **.test_exception05()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
+- **Raise exception for invalid template name** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
+- **Raise exception for invalid variable template name** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
+- **Raise exception for extra {% extends %} tags** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
+- **Raise exception for custom tags used in child with {% load %} tag in parent,…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
+- **Raise exception for block.super used in base template** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (5 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/migrations/0002_customgenericmodel.py`
-- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/with_generic_model/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_exceptions.py`
 
 ## Audit Trail
 

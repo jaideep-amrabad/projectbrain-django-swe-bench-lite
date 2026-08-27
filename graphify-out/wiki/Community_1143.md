@@ -1,24 +1,24 @@
 # Community 1143
 
-> 3 nodes · cohesion 0.67
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **verify_release.sh** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/verify_release.sh`
-- **cleanup()** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/verify_release.sh`
-- **verify_release.sh script** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/verify_release.sh`
+- **ParentWithUUIDPK** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 78](Community_78.md) (1 shared connections)
+- [Community 110](Community_110.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/scripts/verify_release.sh`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 3 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

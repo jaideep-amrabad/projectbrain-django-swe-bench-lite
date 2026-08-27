@@ -1,28 +1,29 @@
 # Community 984
 
-> 7 nodes · cohesion 0.43
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **IriencodeTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_iriencode.py`
-- **setup** (4 connections)
-- **.test_iriencode03()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_iriencode.py`
-- **.test_iriencode04()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_iriencode.py`
-- **.test_iriencode01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_iriencode.py`
-- **.test_iriencode02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_iriencode.py`
-- **Ensure iriencode keeps safe strings.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_iriencode.py`
+- **MailersProductionBackendTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_mail.py`
+- **.test_only_applies_to_default_mailer()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_mail.py`
+- **.test_is_deployment_only()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_mail.py`
+- **.test_mailers_not_defined()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_mail.py`
+- **.test_non_production_backends()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_mail.py`
+- **.test_production_backends()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_mail.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (4 shared connections)
+- [Community 79](Community_79.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_iriencode.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_mail.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 8 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

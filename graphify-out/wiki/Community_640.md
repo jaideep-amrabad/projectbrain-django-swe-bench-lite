@@ -1,43 +1,40 @@
 # Community 640
 
-> 17 nodes · cohesion 0.13
+> 17 nodes · cohesion 0.22
 
 ## Key Concepts
 
-- **Tests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **._select()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **.test_nodb_connection()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **.test_connect_and_rollback()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **.test_connect_isolation_level()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **.test_connect_non_autocommit()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **.test_correct_extraction_psycopg2_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **.test_database_name_too_long()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **.test_lookup_cast()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **.test_select_ascii_array()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **.test_select_unicode_array()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **skipUnless** (1 connections)
-- **The transaction level can be configured with DATABASES…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **The _nodb_connection property fallbacks to the default connection database when…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **PostgreSQL shouldn't roll back SET TIME ZONE, even if the first transaction is…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **The connection wrapper shouldn't believe that autocommit is enabled after…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **.test_connect_no_is_usable_checks()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- **FindPartialSourceTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
+- **setup** (15 connections)
+- **.test_find_partial_source_empty_partial()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
+- **.test_find_partial_source_multiple_consecutive_partials()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
+- **.test_find_partial_source_success()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
+- **.test_find_partial_source_supports_named_end_tag()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
+- **.test_find_partial_source_supports_nested_partials()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
+- **.test_find_partial_source_supports_nested_partials_and_mixed_end_tags_1()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
+- **.test_find_partial_source_supports_nested_partials_and_mixed_end_tags_2()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
+- **.test_find_partial_source_supports_nested_partials_and_named_end_tags()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
+- **.test_find_partial_source_with_inline()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
+- **.test_partial_source_uses_offsets_in_debug()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
+- **.test_partial_template_contains_fake_end_inside_verbatim()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
+- **.test_partial_template_embedded_in_comment_block()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
+- **.test_partial_template_embedded_in_inline_comment()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
+- **.test_partial_template_embedded_in_named_verbatim()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
+- **.test_partial_template_embedded_in_verbatim()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 168](Community_168.md) (1 shared connections)
-- [Community 754](Community_754.md) (1 shared connections)
-- [Community 329](Community_329.md) (1 shared connections)
-- [Community 21](Community_21.md) (1 shared connections)
+- [Community 14](Community_14.md) (3 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_partials.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 34 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

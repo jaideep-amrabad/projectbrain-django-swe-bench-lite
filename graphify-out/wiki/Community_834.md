@@ -1,38 +1,29 @@
 # Community 834
 
-> 11 nodes · cohesion 0.20
+> 7 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **module.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/module.py`
-- **MyClass** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/module.py`
-- **my_function()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/module.py`
-- **.test_basic_processing_in_view()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- **other_module.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/other_module.py`
-- **MyOtherClass** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/other_module.py`
-- **package/__init__.py** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/__init__.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/module.py`
-- **.my_cached_property()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/module.py`
-- **.my_method()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/module.py`
-- **object** (1 connections)
+- **EscapeseqTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapeseq.py`
+- **setup** (4 connections)
+- **.test_autoescape_off()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapeseq.py`
+- **.test_basic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapeseq.py`
+- **.test_chain_join()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapeseq.py`
+- **.test_chain_join_autoescape_off()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapeseq.py`
+- **The "escapeseq" filter works the same whether autoescape is on or off, and has…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapeseq.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 47](Community_47.md) (1 shared connections)
-- [Community 48](Community_48.md) (1 shared connections)
+- [Community 2](Community_2.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_forms.py`
-- `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/module.py`
-- `raw/code/hyd-evaluation/django-django/tests/sphinx/testdata/package/other_module.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escapeseq.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (81%)
-- INFERRED: 3 (19%)
+- EXTRACTED: 13 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

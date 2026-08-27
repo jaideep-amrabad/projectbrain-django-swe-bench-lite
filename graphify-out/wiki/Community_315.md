@@ -1,51 +1,65 @@
 # Community 315
 
-> 38 nodes · cohesion 0.10
+> 76 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **check_pr.py** (22 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **Message** (18 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/errors.py`
-- **main()** (16 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **github_request()** (6 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **check_ai_disclosure()** (5 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **check_branch_description()** (5 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **check_trac_has_patch()** (5 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **check_trac_ticket()** (5 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **strip_html_comments()** (5 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **check_checklist()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **check_pr_title_has_ticket()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **check_trac_status()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **fetch_trac_ticket()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **get_pr_total_changes()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **get_recent_commit_count()** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **errors.py** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/errors.py`
-- **extract_ticket_id()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **get_comment_ids_to_delete()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **write_job_summary()** (3 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **setup_logging()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **Return the number of recent commits by the author, up to max_count.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **Return total lines changed in the PR (additions + deletions).** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **Return text with all HTML comments removed.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **Return the Trac ticket ID string from the PR body, or None.** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- **Fetch ticket data from the Trac JSON API. Returns a dict with ticket data on…** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- *... and 13 more nodes in this community*
+- **lazystr()** (36 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **override** (33 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **I18NViewTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **TestUtilsHtml** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
+- **TestUtilsText** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
+- **json_script()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **.check_output()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
+- **.test_conditional_escape()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
+- **.test_escape()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
+- **.test_escapejs()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
+- **.test_linebreaks()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
+- **.test_strip_spaces_between_tags()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
+- **.test_strip_tags()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
+- **.test_i18n_different_non_english_languages()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_i18n_language_english_default()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_non_BMP_char()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_non_english_default_english_userpref()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_template_name_lazy_string()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
+- **.test_format_html()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
+- **.test_json_script()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
+- **.test_urlize()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
+- **.test_format_lazy()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
+- **.test_unescape_entities()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
+- **.test_i18n_fallback_language_plural()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- **.test_i18n_language_non_english_default()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
+- *... and 51 more nodes in this community*
 
 ## Relationships
 
-- [Community 316](Community_316.md) (6 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 694](Community_694.md) (2 shared connections)
+- [Community 23](Community_23.md) (15 shared connections)
+- [Community 37](Community_37.md) (10 shared connections)
+- [Community 2](Community_2.md) (10 shared connections)
+- [Community 27](Community_27.md) (4 shared connections)
+- [Community 21](Community_21.md) (3 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 15](Community_15.md) (2 shared connections)
+- [Community 451](Community_451.md) (2 shared connections)
+- [Community 8](Community_8.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 130](Community_130.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/scripts/pr_quality/check_pr.py`
-- `raw/code/hyd-evaluation/django-django/scripts/pr_quality/errors.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_i18n.py`
 
 ## Audit Trail
 
-- EXTRACTED: 73 (95%)
-- INFERRED: 4 (5%)
+- EXTRACTED: 170 (95%)
+- INFERRED: 9 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

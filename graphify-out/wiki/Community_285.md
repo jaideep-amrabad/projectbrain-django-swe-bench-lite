@@ -4,57 +4,57 @@
 
 ## Key Concepts
 
-- **JSONObject** (21 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/json.py`
-- **JSONArray** (19 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/json.py`
-- **JSONArrayTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
-- **JSONObjectTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_object.py`
-- **JSONArrayObjectTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
-- **.as_sql()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/json.py`
-- **.test_expressions()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
-- **.test_expressions()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_object.py`
-- **.as_native()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/json.py`
-- **.as_postgresql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/json.py`
-- **.test_order_by_nested_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
-- **.test_basic()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
-- **.test_explicit_cast()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
-- **.as_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/json.py`
-- **.test_nested_json_array_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
-- **.test_nested_json_object_array()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
-- **.test_nested_empty_json_array()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
-- **.test_nested_json_array()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
-- **.test_order_by_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
-- **.test_order_by_nested_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
-- **.test_textfield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
-- **.test_order_by_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_object.py`
-- **.test_order_by_nested_key()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_object.py`
-- **.test_textfield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_object.py`
-- **.as_native()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/json.py`
+- **auth_tests/test_mixins.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **auth/mixins.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
+- **PermissionRequiredMixin** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
+- **AccessMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
+- **.handle_no_permission()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
+- **UserPassesTestMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
+- **LoginRequiredMixin** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
+- **EmptyResponseView** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **.dispatch()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
+- **LoginRequiredMixinTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **.get_login_url()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
+- **.dispatch()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
+- **.get_permission_required()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
+- **.has_permission()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
+- **AlwaysFalseMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **AlwaysTrueMixin** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **StackedMixinsView1** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **StackedMixinsView2** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **.get_permission_denied_message()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
+- **.get_redirect_field_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
+- **.dispatch()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
+- **.get_test_func()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
+- **AlwaysFalseView** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **AlwaysTrueView** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
+- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
 - *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [Community 25](Community_25.md) (12 shared connections)
-- [Community 65](Community_65.md) (5 shared connections)
-- [Community 32](Community_32.md) (5 shared connections)
-- [Community 2](Community_2.md) (4 shared connections)
-- [Community 19](Community_19.md) (3 shared connections)
-- [Community 168](Community_168.md) (3 shared connections)
-- [Community 53](Community_53.md) (2 shared connections)
-- [Community 115](Community_115.md) (2 shared connections)
-- [Community 559](Community_559.md) (2 shared connections)
-- [Community 212](Community_212.md) (2 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 4](Community_4.md) (4 shared connections)
+- [Community 151](Community_151.md) (3 shared connections)
+- [Community 85](Community_85.md) (3 shared connections)
+- [Community 47](Community_47.md) (2 shared connections)
+- [Community 76](Community_76.md) (2 shared connections)
+- [Community 246](Community_246.md) (2 shared connections)
+- [Community 982](Community_982.md) (2 shared connections)
+- [Community 37](Community_37.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 171](Community_171.md) (2 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/functions/json.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_array.py`
-- `raw/code/hyd-evaluation/django-django/tests/db_functions/json/test_json_object.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/mixins.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_mixins.py`
 
 ## Audit Trail
 
-- EXTRACTED: 78 (75%)
-- INFERRED: 26 (25%)
+- EXTRACTED: 98 (98%)
+- INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

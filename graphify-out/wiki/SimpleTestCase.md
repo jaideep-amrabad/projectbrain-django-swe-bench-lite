@@ -1,8 +1,8 @@
 # SimpleTestCase
 
-> God node · 1372 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+> God node · 1386 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
-**Community:** [Community 0](Community_0.md)
+**Community:** [Community 2](Community_2.md)
 
 ## Connections by Relation
 
@@ -16,18 +16,18 @@
 - model_forms/tests.py `EXTRACTED`
 - i18n/tests.py `EXTRACTED`
 - cache/tests.py `EXTRACTED`
-- expressions/tests.py `EXTRACTED`
 - test_utils/tests.py `EXTRACTED`
-- admin_widgets/tests.py `EXTRACTED`
-- admin_scripts/tests.py `EXTRACTED`
+- expressions/tests.py `EXTRACTED`
 - test_auth_backends.py `EXTRACTED`
+- tests/test_debug.py `EXTRACTED`
+- admin_widgets/tests.py `EXTRACTED`
 - urlpatterns_reverse/tests.py `EXTRACTED`
+- admin_scripts/tests.py `EXTRACTED`
 - test_client_regress/tests.py `EXTRACTED`
-- model_fields/test_jsonfield.py `EXTRACTED`
 - modeladmin/test_checks.py `EXTRACTED`
 - auth_tests/test_forms.py `EXTRACTED`
-- tests/test_debug.py `EXTRACTED`
 - timezones/tests.py `EXTRACTED`
+- model_fields/test_jsonfield.py `EXTRACTED`
 - multiple_database/tests.py `EXTRACTED`
 - decorators/tests.py `EXTRACTED`
 
@@ -36,28 +36,28 @@
 - IfTagTests `EXTRACTED`
 - FormsTestCase `EXTRACTED`
 - GEOSTest `EXTRACTED`
+- SystemChecksTestCase `EXTRACTED`
 - WidgetTest `EXTRACTED`
 - RequestsTests `EXTRACTED`
-- SystemChecksTestCase `EXTRACTED`
 - FormsFormsetTestCase `EXTRACTED`
-- AdminScriptTestCase `EXTRACTED`
-- UrlTagTests `EXTRACTED`
-- MailTests `EXTRACTED`
 - WriterTests `EXTRACTED`
+- AdminScriptTestCase `EXTRACTED`
+- MailTests `EXTRACTED`
+- UrlTagTests `EXTRACTED`
 - InheritanceTests `EXTRACTED`
 - OGRGeomTest `EXTRACTED`
 - OptimizerTests `EXTRACTED`
 - TaskTestCase `EXTRACTED`
 - BasicSyntaxTests `EXTRACTED`
+- PostgreSQLSimpleTestCase `EXTRACTED`
 - RequestsTests `EXTRACTED`
-- I18nBlockTransTagTests `EXTRACTED`
 - IfEqualTagTests `EXTRACTED`
 
 ### method
 - .settings() `EXTRACTED`
+- ._setup_and_call() `EXTRACTED`
 - .assertRedirects() `EXTRACTED`
 - .setUpClass() `EXTRACTED`
-- .__call__() `EXTRACTED`
 - ._validate_databases() `EXTRACTED`
 - ._add_databases_failures() `EXTRACTED`
 - .modify_settings() `EXTRACTED`
@@ -67,13 +67,13 @@
 - ._assertFooMessage() `EXTRACTED`
 - ._remove_databases_failures() `EXTRACTED`
 - .tearDownClass() `EXTRACTED`
+- .__call__() `EXTRACTED`
+- .debug() `EXTRACTED`
 - .assertURLEqual() `EXTRACTED`
 - .assertContains() `EXTRACTED`
 - .assertNotContains() `EXTRACTED`
 - .assertFormError() `EXTRACTED`
 - .assertFormsetError() `EXTRACTED`
-- ._assert_template_used() `EXTRACTED`
-- .assertRaisesMessage() `EXTRACTED`
 
 ---
 

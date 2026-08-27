@@ -1,43 +1,38 @@
 # Community 718
 
-> 14 nodes · cohesion 0.23
+> 14 nodes · cohesion 0.14
 
 ## Key Concepts
 
-- **autodiscover_modules()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
-- **AutodiscoverModulesTestCase** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **autodiscover()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/__init__.py`
-- **.test_autodiscover_modules_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_autodiscover_modules_found_but_bad_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_autodiscover_modules_not_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_autodiscover_modules_several_found()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_autodiscover_modules_several_found_with_registry()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_autodiscover_modules_several_one_bad_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_validate_registry_keeps_intact()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_validate_registry_resets_after_erroneous_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **.test_validate_registry_resets_after_missing_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
-- **Auto-discover INSTALLED_APPS modules and fail silently when not present. This…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- **CSPMiddlewareWithDecoratedViewsTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
+- **.test_csp_disabled_both()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
+- **.test_csp_disabled_enforced()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
+- **.test_csp_override_both_decorator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
+- **.test_csp_override_enforced()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
+- **.test_csp_report_only_disabled()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
+- **.test_csp_report_only_override()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
+- **.test_no_decorators()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
+- **`csp_override({})` only disables the enforced CSP header.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
+- **`csp_report_only_override({})` only disables the report-only header.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
+- **Using both CSP decorators with empty mappings will clear both headers.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
+- **`csp_override` only overrides the enforced header.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
+- **`csp_report_only_override` only overrides the report-only header.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
+- **Using both CSP decorators overrides both CSP Django settings.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 423](Community_423.md) (1 shared connections)
-- [Community 122](Community_122.md) (1 shared connections)
-- [Community 164](Community_164.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 625](Community_625.md) (2 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module_loading.py`
+- `raw/code/hyd-evaluation/django-django/tests/middleware/test_csp.py`
 
 ## Audit Trail
 
-- EXTRACTED: 30 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 16 (94%)
+- INFERRED: 1 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

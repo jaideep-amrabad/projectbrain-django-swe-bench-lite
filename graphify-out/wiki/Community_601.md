@@ -1,35 +1,36 @@
 # Community 601
 
-> 18 nodes · cohesion 0.12
+> 18 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **psycopg_any.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
-- **BaseTzLoader** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
-- **DjangoRangeDumper** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
-- **Jsonb** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
-- **get_adapters_template()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
-- **IsolationLevel** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
-- **register_tzloader()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
-- **RangeDumper** (1 connections)
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
-- **.load()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
-- **.upgrade()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
-- **.getquoted()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
-- **mogrify()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
-- **IntEnum** (1 connections)
-- **Json** (1 connections)
-- **_quote()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
-- **Load a PostgreSQL timestamptz using a specific timezone. The timezone can be…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
-- **A Range dumper customized for Django.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
+- **FieldFlagsTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.setUpClass()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_all_field_types_should_have_flags()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_cardinality_m2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_cardinality_m2o()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_cardinality_o2m()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_cardinality_o2o()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_each_field_should_have_a_concrete_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_each_field_should_have_a_has_rel_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_each_field_should_have_an_editable_attribute()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_each_object_should_have_auto_created()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_field_names_should_always_be_available()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_hidden_flag()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_model_and_reverse_model_should_equal_on_relations()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_non_concrete_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_non_editable_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_null()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
+- **.test_related_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 79](Community_79.md) (1 shared connections)
+- [Community 914](Community_914.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/psycopg_any.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_field_flags.py`
 
 ## Audit Trail
 

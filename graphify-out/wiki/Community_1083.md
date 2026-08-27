@@ -4,26 +4,23 @@
 
 ## Key Concepts
 
-- **replace()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/copy.py`
-- **.using()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
-- **Create a new Task with modified defaults.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
-- **Return a new object replacing specified fields with new values. This is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/copy.py`
+- **MissingDjangoVersionQuerySet** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **.__getstate__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **PreviousDjangoVersionQuerySet** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
+- **.__getstate__()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
 
 ## Relationships
 
-- [Community 445](Community_445.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 77](Community_77.md) (1 shared connections)
+- [Community 697](Community_697.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/copy.py`
+- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 4 (67%)
-- INFERRED: 2 (33%)
+- EXTRACTED: 5 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

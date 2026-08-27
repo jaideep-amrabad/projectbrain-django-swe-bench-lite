@@ -1,61 +1,70 @@
 # Community 81
 
-> 82 nodes · cohesion 0.03
+> 81 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **constant_time_compare()** (26 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- **BasePasswordHasher** (20 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **BasePasswordHasherTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- **BCryptSHA256PasswordHasher** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.encode()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **mask_hash()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Argon2PasswordHasher** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **._load_library()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **MD5PasswordHasher** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **CryptPasswordHasher** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **UnsaltedMD5PasswordHasher** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **UnsaltedSHA1PasswordHasher** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **SHA1PasswordHasher** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **._decode()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.must_update()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.safe_summary()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.salt()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **BCryptPasswordHasher** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.verify()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.verify()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.verify()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.verify()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.verify()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.verify()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.verify()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- *... and 57 more nodes in this community*
+- **crypto.py** (23 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
+- **get_random_string()** (23 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
+- **test_tasks.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
+- **tasks/base.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
+- **salted_hmac()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
+- **immediate.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/backends/immediate.py`
+- **oracle/creation.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **tasks/backends/dummy.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/backends/dummy.py`
+- **TaskResult** (11 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
+- **tasks/backends/base.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/backends/base.py`
+- **DummyBackend** (10 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/backends/dummy.py`
+- **normalize_json()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/json.py`
+- **enums.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **ImmediateBackend** (9 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/backends/immediate.py`
+- **pbkdf2()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
+- **test_crypto.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
+- **tasks/exceptions.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/exceptions.py`
+- **TaskResultDoesNotExist** (8 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/exceptions.py`
+- **TaskResultMismatch** (8 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/exceptions.py`
+- **utils_tests/test_json.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_json.py`
+- **TextChoices** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- **._execute_task()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/backends/immediate.py`
+- **TaskResultStatus** (6 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
+- **TaskException** (6 connections) — `raw/code/hyd-evaluation/django-django/django/tasks/exceptions.py`
+- **InvalidAlgorithm** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
+- *... and 56 more nodes in this community*
 
 ## Relationships
 
-- [Community 186](Community_186.md) (17 shared connections)
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 6](Community_6.md) (4 shared connections)
-- [Community 96](Community_96.md) (2 shared connections)
-- [Community 242](Community_242.md) (2 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 850](Community_850.md) (2 shared connections)
-- [Community 216](Community_216.md) (1 shared connections)
-- [Community 243](Community_243.md) (1 shared connections)
-- [Community 483](Community_483.md) (1 shared connections)
-- [Community 135](Community_135.md) (1 shared connections)
-- [Community 519](Community_519.md) (1 shared connections)
+- [Community 37](Community_37.md) (9 shared connections)
+- [Community 34](Community_34.md) (8 shared connections)
+- [Community 246](Community_246.md) (8 shared connections)
+- [Community 2](Community_2.md) (8 shared connections)
+- [Community 87](Community_87.md) (6 shared connections)
+- [Community 572](Community_572.md) (6 shared connections)
+- [Community 85](Community_85.md) (6 shared connections)
+- [Community 144](Community_144.md) (5 shared connections)
+- [Community 571](Community_571.md) (5 shared connections)
+- [Community 38](Community_38.md) (5 shared connections)
+- [Community 107](Community_107.md) (5 shared connections)
+- [Community 1](Community_1.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
+- `raw/code/hyd-evaluation/django-django/django/tasks/backends/base.py`
+- `raw/code/hyd-evaluation/django-django/django/tasks/backends/dummy.py`
+- `raw/code/hyd-evaluation/django-django/django/tasks/backends/immediate.py`
+- `raw/code/hyd-evaluation/django-django/django/tasks/base.py`
+- `raw/code/hyd-evaluation/django-django/django/tasks/exceptions.py`
 - `raw/code/hyd-evaluation/django-django/django/utils/crypto.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/json.py`
+- `raw/code/hyd-evaluation/django-django/tests/tasks/test_tasks.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_crypto.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_json.py`
 
 ## Audit Trail
 
-- EXTRACTED: 147 (99%)
-- INFERRED: 2 (1%)
+- EXTRACTED: 251 (97%)
+- INFERRED: 7 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

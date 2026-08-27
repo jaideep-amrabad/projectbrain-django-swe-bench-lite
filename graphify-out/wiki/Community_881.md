@@ -1,31 +1,31 @@
 # Community 881
 
-> 10 nodes · cohesion 0.36
+> 9 nodes · cohesion 0.28
 
 ## Key Concepts
 
-- **FilterTagTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
-- **setup** (8 connections)
-- **.test_filter01()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
-- **.test_filter02()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
-- **.test_filter03()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
-- **.test_filter04()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
-- **.test_filter05()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
-- **.test_filter05bis()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
-- **.test_filter06()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
-- **.test_filter06bis()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
+- **CustomStorage** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
+- **StorageValidateFileNameTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
+- **.test_validate_after_get_available_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
+- **.test_validate_after_internal_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
+- **.test_validate_before_get_available_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
+- **.exists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
+- **._save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
+- **Storage** (1 connections)
+- **Simple Storage subclass implementing the bare minimum for testing.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
 
 ## Relationships
 
 - [Community 0](Community_0.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_filter_tag.py`
+- `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 13 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

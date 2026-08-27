@@ -1,56 +1,45 @@
 # Community 549
 
-> 29 nodes · cohesion 0.15
+> 20 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **FallbackTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **set_cookie_data()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **SessionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
-- **.get_session_storage()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **set_session_data()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
-- **.stored_session_messages_count()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_flush_used_backends()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.get_cookie_storage()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.get_request()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.stored_cookie_messages_count()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_get_fallback()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_get_fallback_only()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_get()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_no_fallback()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_safedata()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
-- **.stored_messages_count()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_session_fallback()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_session_fallback_only()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_get_empty()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **.test_get()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
-- **.get_request()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
-- **.stored_messages_count()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
-- **Set ``request.COOKIES`` with the encoded data and remove the storage backend's…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- **(1) A short number of messages whose data size doesn't exceed what is allowed…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- **If the data exceeds what is allowed in a cookie, messages which did not fit are…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- *... and 4 more nodes in this community*
+- **CompositePKChecksTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **.test_composite_pk_can_include_fk_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **.test_composite_pk_cannot_be_editable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **.test_composite_pk_cannot_have_a_database_default()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **.test_composite_pk_cannot_have_a_db_column()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **.test_composite_pk_cannot_have_a_default()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **.test_composite_pk_cannot_include_composite_pk_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **.test_composite_pk_cannot_include_db_column()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **.test_composite_pk_cannot_include_non_local_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **.test_composite_pk_cannot_include_nullable_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **.test_composite_pk_cannot_include_same_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **.test_composite_pk_must_be_a_primary_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **.test_composite_pk_must_be_blank()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **.test_composite_pk_must_be_named_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **.test_composite_pk_must_be_unique_strings()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **.test_composite_pk_must_include_at_least_2_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **.test_composite_pk_must_not_have_other_pk_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **.test_foreign_object_can_refer_composite_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **.test_proxy_model_can_subclass_model_with_composite_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
+- **.test_proxy_model_does_not_check_superclass_composite_pk_errors()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
 
 ## Relationships
 
-- [Community 38](Community_38.md) (7 shared connections)
-- [Community 242](Community_242.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 425](Community_425.md) (2 shared connections)
-- [Community 255](Community_255.md) (2 shared connections)
-- [Community 168](Community_168.md) (1 shared connections)
-- [Community 515](Community_515.md) (1 shared connections)
+- [Community 95](Community_95.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_cookie.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_fallback.py`
-- `raw/code/hyd-evaluation/django-django/tests/messages_tests/test_session.py`
+- `raw/code/hyd-evaluation/django-django/tests/composite_pk/test_checks.py`
 
 ## Audit Trail
 
-- EXTRACTED: 76 (95%)
-- INFERRED: 4 (5%)
+- EXTRACTED: 23 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

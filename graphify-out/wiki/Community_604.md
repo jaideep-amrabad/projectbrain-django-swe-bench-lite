@@ -1,47 +1,46 @@
 # Community 604
 
-> 18 nodes · cohesion 0.14
+> 18 nodes · cohesion 0.20
 
 ## Key Concepts
 
-- **MemoryFileUploadHandler** (16 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **MemoryFileUploadHandlerTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/tests.py`
-- **.new_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **.new_file()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **CustomFileUploadHandler** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/tests.py`
-- **ErrorFileUploadHandler** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/tests.py`
-- **.test_handle_raw_input_seekable_exceeds_limit_deactivated()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/tests.py`
-- **.test_handle_raw_input_seekable_within_limit_activated()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/tests.py`
-- **.test_handle_raw_input_wsgi_request_exceeds_limit_deactivated()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/tests.py`
-- **.test_handle_raw_input_wsgi_request_within_limit_activated()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/tests.py`
-- **.handle_raw_input()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **.receive_data_chunk()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **Create the file object to append to as data is coming in.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **File upload handler to stream uploads into memory (used for small files).** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **Use the content_length to signal whether or not this handler should be used.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **Add the data to the BytesIO file.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- **.handle_raw_input()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/tests.py`
-- **.handle_raw_input()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/requests_tests/tests.py`
+- **test_tablespaces.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **TablespacesTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **tablespaces.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
+- **sql_for_table()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.test_tablespace_for_many_to_many_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.assertNumContains()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.test_tablespace_for_indexed_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.test_tablespace_for_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **Article** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
+- **Scientist** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
+- **.test_tablespace_ignored_for_indexed_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.test_tablespace_ignored_for_model()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **ArticleRef** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
+- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
+- **ScientistRef** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
+- **sql_for_index()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
+- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (6 shared connections)
-- [Community 248](Community_248.md) (3 shared connections)
-- [Community 271](Community_271.md) (3 shared connections)
-- [Community 76](Community_76.md) (3 shared connections)
-- [Community 167](Community_167.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 414](Community_414.md) (1 shared connections)
+- [Community 29](Community_29.md) (7 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 34](Community_34.md) (2 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
-- `raw/code/hyd-evaluation/django-django/tests/requests_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_options/models/tablespaces.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_options/test_tablespaces.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (82%)
-- INFERRED: 7 (18%)
+- EXTRACTED: 46 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,75 +1,62 @@
 # Community 62
 
-> 149 nodes · cohesion 0.02
+> 165 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **core/mail/__init__.py** (42 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
-- **mail/tests.py** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **test_backends.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
-- **BaseEmailBackendTests** (29 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **test_deprecated.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- **BaseEmailBackend** (25 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- **EmailMultiAlternatives** (21 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **message.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **send_mail()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
-- **.get_the_message()** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **get_connection()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
-- **mail_managers()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
-- **smtp.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- **test_handler.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_handler.py`
-- **mail_admins()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
-- **forbid_multi_line_headers()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **sanitize_address()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **mail/backends/base.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- **mail/backends/locmem.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/locmem.py`
-- **SafeMIMEText** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **sendtestemail.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/sendtestemail.py`
-- **LocmemBackendTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **BadHeaderError** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **SafeMIMEMultipart** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- **console.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
-- *... and 124 more nodes in this community*
+- **ModelAdmin** (151 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **BaseModelAdmin** (35 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.changeform_view()** (32 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **InlineModelAdmin** (24 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.changelist_view()** (24 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **unquote()** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **.get_formset()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.delete_view()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.response_add()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **add_preserved_filters()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_urls.py`
+- **.get_form()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.has_change_permission()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_changelist_instance()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_preserved_filters()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.response_change()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.render_change_form()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.history_view()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.response_delete()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **get_content_type_for_model()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.get_actions()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **._get_obj_does_not_exist_redirect()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.has_view_or_change_permission()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.has_add_permission()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.message_user()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **.response_action()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- *... and 140 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (41 shared connections)
-- [Community 46](Community_46.md) (36 shared connections)
-- [Community 12](Community_12.md) (15 shared connections)
-- [Community 0](Community_0.md) (11 shared connections)
-- [Community 6](Community_6.md) (7 shared connections)
-- [Community 49](Community_49.md) (7 shared connections)
-- [Community 645](Community_645.md) (6 shared connections)
-- [Community 14](Community_14.md) (4 shared connections)
-- [Community 264](Community_264.md) (3 shared connections)
-- [Community 146](Community_146.md) (3 shared connections)
-- [Community 811](Community_811.md) (3 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
+- [Community 39](Community_39.md) (31 shared connections)
+- [Community 8](Community_8.md) (26 shared connections)
+- [Community 70](Community_70.md) (18 shared connections)
+- [Community 25](Community_25.md) (7 shared connections)
+- [Community 429](Community_429.md) (7 shared connections)
+- [Community 300](Community_300.md) (7 shared connections)
+- [Community 13](Community_13.md) (7 shared connections)
+- [Community 27](Community_27.md) (7 shared connections)
+- [Community 284](Community_284.md) (6 shared connections)
+- [Community 753](Community_753.md) (5 shared connections)
+- [Community 451](Community_451.md) (5 shared connections)
+- [Community 352](Community_352.md) (4 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/base.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/console.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/dummy.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/locmem.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/backends/smtp.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- `raw/code/hyd-evaluation/django-django/django/core/mail/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/sendtestemail.py`
-- `raw/code/hyd-evaluation/django-django/tests/mail/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/mail/custombackend.py`
-- `raw/code/hyd-evaluation/django-django/tests/mail/test_backends.py`
-- `raw/code/hyd-evaluation/django-django/tests/mail/test_deprecated.py`
-- `raw/code/hyd-evaluation/django-django/tests/mail/test_handler.py`
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_urls.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 431 (99%)
-- INFERRED: 3 (1%)
+- EXTRACTED: 451 (88%)
+- INFERRED: 60 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

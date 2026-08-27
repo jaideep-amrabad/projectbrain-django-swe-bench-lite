@@ -1,51 +1,48 @@
 # Community 473
 
-> 26 nodes · cohesion 0.10
+> 24 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **ForwardManyToOneDescriptor** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **ReverseOneToOneDescriptor** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **ForwardOneToOneDescriptor** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.get_queryset()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.__get__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.__get__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.RelatedObjectDoesNotExist()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.get_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.get_prefetch_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.__reduce__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.__set__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.get_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **Get the related instance through the forward relation. With the example above,…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **Get the related instance through the reverse relation. With the example above,…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **Accessor to the related object on the forward side of a many-to-one or one-to-…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.get_prefetch_queryset()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.__set__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.get_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.is_cached()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.RelatedObjectDoesNotExist()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **Pickling should return the instance attached by self.field on the model, not a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **Accessor to the related object on the reverse side of a one-to-one relation. In…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- **.is_cached()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
-- *... and 1 more nodes in this community*
+- **process_commit_message()** (22 connections) — `raw/code/hyd-evaluation/django-django/scripts/prepare_commit_msg.py`
+- **ProcessCommitMessageTests** (20 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **prepare_commit_msg.py** (4 connections) — `raw/code/hyd-evaluation/django-django/scripts/prepare_commit_msg.py`
+- **.test_adds_backport_note()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_adds_stable_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_adds_trailing_period()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_backport_note_separated_by_blank_line()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_capitalizes_first_letter()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_capitalizes_first_letter_after_existing_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_does_not_double_add_backport_note()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_does_not_double_add_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_does_not_double_add_trailing_period()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_empty_body_unchanged()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_git_comments_preserved_at_end()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_leading_blank_lines_stripped()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_no_cherry_sha_no_backport_note()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_non_stable_branch_no_prefix_added()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_non_stable_branch_period_added()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_non_stable_branch_with_period_unchanged()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_only_blank_lines_unchanged()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_prefix_and_period_and_backport_combined()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **.test_summary_leading_whitespace_no_double_space_before_prefix()** (2 connections) — `raw/code/hyd-evaluation/django-django/scripts/tests.py`
+- **Adjust commit message lines for a potential backport. - Separates body lines…** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/prepare_commit_msg.py`
+- **run()** (1 connections) — `raw/code/hyd-evaluation/django-django/scripts/prepare_commit_msg.py`
 
 ## Relationships
 
-- [Community 29](Community_29.md) (9 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 108](Community_108.md) (1 shared connections)
-- [Community 106](Community_106.md) (1 shared connections)
+- [Community 442](Community_442.md) (3 shared connections)
+- [Community 37](Community_37.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/related_descriptors.py`
+- `raw/code/hyd-evaluation/django-django/scripts/prepare_commit_msg.py`
+- `raw/code/hyd-evaluation/django-django/scripts/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 42 (89%)
-- INFERRED: 5 (11%)
+- EXTRACTED: 45 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

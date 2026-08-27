@@ -1,61 +1,52 @@
 # Community 283
 
-> 27 nodes · cohesion 0.14
+> 39 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **postgres/lookups.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
-- **postgres/apps.py** (19 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
-- **PostgresSimpleLookup** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
-- **uninstall_if_needed()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
-- **PostgresConfig** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
-- **SearchLookup** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
-- **SearchVectorField** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **SearchVectorExact** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **TrigramSimilar** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
-- **Unaccent** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
-- **.ready()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
-- **HasKeys** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
-- **JSONExact** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
-- **.as_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
-- **.process_lhs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
-- **.process_rhs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **ContainedBy** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
-- **DataContains** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
-- **HasAnyKeys** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
-- **HasKey** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
-- **.process_rhs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
-- **Overlap** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
-- **.as_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **Undo the effects of PostgresConfig.ready() when django.contrib.postgres is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
-- **.get_prep_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
-- *... and 2 more nodes in this community*
+- **DeprecatePosargsTests** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **deprecate_posargs** (24 connections)
+- **.assertDeprecated()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_applied_to_lambda()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_class_methods()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_all_keyword_only_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_allows_reordering_keyword_only_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_async()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_bare_init()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_some_keyword_only_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_decorator_rejects_var_positional_param_with_deferred_annotation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_decorator_requires_remappable_names_be_keyword_only()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_decorator_requires_remappable_names_exist()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_detects_duplicate_arguments()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_incorrect_classmethod_order()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_incorrect_staticmethod_order()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_positional_only_params()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_variable_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_warning_source_location()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_avoids_remapping_to_new_keyword_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_decorator_does_not_apply_to_class()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_decorator_preserves_signature_and_metadata()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_decorator_rejects_var_positional_param()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_decorator_requires_keyword_only_params()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- **.test_detects_extra_positional_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [Community 104](Community_104.md) (7 shared connections)
-- [Community 1141](Community_1141.md) (5 shared connections)
-- [Community 72](Community_72.md) (5 shared connections)
-- [Community 263](Community_263.md) (4 shared connections)
-- [Community 226](Community_226.md) (3 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 284](Community_284.md) (3 shared connections)
-- [Community 182](Community_182.md) (2 shared connections)
-- [Community 82](Community_82.md) (2 shared connections)
-- [Community 630](Community_630.md) (2 shared connections)
-- [Community 147](Community_147.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
+- [Community 985](Community_985.md) (2 shared connections)
+- [Community 704](Community_704.md) (1 shared connections)
+- [Community 144](Community_144.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 672](Community_672.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/apps.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_deprecate_posargs.py`
 
 ## Audit Trail
 
-- EXTRACTED: 79 (85%)
-- INFERRED: 14 (15%)
+- EXTRACTED: 50 (66%)
+- INFERRED: 26 (34%)
 - AMBIGUOUS: 0 (0%)
 
 ---

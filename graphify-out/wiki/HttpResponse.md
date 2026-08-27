@@ -1,16 +1,16 @@
 # HttpResponse
 
-> God node · 335 connections · `raw/code/hyd-evaluation/django-django/django/http/response.py`
+> God node · 331 connections · `raw/code/hyd-evaluation/django-django/django/http/response.py`
 
-**Community:** [Community 33](Community_33.md)
+**Community:** [Community 13](Community_13.md)
 
 ## Connections by Relation
 
 ### calls
 - render() `EXTRACTED`
 - post_form_view() `EXTRACTED`
-- token_view() `EXTRACTED`
 - technical_500_response() `EXTRACTED`
+- token_view() `EXTRACTED`
 - empty_view() `EXTRACTED`
 - set_language() `EXTRACTED`
 - ensure_csrf_cookie_view() `EXTRACTED`
@@ -19,14 +19,14 @@
 - render_to_kmz() `EXTRACTED`
 - .my_view() `EXTRACTED`
 - trace_view() `EXTRACTED`
+- default_urlconf() `EXTRACTED`
 - non_token_view_using_request_processor() `EXTRACTED`
 - get_view() `EXTRACTED`
-- post_view() `EXTRACTED`
 - render_to_kml() `EXTRACTED`
 - .__call__() `EXTRACTED`
-- default_urlconf() `EXTRACTED`
 - directory_index() `EXTRACTED`
 - remote_user_auth_view() `EXTRACTED`
+- hello_world_view() `EXTRACTED`
 
 ### contains
 - http/response.py `EXTRACTED`
@@ -49,8 +49,8 @@
 - sites_tests/tests.py `EXTRACTED`
 - urlpatterns_reverse/views.py `EXTRACTED`
 - django/shortcuts.py `EXTRACTED`
+- views/i18n.py `EXTRACTED`
 - generic_views/test_base.py `EXTRACTED`
-- asgi/tests.py `EXTRACTED`
 - httpwrappers/tests.py `EXTRACTED`
 
 ### inherits

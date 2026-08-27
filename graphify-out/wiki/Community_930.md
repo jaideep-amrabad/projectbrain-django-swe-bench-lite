@@ -1,31 +1,30 @@
 # Community 930
 
-> 8 nodes · cohesion 0.25
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **ContentNotRenderedError** (6 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- **.content()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- **.__getstate__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- **Exception** (1 connections)
-- **setter** (1 connections)
-- **Set the content for the response.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
-- **Raise an exception if trying to pickle an unrendered response. Pickle only…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- **CustomBackendTestCase** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_custom_backend.py`
+- **.test_enqueue_async_task_on_non_async_backend()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_custom_backend.py`
+- **multiple** (1 connections)
+- **.test_backend_does_not_support_priority()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_custom_backend.py`
+- **.test_no_enqueue()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_custom_backend.py`
+- **.test_options()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_custom_backend.py`
+- **.test_using_correct_backend()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/tasks/test_custom_backend.py`
 
 ## Relationships
 
-- [Community 542](Community_542.md) (3 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
+- [Community 6](Community_6.md) (1 shared connections)
+- [Community 571](Community_571.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/response.py`
+- `raw/code/hyd-evaluation/django-django/tests/tasks/test_custom_backend.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

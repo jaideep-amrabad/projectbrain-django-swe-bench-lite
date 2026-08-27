@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **main_module.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/main_module.py`
+- **xor_lookups/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/xor_lookups/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/main_module.py`
+- `raw/code/hyd-evaluation/django-django/tests/xor_lookups/__init__.py`
 
 ## Audit Trail
 

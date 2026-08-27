@@ -1,31 +1,28 @@
 # Community 903
 
-> 9 nodes · cohesion 0.28
+> 6 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **CustomStorage** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
-- **StorageValidateFileNameTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
-- **.test_validate_after_get_available_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
-- **.test_validate_after_internal_save()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
-- **.test_validate_before_get_available_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
-- **.exists()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
-- **._save()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
-- **Storage** (1 connections)
-- **Simple Storage subclass implementing the bare minimum for testing.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
+- **RelatedPopulator** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **get_related_populators()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **RelatedPopulator is used for select_related() object instantiation. The idea is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
+- **.populate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Relationships
 
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 246](Community_246.md) (2 shared connections)
+- [Community 156](Community_156.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/file_storage/test_base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

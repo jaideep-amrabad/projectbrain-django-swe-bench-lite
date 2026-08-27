@@ -1,51 +1,50 @@
 # Community 410
 
-> 29 nodes · cohesion 0.09
+> 34 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **PermLookupDict** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **PermWrapper** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **PermWrapperTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- **MockUser** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- **auth/context_processors.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **EQLimiterObject** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- **.test_permlookupdict_in()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- **auth()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **.test_permwrapper_in()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- **.test_iter()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- **.__contains__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **Lookup by "someapp" or "someapp.someperm" in perms.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **Return context variables required by apps that use Django's authentication…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- **.has_module_perms()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- **.has_perm()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
-- *... and 4 more nodes in this community*
+- **CompositePKTests** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.get_primary_key_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_get_primary_key_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_hash()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_in_bulk()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_in_bulk_batching()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_iterator()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_pk_not_set_db_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_totally_ordered()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_composite_pk_in_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_error_on_comment_pk_conflict()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_error_on_user_pk_conflict()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_in_bulk_values()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_in_bulk_values_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_in_bulk_values_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_in_bulk_values_list()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_in_bulk_values_list_fields_are_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_in_bulk_values_list_flat()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_in_bulk_values_list_flat_pk()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_in_bulk_values_list_flat_tenant()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_in_bulk_values_list_multiple_fields()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_only()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_pk_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- **.test_pk_must_be_list_or_tuple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 6](Community_6.md) (5 shared connections)
-- [Community 187](Community_187.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
+- [Community 66](Community_66.md) (4 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
+- [Community 398](Community_398.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/context_processors.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_context_processors.py`
+- `raw/code/hyd-evaluation/django-django/tests/composite_pk/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 43 (96%)
-- INFERRED: 2 (4%)
+- EXTRACTED: 40 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

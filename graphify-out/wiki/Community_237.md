@@ -1,62 +1,60 @@
 # Community 237
 
-> 47 nodes · cohesion 0.11
+> 58 nodes · cohesion 0.07
 
 ## Key Concepts
 
-- **RequestContext** (42 connections) — `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- **QueryStringTagTests** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_querystring.py`
-- **setup** (28 connections)
-- **.assertRenderEqual()** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_querystring.py`
-- **remote_user_auth_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
-- **RequestContextTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
-- **.test_querystring_empty_params()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_querystring.py`
-- **.test_querystring_remove_querydict()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_querystring.py`
-- **.test_querystring_remove_querydict_many()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_querystring.py`
-- **.assertTemplateSyntaxError()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_querystring.py`
-- **.test_querystring_add()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_querystring.py`
-- **.test_querystring_add_dict()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_querystring.py`
-- **.test_querystring_add_list()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_querystring.py`
-- **.test_querystring_empty_get_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_querystring.py`
-- **.test_querystring_lists_with_replacement()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_querystring.py`
-- **.test_querystring_multiple()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_querystring.py`
-- **.test_querystring_multiple_args_override()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_querystring.py`
-- **.test_querystring_multiple_lists()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_querystring.py`
-- **.test_querystring_non_empty_get_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_querystring.py`
-- **.test_querystring_non_mapping_args()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_querystring.py`
-- **.test_querystring_remove()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_querystring.py`
-- **.test_querystring_remove_all_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_querystring.py`
-- **.test_querystring_remove_all_params_custom_querydict()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_querystring.py`
-- **.test_querystring_remove_from_dict()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_querystring.py`
-- **.test_querystring_remove_nonexistent()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_querystring.py`
-- *... and 22 more nodes in this community*
+- **WriterTests** (54 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.assertSerializedEqual()** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.serialize()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **.assertSerializedResultEqual()** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.serialize_round_trip()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_class_based_validators()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_datetime()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.safe_exec()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_numbers()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.register_serializer()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- **.test_register_serializer()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_enums()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_functions()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_local_function_reference()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_managers()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_settings()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_uuid()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_simple_migration()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **Money** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.assertSerializedFieldEqual()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_custom_operation()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_models_import_omitted()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_builtin_types()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_choices()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **.test_serialize_compiled_regex()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- *... and 33 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (7 shared connections)
-- [Community 231](Community_231.md) (6 shared connections)
-- [Community 30](Community_30.md) (5 shared connections)
-- [Community 225](Community_225.md) (5 shared connections)
-- [Community 347](Community_347.md) (2 shared connections)
-- [Community 275](Community_275.md) (1 shared connections)
-- [Community 669](Community_669.md) (1 shared connections)
-- [Community 656](Community_656.md) (1 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 126](Community_126.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
+- [Community 365](Community_365.md) (9 shared connections)
+- [Community 75](Community_75.md) (6 shared connections)
+- [Community 385](Community_385.md) (3 shared connections)
+- [Community 10](Community_10.md) (3 shared connections)
+- [Community 69](Community_69.md) (3 shared connections)
+- [Community 561](Community_561.md) (2 shared connections)
+- [Community 95](Community_95.md) (1 shared connections)
+- [Community 64](Community_64.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 236](Community_236.md) (1 shared connections)
+- [Community 87](Community_87.md) (1 shared connections)
+- [Community 372](Community_372.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/context.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/urls.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_querystring.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_context.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/writer.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
 
 ## Audit Trail
 
-- EXTRACTED: 124 (81%)
-- INFERRED: 29 (19%)
+- EXTRACTED: 138 (94%)
+- INFERRED: 9 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---
