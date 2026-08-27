@@ -1,34 +1,39 @@
 # Community 884
 
-> 10 nodes · cohesion 0.29
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **ReservedNameTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
-- **Thing** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/models.py`
-- **.generate()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
-- **.test_dates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
-- **.test_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
-- **.test_month_filter()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
-- **.test_order_by()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
-- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/models.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/models.py`
-- **.test_simple()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
+- **is_naive()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **localtime()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **make_naive()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **localdate()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **Convert an aware datetime.datetime to local time. Only aware datetimes are…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **Convert an aware datetime to local time and return the value's date. Only aware…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **Determine if a given datetime.datetime is naive. The concept is defined in…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **Make an aware datetime.datetime naive in a given time zone.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
 
 ## Relationships
 
-- [Community 9](Community_9.md) (3 shared connections)
-- [Community 32](Community_32.md) (1 shared connections)
+- [Community 150](Community_150.md) (8 shared connections)
+- [Community 4](Community_4.md) (4 shared connections)
+- [Community 320](Community_320.md) (2 shared connections)
+- [Community 89](Community_89.md) (2 shared connections)
+- [Community 635](Community_635.md) (1 shared connections)
+- [Community 47](Community_47.md) (1 shared connections)
+- [Community 42](Community_42.md) (1 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 25](Community_25.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/reserved_names/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/reserved_names/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 29 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

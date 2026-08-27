@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **annotations/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/annotations/__init__.py`
+- **field_subclassing/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/annotations/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/field_subclassing/__init__.py`
 
 ## Audit Trail
 

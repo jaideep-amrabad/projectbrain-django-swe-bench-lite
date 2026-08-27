@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **explicit_default_config_empty_apps/apps.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/apps/explicit_default_config_empty_apps/apps.py`
+- **fixtures/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/apps/explicit_default_config_empty_apps/apps.py`
+- `raw/code/hyd-evaluation/django-django/tests/fixtures/__init__.py`
 
 ## Audit Trail
 

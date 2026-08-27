@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **SelectBox.test.js** (0 connections) — `raw/code/hyd-evaluation/django-django/js_tests/admin/SelectBox.test.js`
+- **csrf_token_error_handler_urls.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/csrf_token_error_handler_urls.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/js_tests/admin/SelectBox.test.js`
+- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/csrf_token_error_handler_urls.py`
 
 ## Audit Trail
 
