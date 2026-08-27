@@ -1,8 +1,8 @@
 # skipUnlessDBFeature()
 
-> God node · 442 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+> God node · 443 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
-**Community:** [Community 32](Community_32.md)
+**Community:** [Community 38](Community_38.md)
 
 ## Connections by Relation
 
@@ -32,9 +32,9 @@
 - delete_regress/tests.py `EXTRACTED`
 - expressions_window/tests.py `EXTRACTED`
 - test_runner/tests.py `EXTRACTED`
+- annotations/tests.py `EXTRACTED`
 - fixtures/tests.py `EXTRACTED`
 - distapp/tests.py `EXTRACTED`
-- test_ordinary_fields.py `EXTRACTED`
 
 ### rationale_for
 - Skip a test unless a database has all the named features. `EXTRACTED`

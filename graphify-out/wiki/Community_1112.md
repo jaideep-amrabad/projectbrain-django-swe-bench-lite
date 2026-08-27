@@ -1,28 +1,28 @@
 # Community 1112
 
-> 6 nodes · cohesion 0.33
+> 4 nodes · cohesion 0.50
 
 ## Key Concepts
 
-- **DeleteCookieTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_cookie.py`
-- **.test_delete_cookie_secure_prefix()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_cookie.py`
-- **.test_default()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_cookie.py`
-- **.test_delete_cookie_samesite()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_cookie.py`
-- **.test_delete_cookie_secure_samesite_none()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_cookie.py`
-- **delete_cookie() sets the secure flag if the cookie name starts with __Host- or…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_cookie.py`
+- **OrdTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_ord.py`
+- **.test_basic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_ord.py`
+- **.test_transform()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_ord.py`
+- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_ord.py`
 
 ## Relationships
 
-- [Community 41](Community_41.md) (4 shared connections)
-- [Community 3](Community_3.md) (2 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 39](Community_39.md) (1 shared connections)
+- [Community 33](Community_33.md) (1 shared connections)
+- [Community 67](Community_67.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/responses/test_cookie.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/text/test_ord.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 9 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

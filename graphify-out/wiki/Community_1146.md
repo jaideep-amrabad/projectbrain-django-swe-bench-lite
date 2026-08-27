@@ -11,7 +11,7 @@
 
 ## Relationships
 
-- [Community 20](Community_20.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 

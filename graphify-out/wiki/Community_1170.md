@@ -4,17 +4,18 @@
 
 ## Key Concepts
 
-- **.test_missing_django_version_unpickling()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **.test_unsupported_unpickle()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **#21430 -- Verifies a warning is raised for querysets that are unpickled without…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **FilePathFieldTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filepathfield.py`
+- **.test_callable_path()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filepathfield.py`
+- **.test_path()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filepathfield.py`
 
 ## Relationships
 
-- [Community 392](Community_392.md) (2 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filepathfield.py`
 
 ## Audit Trail
 

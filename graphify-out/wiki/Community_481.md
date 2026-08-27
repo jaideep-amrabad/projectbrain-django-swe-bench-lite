@@ -1,54 +1,50 @@
 # Community 481
 
-> 22 nodes · cohesion 0.13
+> 22 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **Sitemap** (25 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **GenericSitemap** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **.get_urls()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **._urls()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **._items()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **.test_sitemap_get_urls_no_site_2()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **._get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **.get_domain()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **._languages()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **._location()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **.test_sitemap_get_urls_no_site_1()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.test_sitemap_item()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **.items()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **.get_protocol()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **.paginator()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **.test_generic_sitemap_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
-- **EmptySitemap** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **.lastmod()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- **Check we get ImproperlyConfigured if we don't pass a site object to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **Check we get ImproperlyConfigured when we don't pass a site object to…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- **Check to make sure that the raw item is included with each Sitemap.get_url()…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
+- **File** (26 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **.__iter__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **endswith_cr()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **endswith_lf()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **equals_lf()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **.chunks()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **.close()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **.__exit__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **.multiple_chunks()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **Return True if line (a text or bytestring) ends with '\r'.** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **.__bool__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **.close()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **.__enter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **.open()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **.size()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **Return True if line (a text or bytestring) equals '\n'.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **Read the file and yield chunks of ``chunk_size`` bytes (defaults to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
+- **Return ``True`` if you can expect multiple chunks. NB: If a particular file…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
 
 ## Relationships
 
-- [Community 587](Community_587.md) (7 shared connections)
-- [Community 20](Community_20.md) (5 shared connections)
-- [Community 191](Community_191.md) (3 shared connections)
-- [Community 417](Community_417.md) (2 shared connections)
-- [Community 714](Community_714.md) (2 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
-- [Community 123](Community_123.md) (1 shared connections)
+- [Community 11](Community_11.md) (10 shared connections)
+- [Community 65](Community_65.md) (2 shared connections)
+- [Community 843](Community_843.md) (1 shared connections)
+- [Community 237](Community_237.md) (1 shared connections)
+- [Community 183](Community_183.md) (1 shared connections)
+- [Community 708](Community_708.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_generic.py`
-- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/test_http.py`
-- `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/urls/http.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 53 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 39 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

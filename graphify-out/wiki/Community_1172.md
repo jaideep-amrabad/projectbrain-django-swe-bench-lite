@@ -4,22 +4,22 @@
 
 ## Key Concepts
 
-- **.test_inheritance22()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **.test_inheritance23()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Three-level inheritance with {{ block.super }} from grandparent** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **NoModelTests** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/no_models/tests.py`
+- **.test_no_models()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/no_models/tests.py`
+- **It's possible to load an app with no models.py file.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/no_models/tests.py`
 
 ## Relationships
 
-- [Community 842](Community_842.md) (2 shared connections)
-- [Community 879](Community_879.md) (2 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/tests/no_models/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
