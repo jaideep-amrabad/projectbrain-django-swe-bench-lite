@@ -1,6 +1,6 @@
 # Community 201
 
-> 54 nodes · cohesion 0.07
+> 49 nodes · cohesion 0.08
 
 ## Key Concepts
 
@@ -8,10 +8,7 @@
 - **QueryDictTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
 - **._assert_mutable()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
 - **.fromkeys()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **._load_post_and_files()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
 - **bytes_to_text()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.parse_file_upload()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **._mark_post_parse_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
 - **.appendlist()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
 - **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
 - **.__copy__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
@@ -29,22 +26,25 @@
 - **.test_querydict_fromkeys()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
 - **.test_single_key_value()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
 - **.test_update_from_querydict()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/httpwrappers/tests.py`
-- *... and 29 more nodes in this community*
+- **.clear()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.__deepcopy__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- **.__delitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
+- *... and 24 more nodes in this community*
 
 ## Relationships
 
-- [Community 7](Community_7.md) (13 shared connections)
-- [Community 48](Community_48.md) (5 shared connections)
-- [Community 220](Community_220.md) (4 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 25](Community_25.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 37](Community_37.md) (2 shared connections)
-- [Community 795](Community_795.md) (1 shared connections)
-- [Community 154](Community_154.md) (1 shared connections)
-- [Community 449](Community_449.md) (1 shared connections)
-- [Community 305](Community_305.md) (1 shared connections)
-- [Community 240](Community_240.md) (1 shared connections)
+- [Community 2](Community_2.md) (10 shared connections)
+- [Community 182](Community_182.md) (4 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 168](Community_168.md) (2 shared connections)
+- [Community 683](Community_683.md) (1 shared connections)
+- [Community 349](Community_349.md) (1 shared connections)
+- [Community 294](Community_294.md) (1 shared connections)
+- [Community 246](Community_246.md) (1 shared connections)
+- [Community 64](Community_64.md) (1 shared connections)
+- [Community 474](Community_474.md) (1 shared connections)
+- [Community 234](Community_234.md) (1 shared connections)
+- [Community 139](Community_139.md) (1 shared connections)
 
 ## Source Files
 
@@ -53,8 +53,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 134 (99%)
-- INFERRED: 1 (1%)
+- EXTRACTED: 123 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---
