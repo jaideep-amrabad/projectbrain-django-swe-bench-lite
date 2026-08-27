@@ -1,8 +1,8 @@
 # F
 
-> God node · 381 connections · `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+> God node · 377 connections · `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
 
-**Community:** [Community 26](Community_26.md)
+**Community:** [Community 14](Community_14.md)
 
 ## Connections by Relation
 
@@ -41,11 +41,11 @@
 - modeladmin/test_checks.py `EXTRACTED`
 - timezones/tests.py `EXTRACTED`
 - model_fields/test_jsonfield.py `EXTRACTED`
-- expressions_window/tests.py `EXTRACTED`
-- test_extract_trunc.py `EXTRACTED`
 - geoapp/tests.py `EXTRACTED`
+- test_extract_trunc.py `EXTRACTED`
 - main.py `EXTRACTED`
 - test_ranges.py `EXTRACTED`
+- expressions_window/tests.py `EXTRACTED`
 - sql/compiler.py `EXTRACTED`
 - annotations/tests.py `EXTRACTED`
 - distapp/tests.py `EXTRACTED`

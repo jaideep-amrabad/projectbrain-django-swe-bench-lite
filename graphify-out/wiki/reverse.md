@@ -1,13 +1,14 @@
 # reverse()
 
-> God node · 392 connections · `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+> God node · 391 connections · `raw/code/hyd-evaluation/django-django/django/urls/base.py`
 
-**Community:** [Community 12](Community_12.md)
+**Community:** [Community 16](Community_16.md)
 
 ## Connections by Relation
 
 ### calls
 - get_resolver() `EXTRACTED`
+- iri_to_uri() `EXTRACTED`
 - NoReverseMatch `EXTRACTED`
 - resolve_url() `EXTRACTED`
 - .response_add() `EXTRACTED`
@@ -26,7 +27,6 @@
 - .test_result_list_empty_changelist_value() `EXTRACTED`
 - .test_result_list_html() `EXTRACTED`
 - .test_result_list_set_empty_value_display_in_model_admin() `EXTRACTED`
-- .test_result_list_set_empty_value_display_on_admin_site() `EXTRACTED`
 
 ### contains
 - urls/base.py `EXTRACTED`
@@ -50,8 +50,8 @@
 - contrib/admin/widgets.py `EXTRACTED`
 - proxy_models/tests.py `EXTRACTED`
 - auth/admin.py `EXTRACTED`
-- helpers.py `EXTRACTED`
 - main.py `EXTRACTED`
+- patterns/tests.py `EXTRACTED`
 
 ---
 

@@ -1,6 +1,6 @@
 # Community 92
 
-> 105 nodes · cohesion 0.04
+> 91 nodes · cohesion 0.05
 
 ## Key Concepts
 
@@ -11,7 +11,6 @@
 - **DjangoAdminAlternateSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 - **DjangoAdminFullPathDefaultSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 - **DjangoAdminMultipleSettings** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- **DjangoAdminNoSettings** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 - **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 - **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 - **.test_builtin_with_bad_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
@@ -29,22 +28,23 @@
 - **.test_custom_command_with_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 - **.test_custom_command_with_settings()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 - **.test_builtin_command()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- *... and 80 more nodes in this community*
+- **.test_builtin_with_bad_environment()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
+- *... and 66 more nodes in this community*
 
 ## Relationships
 
-- [Community 574](Community_574.md) (63 shared connections)
-- [Community 229](Community_229.md) (23 shared connections)
-- [Community 104](Community_104.md) (18 shared connections)
-- [Community 214](Community_214.md) (17 shared connections)
-- [Community 643](Community_643.md) (16 shared connections)
-- [Community 280](Community_280.md) (16 shared connections)
-- [Community 649](Community_649.md) (8 shared connections)
-- [Community 651](Community_651.md) (8 shared connections)
-- [Community 622](Community_622.md) (8 shared connections)
-- [Community 734](Community_734.md) (1 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
-- [Community 330](Community_330.md) (1 shared connections)
+- [Community 288](Community_288.md) (74 shared connections)
+- [Community 234](Community_234.md) (20 shared connections)
+- [Community 118](Community_118.md) (17 shared connections)
+- [Community 263](Community_263.md) (16 shared connections)
+- [Community 543](Community_543.md) (9 shared connections)
+- [Community 819](Community_819.md) (8 shared connections)
+- [Community 615](Community_615.md) (8 shared connections)
+- [Community 616](Community_616.md) (8 shared connections)
+- [Community 585](Community_585.md) (8 shared connections)
+- [Community 614](Community_614.md) (7 shared connections)
+- [Community 849](Community_849.md) (3 shared connections)
+- [Community 688](Community_688.md) (1 shared connections)
 
 ## Source Files
 
@@ -52,7 +52,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 398 (100%)
+- EXTRACTED: 373 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **e.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/filepathfield_test_dir/c/e.py`
+- **distapp/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/filepathfield_test_dir/c/e.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/distapp/__init__.py`
 
 ## Audit Trail
 
