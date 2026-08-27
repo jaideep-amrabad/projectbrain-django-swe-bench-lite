@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **b.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/filepathfield_test_dir/b.py`
+- **static/javascript.js** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/commands/someapp/static/javascript.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/filepathfield_test_dir/b.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/commands/someapp/static/javascript.js`
 
 ## Audit Trail
 

@@ -1,8 +1,8 @@
 # SimpleTestCase
 
-> God node · 1297 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+> God node · 1265 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
-**Community:** [Community 0](Community_0.md)
+**Community:** [Community 2](Community_2.md)
 
 ## Connections by Relation
 
@@ -23,13 +23,13 @@
 - test_debug.py `EXTRACTED`
 - admin_widgets/tests.py `EXTRACTED`
 - urlpatterns_reverse/tests.py `EXTRACTED`
-- modeladmin/test_checks.py `EXTRACTED`
 - test_client_regress/tests.py `EXTRACTED`
 - sessions_tests/tests.py `EXTRACTED`
+- modeladmin/test_checks.py `EXTRACTED`
 - auth_tests/test_forms.py `EXTRACTED`
-- test_runner/tests.py `EXTRACTED`
-- timezones/tests.py `EXTRACTED`
 - file_storage/tests.py `EXTRACTED`
+- timezones/tests.py `EXTRACTED`
+- model_fields/test_jsonfield.py `EXTRACTED`
 
 ### inherits
 - TransactionTestCase `EXTRACTED`
@@ -38,20 +38,20 @@
 - GEOSTest `EXTRACTED`
 - SystemChecksTestCase `EXTRACTED`
 - FormsFormsetTestCase `EXTRACTED`
-- WriterTests `EXTRACTED`
-- DiscoverRunnerTests `EXTRACTED`
 - WidgetTest `EXTRACTED`
+- WriterTests `EXTRACTED`
 - MailTests `EXTRACTED`
 - AdminScriptTestCase `EXTRACTED`
 - UrlTagTests `EXTRACTED`
-- OptimizerTests `EXTRACTED`
 - InheritanceTests `EXTRACTED`
 - OGRGeomTest `EXTRACTED`
-- TestUtilsHashPass `EXTRACTED`
+- OptimizerTests `EXTRACTED`
 - BasicSyntaxTests `EXTRACTED`
 - OtherModelTests `EXTRACTED`
-- RelativeFieldTests `EXTRACTED`
-- FieldDeconstructionTests `EXTRACTED`
+- IfEqualTagTests `EXTRACTED`
+- PostgreSQLSimpleTestCase `EXTRACTED`
+- RequestsTests `EXTRACTED`
+- DiscoverRunnerTests `EXTRACTED`
 
 ### method
 - .settings() `EXTRACTED`
@@ -65,6 +65,8 @@
 - .assertTemplateUsed() `EXTRACTED`
 - .assertTemplateNotUsed() `EXTRACTED`
 - ._assertFooMessage() `EXTRACTED`
+- ._remove_databases_failures() `EXTRACTED`
+- .tearDownClass() `EXTRACTED`
 - .__call__() `EXTRACTED`
 - .debug() `EXTRACTED`
 - .assertURLEqual() `EXTRACTED`
@@ -72,8 +74,6 @@
 - .assertNotContains() `EXTRACTED`
 - .assertFormError() `EXTRACTED`
 - .assertFormsetError() `EXTRACTED`
-- ._assert_template_used() `EXTRACTED`
-- ._assert_raises_or_warns_cm() `EXTRACTED`
 
 ---
 
