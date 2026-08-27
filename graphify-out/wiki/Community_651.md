@@ -1,12 +1,15 @@
 # Community 651
 
-> 13 nodes · cohesion 0.21
+> 16 nodes · cohesion 0.17
 
 ## Key Concepts
 
 - **AdminPasswordChangeForm** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
 - **AdminPasswordChangeFormTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **patch** (4 connections)
 - **.save()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- **.test_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **.test_success()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
 - **.clean_password2()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
 - **.save()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
 - **.test_html_autocomplete_attributes()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
@@ -20,15 +23,14 @@
 
 ## Relationships
 
-- [Community 750](Community_750.md) (2 shared connections)
-- [Community 17](Community_17.md) (2 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 500](Community_500.md) (3 shared connections)
 - [Community 0](Community_0.md) (2 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
+- [Community 748](Community_748.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 - [Community 652](Community_652.md) (1 shared connections)
-- [Community 5](Community_5.md) (1 shared connections)
-- [Community 502](Community_502.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 822](Community_822.md) (1 shared connections)
+- [Community 25](Community_25.md) (1 shared connections)
+- [Community 815](Community_815.md) (1 shared connections)
 
 ## Source Files
 
@@ -37,8 +39,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 27 (96%)
-- INFERRED: 1 (4%)
+- EXTRACTED: 33 (97%)
+- INFERRED: 1 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

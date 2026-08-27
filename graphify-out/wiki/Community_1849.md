@@ -4,17 +4,17 @@
 
 ## Key Concepts
 
-- **.test_email_msg_uses_crlf()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **#23063 -- RFC-compliant messages are sent over SMTP.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **PlotDetails** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Relationships
 
-- [Community 120](Community_120.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 61](Community_61.md) (1 shared connections)
+- [Community 76](Community_76.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
 
 ## Audit Trail
 

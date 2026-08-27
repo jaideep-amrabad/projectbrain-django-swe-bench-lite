@@ -22,29 +22,29 @@
 - **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
 - **.test_custom_form_validation()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
 - **.test_custom_formfield_override_readonly()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
-- **.test_default_foreign_key_widget()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
 - **.test_field_arguments()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
 - **.test_field_arguments_restricted_on_form()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
 - **.test_formset_overriding_get_exclude_with_form_exclude()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
 - **.test_formset_overriding_get_exclude_with_form_fields()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
 - **.test_get_deleted_objects()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
 - **.test_get_exclude_overrides_exclude()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
+- **.test_get_exclude_takes_obj()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
 - *... and 18 more nodes in this community*
 
 ## Relationships
 
 - [Community 37](Community_37.md) (7 shared connections)
-- [Community 122](Community_122.md) (7 shared connections)
-- [Community 34](Community_34.md) (5 shared connections)
-- [Community 458](Community_458.md) (4 shared connections)
-- [Community 5](Community_5.md) (4 shared connections)
-- [Community 276](Community_276.md) (2 shared connections)
-- [Community 371](Community_371.md) (2 shared connections)
-- [Community 38](Community_38.md) (2 shared connections)
-- [Community 50](Community_50.md) (2 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
+- [Community 92](Community_92.md) (7 shared connections)
+- [Community 31](Community_31.md) (5 shared connections)
+- [Community 453](Community_453.md) (4 shared connections)
+- [Community 12](Community_12.md) (4 shared connections)
+- [Community 274](Community_274.md) (2 shared connections)
+- [Community 368](Community_368.md) (2 shared connections)
+- [Community 25](Community_25.md) (2 shared connections)
+- [Community 49](Community_49.md) (2 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 - [Community 233](Community_233.md) (1 shared connections)
-- [Community 443](Community_443.md) (1 shared connections)
+- [Community 439](Community_439.md) (1 shared connections)
 
 ## Source Files
 

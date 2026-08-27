@@ -33,9 +33,8 @@
 
 ## Relationships
 
-- [Community 254](Community_254.md) (4 shared connections)
-- [Community 386](Community_386.md) (3 shared connections)
-- [Community 868](Community_868.md) (1 shared connections)
+- [Community 253](Community_253.md) (7 shared connections)
+- [Community 859](Community_859.md) (1 shared connections)
 
 ## Source Files
 

@@ -1,6 +1,6 @@
 # Community 81
 
-> 107 nodes · cohesion 0.03
+> 122 nodes · cohesion 0.03
 
 ## Key Concepts
 
@@ -13,42 +13,43 @@
 - **graph.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
 - **test_graph.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
 - **DummyNode** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
+- **InvalidBasesError** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
+- **.migrate()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/executor.py`
 - **ExecutorUnitTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
 - **CircularDependencyError** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
 - **FakeMigration** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
 - **InvalidMigrationPlan** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
+- **._create_project_state()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/executor.py`
 - **.test_backwards_nothing_to_do()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
 - **.test_minimize_rollbacks()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
 - **.test_minimize_rollbacks_branchy()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
 - **NodeTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_graph.py`
+- **._migrate_all_backwards()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/executor.py`
 - **.forwards_plan()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
 - **.make_state()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
 - **FakeLoader** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
-- **.add_dependency()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.backwards_plan()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.iterative_dfs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **.add_dummy_node()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- **._generate_plan()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
-- *... and 82 more nodes in this community*
+- **._migrate_all_forwards()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/executor.py`
+- *... and 97 more nodes in this community*
 
 ## Relationships
 
-- [Community 20](Community_20.md) (19 shared connections)
-- [Community 54](Community_54.md) (18 shared connections)
-- [Community 1](Community_1.md) (10 shared connections)
-- [Community 100](Community_100.md) (4 shared connections)
-- [Community 7](Community_7.md) (3 shared connections)
-- [Community 33](Community_33.md) (3 shared connections)
-- [Community 0](Community_0.md) (2 shared connections)
-- [Community 509](Community_509.md) (2 shared connections)
-- [Community 252](Community_252.md) (1 shared connections)
-- [Community 359](Community_359.md) (1 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
-- [Community 518](Community_518.md) (1 shared connections)
+- [Community 21](Community_21.md) (26 shared connections)
+- [Community 1](Community_1.md) (23 shared connections)
+- [Community 3](Community_3.md) (10 shared connections)
+- [Community 51](Community_51.md) (4 shared connections)
+- [Community 28](Community_28.md) (4 shared connections)
+- [Community 24](Community_24.md) (3 shared connections)
+- [Community 506](Community_506.md) (2 shared connections)
+- [Community 297](Community_297.md) (2 shared connections)
+- [Community 251](Community_251.md) (1 shared connections)
+- [Community 356](Community_356.md) (1 shared connections)
+- [Community 516](Community_516.md) (1 shared connections)
+- [Community 32](Community_32.md) (1 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/executor.py`
 - `raw/code/hyd-evaluation/django-django/django/db/migrations/graph.py`
 - `raw/code/hyd-evaluation/django-django/tests/migrations/test_exceptions.py`
 - `raw/code/hyd-evaluation/django-django/tests/migrations/test_executor.py`
@@ -56,8 +57,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 226 (95%)
-- INFERRED: 13 (5%)
+- EXTRACTED: 254 (94%)
+- INFERRED: 15 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

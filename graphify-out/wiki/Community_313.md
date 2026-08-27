@@ -1,6 +1,6 @@
 # Community 313
 
-> 33 nodes · cohesion 0.16
+> 34 nodes · cohesion 0.15
 
 ## Key Concepts
 
@@ -29,15 +29,15 @@
 - **.test_multiple_mixed_bases()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
 - **.test_multiple_nested_bases()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
 - **.test_nested_abstract_base()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
-- *... and 8 more nodes in this community*
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 54](Community_54.md) (5 shared connections)
-- [Community 33](Community_33.md) (2 shared connections)
-- [Community 48](Community_48.md) (2 shared connections)
-- [Community 108](Community_108.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 51](Community_51.md) (4 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 28](Community_28.md) (2 shared connections)
+- [Community 109](Community_109.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
@@ -46,7 +46,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 93 (98%)
+- EXTRACTED: 94 (98%)
 - INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 

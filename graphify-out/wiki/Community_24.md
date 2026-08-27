@@ -1,6 +1,6 @@
 # Community 24
 
-> 203 nodes · cohesion 0.03
+> 209 nodes · cohesion 0.03
 
 ## Key Concepts
 
@@ -11,6 +11,7 @@
 - **.assertOperationAttributes()** (85 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 - **.assertMigrationDependencies()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 - **isolate_lru_cache()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.make_project_state()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 - **.test_last_dependency()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 - **.test_first_dependency()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 - **.assertOperationFieldAttributes()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
@@ -28,23 +29,22 @@
 - **.test_swappable_changed()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 - **.test_swappable_first_setting()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 - **.test_add_blank_textfield_and_charfield()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_add_many_to_many()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- *... and 178 more nodes in this community*
+- *... and 184 more nodes in this community*
 
 ## Relationships
 
-- [Community 48](Community_48.md) (26 shared connections)
-- [Community 298](Community_298.md) (16 shared connections)
-- [Community 100](Community_100.md) (14 shared connections)
+- [Community 51](Community_51.md) (28 shared connections)
+- [Community 297](Community_297.md) (20 shared connections)
 - [Community 9](Community_9.md) (8 shared connections)
-- [Community 20](Community_20.md) (5 shared connections)
-- [Community 54](Community_54.md) (4 shared connections)
-- [Community 268](Community_268.md) (2 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 41](Community_41.md) (1 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
+- [Community 101](Community_101.md) (7 shared connections)
+- [Community 21](Community_21.md) (5 shared connections)
+- [Community 81](Community_81.md) (3 shared connections)
+- [Community 267](Community_267.md) (2 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 28](Community_28.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 25](Community_25.md) (1 shared connections)
 
 ## Source Files
 
@@ -53,7 +53,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 718 (99%)
+- EXTRACTED: 730 (99%)
 - INFERRED: 10 (1%)
 - AMBIGUOUS: 0 (0%)
 

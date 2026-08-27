@@ -1,6 +1,6 @@
 # Community 304
 
-> 32 nodes · cohesion 0.10
+> 25 nodes · cohesion 0.12
 
 ## Key Concepts
 
@@ -12,8 +12,6 @@
 - **postgresql/client.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/client.py`
 - **DatabaseClient** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/client.py`
 - **sqlite3/client.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/client.py`
-- **OracleDbshellTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
-- **._run_dbshell()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
 - **base/client.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/client.py`
 - **mysql/client.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/client.py`
 - **test_oracle.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
@@ -23,28 +21,29 @@
 - **DatabaseClient** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/base.py`
 - **.runshell()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/client.py`
 - **.runshell_db()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/client.py`
-- **.test_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
-- **.test_with_rlwrap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
-- **.test_without_rlwrap()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/dbshell/test_oracle.py`
 - **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/client.py`
 - **.runshell()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/client.py`
 - **Encapsulate backend-specific methods for opening a client shell.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/client.py`
-- *... and 7 more nodes in this community*
+- **.runshell()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/client.py`
+- **.settings_to_cmd_args()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/client.py`
+- **.runshell()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/client.py`
+- **.runshell()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/client.py`
+- **# TODO: Remove str() when dropping support for PY37.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/client.py`
 
 ## Relationships
 
-- [Community 7](Community_7.md) (14 shared connections)
-- [Community 1](Community_1.md) (10 shared connections)
-- [Community 682](Community_682.md) (2 shared connections)
-- [Community 826](Community_826.md) (1 shared connections)
-- [Community 415](Community_415.md) (1 shared connections)
+- [Community 1](Community_1.md) (12 shared connections)
+- [Community 3](Community_3.md) (9 shared connections)
+- [Community 683](Community_683.md) (2 shared connections)
+- [Community 1050](Community_1050.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 819](Community_819.md) (1 shared connections)
+- [Community 412](Community_412.md) (1 shared connections)
 - [Community 235](Community_235.md) (1 shared connections)
-- [Community 566](Community_566.md) (1 shared connections)
-- [Community 14](Community_14.md) (1 shared connections)
-- [Community 56](Community_56.md) (1 shared connections)
-- [Community 561](Community_561.md) (1 shared connections)
-- [Community 1025](Community_1025.md) (1 shared connections)
-- [Community 683](Community_683.md) (1 shared connections)
+- [Community 564](Community_564.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
+- [Community 492](Community_492.md) (1 shared connections)
 
 ## Source Files
 
@@ -61,8 +60,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 80 (93%)
-- INFERRED: 6 (7%)
+- EXTRACTED: 70 (93%)
+- INFERRED: 5 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

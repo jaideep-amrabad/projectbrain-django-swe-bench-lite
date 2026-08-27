@@ -1,6 +1,6 @@
 # Community 206
 
-> 44 nodes · cohesion 0.14
+> 46 nodes · cohesion 0.13
 
 ## Key Concepts
 
@@ -29,22 +29,21 @@
 - **.test_argon2()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
 - **.test_bytes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
 - **.test_check_password_calls_harden_runtime()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_hashers.py`
-- *... and 19 more nodes in this community*
+- *... and 21 more nodes in this community*
 
 ## Relationships
 
+- [Community 157](Community_157.md) (15 shared connections)
 - [Community 9](Community_9.md) (13 shared connections)
-- [Community 928](Community_928.md) (8 shared connections)
-- [Community 0](Community_0.md) (7 shared connections)
-- [Community 511](Community_511.md) (7 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 462](Community_462.md) (2 shared connections)
-- [Community 939](Community_939.md) (1 shared connections)
+- [Community 2](Community_2.md) (8 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
+- [Community 457](Community_457.md) (2 shared connections)
+- [Community 934](Community_934.md) (1 shared connections)
 - [Community 652](Community_652.md) (1 shared connections)
-- [Community 2](Community_2.md) (1 shared connections)
-- [Community 970](Community_970.md) (1 shared connections)
-- [Community 380](Community_380.md) (1 shared connections)
-- [Community 399](Community_399.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 376](Community_376.md) (1 shared connections)
+- [Community 396](Community_396.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
 
 ## Source Files
 
@@ -54,7 +53,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 181 (99%)
+- EXTRACTED: 183 (99%)
 - INFERRED: 2 (1%)
 - AMBIGUOUS: 0 (0%)
 

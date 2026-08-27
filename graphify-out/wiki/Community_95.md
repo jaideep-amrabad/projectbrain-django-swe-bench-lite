@@ -1,6 +1,6 @@
 # Community 95
 
-> 74 nodes · cohesion 0.05
+> 82 nodes · cohesion 0.04
 
 ## Key Concepts
 
@@ -8,13 +8,14 @@
 - **RequestsTests** (39 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
 - **FakePayload** (38 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
 - **DataUploadMaxMemorySizeMultipartPostTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
+- **DataUploadMaxMemorySizeFormPostTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
+- **DataUploadMaxNumberOfFieldsFormPost** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
+- **DataUploadMaxNumberOfFieldsMultipartPost** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/test_data_upload_settings.py`
 - **RequestHeadersTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
-- **._base_environ()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
 - **.test_alternate_charset_POST()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
 - **.test_wsgirequest_path_with_force_script_name_trailing_slash()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
 - **.test_wsgirequest_with_force_script_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
 - **.urlencode()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.request()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
 - **.test_body_after_POST_multipart_form_data()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
 - **.test_body_after_POST_multipart_related()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
 - **.test_non_ascii_POST()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
@@ -28,23 +29,22 @@
 - **.test_wsgirequest_script_url_double_slashes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
 - **.test_wsgirequest_with_script_name()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/requests/tests.py`
 - **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- **.write()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/client.py`
-- *... and 49 more nodes in this community*
+- *... and 57 more nodes in this community*
 
 ## Relationships
 
-- [Community 139](Community_139.md) (12 shared connections)
-- [Community 438](Community_438.md) (11 shared connections)
-- [Community 2](Community_2.md) (10 shared connections)
-- [Community 6](Community_6.md) (8 shared connections)
-- [Community 73](Community_73.md) (7 shared connections)
-- [Community 272](Community_272.md) (6 shared connections)
-- [Community 282](Community_282.md) (5 shared connections)
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 575](Community_575.md) (3 shared connections)
-- [Community 607](Community_607.md) (3 shared connections)
+- [Community 4](Community_4.md) (19 shared connections)
+- [Community 134](Community_134.md) (14 shared connections)
+- [Community 3](Community_3.md) (8 shared connections)
+- [Community 10](Community_10.md) (7 shared connections)
+- [Community 68](Community_68.md) (7 shared connections)
+- [Community 270](Community_270.md) (6 shared connections)
+- [Community 634](Community_634.md) (3 shared connections)
+- [Community 753](Community_753.md) (3 shared connections)
 - [Community 9](Community_9.md) (3 shared connections)
-- [Community 7](Community_7.md) (1 shared connections)
+- [Community 280](Community_280.md) (2 shared connections)
+- [Community 13](Community_13.md) (1 shared connections)
+- [Community 182](Community_182.md) (1 shared connections)
 
 ## Source Files
 
@@ -57,8 +57,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 184 (88%)
-- INFERRED: 24 (12%)
+- EXTRACTED: 192 (89%)
+- INFERRED: 24 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

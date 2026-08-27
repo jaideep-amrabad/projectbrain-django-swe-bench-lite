@@ -1,6 +1,6 @@
 # Community 609
 
-> 18 nodes · cohesion 0.12
+> 17 nodes · cohesion 0.13
 
 ## Key Concepts
 
@@ -12,7 +12,6 @@
 - **.test_connect_non_autocommit()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
 - **.test_copy_cursors()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
 - **.test_correct_extraction_psycopg2_version()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
-- **.test_database_name_too_long()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
 - **.test_lookup_cast()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
 - **.test_select_ascii_array()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
 - **.test_select_unicode_array()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/postgresql/tests.py`
@@ -25,12 +24,12 @@
 
 ## Relationships
 
-- [Community 7](Community_7.md) (2 shared connections)
-- [Community 38](Community_38.md) (1 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 25](Community_25.md) (1 shared connections)
+- [Community 559](Community_559.md) (1 shared connections)
 - [Community 9](Community_9.md) (1 shared connections)
-- [Community 561](Community_561.md) (1 shared connections)
-- [Community 266](Community_266.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
+- [Community 265](Community_265.md) (1 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
 
 ## Source Files
 
@@ -38,7 +37,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 25 (96%)
+- EXTRACTED: 24 (96%)
 - INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 

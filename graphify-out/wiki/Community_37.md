@@ -1,6 +1,6 @@
 # Community 37
 
-> 150 nodes · cohesion 0.03
+> 152 nodes · cohesion 0.03
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **.test_dynamic_list_display_links()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
 - **.test_no_list_display_links()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
 - **pagination()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
-- *... and 125 more nodes in this community*
+- *... and 127 more nodes in this community*
 
 ## Relationships
 
 - [Community 12](Community_12.md) (16 shared connections)
-- [Community 4](Community_4.md) (15 shared connections)
-- [Community 17](Community_17.md) (11 shared connections)
-- [Community 11](Community_11.md) (11 shared connections)
-- [Community 267](Community_267.md) (10 shared connections)
-- [Community 0](Community_0.md) (10 shared connections)
+- [Community 15](Community_15.md) (16 shared connections)
+- [Community 6](Community_6.md) (15 shared connections)
+- [Community 2](Community_2.md) (12 shared connections)
+- [Community 25](Community_25.md) (8 shared connections)
 - [Community 236](Community_236.md) (7 shared connections)
-- [Community 38](Community_38.md) (5 shared connections)
+- [Community 14](Community_14.md) (7 shared connections)
+- [Community 1](Community_1.md) (6 shared connections)
+- [Community 48](Community_48.md) (6 shared connections)
 - [Community 169](Community_169.md) (4 shared connections)
-- [Community 36](Community_36.md) (4 shared connections)
-- [Community 60](Community_60.md) (4 shared connections)
-- [Community 264](Community_264.md) (3 shared connections)
+- [Community 3](Community_3.md) (4 shared connections)
+- [Community 234](Community_234.md) (4 shared connections)
 
 ## Source Files
 
@@ -60,7 +60,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 395 (87%)
+- EXTRACTED: 397 (87%)
 - INFERRED: 58 (13%)
 - AMBIGUOUS: 0 (0%)
 
