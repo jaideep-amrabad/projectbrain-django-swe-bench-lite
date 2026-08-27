@@ -1,6 +1,6 @@
 # Community 1
 
-> 438 nodes · cohesion 0.01
+> 445 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **sessions/backends/base.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
 - **contrib/sitemaps/__init__.py** (27 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
 - **LazyObject** (24 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- *... and 413 more nodes in this community*
+- *... and 420 more nodes in this community*
 
 ## Relationships
 
-- [Community 39](Community_39.md) (132 shared connections)
-- [Community 0](Community_0.md) (74 shared connections)
-- [Community 30](Community_30.md) (50 shared connections)
-- [Community 9](Community_9.md) (37 shared connections)
-- [Community 12](Community_12.md) (36 shared connections)
-- [Community 2](Community_2.md) (32 shared connections)
-- [Community 3](Community_3.md) (32 shared connections)
-- [Community 4](Community_4.md) (30 shared connections)
-- [Community 7](Community_7.md) (29 shared connections)
-- [Community 51](Community_51.md) (28 shared connections)
-- [Community 380](Community_380.md) (26 shared connections)
-- [Community 59](Community_59.md) (21 shared connections)
+- [Community 19](Community_19.md) (130 shared connections)
+- [Community 0](Community_0.md) (77 shared connections)
+- [Community 38](Community_38.md) (48 shared connections)
+- [Community 2](Community_2.md) (38 shared connections)
+- [Community 11](Community_11.md) (36 shared connections)
+- [Community 7](Community_7.md) (35 shared connections)
+- [Community 4](Community_4.md) (32 shared connections)
+- [Community 10](Community_10.md) (31 shared connections)
+- [Community 9](Community_9.md) (29 shared connections)
+- [Community 49](Community_49.md) (28 shared connections)
+- [Community 155](Community_155.md) (27 shared connections)
+- [Community 3](Community_3.md) (24 shared connections)
 
 ## Source Files
 
@@ -63,16 +63,16 @@
 - `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/db.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/file.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/signed_cookies.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/base_session.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/sessions/exceptions.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/models.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/__init__.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/management/commands/ping_google.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/finders.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2131 (99%)
-- INFERRED: 29 (1%)
+- EXTRACTED: 2136 (99%)
+- INFERRED: 30 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

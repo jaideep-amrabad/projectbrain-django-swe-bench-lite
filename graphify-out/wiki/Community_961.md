@@ -11,7 +11,7 @@
 
 ## Relationships
 
-- [Community 500](Community_500.md) (2 shared connections)
+- [Community 504](Community_504.md) (2 shared connections)
 
 ## Source Files
 

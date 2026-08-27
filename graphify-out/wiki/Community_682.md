@@ -19,12 +19,12 @@
 
 ## Relationships
 
-- [Community 156](Community_156.md) (3 shared connections)
-- [Community 39](Community_39.md) (2 shared connections)
+- [Community 175](Community_175.md) (3 shared connections)
+- [Community 19](Community_19.md) (2 shared connections)
 - [Community 37](Community_37.md) (2 shared connections)
-- [Community 204](Community_204.md) (2 shared connections)
-- [Community 86](Community_86.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
+- [Community 224](Community_224.md) (2 shared connections)
+- [Community 85](Community_85.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
