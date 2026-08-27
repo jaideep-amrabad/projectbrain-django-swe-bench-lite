@@ -1,43 +1,51 @@
 # Community 594
 
-> 12 nodes · cohesion 0.17
+> 16 nodes · cohesion 0.16
 
 ## Key Concepts
 
-- **PlainTextReportTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_request_with_items_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_request_with_items_key()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_template_exception()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_no_request()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_request_and_message()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_no_request()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_request_and_message()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **.test_message_only()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **An exception report can be generated without request** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **A message can be provided in addition to a request** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
-- **An exception report can be generated for requests with 'items' in request GET,…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- **utils/decorators.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **decorator_from_middleware()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **classonlymethod** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **decorator_from_middleware_with_args()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **decorators/gzip.py** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/gzip.py`
+- **.as_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **make_middleware_decorator()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **_multi_decorate()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **_update_method_wrapper()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **classmethod** (1 connections)
+- **.__get__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **Functions that help with dynamically creating decorators for views.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **Given a middleware class (not an instance), return a view decorator. This lets…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **Decorate `method` with one or more function decorators. `decorators` can be a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **Like decorator_from_middleware, but return a function that accepts the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **Main entry point for a request-response process.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
 
 ## Relationships
 
-- [Community 787](Community_787.md) (9 shared connections)
-- [Community 580](Community_580.md) (3 shared connections)
-- [Community 76](Community_76.md) (2 shared connections)
-- [Community 57](Community_57.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 984](Community_984.md) (1 shared connections)
-- [Community 951](Community_951.md) (1 shared connections)
-- [Community 1061](Community_1061.md) (1 shared connections)
-- [Community 101](Community_101.md) (1 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
+- [Community 83](Community_83.md) (5 shared connections)
+- [Community 242](Community_242.md) (4 shared connections)
+- [Community 104](Community_104.md) (3 shared connections)
+- [Community 135](Community_135.md) (3 shared connections)
+- [Community 41](Community_41.md) (2 shared connections)
+- [Community 4](Community_4.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 48](Community_48.md) (1 shared connections)
+- [Community 128](Community_128.md) (1 shared connections)
+- [Community 119](Community_119.md) (1 shared connections)
+- [Community 29](Community_29.md) (1 shared connections)
+- [Community 7](Community_7.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/tests/test_debug.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- `raw/code/hyd-evaluation/django-django/django/views/decorators/gzip.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 31 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 47 (96%)
+- INFERRED: 2 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

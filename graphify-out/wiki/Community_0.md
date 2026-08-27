@@ -1,6 +1,6 @@
 # Community 0
 
-> 412 nodes · cohesion 0.01
+> 408 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **test_time.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
 - **template_tests/tests.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
 - **utils_tests/test_decorators.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
-- *... and 387 more nodes in this community*
+- *... and 383 more nodes in this community*
 
 ## Relationships
 
-- [Community 53](Community_53.md) (129 shared connections)
-- [Community 21](Community_21.md) (125 shared connections)
-- [Community 23](Community_23.md) (119 shared connections)
-- [Community 7](Community_7.md) (117 shared connections)
+- [Community 20](Community_20.md) (129 shared connections)
+- [Community 23](Community_23.md) (122 shared connections)
 - [Community 8](Community_8.md) (117 shared connections)
-- [Community 5](Community_5.md) (115 shared connections)
-- [Community 606](Community_606.md) (109 shared connections)
-- [Community 15](Community_15.md) (101 shared connections)
-- [Community 4](Community_4.md) (76 shared connections)
-- [Community 76](Community_76.md) (76 shared connections)
-- [Community 2](Community_2.md) (56 shared connections)
-- [Community 57](Community_57.md) (50 shared connections)
+- [Community 7](Community_7.md) (115 shared connections)
+- [Community 9](Community_9.md) (113 shared connections)
+- [Community 600](Community_600.md) (111 shared connections)
+- [Community 27](Community_27.md) (101 shared connections)
+- [Community 551](Community_551.md) (93 shared connections)
+- [Community 54](Community_54.md) (90 shared connections)
+- [Community 1](Community_1.md) (75 shared connections)
+- [Community 3](Community_3.md) (54 shared connections)
+- [Community 5](Community_5.md) (48 shared connections)
 
 ## Source Files
 
@@ -71,7 +71,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 4167 (99%)
+- EXTRACTED: 4163 (99%)
 - INFERRED: 33 (1%)
 - AMBIGUOUS: 0 (0%)
 

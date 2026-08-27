@@ -1,6 +1,6 @@
 # Community 23
 
-> 211 nodes · cohesion 0.01
+> 239 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -8,6 +8,8 @@
 - **django/forms/__init__.py** (124 connections) — `raw/code/hyd-evaluation/django-django/django/forms/__init__.py`
 - **django/__init__.py** (94 connections) — `raw/code/hyd-evaluation/django-django/django/__init__.py`
 - **WidgetTest** (55 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/base.py`
+- **contrib/admin/widgets.py** (47 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- **modeladmin/tests.py** (35 connections) — `raw/code/hyd-evaluation/django-django/tests/modeladmin/tests.py`
 - **widget_tests/base.py** (31 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/base.py`
 - **FormFieldAssertionsMixin** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/__init__.py`
 - **test_input_formats.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_input_formats.py`
@@ -19,6 +21,7 @@
 - **field_tests/test_imagefield.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
 - **IntegerFieldTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_integerfield.py`
 - **field_tests/test_decimalfield.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_decimalfield.py`
+- **.__init__()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
 - **test_datefield.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_datefield.py`
 - **model_fields/test_charfield.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
 - **.full_clean()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
@@ -26,29 +29,27 @@
 - **ValidationTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_charfield.py`
 - **model_forms/test_uuid.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/model_forms/test_uuid.py`
 - **staticfiles_tests/test_forms.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_forms.py`
-- **EmailFieldTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_emailfield.py`
-- **test_splitdatetimefield.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_splitdatetimefield.py`
-- **field_tests/test_timefield.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_timefield.py`
-- *... and 186 more nodes in this community*
+- *... and 214 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (119 shared connections)
-- [Community 53](Community_53.md) (52 shared connections)
-- [Community 45](Community_45.md) (31 shared connections)
-- [Community 7](Community_7.md) (30 shared connections)
-- [Community 88](Community_88.md) (25 shared connections)
-- [Community 51](Community_51.md) (20 shared connections)
-- [Community 98](Community_98.md) (17 shared connections)
-- [Community 69](Community_69.md) (17 shared connections)
+- [Community 0](Community_0.md) (122 shared connections)
+- [Community 551](Community_551.md) (51 shared connections)
+- [Community 48](Community_48.md) (35 shared connections)
+- [Community 9](Community_9.md) (29 shared connections)
+- [Community 92](Community_92.md) (26 shared connections)
+- [Community 49](Community_49.md) (20 shared connections)
+- [Community 101](Community_101.md) (19 shared connections)
 - [Community 8](Community_8.md) (16 shared connections)
-- [Community 608](Community_608.md) (14 shared connections)
-- [Community 108](Community_108.md) (11 shared connections)
-- [Community 36](Community_36.md) (10 shared connections)
+- [Community 602](Community_602.md) (15 shared connections)
+- [Community 95](Community_95.md) (15 shared connections)
+- [Community 5](Community_5.md) (13 shared connections)
+- [Community 143](Community_143.md) (11 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/forms.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/hstore.py`
@@ -67,12 +68,11 @@
 - `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_durationfield.py`
 - `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_emailfield.py`
 - `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filefield.py`
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_filepathfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1001 (99%)
-- INFERRED: 9 (1%)
+- EXTRACTED: 1105 (99%)
+- INFERRED: 14 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

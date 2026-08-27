@@ -1,60 +1,51 @@
 # Community 349
 
-> 22 nodes · cohesion 0.13
+> 19 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **postgres/fields/__init__.py** (16 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/__init__.py`
-- **test_json_deprecation.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json_deprecation.py`
-- **fields/jsonb.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
-- **DeprecationTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json_deprecation.py`
-- **KeyTextTransform** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
-- **KeyTransform** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
-- **array_default_migrations/0001_initial.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/array_default_migrations/0001_initial.py`
-- **0002_integerarraymodel_field_2.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/array_default_migrations/0002_integerarraymodel_field_2.py`
-- **array_index_migrations/0001_initial.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/array_index_migrations/0001_initial.py`
-- **JSONField** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
-- **.test_key_text_transform_deprecation_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json_deprecation.py`
-- **.test_key_transform_deprecation_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json_deprecation.py`
-- **.test_model_field_deprecation_message()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json_deprecation.py`
-- **BuiltinKeyTextTransform** (1 connections)
-- **BuiltinKeyTransform** (1 connections)
-- **BuiltinJSONField** (1 connections)
-- **Migration** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/array_default_migrations/0001_initial.py`
-- **Migration** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/array_default_migrations/0002_integerarraymodel_field_2.py`
-- **Migration** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/array_index_migrations/0001_initial.py`
-- **.test_form_field_deprecation_message()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json_deprecation.py`
+- **ContextList** (14 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **ContextTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.__getitem__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.test_contextlist_get()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_contextlist_keys()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.__getitem__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.keys()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.test_inherited_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_nested_requests()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_single_context()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.__contains__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **list** (1 connections)
+- **A wrapper that provides direct key access to context items contained in a list…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **Flattened keys of subcontexts.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.test_15368()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Context variables can be retrieved from a single context** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Context variables can be retrieved from a list of contexts** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **response.context is not lost when view call another view.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Relationships
 
-- [Community 7](Community_7.md) (7 shared connections)
-- [Community 93](Community_93.md) (5 shared connections)
-- [Community 118](Community_118.md) (4 shared connections)
-- [Community 408](Community_408.md) (4 shared connections)
-- [Community 15](Community_15.md) (4 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 592](Community_592.md) (2 shared connections)
-- [Community 109](Community_109.md) (1 shared connections)
-- [Community 42](Community_42.md) (1 shared connections)
-- [Community 378](Community_378.md) (1 shared connections)
-- [Community 162](Community_162.md) (1 shared connections)
+- [Community 551](Community_551.md) (2 shared connections)
+- [Community 54](Community_54.md) (2 shared connections)
+- [Community 7](Community_7.md) (2 shared connections)
+- [Community 183](Community_183.md) (1 shared connections)
+- [Community 347](Community_347.md) (1 shared connections)
+- [Community 651](Community_651.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 8](Community_8.md) (1 shared connections)
+- [Community 602](Community_602.md) (1 shared connections)
+- [Community 320](Community_320.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/array_default_migrations/0001_initial.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/array_default_migrations/0002_integerarraymodel_field_2.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/array_index_migrations/0001_initial.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json_deprecation.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 66 (92%)
-- INFERRED: 6 (8%)
+- EXTRACTED: 33 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

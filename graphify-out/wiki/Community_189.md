@@ -1,66 +1,59 @@
 # Community 189
 
-> 82 nodes · cohesion 0.03
+> 57 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **lazystr()** (36 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **escape()** (31 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **keep_lazy_text()** (24 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **TestUtilsHtml** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
-- **TestUtilsText** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
-- **urlize()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **smart_urlquote()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **linebreaks()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **strip_tags()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **keep_lazy()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- **escapejs()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **MLStripper** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **wrap()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **.check_output()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
-- **strip_spaces_between_tags()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **normalize_newlines()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **get_valid_filename()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **phone2numeric()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **unescape_string_literal()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **_strip_once()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- **slugify()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **unescape_entities()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- **.test_conditional_escape()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
-- **.test_escape()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
-- **.test_escapejs()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
-- *... and 57 more nodes in this community*
+- **Options** (47 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **make_immutable_fields_list()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **._prepare()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.get_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.get_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.add_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.concrete_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **._expire_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **._format_names_with_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.get_base_chain()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.get_path_to_parent()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.local_concrete_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.many_to_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **._populate_directed_relation_graph()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.related_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.setup_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.swapped()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.verbose_name_raw()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.add_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.base_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.can_migrate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.get_ancestor_link()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.get_path_from_parent()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.managers()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- *... and 32 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (17 shared connections)
-- [Community 53](Community_53.md) (15 shared connections)
-- [Community 45](Community_45.md) (14 shared connections)
-- [Community 96](Community_96.md) (14 shared connections)
-- [Community 606](Community_606.md) (8 shared connections)
-- [Community 21](Community_21.md) (7 shared connections)
-- [Community 7](Community_7.md) (5 shared connections)
-- [Community 50](Community_50.md) (4 shared connections)
-- [Community 161](Community_161.md) (4 shared connections)
-- [Community 329](Community_329.md) (4 shared connections)
-- [Community 163](Community_163.md) (4 shared connections)
-- [Community 194](Community_194.md) (3 shared connections)
+- [Community 551](Community_551.md) (7 shared connections)
+- [Community 59](Community_59.md) (3 shared connections)
+- [Community 773](Community_773.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 146](Community_146.md) (1 shared connections)
+- [Community 337](Community_337.md) (1 shared connections)
+- [Community 534](Community_534.md) (1 shared connections)
+- [Community 981](Community_981.md) (1 shared connections)
+- [Community 358](Community_358.md) (1 shared connections)
+- [Community 55](Community_55.md) (1 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
+- [Community 180](Community_180.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/defaulttags.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/html.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/text.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_escape.py`
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_loaders.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_text.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
 
 ## Audit Trail
 
-- EXTRACTED: 226 (94%)
-- INFERRED: 15 (6%)
+- EXTRACTED: 86 (96%)
+- INFERRED: 4 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

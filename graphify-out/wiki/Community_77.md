@@ -1,6 +1,6 @@
 # Community 77
 
-> 148 nodes · cohesion 0.03
+> 174 nodes · cohesion 0.02
 
 ## Key Concepts
 
@@ -18,33 +18,33 @@
 - **GEOSFunc** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/threadsafe.py`
 - **geos/coordseq.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/coordseq.py`
 - **geos/prototypes/__init__.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/__init__.py`
+- **WKTWriter** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/io.py`
 - **GEOSBase** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/base.py`
 - **geos/io.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/io.py`
 - **point.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/point.py`
 - **topology.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/topology.py`
+- **GEOSIOTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geos_tests/test_io.py`
 - **geos/base.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/base.py`
 - **prototypes/coordseq.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/coordseq.py`
 - **misc.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/prototypes/misc.py`
 - **geos_version_tuple()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/libgeos.py`
 - **.func()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/libgeos.py`
-- **polygon.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/polygon.py`
-- **geos/error.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/geos/error.py`
-- *... and 123 more nodes in this community*
+- *... and 149 more nodes in this community*
 
 ## Relationships
 
-- [Community 10](Community_10.md) (48 shared connections)
-- [Community 194](Community_194.md) (32 shared connections)
-- [Community 26](Community_26.md) (14 shared connections)
-- [Community 141](Community_141.md) (14 shared connections)
-- [Community 44](Community_44.md) (12 shared connections)
-- [Community 53](Community_53.md) (11 shared connections)
-- [Community 199](Community_199.md) (7 shared connections)
-- [Community 134](Community_134.md) (5 shared connections)
-- [Community 31](Community_31.md) (4 shared connections)
-- [Community 84](Community_84.md) (4 shared connections)
-- [Community 79](Community_79.md) (4 shared connections)
-- [Community 35](Community_35.md) (4 shared connections)
+- [Community 10](Community_10.md) (76 shared connections)
+- [Community 28](Community_28.md) (17 shared connections)
+- [Community 139](Community_139.md) (14 shared connections)
+- [Community 51](Community_51.md) (12 shared connections)
+- [Community 551](Community_551.md) (10 shared connections)
+- [Community 201](Community_201.md) (7 shared connections)
+- [Community 137](Community_137.md) (5 shared connections)
+- [Community 195](Community_195.md) (5 shared connections)
+- [Community 34](Community_34.md) (4 shared connections)
+- [Community 87](Community_87.md) (4 shared connections)
+- [Community 145](Community_145.md) (4 shared connections)
+- [Community 38](Community_38.md) (4 shared connections)
 
 ## Source Files
 
@@ -71,8 +71,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 487 (96%)
-- INFERRED: 19 (4%)
+- EXTRACTED: 535 (96%)
+- INFERRED: 25 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

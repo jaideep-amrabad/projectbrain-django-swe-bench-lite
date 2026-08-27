@@ -1,36 +1,35 @@
 # Community 720
 
-> 12 nodes · cohesion 0.18
+> 11 nodes · cohesion 0.18
 
 ## Key Concepts
 
-- **Element** (13 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **._count()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.append()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.__contains__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **normalize_whitespace()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.finalize()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.__getitem__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
-- **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- **.get_object()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **.get_context_data()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **.get_queryset()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **.get()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **.get_context_object_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **.get_slug_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **Return the object the view is displaying. Require `self.queryset` and a `pk` or…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **Return the `QuerySet` that will be used to look up the object. This method is…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **Get the name of a slug field to be used to look up by slug.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **Get the name to use for the object.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
+- **Insert the single object into the context dict.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
 
 ## Relationships
 
-- [Community 721](Community_721.md) (2 shared connections)
-- [Community 53](Community_53.md) (2 shared connections)
-- [Community 515](Community_515.md) (1 shared connections)
+- [Community 83](Community_83.md) (6 shared connections)
+- [Community 54](Community_54.md) (1 shared connections)
+- [Community 551](Community_551.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/test/html.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/detail.py`
 
 ## Audit Trail
 
-- EXTRACTED: 16 (94%)
-- INFERRED: 1 (6%)
+- EXTRACTED: 18 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---
