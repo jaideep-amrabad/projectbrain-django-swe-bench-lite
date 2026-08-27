@@ -1,29 +1,30 @@
 # Community 859
 
-> 7 nodes · cohesion 0.29
+> 6 nodes · cohesion 0.33
 
 ## Key Concepts
 
-- **FixedOffset** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **.dst()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **.tzname()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **.utcoffset()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **Fixed offset in minutes east from UTC. Taken from Python's docs. Kept as close…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **tzinfo** (1 connections)
+- **SwappableTuple** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- **swappable_dependency()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- **tuple** (1 connections)
+- **Subclass of tuple so Django can tell this was originally a swappable dependency…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- **Turn a setting value into a dependency.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- **.__new__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
 
 ## Relationships
 
-- [Community 5](Community_5.md) (2 shared connections)
+- [Community 350](Community_350.md) (2 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
 
 ## Audit Trail
 
-- EXTRACTED: 7 (88%)
-- INFERRED: 1 (12%)
+- EXTRACTED: 9 (90%)
+- INFERRED: 1 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **contenttypes_tests/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/__init__.py`
+- **extra.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/custom_templates/project_template/additional_dir/extra.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/custom_templates/project_template/additional_dir/extra.py`
 
 ## Audit Trail
 

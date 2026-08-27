@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **bad_module.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/bad_module.py`
+- **templatetags/empty.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/good/templatetags/empty.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/bad_module.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_backends/apps/good/templatetags/empty.py`
 
 ## Audit Trail
 

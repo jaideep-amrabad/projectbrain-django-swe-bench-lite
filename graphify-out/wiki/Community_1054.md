@@ -4,26 +4,21 @@
 
 ## Key Concepts
 
-- **or_lookups/tests.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/or_lookups/tests.py`
-- **or_lookups/models.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/or_lookups/models.py`
-- **OR lookups To perform an OR lookup, or a lookup that combines ANDs and ORs,…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/or_lookups/models.py`
+- **.test_view_with_method_force_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **.test_view_with_method_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **Request a page that is protected with a @login_required method** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 55](Community_55.md) (3 shared connections)
-- [Community 36](Community_36.md) (1 shared connections)
-- [Community 40](Community_40.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 491](Community_491.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/or_lookups/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/or_lookups/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (100%)
+- EXTRACTED: 4 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

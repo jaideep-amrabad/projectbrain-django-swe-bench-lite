@@ -4,24 +4,25 @@
 
 ## Key Concepts
 
-- **UnsafeExceptionReporterFilter** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
-- **Ignores all the filtering done by its parent class.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
-- **.get_post_parameters()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
-- **.get_traceback_frame_variables()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **GetOrCreateThroughManyToMany** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_create_get_or_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_get_get_or_create()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
+- **.test_something()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
 
 ## Relationships
 
-- [Community 47](Community_47.md) (2 shared connections)
-- [Community 664](Community_664.md) (1 shared connections)
+- [Community 527](Community_527.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
+- [Community 735](Community_735.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- `raw/code/hyd-evaluation/django-django/tests/get_or_create/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 5 (71%)
+- INFERRED: 2 (29%)
 - AMBIGUOUS: 0 (0%)
 
 ---

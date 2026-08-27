@@ -1,6 +1,6 @@
 # Community 52
 
-> 121 nodes · cohesion 0.03
+> 116 nodes · cohesion 0.03
 
 ## Key Concepts
 
@@ -17,34 +17,34 @@
 - **GeoRegressionTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_regress.py`
 - **GeoQuerySetTest** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
 - **no_oracle()** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/utils.py`
+- **kml.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
 - **NamedModel** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/models.py`
 - **State** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/models.py`
 - **KMLSitemap** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/sitemaps/kml.py`
 - **Country** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/models.py`
-- **GeoExpressionsTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_expressions.py`
 - **GeoJSONSerializerTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_serializers.py`
 - **geoapp/test_sitemaps.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_sitemaps.py`
 - **test_feeds.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_feeds.py`
 - **GeoFeedTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_feeds.py`
 - **PennsylvaniaCity** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/models.py`
 - **GeoSitemapTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/test_sitemaps.py`
-- **geoapp/sitemaps.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/sitemaps.py`
-- *... and 96 more nodes in this community*
+- **.test_geometryfield()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geoapp/tests.py`
+- *... and 91 more nodes in this community*
 
 ## Relationships
 
-- [Community 10](Community_10.md) (46 shared connections)
-- [Community 27](Community_27.md) (24 shared connections)
-- [Community 22](Community_22.md) (16 shared connections)
-- [Community 36](Community_36.md) (16 shared connections)
-- [Community 0](Community_0.md) (13 shared connections)
-- [Community 831](Community_831.md) (10 shared connections)
-- [Community 14](Community_14.md) (10 shared connections)
-- [Community 1](Community_1.md) (7 shared connections)
-- [Community 93](Community_93.md) (6 shared connections)
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 29](Community_29.md) (4 shared connections)
-- [Community 11](Community_11.md) (4 shared connections)
+- [Community 8](Community_8.md) (23 shared connections)
+- [Community 46](Community_46.md) (21 shared connections)
+- [Community 4](Community_4.md) (15 shared connections)
+- [Community 44](Community_44.md) (14 shared connections)
+- [Community 25](Community_25.md) (12 shared connections)
+- [Community 645](Community_645.md) (10 shared connections)
+- [Community 76](Community_76.md) (10 shared connections)
+- [Community 2](Community_2.md) (9 shared connections)
+- [Community 19](Community_19.md) (7 shared connections)
+- [Community 0](Community_0.md) (7 shared connections)
+- [Community 5](Community_5.md) (6 shared connections)
+- [Community 187](Community_187.md) (6 shared connections)
 
 ## Source Files
 
@@ -63,8 +63,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 361 (90%)
-- INFERRED: 41 (10%)
+- EXTRACTED: 357 (90%)
+- INFERRED: 38 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

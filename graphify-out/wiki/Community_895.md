@@ -1,31 +1,30 @@
 # Community 895
 
-> 6 nodes · cohesion 0.40
+> 7 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **closeable_cache.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
-- **CacheClass** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
-- **CloseHookMixin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
-- **.close()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
-- **.test_use_as_contextmanager()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
-- **The connection can be used as a contextmanager.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- **FixedOffset** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **.dst()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **.tzname()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **.utcoffset()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **Fixed offset in minutes east from UTC. Taken from Python's docs. Kept as close…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **tzinfo** (1 connections)
 
 ## Relationships
 
-- [Community 539](Community_539.md) (3 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
-- [Community 184](Community_184.md) (1 shared connections)
+- [Community 5](Community_5.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/cache/closeable_cache.py`
-- `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
 
 ## Audit Trail
 
-- EXTRACTED: 9 (82%)
-- INFERRED: 2 (18%)
+- EXTRACTED: 7 (88%)
+- INFERRED: 1 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

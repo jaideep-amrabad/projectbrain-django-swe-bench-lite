@@ -1,18 +1,24 @@
 # Community 326
 
-> 18 nodes · cohesion 0.16
+> 36 nodes · cohesion 0.08
 
 ## Key Concepts
 
+- **Lookup** (30 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
 - **postgres/lookups.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **Exact** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **FieldGetDbPrepValueMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
 - **PostgresSimpleLookup** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
 - **SearchVectorExact** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
-- **SearchVectorField** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.process_rhs()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
 - **HasKeys** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
+- **.get_db_prep_lookup()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.batch_process_rhs()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
 - **JSONExact** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
 - **.as_sql()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
 - **.process_lhs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
 - **.process_rhs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.apply_bilateral_transforms()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
 - **ContainedBy** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
 - **DataContains** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
 - **HasAnyKeys** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
@@ -20,29 +26,36 @@
 - **.process_rhs()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
 - **Overlap** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
 - **.as_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- **.get_prep_lookup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
 - **.get_prep_lookup()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
-- **.db_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- *... and 11 more nodes in this community*
 
 ## Relationships
 
-- [Community 137](Community_137.md) (8 shared connections)
-- [Community 430](Community_430.md) (8 shared connections)
-- [Community 62](Community_62.md) (7 shared connections)
-- [Community 39](Community_39.md) (3 shared connections)
-- [Community 314](Community_314.md) (1 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 282](Community_282.md) (1 shared connections)
-- [Community 231](Community_231.md) (1 shared connections)
+- [Community 48](Community_48.md) (14 shared connections)
+- [Community 161](Community_161.md) (7 shared connections)
+- [Community 526](Community_526.md) (5 shared connections)
+- [Community 26](Community_26.md) (4 shared connections)
+- [Community 122](Community_122.md) (3 shared connections)
+- [Community 207](Community_207.md) (3 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 27](Community_27.md) (3 shared connections)
+- [Community 9](Community_9.md) (2 shared connections)
+- [Community 536](Community_536.md) (2 shared connections)
+- [Community 100](Community_100.md) (2 shared connections)
+- [Community 664](Community_664.md) (1 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/contrib/postgres/lookups.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
 
 ## Audit Trail
 
-- EXTRACTED: 54 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 104 (97%)
+- INFERRED: 3 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

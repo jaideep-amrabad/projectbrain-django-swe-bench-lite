@@ -1,6 +1,6 @@
 # Community 31
 
-> 169 nodes · cohesion 0.02
+> 163 nodes · cohesion 0.02
 
 ## Key Concepts
 
@@ -9,6 +9,7 @@
 - **._topology()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
 - **._geomgen()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
 - **.__init__()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- **.test06_spatial_filter()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
 - **.difference()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
 - **.equals()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
 - **.from_bbox()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
@@ -28,32 +29,32 @@
 - **.crosses()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
 - **.disjoint()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
 - **.__eq__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- **.from_gml()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
-- *... and 144 more nodes in this community*
+- *... and 138 more nodes in this community*
 
 ## Relationships
 
-- [Community 117](Community_117.md) (24 shared connections)
-- [Community 78](Community_78.md) (6 shared connections)
-- [Community 252](Community_252.md) (4 shared connections)
-- [Community 615](Community_615.md) (3 shared connections)
-- [Community 477](Community_477.md) (2 shared connections)
-- [Community 135](Community_135.md) (2 shared connections)
-- [Community 211](Community_211.md) (2 shared connections)
-- [Community 201](Community_201.md) (2 shared connections)
-- [Community 42](Community_42.md) (2 shared connections)
-- [Community 73](Community_73.md) (1 shared connections)
-- [Community 645](Community_645.md) (1 shared connections)
-- [Community 64](Community_64.md) (1 shared connections)
+- [Community 68](Community_68.md) (15 shared connections)
+- [Community 683](Community_683.md) (10 shared connections)
+- [Community 81](Community_81.md) (6 shared connections)
+- [Community 109](Community_109.md) (4 shared connections)
+- [Community 656](Community_656.md) (3 shared connections)
+- [Community 529](Community_529.md) (3 shared connections)
+- [Community 0](Community_0.md) (3 shared connections)
+- [Community 176](Community_176.md) (2 shared connections)
+- [Community 183](Community_183.md) (2 shared connections)
+- [Community 36](Community_36.md) (1 shared connections)
+- [Community 659](Community_659.md) (1 shared connections)
+- [Community 65](Community_65.md) (1 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/geometries.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_ds.py`
 - `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
 
 ## Audit Trail
 
-- EXTRACTED: 274 (96%)
+- EXTRACTED: 270 (96%)
 - INFERRED: 12 (4%)
 - AMBIGUOUS: 0 (0%)
 

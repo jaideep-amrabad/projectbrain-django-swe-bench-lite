@@ -1,41 +1,35 @@
 # Community 737
 
-> 12 nodes · cohesion 0.24
+> 12 nodes · cohesion 0.17
 
 ## Key Concepts
 
-- **BaseModelForm** (12 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **._post_clean()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.validate_unique()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **._get_validation_exclusions()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.save()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **._save_m2m()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **._update_errors()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **.clean()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **For backwards-compatibility, exclude several types of fields from model…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **Call the instance's validate_unique() method and update the form's validation…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **Save the many-to-many fields and generic relations for this form.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
-- **Save this form's self.instance object if commit=True. Otherwise, add a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **ExtendsBehaviorTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_extends.py`
+- **.test_block_override_in_extended_included_template()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_extends.py`
+- **.test_extend_self_error()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_extends.py`
+- **.test_unique_history_per_loader()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_extends.py`
+- **.test_extend_cached()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_extends.py`
+- **.test_extend_missing()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_extends.py`
+- **.test_extend_recursive()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_extends.py`
+- **.test_normal_extend()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_extends.py`
+- **.test_recursive_multiple_loaders()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_extends.py`
+- **Extending should continue even if two loaders return the same name for a…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_extends.py`
+- **ExtendsNode.find_template() initializes history with self.origin (#28071).** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_extends.py`
+- **Catch if a template extends itself and no other matching templates are found.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 473](Community_473.md) (2 shared connections)
-- [Community 168](Community_168.md) (1 shared connections)
-- [Community 3](Community_3.md) (1 shared connections)
-- [Community 202](Community_202.md) (1 shared connections)
-- [Community 152](Community_152.md) (1 shared connections)
-- [Community 349](Community_349.md) (1 shared connections)
-- [Community 415](Community_415.md) (1 shared connections)
-- [Community 176](Community_176.md) (1 shared connections)
+- [Community 0](Community_0.md) (10 shared connections)
+- [Community 28](Community_28.md) (8 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/template_tests/test_extends.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (92%)
-- INFERRED: 2 (8%)
+- EXTRACTED: 21 (72%)
+- INFERRED: 8 (28%)
 - AMBIGUOUS: 0 (0%)
 
 ---

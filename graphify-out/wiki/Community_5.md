@@ -1,78 +1,78 @@
 # Community 5
 
-> 487 nodes · cohesion 0.01
+> 799 nodes · cohesion 0.01
 
 ## Key Concepts
 
+- **datetime** (381 connections) — `raw/code/hyd-evaluation/django-django/django/utils/datetime_safe.py`
 - **core/exceptions.py** (277 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- **conf/__init__.py** (222 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **ImproperlyConfigured** (184 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- **_os.py** (147 connections) — `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
+- **translation/__init__.py** (221 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **ValidationError** (170 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
+- **django/utils/__init__.py** (127 connections) — `raw/code/hyd-evaluation/django-django/django/utils/__init__.py`
+- **django/forms/__init__.py** (126 connections) — `raw/code/hyd-evaluation/django-django/django/forms/__init__.py`
+- **functional.py** (120 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
 - **timezone.py** (115 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
+- **contrib/admin/options.py** (105 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
+- **models/fields/__init__.py** (103 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/__init__.py`
+- **core/__init__.py** (100 connections) — `raw/code/hyd-evaluation/django-django/django/core/__init__.py`
 - **django/__init__.py** (88 connections) — `raw/code/hyd-evaluation/django-django/django/__init__.py`
-- **core/management/__init__.py** (70 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **db/utils.py** (70 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **test_utils/tests.py** (68 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
-- **import_string()** (57 connections) — `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
-- **DatabaseError** (56 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **deprecation.py** (54 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **sessions_tests/tests.py** (52 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
-- **FileSystemStorage** (51 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **files/storage.py** (46 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
-- **file_storage/tests.py** (45 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- **staticfiles_tests/test_management.py** (45 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_management.py`
-- **RemovedInDjango31Warning** (42 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
-- **main.py** (39 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- **views/debug.py** (38 connections) — `raw/code/hyd-evaluation/django-django/django/views/debug.py`
-- **test_writer.py** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **multipartparser.py** (37 connections) — `raw/code/hyd-evaluation/django-django/django/http/multipartparser.py`
-- **module_loading.py** (37 connections) — `raw/code/hyd-evaluation/django-django/django/utils/module_loading.py`
-- **IntegrityError** (35 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
-- **staticfiles/storage.py** (34 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/storage.py`
-- *... and 462 more nodes in this community*
+- **django/forms/fields.py** (76 connections) — `raw/code/hyd-evaluation/django-django/django/forms/fields.py`
+- **django/forms/widgets.py** (75 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
+- **related.py** (73 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/related.py`
+- **gettext()** (72 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
+- **lazy()** (68 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **forms/models.py** (65 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **admin/utils.py** (60 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
+- **utils/html.py** (60 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **db/models/base.py** (57 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **admin_list.py** (55 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
+- **WidgetTest** (55 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/base.py`
+- **auth_tests/test_forms.py** (52 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_forms.py`
+- **test_array.py** (51 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_array.py`
+- *... and 774 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (173 shared connections)
-- [Community 1](Community_1.md) (157 shared connections)
-- [Community 24](Community_24.md) (156 shared connections)
-- [Community 8](Community_8.md) (78 shared connections)
-- [Community 12](Community_12.md) (69 shared connections)
-- [Community 74](Community_74.md) (68 shared connections)
-- [Community 21](Community_21.md) (53 shared connections)
-- [Community 16](Community_16.md) (49 shared connections)
-- [Community 90](Community_90.md) (30 shared connections)
-- [Community 39](Community_39.md) (28 shared connections)
-- [Community 11](Community_11.md) (28 shared connections)
-- [Community 14](Community_14.md) (27 shared connections)
+- [Community 0](Community_0.md) (401 shared connections)
+- [Community 1](Community_1.md) (185 shared connections)
+- [Community 9](Community_9.md) (124 shared connections)
+- [Community 2](Community_2.md) (105 shared connections)
+- [Community 42](Community_42.md) (95 shared connections)
+- [Community 16](Community_16.md) (86 shared connections)
+- [Community 38](Community_38.md) (72 shared connections)
+- [Community 19](Community_19.md) (71 shared connections)
+- [Community 74](Community_74.md) (59 shared connections)
+- [Community 634](Community_634.md) (54 shared connections)
+- [Community 350](Community_350.md) (53 shared connections)
+- [Community 7](Community_7.md) (51 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/__main__.py`
-- `raw/code/hyd-evaluation/django-django/django/apps/config.py`
-- `raw/code/hyd-evaluation/django-django/django/apps/registry.py`
-- `raw/code/hyd-evaluation/django-django/django/bin/django-admin.py`
-- `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/conf/global_settings.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/actions.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/admin/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/migrations/0001_initial.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/filters.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/forms.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/admin/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/options.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_urls.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/log.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/utils.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/main.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/tokens.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/validators.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/middleware.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/base.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cache.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/sessions/backends/cached_db.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/widgets.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/forms.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/changepassword.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/createsuperuser.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3327 (98%)
-- INFERRED: 51 (2%)
+- EXTRACTED: 5530 (95%)
+- INFERRED: 303 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---
