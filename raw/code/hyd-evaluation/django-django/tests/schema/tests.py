@@ -4,7 +4,6 @@ import unittest
 from copy import copy
 from unittest import mock
 
-from django.core.exceptions import FieldError
 from django.core.management.color import no_style
 from django.db import (
     DatabaseError, DataError, IntegrityError, OperationalError, connection,
@@ -12,21 +11,15 @@ from django.db import (
 from django.db.models import (
     CASCADE, PROTECT, AutoField, BigAutoField, BigIntegerField, BinaryField,
     BooleanField, CharField, CheckConstraint, DateField, DateTimeField,
-    DecimalField, F, FloatField, ForeignKey, ForeignObject, Index,
-    IntegerField, JSONField, ManyToManyField, Model, OneToOneField, OrderBy,
-    PositiveIntegerField, Q, SlugField, SmallAutoField, SmallIntegerField,
-    TextField, TimeField, UniqueConstraint, UUIDField, Value,
+    ForeignKey, ForeignObject, Index, IntegerField, ManyToManyField, Model,
+    OneToOneField, PositiveIntegerField, Q, SlugField, SmallAutoField,
+    SmallIntegerField, TextField, TimeField, UniqueConstraint, UUIDField,
 )
-from django.db.models.fields.json import KeyTextTransform
-from django.db.models.functions import Abs, Cast, Collate, Lower, Random, Upper
-from django.db.models.indexes import IndexExpression
 from django.db.transaction import TransactionManagementError, atomic
 from django.test import (
     TransactionTestCase, skipIfDBFeature, skipUnlessDBFeature,
 )
-from django.test.utils import (
-    CaptureQueriesContext, isolate_apps, register_lookup,
-)
+from django.test.utils import CaptureQueriesContext, isolate_apps
 from django.utils import timezone
 
 from .fields import (
@@ -520,6 +513,7 @@ class SchemaTests(TransactionTestCase):
             'column': editor.quote_name(new_field.name),
         }
         self.assertFalse(any(drop_default_sql in query['sql'] for query in ctx.captured_queries))
+        # Ensure the field is right afterwards
         columns = self.column_classes(Author)
         self.assertEqual(columns['age'][0], connection.features.introspected_field_types['IntegerField'])
         self.assertTrue(columns['age'][1][6])
@@ -553,6 +547,7 @@ class SchemaTests(TransactionTestCase):
         new_field.set_attributes_from_name("surname")
         with connection.schema_editor() as editor:
             editor.add_field(Author, new_field)
+        # Ensure the field is right afterwards
         columns = self.column_classes(Author)
         self.assertEqual(columns['surname'][0], connection.features.introspected_field_types['CharField'])
         self.assertEqual(columns['surname'][1][6],
@@ -577,6 +572,7 @@ class SchemaTests(TransactionTestCase):
         new_field.set_attributes_from_name("awesome")
         with connection.schema_editor() as editor:
             editor.add_field(Author, new_field)
+        # Ensure the field is right afterwards
         columns = self.column_classes(Author)
         # BooleanField are stored as TINYINT(1) on MySQL.
         field_type = columns['awesome'][0]
@@ -629,6 +625,7 @@ class SchemaTests(TransactionTestCase):
         new_field.set_attributes_from_name("bits")
         with connection.schema_editor() as editor:
             editor.add_field(Author, new_field)
+        # Ensure the field is right afterwards
         columns = self.column_classes(Author)
         # MySQL annoyingly uses the same backend, so it'll come back as one of
         # these two types.
@@ -668,6 +665,7 @@ class SchemaTests(TransactionTestCase):
         new_field.set_attributes_from_name("name")
         with connection.schema_editor() as editor:
             editor.alter_field(Author, old_field, new_field, strict=True)
+        # Ensure the field is right afterwards
         columns = self.column_classes(Author)
         self.assertEqual(columns['name'][0], "TextField")
         self.assertTrue(columns['name'][1][6])
@@ -676,6 +674,7 @@ class SchemaTests(TransactionTestCase):
         new_field2.set_attributes_from_name("name")
         with connection.schema_editor() as editor:
             editor.alter_field(Author, new_field, new_field2, strict=True)
+        # Ensure the field is right afterwards
         columns = self.column_classes(Author)
         self.assertEqual(columns['name'][0], "TextField")
         self.assertEqual(bool(columns['name'][1][6]), bool(connection.features.interprets_empty_strings_as_nulls))
@@ -772,15 +771,6 @@ class SchemaTests(TransactionTestCase):
         with connection.schema_editor() as editor:
             editor.alter_field(Note, old_field, new_field, strict=True)
 
-    def test_alter_text_field_to_not_null_with_default_value(self):
-        with connection.schema_editor() as editor:
-            editor.create_model(Note)
-        old_field = Note._meta.get_field('address')
-        new_field = TextField(blank=True, default='', null=False)
-        new_field.set_attributes_from_name('address')
-        with connection.schema_editor() as editor:
-            editor.alter_field(Note, old_field, new_field, strict=True)
-
     @skipUnlessDBFeature('can_defer_constraint_checks', 'can_rollback_ddl')
     def test_alter_fk_checks_deferred_constraints(self):
         """
@@ -863,27 +853,6 @@ class SchemaTests(TransactionTestCase):
         with self.assertRaises(IntegrityError):
             Note.objects.create(info=None)
 
-    @skipUnlessDBFeature('interprets_empty_strings_as_nulls')
-    def test_alter_textual_field_not_null_to_null(self):
-        """
-        Nullability for textual fields is preserved on databases that
-        interpret empty strings as NULLs.
-        """
-        with connection.schema_editor() as editor:
-            editor.create_model(Author)
-        columns = self.column_classes(Author)
-        # Field is nullable.
-        self.assertTrue(columns['uuid'][1][6])
-        # Change to NOT NULL.
-        old_field = Author._meta.get_field('uuid')
-        new_field = SlugField(null=False, blank=True)
-        new_field.set_attributes_from_name('uuid')
-        with connection.schema_editor() as editor:
-            editor.alter_field(Author, old_field, new_field, strict=True)
-        columns = self.column_classes(Author)
-        # Nullability is preserved.
-        self.assertTrue(columns['uuid'][1][6])
-
     def test_alter_numeric_field_keep_null_status(self):
         """
         Changing a field type shouldn't affect the not null status.
@@ -922,6 +891,7 @@ class SchemaTests(TransactionTestCase):
         new_field.set_attributes_from_name("height")
         with connection.schema_editor() as editor:
             editor.alter_field(Author, old_field, new_field, strict=True)
+        # Ensure the field is right afterwards
         columns = self.column_classes(Author)
         self.assertFalse(columns['height'][1][6])
         # Verify default value
@@ -931,7 +901,7 @@ class SchemaTests(TransactionTestCase):
     def test_alter_charfield_to_null(self):
         """
         #24307 - Should skip an alter statement on databases with
-        interprets_empty_strings_as_nulls when changing a CharField to null.
+        interprets_empty_strings_as_null when changing a CharField to null.
         """
         # Create the table
         with connection.schema_editor() as editor:
@@ -1029,7 +999,7 @@ class SchemaTests(TransactionTestCase):
     def test_alter_textfield_to_null(self):
         """
         #24307 - Should skip an alter statement on databases with
-        interprets_empty_strings_as_nulls when changing a TextField to null.
+        interprets_empty_strings_as_null when changing a TextField to null.
         """
         # Create the table
         with connection.schema_editor() as editor:
@@ -1059,6 +1029,7 @@ class SchemaTests(TransactionTestCase):
         new_field.set_attributes_from_name("height")
         with connection.schema_editor() as editor:
             editor.alter_field(AuthorWithDefaultHeight, old_field, new_field, strict=True)
+        # Ensure the field is right afterwards
         columns = self.column_classes(AuthorWithDefaultHeight)
         self.assertFalse(columns['height'][1][6])
 
@@ -1081,6 +1052,7 @@ class SchemaTests(TransactionTestCase):
         new_field.set_attributes_from_name("author")
         with connection.schema_editor() as editor:
             editor.alter_field(Book, old_field, new_field, strict=True)
+        # Ensure the field is right afterwards
         columns = self.column_classes(Book)
         self.assertEqual(columns['author_id'][0], connection.features.introspected_field_types['IntegerField'])
         self.assertForeignKeyExists(Book, 'author_id', 'schema_author')
@@ -1142,6 +1114,7 @@ class SchemaTests(TransactionTestCase):
         new_field.set_attributes_from_name("author")
         with connection.schema_editor() as editor:
             editor.alter_field(BookWithO2O, old_field, new_field, strict=True)
+        # Ensure the field is right afterwards
         columns = self.column_classes(Book)
         self.assertEqual(columns['author_id'][0], connection.features.introspected_field_types['IntegerField'])
         # Ensure the field is not unique anymore
@@ -1173,6 +1146,7 @@ class SchemaTests(TransactionTestCase):
         new_field.set_attributes_from_name("author")
         with connection.schema_editor() as editor:
             editor.alter_field(Book, old_field, new_field, strict=True)
+        # Ensure the field is right afterwards
         columns = self.column_classes(BookWithO2O)
         self.assertEqual(columns['author_id'][0], connection.features.introspected_field_types['IntegerField'])
         # Ensure the field is unique now
@@ -1533,6 +1507,7 @@ class SchemaTests(TransactionTestCase):
         new_field.set_attributes_from_name("display_name")
         with connection.schema_editor() as editor:
             editor.alter_field(Author, old_field, new_field, strict=True)
+        # Ensure the field is right afterwards
         columns = self.column_classes(Author)
         self.assertEqual(columns['display_name'][0], connection.features.introspected_field_types['CharField'])
         self.assertNotIn("name", columns)
@@ -2207,262 +2182,6 @@ class SchemaTests(TransactionTestCase):
             AuthorWithUniqueNameAndBirthday._meta.constraints = []
             editor.remove_constraint(AuthorWithUniqueNameAndBirthday, constraint)
 
-    def test_unique_constraint(self):
-        with connection.schema_editor() as editor:
-            editor.create_model(Author)
-        constraint = UniqueConstraint(fields=['name'], name='name_uq')
-        # Add constraint.
-        with connection.schema_editor() as editor:
-            editor.add_constraint(Author, constraint)
-            sql = constraint.create_sql(Author, editor)
-        table = Author._meta.db_table
-        self.assertIs(sql.references_table(table), True)
-        self.assertIs(sql.references_column(table, 'name'), True)
-        # Remove constraint.
-        with connection.schema_editor() as editor:
-            editor.remove_constraint(Author, constraint)
-        self.assertNotIn(constraint.name, self.get_constraints(table))
-
-    @skipUnlessDBFeature('supports_expression_indexes')
-    def test_func_unique_constraint(self):
-        with connection.schema_editor() as editor:
-            editor.create_model(Author)
-        constraint = UniqueConstraint(Upper('name').desc(), name='func_upper_uq')
-        # Add constraint.
-        with connection.schema_editor() as editor:
-            editor.add_constraint(Author, constraint)
-            sql = constraint.create_sql(Author, editor)
-        table = Author._meta.db_table
-        constraints = self.get_constraints(table)
-        if connection.features.supports_index_column_ordering:
-            self.assertIndexOrder(table, constraint.name, ['DESC'])
-        self.assertIn(constraint.name, constraints)
-        self.assertIs(constraints[constraint.name]['unique'], True)
-        # SQL contains a database function.
-        self.assertIs(sql.references_column(table, 'name'), True)
-        self.assertIn('UPPER(%s)' % editor.quote_name('name'), str(sql))
-        # Remove constraint.
-        with connection.schema_editor() as editor:
-            editor.remove_constraint(Author, constraint)
-        self.assertNotIn(constraint.name, self.get_constraints(table))
-
-    @skipUnlessDBFeature('supports_expression_indexes')
-    def test_composite_func_unique_constraint(self):
-        with connection.schema_editor() as editor:
-            editor.create_model(Author)
-            editor.create_model(BookWithSlug)
-        constraint = UniqueConstraint(
-            Upper('title'),
-            Lower('slug'),
-            name='func_upper_lower_unq',
-        )
-        # Add constraint.
-        with connection.schema_editor() as editor:
-            editor.add_constraint(BookWithSlug, constraint)
-            sql = constraint.create_sql(BookWithSlug, editor)
-        table = BookWithSlug._meta.db_table
-        constraints = self.get_constraints(table)
-        self.assertIn(constraint.name, constraints)
-        self.assertIs(constraints[constraint.name]['unique'], True)
-        # SQL contains database functions.
-        self.assertIs(sql.references_column(table, 'title'), True)
-        self.assertIs(sql.references_column(table, 'slug'), True)
-        sql = str(sql)
-        self.assertIn('UPPER(%s)' % editor.quote_name('title'), sql)
-        self.assertIn('LOWER(%s)' % editor.quote_name('slug'), sql)
-        self.assertLess(sql.index('UPPER'), sql.index('LOWER'))
-        # Remove constraint.
-        with connection.schema_editor() as editor:
-            editor.remove_constraint(BookWithSlug, constraint)
-        self.assertNotIn(constraint.name, self.get_constraints(table))
-
-    @skipUnlessDBFeature('supports_expression_indexes')
-    def test_unique_constraint_field_and_expression(self):
-        with connection.schema_editor() as editor:
-            editor.create_model(Author)
-        constraint = UniqueConstraint(
-            F('height').desc(),
-            'uuid',
-            Lower('name').asc(),
-            name='func_f_lower_field_unq',
-        )
-        # Add constraint.
-        with connection.schema_editor() as editor:
-            editor.add_constraint(Author, constraint)
-            sql = constraint.create_sql(Author, editor)
-        table = Author._meta.db_table
-        if connection.features.supports_index_column_ordering:
-            self.assertIndexOrder(table, constraint.name, ['DESC', 'ASC', 'ASC'])
-        constraints = self.get_constraints(table)
-        self.assertIs(constraints[constraint.name]['unique'], True)
-        self.assertEqual(len(constraints[constraint.name]['columns']), 3)
-        self.assertEqual(constraints[constraint.name]['columns'][1], 'uuid')
-        # SQL contains database functions and columns.
-        self.assertIs(sql.references_column(table, 'height'), True)
-        self.assertIs(sql.references_column(table, 'name'), True)
-        self.assertIs(sql.references_column(table, 'uuid'), True)
-        self.assertIn('LOWER(%s)' % editor.quote_name('name'), str(sql))
-        # Remove constraint.
-        with connection.schema_editor() as editor:
-            editor.remove_constraint(Author, constraint)
-        self.assertNotIn(constraint.name, self.get_constraints(table))
-
-    @skipUnlessDBFeature('supports_expression_indexes', 'supports_partial_indexes')
-    def test_func_unique_constraint_partial(self):
-        with connection.schema_editor() as editor:
-            editor.create_model(Author)
-        constraint = UniqueConstraint(
-            Upper('name'),
-            name='func_upper_cond_weight_uq',
-            condition=Q(weight__isnull=False),
-        )
-        # Add constraint.
-        with connection.schema_editor() as editor:
-            editor.add_constraint(Author, constraint)
-            sql = constraint.create_sql(Author, editor)
-        table = Author._meta.db_table
-        constraints = self.get_constraints(table)
-        self.assertIn(constraint.name, constraints)
-        self.assertIs(constraints[constraint.name]['unique'], True)
-        self.assertIs(sql.references_column(table, 'name'), True)
-        self.assertIn('UPPER(%s)' % editor.quote_name('name'), str(sql))
-        self.assertIn(
-            'WHERE %s IS NOT NULL' % editor.quote_name('weight'),
-            str(sql),
-        )
-        # Remove constraint.
-        with connection.schema_editor() as editor:
-            editor.remove_constraint(Author, constraint)
-        self.assertNotIn(constraint.name, self.get_constraints(table))
-
-    @skipUnlessDBFeature('supports_expression_indexes', 'supports_covering_indexes')
-    def test_func_unique_constraint_covering(self):
-        with connection.schema_editor() as editor:
-            editor.create_model(Author)
-        constraint = UniqueConstraint(
-            Upper('name'),
-            name='func_upper_covering_uq',
-            include=['weight', 'height'],
-        )
-        # Add constraint.
-        with connection.schema_editor() as editor:
-            editor.add_constraint(Author, constraint)
-            sql = constraint.create_sql(Author, editor)
-        table = Author._meta.db_table
-        constraints = self.get_constraints(table)
-        self.assertIn(constraint.name, constraints)
-        self.assertIs(constraints[constraint.name]['unique'], True)
-        self.assertEqual(
-            constraints[constraint.name]['columns'],
-            [None, 'weight', 'height'],
-        )
-        self.assertIs(sql.references_column(table, 'name'), True)
-        self.assertIs(sql.references_column(table, 'weight'), True)
-        self.assertIs(sql.references_column(table, 'height'), True)
-        self.assertIn('UPPER(%s)' % editor.quote_name('name'), str(sql))
-        self.assertIn(
-            'INCLUDE (%s, %s)' % (
-                editor.quote_name('weight'),
-                editor.quote_name('height'),
-            ),
-            str(sql),
-        )
-        # Remove constraint.
-        with connection.schema_editor() as editor:
-            editor.remove_constraint(Author, constraint)
-        self.assertNotIn(constraint.name, self.get_constraints(table))
-
-    @skipUnlessDBFeature('supports_expression_indexes')
-    def test_func_unique_constraint_lookups(self):
-        with connection.schema_editor() as editor:
-            editor.create_model(Author)
-        with register_lookup(CharField, Lower), register_lookup(IntegerField, Abs):
-            constraint = UniqueConstraint(
-                F('name__lower'),
-                F('weight__abs'),
-                name='func_lower_abs_lookup_uq',
-            )
-            # Add constraint.
-            with connection.schema_editor() as editor:
-                editor.add_constraint(Author, constraint)
-                sql = constraint.create_sql(Author, editor)
-        table = Author._meta.db_table
-        constraints = self.get_constraints(table)
-        self.assertIn(constraint.name, constraints)
-        self.assertIs(constraints[constraint.name]['unique'], True)
-        # SQL contains columns.
-        self.assertIs(sql.references_column(table, 'name'), True)
-        self.assertIs(sql.references_column(table, 'weight'), True)
-        # Remove constraint.
-        with connection.schema_editor() as editor:
-            editor.remove_constraint(Author, constraint)
-        self.assertNotIn(constraint.name, self.get_constraints(table))
-
-    @skipUnlessDBFeature('supports_expression_indexes')
-    def test_func_unique_constraint_collate(self):
-        collation = connection.features.test_collations.get('non_default')
-        if not collation:
-            self.skipTest(
-                'This backend does not support case-insensitive collations.'
-            )
-        with connection.schema_editor() as editor:
-            editor.create_model(Author)
-            editor.create_model(BookWithSlug)
-        constraint = UniqueConstraint(
-            Collate(F('title'), collation=collation).desc(),
-            Collate('slug', collation=collation),
-            name='func_collate_uq',
-        )
-        # Add constraint.
-        with connection.schema_editor() as editor:
-            editor.add_constraint(BookWithSlug, constraint)
-            sql = constraint.create_sql(BookWithSlug, editor)
-        table = BookWithSlug._meta.db_table
-        constraints = self.get_constraints(table)
-        self.assertIn(constraint.name, constraints)
-        self.assertIs(constraints[constraint.name]['unique'], True)
-        if connection.features.supports_index_column_ordering:
-            self.assertIndexOrder(table, constraint.name, ['DESC', 'ASC'])
-        # SQL contains columns and a collation.
-        self.assertIs(sql.references_column(table, 'title'), True)
-        self.assertIs(sql.references_column(table, 'slug'), True)
-        self.assertIn('COLLATE %s' % editor.quote_name(collation), str(sql))
-        # Remove constraint.
-        with connection.schema_editor() as editor:
-            editor.remove_constraint(BookWithSlug, constraint)
-        self.assertNotIn(constraint.name, self.get_constraints(table))
-
-    @skipIfDBFeature('supports_expression_indexes')
-    def test_func_unique_constraint_unsupported(self):
-        # UniqueConstraint is ignored on databases that don't support indexes on
-        # expressions.
-        with connection.schema_editor() as editor:
-            editor.create_model(Author)
-        constraint = UniqueConstraint(F('name'), name='func_name_uq')
-        with connection.schema_editor() as editor, self.assertNumQueries(0):
-            self.assertIsNone(editor.add_constraint(Author, constraint))
-            self.assertIsNone(editor.remove_constraint(Author, constraint))
-
-    @skipUnlessDBFeature('supports_expression_indexes')
-    def test_func_unique_constraint_nonexistent_field(self):
-        constraint = UniqueConstraint(Lower('nonexistent'), name='func_nonexistent_uq')
-        msg = (
-            "Cannot resolve keyword 'nonexistent' into field. Choices are: "
-            "height, id, name, uuid, weight"
-        )
-        with self.assertRaisesMessage(FieldError, msg):
-            with connection.schema_editor() as editor:
-                editor.add_constraint(Author, constraint)
-
-    @skipUnlessDBFeature('supports_expression_indexes')
-    def test_func_unique_constraint_nondeterministic(self):
-        with connection.schema_editor() as editor:
-            editor.create_model(Author)
-        constraint = UniqueConstraint(Random(), name='func_random_uq')
-        with connection.schema_editor() as editor:
-            with self.assertRaises(DatabaseError):
-                editor.add_constraint(Author, constraint)
-
     def test_index_together(self):
         """
         Tests removing and adding index_together constraints on a model.
@@ -2612,6 +2331,7 @@ class SchemaTests(TransactionTestCase):
         # Alter the table
         with connection.schema_editor(atomic=connection.features.supports_atomic_references_rename) as editor:
             editor.alter_db_table(Author, "schema_author", "schema_otherauthor")
+        # Ensure the table is there afterwards
         Author._meta.db_table = "schema_otherauthor"
         columns = self.column_classes(Author)
         self.assertEqual(columns['name'][0], connection.features.introspected_field_types['CharField'])
@@ -2760,366 +2480,6 @@ class SchemaTests(TransactionTestCase):
         # The text_field index is present if the database supports it.
         assertion = self.assertIn if connection.features.supports_index_on_text_field else self.assertNotIn
         assertion('text_field', self.get_indexes(AuthorTextFieldWithIndex._meta.db_table))
-
-    def _index_expressions_wrappers(self):
-        index_expression = IndexExpression()
-        index_expression.set_wrapper_classes(connection)
-        return ', '.join([
-            wrapper_cls.__qualname__ for wrapper_cls in index_expression.wrapper_classes
-        ])
-
-    @skipUnlessDBFeature('supports_expression_indexes')
-    def test_func_index_multiple_wrapper_references(self):
-        index = Index(OrderBy(F('name').desc(), descending=True), name='name')
-        msg = (
-            "Multiple references to %s can't be used in an indexed expression."
-            % self._index_expressions_wrappers()
-        )
-        with connection.schema_editor() as editor:
-            with self.assertRaisesMessage(ValueError, msg):
-                editor.add_index(Author, index)
-
-    @skipUnlessDBFeature('supports_expression_indexes')
-    def test_func_index_invalid_topmost_expressions(self):
-        index = Index(Upper(F('name').desc()), name='name')
-        msg = (
-            '%s must be topmost expressions in an indexed expression.'
-            % self._index_expressions_wrappers()
-        )
-        with connection.schema_editor() as editor:
-            with self.assertRaisesMessage(ValueError, msg):
-                editor.add_index(Author, index)
-
-    @skipUnlessDBFeature('supports_expression_indexes')
-    def test_func_index(self):
-        with connection.schema_editor() as editor:
-            editor.create_model(Author)
-        index = Index(Lower('name').desc(), name='func_lower_idx')
-        # Add index.
-        with connection.schema_editor() as editor:
-            editor.add_index(Author, index)
-            sql = index.create_sql(Author, editor)
-        table = Author._meta.db_table
-        if connection.features.supports_index_column_ordering:
-            self.assertIndexOrder(table, index.name, ['DESC'])
-        # SQL contains a database function.
-        self.assertIs(sql.references_column(table, 'name'), True)
-        self.assertIn('LOWER(%s)' % editor.quote_name('name'), str(sql))
-        # Remove index.
-        with connection.schema_editor() as editor:
-            editor.remove_index(Author, index)
-        self.assertNotIn(index.name, self.get_constraints(table))
-
-    @skipUnlessDBFeature('supports_expression_indexes')
-    def test_func_index_f(self):
-        with connection.schema_editor() as editor:
-            editor.create_model(Tag)
-        index = Index('slug', F('title').desc(), name='func_f_idx')
-        # Add index.
-        with connection.schema_editor() as editor:
-            editor.add_index(Tag, index)
-            sql = index.create_sql(Tag, editor)
-        table = Tag._meta.db_table
-        self.assertIn(index.name, self.get_constraints(table))
-        if connection.features.supports_index_column_ordering:
-            self.assertIndexOrder(Tag._meta.db_table, index.name, ['ASC', 'DESC'])
-        # SQL contains columns.
-        self.assertIs(sql.references_column(table, 'slug'), True)
-        self.assertIs(sql.references_column(table, 'title'), True)
-        # Remove index.
-        with connection.schema_editor() as editor:
-            editor.remove_index(Tag, index)
-        self.assertNotIn(index.name, self.get_constraints(table))
-
-    @skipUnlessDBFeature('supports_expression_indexes')
-    def test_func_index_lookups(self):
-        with connection.schema_editor() as editor:
-            editor.create_model(Author)
-        with register_lookup(CharField, Lower), register_lookup(IntegerField, Abs):
-            index = Index(
-                F('name__lower'),
-                F('weight__abs'),
-                name='func_lower_abs_lookup_idx',
-            )
-            # Add index.
-            with connection.schema_editor() as editor:
-                editor.add_index(Author, index)
-                sql = index.create_sql(Author, editor)
-        table = Author._meta.db_table
-        self.assertIn(index.name, self.get_constraints(table))
-        # SQL contains columns.
-        self.assertIs(sql.references_column(table, 'name'), True)
-        self.assertIs(sql.references_column(table, 'weight'), True)
-        # Remove index.
-        with connection.schema_editor() as editor:
-            editor.remove_index(Author, index)
-        self.assertNotIn(index.name, self.get_constraints(table))
-
-    @skipUnlessDBFeature('supports_expression_indexes')
-    def test_composite_func_index(self):
-        with connection.schema_editor() as editor:
-            editor.create_model(Author)
-        index = Index(Lower('name'), Upper('name'), name='func_lower_upper_idx')
-        # Add index.
-        with connection.schema_editor() as editor:
-            editor.add_index(Author, index)
-            sql = index.create_sql(Author, editor)
-        table = Author._meta.db_table
-        self.assertIn(index.name, self.get_constraints(table))
-        # SQL contains database functions.
-        self.assertIs(sql.references_column(table, 'name'), True)
-        sql = str(sql)
-        self.assertIn('LOWER(%s)' % editor.quote_name('name'), sql)
-        self.assertIn('UPPER(%s)' % editor.quote_name('name'), sql)
-        self.assertLess(sql.index('LOWER'), sql.index('UPPER'))
-        # Remove index.
-        with connection.schema_editor() as editor:
-            editor.remove_index(Author, index)
-        self.assertNotIn(index.name, self.get_constraints(table))
-
-    @skipUnlessDBFeature('supports_expression_indexes')
-    def test_composite_func_index_field_and_expression(self):
-        with connection.schema_editor() as editor:
-            editor.create_model(Author)
-            editor.create_model(Book)
-        index = Index(
-            F('author').desc(),
-            Lower('title').asc(),
-            'pub_date',
-            name='func_f_lower_field_idx',
-        )
-        # Add index.
-        with connection.schema_editor() as editor:
-            editor.add_index(Book, index)
-            sql = index.create_sql(Book, editor)
-        table = Book._meta.db_table
-        constraints = self.get_constraints(table)
-        if connection.features.supports_index_column_ordering:
-            self.assertIndexOrder(table, index.name, ['DESC', 'ASC', 'ASC'])
-        self.assertEqual(len(constraints[index.name]['columns']), 3)
-        self.assertEqual(constraints[index.name]['columns'][2], 'pub_date')
-        # SQL contains database functions and columns.
-        self.assertIs(sql.references_column(table, 'author_id'), True)
-        self.assertIs(sql.references_column(table, 'title'), True)
-        self.assertIs(sql.references_column(table, 'pub_date'), True)
-        self.assertIn('LOWER(%s)' % editor.quote_name('title'), str(sql))
-        # Remove index.
-        with connection.schema_editor() as editor:
-            editor.remove_index(Book, index)
-        self.assertNotIn(index.name, self.get_constraints(table))
-
-    @skipUnlessDBFeature('supports_expression_indexes')
-    @isolate_apps('schema')
-    def test_func_index_f_decimalfield(self):
-        class Node(Model):
-            value = DecimalField(max_digits=5, decimal_places=2)
-
-            class Meta:
-                app_label = 'schema'
-
-        with connection.schema_editor() as editor:
-            editor.create_model(Node)
-        index = Index(F('value'), name='func_f_decimalfield_idx')
-        # Add index.
-        with connection.schema_editor() as editor:
-            editor.add_index(Node, index)
-            sql = index.create_sql(Node, editor)
-        table = Node._meta.db_table
-        self.assertIn(index.name, self.get_constraints(table))
-        self.assertIs(sql.references_column(table, 'value'), True)
-        # SQL doesn't contain casting.
-        self.assertNotIn('CAST', str(sql))
-        # Remove index.
-        with connection.schema_editor() as editor:
-            editor.remove_index(Node, index)
-        self.assertNotIn(index.name, self.get_constraints(table))
-
-    @skipUnlessDBFeature('supports_expression_indexes')
-    def test_func_index_cast(self):
-        with connection.schema_editor() as editor:
-            editor.create_model(Author)
-        index = Index(Cast('weight', FloatField()), name='func_cast_idx')
-        # Add index.
-        with connection.schema_editor() as editor:
-            editor.add_index(Author, index)
-            sql = index.create_sql(Author, editor)
-        table = Author._meta.db_table
-        self.assertIn(index.name, self.get_constraints(table))
-        self.assertIs(sql.references_column(table, 'weight'), True)
-        # Remove index.
-        with connection.schema_editor() as editor:
-            editor.remove_index(Author, index)
-        self.assertNotIn(index.name, self.get_constraints(table))
-
-    @skipUnlessDBFeature('supports_expression_indexes')
-    def test_func_index_collate(self):
-        collation = connection.features.test_collations.get('non_default')
-        if not collation:
-            self.skipTest(
-                'This backend does not support case-insensitive collations.'
-            )
-        with connection.schema_editor() as editor:
-            editor.create_model(Author)
-            editor.create_model(BookWithSlug)
-        index = Index(
-            Collate(F('title'), collation=collation).desc(),
-            Collate('slug', collation=collation),
-            name='func_collate_idx',
-        )
-        # Add index.
-        with connection.schema_editor() as editor:
-            editor.add_index(BookWithSlug, index)
-            sql = index.create_sql(BookWithSlug, editor)
-        table = Book._meta.db_table
-        self.assertIn(index.name, self.get_constraints(table))
-        if connection.features.supports_index_column_ordering:
-            self.assertIndexOrder(table, index.name, ['DESC', 'ASC'])
-        # SQL contains columns and a collation.
-        self.assertIs(sql.references_column(table, 'title'), True)
-        self.assertIs(sql.references_column(table, 'slug'), True)
-        self.assertIn('COLLATE %s' % editor.quote_name(collation), str(sql))
-        # Remove index.
-        with connection.schema_editor() as editor:
-            editor.remove_index(Book, index)
-        self.assertNotIn(index.name, self.get_constraints(table))
-
-    @skipUnlessDBFeature('supports_expression_indexes')
-    @skipIfDBFeature('collate_as_index_expression')
-    def test_func_index_collate_f_ordered(self):
-        collation = connection.features.test_collations.get('non_default')
-        if not collation:
-            self.skipTest(
-                'This backend does not support case-insensitive collations.'
-            )
-        with connection.schema_editor() as editor:
-            editor.create_model(Author)
-        index = Index(
-            Collate(F('name').desc(), collation=collation),
-            name='func_collate_f_desc_idx',
-        )
-        # Add index.
-        with connection.schema_editor() as editor:
-            editor.add_index(Author, index)
-            sql = index.create_sql(Author, editor)
-        table = Author._meta.db_table
-        self.assertIn(index.name, self.get_constraints(table))
-        if connection.features.supports_index_column_ordering:
-            self.assertIndexOrder(table, index.name, ['DESC'])
-        # SQL contains columns and a collation.
-        self.assertIs(sql.references_column(table, 'name'), True)
-        self.assertIn('COLLATE %s' % editor.quote_name(collation), str(sql))
-        # Remove index.
-        with connection.schema_editor() as editor:
-            editor.remove_index(Author, index)
-        self.assertNotIn(index.name, self.get_constraints(table))
-
-    @skipUnlessDBFeature('supports_expression_indexes')
-    def test_func_index_calc(self):
-        with connection.schema_editor() as editor:
-            editor.create_model(Author)
-        index = Index(F('height') / (F('weight') + Value(5)), name='func_calc_idx')
-        # Add index.
-        with connection.schema_editor() as editor:
-            editor.add_index(Author, index)
-            sql = index.create_sql(Author, editor)
-        table = Author._meta.db_table
-        self.assertIn(index.name, self.get_constraints(table))
-        # SQL contains columns and expressions.
-        self.assertIs(sql.references_column(table, 'height'), True)
-        self.assertIs(sql.references_column(table, 'weight'), True)
-        sql = str(sql)
-        self.assertIs(
-            sql.index(editor.quote_name('height')) <
-            sql.index('/') <
-            sql.index(editor.quote_name('weight')) <
-            sql.index('+') <
-            sql.index('5'),
-            True,
-        )
-        # Remove index.
-        with connection.schema_editor() as editor:
-            editor.remove_index(Author, index)
-        self.assertNotIn(index.name, self.get_constraints(table))
-
-    @skipUnlessDBFeature('supports_expression_indexes', 'supports_json_field')
-    @isolate_apps('schema')
-    def test_func_index_json_key_transform(self):
-        class JSONModel(Model):
-            field = JSONField()
-
-            class Meta:
-                app_label = 'schema'
-
-        with connection.schema_editor() as editor:
-            editor.create_model(JSONModel)
-        self.isolated_local_models = [JSONModel]
-        index = Index('field__some_key', name='func_json_key_idx')
-        with connection.schema_editor() as editor:
-            editor.add_index(JSONModel, index)
-            sql = index.create_sql(JSONModel, editor)
-        table = JSONModel._meta.db_table
-        self.assertIn(index.name, self.get_constraints(table))
-        self.assertIs(sql.references_column(table, 'field'), True)
-        with connection.schema_editor() as editor:
-            editor.remove_index(JSONModel, index)
-        self.assertNotIn(index.name, self.get_constraints(table))
-
-    @skipUnlessDBFeature('supports_expression_indexes', 'supports_json_field')
-    @isolate_apps('schema')
-    def test_func_index_json_key_transform_cast(self):
-        class JSONModel(Model):
-            field = JSONField()
-
-            class Meta:
-                app_label = 'schema'
-
-        with connection.schema_editor() as editor:
-            editor.create_model(JSONModel)
-        self.isolated_local_models = [JSONModel]
-        index = Index(
-            Cast(KeyTextTransform('some_key', 'field'), IntegerField()),
-            name='func_json_key_cast_idx',
-        )
-        with connection.schema_editor() as editor:
-            editor.add_index(JSONModel, index)
-            sql = index.create_sql(JSONModel, editor)
-        table = JSONModel._meta.db_table
-        self.assertIn(index.name, self.get_constraints(table))
-        self.assertIs(sql.references_column(table, 'field'), True)
-        with connection.schema_editor() as editor:
-            editor.remove_index(JSONModel, index)
-        self.assertNotIn(index.name, self.get_constraints(table))
-
-    @skipIfDBFeature('supports_expression_indexes')
-    def test_func_index_unsupported(self):
-        # Index is ignored on databases that don't support indexes on
-        # expressions.
-        with connection.schema_editor() as editor:
-            editor.create_model(Author)
-        index = Index(F('name'), name='random_idx')
-        with connection.schema_editor() as editor, self.assertNumQueries(0):
-            self.assertIsNone(editor.add_index(Author, index))
-            self.assertIsNone(editor.remove_index(Author, index))
-
-    @skipUnlessDBFeature('supports_expression_indexes')
-    def test_func_index_nonexistent_field(self):
-        index = Index(Lower('nonexistent'), name='func_nonexistent_idx')
-        msg = (
-            "Cannot resolve keyword 'nonexistent' into field. Choices are: "
-            "height, id, name, uuid, weight"
-        )
-        with self.assertRaisesMessage(FieldError, msg):
-            with connection.schema_editor() as editor:
-                editor.add_index(Author, index)
-
-    @skipUnlessDBFeature('supports_expression_indexes')
-    def test_func_index_nondeterministic(self):
-        with connection.schema_editor() as editor:
-            editor.create_model(Author)
-        index = Index(Random(), name='func_random_idx')
-        with connection.schema_editor() as editor:
-            with self.assertRaises(DatabaseError):
-                editor.add_index(Author, index)
 
     def test_primary_key(self):
         """
@@ -3295,7 +2655,7 @@ class SchemaTests(TransactionTestCase):
 
             constraint_name = 'CamelCaseUniqConstraint'
             expected_constraint_name = identifier_converter(constraint_name)
-            editor.execute(editor._create_unique_sql(model, [field], constraint_name))
+            editor.execute(editor._create_unique_sql(model, [field.column], constraint_name))
             self.assertIn(expected_constraint_name, self.get_constraints(model._meta.db_table))
             editor.alter_field(model, get_field(unique=True), field, strict=True)
             self.assertNotIn(expected_constraint_name, self.get_constraints(model._meta.db_table))
@@ -3367,60 +2727,6 @@ class SchemaTests(TransactionTestCase):
             )
             if connection.features.can_introspect_default:
                 self.assertIsNone(field.default)
-
-    def test_add_field_default_nullable(self):
-        with connection.schema_editor() as editor:
-            editor.create_model(Author)
-        # Add new nullable CharField with a default.
-        new_field = CharField(max_length=15, blank=True, null=True, default='surname')
-        new_field.set_attributes_from_name('surname')
-        with connection.schema_editor() as editor:
-            editor.add_field(Author, new_field)
-        Author.objects.create(name='Anonymous1')
-        with connection.cursor() as cursor:
-            cursor.execute('SELECT surname FROM schema_author;')
-            item = cursor.fetchall()[0]
-            self.assertIsNone(item[0])
-            field = next(
-                f
-                for f in connection.introspection.get_table_description(
-                    cursor,
-                    'schema_author',
-                )
-                if f.name == 'surname'
-            )
-            # Field is still nullable.
-            self.assertTrue(field.null_ok)
-            # The database default is no longer set.
-            if connection.features.can_introspect_default:
-                self.assertIn(field.default, ['NULL', None])
-
-    def test_add_textfield_default_nullable(self):
-        with connection.schema_editor() as editor:
-            editor.create_model(Author)
-        # Add new nullable TextField with a default.
-        new_field = TextField(blank=True, null=True, default='text')
-        new_field.set_attributes_from_name('description')
-        with connection.schema_editor() as editor:
-            editor.add_field(Author, new_field)
-        Author.objects.create(name='Anonymous1')
-        with connection.cursor() as cursor:
-            cursor.execute('SELECT description FROM schema_author;')
-            item = cursor.fetchall()[0]
-            self.assertIsNone(item[0])
-            field = next(
-                f
-                for f in connection.introspection.get_table_description(
-                    cursor,
-                    'schema_author',
-                )
-                if f.name == 'description'
-            )
-            # Field is still nullable.
-            self.assertTrue(field.null_ok)
-            # The database default is no longer set.
-            if connection.features.can_introspect_default:
-                self.assertIn(field.default, ['NULL', None])
 
     def test_alter_field_default_dropped(self):
         # Create the table
@@ -3877,14 +3183,10 @@ class SchemaTests(TransactionTestCase):
             editor.create_model(Book)
             editor.alter_db_table(Author, 'schema_author', 'schema_renamed_author')
             editor.alter_db_table(Author, 'schema_book', 'schema_renamed_book')
-            try:
-                self.assertGreater(len(editor.deferred_sql), 0)
-                for statement in editor.deferred_sql:
-                    self.assertIs(statement.references_table('schema_author'), False)
-                    self.assertIs(statement.references_table('schema_book'), False)
-            finally:
-                editor.alter_db_table(Author, 'schema_renamed_author', 'schema_author')
-                editor.alter_db_table(Author, 'schema_renamed_book', 'schema_book')
+            self.assertGreater(len(editor.deferred_sql), 0)
+            for statement in editor.deferred_sql:
+                self.assertIs(statement.references_table('schema_author'), False)
+                self.assertIs(statement.references_table('schema_book'), False)
 
     def test_rename_column_renames_deferred_sql_references(self):
         with connection.schema_editor() as editor:

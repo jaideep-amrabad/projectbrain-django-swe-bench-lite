@@ -442,11 +442,7 @@ class Model(metaclass=ModelBase):
                 if val is _DEFERRED:
                     continue
                 _setattr(self, field.attname, val)
-                if kwargs.pop(field.name, NOT_PROVIDED) is not NOT_PROVIDED:
-                    raise TypeError(
-                        f"{cls.__qualname__}() got both positional and "
-                        f"keyword arguments for field '{field.name}'."
-                    )
+                kwargs.pop(field.name, None)
 
         # Now we're left with the unprocessed fields that *must* come from
         # keywords, or default.
@@ -937,7 +933,7 @@ class Model(metaclass=ModelBase):
                         "%s() prohibited to prevent data loss due to unsaved "
                         "related object '%s'." % (operation_name, field.name)
                     )
-                elif getattr(self, field.attname) in field.empty_values:
+                elif getattr(self, field.attname) is None:
                     # Use pk from related object if it has been saved after
                     # an assignment.
                     setattr(self, field.attname, obj.pk)
@@ -947,12 +943,12 @@ class Model(metaclass=ModelBase):
                     field.delete_cached_value(self)
 
     def delete(self, using=None, keep_parents=False):
-        if self.pk is None:
-            raise ValueError(
-                "%s object can't be deleted because its %s attribute is set "
-                "to None." % (self._meta.object_name, self._meta.pk.attname)
-            )
         using = using or router.db_for_write(self.__class__, instance=self)
+        assert self.pk is not None, (
+            "%s object can't be deleted because its %s attribute is set to None." %
+            (self._meta.object_name, self._meta.pk.attname)
+        )
+
         collector = Collector(using=using)
         collector.collect([self], keep_parents=keep_parents)
         return collector.delete()
@@ -971,8 +967,8 @@ class Model(metaclass=ModelBase):
         op = 'gt' if is_next else 'lt'
         order = '' if is_next else '-'
         param = getattr(self, field.attname)
-        q = Q((field.name, param), (f'pk__{op}', self.pk), _connector=Q.AND)
-        q = Q(q, (f'{field.name}__{op}', param), _connector=Q.OR)
+        q = Q(**{'%s__%s' % (field.name, op): param})
+        q = q | Q(**{field.name: param, 'pk__%s' % op: self.pk})
         qs = self.__class__._default_manager.using(self._state.db).filter(**kwargs).filter(q).order_by(
             '%s%s' % (order, field.name), '%spk' % order
         )
@@ -1294,41 +1290,9 @@ class Model(metaclass=ModelBase):
                 *cls._check_indexes(databases),
                 *cls._check_ordering(),
                 *cls._check_constraints(databases),
-                *cls._check_default_pk(),
             ]
 
         return errors
-
-    @classmethod
-    def _check_default_pk(cls):
-        if (
-            not cls._meta.abstract and
-            cls._meta.pk.auto_created and
-            # Inherited PKs are checked in parents models.
-            not (
-                isinstance(cls._meta.pk, OneToOneField) and
-                cls._meta.pk.remote_field.parent_link
-            ) and
-            not settings.is_overridden('DEFAULT_AUTO_FIELD') and
-            cls._meta.app_config and
-            not cls._meta.app_config._is_default_auto_field_overridden
-        ):
-            return [
-                checks.Warning(
-                    f"Auto-created primary key used when not defining a "
-                    f"primary key type, by default "
-                    f"'{settings.DEFAULT_AUTO_FIELD}'.",
-                    hint=(
-                        f"Configure the DEFAULT_AUTO_FIELD setting or the "
-                        f"{cls._meta.app_config.__class__.__qualname__}."
-                        f"default_auto_field attribute to point to a subclass "
-                        f"of AutoField, e.g. 'django.db.models.BigAutoField'."
-                    ),
-                    obj=cls,
-                    id='models.W042',
-                ),
-            ]
-        return []
 
     @classmethod
     def _check_swappable(cls):
@@ -1635,7 +1599,6 @@ class Model(metaclass=ModelBase):
     def _check_indexes(cls, databases):
         """Check fields, names, and conditions of indexes."""
         errors = []
-        references = set()
         for index in cls._meta.indexes:
             # Index name can't start with an underscore or a number, restricted
             # for cross-database compatibility with Oracle.
@@ -1657,11 +1620,6 @@ class Model(metaclass=ModelBase):
                         id='models.E034',
                     ),
                 )
-            if index.contains_expressions:
-                for expression in index.expressions:
-                    references.update(
-                        ref[0] for ref in cls._get_expr_references(expression)
-                    )
         for db in databases:
             if not router.allow_migrate_model(db, cls):
                 continue
@@ -1698,25 +1656,8 @@ class Model(metaclass=ModelBase):
                         id='models.W040',
                     )
                 )
-            if not (
-                connection.features.supports_expression_indexes or
-                'supports_expression_indexes' in cls._meta.required_db_features
-            ) and any(index.contains_expressions for index in cls._meta.indexes):
-                errors.append(
-                    checks.Warning(
-                        '%s does not support indexes on expressions.'
-                        % connection.display_name,
-                        hint=(
-                            "An index won't be created. Silence this warning "
-                            "if you don't care about it."
-                        ),
-                        obj=cls,
-                        id='models.W043',
-                    )
-                )
         fields = [field for index in cls._meta.indexes for field, _ in index.fields_orders]
         fields += [include for index in cls._meta.indexes for include in index.include]
-        fields += references
         errors.extend(cls._check_local_fields(fields, 'indexes'))
         return errors
 
@@ -2045,25 +1986,6 @@ class Model(metaclass=ModelBase):
                         id='models.W039',
                     )
                 )
-            if not (
-                connection.features.supports_expression_indexes or
-                'supports_expression_indexes' in cls._meta.required_db_features
-            ) and any(
-                isinstance(constraint, UniqueConstraint) and constraint.contains_expressions
-                for constraint in cls._meta.constraints
-            ):
-                errors.append(
-                    checks.Warning(
-                        '%s does not support unique constraints on '
-                        'expressions.' % connection.display_name,
-                        hint=(
-                            "A constraint won't be created. Silence this "
-                            "warning if you don't care about it."
-                        ),
-                        obj=cls,
-                        id='models.W044',
-                    )
-                )
             fields = set(chain.from_iterable(
                 (*constraint.fields, *constraint.include)
                 for constraint in cls._meta.constraints if isinstance(constraint, UniqueConstraint)
@@ -2076,12 +1998,6 @@ class Model(metaclass=ModelBase):
                         'supports_partial_indexes' not in cls._meta.required_db_features
                     ) and isinstance(constraint.condition, Q):
                         references.update(cls._get_expr_references(constraint.condition))
-                    if (
-                        connection.features.supports_expression_indexes or
-                        'supports_expression_indexes' not in cls._meta.required_db_features
-                    ) and constraint.contains_expressions:
-                        for expression in constraint.expressions:
-                            references.update(cls._get_expr_references(expression))
                 elif isinstance(constraint, CheckConstraint):
                     if (
                         connection.features.supports_table_check_constraints or
@@ -2107,8 +2023,6 @@ class Model(metaclass=ModelBase):
                 # JOIN must happen at the first lookup.
                 first_lookup = lookups[0]
                 if (
-                    hasattr(field, 'get_transform') and
-                    hasattr(field, 'get_lookup') and
                     field.get_transform(first_lookup) is None and
                     field.get_lookup(first_lookup) is None
                 ):

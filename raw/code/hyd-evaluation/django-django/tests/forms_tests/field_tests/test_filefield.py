@@ -21,12 +21,10 @@ class FileFieldTest(SimpleTestCase):
             f.clean(None, '')
         self.assertEqual('files/test2.pdf', f.clean(None, 'files/test2.pdf'))
         no_file_msg = "'No file was submitted. Check the encoding type on the form.'"
-        file = SimpleUploadedFile(None, b'')
-        file._name = ''
         with self.assertRaisesMessage(ValidationError, no_file_msg):
-            f.clean(file)
+            f.clean(SimpleUploadedFile('', b''))
         with self.assertRaisesMessage(ValidationError, no_file_msg):
-            f.clean(file, '')
+            f.clean(SimpleUploadedFile('', b''), '')
         self.assertEqual('files/test3.pdf', f.clean(None, 'files/test3.pdf'))
         with self.assertRaisesMessage(ValidationError, no_file_msg):
             f.clean('some content that is not a file')

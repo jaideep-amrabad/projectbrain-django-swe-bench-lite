@@ -1,5 +1,4 @@
 from django.contrib.auth.models import User
-from django.core.exceptions import ImproperlyConfigured
 from django.test import override_settings
 
 from .tests import AdminDocsTestCase, TestDataMixin
@@ -55,5 +54,5 @@ class XViewMiddlewareTest(TestDataMixin, AdminDocsTestCase):
             "installed. Edit your MIDDLEWARE setting to insert "
             "'django.contrib.auth.middleware.AuthenticationMiddleware'."
         )
-        with self.assertRaisesMessage(ImproperlyConfigured, msg):
+        with self.assertRaisesMessage(AssertionError, msg):
             self.client.head('/xview/func/')

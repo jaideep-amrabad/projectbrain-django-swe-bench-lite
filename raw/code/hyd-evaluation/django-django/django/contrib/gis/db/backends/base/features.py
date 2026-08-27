@@ -35,6 +35,9 @@ class BaseSpatialFeatures:
     # Is the database able to count vertices on polygons (with `num_points`)?
     supports_num_points_poly = True
 
+    # The following properties indicate if the database backend support
+    # certain lookups (dwithin, left and right, relate, ...)
+    supports_left_right_lookups = False
     # Does the backend support expressions for specifying distance in the
     # dwithin lookup?
     supports_dwithin_distance_expr = True
@@ -53,10 +56,6 @@ class BaseSpatialFeatures:
 
     # Set of options that AsGeoJSON() doesn't support.
     unsupported_geojson_options = {}
-
-    # Does Intersection() return None (rather than an empty GeometryCollection)
-    # for empty results?
-    empty_intersection_returns_none = True
 
     @property
     def supports_bbcontains_lookup(self):

@@ -291,14 +291,10 @@ class QuerySet:
                 'QuerySet indices must be integers or slices, not %s.'
                 % type(k).__name__
             )
-        if (
-            (isinstance(k, int) and k < 0) or
-            (isinstance(k, slice) and (
-                (k.start is not None and k.start < 0) or
-                (k.stop is not None and k.stop < 0)
-            ))
-        ):
-            raise ValueError('Negative indexing is not supported.')
+        assert ((not isinstance(k, slice) and (k >= 0)) or
+                (isinstance(k, slice) and (k.start is None or k.start >= 0) and
+                 (k.stop is None or k.stop >= 0))), \
+            "Negative indexing is not supported."
 
         if self._result_cache is not None:
             return self._result_cache[k]
@@ -484,8 +480,7 @@ class QuerySet:
         # PostgreSQL via the RETURNING ID clause. It should be possible for
         # Oracle as well, but the semantics for extracting the primary keys is
         # trickier so it's not done yet.
-        if batch_size is not None and batch_size <= 0:
-            raise ValueError('Batch size must be a positive integer.')
+        assert batch_size is None or batch_size > 0
         # Check that the parents share the same concrete model with the our
         # model to detect the inheritance pattern ConcreteGrandParent ->
         # MultiTableParent -> ProxyChild. Simply checking self.model._meta.proxy
@@ -546,7 +541,7 @@ class QuerySet:
         if any(f.primary_key for f in fields):
             raise ValueError('bulk_update() cannot be used with primary key fields.')
         if not objs:
-            return 0
+            return
         # PK is used twice in the resulting update query, once in the filter
         # and once in the WHEN. Each field will also have one CAST.
         max_batch_size = connections[self.db].ops.bulk_batch_size(['pk', 'pk'] + fields, objs)
@@ -568,11 +563,9 @@ class QuerySet:
                     case_statement = Cast(case_statement, output_field=field)
                 update_kwargs[field.attname] = case_statement
             updates.append(([obj.pk for obj in batch_objs], update_kwargs))
-        rows_updated = 0
         with transaction.atomic(using=self.db, savepoint=False):
             for pks, update_kwargs in updates:
-                rows_updated += self.filter(pk__in=pks).update(**update_kwargs)
-        return rows_updated
+                self.filter(pk__in=pks).update(**update_kwargs)
     bulk_update.alters_data = True
 
     def get_or_create(self, defaults=None, **kwargs):
@@ -661,20 +654,19 @@ class QuerySet:
                 "earliest() and latest() require either fields as positional "
                 "arguments or 'get_latest_by' in the model's Meta."
             )
+
+        assert not self.query.is_sliced, \
+            "Cannot change a query once a slice has been taken."
         obj = self._chain()
         obj.query.set_limits(high=1)
-        obj.query.clear_ordering(force=True)
+        obj.query.clear_ordering(force_empty=True)
         obj.query.add_ordering(*order_by)
         return obj.get()
 
     def earliest(self, *fields):
-        if self.query.is_sliced:
-            raise TypeError('Cannot change a query once a slice has been taken.')
         return self._earliest(*fields)
 
     def latest(self, *fields):
-        if self.query.is_sliced:
-            raise TypeError('Cannot change a query once a slice has been taken.')
         return self.reverse()._earliest(*fields)
 
     def first(self):
@@ -692,8 +684,8 @@ class QuerySet:
         Return a dictionary mapping each of the given IDs to the object with
         that ID. If `id_list` isn't provided, evaluate the entire QuerySet.
         """
-        if self.query.is_sliced:
-            raise TypeError("Cannot use 'limit' or 'offset' with in_bulk().")
+        assert not self.query.is_sliced, \
+            "Cannot use 'limit' or 'offset' with in_bulk"
         opts = self.model._meta
         unique_fields = [
             constraint.fields[0]
@@ -729,10 +721,9 @@ class QuerySet:
     def delete(self):
         """Delete the records in the current QuerySet."""
         self._not_support_combined_queries('delete')
-        if self.query.is_sliced:
-            raise TypeError("Cannot use 'limit' or 'offset' with delete().")
-        if self.query.distinct or self.query.distinct_fields:
-            raise TypeError('Cannot call delete() after .distinct().')
+        assert not self.query.is_sliced, \
+            "Cannot use 'limit' or 'offset' with delete."
+
         if self._fields is not None:
             raise TypeError("Cannot call delete() after .values() or .values_list()")
 
@@ -746,7 +737,7 @@ class QuerySet:
         # Disable non-supported fields.
         del_query.query.select_for_update = False
         del_query.query.select_related = False
-        del_query.query.clear_ordering(force=True)
+        del_query.query.clear_ordering(force_empty=True)
 
         collector = Collector(using=del_query.db)
         collector.collect(del_query)
@@ -779,8 +770,8 @@ class QuerySet:
         fields to the appropriate values.
         """
         self._not_support_combined_queries('update')
-        if self.query.is_sliced:
-            raise TypeError('Cannot update a query once a slice has been taken.')
+        assert not self.query.is_sliced, \
+            "Cannot update a query once a slice has been taken."
         self._for_write = True
         query = self.query.chain(sql.UpdateQuery)
         query.add_update_values(kwargs)
@@ -799,8 +790,8 @@ class QuerySet:
         code (it requires too much poking around at model internals to be
         useful at that level).
         """
-        if self.query.is_sliced:
-            raise TypeError('Cannot update a query once a slice has been taken.')
+        assert not self.query.is_sliced, \
+            "Cannot update a query once a slice has been taken."
         query = self.query.chain(sql.UpdateQuery)
         query.add_update_fields(values)
         # Clear any annotations so that they won't be present in subqueries.
@@ -815,27 +806,6 @@ class QuerySet:
             return self.query.has_results(using=self.db)
         return bool(self._result_cache)
 
-    def contains(self, obj):
-        """Return True if the queryset contains an object."""
-        self._not_support_combined_queries('contains')
-        if self._fields is not None:
-            raise TypeError(
-                'Cannot call QuerySet.contains() after .values() or '
-                '.values_list().'
-            )
-        try:
-            if obj._meta.concrete_model != self.model._meta.concrete_model:
-                return False
-        except AttributeError:
-            raise TypeError("'obj' must be a model instance.")
-        if obj.pk is None:
-            raise ValueError(
-                'QuerySet.contains() cannot be used on unsaved objects.'
-            )
-        if self._result_cache is not None:
-            return obj in self._result_cache
-        return self.filter(pk=obj.pk).exists()
-
     def _prefetch_related_objects(self):
         # This method can only be called once the result cache has been filled.
         prefetch_related_objects(self._result_cache, *self._prefetch_related_lookups)
@@ -848,7 +818,7 @@ class QuerySet:
     # PUBLIC METHODS THAT RETURN A QUERYSET SUBCLASS #
     ##################################################
 
-    def raw(self, raw_query, params=(), translations=None, using=None):
+    def raw(self, raw_query, params=None, translations=None, using=None):
         if using is None:
             using = self.db
         qs = RawQuerySet(raw_query, model=self.model, params=params, translations=translations, using=using)
@@ -905,10 +875,10 @@ class QuerySet:
         Return a list of date objects representing all available dates for
         the given field_name, scoped to 'kind'.
         """
-        if kind not in ('year', 'month', 'week', 'day'):
-            raise ValueError("'kind' must be one of 'year', 'month', 'week', or 'day'.")
-        if order not in ('ASC', 'DESC'):
-            raise ValueError("'order' must be either 'ASC' or 'DESC'.")
+        assert kind in ('year', 'month', 'week', 'day'), \
+            "'kind' must be one of 'year', 'month', 'week', or 'day'."
+        assert order in ('ASC', 'DESC'), \
+            "'order' must be either 'ASC' or 'DESC'."
         return self.annotate(
             datefield=Trunc(field_name, kind, output_field=DateField()),
             plain_field=F(field_name)
@@ -921,13 +891,10 @@ class QuerySet:
         Return a list of datetime objects representing all available
         datetimes for the given field_name, scoped to 'kind'.
         """
-        if kind not in ('year', 'month', 'week', 'day', 'hour', 'minute', 'second'):
-            raise ValueError(
-                "'kind' must be one of 'year', 'month', 'week', 'day', "
-                "'hour', 'minute', or 'second'."
-            )
-        if order not in ('ASC', 'DESC'):
-            raise ValueError("'order' must be either 'ASC' or 'DESC'.")
+        assert kind in ('year', 'month', 'week', 'day', 'hour', 'minute', 'second'), \
+            "'kind' must be one of 'year', 'month', 'week', 'day', 'hour', 'minute', or 'second'."
+        assert order in ('ASC', 'DESC'), \
+            "'order' must be either 'ASC' or 'DESC'."
         if settings.USE_TZ:
             if tzinfo is None:
                 tzinfo = timezone.get_current_timezone()
@@ -980,8 +947,10 @@ class QuerySet:
         return self._filter_or_exclude(True, args, kwargs)
 
     def _filter_or_exclude(self, negate, args, kwargs):
-        if (args or kwargs) and self.query.is_sliced:
-            raise TypeError('Cannot filter a query once a slice has been taken.')
+        if args or kwargs:
+            assert not self.query.is_sliced, \
+                "Cannot filter a query once a slice has been taken."
+
         clone = self._chain()
         if self._defer_next_filter:
             self._defer_next_filter = False
@@ -1017,7 +986,7 @@ class QuerySet:
         # Clone the query to inherit the select list and everything
         clone = self._chain()
         # Clear limits and ordering so they can be reapplied
-        clone.query.clear_ordering(force=True)
+        clone.query.clear_ordering(True)
         clone.query.clear_limits()
         clone.query.combined_queries = (self.query,) + tuple(qs.query for qs in other_qs)
         clone.query.combinator = combinator
@@ -1171,10 +1140,10 @@ class QuerySet:
 
     def order_by(self, *field_names):
         """Return a new QuerySet instance with the ordering changed."""
-        if self.query.is_sliced:
-            raise TypeError('Cannot reorder a query once a slice has been taken.')
+        assert not self.query.is_sliced, \
+            "Cannot reorder a query once a slice has been taken."
         obj = self._chain()
-        obj.query.clear_ordering(force=True, clear_default=False)
+        obj.query.clear_ordering(force_empty=False)
         obj.query.add_ordering(*field_names)
         return obj
 
@@ -1183,8 +1152,8 @@ class QuerySet:
         Return a new QuerySet instance that will select only distinct results.
         """
         self._not_support_combined_queries('distinct')
-        if self.query.is_sliced:
-            raise TypeError('Cannot create distinct fields once a slice has been taken.')
+        assert not self.query.is_sliced, \
+            "Cannot create distinct fields once a slice has been taken."
         obj = self._chain()
         obj.query.add_distinct_fields(*field_names)
         return obj
@@ -1193,8 +1162,8 @@ class QuerySet:
               order_by=None, select_params=None):
         """Add extra SQL fragments to the query."""
         self._not_support_combined_queries('extra')
-        if self.query.is_sliced:
-            raise TypeError('Cannot change a query once a slice has been taken.')
+        assert not self.query.is_sliced, \
+            "Cannot change a query once a slice has been taken"
         clone = self._chain()
         clone.query.add_extra(select, select_params, where, params, tables, order_by)
         return clone
@@ -1322,7 +1291,7 @@ class QuerySet:
                 self._insert(item, fields=fields, using=self.db, ignore_conflicts=ignore_conflicts)
         return inserted_rows
 
-    def _chain(self):
+    def _chain(self, **kwargs):
         """
         Return a copy of the current QuerySet that's ready for another
         operation.
@@ -1331,6 +1300,7 @@ class QuerySet:
         if obj._sticky_filter:
             obj.query.filter_is_sticky = True
             obj._sticky_filter = False
+        obj.__dict__.update(kwargs)
         return obj
 
     def _clone(self):
@@ -1449,14 +1419,14 @@ class RawQuerySet:
     Provide an iterator which converts the results of raw SQL queries into
     annotated model instances.
     """
-    def __init__(self, raw_query, model=None, query=None, params=(),
+    def __init__(self, raw_query, model=None, query=None, params=None,
                  translations=None, using=None, hints=None):
         self.raw_query = raw_query
         self.model = model
         self._db = using
         self._hints = hints or {}
         self.query = query or sql.RawQuery(sql=raw_query, using=self.db, params=params)
-        self.params = params
+        self.params = params or ()
         self.translations = translations or {}
         self._result_cache = None
         self._prefetch_related_lookups = ()
@@ -1621,11 +1591,11 @@ class Prefetch:
     def __getstate__(self):
         obj_dict = self.__dict__.copy()
         if self.queryset is not None:
-            queryset = self.queryset._chain()
             # Prevent the QuerySet from being evaluated
-            queryset._result_cache = []
-            queryset._prefetch_done = True
-            obj_dict['queryset'] = queryset
+            obj_dict['queryset'] = self.queryset._chain(
+                _result_cache=[],
+                _prefetch_done=True,
+            )
         return obj_dict
 
     def add_prefix(self, prefix):
@@ -1750,17 +1720,8 @@ def prefetch_related_objects(model_instances, *related_lookups):
                                  "prefetching - this is an invalid parameter to "
                                  "prefetch_related()." % lookup.prefetch_through)
 
-            obj_to_fetch = None
-            if prefetcher is not None:
-                obj_to_fetch = [obj for obj in obj_list if not is_fetched(obj)]
-
-            if obj_to_fetch:
-                obj_list, additional_lookups = prefetch_one_level(
-                    obj_to_fetch,
-                    prefetcher,
-                    lookup,
-                    level,
-                )
+            if prefetcher is not None and not is_fetched:
+                obj_list, additional_lookups = prefetch_one_level(obj_list, prefetcher, lookup, level)
                 # We need to ensure we don't keep adding lookups from the
                 # same relationships to stop infinite recursion. So, if we
                 # are already on an automatically added lookup, don't add
@@ -1810,14 +1771,10 @@ def get_prefetcher(instance, through_attr, to_attr):
     (the object with get_prefetch_queryset (or None),
      the descriptor object representing this relationship (or None),
      a boolean that is False if the attribute was not found at all,
-     a function that takes an instance and returns a boolean that is True if
-     the attribute has already been fetched for that instance)
+     a boolean that is True if the attribute has already been fetched)
     """
-    def has_to_attr_attribute(instance):
-        return hasattr(instance, to_attr)
-
     prefetcher = None
-    is_fetched = has_to_attr_attribute
+    is_fetched = False
 
     # For singly related objects, we have to avoid getting the attribute
     # from the object, as this will trigger the query. So we first try
@@ -1832,7 +1789,8 @@ def get_prefetcher(instance, through_attr, to_attr):
             # get_prefetch_queryset() method.
             if hasattr(rel_obj_descriptor, 'get_prefetch_queryset'):
                 prefetcher = rel_obj_descriptor
-                is_fetched = rel_obj_descriptor.is_cached
+                if rel_obj_descriptor.is_cached(instance):
+                    is_fetched = True
             else:
                 # descriptor doesn't support prefetching, so we go ahead and get
                 # the attribute on the instance rather than the class to
@@ -1844,15 +1802,11 @@ def get_prefetcher(instance, through_attr, to_attr):
                     # Special case cached_property instances because hasattr
                     # triggers attribute computation and assignment.
                     if isinstance(getattr(instance.__class__, to_attr, None), cached_property):
-                        def has_cached_property(instance):
-                            return to_attr in instance.__dict__
-
-                        is_fetched = has_cached_property
+                        is_fetched = to_attr in instance.__dict__
+                    else:
+                        is_fetched = hasattr(instance, to_attr)
                 else:
-                    def in_prefetched_cache(instance):
-                        return through_attr in instance._prefetched_objects_cache
-
-                    is_fetched = in_prefetched_cache
+                    is_fetched = through_attr in instance._prefetched_objects_cache
     return prefetcher, rel_obj_descriptor, attr_found, is_fetched
 
 

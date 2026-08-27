@@ -4,6 +4,8 @@ from django.db import connection
 from django.test import TestCase, skipUnlessDBFeature
 from django.utils.functional import cached_property
 
+from .utils import oracle, postgis, spatialite
+
 test_srs = ({
     'srid': 4326,
     'auth_name': ('EPSG', True),
@@ -73,15 +75,13 @@ class SpatialRefSysTest(TestCase):
             #  also, Oracle Spatial seems to add extraneous info to fields, hence the
             #  the testing with the 'startswith' flag.
             auth_name, oracle_flag = sd['auth_name']
-            # Compare case-insensitively because srs.auth_name is lowercase
-            # ("epsg") on Spatialite.
-            if not connection.ops.oracle or oracle_flag:
-                self.assertIs(srs.auth_name.upper().startswith(auth_name), True)
+            if postgis or (oracle and oracle_flag):
+                self.assertTrue(srs.auth_name.startswith(auth_name))
 
             self.assertEqual(sd['auth_srid'], srs.auth_srid)
 
-            # No PROJ and different srtext on Oracle.
-            if not connection.ops.oracle:
+            # No PROJ and different srtext on oracle backends :(
+            if postgis:
                 self.assertTrue(srs.wkt.startswith(sd['srtext']))
                 self.assertRegex(srs.proj4text, sd['proj_re'])
 
@@ -94,9 +94,14 @@ class SpatialRefSysTest(TestCase):
             self.assertTrue(sr.spheroid.startswith(sd['spheroid']))
             self.assertEqual(sd['geographic'], sr.geographic)
             self.assertEqual(sd['projected'], sr.projected)
-            self.assertIs(sr.name.startswith(sd['name']), True)
+
+            if not (spatialite and not sd['spatialite']):
+                # Can't get 'NAD83 / Texas South Central' from PROJ string
+                # on SpatiaLite
+                self.assertTrue(sr.name.startswith(sd['name']))
+
             # Testing the SpatialReference object directly.
-            if not connection.ops.oracle:
+            if postgis or spatialite:
                 srs = sr.srs
                 self.assertRegex(srs.proj, sd['proj_re'])
                 self.assertTrue(srs.wkt.startswith(sd['srtext']))

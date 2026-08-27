@@ -1,8 +1,8 @@
 import datetime
+import os
 import tempfile
 import uuid
 
-from django.contrib import admin
 from django.contrib.auth.models import User
 from django.contrib.contenttypes.fields import (
     GenericForeignKey, GenericRelation,
@@ -45,18 +45,20 @@ class Article(models.Model):
     def __str__(self):
         return self.title
 
-    @admin.display(ordering='date', description='')
     def model_year(self):
         return self.date.year
+    model_year.admin_order_field = 'date'
+    model_year.short_description = ''
 
-    @admin.display(ordering='-date', description='')
     def model_year_reversed(self):
         return self.date.year
+    model_year_reversed.admin_order_field = '-date'
+    model_year_reversed.short_description = ''
 
-    @property
-    @admin.display(ordering='date')
-    def model_property_year(self):
+    def property_year(self):
         return self.date.year
+    property_year.admin_order_field = 'date'
+    model_property_year = property(property_year)
 
     @property
     def model_month(self):
@@ -338,30 +340,13 @@ class Child(models.Model):
             raise ValidationError('invalid')
 
 
-class PKChild(models.Model):
-    """
-    Used to check autocomplete to_field resolution when ForeignKey is PK.
-    """
-    parent = models.ForeignKey(Parent, models.CASCADE, primary_key=True)
-    name = models.CharField(max_length=128)
-
-    class Meta:
-        ordering = ['parent']
-
-    def __str__(self):
-        return self.name
-
-
-class Toy(models.Model):
-    child = models.ForeignKey(PKChild, models.CASCADE)
-
-
 class EmptyModel(models.Model):
     def __str__(self):
         return "Primary key = %s" % self.id
 
 
 temp_storage = FileSystemStorage(tempfile.mkdtemp())
+UPLOAD_TO = os.path.join(temp_storage.location, 'test_upload')
 
 
 class Gallery(models.Model):
@@ -633,33 +618,17 @@ class Song(models.Model):
 class Employee(Person):
     code = models.CharField(max_length=20)
 
-    class Meta:
-        ordering = ['name']
-
 
 class WorkHour(models.Model):
     datum = models.DateField()
     employee = models.ForeignKey(Employee, models.CASCADE)
 
 
-class Manager(Employee):
-    """
-    A multi-layer MTI child.
-    """
-    pass
-
-
-class Bonus(models.Model):
-    recipient = models.ForeignKey(Manager, on_delete=models.CASCADE)
-
-
 class Question(models.Model):
-    big_id = models.BigAutoField(primary_key=True)
     question = models.CharField(max_length=20)
     posted = models.DateField(default=datetime.date.today)
     expires = models.DateTimeField(null=True, blank=True)
     related_questions = models.ManyToManyField('self')
-    uuid = models.UUIDField(default=uuid.uuid4, unique=True)
 
     def __str__(self):
         return self.question
@@ -667,13 +636,6 @@ class Question(models.Model):
 
 class Answer(models.Model):
     question = models.ForeignKey(Question, models.PROTECT)
-    question_with_to_field = models.ForeignKey(
-        Question, models.SET_NULL,
-        blank=True, null=True, to_field='uuid',
-        related_name='uuid_answers',
-        limit_choices_to=~models.Q(question__istartswith='not'),
-    )
-    related_answers = models.ManyToManyField('self')
     answer = models.CharField(max_length=20)
 
     def __str__(self):
@@ -759,7 +721,7 @@ class PrePopulatedPostLargeSlug(models.Model):
     """
     Regression test for #15938: a large max_length for the slugfield must not
     be localized in prepopulated_fields_js.html or it might end up breaking
-    the JavaScript (ie, using THOUSAND_SEPARATOR ends up with maxLength=1,000)
+    the javascript (ie, using THOUSAND_SEPARATOR ends up with maxLength=1,000)
     """
     title = models.CharField(max_length=100)
     published = models.BooleanField(default=False)
@@ -776,9 +738,9 @@ class AdminOrderedModelMethod(models.Model):
     order = models.IntegerField()
     stuff = models.CharField(max_length=200)
 
-    @admin.display(ordering='order')
     def some_order(self):
         return self.order
+    some_order.admin_order_field = 'order'
 
 
 class AdminOrderedAdminMethod(models.Model):
@@ -1046,7 +1008,3 @@ class ReadOnlyRelatedField(models.Model):
     chapter = models.ForeignKey(Chapter, models.CASCADE)
     language = models.ForeignKey(Language, models.CASCADE)
     user = models.ForeignKey(User, models.CASCADE)
-
-
-class Héllo(models.Model):
-    pass

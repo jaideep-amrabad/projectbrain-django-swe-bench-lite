@@ -1,11 +1,12 @@
 import string
 import uuid
 
+from django.conf.urls import url as conf_url
 from django.core.exceptions import ImproperlyConfigured
 from django.test import SimpleTestCase
 from django.test.utils import override_settings
 from django.urls import NoReverseMatch, Resolver404, path, resolve, reverse
-from django.views import View
+from django.utils.deprecation import RemovedInDjango40Warning
 
 from .converters import DynamicConverter
 from .views import empty_view
@@ -141,19 +142,6 @@ class SimplifiedURLTests(SimpleTestCase):
         msg = "URL route 'foo/<nonexistent:var>/' uses invalid converter 'nonexistent'."
         with self.assertRaisesMessage(ImproperlyConfigured, msg):
             path('foo/<nonexistent:var>/', empty_view)
-
-    def test_invalid_view(self):
-        msg = 'view must be a callable or a list/tuple in the case of include().'
-        with self.assertRaisesMessage(TypeError, msg):
-            path('articles/', 'invalid_view')
-
-    def test_invalid_view_instance(self):
-        class EmptyCBV(View):
-            pass
-
-        msg = 'view must be a callable, pass EmptyCBV.as_view(), not EmptyCBV().'
-        with self.assertRaisesMessage(TypeError, msg):
-            path('foo', EmptyCBV())
 
     def test_whitespace_in_route(self):
         msg = (
@@ -327,3 +315,13 @@ class ConversionExceptionTests(SimpleTestCase):
             raise TypeError('This type error propagates.')
         with self.assertRaisesMessage(TypeError, 'This type error propagates.'):
             reverse('dynamic', kwargs={'value': object()})
+
+
+class DeprecationTests(SimpleTestCase):
+    def test_url_warning(self):
+        msg = (
+            'django.conf.urls.url() is deprecated in favor of '
+            'django.urls.re_path().'
+        )
+        with self.assertRaisesMessage(RemovedInDjango40Warning, msg):
+            conf_url(r'^regex/(?P<pk>[0-9]+)/$', empty_view, name='regex')

@@ -36,8 +36,8 @@ class ValidationMessagesTest(TestCase):
         self._test_validation_messages(f, 'fõo', ['“fõo” value must be a decimal number.'])
 
     def test_null_boolean_field_raises_error_message(self):
-        f = models.BooleanField(null=True)
-        self._test_validation_messages(f, 'fõo', ['“fõo” value must be either True, False, or None.'])
+        f = models.NullBooleanField()
+        self._test_validation_messages(f, 'fõo', ['“fõo” value must be either None, True or False.'])
 
     def test_date_field_raises_error_message(self):
         f = models.DateField()

@@ -29,6 +29,7 @@ class Book(models.Model):
         blank=True, null=True,
     )
     is_best_seller = models.BooleanField(default=0, null=True)
+    is_best_seller2 = models.NullBooleanField(default=0)
     date_registered = models.DateField(null=True)
     availability = models.BooleanField(choices=(
         (False, 'Paid'),

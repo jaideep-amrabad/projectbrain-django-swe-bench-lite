@@ -25,6 +25,7 @@ from django.utils.asyncio import async_unsafe
 from django.utils.dateparse import parse_datetime, parse_time
 from django.utils.duration import duration_microseconds
 from django.utils.regex_helper import _lazy_re_compile
+from django.utils.version import PY38
 
 from .client import DatabaseClient
 from .creation import DatabaseCreation
@@ -63,10 +64,8 @@ def list_aggregate(function):
 
 
 def check_sqlite_version():
-    if Database.sqlite_version_info < (3, 9, 0):
-        raise ImproperlyConfigured(
-            'SQLite 3.9.0 or later is required (found %s).' % Database.sqlite_version
-        )
+    if Database.sqlite_version_info < (3, 8, 3):
+        raise ImproperlyConfigured('SQLite 3.8.3 or later is required (found %s).' % Database.sqlite_version)
 
 
 check_sqlite_version()
@@ -103,6 +102,7 @@ class DatabaseWrapper(BaseDatabaseWrapper):
         'IPAddressField': 'char(15)',
         'GenericIPAddressField': 'char(39)',
         'JSONField': 'text',
+        'NullBooleanField': 'bool',
         'OneToOneField': 'integer',
         'PositiveBigIntegerField': 'bigint unsigned',
         'PositiveIntegerField': 'integer unsigned',
@@ -179,7 +179,9 @@ class DatabaseWrapper(BaseDatabaseWrapper):
                 "settings.DATABASES is improperly configured. "
                 "Please supply the NAME value.")
         kwargs = {
-            'database': settings_dict['NAME'],
+            # TODO: Remove str() when dropping support for PY36.
+            # https://bugs.python.org/issue33496
+            'database': str(settings_dict['NAME']),
             'detect_types': Database.PARSE_DECLTYPES | Database.PARSE_COLNAMES,
             **settings_dict['OPTIONS'],
         }
@@ -203,10 +205,13 @@ class DatabaseWrapper(BaseDatabaseWrapper):
     @async_unsafe
     def get_new_connection(self, conn_params):
         conn = Database.connect(**conn_params)
-        create_deterministic_function = functools.partial(
-            conn.create_function,
-            deterministic=True,
-        )
+        if PY38:
+            create_deterministic_function = functools.partial(
+                conn.create_function,
+                deterministic=True,
+            )
+        else:
+            create_deterministic_function = conn.create_function
         create_deterministic_function('django_date_extract', 2, _sqlite_datetime_extract)
         create_deterministic_function('django_date_trunc', 4, _sqlite_date_trunc)
         create_deterministic_function('django_datetime_cast_date', 3, _sqlite_datetime_cast_date)
@@ -251,7 +256,7 @@ class DatabaseWrapper(BaseDatabaseWrapper):
         create_deterministic_function('SQRT', 1, none_guard(math.sqrt))
         create_deterministic_function('TAN', 1, none_guard(math.tan))
         # Don't use the built-in RANDOM() function because it returns a value
-        # in the range [-1 * 2^63, 2^63 - 1] instead of [0, 1).
+        # in the range [2^63, 2^63 - 1] instead of [0, 1).
         conn.create_function('RAND', 0, random.random)
         conn.create_aggregate('STDDEV_POP', 1, list_aggregate(statistics.pstdev))
         conn.create_aggregate('STDDEV_SAMP', 1, list_aggregate(statistics.stdev))
@@ -322,24 +327,19 @@ class DatabaseWrapper(BaseDatabaseWrapper):
                     violations = cursor.execute('PRAGMA foreign_key_check').fetchall()
                 else:
                     violations = chain.from_iterable(
-                        cursor.execute(
-                            'PRAGMA foreign_key_check(%s)'
-                            % self.ops.quote_name(table_name)
-                        ).fetchall()
+                        cursor.execute('PRAGMA foreign_key_check(%s)' % table_name).fetchall()
                         for table_name in table_names
                     )
                 # See https://www.sqlite.org/pragma.html#pragma_foreign_key_check
                 for table_name, rowid, referenced_table_name, foreign_key_index in violations:
                     foreign_key = cursor.execute(
-                        'PRAGMA foreign_key_list(%s)' % self.ops.quote_name(table_name)
+                        'PRAGMA foreign_key_list(%s)' % table_name
                     ).fetchall()[foreign_key_index]
                     column_name, referenced_column_name = foreign_key[3:5]
                     primary_key_column_name = self.introspection.get_primary_key_column(cursor, table_name)
                     primary_key_value, bad_value = cursor.execute(
                         'SELECT %s, %s FROM %s WHERE rowid = %%s' % (
-                            self.ops.quote_name(primary_key_column_name),
-                            self.ops.quote_name(column_name),
-                            self.ops.quote_name(table_name),
+                            primary_key_column_name, column_name, table_name
                         ),
                         (rowid,),
                     ).fetchone()
@@ -548,40 +548,25 @@ def _sqlite_time_extract(lookup_type, dt):
     return getattr(dt, lookup_type)
 
 
-def _sqlite_prepare_dtdelta_param(conn, param):
-    if conn in ['+', '-']:
-        if isinstance(param, int):
-            return datetime.timedelta(0, 0, param)
-        else:
-            return backend_utils.typecast_timestamp(param)
-    return param
-
-
 @none_guard
 def _sqlite_format_dtdelta(conn, lhs, rhs):
     """
     LHS and RHS can be either:
     - An integer number of microseconds
     - A string representing a datetime
-    - A scalar value, e.g. float
     """
-    conn = conn.strip()
     try:
-        real_lhs = _sqlite_prepare_dtdelta_param(conn, lhs)
-        real_rhs = _sqlite_prepare_dtdelta_param(conn, rhs)
+        real_lhs = datetime.timedelta(0, 0, lhs) if isinstance(lhs, int) else backend_utils.typecast_timestamp(lhs)
+        real_rhs = datetime.timedelta(0, 0, rhs) if isinstance(rhs, int) else backend_utils.typecast_timestamp(rhs)
+        if conn.strip() == '+':
+            out = real_lhs + real_rhs
+        else:
+            out = real_lhs - real_rhs
     except (ValueError, TypeError):
         return None
-    if conn == '+':
-        # typecast_timestamp returns a date or a datetime without timezone.
-        # It will be formatted as "%Y-%m-%d" or "%Y-%m-%d %H:%M:%S[.%f]"
-        out = str(real_lhs + real_rhs)
-    elif conn == '-':
-        out = str(real_lhs - real_rhs)
-    elif conn == '*':
-        out = real_lhs * real_rhs
-    else:
-        out = real_lhs / real_rhs
-    return out
+    # typecast_timestamp returns a date or a datetime without timezone.
+    # It will be formatted as "%Y-%m-%d" or "%Y-%m-%d %H:%M:%S[.%f]"
+    return str(out)
 
 
 @none_guard

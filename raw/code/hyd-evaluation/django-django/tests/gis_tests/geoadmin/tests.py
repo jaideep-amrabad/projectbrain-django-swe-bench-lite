@@ -72,8 +72,9 @@ class GeoAdminTest(SimpleTestCase):
     def test_olwidget_empty_string(self):
         geoadmin = site._registry[City]
         form = geoadmin.get_changelist_form(None)({'point': ''})
-        with self.assertNoLogs('django.contrib.gis', 'ERROR'):
-            output = str(form['point'])
+        with self.assertRaisesMessage(AssertionError, 'no logs'):
+            with self.assertLogs('django.contrib.gis', 'ERROR'):
+                output = str(form['point'])
         self.assertInHTML(
             '<textarea id="id_point" class="vWKTField required" cols="150"'
             ' rows="10" name="point"></textarea>',

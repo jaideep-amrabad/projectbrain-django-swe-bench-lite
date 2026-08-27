@@ -92,7 +92,7 @@ class MultiColumnFKTests(TestCase):
 
     def test_reverse_query_filters_correctly(self):
 
-        timemark = datetime.datetime.now(tz=datetime.timezone.utc).replace(tzinfo=None)
+        timemark = datetime.datetime.utcnow()
         timedelta = datetime.timedelta(days=1)
 
         # Creating a to valid memberships

@@ -1,6 +1,4 @@
-import json
 import unittest
-import xml.etree.ElementTree
 
 from django.db import NotSupportedError, connection, transaction
 from django.db.models import Count
@@ -33,20 +31,6 @@ class ExplainTests(TestCase):
                         self.assertTrue(captured_queries[0]['sql'].startswith(connection.ops.explain_prefix))
                         self.assertIsInstance(result, str)
                         self.assertTrue(result)
-                        if format == 'xml':
-                            try:
-                                xml.etree.ElementTree.fromstring(result)
-                            except xml.etree.ElementTree.ParseError as e:
-                                self.fail(
-                                    f'QuerySet.explain() result is not valid XML: {e}'
-                                )
-                        elif format == 'json':
-                            try:
-                                json.loads(result)
-                            except json.JSONDecodeError as e:
-                                self.fail(
-                                    f'QuerySet.explain() result is not valid JSON: {e}'
-                                )
 
     @skipUnlessDBFeature('validates_explain_options')
     def test_unknown_options(self):
@@ -68,8 +52,9 @@ class ExplainTests(TestCase):
             {'costs': False, 'buffers': True, 'analyze': True},
             {'verbose': True, 'timing': True, 'analyze': True},
             {'verbose': False, 'timing': False, 'analyze': True},
-            {'summary': True},
         ]
+        if connection.features.is_postgresql_10:
+            test_options.append({'summary': True})
         if connection.features.is_postgresql_12:
             test_options.append({'settings': True})
         if connection.features.is_postgresql_13:

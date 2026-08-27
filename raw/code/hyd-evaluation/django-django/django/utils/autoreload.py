@@ -216,20 +216,14 @@ def get_child_arguments():
     executable is reported to not have the .exe extension which can cause bugs
     on reloading.
     """
-    import __main__
+    import django.__main__
+    django_main_path = Path(django.__main__.__file__)
     py_script = Path(sys.argv[0])
 
     args = [sys.executable] + ['-W%s' % o for o in sys.warnoptions]
-    # __spec__ is set when the server was started with the `-m` option,
-    # see https://docs.python.org/3/reference/import.html#main-spec
-    # __spec__ may not exist, e.g. when running in a Conda env.
-    if getattr(__main__, '__spec__', None) is not None:
-        spec = __main__.__spec__
-        if (spec.name == '__main__' or spec.name.endswith('.__main__')) and spec.parent:
-            name = spec.parent
-        else:
-            name = spec.name
-        args += ['-m', name]
+    if py_script == django_main_path:
+        # The server was started with `python -m django runserver`.
+        args += ['-m', 'django']
         args += sys.argv[1:]
     elif not py_script.exists():
         # sys.argv[0] may not exist for several reasons on Windows.
@@ -237,11 +231,15 @@ def get_child_arguments():
         exe_entrypoint = py_script.with_suffix('.exe')
         if exe_entrypoint.exists():
             # Should be executed directly, ignoring sys.executable.
-            return [exe_entrypoint, *sys.argv[1:]]
+            # TODO: Remove str() when dropping support for PY37.
+            # args parameter accepts path-like on Windows from Python 3.8.
+            return [str(exe_entrypoint), *sys.argv[1:]]
         script_entrypoint = py_script.with_name('%s-script.py' % py_script.name)
         if script_entrypoint.exists():
             # Should be executed as usual.
-            return [*args, script_entrypoint, *sys.argv[1:]]
+            # TODO: Remove str() when dropping support for PY37.
+            # args parameter accepts path-like on Windows from Python 3.8.
+            return [*args, str(script_entrypoint), *sys.argv[1:]]
         raise RuntimeError('Script %s does not exist.' % py_script)
     else:
         args += sys.argv
@@ -616,7 +614,7 @@ def start_django(reloader, main_func, *args, **kwargs):
 
     main_func = check_errors(main_func)
     django_main_thread = threading.Thread(target=main_func, args=args, kwargs=kwargs, name='django-main-thread')
-    django_main_thread.daemon = True
+    django_main_thread.setDaemon(True)
     django_main_thread.start()
 
     while not reloader.should_stop:

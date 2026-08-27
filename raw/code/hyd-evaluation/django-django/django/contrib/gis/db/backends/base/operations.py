@@ -12,7 +12,6 @@ class BaseSpatialOperations:
     # an attribute for the spatial database version tuple (if applicable)
     postgis = False
     spatialite = False
-    mariadb = False
     mysql = False
     oracle = False
     spatial_version = None

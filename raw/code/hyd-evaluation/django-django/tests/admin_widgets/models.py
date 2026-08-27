@@ -18,12 +18,7 @@ class Member(models.Model):
         return self.name
 
 
-class Artist(models.Model):
-    pass
-
-
-class Band(Artist):
-    uuid = models.UUIDField(unique=True, default=uuid.uuid4)
+class Band(models.Model):
     name = models.CharField(max_length=100)
     style = models.CharField(max_length=20)
     members = models.ManyToManyField(Member)
@@ -41,7 +36,7 @@ class UnsafeLimitChoicesTo(models.Model):
 
 
 class Album(models.Model):
-    band = models.ForeignKey(Band, models.CASCADE, to_field='uuid')
+    band = models.ForeignKey(Band, models.CASCADE)
     featuring = models.ManyToManyField(Band, related_name='featured')
     name = models.CharField(max_length=100)
     cover_art = models.FileField(upload_to='albums')
@@ -49,25 +44,6 @@ class Album(models.Model):
 
     def __str__(self):
         return self.name
-
-
-class ReleaseEvent(models.Model):
-    """
-    Used to check that autocomplete widget correctly resolves attname for FK as
-    PK example.
-    """
-    album = models.ForeignKey(Album, models.CASCADE, primary_key=True)
-    name = models.CharField(max_length=100)
-
-    class Meta:
-        ordering = ['name']
-
-    def __str__(self):
-        return self.name
-
-
-class VideoStream(models.Model):
-    release_event = models.ForeignKey(ReleaseEvent, models.CASCADE)
 
 
 class HiddenInventoryManager(models.Manager):

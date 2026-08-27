@@ -14,6 +14,7 @@ class DatabaseFeatures(BaseDatabaseFeatures):
     supports_forward_references = False
     supports_regex_backreferencing = False
     supports_date_lookup_using_string = False
+    supports_index_column_ordering = False
     supports_timezones = False
     requires_explicit_null_ordering_when_grouping = True
     can_release_savepoints = True
@@ -41,26 +42,13 @@ class DatabaseFeatures(BaseDatabaseFeatures):
     """
     # Neither MySQL nor MariaDB support partial indexes.
     supports_partial_indexes = False
-    # COLLATE must be wrapped in parentheses because MySQL treats COLLATE as an
-    # indexed expression.
-    collate_as_index_expression = True
-
     supports_order_by_nulls_modifier = False
     order_by_nulls_first = True
-
-    @cached_property
-    def test_collations(self):
-        charset = 'utf8'
-        if self.connection.mysql_is_mariadb and self.connection.mysql_version >= (10, 6):
-            # utf8 is an alias for utf8mb3 in MariaDB 10.6+.
-            charset = 'utf8mb3'
-        return {
-            'ci': f'{charset}_general_ci',
-            'non_default': f'{charset}_esperanto_ci',
-            'swedish_ci': f'{charset}_swedish_ci',
-        }
-
-    test_now_utc_template = 'UTC_TIMESTAMP'
+    test_collations = {
+        'ci': 'utf8_general_ci',
+        'non_default': 'utf8_esperanto_ci',
+        'swedish_ci': 'utf8_swedish_ci',
+    }
 
     @cached_property
     def django_test_skips(self):
@@ -73,14 +61,6 @@ class DatabaseFeatures(BaseDatabaseFeatures):
                 'model_fields.test_textfield.TextFieldTests.test_emoji',
                 'model_fields.test_charfield.TestCharField.test_emoji',
             },
-            "MySQL doesn't support functional indexes on a function that "
-            "returns JSON": {
-                'schema.tests.SchemaTests.test_func_index_json_key_transform',
-            },
-            "MySQL supports multiplying and dividing DurationFields by a "
-            "scalar value but it's not implemented (#25287).": {
-                'expressions.tests.FTimeDeltaTests.test_durationfield_multiply_divide',
-            },
         }
         if 'ONLY_FULL_GROUP_BY' in self.connection.sql_mode:
             skips.update({
@@ -88,17 +68,6 @@ class DatabaseFeatures(BaseDatabaseFeatures):
                 'ONLY_FULL_GROUP_BY mode is enabled on MySQL, see #31331.': {
                     'aggregation.tests.AggregateTestCase.test_aggregation_subquery_annotation_multivalued',
                     'annotations.tests.NonAggregateAnnotationTestCase.test_annotation_aggregate_with_m2o',
-                },
-            })
-        if not self.connection.mysql_is_mariadb and self.connection.mysql_version < (8,):
-            skips.update({
-                'Casting to datetime/time is not supported by MySQL < 8.0. (#30224)': {
-                    'aggregation.tests.AggregateTestCase.test_aggregation_default_using_time_from_python',
-                    'aggregation.tests.AggregateTestCase.test_aggregation_default_using_datetime_from_python',
-                },
-                'MySQL < 8.0 returns string type instead of datetime/time. (#30224)': {
-                    'aggregation.tests.AggregateTestCase.test_aggregation_default_using_time_from_database',
-                    'aggregation.tests.AggregateTestCase.test_aggregation_default_using_datetime_from_database',
                 },
             })
         if (
@@ -198,9 +167,7 @@ class DatabaseFeatures(BaseDatabaseFeatures):
 
     @cached_property
     def has_select_for_update_skip_locked(self):
-        if self.connection.mysql_is_mariadb:
-            return self.connection.mysql_version >= (10, 6)
-        return self.connection.mysql_version >= (8, 0, 1)
+        return not self.connection.mysql_is_mariadb and self.connection.mysql_version >= (8, 0, 1)
 
     @cached_property
     def has_select_for_update_nowait(self):
@@ -252,17 +219,3 @@ class DatabaseFeatures(BaseDatabaseFeatures):
         if self.connection.mysql_is_mariadb:
             return self.supports_json_field and self.can_introspect_check_constraints
         return self.supports_json_field
-
-    @cached_property
-    def supports_index_column_ordering(self):
-        return (
-            not self.connection.mysql_is_mariadb and
-            self.connection.mysql_version >= (8, 0, 1)
-        )
-
-    @cached_property
-    def supports_expression_indexes(self):
-        return (
-            not self.connection.mysql_is_mariadb and
-            self.connection.mysql_version >= (8, 0, 13)
-        )

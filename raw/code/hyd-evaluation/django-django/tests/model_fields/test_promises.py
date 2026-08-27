@@ -5,8 +5,9 @@ from django.db.models import (
     AutoField, BinaryField, BooleanField, CharField, DateField, DateTimeField,
     DecimalField, EmailField, FileField, FilePathField, FloatField,
     GenericIPAddressField, ImageField, IntegerField, IPAddressField,
-    PositiveBigIntegerField, PositiveIntegerField, PositiveSmallIntegerField,
-    SlugField, SmallIntegerField, TextField, TimeField, URLField,
+    NullBooleanField, PositiveBigIntegerField, PositiveIntegerField,
+    PositiveSmallIntegerField, SlugField, SmallIntegerField, TextField,
+    TimeField, URLField,
 )
 from django.test import SimpleTestCase
 from django.utils.functional import lazy
@@ -83,6 +84,10 @@ class PromiseTest(SimpleTestCase):
         self.assertIsInstance(GenericIPAddressField().get_prep_value(lazy_func()), str)
         lazy_func = lazy(lambda: 0, int)
         self.assertIsInstance(GenericIPAddressField().get_prep_value(lazy_func()), str)
+
+    def test_NullBooleanField(self):
+        lazy_func = lazy(lambda: True, bool)
+        self.assertIsInstance(NullBooleanField().get_prep_value(lazy_func()), bool)
 
     def test_PositiveIntegerField(self):
         lazy_func = lazy(lambda: 1, int)

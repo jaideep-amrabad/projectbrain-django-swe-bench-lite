@@ -2,6 +2,7 @@
 Tests for geography support in PostGIS
 """
 import os
+from unittest import skipUnless
 
 from django.contrib.gis.db import models
 from django.contrib.gis.db.models.functions import Area, Distance
@@ -10,7 +11,7 @@ from django.db import NotSupportedError, connection
 from django.db.models.functions import Cast
 from django.test import TestCase, skipIfDBFeature, skipUnlessDBFeature
 
-from ..utils import FuncTestMixin
+from ..utils import FuncTestMixin, oracle, postgis, spatialite
 from .models import City, County, Zipcode
 
 
@@ -36,10 +37,9 @@ class GeographyTest(TestCase):
         for cities in [cities1, cities2]:
             self.assertEqual(['Dallas', 'Houston', 'Oklahoma City'], cities)
 
+    @skipUnless(postgis, "This is a PostGIS-specific test")
     def test04_invalid_operators_functions(self):
         "Ensuring exceptions are raised for operators & functions invalid on geography fields."
-        if not connection.ops.postgis:
-            self.skipTest('This is a PostGIS-specific test.')
         # Only a subset of the geometry functions & operator are available
         # to PostGIS geography types.  For more information, visit:
         # http://postgis.refractions.net/documentation/manual-1.5/ch08.html#PostGIS_GeographyFunctions
@@ -108,15 +108,12 @@ class GeographyFunctionTests(FuncTestMixin, TestCase):
         """
         Testing Distance() support on non-point geography fields.
         """
-        if connection.ops.oracle:
+        if oracle:
             ref_dists = [0, 4899.68, 8081.30, 9115.15]
-        elif connection.ops.spatialite:
-            if connection.ops.spatial_version < (5,):
-                # SpatiaLite < 5 returns non-zero distance for polygons and points
-                # covered by that polygon.
-                ref_dists = [326.61, 4899.68, 8081.30, 9115.15]
-            else:
-                ref_dists = [0, 4899.68, 8081.30, 9115.15]
+        elif spatialite:
+            # SpatiaLite returns non-zero distance for polygons and points
+            # covered by that polygon.
+            ref_dists = [326.61, 4899.68, 8081.30, 9115.15]
         else:
             ref_dists = [0, 4891.20, 8071.64, 9123.95]
         htown = City.objects.get(name='Houston')
@@ -127,13 +124,13 @@ class GeographyFunctionTests(FuncTestMixin, TestCase):
         for z, ref in zip(qs, ref_dists):
             self.assertAlmostEqual(z.distance.m, ref, 2)
 
-        if connection.ops.postgis:
+        if postgis:
             # PostGIS casts geography to geometry when distance2 is calculated.
             ref_dists = [0, 4899.68, 8081.30, 9115.15]
         for z, ref in zip(qs, ref_dists):
             self.assertAlmostEqual(z.distance2.m, ref, 2)
 
-        if not connection.ops.spatialite:
+        if not spatialite:
             # Distance function combined with a lookup.
             hzip = Zipcode.objects.get(code='77002')
             self.assertEqual(qs.get(distance__lte=0), hzip)

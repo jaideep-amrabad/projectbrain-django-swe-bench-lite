@@ -1,5 +1,4 @@
 from django.conf import settings
-from django.core.checks.messages import Error
 from django.core.checks.security import base, csrf, sessions
 from django.core.management.utils import get_random_secret_key
 from django.test import SimpleTestCase
@@ -472,60 +471,3 @@ class CheckReferrerPolicyTest(SimpleTestCase):
     )
     def test_with_invalid_referrer_policy(self):
         self.assertEqual(base.check_referrer_policy(None), [base.E023])
-
-
-def failure_view_with_invalid_signature():
-    pass
-
-
-class CSRFFailureViewTest(SimpleTestCase):
-    @override_settings(CSRF_FAILURE_VIEW='')
-    def test_failure_view_import_error(self):
-        self.assertEqual(
-            csrf.check_csrf_failure_view(None),
-            [
-                Error(
-                    "The CSRF failure view '' could not be imported.",
-                    id='security.E102',
-                )
-            ],
-        )
-
-    @override_settings(
-        CSRF_FAILURE_VIEW='check_framework.test_security.failure_view_with_invalid_signature',
-    )
-    def test_failure_view_invalid_signature(self):
-        msg = (
-            "The CSRF failure view "
-            "'check_framework.test_security.failure_view_with_invalid_signature' "
-            "does not take the correct number of arguments."
-        )
-        self.assertEqual(
-            csrf.check_csrf_failure_view(None),
-            [Error(msg, id='security.E101')],
-        )
-
-
-class CheckCrossOriginOpenerPolicyTest(SimpleTestCase):
-    @override_settings(
-        MIDDLEWARE=['django.middleware.security.SecurityMiddleware'],
-        SECURE_CROSS_ORIGIN_OPENER_POLICY=None,
-    )
-    def test_no_coop(self):
-        self.assertEqual(base.check_cross_origin_opener_policy(None), [])
-
-    @override_settings(MIDDLEWARE=['django.middleware.security.SecurityMiddleware'])
-    def test_with_coop(self):
-        tests = ['same-origin', 'same-origin-allow-popups', 'unsafe-none']
-        for value in tests:
-            with self.subTest(value=value), override_settings(
-                SECURE_CROSS_ORIGIN_OPENER_POLICY=value,
-            ):
-                self.assertEqual(base.check_cross_origin_opener_policy(None), [])
-
-    @override_settings(
-        MIDDLEWARE=['django.middleware.security.SecurityMiddleware'],
-        SECURE_CROSS_ORIGIN_OPENER_POLICY='invalid-value',
-    )
-    def test_with_invalid_coop(self):
-        self.assertEqual(base.check_cross_origin_opener_policy(None), [base.E024])

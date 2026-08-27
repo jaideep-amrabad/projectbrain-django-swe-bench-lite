@@ -275,16 +275,6 @@ class OnDeleteTests(TestCase):
 
 
 class DeletionTests(TestCase):
-    def test_sliced_queryset(self):
-        msg = "Cannot use 'limit' or 'offset' with delete()."
-        with self.assertRaisesMessage(TypeError, msg):
-            M.objects.all()[0:5].delete()
-
-    def test_pk_none(self):
-        m = M()
-        msg = "M object can't be deleted because its id attribute is set to None."
-        with self.assertRaisesMessage(ValueError, msg):
-            m.delete()
 
     def test_m2m(self):
         m = M.objects.create()

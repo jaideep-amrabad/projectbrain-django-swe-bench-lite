@@ -1,9 +1,12 @@
+from unittest import skipUnless
+
 from django.contrib.gis.db.models import F, GeometryField, Value, functions
 from django.contrib.gis.geos import Point, Polygon
 from django.db import connection
 from django.db.models import Count, Min
 from django.test import TestCase, skipUnlessDBFeature
 
+from ..utils import postgis
 from .models import City, ManyPointModel, MultiFields
 
 
@@ -22,7 +25,7 @@ class GeoExpressionsTests(TestCase):
         self.assertTrue(point.equals_exact(p.transform(4326, clone=True), 10 ** -5))
         self.assertEqual(point.srid, 4326)
 
-    @skipUnlessDBFeature('supports_geography')
+    @skipUnless(postgis, 'Only postgis has geography fields.')
     def test_geography_value(self):
         p = Polygon(((1, 1), (1, 2), (2, 2), (2, 1), (1, 1)))
         area = City.objects.annotate(a=functions.Area(Value(p, GeometryField(srid=4326, geography=True)))).first().a
