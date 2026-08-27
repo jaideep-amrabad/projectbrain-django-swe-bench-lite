@@ -1,34 +1,33 @@
 # Community 874
 
-> 9 nodes · cohesion 0.28
+> 8 nodes · cohesion 0.25
 
 ## Key Concepts
 
-- **TranslatableFile** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
-- **TranslatableFileTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_management.py`
-- **.test_eq()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_management.py`
-- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_management.py`
-- **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
-- **.__lt__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
-- **.path()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **LongNameTest** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_sequence_name_length_limits_flush()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_sequence_name_length_limits_create()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **.test_sequence_name_length_limits_m2m()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **Long primary keys and model names can result in a sequence name that exceeds…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **Test creation of model with long name and long pk name doesn't error. Ref #8901** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **An m2m save of a model with a long name and a long m2m field name doesn't error…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
+- **Sequence resetting as part of a flush with model with long name and long pk…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
 
 ## Relationships
 
-- [Community 19](Community_19.md) (2 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
+- [Community 43](Community_43.md) (2 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 925](Community_925.md) (1 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
-- `raw/code/hyd-evaluation/django-django/tests/i18n/test_management.py`
+- `raw/code/hyd-evaluation/django-django/tests/backends/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 13 (93%)
-- INFERRED: 1 (7%)
+- EXTRACTED: 10 (83%)
+- INFERRED: 2 (17%)
 - AMBIGUOUS: 0 (0%)
 
 ---

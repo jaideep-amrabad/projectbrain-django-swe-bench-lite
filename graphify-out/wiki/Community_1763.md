@@ -1,23 +1,22 @@
 # Community 1763
 
-> 2 nodes · cohesion 1.00
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **.test_regression_8106()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
-- **Regression test for bug #8106. Same sort of problem as the previous test, but…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
+- **test_no_submodule.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_no_submodule.py`
 
 ## Relationships
 
-- [Community 197](Community_197.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_no_submodule.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

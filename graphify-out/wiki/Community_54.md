@@ -1,6 +1,6 @@
 # Community 54
 
-> 121 nodes · cohesion 0.02
+> 118 nodes · cohesion 0.03
 
 ## Key Concepts
 
@@ -29,35 +29,33 @@
 - **.extra()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 - **._extract_model_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
 - **.filter()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- *... and 96 more nodes in this community*
+- *... and 93 more nodes in this community*
 
 ## Relationships
 
 - [Community 0](Community_0.md) (12 shared connections)
 - [Community 299](Community_299.md) (7 shared connections)
-- [Community 38](Community_38.md) (4 shared connections)
-- [Community 92](Community_92.md) (3 shared connections)
-- [Community 11](Community_11.md) (3 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 5](Community_5.md) (2 shared connections)
-- [Community 81](Community_81.md) (2 shared connections)
-- [Community 713](Community_713.md) (2 shared connections)
-- [Community 424](Community_424.md) (2 shared connections)
-- [Community 467](Community_467.md) (2 shared connections)
-- [Community 466](Community_466.md) (2 shared connections)
+- [Community 40](Community_40.md) (4 shared connections)
+- [Community 88](Community_88.md) (3 shared connections)
+- [Community 14](Community_14.md) (3 shared connections)
+- [Community 29](Community_29.md) (3 shared connections)
+- [Community 3](Community_3.md) (2 shared connections)
+- [Community 78](Community_78.md) (2 shared connections)
+- [Community 729](Community_729.md) (2 shared connections)
+- [Community 427](Community_427.md) (2 shared connections)
+- [Community 470](Community_470.md) (2 shared connections)
+- [Community 469](Community_469.md) (2 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/operations.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/enums.py`
 - `raw/code/hyd-evaluation/django-django/django/db/models/query.py`
-- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 - `raw/code/hyd-evaluation/django-django/tests/generic_views/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 219 (90%)
-- INFERRED: 23 (10%)
+- EXTRACTED: 215 (91%)
+- INFERRED: 22 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

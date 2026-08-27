@@ -1,57 +1,52 @@
 # Community 345
 
-> 26 nodes · cohesion 0.10
+> 33 nodes · cohesion 0.06
 
 ## Key Concepts
 
-- **XFrameOptionsMiddleware** (15 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/clickjacking.py`
-- **XFrameOptionsMiddlewareTest** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **XFrameOptionsDecoratorsTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.test_defaults_sameorigin()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_deny()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_dont_set_if_set()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_response_exempt()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_same_origin()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.test_is_extendable()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **.get_xframe_options_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/clickjacking.py`
-- **.test_exempt_decorator()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.process_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/clickjacking.py`
-- **.test_deny_decorator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **.test_sameorigin_decorator()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **The X_FRAME_OPTIONS setting can be set to SAMEORIGIN to have the middleware use…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **Set the X-Frame-Options HTTP header in HTTP responses. Do not set the header if…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/clickjacking.py`
-- **Get the value to set for the X_FRAME_OPTIONS header. Use the value from the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/clickjacking.py`
-- **Tests for the X-Frame-Options decorators.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **Ensures @xframe_options_deny properly sets the X-Frame-Options header.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **Ensures @xframe_options_sameorigin properly sets the X-Frame-Options header.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **Ensures @xframe_options_exempt properly instructs the XFrameOptionsMiddleware…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- **Tests for the X-Frame-Options clickjacking prevention middleware.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **If the X_FRAME_OPTIONS setting is not set then it defaults to DENY.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **If the X-Frame-Options header is already set then the middleware does not…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- **If the response has an xframe_options_exempt attribute set to False then it…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
-- *... and 1 more nodes in this community*
+- **RemoteUserTest** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **RemoteUserCustomTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **AllowAllUsersRemoteUserBackendTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **PersistentRemoteUserTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **RemoteUserNoCreateTest** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **CustomHeaderRemoteUserTest** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_header_disappears()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_last_login()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_header_disappears()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **Tests the case where the username passed in the header does not exist as a User.** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_known_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_unknown_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_known_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_no_remote_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_unknown_user()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_user_switch_forces_new_login()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **.test_inactive_user()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **A logged in user is logged out automatically when the REMOTE_USER header…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **If the username in the header changes between requests that the original user…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **Contains the same tests as RemoteUserTest, but using a custom auth backend…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **Backend that allows inactive users.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **Tests a custom RemoteUserBackend subclass that overrides the clean_username and…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **The strings passed in REMOTE_USER should be cleaned and the known users should…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **The unknown user created should be configured with an email address provided in…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- *... and 8 more nodes in this community*
 
 ## Relationships
 
-- [Community 8](Community_8.md) (9 shared connections)
-- [Community 21](Community_21.md) (7 shared connections)
-- [Community 7](Community_7.md) (6 shared connections)
-- [Community 200](Community_200.md) (3 shared connections)
-- [Community 5](Community_5.md) (3 shared connections)
-- [Community 90](Community_90.md) (1 shared connections)
-- [Community 27](Community_27.md) (1 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
+- [Community 6](Community_6.md) (7 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 25](Community_25.md) (1 shared connections)
+- [Community 24](Community_24.md) (1 shared connections)
+- [Community 19](Community_19.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/middleware/clickjacking.py`
-- `raw/code/hyd-evaluation/django-django/tests/decorators/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/middleware/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
 
 ## Audit Trail
 
-- EXTRACTED: 60 (94%)
-- INFERRED: 4 (6%)
+- EXTRACTED: 43 (98%)
+- INFERRED: 1 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

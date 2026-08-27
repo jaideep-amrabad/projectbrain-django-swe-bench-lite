@@ -4,21 +4,20 @@
 
 ## Key Concepts
 
-- **.test_inheritance10()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Three-level with space NOT in a block -- should be ignored** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_regression_7110()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
+- **Regression test for bug #7110. When using select_related(), we must query the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
 
 ## Relationships
 
-- [Community 822](Community_822.md) (1 shared connections)
-- [Community 861](Community_861.md) (1 shared connections)
+- [Community 196](Community_196.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

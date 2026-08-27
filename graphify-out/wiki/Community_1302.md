@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **.test_regression_12851()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
-- **Regression for #12851 Deferred fields are used correctly if you select_related…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
+- **.test_url_parameters()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **Make sure that URL ;-parameters are not stripped.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 197](Community_197.md) (1 shared connections)
+- [Community 482](Community_482.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 

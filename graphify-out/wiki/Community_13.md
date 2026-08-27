@@ -1,6 +1,6 @@
 # Community 13
 
-> 295 nodes · cohesion 0.01
+> 271 nodes · cohesion 0.02
 
 ## Key Concepts
 
@@ -23,34 +23,34 @@
 - **urlpatterns/tests.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
 - **sitemaps_tests/base.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/sitemaps_tests/base.py`
 - **i18n_patterns()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/conf/urls/i18n.py`
+- **admin_custom_urls/models.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/models.py`
+- **admin_custom_urls/tests.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_custom_urls/tests.py`
 - **urlpatterns_reverse/middleware.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/middleware.py`
-- **get_script_prefix()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
-- **set_script_prefix()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
-- **ResolveUrlTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/resolve_url/tests.py`
 - **LocalePrefixPattern** (13 connections) — `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
 - **test_localeregexdescriptor.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/test_localeregexdescriptor.py`
-- *... and 270 more nodes in this community*
+- **translate_url()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- *... and 246 more nodes in this community*
 
 ## Relationships
 
-- [Community 5](Community_5.md) (154 shared connections)
-- [Community 21](Community_21.md) (47 shared connections)
-- [Community 22](Community_22.md) (40 shared connections)
-- [Community 19](Community_19.md) (39 shared connections)
-- [Community 3](Community_3.md) (28 shared connections)
-- [Community 1](Community_1.md) (23 shared connections)
-- [Community 6](Community_6.md) (20 shared connections)
-- [Community 7](Community_7.md) (19 shared connections)
-- [Community 290](Community_290.md) (19 shared connections)
-- [Community 362](Community_362.md) (16 shared connections)
-- [Community 17](Community_17.md) (16 shared connections)
-- [Community 200](Community_200.md) (12 shared connections)
+- [Community 3](Community_3.md) (140 shared connections)
+- [Community 19](Community_19.md) (41 shared connections)
+- [Community 7](Community_7.md) (40 shared connections)
+- [Community 0](Community_0.md) (39 shared connections)
+- [Community 6](Community_6.md) (33 shared connections)
+- [Community 4](Community_4.md) (23 shared connections)
+- [Community 8](Community_8.md) (19 shared connections)
+- [Community 289](Community_289.md) (19 shared connections)
+- [Community 9](Community_9.md) (17 shared connections)
+- [Community 369](Community_369.md) (16 shared connections)
+- [Community 53](Community_53.md) (15 shared connections)
+- [Community 18](Community_18.md) (14 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/__init__.py`
 - `raw/code/hyd-evaluation/django-django/django/conf/urls/i18n.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/admindocs/views.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/__init__.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/__init__.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/sitemaps.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/urls.py`
@@ -58,9 +58,7 @@
 - `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/management/commands/ping_google.py`
 - `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
 - `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- `raw/code/hyd-evaluation/django-django/django/core/handlers/wsgi.py`
 - `raw/code/hyd-evaluation/django-django/django/middleware/locale.py`
-- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
 - `raw/code/hyd-evaluation/django-django/django/urls/__init__.py`
 - `raw/code/hyd-evaluation/django-django/django/urls/base.py`
 - `raw/code/hyd-evaluation/django-django/django/urls/conf.py`
@@ -68,11 +66,13 @@
 - `raw/code/hyd-evaluation/django-django/django/urls/exceptions.py`
 - `raw/code/hyd-evaluation/django-django/django/urls/resolvers.py`
 - `raw/code/hyd-evaluation/django-django/django/urls/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/http.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1122 (97%)
-- INFERRED: 40 (3%)
+- EXTRACTED: 1078 (96%)
+- INFERRED: 41 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

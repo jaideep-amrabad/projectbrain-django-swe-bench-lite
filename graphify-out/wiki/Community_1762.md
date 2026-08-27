@@ -1,23 +1,22 @@
 # Community 1762
 
-> 2 nodes · cohesion 1.00
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **.test_regression_7110()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
-- **Regression test for bug #7110. When using select_related(), we must query the…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
+- **good_module.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/good_module.py`
 
 ## Relationships
 
-- [Community 197](Community_197.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/good_module.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,6 +1,6 @@
 # Community 183
 
-> 48 nodes · cohesion 0.05
+> 47 nodes · cohesion 0.06
 
 ## Key Concepts
 
@@ -8,7 +8,6 @@
 - **ClearableFileInputTest** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
 - **FileInput** (11 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
 - **ImageFieldTest** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
-- **test_clearablefileinput.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
 - **FakeFieldFile** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
 - **.clear_checkbox_name()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
 - **.get_context()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/widgets.py`
@@ -29,19 +28,22 @@
 - **.test_widge_attrs_accept_specified()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_imagefield.py`
 - **.test_clear_input_checked_returns_false()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
 - **.test_clear_input_renders_only_if_initial()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
-- *... and 23 more nodes in this community*
+- **.test_html_does_not_mask_exceptions()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/widget_tests/test_clearablefileinput.py`
+- *... and 22 more nodes in this community*
 
 ## Relationships
 
-- [Community 181](Community_181.md) (7 shared connections)
-- [Community 23](Community_23.md) (5 shared connections)
-- [Community 120](Community_120.md) (4 shared connections)
-- [Community 49](Community_49.md) (4 shared connections)
-- [Community 72](Community_72.md) (3 shared connections)
-- [Community 188](Community_188.md) (2 shared connections)
-- [Community 154](Community_154.md) (1 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
+- [Community 242](Community_242.md) (6 shared connections)
+- [Community 20](Community_20.md) (5 shared connections)
+- [Community 90](Community_90.md) (3 shared connections)
+- [Community 33](Community_33.md) (3 shared connections)
+- [Community 740](Community_740.md) (2 shared connections)
+- [Community 192](Community_192.md) (1 shared connections)
+- [Community 417](Community_417.md) (1 shared connections)
+- [Community 615](Community_615.md) (1 shared connections)
+- [Community 267](Community_267.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 252](Community_252.md) (1 shared connections)
 
 ## Source Files
 
@@ -51,8 +53,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 77 (86%)
-- INFERRED: 13 (14%)
+- EXTRACTED: 72 (85%)
+- INFERRED: 13 (15%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **.test_multi_table_inheritance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
-- **Exercising select_related() with multi-table model inheritance.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
+- **.test_temporary_redirect()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- **GET a URL that does a non-permanent redirect** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Relationships
 
-- [Community 197](Community_197.md) (1 shared connections)
+- [Community 482](Community_482.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 
 ## Audit Trail
 

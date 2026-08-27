@@ -1,22 +1,23 @@
 # Community 1312
 
-> 1 nodes · cohesion 1.00
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **popup_response.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/popup_response.js`
+- **.test_regression_8036()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
+- **Regression test for bug #8036 the first related model in the tests below…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
 
 ## Relationships
 
-- No strong cross-community connections detected
+- [Community 196](Community_196.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/popup_response.js`
+- `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 0 (0%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

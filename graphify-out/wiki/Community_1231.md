@@ -4,21 +4,20 @@
 
 ## Key Concepts
 
-- **.test_inheritance09()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Three-level with second and third levels blank** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_regression_12851()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
+- **Regression for #12851 Deferred fields are used correctly if you select_related…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
 
 ## Relationships
 
-- [Community 822](Community_822.md) (1 shared connections)
-- [Community 861](Community_861.md) (1 shared connections)
+- [Community 196](Community_196.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/tests/select_related_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

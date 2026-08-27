@@ -4,27 +4,25 @@
 
 ## Key Concepts
 
-- **UnsaltedMD5PasswordHasher** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.verify()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **Incredibly insecure algorithm that you should *never* use; stores unsalted MD5…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.encode()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.harden_runtime()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
-- **.salt()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- **.full_clean()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **.clean_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **.clean()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **Call clean_fields(), clean(), and validate_unique() on the model. Raise a…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **Clean all fields and raise a ValidationError containing a dict of all…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **Hook for doing any extra model-wide validation after clean() has been called on…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
 
 ## Relationships
 
-- [Community 21](Community_21.md) (2 shared connections)
-- [Community 719](Community_719.md) (1 shared connections)
-- [Community 826](Community_826.md) (1 shared connections)
-- [Community 788](Community_788.md) (1 shared connections)
+- [Community 152](Community_152.md) (4 shared connections)
+- [Community 740](Community_740.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/hashers.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (100%)
+- EXTRACTED: 11 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
