@@ -1,8 +1,8 @@
 # F
 
-> God node · 305 connections · `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+> God node · 309 connections · `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
 
-**Community:** [Community 46](Community_46.md)
+**Community:** [Community 13](Community_13.md)
 
 ## Connections by Relation
 
@@ -54,8 +54,8 @@
 - admin_ordering/tests.py `EXTRACTED`
 
 ### inherits
-- Combinable `EXTRACTED`
 - OuterRef `EXTRACTED`
+- Combinable `EXTRACTED`
 - ResolvedOuterRef `EXTRACTED`
 
 ### method

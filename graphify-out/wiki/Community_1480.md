@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **import_error_package/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/import_error_package/__init__.py`
+- **m2m_signals/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_signals/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/import_error_package/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_signals/__init__.py`
 
 ## Audit Trail
 

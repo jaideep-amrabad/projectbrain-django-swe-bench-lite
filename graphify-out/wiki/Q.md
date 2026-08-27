@@ -1,8 +1,8 @@
 # Q
 
-> God node · 208 connections · `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+> God node · 210 connections · `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
 
-**Community:** [Community 57](Community_57.md)
+**Community:** [Community 12](Community_12.md)
 
 ## Connections by Relation
 
@@ -20,13 +20,13 @@
 - .test_annotation_disjunction() `INFERRED`
 - .test_conditional_aggregate_on_complex_condition() `INFERRED`
 - .test_combined_q_object() `INFERRED`
+- .test_aggregate_subquery_annotation() `INFERRED`
 - .test_all_gis_lookups_with_rasters() `INFERRED`
 - .test_dwithin_gis_lookup_ouptut_with_rasters() `INFERRED`
 - .__init__() `EXTRACTED`
 - .get_reverse_related_filter() `EXTRACTED`
 - .delete_qs() `EXTRACTED`
 - .test_multiple_conditions() `EXTRACTED`
-- update_proxy_model_permissions() `INFERRED`
 
 ### contains
 - query_utils.py `EXTRACTED`
