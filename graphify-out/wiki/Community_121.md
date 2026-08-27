@@ -35,8 +35,8 @@
 
 - [Community 1](Community_1.md) (17 shared connections)
 - [Community 20](Community_20.md) (2 shared connections)
-- [Community 15](Community_15.md) (2 shared connections)
-- [Community 261](Community_261.md) (2 shared connections)
+- [Community 14](Community_14.md) (2 shared connections)
+- [Community 134](Community_134.md) (2 shared connections)
 
 ## Source Files
 

@@ -1,6 +1,6 @@
 # Community 9
 
-> 261 nodes · cohesion 0.01
+> 259 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -9,7 +9,7 @@
 - **check_url_config()** (22 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
 - **CheckUrlConfigTests** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
 - **MiddlewareTests** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/tests.py`
-- **AdminEmailHandlerTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
+- **RedirectTests** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
 - **check_url_namespaces_unique()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/urls.py`
 - **RequestURLconfTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
 - **TestMiscFinder** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_finders.py`
@@ -21,7 +21,6 @@
 - **DefaultLoggingTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
 - **CacheDBSessionTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
 - **PyLibMCCacheTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.get_admin_email_handler()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
 - **MiddlewareNotUsedTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/tests.py`
 - **SecureProxySslHeaderTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
 - **AssertURLEqualTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/test_utils/tests.py`
@@ -29,22 +28,23 @@
 - **ManageRunserverMigrationWarning** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
 - **.assertLoginRedirectURLEqual()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 - **CheckCustomErrorHandlersTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_urls.py`
-- *... and 236 more nodes in this community*
+- **DebugContextProcessorTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/context_processors/tests.py`
+- *... and 234 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (54 shared connections)
 - [Community 20](Community_20.md) (53 shared connections)
+- [Community 0](Community_0.md) (53 shared connections)
 - [Community 17](Community_17.md) (51 shared connections)
 - [Community 7](Community_7.md) (47 shared connections)
-- [Community 12](Community_12.md) (43 shared connections)
-- [Community 4](Community_4.md) (40 shared connections)
+- [Community 11](Community_11.md) (43 shared connections)
+- [Community 4](Community_4.md) (39 shared connections)
 - [Community 1](Community_1.md) (28 shared connections)
-- [Community 3](Community_3.md) (27 shared connections)
-- [Community 22](Community_22.md) (25 shared connections)
-- [Community 167](Community_167.md) (25 shared connections)
+- [Community 3](Community_3.md) (26 shared connections)
+- [Community 163](Community_163.md) (25 shared connections)
+- [Community 83](Community_83.md) (24 shared connections)
 - [Community 2](Community_2.md) (22 shared connections)
-- [Community 108](Community_108.md) (20 shared connections)
+- [Community 5](Community_5.md) (21 shared connections)
 
 ## Source Files
 
@@ -65,14 +65,14 @@
 - `raw/code/hyd-evaluation/django-django/tests/logging_tests/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/mail/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/middleware_exceptions/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/redirects_tests/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_finders.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1600 (99%)
-- INFERRED: 14 (1%)
+- EXTRACTED: 1594 (99%)
+- INFERRED: 13 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

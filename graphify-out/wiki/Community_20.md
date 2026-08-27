@@ -1,6 +1,6 @@
 # Community 20
 
-> 466 nodes · cohesion 0.01
+> 469 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -29,21 +29,21 @@
 - **model_fields/test_uuid.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_uuid.py`
 - **DecimalModel** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/models.py`
 - **FloatModel** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/models.py`
-- *... and 441 more nodes in this community*
+- *... and 444 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (444 shared connections)
-- [Community 0](Community_0.md) (236 shared connections)
-- [Community 23](Community_23.md) (97 shared connections)
-- [Community 58](Community_58.md) (83 shared connections)
-- [Community 4](Community_4.md) (67 shared connections)
-- [Community 61](Community_61.md) (62 shared connections)
+- [Community 1](Community_1.md) (446 shared connections)
+- [Community 0](Community_0.md) (239 shared connections)
+- [Community 21](Community_21.md) (97 shared connections)
+- [Community 68](Community_68.md) (83 shared connections)
+- [Community 4](Community_4.md) (63 shared connections)
+- [Community 69](Community_69.md) (62 shared connections)
 - [Community 2](Community_2.md) (61 shared connections)
-- [Community 3](Community_3.md) (58 shared connections)
+- [Community 3](Community_3.md) (57 shared connections)
 - [Community 9](Community_9.md) (53 shared connections)
-- [Community 11](Community_11.md) (49 shared connections)
-- [Community 85](Community_85.md) (43 shared connections)
+- [Community 12](Community_12.md) (49 shared connections)
+- [Community 86](Community_86.md) (43 shared connections)
 - [Community 17](Community_17.md) (33 shared connections)
 
 ## Source Files
@@ -71,7 +71,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 3872 (99%)
+- EXTRACTED: 3885 (99%)
 - INFERRED: 36 (1%)
 - AMBIGUOUS: 0 (0%)
 

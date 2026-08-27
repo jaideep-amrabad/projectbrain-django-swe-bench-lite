@@ -1,6 +1,6 @@
 # Community 4
 
-> 316 nodes · cohesion 0.01
+> 292 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -28,35 +28,32 @@
 - **generic/base.py** (29 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
 - **contenttypes_tests/test_views.py** (28 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_views.py`
 - **PermissionDenied** (26 connections) — `raw/code/hyd-evaluation/django-django/django/core/exceptions.py`
-- **views/static.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/views/static.py`
-- *... and 291 more nodes in this community*
+- **test_client/tests.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
+- *... and 267 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (142 shared connections)
-- [Community 3](Community_3.md) (103 shared connections)
-- [Community 0](Community_0.md) (82 shared connections)
-- [Community 14](Community_14.md) (67 shared connections)
-- [Community 20](Community_20.md) (67 shared connections)
-- [Community 918](Community_918.md) (50 shared connections)
-- [Community 31](Community_31.md) (49 shared connections)
-- [Community 43](Community_43.md) (42 shared connections)
-- [Community 9](Community_9.md) (40 shared connections)
-- [Community 5](Community_5.md) (35 shared connections)
-- [Community 22](Community_22.md) (34 shared connections)
-- [Community 2](Community_2.md) (32 shared connections)
+- [Community 1](Community_1.md) (132 shared connections)
+- [Community 3](Community_3.md) (94 shared connections)
+- [Community 0](Community_0.md) (77 shared connections)
+- [Community 20](Community_20.md) (63 shared connections)
+- [Community 19](Community_19.md) (60 shared connections)
+- [Community 30](Community_30.md) (48 shared connections)
+- [Community 280](Community_280.md) (46 shared connections)
+- [Community 9](Community_9.md) (39 shared connections)
+- [Community 40](Community_40.md) (36 shared connections)
+- [Community 83](Community_83.md) (35 shared connections)
+- [Community 5](Community_5.md) (29 shared connections)
+- [Community 50](Community_50.md) (27 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/conf/urls/static.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/admin/actions.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/admin/helpers.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/admin/views/autocomplete.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/auth/__init__.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/auth/admin.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/decorators.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/views.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/views.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/admin.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/forms.py`
@@ -68,11 +65,14 @@
 - `raw/code/hyd-evaluation/django-django/django/contrib/messages/views.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/redirects/middleware.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/redirects/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sitemaps/views.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/apps.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2067 (99%)
-- INFERRED: 27 (1%)
+- EXTRACTED: 1922 (99%)
+- INFERRED: 26 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

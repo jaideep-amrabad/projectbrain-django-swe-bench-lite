@@ -1,6 +1,6 @@
 # Community 2
 
-> 255 nodes · cohesion 0.01
+> 246 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -29,27 +29,26 @@
 - **cases.py** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/cases.py`
 - **files/uploadhandler.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadhandler.py`
 - **test_finders.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/test_finders.py`
-- *... and 230 more nodes in this community*
+- *... and 221 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (169 shared connections)
+- [Community 1](Community_1.md) (166 shared connections)
 - [Community 20](Community_20.md) (61 shared connections)
 - [Community 0](Community_0.md) (47 shared connections)
-- [Community 4](Community_4.md) (32 shared connections)
-- [Community 3](Community_3.md) (31 shared connections)
-- [Community 53](Community_53.md) (31 shared connections)
-- [Community 22](Community_22.md) (22 shared connections)
+- [Community 51](Community_51.md) (31 shared connections)
+- [Community 3](Community_3.md) (28 shared connections)
+- [Community 83](Community_83.md) (25 shared connections)
+- [Community 4](Community_4.md) (23 shared connections)
+- [Community 280](Community_280.md) (23 shared connections)
 - [Community 9](Community_9.md) (22 shared connections)
 - [Community 7](Community_7.md) (21 shared connections)
-- [Community 918](Community_918.md) (19 shared connections)
-- [Community 229](Community_229.md) (15 shared connections)
-- [Community 128](Community_128.md) (15 shared connections)
+- [Community 224](Community_224.md) (15 shared connections)
+- [Community 127](Community_127.md) (15 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/apps/config.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/admin/sites.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/__init__.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/staticfiles/checks.py`
@@ -68,11 +67,12 @@
 - `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
 - `raw/code/hyd-evaluation/django-django/django/core/files/move.py`
 - `raw/code/hyd-evaluation/django-django/django/core/files/storage.py`
+- `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
 
 ## Audit Trail
 
-- EXTRACTED: 1323 (97%)
-- INFERRED: 41 (3%)
+- EXTRACTED: 1307 (97%)
+- INFERRED: 40 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

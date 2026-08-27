@@ -30,8 +30,8 @@
 
 ## Relationships
 
-- [Community 61](Community_61.md) (6 shared connections)
-- [Community 646](Community_646.md) (2 shared connections)
+- [Community 69](Community_69.md) (6 shared connections)
+- [Community 647](Community_647.md) (2 shared connections)
 - [Community 367](Community_367.md) (1 shared connections)
 - [Community 925](Community_925.md) (1 shared connections)
 

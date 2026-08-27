@@ -14,7 +14,7 @@
 
 ## Relationships
 
-- [Community 46](Community_46.md) (2 shared connections)
+- [Community 45](Community_45.md) (2 shared connections)
 - [Community 4](Community_4.md) (2 shared connections)
 - [Community 1](Community_1.md) (1 shared connections)
 

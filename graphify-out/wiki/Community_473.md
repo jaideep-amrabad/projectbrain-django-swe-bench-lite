@@ -31,10 +31,10 @@
 
 ## Relationships
 
-- [Community 795](Community_795.md) (2 shared connections)
+- [Community 793](Community_793.md) (2 shared connections)
 - [Community 20](Community_20.md) (1 shared connections)
-- [Community 23](Community_23.md) (1 shared connections)
-- [Community 758](Community_758.md) (1 shared connections)
+- [Community 21](Community_21.md) (1 shared connections)
+- [Community 757](Community_757.md) (1 shared connections)
 
 ## Source Files
 

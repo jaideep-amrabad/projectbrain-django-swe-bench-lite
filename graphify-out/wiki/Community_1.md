@@ -1,6 +1,6 @@
 # Community 1
 
-> 766 nodes · cohesion 0.01
+> 763 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **NotSupportedError** (54 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
 - **sessions_tests/tests.py** (52 connections) — `raw/code/hyd-evaluation/django-django/tests/sessions_tests/tests.py`
 - **admin/checks.py** (43 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/checks.py`
-- *... and 741 more nodes in this community*
+- *... and 738 more nodes in this community*
 
 ## Relationships
 
-- [Community 20](Community_20.md) (444 shared connections)
-- [Community 2](Community_2.md) (169 shared connections)
-- [Community 0](Community_0.md) (152 shared connections)
-- [Community 4](Community_4.md) (142 shared connections)
-- [Community 3](Community_3.md) (129 shared connections)
-- [Community 918](Community_918.md) (80 shared connections)
-- [Community 22](Community_22.md) (76 shared connections)
-- [Community 14](Community_14.md) (69 shared connections)
-- [Community 11](Community_11.md) (63 shared connections)
-- [Community 61](Community_61.md) (52 shared connections)
-- [Community 95](Community_95.md) (48 shared connections)
-- [Community 267](Community_267.md) (46 shared connections)
+- [Community 20](Community_20.md) (446 shared connections)
+- [Community 2](Community_2.md) (166 shared connections)
+- [Community 0](Community_0.md) (151 shared connections)
+- [Community 4](Community_4.md) (132 shared connections)
+- [Community 3](Community_3.md) (121 shared connections)
+- [Community 83](Community_83.md) (85 shared connections)
+- [Community 280](Community_280.md) (74 shared connections)
+- [Community 19](Community_19.md) (71 shared connections)
+- [Community 12](Community_12.md) (63 shared connections)
+- [Community 69](Community_69.md) (52 shared connections)
+- [Community 200](Community_200.md) (46 shared connections)
+- [Community 95](Community_95.md) (45 shared connections)
 
 ## Source Files
 
@@ -71,7 +71,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 5622 (98%)
+- EXTRACTED: 5619 (98%)
 - INFERRED: 141 (2%)
 - AMBIGUOUS: 0 (0%)
 
