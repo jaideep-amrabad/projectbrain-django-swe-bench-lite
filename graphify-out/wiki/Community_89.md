@@ -1,6 +1,6 @@
 # Community 89
 
-> 92 nodes · cohesion 0.04
+> 95 nodes · cohesion 0.04
 
 ## Key Concepts
 
@@ -28,23 +28,23 @@
 - **GinIndexTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
 - **GistIndexTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
 - **HashIndexTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **RemoveIndexConcurrentlyTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_operations.py`
-- *... and 67 more nodes in this community*
+- **SpGistIndexTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- *... and 70 more nodes in this community*
 
 ## Relationships
 
-- [Community 68](Community_68.md) (16 shared connections)
+- [Community 51](Community_51.md) (13 shared connections)
 - [Community 0](Community_0.md) (8 shared connections)
-- [Community 17](Community_17.md) (6 shared connections)
-- [Community 5](Community_5.md) (6 shared connections)
-- [Community 244](Community_244.md) (4 shared connections)
-- [Community 55](Community_55.md) (4 shared connections)
+- [Community 11](Community_11.md) (6 shared connections)
+- [Community 9](Community_9.md) (6 shared connections)
+- [Community 282](Community_282.md) (4 shared connections)
+- [Community 58](Community_58.md) (4 shared connections)
 - [Community 78](Community_78.md) (4 shared connections)
-- [Community 45](Community_45.md) (3 shared connections)
-- [Community 418](Community_418.md) (3 shared connections)
-- [Community 11](Community_11.md) (3 shared connections)
-- [Community 460](Community_460.md) (2 shared connections)
-- [Community 88](Community_88.md) (2 shared connections)
+- [Community 48](Community_48.md) (3 shared connections)
+- [Community 415](Community_415.md) (3 shared connections)
+- [Community 77](Community_77.md) (3 shared connections)
+- [Community 452](Community_452.md) (2 shared connections)
+- [Community 103](Community_103.md) (2 shared connections)
 
 ## Source Files
 
@@ -55,7 +55,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 232 (92%)
+- EXTRACTED: 235 (92%)
 - INFERRED: 21 (8%)
 - AMBIGUOUS: 0 (0%)
 

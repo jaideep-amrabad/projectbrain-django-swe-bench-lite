@@ -1,6 +1,6 @@
 # Community 37
 
-> 159 nodes · cohesion 0.02
+> 157 nodes · cohesion 0.02
 
 ## Key Concepts
 
@@ -26,25 +26,25 @@
 - **.test_model_with_bigautofield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
 - **.test_rename_field_reloads_state_on_fk_target_changes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
 - **.test_rename_m2m_model_after_rename_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- **.test_rename_missing_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- **.test_rename_referenced_field_state_forward()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
 - **.test_run_python_atomic()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- *... and 134 more nodes in this community*
+- **.test_run_python_noop()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- **.test_run_python_related_assignment()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- *... and 132 more nodes in this community*
 
 ## Relationships
 
+- [Community 94](Community_94.md) (21 shared connections)
 - [Community 78](Community_78.md) (15 shared connections)
-- [Community 93](Community_93.md) (11 shared connections)
-- [Community 170](Community_170.md) (9 shared connections)
-- [Community 29](Community_29.md) (7 shared connections)
-- [Community 5](Community_5.md) (5 shared connections)
-- [Community 88](Community_88.md) (4 shared connections)
+- [Community 32](Community_32.md) (7 shared connections)
+- [Community 9](Community_9.md) (5 shared connections)
+- [Community 103](Community_103.md) (4 shared connections)
 - [Community 10](Community_10.md) (3 shared connections)
-- [Community 3](Community_3.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
 - [Community 19](Community_19.md) (2 shared connections)
-- [Community 121](Community_121.md) (2 shared connections)
-- [Community 378](Community_378.md) (2 shared connections)
-- [Community 30](Community_30.md) (2 shared connections)
+- [Community 123](Community_123.md) (2 shared connections)
+- [Community 375](Community_375.md) (2 shared connections)
+- [Community 28](Community_28.md) (2 shared connections)
+- [Community 371](Community_371.md) (2 shared connections)
 
 ## Source Files
 
@@ -53,7 +53,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 245 (93%)
+- EXTRACTED: 243 (93%)
 - INFERRED: 18 (7%)
 - AMBIGUOUS: 0 (0%)
 

@@ -2,7 +2,7 @@
 
 > God node · 237 connections · `raw/code/hyd-evaluation/django-django/django/utils/safestring.py`
 
-**Community:** [Community 20](Community_20.md)
+**Community:** [Community 8](Community_8.md)
 
 ## Connections by Relation
 

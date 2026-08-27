@@ -25,11 +25,11 @@
 
 ## Relationships
 
-- [Community 635](Community_635.md) (7 shared connections)
-- [Community 836](Community_836.md) (3 shared connections)
-- [Community 898](Community_898.md) (2 shared connections)
-- [Community 25](Community_25.md) (2 shared connections)
-- [Community 17](Community_17.md) (1 shared connections)
+- [Community 697](Community_697.md) (7 shared connections)
+- [Community 827](Community_827.md) (3 shared connections)
+- [Community 1015](Community_1015.md) (2 shared connections)
+- [Community 26](Community_26.md) (2 shared connections)
+- [Community 11](Community_11.md) (1 shared connections)
 
 ## Source Files
 

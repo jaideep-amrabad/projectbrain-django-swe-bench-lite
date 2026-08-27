@@ -16,18 +16,18 @@
 
 ## Relationships
 
-- [Community 2](Community_2.md) (9 shared connections)
-- [Community 1002](Community_1002.md) (2 shared connections)
-- [Community 977](Community_977.md) (1 shared connections)
-- [Community 1181](Community_1181.md) (1 shared connections)
-- [Community 1013](Community_1013.md) (1 shared connections)
-- [Community 978](Community_978.md) (1 shared connections)
-- [Community 1010](Community_1010.md) (1 shared connections)
-- [Community 1012](Community_1012.md) (1 shared connections)
-- [Community 1178](Community_1178.md) (1 shared connections)
-- [Community 985](Community_985.md) (1 shared connections)
-- [Community 984](Community_984.md) (1 shared connections)
-- [Community 986](Community_986.md) (1 shared connections)
+- [Community 3](Community_3.md) (9 shared connections)
+- [Community 992](Community_992.md) (2 shared connections)
+- [Community 1082](Community_1082.md) (1 shared connections)
+- [Community 1167](Community_1167.md) (1 shared connections)
+- [Community 1093](Community_1093.md) (1 shared connections)
+- [Community 1083](Community_1083.md) (1 shared connections)
+- [Community 1091](Community_1091.md) (1 shared connections)
+- [Community 1092](Community_1092.md) (1 shared connections)
+- [Community 1164](Community_1164.md) (1 shared connections)
+- [Community 1086](Community_1086.md) (1 shared connections)
+- [Community 1085](Community_1085.md) (1 shared connections)
+- [Community 1087](Community_1087.md) (1 shared connections)
 
 ## Source Files
 
