@@ -1,6 +1,6 @@
 # Community 1
 
-> 524 nodes · cohesion 0.01
+> 523 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -8,10 +8,12 @@
 - **db/migrations/__init__.py** (165 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/__init__.py`
 - **db/utils.py** (73 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
 - **db/transaction.py** (65 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **NotSupportedError** (60 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
 - **DatabaseError** (56 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
 - **state.py** (42 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
 - **IntegrityError** (37 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
 - **postgresql/base.py** (36 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **sqlite/tests.py** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/tests.py`
 - **migrations/test_operations.py** (34 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
 - **migrations/test_commands.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
 - **base/base.py** (31 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
@@ -27,24 +29,22 @@
 - **migrations/models.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
 - **recorder.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/recorder.py`
 - **FoodManager** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/models.py`
-- **transactions/tests.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/transactions/tests.py`
-- **squashmigrations.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/squashmigrations.py`
-- *... and 499 more nodes in this community*
+- *... and 498 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (193 shared connections)
-- [Community 7](Community_7.md) (89 shared connections)
-- [Community 2](Community_2.md) (64 shared connections)
-- [Community 27](Community_27.md) (49 shared connections)
-- [Community 16](Community_16.md) (35 shared connections)
-- [Community 140](Community_140.md) (33 shared connections)
-- [Community 43](Community_43.md) (32 shared connections)
-- [Community 62](Community_62.md) (31 shared connections)
-- [Community 50](Community_50.md) (26 shared connections)
-- [Community 87](Community_87.md) (25 shared connections)
-- [Community 41](Community_41.md) (24 shared connections)
-- [Community 17](Community_17.md) (23 shared connections)
+- [Community 0](Community_0.md) (199 shared connections)
+- [Community 79](Community_79.md) (94 shared connections)
+- [Community 2](Community_2.md) (67 shared connections)
+- [Community 13](Community_13.md) (50 shared connections)
+- [Community 122](Community_122.md) (33 shared connections)
+- [Community 17](Community_17.md) (33 shared connections)
+- [Community 29](Community_29.md) (32 shared connections)
+- [Community 40](Community_40.md) (32 shared connections)
+- [Community 6](Community_6.md) (28 shared connections)
+- [Community 12](Community_12.md) (26 shared connections)
+- [Community 41](Community_41.md) (26 shared connections)
+- [Community 70](Community_70.md) (25 shared connections)
 
 ## Source Files
 
@@ -71,7 +71,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 2219 (98%)
+- EXTRACTED: 2304 (98%)
 - INFERRED: 41 (2%)
 - AMBIGUOUS: 0 (0%)
 

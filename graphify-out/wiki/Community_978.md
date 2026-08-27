@@ -10,10 +10,10 @@
 
 ## Relationships
 
-- [Community 472](Community_472.md) (4 shared connections)
-- [Community 654](Community_654.md) (2 shared connections)
-- [Community 655](Community_655.md) (2 shared connections)
-- [Community 333](Community_333.md) (2 shared connections)
+- [Community 469](Community_469.md) (4 shared connections)
+- [Community 650](Community_650.md) (2 shared connections)
+- [Community 651](Community_651.md) (2 shared connections)
+- [Community 332](Community_332.md) (2 shared connections)
 
 ## Source Files
 

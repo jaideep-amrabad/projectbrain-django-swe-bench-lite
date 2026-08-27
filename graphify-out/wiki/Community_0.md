@@ -33,18 +33,18 @@
 
 ## Relationships
 
-- [Community 1](Community_1.md) (193 shared connections)
+- [Community 1](Community_1.md) (199 shared connections)
 - [Community 2](Community_2.md) (184 shared connections)
-- [Community 26](Community_26.md) (132 shared connections)
-- [Community 7](Community_7.md) (96 shared connections)
-- [Community 709](Community_709.md) (66 shared connections)
-- [Community 17](Community_17.md) (52 shared connections)
-- [Community 42](Community_42.md) (39 shared connections)
-- [Community 27](Community_27.md) (39 shared connections)
+- [Community 8](Community_8.md) (132 shared connections)
+- [Community 79](Community_79.md) (89 shared connections)
+- [Community 707](Community_707.md) (66 shared connections)
+- [Community 12](Community_12.md) (54 shared connections)
+- [Community 13](Community_13.md) (41 shared connections)
+- [Community 53](Community_53.md) (39 shared connections)
+- [Community 39](Community_39.md) (35 shared connections)
 - [Community 100](Community_100.md) (34 shared connections)
-- [Community 55](Community_55.md) (33 shared connections)
-- [Community 23](Community_23.md) (33 shared connections)
-- [Community 16](Community_16.md) (31 shared connections)
+- [Community 49](Community_49.md) (33 shared connections)
+- [Community 22](Community_22.md) (33 shared connections)
 
 ## Source Files
 
@@ -71,7 +71,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 3111 (100%)
+- EXTRACTED: 3110 (100%)
 - INFERRED: 14 (0%)
 - AMBIGUOUS: 0 (0%)
 

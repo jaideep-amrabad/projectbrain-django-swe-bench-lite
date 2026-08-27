@@ -1,6 +1,6 @@
 # Community 2
 
-> 513 nodes · cohesion 0.01
+> 528 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **test_client/tests.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client/tests.py`
 - **test_remote_user.py** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
 - **test_logentry.py** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_utils/test_logentry.py`
-- *... and 488 more nodes in this community*
+- *... and 503 more nodes in this community*
 
 ## Relationships
 
 - [Community 0](Community_0.md) (184 shared connections)
-- [Community 1](Community_1.md) (64 shared connections)
-- [Community 50](Community_50.md) (64 shared connections)
-- [Community 27](Community_27.md) (62 shared connections)
-- [Community 18](Community_18.md) (60 shared connections)
-- [Community 36](Community_36.md) (53 shared connections)
-- [Community 62](Community_62.md) (49 shared connections)
-- [Community 7](Community_7.md) (39 shared connections)
-- [Community 31](Community_31.md) (34 shared connections)
-- [Community 198](Community_198.md) (34 shared connections)
-- [Community 22](Community_22.md) (33 shared connections)
-- [Community 42](Community_42.md) (28 shared connections)
+- [Community 1](Community_1.md) (67 shared connections)
+- [Community 13](Community_13.md) (66 shared connections)
+- [Community 6](Community_6.md) (63 shared connections)
+- [Community 16](Community_16.md) (63 shared connections)
+- [Community 29](Community_29.md) (49 shared connections)
+- [Community 79](Community_79.md) (38 shared connections)
+- [Community 28](Community_28.md) (37 shared connections)
+- [Community 117](Community_117.md) (34 shared connections)
+- [Community 21](Community_21.md) (33 shared connections)
+- [Community 38](Community_38.md) (31 shared connections)
+- [Community 53](Community_53.md) (28 shared connections)
 
 ## Source Files
 
@@ -59,6 +59,7 @@
 - `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0007_alter_validators_add_error_messages.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0008_alter_user_username_max_length.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/auth/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/auth/signals.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/auth/validators.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/contenttypes/forms.py`
@@ -67,12 +68,11 @@
 - `raw/code/hyd-evaluation/django-django/django/core/mail/backends/__init__.py`
 - `raw/code/hyd-evaluation/django-django/django/core/mail/backends/locmem.py`
 - `raw/code/hyd-evaluation/django-django/django/core/mail/message.py`
-- `raw/code/hyd-evaluation/django-django/django/core/management/commands/sendtestemail.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2955 (99%)
-- INFERRED: 32 (1%)
+- EXTRACTED: 2978 (99%)
+- INFERRED: 33 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

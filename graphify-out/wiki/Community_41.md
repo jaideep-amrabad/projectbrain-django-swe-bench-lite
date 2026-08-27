@@ -1,6 +1,6 @@
 # Community 41
 
-> 164 nodes · cohesion 0.01
+> 168 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -8,6 +8,8 @@
 - **ProjectState** (80 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
 - **._find_reload_model()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
 - **._test_autofield_foreignfield_growth()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- **.test_manager_refer_correct_model_version()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
+- **.test_render()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
 - **.reload_model()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
 - **.test_rename_model_state_forwards()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
 - **.test_create_ignore_swapped()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
@@ -27,34 +29,33 @@
 - **.test_model_with_bigautofield()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
 - **.test_rename_field_reloads_state_on_fk_target_changes()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
 - **.test_rename_m2m_model_after_rename_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- **.test_rename_missing_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- **.test_rename_referenced_field_state_forward()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
-- *... and 139 more nodes in this community*
+- *... and 143 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (24 shared connections)
+- [Community 1](Community_1.md) (26 shared connections)
 - [Community 123](Community_123.md) (16 shared connections)
-- [Community 37](Community_37.md) (7 shared connections)
-- [Community 21](Community_21.md) (6 shared connections)
-- [Community 140](Community_140.md) (4 shared connections)
-- [Community 87](Community_87.md) (3 shared connections)
-- [Community 66](Community_66.md) (2 shared connections)
-- [Community 380](Community_380.md) (2 shared connections)
+- [Community 20](Community_20.md) (8 shared connections)
+- [Community 32](Community_32.md) (7 shared connections)
+- [Community 122](Community_122.md) (4 shared connections)
+- [Community 40](Community_40.md) (3 shared connections)
+- [Community 70](Community_70.md) (3 shared connections)
+- [Community 102](Community_102.md) (2 shared connections)
 - [Community 376](Community_376.md) (2 shared connections)
-- [Community 43](Community_43.md) (2 shared connections)
+- [Community 373](Community_373.md) (2 shared connections)
 - [Community 289](Community_289.md) (2 shared connections)
-- [Community 18](Community_18.md) (2 shared connections)
+- [Community 16](Community_16.md) (2 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
 - `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_state.py`
 
 ## Audit Trail
 
-- EXTRACTED: 252 (93%)
-- INFERRED: 18 (7%)
+- EXTRACTED: 261 (94%)
+- INFERRED: 18 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

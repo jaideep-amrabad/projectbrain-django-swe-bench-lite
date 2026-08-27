@@ -12,9 +12,9 @@
 
 ## Relationships
 
-- [Community 401](Community_401.md) (3 shared connections)
-- [Community 477](Community_477.md) (1 shared connections)
-- [Community 79](Community_79.md) (1 shared connections)
+- [Community 397](Community_397.md) (3 shared connections)
+- [Community 474](Community_474.md) (1 shared connections)
+- [Community 135](Community_135.md) (1 shared connections)
 
 ## Source Files
 

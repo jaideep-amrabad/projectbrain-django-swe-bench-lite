@@ -12,9 +12,9 @@
 
 - [Community 2](Community_2.md) (1 shared connections)
 - [Community 5](Community_5.md) (1 shared connections)
-- [Community 694](Community_694.md) (1 shared connections)
-- [Community 25](Community_25.md) (1 shared connections)
-- [Community 185](Community_185.md) (1 shared connections)
+- [Community 692](Community_692.md) (1 shared connections)
+- [Community 23](Community_23.md) (1 shared connections)
+- [Community 189](Community_189.md) (1 shared connections)
 
 ## Source Files
 
