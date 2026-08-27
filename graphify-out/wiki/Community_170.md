@@ -33,11 +33,11 @@
 
 ## Relationships
 
-- [Community 5](Community_5.md) (8 shared connections)
-- [Community 9](Community_9.md) (6 shared connections)
-- [Community 7](Community_7.md) (6 shared connections)
+- [Community 3](Community_3.md) (8 shared connections)
+- [Community 24](Community_24.md) (6 shared connections)
+- [Community 6](Community_6.md) (6 shared connections)
 - [Community 32](Community_32.md) (5 shared connections)
-- [Community 525](Community_525.md) (1 shared connections)
+- [Community 520](Community_520.md) (1 shared connections)
 
 ## Source Files
 

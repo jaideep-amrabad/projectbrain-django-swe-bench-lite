@@ -27,10 +27,10 @@
 
 ## Relationships
 
-- [Community 475](Community_475.md) (5 shared connections)
-- [Community 615](Community_615.md) (2 shared connections)
-- [Community 611](Community_611.md) (1 shared connections)
-- [Community 335](Community_335.md) (1 shared connections)
+- [Community 474](Community_474.md) (5 shared connections)
+- [Community 665](Community_665.md) (2 shared connections)
+- [Community 664](Community_664.md) (1 shared connections)
+- [Community 337](Community_337.md) (1 shared connections)
 
 ## Source Files
 

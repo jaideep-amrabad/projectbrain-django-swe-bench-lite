@@ -1,6 +1,6 @@
 # Community 0
 
-> 430 nodes · cohesion 0.01
+> 435 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -17,6 +17,7 @@
 - **postgis/models.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/models.py`
 - **base/introspection.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/introspection.py`
 - **field_subclassing/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/field_subclassing/tests.py`
+- **fixtures_model_package/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/tests.py`
 - **test_iterator.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_iterator.py`
 - **spatialite/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
 - **django/db/backends/oracle/introspection.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/introspection.py`
@@ -28,23 +29,22 @@
 - **oracle/test_creation.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/oracle/test_creation.py`
 - **0002_rastermodels.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/migrations/0002_rastermodels.py`
 - **admin/migrations/0001_initial.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/migrations/0001_initial.py`
-- **0004_alter_user_username_opts.py** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/migrations/0004_alter_user_username_opts.py`
-- *... and 405 more nodes in this community*
+- *... and 410 more nodes in this community*
 
 ## Relationships
 
-- [Community 13](Community_13.md) (103 shared connections)
-- [Community 3](Community_3.md) (81 shared connections)
-- [Community 9](Community_9.md) (78 shared connections)
-- [Community 59](Community_59.md) (75 shared connections)
-- [Community 10](Community_10.md) (31 shared connections)
-- [Community 106](Community_106.md) (29 shared connections)
-- [Community 53](Community_53.md) (21 shared connections)
-- [Community 18](Community_18.md) (21 shared connections)
-- [Community 38](Community_38.md) (15 shared connections)
-- [Community 269](Community_269.md) (14 shared connections)
+- [Community 15](Community_15.md) (99 shared connections)
+- [Community 2](Community_2.md) (80 shared connections)
+- [Community 24](Community_24.md) (78 shared connections)
+- [Community 64](Community_64.md) (78 shared connections)
+- [Community 8](Community_8.md) (31 shared connections)
+- [Community 111](Community_111.md) (29 shared connections)
+- [Community 19](Community_19.md) (23 shared connections)
+- [Community 36](Community_36.md) (15 shared connections)
+- [Community 271](Community_271.md) (14 shared connections)
+- [Community 83](Community_83.md) (13 shared connections)
+- [Community 49](Community_49.md) (13 shared connections)
 - [Community 80](Community_80.md) (13 shared connections)
-- [Community 50](Community_50.md) (13 shared connections)
 
 ## Source Files
 
@@ -71,7 +71,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 1951 (100%)
+- EXTRACTED: 1963 (100%)
 - INFERRED: 7 (0%)
 - AMBIGUOUS: 0 (0%)
 

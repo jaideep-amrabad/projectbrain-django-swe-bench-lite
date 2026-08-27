@@ -27,8 +27,8 @@
 
 ## Relationships
 
-- [Community 485](Community_485.md) (11 shared connections)
-- [Community 833](Community_833.md) (2 shared connections)
+- [Community 480](Community_480.md) (11 shared connections)
+- [Community 840](Community_840.md) (2 shared connections)
 
 ## Source Files
 

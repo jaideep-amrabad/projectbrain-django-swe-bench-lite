@@ -1,32 +1,37 @@
 # Community 833
 
-> 9 nodes · cohesion 0.28
+> 9 nodes · cohesion 0.31
 
 ## Key Concepts
 
-- **.assertNoAnnotations()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.assertProcessed()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.test_pyformat_params()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.assertAnnotations()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **.test_params()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **Test passing optional query parameters** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **Compare the results of a raw query against expected results** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **The results of a raw query contain no annotations** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
-- **The passed raw query results contain the expected annotations** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- **_mask_cipher_secret()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **_get_new_csrf_string()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **_get_new_csrf_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **rotate_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **_sanitize_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **.test_csrf_validation_passes_after_process_request_login()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
+- **Given a secret (assumed to be a string of CSRF_ALLOWED_CHARS), generate a token…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **Change the CSRF token in use for a request - should be done on login for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- **CSRF check must access the CSRF token from the session or cookie, rather than…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
 
 ## Relationships
 
-- [Community 485](Community_485.md) (5 shared connections)
-- [Community 169](Community_169.md) (2 shared connections)
-- [Community 27](Community_27.md) (1 shared connections)
+- [Community 99](Community_99.md) (5 shared connections)
+- [Community 15](Community_15.md) (4 shared connections)
+- [Community 236](Community_236.md) (2 shared connections)
+- [Community 292](Community_292.md) (2 shared connections)
+- [Community 685](Community_685.md) (1 shared connections)
+- [Community 47](Community_47.md) (1 shared connections)
+- [Community 352](Community_352.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/raw_query/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_remote_user.py`
 
 ## Audit Trail
 
-- EXTRACTED: 18 (100%)
+- EXTRACTED: 27 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,6 +1,6 @@
 # Community 236
 
-> 46 nodes · cohesion 0.07
+> 50 nodes · cohesion 0.06
 
 ## Key Concepts
 
@@ -18,6 +18,7 @@
 - **.test_get_token_for_exempt_view()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
 - **.test_token_node_empty_csrf_cookie()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
 - **._get_GET_csrf_cookie_request()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
+- **.test_login_csrf_rotate()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 - **.test_get_token_for_requires_csrf_token_view()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
 - **.test_token_node_no_csrf_cookie()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
 - **.test_token_node_with_csrf_cookie()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
@@ -28,35 +29,35 @@
 - **_unmask_cipher_token()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
 - **_EnsureCsrfCookie** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
 - **CsrfInErrorHandlingViewsTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
-- **media()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
-- *... and 21 more nodes in this community*
+- *... and 25 more nodes in this community*
 
 ## Relationships
 
-- [Community 293](Community_293.md) (29 shared connections)
-- [Community 146](Community_146.md) (18 shared connections)
-- [Community 12](Community_12.md) (16 shared connections)
-- [Community 4](Community_4.md) (11 shared connections)
-- [Community 9](Community_9.md) (7 shared connections)
-- [Community 3](Community_3.md) (6 shared connections)
-- [Community 19](Community_19.md) (6 shared connections)
-- [Community 6](Community_6.md) (3 shared connections)
-- [Community 20](Community_20.md) (3 shared connections)
-- [Community 629](Community_629.md) (3 shared connections)
-- [Community 160](Community_160.md) (3 shared connections)
-- [Community 811](Community_811.md) (2 shared connections)
+- [Community 292](Community_292.md) (28 shared connections)
+- [Community 145](Community_145.md) (19 shared connections)
+- [Community 99](Community_99.md) (14 shared connections)
+- [Community 10](Community_10.md) (11 shared connections)
+- [Community 24](Community_24.md) (7 shared connections)
+- [Community 2](Community_2.md) (6 shared connections)
+- [Community 11](Community_11.md) (6 shared connections)
+- [Community 5](Community_5.md) (3 shared connections)
+- [Community 40](Community_40.md) (3 shared connections)
+- [Community 184](Community_184.md) (3 shared connections)
+- [Community 627](Community_627.md) (3 shared connections)
+- [Community 159](Community_159.md) (3 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/middleware/csrf.py`
 - `raw/code/hyd-evaluation/django-django/django/template/context_processors.py`
 - `raw/code/hyd-evaluation/django-django/django/views/decorators/csrf.py`
+- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 - `raw/code/hyd-evaluation/django-django/tests/csrf_tests/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/csrf_tests/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 179 (90%)
+- EXTRACTED: 186 (90%)
 - INFERRED: 20 (10%)
 - AMBIGUOUS: 0 (0%)
 
