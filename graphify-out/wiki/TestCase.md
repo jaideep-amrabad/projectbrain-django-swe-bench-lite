@@ -2,7 +2,7 @@
 
 > God node · 966 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
-**Community:** [Community 18](Community_18.md)
+**Community:** [Community 65](Community_65.md)
 
 ## Connections by Relation
 
@@ -48,10 +48,10 @@
 - ManyToOneTests `EXTRACTED`
 - PostgreSQLTestCase `EXTRACTED`
 - TestInline `EXTRACTED`
-- LookupTests `EXTRACTED`
 - GenericRelationTests `EXTRACTED`
 - OneToOneTests `EXTRACTED`
 - ListFiltersTests `EXTRACTED`
+- NonAggregateAnnotationTestCase `EXTRACTED`
 
 ### method
 - .setUpClass() `EXTRACTED`

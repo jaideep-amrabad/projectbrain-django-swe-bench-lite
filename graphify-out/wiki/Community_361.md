@@ -1,9 +1,10 @@
 # Community 361
 
-> 31 nodes · cohesion 0.09
+> 32 nodes · cohesion 0.10
 
 ## Key Concepts
 
+- **signals/tests.py** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
 - **SignalTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
 - **LazyModelRefTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
 - **signals/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
@@ -28,17 +29,19 @@
 - **.__str__()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
 - **Testing signals before/after saving and deleting.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/models.py`
 - **.setUp()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/signals/tests.py`
-- *... and 6 more nodes in this community*
+- *... and 7 more nodes in this community*
 
 ## Relationships
 
-- [Community 82](Community_82.md) (8 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 46](Community_46.md) (2 shared connections)
-- [Community 33](Community_33.md) (2 shared connections)
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 18](Community_18.md) (1 shared connections)
+- [Community 65](Community_65.md) (5 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
+- [Community 15](Community_15.md) (3 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 409](Community_409.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 95](Community_95.md) (1 shared connections)
+- [Community 25](Community_25.md) (1 shared connections)
+- [Community 61](Community_61.md) (1 shared connections)
 
 ## Source Files
 
@@ -47,8 +50,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 49 (88%)
-- INFERRED: 7 (12%)
+- EXTRACTED: 61 (90%)
+- INFERRED: 7 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---
