@@ -1,22 +1,23 @@
 # F
 
-> God node · 340 connections · `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+> God node · 337 connections · `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
 
-**Community:** [Community 27](Community_27.md)
+**Community:** [Community 46](Community_46.md)
 
 ## Connections by Relation
 
 ### calls
 - .test_expressions() `EXTRACTED`
+- .test_date_case_subtraction() `EXTRACTED`
 - .test_invalid_filter() `EXTRACTED`
 - .test_subquery_row_range_rank() `EXTRACTED`
 - .test_aggregate() `EXTRACTED`
 - ._parse_expressions() `EXTRACTED`
-- .dates() `EXTRACTED`
 - .test_custom_functions_can_ref_other_functions() `EXTRACTED`
 - .test_annotate_with_aggregation_in_condition() `EXTRACTED`
 - .test_conditional_annotation() `EXTRACTED`
 - ._test_range_overlaps() `EXTRACTED`
+- .dates() `EXTRACTED`
 - .datetimes() `EXTRACTED`
 - .test_case_aggregate() `EXTRACTED`
 - .test_custom_functions() `EXTRACTED`
@@ -25,8 +26,7 @@
 - .test_filter_with_aggregation_in_condition() `EXTRACTED`
 - .test_fail_insert() `EXTRACTED`
 - .test_multiple_partitioning() `EXTRACTED`
-- .test_postgresql_illegal_range_frame_end() `EXTRACTED`
-- .test_postgresql_illegal_range_frame_start() `EXTRACTED`
+- .test_range_n_preceding_and_following() `EXTRACTED`
 
 ### contains
 - expressions.py `EXTRACTED`
@@ -40,17 +40,17 @@
 - sql/query.py `EXTRACTED`
 - modeladmin/test_checks.py `EXTRACTED`
 - timezones/tests.py `EXTRACTED`
-- expressions_window/tests.py `EXTRACTED`
 - geoapp/tests.py `EXTRACTED`
-- main.py `EXTRACTED`
+- model_fields/test_jsonfield.py `EXTRACTED`
 - test_extract_trunc.py `EXTRACTED`
+- main.py `EXTRACTED`
 - test_ranges.py `EXTRACTED`
-- admin/checks.py `EXTRACTED`
-- postgres_tests/test_json.py `EXTRACTED`
-- aggregation_regress/tests.py `EXTRACTED`
+- expressions_window/tests.py `EXTRACTED`
 - distapp/tests.py `EXTRACTED`
+- aggregation_regress/tests.py `EXTRACTED`
+- test_search.py `EXTRACTED`
+- aggregation/tests.py `EXTRACTED`
 - annotations/tests.py `EXTRACTED`
-- model_fields/test_uuid.py `EXTRACTED`
 - test_query.py `EXTRACTED`
 
 ### inherits
@@ -76,21 +76,6 @@
 ### uses
 - Query `INFERRED`
 - QuerySet `INFERRED`
-- BasicExpressionsTests `INFERRED`
-- TestGeneralAggregate `INFERRED`
-- BaseModelAdminChecks `INFERRED`
-- TestStatisticsAggregate `INFERRED`
-- FTimeDeltaTests `INFERRED`
-- ChangeList `INFERRED`
-- ExpressionOperatorTests `INFERRED`
-- ReprTests `INFERRED`
-- IterableLookupInnerExpressionsTests `INFERRED`
-- OrderableAggMixin `INFERRED`
-- ValuesExpressionsTests `INFERRED`
-- DecimalFieldLookupTests `INFERRED`
-- ExpressionsNumericTests `INFERRED`
-- ExpressionsTests `INFERRED`
-- FTests `INFERRED`
 
 ---
 
