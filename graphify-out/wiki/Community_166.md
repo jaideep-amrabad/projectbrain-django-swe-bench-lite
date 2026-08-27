@@ -1,55 +1,60 @@
 # Community 166
 
-> 43 nodes · cohesion 0.05
+> 23 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **SpatialRefSysMixin** (24 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **oracle/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **OracleSpatialRefSys** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **SpatialiteSpatialRefSys** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
-- **.angular_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.angular_units()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.datum()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.ellipsoid()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.geographic()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.get_spheroid()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.get_units()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.linear_name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.linear_units()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.local()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.name()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.projected()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.spheroid()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **.units()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- **Meta** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
-- **Return a tuple of the units and the name.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **Return a tuple of (unit_value, unit_name) for the given WKT without using any…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **Class method used by GeometryField on initialization to retrieve the…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- **Return the string representation, a 'pretty' OGC WKT.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- *... and 18 more nodes in this community*
+- **View** (54 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **nested_urls.py** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/nested_urls.py`
+- **classonlymethod** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **.options()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.as_view()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **._allowed_methods()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.http_method_not_allowed()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **Http404View** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.setup()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **good_class_based_error_handlers.py** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/good_class_based_error_handlers.py`
+- **View3** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/nested_urls.py`
+- **.get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
+- **classmethod** (1 connections)
+- **.__get__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- **Initialize attributes shared by all view methods.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **Handle responding to requests for the OPTIONS HTTP verb.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **Intentionally simple parent class for all views. Only implements dispatch-by-…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **Constructor. Called in the URLconf; can contain helpful extra keyword…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **Main entry point for a request-response process.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **.dispatch()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- **view1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/nested_urls.py`
+- **view2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/nested_urls.py`
 
 ## Relationships
 
-- [Community 0](Community_0.md) (6 shared connections)
-- [Community 84](Community_84.md) (3 shared connections)
-- [Community 914](Community_914.md) (2 shared connections)
-- [Community 266](Community_266.md) (1 shared connections)
-- [Community 150](Community_150.md) (1 shared connections)
-- [Community 907](Community_907.md) (1 shared connections)
+- [Community 11](Community_11.md) (12 shared connections)
+- [Community 29](Community_29.md) (10 shared connections)
+- [Community 228](Community_228.md) (5 shared connections)
+- [Community 326](Community_326.md) (4 shared connections)
+- [Community 12](Community_12.md) (3 shared connections)
+- [Community 157](Community_157.md) (3 shared connections)
+- [Community 64](Community_64.md) (3 shared connections)
+- [Community 54](Community_54.md) (2 shared connections)
+- [Community 249](Community_249.md) (2 shared connections)
+- [Community 450](Community_450.md) (2 shared connections)
+- [Community 383](Community_383.md) (2 shared connections)
+- [Community 129](Community_129.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/base/models.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/models.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/models.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/decorators.py`
+- `raw/code/hyd-evaluation/django-django/django/views/generic/base.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/urls/good_class_based_error_handlers.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/nested_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/view_tests/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 57 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 76 (96%)
+- INFERRED: 3 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

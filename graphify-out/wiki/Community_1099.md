@@ -1,23 +1,25 @@
 # Community 1099
 
-> 2 nodes · cohesion 1.00
+> 3 nodes · cohesion 0.67
 
 ## Key Concepts
 
-- **.test_pickle_prefetch_related_with_m2m_and_objects_deletion()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
-- **#24831 -- Cached properties on ManyToOneRel created in QuerySet.delete() caused…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- **._path_from_module()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- **Attempt to determine app's filesystem path from its module.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
 
 ## Relationships
 
-- [Community 371](Community_371.md) (1 shared connections)
+- [Community 13](Community_13.md) (2 shared connections)
+- [Community 204](Community_204.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queryset_pickle/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/apps/config.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 6 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

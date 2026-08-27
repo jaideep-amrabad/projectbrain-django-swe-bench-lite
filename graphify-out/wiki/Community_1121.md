@@ -4,21 +4,20 @@
 
 ## Key Concepts
 
-- **.test_inheritance24()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Inheritance from local context without use of template loader** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.get_models()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
+- **Return an iterable of models. By default, the following models aren't included:…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/apps/config.py`
 
 ## Relationships
 
-- [Community 809](Community_809.md) (1 shared connections)
-- [Community 808](Community_808.md) (1 shared connections)
+- [Community 204](Community_204.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/django/apps/config.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

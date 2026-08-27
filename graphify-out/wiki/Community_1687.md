@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **wsgi/wsgi.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/wsgi/wsgi.py`
+- **postgres_tests/migrations/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/migrations/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/wsgi/wsgi.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/migrations/__init__.py`
 
 ## Audit Trail
 

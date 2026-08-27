@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **syntax_tests/i18n/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/__init__.py`
+- **source_map_trailing_whitespace.js** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/source_map_trailing_whitespace.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/staticfiles_tests/project/documents/cached/source_map_trailing_whitespace.js`
 
 ## Audit Trail
 

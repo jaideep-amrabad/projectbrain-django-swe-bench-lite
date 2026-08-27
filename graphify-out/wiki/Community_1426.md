@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **javascript_ignored.js** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/commands/static/javascript_ignored.js`
+- **same_tags_app_1/templatetags/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/template_test_apps/same_tags_app_1/templatetags/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/i18n/commands/static/javascript_ignored.js`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/template_test_apps/same_tags_app_1/templatetags/__init__.py`
 
 ## Audit Trail
 

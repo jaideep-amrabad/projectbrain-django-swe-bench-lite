@@ -1,60 +1,70 @@
 # Community 101
 
-> 98 nodes · cohesion 0.02
+> 80 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **admin_views/admin.py** (285 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **RelatedPrepopulated** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Child** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **DependentChild** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **FancyDoodad** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Restaurant** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **CustomChangeList** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **WorkerInlineAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **DooHickey** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Grommet** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **InlineReference** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Picture** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Whatsit** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Widget** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Worker** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ActorAdmin6** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **ArticleAdmin2** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **ArticleAdmin9** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **ChildInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **CityAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **ColorAdmin6** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **DependentChildInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **DooHickeyInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **FancyDoodadInline** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **GadgetAdmin** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- *... and 73 more nodes in this community*
+- **Operation** (38 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **postgres/operations.py** (33 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **CreateExtension** (24 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **postgres_tests/migrations/0001_setup_extensions.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/migrations/0001_setup_extensions.py`
+- **operations/base.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- **check_framework/test_migrations.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_migrations.py`
+- **db_functions/migrations/0001_setup_extensions.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/migrations/0001_setup_extensions.py`
+- **special.py** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- **BloomExtension** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **DeprecationForHistoricalMigrationMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- **CryptoExtension** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **check_migration_operations()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/migrations.py`
+- **Migration** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/migrations_test_apps/index_together_app/migrations/0001_initial.py`
+- **DeprecatedMigrationOperationTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_migrations.py`
+- **DummyOperation** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/migrations/0001_setup_extensions.py`
+- **gis_migrations/migrations/0001_setup_extensions.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/migrations/0001_setup_extensions.py`
+- **rasterapp/migrations/0001_setup_extensions.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/migrations/0001_setup_extensions.py`
+- **DummyOperation** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/migrations/0001_setup_extensions.py`
+- **BtreeGinExtension** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **BtreeGistExtension** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **CITextExtension** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **HStoreExtension** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **TrigramExtension** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **UnaccentExtension** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- **RemovedMigrationOperationTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_migrations.py`
+- *... and 55 more nodes in this community*
 
 ## Relationships
 
-- [Community 81](Community_81.md) (79 shared connections)
-- [Community 251](Community_251.md) (16 shared connections)
-- [Community 517](Community_517.md) (14 shared connections)
-- [Community 1](Community_1.md) (12 shared connections)
-- [Community 250](Community_250.md) (10 shared connections)
-- [Community 592](Community_592.md) (8 shared connections)
-- [Community 557](Community_557.md) (8 shared connections)
-- [Community 128](Community_128.md) (5 shared connections)
-- [Community 620](Community_620.md) (5 shared connections)
-- [Community 47](Community_47.md) (4 shared connections)
-- [Community 826](Community_826.md) (4 shared connections)
-- [Community 761](Community_761.md) (3 shared connections)
+- [Community 0](Community_0.md) (23 shared connections)
+- [Community 25](Community_25.md) (9 shared connections)
+- [Community 67](Community_67.md) (8 shared connections)
+- [Community 110](Community_110.md) (5 shared connections)
+- [Community 201](Community_201.md) (4 shared connections)
+- [Community 4](Community_4.md) (4 shared connections)
+- [Community 551](Community_551.md) (3 shared connections)
+- [Community 44](Community_44.md) (3 shared connections)
+- [Community 500](Community_500.md) (3 shared connections)
+- [Community 21](Community_21.md) (2 shared connections)
+- [Community 154](Community_154.md) (2 shared connections)
+- [Community 828](Community_828.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/migrations.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/operations/special.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/deprecation.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/migrations_test_apps/index_together_app/migrations/0001_initial.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_migrations.py`
+- `raw/code/hyd-evaluation/django-django/tests/custom_migration_operations/more_operations.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/migrations/0001_setup_extensions.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/gis_migrations/migrations/0001_setup_extensions.py`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/rasterapp/migrations/0001_setup_extensions.py`
+- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/migrations/0001_setup_extensions.py`
 
 ## Audit Trail
 
-- EXTRACTED: 315 (95%)
-- INFERRED: 15 (5%)
+- EXTRACTED: 192 (97%)
+- INFERRED: 5 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

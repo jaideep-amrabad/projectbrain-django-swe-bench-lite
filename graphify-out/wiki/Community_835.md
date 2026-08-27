@@ -1,34 +1,35 @@
 # Community 835
 
-> 9 nodes · cohesion 0.36
+> 10 nodes · cohesion 0.29
 
 ## Key Concepts
 
-- **Place** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **Restaurant** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **ItalianRestaurant** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **ParkingLot** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **.test_model_inheritance()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
-- **ParkingLot3** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- **.test_issue_7276()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
-- **.test_issue_6755()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
-- **Regression test for #6755** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- **.handle_word()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **Urlizer** (8 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **.__call__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **.is_email_simple()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **.trim_punctuation()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **.trim_url()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **Convert any URLs in text into clickable links. Work on http://, https://, www.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **If trim_url_limit is not None, truncate the URLs in the link text longer than…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **Trim trailing and wrapping punctuation from `word`. Return the items of the new…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- **Return True if value looks like an email address.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/html.py`
 
 ## Relationships
 
-- [Community 454](Community_454.md) (12 shared connections)
-- [Community 326](Community_326.md) (8 shared connections)
-- [Community 802](Community_802.md) (1 shared connections)
+- [Community 9](Community_9.md) (3 shared connections)
+- [Community 304](Community_304.md) (1 shared connections)
+- [Community 39](Community_39.md) (1 shared connections)
+- [Community 49](Community_49.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_inheritance_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/html.py`
 
 ## Audit Trail
 
-- EXTRACTED: 29 (85%)
-- INFERRED: 5 (15%)
+- EXTRACTED: 18 (95%)
+- INFERRED: 1 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

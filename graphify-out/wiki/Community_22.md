@@ -1,6 +1,6 @@
 # Community 22
 
-> 249 nodes · cohesion 0.03
+> 261 nodes · cohesion 0.03
 
 ## Key Concepts
 
@@ -10,10 +10,13 @@
 - **.assertNumberMigrations()** (131 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 - **.assertOperationAttributes()** (109 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 - **ModelState** (95 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
-- **AutodetectorIndexTogetherTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **MigrationQuestioner** (47 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
+- **AutodetectorIndexTogetherTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 - **.assertMigrationDependencies()** (20 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 - **isolate_lru_cache()** (19 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
 - **BaseAutodetectorTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_last_dependency()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_first_dependency()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 - **.test_circular_dependency_swappable()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 - **.test_circular_dependency_swappable2()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 - **.test_circular_dependency_swappable_self()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
@@ -26,37 +29,34 @@
 - **.test_rename_field_preserved_db_column()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 - **.test_rename_model_with_fks_in_different_position()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 - **.test_swappable()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_swappable_first_setting()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_swappable_lowercase()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_alter_field_and_index_together()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- *... and 224 more nodes in this community*
+- *... and 236 more nodes in this community*
 
 ## Relationships
 
-- [Community 139](Community_139.md) (27 shared connections)
-- [Community 157](Community_157.md) (20 shared connections)
-- [Community 10](Community_10.md) (12 shared connections)
-- [Community 677](Community_677.md) (8 shared connections)
-- [Community 2](Community_2.md) (8 shared connections)
-- [Community 577](Community_577.md) (6 shared connections)
-- [Community 236](Community_236.md) (6 shared connections)
-- [Community 959](Community_959.md) (4 shared connections)
-- [Community 218](Community_218.md) (3 shared connections)
-- [Community 117](Community_117.md) (2 shared connections)
-- [Community 530](Community_530.md) (2 shared connections)
-- [Community 984](Community_984.md) (2 shared connections)
+- [Community 104](Community_104.md) (22 shared connections)
+- [Community 99](Community_99.md) (16 shared connections)
+- [Community 0](Community_0.md) (12 shared connections)
+- [Community 190](Community_190.md) (10 shared connections)
+- [Community 7](Community_7.md) (9 shared connections)
+- [Community 60](Community_60.md) (7 shared connections)
+- [Community 593](Community_593.md) (6 shared connections)
+- [Community 105](Community_105.md) (4 shared connections)
+- [Community 25](Community_25.md) (4 shared connections)
+- [Community 108](Community_108.md) (3 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 21](Community_21.md) (2 shared connections)
 
 ## Source Files
 
+- `raw/code/hyd-evaluation/django-django/django/db/migrations/questioner.py`
 - `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
 - `raw/code/hyd-evaluation/django-django/django/test/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/field_deconstruction/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 
 ## Audit Trail
 
-- EXTRACTED: 946 (98%)
-- INFERRED: 19 (2%)
+- EXTRACTED: 982 (98%)
+- INFERRED: 25 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

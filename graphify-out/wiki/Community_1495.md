@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **migrated_app/models.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/migrated_app/models.py`
+- **filepathfield_test_dir/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/filepathfield_test_dir/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/migrated_app/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/filepathfield_test_dir/__init__.py`
 
 ## Audit Trail
 
