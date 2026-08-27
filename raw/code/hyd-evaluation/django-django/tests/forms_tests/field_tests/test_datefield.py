@@ -1,7 +1,8 @@
 from datetime import date, datetime
 
-from django.core.exceptions import ValidationError
-from django.forms import DateField, Form, HiddenInput, SelectDateWidget
+from django.forms import (
+    DateField, Form, HiddenInput, SelectDateWidget, ValidationError,
+)
 from django.test import SimpleTestCase, override_settings
 from django.utils import translation
 

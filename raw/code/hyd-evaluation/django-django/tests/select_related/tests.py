@@ -60,6 +60,10 @@ class SelectRelatedTests(TestCase):
             self.assertEqual(domain.name, 'Eukaryota')
 
     def test_list_without_select_related(self):
+        """
+        select_related() also of course applies to entire lists, not just
+        items. This test verifies the expected behavior without select_related.
+        """
         with self.assertNumQueries(9):
             world = Species.objects.all()
             families = [o.genus.family.name for o in world]
@@ -71,7 +75,10 @@ class SelectRelatedTests(TestCase):
             ])
 
     def test_list_with_select_related(self):
-        """select_related() applies to entire lists, not just items."""
+        """
+        select_related() also of course applies to entire lists, not just
+        items. This test verifies the expected behavior with select_related.
+        """
         with self.assertNumQueries(1):
             world = Species.objects.all().select_related()
             families = [o.genus.family.name for o in world]

@@ -26,9 +26,7 @@ class CommandError(Exception):
     error) is the preferred way to indicate that something has gone
     wrong in the execution of a command.
     """
-    def __init__(self, *args, returncode=1, **kwargs):
-        self.returncode = returncode
-        super().__init__(*args, **kwargs)
+    pass
 
 
 class SystemCheckError(CommandError):
@@ -139,7 +137,7 @@ class OutputWrapper(TextIOBase):
     def isatty(self):
         return hasattr(self._out, 'isatty') and self._out.isatty()
 
-    def write(self, msg='', style_func=None, ending=None):
+    def write(self, msg, style_func=None, ending=None):
         ending = self.ending if ending is None else ending
         if ending and not msg.endswith(ending):
             msg += ending
@@ -328,8 +326,8 @@ class BaseCommand:
         handle_default_options(options)
         try:
             self.execute(*args, **cmd_options)
-        except CommandError as e:
-            if options.traceback:
+        except Exception as e:
+            if options.traceback or not isinstance(e, CommandError):
                 raise
 
             # SystemCheckError takes care of its own formatting.
@@ -337,7 +335,7 @@ class BaseCommand:
                 self.stderr.write(str(e), lambda x: x)
             else:
                 self.stderr.write('%s: %s' % (e.__class__.__name__, e))
-            sys.exit(e.returncode)
+            sys.exit(1)
         finally:
             try:
                 connections.close_all()
@@ -474,7 +472,7 @@ class BaseCommand:
                     }
                 )
             )
-            self.stdout.write(self.style.NOTICE("Run 'python manage.py migrate' to apply them."))
+            self.stdout.write(self.style.NOTICE("Run 'python manage.py migrate' to apply them.\n"))
 
     def handle(self, *args, **options):
         """

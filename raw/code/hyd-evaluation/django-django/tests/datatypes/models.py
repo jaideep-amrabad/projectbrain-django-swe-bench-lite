@@ -19,6 +19,9 @@ class Donut(models.Model):
     class Meta:
         ordering = ('consumed_at',)
 
+    def __str__(self):
+        return self.name
+
 
 class RumBaba(models.Model):
     baked_date = models.DateField(auto_now_add=True)

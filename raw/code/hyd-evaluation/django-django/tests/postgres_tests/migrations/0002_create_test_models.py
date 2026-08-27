@@ -1,9 +1,10 @@
+from django.core.serializers.json import DjangoJSONEncoder
 from django.db import migrations, models
 
 from ..fields import (
     ArrayField, BigIntegerRangeField, CICharField, CIEmailField, CITextField,
     DateRangeField, DateTimeRangeField, DecimalRangeField, EnumField,
-    HStoreField, IntegerRangeField, SearchVectorField,
+    HStoreField, IntegerRangeField, JSONField, SearchVectorField,
 )
 from ..models import TagField
 
@@ -59,7 +60,7 @@ class Migration(migrations.Migration):
                 ('uuids', ArrayField(models.UUIDField(), size=None, default=list)),
                 ('decimals', ArrayField(models.DecimalField(max_digits=5, decimal_places=2), size=None, default=list)),
                 ('tags', ArrayField(TagField(), blank=True, null=True, size=None)),
-                ('json', ArrayField(models.JSONField(default={}), default=[])),
+                ('json', ArrayField(JSONField(default={}), default=[])),
                 ('int_ranges', ArrayField(IntegerRangeField(), null=True, blank=True)),
                 ('bigint_ranges', ArrayField(BigIntegerRangeField(), null=True, blank=True)),
             ],
@@ -263,6 +264,18 @@ class Migration(migrations.Migration):
                 ('date', models.DateField(blank=True, null=True)),
                 ('small_integer', models.SmallIntegerField(blank=True, null=True)),
                 ('decimal_field', models.DecimalField(max_digits=5, decimal_places=2, blank=True, null=True)),
+            ],
+            options={
+                'required_db_vendor': 'postgresql',
+            },
+            bases=(models.Model,),
+        ),
+        migrations.CreateModel(
+            name='JSONModel',
+            fields=[
+                ('id', models.AutoField(verbose_name='ID', serialize=False, auto_created=True, primary_key=True)),
+                ('field', JSONField(null=True, blank=True)),
+                ('field_custom', JSONField(null=True, blank=True, encoder=DjangoJSONEncoder)),
             ],
             options={
                 'required_db_vendor': 'postgresql',

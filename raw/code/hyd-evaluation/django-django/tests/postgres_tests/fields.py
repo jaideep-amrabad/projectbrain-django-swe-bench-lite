@@ -10,7 +10,7 @@ try:
     from django.contrib.postgres.fields import (
         ArrayField, BigIntegerRangeField, CICharField, CIEmailField,
         CITextField, DateRangeField, DateTimeRangeField, DecimalRangeField,
-        HStoreField, IntegerRangeField,
+        HStoreField, IntegerRangeField, JSONField,
     )
     from django.contrib.postgres.search import SearchVectorField
 except ImportError:
@@ -26,6 +26,10 @@ except ImportError:
             })
             return name, path, args, kwargs
 
+    class DummyJSONField(models.Field):
+        def __init__(self, encoder=None, **kwargs):
+            super().__init__(**kwargs)
+
     ArrayField = DummyArrayField
     BigIntegerRangeField = models.Field
     CICharField = models.Field
@@ -36,6 +40,7 @@ except ImportError:
     DecimalRangeField = models.Field
     HStoreField = models.Field
     IntegerRangeField = models.Field
+    JSONField = DummyJSONField
     SearchVectorField = models.Field
 
 

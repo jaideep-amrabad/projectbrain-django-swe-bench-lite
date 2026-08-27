@@ -6,6 +6,10 @@ from django.db import models
 class Cash(decimal.Decimal):
     currency = 'USD'
 
+    def __str__(self):
+        s = super().__str__(self)
+        return '%s %s' % (s, self.currency)
+
 
 class CashField(models.DecimalField):
     def __init__(self, **kwargs):
@@ -21,3 +25,6 @@ class CashField(models.DecimalField):
 
 class CashModel(models.Model):
     cash = CashField()
+
+    def __str__(self):
+        return str(self.cash)

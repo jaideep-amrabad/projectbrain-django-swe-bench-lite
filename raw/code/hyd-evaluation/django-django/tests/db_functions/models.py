@@ -10,6 +10,9 @@ class Author(models.Model):
     goes_by = models.CharField(max_length=50, null=True, blank=True)
     age = models.PositiveSmallIntegerField(default=30)
 
+    def __str__(self):
+        return self.name
+
 
 class Article(models.Model):
     authors = models.ManyToManyField(Author, related_name='articles')
@@ -21,12 +24,18 @@ class Article(models.Model):
     updated = models.DateTimeField(null=True, blank=True)
     views = models.PositiveIntegerField(default=0)
 
+    def __str__(self):
+        return self.title
+
 
 class Fan(models.Model):
     name = models.CharField(max_length=50)
     age = models.PositiveSmallIntegerField(default=30)
     author = models.ForeignKey(Author, models.CASCADE, related_name='fans')
     fan_since = models.DateTimeField(null=True, blank=True)
+
+    def __str__(self):
+        return self.name
 
 
 class DTModel(models.Model):
@@ -38,6 +47,9 @@ class DTModel(models.Model):
     start_time = models.TimeField(null=True, blank=True)
     end_time = models.TimeField(null=True, blank=True)
     duration = models.DurationField(null=True, blank=True)
+
+    def __str__(self):
+        return 'DTModel({})'.format(self.name)
 
 
 class DecimalModel(models.Model):

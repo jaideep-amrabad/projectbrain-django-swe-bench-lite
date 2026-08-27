@@ -71,12 +71,6 @@ class DatabaseFeatures(BaseDatabaseFeatures):
         return self._mysql_storage_engine != 'MyISAM'
 
     @cached_property
-    def can_return_columns_from_insert(self):
-        return self.connection.mysql_is_mariadb and self.connection.mysql_version >= (10, 5, 0)
-
-    can_return_rows_from_bulk_insert = property(operator.attrgetter('can_return_columns_from_insert'))
-
-    @cached_property
     def has_zoneinfo_database(self):
         # Test if the time zone definitions are installed. CONVERT_TZ returns
         # NULL if 'UTC' timezone isn't loaded into the mysql.time_zone.
@@ -160,15 +154,3 @@ class DatabaseFeatures(BaseDatabaseFeatures):
     def supports_default_in_lead_lag(self):
         # To be added in https://jira.mariadb.org/browse/MDEV-12981.
         return not self.connection.mysql_is_mariadb
-
-    @cached_property
-    def supports_json_field(self):
-        if self.connection.mysql_is_mariadb:
-            return self.connection.mysql_version >= (10, 2, 7)
-        return self.connection.mysql_version >= (5, 7, 8)
-
-    @cached_property
-    def can_introspect_json_field(self):
-        if self.connection.mysql_is_mariadb:
-            return self.supports_json_field and self.can_introspect_check_constraints
-        return self.supports_json_field

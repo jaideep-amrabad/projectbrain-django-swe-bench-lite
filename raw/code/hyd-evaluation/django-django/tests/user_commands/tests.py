@@ -43,8 +43,9 @@ class CommandTests(SimpleTestCase):
         self.assertIn("I don't feel like dancing Jive.\n", out.getvalue())
 
     def test_language_preserved(self):
+        out = StringIO()
         with translation.override('fr'):
-            management.call_command('dance', verbosity=0)
+            management.call_command('dance', stdout=out)
             self.assertEqual(translation.get_language(), 'fr')
 
     def test_explode(self):
@@ -56,14 +57,12 @@ class CommandTests(SimpleTestCase):
         """ Exception raised in a command should raise CommandError with
             call_command, but SystemExit when run from command line
         """
-        with self.assertRaises(CommandError) as cm:
+        with self.assertRaises(CommandError):
             management.call_command('dance', example="raise")
-        self.assertEqual(cm.exception.returncode, 3)
         dance.Command.requires_system_checks = False
         try:
-            with captured_stderr() as stderr, self.assertRaises(SystemExit) as cm:
+            with captured_stderr() as stderr, self.assertRaises(SystemExit):
                 management.ManagementUtility(['manage.py', 'dance', '--example=raise']).execute()
-            self.assertEqual(cm.exception.code, 3)
         finally:
             dance.Command.requires_system_checks = True
         self.assertIn("CommandError", stderr.getvalue())
@@ -75,7 +74,7 @@ class CommandTests(SimpleTestCase):
         """
         current_locale = translation.get_language()
         with translation.override('pl'):
-            result = management.call_command('no_translations')
+            result = management.call_command('no_translations', stdout=StringIO())
             self.assertIsNone(result)
         self.assertEqual(translation.get_language(), current_locale)
 
@@ -125,7 +124,7 @@ class CommandTests(SimpleTestCase):
     def test_calling_a_command_with_only_empty_parameter_should_ends_gracefully(self):
         out = StringIO()
         management.call_command('hal', "--empty", stdout=out)
-        self.assertEqual(out.getvalue(), "\nDave, I can't do that.\n")
+        self.assertIn("Dave, I can't do that.\n", out.getvalue())
 
     def test_calling_command_with_app_labels_and_parameters_should_be_ok(self):
         out = StringIO()
@@ -139,7 +138,7 @@ class CommandTests(SimpleTestCase):
 
     def test_calling_a_command_with_no_app_labels_and_parameters_should_raise_a_command_error(self):
         with self.assertRaises(CommandError):
-            management.call_command('hal')
+            management.call_command('hal', stdout=StringIO())
 
     def test_output_transaction(self):
         output = management.call_command('transaction', stdout=StringIO(), no_color=True)

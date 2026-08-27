@@ -96,18 +96,18 @@ class NotFoundMiddleware(BaseMiddleware):
         raise Http404('not found')
 
 
-class PaymentMiddleware(BaseMiddleware):
+class TeapotMiddleware(BaseMiddleware):
     def __call__(self, request):
         response = self.get_response(request)
-        response.status_code = 402
+        response.status_code = 418
         return response
 
 
 @async_only_middleware
-def async_payment_middleware(get_response):
+def async_teapot_middleware(get_response):
     async def middleware(request):
         response = await get_response(request)
-        response.status_code = 402
+        response.status_code = 418
         return response
 
     return middleware
@@ -119,7 +119,7 @@ class SyncAndAsyncMiddleware(BaseMiddleware):
 
 
 @sync_only_middleware
-class DecoratedPaymentMiddleware(PaymentMiddleware):
+class DecoratedTeapotMiddleware(TeapotMiddleware):
     pass
 
 

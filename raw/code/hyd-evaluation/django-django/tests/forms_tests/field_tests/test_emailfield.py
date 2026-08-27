@@ -1,5 +1,4 @@
-from django.core.exceptions import ValidationError
-from django.forms import EmailField
+from django.forms import EmailField, ValidationError
 from django.test import SimpleTestCase
 
 from . import FormFieldAssertionsMixin

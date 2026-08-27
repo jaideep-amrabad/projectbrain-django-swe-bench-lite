@@ -323,9 +323,6 @@ class QuerySet:
         qs._fetch_all()
         return qs._result_cache[0]
 
-    def __class_getitem__(cls, *args, **kwargs):
-        return cls
-
     def __and__(self, other):
         self._merge_sanity_check(other)
         if isinstance(other, EmptyQuerySet):
@@ -689,17 +686,7 @@ class QuerySet:
         """
         assert not self.query.is_sliced, \
             "Cannot use 'limit' or 'offset' with in_bulk"
-        opts = self.model._meta
-        unique_fields = [
-            constraint.fields[0]
-            for constraint in opts.total_unique_constraints
-            if len(constraint.fields) == 1
-        ]
-        if (
-            field_name != 'pk' and
-            not opts.get_field(field_name).unique and
-            field_name not in unique_fields
-        ):
+        if field_name != 'pk' and not self.model._meta.get_field(field_name).unique:
             raise ValueError("in_bulk()'s field_name must be a unique field but %r isn't." % field_name)
         if id_list is not None:
             if not id_list:
@@ -888,7 +875,7 @@ class QuerySet:
             'datefield', flat=True
         ).distinct().filter(plain_field__isnull=False).order_by(('-' if order == 'DESC' else '') + 'datefield')
 
-    def datetimes(self, field_name, kind, order='ASC', tzinfo=None, is_dst=None):
+    def datetimes(self, field_name, kind, order='ASC', tzinfo=None):
         """
         Return a list of datetime objects representing all available
         datetimes for the given field_name, scoped to 'kind'.
@@ -903,13 +890,7 @@ class QuerySet:
         else:
             tzinfo = None
         return self.annotate(
-            datetimefield=Trunc(
-                field_name,
-                kind,
-                output_field=DateTimeField(),
-                tzinfo=tzinfo,
-                is_dst=is_dst,
-            ),
+            datetimefield=Trunc(field_name, kind, output_field=DateTimeField(), tzinfo=tzinfo),
             plain_field=F(field_name)
         ).values_list(
             'datetimefield', flat=True
@@ -1262,11 +1243,15 @@ class QuerySet:
         bulk_return = connections[self.db].features.can_return_rows_from_bulk_insert
         for item in [objs[i:i + batch_size] for i in range(0, len(objs), batch_size)]:
             if bulk_return and not ignore_conflicts:
-                inserted_rows.extend(self._insert(
+                inserted_columns = self._insert(
                     item, fields=fields, using=self.db,
                     returning_fields=self.model._meta.db_returning_fields,
                     ignore_conflicts=ignore_conflicts,
-                ))
+                )
+                if isinstance(inserted_columns, list):
+                    inserted_rows.extend(inserted_columns)
+                else:
+                    inserted_rows.append(inserted_columns)
             else:
                 self._insert(item, fields=fields, using=self.db, ignore_conflicts=ignore_conflicts)
         return inserted_rows

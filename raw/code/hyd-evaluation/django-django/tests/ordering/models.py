@@ -37,6 +37,9 @@ class Article(models.Model):
             models.OrderBy(models.F('second_author__name')),
         )
 
+    def __str__(self):
+        return self.headline
+
 
 class OrderedByAuthorArticle(Article):
     class Meta:

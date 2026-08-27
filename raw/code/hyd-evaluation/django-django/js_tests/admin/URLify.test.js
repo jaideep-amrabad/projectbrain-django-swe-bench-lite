@@ -1,4 +1,5 @@
 /* global QUnit, URLify */
+/* eslint strict: 0 */
 'use strict';
 
 QUnit.module('admin.URLify');

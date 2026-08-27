@@ -41,15 +41,11 @@ class DatabaseValidation(BaseDatabaseValidation):
         if (field_type.startswith('varchar') and field.unique and
                 (field.max_length is None or int(field.max_length) > 255)):
             errors.append(
-                checks.Warning(
-                    '%s may not allow unique CharFields to have a max_length '
+                checks.Error(
+                    '%s does not allow unique CharFields to have a max_length '
                     '> 255.' % self.connection.display_name,
                     obj=field,
-                    hint=(
-                        'See: https://docs.djangoproject.com/en/%s/ref/'
-                        'databases/#mysql-character-fields' % get_docs_version()
-                    ),
-                    id='mysql.W003',
+                    id='mysql.E001',
                 )
             )
 

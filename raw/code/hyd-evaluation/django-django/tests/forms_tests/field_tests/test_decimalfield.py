@@ -1,7 +1,6 @@
 import decimal
 
-from django.core.exceptions import ValidationError
-from django.forms import DecimalField, NumberInput, Widget
+from django.forms import DecimalField, NumberInput, ValidationError, Widget
 from django.test import SimpleTestCase, override_settings
 from django.utils import formats, translation
 

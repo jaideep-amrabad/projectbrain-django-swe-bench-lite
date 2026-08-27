@@ -130,6 +130,9 @@ class FunPerson(models.Model):
 
     objects = FunPeopleManager()
 
+    def __str__(self):
+        return "%s %s" % (self.first_name, self.last_name)
+
 
 class Book(models.Model):
     title = models.CharField(max_length=50)
@@ -154,6 +157,9 @@ class Book(models.Model):
     class Meta:
         base_manager_name = 'annotated_objects'
 
+    def __str__(self):
+        return self.title
+
 
 class FastCarManager(models.Manager):
     def get_queryset(self):
@@ -166,6 +172,9 @@ class Car(models.Model):
     top_speed = models.IntegerField(help_text="In miles per hour.")
     cars = models.Manager()
     fast_cars = FastCarManager()
+
+    def __str__(self):
+        return self.name
 
 
 class FastCarAsBase(Car):
@@ -188,6 +197,9 @@ class RestrictedManager(models.Manager):
 class RelatedModel(models.Model):
     name = models.CharField(max_length=50)
 
+    def __str__(self):
+        return self.name
+
 
 class RestrictedModel(models.Model):
     name = models.CharField(max_length=50)
@@ -197,6 +209,9 @@ class RestrictedModel(models.Model):
     objects = RestrictedManager()
     plain_manager = models.Manager()
 
+    def __str__(self):
+        return self.name
+
 
 class OneToOneRestrictedModel(models.Model):
     name = models.CharField(max_length=50)
@@ -205,6 +220,9 @@ class OneToOneRestrictedModel(models.Model):
 
     objects = RestrictedManager()
     plain_manager = models.Manager()
+
+    def __str__(self):
+        return self.name
 
 
 class AbstractPerson(models.Model):

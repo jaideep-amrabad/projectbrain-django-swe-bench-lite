@@ -51,15 +51,6 @@ async def async_regular(request):
     return HttpResponse(b'regular content')
 
 
-class CoroutineClearingView:
-    def __call__(self, request):
-        """Return an unawaited coroutine (common error for async views)."""
-        # Store coroutine to suppress 'unawaited' warning message
-        self._unawaited_coroutine = asyncio.sleep(0)
-        return self._unawaited_coroutine
-
-    def __del__(self):
-        self._unawaited_coroutine.close()
-
-
-async_unawaited = CoroutineClearingView()
+async def async_unawaited(request):
+    """Return an unawaited coroutine (common error for async views)."""
+    return asyncio.sleep(0)

@@ -1,7 +1,6 @@
 import decimal
 
-from django.core.exceptions import ValidationError
-from django.forms import TypedChoiceField
+from django.forms import TypedChoiceField, ValidationError
 from django.test import SimpleTestCase
 
 

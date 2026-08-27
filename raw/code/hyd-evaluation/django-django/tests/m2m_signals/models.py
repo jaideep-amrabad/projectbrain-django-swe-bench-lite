@@ -7,6 +7,9 @@ class Part(models.Model):
     class Meta:
         ordering = ('name',)
 
+    def __str__(self):
+        return self.name
+
 
 class Car(models.Model):
     name = models.CharField(max_length=20)
@@ -15,6 +18,9 @@ class Car(models.Model):
 
     class Meta:
         ordering = ('name',)
+
+    def __str__(self):
+        return self.name
 
 
 class SportsCar(Car):
@@ -28,3 +34,6 @@ class Person(models.Model):
 
     class Meta:
         ordering = ('name',)
+
+    def __str__(self):
+        return self.name

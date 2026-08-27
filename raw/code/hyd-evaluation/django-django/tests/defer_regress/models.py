@@ -11,6 +11,9 @@ class Item(models.Model):
     value = models.IntegerField()
     other_value = models.IntegerField(default=0)
 
+    def __str__(self):
+        return self.name
+
 
 class RelatedItem(models.Model):
     item = models.ForeignKey(Item, models.CASCADE)
@@ -32,6 +35,9 @@ class Leaf(models.Model):
     second_child = models.ForeignKey(Child, models.SET_NULL, related_name="other", null=True)
     value = models.IntegerField(default=42)
 
+    def __str__(self):
+        return self.name
+
 
 class ResolveThis(models.Model):
     num = models.FloatField()
@@ -46,6 +52,9 @@ class Proxy(Item):
 class SimpleItem(models.Model):
     name = models.CharField(max_length=15)
     value = models.IntegerField()
+
+    def __str__(self):
+        return self.name
 
 
 class Feature(models.Model):

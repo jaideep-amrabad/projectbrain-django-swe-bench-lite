@@ -5,7 +5,6 @@ from psycopg2.extras import DateRange, DateTimeTZRange, NumericRange, Range
 
 from django.contrib.postgres import forms, lookups
 from django.db import models
-from django.db.models.lookups import PostgresOperatorLookup
 
 from .utils import AttributeSetter
 
@@ -162,13 +161,13 @@ RangeField.register_lookup(lookups.ContainedBy)
 RangeField.register_lookup(lookups.Overlap)
 
 
-class DateTimeRangeContains(PostgresOperatorLookup):
+class DateTimeRangeContains(lookups.PostgresSimpleLookup):
     """
     Lookup for Date/DateTimeRange containment to cast the rhs to the correct
     type.
     """
     lookup_name = 'contains'
-    postgres_operator = RangeOperators.CONTAINS
+    operator = RangeOperators.CONTAINS
 
     def process_rhs(self, compiler, connection):
         # Transform rhs value for db lookup.
@@ -178,8 +177,8 @@ class DateTimeRangeContains(PostgresOperatorLookup):
             self.rhs = value.resolve_expression(compiler.query)
         return super().process_rhs(compiler, connection)
 
-    def as_postgresql(self, compiler, connection):
-        sql, params = super().as_postgresql(compiler, connection)
+    def as_sql(self, compiler, connection):
+        sql, params = super().as_sql(compiler, connection)
         # Cast the rhs if needed.
         cast_sql = ''
         if (
@@ -197,7 +196,7 @@ DateRangeField.register_lookup(DateTimeRangeContains)
 DateTimeRangeField.register_lookup(DateTimeRangeContains)
 
 
-class RangeContainedBy(PostgresOperatorLookup):
+class RangeContainedBy(lookups.PostgresSimpleLookup):
     lookup_name = 'contained_by'
     type_mapping = {
         'smallint': 'int4range',
@@ -208,7 +207,7 @@ class RangeContainedBy(PostgresOperatorLookup):
         'date': 'daterange',
         'timestamp with time zone': 'tstzrange',
     }
-    postgres_operator = RangeOperators.CONTAINED_BY
+    operator = RangeOperators.CONTAINED_BY
 
     def process_rhs(self, compiler, connection):
         rhs, rhs_params = super().process_rhs(compiler, connection)
@@ -237,33 +236,33 @@ models.DecimalField.register_lookup(RangeContainedBy)
 
 
 @RangeField.register_lookup
-class FullyLessThan(PostgresOperatorLookup):
+class FullyLessThan(lookups.PostgresSimpleLookup):
     lookup_name = 'fully_lt'
-    postgres_operator = RangeOperators.FULLY_LT
+    operator = RangeOperators.FULLY_LT
 
 
 @RangeField.register_lookup
-class FullGreaterThan(PostgresOperatorLookup):
+class FullGreaterThan(lookups.PostgresSimpleLookup):
     lookup_name = 'fully_gt'
-    postgres_operator = RangeOperators.FULLY_GT
+    operator = RangeOperators.FULLY_GT
 
 
 @RangeField.register_lookup
-class NotLessThan(PostgresOperatorLookup):
+class NotLessThan(lookups.PostgresSimpleLookup):
     lookup_name = 'not_lt'
-    postgres_operator = RangeOperators.NOT_LT
+    operator = RangeOperators.NOT_LT
 
 
 @RangeField.register_lookup
-class NotGreaterThan(PostgresOperatorLookup):
+class NotGreaterThan(lookups.PostgresSimpleLookup):
     lookup_name = 'not_gt'
-    postgres_operator = RangeOperators.NOT_GT
+    operator = RangeOperators.NOT_GT
 
 
 @RangeField.register_lookup
-class AdjacentToLookup(PostgresOperatorLookup):
+class AdjacentToLookup(lookups.PostgresSimpleLookup):
     lookup_name = 'adjacent_to'
-    postgres_operator = RangeOperators.ADJACENT_TO
+    operator = RangeOperators.ADJACENT_TO
 
 
 @RangeField.register_lookup

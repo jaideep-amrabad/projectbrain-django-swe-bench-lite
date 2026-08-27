@@ -386,7 +386,7 @@ class Node(models.Model):
     parent = models.ForeignKey("self", models.SET_NULL, to_field="num", null=True)
 
     def __str__(self):
-        return str(self.num)
+        return "%s" % self.num
 
 # Bug #12252
 
@@ -604,7 +604,7 @@ class Order(models.Model):
         ordering = ('pk',)
 
     def __str__(self):
-        return str(self.pk)
+        return '%s' % self.pk
 
 
 class OrderItem(models.Model):
@@ -615,7 +615,7 @@ class OrderItem(models.Model):
         ordering = ('pk',)
 
     def __str__(self):
-        return str(self.pk)
+        return '%s' % self.pk
 
 
 class BaseUser(models.Model):
@@ -747,10 +747,3 @@ class ReturningModel(models.Model):
 
 class NonIntegerPKReturningModel(models.Model):
     created = CreatedField(editable=False, primary_key=True)
-
-
-class JSONFieldNullable(models.Model):
-    json_field = models.JSONField(blank=True, null=True)
-
-    class Meta:
-        required_db_features = {'supports_json_field'}

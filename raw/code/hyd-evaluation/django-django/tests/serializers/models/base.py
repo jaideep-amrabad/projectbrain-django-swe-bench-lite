@@ -108,7 +108,7 @@ class Team:
         raise NotImplementedError("Not so simple")
 
     def to_string(self):
-        return str(self.title)
+        return "%s" % self.title
 
 
 class TeamField(models.CharField):

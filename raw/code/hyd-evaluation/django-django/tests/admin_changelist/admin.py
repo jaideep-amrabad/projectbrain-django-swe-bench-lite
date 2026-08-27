@@ -105,8 +105,6 @@ site.register(Child, DynamicListDisplayChildAdmin)
 
 class NoListDisplayLinksParentAdmin(admin.ModelAdmin):
     list_display_links = None
-    list_display = ['name']
-    list_editable = ['name']
 
 
 site.register(Parent, NoListDisplayLinksParentAdmin)

@@ -129,7 +129,7 @@ class Command(BaseCommand):
                     self.stderr.write("Post-processing '%s' failed!" % original_path)
                     # Add a blank line before the traceback, otherwise it's
                     # too easy to miss the relevant part of the error message.
-                    self.stderr.write()
+                    self.stderr.write("")
                     raise processed
                 if processed:
                     self.log("Post-processed '%s' as '%s'" %
@@ -185,15 +185,14 @@ class Command(BaseCommand):
                 raise CommandError("Collecting static files cancelled.")
 
         collected = self.collect()
+        modified_count = len(collected['modified'])
+        unmodified_count = len(collected['unmodified'])
+        post_processed_count = len(collected['post_processed'])
 
         if self.verbosity >= 1:
-            modified_count = len(collected['modified'])
-            unmodified_count = len(collected['unmodified'])
-            post_processed_count = len(collected['post_processed'])
-            return (
-                "\n%(modified_count)s %(identifier)s %(action)s"
-                "%(destination)s%(unmodified)s%(post_processed)s."
-            ) % {
+            template = ("\n%(modified_count)s %(identifier)s %(action)s"
+                        "%(destination)s%(unmodified)s%(post_processed)s.\n")
+            summary = template % {
                 'modified_count': modified_count,
                 'identifier': 'static file' + ('' if modified_count == 1 else 's'),
                 'action': 'symlinked' if self.symlink else 'copied',
@@ -203,6 +202,7 @@ class Command(BaseCommand):
                                    ', %s post-processed'
                                    % post_processed_count or ''),
             }
+            return summary
 
     def log(self, msg, level=2):
         """

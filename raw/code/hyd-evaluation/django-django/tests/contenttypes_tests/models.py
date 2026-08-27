@@ -12,9 +12,15 @@ class Site(models.Model):
     domain = models.CharField(max_length=100)
     objects = SiteManager()
 
+    def __str__(self):
+        return self.domain
+
 
 class Author(models.Model):
     name = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.name
 
     def get_absolute_url(self):
         return '/authors/%s/' % self.id
@@ -26,9 +32,15 @@ class Article(models.Model):
     author = models.ForeignKey(Author, models.CASCADE)
     date_created = models.DateTimeField()
 
+    def __str__(self):
+        return self.title
+
 
 class SchemeIncludedURL(models.Model):
     url = models.URLField(max_length=100)
+
+    def __str__(self):
+        return self.url
 
     def get_absolute_url(self):
         return self.url
@@ -49,6 +61,9 @@ class FooWithoutUrl(models.Model):
     ContentTypesTests.test_shortcut_view_without_get_absolute_url()
     """
     name = models.CharField(max_length=30, unique=True)
+
+    def __str__(self):
+        return self.name
 
 
 class FooWithUrl(FooWithoutUrl):
@@ -84,6 +99,9 @@ class Answer(models.Model):
     class Meta:
         order_with_respect_to = 'question'
 
+    def __str__(self):
+        return self.text
+
 
 class Post(models.Model):
     """An ordered tag on an item."""
@@ -96,11 +114,17 @@ class Post(models.Model):
     class Meta:
         order_with_respect_to = 'parent'
 
+    def __str__(self):
+        return self.title
+
 
 class ModelWithNullFKToSite(models.Model):
     title = models.CharField(max_length=200)
     site = models.ForeignKey(Site, null=True, on_delete=models.CASCADE)
     post = models.ForeignKey(Post, null=True, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return self.title
 
     def get_absolute_url(self):
         return '/title/%s/' % quote(self.title)

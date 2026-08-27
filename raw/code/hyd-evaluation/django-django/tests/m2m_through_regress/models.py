@@ -8,6 +8,9 @@ class Membership(models.Model):
     group = models.ForeignKey('Group', models.CASCADE)
     price = models.IntegerField(default=100)
 
+    def __str__(self):
+        return "%s is a member of %s" % (self.person.name, self.group.name)
+
 
 # using custom id column to test ticket #11107
 class UserMembership(models.Model):
@@ -15,6 +18,9 @@ class UserMembership(models.Model):
     user = models.ForeignKey(User, models.CASCADE)
     group = models.ForeignKey('Group', models.CASCADE)
     price = models.IntegerField(default=100)
+
+    def __str__(self):
+        return "%s is a user and member of %s" % (self.user.username, self.group.name)
 
 
 class Person(models.Model):
@@ -40,7 +46,7 @@ class Car(models.Model):
     drivers = models.ManyToManyField('Driver', through='CarDriver')
 
     def __str__(self):
-        return str(self.make)
+        return "%s" % self.make
 
 
 class Driver(models.Model):
@@ -50,7 +56,7 @@ class Driver(models.Model):
         ordering = ('name',)
 
     def __str__(self):
-        return str(self.name)
+        return "%s" % self.name
 
 
 class CarDriver(models.Model):

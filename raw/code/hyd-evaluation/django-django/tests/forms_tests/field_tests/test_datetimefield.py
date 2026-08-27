@@ -1,7 +1,6 @@
 from datetime import date, datetime
 
-from django.core.exceptions import ValidationError
-from django.forms import DateTimeField
+from django.forms import DateTimeField, ValidationError
 from django.test import SimpleTestCase
 from django.utils.timezone import get_fixed_timezone, utc
 

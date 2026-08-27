@@ -19,7 +19,7 @@ from django.db.models import (
     NOT_PROVIDED, ExpressionWrapper, IntegerField, Max, Value,
 )
 from django.db.models.constants import LOOKUP_SEP
-from django.db.models.constraints import CheckConstraint, UniqueConstraint
+from django.db.models.constraints import CheckConstraint
 from django.db.models.deletion import CASCADE, Collector
 from django.db.models.fields.related import (
     ForeignObjectRel, OneToOneField, lazy_related_operation, resolve_relation,
@@ -889,9 +889,8 @@ class Model(metaclass=ModelBase):
 
             returning_fields = meta.db_returning_fields
             results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
-            if results:
-                for value, field in zip(results[0], returning_fields):
-                    setattr(self, field.attname, value)
+            for result, field in zip(results, returning_fields):
+                setattr(self, field.attname, result)
         return updated
 
     def _do_update(self, base_qs, using, pk_val, values, update_fields, forced_update):
@@ -1276,7 +1275,7 @@ class Model(metaclass=ModelBase):
             errors += [
                 *cls._check_index_together(),
                 *cls._check_unique_together(),
-                *cls._check_indexes(databases),
+                *cls._check_indexes(),
                 *cls._check_ordering(),
                 *cls._check_constraints(databases),
             ]
@@ -1585,8 +1584,8 @@ class Model(metaclass=ModelBase):
             return errors
 
     @classmethod
-    def _check_indexes(cls, databases):
-        """Check fields, names, and conditions of indexes."""
+    def _check_indexes(cls):
+        """Check the fields and names of indexes."""
         errors = []
         for index in cls._meta.indexes:
             # Index name can't start with an underscore or a number, restricted
@@ -1608,28 +1607,6 @@ class Model(metaclass=ModelBase):
                         obj=cls,
                         id='models.E034',
                     ),
-                )
-        for db in databases:
-            if not router.allow_migrate_model(db, cls):
-                continue
-            connection = connections[db]
-            if (
-                connection.features.supports_partial_indexes or
-                'supports_partial_indexes' in cls._meta.required_db_features
-            ):
-                continue
-            if any(index.condition is not None for index in cls._meta.indexes):
-                errors.append(
-                    checks.Warning(
-                        '%s does not support indexes with conditions.'
-                        % connection.display_name,
-                        hint=(
-                            "Conditions will be ignored. Silence this warning "
-                            "if you don't care about it."
-                        ),
-                        obj=cls,
-                        id='models.W037',
-                    )
                 )
         fields = [field for index in cls._meta.indexes for field, _ in index.fields_orders]
         errors.extend(cls._check_local_fields(fields, 'indexes'))
@@ -1747,9 +1724,7 @@ class Model(metaclass=ModelBase):
                     else:
                         _cls = None
                 except (FieldDoesNotExist, AttributeError):
-                    if fld is None or (
-                        fld.get_transform(part) is None and fld.get_lookup(part) is None
-                    ):
+                    if fld is None or fld.get_transform(part) is None:
                         errors.append(
                             checks.Error(
                                 "'ordering' refers to the nonexistent field, "
@@ -1869,13 +1844,12 @@ class Model(metaclass=ModelBase):
             if not router.allow_migrate_model(db, cls):
                 continue
             connection = connections[db]
-            if not (
+            if (
                 connection.features.supports_table_check_constraints or
                 'supports_table_check_constraints' in cls._meta.required_db_features
-            ) and any(
-                isinstance(constraint, CheckConstraint)
-                for constraint in cls._meta.constraints
             ):
+                continue
+            if any(isinstance(constraint, CheckConstraint) for constraint in cls._meta.constraints):
                 errors.append(
                     checks.Warning(
                         '%s does not support check constraints.' % connection.display_name,
@@ -1885,44 +1859,6 @@ class Model(metaclass=ModelBase):
                         ),
                         obj=cls,
                         id='models.W027',
-                    )
-                )
-            if not (
-                connection.features.supports_partial_indexes or
-                'supports_partial_indexes' in cls._meta.required_db_features
-            ) and any(
-                isinstance(constraint, UniqueConstraint) and constraint.condition is not None
-                for constraint in cls._meta.constraints
-            ):
-                errors.append(
-                    checks.Warning(
-                        '%s does not support unique constraints with '
-                        'conditions.' % connection.display_name,
-                        hint=(
-                            "A constraint won't be created. Silence this "
-                            "warning if you don't care about it."
-                        ),
-                        obj=cls,
-                        id='models.W036',
-                    )
-                )
-            if not (
-                connection.features.supports_deferrable_unique_constraints or
-                'supports_deferrable_unique_constraints' in cls._meta.required_db_features
-            ) and any(
-                isinstance(constraint, UniqueConstraint) and constraint.deferrable is not None
-                for constraint in cls._meta.constraints
-            ):
-                errors.append(
-                    checks.Warning(
-                        '%s does not support deferrable unique constraints.'
-                        % connection.display_name,
-                        hint=(
-                            "A constraint won't be created. Silence this "
-                            "warning if you don't care about it."
-                        ),
-                        obj=cls,
-                        id='models.W038',
                     )
                 )
         return errors

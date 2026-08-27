@@ -133,7 +133,7 @@ class RelatedField(FieldCacheMixin, Field):
             errors.append(
                 checks.Error(
                     "Reverse query name '%s' must not end with an underscore."
-                    % rel_query_name,
+                    % (rel_query_name,),
                     hint=("Add or change a related_name or related_query_name "
                           "argument for this field."),
                     obj=self,
@@ -581,10 +581,14 @@ class ForeignObject(RelatedField):
 
         if self.remote_field.parent_link:
             kwargs['parent_link'] = self.remote_field.parent_link
+        # Work out string form of "to"
         if isinstance(self.remote_field.model, str):
-            kwargs['to'] = self.remote_field.model.lower()
+            kwargs['to'] = self.remote_field.model
         else:
-            kwargs['to'] = self.remote_field.model._meta.label_lower
+            kwargs['to'] = "%s.%s" % (
+                self.remote_field.model._meta.app_label,
+                self.remote_field.model._meta.object_name,
+            )
         # If swappable is True, then see if we're actually pointing to the target
         # of a swap.
         swappable_setting = self.swappable_setting

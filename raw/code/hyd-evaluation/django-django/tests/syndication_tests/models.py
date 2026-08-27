@@ -19,3 +19,6 @@ class Entry(models.Model):
 class Article(models.Model):
     title = models.CharField(max_length=200)
     entry = models.ForeignKey(Entry, models.CASCADE)
+
+    def __str__(self):
+        return self.title

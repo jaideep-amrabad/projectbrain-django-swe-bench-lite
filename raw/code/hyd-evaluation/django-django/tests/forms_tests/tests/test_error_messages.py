@@ -1,11 +1,10 @@
-from django.core.exceptions import ValidationError
 from django.core.files.uploadedfile import SimpleUploadedFile
 from django.forms import (
     BooleanField, CharField, ChoiceField, DateField, DateTimeField,
     DecimalField, EmailField, FileField, FloatField, Form,
     GenericIPAddressField, IntegerField, ModelChoiceField,
     ModelMultipleChoiceField, MultipleChoiceField, RegexField,
-    SplitDateTimeField, TimeField, URLField, utils,
+    SplitDateTimeField, TimeField, URLField, ValidationError, utils,
 )
 from django.template import Context, Template
 from django.test import SimpleTestCase, TestCase, ignore_warnings

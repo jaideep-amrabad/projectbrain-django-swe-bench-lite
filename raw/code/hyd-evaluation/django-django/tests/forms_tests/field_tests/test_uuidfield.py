@@ -1,7 +1,6 @@
 import uuid
 
-from django.core.exceptions import ValidationError
-from django.forms import UUIDField
+from django.forms import UUIDField, ValidationError
 from django.test import SimpleTestCase
 
 

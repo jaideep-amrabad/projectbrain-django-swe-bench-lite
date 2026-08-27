@@ -25,7 +25,7 @@ class PersonManager(models.Manager):
 
 
 class Person(models.Model):
-    name = models.CharField(max_length=100, unique=True)
+    name = models.CharField(max_length=100)
 
     objects = PersonManager()
 
@@ -71,6 +71,9 @@ class Pet(models.Model):
 
     class Meta:
         ordering = ('name',)
+
+    def __str__(self):
+        return self.name
 
 
 class UserProfile(models.Model):

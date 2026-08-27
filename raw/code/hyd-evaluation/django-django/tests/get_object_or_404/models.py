@@ -16,6 +16,9 @@ from django.db import models
 class Author(models.Model):
     name = models.CharField(max_length=50)
 
+    def __str__(self):
+        return self.name
+
 
 class ArticleManager(models.Manager):
     def get_queryset(self):
@@ -33,3 +36,6 @@ class Article(models.Model):
     objects = models.Manager()
     by_a_sir = ArticleManager()
     attribute_error_objects = AttributeErrorManager()
+
+    def __str__(self):
+        return self.title

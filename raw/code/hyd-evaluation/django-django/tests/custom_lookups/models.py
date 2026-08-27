@@ -17,3 +17,6 @@ class Article(models.Model):
 
 class MySQLUnixTimestamp(models.Model):
     timestamp = models.PositiveIntegerField()
+
+    def __str__(self):
+        return self.name

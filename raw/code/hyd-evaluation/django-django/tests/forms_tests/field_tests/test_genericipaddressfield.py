@@ -1,5 +1,4 @@
-from django.core.exceptions import ValidationError
-from django.forms import GenericIPAddressField
+from django.forms import GenericIPAddressField, ValidationError
 from django.test import SimpleTestCase
 
 

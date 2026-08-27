@@ -3,7 +3,7 @@ import uuid
 from functools import lru_cache
 
 from django.conf import settings
-from django.db import DatabaseError, NotSupportedError
+from django.db import DatabaseError
 from django.db.backends.base.operations import BaseDatabaseOperations
 from django.db.backends.utils import strip_quotes, truncate_name
 from django.db.models import AutoField, Exists, ExpressionWrapper
@@ -176,7 +176,7 @@ END;
     def get_db_converters(self, expression):
         converters = super().get_db_converters(expression)
         internal_type = expression.output_field.get_internal_type()
-        if internal_type in ['JSONField', 'TextField']:
+        if internal_type == 'TextField':
             converters.append(self.convert_textfield_value)
         elif internal_type == 'BinaryField':
             converters.append(self.convert_binaryfield_value)
@@ -253,7 +253,6 @@ END;
         return " DEFERRABLE INITIALLY DEFERRED"
 
     def fetch_returned_insert_columns(self, cursor, returning_params):
-        columns = []
         for param in returning_params:
             value = param.get_value()
             if value is None or value == []:
@@ -265,11 +264,10 @@ END;
                     'https://code.djangoproject.com/ticket/28859).'
                 )
             # cx_Oracle < 7 returns value, >= 7 returns list with single value.
-            columns.append(value[0] if isinstance(value, list) else value)
-        return tuple(columns)
+            yield value[0] if isinstance(value, list) else value
 
     def field_cast_sql(self, db_type, internal_type):
-        if db_type and db_type.endswith('LOB') and internal_type != 'JSONField':
+        if db_type and db_type.endswith('LOB'):
             return "DBMS_LOB.SUBSTR(%s)"
         else:
             return "%s"
@@ -307,8 +305,6 @@ END;
     def lookup_cast(self, lookup_type, internal_type=None):
         if lookup_type in ('iexact', 'icontains', 'istartswith', 'iendswith'):
             return "UPPER(%s)"
-        if internal_type == 'JSONField' and lookup_type == 'exact':
-            return 'DBMS_LOB.SUBSTR(%s)'
         return "%s"
 
     def max_in_list_size(self):
@@ -406,58 +402,53 @@ END;
         # Django's test suite.
         return lru_cache(maxsize=512)(self.__foreign_key_constraints)
 
-    def sql_flush(self, style, tables, *, reset_sequences=False, allow_cascade=False):
-        if not tables:
-            return []
-
-        truncated_tables = {table.upper() for table in tables}
-        constraints = set()
-        # Oracle's TRUNCATE CASCADE only works with ON DELETE CASCADE foreign
-        # keys which Django doesn't define. Emulate the PostgreSQL behavior
-        # which truncates all dependent tables by manually retrieving all
-        # foreign key constraints and resolving dependencies.
-        for table in tables:
-            for foreign_table, constraint in self._foreign_key_constraints(table, recursive=allow_cascade):
-                if allow_cascade:
-                    truncated_tables.add(foreign_table)
-                constraints.add((foreign_table, constraint))
-        sql = [
-            '%s %s %s %s %s %s %s %s;' % (
-                style.SQL_KEYWORD('ALTER'),
-                style.SQL_KEYWORD('TABLE'),
-                style.SQL_FIELD(self.quote_name(table)),
-                style.SQL_KEYWORD('DISABLE'),
-                style.SQL_KEYWORD('CONSTRAINT'),
-                style.SQL_FIELD(self.quote_name(constraint)),
-                style.SQL_KEYWORD('KEEP'),
-                style.SQL_KEYWORD('INDEX'),
-            ) for table, constraint in constraints
-        ] + [
-            '%s %s %s;' % (
-                style.SQL_KEYWORD('TRUNCATE'),
-                style.SQL_KEYWORD('TABLE'),
-                style.SQL_FIELD(self.quote_name(table)),
-            ) for table in truncated_tables
-        ] + [
-            '%s %s %s %s %s %s;' % (
-                style.SQL_KEYWORD('ALTER'),
-                style.SQL_KEYWORD('TABLE'),
-                style.SQL_FIELD(self.quote_name(table)),
-                style.SQL_KEYWORD('ENABLE'),
-                style.SQL_KEYWORD('CONSTRAINT'),
-                style.SQL_FIELD(self.quote_name(constraint)),
-            ) for table, constraint in constraints
-        ]
-        if reset_sequences:
-            sequences = [
-                sequence
-                for sequence in self.connection.introspection.sequence_list()
-                if sequence['table'].upper() in truncated_tables
+    def sql_flush(self, style, tables, sequences, allow_cascade=False):
+        if tables:
+            truncated_tables = {table.upper() for table in tables}
+            constraints = set()
+            # Oracle's TRUNCATE CASCADE only works with ON DELETE CASCADE
+            # foreign keys which Django doesn't define. Emulate the
+            # PostgreSQL behavior which truncates all dependent tables by
+            # manually retrieving all foreign key constraints and resolving
+            # dependencies.
+            for table in tables:
+                for foreign_table, constraint in self._foreign_key_constraints(table, recursive=allow_cascade):
+                    if allow_cascade:
+                        truncated_tables.add(foreign_table)
+                    constraints.add((foreign_table, constraint))
+            sql = [
+                "%s %s %s %s %s %s %s %s;" % (
+                    style.SQL_KEYWORD('ALTER'),
+                    style.SQL_KEYWORD('TABLE'),
+                    style.SQL_FIELD(self.quote_name(table)),
+                    style.SQL_KEYWORD('DISABLE'),
+                    style.SQL_KEYWORD('CONSTRAINT'),
+                    style.SQL_FIELD(self.quote_name(constraint)),
+                    style.SQL_KEYWORD('KEEP'),
+                    style.SQL_KEYWORD('INDEX'),
+                ) for table, constraint in constraints
+            ] + [
+                "%s %s %s;" % (
+                    style.SQL_KEYWORD('TRUNCATE'),
+                    style.SQL_KEYWORD('TABLE'),
+                    style.SQL_FIELD(self.quote_name(table)),
+                ) for table in truncated_tables
+            ] + [
+                "%s %s %s %s %s %s;" % (
+                    style.SQL_KEYWORD('ALTER'),
+                    style.SQL_KEYWORD('TABLE'),
+                    style.SQL_FIELD(self.quote_name(table)),
+                    style.SQL_KEYWORD('ENABLE'),
+                    style.SQL_KEYWORD('CONSTRAINT'),
+                    style.SQL_FIELD(self.quote_name(constraint)),
+                ) for table, constraint in constraints
             ]
-            # Since we've just deleted all the rows, running our sequence ALTER
-            # code will reset the sequence to 0.
+            # Since we've just deleted all the rows, running our sequence
+            # ALTER code will reset the sequence to 0.
             sql.extend(self.sequence_reset_by_name_sql(style, sequences))
-        return sql
+            return sql
+        else:
+            return []
 
     def sequence_reset_by_name_sql(self, style, sequences):
         sql = []
@@ -584,8 +575,6 @@ END;
             return 'FLOOR(%(lhs)s / POWER(2, %(rhs)s))' % {'lhs': lhs, 'rhs': rhs}
         elif connector == '^':
             return 'POWER(%s)' % ','.join(sub_expressions)
-        elif connector == '#':
-            raise NotSupportedError('Bitwise XOR is not supported in Oracle.')
         return super().combine_expression(connector, sub_expressions)
 
     def _get_no_autofield_sequence_name(self, table):
