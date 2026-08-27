@@ -1,6 +1,6 @@
 # Community 0
 
-> 657 nodes · cohesion 0.01
+> 673 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **CASCADE()** (39 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/deletion.py`
 - **sql/compiler.py** (38 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/sql/compiler.py`
 - **postgresql/base.py** (37 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
-- *... and 632 more nodes in this community*
+- *... and 648 more nodes in this community*
 
 ## Relationships
 
-- [Community 3](Community_3.md) (165 shared connections)
-- [Community 29](Community_29.md) (93 shared connections)
-- [Community 1](Community_1.md) (88 shared connections)
-- [Community 47](Community_47.md) (56 shared connections)
-- [Community 172](Community_172.md) (52 shared connections)
-- [Community 10](Community_10.md) (48 shared connections)
-- [Community 13](Community_13.md) (46 shared connections)
-- [Community 74](Community_74.md) (43 shared connections)
-- [Community 110](Community_110.md) (42 shared connections)
-- [Community 23](Community_23.md) (40 shared connections)
-- [Community 16](Community_16.md) (40 shared connections)
-- [Community 40](Community_40.md) (40 shared connections)
+- [Community 1](Community_1.md) (174 shared connections)
+- [Community 26](Community_26.md) (95 shared connections)
+- [Community 3](Community_3.md) (89 shared connections)
+- [Community 6](Community_6.md) (67 shared connections)
+- [Community 41](Community_41.md) (56 shared connections)
+- [Community 4](Community_4.md) (48 shared connections)
+- [Community 14](Community_14.md) (46 shared connections)
+- [Community 104](Community_104.md) (45 shared connections)
+- [Community 73](Community_73.md) (43 shared connections)
+- [Community 61](Community_61.md) (40 shared connections)
+- [Community 31](Community_31.md) (37 shared connections)
+- [Community 60](Community_60.md) (36 shared connections)
 
 ## Source Files
 
@@ -71,8 +71,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 4177 (97%)
-- INFERRED: 145 (3%)
+- EXTRACTED: 4214 (96%)
+- INFERRED: 156 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

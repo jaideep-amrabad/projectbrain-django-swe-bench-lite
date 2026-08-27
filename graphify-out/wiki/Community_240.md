@@ -1,12 +1,13 @@
 # Community 240
 
-> 38 nodes · cohesion 0.11
+> 42 nodes · cohesion 0.09
 
 ## Key Concepts
 
 - **BaseTests** (37 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
 - **.get_storage()** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
 - **add_level_messages()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **default_storage()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/__init__.py`
 - **.get_response()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
 - **get_level()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
 - **.get_existing_storage()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
@@ -14,6 +15,7 @@
 - **.stored_messages_count()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
 - **override_settings_tags** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
 - **.test_default_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
+- **.test_full_request_response_cycle()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
 - **.test_high_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
 - **.test_low_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
 - **.test_settings_level()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
@@ -27,32 +29,31 @@
 - **.test_existing_read()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
 - **.test_level_tag()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
 - **.test_tags()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.test_with_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
-- *... and 13 more nodes in this community*
+- *... and 17 more nodes in this community*
 
 ## Relationships
 
-- [Community 424](Community_424.md) (8 shared connections)
-- [Community 476](Community_476.md) (4 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 640](Community_640.md) (2 shared connections)
-- [Community 50](Community_50.md) (2 shared connections)
-- [Community 22](Community_22.md) (2 shared connections)
-- [Community 420](Community_420.md) (1 shared connections)
-- [Community 892](Community_892.md) (1 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
-- [Community 20](Community_20.md) (1 shared connections)
-- [Community 366](Community_366.md) (1 shared connections)
+- [Community 426](Community_426.md) (9 shared connections)
+- [Community 475](Community_475.md) (4 shared connections)
+- [Community 51](Community_51.md) (4 shared connections)
+- [Community 20](Community_20.md) (4 shared connections)
+- [Community 25](Community_25.md) (3 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 476](Community_476.md) (2 shared connections)
+- [Community 42](Community_42.md) (2 shared connections)
+- [Community 422](Community_422.md) (1 shared connections)
+- [Community 893](Community_893.md) (1 shared connections)
+- [Community 17](Community_17.md) (1 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/contrib/messages/api.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/messages/storage/__init__.py`
 - `raw/code/hyd-evaluation/django-django/tests/messages_tests/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 100 (98%)
+- EXTRACTED: 111 (98%)
 - INFERRED: 2 (2%)
 - AMBIGUOUS: 0 (0%)
 

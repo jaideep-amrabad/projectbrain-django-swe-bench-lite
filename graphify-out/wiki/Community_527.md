@@ -26,11 +26,11 @@
 
 ## Relationships
 
-- [Community 105](Community_105.md) (11 shared connections)
-- [Community 29](Community_29.md) (3 shared connections)
+- [Community 98](Community_98.md) (11 shared connections)
+- [Community 26](Community_26.md) (3 shared connections)
 - [Community 0](Community_0.md) (1 shared connections)
-- [Community 305](Community_305.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 308](Community_308.md) (1 shared connections)
+- [Community 3](Community_3.md) (1 shared connections)
 
 ## Source Files
 
