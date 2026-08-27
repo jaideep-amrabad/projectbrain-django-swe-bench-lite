@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **URLify.test.js** (0 connections) — `raw/code/hyd-evaluation/django-django/js_tests/admin/URLify.test.js`
+- **additional_file.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/custom_templates/project_template/additional_dir/additional_file.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/js_tests/admin/URLify.test.js`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/custom_templates/project_template/additional_dir/additional_file.py`
 
 ## Audit Trail
 

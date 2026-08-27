@@ -2,7 +2,7 @@
 
 > God node · 395 connections · `raw/code/hyd-evaluation/django-django/django/urls/base.py`
 
-**Community:** [Community 15](Community_15.md)
+**Community:** [Community 16](Community_16.md)
 
 ## Connections by Relation
 
@@ -12,8 +12,8 @@
 - resolve_url() `EXTRACTED`
 - get_script_prefix() `EXTRACTED`
 - .response_add() `EXTRACTED`
-- _get_sitemap_full_url() `EXTRACTED`
 - translate_url() `EXTRACTED`
+- _get_sitemap_full_url() `EXTRACTED`
 - .response_change() `EXTRACTED`
 - get_urlconf() `EXTRACTED`
 - .response_delete() `EXTRACTED`

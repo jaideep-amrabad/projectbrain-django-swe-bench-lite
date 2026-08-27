@@ -1,6 +1,6 @@
 # Community 304
 
-> 36 nodes · cohesion 0.07
+> 38 nodes · cohesion 0.07
 
 ## Key Concepts
 
@@ -12,6 +12,7 @@
 - **.postgis_proj_version()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
 - **.geo_db_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
 - **._normalize_distance_lookup_arg()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **.parse_raster()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
 - **.postgis_full_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
 - **.postgis_geos_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
 - **.postgis_version()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
@@ -28,23 +29,22 @@
 - **.spatial_aggregate_name()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
 - **.spatial_ref_sys()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
 - **DatabaseOperations** (1 connections)
-- **Determine the version of the PostGIS library.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
-- *... and 11 more nodes in this community*
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 700](Community_700.md) (3 shared connections)
-- [Community 20](Community_20.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 104](Community_104.md) (1 shared connections)
-- [Community 688](Community_688.md) (1 shared connections)
-- [Community 580](Community_580.md) (1 shared connections)
-- [Community 424](Community_424.md) (1 shared connections)
-- [Community 769](Community_769.md) (1 shared connections)
-- [Community 665](Community_665.md) (1 shared connections)
-- [Community 125](Community_125.md) (1 shared connections)
-- [Community 33](Community_33.md) (1 shared connections)
+- [Community 0](Community_0.md) (6 shared connections)
+- [Community 758](Community_758.md) (2 shared connections)
+- [Community 761](Community_761.md) (2 shared connections)
+- [Community 120](Community_120.md) (1 shared connections)
+- [Community 496](Community_496.md) (1 shared connections)
+- [Community 681](Community_681.md) (1 shared connections)
+- [Community 638](Community_638.md) (1 shared connections)
+- [Community 696](Community_696.md) (1 shared connections)
+- [Community 96](Community_96.md) (1 shared connections)
+- [Community 43](Community_43.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 645](Community_645.md) (1 shared connections)
 
 ## Source Files
 
@@ -52,7 +52,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 59 (88%)
+- EXTRACTED: 61 (88%)
 - INFERRED: 8 (12%)
 - AMBIGUOUS: 0 (0%)
 

@@ -1,8 +1,8 @@
 # HttpResponse
 
-> God node · 315 connections · `raw/code/hyd-evaluation/django-django/django/http/response.py`
+> God node · 316 connections · `raw/code/hyd-evaluation/django-django/django/http/response.py`
 
-**Community:** [Community 2](Community_2.md)
+**Community:** [Community 9](Community_9.md)
 
 ## Connections by Relation
 
@@ -13,11 +13,11 @@
 - token_view() `EXTRACTED`
 - empty_view() `EXTRACTED`
 - get_response_empty() `EXTRACTED`
-- set_language() `EXTRACTED`
 - empty_response() `EXTRACTED`
 - ensure_csrf_cookie_view() `EXTRACTED`
 - render_flatpage() `EXTRACTED`
 - render_to_kmz() `EXTRACTED`
+- set_language() `EXTRACTED`
 - trace_view() `EXTRACTED`
 - default_urlconf() `EXTRACTED`
 - non_token_view_using_request_processor() `EXTRACTED`
