@@ -1,71 +1,71 @@
 # Community 26
 
-> 191 nodes · cohesion 0.02
+> 183 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **.func()** (54 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **register()** (47 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
+- **.func()** (53 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **register()** (44 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
 - **check_framework/test_security.py** (41 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **security/base.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
 - **admin_registration/tests.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **TestRegistration** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- **TestRegistration** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
 - **TestRegistrationDecorator** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
-- **TranslationCheckTests** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
+- **security/csrf.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
 - **CheckSecretKeyTest** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
 - **_security_middleware()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
 - **admin_registration/models.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
-- **check_language_settings_consistent()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
 - **CheckCSRFCookieSecureTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- **CheckReferrerPolicyTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
 - **CheckSessionCookieHttpOnlyTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
 - **CheckSessionCookieSecureTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
 - **CheckStrictTransportSecurityPreloadTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
 - **CheckStrictTransportSecuritySubdomainsTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
 - **check_session_cookie_httponly()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
 - **check_session_cookie_secure()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
-- **check_setting_language_code()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
-- **check_setting_languages()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
-- **check_setting_languages_bidi()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
 - **CheckContentTypeNosniffTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
 - **CheckSSLRedirectTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
 - **CheckStrictTransportSecurityTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- *... and 166 more nodes in this community*
+- **CheckXFrameOptionsDenyTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **CheckXssFilterTest** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
+- **admin/decorators.py** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
+- **check_content_type_nosniff()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
+- *... and 158 more nodes in this community*
 
 ## Relationships
 
-- [Community 8](Community_8.md) (58 shared connections)
-- [Community 58](Community_58.md) (38 shared connections)
-- [Community 1](Community_1.md) (23 shared connections)
-- [Community 362](Community_362.md) (6 shared connections)
-- [Community 14](Community_14.md) (3 shared connections)
-- [Community 0](Community_0.md) (3 shared connections)
-- [Community 611](Community_611.md) (2 shared connections)
-- [Community 13](Community_13.md) (2 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 869](Community_869.md) (1 shared connections)
-- [Community 323](Community_323.md) (1 shared connections)
-- [Community 84](Community_84.md) (1 shared connections)
+- [Community 13](Community_13.md) (57 shared connections)
+- [Community 0](Community_0.md) (25 shared connections)
+- [Community 29](Community_29.md) (18 shared connections)
+- [Community 325](Community_325.md) (7 shared connections)
+- [Community 6](Community_6.md) (5 shared connections)
+- [Community 47](Community_47.md) (3 shared connections)
+- [Community 53](Community_53.md) (2 shared connections)
+- [Community 604](Community_604.md) (2 shared connections)
+- [Community 178](Community_178.md) (2 shared connections)
+- [Community 5](Community_5.md) (2 shared connections)
+- [Community 55](Community_55.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/contrib/admin/decorators.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/flatpages/admin.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/sites/admin.py`
+- `raw/code/hyd-evaluation/django-django/django/core/checks/caches.py`
 - `raw/code/hyd-evaluation/django-django/django/core/checks/model_checks.py`
 - `raw/code/hyd-evaluation/django-django/django/core/checks/security/__init__.py`
 - `raw/code/hyd-evaluation/django-django/django/core/checks/security/base.py`
 - `raw/code/hyd-evaluation/django-django/django/core/checks/security/csrf.py`
 - `raw/code/hyd-evaluation/django-django/django/core/checks/security/sessions.py`
-- `raw/code/hyd-evaluation/django-django/django/core/checks/translation.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_registration/models.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_registration/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_caches.py`
 - `raw/code/hyd-evaluation/django-django/tests/check_framework/test_security.py`
-- `raw/code/hyd-evaluation/django-django/tests/check_framework/test_translation.py`
 
 ## Audit Trail
 
-- EXTRACTED: 431 (95%)
-- INFERRED: 24 (5%)
+- EXTRACTED: 416 (94%)
+- INFERRED: 25 (6%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **core.test.js** (0 connections) — `raw/code/hyd-evaluation/django-django/js_tests/admin/core.test.js`
+- **test_migrations_2_no_deps/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations2/test_migrations_2_no_deps/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/js_tests/admin/core.test.js`
+- `raw/code/hyd-evaluation/django-django/tests/migrations2/test_migrations_2_no_deps/__init__.py`
 
 ## Audit Trail
 

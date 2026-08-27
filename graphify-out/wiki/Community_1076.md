@@ -1,24 +1,22 @@
 # Community 1076
 
-> 2 nodes · cohesion 1.00
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **PrePopulatedPostLargeSlug** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **Regression test for #15938: a large max_length for the slugfield must not be…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- **loaders/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/django/template/loaders/__init__.py`
 
 ## Relationships
 
-- [Community 74](Community_74.md) (1 shared connections)
-- [Community 102](Community_102.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/django/template/loaders/__init__.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

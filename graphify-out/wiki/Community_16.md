@@ -1,61 +1,78 @@
 # Community 16
 
-> 38 nodes · cohesion 0.09
+> 137 nodes · cohesion 0.02
 
 ## Key Concepts
 
-- **auth_tests/test_validators.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **password_validation.py** (30 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **PasswordValidationTest** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **changepassword.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/changepassword.py`
-- **CommonPasswordValidator** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **validate_password()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **get_default_password_validators()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **NumericPasswordValidator** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **CommonPasswordValidatorTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **get_password_validators()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **password_changed()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **password_validators_help_texts()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **NumericPasswordValidatorTest** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **.validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **.validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- **.test_help_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **.test_validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **.test_validate_custom_list()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **.test_validate_django_supplied_file()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **.test_help_text()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **.test_validate()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **.test_empty_password_validator_help_text_html()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **.test_get_default_password_validators()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **.test_get_password_validators_custom()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- **.test_password_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
-- *... and 13 more nodes in this community*
+- **test/utils.py** (202 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **test_extraction.py** (38 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- **test/runner.py** (33 connections) — `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- **test_compilation.py** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- **makemessages.py** (29 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **user_commands/tests.py** (27 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **management/utils.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
+- **captured_stdout()** (24 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **Command** (18 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **management/templates.py** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- **test_percents.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
+- **popen_wrapper()** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
+- **responses/test_cookie.py** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/responses/test_cookie.py`
+- **compilemessages.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/compilemessages.py`
+- **is_ignored_path()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
+- **captured_stderr()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **test_discover_runner.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/test_runner/test_discover_runner.py`
+- **test_questioner.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
+- **shell/tests.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
+- **.build_potfiles()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **find_command()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
+- **app_loading/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- **signing/tests.py** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
+- **.handle()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- **freeze_time()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- *... and 112 more nodes in this community*
 
 ## Relationships
 
-- [Community 4](Community_4.md) (11 shared connections)
-- [Community 49](Community_49.md) (8 shared connections)
-- [Community 0](Community_0.md) (8 shared connections)
-- [Community 2](Community_2.md) (7 shared connections)
-- [Community 21](Community_21.md) (6 shared connections)
-- [Community 9](Community_9.md) (6 shared connections)
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 796](Community_796.md) (3 shared connections)
-- [Community 856](Community_856.md) (3 shared connections)
-- [Community 8](Community_8.md) (3 shared connections)
-- [Community 23](Community_23.md) (2 shared connections)
-- [Community 171](Community_171.md) (1 shared connections)
+- [Community 2](Community_2.md) (58 shared connections)
+- [Community 0](Community_0.md) (56 shared connections)
+- [Community 122](Community_122.md) (28 shared connections)
+- [Community 33](Community_33.md) (24 shared connections)
+- [Community 283](Community_283.md) (19 shared connections)
+- [Community 29](Community_29.md) (11 shared connections)
+- [Community 261](Community_261.md) (9 shared connections)
+- [Community 5](Community_5.md) (8 shared connections)
+- [Community 6](Community_6.md) (7 shared connections)
+- [Community 617](Community_617.md) (7 shared connections)
+- [Community 23](Community_23.md) (6 shared connections)
+- [Community 44](Community_44.md) (6 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/management/commands/changepassword.py`
-- `raw/code/hyd-evaluation/django-django/django/contrib/auth/password_validation.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_validators.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/compilemessages.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/makemessages.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/startproject.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/templates.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/test/runner.py`
+- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/_os.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/management/commands/custom_startproject.py`
+- `raw/code/hyd-evaluation/django-django/tests/app_loading/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/bash_completion/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/test_extraction.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/test_percents.py`
+- `raw/code/hyd-evaluation/django-django/tests/i18n/utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_questioner.py`
+- `raw/code/hyd-evaluation/django-django/tests/responses/test_cookie.py`
+- `raw/code/hyd-evaluation/django-django/tests/shell/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/signing/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 129 (98%)
-- INFERRED: 3 (2%)
+- EXTRACTED: 678 (99%)
+- INFERRED: 9 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,60 +1,78 @@
 # Community 89
 
-> 88 nodes · cohesion 0.05
+> 136 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **postgres_tests/test_indexes.py** (33 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **SchemaTests** (32 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **.get_constraints()** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **BloomIndex** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **BrinIndex** (17 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **postgres/indexes.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **BTreeIndex** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **GinIndex** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **PostgresIndex** (14 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **GistIndex** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **HashIndex** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **SpGistIndex** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **IndexTestMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **BloomIndexTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **.deconstruct()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **.__init__()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- **BrinIndexTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **BTreeIndexTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **GinIndexTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **GistIndexTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **HashIndexTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **SpGistIndexTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **.test_partial_gin_index()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **.test_partial_gin_index_with_tablespace()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- **.test_bloom_index()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
-- *... and 63 more nodes in this community*
+- **cached_property** (147 connections) — `raw/code/hyd-evaluation/django-django/django/utils/functional.py`
+- **db/utils.py** (66 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **db/transaction.py** (63 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **DatabaseError** (56 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **NotSupportedError** (48 connections) — `raw/code/hyd-evaluation/django-django/django/db/utils.py`
+- **postgis/operations.py** (43 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- **postgresql/base.py** (32 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- **django/db/backends/utils.py** (30 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **base/base.py** (29 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- **django/db/backends/mysql/base.py** (28 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- **base/schema.py** (24 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- **django/db/backends/base/operations.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **TransactionManagementError** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **truncate_name()** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- **get_connection()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/db/transaction.py`
+- **BaseDatabaseFeatures** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/features.py`
+- **backends/test_utils.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/backends/test_utils.py`
+- **get_version_tuple()** (14 connections) — `raw/code/hyd-evaluation/django-django/django/utils/version.py`
+- **db_utils/tests.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/tests.py`
+- **sqlite3/schema.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
+- **models/indexes.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/indexes.py`
+- **oracle/creation.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- **django/db/backends/base/features.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/features.py`
+- **django/db/backends/mysql/operations.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- **split_identifier()** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
+- *... and 111 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (12 shared connections)
-- [Community 454](Community_454.md) (8 shared connections)
-- [Community 77](Community_77.md) (7 shared connections)
-- [Community 137](Community_137.md) (5 shared connections)
-- [Community 17](Community_17.md) (4 shared connections)
-- [Community 47](Community_47.md) (3 shared connections)
-- [Community 157](Community_157.md) (3 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 23](Community_23.md) (2 shared connections)
-- [Community 152](Community_152.md) (1 shared connections)
-- [Community 81](Community_81.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 6](Community_6.md) (37 shared connections)
+- [Community 5](Community_5.md) (33 shared connections)
+- [Community 87](Community_87.md) (30 shared connections)
+- [Community 8](Community_8.md) (23 shared connections)
+- [Community 97](Community_97.md) (19 shared connections)
+- [Community 34](Community_34.md) (19 shared connections)
+- [Community 135](Community_135.md) (17 shared connections)
+- [Community 98](Community_98.md) (16 shared connections)
+- [Community 0](Community_0.md) (15 shared connections)
+- [Community 86](Community_86.md) (15 shared connections)
+- [Community 107](Community_107.md) (15 shared connections)
+- [Community 118](Community_118.md) (13 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/indexes.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_indexes.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/mysql/schema.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/oracle/schema.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/postgis/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/features.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/db/backends/spatialite/schema.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/features.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/schema.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/dummy/features.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/features.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/operations.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/mysql/schema.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/creation.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/features.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/schema.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/base.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/postgresql/features.py`
 
 ## Audit Trail
 
-- EXTRACTED: 216 (91%)
-- INFERRED: 21 (9%)
+- EXTRACTED: 779 (90%)
+- INFERRED: 89 (10%)
 - AMBIGUOUS: 0 (0%)
 
 ---

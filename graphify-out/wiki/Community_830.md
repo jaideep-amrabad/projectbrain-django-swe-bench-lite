@@ -1,30 +1,28 @@
 # Community 830
 
-> 8 nodes · cohesion 0.32
+> 5 nodes · cohesion 0.40
 
 ## Key Concepts
 
-- **JSONField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
-- **InvalidJSONInput** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
-- **.to_python()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
-- **JSONString** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
-- **.bound_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
-- **.has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
-- **str** (2 connections)
-- **.prepare_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
+- **PersonWithHeight** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **AbstractPersonWithHeight** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **Meta** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **Abstract model that defines an ImageField with only one dimension field to make…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
+- **Concrete model that subclass an abstract one with only on dimension field.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
 
 ## Relationships
 
-- [Community 4](Community_4.md) (3 shared connections)
+- [Community 20](Community_20.md) (2 shared connections)
+- [Community 438](Community_438.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
+- `raw/code/hyd-evaluation/django-django/tests/model_fields/models.py`
 
 ## Audit Trail
 
-- EXTRACTED: 12 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 7 (88%)
+- INFERRED: 1 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

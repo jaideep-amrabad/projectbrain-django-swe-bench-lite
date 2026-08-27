@@ -1,43 +1,42 @@
 # Community 544
 
-> 18 nodes · cohesion 0.14
+> 18 nodes · cohesion 0.12
 
 ## Key Concepts
 
-- **Serializer** (16 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **Serializer** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
-- **._value_from_field()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **.get_dump_object()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **.end_object()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **.handle_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **.handle_fk_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **Serialize a QuerySet to basic Python objects.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **.end_serialization()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **.getvalue()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **.handle_m2m_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **.start_object()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **.start_serialization()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- **PythonSerializer** (1 connections)
-- **Convert a queryset to YAML.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
-- **.end_serialization()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
-- **.getvalue()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
-- **.handle_field()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
+- **._save_table()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **.save_base()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **._save_parents()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **.get_deferred_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **._get_pk_val()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **._perform_unique_checks()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **.save()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **._do_insert()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **._do_update()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **.refresh_from_db()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **Return a set containing names of deferred fields for this instance.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **Reload field values from the database. By default, the reloading happens from…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **Save the current instance. Override this in a subclass if you want to control…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **Handle the parts of saving which should be done only once per save, yet need to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **Save all the parents of cls using values from self.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **Do the heavy-lifting involved in saving. Update or insert the data for a single…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **Try to update the model. Return True if the model was updated (if an update…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
+- **Do an INSERT. If update_pk is defined then this method should return the new pk…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
 
 ## Relationships
 
-- [Community 299](Community_299.md) (4 shared connections)
-- [Community 399](Community_399.md) (1 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
+- [Community 172](Community_172.md) (11 shared connections)
+- [Community 500](Community_500.md) (1 shared connections)
+- [Community 89](Community_89.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/python.py`
-- `raw/code/hyd-evaluation/django-django/django/core/serializers/pyyaml.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/base.py`
 
 ## Audit Trail
 
-- EXTRACTED: 25 (93%)
-- INFERRED: 2 (7%)
+- EXTRACTED: 32 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

@@ -1,38 +1,47 @@
 # Community 633
 
-> 15 nodes · cohesion 0.13
+> 13 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **RequestMethodTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_delete()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_get()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_head()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_options()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_patch()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_post()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **.test_put()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Request a view via request method GET** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Request a view via request method POST** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Request a view via request method HEAD** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Request a view via request method OPTIONS** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Request a view via request method PUT** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Request a view via request method DELETE** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
-- **Request a view via request method PATCH** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **urlpatterns/views.py** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/views.py`
+- **urlpatterns/__init__.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/__init__.py`
+- **path_base64_urls.py** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/path_base64_urls.py`
+- **urlpatterns/converters.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
+- **path_dynamic_urls.py** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/path_dynamic_urls.py`
+- **register_converter()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- **urlpatterns/included_urls.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/included_urls.py`
+- **path_urls.py** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/path_urls.py`
+- **converter_urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converter_urls.py`
+- **Base64Converter** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
+- **more_urls.py** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/more_urls.py`
+- **.to_python()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
+- **.to_url()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
 
 ## Relationships
 
-- [Community 8](Community_8.md) (1 shared connections)
-- [Community 41](Community_41.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 4](Community_4.md) (10 shared connections)
+- [Community 211](Community_211.md) (4 shared connections)
+- [Community 565](Community_565.md) (1 shared connections)
+- [Community 61](Community_61.md) (1 shared connections)
+- [Community 14](Community_14.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/urls/converters.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converter_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/included_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/more_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/path_base64_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/path_dynamic_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/path_urls.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/views.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
+- EXTRACTED: 36 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

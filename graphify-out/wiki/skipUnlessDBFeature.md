@@ -1,8 +1,8 @@
 # skipUnlessDBFeature()
 
-> God node · 390 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+> God node · 337 connections · `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
 
-**Community:** [Community 17](Community_17.md)
+**Community:** [Community 27](Community_27.md)
 
 ## Connections by Relation
 
@@ -18,22 +18,22 @@
 - django/test/__init__.py `EXTRACTED`
 - queries/tests.py `EXTRACTED`
 - model_forms/tests.py `EXTRACTED`
-- test_utils/tests.py `EXTRACTED`
 - expressions/tests.py `EXTRACTED`
 - schema/tests.py `EXTRACTED`
+- test_utils/tests.py `EXTRACTED`
 - fixtures_regress/tests.py `EXTRACTED`
 - timezones/tests.py `EXTRACTED`
-- delete/tests.py `EXTRACTED`
 - model_formsets/tests.py `EXTRACTED`
 - backends/tests.py `EXTRACTED`
-- geoapp/tests.py `EXTRACTED`
-- test_extract_trunc.py `EXTRACTED`
 - delete_regress/tests.py `EXTRACTED`
+- test_extract_trunc.py `EXTRACTED`
 - expressions_window/tests.py `EXTRACTED`
-- test_runner/tests.py `EXTRACTED`
-- distapp/tests.py `EXTRACTED`
+- geoapp/tests.py `EXTRACTED`
 - aggregation_regress/tests.py `EXTRACTED`
+- test_runner/tests.py `EXTRACTED`
+- migrations/test_operations.py `EXTRACTED`
 - geo3d/tests.py `EXTRACTED`
+- distapp/tests.py `EXTRACTED`
 - fixtures/tests.py `EXTRACTED`
 
 ### rationale_for
@@ -48,18 +48,18 @@
 - Geo3DTest `EXTRACTED`
 - DistinctOnTests `EXTRACTED`
 - SubqueryTests `EXTRACTED`
-- ConstraintNameTests `EXTRACTED`
-- ExplainTests `EXTRACTED`
 - PartialIndexTests `EXTRACTED`
-- ReturningValuesTests `EXTRACTED`
+- ExplainTests `EXTRACTED`
 - QuerySetBitwiseOperationTests `EXTRACTED`
+- .test_alter_to_fk() `EXTRACTED`
 - AutoIncrementResetTest `EXTRACTED`
 - AtomicErrorsTests `EXTRACTED`
 - SpatialRefSysTest `EXTRACTED`
+- .test_unique_no_unnecessary_fk_drops() `EXTRACTED`
 - DeleteLockingTest `EXTRACTED`
 - .test_migrations_applied_and_recorded_atomically() `EXTRACTED`
-- .test_add_inline_fk_index_update_data() `EXTRACTED`
 - .test_alter_fk() `EXTRACTED`
+- .test_alter_fk_to_o2o() `EXTRACTED`
 
 ---
 

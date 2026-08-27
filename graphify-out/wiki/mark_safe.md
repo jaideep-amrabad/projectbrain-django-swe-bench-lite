@@ -1,6 +1,6 @@
 # mark_safe()
 
-> God node · 244 connections · `raw/code/hyd-evaluation/django-django/django/utils/safestring.py`
+> God node · 237 connections · `raw/code/hyd-evaluation/django-django/django/utils/safestring.py`
 
 **Community:** [Community 0](Community_0.md)
 
@@ -39,13 +39,13 @@
 - i18n/tests.py `EXTRACTED`
 - defaulttags.py `EXTRACTED`
 - django/forms/widgets.py `EXTRACTED`
-- template/base.py `EXTRACTED`
 - utils/html.py `EXTRACTED`
+- template/base.py `EXTRACTED`
 - admin_list.py `EXTRACTED`
-- tests/test_debug.py `EXTRACTED`
-- trans_real.py `EXTRACTED`
+- test_debug.py `EXTRACTED`
 - contrib/admin/widgets.py `EXTRACTED`
 - decorators/tests.py `EXTRACTED`
+- trans_real.py `EXTRACTED`
 - helpers.py `EXTRACTED`
 - admin_utils/tests.py `EXTRACTED`
 - templatetags/i18n.py `EXTRACTED`

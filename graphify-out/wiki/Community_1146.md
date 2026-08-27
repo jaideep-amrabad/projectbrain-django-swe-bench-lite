@@ -1,24 +1,22 @@
 # Community 1146
 
-> 2 nodes · cohesion 1.00
+> 1 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **Money** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
-- **.deconstruct()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- **csrf_token_error_handler_urls.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/csrf_tests/csrf_token_error_handler_urls.py`
 
 ## Relationships
 
-- [Community 250](Community_250.md) (1 shared connections)
-- [Community 107](Community_107.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_writer.py`
+- `raw/code/hyd-evaluation/django-django/tests/csrf_tests/csrf_token_error_handler_urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 0 (0%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

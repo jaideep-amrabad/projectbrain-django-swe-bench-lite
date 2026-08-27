@@ -1,80 +1,72 @@
 # Q
 
-> God node · 260 connections · `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+> God node · 206 connections · `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
 
-**Community:** [Community 12](Community_12.md)
+**Community:** [Community 38](Community_38.md)
 
 ## Connections by Relation
 
 ### calls
-- .test_expressions() `EXTRACTED`
-- .test_filtered_aggregates() `EXTRACTED`
-- .test_invalid_filter() `EXTRACTED`
-- .test_aggregate() `EXTRACTED`
-- .test_string_agg_array_agg_filter_in_subquery() `EXTRACTED`
-- ._test_range_overlaps() `EXTRACTED`
-- .with_perm() `EXTRACTED`
-- create_forward_many_to_many_manager() `EXTRACTED`
-- ._as_sql() `EXTRACTED`
-- .test_case_aggregate() `EXTRACTED`
-- .test_conditional_aggregation_example() `EXTRACTED`
-- .test_geodetic_distance_lookups() `EXTRACTED`
-- update_proxy_model_permissions() `EXTRACTED`
+- .test_expressions() `INFERRED`
+- .test_filtered_aggregates() `INFERRED`
+- .test_aggregate() `INFERRED`
+- ._filter_or_exclude() `EXTRACTED`
+- .test_case_aggregate() `INFERRED`
+- .test_geodetic_distance_lookups() `INFERRED`
+- .delete_batch() `EXTRACTED`
+- .test_partial_gin_index() `EXTRACTED`
+- .test_partial_gin_index_with_tablespace() `EXTRACTED`
+- .test_annotation_disjunction() `INFERRED`
+- .test_conditional_aggregate_on_complex_condition() `INFERRED`
+- .test_combined_q_object() `INFERRED`
+- .test_all_gis_lookups_with_rasters() `INFERRED`
+- .test_dwithin_gis_lookup_ouptut_with_rasters() `INFERRED`
 - .__init__() `EXTRACTED`
-- .test_annotation_disjunction() `EXTRACTED`
-- .test_conditional_aggregate_on_complex_condition() `EXTRACTED`
-- .test_filtered_aggregate_ref_subquery_annotation() `EXTRACTED`
-- .test_combined_q_object() `EXTRACTED`
-- .test_m2m_exclude() `EXTRACTED`
-- .test_m2m_reuse() `EXTRACTED`
+- .get_reverse_related_filter() `EXTRACTED`
+- .delete_qs() `EXTRACTED`
+- .test_multiple_conditions() `EXTRACTED`
+- update_proxy_model_permissions() `INFERRED`
+- .test_name_expressions() `INFERRED`
 
 ### contains
 - query_utils.py `EXTRACTED`
 
 ### imports
-- django/db/models/__init__.py `EXTRACTED`
-- queries/tests.py `EXTRACTED`
 - expressions.py `EXTRACTED`
-- expressions/tests.py `EXTRACTED`
-- related.py `EXTRACTED`
 - models/query.py `EXTRACTED`
 - sql/query.py `EXTRACTED`
-- schema/tests.py `EXTRACTED`
-- postgres_tests/test_json.py `EXTRACTED`
-- expressions_window/tests.py `EXTRACTED`
-- generic_relations_regress/tests.py `EXTRACTED`
-- sql/compiler.py `EXTRACTED`
-- distapp/tests.py `EXTRACTED`
-- aggregation_regress/tests.py `EXTRACTED`
-- postgres_tests/test_indexes.py `EXTRACTED`
-- annotations/tests.py `EXTRACTED`
-- generic_relations/tests.py `EXTRACTED`
-- test_query.py `EXTRACTED`
-- test_rasterfield.py `EXTRACTED`
-- related_descriptors.py `EXTRACTED`
+- test_indexes.py `EXTRACTED`
+- indexes/tests.py `EXTRACTED`
+- model_indexes/tests.py `EXTRACTED`
+- subqueries.py `EXTRACTED`
+- models/indexes.py `EXTRACTED`
+- constraints.py `EXTRACTED`
 
 ### method
 - ._combine() `EXTRACTED`
 - .__init__() `EXTRACTED`
 - .__or__() `EXTRACTED`
 - .__and__() `EXTRACTED`
+- .__invert__() `EXTRACTED`
 - .resolve_expression() `EXTRACTED`
 - .deconstruct() `EXTRACTED`
-- .__invert__() `EXTRACTED`
 
 ### rationale_for
 - Encapsulate filters as objects that can then be combined logically (using `&`… `EXTRACTED`
 
 ### uses
-- Query `INFERRED`
 - When `INFERRED`
+- Query `INFERRED`
 - QuerySet `INFERRED`
-- Combinable `INFERRED`
 - Index `INFERRED`
+- SchemaTests `INFERRED`
+- SimpleIndexesTests `INFERRED`
 - UniqueConstraint `INFERRED`
+- SchemaIndexesPostgreSQLTests `INFERRED`
 - UpdateQuery `INFERRED`
-- SQLDeleteCompiler `INFERRED`
+- PartialIndexTests `INFERRED`
 - DeleteQuery `INFERRED`
+- PartialIndexConditionIgnoredTests `INFERRED`
 
 ---
 

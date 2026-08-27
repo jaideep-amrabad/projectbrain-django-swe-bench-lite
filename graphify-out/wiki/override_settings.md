@@ -1,8 +1,8 @@
 # override_settings
 
-> God node · 1259 connections · `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+> God node · 1204 connections · `raw/code/hyd-evaluation/django-django/django/test/utils.py`
 
-**Community:** [Community 8](Community_8.md)
+**Community:** [Community 13](Community_13.md)
 
 ## Connections by Relation
 
@@ -34,24 +34,24 @@
 ### imports
 - django/test/__init__.py `EXTRACTED`
 - template_tests/utils.py `EXTRACTED`
-- i18n/tests.py `EXTRACTED`
 - admin_changelist/tests.py `EXTRACTED`
+- i18n/tests.py `EXTRACTED`
 - testcases.py `EXTRACTED`
 - cache/tests.py `EXTRACTED`
 - auth_tests/test_views.py `EXTRACTED`
 - test_utils/tests.py `EXTRACTED`
-- test_auth_backends.py `EXTRACTED`
-- test_debug.py `EXTRACTED`
-- admin_filters/tests.py `EXTRACTED`
 - admin_widgets/tests.py `EXTRACTED`
-- test_array.py `EXTRACTED`
+- admin_filters/tests.py `EXTRACTED`
+- test_auth_backends.py `EXTRACTED`
 - urlpatterns_reverse/tests.py `EXTRACTED`
 - admin_inlines/tests.py `EXTRACTED`
-- admin_scripts/tests.py `EXTRACTED`
 - fixtures_regress/tests.py `EXTRACTED`
+- admin_scripts/tests.py `EXTRACTED`
 - prefetch_related/tests.py `EXTRACTED`
 - test_client_regress/tests.py `EXTRACTED`
+- auth_tests/test_forms.py `EXTRACTED`
 - sessions_tests/tests.py `EXTRACTED`
+- test_debug.py `EXTRACTED`
 
 ### inherits
 - modify_settings `EXTRACTED`
@@ -74,21 +74,21 @@
 - SystemChecksTestCase `EXTRACTED`
 - TestInline `EXTRACTED`
 - UrlTagTests `EXTRACTED`
-- DateFunctionTests `EXTRACTED`
 - AdminActionsTest `EXTRACTED`
-- CreatesuperuserManagementCommandTestCase `EXTRACTED`
-- NewDatabaseTests `EXTRACTED`
+- DateFunctionTests `EXTRACTED`
 - ListViewTests `EXTRACTED`
 - CommonMiddlewareTest `EXTRACTED`
+- NewDatabaseTests `EXTRACTED`
 - DetailViewTest `EXTRACTED`
+- CreatesuperuserManagementCommandTestCase `EXTRACTED`
 - CollectionTestCase `EXTRACTED`
-- SyndicationFeedTest `EXTRACTED`
-- CommandTests `EXTRACTED`
 - TestUtilsHashPass `EXTRACTED`
 - ConditionalGet `EXTRACTED`
+- SyndicationFeedTest `EXTRACTED`
 - FileUploadTests `EXTRACTED`
-- ConditionalGetMiddlewareTest `EXTRACTED`
+- CommandTests `EXTRACTED`
 - DummyCacheTests `EXTRACTED`
+- ConditionalGetMiddlewareTest `EXTRACTED`
 
 ---
 

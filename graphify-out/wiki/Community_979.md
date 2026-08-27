@@ -1,29 +1,24 @@
 # Community 979
 
-> 4 nodes · cohesion 0.50
+> 2 nodes · cohesion 1.00
 
 ## Key Concepts
 
-- **Parent** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **ParentAdmin** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- **.clean()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
-- **.save_related()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
+- **timeparse.test.js** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/admin/timeparse.test.js`
+- **time()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/admin/timeparse.test.js`
 
 ## Relationships
 
-- [Community 74](Community_74.md) (2 shared connections)
-- [Community 102](Community_102.md) (1 shared connections)
-- [Community 21](Community_21.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/admin.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_views/models.py`
+- `raw/code/hyd-evaluation/django-django/js_tests/admin/timeparse.test.js`
 
 ## Audit Trail
 
-- EXTRACTED: 6 (86%)
-- INFERRED: 1 (14%)
+- EXTRACTED: 1 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---
