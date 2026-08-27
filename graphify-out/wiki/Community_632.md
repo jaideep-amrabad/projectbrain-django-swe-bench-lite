@@ -1,42 +1,60 @@
 # Community 632
 
-> 15 nodes · cohesion 0.19
+> 39 nodes · cohesion 0.09
 
 ## Key Concepts
 
-- **ManagementUtility** (10 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **get_commands()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **.execute()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **.fetch_command()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **load_command_class()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **.autocomplete()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **.main_help_text()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **Encapsulate the logic of the django-admin and manage.py utilities.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **Return the script's main help text, as a string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **Try to fetch the given subcommand, printing a message with the appropriate…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **Output completion suggestions for BASH. The output of this function is passed…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **Given a command name and an application name, return the Command class…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **Given the command-line arguments, figure out which subcommand is being run,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
-- **Return a dictionary mapping command names to their callback applications. Look…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- **django/db/models/lookups.py** (81 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **UUIDTextMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **empty_join.py** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **StartsWithRelation** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **PatternLookup** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **StartsWith** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **Contains** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **EndsWith** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **IExact** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **IntegerFieldFloatRounding** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **Regex** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **IContains** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **IEndsWith** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **IntegerGreaterThanOrEqual** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **IntegerLessThan** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **IStartsWith** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **UUIDContains** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **UUIDEndsWith** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **UUIDIContains** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **UUIDIEndsWith** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **UUIDIExact** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **UUIDIStartsWith** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **UUIDStartsWith** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **BrokenContainsRelation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- **CustomForeignObjectRel** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (8 shared connections)
-- [Community 10](Community_10.md) (2 shared connections)
-- [Community 9](Community_9.md) (1 shared connections)
-- [Community 207](Community_207.md) (1 shared connections)
-- [Community 512](Community_512.md) (1 shared connections)
-- [Community 368](Community_368.md) (1 shared connections)
+- [Community 92](Community_92.md) (23 shared connections)
+- [Community 162](Community_162.md) (19 shared connections)
+- [Community 3](Community_3.md) (8 shared connections)
+- [Community 383](Community_383.md) (8 shared connections)
+- [Community 5](Community_5.md) (6 shared connections)
+- [Community 43](Community_43.md) (4 shared connections)
+- [Community 60](Community_60.md) (3 shared connections)
+- [Community 47](Community_47.md) (2 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 46](Community_46.md) (2 shared connections)
+- [Community 389](Community_389.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- `raw/code/hyd-evaluation/django-django/tests/foreign_object/models/empty_join.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (97%)
-- INFERRED: 1 (3%)
+- EXTRACTED: 161 (99%)
+- INFERRED: 1 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

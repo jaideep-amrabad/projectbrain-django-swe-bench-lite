@@ -4,21 +4,20 @@
 
 ## Key Concepts
 
-- **.test_inheritance_28()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Set up a base template with a space in it.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_fk_to_m2m_through()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- **If an M2M relationship has an explicitly-specified through model, and some…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
 
 ## Relationships
 
-- [Community 773](Community_773.md) (1 shared connections)
-- [Community 805](Community_805.md) (1 shared connections)
+- [Community 122](Community_122.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 3 (100%)
+- EXTRACTED: 2 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

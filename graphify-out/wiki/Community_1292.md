@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **admin_registration/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_registration/__init__.py`
+- **nav_sidebar.js** (0 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/nav_sidebar.js`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_registration/__init__.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/static/admin/js/nav_sidebar.js`
 
 ## Audit Trail
 

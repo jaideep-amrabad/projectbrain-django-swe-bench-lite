@@ -1,46 +1,36 @@
 # Community 650
 
-> 18 nodes · cohesion 0.14
+> 14 nodes · cohesion 0.19
 
 ## Key Concepts
 
-- **template.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/template.py`
-- **templatize()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/template.py`
-- **Lexer** (8 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.create_token()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **DebugLexer** (4 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **TranslatorCommentWarning** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **.tokenize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **.tokenize()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **trim_whitespace()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **blankout()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/template.py`
-- **templatize()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **Return a list of tokens from a given template_string.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **Convert the given token string into a new Token object and return it. If in_tag…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **Split a template string into tokens and annotates each token with its start and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- **Change every non-whitespace character to the given char. Used in the templatize…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/template.py`
-- **Turn a Django template into something that is understood by xgettext. It does…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/translation/template.py`
-- **SyntaxWarning** (1 connections)
+- **Command** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **.handle_inspection()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **Command** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/inspectdb.py`
+- **.get_field_type()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **.get_meta()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **.handle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **.normalize_col_name()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **gis/management/commands/inspectdb.py** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/inspectdb.py`
+- **InspectDBCommand** (1 connections)
+- **.get_field_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/inspectdb.py`
+- **.add_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **Modify the column name to make it Python-compatible as a field name** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **Given the database connection, the table name, and the cursor row description,…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
+- **Return a sequence comprising the lines of code necessary to construct the inner…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
 
 ## Relationships
 
-- [Community 2](Community_2.md) (6 shared connections)
-- [Community 0](Community_0.md) (5 shared connections)
-- [Community 490](Community_490.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 326](Community_326.md) (1 shared connections)
+- [Community 6](Community_6.md) (3 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/template/base.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/utils/translation/template.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/gis/management/commands/inspectdb.py`
+- `raw/code/hyd-evaluation/django-django/django/core/management/commands/inspectdb.py`
 
 ## Audit Trail
 
-- EXTRACTED: 39 (100%)
+- EXTRACTED: 20 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,16 +4,16 @@
 
 ## Key Concepts
 
-- **.total_unique_constraints()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **Return a list of total unique constraints. Useful for determining set of fields…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.page_range()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
+- **Return a 1-based range of pages for iterating through within a template for…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
 
 ## Relationships
 
-- [Community 588](Community_588.md) (1 shared connections)
+- [Community 477](Community_477.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
 
 ## Audit Trail
 

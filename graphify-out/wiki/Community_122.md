@@ -1,64 +1,60 @@
 # Community 122
 
-> 71 nodes · cohesion 0.05
+> 34 nodes · cohesion 0.15
 
 ## Key Concepts
 
-- **ExclusionConstraint** (31 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- **ExclusionConstraintTests** (23 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **test_constraints.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **BaseConstraint** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **CheckConstraint** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **UniqueConstraint** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **models/constraints.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **postgres/constraints.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- **.get_constraints()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **._test_range_overlaps()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **SchemaTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.constraint_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- **._get_condition_sql()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **BaseConstraintTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- **HotelReservation** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- **.test_range_overlaps_custom()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_check_constraint_daterange_contains()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_check_constraint_datetimerange_contains()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_remove_field_check_does_not_remove_meta_constraints()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
-- **.create_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- **._get_check_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- **.test_deferrable_with_condition()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_eq()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_repr()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- **.test_check_constraint_range_value()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- *... and 46 more nodes in this community*
+- **delete_regress/tests.py** (44 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- **delete_regress/models.py** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **DeleteCascadeTests** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- **DeleteCascadeTransactionTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- **DeleteTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- **Image** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **FooFileProxy** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **Photo** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **Award** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **Book** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **Contact** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **Email** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **File** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **Meta** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **OrderedPerson** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **Person** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **Researcher** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **LargeDeleteTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
+- **AwardNote** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **Child** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **Eaten** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **Food** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **House** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **Item** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- **Location** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- *... and 9 more nodes in this community*
 
 ## Relationships
 
-- [Community 113](Community_113.md) (14 shared connections)
-- [Community 29](Community_29.md) (12 shared connections)
-- [Community 21](Community_21.md) (7 shared connections)
-- [Community 167](Community_167.md) (7 shared connections)
-- [Community 2](Community_2.md) (6 shared connections)
-- [Community 12](Community_12.md) (5 shared connections)
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 35](Community_35.md) (4 shared connections)
-- [Community 14](Community_14.md) (3 shared connections)
-- [Community 15](Community_15.md) (3 shared connections)
-- [Community 351](Community_351.md) (3 shared connections)
-- [Community 119](Community_119.md) (1 shared connections)
+- [Community 703](Community_703.md) (13 shared connections)
+- [Community 5](Community_5.md) (7 shared connections)
+- [Community 95](Community_95.md) (4 shared connections)
+- [Community 29](Community_29.md) (4 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 1](Community_1.md) (3 shared connections)
+- [Community 1084](Community_1084.md) (2 shared connections)
+- [Community 23](Community_23.md) (2 shared connections)
+- [Community 12](Community_12.md) (1 shared connections)
+- [Community 1174](Community_1174.md) (1 shared connections)
+- [Community 1173](Community_1173.md) (1 shared connections)
+- [Community 1175](Community_1175.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/constraints.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/constraints.py`
-- `raw/code/hyd-evaluation/django-django/tests/constraints/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_constraints.py`
-- `raw/code/hyd-evaluation/django-django/tests/schema/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete_regress/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/delete_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 182 (92%)
-- INFERRED: 16 (8%)
+- EXTRACTED: 100 (78%)
+- INFERRED: 29 (22%)
 - AMBIGUOUS: 0 (0%)
 
 ---

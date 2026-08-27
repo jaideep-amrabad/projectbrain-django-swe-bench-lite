@@ -1,55 +1,49 @@
 # Community 568
 
-> 21 nodes · cohesion 0.13
+> 23 nodes · cohesion 0.11
 
 ## Key Concepts
 
-- **test_ordinary_fields.py** (36 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **now()** (16 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **DateFieldTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **DateTimeFieldTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **TimeFieldTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_fix_default_value()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **FilePathFieldTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **GenericIPAddressFieldTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **ImageFieldTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **IntegerFieldTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_fix_default_value_tz()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_fix_default_value_tz()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_fix_default_value_tz()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_auto_now_and_auto_now_add_raise_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_fix_default_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_fix_default_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **Return an aware or naive datetime.datetime, depending on settings.USE_TZ.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- **.test_forbidden_files_and_folders()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_non_nullable_blank()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_pillow_installed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
-- **.test_max_length_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- **.initial_form_count()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.total_form_count()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.is_valid()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.deleted_forms()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.management_form()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.ordered_forms()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **._should_delete_form()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **ManagementForm** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.cleaned_data()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.extra_forms()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.initial_forms()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.__init__()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **Return the total number of forms in this FormSet.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **Return the number of forms that are required in this FormSet.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **Return a list of all the initial forms in this formset.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **Return a list of all the extra forms in this formset.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **Return a list of form.cleaned_data dicts for every form in self.forms.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **Return a list of forms that have been marked for deletion.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **Return a list of form in the order specified by the incoming data. Raise an…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **Keep track of how many form instances are displayed on the page. If adding new…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **Return whether or not the form was marked for deletion.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **Return True if every form in self.forms is valid.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **Return the ManagementForm instance for this FormSet.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
 
 ## Relationships
 
-- [Community 77](Community_77.md) (13 shared connections)
-- [Community 0](Community_0.md) (9 shared connections)
-- [Community 1](Community_1.md) (4 shared connections)
-- [Community 7](Community_7.md) (4 shared connections)
-- [Community 2](Community_2.md) (3 shared connections)
-- [Community 148](Community_148.md) (3 shared connections)
-- [Community 6](Community_6.md) (2 shared connections)
-- [Community 15](Community_15.md) (2 shared connections)
-- [Community 65](Community_65.md) (2 shared connections)
-- [Community 14](Community_14.md) (2 shared connections)
-- [Community 176](Community_176.md) (1 shared connections)
-- [Community 538](Community_538.md) (1 shared connections)
+- [Community 126](Community_126.md) (14 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 1108](Community_1108.md) (1 shared connections)
+- [Community 454](Community_454.md) (1 shared connections)
+- [Community 411](Community_411.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/utils/timezone.py`
-- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/test_ordinary_fields.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
 
 ## Audit Trail
 
-- EXTRACTED: 76 (93%)
-- INFERRED: 6 (7%)
+- EXTRACTED: 51 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

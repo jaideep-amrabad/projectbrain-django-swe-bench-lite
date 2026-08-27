@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **~util.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_private/~util.py`
+- **deprecated_field_migrations/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/deprecated_field_migrations/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_private/~util.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/deprecated_field_migrations/__init__.py`
 
 ## Audit Trail
 

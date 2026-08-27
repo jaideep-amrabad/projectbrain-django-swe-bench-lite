@@ -1,15 +1,15 @@
 # call_command()
 
-> God node · 290 connections · `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+> God node · 289 connections · `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
 
-**Community:** [Community 10](Community_10.md)
+**Community:** [Community 14](Community_14.md)
 
 ## Connections by Relation
 
 ### calls
 - CommandError `EXTRACTED`
-- .setUpClass() `EXTRACTED`
 - .create_test_db() `EXTRACTED`
+- .setUpClass() `EXTRACTED`
 - .get_actions() `INFERRED`
 - get_commands() `EXTRACTED`
 - .test_include_partitions() `EXTRACTED`

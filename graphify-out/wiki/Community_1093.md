@@ -4,20 +4,20 @@
 
 ## Key Concepts
 
-- **.setup_proxy()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **Do the internal setup so that the current model is a proxy for "target".** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **compress.py** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/bin/compress.py`
+- **main()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/bin/compress.py`
 
 ## Relationships
 
-- [Community 588](Community_588.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/bin/compress.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 1 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
