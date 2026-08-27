@@ -6,7 +6,6 @@ from django.utils.functional import cached_property
 
 class DatabaseFeatures(BaseDatabaseFeatures):
     empty_fetchmany_value = ()
-    update_can_self_select = False
     allows_group_by_pk = True
     related_fields_match_type = True
     # MySQL doesn't support sliced subqueries with IN/ALL/ANY/SOME.
@@ -49,8 +48,6 @@ class DatabaseFeatures(BaseDatabaseFeatures):
         END;
     """
     db_functions_convert_bytes_to_str = True
-    # Alias MySQL's TRADITIONAL to TEXT for consistency with other backends.
-    supported_explain_formats = {'JSON', 'TEXT', 'TRADITIONAL'}
     # Neither MySQL nor MariaDB support partial indexes.
     supports_partial_indexes = False
 
@@ -61,6 +58,10 @@ class DatabaseFeatures(BaseDatabaseFeatures):
             cursor.execute("SELECT ENGINE FROM INFORMATION_SCHEMA.ENGINES WHERE SUPPORT = 'DEFAULT'")
             result = cursor.fetchone()
         return result[0]
+
+    @cached_property
+    def update_can_self_select(self):
+        return self.connection.mysql_is_mariadb and self.connection.mysql_version >= (10, 3, 2)
 
     @cached_property
     def can_introspect_foreign_keys(self):
@@ -85,7 +86,7 @@ class DatabaseFeatures(BaseDatabaseFeatures):
     @cached_property
     def supports_over_clause(self):
         if self.connection.mysql_is_mariadb:
-            return self.connection.mysql_version >= (10, 2)
+            return True
         return self.connection.mysql_version >= (8, 0, 2)
 
     supports_frame_range_fixed_distance = property(operator.attrgetter('supports_over_clause'))
@@ -115,6 +116,19 @@ class DatabaseFeatures(BaseDatabaseFeatures):
     def needs_explain_extended(self):
         # EXTENDED is deprecated (and not required) in MySQL 5.7.
         return not self.connection.mysql_is_mariadb and self.connection.mysql_version < (5, 7)
+
+    @cached_property
+    def supports_explain_analyze(self):
+        return self.connection.mysql_is_mariadb or self.connection.mysql_version >= (8, 0, 18)
+
+    @cached_property
+    def supported_explain_formats(self):
+        # Alias MySQL's TRADITIONAL to TEXT for consistency with other
+        # backends.
+        formats = {'JSON', 'TEXT', 'TRADITIONAL'}
+        if not self.connection.mysql_is_mariadb and self.connection.mysql_version >= (8, 0, 16):
+            formats.add('TREE')
+        return formats
 
     @cached_property
     def supports_transactions(self):
