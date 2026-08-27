@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **actions.test.js** (0 connections) — `raw/code/hyd-evaluation/django-django/js_tests/admin/actions.test.js`
+- **geo3d/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/js_tests/admin/actions.test.js`
+- `raw/code/hyd-evaluation/django-django/tests/gis_tests/geo3d/__init__.py`
 
 ## Audit Trail
 

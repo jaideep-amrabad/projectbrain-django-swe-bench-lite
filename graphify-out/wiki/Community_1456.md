@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **db_utils/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/db_utils/__init__.py`
+- **migrated_unapplied_app/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/migrated_unapplied_app/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/db_utils/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/migrations_test_apps/migrated_unapplied_app/__init__.py`
 
 ## Audit Trail
 

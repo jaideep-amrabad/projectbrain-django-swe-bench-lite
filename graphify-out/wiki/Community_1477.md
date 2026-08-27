@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **file_storage/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/__init__.py`
+- **test_migrations_clashing_prefix/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_clashing_prefix/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/file_storage/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/migrations/test_migrations_clashing_prefix/__init__.py`
 
 ## Audit Trail
 
