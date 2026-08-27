@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **inlines.test.js** (0 connections) — `raw/code/hyd-evaluation/django-django/js_tests/admin/inlines.test.js`
+- **admin_autodiscover/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_autodiscover/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/js_tests/admin/inlines.test.js`
+- `raw/code/hyd-evaluation/django-django/tests/admin_autodiscover/__init__.py`
 
 ## Audit Trail
 

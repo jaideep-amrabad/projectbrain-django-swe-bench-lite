@@ -4,27 +4,28 @@
 
 ## Key Concepts
 
-- **QuerySetBitwiseOperationTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.setUpTestData()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_or_with_both_slice()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_or_with_both_slice_and_ordering()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_or_with_lhs_slice()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
-- **.test_or_with_rhs_slice()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- **DefaultHashingAlgorithmDeprecationTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_default_hashing_algorithm.py`
+- **.test_settings_init_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_default_hashing_algorithm.py`
+- **.test_system_check_invalid_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_default_hashing_algorithm.py`
+- **.test_system_check_valid_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_default_hashing_algorithm.py`
+- **.test_access()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_default_hashing_algorithm.py`
+- **.test_override_settings_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_default_hashing_algorithm.py`
 
 ## Relationships
 
-- [Community 113](Community_113.md) (3 shared connections)
-- [Community 22](Community_22.md) (1 shared connections)
-- [Community 35](Community_35.md) (1 shared connections)
+- [Community 12](Community_12.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
+- [Community 32](Community_32.md) (1 shared connections)
+- [Community 468](Community_468.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/queries/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_default_hashing_algorithm.py`
 
 ## Audit Trail
 
-- EXTRACTED: 8 (80%)
-- INFERRED: 2 (20%)
+- EXTRACTED: 10 (91%)
+- INFERRED: 1 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

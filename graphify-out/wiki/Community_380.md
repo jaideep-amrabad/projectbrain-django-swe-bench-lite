@@ -1,6 +1,6 @@
 # Community 380
 
-> 100 nodes · cohesion 0.03
+> 97 nodes · cohesion 0.03
 
 ## Key Concepts
 
@@ -17,7 +17,6 @@
 - **postgres/forms/__init__.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/__init__.py`
 - **TestFormField** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
 - **DeprecationTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_json_deprecation.py`
-- **CheckFieldDefaultMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
 - **KeyTransform** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
 - **SimpleTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
 - **KeyTextTransform** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
@@ -29,22 +28,23 @@
 - **KeysTransform** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
 - **KeyTransformFactory** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
 - **ValuesTransform** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
-- *... and 75 more nodes in this community*
+- **TestValidation** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
+- *... and 72 more nodes in this community*
 
 ## Relationships
 
-- [Community 38](Community_38.md) (32 shared connections)
-- [Community 2](Community_2.md) (16 shared connections)
-- [Community 14](Community_14.md) (14 shared connections)
-- [Community 199](Community_199.md) (9 shared connections)
-- [Community 3](Community_3.md) (8 shared connections)
-- [Community 87](Community_87.md) (8 shared connections)
-- [Community 59](Community_59.md) (6 shared connections)
-- [Community 211](Community_211.md) (6 shared connections)
-- [Community 157](Community_157.md) (5 shared connections)
-- [Community 95](Community_95.md) (5 shared connections)
-- [Community 1](Community_1.md) (5 shared connections)
-- [Community 26](Community_26.md) (4 shared connections)
+- [Community 56](Community_56.md) (32 shared connections)
+- [Community 3](Community_3.md) (15 shared connections)
+- [Community 20](Community_20.md) (14 shared connections)
+- [Community 117](Community_117.md) (8 shared connections)
+- [Community 12](Community_12.md) (8 shared connections)
+- [Community 86](Community_86.md) (8 shared connections)
+- [Community 69](Community_69.md) (6 shared connections)
+- [Community 359](Community_359.md) (6 shared connections)
+- [Community 92](Community_92.md) (5 shared connections)
+- [Community 0](Community_0.md) (5 shared connections)
+- [Community 158](Community_158.md) (4 shared connections)
+- [Community 23](Community_23.md) (4 shared connections)
 
 ## Source Files
 
@@ -53,7 +53,6 @@
 - `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/hstore.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/postgres/fields/jsonb.py`
 - `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/db/models/fields/mixins.py`
 - `raw/code/hyd-evaluation/django-django/tests/postgres_tests/__init__.py`
 - `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
 - `raw/code/hyd-evaluation/django-django/tests/postgres_tests/test_hstore.py`
@@ -63,7 +62,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 292 (94%)
+- EXTRACTED: 284 (94%)
 - INFERRED: 19 (6%)
 - AMBIGUOUS: 0 (0%)
 

@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **tests/test_sqlite.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/test_sqlite.py`
+- **translations/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/translations/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/test_sqlite.py`
+- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/translations/__init__.py`
 
 ## Audit Trail
 

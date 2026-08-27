@@ -4,27 +4,26 @@
 
 ## Key Concepts
 
-- **DefaultHashingAlgorithmDeprecationTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_default_hashing_algorithm.py`
-- **.test_settings_init_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_default_hashing_algorithm.py`
-- **.test_system_check_invalid_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_default_hashing_algorithm.py`
-- **.test_system_check_valid_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_default_hashing_algorithm.py`
-- **.test_access()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_default_hashing_algorithm.py`
-- **.test_override_settings_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/deprecation/test_default_hashing_algorithm.py`
+- **BooleanFieldTest** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_booleanfield.py`
+- **.test_boolean_picklable()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_booleanfield.py`
+- **.test_booleanfield_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_booleanfield.py`
+- **.test_booleanfield_clean_1()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_booleanfield.py`
+- **.test_booleanfield_clean_2()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_booleanfield.py`
+- **.test_disabled_has_changed()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_booleanfield.py`
 
 ## Relationships
 
-- [Community 3](Community_3.md) (4 shared connections)
-- [Community 35](Community_35.md) (1 shared connections)
-- [Community 469](Community_469.md) (1 shared connections)
+- [Community 20](Community_20.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/deprecation/test_default_hashing_algorithm.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/field_tests/test_booleanfield.py`
 
 ## Audit Trail
 
-- EXTRACTED: 10 (91%)
-- INFERRED: 1 (9%)
+- EXTRACTED: 7 (100%)
+- INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
 ---

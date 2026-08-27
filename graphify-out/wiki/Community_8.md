@@ -1,6 +1,6 @@
 # Community 8
 
-> 275 nodes · cohesion 0.01
+> 272 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **PoFileTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/test_compilation.py`
 - **.test_migrate_syncdb_deferred_sql_executed_with_schemaeditor()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_commands.py`
 - **.test_runner_addrport_ipv6()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/tests.py`
-- *... and 250 more nodes in this community*
+- *... and 247 more nodes in this community*
 
 ## Relationships
 
-- [Community 6](Community_6.md) (57 shared connections)
-- [Community 91](Community_91.md) (29 shared connections)
-- [Community 69](Community_69.md) (20 shared connections)
-- [Community 279](Community_279.md) (19 shared connections)
-- [Community 24](Community_24.md) (16 shared connections)
-- [Community 436](Community_436.md) (14 shared connections)
-- [Community 1](Community_1.md) (14 shared connections)
-- [Community 48](Community_48.md) (11 shared connections)
-- [Community 2](Community_2.md) (11 shared connections)
-- [Community 0](Community_0.md) (9 shared connections)
-- [Community 479](Community_479.md) (7 shared connections)
-- [Community 537](Community_537.md) (6 shared connections)
+- [Community 6](Community_6.md) (56 shared connections)
+- [Community 74](Community_74.md) (21 shared connections)
+- [Community 89](Community_89.md) (19 shared connections)
+- [Community 283](Community_283.md) (19 shared connections)
+- [Community 21](Community_21.md) (16 shared connections)
+- [Community 427](Community_427.md) (14 shared connections)
+- [Community 0](Community_0.md) (14 shared connections)
+- [Community 3](Community_3.md) (13 shared connections)
+- [Community 51](Community_51.md) (11 shared connections)
+- [Community 506](Community_506.md) (10 shared connections)
+- [Community 2](Community_2.md) (9 shared connections)
+- [Community 478](Community_478.md) (7 shared connections)
 
 ## Source Files
 
@@ -68,8 +68,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 704 (98%)
-- INFERRED: 16 (2%)
+- EXTRACTED: 702 (98%)
+- INFERRED: 14 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---
