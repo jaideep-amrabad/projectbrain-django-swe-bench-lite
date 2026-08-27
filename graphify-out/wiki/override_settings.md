@@ -1,6 +1,6 @@
 # override_settings
 
-> God node · 1300 connections · `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+> God node · 1302 connections · `raw/code/hyd-evaluation/django-django/django/test/utils.py`
 
 **Community:** [Community 8](Community_8.md)
 
@@ -36,17 +36,17 @@
 - template_tests/utils.py `EXTRACTED`
 - i18n/tests.py `EXTRACTED`
 - admin_changelist/tests.py `EXTRACTED`
-- cache/tests.py `EXTRACTED`
 - testcases.py `EXTRACTED`
+- cache/tests.py `EXTRACTED`
 - auth_tests/test_views.py `EXTRACTED`
 - test_utils/tests.py `EXTRACTED`
 - test_auth_backends.py `EXTRACTED`
+- admin_widgets/tests.py `EXTRACTED`
 - test_debug.py `EXTRACTED`
 - admin_filters/tests.py `EXTRACTED`
-- admin_widgets/tests.py `EXTRACTED`
+- admin_scripts/tests.py `EXTRACTED`
 - urlpatterns_reverse/tests.py `EXTRACTED`
 - admin_inlines/tests.py `EXTRACTED`
-- admin_scripts/tests.py `EXTRACTED`
 - test_array.py `EXTRACTED`
 - prefetch_related/tests.py `EXTRACTED`
 - fixtures_regress/tests.py `EXTRACTED`
@@ -81,11 +81,11 @@
 - ListViewTests `EXTRACTED`
 - CommonMiddlewareTest `EXTRACTED`
 - DetailViewTest `EXTRACTED`
+- CommandTests `EXTRACTED`
 - TestUtilsHashPass `EXTRACTED`
 - CollectionTestCase `EXTRACTED`
 - FileUploadTests `EXTRACTED`
 - SyndicationFeedTest `EXTRACTED`
-- CommandTests `EXTRACTED`
 - ConditionalGet `EXTRACTED`
 - ConditionalGetMiddlewareTest `EXTRACTED`
 - DummyCacheTests `EXTRACTED`
