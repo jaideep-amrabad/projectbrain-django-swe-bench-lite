@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **integration_settings.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/integration_settings.py`
+- **mutually_referential/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/mutually_referential/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/postgres_tests/integration_settings.py`
+- `raw/code/hyd-evaluation/django-django/tests/mutually_referential/__init__.py`
 
 ## Audit Trail
 

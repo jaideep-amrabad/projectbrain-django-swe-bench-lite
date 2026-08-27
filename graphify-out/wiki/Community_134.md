@@ -1,10 +1,11 @@
 # Community 134
 
-> 51 nodes · cohesion 0.07
+> 69 nodes · cohesion 0.05
 
 ## Key Concepts
 
 - **fields/json.py** (51 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **JSONField** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
 - **KeyTransformTextLookupMixin** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
 - **CaseInsensitiveMixin** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
 - **HasKeyLookup** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
@@ -15,36 +16,35 @@
 - **KeyTransformNumericLookupMixin** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
 - **HasKey** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
 - **KeyTransformExact** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **KeyTransformFactory** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
 - **.as_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
 - **.as_sql()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
 - **HasKeys** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
 - **JSONExact** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
 - **.as_oracle()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
+- **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
 - **ContainedBy** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
 - **DataContains** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
 - **.process_lhs()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
 - **KeyTransformIContains** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
 - **KeyTransformIEndsWith** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
 - **KeyTransformIExact** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **KeyTransformIRegex** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **KeyTransformIsNull** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- **.as_oracle()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/fields/json.py`
-- *... and 26 more nodes in this community*
+- *... and 44 more nodes in this community*
 
 ## Relationships
 
-- [Community 35](Community_35.md) (12 shared connections)
-- [Community 0](Community_0.md) (8 shared connections)
-- [Community 7](Community_7.md) (5 shared connections)
-- [Community 111](Community_111.md) (4 shared connections)
-- [Community 116](Community_116.md) (4 shared connections)
-- [Community 120](Community_120.md) (1 shared connections)
-- [Community 47](Community_47.md) (1 shared connections)
-- [Community 31](Community_31.md) (1 shared connections)
-- [Community 67](Community_67.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 73](Community_73.md) (1 shared connections)
-- [Community 542](Community_542.md) (1 shared connections)
+- [Community 30](Community_30.md) (12 shared connections)
+- [Community 0](Community_0.md) (10 shared connections)
+- [Community 113](Community_113.md) (6 shared connections)
+- [Community 12](Community_12.md) (5 shared connections)
+- [Community 110](Community_110.md) (4 shared connections)
+- [Community 117](Community_117.md) (1 shared connections)
+- [Community 46](Community_46.md) (1 shared connections)
+- [Community 42](Community_42.md) (1 shared connections)
+- [Community 66](Community_66.md) (1 shared connections)
+- [Community 90](Community_90.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
+- [Community 482](Community_482.md) (1 shared connections)
 
 ## Source Files
 
@@ -53,8 +53,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 131 (98%)
-- INFERRED: 2 (2%)
+- EXTRACTED: 158 (99%)
+- INFERRED: 2 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---
