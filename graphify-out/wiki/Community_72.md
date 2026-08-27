@@ -1,50 +1,63 @@
 # Community 72
 
-> 16 nodes · cohesion 0.15
+> 118 nodes · cohesion 0.03
 
 ## Key Concepts
 
-- **split_domain_port()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **SiteManager** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
-- **.get_current()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
-- **.get_host()** (7 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **validate_host()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **.assertRedirects()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
-- **._get_site_by_request()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
-- **.clear_cache()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
-- **._get_site_by_id()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
-- **Return the current Site based on the SITE_ID in the project's settings. If…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
-- **Clear the ``Site`` object cache.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
-- **.get_by_natural_key()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
-- **Return the HTTP host using the environment or request headers.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **Return a (domain, port) tuple from a given host. Returned domain is lowercased.…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **Validate the given host for this site. Check that the host looks valid and…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- **Assert that a response redirected to a specific URL and that the redirect URL…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- **Window** (57 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **expressions_window/tests.py** (45 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
+- **WindowFunctionTests** (43 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
+- **window.py** (18 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
+- **WindowFrame** (17 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **ValueRange** (14 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **NonQueryWindowTests** (12 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
+- **Lead** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
+- **NthValue** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
+- **RowRange** (10 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- **ValidationTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/window/test_validation.py`
+- **DenseRank** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
+- **Lag** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
+- **Ntile** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
+- **test_validation.py** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/db_functions/window/test_validation.py`
+- **.test_invalid_filter()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
+- **Employee** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/models.py`
+- **FirstValue** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
+- **LagLeadFunction** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
+- **RowNumber** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
+- **.test_distinct_window_function()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
+- **.test_fail_insert()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
+- **.test_multiple_partitioning()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
+- **.test_postgresql_illegal_range_frame_end()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
+- **.test_postgresql_illegal_range_frame_start()** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
+- *... and 93 more nodes in this community*
 
 ## Relationships
 
-- [Community 16](Community_16.md) (4 shared connections)
-- [Community 53](Community_53.md) (4 shared connections)
-- [Community 9](Community_9.md) (2 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 1](Community_1.md) (2 shared connections)
-- [Community 0](Community_0.md) (1 shared connections)
-- [Community 134](Community_134.md) (1 shared connections)
-- [Community 108](Community_108.md) (1 shared connections)
-- [Community 89](Community_89.md) (1 shared connections)
-- [Community 82](Community_82.md) (1 shared connections)
-- [Community 304](Community_304.md) (1 shared connections)
+- [Community 34](Community_34.md) (34 shared connections)
+- [Community 49](Community_49.md) (29 shared connections)
+- [Community 0](Community_0.md) (24 shared connections)
+- [Community 80](Community_80.md) (19 shared connections)
+- [Community 7](Community_7.md) (10 shared connections)
+- [Community 55](Community_55.md) (8 shared connections)
+- [Community 70](Community_70.md) (6 shared connections)
+- [Community 100](Community_100.md) (6 shared connections)
+- [Community 37](Community_37.md) (5 shared connections)
+- [Community 26](Community_26.md) (4 shared connections)
+- [Community 2](Community_2.md) (3 shared connections)
+- [Community 154](Community_154.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/sites/models.py`
-- `raw/code/hyd-evaluation/django-django/django/http/request.py`
-- `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/expressions.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/functions/window.py`
+- `raw/code/hyd-evaluation/django-django/tests/db_functions/window/test_validation.py`
+- `raw/code/hyd-evaluation/django-django/tests/expressions_window/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/expressions_window/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 36 (95%)
-- INFERRED: 2 (5%)
+- EXTRACTED: 380 (99%)
+- INFERRED: 4 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

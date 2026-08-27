@@ -4,21 +4,22 @@
 
 ## Key Concepts
 
-- **.__iter__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
-- **Yield the forms in the order they should be rendered.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **.compiler()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
+- **Return the SQLCompiler class corresponding to the given name, in the namespace…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Relationships
 
-- [Community 142](Community_142.md) (1 shared connections)
+- [Community 155](Community_155.md) (1 shared connections)
+- [Community 555](Community_555.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- `raw/code/hyd-evaluation/django-django/django/db/backends/base/operations.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 2 (67%)
+- INFERRED: 1 (33%)
 - AMBIGUOUS: 0 (0%)
 
 ---

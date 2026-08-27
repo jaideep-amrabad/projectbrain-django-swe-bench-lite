@@ -1,6 +1,6 @@
 # Community 135
 
-> 67 nodes · cohesion 0.05
+> 70 nodes · cohesion 0.05
 
 ## Key Concepts
 
@@ -19,6 +19,7 @@
 - **.page()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
 - **Article** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/models.py`
 - **.check_paginator()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
+- **._check_object_list_is_ordered()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
 - **UnorderedObjectListWarning** (4 connections) — `raw/code/hyd-evaluation/django-django/django/core/paginator.py`
 - **.check_indexes()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
 - **.setUpTestData()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
@@ -28,23 +29,22 @@
 - **.test_get_page()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
 - **.test_get_page_empty_object_list()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
 - **.test_get_page_empty_object_list_and_allow_empty_first_page_false()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- **.test_get_page_hook()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/pagination/tests.py`
-- *... and 42 more nodes in this community*
+- *... and 45 more nodes in this community*
 
 ## Relationships
 
-- [Community 47](Community_47.md) (5 shared connections)
-- [Community 9](Community_9.md) (5 shared connections)
-- [Community 200](Community_200.md) (5 shared connections)
-- [Community 525](Community_525.md) (5 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
-- [Community 235](Community_235.md) (3 shared connections)
-- [Community 59](Community_59.md) (3 shared connections)
-- [Community 1](Community_1.md) (3 shared connections)
-- [Community 946](Community_946.md) (2 shared connections)
-- [Community 898](Community_898.md) (2 shared connections)
+- [Community 50](Community_50.md) (10 shared connections)
+- [Community 33](Community_33.md) (5 shared connections)
+- [Community 513](Community_513.md) (5 shared connections)
+- [Community 31](Community_31.md) (4 shared connections)
+- [Community 58](Community_58.md) (3 shared connections)
 - [Community 0](Community_0.md) (2 shared connections)
-- [Community 39](Community_39.md) (2 shared connections)
+- [Community 131](Community_131.md) (2 shared connections)
+- [Community 1](Community_1.md) (2 shared connections)
+- [Community 26](Community_26.md) (2 shared connections)
+- [Community 2](Community_2.md) (2 shared connections)
+- [Community 126](Community_126.md) (2 shared connections)
+- [Community 200](Community_200.md) (1 shared connections)
 
 ## Source Files
 
@@ -55,8 +55,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 148 (90%)
-- INFERRED: 17 (10%)
+- EXTRACTED: 150 (89%)
+- INFERRED: 18 (11%)
 - AMBIGUOUS: 0 (0%)
 
 ---

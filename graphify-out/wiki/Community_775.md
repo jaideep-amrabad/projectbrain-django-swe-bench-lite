@@ -1,33 +1,34 @@
 # Community 775
 
-> 9 nodes · cohesion 0.33
+> 10 nodes · cohesion 0.24
 
 ## Key Concepts
 
-- **forms/jsonb.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
-- **JSONField** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
-- **InvalidJSONInput** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
-- **.to_python()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
-- **JSONString** (3 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
-- **.bound_data()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
-- **.has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
-- **str** (2 connections)
-- **.prepare_value()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
+- **SendTestEmailManagementCommand** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_sendtestemail.py`
+- **The mail should be sent to the email addresses specified in settings.MANAGERS.** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_sendtestemail.py`
+- **.test_admin_receivers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_sendtestemail.py`
+- **.test_manager_and_admin_receivers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_sendtestemail.py`
+- **.test_manager_receivers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_sendtestemail.py`
+- **.test_multiple_receivers()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_sendtestemail.py`
+- **.test_single_receiver()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_sendtestemail.py`
+- **Test the sending of a test email using the `sendtestemail` command.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_sendtestemail.py`
+- **The mail is sent with the correct subject and recipient.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_sendtestemail.py`
+- **The mail may be sent with multiple recipients.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/mail/test_sendtestemail.py`
 
 ## Relationships
 
-- [Community 15](Community_15.md) (2 shared connections)
-- [Community 11](Community_11.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 16](Community_16.md) (1 shared connections)
+- [Community 28](Community_28.md) (5 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 27](Community_27.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/contrib/postgres/forms/jsonb.py`
+- `raw/code/hyd-evaluation/django-django/tests/mail/test_sendtestemail.py`
 
 ## Audit Trail
 
-- EXTRACTED: 17 (100%)
+- EXTRACTED: 19 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

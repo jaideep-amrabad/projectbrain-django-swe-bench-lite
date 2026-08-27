@@ -1,39 +1,44 @@
 # Community 580
 
-> 15 nodes · cohesion 0.13
+> 17 nodes · cohesion 0.13
 
 ## Key Concepts
 
-- **make_immutable_fields_list()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.get_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.concrete_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.local_concrete_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.many_to_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.related_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **.managers()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **Return a list of all forward fields on the model and its parents, excluding…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **Return a list of all concrete fields on the model and its parents. Private API…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **Return a list of all concrete fields on the model. Private API intended only to…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **Return a list of all many to many fields on the model and its parents. Private…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **Return all related objects pointing to the current model. The related objects…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **Return a list of fields associated to the model. By default, include forward…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
-- **Internal helper function to return fields of the model. * If forward=True, then…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **AssertContainsTests** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_assert_contains_renders_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_assert_contains_using_non_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_assert_not_contains_renders_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_assert_not_contains_using_non_template_response()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_contains()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_unicode_contains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_unicode_not_contains()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **An unrendered SimpleTemplateResponse may be used in assertContains().** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **auto-rendering does not affect responses that aren't instances (or subclasses)…** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_binary_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_binary_not_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_nontext_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **.test_nontext_not_contains()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Unicode characters can be found in template context** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Unicode characters can be searched for, and not found in template context** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
+- **Responses can be inspected for content, including counting repeated substrings** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Relationships
 
-- [Community 156](Community_156.md) (7 shared connections)
-- [Community 275](Community_275.md) (1 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
+- [Community 617](Community_617.md) (2 shared connections)
+- [Community 6](Community_6.md) (2 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 198](Community_198.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 114](Community_114.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- `raw/code/hyd-evaluation/django-django/tests/test_client_regress/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 23 (100%)
-- INFERRED: 0 (0%)
+- EXTRACTED: 25 (96%)
+- INFERRED: 1 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

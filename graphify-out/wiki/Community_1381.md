@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **m2o_recursive/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/__init__.py`
+- **invalid_models_tests/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/m2o_recursive/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/invalid_models_tests/__init__.py`
 
 ## Audit Trail
 

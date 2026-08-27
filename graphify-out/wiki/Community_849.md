@@ -1,32 +1,32 @@
 # Community 849
 
-> 7 nodes · cohesion 0.29
+> 7 nodes · cohesion 0.43
 
 ## Key Concepts
 
-- **TestEmptyFormSet** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_empty_formset_is_multipart()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_empty_formset_is_valid()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **.test_empty_formset_media()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **An empty formset still calls clean()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **Media is available on empty formset.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
-- **is_multipart() works with an empty formset.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- **InvalidQueryTests** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_deprecation.py`
+- **InvalidQuery** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- **.assert_warns()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_deprecation.py`
+- **.test_isinstance()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_deprecation.py`
+- **.test_issubclass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_deprecation.py`
+- **.test_type()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/queries/test_deprecation.py`
+- **Exception** (1 connections)
 
 ## Relationships
 
-- [Community 78](Community_78.md) (3 shared connections)
-- [Community 15](Community_15.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
-- [Community 142](Community_142.md) (1 shared connections)
+- [Community 7](Community_7.md) (3 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 62](Community_62.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_formsets.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/query_utils.py`
+- `raw/code/hyd-evaluation/django-django/tests/queries/test_deprecation.py`
 
 ## Audit Trail
 
-- EXTRACTED: 11 (92%)
-- INFERRED: 1 (8%)
+- EXTRACTED: 12 (86%)
+- INFERRED: 2 (14%)
 - AMBIGUOUS: 0 (0%)
 
 ---

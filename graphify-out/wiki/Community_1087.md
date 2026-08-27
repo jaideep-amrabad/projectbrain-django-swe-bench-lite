@@ -4,13 +4,13 @@
 
 ## Key Concepts
 
-- **.test_inheritance29()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
-- **Inheritance from a template with a space in its name should work.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **.test_inheritance14()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **A block defined only in a child template shouldn't be displayed** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
 
 ## Relationships
 
-- [Community 737](Community_737.md) (1 shared connections)
-- [Community 767](Community_767.md) (1 shared connections)
+- [Community 745](Community_745.md) (1 shared connections)
+- [Community 779](Community_779.md) (1 shared connections)
 
 ## Source Files
 

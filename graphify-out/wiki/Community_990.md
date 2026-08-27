@@ -4,20 +4,20 @@
 
 ## Key Concepts
 
-- **.has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
-- **Return True if data in any form differs from initial.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- **compress.py** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/bin/compress.py`
+- **main()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/bin/compress.py`
 
 ## Relationships
 
-- [Community 142](Community_142.md) (1 shared connections)
+- No strong cross-community connections detected
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/forms/formsets.py`
+- `raw/code/hyd-evaluation/django-django/django/contrib/admin/bin/compress.py`
 
 ## Audit Trail
 
-- EXTRACTED: 2 (100%)
+- EXTRACTED: 1 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 

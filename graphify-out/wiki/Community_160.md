@@ -1,69 +1,60 @@
 # Community 160
 
-> 81 nodes · cohesion 0.04
+> 60 nodes · cohesion 0.04
 
 ## Key Concepts
 
-- **File** (26 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
-- **uploadedfile.py** (26 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- **files/tests.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **files/base.py** (20 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
-- **TemporaryUploadedFile** (20 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- **InMemoryUploadedFile** (17 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- **model_fields/test_filefield.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
-- **UploadedFile** (15 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- **core/files/__init__.py** (14 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/__init__.py`
-- **temp.py** (12 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
-- **file_move_safe()** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/move.py`
-- **FileProxyMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
-- **cache/backends/filebased.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- **move.py** (9 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/move.py`
-- **images.py** (8 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
-- **.__iter__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
-- **.__init__()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- **.test_file_move_copystat_cifs()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **TemporaryUploadedFileTests** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- **endswith_cr()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
-- **endswith_lf()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
-- **equals_lf()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
-- **.chunks()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
-- **files/utils.py** (3 connections) — `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
-- **.test_save_doesnt_close()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- *... and 56 more nodes in this community*
+- **Options** (46 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **make_immutable_fields_list()** (9 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **._prepare()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.contribute_to_class()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.get_field()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.get_fields()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **camel_case_to_spaces()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/utils/text.py`
+- **.add_field()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.concrete_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **._expire_cache()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **._format_names_with_class()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.get_base_chain()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.get_path_to_parent()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.local_concrete_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.many_to_many()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **._populate_directed_relation_graph()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **._property_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.related_objects()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.setup_pk()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.swapped()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.verbose_name_raw()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.add_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.base_manager()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- **.can_migrate()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- *... and 35 more nodes in this community*
 
 ## Relationships
 
-- [Community 400](Community_400.md) (15 shared connections)
-- [Community 272](Community_272.md) (10 shared connections)
-- [Community 4](Community_4.md) (9 shared connections)
-- [Community 844](Community_844.md) (6 shared connections)
-- [Community 15](Community_15.md) (5 shared connections)
-- [Community 163](Community_163.md) (5 shared connections)
-- [Community 313](Community_313.md) (5 shared connections)
-- [Community 190](Community_190.md) (5 shared connections)
-- [Community 211](Community_211.md) (5 shared connections)
-- [Community 307](Community_307.md) (4 shared connections)
-- [Community 10](Community_10.md) (4 shared connections)
-- [Community 12](Community_12.md) (3 shared connections)
+- [Community 7](Community_7.md) (10 shared connections)
+- [Community 31](Community_31.md) (2 shared connections)
+- [Community 672](Community_672.md) (1 shared connections)
+- [Community 0](Community_0.md) (1 shared connections)
+- [Community 128](Community_128.md) (1 shared connections)
+- [Community 573](Community_573.md) (1 shared connections)
+- [Community 940](Community_940.md) (1 shared connections)
+- [Community 43](Community_43.md) (1 shared connections)
+- [Community 129](Community_129.md) (1 shared connections)
+- [Community 61](Community_61.md) (1 shared connections)
+- [Community 50](Community_50.md) (1 shared connections)
+- [Community 204](Community_204.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/core/cache/backends/filebased.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/base.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/images.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/move.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/temp.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/uploadedfile.py`
-- `raw/code/hyd-evaluation/django-django/django/core/files/utils.py`
-- `raw/code/hyd-evaluation/django-django/tests/file_storage/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/files/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/model_fields/test_filefield.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/options.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/text.py`
 
 ## Audit Trail
 
-- EXTRACTED: 217 (94%)
-- INFERRED: 14 (6%)
+- EXTRACTED: 93 (96%)
+- INFERRED: 4 (4%)
 - AMBIGUOUS: 0 (0%)
 
 ---

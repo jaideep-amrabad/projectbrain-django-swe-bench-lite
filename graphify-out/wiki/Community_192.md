@@ -1,63 +1,60 @@
 # Community 192
 
-> 54 nodes · cohesion 0.05
+> 41 nodes · cohesion 0.08
 
 ## Key Concepts
 
-- **resolve()** (44 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
-- **SimplifiedURLTests** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
-- **DynamicConverter** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
-- **ConversionExceptionTests** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
-- **LookaheadTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **ResolverMatchTests** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **ConverterTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
-- **SameNameTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
-- **empty_view()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/views.py`
-- **.test_404_tried_urls_have_names()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_non_regex()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_matching_urls()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
-- **.test_converter_resolve()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
-- **.test_converter_reverse()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
-- **.test_converter_reverse_with_second_layer_instance_namespace()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
-- **.regex()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
-- **.test_invalid_resolve()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_invalid_reverse()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_valid_resolve()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_valid_reverse()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_resolver_match_on_request_before_resolution()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_urlpattern_resolve()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **.test_resolve_type_error_propagates()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
-- **.test_resolve_value_error_means_no_match()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
-- *... and 29 more nodes in this community*
+- **django/db/models/lookups.py** (81 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **YearLookup** (13 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **UUIDTextMixin** (11 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **PatternLookup** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **StartsWith** (7 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **Contains** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **YearExact** (6 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **EndsWith** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **IExact** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **IntegerFieldFloatRounding** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **Regex** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **YearGt** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **YearGte** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **YearLt** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **YearLte** (5 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **.test_get_bound_params()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/lookup/test_lookups.py`
+- **IContains** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **IEndsWith** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **IntegerGreaterThanOrEqual** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **IntegerLessThan** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **IStartsWith** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **UUIDContains** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **UUIDEndsWith** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **UUIDIContains** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- **UUIDIEndsWith** (4 connections) — `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- *... and 16 more nodes in this community*
 
 ## Relationships
 
-- [Community 16](Community_16.md) (19 shared connections)
-- [Community 41](Community_41.md) (11 shared connections)
-- [Community 10](Community_10.md) (9 shared connections)
-- [Community 1](Community_1.md) (7 shared connections)
-- [Community 158](Community_158.md) (4 shared connections)
-- [Community 98](Community_98.md) (2 shared connections)
-- [Community 456](Community_456.md) (2 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
-- [Community 504](Community_504.md) (1 shared connections)
-- [Community 82](Community_82.md) (1 shared connections)
-- [Community 234](Community_234.md) (1 shared connections)
-- [Community 27](Community_27.md) (1 shared connections)
+- [Community 377](Community_377.md) (20 shared connections)
+- [Community 709](Community_709.md) (18 shared connections)
+- [Community 461](Community_461.md) (12 shared connections)
+- [Community 0](Community_0.md) (7 shared connections)
+- [Community 100](Community_100.md) (6 shared connections)
+- [Community 55](Community_55.md) (5 shared connections)
+- [Community 7](Community_7.md) (4 shared connections)
+- [Community 156](Community_156.md) (3 shared connections)
+- [Community 316](Community_316.md) (3 shared connections)
+- [Community 62](Community_62.md) (2 shared connections)
+- [Community 31](Community_31.md) (2 shared connections)
+- [Community 17](Community_17.md) (2 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/urls/base.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/converters.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns/views.py`
-- `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/db/models/lookups.py`
+- `raw/code/hyd-evaluation/django-django/tests/lookup/test_lookups.py`
 
 ## Audit Trail
 
-- EXTRACTED: 127 (97%)
-- INFERRED: 4 (3%)
+- EXTRACTED: 174 (99%)
+- INFERRED: 2 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

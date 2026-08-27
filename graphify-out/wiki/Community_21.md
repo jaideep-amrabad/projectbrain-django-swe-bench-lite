@@ -1,6 +1,6 @@
 # Community 21
 
-> 166 nodes · cohesion 0.04
+> 211 nodes · cohesion 0.03
 
 ## Key Concepts
 
@@ -11,50 +11,51 @@
 - **.assertOperationAttributes()** (84 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 - **ModelState** (62 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
 - **.assertMigrationDependencies()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **isolate_lru_cache()** (13 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
+- **.test_last_dependency()** (11 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.make_project_state()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_first_dependency()** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.assertOperationFieldAttributes()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 - **.test_circular_dependency_swappable()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 - **.test_circular_dependency_swappable2()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 - **.test_circular_dependency_swappable_self()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 - **.test_rename_model_reverse_relation_dependencies()** (9 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **patch** (9 connections)
+- **.test_alter_field_to_not_null_oneoff_default()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_alter_field_to_not_null_with_default()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_alter_field_to_not_null_without_default()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 - **.test_rename_field_preserved_db_column()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 - **.test_rename_model_with_fks_in_different_position()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 - **.test_swappable()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
+- **.test_swappable_changed()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 - **.test_swappable_first_setting()** (8 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_alter_db_table_with_model_change()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_circular_fk_dependency()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_fk_dependency()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_fk_dependency_other_app()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_keep_db_table_with_model_change()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_multiple_bases()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_proxy_fk_dependency()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_rename_field()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_rename_field_and_foo_together()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- **.test_rename_field_foreign_key_to_field()** (7 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
-- *... and 141 more nodes in this community*
+- *... and 186 more nodes in this community*
 
 ## Relationships
 
-- [Community 527](Community_527.md) (49 shared connections)
-- [Community 631](Community_631.md) (19 shared connections)
-- [Community 273](Community_273.md) (15 shared connections)
-- [Community 55](Community_55.md) (14 shared connections)
-- [Community 36](Community_36.md) (6 shared connections)
-- [Community 278](Community_278.md) (6 shared connections)
-- [Community 10](Community_10.md) (6 shared connections)
-- [Community 4](Community_4.md) (5 shared connections)
-- [Community 943](Community_943.md) (4 shared connections)
-- [Community 37](Community_37.md) (3 shared connections)
-- [Community 1028](Community_1028.md) (2 shared connections)
-- [Community 478](Community_478.md) (2 shared connections)
+- [Community 287](Community_287.md) (17 shared connections)
+- [Community 123](Community_123.md) (12 shared connections)
+- [Community 115](Community_115.md) (9 shared connections)
+- [Community 1](Community_1.md) (8 shared connections)
+- [Community 18](Community_18.md) (8 shared connections)
+- [Community 41](Community_41.md) (6 shared connections)
+- [Community 289](Community_289.md) (4 shared connections)
+- [Community 43](Community_43.md) (3 shared connections)
+- [Community 52](Community_52.md) (3 shared connections)
+- [Community 87](Community_87.md) (2 shared connections)
+- [Community 280](Community_280.md) (2 shared connections)
+- [Community 0](Community_0.md) (2 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/db/migrations/state.py`
+- `raw/code/hyd-evaluation/django-django/django/test/utils.py`
 - `raw/code/hyd-evaluation/django-django/tests/migrations/test_autodetector.py`
 
 ## Audit Trail
 
-- EXTRACTED: 685 (98%)
-- INFERRED: 15 (2%)
+- EXTRACTED: 742 (98%)
+- INFERRED: 17 (2%)
 - AMBIGUOUS: 0 (0%)
 
 ---

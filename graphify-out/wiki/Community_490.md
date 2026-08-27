@@ -1,49 +1,56 @@
 # Community 490
 
-> 17 nodes · cohesion 0.12
+> 25 nodes · cohesion 0.10
 
 ## Key Concepts
 
-- **Settings** (16 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **DeprecationTests** (10 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
-- **.test_timeout()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
-- **TestListSettings** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_access()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
-- **.test_settings_init_warning()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
-- **.test_use_both_settings_init_error()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
-- **.test_module()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_settings_repr()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_no_secret_key()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.test_tuple_settings()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
-- **.is_overridden()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.__repr__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- **.test_access_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
-- **.test_override_settings_warning()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
-- **The token is valid after n days, but no greater.** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
-- **Make sure settings that should be lists or tuples throw ImproperlyConfigured if…** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- **ModelChoiceField** (17 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **ModelMultipleChoiceField** (11 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **._check_values()** (6 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.prepare_value()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.clean()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **ModelChoiceFieldErrorMessagesTestCase** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
+- **.test_modelchoicefield()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
+- **.to_python()** (3 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.get_limit_choices_to()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.label_from_instance()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.prepare_value()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.to_python()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.has_changed()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.__deepcopy__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **._get_choices()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **._get_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.__init__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **._set_queryset()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **.validate()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **A ChoiceField whose choices are a model QuerySet.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **Return ``limit_choices_to`` for this form field. If it is a callable, invoke it…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **Convert objects into strings and generate the labels for the choices presented…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **A MultipleChoiceField whose choices are a model QuerySet.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- **Given a list of possible PK values, return a QuerySet of the corresponding…** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/models.py`
 
 ## Relationships
 
-- [Community 246](Community_246.md) (4 shared connections)
-- [Community 3](Community_3.md) (3 shared connections)
-- [Community 4](Community_4.md) (2 shared connections)
-- [Community 16](Community_16.md) (2 shared connections)
-- [Community 82](Community_82.md) (2 shared connections)
-- [Community 359](Community_359.md) (2 shared connections)
-- [Community 182](Community_182.md) (2 shared connections)
-- [Community 39](Community_39.md) (1 shared connections)
-- [Community 134](Community_134.md) (1 shared connections)
+- [Community 128](Community_128.md) (3 shared connections)
+- [Community 15](Community_15.md) (3 shared connections)
+- [Community 31](Community_31.md) (2 shared connections)
+- [Community 343](Community_343.md) (2 shared connections)
+- [Community 44](Community_44.md) (1 shared connections)
+- [Community 9](Community_9.md) (1 shared connections)
+- [Community 583](Community_583.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 2](Community_2.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/django/conf/__init__.py`
-- `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_password_reset_timeout_days.py`
-- `raw/code/hyd-evaluation/django-django/tests/settings_tests/tests.py`
+- `raw/code/hyd-evaluation/django-django/django/forms/models.py`
+- `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
 
 ## Audit Trail
 
-- EXTRACTED: 33 (92%)
-- INFERRED: 3 (8%)
+- EXTRACTED: 42 (91%)
+- INFERRED: 4 (9%)
 - AMBIGUOUS: 0 (0%)
 
 ---

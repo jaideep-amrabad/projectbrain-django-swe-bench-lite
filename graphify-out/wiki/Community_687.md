@@ -20,9 +20,9 @@
 
 ## Relationships
 
-- [Community 10](Community_10.md) (1 shared connections)
-- [Community 850](Community_850.md) (1 shared connections)
-- [Community 1](Community_1.md) (1 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 16](Community_16.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
 
 ## Source Files
 

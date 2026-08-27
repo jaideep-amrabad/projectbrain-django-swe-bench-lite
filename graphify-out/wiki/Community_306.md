@@ -1,52 +1,53 @@
 # Community 306
 
-> 36 nodes · cohesion 0.06
+> 37 nodes · cohesion 0.05
 
 ## Key Concepts
 
-- **qunit.js** (84 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **checkPollution()** (4 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **getUrlParams()** (3 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **decodeQueryParam()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **diff()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **inArray()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **innerEquiv()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **moduleChainIdMatch()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **saveGlobal()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **typeEquiv()** (2 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **applyDeprecated()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **Assert()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **callHook()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **compareConstructors()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **errorString()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **getRegExpFlags()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **id()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **is()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **isArray()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **literal()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **moduleChainNameMatch()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **notifyTestsRan()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **numberOfTests()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **objectValues()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- **only()** (1 connections) — `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
-- *... and 11 more nodes in this community*
+- **CommandTests** (30 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_discover_commands_in_eggs()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_create_parser_kwargs()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_find_command_without_PATH()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_system_exit()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_call_command_no_checks()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_call_command_option_parsing()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_call_command_option_parsing_non_string_arg()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_explode()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_no_translations_deactivate_translations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_call_command_unrecognized_option()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_call_command_with_required_parameters_in_mixed_options()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_call_command_with_required_parameters_in_options()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_calling_a_command_with_no_app_labels_and_parameters_should_raise_a_command_error()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_calling_a_command_with_only_empty_parameter_should_ends_gracefully()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_calling_command_with_app_labels_and_parameters_should_be_ok()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_calling_command_with_parameters_and_app_labels_at_the_end_should_be_ok()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_check_migrations()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_command()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_command_add_arguments_after_common_arguments()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_command_style()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_language_preserved()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_mutually_exclusive_group_required_options()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_output_transaction()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- **.test_subparser()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
+- *... and 12 more nodes in this community*
 
 ## Relationships
 
-- [Community 514](Community_514.md) (16 shared connections)
-- [Community 726](Community_726.md) (13 shared connections)
-- [Community 702](Community_702.md) (11 shared connections)
-- [Community 785](Community_785.md) (8 shared connections)
-- [Community 987](Community_987.md) (2 shared connections)
-- [Community 623](Community_623.md) (1 shared connections)
+- [Community 27](Community_27.md) (2 shared connections)
+- [Community 18](Community_18.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 87](Community_87.md) (1 shared connections)
+- [Community 339](Community_339.md) (1 shared connections)
+- [Community 119](Community_119.md) (1 shared connections)
+- [Community 93](Community_93.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/js_tests/qunit/qunit.js`
+- `raw/code/hyd-evaluation/django-django/tests/user_commands/tests.py`
 
 ## Audit Trail
 
-- EXTRACTED: 91 (100%)
+- EXTRACTED: 44 (100%)
 - INFERRED: 0 (0%)
 - AMBIGUOUS: 0 (0%)
 
