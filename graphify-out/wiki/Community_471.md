@@ -1,13 +1,12 @@
 # Community 471
 
-> 23 nodes · cohesion 0.15
+> 22 nodes · cohesion 0.16
 
 ## Key Concepts
 
 - **OnDeleteTests** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
 - **create_a()** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
 - **A** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/models.py`
-- **.setUp()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
 - **.test_auto()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
 - **.test_auto_nullable()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
 - **.test_cascade()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/delete/tests.py`
@@ -30,8 +29,9 @@
 
 ## Relationships
 
-- [Community 171](Community_171.md) (11 shared connections)
-- [Community 31](Community_31.md) (1 shared connections)
+- [Community 176](Community_176.md) (9 shared connections)
+- [Community 835](Community_835.md) (2 shared connections)
+- [Community 4](Community_4.md) (1 shared connections)
 
 ## Source Files
 
@@ -40,7 +40,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 44 (90%)
+- EXTRACTED: 43 (90%)
 - INFERRED: 5 (10%)
 - AMBIGUOUS: 0 (0%)
 

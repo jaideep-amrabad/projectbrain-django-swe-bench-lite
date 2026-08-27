@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **fixtures_model_package/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/__init__.py`
+- **app_raising_messages/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_raising_messages/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/fixtures_model_package/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_scripts/app_raising_messages/__init__.py`
 
 ## Audit Trail
 
