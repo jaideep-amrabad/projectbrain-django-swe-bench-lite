@@ -1,6 +1,6 @@
 # Community 281
 
-> 39 nodes · cohesion 0.06
+> 38 nodes · cohesion 0.06
 
 ## Key Concepts
 
@@ -21,7 +21,6 @@
 - **.apply()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
 - **.mutate_state()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
 - **Take a project_state representing all migrations prior to this one and a…** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- **.setUpClass()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
 - **.tearDown()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
 - **.unapply_operations()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_base.py`
 - **.test_add_field()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/migrations/test_operations.py`
@@ -29,22 +28,23 @@
 - **RuntimeError** (1 connections)
 - **An irreversible migration is about to be reversed.** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/exceptions.py`
 - **.__eq__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
-- *... and 14 more nodes in this community*
+- **.__hash__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/db/migrations/migration.py`
+- *... and 13 more nodes in this community*
 
 ## Relationships
 
-- [Community 0](Community_0.md) (13 shared connections)
-- [Community 39](Community_39.md) (8 shared connections)
-- [Community 7](Community_7.md) (4 shared connections)
-- [Community 56](Community_56.md) (3 shared connections)
-- [Community 374](Community_374.md) (2 shared connections)
-- [Community 230](Community_230.md) (2 shared connections)
-- [Community 531](Community_531.md) (2 shared connections)
-- [Community 242](Community_242.md) (1 shared connections)
-- [Community 4](Community_4.md) (1 shared connections)
-- [Community 134](Community_134.md) (1 shared connections)
-- [Community 505](Community_505.md) (1 shared connections)
-- [Community 369](Community_369.md) (1 shared connections)
+- [Community 32](Community_32.md) (8 shared connections)
+- [Community 1](Community_1.md) (7 shared connections)
+- [Community 3](Community_3.md) (5 shared connections)
+- [Community 0](Community_0.md) (4 shared connections)
+- [Community 8](Community_8.md) (4 shared connections)
+- [Community 394](Community_394.md) (2 shared connections)
+- [Community 532](Community_532.md) (2 shared connections)
+- [Community 265](Community_265.md) (2 shared connections)
+- [Community 315](Community_315.md) (1 shared connections)
+- [Community 110](Community_110.md) (1 shared connections)
+- [Community 195](Community_195.md) (1 shared connections)
+- [Community 522](Community_522.md) (1 shared connections)
 
 ## Source Files
 
@@ -55,8 +55,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 73 (87%)
-- INFERRED: 11 (13%)
+- EXTRACTED: 73 (88%)
+- INFERRED: 10 (12%)
 - AMBIGUOUS: 0 (0%)
 
 ---

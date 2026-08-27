@@ -4,7 +4,7 @@
 
 ## Key Concepts
 
-- **child_module/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/child_module/__init__.py`
+- **m2m_intermediary/__init__.py** (0 connections) — `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/__init__.py`
 
 ## Relationships
 
@@ -12,7 +12,7 @@
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_module/child_module/__init__.py`
+- `raw/code/hyd-evaluation/django-django/tests/m2m_intermediary/__init__.py`
 
 ## Audit Trail
 

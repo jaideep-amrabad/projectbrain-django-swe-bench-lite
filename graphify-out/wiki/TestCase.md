@@ -28,16 +28,16 @@
 - fixtures_regress/tests.py `EXTRACTED`
 - prefetch_related/tests.py `EXTRACTED`
 - test_client_regress/tests.py `EXTRACTED`
+- sessions_tests/tests.py `EXTRACTED`
 - timezones/tests.py `EXTRACTED`
-- auth_tests/test_forms.py `EXTRACTED`
 
 ### inherits
 - AutodetectorTests `EXTRACTED`
 - TransactionTestCase `EXTRACTED`
 - Queries1Tests `EXTRACTED`
 - ChangeListTests `EXTRACTED`
-- ClientTest `EXTRACTED`
 - CaseExpressionTests `EXTRACTED`
+- ClientTest `EXTRACTED`
 - BasicExpressionsTests `EXTRACTED`
 - AggregationTests `EXTRACTED`
 - AggregateTestCase `EXTRACTED`
