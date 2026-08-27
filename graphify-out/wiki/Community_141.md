@@ -1,12 +1,10 @@
 # Community 141
 
-> 68 nodes · cohesion 0.04
+> 65 nodes · cohesion 0.04
 
 ## Key Concepts
 
 - **DatabaseOperations** (64 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- **sqlite3/schema.py** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- **strip_quotes()** (15 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
 - **._get_no_autofield_sequence_name()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
 - **.quote_name()** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
 - **InsertVar** (8 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/utils.py`
@@ -29,34 +27,31 @@
 - **.date_extract_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
 - **.datetime_cast_date_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
 - **.datetime_cast_time_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
-- *... and 43 more nodes in this community*
+- **.datetime_trunc_sql()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- **.fetch_returned_insert_columns()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
+- *... and 40 more nodes in this community*
 
 ## Relationships
 
-- [Community 5](Community_5.md) (13 shared connections)
-- [Community 98](Community_98.md) (5 shared connections)
-- [Community 33](Community_33.md) (3 shared connections)
+- [Community 5](Community_5.md) (11 shared connections)
+- [Community 293](Community_293.md) (4 shared connections)
 - [Community 163](Community_163.md) (3 shared connections)
-- [Community 287](Community_287.md) (3 shared connections)
-- [Community 526](Community_526.md) (2 shared connections)
-- [Community 84](Community_84.md) (2 shared connections)
-- [Community 51](Community_51.md) (1 shared connections)
-- [Community 186](Community_186.md) (1 shared connections)
+- [Community 26](Community_26.md) (1 shared connections)
+- [Community 50](Community_50.md) (1 shared connections)
+- [Community 188](Community_188.md) (1 shared connections)
+- [Community 47](Community_47.md) (1 shared connections)
 - [Community 348](Community_348.md) (1 shared connections)
-- [Community 24](Community_24.md) (1 shared connections)
-- [Community 56](Community_56.md) (1 shared connections)
+- [Community 22](Community_22.md) (1 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/operations.py`
 - `raw/code/hyd-evaluation/django-django/django/db/backends/oracle/utils.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/sqlite3/schema.py`
-- `raw/code/hyd-evaluation/django-django/django/db/backends/utils.py`
 
 ## Audit Trail
 
-- EXTRACTED: 125 (95%)
-- INFERRED: 7 (5%)
+- EXTRACTED: 100 (93%)
+- INFERRED: 7 (7%)
 - AMBIGUOUS: 0 (0%)
 
 ---

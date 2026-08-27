@@ -1,6 +1,6 @@
 # Community 163
 
-> 132 nodes · cohesion 0.03
+> 127 nodes · cohesion 0.04
 
 ## Key Concepts
 
@@ -27,24 +27,24 @@
 - **gdal/base.py** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/base.py`
 - **SRSException** (13 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/error.py`
 - **test_raster.py** (13 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_raster.py`
-- **OGREnvelope** (12 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
 - **envelope.py** (11 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/envelope.py`
-- *... and 107 more nodes in this community*
+- **gdal/prototypes/__init__.py** (10 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/gis/gdal/prototypes/__init__.py`
+- *... and 102 more nodes in this community*
 
 ## Relationships
 
-- [Community 37](Community_37.md) (34 shared connections)
-- [Community 145](Community_145.md) (29 shared connections)
-- [Community 1](Community_1.md) (27 shared connections)
-- [Community 275](Community_275.md) (22 shared connections)
-- [Community 79](Community_79.md) (22 shared connections)
-- [Community 2](Community_2.md) (22 shared connections)
-- [Community 62](Community_62.md) (18 shared connections)
-- [Community 31](Community_31.md) (14 shared connections)
-- [Community 192](Community_192.md) (14 shared connections)
-- [Community 353](Community_353.md) (12 shared connections)
-- [Community 276](Community_276.md) (9 shared connections)
-- [Community 559](Community_559.md) (8 shared connections)
+- [Community 84](Community_84.md) (36 shared connections)
+- [Community 37](Community_37.md) (32 shared connections)
+- [Community 83](Community_83.md) (22 shared connections)
+- [Community 283](Community_283.md) (21 shared connections)
+- [Community 2](Community_2.md) (20 shared connections)
+- [Community 67](Community_67.md) (18 shared connections)
+- [Community 23](Community_23.md) (15 shared connections)
+- [Community 32](Community_32.md) (14 shared connections)
+- [Community 194](Community_194.md) (14 shared connections)
+- [Community 64](Community_64.md) (13 shared connections)
+- [Community 42](Community_42.md) (10 shared connections)
+- [Community 284](Community_284.md) (9 shared connections)
 
 ## Source Files
 
@@ -71,8 +71,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 628 (94%)
-- INFERRED: 37 (6%)
+- EXTRACTED: 619 (95%)
+- INFERRED: 35 (5%)
 - AMBIGUOUS: 0 (0%)
 
 ---

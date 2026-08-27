@@ -1,6 +1,6 @@
 # Community 0
 
-> 636 nodes · cohesion 0.01
+> 600 nodes · cohesion 0.01
 
 ## Key Concepts
 
@@ -13,38 +13,38 @@
 - **TemplateSyntaxError** (103 connections) — `raw/code/hyd-evaluation/django-django/django/template/exceptions.py`
 - **setup()** (103 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/utils.py`
 - **safestring.py** (81 connections) — `raw/code/hyd-evaluation/django-django/django/utils/safestring.py`
-- **Variable** (29 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
 - **test_blocktranslate.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py`
 - **test_translate.py** (26 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/i18n/test_translate.py`
 - **tests/test_error_messages.py** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/forms_tests/tests/test_error_messages.py`
-- **test_response.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_response.py`
+- **test_html.py** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_html.py`
 - **test_dummy.py** (18 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_dummy.py`
-- **VariableDoesNotExist** (17 connections) — `raw/code/hyd-evaluation/django-django/django/template/base.py`
+- **test_geoforms.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/test_geoforms.py`
 - **model_fields/test_booleanfield.py** (17 connections) — `raw/code/hyd-evaluation/django-django/tests/model_fields/test_booleanfield.py`
-- **contenttypes_tests/test_fields.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/contenttypes_tests/test_fields.py`
-- **test_django.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/template_backends/test_django.py`
+- **test_geom.py** (16 connections) — `raw/code/hyd-evaluation/django-django/tests/gis_tests/gdal_tests/test_geom.py`
 - **test_date.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_date.py`
 - **test_time.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/filter_tests/test_time.py`
 - **template_tests/tests.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/tests.py`
 - **test_datastructures.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_datastructures.py`
 - **utils_tests/test_decorators.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_decorators.py`
 - **test_safestring.py** (15 connections) — `raw/code/hyd-evaluation/django-django/tests/utils_tests/test_safestring.py`
-- *... and 611 more nodes in this community*
+- **syntax_tests/test_extends.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/syntax_tests/test_extends.py`
+- **test_engine.py** (14 connections) — `raw/code/hyd-evaluation/django-django/tests/template_tests/test_engine.py`
+- *... and 575 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (177 shared connections)
-- [Community 15](Community_15.md) (137 shared connections)
-- [Community 2](Community_2.md) (131 shared connections)
+- [Community 2](Community_2.md) (262 shared connections)
+- [Community 9](Community_9.md) (158 shared connections)
+- [Community 200](Community_200.md) (133 shared connections)
+- [Community 1](Community_1.md) (115 shared connections)
+- [Community 23](Community_23.md) (107 shared connections)
 - [Community 4](Community_4.md) (98 shared connections)
-- [Community 731](Community_731.md) (82 shared connections)
-- [Community 92](Community_92.md) (77 shared connections)
-- [Community 25](Community_25.md) (74 shared connections)
-- [Community 875](Community_875.md) (71 shared connections)
-- [Community 16](Community_16.md) (64 shared connections)
-- [Community 7](Community_7.md) (62 shared connections)
-- [Community 450](Community_450.md) (60 shared connections)
-- [Community 208](Community_208.md) (48 shared connections)
+- [Community 724](Community_724.md) (72 shared connections)
+- [Community 19](Community_19.md) (65 shared connections)
+- [Community 59](Community_59.md) (53 shared connections)
+- [Community 8](Community_8.md) (52 shared connections)
+- [Community 90](Community_90.md) (43 shared connections)
+- [Community 185](Community_185.md) (29 shared connections)
 
 ## Source Files
 
@@ -53,16 +53,16 @@
 - `raw/code/hyd-evaluation/django-django/django/template/defaultfilters.py`
 - `raw/code/hyd-evaluation/django-django/django/template/exceptions.py`
 - `raw/code/hyd-evaluation/django-django/django/template/loader_tags.py`
-- `raw/code/hyd-evaluation/django-django/django/templatetags/l10n.py`
 - `raw/code/hyd-evaluation/django-django/django/test/__init__.py`
-- `raw/code/hyd-evaluation/django-django/django/test/client.py`
 - `raw/code/hyd-evaluation/django-django/django/test/testcases.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/html.py`
+- `raw/code/hyd-evaluation/django-django/django/utils/numberformat.py`
 - `raw/code/hyd-evaluation/django-django/django/utils/safestring.py`
 - `raw/code/hyd-evaluation/django-django/tests/absolute_url_overrides/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_default_site/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_inlines/test_templates.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_scripts/test_django_admin_py.py`
-- `raw/code/hyd-evaluation/django-django/tests/asgi/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/apps/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/backends/base/test_features.py`
 - `raw/code/hyd-evaluation/django-django/tests/backends/base/test_introspection.py`
 - `raw/code/hyd-evaluation/django-django/tests/backends/sqlite/test_creation.py`
@@ -71,8 +71,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 4200 (99%)
-- INFERRED: 49 (1%)
+- EXTRACTED: 4113 (99%)
+- INFERRED: 38 (1%)
 - AMBIGUOUS: 0 (0%)
 
 ---

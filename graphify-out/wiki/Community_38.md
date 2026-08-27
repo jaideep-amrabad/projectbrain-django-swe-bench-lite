@@ -1,6 +1,6 @@
 # Community 38
 
-> 142 nodes · cohesion 0.03
+> 145 nodes · cohesion 0.03
 
 ## Key Concepts
 
@@ -29,34 +29,36 @@
 - **pagination()** (5 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
 - **CustomPaginationAdmin** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
 - **CustomPaginator** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
-- *... and 117 more nodes in this community*
+- *... and 120 more nodes in this community*
 
 ## Relationships
 
 - [Community 4](Community_4.md) (15 shared connections)
 - [Community 14](Community_14.md) (14 shared connections)
-- [Community 65](Community_65.md) (12 shared connections)
-- [Community 25](Community_25.md) (10 shared connections)
-- [Community 16](Community_16.md) (9 shared connections)
-- [Community 15](Community_15.md) (8 shared connections)
-- [Community 244](Community_244.md) (6 shared connections)
-- [Community 391](Community_391.md) (4 shared connections)
+- [Community 57](Community_57.md) (12 shared connections)
+- [Community 23](Community_23.md) (11 shared connections)
+- [Community 2](Community_2.md) (8 shared connections)
+- [Community 248](Community_248.md) (6 shared connections)
+- [Community 19](Community_19.md) (6 shared connections)
+- [Community 390](Community_390.md) (4 shared connections)
+- [Community 587](Community_587.md) (4 shared connections)
 - [Community 1](Community_1.md) (4 shared connections)
 - [Community 0](Community_0.md) (4 shared connections)
-- [Community 24](Community_24.md) (4 shared connections)
-- [Community 9](Community_9.md) (3 shared connections)
+- [Community 22](Community_22.md) (4 shared connections)
 
 ## Source Files
 
 - `raw/code/hyd-evaluation/django-django/django/contrib/admin/templatetags/admin_list.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/__init__.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_changelist/admin.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_changelist/models.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_changelist/test_date_hierarchy.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_changelist/urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 376 (88%)
+- EXTRACTED: 379 (88%)
 - INFERRED: 51 (12%)
 - AMBIGUOUS: 0 (0%)
 

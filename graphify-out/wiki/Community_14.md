@@ -1,13 +1,13 @@
 # Community 14
 
-> 213 nodes · cohesion 0.01
+> 257 nodes · cohesion 0.01
 
 ## Key Concepts
 
 - **reverse()** (372 connections) — `raw/code/hyd-evaluation/django-django/django/urls/base.py`
+- **AdminActionsTest** (41 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
 - **TestInlinePermissions** (25 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
 - **NamespaceTests** (24 connections) — `raw/code/hyd-evaluation/django-django/tests/urlpatterns_reverse/tests.py`
-- **TestModelDetailView** (22 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
 - **AdminDocViewTests** (21 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
 - **SeleniumTests** (19 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
 - **override_script_prefix** (16 connections) — `raw/code/hyd-evaluation/django-django/django/test/utils.py`
@@ -19,32 +19,32 @@
 - **URLPrefixTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
 - **URLTranslationTests** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
 - **.test_no_sites_framework()** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
+- **UUIDUserTests** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_localize_pk_shortcut()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- **.test_non_localized_pk()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
 - **.get_user_data()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 - **.test_view_user_password_is_readonly()** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
+- **.test_computed_list_display_localization()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
 - **.test_namespaced_view_detail()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
 - **.test_view_detail_as_method()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
 - **.test_view_index_with_method()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
 - **skipUnless** (3 connections)
-- **.setUp()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **.test_model_with_no_backward_relations_render_only_relevant_fields()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
-- **.test_add_inlines()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- **.test_add_stackeds()** (3 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- *... and 188 more nodes in this community*
+- *... and 232 more nodes in this community*
 
 ## Relationships
 
 - [Community 36](Community_36.md) (46 shared connections)
-- [Community 451](Community_451.md) (32 shared connections)
-- [Community 87](Community_87.md) (22 shared connections)
-- [Community 49](Community_49.md) (18 shared connections)
-- [Community 7](Community_7.md) (16 shared connections)
+- [Community 2](Community_2.md) (26 shared connections)
+- [Community 57](Community_57.md) (21 shared connections)
+- [Community 8](Community_8.md) (20 shared connections)
+- [Community 48](Community_48.md) (18 shared connections)
 - [Community 38](Community_38.md) (14 shared connections)
-- [Community 65](Community_65.md) (14 shared connections)
-- [Community 136](Community_136.md) (14 shared connections)
-- [Community 286](Community_286.md) (11 shared connections)
+- [Community 135](Community_135.md) (14 shared connections)
+- [Community 11](Community_11.md) (10 shared connections)
 - [Community 380](Community_380.md) (10 shared connections)
-- [Community 42](Community_42.md) (9 shared connections)
-- [Community 408](Community_408.md) (9 shared connections)
+- [Community 197](Community_197.md) (10 shared connections)
+- [Community 71](Community_71.md) (10 shared connections)
+- [Community 1](Community_1.md) (9 shared connections)
 
 ## Source Files
 
@@ -53,6 +53,7 @@
 - `raw/code/hyd-evaluation/django-django/tests/admin_changelist/tests.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_docs/test_views.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
+- `raw/code/hyd-evaluation/django-django/tests/admin_views/test_actions.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_views/test_adminsite.py`
 - `raw/code/hyd-evaluation/django-django/tests/auth_tests/test_views.py`
 - `raw/code/hyd-evaluation/django-django/tests/i18n/patterns/tests.py`
@@ -63,8 +64,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 639 (97%)
-- INFERRED: 17 (3%)
+- EXTRACTED: 687 (97%)
+- INFERRED: 24 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

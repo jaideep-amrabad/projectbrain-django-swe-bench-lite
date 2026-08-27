@@ -1,6 +1,6 @@
 # Community 36
 
-> 162 nodes · cohesion 0.02
+> 150 nodes · cohesion 0.03
 
 ## Key Concepts
 
@@ -29,34 +29,32 @@
 - **Poll** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
 - **SomeChildModel** (6 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
 - **Author** (5 connections) — `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
-- *... and 137 more nodes in this community*
+- *... and 125 more nodes in this community*
 
 ## Relationships
 
 - [Community 14](Community_14.md) (46 shared connections)
-- [Community 25](Community_25.md) (8 shared connections)
-- [Community 65](Community_65.md) (7 shared connections)
-- [Community 7](Community_7.md) (7 shared connections)
-- [Community 15](Community_15.md) (5 shared connections)
-- [Community 265](Community_265.md) (3 shared connections)
+- [Community 57](Community_57.md) (8 shared connections)
+- [Community 587](Community_587.md) (6 shared connections)
+- [Community 8](Community_8.md) (6 shared connections)
+- [Community 2](Community_2.md) (5 shared connections)
+- [Community 272](Community_272.md) (3 shared connections)
 - [Community 5](Community_5.md) (2 shared connections)
-- [Community 113](Community_113.md) (2 shared connections)
+- [Community 19](Community_19.md) (2 shared connections)
 - [Community 11](Community_11.md) (2 shared connections)
-- [Community 731](Community_731.md) (1 shared connections)
-- [Community 35](Community_35.md) (1 shared connections)
-- [Community 28](Community_28.md) (1 shared connections)
+- [Community 114](Community_114.md) (2 shared connections)
+- [Community 724](Community_724.md) (1 shared connections)
+- [Community 34](Community_34.md) (1 shared connections)
 
 ## Source Files
 
-- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/__init__.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_inlines/admin.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_inlines/models.py`
 - `raw/code/hyd-evaluation/django-django/tests/admin_inlines/tests.py`
-- `raw/code/hyd-evaluation/django-django/tests/admin_inlines/urls.py`
 
 ## Audit Trail
 
-- EXTRACTED: 334 (81%)
+- EXTRACTED: 321 (81%)
 - INFERRED: 76 (19%)
 - AMBIGUOUS: 0 (0%)
 

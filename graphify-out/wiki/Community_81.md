@@ -1,6 +1,6 @@
 # Community 81
 
-> 98 nodes · cohesion 0.05
+> 96 nodes · cohesion 0.05
 
 ## Key Concepts
 
@@ -29,22 +29,22 @@
 - **.__init__()** (4 connections) — `raw/code/hyd-evaluation/django-django/django/contrib/postgres/search.py`
 - **Character** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
 - **Scene** (4 connections) — `raw/code/hyd-evaluation/django-django/tests/postgres_tests/models.py`
-- *... and 73 more nodes in this community*
+- *... and 71 more nodes in this community*
 
 ## Relationships
 
-- [Community 278](Community_278.md) (13 shared connections)
-- [Community 329](Community_329.md) (8 shared connections)
-- [Community 125](Community_125.md) (7 shared connections)
-- [Community 39](Community_39.md) (6 shared connections)
-- [Community 23](Community_23.md) (6 shared connections)
-- [Community 42](Community_42.md) (6 shared connections)
+- [Community 294](Community_294.md) (13 shared connections)
+- [Community 794](Community_794.md) (8 shared connections)
+- [Community 74](Community_74.md) (7 shared connections)
+- [Community 2](Community_2.md) (7 shared connections)
+- [Community 40](Community_40.md) (6 shared connections)
 - [Community 24](Community_24.md) (6 shared connections)
-- [Community 40](Community_40.md) (4 shared connections)
-- [Community 282](Community_282.md) (3 shared connections)
-- [Community 47](Community_47.md) (2 shared connections)
-- [Community 96](Community_96.md) (2 shared connections)
-- [Community 95](Community_95.md) (1 shared connections)
+- [Community 22](Community_22.md) (6 shared connections)
+- [Community 41](Community_41.md) (4 shared connections)
+- [Community 195](Community_195.md) (3 shared connections)
+- [Community 51](Community_51.md) (2 shared connections)
+- [Community 99](Community_99.md) (2 shared connections)
+- [Community 96](Community_96.md) (1 shared connections)
 
 ## Source Files
 
@@ -54,7 +54,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 263 (90%)
+- EXTRACTED: 261 (90%)
 - INFERRED: 30 (10%)
 - AMBIGUOUS: 0 (0%)
 
