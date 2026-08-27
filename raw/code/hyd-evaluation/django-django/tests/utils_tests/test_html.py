@@ -90,8 +90,6 @@ class TestUtilsHtml(SimpleTestCase):
             ('&gotcha&#;<>', '&gotcha&#;<>'),
             ('<sc<!-- -->ript>test<<!-- -->/script>', 'ript>test'),
             ('<script>alert()</script>&h', 'alert()h'),
-            ('><!' + ('&' * 16000) + 'D', '><!' + ('&' * 16000) + 'D'),
-            ('X<<<<br>br>br>br>X', 'XX'),
         )
         for value, output in items:
             with self.subTest(value=value, output=output):

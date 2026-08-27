@@ -104,7 +104,6 @@ class DatabaseWrapper(BaseDatabaseWrapper):
         'PositiveIntegerField': 'integer unsigned',
         'PositiveSmallIntegerField': 'smallint unsigned',
         'SlugField': 'varchar(%(max_length)s)',
-        'SmallAutoField': 'integer',
         'SmallIntegerField': 'smallint',
         'TextField': 'text',
         'TimeField': 'time',
@@ -117,7 +116,6 @@ class DatabaseWrapper(BaseDatabaseWrapper):
     data_types_suffix = {
         'AutoField': 'AUTOINCREMENT',
         'BigAutoField': 'AUTOINCREMENT',
-        'SmallAutoField': 'AUTOINCREMENT',
     }
     # SQLite requires LIKE statements to include an ESCAPE clause if the value
     # being escaped has a percent or underscore in it.

@@ -19,7 +19,6 @@ class DatabaseOperations(BaseDatabaseOperations):
     cast_data_types = {
         'AutoField': 'signed integer',
         'BigAutoField': 'signed integer',
-        'SmallAutoField': 'signed integer',
         'CharField': 'char(%(max_length)s)',
         'DecimalField': 'decimal(%(max_digits)s, %(decimal_places)s)',
         'TextField': 'char',

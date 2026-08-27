@@ -5,8 +5,11 @@ Form classes
 import copy
 
 from django.core.exceptions import NON_FIELD_ERRORS, ValidationError
+# BoundField is imported for backwards compatibility in Django 1.9
+from django.forms.boundfield import BoundField  # NOQA
 from django.forms.fields import Field, FileField
-from django.forms.utils import ErrorDict, ErrorList
+# pretty_name is imported for backwards compatibility in Django 1.9
+from django.forms.utils import ErrorDict, ErrorList, pretty_name  # NOQA
 from django.forms.widgets import Media, MediaDefiningClass
 from django.utils.datastructures import MultiValueDict
 from django.utils.functional import cached_property

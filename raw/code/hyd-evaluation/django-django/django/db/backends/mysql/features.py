@@ -69,11 +69,10 @@ class DatabaseFeatures(BaseDatabaseFeatures):
 
     @cached_property
     def has_zoneinfo_database(self):
-        # Test if the time zone definitions are installed. CONVERT_TZ returns
-        # NULL if 'UTC' timezone isn't loaded into the mysql.time_zone.
+        # Test if the time zone definitions are installed.
         with self.connection.cursor() as cursor:
-            cursor.execute("SELECT CONVERT_TZ('2001-01-01 01:00:00', 'UTC', 'UTC')")
-            return cursor.fetchone()[0] is not None
+            cursor.execute("SELECT 1 FROM mysql.time_zone LIMIT 1")
+            return cursor.fetchone() is not None
 
     @cached_property
     def is_sql_auto_is_null_enabled(self):
@@ -90,9 +89,7 @@ class DatabaseFeatures(BaseDatabaseFeatures):
 
     @cached_property
     def supports_column_check_constraints(self):
-        if self.connection.mysql_is_mariadb:
-            return self.connection.mysql_version >= (10, 2, 1)
-        return self.connection.mysql_version >= (8, 0, 16)
+        return self.connection.mysql_is_mariadb and self.connection.mysql_version >= (10, 2, 1)
 
     supports_table_check_constraints = property(operator.attrgetter('supports_column_check_constraints'))
 
@@ -100,8 +97,9 @@ class DatabaseFeatures(BaseDatabaseFeatures):
     def can_introspect_check_constraints(self):
         if self.connection.mysql_is_mariadb:
             version = self.connection.mysql_version
-            return (version >= (10, 2, 22) and version < (10, 3)) or version >= (10, 3, 10)
-        return self.connection.mysql_version >= (8, 0, 16)
+            if (version >= (10, 2, 22) and version < (10, 3)) or version >= (10, 3, 10):
+                return True
+        return False
 
     @cached_property
     def has_select_for_update_skip_locked(self):

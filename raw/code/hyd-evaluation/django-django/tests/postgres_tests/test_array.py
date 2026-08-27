@@ -9,8 +9,6 @@ from django.core import checks, exceptions, serializers, validators
 from django.core.exceptions import FieldError
 from django.core.management import call_command
 from django.db import IntegrityError, connection, models
-from django.db.models.expressions import RawSQL
-from django.db.models.functions import Cast
 from django.test import TransactionTestCase, modify_settings, override_settings
 from django.test.utils import isolate_apps
 from django.utils import timezone
@@ -25,9 +23,7 @@ from .models import (
 )
 
 try:
-    from django.contrib.postgres.aggregates import ArrayAgg
     from django.contrib.postgres.fields import ArrayField
-    from django.contrib.postgres.fields.array import IndexTransform, SliceTransform
     from django.contrib.postgres.forms import (
         SimpleArrayField, SplitArrayField, SplitArrayWidget,
     )
@@ -281,27 +277,6 @@ class TestQuerying(PostgreSQLTestCase):
             []
         )
 
-    def test_lookups_autofield_array(self):
-        qs = NullableIntegerArrayModel.objects.filter(
-            field__0__isnull=False,
-        ).values('field__0').annotate(
-            arrayagg=ArrayAgg('id'),
-        ).order_by('field__0')
-        tests = (
-            ('contained_by', [self.objs[1].pk, self.objs[2].pk, 0], [2]),
-            ('contains', [self.objs[2].pk], [2]),
-            ('exact', [self.objs[3].pk], [20]),
-            ('overlap', [self.objs[1].pk, self.objs[3].pk], [2, 20]),
-        )
-        for lookup, value, expected in tests:
-            with self.subTest(lookup=lookup):
-                self.assertSequenceEqual(
-                    qs.filter(
-                        **{'arrayagg__' + lookup: value},
-                    ).values_list('field__0', flat=True),
-                    expected,
-                )
-
     def test_index(self):
         self.assertSequenceEqual(
             NullableIntegerArrayModel.objects.filter(field__0=2),
@@ -327,18 +302,6 @@ class TestQuerying(PostgreSQLTestCase):
         self.assertSequenceEqual(
             NestedIntegerArrayModel.objects.filter(field__0=[1, 2]),
             [instance]
-        )
-
-    def test_index_transform_expression(self):
-        expr = RawSQL("string_to_array(%s, ';')", ['1;2'])
-        self.assertSequenceEqual(
-            NullableIntegerArrayModel.objects.filter(
-                field__0=Cast(
-                    IndexTransform(1, models.IntegerField, expr),
-                    output_field=models.IntegerField(),
-                ),
-            ),
-            self.objs[:1],
         )
 
     def test_overlap(self):
@@ -393,13 +356,6 @@ class TestQuerying(PostgreSQLTestCase):
         self.assertSequenceEqual(
             NestedIntegerArrayModel.objects.filter(field__0__0_1=[1]),
             [instance]
-        )
-
-    def test_slice_transform_expression(self):
-        expr = RawSQL("string_to_array(%s, ';')", ['9;2;3'])
-        self.assertSequenceEqual(
-            NullableIntegerArrayModel.objects.filter(field__0_2=SliceTransform(2, 3, expr)),
-            self.objs[2:3],
         )
 
     def test_usage_in_subquery(self):

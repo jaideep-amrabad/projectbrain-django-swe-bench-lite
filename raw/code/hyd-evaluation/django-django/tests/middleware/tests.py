@@ -621,12 +621,12 @@ class XFrameOptionsMiddlewareTest(SimpleTestCase):
     def test_defaults_sameorigin(self):
         """
         If the X_FRAME_OPTIONS setting is not set then it defaults to
-        DENY.
+        SAMEORIGIN.
         """
         with override_settings(X_FRAME_OPTIONS=None):
             del settings.X_FRAME_OPTIONS    # restored by override_settings
             r = XFrameOptionsMiddleware().process_response(HttpRequest(), HttpResponse())
-            self.assertEqual(r['X-Frame-Options'], 'DENY')
+            self.assertEqual(r['X-Frame-Options'], 'SAMEORIGIN')
 
     def test_dont_set_if_set(self):
         """

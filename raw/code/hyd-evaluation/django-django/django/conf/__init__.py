@@ -16,14 +16,14 @@ from pathlib import Path
 import django
 from django.conf import global_settings
 from django.core.exceptions import ImproperlyConfigured
-from django.utils.deprecation import RemovedInDjango40Warning
+from django.utils.deprecation import RemovedInDjango31Warning
 from django.utils.functional import LazyObject, empty
 
 ENVIRONMENT_VARIABLE = "DJANGO_SETTINGS_MODULE"
 
-PASSWORD_RESET_TIMEOUT_DAYS_DEPRECATED_MSG = (
-    'The PASSWORD_RESET_TIMEOUT_DAYS setting is deprecated. Use '
-    'PASSWORD_RESET_TIMEOUT instead.'
+FILE_CHARSET_DEPRECATED_MSG = (
+    'The FILE_CHARSET setting is deprecated. Starting with Django 3.1, all '
+    'files read from disk must be UTF-8 encoded.'
 )
 
 
@@ -115,18 +115,18 @@ class LazySettings(LazyObject):
         return self._wrapped is not empty
 
     @property
-    def PASSWORD_RESET_TIMEOUT_DAYS(self):
+    def FILE_CHARSET(self):
         stack = traceback.extract_stack()
         # Show a warning if the setting is used outside of Django.
         # Stack index: -1 this line, -2 the caller.
-        filename, _, _, _ = stack[-2]
+        filename, _line_number, _function_name, _text = stack[-2]
         if not filename.startswith(os.path.dirname(django.__file__)):
             warnings.warn(
-                PASSWORD_RESET_TIMEOUT_DAYS_DEPRECATED_MSG,
-                RemovedInDjango40Warning,
+                FILE_CHARSET_DEPRECATED_MSG,
+                RemovedInDjango31Warning,
                 stacklevel=2,
             )
-        return self.__getattr__('PASSWORD_RESET_TIMEOUT_DAYS')
+        return self.__getattr__('FILE_CHARSET')
 
 
 class Settings:
@@ -160,14 +160,8 @@ class Settings:
         if not self.SECRET_KEY:
             raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")
 
-        if self.is_overridden('PASSWORD_RESET_TIMEOUT_DAYS'):
-            if self.is_overridden('PASSWORD_RESET_TIMEOUT'):
-                raise ImproperlyConfigured(
-                    'PASSWORD_RESET_TIMEOUT_DAYS/PASSWORD_RESET_TIMEOUT are '
-                    'mutually exclusive.'
-                )
-            setattr(self, 'PASSWORD_RESET_TIMEOUT', self.PASSWORD_RESET_TIMEOUT_DAYS * 60 * 60 * 24)
-            warnings.warn(PASSWORD_RESET_TIMEOUT_DAYS_DEPRECATED_MSG, RemovedInDjango40Warning)
+        if self.is_overridden('FILE_CHARSET'):
+            warnings.warn(FILE_CHARSET_DEPRECATED_MSG, RemovedInDjango31Warning)
 
         if hasattr(time, 'tzset') and self.TIME_ZONE:
             # When we can, attempt to validate the timezone. If we can't find
@@ -212,9 +206,8 @@ class UserSettingsHolder:
 
     def __setattr__(self, name, value):
         self._deleted.discard(name)
-        if name == 'PASSWORD_RESET_TIMEOUT_DAYS':
-            setattr(self, 'PASSWORD_RESET_TIMEOUT', value * 60 * 60 * 24)
-            warnings.warn(PASSWORD_RESET_TIMEOUT_DAYS_DEPRECATED_MSG, RemovedInDjango40Warning)
+        if name == 'FILE_CHARSET':
+            warnings.warn(FILE_CHARSET_DEPRECATED_MSG, RemovedInDjango31Warning)
         super().__setattr__(name, value)
 
     def __delattr__(self, name):

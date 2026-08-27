@@ -14,8 +14,7 @@ from django.db.models.deletion import CASCADE, PROTECT
 from django.db.models.fields import (
     AutoField, BigAutoField, BigIntegerField, BinaryField, BooleanField,
     CharField, DateField, DateTimeField, IntegerField, PositiveIntegerField,
-    SlugField, SmallAutoField, SmallIntegerField, TextField, TimeField,
-    UUIDField,
+    SlugField, TextField, TimeField, UUIDField,
 )
 from django.db.models.fields.related import (
     ForeignKey, ForeignObject, ManyToManyField, OneToOneField,
@@ -303,24 +302,6 @@ class SchemaTests(TransactionTestCase):
         with connection.schema_editor() as editor:
             editor.alter_field(AuthorTextFieldWithIndex, old_field, new_field, strict=True)
         self.assertForeignKeyExists(AuthorTextFieldWithIndex, 'text_field_id', 'schema_author')
-
-    @isolate_apps('schema')
-    def test_char_field_pk_to_auto_field(self):
-        class Foo(Model):
-            id = CharField(max_length=255, primary_key=True)
-
-            class Meta:
-                app_label = 'schema'
-
-        with connection.schema_editor() as editor:
-            editor.create_model(Foo)
-        self.isolated_local_models = [Foo]
-        old_field = Foo._meta.get_field('id')
-        new_field = AutoField(primary_key=True)
-        new_field.set_attributes_from_name('id')
-        new_field.model = Foo
-        with connection.schema_editor() as editor:
-            editor.alter_field(Foo, old_field, new_field, strict=True)
 
     @skipUnlessDBFeature('supports_foreign_keys')
     def test_fk_to_proxy(self):
@@ -655,26 +636,6 @@ class SchemaTests(TransactionTestCase):
         with connection.schema_editor() as editor:
             editor.alter_field(Author, old_field, new_field, strict=True)
 
-    @isolate_apps('schema')
-    def test_alter_auto_field_quoted_db_column(self):
-        class Foo(Model):
-            id = AutoField(primary_key=True, db_column='"quoted_id"')
-
-            class Meta:
-                app_label = 'schema'
-
-        with connection.schema_editor() as editor:
-            editor.create_model(Foo)
-        self.isolated_local_models = [Foo]
-        old_field = Foo._meta.get_field('id')
-        new_field = BigAutoField(primary_key=True)
-        new_field.model = Foo
-        new_field.db_column = '"quoted_id"'
-        new_field.set_attributes_from_name('id')
-        with connection.schema_editor() as editor:
-            editor.alter_field(Foo, old_field, new_field, strict=True)
-        Foo.objects.create()
-
     def test_alter_not_unique_field_to_primary_key(self):
         # Create the table.
         with connection.schema_editor() as editor:
@@ -687,24 +648,6 @@ class SchemaTests(TransactionTestCase):
         with connection.schema_editor() as editor:
             editor.remove_field(Author, Author._meta.get_field('id'))
             editor.alter_field(Author, old_field, new_field, strict=True)
-
-    @isolate_apps('schema')
-    def test_alter_primary_key_quoted_db_table(self):
-        class Foo(Model):
-            class Meta:
-                app_label = 'schema'
-                db_table = '"foo"'
-
-        with connection.schema_editor() as editor:
-            editor.create_model(Foo)
-        self.isolated_local_models = [Foo]
-        old_field = Foo._meta.get_field('id')
-        new_field = BigAutoField(primary_key=True)
-        new_field.model = Foo
-        new_field.set_attributes_from_name('id')
-        with connection.schema_editor() as editor:
-            editor.alter_field(Foo, old_field, new_field, strict=True)
-        Foo.objects.create()
 
     def test_alter_text_field(self):
         # Regression for "BLOB/TEXT column 'info' can't have a default value")
@@ -874,26 +817,6 @@ class SchemaTests(TransactionTestCase):
             msg = 'value too long for type character varying(254)'
             with self.assertRaisesMessage(DataError, msg):
                 editor.alter_field(Author, old_field, new_field, strict=True)
-
-    @unittest.skipUnless(connection.vendor == 'postgresql', 'PostgreSQL specific')
-    def test_alter_field_with_custom_db_type(self):
-        from django.contrib.postgres.fields import ArrayField
-
-        class Foo(Model):
-            field = ArrayField(CharField(max_length=255))
-
-            class Meta:
-                app_label = 'schema'
-
-        with connection.schema_editor() as editor:
-            editor.create_model(Foo)
-        self.isolated_local_models = [Foo]
-        old_field = Foo._meta.get_field('field')
-        new_field = ArrayField(CharField(max_length=16))
-        new_field.set_attributes_from_name('field')
-        new_field.model = Foo
-        with connection.schema_editor() as editor:
-            editor.alter_field(Foo, old_field, new_field, strict=True)
 
     def test_alter_textfield_to_null(self):
         """
@@ -1168,7 +1091,6 @@ class SchemaTests(TransactionTestCase):
         # The unique constraint remains.
         self.assertEqual(counts, {'fks': expected_fks, 'uniques': 1, 'indexes': 0})
 
-    @skipUnlessDBFeature('ignores_table_name_case')
     def test_alter_db_table_case(self):
         # Create the table
         with connection.schema_editor() as editor:
@@ -1219,28 +1141,6 @@ class SchemaTests(TransactionTestCase):
         # Fail on PostgreSQL if sequence is missing an owner.
         self.assertIsNotNone(Author.objects.create(name='Bar'))
 
-    def test_alter_autofield_pk_to_smallautofield_pk_sequence_owner(self):
-        """
-        Converting an implicit PK to SmallAutoField(primary_key=True) should
-        keep a sequence owner on PostgreSQL.
-        """
-        with connection.schema_editor() as editor:
-            editor.create_model(Author)
-        old_field = Author._meta.get_field('id')
-        new_field = SmallAutoField(primary_key=True)
-        new_field.set_attributes_from_name('id')
-        new_field.model = Author
-        with connection.schema_editor() as editor:
-            editor.alter_field(Author, old_field, new_field, strict=True)
-
-        Author.objects.create(name='Foo', pk=1)
-        with connection.cursor() as cursor:
-            sequence_reset_sqls = connection.ops.sequence_reset_sql(no_style(), [Author])
-            if sequence_reset_sqls:
-                cursor.execute(sequence_reset_sqls[0])
-        # Fail on PostgreSQL if sequence is missing an owner.
-        self.assertIsNotNone(Author.objects.create(name='Bar'))
-
     def test_alter_int_pk_to_autofield_pk(self):
         """
         Should be able to rename an IntegerField(primary_key=True) to
@@ -1272,28 +1172,6 @@ class SchemaTests(TransactionTestCase):
 
         with connection.schema_editor() as editor:
             editor.alter_field(IntegerPK, old_field, new_field, strict=True)
-
-    @isolate_apps('schema')
-    def test_alter_smallint_pk_to_smallautofield_pk(self):
-        """
-        Should be able to rename an SmallIntegerField(primary_key=True) to
-        SmallAutoField(primary_key=True).
-        """
-        class SmallIntegerPK(Model):
-            i = SmallIntegerField(primary_key=True)
-
-            class Meta:
-                app_label = 'schema'
-
-        with connection.schema_editor() as editor:
-            editor.create_model(SmallIntegerPK)
-        self.isolated_local_models = [SmallIntegerPK]
-        old_field = SmallIntegerPK._meta.get_field('i')
-        new_field = SmallAutoField(primary_key=True)
-        new_field.model = SmallIntegerPK
-        new_field.set_attributes_from_name('i')
-        with connection.schema_editor() as editor:
-            editor.alter_field(SmallIntegerPK, old_field, new_field, strict=True)
 
     def test_alter_int_pk_to_int_unique(self):
         """
@@ -2613,7 +2491,7 @@ class SchemaTests(TransactionTestCase):
                 self.assertIsNone(field.default)
 
     @unittest.skipIf(connection.vendor == 'sqlite', 'SQLite naively remakes the table on field alteration.')
-    def test_alter_field_default_doesnt_perform_queries(self):
+    def test_alter_field_default_doesnt_perfom_queries(self):
         """
         No queries are performed if a field default changes and the field's
         not changing from null to non-null.

@@ -102,7 +102,8 @@ class BuildFile:
         if not self.is_templatized:
             return
 
-        with open(self.path, encoding='utf-8') as fp:
+        encoding = settings.FILE_CHARSET if self.command.settings_available else 'utf-8'
+        with open(self.path, encoding=encoding) as fp:
             src_data = fp.read()
 
         if self.domain == 'djangojs':

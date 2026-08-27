@@ -1,5 +1,4 @@
-from django.template.base import TemplateSyntaxError
-from django.template.context import Context
+from django.template.base import Context, TemplateSyntaxError
 from django.test import SimpleTestCase
 
 from ..utils import SilentAttrClass, SilentGetItemClass, SomeClass, setup

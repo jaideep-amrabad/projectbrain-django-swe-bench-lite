@@ -52,7 +52,6 @@ class AutocompleteMixinTests(TestCase):
         self.assertEqual(attrs, {
             'class': 'my-class admin-autocomplete',
             'data-ajax--cache': 'true',
-            'data-ajax--delay': 250,
             'data-ajax--type': 'GET',
             'data-ajax--url': '/admin_widgets/band/autocomplete/',
             'data-theme': 'admin-autocomplete',

@@ -1,10 +1,8 @@
 import json
 
 from django.core import checks, exceptions, serializers
-from django.db import connection
-from django.db.models.expressions import OuterRef, RawSQL, Subquery
 from django.forms import Form
-from django.test.utils import CaptureQueriesContext, isolate_apps
+from django.test.utils import isolate_apps
 
 from . import PostgreSQLSimpleTestCase, PostgreSQLTestCase
 from .models import HStoreModel, PostgreSQLModel
@@ -12,7 +10,6 @@ from .models import HStoreModel, PostgreSQLModel
 try:
     from django.contrib.postgres import forms
     from django.contrib.postgres.fields import HStoreField
-    from django.contrib.postgres.fields.hstore import KeyTransform
     from django.contrib.postgres.validators import KeysValidator
 except ImportError:
     pass
@@ -129,13 +126,6 @@ class TestQuerying(PostgreSQLTestCase):
             self.objs[:2]
         )
 
-    def test_key_transform_raw_expression(self):
-        expr = RawSQL('%s::hstore', ['x => b, y => c'])
-        self.assertSequenceEqual(
-            HStoreModel.objects.filter(field__a=KeyTransform('x', expr)),
-            self.objs[:2]
-        )
-
     def test_keys(self):
         self.assertSequenceEqual(
             HStoreModel.objects.filter(field__keys=['a']),
@@ -194,24 +184,6 @@ class TestQuerying(PostgreSQLTestCase):
             HStoreModel.objects.filter(id__in=HStoreModel.objects.filter(field__a='b')),
             self.objs[:2]
         )
-
-    def test_key_sql_injection(self):
-        with CaptureQueriesContext(connection) as queries:
-            self.assertFalse(
-                HStoreModel.objects.filter(**{
-                    "field__test' = 'a') OR 1 = 1 OR ('d": 'x',
-                }).exists()
-            )
-        self.assertIn(
-            """."field" -> 'test'' = ''a'') OR 1 = 1 OR (''d') = 'x' """,
-            queries[0]['sql'],
-        )
-
-    def test_obj_subquery_lookup(self):
-        qs = HStoreModel.objects.annotate(
-            value=Subquery(HStoreModel.objects.filter(pk=OuterRef('pk')).values('field')),
-        ).filter(value__a='b')
-        self.assertSequenceEqual(qs, self.objs[:2])
 
 
 @isolate_apps('postgres_tests')

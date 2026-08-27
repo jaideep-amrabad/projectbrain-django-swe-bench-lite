@@ -5,10 +5,7 @@ from django.db.models import Index
 from django.db.utils import DatabaseError
 from django.test import TransactionTestCase, skipUnlessDBFeature
 
-from .models import (
-    Article, ArticleReporter, CheckConstraintModel, City, Comment, Country,
-    District, Reporter,
-)
+from .models import Article, ArticleReporter, City, Comment, District, Reporter
 
 
 class IntrospectionTests(TransactionTestCase):
@@ -115,15 +112,6 @@ class IntrospectionTests(TransactionTestCase):
             desc = connection.introspection.get_table_description(cursor, City._meta.db_table)
         self.assertIn(
             connection.features.introspected_big_auto_field_type,
-            [connection.introspection.get_field_type(r[1], r) for r in desc],
-        )
-
-    @skipUnlessDBFeature('can_introspect_autofield')
-    def test_smallautofield(self):
-        with connection.cursor() as cursor:
-            desc = connection.introspection.get_table_description(cursor, Country._meta.db_table)
-        self.assertIn(
-            connection.features.introspected_small_auto_field_type,
             [connection.introspection.get_field_type(r[1], r) for r in desc],
         )
 
@@ -242,22 +230,19 @@ class IntrospectionTests(TransactionTestCase):
             self.assertEqual(details['check'], check)
             self.assertEqual(details['foreign_key'], foreign_key)
 
+        with connection.cursor() as cursor:
+            constraints = connection.introspection.get_constraints(cursor, Comment._meta.db_table)
         # Test custom constraints
         custom_constraints = {
             'article_email_pub_date_uniq',
             'email_pub_date_idx',
         }
-        with connection.cursor() as cursor:
-            constraints = connection.introspection.get_constraints(cursor, Comment._meta.db_table)
-            if (
-                connection.features.supports_column_check_constraints and
-                connection.features.can_introspect_check_constraints
-            ):
-                constraints.update(
-                    connection.introspection.get_constraints(cursor, CheckConstraintModel._meta.db_table)
-                )
-                custom_constraints.add('up_votes_gte_0_check')
-                assertDetails(constraints['up_votes_gte_0_check'], ['up_votes'], check=True)
+        if (
+            connection.features.supports_column_check_constraints and
+            connection.features.can_introspect_check_constraints
+        ):
+            custom_constraints.add('up_votes_gte_0_check')
+            assertDetails(constraints['up_votes_gte_0_check'], ['up_votes'], check=True)
         assertDetails(constraints['article_email_pub_date_uniq'], ['article_id', 'email', 'pub_date'], unique=True)
         assertDetails(constraints['email_pub_date_idx'], ['email', 'pub_date'], index=True)
         # Test field constraints
@@ -268,14 +253,8 @@ class IntrospectionTests(TransactionTestCase):
             elif details['columns'] == ['up_votes'] and details['check']:
                 assertDetails(details, ['up_votes'], check=True)
                 field_constraints.add(name)
-            elif details['columns'] == ['voting_number'] and details['check']:
-                assertDetails(details, ['voting_number'], check=True)
-                field_constraints.add(name)
             elif details['columns'] == ['ref'] and details['unique']:
                 assertDetails(details, ['ref'], unique=True)
-                field_constraints.add(name)
-            elif details['columns'] == ['voting_number'] and details['unique']:
-                assertDetails(details, ['voting_number'], unique=True)
                 field_constraints.add(name)
             elif details['columns'] == ['article_id'] and details['index']:
                 assertDetails(details, ['article_id'], index=True)

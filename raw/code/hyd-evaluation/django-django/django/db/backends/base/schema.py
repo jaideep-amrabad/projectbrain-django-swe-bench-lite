@@ -28,16 +28,12 @@ def _is_relevant_relation(relation, altered_field):
     return altered_field.name in field.to_fields
 
 
-def _all_related_fields(model):
-    return model._meta._get_fields(forward=False, reverse=True, include_hidden=True)
-
-
 def _related_non_m2m_objects(old_field, new_field):
     # Filter out m2m objects from reverse relations.
     # Return (old_relation, new_relation) tuples.
     return zip(
-        (obj for obj in _all_related_fields(old_field.model) if _is_relevant_relation(obj, old_field)),
-        (obj for obj in _all_related_fields(new_field.model) if _is_relevant_relation(obj, new_field)),
+        (obj for obj in old_field.model._meta.related_objects if _is_relevant_relation(obj, old_field)),
+        (obj for obj in new_field.model._meta.related_objects if _is_relevant_relation(obj, new_field))
     )
 
 
@@ -186,7 +182,7 @@ class BaseDatabaseSchemaEditor:
             ))
             # Autoincrement SQL (for backends with post table definition
             # variant).
-            if field.get_internal_type() in ('AutoField', 'BigAutoField', 'SmallAutoField'):
+            if field.get_internal_type() in ('AutoField', 'BigAutoField'):
                 autoinc_sql = self.connection.ops.autoinc_sql(model._meta.db_table, field.column)
                 if autoinc_sql:
                     self.deferred_sql.extend(autoinc_sql)
@@ -221,15 +217,14 @@ class BaseDatabaseSchemaEditor:
         include_default = include_default and not self.skip_default(field)
         if include_default:
             default_value = self.effective_default(field)
-            column_default = ' DEFAULT ' + self._column_default_sql(field)
             if default_value is not None:
                 if self.connection.features.requires_literal_defaults:
                     # Some databases can't take defaults as a parameter (oracle)
                     # If this is the case, the individual schema backend should
                     # implement prepare_default
-                    sql += column_default % self.prepare_default(default_value)
+                    sql += " DEFAULT %s" % self.prepare_default(default_value)
                 else:
-                    sql += column_default
+                    sql += " DEFAULT %s"
                     params += [default_value]
         # Oracle treats the empty string ('') as null, so coerce the null
         # option whenever '' is a possible value.
@@ -267,13 +262,6 @@ class BaseDatabaseSchemaEditor:
             'subclasses of BaseDatabaseSchemaEditor for backends which have '
             'requires_literal_defaults must provide a prepare_default() method'
         )
-
-    def _column_default_sql(self, field):
-        """
-        Return the SQL to use in a DEFAULT clause. The resulting string should
-        contain a '%s' placeholder for a default value.
-        """
-        return '%s'
 
     @staticmethod
     def _effective_default(field):
@@ -356,13 +344,13 @@ class BaseDatabaseSchemaEditor:
         self.execute(index.remove_sql(model, self))
 
     def add_constraint(self, model, constraint):
-        """Add a constraint to a model."""
+        """Add a check constraint to a model."""
         sql = constraint.create_sql(model, self)
         if sql:
             self.execute(sql)
 
     def remove_constraint(self, model, constraint):
-        """Remove a constraint from a model."""
+        """Remove a check constraint from a model."""
         sql = constraint.remove_sql(model, self)
         if sql:
             self.execute(sql)
@@ -757,7 +745,7 @@ class BaseDatabaseSchemaEditor:
         # Type alteration on primary key? Then we need to alter the column
         # referring to us.
         rels_to_update = []
-        if drop_foreign_keys:
+        if old_field.primary_key and new_field.primary_key and old_type != new_type:
             rels_to_update.extend(_related_non_m2m_objects(old_field, new_field))
         # Changed to become primary key?
         if self._field_became_primary_key(old_field, new_field):
@@ -838,7 +826,7 @@ class BaseDatabaseSchemaEditor:
         argument) a default to new_field's column.
         """
         new_default = self.effective_default(new_field)
-        default = self._column_default_sql(new_field)
+        default = '%s'
         params = [new_default]
 
         if drop:
@@ -971,9 +959,9 @@ class BaseDatabaseSchemaEditor:
             condition=(' WHERE ' + condition) if condition else '',
         )
 
-    def _delete_index_sql(self, model, name, sql=None):
+    def _delete_index_sql(self, model, name):
         return Statement(
-            sql or self.sql_delete_index,
+            self.sql_delete_index,
             table=Table(model._meta.db_table, self.quote_name),
             name=self.quote_name(name),
         )

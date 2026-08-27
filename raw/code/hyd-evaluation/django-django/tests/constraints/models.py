@@ -2,13 +2,12 @@ from django.db import models
 
 
 class Product(models.Model):
+    name = models.CharField(max_length=255)
+    color = models.CharField(max_length=32, null=True)
     price = models.IntegerField(null=True)
     discounted_price = models.IntegerField(null=True)
 
     class Meta:
-        required_db_features = {
-            'supports_table_check_constraints',
-        }
         constraints = [
             models.CheckConstraint(
                 check=models.Q(price__gt=models.F('discounted_price')),
@@ -18,15 +17,6 @@ class Product(models.Model):
                 check=models.Q(price__gt=0),
                 name='%(app_label)s_%(class)s_price_gt_0',
             ),
-        ]
-
-
-class UniqueConstraintProduct(models.Model):
-    name = models.CharField(max_length=255)
-    color = models.CharField(max_length=32, null=True)
-
-    class Meta:
-        constraints = [
             models.UniqueConstraint(fields=['name', 'color'], name='name_color_uniq'),
             models.UniqueConstraint(
                 fields=['name'],
@@ -41,9 +31,6 @@ class AbstractModel(models.Model):
 
     class Meta:
         abstract = True
-        required_db_features = {
-            'supports_table_check_constraints',
-        }
         constraints = [
             models.CheckConstraint(
                 check=models.Q(age__gte=18),

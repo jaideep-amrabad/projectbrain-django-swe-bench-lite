@@ -55,7 +55,9 @@ import re
 from enum import Enum
 from inspect import getcallargs, getfullargspec, unwrap
 
-from django.template.context import BaseContext
+from django.template.context import (  # NOQA: imported for backwards compatibility
+    BaseContext, Context, ContextPopException, RequestContext,
+)
 from django.utils.formats import localize
 from django.utils.html import conditional_escape, escape
 from django.utils.safestring import SafeData, mark_safe

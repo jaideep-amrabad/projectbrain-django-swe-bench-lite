@@ -143,10 +143,9 @@ class BaseDatabaseFeatures:
     # Can the backend introspect a TimeField, instead of a DateTimeField?
     can_introspect_time_field = True
 
-    # Some backends may not be able to differentiate BigAutoField or
-    # SmallAutoField from other fields such as AutoField.
+    # Some backends may not be able to differentiate BigAutoField from other
+    # fields such as AutoField.
     introspected_big_auto_field_type = 'BigAutoField'
-    introspected_small_auto_field_type = 'SmallAutoField'
 
     # Some backends may not be able to differentiate BooleanField from other
     # fields such as IntegerField.
@@ -288,9 +287,6 @@ class BaseDatabaseFeatures:
     # field(s)?
     allows_multiple_constraints_on_same_fields = True
 
-    # Does the backend support boolean expressions in the SELECT clause?
-    supports_boolean_expr_in_select_clause = True
-
     def __init__(self, connection):
         self.connection = connection
 
@@ -312,8 +308,3 @@ class BaseDatabaseFeatures:
             count, = cursor.fetchone()
             cursor.execute('DROP TABLE ROLLBACK_TEST')
         return count == 0
-
-    def allows_group_by_selected_pks_on_model(self, model):
-        if not self.allows_group_by_selected_pks:
-            return False
-        return model._meta.managed
