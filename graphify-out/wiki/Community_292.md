@@ -4,7 +4,8 @@
 
 ## Key Concepts
 
-- **BaseCacheTests** (61 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **BaseCacheTests** (60 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
+- **.test_data_types()** (2 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 - **.tearDown()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 - **.test_add()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 - **.test_binary_string()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
@@ -28,23 +29,22 @@
 - **.test_delete_nonexistent()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 - **.test_expiration()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 - **.test_float_timeout()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
-- **.test_get_many()** (1 connections) — `raw/code/hyd-evaluation/django-django/tests/cache/tests.py`
 - *... and 15 more nodes in this community*
 
 ## Relationships
 
-- [Community 1039](Community_1039.md) (3 shared connections)
-- [Community 12](Community_12.md) (2 shared connections)
-- [Community 1041](Community_1041.md) (2 shared connections)
-- [Community 1040](Community_1040.md) (2 shared connections)
-- [Community 881](Community_881.md) (1 shared connections)
-- [Community 763](Community_763.md) (1 shared connections)
-- [Community 635](Community_635.md) (1 shared connections)
-- [Community 747](Community_747.md) (1 shared connections)
-- [Community 1134](Community_1134.md) (1 shared connections)
-- [Community 1137](Community_1137.md) (1 shared connections)
-- [Community 410](Community_410.md) (1 shared connections)
-- [Community 1138](Community_1138.md) (1 shared connections)
+- [Community 560](Community_560.md) (4 shared connections)
+- [Community 998](Community_998.md) (3 shared connections)
+- [Community 1031](Community_1031.md) (2 shared connections)
+- [Community 1032](Community_1032.md) (2 shared connections)
+- [Community 502](Community_502.md) (1 shared connections)
+- [Community 679](Community_679.md) (1 shared connections)
+- [Community 669](Community_669.md) (1 shared connections)
+- [Community 1102](Community_1102.md) (1 shared connections)
+- [Community 1105](Community_1105.md) (1 shared connections)
+- [Community 1106](Community_1106.md) (1 shared connections)
+- [Community 1104](Community_1104.md) (1 shared connections)
+- [Community 1103](Community_1103.md) (1 shared connections)
 
 ## Source Files
 
@@ -52,8 +52,8 @@
 
 ## Audit Trail
 
-- EXTRACTED: 60 (98%)
-- INFERRED: 1 (2%)
+- EXTRACTED: 59 (97%)
+- INFERRED: 2 (3%)
 - AMBIGUOUS: 0 (0%)
 
 ---

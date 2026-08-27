@@ -1,8 +1,8 @@
 # call_command()
 
-> God node · 300 connections · `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
+> God node · 301 connections · `raw/code/hyd-evaluation/django-django/django/core/management/__init__.py`
 
-**Community:** [Community 6](Community_6.md)
+**Community:** [Community 8](Community_8.md)
 
 ## Connections by Relation
 
@@ -12,7 +12,6 @@
 - .setUpClass() `EXTRACTED`
 - .get_actions() `INFERRED`
 - get_commands() `EXTRACTED`
-- .test_include_partitions() `EXTRACTED`
 - .test_migrate_inconsistent_history() `EXTRACTED`
 - .test_migrate_record_replaced() `EXTRACTED`
 - .test_migrate_record_squashed() `EXTRACTED`
@@ -25,6 +24,7 @@
 - .test_migrate_gis() `EXTRACTED`
 - .make_field_type_asserter() `EXTRACTED`
 - .test_include_materialized_views() `EXTRACTED`
+- .test_include_partitions() `EXTRACTED`
 - .test_makemigrations_inconsistent_history() `EXTRACTED`
 - .test_migrate_syncdb_deferred_sql_executed_with_schemaeditor() `EXTRACTED`
 
@@ -43,8 +43,8 @@
 - check_framework/tests.py `EXTRACTED`
 - migrations/test_commands.py `EXTRACTED`
 - test_compilation.py `EXTRACTED`
-- inspectapp/tests.py `EXTRACTED`
 - test_storage.py `EXTRACTED`
+- inspectapp/tests.py `EXTRACTED`
 - cases.py `EXTRACTED`
 - base/creation.py `EXTRACTED`
 - contenttypes_tests/test_management.py `EXTRACTED`

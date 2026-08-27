@@ -1,6 +1,6 @@
 # Community 289
 
-> 40 nodes · cohesion 0.06
+> 39 nodes · cohesion 0.07
 
 ## Key Concepts
 
@@ -19,7 +19,6 @@
 - **.data()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
 - **.errors()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
 - **.id_for_label()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- **.__init__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
 - **.is_hidden()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
 - **.__str__()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
 - **.tag()** (2 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
@@ -29,19 +28,19 @@
 - **.__iter__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
 - **.__len__()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
 - **.widget_type()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
-- *... and 15 more nodes in this community*
+- **.choice_label()** (1 connections) — `raw/code/hyd-evaluation/django-django/django/forms/boundfield.py`
+- *... and 14 more nodes in this community*
 
 ## Relationships
 
-- [Community 1](Community_1.md) (7 shared connections)
-- [Community 311](Community_311.md) (2 shared connections)
-- [Community 120](Community_120.md) (1 shared connections)
-- [Community 12](Community_12.md) (1 shared connections)
-- [Community 137](Community_137.md) (1 shared connections)
-- [Community 847](Community_847.md) (1 shared connections)
-- [Community 380](Community_380.md) (1 shared connections)
-- [Community 214](Community_214.md) (1 shared connections)
-- [Community 297](Community_297.md) (1 shared connections)
+- [Community 54](Community_54.md) (8 shared connections)
+- [Community 47](Community_47.md) (2 shared connections)
+- [Community 133](Community_133.md) (1 shared connections)
+- [Community 72](Community_72.md) (1 shared connections)
+- [Community 111](Community_111.md) (1 shared connections)
+- [Community 127](Community_127.md) (1 shared connections)
+- [Community 208](Community_208.md) (1 shared connections)
+- [Community 1](Community_1.md) (1 shared connections)
 
 ## Source Files
 
@@ -49,7 +48,7 @@
 
 ## Audit Trail
 
-- EXTRACTED: 62 (94%)
+- EXTRACTED: 61 (94%)
 - INFERRED: 4 (6%)
 - AMBIGUOUS: 0 (0%)
 
